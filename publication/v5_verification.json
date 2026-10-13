@@ -1,0 +1,46 @@
+{
+  "verified_utc": "2026-10-13T18:30:26.351692+00:00",
+  "artifact_commit": "01f8f26832c6770fed998a9b5633f14dfea7640c",
+  "repository": "ayyararyan/kai-tak",
+  "branch": "main",
+  "git_readback": {
+    "remote_commit": "01f8f26832c6770fed998a9b5633f14dfea7640c",
+    "tracked_paths_modes_and_blobs_matched": 2968,
+    "artifacts": [
+      {
+        "path": "research/checkers-runway13/whitepaper/v5/checkers-with-runway-13-white-paper-v5.pdf",
+        "sha256": "328f848d805df1e5bac5fd6aff6f28363112bea3acd9a5fcb71c33ec16842939",
+        "bytes": 1481129
+      },
+      {
+        "path": "research/checkers-runway13/whitepaper/v5/checkers-with-runway-13-white-paper-v5-sources.zip",
+        "sha256": "6a7d44fb94de027a7394f0d6fa88874f4ce7bf7ee030a87696d3dbae4617724f",
+        "bytes": 49863328
+      }
+    ],
+    "method": "Fresh independent bare Git fetch; full ls-tree path/mode/blob comparison; exact artifact readback."
+  },
+  "public_http_downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/ayyararyan/kai-tak/01f8f26832c6770fed998a9b5633f14dfea7640c/research/checkers-runway13/whitepaper/v5/checkers-with-runway-13-white-paper-v5.pdf",
+      "status": 200,
+      "bytes": 1481129,
+      "sha256": "328f848d805df1e5bac5fd6aff6f28363112bea3acd9a5fcb71c33ec16842939",
+      "unauthenticated": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ayyararyan/kai-tak/01f8f26832c6770fed998a9b5633f14dfea7640c/research/checkers-runway13/whitepaper/v5/checkers-with-runway-13-white-paper-v5-sources.zip",
+      "status": 200,
+      "bytes": 49863328,
+      "sha256": "6a7d44fb94de027a7394f0d6fa88874f4ce7bf7ee030a87696d3dbae4617724f",
+      "unauthenticated": true,
+      "members_verified": 278
+    }
+  ],
+  "v4_and_unrelated_files": "Unchanged from prior main d9a0000 outside README,gitignore and additive project ledger.",
+  "pdf_matches_accepted_local_edition": true,
+  "source_package": "278 accepted members; two documentation-only local-path normalizations, exact transformations recorded in V5 PUBLICATION_INVENTORY.json.",
+  "website_deployment": false,
+  "release_assets_changed": false,
+  "browser_rendering": "not tested; Git-object and HTTP byte acceptance only"
+}

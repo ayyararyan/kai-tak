@@ -516,3 +516,12 @@ No commit, push, external publication, outreach or peer sync performed for V5. T
 ## Version 5 GitHub update — explicitly authorized
 
 Aryan requests “push version to github”. Publish the accepted 38-page V5 PDF and 278-member source set to `ayyararyan/kai-tak` main, preserving V4 and newer archive/atlas work. Exact publication selection, two documentation-only path normalizations and original/public hashes: `whitepaper/v5/PUBLICATION_INVENTORY.json`. No manuscript rebuild, scientific change, website deployment, release mutation or outreach. Remote push/readback is the remaining gate and will be recorded after verification.
+
+
+## Version 5 GitHub publication — verified
+
+2026-10-13T18:30:26.351692+00:00: accepted V5 published to public `ayyararyan/kai-tak` main at `01f8f26832c6770fed998a9b5633f14dfea7640c`. A fresh independent bare GitHub fetch matched all 2,968 tracked paths, modes and blob hashes. Unauthenticated public HTTP downloads returned both the exact 1,481,129-byte PDF and 49,863,328-byte public source ZIP; all 278 archive members were checked against the publication copy.
+
+PDF SHA256 `328f848d805df1e5bac5fd6aff6f28363112bea3acd9a5fcb71c33ec16842939` matches the accepted local manuscript. Public ZIP SHA256 `6a7d44fb94de027a7394f0d6fa88874f4ce7bf7ee030a87696d3dbae4617724f` differs from the local edition only through two documented machine-path normalizations; all 150 clean-tested build inputs are unchanged. All 287 science checks and 74 figure checks passed again from the public extraction. Original local-production receipts retain their original hashes; PUBLICATION_INVENTORY.json binds public copies.
+
+V2–V4, newer scientific results through d9a0000, archive and atlas were preserved. README now opens the latest V5 while keeping the separate scientific-results layer and prior editions. No website deployment, release-asset mutation or institutional outreach. Foreword review and human specialist-review boundaries remain. Receipt: `publication/v5_verification.json`. This ledger entry and receipt form a follow-up verification commit; the artifact commit above remains the immutable edition boundary.
