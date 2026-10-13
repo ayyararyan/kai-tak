@@ -2,7 +2,7 @@
 title: Matched CAL605 flight and weather reconstruction benchmark
 type: feature
 created: 2026-10-13
-status: in-progress
+status: done
 baseline_commit: NO_VCS
 context: []
 ---
@@ -47,13 +47,13 @@ External contact, paid acquisition, publication and model-meaning changes requir
 
 ## Tasks and acceptance
 
-- [ ] SRC-01 `manifest.json`: source hashes and page/figure index; preserve input identity.
-- [ ] WX-01 `wind_records.csv`, `wind_extraction.json`: visually verified five-sensor printout transcription and field semantics with missing/ambiguous fields explicit.
-- [ ] FLT-01 `flight_traces.csv`, `trace_anchors.json`, `flight_events.csv`: reconstruct readable approach/rollout variables with provenance, uncertainty, independent narrative checks and source overlays.
-- [ ] WX-02 `noaa/`: documented decoder, year/event tables, quality/missingness summary and tests.
-- [ ] COMP-01 `reconstruct.py`, `analysis.json`: derive observed timing/runway diagnostics, compare frozen reference and conditional stopping formulas, retain assumptions and unidentifiable quantities.
-- [ ] OUT-01 `REPORT.md`, standalone figures: distinguish achieved extraction, findings, limitations and wider-project blockers.
-- [ ] VAL-01 `test_reconstruction.py`, `verification.json`: test axis transforms, bounds, chronology, units, cross-source consistency and scalar distance calculations; independently review extraction and consequential findings.
+- [x] SRC-01 `manifest.json`: source hashes and page/figure index; preserve input identity.
+- [x] WX-01 `wind/wind_records.csv`, `wind/wind_extraction.json`: visually verified five-sensor printout transcription and field semantics with missing/ambiguous fields explicit.
+- [x] FLT-01 `flight/flight_traces.csv`, `flight/trace_anchors.json`, `flight_events.csv`, `rollout_trace.csv`: reconstruct readable approach/rollout variables with provenance, uncertainty, independent narrative checks and source overlays.
+- [x] WX-02 `noaa/`: documented decoder, year/event tables, quality/missingness summary and tests.
+- [x] COMP-01 `reconstruct.py`, `analysis.json`: derive observed timing/runway diagnostics, compare frozen reference and conditional stopping formulas, retain assumptions and unidentifiable quantities.
+- [x] OUT-01 `REPORT.md`, standalone figures: distinguish achieved extraction, findings, limitations and wider-project blockers.
+- [x] VAL-01 `test_reconstruction.py`, `verification.json`: test axis transforms, bounds, chronology, units, cross-source consistency and scalar distance calculations; independently review extraction and consequential findings.
 
 Given the retained raw inputs and manual anchors, when the script runs, then derived tables and figures reproduce without network access. Given uncertain anchors, when propagated, then output ranges enclose declared digitization inputs without statistical labels. Given a clock offset not identified by evidence, when joining sources, then no exact synchronization is asserted. Given each final numerical finding, when traced backward, then its source and calculation are inspectable. Given comparison to the synthetic model, then unmatched entry state, control history and environment remain explicit.
 
@@ -64,3 +64,17 @@ Use the project's existing Python virtual environment, numerical libraries and l
 ## Spec change log
 
 2026-10-13: Initial benchmark scope records explicit authorization; no renewed approval gate for accepted work. Workspace BMAD config is absent; use project-local paths and existing frozen model conventions.
+
+## Suggested Review Order
+
+- Start with the substantive findings and their interpretation limits.
+  [REPORT.md](REPORT.md#L1)
+- Inspect actual source anchors before reading interpolated curves.
+  [flight/README.md](flight/README.md#L1)
+- Distinguish sensor location, aggregation window and unknown clock offset.
+  [wind/README.md](wind/README.md#L1)
+- Inspect closed-form reconstruction and conditional stopping arithmetic.
+  [reconstruct.py](reconstruct.py#L1)
+- Review accepted defects, repairs and final evidence.
+  [REVIEW_DECISIONS.md](reviews/REVIEW_DECISIONS.md#L1)
+  [verification.json](verification.json)

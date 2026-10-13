@@ -1,0 +1,67 @@
+{
+  "record_count": 8549,
+  "nov4_count": 24,
+  "rank_subset_count": 8360,
+  "event_comparisons": [
+    {
+      "datetime_utc": "1993-11-04T03:00:00Z",
+      "noaa_direction_deg": 70.0,
+      "noaa_speed_kt": 20.99352051835853,
+      "noaa_gust_kt": 34.01727861771058,
+      "cad_appendix5_direction_deg": 70,
+      "cad_appendix5_mean_speed_kt": 21,
+      "difference_speed_kt": -0.006479481641470386,
+      "scope": "consistency only; same reporting stream may feed both sources; clocks/instruments not independently established",
+      "all_year_normal_routine_rank": {
+        "n": 8360,
+        "threshold_mps": 10.8,
+        "below": 8285,
+        "equal": 17,
+        "above": 58,
+        "percent_below": 99.10287081339713,
+        "percent_at_or_below": 99.30622009569377,
+        "meaning": "empirical record rank in declared observed subset; no probability interpretation"
+      },
+      "same_clock_hour_normal_routine_rank": {
+        "n": 348,
+        "threshold_mps": 10.8,
+        "below": 343,
+        "equal": 3,
+        "above": 2,
+        "percent_below": 98.5632183908046,
+        "percent_at_or_below": 99.42528735632183,
+        "meaning": "empirical record rank in declared observed subset; no probability interpretation"
+      }
+    },
+    {
+      "datetime_utc": "1993-11-04T04:00:00Z",
+      "noaa_direction_deg": 70.0,
+      "noaa_speed_kt": 20.99352051835853,
+      "noaa_gust_kt": 40.043196544276455,
+      "cad_appendix5_direction_deg": 70,
+      "cad_appendix5_mean_speed_kt": 21,
+      "difference_speed_kt": -0.006479481641470386,
+      "scope": "consistency only; same reporting stream may feed both sources; clocks/instruments not independently established",
+      "all_year_normal_routine_rank": {
+        "n": 8360,
+        "threshold_mps": 10.8,
+        "below": 8285,
+        "equal": 17,
+        "above": 58,
+        "percent_below": 99.10287081339713,
+        "percent_at_or_below": 99.30622009569377,
+        "meaning": "empirical record rank in declared observed subset; no probability interpretation"
+      },
+      "same_clock_hour_normal_routine_rank": {
+        "n": 355,
+        "threshold_mps": 10.8,
+        "below": 351,
+        "equal": 1,
+        "above": 3,
+        "percent_below": 98.87323943661971,
+        "percent_at_or_below": 99.15492957746478,
+        "meaning": "empirical record rank in declared observed subset; no probability interpretation"
+      }
+    }
+  ]
+}

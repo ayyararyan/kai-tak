@@ -1,0 +1,10 @@
+{
+  "parent_fresh_certificate_reproduced": true,
+  "eta_lower": "0.1507934696816132",
+  "accepted_intervals": 376,
+  "source_binding_passed": true,
+  "upper_exact": "66656817/307536544",
+  "gap_exact": "1584555818464679384939/24026292500000000000000",
+  "historical_clearance": false,
+  "physical_CI": null
+}

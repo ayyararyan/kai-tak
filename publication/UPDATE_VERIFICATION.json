@@ -1,0 +1,18 @@
+{
+  "verified_utc": "2026-10-13T14:20:32.247264+00:00",
+  "git_source_hashes_verified": 1504,
+  "core_model_and_counterfactual_tests_passed": 89,
+  "secret_pattern_findings": 0,
+  "structured_sensitive_key_findings": 0,
+  "whitepaper_v2": {
+    "package_members": 98,
+    "pdf_sha256": "a6de1e92665ed9b7d8773843174f2600d148acf932834e52a3a94527bee6f2fc",
+    "source_zip_sha256": "58de087713f965d24f63ad643fada134fd53704e984006c65250ef49ec77ce89",
+    "selection": "Exact author-verified portable package; local build intermediates excluded"
+  },
+  "large_data": "Complete replacement reconstruction/supporting archives; unchanged original chronology/geospatial archives retained",
+  "scope": "Publication integrity and 89 selected model/counterfactual tests. Not a new full scientific audit. Obstacle review status and unresolved historical requirements preserved.",
+  "archives_checked": 4,
+  "archive_members_hash_verified": 1249,
+  "archive_verification": "fetch_data.py --verify-only: archive digest, exact member sets and all member hashes passed"
+}

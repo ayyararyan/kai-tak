@@ -1,0 +1,47 @@
+{
+  "reviewed_utc": "2026-10-13T14:11:18.767734+00:00",
+  "observations_sha256": "af990de7bb002418f93dd349d0764b4aea33a285dd73eacaae23adb6f4eb376d",
+  "reviewer": "parent direct visual inspection",
+  "accepted_count": 24,
+  "accepted_reading_ids": [
+    "1292_hill_latrine_surround",
+    "1292_reservoir_garden_north",
+    "1292_reservoir_garden_south",
+    "1292_hill_east_upper_path",
+    "1292_hill_east_lower_path",
+    "1292_hill_east_path_junction",
+    "1292_hill_east_round_path",
+    "1292_radar_site_north_ground",
+    "1292_radar_site_west_ground",
+    "1292_radar_site_east_ground",
+    "1292_radar_site_southeast_ground",
+    "1292_radar_site_south_ground",
+    "1293_hill_latrine_surround",
+    "1293_reservoir_garden_north",
+    "1293_reservoir_garden_south",
+    "1293_hill_east_upper_path",
+    "1293_hill_east_lower_path",
+    "1293_hill_east_path_junction",
+    "1293_hill_east_round_path",
+    "1293_radar_site_north_ground",
+    "1293_radar_site_west_ground",
+    "1293_radar_site_east_ground",
+    "1293_radar_site_southeast_ground",
+    "1293_radar_site_south_ground"
+  ],
+  "inspected_sources": [
+    "Original registered full sheets 11-NW-10D November1989 and June1995",
+    "Original full-resolution hill source crop1292",
+    "Both printed HEIGHTS legends",
+    "All24 point/symbol/context crops in spot_inspection_1292.png and spot_inspection_1293.png"
+  ],
+  "inspection_evidence": {
+    "review/spot_inspection_1292.png": "4b8aaef839cb789d76620fe2f80fd0b5fdf0f2cae8fd262c6f9332bee1e75371",
+    "review/spot_inspection_1293.png": "86789b3f26b6fd738c7a75d043a465924ec231a28c5cd95597097a25ba8d9f32",
+    "review/raw_hill_1292.png": "3d1eb73609da5c7105c4ea7c4910037f889849f521de0872401a50c16325f517",
+    "review/legend_1292.png": "21ee4958f3922fa048711d80fb8aa405982055aaf2e43b4c75f23e676ee9fe60",
+    "review/legend_1293.png": "237daf313bf9e15ef114d090331203e7605e5ca97c9428e5b164671873978267"
+  },
+  "accepted_interpretation": "Printed spot elevations at selected crosses; 12 mapped locations in two editions. Not full object maxima, independent surveys, temporal survival proof or certified obstacle surfaces. No source upper bound or physical accuracy accepted.",
+  "digitization_tolerance_note": "Two registered image pixels (0.5m) is a declared manual pick tolerance, not a measured physical accuracy or confidence interval."
+}

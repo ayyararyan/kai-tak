@@ -1,0 +1,15 @@
+# Version 2 — manuscript verification record
+
+Verified 13 October 2026. The portable-rebuild timestamp is recorded in `qa/portable_rebuild.json`.
+
+- **Manuscript:** 30-page PDF, seven original evidence-derived figures, explicit wind-case coefficients, technical derivations, eight references, frozen evidence manifest and claim/change ledgers. Version 1 is unchanged.
+- **New scientific content:** a complete declared mean-wind landing, its separate 376-box interval certificate, a valid loose finite-family upper/gap bound, and settled blockwise reconstruction evidence. Historical/whole-aircraft clearance, global near-optimality and physical prediction intervals remain unresolved.
+- **Fresh source checks:** all 22 counterfactual delivery-manifest hashes verified; final repaired implementation/review records inspected; targeted conditional-case suite rerun independently in this manuscript task: 37 passed, 0 failed. Frozen numerical outputs and source code are unchanged.
+- **Manuscript consistency:** 67 frozen evidence files hash-checked; wind conversion, polynomial states/velocities and EAS independently reconstructed against CSV; scalar stopping/time and exact rational upper/gap arithmetic recomputed; certificate identity and complete closed-time coverage checked; existing weather/geometry checks retained.
+- **Document checks:** PyMuPDF and Poppler text extraction; embedded fonts; 54 PDF links; no unresolved references, missing glyphs or overfull boxes; no out-of-page text. All 30 final rendered pages and seven figures inspected. See `qa/visual_review.json`.
+- **Portable package:** extracted into a fresh directory; fresh Python virtual environment; only the documented install/build commands used. All 30 pages reproduce identical extracted text and pixels at 0.8 scale. Binary PDF metadata differs between builds; no byte-identical PDF claim is made.
+- **Scope:** manuscript correctness, coverage and reproducibility are verified. The whole historical research problem remains incomplete. This was not a new independent scientific peer review or a new flight-safety certification.
+- **Publication:** Aryan explicitly authorized pushing v2 to the existing public `ayyararyan/kai-tak` repository. This record documents the accepted local artifact; actual remote commit/PDF verification is a separate post-push receipt in the canonical project ledger. No website publication, outreach or peer-machine sync is claimed.
+- **Accepted PDF SHA-256:** `a6de1e92665ed9b7d8773843174f2600d148acf932834e52a3a94527bee6f2fc`.
+
+The package rebuilds the manuscript, not the entire solver/reconstruction pipeline. Archival proof/solver code under `evidence/` preserves source identity for inspection and expects the wider project for execution. Original report scans, maps and aerial photographs are excluded. Host-only paths/internal-session identifiers in prose metadata were normalized, with original and snapshot hashes retained separately. No mathematical or numerical source was altered for publication.

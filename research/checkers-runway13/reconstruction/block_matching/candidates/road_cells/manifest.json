@@ -1,0 +1,207 @@
+[
+  {
+    "file": "KC_ROAD_CONTROL_01/1989-10_regions.geojson",
+    "bytes": 250465,
+    "sha256": "6f0fb3cfae809b3db3fd18fac8efdd09ea8a6fac066214ef8160cae38c20db15"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_01/1989-10_templates.geojson",
+    "bytes": 66275,
+    "sha256": "177cae3c99310a9cfce18225ee668000b567de1b8ca5f45af3c07f90dffb02c5"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_01/1994-07_regions.geojson",
+    "bytes": 379099,
+    "sha256": "dfec99a73653c6292b57dffb7989ee97b3100462d36bc175c3be2e10f720a87c"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_01/1994-07_templates.geojson",
+    "bytes": 66337,
+    "sha256": "1f929632590b307ede7d4bbb5480b955d351c9cef44460393614573053bfd669"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_01/across_dates.csv",
+    "bytes": 21032,
+    "sha256": "de900c4d0d6763610e96b2c3e7ebb7d6812fc8f945a1dfcd9f1987f3d9643f5a"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_01/memberships.csv",
+    "bytes": 24988,
+    "sha256": "d277bc2e74b96a039c9842edd25434a895431f2250cbd2925a39a8aa935837f0"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_01/region_overlap_across_dates.csv",
+    "bytes": 22852,
+    "sha256": "4c981cc8743e539188bc343c956e9f3b011fa46175a33674982248e8eef52a40"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_01/summary.json",
+    "bytes": 1254,
+    "sha256": "2daa5a4fb853c1bb04f7fc0415b556a659a3d2de00ad6f604e050abb96baf36d"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_01/two_date_overlay.png",
+    "bytes": 334192,
+    "sha256": "a26ce81c24a3c93525bbb197df14472343f79f9371245d8a669829f71b8479d8"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_02/1989-10_regions.geojson",
+    "bytes": 229792,
+    "sha256": "d6cc581138d8216dd0fce76df446b60223e859a0c6f8566eee1f54eb910d6362"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_02/1989-10_templates.geojson",
+    "bytes": 58777,
+    "sha256": "d98872987dc142be03dd629dfb31fd3882d295f934491cb9485413d45510872e"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_02/1994-07_regions.geojson",
+    "bytes": 343013,
+    "sha256": "f67cb3a6234db4d8aa2b3715df43ddc15209e3336eaeb008407ad4ecfbb9255b"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_02/1994-07_templates.geojson",
+    "bytes": 58814,
+    "sha256": "3287323ac69e2c7f912406cff76d5e3c55091f4cc93b3050e6913c7a43e0cbee"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_02/across_dates.csv",
+    "bytes": 18642,
+    "sha256": "ce62dacfaa1865cd8c4ca3fe9ded3524dfe1e3ab06f3e0de9ad7dcd1d159c9af"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_02/memberships.csv",
+    "bytes": 20204,
+    "sha256": "c14406da71854d5a30b233fbfb5c98245c70f10a6415157621957952b85bfdc7"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_02/region_overlap_across_dates.csv",
+    "bytes": 16350,
+    "sha256": "ff9f108dd2ba256e024c6a9f3961a9f4e0a297b24e4714fa86a7e003d50ad11d"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_02/summary.json",
+    "bytes": 1248,
+    "sha256": "959d1b9a03d23e594a5b538f3f6f739eb37f7b77c8932a8d6921c1c1b8ca71fd"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_02/two_date_overlay.png",
+    "bytes": 340341,
+    "sha256": "80f3839115e28e42620212503577809612ec52c22d3b7d366c3f7a22d171ab0c"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_03/1989-10_regions.geojson",
+    "bytes": 281978,
+    "sha256": "e2b0ddbcb065ea365c9a26fd7770693b7b2a8de81e066fd0ab30e4ae08797d30"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_03/1989-10_templates.geojson",
+    "bytes": 72587,
+    "sha256": "0845c4b4f0fc4b6b65fe086528020957fdf29240f28123db613694fbe27c4569"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_03/1994-07_regions.geojson",
+    "bytes": 410060,
+    "sha256": "19bf1302e03aa20297109f719ea20d3f6f0d2fc2fa3a4a94f68ab09f20aa7f96"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_03/1994-07_templates.geojson",
+    "bytes": 72663,
+    "sha256": "b2ccc9826b425986ce01b58fcddacac86c854bbb05528b697d1f883a0a53c38b"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_03/across_dates.csv",
+    "bytes": 23593,
+    "sha256": "c38b3dfca265083b428278d9b0433b3198d8cff4a5969d5694727e9d6574d2d6"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_03/memberships.csv",
+    "bytes": 23007,
+    "sha256": "ba11a054973e8960d48aadf45cb7dc5e51533a34334f636a20556ae686e32d07"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_03/region_overlap_across_dates.csv",
+    "bytes": 17220,
+    "sha256": "a50ca23ddf2ffea511b2f5660b9b94e0d0fd5f924a06a0ee282b9751db807301"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_03/summary.json",
+    "bytes": 1252,
+    "sha256": "cbf8ebdbda107fe14ebb206b0ac03bf548e2d0985ae9601fac418d4e82b13e3d"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_03/two_date_overlay.png",
+    "bytes": 352224,
+    "sha256": "2f9bdb27cc77b6941b2adfaeeb3a92620a3268c2f5c88c7daaa4e510e2d7f99f"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_04/1989-10_regions.geojson",
+    "bytes": 269780,
+    "sha256": "1c9292890f180e09e6929989de4338ada52418eb74517494964ce8b48327bfac"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_04/1989-10_templates.geojson",
+    "bytes": 85564,
+    "sha256": "5bf1086fb8a3396cb608c96ef8fb154454f3d7dc9dac204fc3567c335a4b1928"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_04/1994-07_regions.geojson",
+    "bytes": 406422,
+    "sha256": "a09231a24ecb1631288db8c7e171e100d167f7767902f6b6fded96bc7d7ff38d"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_04/1994-07_templates.geojson",
+    "bytes": 85599,
+    "sha256": "f7768754722c103a922c8ebdbface0c77605194bf752362f71ee1dd8033e1b9f"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_04/across_dates.csv",
+    "bytes": 27458,
+    "sha256": "ec825bbd037818afd091f883c0cd2d0a57f67b25fcc3e7573af10664f85f294c"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_04/memberships.csv",
+    "bytes": 27537,
+    "sha256": "adacb07761744b7884f6820026c6e9cd1207701660bbb09cc790ad293d77906e"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_04/region_overlap_across_dates.csv",
+    "bytes": 30235,
+    "sha256": "6f6bb0318c43166b41f8cfa04dcf23387c0741a37362d00b5ed84da3596319fa"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_04/summary.json",
+    "bytes": 1255,
+    "sha256": "06b14ead76ee1afc3222f0609e76b46ffbacd3303bec43a0fbc127b888856ed0"
+  },
+  {
+    "file": "KC_ROAD_CONTROL_04/two_date_overlay.png",
+    "bytes": 374393,
+    "sha256": "206a9e3658fdf51e37dd520eb0020d53830d44230b8e846e025eed25a657192b"
+  },
+  {
+    "file": "README.md",
+    "bytes": 4105,
+    "sha256": "97c37071c5738c8d6e1f3bef1442ccd6e31db78eee07219303cdbb7bd164ebf0"
+  },
+  {
+    "file": "assign_road_cells.py",
+    "bytes": 15561,
+    "sha256": "23fba92f76bc49fdcc474464669a2440be39bf25f9a9349d529d2b049b988059"
+  },
+  {
+    "file": "assigned_road_cells.geojson",
+    "bytes": 3526,
+    "sha256": "2e0e6ca714e0ed1fc6190120a31b007546c7fd218b5825a7584eb2c84fea4f2f"
+  },
+  {
+    "file": "index.html",
+    "bytes": 2276,
+    "sha256": "3852a43a6d61bc2a0e8a3cb46a1a5890953f5c7a11e422de99cd84d29f83b4e0"
+  },
+  {
+    "file": "validation.json",
+    "bytes": 14403,
+    "sha256": "f6b55d1b6de7f81794e2ef66aca2ce824849d3283886838a3e9ac8ffc7937760"
+  }
+]

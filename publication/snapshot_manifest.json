@@ -1,16 +1,4 @@
 {
-  "snapshot_started_utc": "2026-10-13T13:31:15.325789+00:00",
-  "snapshot_finished_utc": "2026-10-13T13:31:48.312202+00:00",
-  "source_roots": [
-    "research/checkers-runway13",
-    "data/kai-tak-2026-10-13"
-  ],
-  "environment_directories_excluded": {
-    ".pytest_cache": 2,
-    ".venv": 3,
-    "__pycache__": 16,
-    "python_deps": 1
-  },
   "included": [
     {
       "path": "research/checkers-runway13/.gitignore",
@@ -78,9 +66,9 @@
     {
       "path": "research/checkers-runway13/PROJECT_STATE.md",
       "delivery": "git",
-      "bytes": 30927,
-      "sha256": "55ee554d1eaa06c56a4e2f09733ce024c1fd11101019d0bceb37ade7fb34b626",
-      "source_sha256": "221cb1ea784557378afbce67eba315a159a43de539a9dc87ef593fd9b814396a"
+      "bytes": 48760,
+      "sha256": "d21b9f6af23a68aa764af443d1ce51fd599743806e2981eda39a6c4c3198b5aa",
+      "source_sha256": "f37d890e8971b62deac3f86e70f11d5366d565fce5dd33c31b21f2a6913dbba7"
     },
     {
       "path": "research/checkers-runway13/README.md",
@@ -174,11 +162,18 @@
       "source_sha256": "1b9d029609a7f26c71d3836ea8de007ad0662b0dfd815bc6b339dccc90ce5017"
     },
     {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/REPORT.md",
+      "delivery": "git",
+      "bytes": 13397,
+      "sha256": "ea22be6e2488bf4d322a2775a172f4ef4c2dad879c2bf6e431fb5c7fdabd3df0",
+      "source_sha256": "ea22be6e2488bf4d322a2775a172f4ef4c2dad879c2bf6e431fb5c7fdabd3df0"
+    },
+    {
       "path": "research/checkers-runway13/evidence/cal605_reconstruction/SPEC.md",
       "delivery": "git",
-      "bytes": 6767,
-      "sha256": "4b0ccbd0da08efef40a4053b12fda853ab5e899c4f7359dbcbf5e71a62b87810",
-      "source_sha256": "4b0ccbd0da08efef40a4053b12fda853ab5e899c4f7359dbcbf5e71a62b87810"
+      "bytes": 7420,
+      "sha256": "5b7e4433a0d4a5a2b860ab8b41309dbe5372d4adb8d3782f00b97c71a1091006",
+      "source_sha256": "5b7e4433a0d4a5a2b860ab8b41309dbe5372d4adb8d3782f00b97c71a1091006"
     },
     {
       "path": "research/checkers-runway13/evidence/cal605_reconstruction/analysis.json",
@@ -188,11 +183,25 @@
       "source_sha256": "7e957b6c8cd42493f6809a49b7be917c147a1e147ecadeef98a64762259b2c42"
     },
     {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/clock_alignment.json",
+      "delivery": "git",
+      "bytes": 1292,
+      "sha256": "cf3250dafc6c559bb82b1d2a2073b008a69de16ca79bdd0a48aa1ca10b8279cb",
+      "source_sha256": "cf3250dafc6c559bb82b1d2a2073b008a69de16ca79bdd0a48aa1ca10b8279cb"
+    },
+    {
       "path": "research/checkers-runway13/evidence/cal605_reconstruction/conditional_stopping_cases.csv",
       "delivery": "git",
       "bytes": 622,
       "sha256": "9be1a368755078b635d512f1d39573eff8ca9d02cf48141d22871806f4bd062a",
       "source_sha256": "9be1a368755078b635d512f1d39573eff8ca9d02cf48141d22871806f4bd062a"
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/delivery_manifest.json",
+      "delivery": "git",
+      "bytes": 10129,
+      "sha256": "db4ba3d890a36c27267e889576bc6b881fac70f5dbda327fdb1cdb24bccca5fa",
+      "source_sha256": "db4ba3d890a36c27267e889576bc6b881fac70f5dbda327fdb1cdb24bccca5fa"
     },
     {
       "path": "research/checkers-runway13/evidence/cal605_reconstruction/explicit_rollout.json",
@@ -212,8 +221,8 @@
       "path": "research/checkers-runway13/evidence/cal605_reconstruction/findings.pdf",
       "delivery": "git",
       "bytes": 24062,
-      "sha256": "2685553bd009389057aecb94275c174b75e4f43d621ecffffb4309c1134ed776",
-      "source_sha256": "2685553bd009389057aecb94275c174b75e4f43d621ecffffb4309c1134ed776"
+      "sha256": "015630bd34019e07c67a81bfd6392306431e338a73cd2a35d4977a0b2e487fa3",
+      "source_sha256": "015630bd34019e07c67a81bfd6392306431e338a73cd2a35d4977a0b2e487fa3"
     },
     {
       "path": "research/checkers-runway13/evidence/cal605_reconstruction/findings.png",
@@ -272,11 +281,25 @@
       "source_sha256": "76703aa4a1199f0a9f20f007b979b047bf17ea2888692328684afbe73e9834e4"
     },
     {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/verification.json",
+      "delivery": "git",
+      "bytes": 2411,
+      "sha256": "bf93850ae01b3d5539b42e51af7f56238e73cebfae6536910f30793165892681",
+      "source_sha256": "bf93850ae01b3d5539b42e51af7f56238e73cebfae6536910f30793165892681"
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/verify_delivery.py",
+      "delivery": "git",
+      "bytes": 6040,
+      "sha256": "53a3f080b24a012ae0659f606a18b5671beba9ec8e654a3b5e209f9afee05385",
+      "source_sha256": "53a3f080b24a012ae0659f606a18b5671beba9ec8e654a3b5e209f9afee05385"
+    },
+    {
       "path": "research/checkers-runway13/evidence/cal605_reconstruction/flight/README.md",
       "delivery": "git",
-      "bytes": 7733,
-      "sha256": "33342a2c0103aba4578639314e72d5f0a3bd406c43af080acca8359c9aed7178",
-      "source_sha256": "33342a2c0103aba4578639314e72d5f0a3bd406c43af080acca8359c9aed7178"
+      "bytes": 8874,
+      "sha256": "2bb2c74851ac1d0f0b9bb91125eab70bdb1ce58da16ff1ddad7b042385801257",
+      "source_sha256": "2bb2c74851ac1d0f0b9bb91125eab70bdb1ce58da16ff1ddad7b042385801257"
     },
     {
       "path": "research/checkers-runway13/evidence/cal605_reconstruction/flight/approach_anchor_readings.csv",
@@ -288,9 +311,9 @@
     {
       "path": "research/checkers-runway13/evidence/cal605_reconstruction/flight/approach_anchors.json",
       "delivery": "git",
-      "bytes": 39419,
-      "sha256": "9ab418b1d80ef72a89061c474faa9e69803554e40138859e17a2a7e994aa5779",
-      "source_sha256": "9ab418b1d80ef72a89061c474faa9e69803554e40138859e17a2a7e994aa5779"
+      "bytes": 39589,
+      "sha256": "f8f5d68f0164e24ab52da6023eaedeffa2d00462427ff0e726d51fac2683da70",
+      "source_sha256": "f8f5d68f0164e24ab52da6023eaedeffa2d00462427ff0e726d51fac2683da70"
     },
     {
       "path": "research/checkers-runway13/evidence/cal605_reconstruction/flight/approach_wind_samples.png",
@@ -302,16 +325,16 @@
     {
       "path": "research/checkers-runway13/evidence/cal605_reconstruction/flight/build_approach.py",
       "delivery": "git",
-      "bytes": 5177,
-      "sha256": "a145cd5f1d8a8d0c20160157835fd3fe9138e689e487239961faf095d2df6b4d",
-      "source_sha256": "a145cd5f1d8a8d0c20160157835fd3fe9138e689e487239961faf095d2df6b4d"
+      "bytes": 5594,
+      "sha256": "63c7d84f4186def630c9d67703ce1a5ebbc01bc40c484f0b7257fdfd25ed27cc",
+      "source_sha256": "63c7d84f4186def630c9d67703ce1a5ebbc01bc40c484f0b7257fdfd25ed27cc"
     },
     {
       "path": "research/checkers-runway13/evidence/cal605_reconstruction/flight/build_flight.py",
       "delivery": "git",
-      "bytes": 11958,
-      "sha256": "1ab14a4e9e57dc3ecbfd271f8410a9560aaeed94088f690f420e64c42e77686e",
-      "source_sha256": "1ab14a4e9e57dc3ecbfd271f8410a9560aaeed94088f690f420e64c42e77686e"
+      "bytes": 12815,
+      "sha256": "f21b1436819d81709354a03a38a889f7dfe3cd34c2857d812c7acf90a3d2ae30",
+      "source_sha256": "f21b1436819d81709354a03a38a889f7dfe3cd34c2857d812c7acf90a3d2ae30"
     },
     {
       "path": "research/checkers-runway13/evidence/cal605_reconstruction/flight/final_approach_rollout.png",
@@ -331,8 +354,8 @@
       "path": "research/checkers-runway13/evidence/cal605_reconstruction/flight/flight_events.csv",
       "delivery": "git",
       "bytes": 1345,
-      "sha256": "7559ae43fd5f271697190e4b498e7a71456fd1035d6e1955529d818bb3860c91",
-      "source_sha256": "7559ae43fd5f271697190e4b498e7a71456fd1035d6e1955529d818bb3860c91"
+      "sha256": "9193f7282ca92d9b2f9c464cf35dcfc001e6d94799e69a57e623bbe05c7ffcbb",
+      "source_sha256": "9193f7282ca92d9b2f9c464cf35dcfc001e6d94799e69a57e623bbe05c7ffcbb"
     },
     {
       "path": "research/checkers-runway13/evidence/cal605_reconstruction/flight/flight_summary.json",
@@ -351,9 +374,9 @@
     {
       "path": "research/checkers-runway13/evidence/cal605_reconstruction/flight/test_flight.py",
       "delivery": "git",
-      "bytes": 2538,
-      "sha256": "1195d43badb39f9a97bc98997daa45c4c64efd9f9c082bb11a15fa971cedebb4",
-      "source_sha256": "1195d43badb39f9a97bc98997daa45c4c64efd9f9c082bb11a15fa971cedebb4"
+      "bytes": 4674,
+      "sha256": "9e948fabb67a2749cc6590b41fbaa78ecdb3a1c8984064b3ac39bb7ce099670d",
+      "source_sha256": "9e948fabb67a2749cc6590b41fbaa78ecdb3a1c8984064b3ac39bb7ce099670d"
     },
     {
       "path": "research/checkers-runway13/evidence/cal605_reconstruction/flight/trace_anchors.json",
@@ -365,9 +388,9 @@
     {
       "path": "research/checkers-runway13/evidence/cal605_reconstruction/flight/verification.json",
       "delivery": "git",
-      "bytes": 1944,
-      "sha256": "31c2cd012b7728d515de38fb9b6bf12e6e2fd97136fd6197105c9c5e05707de5",
-      "source_sha256": "31c2cd012b7728d515de38fb9b6bf12e6e2fd97136fd6197105c9c5e05707de5"
+      "bytes": 2505,
+      "sha256": "c40f2fb3a3301e6c0331f8b38b59c0eaa74d6fc1c3b6958a35fa0ec607fe70f2",
+      "source_sha256": "c40f2fb3a3301e6c0331f8b38b59c0eaa74d6fc1c3b6958a35fa0ec607fe70f2"
     },
     {
       "path": "research/checkers-runway13/evidence/cal605_reconstruction/wind/README.md",
@@ -555,8 +578,29 @@
       "path": "research/checkers-runway13/evidence/cal605_reconstruction/noaa/verification.json",
       "delivery": "git",
       "bytes": 6636,
-      "sha256": "20b748901e6512ffbe01fd71e4612acbcbb12a128eab2c4d9a014ef23ac46195",
-      "source_sha256": "510a6481314fb1a107001bcd0294aecc2fd7ba16ce13131715603b6566ae7ac4"
+      "sha256": "8e34a0d30d4658bdb40304d738fa6ed0acd6d0a412504294fcd0e843d70d496a",
+      "source_sha256": "e9cea872418b2a97622be93551d4d27e61fda992fc2c62ae6e9d003bde58c883"
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/reviews/REVIEW_DECISIONS.md",
+      "delivery": "git",
+      "bytes": 2573,
+      "sha256": "61b52aa84c316f4f09325d4cc67f0057e43f4fd7d6746ba8190a91cc212987ea",
+      "source_sha256": "61b52aa84c316f4f09325d4cc67f0057e43f4fd7d6746ba8190a91cc212987ea"
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/reviews/acceptance_review.md",
+      "delivery": "git",
+      "bytes": 6932,
+      "sha256": "a174db1d329bb174b397df66b1235efc29431b605f54085e89454d717fa6b68f",
+      "source_sha256": "a174db1d329bb174b397df66b1235efc29431b605f54085e89454d717fa6b68f"
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/reviews/acceptance_snapshot.txt",
+      "delivery": "git",
+      "bytes": 59702,
+      "sha256": "d8e826d7fa0845e8796dd7eab5142f35fff27b230a80f6bebc64daac561f586c",
+      "source_sha256": "d8e826d7fa0845e8796dd7eab5142f35fff27b230a80f6bebc64daac561f586c"
     },
     {
       "path": "research/checkers-runway13/evidence/cal605_reconstruction/reviews/blind_review.md",
@@ -578,6 +622,69 @@
       "bytes": 24670,
       "sha256": "5d3f55f5b8f73b5f12f6f93589eb811b2cd1203ad98d01f8a28b3591b0135fff",
       "source_sha256": "5d3f55f5b8f73b5f12f6f93589eb811b2cd1203ad98d01f8a28b3591b0135fff"
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/reviews/regenerate_flight_build_approach.py.log",
+      "delivery": "git",
+      "bytes": 34,
+      "sha256": "969032b1a4ddbc90a03352b2dec40f0cc5c4a3f892a6d6e7edac96357fa32946",
+      "source_sha256": "969032b1a4ddbc90a03352b2dec40f0cc5c4a3f892a6d6e7edac96357fa32946"
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/reviews/regenerate_flight_build_flight.py.log",
+      "delivery": "git",
+      "bytes": 1177,
+      "sha256": "9d98e8ad5144ae367903c1c59c7e436cc602d1b7894049d11c47bf19244b4135",
+      "source_sha256": "9d98e8ad5144ae367903c1c59c7e436cc602d1b7894049d11c47bf19244b4135"
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/reviews/regenerate_noaa_decode_noaa.py.log",
+      "delivery": "git",
+      "bytes": 2429,
+      "sha256": "a9a8d3a3180898d36b1f31c90d1a66620a2f3a714da12a4758c3d4fd305bdc89",
+      "source_sha256": "a9a8d3a3180898d36b1f31c90d1a66620a2f3a714da12a4758c3d4fd305bdc89"
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/reviews/regenerate_reconstruct.py.log",
+      "delivery": "git",
+      "bytes": 2548,
+      "sha256": "a85965164e820681b9502b0cab1b5f540d9115696779a54413bd3eefcd585f05",
+      "source_sha256": "a85965164e820681b9502b0cab1b5f540d9115696779a54413bd3eefcd585f05"
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/reviews/regenerate_wind_reconstruct_wind.py.log",
+      "delivery": "git",
+      "bytes": 6252,
+      "sha256": "c676fb0d5462201c3d1231c69bd0128fdfbc7a9966b0b1f93729571ebc31c9b2",
+      "source_sha256": "c676fb0d5462201c3d1231c69bd0128fdfbc7a9966b0b1f93729571ebc31c9b2"
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/reviews/tests_flight.log",
+      "delivery": "git",
+      "bytes": 1099,
+      "sha256": "a0678a3c6e6a9294158914a4bb0843a3362926c6d1b00e86b2cb7f734dd8be8c",
+      "source_sha256": "a0678a3c6e6a9294158914a4bb0843a3362926c6d1b00e86b2cb7f734dd8be8c"
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/reviews/tests_noaa.log",
+      "delivery": "git",
+      "bytes": 1507,
+      "sha256": "aaf12491e84ad3f3fad0abfcfa2afe585cc8bd6dfca3c25720c8d45ff67bc471",
+      "source_sha256": "aaf12491e84ad3f3fad0abfcfa2afe585cc8bd6dfca3c25720c8d45ff67bc471"
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/reviews/tests_parent.log",
+      "delivery": "git",
+      "bytes": 1207,
+      "sha256": "aedd6ff22debc351dbd4a9fd2db91705465cc5c6cdf82bee0c3d5f3c97283aa5",
+      "source_sha256": "aedd6ff22debc351dbd4a9fd2db91705465cc5c6cdf82bee0c3d5f3c97283aa5"
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/reviews/tests_wind.log",
+      "delivery": "git",
+      "bytes": 1328,
+      "sha256": "b0376d489596c8a01fc63b413207960159efc861eeb69178b3bf3a7c514ca939",
+      "source_sha256": "b0376d489596c8a01fc63b413207960159efc861eeb69178b3bf3a7c514ca939"
     },
     {
       "path": "research/checkers-runway13/approximation/APPROXIMATION_DESIGN.md",
@@ -944,25 +1051,109 @@
       "source_sha256": "5ca8236697bfb8ebf6cc256318213a05d2485e93cf44fc95b98e6885524eff92"
     },
     {
+      "path": "research/checkers-runway13/whitepaper/checkers-with-runway-13-white-paper-v1-source.zip",
+      "delivery": "supporting-data",
+      "bytes": 2112428,
+      "sha256": "67672d78c6c9f3fafa670fbb70be6c632413c7188afaf9697f63d49344323e4c",
+      "source_sha256": "67672d78c6c9f3fafa670fbb70be6c632413c7188afaf9697f63d49344323e4c"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/checkers-with-runway-13-white-paper-v2-source.zip",
+      "delivery": "git",
+      "bytes": 2033746,
+      "sha256": "58de087713f965d24f63ad643fada134fd53704e984006c65250ef49ec77ce89",
+      "source_sha256": "58de087713f965d24f63ad643fada134fd53704e984006c65250ef49ec77ce89"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/CLAIMS_AND_GAPS.md",
+      "delivery": "git",
+      "bytes": 3841,
+      "sha256": "84b8aabbcc6abeec46534a894535995345d554273766731ecbb73f78b8abd0bc",
+      "source_sha256": "84b8aabbcc6abeec46534a894535995345d554273766731ecbb73f78b8abd0bc"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/DELIVERY_RECORD.md",
+      "delivery": "git",
+      "bytes": 2340,
+      "sha256": "0fe35ae50e1e46c5d5c28ebc3d267a2800c1127cb1c2519e68150a3ef686adfc",
+      "source_sha256": "0fe35ae50e1e46c5d5c28ebc3d267a2800c1127cb1c2519e68150a3ef686adfc"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/README.md",
+      "delivery": "git",
+      "bytes": 4372,
+      "sha256": "e9c334749d5db87db52964f8b60d849689ad74a6435de8eac1d42d4cb906cc9e",
+      "source_sha256": "e9c334749d5db87db52964f8b60d849689ad74a6435de8eac1d42d4cb906cc9e"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/appendices.tex",
+      "delivery": "git",
+      "bytes": 13726,
+      "sha256": "833bb6ec05cdcfccee368c5b75fd9dfa242a5708cff4b9f925462c644c660260",
+      "source_sha256": "833bb6ec05cdcfccee368c5b75fd9dfa242a5708cff4b9f925462c644c660260"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/build.py",
+      "delivery": "git",
+      "bytes": 654,
+      "sha256": "fcaf776a92764943f2bc2af6027bc1aaa27c5ad84e86b8ed57592253b1dec4bd",
+      "source_sha256": "fcaf776a92764943f2bc2af6027bc1aaa27c5ad84e86b8ed57592253b1dec4bd"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/check_pdf.py",
+      "delivery": "git",
+      "bytes": 2551,
+      "sha256": "3d4c00bf4b8ba6bfba252b0112a41c28fc330685eb7ee7a8c890176683931a3e",
+      "source_sha256": "3d4c00bf4b8ba6bfba252b0112a41c28fc330685eb7ee7a8c890176683931a3e"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/checkers-with-runway-13-white-paper-v1.pdf",
+      "delivery": "git",
+      "bytes": 265406,
+      "sha256": "0fc56dcd02145905494701f98ab96c229bc8ae4a75386602eba4dd7246e8b855",
+      "source_sha256": "0fc56dcd02145905494701f98ab96c229bc8ae4a75386602eba4dd7246e8b855"
+    },
+    {
       "path": "research/checkers-runway13/whitepaper/v1/evidence_manifest.json",
       "delivery": "git",
-      "bytes": 8159,
-      "sha256": "fa511707449a1d890ed71f530dfccb0b580d9e771fa39ee4f8ee727414222712",
-      "source_sha256": "fa511707449a1d890ed71f530dfccb0b580d9e771fa39ee4f8ee727414222712"
+      "bytes": 11442,
+      "sha256": "450cdb28d2187a2cdde3258dad276fa99ee544b2c2ecf01529556733ebf4eed4",
+      "source_sha256": "450cdb28d2187a2cdde3258dad276fa99ee544b2c2ecf01529556733ebf4eed4"
     },
     {
       "path": "research/checkers-runway13/whitepaper/v1/main.tex",
       "delivery": "git",
-      "bytes": 6611,
-      "sha256": "a3872340032eebe7d325aa790df65a1e71b7ce82d834e573ca47a8bb8ba7c834",
-      "source_sha256": "a3872340032eebe7d325aa790df65a1e71b7ce82d834e573ca47a8bb8ba7c834"
+      "bytes": 6939,
+      "sha256": "2013b6b552003ad49e1be5824fdc642c8709c97f1f045a5107e01c47bc6201f6",
+      "source_sha256": "2013b6b552003ad49e1be5824fdc642c8709c97f1f045a5107e01c47bc6201f6"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/make_figures.py",
+      "delivery": "git",
+      "bytes": 9149,
+      "sha256": "2c44ff8ac7960f1a99420fe25ea72c6096ced1e54e08e347f3f1bec44eb9c9bf",
+      "source_sha256": "2c44ff8ac7960f1a99420fe25ea72c6096ced1e54e08e347f3f1bec44eb9c9bf"
     },
     {
       "path": "research/checkers-runway13/whitepaper/v1/manuscript.tex",
       "delivery": "git",
-      "bytes": 33893,
-      "sha256": "e450527669af96e62857b63252863d984529c5a0350ff4e641018cd43b11a44d",
-      "source_sha256": "e450527669af96e62857b63252863d984529c5a0350ff4e641018cd43b11a44d"
+      "bytes": 39776,
+      "sha256": "f28e4642a2f1a58ef216a8b1e1d919a0f51eea64d24e79075444d3a386baf9a1",
+      "source_sha256": "f28e4642a2f1a58ef216a8b1e1d919a0f51eea64d24e79075444d3a386baf9a1"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/references.tex",
+      "delivery": "git",
+      "bytes": 2595,
+      "sha256": "be7499bb1cce23c3a8dff9b55be5c3434519245327225db2588bc3f581a6a887",
+      "source_sha256": "be7499bb1cce23c3a8dff9b55be5c3434519245327225db2588bc3f581a6a887"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/requirements.txt",
+      "delivery": "git",
+      "bytes": 48,
+      "sha256": "cb2008b106fb87323919e6a6482dfcf46f0c40dc42482b72424aa30dd50c0940",
+      "source_sha256": "cb2008b106fb87323919e6a6482dfcf46f0c40dc42482b72424aa30dd50c0940"
     },
     {
       "path": "research/checkers-runway13/whitepaper/v1/evidence/MODEL_EQUATIONS.md",
@@ -988,16 +1179,16 @@
     {
       "path": "research/checkers-runway13/whitepaper/v1/evidence/PROJECT_STATE.md",
       "delivery": "git",
-      "bytes": 29697,
-      "sha256": "4bd2e45d3cd942c65528442f8401bc746dfdba4c05bcb993ee416c70f58e3162",
-      "source_sha256": "0103c70223c79195807764c7b494772417fdfa21b00c48631b7c2a9ecf19d1a4"
+      "bytes": 34522,
+      "sha256": "ed1d5646f08190a70b7e4e945fb19ec98100e6fda3792b64d3425b31efaa777f",
+      "source_sha256": "9c8ff46aa3d56a02a5160d1fe1774fcccd7dcababc224d15ab7af414de0d95ac"
     },
     {
       "path": "research/checkers-runway13/whitepaper/v1/evidence/stereo_plot_data.csv",
       "delivery": "supporting-data",
-      "bytes": 2316366,
-      "sha256": "bf778a6abaf88c310aa790021d9049fefe55a54d53a6339b0fc9447889cc46c1",
-      "source_sha256": "bf778a6abaf88c310aa790021d9049fefe55a54d53a6339b0fc9447889cc46c1"
+      "bytes": 2315670,
+      "sha256": "020e06d1ca36ce849f6935ca63ad7f9281d07d3c0724b246ee844076f0fb8b9b",
+      "source_sha256": "020e06d1ca36ce849f6935ca63ad7f9281d07d3c0724b246ee844076f0fb8b9b"
     },
     {
       "path": "research/checkers-runway13/whitepaper/v1/evidence/weather_plot_data.csv",
@@ -1028,25 +1219,74 @@
       "source_sha256": "601cc3b9c93fb1315c01a393b0b5236eb92700b834ce449a0a2531d551319b64"
     },
     {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "delivery": "git",
+      "bytes": 13379,
+      "sha256": "dc026a9d7bb925109fa1a77014c2a388e79a25be55c56d9e2cf6b32c238781f3",
+      "source_sha256": "dc026a9d7bb925109fa1a77014c2a388e79a25be55c56d9e2cf6b32c238781f3"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/analysis.json",
+      "delivery": "git",
+      "bytes": 5716,
+      "sha256": "7e957b6c8cd42493f6809a49b7be917c147a1e147ecadeef98a64762259b2c42",
+      "source_sha256": "7e957b6c8cd42493f6809a49b7be917c147a1e147ecadeef98a64762259b2c42"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/clock_alignment.json",
+      "delivery": "git",
+      "bytes": 1292,
+      "sha256": "cf3250dafc6c559bb82b1d2a2073b008a69de16ca79bdd0a48aa1ca10b8279cb",
+      "source_sha256": "cf3250dafc6c559bb82b1d2a2073b008a69de16ca79bdd0a48aa1ca10b8279cb"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/delivery_manifest.json",
+      "delivery": "git",
+      "bytes": 10129,
+      "sha256": "2fb872cbfc5285ab3abf98731cd47c3687435eb92ee82d1f37613f65fdd85aea",
+      "source_sha256": "2fb872cbfc5285ab3abf98731cd47c3687435eb92ee82d1f37613f65fdd85aea"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/verification.json",
+      "delivery": "git",
+      "bytes": 2411,
+      "sha256": "bf93850ae01b3d5539b42e51af7f56238e73cebfae6536910f30793165892681",
+      "source_sha256": "bf93850ae01b3d5539b42e51af7f56238e73cebfae6536910f30793165892681"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/flight/README.md",
+      "delivery": "git",
+      "bytes": 8874,
+      "sha256": "2bb2c74851ac1d0f0b9bb91125eab70bdb1ce58da16ff1ddad7b042385801257",
+      "source_sha256": "2bb2c74851ac1d0f0b9bb91125eab70bdb1ce58da16ff1ddad7b042385801257"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/wind/README.md",
+      "delivery": "git",
+      "bytes": 7742,
+      "sha256": "7ef27fc02ccdac883402a4f7b530873ca2cec90ae218bd82b38073106a2257db",
+      "source_sha256": "7ef27fc02ccdac883402a4f7b530873ca2cec90ae218bd82b38073106a2257db"
+    },
+    {
       "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/noaa/README.md",
       "delivery": "git",
-      "bytes": 7746,
-      "sha256": "460a3704fc5d27a49628c386b412535428f861f68f7bc5a290623a7687d1378c",
-      "source_sha256": "460a3704fc5d27a49628c386b412535428f861f68f7bc5a290623a7687d1378c"
+      "bytes": 8995,
+      "sha256": "64c308501364f3d9d095cebfe4612cd927d4174c96d1baf0f9279cccf549dd81",
+      "source_sha256": "64c308501364f3d9d095cebfe4612cd927d4174c96d1baf0f9279cccf549dd81"
     },
     {
       "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/noaa/acceptance_verification.json",
       "delivery": "git",
-      "bytes": 925,
-      "sha256": "1ac30387f2b91bf53e7d91acaffa0520004a1d008f64b02147aac36cc6974e46",
-      "source_sha256": "1ac30387f2b91bf53e7d91acaffa0520004a1d008f64b02147aac36cc6974e46"
+      "bytes": 1029,
+      "sha256": "f6a6f0bab428784570eb6f1e8ceada99ecb769c466cd21f6551dc1e1c8271471",
+      "source_sha256": "f6a6f0bab428784570eb6f1e8ceada99ecb769c466cd21f6551dc1e1c8271471"
     },
     {
       "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/noaa/verification.json",
       "delivery": "git",
-      "bytes": 6275,
-      "sha256": "ab4a33fc3cd270647309a1e4e04fbb7ac8cbc66982d00e307a4ad8398e80d9dd",
-      "source_sha256": "12c7e0aadc85b4e9ba920cc176227d31e7607b5d7432fa8f045cb80c9deae67c"
+      "bytes": 6636,
+      "sha256": "8e34a0d30d4658bdb40304d738fa6ed0acd6d0a412504294fcd0e843d70d496a",
+      "source_sha256": "e9cea872418b2a97622be93551d4d27e61fda992fc2c62ae6e9d003bde58c883"
     },
     {
       "path": "research/checkers-runway13/whitepaper/v1/evidence/approximation/CLOSED_FORM_AND_BOUNDS.md",
@@ -1126,6 +1366,20 @@
       "source_sha256": "6a06f484eeeb20e9b6ff35d0fcb12c74efc4d96a80fc08c480ae54405c7aa11d"
     },
     {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/HANDOFF.json",
+      "delivery": "git",
+      "bytes": 7342,
+      "sha256": "9311455a95ff9912a59138fcccc8a6cdf120a632f7923b80355d5bcd1cb36aff",
+      "source_sha256": "9311455a95ff9912a59138fcccc8a6cdf120a632f7923b80355d5bcd1cb36aff"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/REPORT.md",
+      "delivery": "git",
+      "bytes": 10049,
+      "sha256": "7777a06d303c56a49aba38827320b88d515f1bee52eaff67fdb125cc75a39ae6",
+      "source_sha256": "7777a06d303c56a49aba38827320b88d515f1bee52eaff67fdb125cc75a39ae6"
+    },
+    {
       "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/registration_report.md",
       "delivery": "git",
       "bytes": 6233,
@@ -1133,25 +1387,46 @@
       "source_sha256": "c751bd91f98a4bcbdb78743d34be9ce97846fe35cca3c582e8abda15c8fcbb87"
     },
     {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/validation.json",
+      "delivery": "git",
+      "bytes": 2174,
+      "sha256": "c441ec85ae1d44c48527d9083d6d6b04e0b1ee4c674491f9f676e110bbaeb349",
+      "source_sha256": "c441ec85ae1d44c48527d9083d6d6b04e0b1ee4c674491f9f676e110bbaeb349"
+    },
+    {
       "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/scene/validation.json",
       "delivery": "git",
-      "bytes": 551,
-      "sha256": "d4189df73786b0765aa1518ec2f60ced3ce928520e9055999d4efd5605dee2fa",
-      "source_sha256": "d4189df73786b0765aa1518ec2f60ced3ce928520e9055999d4efd5605dee2fa"
+      "bytes": 835,
+      "sha256": "ab34f82f8fbaca0a515608b0ae3f44539263d5162e2fa088557618df7f2a7a0c",
+      "source_sha256": "ab34f82f8fbaca0a515608b0ae3f44539263d5162e2fa088557618df7f2a7a0c"
     },
     {
       "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/README.md",
       "delivery": "git",
-      "bytes": 8709,
-      "sha256": "85d9ebdbf81c23fed693b2d9e71d458c89a8ffc127a4c8cc7cf0c972d1f55af1",
-      "source_sha256": "85d9ebdbf81c23fed693b2d9e71d458c89a8ffc127a4c8cc7cf0c972d1f55af1"
+      "bytes": 12241,
+      "sha256": "c6d92372417f56a8b017f8da56c0ed9d59d03eabf14efcc8fc9004137e2855e1",
+      "source_sha256": "c6d92372417f56a8b017f8da56c0ed9d59d03eabf14efcc8fc9004137e2855e1"
     },
     {
       "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/dense_stereo_report.json",
       "delivery": "git",
-      "bytes": 4014,
-      "sha256": "d0a34456168079ae9a0784519382e00cb15b516225c33284c7babd4c84bdcc2f",
-      "source_sha256": "d0a34456168079ae9a0784519382e00cb15b516225c33284c7babd4c84bdcc2f"
+      "bytes": 4425,
+      "sha256": "28ddf7ddff1f4a75e756a6beb3842ed8d6c8fd7e68d211a9e162cf94b72a6374",
+      "source_sha256": "28ddf7ddff1f4a75e756a6beb3842ed8d6c8fd7e68d211a9e162cf94b72a6374"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/observed_mesh_verification.json",
+      "delivery": "git",
+      "bytes": 1205,
+      "sha256": "a50c3ae569ce52d7c47a21bbe905f18fc4be233f4b311c5c225b08fe9ea42cc7",
+      "source_sha256": "a50c3ae569ce52d7c47a21bbe905f18fc4be233f4b311c5c225b08fe9ea42cc7"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json",
+      "delivery": "git",
+      "bytes": 2635,
+      "sha256": "ae7aa69c6ed42263bc6e060fb92133aaeed8e39f9909bdea48d99dc27986b394",
+      "source_sha256": "ae7aa69c6ed42263bc6e060fb92133aaeed8e39f9909bdea48d99dc27986b394"
     },
     {
       "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/sparse_stereo_report.json",
@@ -1163,9 +1438,9 @@
     {
       "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/stereo_verification.json",
       "delivery": "git",
-      "bytes": 1512,
-      "sha256": "6aca7b270d51db411068fcf056344a3a1651b63b61191d012248ad72a746d08b",
-      "source_sha256": "6aca7b270d51db411068fcf056344a3a1651b63b61191d012248ad72a746d08b"
+      "bytes": 1819,
+      "sha256": "1aa46915a083962a3cc7a60065ceaba113d69ed9effb27f83cd8e67c98b470ec",
+      "source_sha256": "1aa46915a083962a3cc7a60065ceaba113d69ed9effb27f83cd8e67c98b470ec"
     },
     {
       "path": "research/checkers-runway13/whitepaper/v1/evidence/geospatial/README.md",
@@ -1173,6 +1448,986 @@
       "bytes": 6664,
       "sha256": "1ac992bf7838fa3476067ec43c9682bcda2d62d5c9eeb04180f291060d7a7788",
       "source_sha256": "1ac992bf7838fa3476067ec43c9682bcda2d62d5c9eeb04180f291060d7a7788"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/clean_rebuild.log",
+      "delivery": "git",
+      "bytes": 4543,
+      "sha256": "95b1da4d3d0e1d41a2848627367f98eaad86d7c767d7db3652ccb4828fb1c0c5",
+      "source_sha256": "95b1da4d3d0e1d41a2848627367f98eaad86d7c767d7db3652ccb4828fb1c0c5"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/contact-1.png",
+      "delivery": "git",
+      "bytes": 863690,
+      "sha256": "32eba172e87553d1230d55f90dd6a7b8518b4dc889e53c06398e7ad010c4e301",
+      "source_sha256": "32eba172e87553d1230d55f90dd6a7b8518b4dc889e53c06398e7ad010c4e301"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/contact-2.png",
+      "delivery": "git",
+      "bytes": 856701,
+      "sha256": "af0cdf69d40971468ca37822ba86ecd1d97ba4c69d8e8b8006f51a61bcc4f7c8",
+      "source_sha256": "af0cdf69d40971468ca37822ba86ecd1d97ba4c69d8e8b8006f51a61bcc4f7c8"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/contact-3.png",
+      "delivery": "git",
+      "bytes": 457426,
+      "sha256": "990b68dbb4e312de08713701d5bc376540607cdb449d4c19e41a5af5aa5d6822",
+      "source_sha256": "990b68dbb4e312de08713701d5bc376540607cdb449d4c19e41a5af5aa5d6822"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/document_checks.json",
+      "delivery": "git",
+      "bytes": 726,
+      "sha256": "7c7f325f2141e62d00ea496855bcb9b1750030e0e0d160ddd60dfd106b34ac3d",
+      "source_sha256": "7c7f325f2141e62d00ea496855bcb9b1750030e0e0d160ddd60dfd106b34ac3d"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/figure_checks.json",
+      "delivery": "git",
+      "bytes": 443,
+      "sha256": "fe69f4684d62387cfb340300ff75c96dbd6bdd7cf56c0a6d90c606e8fe2de891",
+      "source_sha256": "fe69f4684d62387cfb340300ff75c96dbd6bdd7cf56c0a6d90c606e8fe2de891"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/fonts.txt",
+      "delivery": "git",
+      "bytes": 1422,
+      "sha256": "97f256f4c65576c7f51069b3513f29c61769f43b964bf7e3348a69ad572e0573",
+      "source_sha256": "97f256f4c65576c7f51069b3513f29c61769f43b964bf7e3348a69ad572e0573"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/page-01.png",
+      "delivery": "git",
+      "bytes": 31202,
+      "sha256": "bd4b2e353f64780d6a41d0fea305b5e88fe0a932608e792a1aa4c8e5d67d3332",
+      "source_sha256": "bd4b2e353f64780d6a41d0fea305b5e88fe0a932608e792a1aa4c8e5d67d3332"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/page-02.png",
+      "delivery": "git",
+      "bytes": 75231,
+      "sha256": "a208ed06f004937a120532886a36642916cc7f4dae4f56f05fa2358b7c92be12",
+      "source_sha256": "a208ed06f004937a120532886a36642916cc7f4dae4f56f05fa2358b7c92be12"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/page-03.png",
+      "delivery": "git",
+      "bytes": 32177,
+      "sha256": "f6cba15a7115f51974e32b85cb7de8489a2ff58046653d761de39ce68429efda",
+      "source_sha256": "f6cba15a7115f51974e32b85cb7de8489a2ff58046653d761de39ce68429efda"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/page-04.png",
+      "delivery": "git",
+      "bytes": 67762,
+      "sha256": "8d1bbb2138af38c942055e38b4598cb85a7e7638dad549753ce46e391e179ebc",
+      "source_sha256": "8d1bbb2138af38c942055e38b4598cb85a7e7638dad549753ce46e391e179ebc"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/page-05.png",
+      "delivery": "git",
+      "bytes": 72429,
+      "sha256": "1f90f6935e414e767f57e764dc2c74dbf592882ba615d63425058ac5556c4328",
+      "source_sha256": "1f90f6935e414e767f57e764dc2c74dbf592882ba615d63425058ac5556c4328"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/page-06.png",
+      "delivery": "git",
+      "bytes": 57764,
+      "sha256": "f03f5710f08af3e80b950f01d2563143d9b6bc57368ac32e5539fd4a554f6c2c",
+      "source_sha256": "f03f5710f08af3e80b950f01d2563143d9b6bc57368ac32e5539fd4a554f6c2c"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/page-07.png",
+      "delivery": "git",
+      "bytes": 93554,
+      "sha256": "ccc14bd9b3be28570dfdb967597d5845c826f364bdb750ba2d5d67646803e39e",
+      "source_sha256": "ccc14bd9b3be28570dfdb967597d5845c826f364bdb750ba2d5d67646803e39e"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/page-08.png",
+      "delivery": "git",
+      "bytes": 64492,
+      "sha256": "32ac616e1cf605e7b8d88f9a4f7685a6a0cefa2ff059e608dcffecfb7fd96d75",
+      "source_sha256": "32ac616e1cf605e7b8d88f9a4f7685a6a0cefa2ff059e608dcffecfb7fd96d75"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/page-09.png",
+      "delivery": "git",
+      "bytes": 53731,
+      "sha256": "a5da7168eb81b4b1fecb18f02e828c417f4615da4e06137dc06c6590e3456574",
+      "source_sha256": "a5da7168eb81b4b1fecb18f02e828c417f4615da4e06137dc06c6590e3456574"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/page-10.png",
+      "delivery": "git",
+      "bytes": 60393,
+      "sha256": "a12b20815b949203bf65e98afba114d8c7a61d58797a789c40bcf6bed4a882a5",
+      "source_sha256": "a12b20815b949203bf65e98afba114d8c7a61d58797a789c40bcf6bed4a882a5"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/page-11.png",
+      "delivery": "git",
+      "bytes": 62486,
+      "sha256": "240075cde698b536891001b2eb037e57689cc09a5d6d319bb6fab039b75546c9",
+      "source_sha256": "240075cde698b536891001b2eb037e57689cc09a5d6d319bb6fab039b75546c9"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/page-12.png",
+      "delivery": "git",
+      "bytes": 63370,
+      "sha256": "05bc8142a34b15df6474781578187e9f9a600995c1984781929aed16e2c4fdeb",
+      "source_sha256": "05bc8142a34b15df6474781578187e9f9a600995c1984781929aed16e2c4fdeb"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/page-13.png",
+      "delivery": "git",
+      "bytes": 64951,
+      "sha256": "600fbde810cdf9fe0765f76598da8e179a43408f9ce86b76095d03de19e33d20",
+      "source_sha256": "600fbde810cdf9fe0765f76598da8e179a43408f9ce86b76095d03de19e33d20"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/page-14.png",
+      "delivery": "git",
+      "bytes": 58279,
+      "sha256": "7133a67804b36ec3f25cd5df4a4e5eabf5c57cfb35503c99265b29a3e6152827",
+      "source_sha256": "7133a67804b36ec3f25cd5df4a4e5eabf5c57cfb35503c99265b29a3e6152827"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/page-15.png",
+      "delivery": "git",
+      "bytes": 64421,
+      "sha256": "8ce6895a27480945a18a792b3a5b67aa5e4f5410c64dc4fe751a9be499a1f36d",
+      "source_sha256": "8ce6895a27480945a18a792b3a5b67aa5e4f5410c64dc4fe751a9be499a1f36d"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/page-16.png",
+      "delivery": "git",
+      "bytes": 54713,
+      "sha256": "aeef06c057fa59312e274ec99e08d3c2aed6b0a9a38fdcdb6c11420d71b402d7",
+      "source_sha256": "aeef06c057fa59312e274ec99e08d3c2aed6b0a9a38fdcdb6c11420d71b402d7"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/page-17.png",
+      "delivery": "git",
+      "bytes": 64930,
+      "sha256": "13486568bf0d7926a3abc444643b4eac3008b8922f104b7c0009c68027733b10",
+      "source_sha256": "13486568bf0d7926a3abc444643b4eac3008b8922f104b7c0009c68027733b10"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/page-18.png",
+      "delivery": "git",
+      "bytes": 54981,
+      "sha256": "4b3652a549928c89ec484027c96f851fa48c56cbb8f47d7dd45f85fd19103a54",
+      "source_sha256": "4b3652a549928c89ec484027c96f851fa48c56cbb8f47d7dd45f85fd19103a54"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/page-19.png",
+      "delivery": "git",
+      "bytes": 69092,
+      "sha256": "a867361692fb405225b75d187ebabc2c1f54ead00fc3533fccd7be3f7f2208d6",
+      "source_sha256": "a867361692fb405225b75d187ebabc2c1f54ead00fc3533fccd7be3f7f2208d6"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/page-20.png",
+      "delivery": "git",
+      "bytes": 65481,
+      "sha256": "0d07f8d80d927960645d3a00dcfcc46b4f31829647d35bbecd0c6c616f666bf0",
+      "source_sha256": "0d07f8d80d927960645d3a00dcfcc46b4f31829647d35bbecd0c6c616f666bf0"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/page-21.png",
+      "delivery": "git",
+      "bytes": 71493,
+      "sha256": "402dd449ffc495c63782020e7a0d5a06b54dec9f9709ed1a1351b048bb16fd25",
+      "source_sha256": "402dd449ffc495c63782020e7a0d5a06b54dec9f9709ed1a1351b048bb16fd25"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/page-22.png",
+      "delivery": "git",
+      "bytes": 31838,
+      "sha256": "f9b92c5052118b28abead63109e64a5bde402385a359e6d3f9c7c073893c8d51",
+      "source_sha256": "f9b92c5052118b28abead63109e64a5bde402385a359e6d3f9c7c073893c8d51"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/page-23.png",
+      "delivery": "git",
+      "bytes": 62544,
+      "sha256": "b3891666ea5fb1be1daada486bb9679ffa04bccce661defbb1d8ef9fb594b728",
+      "source_sha256": "b3891666ea5fb1be1daada486bb9679ffa04bccce661defbb1d8ef9fb594b728"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/poppler_text.txt",
+      "delivery": "git",
+      "bytes": 79772,
+      "sha256": "1aeb60ac15d7478d5b1d25d5b677322d2f6e12665b3bba38739e79756caefbaf",
+      "source_sha256": "1aeb60ac15d7478d5b1d25d5b677322d2f6e12665b3bba38739e79756caefbaf"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/portable_rebuild.json",
+      "delivery": "git",
+      "bytes": 335,
+      "sha256": "f4d735c63c35f4300b0e140efe1ebe545cc0c5c8874ad389eb65833e92e21188",
+      "source_sha256": "f4d735c63c35f4300b0e140efe1ebe545cc0c5c8874ad389eb65833e92e21188"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/pymupdf_text.txt",
+      "delivery": "git",
+      "bytes": 60249,
+      "sha256": "05bbd500353710a961ae600db9c87240d7487be4b035b548be6cf01f834e73c3",
+      "source_sha256": "05bbd500353710a961ae600db9c87240d7487be4b035b548be6cf01f834e73c3"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/settled_handoff_checks.json",
+      "delivery": "git",
+      "bytes": 68,
+      "sha256": "8f2450d210e2fdd593267fc39cf415c1868580957d32a26a8aca739bfa7c8c05",
+      "source_sha256": "8f2450d210e2fdd593267fc39cf415c1868580957d32a26a8aca739bfa7c8c05"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/figures/historical_stopping.pdf",
+      "delivery": "git",
+      "bytes": 15114,
+      "sha256": "89ff5543e114082e88b7d5ea17aa3c728dfd9b2ea767ba2972fe84684e4c1d47",
+      "source_sha256": "89ff5543e114082e88b7d5ea17aa3c728dfd9b2ea767ba2972fe84684e4c1d47"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/figures/historical_stopping.png",
+      "delivery": "git",
+      "bytes": 84619,
+      "sha256": "cbdb190f7659b0e19d4a66b4339b091c3675cd261af8ef024fbfb4512ef67cca",
+      "source_sha256": "cbdb190f7659b0e19d4a66b4339b091c3675cd261af8ef024fbfb4512ef67cca"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/figures/historical_support.pdf",
+      "delivery": "git",
+      "bytes": 73609,
+      "sha256": "8160e7d752354d6fcc28c7cb81776eb70763d0e0c4c2e7c22a8065c6c1199709",
+      "source_sha256": "8160e7d752354d6fcc28c7cb81776eb70763d0e0c4c2e7c22a8065c6c1199709"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/figures/historical_support.png",
+      "delivery": "git",
+      "bytes": 214952,
+      "sha256": "386cf32393b0bc2c3c92f44c7dd71cca054a7bb8842a3d355c7ec09e003ab918",
+      "source_sha256": "386cf32393b0bc2c3c92f44c7dd71cca054a7bb8842a3d355c7ec09e003ab918"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/figures/stopping_boundary.pdf",
+      "delivery": "git",
+      "bytes": 21355,
+      "sha256": "75f302320f18dbedccd4b232be6124e72d5392161f420767e6d1c504dc3bf682",
+      "source_sha256": "75f302320f18dbedccd4b232be6124e72d5392161f420767e6d1c504dc3bf682"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/figures/stopping_boundary.png",
+      "delivery": "git",
+      "bytes": 58702,
+      "sha256": "97b90320527b2c0fed869636b8a5288cb0fe56617cdd48eeaa7aff7db14f4e4b",
+      "source_sha256": "97b90320527b2c0fed869636b8a5288cb0fe56617cdd48eeaa7aff7db14f4e4b"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/figures/synthetic_trajectory.pdf",
+      "delivery": "git",
+      "bytes": 20359,
+      "sha256": "211d6d509869919396632dbac1397d080dca9f54c4605f748d939be175b09837",
+      "source_sha256": "211d6d509869919396632dbac1397d080dca9f54c4605f748d939be175b09837"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/figures/synthetic_trajectory.png",
+      "delivery": "git",
+      "bytes": 82341,
+      "sha256": "88901fe034cebdac04b6332a6c0e3f111017990aebdc6977e72a3eb18628ccd6",
+      "source_sha256": "88901fe034cebdac04b6332a6c0e3f111017990aebdc6977e72a3eb18628ccd6"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/figures/weather_context.pdf",
+      "delivery": "git",
+      "bytes": 14052,
+      "sha256": "71759acd364284d6c38b0135698fa30c296a213d55da08ab6861ff9980855f3f",
+      "source_sha256": "71759acd364284d6c38b0135698fa30c296a213d55da08ab6861ff9980855f3f"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/figures/weather_context.png",
+      "delivery": "git",
+      "bytes": 44143,
+      "sha256": "e8987c4b96b953aa5075e6defd3214b645cd1b360ce01f875866e228b6394214",
+      "source_sha256": "e8987c4b96b953aa5075e6defd3214b645cd1b360ce01f875866e228b6394214"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/CLAIMS_AND_GAPS.md",
+      "delivery": "git",
+      "bytes": 5249,
+      "sha256": "63f9144fa5786be69ba7e13413bc2891852a86932d7c415b37ff6c8bb33ab0f1",
+      "source_sha256": "63f9144fa5786be69ba7e13413bc2891852a86932d7c415b37ff6c8bb33ab0f1"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/README.md",
+      "delivery": "git",
+      "bytes": 3800,
+      "sha256": "a63af91fdba50d0c38d6e287c566d3ef9fe77b76c6204bedf34320aa65c8dae6",
+      "source_sha256": "a63af91fdba50d0c38d6e287c566d3ef9fe77b76c6204bedf34320aa65c8dae6"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/VERSION_CHANGES.md",
+      "delivery": "git",
+      "bytes": 3281,
+      "sha256": "30c4815f0b4f68caefc436752556771ff00dc847b1baf0b67898ae478feaed28",
+      "source_sha256": "30c4815f0b4f68caefc436752556771ff00dc847b1baf0b67898ae478feaed28"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/appendices.tex",
+      "delivery": "git",
+      "bytes": 14502,
+      "sha256": "7173abd6c3ba2dd1c49eec2b1fe66be449bf648d05b9c3179cb8e9f3d2bbf30b",
+      "source_sha256": "7173abd6c3ba2dd1c49eec2b1fe66be449bf648d05b9c3179cb8e9f3d2bbf30b"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/build.py",
+      "delivery": "git",
+      "bytes": 759,
+      "sha256": "c1dc6caaa92ede1f799fd747e9b435a647c5272b2dc4cc25d39e57f7531765b4",
+      "source_sha256": "c1dc6caaa92ede1f799fd747e9b435a647c5272b2dc4cc25d39e57f7531765b4"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/check_pdf.py",
+      "delivery": "git",
+      "bytes": 2615,
+      "sha256": "ea2a7143fa0c5c3c9370ad1d68f8bf9b67ff401de625963d906980380dc576df",
+      "source_sha256": "ea2a7143fa0c5c3c9370ad1d68f8bf9b67ff401de625963d906980380dc576df"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/checkers-with-runway-13-white-paper-v2.pdf",
+      "delivery": "git",
+      "bytes": 326284,
+      "sha256": "a6de1e92665ed9b7d8773843174f2600d148acf932834e52a3a94527bee6f2fc",
+      "source_sha256": "a6de1e92665ed9b7d8773843174f2600d148acf932834e52a3a94527bee6f2fc"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence_manifest.json",
+      "delivery": "git",
+      "bytes": 25657,
+      "sha256": "7284e264c33593c41cd15252c699c6c0d54c15fa4f14a0cf7cc1708cc23dfa36",
+      "source_sha256": "7284e264c33593c41cd15252c699c6c0d54c15fa4f14a0cf7cc1708cc23dfa36"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/main.tex",
+      "delivery": "git",
+      "bytes": 6507,
+      "sha256": "3e05072975d02edf3379d1f671ef0e78d8507385501408e92cba27a8cafc146d",
+      "source_sha256": "3e05072975d02edf3379d1f671ef0e78d8507385501408e92cba27a8cafc146d"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/make_figures.py",
+      "delivery": "git",
+      "bytes": 15125,
+      "sha256": "59f0fbafaaf0a43c8cadefa8ac2e66443d7bf1b896a78ab94cbef7557a25c8b8",
+      "source_sha256": "59f0fbafaaf0a43c8cadefa8ac2e66443d7bf1b896a78ab94cbef7557a25c8b8"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/manuscript.tex",
+      "delivery": "git",
+      "bytes": 41433,
+      "sha256": "6920475e16cd0f27c0d1b4593037ee11d88705cec2ed81eb1b96729d1561a5df",
+      "source_sha256": "6920475e16cd0f27c0d1b4593037ee11d88705cec2ed81eb1b96729d1561a5df"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/package.py",
+      "delivery": "git",
+      "bytes": 966,
+      "sha256": "2a16f726684c441bd11fd4c3be68342f6f1491a8fc29d8b2542822c73100519d",
+      "source_sha256": "2a16f726684c441bd11fd4c3be68342f6f1491a8fc29d8b2542822c73100519d"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/references.tex",
+      "delivery": "git",
+      "bytes": 2595,
+      "sha256": "be7499bb1cce23c3a8dff9b55be5c3434519245327225db2588bc3f581a6a887",
+      "source_sha256": "be7499bb1cce23c3a8dff9b55be5c3434519245327225db2588bc3f581a6a887"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/requirements.txt",
+      "delivery": "git",
+      "bytes": 48,
+      "sha256": "cb2008b106fb87323919e6a6482dfcf46f0c40dc42482b72424aa30dd50c0940",
+      "source_sha256": "cb2008b106fb87323919e6a6482dfcf46f0c40dc42482b72424aa30dd50c0940"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/wind_appendix.tex",
+      "delivery": "git",
+      "bytes": 3690,
+      "sha256": "a1d39462f28b3c3a67765251539a386b38892ae1e4d56b6bc53d75f118f4cea0",
+      "source_sha256": "a1d39462f28b3c3a67765251539a386b38892ae1e4d56b6bc53d75f118f4cea0"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/wind_coefficients.tex",
+      "delivery": "git",
+      "bytes": 1143,
+      "sha256": "1d0e9dae9d705bcf3686263bbc8fbd1d8d691ac7cb940709ac367998e0f15d41",
+      "source_sha256": "1d0e9dae9d705bcf3686263bbc8fbd1d8d691ac7cb940709ac367998e0f15d41"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/wind_results.tex",
+      "delivery": "git",
+      "bytes": 7879,
+      "sha256": "acae6f7a437d01f6369e5b909fbe0a6508a22ce226b60915f16603d69a644852",
+      "source_sha256": "acae6f7a437d01f6369e5b909fbe0a6508a22ce226b60915f16603d69a644852"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/MODEL_EQUATIONS.md",
+      "delivery": "git",
+      "bytes": 5646,
+      "sha256": "8c749d4b22505c91f1e0b6e9a72f17966c53d5d3565f0573aabe0851d0a1beac",
+      "source_sha256": "8c749d4b22505c91f1e0b6e9a72f17966c53d5d3565f0573aabe0851d0a1beac"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/MODEL_IMPLEMENTATION_SPEC.md",
+      "delivery": "git",
+      "bytes": 8304,
+      "sha256": "3d8a9ce242783e357317beca0470044c00d4f62c74084cd1ffa70472815a8ceb",
+      "source_sha256": "3d8a9ce242783e357317beca0470044c00d4f62c74084cd1ffa70472815a8ceb"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/MODEL_VALIDATION_REPORT.md",
+      "delivery": "git",
+      "bytes": 5853,
+      "sha256": "5ac1fa68810cec397d013875d534350bbf8f28d08eb0ed1d49912d253030e426",
+      "source_sha256": "5ac1fa68810cec397d013875d534350bbf8f28d08eb0ed1d49912d253030e426"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/PROJECT_STATE.md",
+      "delivery": "git",
+      "bytes": 47131,
+      "sha256": "16ba315669dba824283eb312927a91a231e0da416a9d3492a89c9f877cd11b5d",
+      "source_sha256": "16ba315669dba824283eb312927a91a231e0da416a9d3492a89c9f877cd11b5d"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/stereo_plot_data.csv",
+      "delivery": "git",
+      "bytes": 2315670,
+      "sha256": "020e06d1ca36ce849f6935ca63ad7f9281d07d3c0724b246ee844076f0fb8b9b",
+      "source_sha256": "020e06d1ca36ce849f6935ca63ad7f9281d07d3c0724b246ee844076f0fb8b9b"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/weather_plot_data.csv",
+      "delivery": "git",
+      "bytes": 460625,
+      "sha256": "7de32c29acf8f3729884a002ff133252ad6cab1b7a2da486b104ccc9d85a704d",
+      "source_sha256": "7de32c29acf8f3729884a002ff133252ad6cab1b7a2da486b104ccc9d85a704d"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/literature/APPROXIMATE_LANDING_NOVELTY_2026-10-13.md",
+      "delivery": "git",
+      "bytes": 5672,
+      "sha256": "ef06c27cc45b30f97ad3bc09198ff7b3a3794b8a3a9ad4233d1c872a39e9e31f",
+      "source_sha256": "ef06c27cc45b30f97ad3bc09198ff7b3a3794b8a3a9ad4233d1c872a39e9e31f"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/literature/LITERATURE_AND_COMPARISON.md",
+      "delivery": "git",
+      "bytes": 12772,
+      "sha256": "b167fb01d96631a749fde1cbb4a894ee257b14f0f5e0cc3520a984f26100431a",
+      "source_sha256": "b167fb01d96631a749fde1cbb4a894ee257b14f0f5e0cc3520a984f26100431a"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/EVIDENCE_REPORT.md",
+      "delivery": "git",
+      "bytes": 10403,
+      "sha256": "601cc3b9c93fb1315c01a393b0b5236eb92700b834ce449a0a2531d551319b64",
+      "source_sha256": "601cc3b9c93fb1315c01a393b0b5236eb92700b834ce449a0a2531d551319b64"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "delivery": "git",
+      "bytes": 13397,
+      "sha256": "ea22be6e2488bf4d322a2775a172f4ef4c2dad879c2bf6e431fb5c7fdabd3df0",
+      "source_sha256": "ea22be6e2488bf4d322a2775a172f4ef4c2dad879c2bf6e431fb5c7fdabd3df0"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/analysis.json",
+      "delivery": "git",
+      "bytes": 5716,
+      "sha256": "7e957b6c8cd42493f6809a49b7be917c147a1e147ecadeef98a64762259b2c42",
+      "source_sha256": "7e957b6c8cd42493f6809a49b7be917c147a1e147ecadeef98a64762259b2c42"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/clock_alignment.json",
+      "delivery": "git",
+      "bytes": 1292,
+      "sha256": "cf3250dafc6c559bb82b1d2a2073b008a69de16ca79bdd0a48aa1ca10b8279cb",
+      "source_sha256": "cf3250dafc6c559bb82b1d2a2073b008a69de16ca79bdd0a48aa1ca10b8279cb"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/delivery_manifest.json",
+      "delivery": "git",
+      "bytes": 10129,
+      "sha256": "db4ba3d890a36c27267e889576bc6b881fac70f5dbda327fdb1cdb24bccca5fa",
+      "source_sha256": "db4ba3d890a36c27267e889576bc6b881fac70f5dbda327fdb1cdb24bccca5fa"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/verification.json",
+      "delivery": "git",
+      "bytes": 2411,
+      "sha256": "bf93850ae01b3d5539b42e51af7f56238e73cebfae6536910f30793165892681",
+      "source_sha256": "bf93850ae01b3d5539b42e51af7f56238e73cebfae6536910f30793165892681"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/flight/README.md",
+      "delivery": "git",
+      "bytes": 8874,
+      "sha256": "2bb2c74851ac1d0f0b9bb91125eab70bdb1ce58da16ff1ddad7b042385801257",
+      "source_sha256": "2bb2c74851ac1d0f0b9bb91125eab70bdb1ce58da16ff1ddad7b042385801257"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/wind/README.md",
+      "delivery": "git",
+      "bytes": 7742,
+      "sha256": "7ef27fc02ccdac883402a4f7b530873ca2cec90ae218bd82b38073106a2257db",
+      "source_sha256": "7ef27fc02ccdac883402a4f7b530873ca2cec90ae218bd82b38073106a2257db"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/noaa/README.md",
+      "delivery": "git",
+      "bytes": 8995,
+      "sha256": "64c308501364f3d9d095cebfe4612cd927d4174c96d1baf0f9279cccf549dd81",
+      "source_sha256": "64c308501364f3d9d095cebfe4612cd927d4174c96d1baf0f9279cccf549dd81"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/noaa/acceptance_verification.json",
+      "delivery": "git",
+      "bytes": 1029,
+      "sha256": "f6a6f0bab428784570eb6f1e8ceada99ecb769c466cd21f6551dc1e1c8271471",
+      "source_sha256": "f6a6f0bab428784570eb6f1e8ceada99ecb769c466cd21f6551dc1e1c8271471"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/noaa/verification.json",
+      "delivery": "git",
+      "bytes": 6607,
+      "sha256": "fca349e456c1eae543c71d5cdd956106f48063ea7f77747a8ba48bc5d51534fb",
+      "source_sha256": "fca349e456c1eae543c71d5cdd956106f48063ea7f77747a8ba48bc5d51534fb"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/approximation/CLOSED_FORM_AND_BOUNDS.md",
+      "delivery": "git",
+      "bytes": 9984,
+      "sha256": "c9905b322a0f674e48a8f3461642648496a94ff57f6cb77eda7416af6bd16c3c",
+      "source_sha256": "c9905b322a0f674e48a8f3461642648496a94ff57f6cb77eda7416af6bd16c3c"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/approximation/SPEC.md",
+      "delivery": "git",
+      "bytes": 7969,
+      "sha256": "586cdc4cd0b69d20126a5c97e19cb39937426ff9ec58498cb45412df96a83165",
+      "source_sha256": "586cdc4cd0b69d20126a5c97e19cb39937426ff9ec58498cb45412df96a83165"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/approximation/STATUS.md",
+      "delivery": "git",
+      "bytes": 4895,
+      "sha256": "efe75955636f15e8a6b1635c9f10b9b3cabc0442199faa3565f0e590798debf7",
+      "source_sha256": "efe75955636f15e8a6b1635c9f10b9b3cabc0442199faa3565f0e590798debf7"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/approximation/parent_verification.json",
+      "delivery": "git",
+      "bytes": 789,
+      "sha256": "614bea92909e525f847dff84307cd65b91d7bba0375176ebec15accc35994922",
+      "source_sha256": "614bea92909e525f847dff84307cd65b91d7bba0375176ebec15accc35994922"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/approximation/reference_formula.json",
+      "delivery": "git",
+      "bytes": 4544,
+      "sha256": "95311d6d1857fc6330532dcce52cc58f03e20b489c3249a0da6cf3f14cea0c76",
+      "source_sha256": "95311d6d1857fc6330532dcce52cc58f03e20b489c3249a0da6cf3f14cea0c76"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/approximation/reference_outcomes.json",
+      "delivery": "git",
+      "bytes": 2715,
+      "sha256": "23a2e3c01c35a95d7d933cf87351a86c6e0eef2d69e821421cb60b60d9242c51",
+      "source_sha256": "23a2e3c01c35a95d7d933cf87351a86c6e0eef2d69e821421cb60b60d9242c51"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/analytical/coupled/RESULTS.md",
+      "delivery": "git",
+      "bytes": 10443,
+      "sha256": "386695fa71afc900113f123e7204966a64dfd43eb2db0faed4fb3577c30554fa",
+      "source_sha256": "386695fa71afc900113f123e7204966a64dfd43eb2db0faed4fb3577c30554fa"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/analytical/coupled/continuous_certificate_refined.json",
+      "delivery": "git",
+      "bytes": 202790,
+      "sha256": "774f34ad182a5015eeed799c910cde01eb6b297c1b4e6c4a119582b0d83db973",
+      "source_sha256": "774f34ad182a5015eeed799c910cde01eb6b297c1b4e6c4a119582b0d83db973"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/model/config.json",
+      "delivery": "git",
+      "bytes": 9059,
+      "sha256": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693",
+      "source_sha256": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/HANDOFF.json",
+      "delivery": "git",
+      "bytes": 4757,
+      "sha256": "f8deecf9c45d622e3b4fd6bcef7b4245a7e736d4364b02dec8a8004be96f7a34",
+      "source_sha256": "f8deecf9c45d622e3b4fd6bcef7b4245a7e736d4364b02dec8a8004be96f7a34"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/REPORT.md",
+      "delivery": "git",
+      "bytes": 10016,
+      "sha256": "6a06f484eeeb20e9b6ff35d0fcb12c74efc4d96a80fc08c480ae54405c7aa11d",
+      "source_sha256": "6a06f484eeeb20e9b6ff35d0fcb12c74efc4d96a80fc08c480ae54405c7aa11d"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/HANDOFF.json",
+      "delivery": "git",
+      "bytes": 8982,
+      "sha256": "9f22ab99f964c030608afa44283fe6e92f03f11d30938eb0c0a3a9d5068b9c62",
+      "source_sha256": "9f22ab99f964c030608afa44283fe6e92f03f11d30938eb0c0a3a9d5068b9c62"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/REPORT.md",
+      "delivery": "git",
+      "bytes": 11173,
+      "sha256": "18add497b2e88914395fab97877805cb0cb4201fe09355cb78b1abc6954f3893",
+      "source_sha256": "18add497b2e88914395fab97877805cb0cb4201fe09355cb78b1abc6954f3893"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/registration_report.md",
+      "delivery": "git",
+      "bytes": 6233,
+      "sha256": "c751bd91f98a4bcbdb78743d34be9ce97846fe35cca3c582e8abda15c8fcbb87",
+      "source_sha256": "c751bd91f98a4bcbdb78743d34be9ce97846fe35cca3c582e8abda15c8fcbb87"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/road_cell_parent_verification.json",
+      "delivery": "git",
+      "bytes": 359,
+      "sha256": "5b2cb57cbcee39c0de12193f3e85ea20e18f8f3a67b2f02b8226884b27bab816",
+      "source_sha256": "5b2cb57cbcee39c0de12193f3e85ea20e18f8f3a67b2f02b8226884b27bab816"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/road_cell_visual_observations.json",
+      "delivery": "git",
+      "bytes": 8585,
+      "sha256": "5e6c2446a3ac7c223748eec8465afe1c12efbe63c3de0f56aeb4899d3cf29706",
+      "source_sha256": "5e6c2446a3ac7c223748eec8465afe1c12efbe63c3de0f56aeb4899d3cf29706"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/validation.json",
+      "delivery": "git",
+      "bytes": 2872,
+      "sha256": "b8e3a0fd8e9717b724316f9bdcdad140cb2f14c71ae3bb9b800b5d43bb9c5c5d",
+      "source_sha256": "b8e3a0fd8e9717b724316f9bdcdad140cb2f14c71ae3bb9b800b5d43bb9c5c5d"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/scene/validation.json",
+      "delivery": "git",
+      "bytes": 835,
+      "sha256": "ab34f82f8fbaca0a515608b0ae3f44539263d5162e2fa088557618df7f2a7a0c",
+      "source_sha256": "ab34f82f8fbaca0a515608b0ae3f44539263d5162e2fa088557618df7f2a7a0c"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/scene/readable/verification.json",
+      "delivery": "git",
+      "bytes": 645,
+      "sha256": "32e41a87b5e7b59139bff586f54e14f61d26a4e6a8087eff5f1f4558c472b20a",
+      "source_sha256": "32e41a87b5e7b59139bff586f54e14f61d26a4e6a8087eff5f1f4558c472b20a"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "delivery": "git",
+      "bytes": 12241,
+      "sha256": "c6d92372417f56a8b017f8da56c0ed9d59d03eabf14efcc8fc9004137e2855e1",
+      "source_sha256": "c6d92372417f56a8b017f8da56c0ed9d59d03eabf14efcc8fc9004137e2855e1"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/dense_stereo_report.json",
+      "delivery": "git",
+      "bytes": 4425,
+      "sha256": "28ddf7ddff1f4a75e756a6beb3842ed8d6c8fd7e68d211a9e162cf94b72a6374",
+      "source_sha256": "28ddf7ddff1f4a75e756a6beb3842ed8d6c8fd7e68d211a9e162cf94b72a6374"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/observed_mesh_verification.json",
+      "delivery": "git",
+      "bytes": 1205,
+      "sha256": "a50c3ae569ce52d7c47a21bbe905f18fc4be233f4b311c5c225b08fe9ea42cc7",
+      "source_sha256": "a50c3ae569ce52d7c47a21bbe905f18fc4be233f4b311c5c225b08fe9ea42cc7"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json",
+      "delivery": "git",
+      "bytes": 2635,
+      "sha256": "ae7aa69c6ed42263bc6e060fb92133aaeed8e39f9909bdea48d99dc27986b394",
+      "source_sha256": "ae7aa69c6ed42263bc6e060fb92133aaeed8e39f9909bdea48d99dc27986b394"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/sparse_stereo_report.json",
+      "delivery": "git",
+      "bytes": 9195,
+      "sha256": "17c70dac3685c3f04eb9d01026aaf3c74ed32313e70755bb854f9afc58377bc9",
+      "source_sha256": "17c70dac3685c3f04eb9d01026aaf3c74ed32313e70755bb854f9afc58377bc9"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/stereo_verification.json",
+      "delivery": "git",
+      "bytes": 1819,
+      "sha256": "1aa46915a083962a3cc7a60065ceaba113d69ed9effb27f83cd8e67c98b470ec",
+      "source_sha256": "1aa46915a083962a3cc7a60065ceaba113d69ed9effb27f83cd8e67c98b470ec"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/REPORT.md",
+      "delivery": "git",
+      "bytes": 9285,
+      "sha256": "deb41f43c3473b0ce6e7f786cdd5f12f730c71a0c03c12abb672810da306539c",
+      "source_sha256": "deb41f43c3473b0ce6e7f786cdd5f12f730c71a0c03c12abb672810da306539c"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/SCOPE_AUDIT.md",
+      "delivery": "git",
+      "bytes": 5346,
+      "sha256": "d7df7768b51f2f8c172c0cd2c1a7f1f49962cb8a0ffb5744f55222ce7f3d0477",
+      "source_sha256": "d7df7768b51f2f8c172c0cd2c1a7f1f49962cb8a0ffb5744f55222ce7f3d0477"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/SPEC.md",
+      "delivery": "git",
+      "bytes": 8500,
+      "sha256": "aa42d0e9812ac35d9dc3f2823beb8e535b82597c0dee5dd0cee9c5487579697f",
+      "source_sha256": "aa42d0e9812ac35d9dc3f2823beb8e535b82597c0dee5dd0cee9c5487579697f"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/calculate.py",
+      "delivery": "git",
+      "bytes": 10775,
+      "sha256": "c9b77777356cd93cf14f97d57289bab489e109525c4056abf44111afb29be605",
+      "source_sha256": "c9b77777356cd93cf14f97d57289bab489e109525c4056abf44111afb29be605"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/continuous.py",
+      "delivery": "git",
+      "bytes": 10472,
+      "sha256": "c220e280115238c7f42779236a1bf41fe29e786cc58d6c6830d3fc35f7db8a8c",
+      "source_sha256": "c220e280115238c7f42779236a1bf41fe29e786cc58d6c6830d3fc35f7db8a8c"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/continuous_check.json",
+      "delivery": "git",
+      "bytes": 28062,
+      "sha256": "3631409dfc2fef2c0b8e6bf40d77143358b0bc6ced7c30261c620ce58f228f36",
+      "source_sha256": "3631409dfc2fef2c0b8e6bf40d77143358b0bc6ced7c30261c620ce58f228f36"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/deliver.py",
+      "delivery": "git",
+      "bytes": 11844,
+      "sha256": "30dab99db968f3d9ea3308d6d22f294b78b0ff73d47a2de682c38c51d13e36dd",
+      "source_sha256": "30dab99db968f3d9ea3308d6d22f294b78b0ff73d47a2de682c38c51d13e36dd"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/delivery_manifest.json",
+      "delivery": "git",
+      "bytes": 1941,
+      "sha256": "8f01b9abb6b0f40ca40d25b871e8102a4509504a9b2805d440c85ef4aa52f95e",
+      "source_sha256": "8f01b9abb6b0f40ca40d25b871e8102a4509504a9b2805d440c85ef4aa52f95e"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/formula.json",
+      "delivery": "git",
+      "bytes": 2024,
+      "sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a",
+      "source_sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/inputs.json",
+      "delivery": "git",
+      "bytes": 11586,
+      "sha256": "5e498fee46936c4a53a908ec255d34b83c4894af223aff10bfbd8610605f088b",
+      "source_sha256": "5e498fee46936c4a53a908ec255d34b83c4894af223aff10bfbd8610605f088b"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/path_controls.csv",
+      "delivery": "git",
+      "bytes": 595676,
+      "sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640",
+      "source_sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/result.json",
+      "delivery": "git",
+      "bytes": 8012,
+      "sha256": "49296dd026b3f0702fb672264c2c5524221a38acbf60631b6b8581e6c0b7bfe8",
+      "source_sha256": "49296dd026b3f0702fb672264c2c5524221a38acbf60631b6b8581e6c0b7bfe8"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/search_checkpoint.json",
+      "delivery": "git",
+      "bytes": 10582,
+      "sha256": "4cedc557b9ed80c8e52d61f14bff6aacf5b69fdc1046f692fc3b53aa264a13e6",
+      "source_sha256": "4cedc557b9ed80c8e52d61f14bff6aacf5b69fdc1046f692fc3b53aa264a13e6"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/search_state.json",
+      "delivery": "git",
+      "bytes": 165,
+      "sha256": "3756d4a88c11bfae4fbd7764e17b1a07f5c72e2abbe75fe2f92c93764bcd7493",
+      "source_sha256": "3756d4a88c11bfae4fbd7764e17b1a07f5c72e2abbe75fe2f92c93764bcd7493"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/selected.json",
+      "delivery": "git",
+      "bytes": 5058,
+      "sha256": "9d8b40c750caea97f45f894f314e47f4ae934d577f4a5014c8a35b4f04defe64",
+      "source_sha256": "9d8b40c750caea97f45f894f314e47f4ae934d577f4a5014c8a35b4f04defe64"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/test_counterfactual.py",
+      "delivery": "git",
+      "bytes": 10151,
+      "sha256": "66589ebeae8ff8d64fafa91499a7ab4df91be215a931929d16b4a3967e5ebed7",
+      "source_sha256": "66589ebeae8ff8d64fafa91499a7ab4df91be215a931929d16b4a3967e5ebed7"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/verification.json",
+      "delivery": "git",
+      "bytes": 949,
+      "sha256": "9a22ee599829be5de129883483d89cd8c5ca88ee8606cfe33a146bce7c052264",
+      "source_sha256": "9a22ee599829be5de129883483d89cd8c5ca88ee8606cfe33a146bce7c052264"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/verify_delivery.py",
+      "delivery": "git",
+      "bytes": 2542,
+      "sha256": "e99ccee20cda1ef54a34a4631ce3d0240be1404d7e502f7042f71bc88826a082",
+      "source_sha256": "e99ccee20cda1ef54a34a4631ce3d0240be1404d7e502f7042f71bc88826a082"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/reviews/DISPOSITION.md",
+      "delivery": "git",
+      "bytes": 1999,
+      "sha256": "9f5d9410b58e530cdf40873454d78208aba1d370d03255b2dcb26810b8c66b4d",
+      "source_sha256": "9f5d9410b58e530cdf40873454d78208aba1d370d03255b2dcb26810b8c66b4d"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/reviews/acceptance.md",
+      "delivery": "git",
+      "bytes": 4625,
+      "sha256": "1fa8704467f7fb469131d2207067ea29c7755e3787f80368f554f30d6b04a653",
+      "source_sha256": "1fa8704467f7fb469131d2207067ea29c7755e3787f80368f554f30d6b04a653"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/reviews/parent_certificate_check.json",
+      "delivery": "git",
+      "bytes": 309,
+      "sha256": "e3675cf3a42000ed7caed90660f036dce22c9e68440435cd717544bdd5e9c083",
+      "source_sha256": "e3675cf3a42000ed7caed90660f036dce22c9e68440435cd717544bdd5e9c083"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/reviews/parent_final_verification.json",
+      "delivery": "git",
+      "bytes": 1037,
+      "sha256": "2375724bc41568b3b89d15f593d314f0e60d60caa539b22e4fb9b979ff5458c2",
+      "source_sha256": "2375724bc41568b3b89d15f593d314f0e60d60caa539b22e4fb9b979ff5458c2"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/geospatial/README.md",
+      "delivery": "git",
+      "bytes": 6664,
+      "sha256": "1ac992bf7838fa3476067ec43c9682bcda2d62d5c9eeb04180f291060d7a7788",
+      "source_sha256": "1ac992bf7838fa3476067ec43c9682bcda2d62d5c9eeb04180f291060d7a7788"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/document_checks.json",
+      "delivery": "git",
+      "bytes": 517,
+      "sha256": "0f8f9c46e5dde25a12ef793a85d083a7a7f43c978891928bf5e4a301d3820bbc",
+      "source_sha256": "0f8f9c46e5dde25a12ef793a85d083a7a7f43c978891928bf5e4a301d3820bbc"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/figure_checks.json",
+      "delivery": "git",
+      "bytes": 977,
+      "sha256": "1f300b33ab127b3728595a120e4e71a3a7dd7e7380b5c15e2d6bd0ed75fd17dc",
+      "source_sha256": "1f300b33ab127b3728595a120e4e71a3a7dd7e7380b5c15e2d6bd0ed75fd17dc"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/fresh_counterfactual_test.json",
+      "delivery": "git",
+      "bytes": 277,
+      "sha256": "f86d255419896127e7346f737ccb9415f905cff7dc176d6d03033dfe6543b5c9",
+      "source_sha256": "f86d255419896127e7346f737ccb9415f905cff7dc176d6d03033dfe6543b5c9"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/source_handoff_checks.json",
+      "delivery": "git",
+      "bytes": 1167,
+      "sha256": "5ed443b9a39e50ff3a04bb20b4bbff36c39f5ea95a8a3acc855cd207449bdd2a",
+      "source_sha256": "5ed443b9a39e50ff3a04bb20b4bbff36c39f5ea95a8a3acc855cd207449bdd2a"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/visual_review.json",
+      "delivery": "git",
+      "bytes": 512,
+      "sha256": "e30930ad841675000ded01107aa31b0bc76114c8ce18cd545569942398c8b1bd",
+      "source_sha256": "e30930ad841675000ded01107aa31b0bc76114c8ce18cd545569942398c8b1bd"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/figures/historical_stopping.pdf",
+      "delivery": "git",
+      "bytes": 15114,
+      "sha256": "89ff5543e114082e88b7d5ea17aa3c728dfd9b2ea767ba2972fe84684e4c1d47",
+      "source_sha256": "89ff5543e114082e88b7d5ea17aa3c728dfd9b2ea767ba2972fe84684e4c1d47"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/figures/historical_support.pdf",
+      "delivery": "git",
+      "bytes": 73609,
+      "sha256": "8160e7d752354d6fcc28c7cb81776eb70763d0e0c4c2e7c22a8065c6c1199709",
+      "source_sha256": "8160e7d752354d6fcc28c7cb81776eb70763d0e0c4c2e7c22a8065c6c1199709"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/figures/scenario_comparison.pdf",
+      "delivery": "git",
+      "bytes": 20287,
+      "sha256": "53edb16e7424c1b0e71146f1f0efe31a36bf46360b11ff44c28266e311d46e3a",
+      "source_sha256": "53edb16e7424c1b0e71146f1f0efe31a36bf46360b11ff44c28266e311d46e3a"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/figures/stopping_boundary.pdf",
+      "delivery": "git",
+      "bytes": 21355,
+      "sha256": "75f302320f18dbedccd4b232be6124e72d5392161f420767e6d1c504dc3bf682",
+      "source_sha256": "75f302320f18dbedccd4b232be6124e72d5392161f420767e6d1c504dc3bf682"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/figures/synthetic_trajectory.pdf",
+      "delivery": "git",
+      "bytes": 20359,
+      "sha256": "211d6d509869919396632dbac1397d080dca9f54c4605f748d939be175b09837",
+      "source_sha256": "211d6d509869919396632dbac1397d080dca9f54c4605f748d939be175b09837"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/figures/weather_context.pdf",
+      "delivery": "git",
+      "bytes": 14052,
+      "sha256": "71759acd364284d6c38b0135698fa30c296a213d55da08ab6861ff9980855f3f",
+      "source_sha256": "71759acd364284d6c38b0135698fa30c296a213d55da08ab6861ff9980855f3f"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/figures/wind_landing.pdf",
+      "delivery": "git",
+      "bytes": 21961,
+      "sha256": "9cc6943c61829ac8295c23c73384c0ab8ef7f47e62c50bedb623a712c159ab66",
+      "source_sha256": "9cc6943c61829ac8295c23c73384c0ab8ef7f47e62c50bedb623a712c159ab66"
     },
     {
       "path": "research/checkers-runway13/foundations/MATHEMATICAL_FOUNDATIONS.md",
@@ -1292,6 +2547,447 @@
       "bytes": 367,
       "sha256": "c7a6a626c7cdffdb187dcabbc83d4b609763a650e98dfe4659437d9654353761",
       "source_sha256": "c7a6a626c7cdffdb187dcabbc83d4b609763a650e98dfe4659437d9654353761"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/REPORT.md",
+      "delivery": "git",
+      "bytes": 6319,
+      "sha256": "617f6866f6bfaf9e9113a65f49f8539619a6e8528f7a8b892a612e1adc96fa55",
+      "source_sha256": "617f6866f6bfaf9e9113a65f49f8539619a6e8528f7a8b892a612e1adc96fa55"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/SPEC.md",
+      "delivery": "git",
+      "bytes": 7050,
+      "sha256": "da0a238d5fa12247f238353a412a293a888b4bca9657b3f34229f84c6b235196",
+      "source_sha256": "da0a238d5fa12247f238353a412a293a888b4bca9657b3f34229f84c6b235196"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/build_obstacles.py",
+      "delivery": "git",
+      "bytes": 23964,
+      "sha256": "55b542da35712292518c57790b1241b037fb38ef8f911c3b6d1790a78a99dcf1",
+      "source_sha256": "55b542da35712292518c57790b1241b037fb38ef8f911c3b6d1790a78a99dcf1"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/extract_observations.py",
+      "delivery": "git",
+      "bytes": 6592,
+      "sha256": "b28bb6a31bd5cad21e84c28a4c3266686404ea541e43ef9fc8a547e163dc6ae2",
+      "source_sha256": "b28bb6a31bd5cad21e84c28a4c3266686404ea541e43ef9fc8a547e163dc6ae2"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/inspection_receipt.json",
+      "delivery": "git",
+      "bytes": 2361,
+      "sha256": "eabd3efaf44103b9d979f572012ba029d4fd894a348b5d53e0a544c9011bf639",
+      "source_sha256": "eabd3efaf44103b9d979f572012ba029d4fd894a348b5d53e0a544c9011bf639"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/observations.json",
+      "delivery": "git",
+      "bytes": 27629,
+      "sha256": "af990de7bb002418f93dd349d0764b4aea33a285dd73eacaae23adb6f4eb376d",
+      "source_sha256": "af990de7bb002418f93dd349d0764b4aea33a285dd73eacaae23adb6f4eb376d"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/obstacle_evidence.geojson",
+      "delivery": "git",
+      "bytes": 85601,
+      "sha256": "ac3ab63f3c516b8dfa1e18c4be64082fccfd0986979df0619fcc5fe3effb2a30",
+      "source_sha256": "ac3ab63f3c516b8dfa1e18c4be64082fccfd0986979df0619fcc5fe3effb2a30"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/prepare_sources.py",
+      "delivery": "git",
+      "bytes": 2434,
+      "sha256": "33ae69bfdfc9485e6f71cbfdf8dda308988fdec97c878d46d04460851d90d5e4",
+      "source_sha256": "33ae69bfdfc9485e6f71cbfdf8dda308988fdec97c878d46d04460851d90d5e4"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/preserved_inputs.json",
+      "delivery": "git",
+      "bytes": 612,
+      "sha256": "65dd5259a7edeb9f5d3aca1b6fbcfec0e0add24203145eefcbec1a411f764dda",
+      "source_sha256": "65dd5259a7edeb9f5d3aca1b6fbcfec0e0add24203145eefcbec1a411f764dda"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/readiness.json",
+      "delivery": "git",
+      "bytes": 9456,
+      "sha256": "8ff9e652fa4ec809207cbadff0eee6e525ef17a740cf85d530879bdb698b519c",
+      "source_sha256": "8ff9e652fa4ec809207cbadff0eee6e525ef17a740cf85d530879bdb698b519c"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/test_obstacles.py",
+      "delivery": "git",
+      "bytes": 21496,
+      "sha256": "5ed7b98bdcfc332b0c1c44073c6b5a1fd265cb32b9c68b60ec3361eda5db2bcf",
+      "source_sha256": "5ed7b98bdcfc332b0c1c44073c6b5a1fd265cb32b9c68b60ec3361eda5db2bcf"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/unresolved_footprints.geojson",
+      "delivery": "git",
+      "bytes": 337765,
+      "sha256": "b78d5754894cb75975c0a58cddcd1178dcc4ecc449444e5218b506993b091a85",
+      "source_sha256": "b78d5754894cb75975c0a58cddcd1178dcc4ecc449444e5218b506993b091a85"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/verification.json",
+      "delivery": "git",
+      "bytes": 6100,
+      "sha256": "60b90700a101d87477f27d836fb5e30664f205a13de37eb6b3d8cddc89211cd5",
+      "source_sha256": "60b90700a101d87477f27d836fb5e30664f205a13de37eb6b3d8cddc89211cd5"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/aviation_sources/REPORT.md",
+      "delivery": "git",
+      "bytes": 3084,
+      "sha256": "6c134df4cb5609fc0e599742c5d23b6b3e76ca6dcf6272568a0efcc945124d3c",
+      "source_sha256": "6c134df4cb5609fc0e599742c5d23b6b3e76ca6dcf6272568a0efcc945124d3c"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/aviation_sources/manifest.json",
+      "delivery": "git",
+      "bytes": 2348,
+      "sha256": "5633b55fb7409ffce377f562596f07977f53a85dcaca456eb6f5807c2c8b3624",
+      "source_sha256": "5633b55fb7409ffce377f562596f07977f53a85dcaca456eb6f5807c2c8b3624"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/aviation_sources/source_observations.json",
+      "delivery": "git",
+      "bytes": 11554,
+      "sha256": "60025f23332193f547b5299aa94d52412f60300b7cbe20b11560e00ed9bbfed3",
+      "source_sha256": "60025f23332193f547b5299aa94d52412f60300b7cbe20b11560e00ed9bbfed3"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-10D_1989-11_core.json",
+      "delivery": "git",
+      "bytes": 843,
+      "sha256": "075681294ff233346738838328701633e327e7598dde5bca132279dd4e45469f",
+      "source_sha256": "075681294ff233346738838328701633e327e7598dde5bca132279dd4e45469f"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-10D_1989-11_core.png",
+      "delivery": "supporting-data",
+      "bytes": 3400764,
+      "sha256": "eff531728f784c4d442ebe75000cb8777b403a133502fc5466da44d33a4c397d",
+      "source_sha256": "eff531728f784c4d442ebe75000cb8777b403a133502fc5466da44d33a4c397d"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-10D_1989-11_core.tif",
+      "delivery": "supporting-data",
+      "bytes": 2906295,
+      "sha256": "9ad622eb84621e350d2e9c99eabccd6f4c7b8be3b16e82d1bf3709673f984dce",
+      "source_sha256": "9ad622eb84621e350d2e9c99eabccd6f4c7b8be3b16e82d1bf3709673f984dce"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-10D_1995-06_core.json",
+      "delivery": "git",
+      "bytes": 843,
+      "sha256": "ccc66ec1087b01766180996ab544889fc6de5bc44bae06eeb4e6f7f1513aaca6",
+      "source_sha256": "ccc66ec1087b01766180996ab544889fc6de5bc44bae06eeb4e6f7f1513aaca6"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-10D_1995-06_core.png",
+      "delivery": "supporting-data",
+      "bytes": 2866356,
+      "sha256": "0e1fdc3513bfc46a9e145eac294487ce97fe25bae0ac57af4b9eca470674226f",
+      "source_sha256": "0e1fdc3513bfc46a9e145eac294487ce97fe25bae0ac57af4b9eca470674226f"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-10D_1995-06_core.tif",
+      "delivery": "supporting-data",
+      "bytes": 2443375,
+      "sha256": "755300ec9a754e6bfecfcade7c31b2d4172a070bf8c9d78fa7ea52752329f00e",
+      "source_sha256": "755300ec9a754e6bfecfcade7c31b2d4172a070bf8c9d78fa7ea52752329f00e"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-15B_1989-11_core.json",
+      "delivery": "git",
+      "bytes": 843,
+      "sha256": "13134b724932371db9a1f3478c40ee4dcaa1e2bc0b88a3b080671e64518069fa",
+      "source_sha256": "13134b724932371db9a1f3478c40ee4dcaa1e2bc0b88a3b080671e64518069fa"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-15B_1989-11_core.png",
+      "delivery": "supporting-data",
+      "bytes": 2744231,
+      "sha256": "bb3916721ee42c0abc3f439eb928ecf942a9b1c5adba200069ac9d8d929f2d1a",
+      "source_sha256": "bb3916721ee42c0abc3f439eb928ecf942a9b1c5adba200069ac9d8d929f2d1a"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-15B_1989-11_core.tif",
+      "delivery": "supporting-data",
+      "bytes": 2261633,
+      "sha256": "701e9e2a73f5d31d8e7b089cb4d29149148d663f8510e2bb4c5c09d8a77ddd6f",
+      "source_sha256": "701e9e2a73f5d31d8e7b089cb4d29149148d663f8510e2bb4c5c09d8a77ddd6f"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-15B_1994-03_core.json",
+      "delivery": "git",
+      "bytes": 843,
+      "sha256": "a2e3cb93038a619af760e1e3e42eaffdbe52316395dfa797d70143736a61ea68",
+      "source_sha256": "a2e3cb93038a619af760e1e3e42eaffdbe52316395dfa797d70143736a61ea68"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-15B_1994-03_core.png",
+      "delivery": "supporting-data",
+      "bytes": 2532149,
+      "sha256": "d53a73665cf09bd29a660bf723da37adc6644daee7189afc87c8d368a64673ef",
+      "source_sha256": "d53a73665cf09bd29a660bf723da37adc6644daee7189afc87c8d368a64673ef"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-15B_1994-03_core.tif",
+      "delivery": "supporting-data",
+      "bytes": 2078001,
+      "sha256": "692df70603773ab7b684fe2b3941b871d721beefb09001d601a82c0f4f906dcc",
+      "source_sha256": "692df70603773ab7b684fe2b3941b871d721beefb09001d601a82c0f4f906dcc"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/1292_hill_east_lower_path.png",
+      "delivery": "git",
+      "bytes": 10235,
+      "sha256": "5bf8fc22b823ca994bd83da22509c6b211c71b7a0b48c87c82884aad6e6cb04f",
+      "source_sha256": "5bf8fc22b823ca994bd83da22509c6b211c71b7a0b48c87c82884aad6e6cb04f"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/1292_hill_east_path_junction.png",
+      "delivery": "git",
+      "bytes": 10083,
+      "sha256": "83b3e599a21926e09c50f476a1720729ec79b05ffb960d38253f2ccb175c6a7c",
+      "source_sha256": "83b3e599a21926e09c50f476a1720729ec79b05ffb960d38253f2ccb175c6a7c"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/1292_hill_east_round_path.png",
+      "delivery": "git",
+      "bytes": 9517,
+      "sha256": "8eaca82a15b936a580a0561c6777f295ddb1f6b0ce383c5d631caeae4d8e592d",
+      "source_sha256": "8eaca82a15b936a580a0561c6777f295ddb1f6b0ce383c5d631caeae4d8e592d"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/1292_hill_east_upper_path.png",
+      "delivery": "git",
+      "bytes": 6972,
+      "sha256": "b6aa5773d9060c2c60bfb6900fa911d7a3651eef0dec1a38b11829e7b3e0ee09",
+      "source_sha256": "b6aa5773d9060c2c60bfb6900fa911d7a3651eef0dec1a38b11829e7b3e0ee09"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/1292_hill_latrine_surround.png",
+      "delivery": "git",
+      "bytes": 13254,
+      "sha256": "8bae1c6c212a18b508da0b194caafad54908da7e56583eb03d46f7aa0c89e26b",
+      "source_sha256": "8bae1c6c212a18b508da0b194caafad54908da7e56583eb03d46f7aa0c89e26b"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/1292_radar_site_east_ground.png",
+      "delivery": "git",
+      "bytes": 6784,
+      "sha256": "466c3873cbffc6cd95f9e5ac18b7c97a160f875ab70179c89ca9b6742a4d8173",
+      "source_sha256": "466c3873cbffc6cd95f9e5ac18b7c97a160f875ab70179c89ca9b6742a4d8173"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/1292_radar_site_north_ground.png",
+      "delivery": "git",
+      "bytes": 3026,
+      "sha256": "6d8e1fb71813f6586aedee990153e35f95d4088fff1a5537328d86a2d42fd8ee",
+      "source_sha256": "6d8e1fb71813f6586aedee990153e35f95d4088fff1a5537328d86a2d42fd8ee"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/1292_radar_site_south_ground.png",
+      "delivery": "git",
+      "bytes": 7745,
+      "sha256": "f055d6412435a0dc25e51357811d7b9ddef0a6f4a788a7b5f4acc4e275cb15c4",
+      "source_sha256": "f055d6412435a0dc25e51357811d7b9ddef0a6f4a788a7b5f4acc4e275cb15c4"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/1292_radar_site_southeast_ground.png",
+      "delivery": "git",
+      "bytes": 8440,
+      "sha256": "ce93ec6c0fe234b7ce7f3713d26d8bf07e69b3be1f3081b2e5ab2d4e9a905df0",
+      "source_sha256": "ce93ec6c0fe234b7ce7f3713d26d8bf07e69b3be1f3081b2e5ab2d4e9a905df0"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/1292_radar_site_west_ground.png",
+      "delivery": "git",
+      "bytes": 10385,
+      "sha256": "04577742fdc4c14c33e5e699d91e0e3b9cf29aafa9b612654e260a7ac6ed27ea",
+      "source_sha256": "04577742fdc4c14c33e5e699d91e0e3b9cf29aafa9b612654e260a7ac6ed27ea"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/1292_reservoir_garden_north.png",
+      "delivery": "git",
+      "bytes": 1691,
+      "sha256": "0a10c311829f6b8c1c2ae7e9627f5df0cd668e2e8f100f445d99d6a9c9ea12ed",
+      "source_sha256": "0a10c311829f6b8c1c2ae7e9627f5df0cd668e2e8f100f445d99d6a9c9ea12ed"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/1292_reservoir_garden_south.png",
+      "delivery": "git",
+      "bytes": 4879,
+      "sha256": "76663141d57083098e64c461540659edd23b31b8281c5fa45e16b7c8f13cd976",
+      "source_sha256": "76663141d57083098e64c461540659edd23b31b8281c5fa45e16b7c8f13cd976"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/1293_hill_east_lower_path.png",
+      "delivery": "git",
+      "bytes": 9500,
+      "sha256": "1ff0f4b3505f03cea5fba132cae83c86312efd16ce082d3d3cc7debc25169228",
+      "source_sha256": "1ff0f4b3505f03cea5fba132cae83c86312efd16ce082d3d3cc7debc25169228"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/1293_hill_east_path_junction.png",
+      "delivery": "git",
+      "bytes": 9258,
+      "sha256": "89f37a4adfa2af78fa95bf2dd43c3e4a2f77b50bb67fd760a503245c0093dd86",
+      "source_sha256": "89f37a4adfa2af78fa95bf2dd43c3e4a2f77b50bb67fd760a503245c0093dd86"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/1293_hill_east_round_path.png",
+      "delivery": "git",
+      "bytes": 8995,
+      "sha256": "cfa19143c5255be7347f548d14f98c427a804b95de1de8c8c480f48b4e874b96",
+      "source_sha256": "cfa19143c5255be7347f548d14f98c427a804b95de1de8c8c480f48b4e874b96"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/1293_hill_east_upper_path.png",
+      "delivery": "git",
+      "bytes": 6334,
+      "sha256": "a7bc7907f7bfeade1776146e32cad06e5083534a2302b6a8964c92ee2ca7d613",
+      "source_sha256": "a7bc7907f7bfeade1776146e32cad06e5083534a2302b6a8964c92ee2ca7d613"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/1293_hill_latrine_surround.png",
+      "delivery": "git",
+      "bytes": 12765,
+      "sha256": "7e25c3da5890540c03ee2f0ce20823c899b50601c747350c758a3cd7b8423e3a",
+      "source_sha256": "7e25c3da5890540c03ee2f0ce20823c899b50601c747350c758a3cd7b8423e3a"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/1293_radar_site_east_ground.png",
+      "delivery": "git",
+      "bytes": 5576,
+      "sha256": "6e6e5007229cdc93a29870588d43adbfba7a7b96a87499af1dcd8e37e43a8ddf",
+      "source_sha256": "6e6e5007229cdc93a29870588d43adbfba7a7b96a87499af1dcd8e37e43a8ddf"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/1293_radar_site_north_ground.png",
+      "delivery": "git",
+      "bytes": 2526,
+      "sha256": "13d224d899e40bedc0eec79f3562f6adce614f87f8f9d496fcae6a051e325d49",
+      "source_sha256": "13d224d899e40bedc0eec79f3562f6adce614f87f8f9d496fcae6a051e325d49"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/1293_radar_site_south_ground.png",
+      "delivery": "git",
+      "bytes": 6793,
+      "sha256": "0e9dd40c5294539e2acc53582e7d3d2bf1704ace3ed6e08737d1cb95f7681c80",
+      "source_sha256": "0e9dd40c5294539e2acc53582e7d3d2bf1704ace3ed6e08737d1cb95f7681c80"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/1293_radar_site_southeast_ground.png",
+      "delivery": "git",
+      "bytes": 7498,
+      "sha256": "336a7f4cb52171e2e3c15c183cb34046f5d53f579c37a6df74b40993348ff4b5",
+      "source_sha256": "336a7f4cb52171e2e3c15c183cb34046f5d53f579c37a6df74b40993348ff4b5"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/1293_radar_site_west_ground.png",
+      "delivery": "git",
+      "bytes": 9413,
+      "sha256": "53be0b8040e70b49b1ce58835096ccb17e5e76ce34e6ae012bb923fb668d6d95",
+      "source_sha256": "53be0b8040e70b49b1ce58835096ccb17e5e76ce34e6ae012bb923fb668d6d95"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/1293_reservoir_garden_north.png",
+      "delivery": "git",
+      "bytes": 1843,
+      "sha256": "900021b37f8841f722f67516a52a459ac07e1fc17486ca6af7e45c46c21f5897",
+      "source_sha256": "900021b37f8841f722f67516a52a459ac07e1fc17486ca6af7e45c46c21f5897"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/1293_reservoir_garden_south.png",
+      "delivery": "git",
+      "bytes": 4428,
+      "sha256": "9fbdacc432d2c8de1894b68bb98f2ff4b0bc700f81213b7702af3dc077de4af5",
+      "source_sha256": "9fbdacc432d2c8de1894b68bb98f2ff4b0bc700f81213b7702af3dc077de4af5"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/hill_detail_1989-11.png",
+      "delivery": "git",
+      "bytes": 535300,
+      "sha256": "1b3153986c96680f7dec0444a7bd276d02d5a04d542b71acd80c5b73e026069c",
+      "source_sha256": "1b3153986c96680f7dec0444a7bd276d02d5a04d542b71acd80c5b73e026069c"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/hill_detail_1995-06.png",
+      "delivery": "git",
+      "bytes": 495637,
+      "sha256": "ada18438d0de3a4f2ea8f99cf988b4def3b196847a6651e84e0f6005d8f09ab8",
+      "source_sha256": "ada18438d0de3a4f2ea8f99cf988b4def3b196847a6651e84e0f6005d8f09ab8"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/hill_full_sheet.png",
+      "delivery": "git",
+      "bytes": 1321072,
+      "sha256": "e94127f56ecf28c6005e9facb2bd88d846492833e947694df4ea2dc549c0ad31",
+      "source_sha256": "e94127f56ecf28c6005e9facb2bd88d846492833e947694df4ea2dc549c0ad31"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/legend_1292.png",
+      "delivery": "git",
+      "bytes": 98855,
+      "sha256": "21ee4958f3922fa048711d80fb8aa405982055aaf2e43b4c75f23e676ee9fe60",
+      "source_sha256": "21ee4958f3922fa048711d80fb8aa405982055aaf2e43b4c75f23e676ee9fe60"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/legend_1293.png",
+      "delivery": "git",
+      "bytes": 82297,
+      "sha256": "237daf313bf9e15ef114d090331203e7605e5ca97c9428e5b164671873978267",
+      "source_sha256": "237daf313bf9e15ef114d090331203e7605e5ca97c9428e5b164671873978267"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/raw_hill_1292.png",
+      "delivery": "git",
+      "bytes": 439219,
+      "sha256": "3d1eb73609da5c7105c4ea7c4910037f889849f521de0872401a50c16325f517",
+      "source_sha256": "3d1eb73609da5c7105c4ea7c4910037f889849f521de0872401a50c16325f517"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/raw_hill_1293.png",
+      "delivery": "git",
+      "bytes": 357505,
+      "sha256": "7c58dd5d40d82d28ac3987bf9ab7105ef470c86b5a70b1d1a352e58bbfdad168",
+      "source_sha256": "7c58dd5d40d82d28ac3987bf9ab7105ef470c86b5a70b1d1a352e58bbfdad168"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/spot_inspection_1292.png",
+      "delivery": "git",
+      "bytes": 308808,
+      "sha256": "4b8aaef839cb789d76620fe2f80fd0b5fdf0f2cae8fd262c6f9332bee1e75371",
+      "source_sha256": "4b8aaef839cb789d76620fe2f80fd0b5fdf0f2cae8fd262c6f9332bee1e75371"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/spot_inspection_1293.png",
+      "delivery": "git",
+      "bytes": 292398,
+      "sha256": "86789b3f26b6fd738c7a75d043a465924ec231a28c5cd95597097a25ba8d9f32",
+      "source_sha256": "86789b3f26b6fd738c7a75d043a465924ec231a28c5cd95597097a25ba8d9f32"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/sources/manifest.json",
+      "delivery": "git",
+      "bytes": 564,
+      "sha256": "529fee4eaf81389527f7fceada5894d44fe629a107ae3fffa0645e3543e8af73",
+      "source_sha256": "529fee4eaf81389527f7fceada5894d44fe629a107ae3fffa0645e3543e8af73"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/reviews/change_snapshot.txt",
+      "delivery": "git",
+      "bytes": 91896,
+      "sha256": "67b56b1ebd654e8c8fded0bc855bc74d8508f3dbaec8f91695b8706dc97b273a",
+      "source_sha256": "67b56b1ebd654e8c8fded0bc855bc74d8508f3dbaec8f91695b8706dc97b273a"
     },
     {
       "path": "research/checkers-runway13/reconstruction/chronology/HANDOFF.json",
@@ -8063,25 +9759,32 @@
       "source_sha256": "a374fa273d26c570f6b33de447141ae560e85ecec1aeb5f16a5a210e51dc034f"
     },
     {
+      "path": "research/checkers-runway13/reconstruction/block_matching/HANDOFF.json",
+      "delivery": "git",
+      "bytes": 8982,
+      "sha256": "9f22ab99f964c030608afa44283fe6e92f03f11d30938eb0c0a3a9d5068b9c62",
+      "source_sha256": "9f22ab99f964c030608afa44283fe6e92f03f11d30938eb0c0a3a9d5068b9c62"
+    },
+    {
       "path": "research/checkers-runway13/reconstruction/block_matching/MODEL_REQUIREMENTS_TRACEABILITY.md",
       "delivery": "git",
-      "bytes": 2178,
-      "sha256": "bc29d712c2be7b97ea5f1542db7805429c676d3c8cbe08d7a4b9bd81076c337b",
-      "source_sha256": "bc29d712c2be7b97ea5f1542db7805429c676d3c8cbe08d7a4b9bd81076c337b"
+      "bytes": 2283,
+      "sha256": "d13a42d3ee32263cb3845c483fbe05a5c4ad431c4451ca610005437d0c41cd78",
+      "source_sha256": "d13a42d3ee32263cb3845c483fbe05a5c4ad431c4451ca610005437d0c41cd78"
     },
     {
       "path": "research/checkers-runway13/reconstruction/block_matching/REPORT.md",
       "delivery": "git",
-      "bytes": 9876,
-      "sha256": "cff6b727f63034d04f8124babc189a360b0b7f63645c148d9481dfcc42b50915",
-      "source_sha256": "cff6b727f63034d04f8124babc189a360b0b7f63645c148d9481dfcc42b50915"
+      "bytes": 11173,
+      "sha256": "18add497b2e88914395fab97877805cb0cb4201fe09355cb78b1abc6954f3893",
+      "source_sha256": "18add497b2e88914395fab97877805cb0cb4201fe09355cb78b1abc6954f3893"
     },
     {
       "path": "research/checkers-runway13/reconstruction/block_matching/SPEC.md",
       "delivery": "git",
-      "bytes": 7345,
-      "sha256": "ca5253b96712b4d5fd98d40bf30d09e64d4fb06549cdcfb691a9ec5d247d5621",
-      "source_sha256": "ca5253b96712b4d5fd98d40bf30d09e64d4fb06549cdcfb691a9ec5d247d5621"
+      "bytes": 8412,
+      "sha256": "4c66de2cb65902c9e706856ff933bf73c9f08fa2c399d365786a259e9446ecdf",
+      "source_sha256": "4c66de2cb65902c9e706856ff933bf73c9f08fa2c399d365786a259e9446ecdf"
     },
     {
       "path": "research/checkers-runway13/reconstruction/block_matching/accept_geometry.py",
@@ -8154,6 +9857,13 @@
       "source_sha256": "1ee8280ff6a0d766ba668851b2b7b2b2ad7e36326b66ac23c189a0953ee3d69d"
     },
     {
+      "path": "research/checkers-runway13/reconstruction/block_matching/finalize_handoff.py",
+      "delivery": "git",
+      "bytes": 8476,
+      "sha256": "32503caddf887d10705fe8957f8e7b8c00661a1ab195f26078a07ed9060d61d5",
+      "source_sha256": "32503caddf887d10705fe8957f8e7b8c00661a1ab195f26078a07ed9060d61d5"
+    },
+    {
       "path": "research/checkers-runway13/reconstruction/block_matching/historical_3d_unknown_mask.geojson",
       "delivery": "git",
       "bytes": 1173,
@@ -8210,6 +9920,13 @@
       "source_sha256": "2dc25529aa82d294d2b601958f47057006833cb7ed08941e3f477cda08cbed12"
     },
     {
+      "path": "research/checkers-runway13/reconstruction/block_matching/parent_test_receipt.json",
+      "delivery": "git",
+      "bytes": 4607,
+      "sha256": "08d8a77e18c68db0fbf3d0ebf56ec234e2ff93138528ba4574adf657875f0960",
+      "source_sha256": "08d8a77e18c68db0fbf3d0ebf56ec234e2ff93138528ba4574adf657875f0960"
+    },
+    {
       "path": "research/checkers-runway13/reconstruction/block_matching/register_sheets.py",
       "delivery": "git",
       "bytes": 11053,
@@ -8245,6 +9962,20 @@
       "source_sha256": "a46be2f8922e2132d4db061e6183fabc2a1db97dcc47846bddaa867214794498"
     },
     {
+      "path": "research/checkers-runway13/reconstruction/block_matching/road_cell_parent_verification.json",
+      "delivery": "git",
+      "bytes": 359,
+      "sha256": "5b2cb57cbcee39c0de12193f3e85ea20e18f8f3a67b2f02b8226884b27bab816",
+      "source_sha256": "5b2cb57cbcee39c0de12193f3e85ea20e18f8f3a67b2f02b8226884b27bab816"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/road_cell_visual_observations.json",
+      "delivery": "git",
+      "bytes": 8585,
+      "sha256": "5e6c2446a3ac7c223748eec8465afe1c12efbe63c3de0f56aeb4899d3cf29706",
+      "source_sha256": "5e6c2446a3ac7c223748eec8465afe1c12efbe63c3de0f56aeb4899d3cf29706"
+    },
+    {
       "path": "research/checkers-runway13/reconstruction/block_matching/structure_matches.json",
       "delivery": "git",
       "bytes": 14788,
@@ -8264,6 +9995,13 @@
       "bytes": 5126,
       "sha256": "148722a037fbd4d9f750b5a714606f46e877722fb8ce0c5dcf3b82da44d730a9",
       "source_sha256": "148722a037fbd4d9f750b5a714606f46e877722fb8ce0c5dcf3b82da44d730a9"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/validation.json",
+      "delivery": "git",
+      "bytes": 2872,
+      "sha256": "b8e3a0fd8e9717b724316f9bdcdad140cb2f14c71ae3bb9b800b5d43bb9c5c5d",
+      "source_sha256": "b8e3a0fd8e9717b724316f9bdcdad140cb2f14c71ae3bb9b800b5d43bb9c5c5d"
     },
     {
       "path": "research/checkers-runway13/reconstruction/block_matching/candidates/README.md",
@@ -8339,8 +10077,8 @@
       "path": "research/checkers-runway13/reconstruction/block_matching/candidates/manifest.json",
       "delivery": "git",
       "bytes": 79998,
-      "sha256": "6b2710d7799bc39fccd1c7e094288a3aac3f1ff911e5ddaa7a4c3e5f0ba9ff96",
-      "source_sha256": "6b2710d7799bc39fccd1c7e094288a3aac3f1ff911e5ddaa7a4c3e5f0ba9ff96"
+      "sha256": "fa3e8566d2736cd2436ba9000635295dbae672bababfeb08d7cf1740878e13b8",
+      "source_sha256": "fa3e8566d2736cd2436ba9000635295dbae672bababfeb08d7cf1740878e13b8"
     },
     {
       "path": "research/checkers-runway13/reconstruction/block_matching/candidates/regression.log",
@@ -8416,8 +10154,8 @@
       "path": "research/checkers-runway13/reconstruction/block_matching/candidates/validation.json",
       "delivery": "git",
       "bytes": 79524,
-      "sha256": "579dae016999d004bd02592a4caab271371a01eae66eb30ad76911a708e9768a",
-      "source_sha256": "579dae016999d004bd02592a4caab271371a01eae66eb30ad76911a708e9768a"
+      "sha256": "442780aceaaf5b1d6b392f5dd3d89f36e17243e7dc5dce16b6bb1f707c916d92",
+      "source_sha256": "442780aceaaf5b1d6b392f5dd3d89f36e17243e7dc5dce16b6bb1f707c916d92"
     },
     {
       "path": "research/checkers-runway13/reconstruction/block_matching/candidates/validation_run.log",
@@ -10945,6 +12683,300 @@
       "bytes": 1534,
       "sha256": "1b6834cb647d5205bdc71426205c3982aa539b346112e49373ee9e06cee90642",
       "source_sha256": "1b6834cb647d5205bdc71426205c3982aa539b346112e49373ee9e06cee90642"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/README.md",
+      "delivery": "git",
+      "bytes": 4105,
+      "sha256": "97c37071c5738c8d6e1f3bef1442ccd6e31db78eee07219303cdbb7bd164ebf0",
+      "source_sha256": "97c37071c5738c8d6e1f3bef1442ccd6e31db78eee07219303cdbb7bd164ebf0"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/assign_road_cells.py",
+      "delivery": "git",
+      "bytes": 15561,
+      "sha256": "23fba92f76bc49fdcc474464669a2440be39bf25f9a9349d529d2b049b988059",
+      "source_sha256": "23fba92f76bc49fdcc474464669a2440be39bf25f9a9349d529d2b049b988059"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/assigned_road_cells.geojson",
+      "delivery": "git",
+      "bytes": 3526,
+      "sha256": "2e0e6ca714e0ed1fc6190120a31b007546c7fd218b5825a7584eb2c84fea4f2f",
+      "source_sha256": "2e0e6ca714e0ed1fc6190120a31b007546c7fd218b5825a7584eb2c84fea4f2f"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/index.html",
+      "delivery": "git",
+      "bytes": 2276,
+      "sha256": "3852a43a6d61bc2a0e8a3cb46a1a5890953f5c7a11e422de99cd84d29f83b4e0",
+      "source_sha256": "3852a43a6d61bc2a0e8a3cb46a1a5890953f5c7a11e422de99cd84d29f83b4e0"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/manifest.json",
+      "delivery": "git",
+      "bytes": 6698,
+      "sha256": "366f98079fd97c009a745416bf092a3c53eddecdd8cd658479692e463999002b",
+      "source_sha256": "366f98079fd97c009a745416bf092a3c53eddecdd8cd658479692e463999002b"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/validation.json",
+      "delivery": "git",
+      "bytes": 14403,
+      "sha256": "f6b55d1b6de7f81794e2ef66aca2ce824849d3283886838a3e9ac8ffc7937760",
+      "source_sha256": "f6b55d1b6de7f81794e2ef66aca2ce824849d3283886838a3e9ac8ffc7937760"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_01/1989-10_regions.geojson",
+      "delivery": "git",
+      "bytes": 250465,
+      "sha256": "6f0fb3cfae809b3db3fd18fac8efdd09ea8a6fac066214ef8160cae38c20db15",
+      "source_sha256": "6f0fb3cfae809b3db3fd18fac8efdd09ea8a6fac066214ef8160cae38c20db15"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_01/1989-10_templates.geojson",
+      "delivery": "git",
+      "bytes": 66275,
+      "sha256": "177cae3c99310a9cfce18225ee668000b567de1b8ca5f45af3c07f90dffb02c5",
+      "source_sha256": "177cae3c99310a9cfce18225ee668000b567de1b8ca5f45af3c07f90dffb02c5"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_01/1994-07_regions.geojson",
+      "delivery": "git",
+      "bytes": 379099,
+      "sha256": "dfec99a73653c6292b57dffb7989ee97b3100462d36bc175c3be2e10f720a87c",
+      "source_sha256": "dfec99a73653c6292b57dffb7989ee97b3100462d36bc175c3be2e10f720a87c"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_01/1994-07_templates.geojson",
+      "delivery": "git",
+      "bytes": 66337,
+      "sha256": "1f929632590b307ede7d4bbb5480b955d351c9cef44460393614573053bfd669",
+      "source_sha256": "1f929632590b307ede7d4bbb5480b955d351c9cef44460393614573053bfd669"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_01/across_dates.csv",
+      "delivery": "git",
+      "bytes": 21032,
+      "sha256": "de900c4d0d6763610e96b2c3e7ebb7d6812fc8f945a1dfcd9f1987f3d9643f5a",
+      "source_sha256": "de900c4d0d6763610e96b2c3e7ebb7d6812fc8f945a1dfcd9f1987f3d9643f5a"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_01/memberships.csv",
+      "delivery": "git",
+      "bytes": 24988,
+      "sha256": "d277bc2e74b96a039c9842edd25434a895431f2250cbd2925a39a8aa935837f0",
+      "source_sha256": "d277bc2e74b96a039c9842edd25434a895431f2250cbd2925a39a8aa935837f0"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_01/region_overlap_across_dates.csv",
+      "delivery": "git",
+      "bytes": 22852,
+      "sha256": "4c981cc8743e539188bc343c956e9f3b011fa46175a33674982248e8eef52a40",
+      "source_sha256": "4c981cc8743e539188bc343c956e9f3b011fa46175a33674982248e8eef52a40"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_01/summary.json",
+      "delivery": "git",
+      "bytes": 1254,
+      "sha256": "2daa5a4fb853c1bb04f7fc0415b556a659a3d2de00ad6f604e050abb96baf36d",
+      "source_sha256": "2daa5a4fb853c1bb04f7fc0415b556a659a3d2de00ad6f604e050abb96baf36d"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_01/two_date_overlay.png",
+      "delivery": "reconstruction-data",
+      "bytes": 334192,
+      "sha256": "a26ce81c24a3c93525bbb197df14472343f79f9371245d8a669829f71b8479d8",
+      "source_sha256": "a26ce81c24a3c93525bbb197df14472343f79f9371245d8a669829f71b8479d8"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_02/1989-10_regions.geojson",
+      "delivery": "git",
+      "bytes": 229792,
+      "sha256": "d6cc581138d8216dd0fce76df446b60223e859a0c6f8566eee1f54eb910d6362",
+      "source_sha256": "d6cc581138d8216dd0fce76df446b60223e859a0c6f8566eee1f54eb910d6362"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_02/1989-10_templates.geojson",
+      "delivery": "git",
+      "bytes": 58777,
+      "sha256": "d98872987dc142be03dd629dfb31fd3882d295f934491cb9485413d45510872e",
+      "source_sha256": "d98872987dc142be03dd629dfb31fd3882d295f934491cb9485413d45510872e"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_02/1994-07_regions.geojson",
+      "delivery": "git",
+      "bytes": 343013,
+      "sha256": "f67cb3a6234db4d8aa2b3715df43ddc15209e3336eaeb008407ad4ecfbb9255b",
+      "source_sha256": "f67cb3a6234db4d8aa2b3715df43ddc15209e3336eaeb008407ad4ecfbb9255b"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_02/1994-07_templates.geojson",
+      "delivery": "git",
+      "bytes": 58814,
+      "sha256": "3287323ac69e2c7f912406cff76d5e3c55091f4cc93b3050e6913c7a43e0cbee",
+      "source_sha256": "3287323ac69e2c7f912406cff76d5e3c55091f4cc93b3050e6913c7a43e0cbee"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_02/across_dates.csv",
+      "delivery": "git",
+      "bytes": 18642,
+      "sha256": "ce62dacfaa1865cd8c4ca3fe9ded3524dfe1e3ab06f3e0de9ad7dcd1d159c9af",
+      "source_sha256": "ce62dacfaa1865cd8c4ca3fe9ded3524dfe1e3ab06f3e0de9ad7dcd1d159c9af"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_02/memberships.csv",
+      "delivery": "git",
+      "bytes": 20204,
+      "sha256": "c14406da71854d5a30b233fbfb5c98245c70f10a6415157621957952b85bfdc7",
+      "source_sha256": "c14406da71854d5a30b233fbfb5c98245c70f10a6415157621957952b85bfdc7"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_02/region_overlap_across_dates.csv",
+      "delivery": "git",
+      "bytes": 16350,
+      "sha256": "ff9f108dd2ba256e024c6a9f3961a9f4e0a297b24e4714fa86a7e003d50ad11d",
+      "source_sha256": "ff9f108dd2ba256e024c6a9f3961a9f4e0a297b24e4714fa86a7e003d50ad11d"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_02/summary.json",
+      "delivery": "git",
+      "bytes": 1248,
+      "sha256": "959d1b9a03d23e594a5b538f3f6f739eb37f7b77c8932a8d6921c1c1b8ca71fd",
+      "source_sha256": "959d1b9a03d23e594a5b538f3f6f739eb37f7b77c8932a8d6921c1c1b8ca71fd"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_02/two_date_overlay.png",
+      "delivery": "reconstruction-data",
+      "bytes": 340341,
+      "sha256": "80f3839115e28e42620212503577809612ec52c22d3b7d366c3f7a22d171ab0c",
+      "source_sha256": "80f3839115e28e42620212503577809612ec52c22d3b7d366c3f7a22d171ab0c"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_03/1989-10_regions.geojson",
+      "delivery": "git",
+      "bytes": 281978,
+      "sha256": "e2b0ddbcb065ea365c9a26fd7770693b7b2a8de81e066fd0ab30e4ae08797d30",
+      "source_sha256": "e2b0ddbcb065ea365c9a26fd7770693b7b2a8de81e066fd0ab30e4ae08797d30"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_03/1989-10_templates.geojson",
+      "delivery": "git",
+      "bytes": 72587,
+      "sha256": "0845c4b4f0fc4b6b65fe086528020957fdf29240f28123db613694fbe27c4569",
+      "source_sha256": "0845c4b4f0fc4b6b65fe086528020957fdf29240f28123db613694fbe27c4569"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_03/1994-07_regions.geojson",
+      "delivery": "git",
+      "bytes": 410060,
+      "sha256": "19bf1302e03aa20297109f719ea20d3f6f0d2fc2fa3a4a94f68ab09f20aa7f96",
+      "source_sha256": "19bf1302e03aa20297109f719ea20d3f6f0d2fc2fa3a4a94f68ab09f20aa7f96"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_03/1994-07_templates.geojson",
+      "delivery": "git",
+      "bytes": 72663,
+      "sha256": "b2ccc9826b425986ce01b58fcddacac86c854bbb05528b697d1f883a0a53c38b",
+      "source_sha256": "b2ccc9826b425986ce01b58fcddacac86c854bbb05528b697d1f883a0a53c38b"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_03/across_dates.csv",
+      "delivery": "git",
+      "bytes": 23593,
+      "sha256": "c38b3dfca265083b428278d9b0433b3198d8cff4a5969d5694727e9d6574d2d6",
+      "source_sha256": "c38b3dfca265083b428278d9b0433b3198d8cff4a5969d5694727e9d6574d2d6"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_03/memberships.csv",
+      "delivery": "git",
+      "bytes": 23007,
+      "sha256": "ba11a054973e8960d48aadf45cb7dc5e51533a34334f636a20556ae686e32d07",
+      "source_sha256": "ba11a054973e8960d48aadf45cb7dc5e51533a34334f636a20556ae686e32d07"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_03/region_overlap_across_dates.csv",
+      "delivery": "git",
+      "bytes": 17220,
+      "sha256": "a50ca23ddf2ffea511b2f5660b9b94e0d0fd5f924a06a0ee282b9751db807301",
+      "source_sha256": "a50ca23ddf2ffea511b2f5660b9b94e0d0fd5f924a06a0ee282b9751db807301"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_03/summary.json",
+      "delivery": "git",
+      "bytes": 1252,
+      "sha256": "cbf8ebdbda107fe14ebb206b0ac03bf548e2d0985ae9601fac418d4e82b13e3d",
+      "source_sha256": "cbf8ebdbda107fe14ebb206b0ac03bf548e2d0985ae9601fac418d4e82b13e3d"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_03/two_date_overlay.png",
+      "delivery": "reconstruction-data",
+      "bytes": 352224,
+      "sha256": "2f9bdb27cc77b6941b2adfaeeb3a92620a3268c2f5c88c7daaa4e510e2d7f99f",
+      "source_sha256": "2f9bdb27cc77b6941b2adfaeeb3a92620a3268c2f5c88c7daaa4e510e2d7f99f"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_04/1989-10_regions.geojson",
+      "delivery": "git",
+      "bytes": 269780,
+      "sha256": "1c9292890f180e09e6929989de4338ada52418eb74517494964ce8b48327bfac",
+      "source_sha256": "1c9292890f180e09e6929989de4338ada52418eb74517494964ce8b48327bfac"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_04/1989-10_templates.geojson",
+      "delivery": "git",
+      "bytes": 85564,
+      "sha256": "5bf1086fb8a3396cb608c96ef8fb154454f3d7dc9dac204fc3567c335a4b1928",
+      "source_sha256": "5bf1086fb8a3396cb608c96ef8fb154454f3d7dc9dac204fc3567c335a4b1928"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_04/1994-07_regions.geojson",
+      "delivery": "git",
+      "bytes": 406422,
+      "sha256": "a09231a24ecb1631288db8c7e171e100d167f7767902f6b6fded96bc7d7ff38d",
+      "source_sha256": "a09231a24ecb1631288db8c7e171e100d167f7767902f6b6fded96bc7d7ff38d"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_04/1994-07_templates.geojson",
+      "delivery": "git",
+      "bytes": 85599,
+      "sha256": "f7768754722c103a922c8ebdbface0c77605194bf752362f71ee1dd8033e1b9f",
+      "source_sha256": "f7768754722c103a922c8ebdbface0c77605194bf752362f71ee1dd8033e1b9f"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_04/across_dates.csv",
+      "delivery": "git",
+      "bytes": 27458,
+      "sha256": "ec825bbd037818afd091f883c0cd2d0a57f67b25fcc3e7573af10664f85f294c",
+      "source_sha256": "ec825bbd037818afd091f883c0cd2d0a57f67b25fcc3e7573af10664f85f294c"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_04/memberships.csv",
+      "delivery": "git",
+      "bytes": 27537,
+      "sha256": "adacb07761744b7884f6820026c6e9cd1207701660bbb09cc790ad293d77906e",
+      "source_sha256": "adacb07761744b7884f6820026c6e9cd1207701660bbb09cc790ad293d77906e"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_04/region_overlap_across_dates.csv",
+      "delivery": "git",
+      "bytes": 30235,
+      "sha256": "6f6bb0318c43166b41f8cfa04dcf23387c0741a37362d00b5ed84da3596319fa",
+      "source_sha256": "6f6bb0318c43166b41f8cfa04dcf23387c0741a37362d00b5ed84da3596319fa"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_04/summary.json",
+      "delivery": "git",
+      "bytes": 1255,
+      "sha256": "06b14ead76ee1afc3222f0609e76b46ffbacd3303bec43a0fbc127b888856ed0",
+      "source_sha256": "06b14ead76ee1afc3222f0609e76b46ffbacd3303bec43a0fbc127b888856ed0"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/KC_ROAD_CONTROL_04/two_date_overlay.png",
+      "delivery": "reconstruction-data",
+      "bytes": 374393,
+      "sha256": "206a9e3658fdf51e37dd520eb0020d53830d44230b8e846e025eed25a657192b",
+      "source_sha256": "206a9e3658fdf51e37dd520eb0020d53830d44230b8e846e025eed25a657192b"
     },
     {
       "path": "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-19C_1989-09/audit_contact_sheet.jpg",
@@ -15511,6 +17543,55 @@
       "source_sha256": "ed2b44de19df3ca58aa91d5e9c7247df2258d3ef5e53d7b3019709d92c0eb85c"
     },
     {
+      "path": "research/checkers-runway13/reconstruction/block_matching/scene/readable/01-labelled-map.png",
+      "delivery": "reconstruction-data",
+      "bytes": 755994,
+      "sha256": "18efe30f5a306d5053a1549d52efb3b8db72168b1b8c0996acf2c9330179cbe0",
+      "source_sha256": "18efe30f5a306d5053a1549d52efb3b8db72168b1b8c0996acf2c9330179cbe0"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/scene/readable/02-recovered-surface.png",
+      "delivery": "reconstruction-data",
+      "bytes": 455661,
+      "sha256": "4cc0a95f6f37fd91fbf1ce121ccf8a6a601bde0008c07d45b8ef865d13b84e73",
+      "source_sha256": "4cc0a95f6f37fd91fbf1ce121ccf8a6a601bde0008c07d45b8ef865d13b84e73"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/scene/readable/03-market-closeup.png",
+      "delivery": "reconstruction-data",
+      "bytes": 302912,
+      "sha256": "87b526ab526a1006ccbfa78c9376b88dde7fb9443107ebc06268f2199390f9a5",
+      "source_sha256": "87b526ab526a1006ccbfa78c9376b88dde7fb9443107ebc06268f2199390f9a5"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/scene/readable/index.html",
+      "delivery": "git",
+      "bytes": 2871,
+      "sha256": "a9b017459673f881b43880b22ea4da150803b380f9c7f709be18572184c43909",
+      "source_sha256": "a9b017459673f881b43880b22ea4da150803b380f9c7f709be18572184c43909"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/scene/readable/render.py",
+      "delivery": "git",
+      "bytes": 7131,
+      "sha256": "f0bb975ce9eb0bdf83dae35d8a7887ebe57fde5d303d36aba8d0e2847d48fd6b",
+      "source_sha256": "f0bb975ce9eb0bdf83dae35d8a7887ebe57fde5d303d36aba8d0e2847d48fd6b"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/scene/readable/spec-readable-reconstruction.md",
+      "delivery": "git",
+      "bytes": 1400,
+      "sha256": "c9a9fefead3052397e6544aa8a8c53d3dd9748e289677511c861bb00c8a950ce",
+      "source_sha256": "c9a9fefead3052397e6544aa8a8c53d3dd9748e289677511c861bb00c8a950ce"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/scene/readable/verification.json",
+      "delivery": "git",
+      "bytes": 645,
+      "sha256": "32e41a87b5e7b59139bff586f54e14f61d26a4e6a8087eff5f1f4558c472b20a",
+      "source_sha256": "32e41a87b5e7b59139bff586f54e14f61d26a4e6a8087eff5f1f4558c472b20a"
+    },
+    {
       "path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/A36143_camera_label.jpg",
       "delivery": "reconstruction-data",
       "bytes": 30386,
@@ -16059,9 +18140,16 @@
     {
       "path": "research/checkers-runway13/reconstruction/block_matching/reviews/DECISIONS.md",
       "delivery": "git",
-      "bytes": 3592,
-      "sha256": "ef0bc42220dbe6160a11f90ecac32af3df10904e1482ae5557a0eb8f6ebc2c45",
-      "source_sha256": "ef0bc42220dbe6160a11f90ecac32af3df10904e1482ae5557a0eb8f6ebc2c45"
+      "bytes": 5193,
+      "sha256": "38feb5b3e8fe464667c500ef01cc73dcf01e2d920a1117e0e51ad9e1986aa5a1",
+      "source_sha256": "38feb5b3e8fe464667c500ef01cc73dcf01e2d920a1117e0e51ad9e1986aa5a1"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/reviews/acceptance.md",
+      "delivery": "git",
+      "bytes": 11881,
+      "sha256": "f7586b265102f1ee6a727abd102a37c547941cccdba4afa101625d6e48c863af",
+      "source_sha256": "f7586b265102f1ee6a727abd102a37c547941cccdba4afa101625d6e48c863af"
     },
     {
       "path": "research/checkers-runway13/reconstruction/block_matching/reviews/blind.md",
@@ -16118,6 +18206,524 @@
       "bytes": 307358,
       "sha256": "ababd2644f766efb29a79eb02d4a73ffd09893f74190c1e5f464e75627c3bb2e",
       "source_sha256": "ababd2644f766efb29a79eb02d4a73ffd09893f74190c1e5f464e75627c3bb2e"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/REPORT.md",
+      "delivery": "git",
+      "bytes": 9285,
+      "sha256": "deb41f43c3473b0ce6e7f786cdd5f12f730c71a0c03c12abb672810da306539c",
+      "source_sha256": "deb41f43c3473b0ce6e7f786cdd5f12f730c71a0c03c12abb672810da306539c"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/SCOPE_AUDIT.md",
+      "delivery": "git",
+      "bytes": 5346,
+      "sha256": "d7df7768b51f2f8c172c0cd2c1a7f1f49962cb8a0ffb5744f55222ce7f3d0477",
+      "source_sha256": "d7df7768b51f2f8c172c0cd2c1a7f1f49962cb8a0ffb5744f55222ce7f3d0477"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/SPEC.md",
+      "delivery": "git",
+      "bytes": 8500,
+      "sha256": "aa42d0e9812ac35d9dc3f2823beb8e535b82597c0dee5dd0cee9c5487579697f",
+      "source_sha256": "aa42d0e9812ac35d9dc3f2823beb8e535b82597c0dee5dd0cee9c5487579697f"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/calculate.py",
+      "delivery": "git",
+      "bytes": 10775,
+      "sha256": "c9b77777356cd93cf14f97d57289bab489e109525c4056abf44111afb29be605",
+      "source_sha256": "c9b77777356cd93cf14f97d57289bab489e109525c4056abf44111afb29be605"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/continuous.log",
+      "delivery": "git",
+      "bytes": 2807,
+      "sha256": "41986402d2816426652c9ee7a7d5eb5d4ef49aa9c9f25ed569fcdc83ca120509",
+      "source_sha256": "41986402d2816426652c9ee7a7d5eb5d4ef49aa9c9f25ed569fcdc83ca120509"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/continuous.py",
+      "delivery": "git",
+      "bytes": 10472,
+      "sha256": "c220e280115238c7f42779236a1bf41fe29e786cc58d6c6830d3fc35f7db8a8c",
+      "source_sha256": "c220e280115238c7f42779236a1bf41fe29e786cc58d6c6830d3fc35f7db8a8c"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/continuous_check.json",
+      "delivery": "git",
+      "bytes": 28062,
+      "sha256": "3631409dfc2fef2c0b8e6bf40d77143358b0bc6ced7c30261c620ce58f228f36",
+      "source_sha256": "3631409dfc2fef2c0b8e6bf40d77143358b0bc6ced7c30261c620ce58f228f36"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/deliver.py",
+      "delivery": "git",
+      "bytes": 11844,
+      "sha256": "30dab99db968f3d9ea3308d6d22f294b78b0ff73d47a2de682c38c51d13e36dd",
+      "source_sha256": "30dab99db968f3d9ea3308d6d22f294b78b0ff73d47a2de682c38c51d13e36dd"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/delivery.log",
+      "delivery": "git",
+      "bytes": 1322,
+      "sha256": "a71c1fb374c34a0cdcd3d26271bad58e910e29740362df3710f6e73ae26912d7",
+      "source_sha256": "a71c1fb374c34a0cdcd3d26271bad58e910e29740362df3710f6e73ae26912d7"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/delivery_manifest.json",
+      "delivery": "git",
+      "bytes": 1941,
+      "sha256": "8f01b9abb6b0f40ca40d25b871e8102a4509504a9b2805d440c85ef4aa52f95e",
+      "source_sha256": "8f01b9abb6b0f40ca40d25b871e8102a4509504a9b2805d440c85ef4aa52f95e"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/formula.json",
+      "delivery": "git",
+      "bytes": 2024,
+      "sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a",
+      "source_sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/inputs.json",
+      "delivery": "git",
+      "bytes": 11586,
+      "sha256": "5e498fee46936c4a53a908ec255d34b83c4894af223aff10bfbd8610605f088b",
+      "source_sha256": "5e498fee46936c4a53a908ec255d34b83c4894af223aff10bfbd8610605f088b"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/landing.pdf",
+      "delivery": "git",
+      "bytes": 25815,
+      "sha256": "4b0a300dae6402b0bd785e206132b95b61ea3374e524e8c5dc6a5b9f6c417d3c",
+      "source_sha256": "4b0a300dae6402b0bd785e206132b95b61ea3374e524e8c5dc6a5b9f6c417d3c"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/landing.png",
+      "delivery": "git",
+      "bytes": 214680,
+      "sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af",
+      "source_sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/path_controls.csv",
+      "delivery": "git",
+      "bytes": 595676,
+      "sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640",
+      "source_sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/regeneration_1.log",
+      "delivery": "git",
+      "bytes": 1322,
+      "sha256": "a71c1fb374c34a0cdcd3d26271bad58e910e29740362df3710f6e73ae26912d7",
+      "source_sha256": "a71c1fb374c34a0cdcd3d26271bad58e910e29740362df3710f6e73ae26912d7"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/regeneration_2.log",
+      "delivery": "git",
+      "bytes": 1322,
+      "sha256": "a71c1fb374c34a0cdcd3d26271bad58e910e29740362df3710f6e73ae26912d7",
+      "source_sha256": "a71c1fb374c34a0cdcd3d26271bad58e910e29740362df3710f6e73ae26912d7"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/result.json",
+      "delivery": "git",
+      "bytes": 8012,
+      "sha256": "49296dd026b3f0702fb672264c2c5524221a38acbf60631b6b8581e6c0b7bfe8",
+      "source_sha256": "49296dd026b3f0702fb672264c2c5524221a38acbf60631b6b8581e6c0b7bfe8"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/search.log",
+      "delivery": "git",
+      "bytes": 8277,
+      "sha256": "59f14c5c04080c60dbd4b87525220373373a341282d8d85a68649ab8c1d88592",
+      "source_sha256": "59f14c5c04080c60dbd4b87525220373373a341282d8d85a68649ab8c1d88592"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/search_checkpoint.json",
+      "delivery": "git",
+      "bytes": 10582,
+      "sha256": "4cedc557b9ed80c8e52d61f14bff6aacf5b69fdc1046f692fc3b53aa264a13e6",
+      "source_sha256": "4cedc557b9ed80c8e52d61f14bff6aacf5b69fdc1046f692fc3b53aa264a13e6"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/search_state.json",
+      "delivery": "git",
+      "bytes": 165,
+      "sha256": "3756d4a88c11bfae4fbd7764e17b1a07f5c72e2abbe75fe2f92c93764bcd7493",
+      "source_sha256": "3756d4a88c11bfae4fbd7764e17b1a07f5c72e2abbe75fe2f92c93764bcd7493"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/selected.json",
+      "delivery": "git",
+      "bytes": 5058,
+      "sha256": "9d8b40c750caea97f45f894f314e47f4ae934d577f4a5014c8a35b4f04defe64",
+      "source_sha256": "9d8b40c750caea97f45f894f314e47f4ae934d577f4a5014c8a35b4f04defe64"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/test.log",
+      "delivery": "git",
+      "bytes": 99,
+      "sha256": "cd5edcf6f13920f3512b3579cf9e62f9c213c3d3f06887b2ac9fb7a3d51d2348",
+      "source_sha256": "cd5edcf6f13920f3512b3579cf9e62f9c213c3d3f06887b2ac9fb7a3d51d2348"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/test_counterfactual.py",
+      "delivery": "git",
+      "bytes": 10151,
+      "sha256": "66589ebeae8ff8d64fafa91499a7ab4df91be215a931929d16b4a3967e5ebed7",
+      "source_sha256": "66589ebeae8ff8d64fafa91499a7ab4df91be215a931929d16b4a3967e5ebed7"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/verification.json",
+      "delivery": "git",
+      "bytes": 949,
+      "sha256": "9a22ee599829be5de129883483d89cd8c5ca88ee8606cfe33a146bce7c052264",
+      "source_sha256": "9a22ee599829be5de129883483d89cd8c5ca88ee8606cfe33a146bce7c052264"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/verification.log",
+      "delivery": "git",
+      "bytes": 949,
+      "sha256": "9a22ee599829be5de129883483d89cd8c5ca88ee8606cfe33a146bce7c052264",
+      "source_sha256": "9a22ee599829be5de129883483d89cd8c5ca88ee8606cfe33a146bce7c052264"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/verify_delivery.py",
+      "delivery": "git",
+      "bytes": 2542,
+      "sha256": "e99ccee20cda1ef54a34a4631ce3d0240be1404d7e502f7042f71bc88826a082",
+      "source_sha256": "e99ccee20cda1ef54a34a4631ce3d0240be1404d7e502f7042f71bc88826a082"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/continuous_check.json",
+      "delivery": "git",
+      "bytes": 28014,
+      "sha256": "e922f5304e5440eca1a20a34354d04893428d0ec6cccd27997fefc671c0a5f82",
+      "source_sha256": "e922f5304e5440eca1a20a34354d04893428d0ec6cccd27997fefc671c0a5f82"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/delivery_manifest.json",
+      "delivery": "git",
+      "bytes": 1850,
+      "sha256": "24ed271016f8e19b031f9c3fbce3007f06309a1c32f2d6b4eec53b679a8fcdf7",
+      "source_sha256": "24ed271016f8e19b031f9c3fbce3007f06309a1c32f2d6b4eec53b679a8fcdf7"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/formula.json",
+      "delivery": "git",
+      "bytes": 2024,
+      "sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a",
+      "source_sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/landing.pdf",
+      "delivery": "git",
+      "bytes": 25815,
+      "sha256": "e77e7a92442b44662204b9fd460d977b132f1caca82a327e69f35b279dae43dc",
+      "source_sha256": "e77e7a92442b44662204b9fd460d977b132f1caca82a327e69f35b279dae43dc"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/landing.png",
+      "delivery": "git",
+      "bytes": 214680,
+      "sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af",
+      "source_sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/path_controls.csv",
+      "delivery": "git",
+      "bytes": 595676,
+      "sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640",
+      "source_sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/result.json",
+      "delivery": "git",
+      "bytes": 7964,
+      "sha256": "81ce130e3b3f2402dc8eaa64eae306fe27d6d5a227b818704b878e5667ad64ee",
+      "source_sha256": "81ce130e3b3f2402dc8eaa64eae306fe27d6d5a227b818704b878e5667ad64ee"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/search_checkpoint.json",
+      "delivery": "git",
+      "bytes": 10582,
+      "sha256": "4cedc557b9ed80c8e52d61f14bff6aacf5b69fdc1046f692fc3b53aa264a13e6",
+      "source_sha256": "4cedc557b9ed80c8e52d61f14bff6aacf5b69fdc1046f692fc3b53aa264a13e6"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/selected.json",
+      "delivery": "git",
+      "bytes": 5010,
+      "sha256": "1e60478efb7537bfa63db3fef7be1ed5026f410040a16b9de306cdb971c2ffe6",
+      "source_sha256": "1e60478efb7537bfa63db3fef7be1ed5026f410040a16b9de306cdb971c2ffe6"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/verification.json",
+      "delivery": "git",
+      "bytes": 949,
+      "sha256": "f8a9110c9f8d3c3cdd72c8e93e68b21b9baccf43d4fd003292454e84e9dad5fe",
+      "source_sha256": "f8a9110c9f8d3c3cdd72c8e93e68b21b9baccf43d4fd003292454e84e9dad5fe"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-363a34a8137840349f2606ba2cdef553/formula.json",
+      "delivery": "git",
+      "bytes": 2024,
+      "sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a",
+      "source_sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-363a34a8137840349f2606ba2cdef553/landing.pdf",
+      "delivery": "git",
+      "bytes": 25815,
+      "sha256": "ed422e29962fb344cddbf3573ba5fbafbb8d7cd49ca8aa4ccb765e3656d5a8e4",
+      "source_sha256": "ed422e29962fb344cddbf3573ba5fbafbb8d7cd49ca8aa4ccb765e3656d5a8e4"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-363a34a8137840349f2606ba2cdef553/landing.png",
+      "delivery": "git",
+      "bytes": 214680,
+      "sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af",
+      "source_sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-363a34a8137840349f2606ba2cdef553/path_controls.csv",
+      "delivery": "git",
+      "bytes": 595676,
+      "sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640",
+      "source_sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-363a34a8137840349f2606ba2cdef553/result.json",
+      "delivery": "git",
+      "bytes": 8012,
+      "sha256": "3665865a0624ac35d1f16afa940ad8fdf385a73a99da6bdea34188134a62cf46",
+      "source_sha256": "3665865a0624ac35d1f16afa940ad8fdf385a73a99da6bdea34188134a62cf46"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-6e6cbd5b0af743df91b72a5926209e82/formula.json",
+      "delivery": "git",
+      "bytes": 2024,
+      "sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a",
+      "source_sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-6e6cbd5b0af743df91b72a5926209e82/landing.pdf",
+      "delivery": "git",
+      "bytes": 25815,
+      "sha256": "45afae39bdb048190ac081ff366eea73c4eb13fe5d8a0b2b7acee34111e3899f",
+      "source_sha256": "45afae39bdb048190ac081ff366eea73c4eb13fe5d8a0b2b7acee34111e3899f"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-6e6cbd5b0af743df91b72a5926209e82/landing.png",
+      "delivery": "git",
+      "bytes": 214680,
+      "sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af",
+      "source_sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-6e6cbd5b0af743df91b72a5926209e82/path_controls.csv",
+      "delivery": "git",
+      "bytes": 595676,
+      "sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640",
+      "source_sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-6e6cbd5b0af743df91b72a5926209e82/result.json",
+      "delivery": "git",
+      "bytes": 8012,
+      "sha256": "38d0198850949e8d5dac04c3baa1cbef6b4927d6b4098d71b23fe525904ed46b",
+      "source_sha256": "38d0198850949e8d5dac04c3baa1cbef6b4927d6b4098d71b23fe525904ed46b"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-5c16a9f41155458d8e3304389e854d5f/formula.json",
+      "delivery": "git",
+      "bytes": 2024,
+      "sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a",
+      "source_sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-5c16a9f41155458d8e3304389e854d5f/landing.pdf",
+      "delivery": "git",
+      "bytes": 25815,
+      "sha256": "4b0a300dae6402b0bd785e206132b95b61ea3374e524e8c5dc6a5b9f6c417d3c",
+      "source_sha256": "4b0a300dae6402b0bd785e206132b95b61ea3374e524e8c5dc6a5b9f6c417d3c"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-5c16a9f41155458d8e3304389e854d5f/landing.png",
+      "delivery": "git",
+      "bytes": 214680,
+      "sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af",
+      "source_sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-5c16a9f41155458d8e3304389e854d5f/path_controls.csv",
+      "delivery": "git",
+      "bytes": 595676,
+      "sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640",
+      "source_sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-5c16a9f41155458d8e3304389e854d5f/result.json",
+      "delivery": "git",
+      "bytes": 8012,
+      "sha256": "49296dd026b3f0702fb672264c2c5524221a38acbf60631b6b8581e6c0b7bfe8",
+      "source_sha256": "49296dd026b3f0702fb672264c2c5524221a38acbf60631b6b8581e6c0b7bfe8"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-7bfe87003e5c4dc093c356928fd7e8ca/formula.json",
+      "delivery": "git",
+      "bytes": 2024,
+      "sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a",
+      "source_sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-7bfe87003e5c4dc093c356928fd7e8ca/landing.pdf",
+      "delivery": "git",
+      "bytes": 25815,
+      "sha256": "643a9775c9ac1f13a813e7271f3854273250868af9977e3ac1c89b584d52404e",
+      "source_sha256": "643a9775c9ac1f13a813e7271f3854273250868af9977e3ac1c89b584d52404e"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-7bfe87003e5c4dc093c356928fd7e8ca/landing.png",
+      "delivery": "git",
+      "bytes": 214680,
+      "sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af",
+      "source_sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-7bfe87003e5c4dc093c356928fd7e8ca/path_controls.csv",
+      "delivery": "git",
+      "bytes": 595676,
+      "sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640",
+      "source_sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-7bfe87003e5c4dc093c356928fd7e8ca/result.json",
+      "delivery": "git",
+      "bytes": 8012,
+      "sha256": "d6e8f74ceaebbd7d139ed097772ed0313485d6d32b6eb1ee9111d1f6176819d5",
+      "source_sha256": "d6e8f74ceaebbd7d139ed097772ed0313485d6d32b6eb1ee9111d1f6176819d5"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/legacy-949fdca5d37144af8c9b5ed30368a8a1/formula.json",
+      "delivery": "git",
+      "bytes": 2024,
+      "sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a",
+      "source_sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/legacy-949fdca5d37144af8c9b5ed30368a8a1/landing.pdf",
+      "delivery": "git",
+      "bytes": 25815,
+      "sha256": "e77e7a92442b44662204b9fd460d977b132f1caca82a327e69f35b279dae43dc",
+      "source_sha256": "e77e7a92442b44662204b9fd460d977b132f1caca82a327e69f35b279dae43dc"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/legacy-949fdca5d37144af8c9b5ed30368a8a1/landing.png",
+      "delivery": "git",
+      "bytes": 214680,
+      "sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af",
+      "source_sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/legacy-949fdca5d37144af8c9b5ed30368a8a1/path_controls.csv",
+      "delivery": "git",
+      "bytes": 595676,
+      "sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640",
+      "source_sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/legacy-949fdca5d37144af8c9b5ed30368a8a1/result.json",
+      "delivery": "git",
+      "bytes": 7964,
+      "sha256": "81ce130e3b3f2402dc8eaa64eae306fe27d6d5a227b818704b878e5667ad64ee",
+      "source_sha256": "81ce130e3b3f2402dc8eaa64eae306fe27d6d5a227b818704b878e5667ad64ee"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-d0f7a74fb3ed4479af628b450956b2dd/formula.json",
+      "delivery": "git",
+      "bytes": 2024,
+      "sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a",
+      "source_sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-d0f7a74fb3ed4479af628b450956b2dd/landing.pdf",
+      "delivery": "git",
+      "bytes": 25815,
+      "sha256": "7e591db8525557475a3d3a17b8eb5f337c21bef494c370c7157f754dfc5391b0",
+      "source_sha256": "7e591db8525557475a3d3a17b8eb5f337c21bef494c370c7157f754dfc5391b0"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-d0f7a74fb3ed4479af628b450956b2dd/landing.png",
+      "delivery": "git",
+      "bytes": 214680,
+      "sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af",
+      "source_sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-d0f7a74fb3ed4479af628b450956b2dd/path_controls.csv",
+      "delivery": "git",
+      "bytes": 595676,
+      "sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640",
+      "source_sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/bundles/delivery-d0f7a74fb3ed4479af628b450956b2dd/result.json",
+      "delivery": "git",
+      "bytes": 8012,
+      "sha256": "f90d895080861bb732f34ab67a59ac1922e16bee1b5f7f6f3cb5f26fd132a6bf",
+      "source_sha256": "f90d895080861bb732f34ab67a59ac1922e16bee1b5f7f6f3cb5f26fd132a6bf"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/reviews/DISPOSITION.md",
+      "delivery": "git",
+      "bytes": 1999,
+      "sha256": "9f5d9410b58e530cdf40873454d78208aba1d370d03255b2dcb26810b8c66b4d",
+      "source_sha256": "9f5d9410b58e530cdf40873454d78208aba1d370d03255b2dcb26810b8c66b4d"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/reviews/acceptance.md",
+      "delivery": "git",
+      "bytes": 4625,
+      "sha256": "1fa8704467f7fb469131d2207067ea29c7755e3787f80368f554f30d6b04a653",
+      "source_sha256": "1fa8704467f7fb469131d2207067ea29c7755e3787f80368f554f30d6b04a653"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/reviews/blind.md",
+      "delivery": "git",
+      "bytes": 1805,
+      "sha256": "29cdd8af4ecc456d607f300219245e358b2f1336a40d6fdf6d9453b9dfa04ca4",
+      "source_sha256": "29cdd8af4ecc456d607f300219245e358b2f1336a40d6fdf6d9453b9dfa04ca4"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/reviews/change_snapshot.txt",
+      "delivery": "git",
+      "bytes": 34254,
+      "sha256": "8aea84db93c15e3ff47ff6cd458050fd048ec2818a86a2a3082720c913daac63",
+      "source_sha256": "8aea84db93c15e3ff47ff6cd458050fd048ec2818a86a2a3082720c913daac63"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/reviews/edge.md",
+      "delivery": "git",
+      "bytes": 3011,
+      "sha256": "d889250041921468de874cf12c1f303c1ce461b0e3f105321429ae21d4560353",
+      "source_sha256": "d889250041921468de874cf12c1f303c1ce461b0e3f105321429ae21d4560353"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/reviews/parent_certificate_check.json",
+      "delivery": "git",
+      "bytes": 309,
+      "sha256": "e3675cf3a42000ed7caed90660f036dce22c9e68440435cd717544bdd5e9c083",
+      "source_sha256": "e3675cf3a42000ed7caed90660f036dce22c9e68440435cd717544bdd5e9c083"
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/reviews/parent_final_verification.json",
+      "delivery": "git",
+      "bytes": 1037,
+      "sha256": "2375724bc41568b3b89d15f593d314f0e60d60caa539b22e4fb9b979ff5458c2",
+      "source_sha256": "2375724bc41568b3b89d15f593d314f0e60d60caa539b22e4fb9b979ff5458c2"
     },
     {
       "path": "research/checkers-runway13/outputs/artifact_acceptance.json",
@@ -16643,6 +19249,27 @@
       "bytes": 1420,
       "sha256": "842a23de07308e980954c0ed6324569a4eb8f1c53b9eef84fb37f0e4608b7e13",
       "source_sha256": "842a23de07308e980954c0ed6324569a4eb8f1c53b9eef84fb37f0e4608b7e13"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/DELIVERY_RECORD.md",
+      "delivery": "git",
+      "bytes": 3018,
+      "sha256": "1b663b9ed1296f11aec39f7d11198accce133db49e663d6132c31dc500e0fcca",
+      "source_sha256": "1b663b9ed1296f11aec39f7d11198accce133db49e663d6132c31dc500e0fcca"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/portable_rebuild.json",
+      "delivery": "git",
+      "bytes": 525,
+      "sha256": "013ed73fece8cd2a0cd4370ffe66194d5ef76e8c1c202b4a504a76a3e46ae9fe",
+      "source_sha256": "013ed73fece8cd2a0cd4370ffe66194d5ef76e8c1c202b4a504a76a3e46ae9fe"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/reviews/DECISIONS.md",
+      "delivery": "git",
+      "bytes": 2079,
+      "sha256": "85682c853405a0f0fc62af5d30fbdd55e468c3d30b91a6813b963dffc344058b",
+      "source_sha256": "85682c853405a0f0fc62af5d30fbdd55e468c3d30b91a6813b963dffc344058b"
     }
   ],
   "excluded": [
@@ -16835,6 +19462,46 @@
       "path": "research/checkers-runway13/evidence/assets/VHHX_reproduction_page9.png",
       "bytes": 1075163,
       "reason": "downloaded third-party pages/charts; source inventory retained"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/aviation_sources/CAL605_pdf131_appendix1.png",
+      "bytes": 2159966,
+      "reason": "third-party document or accident-report scan; citations and derived observations retained"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/aviation_sources/CAL605_pdf143_appendix9.png",
+      "bytes": 289990,
+      "reason": "third-party document or accident-report scan; citations and derived observations retained"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/aviation_sources/CAL605_pdf143_checkerboard_crop.png",
+      "bytes": 42798,
+      "reason": "third-party document or accident-report scan; citations and derived observations retained"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/aviation_sources/CAL605_pdf143_checkerboard_upright.png",
+      "bytes": 51802,
+      "reason": "third-party document or accident-report scan; citations and derived observations retained"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/aviation_sources/CAL605_runway-033.png",
+      "bytes": 415405,
+      "reason": "third-party document or accident-report scan; citations and derived observations retained"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/aviation_sources/CAL605_runway-034.png",
+      "bytes": 255014,
+      "reason": "third-party document or accident-report scan; citations and derived observations retained"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/sources/1_1000_bms.pdf",
+      "bytes": 16767916,
+      "reason": "third-party document or accident-report scan; citations and derived observations retained"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/sources/1_1000_bms.txt",
+      "bytes": 611246,
+      "reason": "third-party document or accident-report scan; citations and derived observations retained"
     },
     {
       "path": "research/checkers-runway13/reconstruction/downloads/cad_reports.html",
@@ -17210,6 +19877,361 @@
       "path": "data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
       "bytes": 7653178,
       "reason": "third-party accident-report originals/scans; source links retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/main.aux",
+      "bytes": 20932,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/main.log",
+      "bytes": 31420,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/main.out",
+      "bytes": 4664,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/main.pdf",
+      "bytes": 326284,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/main.toc",
+      "bytes": 5619,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/build.log",
+      "bytes": 1810,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/contact-01.png",
+      "bytes": 245303,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/contact-02.png",
+      "bytes": 460850,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/contact-03.png",
+      "bytes": 329998,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/contact-04.png",
+      "bytes": 282540,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/contact-05.png",
+      "bytes": 366703,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/contact-06.png",
+      "bytes": 338295,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/contact-07.png",
+      "bytes": 366100,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/contact-08.png",
+      "bytes": 358032,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/final-contact-01.png",
+      "bytes": 325297,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/final-contact-02.png",
+      "bytes": 455259,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/final-contact-03.png",
+      "bytes": 329219,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/final-contact-04.png",
+      "bytes": 341128,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/final-contact-05.png",
+      "bytes": 400964,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/final-contact-06.png",
+      "bytes": 329503,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/final-contact-07.png",
+      "bytes": 374933,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/final-contact-08.png",
+      "bytes": 159226,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/fonts.txt",
+      "bytes": 1798,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-01.png",
+      "bytes": 31888,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-02.png",
+      "bytes": 69870,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-03.png",
+      "bytes": 36519,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-04.png",
+      "bytes": 66704,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-05.png",
+      "bytes": 70598,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-06.png",
+      "bytes": 64859,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-07.png",
+      "bytes": 92262,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-08.png",
+      "bytes": 63979,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-09.png",
+      "bytes": 54060,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-10.png",
+      "bytes": 49510,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-11.png",
+      "bytes": 54070,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-12.png",
+      "bytes": 60726,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-13.png",
+      "bytes": 70437,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-14.png",
+      "bytes": 37325,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-15.png",
+      "bytes": 60346,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-16.png",
+      "bytes": 57038,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-17.png",
+      "bytes": 64383,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-18.png",
+      "bytes": 64234,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-19.png",
+      "bytes": 64728,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-20.png",
+      "bytes": 65843,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-21.png",
+      "bytes": 53662,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-22.png",
+      "bytes": 31747,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-23.png",
+      "bytes": 55147,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-24.png",
+      "bytes": 69027,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-25.png",
+      "bytes": 59009,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-26.png",
+      "bytes": 53445,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-27.png",
+      "bytes": 58535,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-28.png",
+      "bytes": 72925,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-29.png",
+      "bytes": 39744,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-30.png",
+      "bytes": 62584,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-31.png",
+      "bytes": 39750,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/page-32.png",
+      "bytes": 62547,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/poppler_text.txt",
+      "bytes": 98782,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/pymupdf_text.txt",
+      "bytes": 74692,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/rebuild_path.txt",
+      "bytes": 80,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/figures/historical_stopping.png",
+      "bytes": 84619,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/figures/historical_support.png",
+      "bytes": 214952,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/figures/scenario_comparison.png",
+      "bytes": 49112,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/figures/stopping_boundary.png",
+      "bytes": 58702,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/figures/synthetic_trajectory.png",
+      "bytes": 82341,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/figures/weather_context.png",
+      "bytes": 44143,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/figures/wind_landing.png",
+      "bytes": 122189,
+      "reason": "white-paper author publication selection: build intermediates/local QA; final portable package retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/main.aux",
+      "bytes": 15868,
+      "reason": "local manuscript build intermediate; final PDF, source and verification retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/main.log",
+      "bytes": 31132,
+      "reason": "local manuscript build intermediate; final PDF, source and verification retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/main.out",
+      "bytes": 3957,
+      "reason": "local manuscript build intermediate; final PDF, source and verification retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/main.pdf",
+      "bytes": 265406,
+      "reason": "local manuscript build intermediate; final PDF, source and verification retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/main.toc",
+      "bytes": 4488,
+      "reason": "local manuscript build intermediate; final PDF, source and verification retained"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/qa/rebuild_location.txt",
+      "bytes": 96,
+      "reason": "local manuscript build intermediate; final PDF, source and verification retained"
     }
   ],
   "normalizations": [
@@ -17238,6 +20260,10 @@
       "reason": "local workspace path or internal session reference normalized"
     },
     {
+      "path": "research/checkers-runway13/whitepaper/v2/qa/rebuild_path.txt",
+      "reason": "local workspace path or internal session reference normalized"
+    },
+    {
       "path": "research/checkers-runway13/reconstruction/retrievals.json",
       "reason": "local workspace path or internal session reference normalized"
     },
@@ -17251,5 +20277,16 @@
     }
   ],
   "secret_scan_findings": [],
-  "scope": "Snapshot of existing work; not a claim all research lanes are complete. Historical-source manifests retain original hashes; this manifest gives public-copy hashes."
+  "snapshot_finished_utc": "2026-10-13T14:19:27.234647+00:00",
+  "source_roots": [
+    "research/checkers-runway13",
+    "data/kai-tak-2026-10-13"
+  ],
+  "environment_directories_excluded": {
+    ".pytest_cache": 2,
+    ".venv": 3,
+    "__pycache__": 16,
+    "python_deps": 1
+  },
+  "scope": "Updated public snapshot. Internal file aliases materialized for readable GitHub artifacts. Private/third-party exclusions retained. Not a full scientific acceptance claim."
 }

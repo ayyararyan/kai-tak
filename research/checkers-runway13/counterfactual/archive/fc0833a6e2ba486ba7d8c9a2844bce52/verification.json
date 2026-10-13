@@ -1,0 +1,23 @@
+{
+  "utc": "2026-10-13T14:03:59.739937+00:00",
+  "status": "passed",
+  "tests": "......................                                                   [100%]\n22 passed in 0.54s",
+  "producer_reruns": 2,
+  "byte_identical_numerical_artifacts": [
+    "formula.json",
+    "path_controls.csv"
+  ],
+  "numerical_hashes": {
+    "formula.json": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a",
+    "path_controls.csv": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640"
+  },
+  "source_bindings_checked": true,
+  "certificate_identity_checked": true,
+  "independent_force_replay_passed": true,
+  "image_decode_passed": true,
+  "manifest_files": 21,
+  "historical_landing_complete": false,
+  "physical_prediction_intervals": null,
+  "global_near_optimality": false,
+  "notes": "Correctness and conditional model delivery verified; full historical/robust scope remains incomplete. Parent independent review separate."
+}

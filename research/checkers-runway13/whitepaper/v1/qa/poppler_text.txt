@@ -1,0 +1,1243 @@
+RESEARCH WHITE PAPER · FIRST WORKING DRAFT
+
+
+
+
+Checkers with
+Runway 13
+Reconstructing Kai Tak’s Approach:
+Geometry, Landing Constraints and Uncertainty
+
+
+
+Aryan Ayyar
+13 October 2026 · Version 1
+
+
+
+The question. How did the geometry of Kai Tak’s approach, aircraft capabilities and operating
+conditions jointly determine the room available to turn, descend, touch down and stop?
+This version. A documented historical evidence base, a conditional local 3D reconstruction, an
+explicit synthetic landing trajectory, restricted mathematical bounds and an exploratory CAL605
+flight/weather benchmark. Full historical validation and an improved terrain-aware approach
+remain open.
+
+
+
+
+Working research document for author review. Not peer reviewed. No operational flight procedure or claim of
+historical superiority is established. No institutional endorsement is implied.
+Checkers with Runway 13                                                            Working white paper · v1
+
+
+
+Executive summary
+
+Kai Tak’s Runway 13 presents a problem in coupled constraints. The approach must deliver an aircraft to
+the runway with the right position, direction, height and speed, while leaving enough distance to complete
+the landing. A turn that is geometrically possible may demand too much bank or thrust. A trajectory that
+reaches the threshold may leave an unacceptable touchdown or stopping condition. Understanding the
+approach therefore requires both a dated reconstruction of the setting and a model that continues beyond
+runway alignment.
+This paper develops the first components of that study. The historical reference is Hong Kong Civil Avia-
+tion Department Aircraft Accident Report 1/95, concerning CAL605 on 4 November 1993. Its procedure
+and runway information establish a 47-degree difference between the reported magnetic localiser and
+runway directions, and a landing distance available of 2,786 metres. The report also preserves selected
+flight-recorder plots and weather information. Those records are valuable, but they neither describe a
+representative sample of normal landings nor identify a uniquely optimal historical flight path.
+The reconstruction combines oﬀicial historical survey sheets, aerial photographs and explicitly dated mod-
+ern geospatial products. A local stereo reconstruction from two photographs taken on 2 November 1993
+yields 171,307 filtered surface points. The vertical coordinate is relative to an estimated local park/road
+plane, not an aviation elevation datum. Only 3,780 points lie within the local map-control hull. This is
+useful measured historical geometry with uneven support, not yet a complete obstacle surface.
+The mathematical component constructs an explicit approach, flare and ground-stop trajectory in a stipu-
+lated point-mass scenario. Turning, descent, speed and force demands are checked together. A retained
+computer-assisted certificate supports a minimum normalized constraint margin of at least 0.0397 for one
+exact-decimal candidate. In that scenario the aircraft touches down about 313.49 metres beyond the us-
+able threshold and stops at 2,531.32 metres, leaving 254.68 metres. These are model calculations with
+zero nominal wind and no historical obstacles. Their decimal precision does not describe real-aircraft
+accuracy.
+A separate necessary bound puts the best score in the same finite trajectory family below 0.1559772.
+The gap is too wide to support a claim of near-optimality. Existence of a best member of that family
+is established separately from locating it. The paper also derives exact conditional ranges for stopping
+distance over a supplied parameter box; no physical parameter box or calibrated prediction interval is
+supplied in this version.
+Historical weather adds an important diagnostic. The retained routine station reports immediately brack-
+eting the accident period record a mean wind of 10.8 metres per second. In a specified quality-filtered
+subset of 1993 routine observations, 99.10 percent of records have a lower mean wind speed. This places
+the selected accident case near the high-wind end of that observed subset. It is descriptive context, not
+an accident probability or a distribution of winds encountered by aircraft.
+The selected flight/weather benchmark supplies a first historical confrontation. Substituting the report’s
+rounded touchdown inputs into the same illustrative stopping law changes remaining runway from about
+255 metres to minus 162 metres. During later report-stated rollout stages, speed falls while the constant
+deceleration required to stop rises. These calculations expose the importance of stopping-aid state and
+activation history; they do not establish that the synthetic approach was historically flyable. A completed
+improvement comparison must hold aircraft, information, environment and objective fixed. No historical
+superiority or safer operational alternative is claimed.
+
+
+
+                                                    1
+Checkers with Runway 13                                                 Working white paper · v1
+
+
+
+Contents
+
+
+Executive summary                                                                             1
+
+1 The research question                                                                       3
+
+2   Historical evidence and the comparison it permits                                         3
+
+3   Reconstructing the approach area through time                                             5
+
+4 A coupled approach-to-stop model                                                            7
+
+5 What the synthetic benchmark establishes                                                    8
+
+6   Historical confrontation: stopping and weather                                           10
+
+7   Uncertainty, counterfactuals and the meaning of a better approach                        13
+
+8   Relation to existing research and contribution to Hong Kong                              14
+
+9   Limitations and the next version                                                         15
+
+10 Conclusion                                                                                16
+
+A Dynamics, parameter domain and explicit construction                                       17
+
+B Restricted attainment and the surviving bound                                              18
+
+C Ground motion and conditional outcome ranges                                               19
+
+D Provenance, reproducibility and author review                                              20
+
+References                                                                                   22
+
+
+
+
+                                                2
+Checkers with Runway 13                                                              Working white paper · v1
+
+
+
+1 The research question
+
+The visual drama of an approach is an unreliable guide to its mathematical diﬀiculty. A steep-looking
+turn may be compatible with the aircraft’s operating envelope, while a visually gentle path may consume
+too much distance or require an unsustainable speed change. At Kai Tak, the more useful question is how
+the constraints fit together: where the aircraft can turn, how much height it can lose, what state it must
+reach at the runway, and how much runway remains after touchdown.
+The phrase Kai Tak paradox is used here as a project framing, not as an established named theorem or
+a claim that historical operations violated a physical bound. It refers to the apparent tension between a
+constrained-looking approach and the existence of flown trajectories through it. The research task is to
+replace that impression with a precisely defined feasible set and a fair comparison.
+Let 𝜃 collect aircraft configuration, initial conditions, environment and information assumptions, and let
+ℱ(𝜃) denote the admissible trajectories or policies under those assumptions. Three questions follow. Is
+ℱ(𝜃) nonempty? Are documented historical observations consistent with the model and its uncertainty?
+Does a candidate improve a specified criterion relative to a comparable baseline? These questions require
+different evidence. A constructed feasible path answers the first within its model. A measured flight can
+challenge the model. A strict, verified improvement over one baseline says nothing by itself about global
+optimality.
+An entire published procedure should not be treated as one observed curve. Pilots can fly different trajec-
+tories consistent with a procedure, with different aircraft states and weather. Similarly, a recorded path
+does not identify the pilot’s complete feedback policy: it reveals one response to one realized sequence
+of conditions. This distinction will matter when uncertainty is introduced.
+
+
+1.1 Scope of the first version
+
+This version develops a research benchmark and reports the results that have supporting artifacts. It
+uses 1993 as the main historical reference, while retaining other source epochs explicitly. It presents
+one synthetic approach-to-stop candidate and its restricted certificate. The historical reconstruction and
+flight-evidence analysis have not yet been integrated into that candidate’s constraints.
+The distinction is substantive. The synthetic model is useful for testing equations, understanding coupling
+and verifying a candidate continuously in time. It is not a substitute for the historical problem. Conversely,
+an increasingly detailed reconstruction does not by itself determine aircraft dynamics or identify the best
+approach. Both components must eventually meet in a common coordinate system with defensible uncer-
+tainty.
+
+
+2 Historical evidence and the comparison it permits
+
+2.1 The primary historical anchor
+
+CAD Report 1/95 concerns the Boeing 747-409B B-165 operating CAL605 on 4 November 1993 [1].
+Sections 1.8–1.10 describe the instrument guidance and runway; Appendices 1, 11 and 12 preserve the
+approach chart, selected recorder plots and a reconstructed flight path. The report supplies a coherent
+primary reference for the chosen period, rather than a composite of charts from different years.
+
+
+                                                      3
+Checkers with Runway 13                                                                   Working white paper · v1
+
+
+The reported localiser direction is 088∘ magnetic and the runway direction is 135∘ magnetic. Their dif-
+ference is 47∘ . The glidepath is reported as 3.1∘ , and the instrument segment ends at the middle marker,
+1.7 nautical miles from touchdown. The runway is reported as 3,331.5 metres long and 61 metres wide,
+with 2,786 metres of landing distance available. In the threshold-relative stopping calculation, the latter
+is the relevant length. Total pavement length cannot silently replace it.
+The magnetic difference does not establish a 47-degree air-heading change under arbitrary wind. Ground
+track, air heading and their coordinate references must remain separate. Nor should the missed-approach
+warning in the chart be converted into a universal instruction for where every landing turn begins. That
+warning concerns terrain clearance along the specified missed approach.
+
+Table 1: Selected inputs and their evidential roles. The source-based entries do not calibrate the complete aircraft
+model.
+
+Quantity                      Value or description           Role in this paper
+Aircraft configuration        747-409B; four PW4056          Historical anchor from CAD report.
+                              engines; flaps 30
+Landing weight                525,718 lb, estimated in       Source estimate; exact unit conversion does not
+                              report                         remove estimation error.
+Reference / case target       141 / 153 kt CAS               Reported case information; CAS-to-EAS
+speed                                                        approximation is a model assumption.
+Landing distance available    2,786 m                        Historical runway quantity used as the scenario
+                                                             stopping limit.
+Initial position              (−2500, 1000, 140) m           Synthetic runway-relative state, not a recovered flight
+                                                             position.
+Nominal wind                  Zero                           Scenario choice, not CAL605 weather.
+Braking law                   2 s delay, then 0.15𝑔          Fixed illustrative model, not certified runway
+                                                             performance.
+
+
+
+2.2 What the recorder evidence can establish
+
+The report describes a recorder containing 269 parameters, but publishes only selected plots. Those
+images are not raw machine-readable flight data. Digitization can recover approximate curves if axis
+calibration, trace thickness, overlapping lines and time alignment are handled explicitly. It cannot recover
+missing sampling metadata or turn a thick raster line into a high-precision measurement.
+Several variables also require careful interpretation. Cockpit control-wheel, control-column and pedal
+positions are not automatically aerodynamic surface deflections. Thrust-lever angle was not recorded.
+Engine indications therefore cannot be relabelled as directly observed throttle inputs. The Appendix 12
+flight path was reconstructed by integrating accelerations; comparing it with those same accelerations is
+a consistency check, not independent positional validation.
+Most importantly, the report’s discussion of touchdown does not support a causal claim against the ge-
+ometry of the approach. Section 2.6.5 describes a controllable touchdown and states that touchdown
+parameters were not a causal factor in the accident. The approximate touchdown station and groundspeed
+reported there are evidence about that case, not proof that an alternative turn would have prevented the
+overrun. This paper treats CAL605 as an informative reconstruction benchmark, not as the historical
+optimum or a representative normal flight.
+
+Evidence status. The primary report and a verified exploratory benchmark are available. The benchmark
+digitizes selected flight traces and transcribes the five-sensor weather printout. It does not recover raw
+
+                                                         4
+Checkers with Runway 13                                                            Working white paper · v1
+
+
+DFDR, a complete georeferenced flight path or an identified flight/wind clock offset. Section 6 reports
+the supported conditional findings.
+
+
+
+3 Reconstructing the approach area through time
+
+3.1 A dated reconstruction, not a timeless city
+
+The relevant obstacle set is the city at a stated time. A modern polygon with a construction-related record
+does not necessarily reproduce its historical footprint, roof or surrounding ground. Demolished structures
+are particularly diﬀicult to recover from a database containing only current buildings. Absence from such
+a database is not historical absence.
+The acquisition assembled 227 valid historical survey-map archives across 93 core sheet locations and 48
+full aerial frames, alongside a wider index of available sources. Registration uses the survey rasters and
+their supplied world files, with printed-grid checks for selected sheets. Metadata agreement establishes
+a coherent coordinate transformation; the raster sampling interval is not an estimate of ground accuracy.
+Historical map editions and photograph dates remain separate evidence.
+The modern terrain and building layers provide context, not a replacement for history. The Lands De-
+partment’s 5-metre terrain product documents photography from 2014–2015 and a March 2019 revision
+[2]. A September 2026 building release is a different epoch [3]. Roof and base fields are approximate
+elevations above Hong Kong Principal Datum. A roof elevation is not a height to be added to terrain,
+and Hong Kong Principal Datum must be reconciled with the aviation height reference before clearance
+calculations.
+
+
+3.2 What has been recovered from the 1993 photographs
+
+Two overlapping frames, A36142 and A36143, dated 2 November 1993, support an actual image-based
+stereo reconstruction. The retained result has 1,318 sparse matched points and 171,307 filtered dense
+surface points. Camera labels and scan-scale assumptions supply provisional intrinsics. Matched im-
+age features determine relative geometry; manually interpreted ground features and survey-road controls
+anchor a local metric transformation.
+The vertical coordinate measures height relative to a fitted park/road plane. It is not an absolute surveyed
+elevation or necessarily the height of a roof above that building’s own base. Two inspected roof features
+have conditional relative-plane estimates of approximately 10.77 and 19.20 metres. They are different fea-
+tures. Variation under selected focal-length and principal-point perturbations is a sensitivity experiment,
+not a comprehensive error interval.
+
+
+
+
+                                                     5
+Checkers with Runway 13                                                                                                             Working white paper · v1
+
+
+
+                                    1993 measured surface points                                              Locally supported display sample
+
+                            500                                                                      300                                             35
+
+                            250                                                                                                                      30
+
+
+
+
+ Northing − 821,000 (m)                                                     Northing − 821,000 (m)                                                        Height above fitted plane (m)
+                                                                                                     250
+                                                                                                                                                     25
+                              0
+                                                                                                                                                     20
+                                                                                                     200
+                          −250
+                                                                                                                                                     15
+                          −500                                                                       150                                             10
+
+                          −750                                                                                                                       5
+                                                                                                     100
+                          −1000                                                                                                                      0
+                                                     Outside control hull
+                                                     Inside control hull
+                          −1250                                                                          50
+                                  −500      0         500      1000                                           50    100    150     200    250
+                                         Easting − 837,500 (m)                                                      Easting − 837,500 (m)
+
+
+Figure 1: Local support in the historical stereo point cloud. Left: deterministic every-fifth display sample of
+source points, distinguishing points inside the map-control hull from extrapolated points. Right: relative-plane
+elevations of the within-hull display sample. Coordinates are diagnostic HK1980 Grid positions with stated
+offsets; the vertical coordinate is not HKPD. Surfaces are unclassified. No missing region is represented as clear
+airspace. Source: project reconstruction of Lands Department frames A36142/A36143, 2 November 1993.
+
+
+The held-out map controls give a horizontal root-mean-square discrepancy of 5.754 metres for the metric
+stereo alignment. Only 3,780 dense points lie inside the map-control hull. These facts limit the interpre-
+tation of a visually extensive cloud: image coverage is much broader than locally controlled geometry.
+Points can represent roofs, ground, vegetation or mismatches that survive the filters. They do not consti-
+tute a classified, watertight city model.
+
+
+3.3 From surface evidence to aircraft clearance
+
+Clearance concerns the aircraft’s swept volume and its tracking uncertainty. It cannot be established by
+checking a single point against a visually plausible surface. Historical building identities, roof geometry,
+terrain changes, occlusions, datum offsets and registration errors must be reconciled over the relevant
+corridor. Unknown geometry must remain unknown rather than becoming an empty obstacle list.
+A conservative observed-surface mesh now connects supported points into 225,371 triangles using
+155,891 vertices. It retains holes and has 86,061 boundary edges; it is not watertight. An interpolation-
+support correction removed 49 previously exported dense points before the geometry used in this draft
+was frozen. The point counts and figure reflect that corrected delivery. Neither connected triangles nor
+an attractive rendering establish complete building solids.
+The useful intermediate output is an evidence-linked reconstruction in which each object or point records
+its source date, coordinate meaning and support. Such a resource allows errors to be inspected and cor-
+rected. The mathematical landing model can consume it only when the geometric assumptions required
+by that model are justified.
+
+Evidence status. Dated registered maps and conditional local stereo geometry are available. A complete
+historical obstacle surface with independently defensible vertical accuracy and whole-aircraft clearance
+is not established.
+
+                                                                                                     6
+Checkers with Runway 13                                                              Working white paper · v1
+
+
+
+4 A coupled approach-to-stop model
+
+4.1 Why the phases must be considered together
+
+Turning, descending and slowing compete for time, distance and force. At a given airspeed, tighter turn-
+ing generally raises lateral force demand. Extending the airborne path can change where the aircraft
+reaches the runway and how much flare distance is needed. Touchdown speed then enters the stopping
+law quadratically. An approach model that ends at threshold capture omits part of the constraint interac-
+tion.
+The current research model uses a coordinated three-dimensional point mass. Its aircraft identity is histori-
+cally anchored, but its drag, lift, thrust, rate and braking limits are stipulated scenario parameters. It does
+not include full attitude dynamics, sideslip, landing-gear mechanics or a calibrated wet-runway model.
+These simplifications make an auditable benchmark possible; they also define the limit of its conclusions.
+Let r(𝑡) = (𝑥(𝑡), 𝑦(𝑡), ℎ(𝑡)) be position relative to the usable threshold, with 𝑥 along the runway, 𝑦 to the
+right and ℎ above runway level. For known constant wind w, define
+
+                v = ṙ − w,      𝑉 = ‖v‖,       𝛾 = arcsin(𝑣ℎ /𝑉 ),       𝜓 = atan2(𝑣𝑦 , 𝑣𝑥 ).             (1)
+
+Inverse dynamics maps a smooth position curve into required lift, bank and thrust. The model then tests
+those demands against its operating limits, including bank-angle rate and thrust slew. A smooth curve
+can fail those tests. Appendix A gives the equations and distinguishes forward numerical replay from
+continuous-time certification.
+The baseline has zero nominal wind. Constant-wind inverse dynamics cannot be extended to time-varying
+gusts simply by changing the position equation: air-relative acceleration then also involves wind acceler-
+ation. The current mathematical result does not claim that extension.
+
+
+4.2 An explicit trajectory family
+
+The airborne path has approach and flare phases. In each phase, normalized time 𝑠 = (𝑡 − 𝑡𝑖 )/𝑇𝑖 lies in
+[0, 1], and
+                                                       7
+                                              r𝑖 (𝑡) = ∑ c𝑖𝑘 𝑠𝑘 .                                          (2)
+                                                      𝑘=0
+Endpoint-constrained Hermite terms and shape adjustments enforce the selected boundary states. Twelve
+parameters govern durations, touchdown state and interior shape. Position, velocity and acceleration
+match at the approach–flare join. The threshold state is an intermediate target, followed by flare, touch-
+down, a fixed braking delay and constant deceleration.
+An explicit polynomial representation is useful because it exposes derivatives and permits interval evalu-
+ation. It is not, by itself, a closed-form optimizer. The displayed candidate is one fixed set of coeﬀicients,
+not a solved function assigning a trajectory to every initial state, wind and dated scene.
+
+
+4.3 The objective and its meaning
+
+Let 𝑔𝑗 ≥ 0 denote operating inequalities and let 𝑠𝑗 > 0 be their prescribed normalization scales. The
+primary criterion is
+                                              𝑔𝑗 (𝑡; 𝑞)
+                        max  𝜂 subject to               ≥ 𝜂 for all relevant 𝑡, 𝑗,                 (3)
+                         𝑞,𝜂                      𝑠𝑗
+
+                                                      7
+Checkers with Runway 13                                                                                             Working white paper · v1
+
+
+with structural equalities and additional hard constraints enforced separately. Here 𝑞 is the finite parameter
+vector. A secondary objective minimizes integrated squared normalized bank and rate demands within
+the specified tolerance of the best primary score.
+The score 𝜂 is a normalized model margin. Its value depends on the chosen scales and constraints. It
+is not an accident probability, a distance clearance or a universal measure of safety. Individual physical
+margins remain necessary for interpretation. An optimizer that improves on an infeasible numerical seed
+has constructed a better numerical candidate; it has not outperformed a valid historical flight.
+
+
+5 What the synthetic benchmark establishes
+
+5.1 A complete feasible candidate within the stated model
+
+The retained continuous-time certificate evaluates the exact real-decimal candidate through outward-
+rounded interval arithmetic. It checks a complete cover of both airborne phases, force and rate demands,
+endpoint conditions and the ground rule. Its 2,502 accepted closed subintervals support a normalized mar-
+gin of at least 0.0397. The obstacle set in this certificate is empty. Its corridor is a stipulated reference
+cloud, not a surveyed historical corridor.
+
+                                                            Synthetic geometry; no historical obstacles
+                               1000                                                       Approach          Flare           Ground travel
+
+
+
+
+ Lateral position y (m)
+                                      800
+
+                                      600
+
+                                      400
+
+                                      200
+
+                                       0
+                                                −2000          −1000            0               1000                 2000              3000
+                                                                          Runway-relative x (m)
+                                                        Airborne height, including the permitted brief climb
+
+
+
+
+            Height above runway (m)
+                                      125
+
+                                      100
+
+                                      75
+
+                                      50
+
+                                      25
+
+                                       0
+                                            0                10                   20                   30                        40
+                                                                       Time from synthetic entry (s)
+
+
+Figure 2: The explicit synthetic candidate. Plan view and airborne height are evaluated directly from the frozen
+coeﬀicient export; the stopping segment uses the fixed braking law. This runway-relative frame is not
+geographically registered. The brief climb is permitted by the model and is shown rather than described as
+monotone descent. No historical terrain or buildings are included.
+
+
+
+                                                                                8
+Checkers with Runway 13                                                                 Working white paper · v1
+
+
+Table 2: Deterministic outcomes of the fixed synthetic candidate. Rounding is for readability; no physical
+prediction interval is attached.
+
+                       Quantity                                          Scenario value
+                       Entry to threshold                                        37.34 s
+                       Flare                                                      4.00 s
+                       Entry to touchdown                                        41.34 s
+                       Touchdown station beyond usable threshold               313.49 m
+                       Forward touchdown speed                                77.89 m/s
+                       Ground travel, including braking delay                2,217.83 m
+                       Threshold-to-stop station                             2,531.32 m
+                       Runway remaining                                        254.68 m
+                       Excess over stipulated 150 m reserve                    104.68 m
+                       Entry to complete stop                                    96.29 s
+
+
+Independent forward replay reported maximum discrepancies below 1.45 × 10−7 metres in position and
+4.04 × 10−8 metres per second in speed. These are numerical consistency measures. They do not estimate
+physical aircraft accuracy, which is governed by model adequacy and calibration. Likewise, a certificate
+for the exact source expressions is not automatically a certificate for coeﬀicients rounded in a printed
+table.
+
+
+5.2 Existence and an unresolved performance gap
+
+Within the specified compact parameter box, a regularity argument bounds vertical speed and excludes
+inverse-dynamics singularities on the positive-margin feasible domain. Continuity and compactness then
+establish attainment of the primary maximum. An analogous argument establishes attainment of the
+secondary minimum on the appropriate restricted set. These are existence results within the selected
+polynomial family, not formulas for the optimizers.
+A separate necessary-condition argument uses the minimum flare duration, the vertical-speed bound, the
+minimum equivalent airspeed and the stopping constraint. It gives
+
+                                          0.0397 ≤ 𝜂∗ < 0.1559772.                                           (4)
+
+The witness and upper bound therefore leave an absolute objective-score gap below 0.1162772. This is
+not a suﬀiciently tight result to describe the candidate as near-optimal. Appendix B records the argument
+and its domain.
+Earlier tighter bounds from defective global-exclusion calculations were withdrawn. They are not used
+anywhere in this manuscript. Retaining that correction is important: a successful local solve, or a global
+search that stops with unresolved regions, cannot replace a valid upper bound. The surviving feasible
+witness and the independent scalar upper bound answer different questions and remain separate.
+
+
+5.3 A transparent stopping calculation
+
+For touchdown station 𝑥𝐷 , forward speed 𝑢, delay 𝑑, deceleration 𝑎 > 0 and usable length 𝐿, the stipulated
+ground model gives
+                                                   𝑢2
+                                  𝑆 = 𝑥𝐷 + 𝑢𝑑 + ,           𝑅 = 𝐿 − 𝑆,                                  (5)
+                                                   2𝑎
+
+                                                        9
+Checkers with Runway 13                                                                                  Working white paper · v1
+
+
+where 𝑆 is threshold-to-stop consumption and 𝑅 is runway remaining. Differentiation yields
+                                             𝜕𝑅             𝜕𝑅       𝑢        𝜕𝑅          𝜕𝑅  𝑢2
+                                                 = −1,         = −𝑑 − ,          = −𝑢,       = 2.                             (6)
+                                             𝜕𝑥𝐷            𝜕𝑢       𝑎        𝜕𝑑          𝜕𝑎 2𝑎
+At the fixed candidate, an extra metre of touchdown distance removes one metre of remaining runway. The
+local sensitivity to a one-metre-per-second increase in touchdown speed is approximately 54.95 metres of
+lost runway; an extra second of delay costs approximately 77.89 metres if the other inputs are held fixed.
+These are partial derivatives of an illustrative stopping law, not effects estimated from accident data. The
+airborne trajectory may not permit the inputs to vary independently.
+
+                                                      Stopping inequality only; not flight feasibility
+                                800                                                             Fixed-law reserve boundary
+                                                                                                Synthetic candidate
+                                700
+
+
+
+
+     Touchdown station xD (m)
+                                600
+
+                                500
+
+                                400
+
+                                300
+
+                                200
+
+                                100
+
+                                 0
+                                      70.0     72.5         75.0       77.5       80.0       82.5          85.0        87.5
+                                                               Forward touchdown speed (m/s)
+
+
+Figure 3: Conditional stopping boundary under the fixed law. The curve shows the latest touchdown station
+consistent with the stipulated 150 m reserve, as a function of forward touchdown speed. Delay is 2 s, deceleration
+is 1.4709975 m/s2 , and available length is 2,786 m. The shaded region satisfies this scalar stopping inequality
+only; it is not an airborne-feasibility region. The star marks the synthetic candidate.
+
+
+This calculation illustrates why touchdown location and speed belong in the same problem as the approach.
+It does not demonstrate that speed can be reduced safely at any desired point, that stronger braking is
+available, or that a historical crew had the information and controls assumed by a counterfactual optimizer.
+
+
+6 Historical confrontation: stopping and weather
+
+6.1 When the synthetic runway margin disappears
+
+The settled CAL605 benchmark contains 190 selected approach/final-phase pixel anchors, 35 speed–
+distance anchors and a complete transcription of the printed five-sensor A/B/C wind fields. Source over-
+lays, extraction methods, reading sensitivities and discrepancies are retained. Its verification record re-
+ports 43 passing tests and reproduction of 19 numerical files. These establish a reproducible exploratory
+reconstruction, not independent physical sensor accuracy.
+A direct conditional comparison substitutes the report-stated touchdown station of approximately 480 m
+and groundspeed of 160 kt into equation (5), while holding the model’s 2 s delay, 0.15𝑔 deceleration and
+2,786 m available length fixed. The results are:
+
+                                                                         10
+Checkers with Runway 13                                                                                                                                                                     Working white paper · v1
+
+
+Table 3: Changing touchdown inputs under the same illustrative stopping law. Historical inputs are rounded
+report values; the rows are conditional calculations, not alternative validated flights.
+
+                                             Inputs                                        Touchdown (m)                                                  Speed (kt)            Runway left (m)
+                                             Synthetic reference                                             313.49                                              151.40                    254.68
+                                             Later touchdown only                                            480.00                                              151.40                     88.17
+                                             Higher speed only                                               313.49                                              160.00                      4.99
+                                             Both report-stated inputs                                       480.00                                              160.00                   −161.52
+
+
+Later touchdown consumes another 166.51 m; the speed change consumes another 249.69 m at fixed
+delay and deceleration. A negative remainder places the formula’s stop beyond the runway. It does not
+reconstruct the aircraft’s final movement into the water. The synthetic and historical entry conditions,
+environment and control histories differ, so this calculation cannot establish a superior approach.
+
+
+6.2 Falling speed can accompany a worsening stopping requirement
+
+For current speed 𝑣, runway remaining 𝑅 and assumed additional delay 𝜏, the constant deceleration needed
+to stop at the end is
+                                               𝑣2
+                                    𝑎req =           ,     𝑅 > 𝑣𝜏.                                    (7)
+                                           2(𝑅 − 𝑣𝜏)
+This is a diagnostic, not the deceleration actually applied. Applying it to the report’s narrative landmarks
+gives a rising requirement even as speed falls. With no additional delay, the requirement rises from about
+0.150𝑔 at 2,300 m remaining and 160 kt, to 0.191𝑔 at 1,365 m and 139 kt, 0.221𝑔 at 1,080 m and 133 kt,
+and 0.255𝑔 at 880 m and 129 kt. An additional two-second delay at the last state raises the conditional
+requirement to about 0.300𝑔.
+
+                                                        Speed decreases                                                                                          Stopping requirement increases
+                               160                                                                                                                 0.30            No additional delay
+
+
+
+
+                                                                                                              Required constant deceleration (g)
+                                                                                                                                                                   2 s additional delay
+
+                               155                                                                                                                 0.28
+
+
+
+
+   Reported groundspeed (kt)
+                                                                                                                                                   0.26
+                               150
+                                                                                                                                                   0.24
+                               145
+                                                                                                                                                   0.22
+
+                               140                                                                                                                 0.20
+
+                               135                                                                                                                 0.18
+
+                                                                                                                                                   0.16
+                               130
+
+                                                                                l                                                                                                                      l
+                                      do
+                                        wn                red                cal                     cte
+                                                                                                         d
+                                                                                                                                                          do
+                                                                                                                                                            wn                   red                cal                     cte
+                                                                                                                                                                                                                                d
+                                   ch              e   sto            rak
+                                                                         e
+                                                                                              sel
+                                                                                                 e                                                     ch                 e   sto            rak
+                                                                                                                                                                                                e
+                                                                                                                                                                                                                     sel
+                                                                                                                                                                                                                        e
+                               Tou             ll r                tob                    rse                                                      Tou                ll r                tob                    rse
+                                             Ro                 Au                     ve                                                                           Ro                 Au                     ve
+                                                                                    Re                                                                                                                     Re
+
+
+
+Figure 4: Source-stated CAL605 rollout landmarks evaluated through the constant-deceleration diagnostic.
+Reported speed falls while required deceleration rises because available runway is being consumed. The curves
+connect four narrative landmarks; they are not continuous measurements or fitted aircraft deceleration. CAD
+Report 1/95, sections 2.2.5–2.2.7; derived from equation (7).
+
+
+The report already describes the stopping-aid sequence, including forward-thrust advancement, autobrake
+
+                                                                                                             11
+Checkers with Runway 13                                                            Working white paper · v1
+
+
+disarming and spoiler retraction after touchdown, followed by much later strong deceleration. The contri-
+bution here is an auditable quantitative description connected to the explicit model, not a new discovery of
+the accident’s cause. A fixed-delay, constant-braking model does not encode those discrete states. More
+precise approach geometry alone will not repair that mismatch.
+The source also contains different approximate touchdown-distance conventions: about 2,300 m remain-
+ing in the narrative, 2,250 m in Appendix 13 and roughly 2,210 m at the digitized Figure 5 ground-flag
+transition. These are retained rather than forced into agreement. Equation (7) uses the narrative land-
+marks; the preceding table uses 2786−480 as the threshold-consistent remaining length. Their numerical
+differences are not presented as contradictory precise measurements.
+
+
+6.3 The airport wind is not a single number
+
+The ground-weather printout contains 15 irregular timestamps, five sensors and three A/B/C fields: 225
+printed direction–speed pairs. The A field is a maximum one-second speed within a five-second window;
+B and C are overlapping two- and ten-minute averages. At wind-system 03:35:30, the NW sensor shows
+37 kt in A, 23 kt in B and 19 kt in C. At 03:38:00, NW shows 12 kt while Lei Yue Mun shows 37 kt in A.
+These differences describe sensor location and aggregation window, not measured wind shear along the
+aircraft’s path.
+The ground-weather clock’s offset to the flight/ATC timeline is unidentified. No exact synchronized join
+is imposed, and no particular ground gust is assigned as the cause of a flight excursion. The printout
+was event-triggered and does not contain all recorded peaks. Interpolation would add assumptions, not
+recover missing observations.
+
+
+6.4 Annual station-weather context
+
+The retained NOAA Integrated Surface Database archive contains 8,549 records for station identifiers
+450070–99999 in 1993, including 24 records on 4 November [4, 5]. Decoding preserves source flags,
+missing values and raw fields. A record containing missing wind is not converted to calm conditions, and
+absence of a gust group is not interpreted as zero gust.
+For descriptive comparison, the routine subset is fixed to FM-15 reports with source flag 4, exact UTC-
+hour timestamps, normal-wind coding, present wind speed with quality code 1 or 5, and exclusion of rows
+missing both temperature and visibility. It contains 8,360 observed records. This is a selected archive
+subset, not a random sample of landings or a complete set of independent weather states.
+The 03:00 and 04:00 UTC reports on 4 November both give wind from 070∘ true at 10.8 m/s, approx-
+imately 21 knots. Their structured gust values are 17.5 and 20.6 m/s, respectively. Agreement of the
+mean values with the CAD published mean is cross-source consistency; the sources may derive from
+the same originating observations. Neither hourly value establishes the instantaneous three-dimensional
+wind acting on the aircraft between reports.
+
+
+
+
+                                                    12
+Checkers with Runway 13                                                                                        Working white paper · v1
+
+
+
+                                               100
+
+
+
+
+    Cumulative share of selected records (%)
+                                               80
+
+
+
+                                               60
+                                                                   4 November, 03:00 and 04:00 UTC
+                                                                   10.8 m/s mean wind
+
+                                               40
+
+
+
+                                               20
+
+
+
+                                                0
+                                                 0.0   2.5   5.0         7.5        10.0      12.5      15.0       17.5       20.0
+                                                                   Reported station mean wind speed (m/s)
+
+
+Figure 5: Observed routine station-wind context in 1993. The empirical cumulative distribution uses the declared
+8,360-record subset. At 10.8 m/s, 8,285 records are strictly lower, 17 tie and 58 are higher. Serial dependence,
+missing hours and selection rules preclude interpreting the display as an accident probability, return period or
+distribution of aircraft-local wind. Source: decoded NOAA ISD 450070–99999 archive.
+
+
+The case therefore challenges the model in a non-benign observed weather context. But it does not cali-
+brate a gust process. Station siting, sensor height, the relation between surface measurements and aircraft-
+local wind, and clock offsets remain material. A high rank in the annual routine subset cannot identify
+which wind realization acted along the flight path.
+The matched-case reconstruction preserves separate wind-system and flight-recorder clocks. Published
+narrative events cross-check digitized curves, but they are not necessarily independent measurements.
+Comparison to the zero-wind synthetic witness exposes the mismatched conditions rather than interpret-
+ing the distance between curves as pilot ineﬀiciency.
+
+Evidence status. Selected flight-trace reconstruction, wind-printout transcription, NOAA decoding and
+conditional stopping diagnostics are available in the settled benchmark. A complete georeferenced trajec-
+tory, physical uncertainty calibration, routine-flight validation and an equivalent-conditions improvement
+comparison remain unresolved.
+
+
+
+7 Uncertainty, counterfactuals and the meaning of a better approach
+
+7.1 Different errors require different evidence
+
+Measurement error concerns observed inputs, such as positions or a plotted speed trace. Model discrep-
+ancy concerns the difference between the chosen aircraft equations and real dynamics. Approximation
+error concerns a compact rule’s difference from its reference computation. Tracking error concerns an air-
+craft’s departure from the planned reference. An optimality gap concerns the distance between achieved
+and best admissible objective values. These cannot be compressed into one numerical band without a
+joint model and supporting evidence.
+
+
+
+                                                                                13
+Checkers with Runway 13                                                               Working white paper · v1
+
+
+For example, a terrain product’s stated accuracy at a confidence level does not supply a worst-case ob-
+stacle bound. An interval-arithmetic proof controls numerical enclosure under its assumptions, not the
+correctness of the assumptions. A held-out horizontal map-control error does not independently calibrate
+vertical roof error. Each number must retain the question it answers.
+
+
+7.2 What deterministic envelopes already provide
+
+Suppose evidence supplies a joint enclosing box for 𝑥𝐷 , 𝑢, 𝑑, 𝑎, 𝐿, with positive lower deceleration and
+nonnegative speed and delay. Monotonicity of equation (5) gives
+
+                                         𝑢−2                                           𝑢+2
+                  𝑆− = 𝑥 − + 𝑢 − 𝑑− +        ,                  𝑆+ = 𝑥 + + 𝑢 + 𝑑+ +        ,               (8)
+                                        2𝑎+                                           2𝑎−
+                    𝑅 ∈ [𝐿− − 𝑆+ , 𝐿+ − 𝑆− ].                                                              (9)
+
+These are exact extrema over the Cartesian box for the stated scalar law. Dependence or flight constraints
+can make the range conservative. Statistical independence is not assumed. No physical box has been cal-
+ibrated for this manuscript, so the formulas do not justify attaching a numerical physical band to Table 2.
+A prediction interval for an individual landing requires a justified conditional distribution for the outcome
+and validation in the intended domain. It differs from a confidence interval for a mean or an estimated
+coeﬀicient. Marginal intervals for touchdown and stopping do not automatically provide joint coverage,
+and endpoint coverage does not establish clearance along an entire path.
+
+
+7.3 The information available to a candidate matters
+
+An offline optimizer may be given an entire future wind history. A pilot or causal controller cannot use
+unobserved future disturbances. The distinction can be written as
+
+           ∃𝜋 ∀𝑤 ∈ 𝒲 ∶ constraints hold          versus      ∀𝑤 ∈ 𝒲 ∃𝜋𝑤 ∶ constraints hold.              (10)
+
+The second statement permits a different solution after each complete wind realization is known. It is
+weaker than a single admissible policy that works across the disturbance set. A fair historical comparison
+must specify the information set, response limitations and navigation aids as well as aircraft dynamics.
+The primary counterfactual should keep aircraft, mass, entry state, runway, dated obstacles, braking, op-
+erating limits and available information fixed. A modern-guidance comparison can be useful, but is a
+separately labelled question. A candidate can only disprove the optimality of a particular baseline if both
+are feasible for the same problem and its strict advantage exceeds relevant uncertainty.
+
+
+8 Relation to existing research and contribution to Hong Kong
+
+8.1 Where the research sits
+
+Aircraft trajectory optimization, bounded-curvature planning and robust tracking are established subjects.
+Wu and Chen characterize minimum-time paths for a Dubins airplane in steady wind; some candidate
+families reduce to quadratic equations and others require transcendental root finding [6]. That reduced
+setting is a valuable benchmark, not a complete descending landing with flare and stopping.
+
+
+                                                     14
+Checkers with Runway 13                                                            Working white paper · v1
+
+
+Kim and coauthors study six-degree-of-freedom landing trajectories with runway alignment, obstacles
+and constant wind using sequential convex programming [7]. That provides a substantially richer dynam-
+ics comparator. FaSTrack separates a simplified planner from tracking dynamics and a tracking-error
+bound [8]. Its demonstrations do not certify a Kai Tak airliner, but the distinction between planned ge-
+ometry and trackable motion is directly relevant here.
+The present paper does not claim novelty merely from applying optimization to Kai Tak. Its prospective
+addition is the combination of a documented historical benchmark, explicit approximate trajectory rules,
+transparent performance bounds and uncertainty-aware confrontation with records. Each element must
+be evaluated against its own literature. The current screening is bounded rather than exhaustive, and the
+comparative algorithms have not been reproduced in this version.
+
+
+8.2 A useful historical research resource
+
+The immediate public value lies in making a diﬀicult historical engineering problem inspectable. A dated
+source catalogue and reconstruction can support aviation-history teaching. An explicit model can show
+students why reaching the runway is not the same as completing a landing. A reproducible analysis can
+help future researchers distinguish a missing input from a mathematical impossibility.
+The intended public package would include the white paper, authored code, provenance records and ex-
+planatory visualizations, subject to source rights. It would distinguish original materials from derived
+artifacts and preserve gaps rather than inventing completeness. This version has not been publicly re-
+leased, and no external adoption or societal impact is claimed. Potential uses are not evidence that those
+uses have already occurred.
+The work’s relevance to Hong Kong follows from its object: the geometry, records and engineering history
+of a particular place. A generalizable mathematical method would be an additional contribution, not a
+prerequisite for a careful historical dataset to be useful. Contemporary aviation applications would require
+separate validation.
+
+
+9 Limitations and the next version
+
+The first draft has a mathematical candidate and historical evidence, but not yet a historical candidate
+validated against that evidence. Its central remaining task is integration under defensible assumptions. It
+must not close that gap by relabelling a synthetic path, replacing unknown historical obstacles with empty
+space, or attaching arbitrary probability distributions to uncertain inputs.
+
+
+
+
+                                                    15
+Checkers with Runway 13                                                                 Working white paper · v1
+
+
+Table 4: Evidence needed before the corresponding stronger claim can enter the paper. These are unfinished
+research requirements, not exclusions from the intended study.
+
+Proposed claim                        Required evidence
+Historical model consistency          Source-linked flight traces; defensible clock, speed and height conventions;
+                                      explicit model comparison with uncertainty.
+Terrain-aware feasibility             Registered runway and historical obstacle geometry; datum reconciliation;
+                                      aircraft-volume and tracking allowance; full-path checks.
+Useful condition-dependent rule       A declared input domain, validated reference solutions, fitted explicit coef-
+                                      ficients and out-of-domain refusal.
+Near-optimality                       A valid, useful objective-gap bound for the same feasible set and objective.
+Calibrated landing predictions        Supported joint input/discrepancy assumptions and relevant out-of-sample
+                                      coverage evidence.
+Historical improvement                A valid baseline and candidate with equivalent conditions and information;
+                                      an advantage that survives uncertainty.
+
+
+The matched CAL605 benchmark now exposes a specific limitation: a two-second delay followed by
+constant braking does not encode the stopping-aid history in this event. The next empirical task is to iden-
+tify which dynamics and discrete states can be supported by the records, preserving the frozen baseline
+while any proposed model change is assessed explicitly. Broader validation remains dependent on routine
+approaches, go-arounds and their configuration and weather metadata.
+The mathematical priority is a useful certified gap or a clearly scoped approximation result after historical
+constraints are introduced. Exact symbolic global optimality is not required for the intended study. An
+explicit approximation with honest error and performance bounds can be more informative than an opaque
+numerical optimum, provided its domain and limitations are established.
+
+
+10 Conclusion
+
+Kai Tak can be studied as a coupled geometric and dynamical problem without assuming either that
+its approach was uniquely optimal or that a better one must exist. This first version assembles a dated
+evidence base, presents conditional historical 3D measurements, constructs an explicit synthetic approach-
+to-stop candidate and separates its feasibility certificate from the unresolved optimum.
+The candidate establishes that the stipulated reduced problem admits a complete landing trajectory. The
+reconstruction establishes that historical geometry can be recovered locally from actual imagery. The
+CAL605 benchmark shows how remaining runway and stopping-aid history can worsen the required brak-
+ing even as speed falls, while the weather diagnostic places the case near the high-wind end of the declared
+routine subset. None of these results alone resolves the historical landing problem.
+The next version should connect them through a common, uncertainty-aware comparison. The contribu-
+tion will be strongest where a clear statement survives that connection: a physical constraint identified, a
+historical feature recovered, a model assumption rejected, or an alternative trajectory shown to improve a
+defined objective under the same conditions. That is the standard by which this project should be judged.
+
+
+
+
+                                                      16
+Checkers with Runway 13                                                                  Working white paper · v1
+
+
+
+A Dynamics, parameter domain and explicit construction
+
+A.1 Inverse and forward equations
+
+With the definitions in Section 4, set
+
+                               e𝑉 = (cos 𝛾 cos 𝜓, cos 𝛾 sin 𝜓, sin 𝛾),                                      (11)
+                               e𝛾 = (− sin 𝛾 cos 𝜓, − sin 𝛾 sin 𝜓, cos 𝛾),                                  (12)
+                              e𝜓 = (− sin 𝜓, cos 𝜓, 0),            f = r̈ + (0, 0, 𝑔).                      (13)
+
+Writing ℓ𝛾 = f ⋅ e𝛾 and ℓ𝜓 = f ⋅ e𝜓 , required lift ℒ, bank 𝜙, drag 𝐷 and thrust 𝒯 are
+
+                   ℒ = 𝑚√ℓ2𝛾 + ℓ2𝜓 ,                          𝜙 = atan2(ℓ𝜓 , ℓ𝛾 ),                          (14)
+                         2ℒ
+                   𝐶𝐿 =         ,                             𝐷 = 21 𝜌𝑉 2 𝑆𝑤 (𝐶𝐷0 + 𝑘𝐷 𝐶𝐿2 ),               (15)
+                        𝜌𝑉 2 𝑆𝑤
+                   𝒯 = 𝑚f ⋅ e𝑉 + 𝐷,                        𝜌(ℎ) = 𝜌0 𝑒−ℎ/𝐻𝜌 .                               (16)
+
+Here 𝑆𝑤 is wing area, not stopping station. At nonzero speed, nonzero horizontal airspeed and positive lift,
+these expressions and their time derivatives define the continuous model’s control demands. Bank-angle
+rate is not automatically body-axis roll rate.
+The corresponding forward equations are
+
+                 ṙ = 𝑉 e𝑉 + w,                                     𝑉̇ = (𝒯 − 𝐷)/𝑚 − 𝑔 sin 𝛾,               (17)
+                      ℒ cos 𝜙/𝑚 − 𝑔 cos 𝛾                                 ℒ sin 𝜙
+                 𝛾̇ =                     ,                         𝜓̇ =          .                         (18)
+                                𝑉                                        𝑚𝑉 cos 𝛾
+
+Replay integrates these equations using derived commands. For stronger consistency checking, lift can
+be recomputed from the replayed state and the specified 𝐶𝐿 command. A sampled integration can detect
+disagreement, but does not establish an inequality at every time. The interval certificate addresses that
+separate numerical question within the same reduced dynamics.
+
+
+A.2 Scenario parameters
+
+Table 5: Stipulated model quantities. These are research assumptions, not manufacturer-approved limits.
+
+Quantity                                                   Value
+Bank / bank-angle rate limits                              25∘ / 5∘ per second
+Equivalent airspeed band                                   135–175 kt
+Lift coeﬀicient / load-factor bands                        0–2.8 / 0.5–1.4
+Thrust / thrust-slew limits                                700 kN / 100 kN per second
+Maximum descent angle                                      6∘
+Maximum approach sink / touchdown sink                     8 / 1.5 m/s; target touchdown sink 0.7 m/s
+Density reference / scale height                           1.225 kg/m3 / 8,500 m
+Wing area / drag coeﬀicients                               541.2 m2 / 𝐶𝐷0 = 0.08, 𝑘𝐷 = 0.045
+Synthetic corridor half-width                              400 m around the fixed reference point cloud
+Threshold height / flight-path angle                       15.24 m / −3.1∘
+Ground delay / deceleration / reserve                      2 s / 1.4709975 m/s2 / 150 m
+
+
+
+                                                      17
+Checkers with Runway 13                                                                 Working white paper · v1
+
+
+The nominal entry position is (−2500, 1000, 140) m. Entry and threshold EAS are fixed at 153 kt, with
+density conversion to true airspeed. The initial ground-track angle is −47∘ in the synthetic runway frame.
+Aircraft mass is the exact unit conversion of the source-estimated weight, 238461.67357166 kg; this
+numerical exactness does not improve the historical estimate.
+The finite parameter box has approach duration 𝑇𝐴 ∈ [30, 55] s, flare duration 𝑇𝐹 ∈ [4, 12] s, touchdown
+station 𝑥𝐷 ∈ [200, 700] m and forward speed 𝑢 ∈ [69, 88] m/s. Each of the four horizontal approach-
+shape amplitudes lies in [−400, 400] m; the two vertical amplitudes lie in [−50, 50] m. Flare-shape
+amplitudes lie in [−50, 50] m horizontally and [−10, 10] m vertically. These parameter restrictions define
+the family in the attainment and upper-bound statements.
+
+
+A.3 Endpoint-preserving polynomials
+
+For endpoints 𝑝0 , 𝑝1 , velocities 𝑣0 , 𝑣1 , accelerations 𝑎0 , 𝑎1 and duration 𝑇 , define vector coeﬀicients
+
+          𝑐0 = 𝑝 0 ,                          𝑐1 = 𝑇 𝑣 0 ,                      𝑐2 = 𝑇 2 𝑎0 /2,                 (19)
+           𝐴 = 𝑝 1 − 𝑐0 − 𝑐1 − 𝑐2 ,           𝐵 = 𝑇 𝑣1 − 𝑐1 − 2𝑐2 ,             𝐶 = 𝑇 2 𝑎1 − 2𝑐2 ,              (20)
+          𝑐3 = 10𝐴 − 4𝐵 + 𝐶/2,                𝑐4 = −15𝐴 + 7𝐵 − 𝐶,               𝑐5 = 6𝐴 − 3𝐵 + 𝐶/2.             (21)
+                             5
+The polynomial 𝑃(𝑠) = ∑𝑘=0 𝑐𝑘 𝑠𝑘 satisfies all six endpoint conditions by direct substitution and differ-
+entiation. The shape functions
+
+                             𝐵0 (𝑠) = 64𝑠3 (1 − 𝑠)3 ,        𝐵1 (𝑠) = (2𝑠 − 1)𝐵0 (𝑠)                            (22)
+
+and their first two derivatives vanish at both endpoints. Adding coordinate-specific multiples of these
+functions adjusts the interior without changing endpoint position, velocity or acceleration. Their explicit
+derivatives permit evaluation of inverse forces and rates without spline differentiation. Both one-sided
+control-rate limits at the phase join must still be checked.
+The full-precision floating coeﬀicient export is included in the source package as reference_form
+ula.json, under evidence/approximation/. It is an evaluation representation. The certificate
+instead reconstructs its source expressions from the exact-decimal candidate. The draft figures evaluate
+the former; the scientific margin claim refers to the latter.
+
+
+B Restricted attainment and the surviving bound
+
+B.1 Why a best member exists
+
+The retained project proof first establishes |𝑣ℎ | < 14 m/s for both vertical-velocity polynomials across
+the full parameter box. In this appendix 𝑣ℎ denotes vertical velocity; it is distinct from horizontal
+speed. On the nonnegative-height feasible domain, the lower EAS bound implies total airspeed at least
+135(1852/3600) m/s. Combined with the vertical-speed bound, this keeps horizontal speed above 68 m/s.
+The positive load lower bound keeps lift away from zero, and the bank constraints retain the positive-up
+lift branch.
+Proposition 1 (Attainment in the nominal finite family). Under the fixed zero-wind scenario, parameter
+box, continuous constraints, density and force model, corridor cloud and ground rule, the primary max-
+imum is attained. The stipulated secondary continuous-effort minimum is also attained on the retained-
+primary set.
+
+                                                        18
+Checkers with Runway 13                                                            Working white paper · v1
+
+
+Proof. The certified candidate makes the set with 𝜂 ≥ 0.0397 nonempty. Restrict 𝑞 to its compact box
+and 𝜂 to a closed bounded interval containing the valid lower and upper bounds. Along any convergent
+feasible sequence, the polynomial states and derivatives through jerk converge uniformly, since durations
+remain bounded away from zero. The regularity bounds above prevent speed, lift and angular-coordinate
+singularities at the limit. Inverse forces, exact rates and the relevant margins therefore pass continuously
+to the limit. Distance to the fixed finite reference cloud is continuous. Every time-indexed inequality and
+terminal constraint is preserved, so the feasible set is closed and bounded. The continuous coordinate
+function 𝜂 attains a maximum on it. The continuous integrated effort attains a minimum on its nonempty
+closed subset retaining the primary optimum within 10−4 .
+
+This argument does not evaluate the maximizing parameters. It does not extend automatically to unre-
+stricted control functions, other winds or historical obstacles. The underlying vertical-speed enclosure
+and candidate certificate are computer-assisted results retained with the evidence snapshot, not a newly
+performed independent proof audit in this typesetting task.
+
+
+B.2 A necessary upper bound from flare and stopping
+
+Let 𝜅 = 1852/3600 and define
+
+                                  𝑢min (𝜂) = √[𝜅(135 + 40𝜂)]2 − 0.72 .                                 (23)
+
+At touchdown the density is 𝜌0 , lateral speed is zero and the vertical speed is −0.7 m/s. The normalized
+EAS margin therefore requires 𝑢 ≥ 𝑢min (𝜂). During flare, zero lateral motion, nonnegative height and
+the global vertical-speed bound require
+
+                                     𝑣𝑥 ≥ √[𝜅(135 + 40𝜂)]2 − 142 .                                     (24)
+
+Because 𝑇𝐹 ≥ 4 s and flare begins at 𝑥 = 0, the touchdown station is at least four times this lower speed.
+The normalized stop margin requires 𝑆 ≤ 2636(1 − 𝜂), where 2636 = 2786 − 150. Combining these
+necessary conditions gives
+
+                                               𝑢min (𝜂)2
+  4√[𝜅(135 + 40𝜂)]2 − 142 + 2𝑢min (𝜂) +
+                                             2(1.4709975)
+                                                                                     ≤ 2636(1 − 𝜂). (25)
+
+The difference between the left and right sides is strictly increasing for 𝜂 ≥ 0. Outward-rounded source
+evaluation brackets its root between 0.1559771 and 0.1559772. Thus every feasible member of this family
+has 𝜂 < 0.1559772.
+With the candidate lower certificate, this yields equation (4). No equality-achieving candidate or tight
+global secondary certificate has been established. The previously withdrawn 0.03972 bound is excluded.
+A search that leaves unexcluded parameter boxes cannot sharpen the bound by treating those boxes as
+impossible.
+
+
+C Ground motion and conditional outcome ranges
+
+Let 𝑡𝐷 = 𝑇𝐴 + 𝑇𝐹 and 𝑞𝑔 = 𝑡 − 𝑡𝐷 . The ground phase is
+                          ⎧
+                          {𝑥𝐷 + 𝑢𝑞𝑔 ,                               0 ≤ 𝑞𝑔 ≤ 𝑑,
+                   𝑥(𝑡) = ⎨                      1
+                                                                                                       (26)
+                          {                                 2
+                          ⎩𝑥𝐷 + 𝑢𝑑 + 𝑢(𝑞𝑔 − 𝑑) − 2 𝑎(𝑞𝑔 − 𝑑) ,      𝑑 ≤ 𝑞𝑔 ≤ 𝑑 + 𝑢/𝑎.
+
+                                                    19
+Checkers with Runway 13                                                               Working white paper · v1
+
+
+The solution ends at rest. Vertical velocity is reset at touchdown by the stipulated contact rule, which
+does not resolve landing-gear impact dynamics. Total entry-to-stop time is
+
+                                        𝑡stop = 𝑇𝐴 + 𝑇𝐹 + 𝑑 + 𝑢/𝑎.                                       (27)
+
+If 𝑇𝐴 ∈ [𝐴− , 𝐴+ ] and 𝑇𝐹 ∈ [𝐹− , 𝐹+ ], along with the scalar box in Section 7, then
+                                                     𝑢−                       𝑢+
+                           𝑡stop ∈ [𝐴− + 𝐹− + 𝑑− +      ,   𝐴 + + 𝐹+ + 𝑑+ +      ].                      (28)
+                                                     𝑎+                       𝑎−
+
+The extrema follow from monotonicity for 𝑎− > 0, 𝑢− ≥ 0 and 𝑑− ≥ 0. Exact rational endpoint arith-
+metic can enclose these calculations without assuming a probability distribution. Whether the extreme
+combinations correspond to feasible airborne trajectories is a separate issue. The present numerical test
+boxes verify software and algebra, not real-world uncertainty coverage.
+
+
+D Provenance, reproducibility and author review
+
+D.1 Evidence frozen for this version
+
+The companion source package contains a timestamped SHA-256 manifest and snapshots of the project
+reports used in the manuscript. It also contains reduced numerical inputs for the five figures. Original
+third-party report PDFs, survey imagery and full aerial photographs are not bundled. Their primary-
+source identities and retrieval routes remain documented.
+
+  Claim group                          Source record in the project
+  Historical geometry and recorder     evidence/EVIDENCE_REPORT.md; CAD Report 1/95, sections 1.6,
+  limitations                          1.8–1.11, 2.6.5 and Appendices 1, 11–12.
+  Map acquisition and chronology       reconstruction/chronology/REPORT.md;
+                                       reconstruction/block_matching/registration_report.md.
+  Conditional stereo reconstruction    reconstruction/block_matching/aerial_registration/RE
+                                       ADME.md, sparse/dense reports and stereo_verification.json.
+  Aircraft assumptions and objective   MODEL_IMPLEMENTATION_SPEC.md; MODEL_EQUATIONS.md;
+                                       model/config.json.
+  Feasible candidate and family        analytical/coupled/RESULTS.md;
+  bounds                               continuous_certificate_refined.json.
+  Explicit formula and scenario        approximation/reference_formula.json;
+  outcomes                             reference_outcomes.json; CLOSED_FORM_AND_BOUNDS.md.
+  Selected flight/weather findings     evidence/cal605_reconstruction/REPORT.md,
+                                       analysis.json, verification.json; primary CAD source
+                                       landmarks cross-checked.
+  Annual weather selection             evidence/cal605_reconstruction/noaa/README.md,
+                                       verification.json and acceptance_verification.json.
+  Scope of related-work screening      literature/LITERATURE_AND_COMPARISON.md;
+                                       APPROXIMATE_LANDING_NOVELTY_2026-10-13.md.
+
+
+The draft builder checks the frozen artifact hashes, recomputes the scalar stopping outcomes, evaluates
+airborne endpoints and reproduces the weather subset counts before drawing figures. PDF checks cover
+citations, text extraction, page geometry and fonts. These document checks do not constitute a new inde-
+pendent scientific review of the source certificates or photogrammetric reconstruction.
+
+
+                                                      20
+Checkers with Runway 13                                                            Working white paper · v1
+
+
+D.2 Research and drafting contributions
+
+Aryan Ayyar initiated the research question and set the project’s scientific direction. The computational
+workflows, reconstruction, verification records and manuscript have been developed with AI-assisted re-
+search, coding and drafting. This first version is prepared for his substantive review; it should not imply
+that all derivations have already been independently checked by a human specialist. Any later contribution
+or acknowledgement statement should reflect the work and reviews actually completed.
+The document is an independent working white paper. No university, aviation authority or archive is
+represented as endorsing its results. Public release, third-party-material reuse and any external review are
+separate steps from producing this private draft. Source attribution does not imply unrestricted redistri-
+bution rights.
+
+
+D.3 Version record
+
+Version 1 freezes the restricted mathematical result, corrected conditional historical reconstruction and
+settled exploratory CAL605 flight/weather benchmark. The final drafting check incorporated the recon-
+struction’s 49-point correction and the newly completed benchmark after verifying their handoff hashes.
+Later versions should identify changed evidence, revised claims and any superseded result explicitly. His-
+torical feasibility, calibrated uncertainty and improvement requirements remain in scope.
+
+
+
+
+                                                    21
+Checkers with Runway 13                                                           Working white paper · v1
+
+
+
+References
+
+[1] Hong Kong Civil Aviation Department (1995). Aircraft Accident Report 1/95: Boeing 747-409B, reg-
+    istration B-165, Hong Kong International Airport, 4 November 1993. August 1995. Primary report;
+    retained 226-page scan from the University of Hong Kong Libraries collection. Archived report.
+
+[2] Lands Department, Government of the Hong Kong SAR (2019). Key features of DTM: 5m-grid Digi-
+    tal Terrain Model. Product specification; revision March 2019, photography January–February 2014
+    and January 2015. https://www.landsd.gov.hk/en/spatial-data/open-data/kf_dtm.h
+    tml.
+
+[3] Lands Department, Government of the Hong Kong SAR (2026). Building spatial data, release meta-
+    data dated 21 September 2026. CSDI Portal. Source metadata and snapshot retained in the project.
+    Dataset metadata.
+
+[4] NOAA National Centers for Environmental Information. Integrated Surface Database, station-year
+    file 450070–99999, 1993. Retained archive acquired 13 October 2026. https://www.ncei.noaa.
+    gov/pub/data/noaa/1993/450070-99999-1993.gz.
+
+[5] NOAA National Centers for Environmental Information. Integrated Surface Data format documenta-
+    tion. Retained specification used for fixed-width fields, additional groups, missing values and quality
+    flags. https://www.ncei.noaa.gov/pub/data/noaa/isd-format-document.pdf.
+
+[6] Wu, F., and Chen, Z. (2024). Closed-Form Solutions for Minimum-Time Paths of Dubins Airplane in
+    Steady Wind. arXiv:2412.04797v1. https://arxiv.org/abs/2412.04797v1.
+
+[7] Kim, T., Kamath, A. G., Rahimi, N., Corleis, J., Açıkmeşe, B., and Mesbahi, M. (2024). Six-Degree-
+    of-Freedom Aircraft Landing Trajectory Planning with Runway Alignment. arXiv:2405.16680v1. The
+    discussion refers to the screened version; a revised version was posted in 2025. https://arxiv.or
+    g/abs/2405.16680v1.
+
+[8] Chen, M., Herbert, S. L., Hu, H., Pu, Y., Fisac, J. F., Bansal, S., Han, S., and Tomlin, C. J. (2021).
+    FaSTrack: a Modular Framework for Real-Time Motion Planning and Guaranteed Safe Tracking.
+    arXiv:2102.07039v2; associated journal DOI: 10.1109/TAC.2021.3059838. https://arxiv.org/
+    abs/2102.07039v2.
+
+
+
+
+                                                    22
+

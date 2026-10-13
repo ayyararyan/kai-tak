@@ -1,10 +1,39 @@
 import json
 import unittest
 import csv
+from pathlib import Path
+from tempfile import TemporaryDirectory
+from unittest.mock import patch
 import numpy as np
+import build_flight
+import build_approach
 from build_flight import HERE,limits,axis
 
 class TestFlight(unittest.TestCase):
+ def assert_rejection_preserves_outputs(self,module,source_name,missing=False):
+  with TemporaryDirectory() as temp:
+   base=Path(temp);out=base/'outputs';out.mkdir()
+   existing=['trace_anchors.json','flight_anchor_readings.csv','flight_traces.csv','flight_events.csv','flight_summary.json','source_anchor_overlay.png','final_approach_rollout.png','approach_anchor_readings.csv','approach_anchors.json','figure1_anchor_overlay.png','figure2_anchor_overlay.png','approach_wind_samples.png']
+   for name in existing:(out/name).write_bytes(('existing '+name).encode())
+   def snapshot():return {p.name:(p.read_bytes(),p.stat().st_mtime_ns) for p in out.iterdir()}
+   before=snapshot();changed=base/'changed_input'
+   if not missing:changed.write_bytes(b'changed source: not the inspected chart or report')
+   with patch.object(module,source_name,changed),patch.object(module,'HERE',out):
+    with self.assertRaises(FileNotFoundError if missing else ValueError):module.main()
+   self.assertEqual(snapshot(),before)
+ def test_flight_source_mutations_abort_without_writes(self):
+  for name in ('PDF','SOURCE'):
+   with self.subTest(source=name):self.assert_rejection_preserves_outputs(build_flight,name)
+ def test_approach_source_mutations_abort_without_writes(self):
+  for name in ('PDF','S1','S2'):
+   with self.subTest(source=name):self.assert_rejection_preserves_outputs(build_approach,name)
+ def test_missing_sources_abort_without_writes(self):
+  for module,names in [(build_flight,('PDF','SOURCE')),(build_approach,('PDF','S1','S2'))]:
+   for name in names:
+    with self.subTest(builder=module.__name__,source=name):self.assert_rejection_preserves_outputs(module,name,missing=True)
+ def test_source_pins_match_inspected_inputs(self):
+  expected=[(build_flight.PDF,build_flight.PDF_SHA256),(build_flight.SOURCE,build_flight.SOURCE_SHA256),(build_approach.S1,build_approach.S1_SHA256),(build_approach.S2,build_approach.S2_SHA256)]
+  self.assertEqual(len(build_flight.checked_sources(expected)),4)
  def test_axis(self):
   self.assertAlmostEqual(axis(566,566,0,1573,70),0)
   self.assertAlmostEqual(axis(1573,566,0,1573,70),70)

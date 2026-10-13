@@ -1,0 +1,247 @@
+{
+  "classification": "Descriptive diagnostics of printed event-selected records, not population inference.",
+  "counts": {
+    "timestamps": 15,
+    "sensors": 5,
+    "direction_speed_pairs": 225,
+    "printed_E_extrema_pairs": 30,
+    "ambiguous_abc_numeric_cells": 0
+  },
+  "times": [
+    "03:30:00",
+    "03:31:00",
+    "03:31:30",
+    "03:32:00",
+    "03:32:30",
+    "03:33:00",
+    "03:34:00",
+    "03:34:30",
+    "03:35:00",
+    "03:35:30",
+    "03:37:30",
+    "03:38:00",
+    "03:38:30",
+    "03:39:00",
+    "03:40:00"
+  ],
+  "consecutive_gaps_seconds": [
+    60,
+    30,
+    30,
+    30,
+    30,
+    60,
+    30,
+    30,
+    30,
+    120,
+    30,
+    30,
+    30,
+    60
+  ],
+  "within_sensor_speed_differences": {
+    "SE": {
+      "A-B": {
+        "min_kt": -3,
+        "max_kt": 11,
+        "max_record": {
+          "wind_clock_time": "03:34:00",
+          "sensor": "SE",
+          "comparison": "A-B",
+          "speed_difference_kt": 11,
+          "direction_circular_difference_deg": -20
+        },
+        "valid_pair_count": 15
+      },
+      "A-C": {
+        "min_kt": -2,
+        "max_kt": 13,
+        "max_record": {
+          "wind_clock_time": "03:34:00",
+          "sensor": "SE",
+          "comparison": "A-C",
+          "speed_difference_kt": 13,
+          "direction_circular_difference_deg": -20
+        },
+        "valid_pair_count": 15
+      }
+    },
+    "NW": {
+      "A-B": {
+        "min_kt": -5,
+        "max_kt": 14,
+        "max_record": {
+          "wind_clock_time": "03:35:30",
+          "sensor": "NW",
+          "comparison": "A-B",
+          "speed_difference_kt": 14,
+          "direction_circular_difference_deg": 0
+        },
+        "valid_pair_count": 15
+      },
+      "A-C": {
+        "min_kt": -8,
+        "max_kt": 18,
+        "max_record": {
+          "wind_clock_time": "03:35:30",
+          "sensor": "NW",
+          "comparison": "A-C",
+          "speed_difference_kt": 18,
+          "direction_circular_difference_deg": 0
+        },
+        "valid_pair_count": 15
+      }
+    },
+    "MID": {
+      "A-B": {
+        "min_kt": -5,
+        "max_kt": 6,
+        "max_record": {
+          "wind_clock_time": "03:33:00",
+          "sensor": "MID",
+          "comparison": "A-B",
+          "speed_difference_kt": 6,
+          "direction_circular_difference_deg": 10
+        },
+        "valid_pair_count": 15
+      },
+      "A-C": {
+        "min_kt": -4,
+        "max_kt": 7,
+        "max_record": {
+          "wind_clock_time": "03:34:00",
+          "sensor": "MID",
+          "comparison": "A-C",
+          "speed_difference_kt": 7,
+          "direction_circular_difference_deg": 0
+        },
+        "valid_pair_count": 15
+      }
+    },
+    "LYM": {
+      "A-B": {
+        "min_kt": -2,
+        "max_kt": 8,
+        "max_record": {
+          "wind_clock_time": "03:31:00",
+          "sensor": "LYM",
+          "comparison": "A-B",
+          "speed_difference_kt": 8,
+          "direction_circular_difference_deg": -10
+        },
+        "valid_pair_count": 15
+      },
+      "A-C": {
+        "min_kt": -3,
+        "max_kt": 8,
+        "max_record": {
+          "wind_clock_time": "03:37:30",
+          "sensor": "LYM",
+          "comparison": "A-C",
+          "speed_difference_kt": 8,
+          "direction_circular_difference_deg": -40
+        },
+        "valid_pair_count": 15
+      }
+    },
+    "YYC": {
+      "A-B": {
+        "min_kt": -7,
+        "max_kt": 14,
+        "max_record": {
+          "wind_clock_time": "03:32:00",
+          "sensor": "YYC",
+          "comparison": "A-B",
+          "speed_difference_kt": 14,
+          "direction_circular_difference_deg": 0
+        },
+        "valid_pair_count": 15
+      },
+      "A-C": {
+        "min_kt": -7,
+        "max_kt": 15,
+        "max_record": {
+          "wind_clock_time": "03:32:00",
+          "sensor": "YYC",
+          "comparison": "A-C",
+          "speed_difference_kt": 15,
+          "direction_circular_difference_deg": -10
+        },
+        "valid_pair_count": 15
+      }
+    }
+  },
+  "max_across_sensor_speed_range": {
+    "A": {
+      "wind_clock_time": "03:38:00",
+      "field": "A",
+      "min_speed_kt": 12,
+      "max_speed_kt": 37,
+      "speed_range_kt": 25,
+      "min_sensor": "NW",
+      "max_sensor": "LYM",
+      "max_pairwise_circular_direction_difference_deg": 20,
+      "valid_speed_sensor_count": 5,
+      "valid_direction_sensor_count": 5
+    },
+    "B": {
+      "wind_clock_time": "03:39:00",
+      "field": "B",
+      "min_speed_kt": 14,
+      "max_speed_kt": 35,
+      "speed_range_kt": 21,
+      "min_sensor": "NW",
+      "max_sensor": "LYM",
+      "max_pairwise_circular_direction_difference_deg": 10,
+      "valid_speed_sensor_count": 5,
+      "valid_direction_sensor_count": 5
+    },
+    "C": {
+      "wind_clock_time": "03:30:00",
+      "field": "C",
+      "min_speed_kt": 17,
+      "max_speed_kt": 33,
+      "speed_range_kt": 16,
+      "min_sensor": "NW",
+      "max_sensor": "LYM",
+      "max_pairwise_circular_direction_difference_deg": 30,
+      "valid_speed_sensor_count": 5,
+      "valid_direction_sensor_count": 5
+    }
+  },
+  "max_present_speed_record": {
+    "date": "1993-11-04",
+    "wind_clock_time": "03:31:00",
+    "seconds_since_wind_clock_033000": 60,
+    "sensor": "LYM",
+    "field": "A",
+    "direction_deg_printed": 50,
+    "speed_kt_printed": 40,
+    "pdf_page_1_based": 138,
+    "printed_page": "A7-2",
+    "record_block_1_based": 2,
+    "row_in_block": 1,
+    "column_group": "right",
+    "raw_reading": "A050/40",
+    "reading_status": "unambiguous_printed_value",
+    "reading_note": ""
+  },
+  "printed_rolling_extrema_summary": {
+    "SE": {
+      "minimum_kt": 4,
+      "maximum_kt": 39
+    },
+    "NW": {
+      "minimum_kt": 8,
+      "maximum_kt": 44
+    }
+  },
+  "cautions": [
+    "A is 5-second maximum 1-second speed, not an instantaneous or mean wind.",
+    "B/C rolling means overlap. No independent sample count, standard error, p-value, or CI is inferred.",
+    "Event-dependent sparse timestamps cannot estimate unbiased time averages or gust frequencies.",
+    "Ground sensors do not measure flight-path winds or vertical wind. No causal accident inference.",
+    "No alignment to flight/ATC clock; 360 LYM direction and NW17/19 source discrepancy retained."
+  ]
+}

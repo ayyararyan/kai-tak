@@ -4,6 +4,7 @@ No inferred raw recorder samples, probabilistic CIs, or UTC registration.
 """
 from pathlib import Path
 import csv, json, hashlib, itertools
+from io import BytesIO
 import numpy as np
 from PIL import Image, ImageDraw
 import matplotlib
@@ -14,8 +15,24 @@ HERE=Path(__file__).resolve().parent
 ROOT=HERE.parents[4]
 SOURCE=ROOT/'research/checkers-runway13/evidence/cal605_reconstruction/source_pages/view_dfdr-154.png'
 PDF=ROOT/'data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf'
+PDF_SHA256='f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a'
+SOURCE_SHA256='a6b41ba0f2718e8f8f74741e8e6d034bb35559fbe701497863a32d2fec4a874a'
 
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def checked_sources(expected):
+ """Bind hardcoded anchors to inspected bytes, before any artifact write.
+
+ Retain those bytes for image rendering too: a source replaced after validation
+ must not enter an overlay carrying the old source identity.
+ """
+ payloads={}
+ for path,digest in expected:
+  data=path.read_bytes()
+  actual=hashlib.sha256(data).hexdigest()
+  if actual!=digest:
+   raise ValueError(f'Source SHA256 mismatch for {path}; expected {digest}, got {actual}. Reinspect and recalibrate anchors before updating the pinned identity.')
+  payloads[path]=data
+ return payloads
 def limits(p,dp,p0,v0,p1,v1,dc):
  vals=[v0+(q-a)*(v1-v0)/(b-a) for q,a,b in itertools.product((p-dp,p+dp),(p0-dc,p0+dc),(p1-dc,p1+dc))]
  return min(vals),max(vals)
@@ -39,13 +56,14 @@ TIME={'pixel0':566,'value0':0,'pixel1':1573,'value1':70,'calibration_halfwidth_p
 CAL_Y=3
 
 def main():
+ sources=checked_sources([(PDF,PDF_SHA256),(SOURCE,SOURCE_SHA256)])
  anchors=[]
  for name,c in DATA.items():
   for i,(x,y) in enumerate(c['points']):
    t=axis(x,566,0,1573,70);lo,hi=limits(x,3,566,0,1573,70,3)
    v=axis(y,c['y0'],c['v0'],c['y1'],c['v1']);vlo,vhi=limits(y,c['dy'],c['y0'],c['v0'],c['y1'],c['v1'],CAL_Y)
    anchors.append({'variable':name,'anchor_id':f'{name}-{i:02d}','x_px':x,'y_px':y,'time_datum_B_s':round(t,3),'time_lo_s':round(lo,3),'time_hi_s':round(hi,3),'value':round(v,3),'reading_lo':round(vlo,3),'reading_hi':round(vhi,3),'unit':c['unit'],'construction':'manual pixel anchor; bounded raster reading sensitivity only','source':'CAD Report1/95 PDF page154 Appendix11 Fig4'})
- meta={'source_pdf':str(PDF.relative_to(ROOT)),'source_pdf_sha256':sha(PDF),'source_raster':str(SOURCE.relative_to(ROOT)),'source_raster_sha256':sha(SOURCE),'raster_dimensions':[1800,1228],'source_figure':'Appendix11 Figure4 printed A11-5 PDFpage154','time_axis':TIME,'variables':DATA,'vertical_calibration_halfwidth_px':CAL_Y,'uncertainty':'Declared pixel sensitivity; no coverage probability, raw DFDR accuracy, source-chart distortion guarantee, or clock synchronization. Linear interpolation is a representation of these coarse anchors, not recovered recorder samples.','anchors':anchors}
+ meta={'source_pdf':str(PDF.relative_to(ROOT)),'source_pdf_sha256':PDF_SHA256,'source_raster':str(SOURCE.relative_to(ROOT)),'source_raster_sha256':SOURCE_SHA256,'raster_dimensions':[1800,1228],'source_figure':'Appendix11 Figure4 printed A11-5 PDFpage154','time_axis':TIME,'variables':DATA,'vertical_calibration_halfwidth_px':CAL_Y,'uncertainty':'Declared pixel sensitivity; no coverage probability, raw DFDR accuracy, source-chart distortion guarantee, or clock synchronization. Linear interpolation is a representation of these coarse anchors, not recovered recorder samples.','anchors':anchors}
  (HERE/'trace_anchors.json').write_text(json.dumps(meta,indent=2)+'\n')
  writecsv(HERE/'flight_anchor_readings.csv',anchors)
  # Piecewise interpolation envelope: candidate segments and interval times/values.
@@ -67,7 +85,7 @@ def main():
    rows.append({'variable':name,'time_datum_B_s':t,'value':round(float(value),3),'reading_lo':round(min(candidates),3),'reading_hi':round(max(candidates),3),'unit':DATA[name]['unit'],'construction':'piecewise-linear interpolation of coarse manual anchors, not independent observation','uncertainty':'pixel sensitivity only; not CI/PI'})
  writecsv(HERE/'flight_traces.csv',rows)
  # Plot digitization overlay; sampled anchors only, to expose omissions and mistakes.
- im=Image.open(SOURCE).convert('RGB');d=ImageDraw.Draw(im)
+ im=Image.open(BytesIO(sources[SOURCE])).convert('RGB');d=ImageDraw.Draw(im)
  for name,c in DATA.items():
   for x,y in c['points']:d.ellipse((x-4,y-4,x+4,y+4),outline=c['color'],width=2)
  d.line((1012,1107,1012,1148),fill='#d44444',width=3)
@@ -88,7 +106,7 @@ def main():
  events=[
  {'event':'touchdown_air_ground_transition','time_datum_B_s':round(axis(1012,566,0,1573,70),3),'time_lo_s':round(limits(1012,3,566,0,1573,70,3)[0],3),'time_hi_s':round(limits(1012,3,566,0,1573,70,3)[1],3),'relative_touchdown_s':'','source':'Appendix11 Fig4 air/ground flag','category':'manual pixel reading','details':'First air-to-ground transition x=1012px; NOT radio-altitude zero crossing.'},
  {'event':'touchdown_narrative','time_datum_B_s':'','time_lo_s':'','time_hi_s':'','relative_touchdown_s':0,'source':'Report section1.11.4 printed32','category':'report-stated','details':'About480m beyond threshold markers; GS160kt; CAS172 to161kt; heading131degM. No supplied statistical bounds.'},
- {'event':'sir_reverse_call','time_datum_B_s':'','time_lo_s':'','time_hi_s':'','relative_touchdown_s':17,'source':'Report section1.11.4 printed33','category':'report-stated','details':'GS130kt; alternate section2.2.6 chronology says selection18s, GS129kt and880m remaining; not interchangeable events.'},
+ {'event':'sir_reverse_call','time_datum_B_s':'','time_lo_s':'','time_hi_s':'','relative_touchdown_s':17,'source':'Report section1.11.4 printed33','category':'report-stated','details':'GS130kt; alternate section2.2.7 chronology says selection18s, GS129kt and880m remaining; not interchangeable events.'},
  {'event':'audible_reverse_selection_click','time_datum_B_s':'','time_lo_s':'','time_hi_s':'','relative_touchdown_s':17.5,'source':'Report section1.11.4 printed33','category':'report-stated','details':'Half a second after call; speedbrake lever began rearward motion.'},
  {'event':'aggressive_deceleration','time_datum_B_s':'','time_lo_s':'','time_hi_s':'','relative_touchdown_s':20,'source':'Report section1.11.4 printed33','category':'report-stated','details':'All reversers deployed; retardation generally exceeded0.3g.'},
  {'event':'left_turn_near_runway_end','time_datum_B_s':'','time_lo_s':'','time_hi_s':'','relative_touchdown_s':'','source':'Report section1.11.4 printed33','category':'report-stated','details':'GS54kt; do not equate to later narrative tiller action at60kt.'},

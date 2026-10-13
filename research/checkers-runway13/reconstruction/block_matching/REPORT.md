@@ -2,7 +2,7 @@
 
 **Verified partial reconstruction, 13 October 2026. Full historical reconstruction: INCOMPLETE.**
 
-[Open the offline 3D workbench](scene/index.html) · [Static preview](scene/overview.png) · [Download GLB](aerial_registration/observed_surface_mesh.glb) · [Browse sheet matching](candidates/index.html)
+[Open the offline 3D workbench](scene/index.html) · [Static preview](scene/overview.png) · [Download GLB](aerial_registration/observed_surface_mesh.glb) · [Four street-block comparisons](candidates/road_cells/index.html) · [Browse sheet matching](candidates/index.html)
 
 Actual 2 November 1993 photographs now supply a three-dimensional observed-surface model. Registered historical maps supply inspected structure outlines and a much wider matching queue. These are useful reconstructed geometry, but not yet a complete, independently accuracy-calibrated historical city. No modern building height has been passed off as a historical measurement.
 
@@ -24,11 +24,17 @@ The surface is nonwatertight: 86,061 boundary edges and zero nonmanifold edges. 
 
 [Reviewed faces](historical_faces.geojson), [source-grid faces](historical_faces_hk1980.geojson), [structure matches](structure_matches.json), [review decisions](manual_review_decisions.json), [modern spatial correspondences](modern_correspondences.json).
 
-The inspected forms include four Mei Tung blocks, the market podium, Tung Tau Blocks 22/23, Lee Kau Yan School, Ng Wah College aggregate, Regal Airport Hotel, Po Sing Court, Kowloon City Market, a partial Lok Sin Tong Primary School face, the maternity home and Lee Kee dispensary. These are depicted faces or aggregates, not necessarily one complete footprint per physical building. The clinic seed returned an adjacent cartographic subdivision and was rejected. The school symbol/outline changes remain ambiguous rather than being forced into unchanged identity.
+The inspected forms include Shing Tung, Mau Tung, On Tung and Hong Tung houses, the market podium, Tung Tau Blocks 22/23, Lee Kau Yan School, Ng Wah College aggregate, Regal Airport Hotel, Po Sing Court, Kowloon City Market, a partial Lok Sin Tong Primary School face, the maternity home and Lee Kee dispensary. These are depicted faces or aggregates, not necessarily one complete footprint per physical building. They are distributed across the map core, not a completed inventory of the four road-control cells; only the school face overlaps those cells. The clinic seed returned an adjacent cartographic subdivision and was rejected. The school symbol/outline changes remain ambiguous rather than being forced into unchanged identity.
 
 Each accepted face is pinned to the exact geometry, full candidate record, source archive and inspected overlay hashes. A modified label, date, height or geometry cannot inherit visual approval. The 72 modern-component spatial joins are correspondence evidence, not 72 historical buildings. All historical face base/top elevations and asserted volumes remain null. Matching an outline across map editions does not certify survival or exact geometry on 4 November 1993.
 
 The broad screen compares current outline templates with actual historical raster ink and enclosed regions. It produces 10,955 strong-unverified, 7,055 ambiguous-content, 234 truncated-region, 2,936 low-support and 2,621 clipped pairs. There are 22,072 distinct current template IDs; multiple components/editions are not independent structures. It also exports 61,893 unclassified map regions, including 49,045 without substantial modern correspondence. Text, roads, courtyards and other symbols can form regions: none is automatically a vanished building. All 23,801 pairs still require identity interpretation beyond automated screening.
+
+## Street-block comparison set
+
+The [four-cell workbench](candidates/road_cells/index.html) assigns actual source/template intersections to road-centre polygons and places October 1989 beside July 1994. Across-date tables contain **202 per-cell current-template joins** (46, 41, 53 and 62), or 404 dated assignments. Separate tables retain historical map-region overlap without assuming the regions are buildings. These are reviewable joins, not 202 accepted historical identities.
+
+Parent inspected all four paired overlays and recorded [eight hash-bound qualitative observations](road_cell_visual_observations.json). Examples: a 1989 CIP annotation versus the 1994 Man Fat House label; a changed school-compound symbol; a later Po Mon Court label; Caritas College and Telephone Exchange/Post Office depicted in both editions; and southern compounds marked WIP/May 1994. These observations establish map content, not exact completion dates or presence on 4 November 1993. No additional physical footprint or height was accepted from these observations.
 
 ## Coordinate meaning and accuracy
 

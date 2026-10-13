@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-13T14:16:07.496151+00:00",
+  "fresh_directory": true,
+  "fresh_venv": true,
+  "documented_commands_only": true,
+  "pages_identical_text": 30,
+  "pages_identical_rendered_pixels_at_0_8_scale": 30,
+  "figures": 7,
+  "python_version": "3.14.6",
+  "pdf_sha256": "a6de1e92665ed9b7d8773843174f2600d148acf932834e52a3a94527bee6f2fc",
+  "rebuild_pdf_sha256": "f17b504ef5bffd71c54a4244001088deb6c459b18dd8f765ff6be2789a8f8b29",
+  "note": "Binary PDF metadata may differ; all page text and rendered pixels match."
+}

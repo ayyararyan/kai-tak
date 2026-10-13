@@ -1,4 +1,6 @@
 {
+  "source_pdf": "data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+  "source_pdf_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
   "sources": [
     {
       "path": "data/kai-tak-2026-10-13/extracts/dfdr_figure1.png",

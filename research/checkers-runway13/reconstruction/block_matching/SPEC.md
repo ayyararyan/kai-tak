@@ -2,7 +2,7 @@
 title: Evidence-linked block matching and historical 3D reconstruction
 type: feature
 created: 2026-10-13
-status: in-progress
+status: incomplete-verified-partial-delivery
 baseline_commit: NO_VCS
 context: []
 ---
@@ -70,3 +70,22 @@ Given a depicted structure, its derived geometry must link to the source and dig
 ## Verification
 
 Run regression tests for affine/CRS round trips, month-boundary semantics, null heights, historical-vs-modern separation and invalid geometry handling. Reconcile all geometry/source counts and hashes. Inspect map-overlay figures and the actual viewer. Passing code tests is not full historical reconstruction completeness.
+
+## Suggested Review Order
+
+- Start with delivered evidence and the full-scope incompleteness boundary.
+  [REPORT.md:1](REPORT.md#L1)
+- Inspect source-linked manual geometry and fail-closed review acceptance.
+  [accept_geometry.py:1](accept_geometry.py#L1)
+- Inspect conditional stereo calibration and observation acceptance.
+  [build_sparse_stereo.py:1](aerial_registration/build_sparse_stereo.py#L1)
+- Inspect dense pixel validity and conservative observed-surface connections.
+  [dense_stereo.py:1](aerial_registration/dense_stereo.py#L1)
+  [build_observed_mesh.py:1](aerial_registration/build_observed_mesh.py#L1)
+- Confirm historical and modern layers remain semantically separate.
+  [build_scene.py:1](scene/build_scene.py#L1)
+- Review tests, repairs, coverage and handoff integrity.
+  [DECISIONS.md:1](reviews/DECISIONS.md#L1)
+  [MODEL_REQUIREMENTS_TRACEABILITY.md:1](MODEL_REQUIREMENTS_TRACEABILITY.md#L1)
+
+Completion gate remains open. Workflow presentation does not authorize setting this full reconstruction specification to done.

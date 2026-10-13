@@ -1,6 +1,6 @@
 # Data sources, attribution and publication scope
 
-This is an initial public research snapshot, not a complete backup of the workstation. A separate publication manifest records every included source file and explicit file exclusions. The live research directories were not moved or modified by packaging, apart from publication entries appended to their project ledger.
+This is an updated public research snapshot, not a complete backup of the workstation. A separate publication manifest records every included source file and explicit file exclusions. The live research directories were not moved or modified by packaging, apart from publication entries appended to their project ledger.
 
 ## Included open data and derived research
 
@@ -30,3 +30,9 @@ These files remain in the original local project. No research evidence was delet
 The original scientific manifests record the original local artifacts. Some documentation/output metadata has local workspace paths or internal session references normalized in the public copy. The publication manifest records both `source_sha256` and the actual public-copy `sha256`, and lists these normalizations. Mathematical model/configuration sources were not changed for publication. Historical source inventories can refer to excluded files; they are provenance inventories, not promises that every third-party item is mirrored here.
 
 Large files are distributed as release archives instead of Git blobs. Restore them with `python3 scripts/fetch_data.py` from the repository root. The helper checks release hashes and paths and refuses to overwrite conflicting files. The public release is a fixed snapshot; new work in other research sessions is not automatically synchronized.
+
+## 13 October update
+
+The update includes the wind-conditioned calculation, both white-paper drafts, reconstruction supplements and the current obstacle-evidence work. In-progress review/QA statuses are retained; publication does not turn drafts into accepted scientific results. Earlier local-only/no-publication statements in archived reports describe their original handoff. Aryan subsequently authorized publication of the assembled project.
+
+Stable counterfactual artifact aliases are materialized as ordinary files for GitHub viewing. Their contents match the source aliases. Historical source-document and private-file exclusions remain in force, including newly acquired accident-report scans and the cartographic specification document; derived observations and source references remain included.

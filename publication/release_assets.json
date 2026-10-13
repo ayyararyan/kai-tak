@@ -1,6 +1,7 @@
 {
-  "release_tag": "snapshot-2026-10-13",
-  "created_utc": "2026-10-13T13:34:39.396559+00:00",
+  "release_tag": "update-2026-10-13",
+  "created_utc": "2026-10-13T14:19:38.636886+00:00",
+  "note": "Unchanged chronology/geospatial archives remain on the initial release; updated groups are complete replacements, not overlays.",
   "assets": [
     {
       "name": "kai-tak-chronology-data-2026-10-13.tar.gz",
@@ -21,22 +22,22 @@
       "url": "https://github.com/ayyararyan/kai-tak/releases/download/snapshot-2026-10-13/kai-tak-geospatial-data-2026-10-13.tar.gz"
     },
     {
-      "name": "kai-tak-reconstruction-data-2026-10-13.tar.gz",
+      "name": "kai-tak-reconstruction-data-update-2026-10-13.tar.gz",
       "delivery": "reconstruction-data",
-      "bytes": 683568302,
-      "sha256": "f4b7a8bd4e83400e1938c8f01a98f1fdf495f94ab5dc28b6f8dcebf522987e20",
-      "files": 380,
-      "unpacked_bytes": 1801105321,
-      "url": "https://github.com/ayyararyan/kai-tak/releases/download/snapshot-2026-10-13/kai-tak-reconstruction-data-2026-10-13.tar.gz"
+      "bytes": 686377436,
+      "sha256": "4b7db79932aec5d543199355f29b3606ea64594ba3abad15ec4fda1e9b4f4dc6",
+      "files": 387,
+      "unpacked_bytes": 1804021038,
+      "url": "https://github.com/ayyararyan/kai-tak/releases/download/update-2026-10-13/kai-tak-reconstruction-data-update-2026-10-13.tar.gz"
     },
     {
-      "name": "kai-tak-supporting-data-2026-10-13.tar.gz",
+      "name": "kai-tak-supporting-data-update-2026-10-13.tar.gz",
       "delivery": "supporting-data",
-      "bytes": 1592278,
-      "sha256": "6ec3021b838a7ed3e7913933a1b13c23a0b26b6b3936e87d4a2b1ada2d7f59e8",
-      "files": 2,
-      "unpacked_bytes": 8503662,
-      "url": "https://github.com/ayyararyan/kai-tak/releases/download/snapshot-2026-10-13/kai-tak-supporting-data-2026-10-13.tar.gz"
+      "bytes": 22781441,
+      "sha256": "6fb757fbc547e6fe54f7055553629afa1bcc28da0512b42b7b34e70c0f2a2da0",
+      "files": 11,
+      "unpacked_bytes": 31848198,
+      "url": "https://github.com/ayyararyan/kai-tak/releases/download/update-2026-10-13/kai-tak-supporting-data-update-2026-10-13.tar.gz"
     }
   ]
 }

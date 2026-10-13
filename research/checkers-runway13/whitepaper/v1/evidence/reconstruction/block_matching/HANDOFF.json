@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-10-13T13:33:49.167691+00:00",
+  "status": "partial_historical_reconstruction_incomplete",
+  "photo_date": "1993-11-02",
+  "historical_query_date": "1993-11-04",
+  "query_date_presence_certified": false,
+  "map_edition_months": [
+    "1989-10",
+    "1994-07",
+    "1997-04"
+  ],
+  "horizontal_crs": "EPSG:2326 diagnostic map-controlled stereo alignment; EPSG:4326 face delivery also available",
+  "vertical_datum": "local fitted park/road plane; NOT HKPD",
+  "absolute_vertical_datum_reconciled": false,
+  "historical_hard_height_intervals": null,
+  "horizontal_holdout_rmse_m": 5.7542656,
+  "horizontal_holdout_count": 4,
+  "height_error_confidence_intervals": null,
+  "camera_calibration": "nominal film-label/scan assumptions",
+  "named_map_forms": 15,
+  "reviewed_source_faces": 45,
+  "screening_pairs": 23801,
+  "screening_pairs_identity_verified": false,
+  "road_control_cells": 4,
+  "road_cells_contents_verified": false,
+  "dense_points": 171307,
+  "dense_points_inside_control_hull": 3780,
+  "surface_triangles": 225371,
+  "surface_vertices": 155891,
+  "surface_is_watertight": false,
+  "surface_is_building_classified": false,
+  "map_core_epsg2326": [
+    837500,
+    821000,
+    838250,
+    821600
+  ],
+  "coverage": "local paired-image surfaces and three core map editions; not whole-approach completed geometry",
+  "unknown_mask": "historical_3d_unknown_mask.geojson; epistemic unknown, NOT physical occupancy or free space",
+  "pixel_correspondence_mask": "aerial_registration/dense_pixel_qc.npz; invalid pixels are unknown",
+  "presence_uncertainty": "map depiction at edition epoch; no certified interpolation to query date",
+  "modern_comparison": "2026 buildings, separate HKPD layer; no historical height transfer",
+  "clearance_certified": false,
+  "landing_model_modified": false,
+  "full_scope_remaining": [
+    "comprehensive block/structure/vanished-object identity resolution",
+    "broader frame and control coverage",
+    "validated camera/scan calibration",
+    "independent horizontal and vertical checks",
+    "historical absolute datum/terrain/runway reconciliation",
+    "supported occlusion and roof interpretation"
+  ],
+  "browser_interaction_verified": false,
+  "artifacts": [
+    {
+      "path": "REPORT.md",
+      "bytes": 10049,
+      "sha256": "7777a06d303c56a49aba38827320b88d515f1bee52eaff67fdb125cc75a39ae6"
+    },
+    {
+      "path": "MODEL_REQUIREMENTS_TRACEABILITY.md",
+      "bytes": 2178,
+      "sha256": "bc29d712c2be7b97ea5f1542db7805429c676d3c8cbe08d7a4b9bd81076c337b"
+    },
+    {
+      "path": "SPEC.md",
+      "bytes": 8412,
+      "sha256": "4c66de2cb65902c9e706856ff933bf73c9f08fa2c399d365786a259e9446ecdf"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 2174,
+      "sha256": "c441ec85ae1d44c48527d9083d6d6b04e0b1ee4c674491f9f676e110bbaeb349"
+    },
+    {
+      "path": "historical_faces.geojson",
+      "bytes": 312728,
+      "sha256": "f866def637ad2c3495e9a9463a6abfc1b04cbf600b8b52b6ed5ee503bd749ef7"
+    },
+    {
+      "path": "historical_faces_hk1980.geojson",
+      "bytes": 307358,
+      "sha256": "ababd2644f766efb29a79eb02d4a73ffd09893f74190c1e5f464e75627c3bb2e"
+    },
+    {
+      "path": "structure_matches.json",
+      "bytes": 14788,
+      "sha256": "6896976323dec8e9e561815b92e2c7077c2dca6ded4991e91fb3dcce5ed1a347"
+    },
+    {
+      "path": "historical_3d_unknown_mask.geojson",
+      "bytes": 1173,
+      "sha256": "a40cc14a73e2c6f7649913cf23bb63c43e73a9d98ca8df871014ed3a95517017"
+    },
+    {
+      "path": "reviewed_geometry_manifest.json",
+      "bytes": 25994,
+      "sha256": "a46be2f8922e2132d4db061e6183fabc2a1db97dcc47846bddaa867214794498"
+    },
+    {
+      "path": "manual_review_decisions.json",
+      "bytes": 14915,
+      "sha256": "31d1c62db11b1778fbba01110c2c821294d525bb1dc33cf4531122422699ab9e"
+    },
+    {
+      "path": "modern_correspondences.json",
+      "bytes": 34662,
+      "sha256": "2dc25529aa82d294d2b601958f47057006833cb7ed08941e3f477cda08cbed12"
+    },
+    {
+      "path": "scene/index.html",
+      "bytes": 42810317,
+      "sha256": "74089d5c20c3abd7faf8476c0af35e8a84969f956aeaab98ebe521e9cce9bfc5"
+    },
+    {
+      "path": "scene/scene.json",
+      "bytes": 53893170,
+      "sha256": "734ca0e43995571686de9a43cc7b0522a1cf55d1c97d868f66fb2ed7ca1e34e8"
+    },
+    {
+      "path": "scene/overview.png",
+      "bytes": 464485,
+      "sha256": "0870e9cf95185b3b907880c2fde63842095d052a82412ff198d65ef310cdf553"
+    },
+    {
+      "path": "aerial_registration/four_road_control_blocks.geojson",
+      "bytes": 4893,
+      "sha256": "1e885e2012cc34f11960348b652b5e62080240c88fce62b9a4cc162fafc5f08b"
+    },
+    {
+      "path": "aerial_registration/sparse_stereo_report.json",
+      "bytes": 9195,
+      "sha256": "17c70dac3685c3f04eb9d01026aaf3c74ed32313e70755bb854f9afc58377bc9"
+    },
+    {
+      "path": "aerial_registration/dense_stereo_report.json",
+      "bytes": 4425,
+      "sha256": "28ddf7ddff1f4a75e756a6beb3842ed8d6c8fd7e68d211a9e162cf94b72a6374"
+    },
+    {
+      "path": "aerial_registration/dense_stereo_points.csv",
+      "bytes": 33971110,
+      "sha256": "634aa4f28a4d7e80014c48eae199ce829a72d0b5461aaf7e7beeb9a1c8a0dba9"
+    },
+    {
+      "path": "aerial_registration/dense_stereo_points.ply",
+      "bytes": 15501782,
+      "sha256": "f2dc5024cfc34355a4a3692be2c7a861185fa365cd54a3dd088c0e4a59ea032a"
+    },
+    {
+      "path": "aerial_registration/observed_surface_mesh.glb",
+      "bytes": 7071056,
+      "sha256": "c146fae1866e003e74dea693e05df4139e49b414bab0c6f82c14312bc61dc241"
+    },
+    {
+      "path": "aerial_registration/observed_surface_mesh.ply",
+      "bytes": 17350341,
+      "sha256": "49866bd77fd74a04f8ba18e8a734d05ee169b2ddd9bc7d74b6039800869a8323"
+    },
+    {
+      "path": "aerial_registration/observed_surface_mesh_report.json",
+      "bytes": 2635,
+      "sha256": "ae7aa69c6ed42263bc6e060fb92133aaeed8e39f9909bdea48d99dc27986b394"
+    },
+    {
+      "path": "aerial_registration/observed_surface_faces.csv",
+      "bytes": 29337968,
+      "sha256": "6f6ecdd5a930462a59e7b6af90d1b0c67c03bf831cdecc60ea4f0d070283c6b9"
+    },
+    {
+      "path": "aerial_registration/dense_pixel_qc.npz",
+      "bytes": 15370289,
+      "sha256": "e1eb12e50a5879408a4fcfeabd381760f3f5c6cb16296af8b9f9a196db553c2f"
+    },
+    {
+      "path": "aerial_registration/stereo_verification.json",
+      "bytes": 1819,
+      "sha256": "1aa46915a083962a3cc7a60065ceaba113d69ed9effb27f83cd8e67c98b470ec"
+    },
+    {
+      "path": "aerial_registration/observed_mesh_verification.json",
+      "bytes": 1205,
+      "sha256": "a50c3ae569ce52d7c47a21bbe905f18fc4be233f4b311c5c225b08fe9ea42cc7"
+    },
+    {
+      "path": "candidates/all_candidates.csv",
+      "bytes": 12671813,
+      "sha256": "03d2ee86a0600de95b17d2ed575a396ba349c0e4a9fb72fc1acbb7ebf1fcf404"
+    },
+    {
+      "path": "candidates/review_work_units.geojson",
+      "bytes": 784320,
+      "sha256": "f82246cbed1bb1b9074e108ba69648114d25b8040b256551e04065a9e58daddf"
+    },
+    {
+      "path": "candidates/validation.json",
+      "bytes": 79524,
+      "sha256": "442780aceaaf5b1d6b392f5dd3d89f36e17243e7dc5dce16b6bb1f707c916d92"
+    },
+    {
+      "path": "candidates/manifest.json",
+      "bytes": 79998,
+      "sha256": "fa3e8566d2736cd2436ba9000635295dbae672bababfeb08d7cf1740878e13b8"
+    }
+  ]
+}

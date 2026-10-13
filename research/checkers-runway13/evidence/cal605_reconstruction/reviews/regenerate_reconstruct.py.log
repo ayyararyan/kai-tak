@@ -1,0 +1,79 @@
+{
+  "anchors": 35,
+  "scenarios": [
+    {
+      "case": "synthetic_reference",
+      "touchdown_x_m": 313.4921811580115,
+      "touchdown_speed_kt": 151.40226666055483,
+      "delay_s": 2,
+      "deceleration_g": 0.15,
+      "remaining_m": 254.67888237990246,
+      "category": "conditional fixed-braking formula; not a historical simulation"
+    },
+    {
+      "case": "later_touchdown_only",
+      "touchdown_x_m": 480,
+      "touchdown_speed_kt": 151.40226666055483,
+      "delay_s": 2,
+      "deceleration_g": 0.15,
+      "remaining_m": 88.17106353791405,
+      "category": "conditional fixed-braking formula; not a historical simulation"
+    },
+    {
+      "case": "higher_speed_only",
+      "touchdown_x_m": 313.4921811580115,
+      "touchdown_speed_kt": 160.0,
+      "delay_s": 2,
+      "deceleration_g": 0.15,
+      "remaining_m": 4.986029371800214,
+      "category": "conditional fixed-braking formula; not a historical simulation"
+    },
+    {
+      "case": "historical_touchdown_inputs",
+      "touchdown_x_m": 480,
+      "touchdown_speed_kt": 160.0,
+      "delay_s": 2,
+      "deceleration_g": 0.15,
+      "remaining_m": -161.5217894701882,
+      "category": "conditional fixed-braking formula; not a historical simulation"
+    }
+  ],
+  "frontier": [
+    {
+      "event": "touchdown",
+      "remaining_m": 2300,
+      "speed_kt": 160,
+      "required_decel_no_delay_g": 0.15018910221182388,
+      "required_decel_with_2s_delay_g": 0.1617675985401883,
+      "max_delay_at_0p3g_s": 13.953768827462408,
+      "source": "CAD narrative \u00a7\u00a72.2.5\u20132.2.7"
+    },
+    {
+      "event": "roll_restored",
+      "remaining_m": 1365,
+      "speed_kt": 139,
+      "required_decel_no_delay_g": 0.1909955466122852,
+      "required_decel_with_2s_delay_g": 0.21334880514317547,
+      "max_delay_at_0p3g_s": 6.935892546617961,
+      "source": "CAD narrative \u00a7\u00a72.2.5\u20132.2.7"
+    },
+    {
+      "event": "autobrake_call",
+      "remaining_m": 1080,
+      "speed_kt": 133,
+      "required_decel_no_delay_g": 0.22100689260551906,
+      "required_decel_with_2s_delay_g": 0.2530726561746056,
+      "max_delay_at_0p3g_s": 4.156249175175274,
+      "source": "CAD narrative \u00a7\u00a72.2.5\u20132.2.7"
+    },
+    {
+      "event": "reverse_selected",
+      "remaining_m": 880,
+      "speed_kt": 129,
+      "required_decel_no_delay_g": 0.25516613790775977,
+      "required_decel_with_2s_delay_g": 0.3004873736858828,
+      "max_delay_at_0p3g_s": 1.981706697532342,
+      "source": "CAD narrative \u00a7\u00a72.2.5\u20132.2.7"
+    }
+  ]
+}

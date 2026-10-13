@@ -1,0 +1,7 @@
+{
+  "tests_passed": 37,
+  "tests_failed": 0,
+  "command": "project .venv/bin/python -m pytest counterfactual/test_counterfactual.py -q",
+  "source_identity": "Frozen final code hashes match evidence manifest; no source modifications by manuscript task.",
+  "elapsed_s": 1.25
+}

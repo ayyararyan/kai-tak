@@ -1,0 +1,15 @@
+test_anchor_semantics (test_flight.TestFlight.test_anchor_semantics) ... ok
+test_approach_and_wind (test_flight.TestFlight.test_approach_and_wind) ... ok
+test_approach_source_mutations_abort_without_writes (test_flight.TestFlight.test_approach_source_mutations_abort_without_writes) ... ok
+test_axis (test_flight.TestFlight.test_axis) ... ok
+test_corner_bounds (test_flight.TestFlight.test_corner_bounds) ... ok
+test_flight_source_mutations_abort_without_writes (test_flight.TestFlight.test_flight_source_mutations_abort_without_writes) ... ok
+test_missing_sources_abort_without_writes (test_flight.TestFlight.test_missing_sources_abort_without_writes) ... ok
+test_no_runway_exit_or_utc_claim (test_flight.TestFlight.test_no_runway_exit_or_utc_claim) ... ok
+test_random_independent_anchor_box_interpolation (test_flight.TestFlight.test_random_independent_anchor_box_interpolation) ... ok
+test_source_pins_match_inspected_inputs (test_flight.TestFlight.test_source_pins_match_inspected_inputs) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.187s
+
+OK

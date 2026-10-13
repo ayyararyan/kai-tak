@@ -1,7 +1,7 @@
 event,time_datum_B_s,time_lo_s,time_hi_s,relative_touchdown_s,source,category,details
 touchdown_air_ground_transition,31.003,30.586,31.42,,Appendix11 Fig4 air/ground flag,manual pixel reading,First air-to-ground transition x=1012px; NOT radio-altitude zero crossing.
 touchdown_narrative,,,,0,Report section1.11.4 printed32,report-stated,About480m beyond threshold markers; GS160kt; CAS172 to161kt; heading131degM. No supplied statistical bounds.
-sir_reverse_call,,,,17,Report section1.11.4 printed33,report-stated,"GS130kt; alternate section2.2.6 chronology says selection18s, GS129kt and880m remaining; not interchangeable events."
+sir_reverse_call,,,,17,Report section1.11.4 printed33,report-stated,"GS130kt; alternate section2.2.7 chronology says selection18s, GS129kt and880m remaining; not interchangeable events."
 audible_reverse_selection_click,,,,17.5,Report section1.11.4 printed33,report-stated,Half a second after call; speedbrake lever began rearward motion.
 aggressive_deceleration,,,,20,Report section1.11.4 printed33,report-stated,All reversers deployed; retardation generally exceeded0.3g.
 left_turn_near_runway_end,,,,,Report section1.11.4 printed33,report-stated,GS54kt; do not equate to later narrative tiller action at60kt.

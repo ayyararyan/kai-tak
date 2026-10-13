@@ -1,0 +1,12 @@
+{
+  "document": "1:1000 Basic Mapping Specifications",
+  "version": "4.3 December2021",
+  "url": "https://www.landsd.gov.hk/doc/en/1_1000_bms.pdf",
+  "interpretation": "Later mapping-semantics reference, not historical source accuracy",
+  "files": {
+    "1_1000_bms.pdf": "52230c60c5f61bc268150b895e3820d1e814e3b4a4fdd920543d860e28e3c155",
+    "1_1000_bms.txt": "619467e14c7840b06dd4cc1436c67980911a7bf97ff0e20a30f9a2405e24a294"
+  },
+  "recorded_utc": "2026-10-13T14:13:54.103332+00:00",
+  "download_completed_file_mtime_utc": "2026-10-13T14:05:06.274233+00:00"
+}

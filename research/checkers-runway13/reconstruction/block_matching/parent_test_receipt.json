@@ -1,0 +1,131 @@
+{
+  "recorded_utc": "2026-10-13T13:38:44.502007+00:00",
+  "kind": "parent_observed_test_receipt_not_future_test_runner",
+  "python_suites": {
+    "registration_and_geometry": 21,
+    "candidate_regressions": 10,
+    "stereo_guardrails": 25,
+    "scene_semantics": 11
+  },
+  "total_python_tests": 67,
+  "all_passed": true,
+  "node_trace_logic": "passed; not browser",
+  "bound_source_files": [
+    {
+      "path": "register_sheets.py",
+      "sha256": "ce2b9f57062250927696dcb3699d27798ce765d4d4c6ebaf97da54b94a1ed16b"
+    },
+    {
+      "path": "digitize.py",
+      "sha256": "964e20cce8a03779362fc9efb867842b2574cadbe2077c36d0cd63518c352d31"
+    },
+    {
+      "path": "test_registration.py",
+      "sha256": "148722a037fbd4d9f750b5a714606f46e877722fb8ce0c5dcf3b82da44d730a9"
+    },
+    {
+      "path": "render_digitization.py",
+      "sha256": "051ff5970647dff7c85fcdc95acf0739cfecb6ba1a1540a837aa4e9dc6e5afc7"
+    },
+    {
+      "path": "test_geometry.py",
+      "sha256": "cd28f287e2e96762830755ddb84895dfc8852b9002ee7ff87a17dd2795406b0e"
+    },
+    {
+      "path": "accept_geometry.py",
+      "sha256": "bff601460381ac376d6c21159522dbcf639cce8b91831e951a210f515d6d5a04"
+    },
+    {
+      "path": "candidates/repair_export_topology.py",
+      "sha256": "18aab78c59d96662f99b3bbe890b773f5ba833c845a306c581d7c6d62eba9df2"
+    },
+    {
+      "path": "candidates/extract_candidates.py",
+      "sha256": "bcad1ae409b8fb66fe6ef4bb6266e4a888412050055760fba721be92cd405c22"
+    },
+    {
+      "path": "candidates/compare_invalidated.py",
+      "sha256": "f58c1c6a6f0e21f1257712b0e9f74957c42d9376fa44b20ba830018a680076d5"
+    },
+    {
+      "path": "candidates/test_candidate_repairs.py",
+      "sha256": "33f90bf4be354452f069e53a8ea36016d69f47e21789841a358741f4ec003d55"
+    },
+    {
+      "path": "candidates/validate_and_summarize.py",
+      "sha256": "6dd2c1dc908ed8418b992d4afa1d0798814e7a9596991cac8a15d6e55eb08b27"
+    },
+    {
+      "path": "scene/test_viewer_logic.js",
+      "sha256": "f4791f8e69252bfa620c4789381757f585595f2c711c108d26469aa1a24d6637"
+    },
+    {
+      "path": "scene/build_scene.py",
+      "sha256": "0ed2a513e07a38597fef66ca205924142eda4dbf0baea9bd7d9caceedb20f606"
+    },
+    {
+      "path": "scene/viewer.syntax-check.js",
+      "sha256": "ed2b44de19df3ca58aa91d5e9c7247df2258d3ef5e53d7b3019709d92c0eb85c"
+    },
+    {
+      "path": "scene/render_snapshot.py",
+      "sha256": "7330822d999fa0485be4bded4aecb9cdfc616f082c5156c66272e14853b13136"
+    },
+    {
+      "path": "scene/template.html",
+      "sha256": "c2fea3cc7ae2aff94451609a920a1872baf855908ac3050592d1c5535f4cb177"
+    },
+    {
+      "path": "scene/test_scene.py",
+      "sha256": "cf4e79e78313f293cf8a06c2891331681bb6a3e3efd707322f3a21156483de83"
+    },
+    {
+      "path": "aerial_registration/measure_registration.py",
+      "sha256": "c237849d43b2900b1a028f6c04b6e78b8cd5f1ca1af0b44b43b5cc0ebe1edab6"
+    },
+    {
+      "path": "aerial_registration/verify_stereo.py",
+      "sha256": "910498a08831f37124ee18f631a7144f48ca866bfbe3708ee820d4fc35554c78"
+    },
+    {
+      "path": "aerial_registration/finalize_diagnostic.py",
+      "sha256": "05273369e3e9b667759d461c0986272b1f7a95048b76756cfbc48b7968dd3a15"
+    },
+    {
+      "path": "aerial_registration/stereo_guardrails.py",
+      "sha256": "1beea409e91902c3c70a05482dd63f6934a345bbe66a4b84c5d0861db1c4d7f3"
+    },
+    {
+      "path": "aerial_registration/dense_stereo.py",
+      "sha256": "dc6979a8a0f93bed8ef2b956f91497cc530a1122ce39f846e498279c183310fd"
+    },
+    {
+      "path": "aerial_registration/build_sparse_stereo.py",
+      "sha256": "625ac4d8cb5b5b5121c06b23a367074988483bedef78860764c050e4435d1736"
+    },
+    {
+      "path": "aerial_registration/build_observed_mesh.py",
+      "sha256": "ca7a3fd28a41728c22f91d5dffb5dadeb614f6f050587dd37dd5db771ff262a0"
+    },
+    {
+      "path": "aerial_registration/verify_observed_mesh.py",
+      "sha256": "0e8c499d349561531110f9c0fd13c2e6f28321f20d02a2d79e89b195216668a2"
+    },
+    {
+      "path": "aerial_registration/stereo_probe.py",
+      "sha256": "b4ffddb9194af133880a2e64a679487723234a566fa345381bc470ab1921843e"
+    },
+    {
+      "path": "aerial_registration/render_stereo_evidence.py",
+      "sha256": "068b09f9b1b88768fefec15cf6c5cbe972bee65b5e2dcd5b352745d88c38db6d"
+    },
+    {
+      "path": "aerial_registration/height_feasibility.py",
+      "sha256": "1c9e394bcd1c9efff783d120bbab82268fd3989414ba8a539796fc202a94d899"
+    },
+    {
+      "path": "aerial_registration/test_stereo_guardrails.py",
+      "sha256": "3a3d7019df3e117784d7bd05f2f696ed7569a2d13abe93c9e1961433d5f75099"
+    }
+  ]
+}

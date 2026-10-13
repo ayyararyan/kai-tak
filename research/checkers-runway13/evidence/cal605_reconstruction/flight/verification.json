@@ -1,7 +1,7 @@
 {
-  "verified_utc": "2026-10-13T13:29:02.990192+00:00",
-  "tests_passed": 6,
-  "tests_run": 6,
+  "verified_utc": "2026-10-13T13:35:38.987622+00:00",
+  "tests_passed": 10,
+  "tests_run": 10,
   "overlay_visual_review": [
     "Figure4 completed",
     "Figure1 completed",
@@ -12,18 +12,33 @@
     "trace_anchors.json": "bee1d8a2ab1cda570b86e13753c9e70373c112041e51fee2acaa136a3fcd19b1",
     "flight_anchor_readings.csv": "227a93849e990a1983d285547528c3e8e9400b8ed64ff203085526fc6be20232",
     "flight_traces.csv": "8add07847483687bd04d7450d0eed7c78f6db66dd0476c48eda531c31282d34d",
-    "flight_events.csv": "7559ae43fd5f271697190e4b498e7a71456fd1035d6e1955529d818bb3860c91",
+    "flight_events.csv": "9193f7282ca92d9b2f9c464cf35dcfc001e6d94799e69a57e623bbe05c7ffcbb",
     "flight_summary.json": "9d98e8ad5144ae367903c1c59c7e436cc602d1b7894049d11c47bf19244b4135",
-    "approach_anchors.json": "9ab418b1d80ef72a89061c474faa9e69803554e40138859e17a2a7e994aa5779",
+    "approach_anchors.json": "f8f5d68f0164e24ab52da6023eaedeffa2d00462427ff0e726d51fac2683da70",
     "approach_anchor_readings.csv": "09318fd9a5da4a263afa016aeec4ba1e3be6d4c8a232d4376bb329355685c85f",
     "source_anchor_overlay.png": "79fecdc03ccf201244bf81e106c42516a62b3bdb7165c214243eee328bdbe986",
     "figure1_anchor_overlay.png": "08178377a2ab0ffcf5d404851af3e675de9b54dfa24ad7979bfefbff37ec837d",
     "figure2_anchor_overlay.png": "a7079d3800247b38d913170c6d5902ee2315e4d80ca34a8a360e4ebd19ffe6eb",
     "final_approach_rollout.png": "667d997e0d1ec3b1ab957484f4f4971ba2015b6ad71b08e2a1d09a6dc437ff68",
     "approach_wind_samples.png": "c44f54c24e734f6167b31b48637c343bb9ef78be221decd75300308d877e60f2",
-    "README.md": "33342a2c0103aba4578639314e72d5f0a3bd406c43af080acca8359c9aed7178",
-    "build_flight.py": "1ab14a4e9e57dc3ecbfd271f8410a9560aaeed94088f690f420e64c42e77686e",
-    "build_approach.py": "a145cd5f1d8a8d0c20160157835fd3fe9138e689e487239961faf095d2df6b4d",
-    "test_flight.py": "1195d43badb39f9a97bc98997daa45c4c64efd9f9c082bb11a15fa971cedebb4"
+    "README.md": "2bb2c74851ac1d0f0b9bb91125eab70bdb1ce58da16ff1ddad7b042385801257",
+    "build_flight.py": "f21b1436819d81709354a03a38a889f7dfe3cd34c2857d812c7acf90a3d2ae30",
+    "build_approach.py": "63c7d84f4186def630c9d67703ce1a5ebbc01bc40c484f0b7257fdfd25ed27cc",
+    "test_flight.py": "9e948fabb67a2749cc6590b41fbaa78ecdb3a1c8984064b3ac39bb7ce099670d"
+  },
+  "source_identity_repair": {
+    "pinned_inputs": 4,
+    "changed_source_rejection_subcases": 5,
+    "missing_source_rejection_subcases": 5,
+    "existing_outputs_unchanged_assertion": "bytes and mtime_ns",
+    "numerical_artifacts_unchanged_from_prior_manifest": [
+      "flight_anchor_readings.csv",
+      "flight_traces.csv",
+      "approach_anchor_readings.csv",
+      "flight_summary.json",
+      "trace_anchors.json"
+    ],
+    "uncertainty_mathematics_changed": false,
+    "reference_correction": "Reverse selection section2.2.6 -> section2.2.7"
   }
 }

@@ -1,0 +1,40 @@
+{
+  "cell_id": "KC_ROAD_CONTROL_02",
+  "road_cell_source_properties": {
+    "block_id": "KC_ROAD_CONTROL_02",
+    "west_road": "Nam Kok",
+    "east_road": "Lung Kong",
+    "north_road": "Carpenter Road",
+    "south_road": "Nga Tsin Wai Road",
+    "reference_edition_month": "1989-10",
+    "photo_epoch": "1993-11-02",
+    "area_m2": 10908.938171386719,
+    "geometry_semantics": "road-centre matching cell; includes portions of streets; not building/parcel outline",
+    "contents_verified": false,
+    "height_valid": false,
+    "role": "local blockwise inspection area"
+  },
+  "cell_area_epsg2326_m2": 10908.93817721123,
+  "across_date_current_template_rows": 41,
+  "across_date_unclassified_region_overlap_rows": 75,
+  "epochs": {
+    "1989-10": {
+      "template_assignments": 41,
+      "region_assignments": 57,
+      "template_statuses": {
+        "strong_content_candidate_unverified": 36,
+        "ambiguous_content_candidate": 5
+      }
+    },
+    "1994-07": {
+      "template_assignments": 41,
+      "region_assignments": 59,
+      "template_statuses": {
+        "strong_content_candidate_unverified": 38,
+        "ambiguous_content_candidate": 3
+      }
+    }
+  },
+  "full_contents_verified": false,
+  "historical_identity_accepted": 0
+}

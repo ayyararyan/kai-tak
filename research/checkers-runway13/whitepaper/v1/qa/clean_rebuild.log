@@ -1,0 +1,79 @@
+Collecting numpy==2.5.4 (from -r requirements.txt (line 1))
+  Using cached numpy-2.5.4-cp314-cp314-macosx_14_0_arm64.whl.metadata (6.6 kB)
+Collecting matplotlib==3.11.2 (from -r requirements.txt (line 2))
+  Using cached matplotlib-3.11.2-cp314-cp314-macosx_11_0_arm64.whl.metadata (80 kB)
+Collecting pymupdf==1.28.2 (from -r requirements.txt (line 3))
+  Using cached pymupdf-1.28.2-cp310-abi3-macosx_11_0_arm64.whl.metadata (26 kB)
+Collecting contourpy>=1.0.1 (from matplotlib==3.11.2->-r requirements.txt (line 2))
+  Using cached contourpy-1.4.0-cp314-cp314-macosx_11_0_arm64.whl.metadata (3.8 kB)
+Collecting cycler>=0.10 (from matplotlib==3.11.2->-r requirements.txt (line 2))
+  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.28.2 (from matplotlib==3.11.2->-r requirements.txt (line 2))
+  Using cached fonttools-4.66.1-cp314-cp314-macosx_10_15_universal2.whl.metadata (130 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib==3.11.2->-r requirements.txt (line 2))
+  Using cached kiwisolver-1.5.1-cp314-cp314-macosx_11_0_arm64.whl.metadata (5.2 kB)
+Collecting packaging>=20.0 (from matplotlib==3.11.2->-r requirements.txt (line 2))
+  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting pillow>=9 (from matplotlib==3.11.2->-r requirements.txt (line 2))
+  Using cached pillow-12.3.0-cp314-cp314-macosx_11_0_arm64.whl.metadata (9.1 kB)
+Collecting pyparsing>=3 (from matplotlib==3.11.2->-r requirements.txt (line 2))
+  Using cached pyparsing-3.3.3-py3-none-any.whl.metadata (5.9 kB)
+Collecting python-dateutil>=2.7 (from matplotlib==3.11.2->-r requirements.txt (line 2))
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting six>=1.5 (from python-dateutil>=2.7->matplotlib==3.11.2->-r requirements.txt (line 2))
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Using cached numpy-2.5.4-cp314-cp314-macosx_14_0_arm64.whl (5.5 MB)
+Using cached matplotlib-3.11.2-cp314-cp314-macosx_11_0_arm64.whl (9.3 MB)
+Using cached pymupdf-1.28.2-cp310-abi3-macosx_11_0_arm64.whl (23.9 MB)
+Using cached contourpy-1.4.0-cp314-cp314-macosx_11_0_arm64.whl (283 kB)
+Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Using cached fonttools-4.66.1-cp314-cp314-macosx_10_15_universal2.whl (3.1 MB)
+Using cached kiwisolver-1.5.1-cp314-cp314-macosx_11_0_arm64.whl (64 kB)
+Using cached packaging-26.3-py3-none-any.whl (129 kB)
+Using cached pillow-12.3.0-cp314-cp314-macosx_11_0_arm64.whl (4.8 MB)
+Using cached pyparsing-3.3.3-py3-none-any.whl (126 kB)
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: six, pyparsing, pymupdf, pillow, packaging, numpy, kiwisolver, fonttools, cycler, python-dateutil, contourpy, matplotlib
+
+Successfully installed contourpy-1.4.0 cycler-0.12.1 fonttools-4.66.1 kiwisolver-1.5.1 matplotlib-3.11.2 numpy-2.5.4 packaging-26.3 pillow-12.3.0 pymupdf-1.28.2 pyparsing-3.3.3 python-dateutil-2.9.0.post0 six-1.17.0
+
+[notice] A new release of pip is available: 26.1.2 -> 26.2.1
+[notice] To update, run: /Users/maheit/.openclaw/tmp/kaitak-whitepaper-final-rebuild-88rg845w/checkers-with-runway-13-v1/.venv/bin/python3.14 -m pip install --upgrade pip
+{
+  "snapshot_hashes": true,
+  "scalar_outcomes_recomputed": true,
+  "polynomial_endpoints": true,
+  "local_sensitivities": {
+    "dR_du_m_per_mps": -54.949141626562096,
+    "dR_dd_m_per_s": -77.88805495981877
+  },
+  "weather_counts_and_event_values": true,
+  "historical_conditional_stopping_recomputed": true,
+  "stereo_display_sample": {
+    "points": 34262,
+    "inside_hull_points": 748,
+    "subsampling": "every fifth source row"
+  }
+}
+note: Running TeX ...
+note: Rerunning TeX because "main.toc" changed ...
+note: Running xdvipdfmx ...
+note: Writing `main.toc` (4.3828125 KiB)
+note: Writing `main.pdf` (259.185546875 KiB)
+note: Writing `main.log` (30.40234375 KiB)
+note: Writing `main.out` (3.8642578125 KiB)
+note: Writing `main.aux` (15.49609375 KiB)
+{
+  "pages": 23,
+  "characters": 58619,
+  "all_pages_have_text": true,
+  "both_extractors_checked": true,
+  "text_within_page_bounds": true,
+  "no_unresolved_refs_or_missing_glyphs_or_overfull_boxes": true,
+  "all_fonts_embedded": true,
+  "pdf_links": 48,
+  "pdf_sha256": "66fb51a3762a13ad23d264008c24e84b16b9ed908c6450a44bb8b3e04617851b",
+  "visual_inspection": "pending human/assistant rendered-page inspection",
+  "scientific_scope": "Document/data-derivation checks; no new independent scientific peer review."
+}

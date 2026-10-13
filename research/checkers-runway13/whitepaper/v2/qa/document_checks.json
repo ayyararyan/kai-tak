@@ -1,0 +1,13 @@
+{
+  "pages": 30,
+  "characters": 72612,
+  "all_pages_have_text": true,
+  "both_extractors_checked": true,
+  "text_within_page_bounds": true,
+  "no_unresolved_refs_or_missing_glyphs_or_overfull_boxes": true,
+  "all_fonts_embedded": true,
+  "pdf_links": 54,
+  "pdf_sha256": "a6de1e92665ed9b7d8773843174f2600d148acf932834e52a3a94527bee6f2fc",
+  "visual_inspection": "pending human/assistant rendered-page inspection",
+  "scientific_scope": "Document/data-derivation checks; no new independent scientific peer review."
+}

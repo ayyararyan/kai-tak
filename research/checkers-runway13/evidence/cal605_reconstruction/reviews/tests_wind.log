@@ -1,0 +1,16 @@
+test_bad_input_does_not_replace_outputs (test_wind.MissingWindChecks.test_bad_input_does_not_replace_outputs) ... ok
+test_missing_direction_preserves_speed (test_wind.MissingWindChecks.test_missing_direction_preserves_speed) ... ok
+test_missing_speed_propagates_without_losing_direction (test_wind.MissingWindChecks.test_missing_speed_propagates_without_losing_direction) ... ok
+test_plot_missing_speed_direction_and_allmissing (test_wind.MissingWindChecks.test_plot_missing_speed_direction_and_allmissing) ... ok
+test_sparse_allmissing_no_zero_or_empty_extrema_error (test_wind.MissingWindChecks.test_sparse_allmissing_no_zero_or_empty_extrema_error) ... ok
+test_actual_printed_coverage (test_wind.WindChecks.test_actual_printed_coverage) ... ok
+test_circular_direction (test_wind.WindChecks.test_circular_direction) ... ok
+test_event_selected_gap_not_filled (test_wind.WindChecks.test_event_selected_gap_not_filled) ... ok
+test_page_transition_and_distinct_clock (test_wind.WindChecks.test_page_transition_and_distinct_clock) ... ok
+test_source_anomalies_retained (test_wind.WindChecks.test_source_anomalies_retained) ... ok
+test_visually_verified_key_findings (test_wind.WindChecks.test_visually_verified_key_findings) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.961s
+
+OK

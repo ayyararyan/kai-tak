@@ -1,6 +1,6 @@
 {
   "status": "dense_conditional_image_based_pointcloud_not_mesh",
-  "runtime_s": 4.230581998825073,
+  "runtime_s": 4.6544530391693115,
   "source_frames": [
     "A36142",
     "A36143"
@@ -15,10 +15,10 @@
   "counts": {
     "rectified_pixels": 4000000,
     "valid_image_overlap": 2200950,
-    "lr_texture_valid_correspondences": 1541916,
-    "subsampled_for_triangulation": 171356,
-    "positive_finite_reprojection_accepted": 171356,
-    "exported_within_map_control_hull": 3781
+    "lr_texture_valid_correspondences": 1541432,
+    "subsampled_for_triangulation": 171307,
+    "positive_finite_reprojection_accepted": 171307,
+    "exported_within_map_control_hull": 3780
   },
   "filters": {
     "left_right_max_rectified_px": 0.75,
@@ -79,7 +79,7 @@
     "4": "left disparity valid",
     "8": "left-right consistency<=.75px",
     "16": "local texture variance>=36",
-    "32": "right disparity valid"
+    "32": "every nonzero-weight right interpolation contributor in bounds, valid disparity, usable source image"
   },
   "rejected_pixels_are": "failed_correspondence_or_unknown_not_absence",
   "requires_more_work": [
@@ -89,6 +89,13 @@
     "additional views",
     "dense parameter and rectification sensitivity"
   ],
+  "sentinel_interpolation_repair": {
+    "previous_accepted_pixels_with_invalid_disparity_support": 69,
+    "previous_export_samples_with_invalid_disparity_support": 6,
+    "previous_accepted_pixels_with_invalid_any_right_support": 484,
+    "old_outputs_preserved": "invalidated_dense_lr_blend/",
+    "sparse_unchanged": true
+  },
   "accepted_sparse_transform_sha256": "7234e5f534456a2cef78618bc63bdc72ad7da5a0a268694f7be02e754f2cdac7",
   "accepted_manual_labels_sha256": "254dca4fc0dd95088e7a0f9e6af8846a83c49cb90827e0e265439a08662da7c1",
   "source_sha256": {

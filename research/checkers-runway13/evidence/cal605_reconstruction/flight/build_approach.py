@@ -2,15 +2,18 @@
 """Coarse manual Figure1/2 approach samples, no UTC or A/B alignment."""
 from pathlib import Path
 import json
+from io import BytesIO
 from PIL import Image,ImageDraw
 import numpy as np
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-from build_flight import ROOT,HERE,sha,axis,limits,writecsv
+from build_flight import ROOT,HERE,PDF,PDF_SHA256,checked_sources,axis,limits,writecsv
 
 S1=ROOT/'data/kai-tak-2026-10-13/extracts/dfdr_figure1.png'
 S2=ROOT/'data/kai-tak-2026-10-13/extracts/dfdr_figure2.png'
+S1_SHA256='cf814973aaed2877f844eb536a7f05b8865ea818a0def29f892b50ee37a46ae9'
+S2_SHA256='a9762473e58a23f6ddb454c2f7488564cb181ff8430d978cb0c6df188d7e7d3e'
 # Pixel anchors deliberately coarse. At sharp RA/pitch intersections the declared
 # reading sensitivity is larger; original continuous gust peaks are NOT recovered.
 X1=[962,1020,1078,1136,1194,1252,1310,1339]
@@ -27,6 +30,7 @@ VARIABLES={
 TIME={1:dict(p0=498,v0=0,p1=1541,v1=180),2:dict(p0=533,v0=0,p1=1577,v1=180)}
 
 def main():
+ sources=checked_sources([(PDF,PDF_SHA256),(S1,S1_SHA256),(S2,S2_SHA256)])
  rows=[]
  for name,c in VARIABLES.items():
   tx=TIME[c['fig']]
@@ -35,10 +39,10 @@ def main():
    v=axis(y,c['y0'],c['v0'],c['y1'],c['v1']);vlo,vhi=limits(y,c['dy'],c['y0'],c['v0'],c['y1'],c['v1'],4)
    rows.append(dict(variable=name,anchor_id=f'fig{c["fig"]}-{name}-{i:02d}',x_px=x,y_px=y,time_datum_A_s=round(t,3),time_lo_s=round(tlo,3),time_hi_s=round(thi,3),value=round(v,3),reading_lo=round(vlo,3),reading_hi=round(vhi,3),unit=c['unit'],construction='coarse manual pixel anchor; raster sensitivity only',source=f'CAD1/95 Appendix11 Figure{c["fig"]} PDFpage{150+c["fig"]}'))
  writecsv(HERE/'approach_anchor_readings.csv',rows)
- metadata={'sources':[dict(path=str(p.relative_to(ROOT)),sha256=sha(p),pixel_dimensions=list(Image.open(p).size)) for p in (S1,S2)],'time_calibration':TIME,'variables':VARIABLES,'anchor_halfwidth_x_px':4,'time_axis_calibration_halfwidth_px':4,'vertical_calibration_halfwidth_px':4,'uncertainty':'Declared pixel reading sensitivity, no statistical confidence; between-anchor excursions unresolved; source trace amplitudes may exceed sampled range. Figure1 and2 share printed arbitrary datumA. No exact A/B or UTC alignment asserted. Wind values are derived by FMC, not independent ground sensors.','anchors':rows}
+ metadata={'source_pdf':str(PDF.relative_to(ROOT)),'source_pdf_sha256':PDF_SHA256,'sources':[dict(path=str(p.relative_to(ROOT)),sha256=digest,pixel_dimensions=list(Image.open(BytesIO(sources[p])).size)) for p,digest in ((S1,S1_SHA256),(S2,S2_SHA256))],'time_calibration':TIME,'variables':VARIABLES,'anchor_halfwidth_x_px':4,'time_axis_calibration_halfwidth_px':4,'vertical_calibration_halfwidth_px':4,'uncertainty':'Declared pixel reading sensitivity, no statistical confidence; between-anchor excursions unresolved; source trace amplitudes may exceed sampled range. Figure1 and2 share printed arbitrary datumA. No exact A/B or UTC alignment asserted. Wind values are derived by FMC, not independent ground sensors.','anchors':rows}
  (HERE/'approach_anchors.json').write_text(json.dumps(metadata,indent=2)+'\n')
  for fi,p in [(1,S1),(2,S2)]:
-  im=Image.open(p).convert('RGB');d=ImageDraw.Draw(im)
+  im=Image.open(BytesIO(sources[p])).convert('RGB');d=ImageDraw.Draw(im)
   for name,c in VARIABLES.items():
    if c['fig']!=fi:continue
    for x,y in c['points']:d.ellipse((x-5,y-5,x+5,y+5),outline=c['color'],width=2)

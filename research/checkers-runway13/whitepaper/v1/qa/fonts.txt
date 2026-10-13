@@ -1,0 +1,15 @@
+name                                 type              encoding         emb sub uni object ID
+------------------------------------ ----------------- ---------------- --- --- --- ---------
+IHAIZV+TeXGyreTermes-Regular-Identity-H CID Type 0C       Identity-H       yes yes yes      4  0
+BZIVMZ+TeXGyreTermes-Bold-Identity-H CID Type 0C       Identity-H       yes yes yes      6  0
+IXFAWU+TeXGyreTermes-Italic-Identity-H CID Type 0C       Identity-H       yes yes yes     34  0
+TQTHRL+TeXGyreTermesMath-Regular-Identity-H CID Type 0C       Identity-H       yes yes yes     36  0
+GFEMAT+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     52  0
+DSRLVY+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     59  0
+GBEDBO+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     89  0
+GXDUII+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     96  0
+BDHFET+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    117  0
+EKJKAO+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    124  0
+GNUPYF+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    141  0
+EFHZGD+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    167  0
+YEUUOC+LMMono10-Regular-Identity-H   CID Type 0C       Identity-H       yes yes yes    200  0

@@ -1,0 +1,15 @@
+{
+  "source_scene_sha256": "734ca0e43995571686de9a43cc7b0522a1cf55d1c97d868f66fb2ed7ca1e34e8",
+  "source_geometry_modified": false,
+  "displayed_core_triangles": 52230,
+  "closeup_triangles": 1943,
+  "core_colour_under_range": 103,
+  "core_colour_over_range": 72,
+  "map_hashes_verified": 3,
+  "historical_heights_still_null": true,
+  "outputs": {
+    "01-labelled-map.png": "18efe30f5a306d5053a1549d52efb3b8db72168b1b8c0996acf2c9330179cbe0",
+    "02-recovered-surface.png": "4cc0a95f6f37fd91fbf1ce121ccf8a6a601bde0008c07d45b8ef865d13b84e73",
+    "03-market-closeup.png": "87b526ab526a1006ccbfa78c9376b88dde7fb9443107ebc06268f2199390f9a5"
+  }
+}

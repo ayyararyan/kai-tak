@@ -1,7 +1,18 @@
 {
-  "created_utc": "2026-10-13T13:19:24.442208+00:00",
+  "created_utc": "2026-10-13T13:36:11.684898+00:00",
   "source_path": "./research/checkers-runway13/evidence/weather_feasibility_2026-10-13/NOAA_450070-99999-1993.gz",
   "source_sha256": "617c7db4f19c3aaacef91ae8a688c0aab196cdfc7ddfba72857c8e70056d66e0",
+  "source_sha256_expected": "617c7db4f19c3aaacef91ae8a688c0aab196cdfc7ddfba72857c8e70056d66e0",
+  "source_identity_verified_before_output": true,
+  "source_identity_rule": {
+    "year": 1993,
+    "usaf": "450070",
+    "wban": "99999",
+    "latitude_raw": "+22333",
+    "longitude_raw": "+114183",
+    "elevation_raw": "+0024",
+    "call_sign_raw": "VHHH "
+  },
   "documentation_url": "https://www.ncei.noaa.gov/pub/data/noaa/isd-format-document.pdf",
   "documentation_sha256": "1be604b08b5f7c2429e6aef178ff8893019c234bc7bc51bfb7ec1e16a6682f04",
   "record_count": 8549,

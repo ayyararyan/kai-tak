@@ -1,0 +1,158 @@
+\appendix
+\section{Dynamics, parameter domain and explicit construction}
+\label{app:dynamics}
+\subsection{Inverse and forward equations}
+With the definitions in Section~\ref{sec:model}, set
+\begin{align}
+\mathbf e_V&=(\cos\gamma\cos\psi,\cos\gamma\sin\psi,\sin\gamma),\\
+\mathbf e_\gamma&=(-\sin\gamma\cos\psi,-\sin\gamma\sin\psi,\cos\gamma),\\
+\mathbf e_\psi&=(-\sin\psi,\cos\psi,0),\qquad
+\mathbf f=\ddot{\mathbf r}+(0,0,g).
+\end{align}
+Writing $\ell_\gamma=\mathbf f\cdot\mathbf e_\gamma$ and $\ell_\psi=\mathbf f\cdot\mathbf e_\psi$, required lift $\mathcal L$, bank $\phi$, drag $D$ and thrust $\mathcal T$ are
+\begin{align}
+\mathcal L&=m\sqrt{\ell_\gamma^2+\ell_\psi^2},&
+\phi&=\operatorname{atan2}(\ell_\psi,\ell_\gamma),\\
+C_L&=\frac{2\mathcal L}{\rho V^2 S_w},&
+D&=\tfrac12\rho V^2 S_w(C_{D0}+k_D C_L^2),\\
+\mathcal T&=m\mathbf f\cdot\mathbf e_V+D,&
+\rho(h)&=\rho_0 e^{-h/H_\rho}.
+\end{align}
+Here $S_w$ is wing area, not stopping station. At nonzero speed, nonzero horizontal airspeed and positive lift, these expressions and their time derivatives define the continuous model's control demands. Bank-angle rate is not automatically body-axis roll rate.
+
+The corresponding forward equations are
+\begin{align}
+\dot{\mathbf r}&=V\mathbf e_V+\mathbf w,&
+\dot V&=(\mathcal T-D)/m-g\sin\gamma,\\
+\dot\gamma&=\frac{\mathcal L\cos\phi/m-g\cos\gamma}{V},&
+\dot\psi&=\frac{\mathcal L\sin\phi}{mV\cos\gamma}.
+\end{align}
+Replay integrates these equations using derived commands. For stronger consistency checking, lift can be recomputed from the replayed state and the specified $C_L$ command. A sampled integration can detect disagreement, but does not establish an inequality at every time. The interval certificate addresses that separate numerical question within the same reduced dynamics.
+
+\subsection{Scenario parameters}
+\begin{table}[H]
+\caption{Stipulated model quantities. These are research assumptions, not manufacturer-approved limits.}
+\small
+\begin{tabularx}{\textwidth}{@{}XX@{}}
+\toprule
+Quantity & Value\\
+\midrule
+Bank / bank-angle rate limits & $25^\circ$ / $5^\circ$ per second\\
+Equivalent airspeed band & 135--175 kt\\
+Lift coefficient / load-factor bands & 0--2.8 / 0.5--1.4\\
+Thrust / thrust-slew limits & 700 kN / 100 kN per second\\
+Maximum descent angle & $6^\circ$\\
+Maximum approach sink / touchdown sink & 8 / 1.5 m/s; target touchdown sink 0.7 m/s\\
+Density reference / scale height & 1.225 kg/m$^3$ / 8,500 m\\
+Wing area / drag coefficients & 541.2 m$^2$ / $C_{D0}=0.08$, $k_D=0.045$\\
+Synthetic corridor half-width & 400 m around the fixed reference point cloud\\
+Threshold height / flight-path angle & 15.24 m / $-3.1^\circ$\\
+Ground delay / deceleration / reserve & 2 s / 1.4709975 m/s$^2$ / 150 m\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The nominal entry position is $(-2500,1000,140)$ m. Entry and threshold EAS are fixed at 153 kt, with density conversion to true airspeed. The initial ground-track angle is $-47^\circ$ in the synthetic runway frame. Aircraft mass is the exact unit conversion of the source-estimated weight, $238461.67357166$ kg; this numerical exactness does not improve the historical estimate.
+
+The finite parameter box has approach duration $T_A\in[30,55]$ s, flare duration $T_F\in[4,12]$ s, touchdown station $x_D\in[200,700]$ m and forward speed $u\in[69,88]$ m/s. Each of the four horizontal approach-shape amplitudes lies in $[-400,400]$ m; the two vertical amplitudes lie in $[-50,50]$ m. Flare-shape amplitudes lie in $[-50,50]$ m horizontally and $[-10,10]$ m vertically. These parameter restrictions define the family in the attainment and upper-bound statements.
+
+\subsection{Endpoint-preserving polynomials}
+For endpoints $p_0,p_1$, velocities $v_0,v_1$, accelerations $a_0,a_1$ and duration $T$, define vector coefficients
+\begin{align}
+c_0&=p_0,&c_1&=Tv_0,&c_2&=T^2a_0/2,\\
+A&=p_1-c_0-c_1-c_2,&B&=Tv_1-c_1-2c_2,&C&=T^2a_1-2c_2,\\
+c_3&=10A-4B+C/2,&c_4&=-15A+7B-C,&c_5&=6A-3B+C/2.
+\end{align}
+The polynomial $P(s)=\sum_{k=0}^5c_ks^k$ satisfies all six endpoint conditions by direct substitution and differentiation. The shape functions
+\begin{equation}
+B_0(s)=64s^3(1-s)^3,\qquad B_1(s)=(2s-1)B_0(s)
+\end{equation}
+and their first two derivatives vanish at both endpoints. Adding coordinate-specific multiples of these functions adjusts the interior without changing endpoint position, velocity or acceleration. Their explicit derivatives permit evaluation of inverse forces and rates without spline differentiation. Both one-sided control-rate limits at the phase join must still be checked.
+
+The full-precision floating coefficient export is included in the source package as \path{reference_formula.json}, under \path{evidence/approximation/}. It is an evaluation representation. The certificate instead reconstructs its source expressions from the exact-decimal candidate. The draft figures evaluate the former; the scientific margin claim refers to the latter.
+
+\section{Restricted attainment and the surviving bound}
+\label{app:bounds}
+\subsection{Why a best member exists}
+The retained project proof first establishes $|v_h|<14$ m/s for both vertical-velocity polynomials across the full parameter box. In this appendix $v_h$ denotes vertical velocity; it is distinct from horizontal speed. On the nonnegative-height feasible domain, the lower EAS bound implies total airspeed at least $135(1852/3600)$ m/s. Combined with the vertical-speed bound, this keeps horizontal speed above 68 m/s. The positive load lower bound keeps lift away from zero, and the bank constraints retain the positive-up lift branch.
+
+\begin{proposition}[Attainment in the nominal finite family]
+Under the fixed zero-wind scenario, parameter box, continuous constraints, density and force model, corridor cloud and ground rule, the primary maximum is attained. The stipulated secondary continuous-effort minimum is also attained on the retained-primary set.
+\end{proposition}
+\begin{proof}
+The certified candidate makes the set with $\eta\geq0.0397$ nonempty. Restrict $q$ to its compact box and $\eta$ to a closed bounded interval containing the valid lower and upper bounds. Along any convergent feasible sequence, the polynomial states and derivatives through jerk converge uniformly, since durations remain bounded away from zero. The regularity bounds above prevent speed, lift and angular-coordinate singularities at the limit. Inverse forces, exact rates and the relevant margins therefore pass continuously to the limit. Distance to the fixed finite reference cloud is continuous. Every time-indexed inequality and terminal constraint is preserved, so the feasible set is closed and bounded. The continuous coordinate function $\eta$ attains a maximum on it. The continuous integrated effort attains a minimum on its nonempty closed subset retaining the primary optimum within $10^{-4}$.
+\end{proof}
+This argument does not evaluate the maximizing parameters. It does not extend automatically to unrestricted control functions, other winds or historical obstacles. The underlying vertical-speed enclosure and candidate certificate are computer-assisted results retained with the evidence snapshot, not a newly performed independent proof audit in this typesetting task.
+
+\subsection{A necessary upper bound from flare and stopping}
+Let $\kappa=1852/3600$ and define
+\begin{equation}
+u_{\min}(\eta)=\sqrt{[\kappa(135+40\eta)]^2-0.7^2}.
+\end{equation}
+At touchdown the density is $\rho_0$, lateral speed is zero and the vertical speed is $-0.7$ m/s. The normalized EAS margin therefore requires $u\geq u_{\min}(\eta)$. During flare, zero lateral motion, nonnegative height and the global vertical-speed bound require
+\begin{equation}
+v_x\geq\sqrt{[\kappa(135+40\eta)]^2-14^2}.
+\end{equation}
+Because $T_F\geq4$ s and flare begins at $x=0$, the touchdown station is at least four times this lower speed. The normalized stop margin requires $S\leq2636(1-\eta)$, where $2636=2786-150$. Combining these necessary conditions gives
+\begin{multline}
+4\sqrt{[\kappa(135+40\eta)]^2-14^2}
++2u_{\min}(\eta)+\frac{u_{\min}(\eta)^2}{2(1.4709975)}\\
+\leq2636(1-\eta).
+\end{multline}
+The difference between the left and right sides is strictly increasing for $\eta\geq0$. Outward-rounded source evaluation brackets its root between 0.1559771 and 0.1559772. Thus every feasible member of this family has $\eta<0.1559772$.
+
+With the candidate lower certificate, this yields equation~\eqref{eq:bracket}. No equality-achieving candidate or tight global secondary certificate has been established. The previously withdrawn 0.03972 bound is excluded. A search that leaves unexcluded parameter boxes cannot sharpen the bound by treating those boxes as impossible.
+
+\section{Ground motion and conditional outcome ranges}
+\label{app:ground}
+Let $t_D=T_A+T_F$ and $q_g=t-t_D$. The ground phase is
+\begin{equation}
+x(t)=\begin{cases}
+x_D+uq_g,&0\leq q_g\leq d,\\
+x_D+ud+u(q_g-d)-\tfrac12 a(q_g-d)^2,&d\leq q_g\leq d+u/a.
+\end{cases}
+\end{equation}
+The solution ends at rest. Vertical velocity is reset at touchdown by the stipulated contact rule, which does not resolve landing-gear impact dynamics. Total entry-to-stop time is
+\begin{equation}
+t_{\mathrm{stop}}=T_A+T_F+d+u/a.
+\end{equation}
+If $T_A\in[A_-,A_+]$ and $T_F\in[F_-,F_+]$, along with the scalar box in Section~\ref{sec:uncertainty}, then
+\begin{equation}
+t_{\mathrm{stop}}\in
+\left[A_-+F_-+d_-+\frac{u_-}{a_+},\quad
+A_++F_++d_++\frac{u_+}{a_-}\right].
+\end{equation}
+The extrema follow from monotonicity for $a_->0$, $u_-\geq0$ and $d_-\geq0$. Exact rational endpoint arithmetic can enclose these calculations without assuming a probability distribution. Whether the extreme combinations correspond to feasible airborne trajectories is a separate issue. The present numerical test boxes verify software and algebra, not real-world uncertainty coverage.
+
+\section{Provenance, reproducibility and author review}
+\label{app:provenance}
+\subsection{Evidence frozen for this version}
+The companion source package contains a timestamped SHA-256 manifest and snapshots of the project reports used in the manuscript. It also contains reduced numerical inputs for the five figures. Original third-party report PDFs, survey imagery and full aerial photographs are not bundled. Their primary-source identities and retrieval routes remain documented.
+
+\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.31\textwidth}>{\raggedright\arraybackslash}p{0.62\textwidth}@{}}
+\toprule
+Claim group & Source record in the project\\
+\midrule\endhead
+Historical geometry and recorder limitations & \path{evidence/EVIDENCE_REPORT.md}; CAD Report 1/95, sections 1.6, 1.8--1.11, 2.6.5 and Appendices 1, 11--12.\\
+Map acquisition and chronology & \path{reconstruction/chronology/REPORT.md}; \path{reconstruction/block_matching/registration_report.md}.\\
+Conditional stereo reconstruction & \path{reconstruction/block_matching/aerial_registration/README.md}, sparse/dense reports and \path{stereo_verification.json}.\\
+Aircraft assumptions and objective & \path{MODEL_IMPLEMENTATION_SPEC.md}; \path{MODEL_EQUATIONS.md}; \path{model/config.json}.\\
+Feasible candidate and family bounds & \path{analytical/coupled/RESULTS.md}; \path{continuous_certificate_refined.json}.\\
+Explicit formula and scenario outcomes & \path{approximation/reference_formula.json}; \path{reference_outcomes.json}; \path{CLOSED_FORM_AND_BOUNDS.md}.\\
+Selected flight/weather findings & \path{evidence/cal605_reconstruction/REPORT.md}, \path{analysis.json}, \path{verification.json}; primary CAD source landmarks cross-checked.\\
+Annual weather selection & \path{evidence/cal605_reconstruction/noaa/README.md}, \path{verification.json} and \path{acceptance_verification.json}.\\
+Scope of related-work screening & \path{literature/LITERATURE_AND_COMPARISON.md}; \path{APPROXIMATE_LANDING_NOVELTY_2026-10-13.md}.\\
+\bottomrule
+\end{longtable}
+\normalsize
+
+The draft builder checks the frozen artifact hashes, recomputes the scalar stopping outcomes, evaluates airborne endpoints and reproduces the weather subset counts before drawing figures. PDF checks cover citations, text extraction, page geometry and fonts. These document checks do not constitute a new independent scientific review of the source certificates or photogrammetric reconstruction.
+
+\subsection{Research and drafting contributions}
+Aryan Ayyar initiated the research question and set the project's scientific direction. The computational workflows, reconstruction, verification records and manuscript have been developed with AI-assisted research, coding and drafting. This first version is prepared for his substantive review; it should not imply that all derivations have already been independently checked by a human specialist. Any later contribution or acknowledgement statement should reflect the work and reviews actually completed.
+
+The document is an independent working white paper. No university, aviation authority or archive is represented as endorsing its results. Public release, third-party-material reuse and any external review are separate steps from producing this private draft. Source attribution does not imply unrestricted redistribution rights.
+
+\subsection{Version record}
+Version 1 freezes the restricted mathematical result, corrected conditional historical reconstruction and settled exploratory CAL605 flight/weather benchmark. The final drafting check incorporated the reconstruction's 49-point correction and the newly completed benchmark after verifying their handoff hashes. Later versions should identify changed evidence, revised claims and any superseded result explicitly. Historical feasibility, calibrated uncertainty and improvement requirements remain in scope.

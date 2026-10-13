@@ -26,10 +26,16 @@ Outputs:
 - `observations_1993.csv`: all 8,549 retained records, in source order.
 - `observations_1993-11-04.csv`: all 24 event-date records; no removal of suspicious rows.
 - `verification.json`: source/document hashes, types, missingness, duplicates, coverage, event comparison and precise rank denominators.
-- `test_results.txt`: the recorded seven-test run.
+- `test_results.txt`: the recorded twelve-test run.
 - `test_decode_noaa.py`: tests sentinel handling, negative temperature/scales, zero, QC rejection with preservation, not parsing gust-like text in remarks, fail-closed unknown/truncated sections, actual event fields and corrupt record lengths.
 
+Before mutating any output, the decoder checks the **pinned acquired archive SHA256**, decodes those exact hashed bytes, and validates **every row** for USAF450070/WBAN99999, year1993, header latitude/longitude/elevation and historical call sign. Any mismatch fails explicitly; substituted station/year rows are never silently filtered into the rank. Tests demonstrate both archive substitution and metadata mismatch leave existing outputs untouched.
+
 The decoder rejects record-length mismatches and unsupported ADD groups instead of silently skipping them. Group lengths come from the official documentation; they cover every additional identifier in this retained file. This is not claimed to be a universal ISD decoder. `REM` and `EQD` are retained as raw text and never searched for numerical gust observations. No imputation, interpolation, averaging, or UTC-to-flight-clock synchronization occurs.
+
+### Independent-review repair
+
+The first implementation recorded the archive hash but did not enforce it. Independent review correctly identified that a replaced station-year source could therefore enter the annual denominator. The repair adds the pinned-source and all-row identity gates above, before any output write. The original acquisition hash matches, and both regenerated CSVs are byte-identical to their pre-repair versions: **no weather values, rank denominators or conclusions changed**. Adjacent checks cover year, both station identifiers, both coordinates, elevation, call sign, empty input and preservation of old outputs on rejection. This is an input-integrity fix, not a model or sample change. It does not establish historical anemometer siting beyond the retained metadata.
 
 ## Source and provenance
 

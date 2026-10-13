@@ -1,0 +1,81 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=25mm,headheight=15pt]{geometry}
+\usepackage{fontspec}
+\setmainfont{texgyretermes}[Extension=.otf,UprightFont=*-regular,BoldFont=*-bold,ItalicFont=*-italic,BoldItalicFont=*-bolditalic]
+\usepackage{unicode-math}
+\setmathfont{texgyretermes-math.otf}
+\usepackage{graphicx,booktabs,tabularx,longtable,array,amsmath,amsthm}
+\usepackage{xcolor,enumitem,microtype,fancyhdr,caption,float}
+\usepackage{xurl}
+\usepackage[hidelinks,unicode]{hyperref}
+\definecolor{slate}{HTML}{354B55}
+\definecolor{sage}{HTML}{687767}
+\definecolor{copper}{HTML}{A46542}
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{slate}}{\thesection}{0.7em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{0.7em}{}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 1pt minus 1pt}
+\setlength{\emergencystretch}{2em}
+\linespread{1.10}
+\setlist{nosep,leftmargin=1.5em}
+\setcounter{tocdepth}{1}
+\captionsetup{font=small,labelfont=bf,justification=raggedright,singlelinecheck=false}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\color{slate}Checkers with Runway 13}
+\fancyhead[R]{\small\color{slate}Working white paper · v2}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\newcommand{\R}{\mathbb R}
+\newcommand{\status}[1]{\par\smallskip\noindent\textbf{Evidence status.} #1\par\smallskip}
+\newtheorem{proposition}{Proposition}
+\hypersetup{pdftitle={Checkers with Runway 13: Reconstructing Kai Tak's Approach},pdfauthor={Aryan Ayyar},pdfsubject={Working white paper, version 2, 13 October 2026}}
+\begin{document}
+\raggedbottom
+\hypersetup{pageanchor=false}
+\begin{titlepage}
+\vspace*{18mm}
+{\large\color{sage}RESEARCH WHITE PAPER · VERSION 2 · WIND-CONDITIONED LANDING\par}
+\vspace{12mm}
+{\fontsize{34}{39}\selectfont\bfseries\color{slate}Checkers with\\Runway 13\par}
+\vspace{8mm}
+{\Large Reconstructing Kai Tak's Approach:\\A Wind-Conditioned Landing and Its Limits\par}
+\vspace{15mm}
+{\large Aryan Ayyar\par}
+{13 October 2026 · Version 2\par}
+\vspace{12mm}
+\begin{minipage}{0.92\textwidth}
+\textbf{The question.} How did the geometry of Kai Tak's approach, aircraft capabilities and operating conditions jointly determine the room available to turn, descend, touch down and stop?
+
+\textbf{This version.} A newly constructed wind-conditioned approach, flare and stop, with a separate continuous-time feasibility certificate and an explicit optimality-gap bound. Dated geometry and the CAL605 benchmark supply historical context; full terrain-aware validation and physical prediction intervals remain open.
+\end{minipage}
+\vfill
+{\small Working research document for author review. Not peer reviewed. No operational flight procedure or claim of historical superiority is established. No institutional endorsement is implied.\par}
+\end{titlepage}
+\hypersetup{pageanchor=true}
+
+\section*{Executive summary}
+\addcontentsline{toc}{section}{Executive summary}
+Kai Tak's Runway 13 couples approach geometry, aircraft force limits and finite stopping distance. A path that reaches the threshold need not deliver a feasible touchdown and stop. This paper studies the complete sequence while keeping reconstructed historical evidence separate from stipulated model inputs.
+
+Version 2 constructs a complete landing under a declared steady-wind scenario, rather than fitting the accident trace. The historical anchor remains Hong Kong Civil Aviation Department Report 1/95 on CAL605, 4 November 1993. Its reported mean wind from $070^\circ$ true at 21 knots is held spatially uniform and constant. The entry position, corridor, aircraft envelope and braking law remain stipulated research inputs, not a recovered historical initial state or calibrated performance model.
+
+Under those assumptions, the candidate crosses the threshold after 41.22 seconds, touches down 302.11 metres beyond it at 140.91 knots ground speed, and stops at 2,233.23 metres. It leaves 552.77 metres of the 2,786-metre landing distance available. Braking remains a two-second delay followed by $0.15g$ deceleration. The objective is normalized constraint margin with secondary control-effort reduction, not maximum runway remaining. A shallow early rise is allowed by the unchanged model and retained in the displayed trajectory.
+
+A separate wind-aware, outward-rounded interval calculation covers both closed airborne phases and the exact stopping rule. It certifies a normalized margin of at least 0.1507934696816132 for the declared real-decimal candidate. A necessary family upper bound is approximately 0.2167443782, giving an absolute objective-gap bound of about 0.0659509085. This is a valid but loose bound, not a near-optimality result. Independent forward integration checks consistency with the same reduced physics; its small numerical residuals are not physical tracking-error estimates.
+
+The zero-wind candidate from version 1 remains a distinct benchmark: touchdown at 313.49 metres, stop at 2,531.32 metres, and 254.68 metres remaining. The new scenario leaves about 298.09 additional metres, mostly through its lower ground speed. Because wind and the optimized path both change, this difference is neither a controlled historical improvement estimate nor a causal wind effect. The two certificates and upper bounds apply to different scenario problems.
+
+The historical reconstruction retains 171,307 filtered points from photographs dated 2 November 1993, with 3,780 inside the local map-control hull. New blockwise work adds 404 dated current-template assignments and 531 dated map-region assignments. These organize evidence for historical review; they do not establish 935 historical buildings or close the obstacle-clearance gap. Heights remain conditional on a fitted local plane, not an aviation datum.
+
+The CAL605 benchmark remains a separate confrontation with evidence. The selected routine observations place the event's mean wind near the high end of the 1993 archive subset. Substituting the report's rounded touchdown inputs into the illustrative stopping law removes the calm candidate's runway margin; later rollout landmarks show required braking rising while speed falls. Neither result overturns the accident report's finding that touchdown was controllable and not causal. Historical clearance, calibrated physical uncertainty and a fair improvement comparison remain unresolved.
+
+\clearpage
+\tableofcontents
+\clearpage
+\input{manuscript.tex}
+\clearpage
+\input{appendices.tex}
+\clearpage
+\input{references.tex}
+\end{document}

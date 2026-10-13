@@ -1,0 +1,708 @@
+
+FILE research/checkers-runway13/evidence/cal605_reconstruction/reconstruct.py
+"""Reproduce CAL605 Figure 5 digitization and conditional stopping diagnostics.
+
+Only digitization-coordinate uncertainty is enclosed; no physical or population CI.
+Primary source CAD Report 1/95. No frozen model/configuration changes.
+"""
+from pathlib import Path
+import csv, hashlib, itertools, json, math
+import numpy as np
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from PIL import Image, ImageDraw
+
+ROOT = Path(__file__).resolve().parent
+PROJECT = ROOT.parents[1]
+WORKSPACE = PROJECT.parents[1]
+KNOT = 1852 / 3600
+G = 9.80665
+
+def sha(p): return hashlib.sha256(p.read_bytes()).hexdigest()
+def write_csv(path, rows):
+    with path.open('w',newline='') as f:
+        w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+def axis_value(p, p0, p1, v0, v1):
+    if p0 == p1: raise ValueError('Degenerate pixel axis')
+    return v0+(p-p0)*(v1-v0)/(p1-p0)
+def axis_range(p, p0, p1, v0, v1, pe, ae):
+    """Exact corner enclosure of affine axis map with uncertain pixel anchors.
+    Denominator never changes sign; derivative w.r.t each coordinate has constant
+    sign when other coordinates are held fixed, so extrema occur at box corners.
+    """
+    if abs(p1-p0)<=2*ae: raise ValueError('Overlapping calibration anchors')
+    vals=[axis_value(a,b,c,v0,v1) for a,b,c in itertools.product(
+        (p-pe,p+pe),(p0-ae,p0+ae),(p1-ae,p1+ae))]
+    return min(vals),max(vals)
+def stop_remaining(L, x, v, delay, a):
+    if not all(math.isfinite(q) for q in [L,x,v,delay,a]) or v<0 or delay<0 or a<=0:
+        raise ValueError('Invalid stopping inputs')
+    return L-x-v*delay-v*v/(2*a)
+def required_deceleration(v, remaining, delay=0):
+    if not all(math.isfinite(q) for q in (v,remaining,delay)) or v<0 or remaining<=0 or delay<0:raise ValueError('Invalid state')
+    usable=remaining-v*delay
+    return math.inf if usable<=0 else v*v/(2*usable)
+
+def segment_time(distance, v0, v1):
+    """Exact integral dx/v for positive linearly interpolated speed in position."""
+    if not all(math.isfinite(q) for q in (distance,v0,v1)) or distance<0 or min(v0,v1)<=0:
+        raise ValueError('Invalid reconstruction segment')
+    z=(v1-v0)/v0
+    return distance/v0 if z==0 else distance/v0*math.log1p(z)/z
+
+def segment_position(t, x0, x1, v0, v1):
+    if not all(math.isfinite(q) for q in (x0,x1)) or x1<=x0: raise ValueError('Invalid segment coordinates')
+    duration=segment_time(x1-x0,v0,v1)
+    if not math.isfinite(t) or t<0 or t>duration+1e-10: raise ValueError('Outside segment')
+    m=(v1-v0)/(x1-x0)
+    return x0+v0*t if m==0 else x0+v0*math.expm1(m*t)/m
+
+def build_explicit_rollout(rows):
+    segments=[];elapsed=0.;lo=0.;hi=0.
+    for i,(left,right) in enumerate(zip(rows,rows[1:])):
+        x0=left['distance_from_end_m'];x1=right['distance_from_end_m']
+        v0=left['groundspeed_kt']*KNOT;v1=right['groundspeed_kt']*KNOT
+        dt=segment_time(x1-x0,v0,v1)
+        dlow=max(0,left['remaining_reading_low_m']-right['remaining_reading_high_m'])
+        dhigh=left['remaining_reading_high_m']-right['remaining_reading_low_m']
+        dtlo=segment_time(dlow,left['speed_reading_high_kt']*KNOT,right['speed_reading_high_kt']*KNOT)
+        dthi=segment_time(dhigh,left['speed_reading_low_kt']*KNOT,right['speed_reading_low_kt']*KNOT)
+        segments.append(dict(segment=i+1,start_elapsed_s=elapsed,duration_s=dt,x0_m=x0,x1_m=x1,
+            v0_mps=v0,v1_mps=v1,speed_position_slope_per_s=(v1-v0)/(x1-x0),
+            duration_reading_low_s=dtlo,duration_reading_high_s=dthi))
+        elapsed+=dt;lo+=dtlo;hi+=dthi
+    out=dict(method='piecewise linear speed in runway coordinate, inverted analytically',
+       formula='x(t)=x0+v0*expm1(m*(t-t0))/m; v(t)=v0*exp(m*(t-t0)); constant-speed branch when m=0',
+       time_origin='first digitized Figure5 anchor, BEFORE touchdown; not datum A/B/UTC',
+       duration_s=elapsed,duration_reading_box_low_s=lo,duration_reading_box_high_s=hi,
+       uncertainty='conservative coordinate-and-speed-box enclosure CONDITIONAL on piecewise-linear interpolation and runway-parallel motion; not physical error/CI',
+       domain='only retained graph span; no extrapolation to stopping or outside source; late turn not represented',segments=segments)
+    (ROOT/'explicit_rollout.json').write_text(json.dumps(out,indent=2)+'\n')
+    samples=[]
+    for seg in segments:
+        for tau in np.linspace(0,seg['duration_s'],5):
+            samples.append(dict(time_since_first_anchor_s=seg['start_elapsed_s']+tau,
+                distance_from_runway_end_m=segment_position(tau,seg['x0_m'],seg['x1_m'],seg['v0_mps'],seg['v1_mps']),
+                ground_speed_mps=seg['v0_mps']*math.exp(seg['speed_position_slope_per_s']*tau),
+                segment=seg['segment'],category='analytical interpolation, not new observation'))
+    write_csv(ROOT/'explicit_rollout_samples.csv',samples)
+    return out
+
+def main():
+    anchors=json.loads((ROOT/'trace_anchors.json').read_text())
+    imfile=ROOT/anchors['image']
+    primary=WORKSPACE/'data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf'
+    if sha(imfile)!=anchors['image_sha256'] or sha(primary)!=anchors['primary_pdf_sha256']:
+        raise ValueError('Source identity changed; recalibration required')
+    comparator=json.loads((PROJECT/'approximation/reference_outcomes.json').read_text())
+    for name in ('model/config.json','model/trajectory.py'):
+        if sha(PROJECT/name)!=comparator['source_sha256'][name]:
+            raise ValueError('Frozen model changed; comparison must be revalidated')
+    rows=[]
+    xa=anchors['x_axis']; ya=anchors['y_axis']; errs=anchors['reading_sensitivity_pixels']
+    for i,(x,y) in enumerate(anchors['groundspeed_xy']):
+        d=axis_value(x,xa['pixel_0'],xa['pixel_1'],xa['value_0'],xa['value_1'])
+        dlow,dhigh=axis_range(x,xa['pixel_0'],xa['pixel_1'],xa['value_0'],xa['value_1'],errs['x'],errs['calibration'])
+        v=axis_value(y,ya['pixel_0'],ya['pixel_1'],ya['value_0'],ya['value_1'])
+        vl,vh=axis_range(y,ya['pixel_0'],ya['pixel_1'],ya['value_0'],ya['value_1'],errs['y'],errs['calibration'])
+        rem=-d;rl=-dhigh;rh=-dlow
+        row=dict(anchor_id=i+1,pixel_x=x,pixel_y=y,distance_from_end_m=d,
+                 remaining_m=rem,remaining_reading_low_m=rl,remaining_reading_high_m=rh,
+                 groundspeed_kt=v,speed_reading_low_kt=vl,speed_reading_high_kt=vh,
+                 source_pdf_page=anchors['source_pdf_page'],source_figure=anchors['source_figure'],source_method='manual_pixel_anchor',
+                 required_constant_decel_g=(v*KNOT)**2/(2*rem*G) if rem>0 else None,
+                 required_decel_reading_low_g=(vl*KNOT)**2/(2*rh*G) if rh>0 else None,
+                 required_decel_reading_high_g=(vh*KNOT)**2/(2*rl*G) if rl>0 else None,
+                 required_decel_reading_high_status='finite' if rl>0 else 'unbounded_as_remaining_approaches_zero',
+                 required_decel_domain='remaining>0; coordinate reading interval may include runway end')
+        rows.append(row)
+    write_csv(ROOT/'rollout_trace.csv',rows)
+    explicit_rollout=build_explicit_rollout(rows)
+    # Source overlay remains visibly a reading of the published graph.
+    im=Image.open(imfile).convert('RGB'); draw=ImageDraw.Draw(im)
+    for i,(x,y) in enumerate(anchors['groundspeed_xy']):
+        draw.ellipse((x-4,y-4,x+4,y+4),outline='#0057b7',width=2)
+        if i%3==0: draw.text((x-8,y-20),str(i+1),fill='#0057b7')
+    im.save(ROOT/'source_pages/rollout_overlay.png')
+    rem=np.array([r['remaining_m'] for r in rows]);speed=np.array([r['groundspeed_kt'] for r in rows])
+    # Chronology obtained from speed-distance graph, not joined to unknown wind UTC.
+    # Straight-line interpolation of speed in runway coordinate; final turning path
+    # makes ds/v a lower estimate of elapsed time, not an exact inertial replay.
+    distance=-rem
+    chronology=[]
+    for R in [2300,1365,1080,880,800,750,350,120,70,15]:
+        v=float(np.interp(-R,distance,speed))
+        xx=np.linspace(-2300,-R,max(2,int(2300-R)+1))
+        vv=np.interp(xx,distance,speed)*KNOT
+        elapsed=float(np.trapezoid(1/vv,xx))
+        chronology.append(dict(remaining_m=R,interpolated_speed_kt=v,
+            elapsed_from_R2300_straight_track_s=elapsed,
+            required_no_delay_decel_g=required_deceleration(v*KNOT,R)/G,
+            note='linear interpolation of digitized graph; R2300 origin is narrative approximate; not synchronized DFDR time'))
+    write_csv(ROOT/'rollout_diagnostics.csv',chronology)
+    ref=json.loads((PROJECT/'approximation/reference_outcomes.json').read_text())['nominal']
+    a=0.15*G; L=2786; hist_x=480; hist_v=160*KNOT
+    scenarios=[]
+    for name,x,v in [('synthetic_reference',ref['touchdown_x_m'],ref['touchdown_speed_mps']),
+                     ('later_touchdown_only',hist_x,ref['touchdown_speed_mps']),
+                     ('higher_speed_only',ref['touchdown_x_m'],hist_v),
+                     ('historical_touchdown_inputs',hist_x,hist_v)]:
+        scenarios.append(dict(case=name,touchdown_x_m=x,touchdown_speed_kt=v/KNOT,
+            delay_s=2,deceleration_g=.15,remaining_m=stop_remaining(L,x,v,2,a),
+            category='conditional fixed-braking formula; not a historical simulation'))
+    delayed=[dict(delay_s=d,remaining_m=stop_remaining(L,hist_x,hist_v,d,a)) for d in [0,1,2,5,10,20]]
+    # Report-stated landmarks, not graph-derived assumptions.
+    landmarks=[('touchdown',2300,160),('roll_restored',1365,139),
+               ('autobrake_call',1080,133),('reverse_selected',880,129)]
+    frontier=[]
+    for name,R,vkt in landmarks:
+        v=vkt*KNOT
+        frontier.append(dict(event=name,remaining_m=R,speed_kt=vkt,
+            required_decel_no_delay_g=required_deceleration(v,R)/G,
+            required_decel_with_2s_delay_g=required_deceleration(v,R,2)/G,
+            max_delay_at_0p3g_s=R/v-v/(2*.3*G),source='CAD narrative §§2.2.5–2.2.7'))
+    autobrake=[dict(setting=k,reported_rollout_m=d,remaining_using_2300m_m=2300-d)
+               for k,d in [(2,2350),(3,2100),(4,1720)]]
+    analysis=dict(status='exploratory historical benchmark; no operational certificate',
+       explicit_reconstruction=dict(segments=len(explicit_rollout['segments']),formula_file='explicit_rollout.json',
+          scope='analytic reconstruction of digitized speed-distance graph under stated interpolation; not an optimal landing formula'),
+       fixed_formula=scenarios, historical_input_delay_sensitivity=delayed,
+       decomposition_m=dict(later_touchdown=480-ref['touchdown_x_m'],
+           higher_speed_at_fixed_delay=2*(hist_v-ref['touchdown_speed_mps'])+(hist_v**2-ref['touchdown_speed_mps']**2)/(2*a)),
+       report_landmark_stopping_frontier=frontier,report_autobrake_distances=autobrake,
+       late_phase=dict(appendix13_20s_checkpoint=dict(runway_remaining_m=800,speed_kt=127,runway_consumed_fraction_relative_narrative2300=(2300-800)/2300,kinetic_energy_fraction_constant_mass=(127/160)**2,source_pdf_page=159,scope='source-stated rounded checkpoint; constant-mass energy ratio, not full mechanics'), remaining_2300_to_750_fraction_consumed=(2300-750)/2300,
+         speed_at_750_kt=float(np.interp(-750,distance,speed)),
+         apparent_no_delay_required_g=required_deceleration(float(np.interp(-750,distance,speed))*KNOT,750)/G),
+       uncertainty=dict(type='pixel-reading sensitivity bounds only',coverage_probability=None,
+          calibration_pixel_error=errs['calibration'],manual_x_pixel_error=errs['x'],manual_y_pixel_error=errs['y'],figure_band='vertical speed sensitivity only; horizontal bounds are in rollout_trace.csv',
+          physical_sensor_error=None,plot_position_integration_error=None,clock_offset_to_wind=None,
+          explanation='Axis/raster intervals are not calibrated physical error bars or CIs. Derived stop counterfactuals use rounded source point values without invented physical ranges.'),
+       comparison_limits=['Historical and synthetic entry/controls/environment differ; no like-for-like path superiority claim.',
+         'Ground distance in Figure5 is derived, not independent raw GPS; reference point/datum uncertainty unquantified.',
+         'Final yaw means runway-coordinate distance differs from along-path distance; no late-turn exact dynamics inference.',
+         'Source narrative touchdown ~2300m remaining differs from plotted air/ground transition ~2210m; preserve both, do not force-align.',
+         'Report Appendix13 rounds some events (e.g. reverse at900m) differently from narrative (880m).',
+         'Constant braking formula is diagnostic; actual autobrake/spoiler/reverse/braking state changes are not represented.'])
+    (ROOT/'analysis.json').write_text(json.dumps(analysis,indent=2,allow_nan=False)+'\n')
+    write_csv(ROOT/'conditional_stopping_cases.csv',scenarios)
+    # Compact scientific diagnostic figure.
+    plt.rcParams.update({'font.size':10,'axes.spines.top':False,'axes.spines.right':False,'figure.facecolor':'#fbfaf7','axes.facecolor':'#fbfaf7'})
+    fig,ax=plt.subplots(1,2,figsize=(12,4.6))
+    aa=ax[0]; aa.plot(rem,speed,color='#3e555c',lw=2,label='Published speed–distance trace')
+    aa.fill_between(rem,[r['speed_reading_low_kt'] for r in rows],[r['speed_reading_high_kt'] for r in rows],color='#3e555c',alpha=.15,label='Vertical reading sensitivity only')
+    R=np.linspace(1,2300,300)
+    for ag,c in [(.15,'#a66e45'),(.3,'#6d7c58')]:aa.plot(R,np.sqrt(2*ag*G*R)/KNOT,'--',color=c,label=f'No-delay stop boundary: {ag:g}g')
+    aa.axvline(750,color='#80534a',ls=':',lw=1);aa.text(770,190,'Strong braking\n~750 m remaining',ha='right',va='top',fontsize=9)
+    aa.set(xlim=(2350,0),ylim=(0,210),xlabel='Runway remaining (m; derived report coordinate)',ylabel='Ground speed (kt)',title='Speed fell, but stopping room fell faster')
+    aa.legend(loc='lower left',fontsize=8,frameon=False)
+    bb=ax[1];labels=['Reference','Later touchdown','Higher speed','Both historical\ntouchdown inputs']
+    vals=[r['remaining_m'] for r in scenarios]; bb.bar(range(4),vals,color=['#6d7c58','#8c9880','#a66e45','#80534a'],width=.65)
+    bb.axhline(0,color='#333333',lw=.8);bb.axhline(150,color='#8b8b8b',ls=':',label='Model reserve:150 m')
+    for i,v in enumerate(vals):bb.text(i,v+(9 if v>=0 else -10),f'{v:.0f} m',ha='center',va='bottom' if v>=0 else 'top')
+    bb.set_xticks(range(4),labels,fontsize=8);bb.set(ylabel='Runway remaining at calculated stop (m)',title='Same 2 s delay and 0.15g braking formula',ylim=(-210,310));bb.legend(fontsize=8,frameon=False)
+    fig.suptitle('CAL605 reconstruction benchmark • conditional calculations, not a landing recommendation',fontsize=12)
+    fig.tight_layout();fig.savefig(ROOT/'findings.png',dpi=180);fig.savefig(ROOT/'findings.pdf');plt.close(fig)
+    # Don't overwrite the shared project ledger from this script.
+    manifest={str(p.relative_to(WORKSPACE)):sha(p) for p in [
+        WORKSPACE/'data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf',
+        WORKSPACE/'data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605.txt',
+        PROJECT/'model/config.json',PROJECT/'model/trajectory.py',
+        PROJECT/'approximation/reference_outcomes.json',imfile,ROOT/'trace_anchors.json']}
+    (ROOT/'manifest.json').write_text(json.dumps(dict(source_sha256=manifest,scope='sources and read-only frozen comparator; hashes not physical validation'),indent=2)+'\n')
+    print(json.dumps({'anchors':len(rows),'scenarios':scenarios,'frontier':frontier},indent=2))
+if __name__=='__main__':main()
+
+
+FILE research/checkers-runway13/evidence/cal605_reconstruction/test_reconstruction.py
+import csv,itertools,json,math,unittest
+from pathlib import Path
+import numpy as np
+from reconstruct import axis_value,axis_range,stop_remaining,required_deceleration,segment_time,segment_position,G,KNOT,ROOT,sha
+
+class ReconstructionTests(unittest.TestCase):
+    def test_axes_and_inverse(self):
+        self.assertEqual(axis_value(212,212,1331,-2800,0),-2800)
+        self.assertEqual(axis_value(1331,212,1331,-2800,0),0)
+        self.assertEqual(axis_value(245,995,245,0,200),200)
+        self.assertEqual(axis_value(995,995,245,0,200),0)
+    def test_interval_encloses_continuous_perturbations(self):
+        rng=np.random.default_rng(20261013)
+        for p in [215,500,1000,1330]:
+            lo,hi=axis_range(p,212,1331,-2800,0,3,2)
+            for _ in range(100):
+                v=axis_value(p+rng.uniform(-3,3),212+rng.uniform(-2,2),1331+rng.uniform(-2,2),-2800,0)
+                self.assertTrue(lo<=v<=hi)
+        with self.assertRaises(ValueError):axis_range(1,0,3,0,1,1,2)
+    def test_stopping_decomposition_and_units(self):
+        a=json.loads((ROOT/'analysis.json').read_text());cases=a['fixed_formula']
+        self.assertAlmostEqual(cases[0]['remaining_m']-cases[-1]['remaining_m'],sum(a['decomposition_m'].values()))
+        self.assertAlmostEqual(KNOT*3600,1852)
+        self.assertAlmostEqual(stop_remaining(2786,480,160*KNOT,2,.15*G),-161.5217894701882)
+    def test_frontier(self):
+        v=129*KNOT;R=880;t=R/v-v/(.6*G)
+        self.assertAlmostEqual(required_deceleration(v,R,t),.3*G)
+        self.assertGreater(required_deceleration(v,R,2)/G,.3)
+        self.assertEqual(required_deceleration(10,10,2),math.inf)
+    def test_invalid_inputs(self):
+        for args in [(100,0,1,0,0),(100,0,-1,0,1),(100,0,1,-1,1),(100,0,float('nan'),0,1)]:
+            with self.assertRaises(ValueError):stop_remaining(*args)
+    def test_manifest_and_no_ci(self):
+        manifest=json.loads((ROOT/'manifest.json').read_text())
+        workspace=ROOT.parents[3]
+        for name,digest in manifest['source_sha256'].items():self.assertEqual(sha(workspace/name),digest)
+        a=json.loads((ROOT/'analysis.json').read_text())
+        self.assertIsNone(a['uncertainty']['coverage_probability'])
+        self.assertIsNone(a['uncertainty']['clock_offset_to_wind'])
+    def test_trace_order_and_enclosure(self):
+        with (ROOT/'rollout_trace.csv').open() as f: rows=list(csv.DictReader(f))
+        self.assertEqual(len(rows),35)
+        distances=[float(r['remaining_m']) for r in rows]
+        self.assertTrue(all(a>b for a,b in zip(distances,distances[1:])))
+        for r in rows:
+            self.assertLessEqual(float(r['speed_reading_low_kt']),float(r['groundspeed_kt']))
+            self.assertGreaterEqual(float(r['speed_reading_high_kt']),float(r['groundspeed_kt']))
+    def test_piecewise_formula_against_quadrature(self):
+        from scipy.integrate import quad
+        for v0,v1,d in [(80,70,200),(70,70,200),(30,60,100),(50,50.000000001,90)]:
+            duration=segment_time(d,v0,v1)
+            numeric=quad(lambda x:1/(v0+(v1-v0)*x/d),0,d)[0]
+            self.assertAlmostEqual(duration,numeric,places=10)
+            self.assertAlmostEqual(segment_position(duration,-d,0,v0,v1),0,places=8)
+            self.assertEqual(segment_position(0,-d,0,v0,v1),-d)
+        with self.assertRaises(ValueError):segment_position(1,0,0,1,1)
+        with self.assertRaises(ValueError):segment_time(1,0,1)
+        with self.assertRaises(ValueError):required_deceleration(float('nan'),100)
+    def test_unbounded_frontier_is_explicit(self):
+        with (ROOT/'rollout_trace.csv').open() as f: rows=list(csv.DictReader(f))
+        self.assertEqual(rows[-1]['required_decel_reading_high_status'],'unbounded_as_remaining_approaches_zero')
+    def test_source_discrepancy_preserved(self):
+        with (ROOT/'flight_events.csv').open() as f: rows={r['event_id']:r for r in csv.DictReader(f)}
+        self.assertEqual(rows['N03']['runway_remaining_m'],'2300')
+        self.assertEqual(rows['A01']['runway_remaining_m'],'2250')
+        self.assertEqual(rows['N08']['runway_remaining_m'],'880')
+        self.assertEqual(rows['A04']['runway_remaining_m'],'900')
+
+if __name__=='__main__':unittest.main()
+
+
+FILE research/checkers-runway13/evidence/cal605_reconstruction/flight/build_approach.py
+#!/usr/bin/env python3
+"""Coarse manual Figure1/2 approach samples, no UTC or A/B alignment."""
+from pathlib import Path
+import json
+from PIL import Image,ImageDraw
+import numpy as np
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from build_flight import ROOT,HERE,sha,axis,limits,writecsv
+
+S1=ROOT/'data/kai-tak-2026-10-13/extracts/dfdr_figure1.png'
+S2=ROOT/'data/kai-tak-2026-10-13/extracts/dfdr_figure2.png'
+# Pixel anchors deliberately coarse. At sharp RA/pitch intersections the declared
+# reading sensitivity is larger; original continuous gust peaks are NOT recovered.
+X1=[962,1020,1078,1136,1194,1252,1310,1339]
+X2=[997,1055,1113,1171,1229,1287,1316,1345,1374]
+VARIABLES={
+'groundspeed_kt':dict(fig=1,y0=1105,v0=0,y1=591,v1=250,dy=8,unit='kt',points=list(zip(X1,[852,848,837,844,828,791,771,769])),color='#168c94'),
+'calibrated_airspeed_kt':dict(fig=1,y0=1105,v0=0,y1=591,v1=250,dy=12,unit='kt',points=list(zip(X1,[777,794,778,789,800,756,762,761])),color='#ba852d'),
+'heading_degM':dict(fig=1,y0=1005,v0=0,y1=695,v1=270,dy=6,unit='degree magnetic',points=list(zip(X1,[905,905,905,900,871,857,855,852])),color='#8d5596'),
+'barometric_altitude_ft':dict(fig=1,y0=1006,v0=0,y1=78,v1=1800,dy=15,unit='ft; barometric report altitude, not reconciled terrain datum',points=list(zip(X1,[580,612,660,721,827,884,940,955])),color='#ad5442'),
+'radio_altitude_ft':dict(fig=1,y0=1005,v0=0,y1=80,v1=1800,dy=15,unit='ft radio height; not AMSL/clearance',points=list(zip(X1,[637,675,723,784,918,931,967,988])),color='#3b5d72'),
+'fmc_wind_speed_kt':dict(fig=2,y0=1054,v0=0,y1=845,v1=100,dy=10,unit='kt; FMC-derived wind, not independent sensor',points=list(zip(X2,[956,981,964,953,1000,1024,1007,1005,1010])),color='#ad5442'),
+'fmc_wind_direction_degT':dict(fig=2,y0=1004,v0=0,y1=799,v1=200,dy=8,unit='degree true; FMC-derived wind-from direction',points=list(zip(X2,[924,929,930,926,938,957,940,927,912])),color='#3b5d72'),
+'drift_deg':dict(fig=2,y0=590,v0=0,y1=487,v1=20,dy=7,unit='degree; published signed drift, positive/negative semantics not inferred',points=list(zip(X2,[570,575,570,560,560,565,522,555,560])),color='#63865d')}
+TIME={1:dict(p0=498,v0=0,p1=1541,v1=180),2:dict(p0=533,v0=0,p1=1577,v1=180)}
+
+def main():
+ rows=[]
+ for name,c in VARIABLES.items():
+  tx=TIME[c['fig']]
+  for i,(x,y) in enumerate(c['points']):
+   t=axis(x,tx['p0'],0,tx['p1'],180);tlo,thi=limits(x,4,tx['p0'],0,tx['p1'],180,4)
+   v=axis(y,c['y0'],c['v0'],c['y1'],c['v1']);vlo,vhi=limits(y,c['dy'],c['y0'],c['v0'],c['y1'],c['v1'],4)
+   rows.append(dict(variable=name,anchor_id=f'fig{c["fig"]}-{name}-{i:02d}',x_px=x,y_px=y,time_datum_A_s=round(t,3),time_lo_s=round(tlo,3),time_hi_s=round(thi,3),value=round(v,3),reading_lo=round(vlo,3),reading_hi=round(vhi,3),unit=c['unit'],construction='coarse manual pixel anchor; raster sensitivity only',source=f'CAD1/95 Appendix11 Figure{c["fig"]} PDFpage{150+c["fig"]}'))
+ writecsv(HERE/'approach_anchor_readings.csv',rows)
+ metadata={'sources':[dict(path=str(p.relative_to(ROOT)),sha256=sha(p),pixel_dimensions=list(Image.open(p).size)) for p in (S1,S2)],'time_calibration':TIME,'variables':VARIABLES,'anchor_halfwidth_x_px':4,'time_axis_calibration_halfwidth_px':4,'vertical_calibration_halfwidth_px':4,'uncertainty':'Declared pixel reading sensitivity, no statistical confidence; between-anchor excursions unresolved; source trace amplitudes may exceed sampled range. Figure1 and2 share printed arbitrary datumA. No exact A/B or UTC alignment asserted. Wind values are derived by FMC, not independent ground sensors.','anchors':rows}
+ (HERE/'approach_anchors.json').write_text(json.dumps(metadata,indent=2)+'\n')
+ for fi,p in [(1,S1),(2,S2)]:
+  im=Image.open(p).convert('RGB');d=ImageDraw.Draw(im)
+  for name,c in VARIABLES.items():
+   if c['fig']!=fi:continue
+   for x,y in c['points']:d.ellipse((x-5,y-5,x+5,y+5),outline=c['color'],width=2)
+  im.save(HERE/f'figure{fi}_anchor_overlay.png')
+ fig,axs=plt.subplots(4,1,figsize=(11,11),sharex=True,constrained_layout=True)
+ for name,ai in [('groundspeed_kt',0),('calibrated_airspeed_kt',0),('barometric_altitude_ft',1),('radio_altitude_ft',1),('fmc_wind_speed_kt',2),('drift_deg',3)]:
+  r=[a for a in rows if a['variable']==name];t=np.array([a['time_datum_A_s'] for a in r]);v=np.array([a['value'] for a in r]);lo=np.array([a['reading_lo'] for a in r]);hi=np.array([a['reading_hi'] for a in r])
+  axs[ai].errorbar(t,v,xerr=[t-np.array([a['time_lo_s'] for a in r]),np.array([a['time_hi_s'] for a in r])-t],yerr=[v-lo,hi-v],fmt='o',markersize=4,capsize=2,color=VARIABLES[name]['color'],label=name.replace('_',' '))
+ for a in axs:a.grid(alpha=.2);a.legend(fontsize=8)
+ for a,label in zip(axs,['Speed (kt)','Published altitude (ft)','FMC wind speed (kt)','Published drift (°)']):a.set_ylabel(label)
+ axs[-1].set_xlabel('Seconds from report arbitrary datum A, not UTC')
+ fig.suptitle('CAL605 final-turn approach: coarse published-chart samples\nBars: declared raster-reading sensitivity only; unsampled gust excursions are not bounded',fontsize=12)
+ fig.savefig(HERE/'approach_wind_samples.png',dpi=170)
+ print(f'{len(rows)} approach/FMC anchors generated')
+if __name__=='__main__':main()
+
+
+FILE research/checkers-runway13/evidence/cal605_reconstruction/flight/test_flight.py
+import json
+import unittest
+import csv
+import numpy as np
+from build_flight import HERE,limits,axis
+
+class TestFlight(unittest.TestCase):
+ def test_axis(self):
+  self.assertAlmostEqual(axis(566,566,0,1573,70),0)
+  self.assertAlmostEqual(axis(1573,566,0,1573,70),70)
+  self.assertAlmostEqual(axis(647,1156,0,647,250),250)
+ def test_corner_bounds(self):
+  rng=np.random.default_rng(17)
+  lo,hi=limits(1012,3,566,0,1573,70,3)
+  for _ in range(1000):
+   x,x0,x1=np.array([1012,566,1573])+rng.uniform(-3,3,3)
+   self.assertTrue(lo<=axis(x,x0,0,x1,70)<=hi)
+ def test_anchor_semantics(self):
+  m=json.loads((HERE/'trace_anchors.json').read_text());self.assertEqual(len(m['anchors']),123)
+  for a in m['anchors']:
+   self.assertLessEqual(a['reading_lo'],a['value']);self.assertGreaterEqual(a['reading_hi'],a['value'])
+   self.assertLessEqual(a['time_lo_s'],a['time_datum_B_s']);self.assertGreaterEqual(a['time_hi_s'],a['time_datum_B_s'])
+  self.assertIn('no coverage probability',m['uncertainty'])
+ def test_random_independent_anchor_box_interpolation(self):
+  a=json.loads((HERE/'trace_anchors.json').read_text())['anchors']
+  with (HERE/'flight_traces.csv').open() as f:r=list(csv.DictReader(f))
+  rng=np.random.default_rng(502)
+  for name in sorted({q['variable'] for q in a}):
+   aa=[q for q in a if q['variable']==name];rr=[q for q in r if q['variable']==name]
+   t=np.array([float(q['time_datum_B_s']) for q in rr]);outlo=np.array([float(q['reading_lo']) for q in rr]);outhi=np.array([float(q['reading_hi']) for q in rr])
+   for _ in range(500):
+    ta=np.array([rng.uniform(q['time_lo_s'],q['time_hi_s']) for q in aa]);va=np.array([rng.uniform(q['reading_lo'],q['reading_hi']) for q in aa]);v=np.interp(t,ta,va)
+    self.assertTrue(np.all(v>=outlo-.002));self.assertTrue(np.all(v<=outhi+.002))
+ def test_approach_and_wind(self):
+  m=json.loads((HERE/'approach_anchors.json').read_text());self.assertEqual(len(m['anchors']),67)
+  self.assertEqual(len({a['variable'] for a in m['anchors']}),8)
+  self.assertTrue(all(78<=a['time_datum_A_s']<=147 for a in m['anchors']))
+  self.assertTrue(all(a['reading_lo']<=a['value']<=a['reading_hi'] for a in m['anchors']))
+ def test_no_runway_exit_or_utc_claim(self):
+  s=json.loads((HERE/'flight_summary.json').read_text());self.assertFalse(s['last_anchor_is_runway_end']);self.assertIn('No precise UTC sync',s['omissions'])
+  self.assertTrue(s['distance_sensitivity_range_m'][0]<s['distance_integral_flag_to_last_anchor_m']<s['distance_sensitivity_range_m'][1])
+if __name__=='__main__':unittest.main()
+
+
+FILE research/checkers-runway13/evidence/cal605_reconstruction/flight/build_flight.py
+#!/usr/bin/env python3
+"""Reproduce coarse manual readings of CAD1/95 Appendix11 Figure4.
+No inferred raw recorder samples, probabilistic CIs, or UTC registration.
+"""
+from pathlib import Path
+import csv, json, hashlib, itertools
+import numpy as np
+from PIL import Image, ImageDraw
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+
+HERE=Path(__file__).resolve().parent
+ROOT=HERE.parents[4]
+SOURCE=ROOT/'research/checkers-runway13/evidence/cal605_reconstruction/source_pages/view_dfdr-154.png'
+PDF=ROOT/'data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf'
+
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def limits(p,dp,p0,v0,p1,v1,dc):
+ vals=[v0+(q-a)*(v1-v0)/(b-a) for q,a,b in itertools.product((p-dp,p+dp),(p0-dc,p0+dc),(p1-dc,p1+dc))]
+ return min(vals),max(vals)
+def axis(p,p0,v0,p1,v1):return v0+(p-p0)*(v1-v0)/(p1-p0)
+def writecsv(p,rows):
+ with p.open('w',newline='') as f:
+  w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+
+# Every pair is manually read from the 1800x1228 source raster, not calculated
+# from narrative values. Coarse spacing intentionally cannot capture all extrema.
+DATA={
+'groundspeed_kt':{'unit':'kt','y0':1156,'v0':0,'y1':647,'v1':250,'dy':8,'color':'#168c94','points':[
+[568,891],[603,883],[638,875],[674,863],[712,850],[748,839],[784,834],[820,830],[856,826],[892,825],[928,823],[964,827],[1000,837],[1012,841],[1036,850],[1072,858],[1108,865],[1144,873],[1180,882],[1216,889],[1252,897],[1288,910],[1324,933],[1360,962],[1396,990],[1432,1018],[1468,1044],[1504,1066],[1540,1084],[1572,1099]]},
+'calibrated_airspeed_kt':{'unit':'kt','y0':1156,'v0':0,'y1':647,'v1':250,'dy':8,'color':'#ba852d','points':[
+[568,855],[603,858],[638,863],[674,852],[712,838],[748,811],[784,825],[820,814],[856,814],[892,811],[928,814],[964,820],[1000,811],[1012,827],[1036,814],[1072,842],[1108,852],[1144,857],[1180,871],[1216,843],[1252,874],[1288,886],[1324,889],[1360,941],[1396,972],[1432,1010],[1468,1036],[1504,1041],[1540,1060],[1572,1053]]},
+'heading_degM':{'unit':'degree magnetic','y0':1105,'v0':50,'y1':902,'v1':150,'dy':4,'color':'#8d5596','points':[
+[568,995],[603,979],[638,968],[674,963],[712,967],[748,951],[784,940],[820,953],[856,945],[892,950],[928,946],[964,940],[1000,940],[1012,942],[1036,946],[1072,940],[1108,939],[1144,932],[1180,933],[1216,935],[1252,942],[1288,948],[1324,947],[1360,936],[1396,942],[1432,934],[1468,930],[1504,955],[1540,985],[1572,1009]]},
+'radio_altitude_ft':{'unit':'ft radio height; not AMSL or geometric clearance','y0':1055,'v0':0,'y1':136,'v1':180,'dy':5,'color':'#3b5d72','points':[
+[584,185],[600,245],[612,287],[625,166],[638,136],[655,390],[669,382],[683,421],[697,431],[714,573],[727,362],[741,452],[754,412],[770,448],[788,483],[806,522],[825,578],[843,647],[862,710],[881,778],[900,869],[920,932],[941,974],[961,1008],[982,1057],[1002,1074],[1017,1083],[1031,1084],[1047,1094],[1119,1094],[1250,1094],[1450,1094],[1548,1093]]}}
+TIME={'pixel0':566,'value0':0,'pixel1':1573,'value1':70,'calibration_halfwidth_px':3,'anchor_halfwidth_px':3,'unit':'seconds from arbitrary datum B'}
+CAL_Y=3
+
+def main():
+ anchors=[]
+ for name,c in DATA.items():
+  for i,(x,y) in enumerate(c['points']):
+   t=axis(x,566,0,1573,70);lo,hi=limits(x,3,566,0,1573,70,3)
+   v=axis(y,c['y0'],c['v0'],c['y1'],c['v1']);vlo,vhi=limits(y,c['dy'],c['y0'],c['v0'],c['y1'],c['v1'],CAL_Y)
+   anchors.append({'variable':name,'anchor_id':f'{name}-{i:02d}','x_px':x,'y_px':y,'time_datum_B_s':round(t,3),'time_lo_s':round(lo,3),'time_hi_s':round(hi,3),'value':round(v,3),'reading_lo':round(vlo,3),'reading_hi':round(vhi,3),'unit':c['unit'],'construction':'manual pixel anchor; bounded raster reading sensitivity only','source':'CAD Report1/95 PDF page154 Appendix11 Fig4'})
+ meta={'source_pdf':str(PDF.relative_to(ROOT)),'source_pdf_sha256':sha(PDF),'source_raster':str(SOURCE.relative_to(ROOT)),'source_raster_sha256':sha(SOURCE),'raster_dimensions':[1800,1228],'source_figure':'Appendix11 Figure4 printed A11-5 PDFpage154','time_axis':TIME,'variables':DATA,'vertical_calibration_halfwidth_px':CAL_Y,'uncertainty':'Declared pixel sensitivity; no coverage probability, raw DFDR accuracy, source-chart distortion guarantee, or clock synchronization. Linear interpolation is a representation of these coarse anchors, not recovered recorder samples.','anchors':anchors}
+ (HERE/'trace_anchors.json').write_text(json.dumps(meta,indent=2)+'\n')
+ writecsv(HERE/'flight_anchor_readings.csv',anchors)
+ # Piecewise interpolation envelope: candidate segments and interval times/values.
+ # q=(t-t0)/(t1-t0), monotone decreasing in both endpoints within a segment;
+ # endpoint extremes enclose all independent point-time shifts. Shared calibration
+ # correlation is deliberately relaxed (conservative within declared anchor boxes).
+ rows=[]
+ for name in DATA:
+  aa=[a for a in anchors if a['variable']==name]
+  for t in range(int(np.ceil(aa[0]['time_hi_s'])),int(np.floor(aa[-1]['time_lo_s']))+1):
+   candidates=[]
+   for a,b in zip(aa[:-1],aa[1:]):
+    if a['time_lo_s']<=t<=b['time_hi_s']:
+     qmin=max(0.,min(1.,(t-a['time_hi_s'])/(b['time_hi_s']-a['time_hi_s'])))
+     qmax=max(0.,min(1.,(t-a['time_lo_s'])/(b['time_lo_s']-a['time_lo_s'])))
+     for q in (qmin,qmax):
+      candidates.extend([(1-q)*a['reading_lo']+q*b['reading_lo'],(1-q)*a['reading_hi']+q*b['reading_hi']])
+   value=np.interp(t,[a['time_datum_B_s'] for a in aa],[a['value'] for a in aa])
+   rows.append({'variable':name,'time_datum_B_s':t,'value':round(float(value),3),'reading_lo':round(min(candidates),3),'reading_hi':round(max(candidates),3),'unit':DATA[name]['unit'],'construction':'piecewise-linear interpolation of coarse manual anchors, not independent observation','uncertainty':'pixel sensitivity only; not CI/PI'})
+ writecsv(HERE/'flight_traces.csv',rows)
+ # Plot digitization overlay; sampled anchors only, to expose omissions and mistakes.
+ im=Image.open(SOURCE).convert('RGB');d=ImageDraw.Draw(im)
+ for name,c in DATA.items():
+  for x,y in c['points']:d.ellipse((x-4,y-4,x+4,y+4),outline=c['color'],width=2)
+ d.line((1012,1107,1012,1148),fill='#d44444',width=3)
+ for j,(name,c) in enumerate(DATA.items()):d.text((590,30+15*j),name,fill=c['color'])
+ im.save(HERE/'source_anchor_overlay.png')
+ fig,axs=plt.subplots(3,1,figsize=(11,10),sharex=True,constrained_layout=True)
+ for name,axi in [('groundspeed_kt',0),('calibrated_airspeed_kt',0),('heading_degM',1),('radio_altitude_ft',2)]:
+  rr=[r for r in rows if r['variable']==name];aa=[a for a in anchors if a['variable']==name];ax=axs[axi];c=DATA[name]['color']
+  ax.plot([r['time_datum_B_s'] for r in rr],[r['value'] for r in rr],color=c,label=name.replace('_',' '))
+  ax.fill_between([r['time_datum_B_s'] for r in rr],[r['reading_lo'] for r in rr],[r['reading_hi'] for r in rr],color=c,alpha=.16)
+  ax.scatter([a['time_datum_B_s'] for a in aa],[a['value'] for a in aa],s=10,color=c)
+ for ax in axs:
+  ax.axvspan(*limits(1012,3,566,0,1573,70,3),color='#b64c43',alpha=.2,label='air/ground flag transition')
+  ax.legend(loc='best',fontsize=8);ax.grid(alpha=.2)
+ axs[0].set_ylabel('Speed (kt)');axs[1].set_ylabel('Heading (° magnetic)');axs[2].set_ylabel('Radio height (ft)');axs[2].set_xlabel('Seconds from report arbitrary datum B; not UTC')
+ fig.suptitle('CAL605: coarse digitization of published final72-second plot\nShading is declared pixel-reading sensitivity, NOT a confidence/prediction interval',fontsize=12)
+ fig.savefig(HERE/'final_approach_rollout.png',dpi=180);plt.close(fig)
+ events=[
+ {'event':'touchdown_air_ground_transition','time_datum_B_s':round(axis(1012,566,0,1573,70),3),'time_lo_s':round(limits(1012,3,566,0,1573,70,3)[0],3),'time_hi_s':round(limits(1012,3,566,0,1573,70,3)[1],3),'relative_touchdown_s':'','source':'Appendix11 Fig4 air/ground flag','category':'manual pixel reading','details':'First air-to-ground transition x=1012px; NOT radio-altitude zero crossing.'},
+ {'event':'touchdown_narrative','time_datum_B_s':'','time_lo_s':'','time_hi_s':'','relative_touchdown_s':0,'source':'Report section1.11.4 printed32','category':'report-stated','details':'About480m beyond threshold markers; GS160kt; CAS172 to161kt; heading131degM. No supplied statistical bounds.'},
+ {'event':'sir_reverse_call','time_datum_B_s':'','time_lo_s':'','time_hi_s':'','relative_touchdown_s':17,'source':'Report section1.11.4 printed33','category':'report-stated','details':'GS130kt; alternate section2.2.6 chronology says selection18s, GS129kt and880m remaining; not interchangeable events.'},
+ {'event':'audible_reverse_selection_click','time_datum_B_s':'','time_lo_s':'','time_hi_s':'','relative_touchdown_s':17.5,'source':'Report section1.11.4 printed33','category':'report-stated','details':'Half a second after call; speedbrake lever began rearward motion.'},
+ {'event':'aggressive_deceleration','time_datum_B_s':'','time_lo_s':'','time_hi_s':'','relative_touchdown_s':20,'source':'Report section1.11.4 printed33','category':'report-stated','details':'All reversers deployed; retardation generally exceeded0.3g.'},
+ {'event':'left_turn_near_runway_end','time_datum_B_s':'','time_lo_s':'','time_hi_s':'','relative_touchdown_s':'','source':'Report section1.11.4 printed33','category':'report-stated','details':'GS54kt; do not equate to later narrative tiller action at60kt.'},
+ {'event':'reverse_speedbrake_cancel','time_datum_B_s':'','time_lo_s':'','time_hi_s':'','relative_touchdown_s':'','source':'Report section1.11.4 printed33','category':'report-stated','details':'GS48kt, about6s before water impact.'},
+ {'event':'water_impact','time_datum_B_s':'','time_lo_s':'','time_hi_s':'','relative_touchdown_s':'','source':'Report section1.11.4 printed33','category':'report-stated','details':'GS about30kt. A precise graph-to-water or graph-to-runway-end event alignment is not observed in Fig4.'}]
+ writecsv(HERE/'flight_events.csv',events)
+ # Conditional integral: measured time series is a distance diagnostic, not map truth.
+ gs=[a for a in anchors if a['variable']=='groundspeed_kt'];t0=axis(1012,566,0,1573,70);t1=axis(1572,566,0,1573,70)
+ ts=np.array([a['time_datum_B_s'] for a in gs]);vs=np.array([a['value'] for a in gs]);lo=np.array([a['reading_lo'] for a in gs]);hi=np.array([a['reading_hi'] for a in gs]);sel=ts>=t0-0.001
+ distance=np.trapezoid(vs[sel],ts[sel])*1852/3600
+ # Simplified pointwise hull adds horizontal sensitivity via global max slope;
+ # end interval uncertainty adds maxGS times combined endpoint halfwidth.
+ dt=max(max(abs(a['time_datum_B_s']-a['time_lo_s']),abs(a['time_hi_s']-a['time_datum_B_s'])) for a in gs)
+ max_slope=max(abs(np.diff(vs)/np.diff(ts)));shift=dt*max_slope
+ dlo=np.trapezoid(lo[sel]-shift,ts[sel])*1852/3600-max(vs)*2*dt*1852/3600
+ dhi=np.trapezoid(hi[sel]+shift,ts[sel])*1852/3600+max(vs)*2*dt*1852/3600
+ summary={'touchdown_flag_datum_B_s':t0,'touchdown_flag_reading_range_s':limits(1012,3,566,0,1573,70,3),'last_pre_terminal_speed_anchor_datum_B_s':t1,'last_pre_terminal_speed_anchor_kt':vs[-1],'flag_to_last_speed_anchor_s':t1-t0,'last_anchor_is_runway_end':False,'distance_integral_flag_to_last_anchor_m':float(distance),'distance_sensitivity_range_m':[float(dlo),float(dhi)],'distance_bound_scope':'Conservative independent anchor-box + max-slope horizontal shifts and endpoint buffer for piecewise-linear digitization ONLY; no chart transcription bias, raw DFDR physical error, or unknown curvature between anchors covered. NOT historical physical worst-case bounds.','anchor_count':len(anchors),'interpolated_row_count':len(rows),'omissions':['No precise UTC sync','No raw DFDR calibration errors','No continuous-time curve accuracy guarantee between coarse anchors','No AMSL from radio height','Whole-approach extraction limited to Figure1/2 A80–145sec in separate approach artifacts; not full three-minute coverage']}
+ (HERE/'flight_summary.json').write_text(json.dumps(summary,indent=2)+'\n')
+ print(json.dumps(summary,indent=2))
+if __name__=='__main__':main()
+
+
+FILE research/checkers-runway13/evidence/cal605_reconstruction/REPORT.md
+# CAL605: what the reconstructed evidence changes
+
+13 October 2026. **A reproducible, exploratory flight/weather benchmark is built.** It covers selected final-turn and rollout traces, the complete five-sensor A/B/C wind printout, the 1993 weather archive, and conditional stopping diagnostics. It is not a recovered raw DFDR tape, a georeferenced full 3D trajectory, a historical optimal landing, or a calibrated prediction interval.
+
+The strongest result is a distinction: **speed can be falling while the braking needed to stop on the remaining runway is rising.** The stopping-aid state and time to effective deceleration matter alongside touchdown location and speed. Meanwhile, a single airport mean wind misses material differences both across sensors and across averaging windows.
+
+## 1. The earlier 255 m runway margin does not survive historical touchdown inputs
+
+Hold the existing model's usable runway (2786 m), two-second delay and 0.15g constant deceleration fixed. Evaluate its equation at different touchdown inputs:
+
+| Conditional calculation | Touchdown beyond threshold | Ground speed | Runway remaining at calculated stop |
+|---|---:|---:|---:|
+| Existing synthetic reference | 313 m | 151.4 kt | **255 m** |
+| Change touchdown position only | 480 m | 151.4 kt | **88 m** |
+| Change speed only | 313 m | 160 kt | **5 m** |
+| Both report-stated touchdown inputs | 480 m | 160 kt | **−162 m** |
+
+The report-stated inputs are rounded historical evidence, not precise calibrated measurements. The 150 m reserve is the research model's requirement, not an inferred historic operating rule. A negative result means the formula's stop lies beyond the runway; it is **not** an actual reconstruction of the final turn into the water.
+
+The decomposition is exact within this formula: the later touchdown uses another **167 m**, and the extra speed uses another **250 m**, of which the braking term dominates. This is a sensitivity calculation under common braking assumptions, not evidence that the synthetic approach could actually have been flown in CAL605's weather.
+
+![Conditional runway and speed-distance findings](findings.png)
+
+[PDF figure](findings.pdf) · [machine-readable calculations](analysis.json) · [scenario table](conditional_stopping_cases.csv).
+
+## 2. Decelerating did not mean regaining a comfortable stopping margin
+
+For remaining runway \(R\), current ground speed \(v\), assumed response delay \(\tau\) and subsequent constant deceleration \(a>0\), the simplified stopping condition is
+
+\[
+R\ge v\tau+\frac{v^2}{2a}.
+\]
+
+It is equivalent, when \(R>v\tau\), to
+
+\[
+a_{\rm required}=\frac{v^2}{2(R-v\tau)}.
+\]
+
+Using report narrative landmarks, **without any additional delay**, gives:
+
+| Report landmark | Runway remaining | Ground speed | Required constant deceleration to stop at end |
+|---|---:|---:|---:|
+| Touchdown | ~2300 m | 160 kt | ~0.150g |
+| Roll excursions ended | ~1365 m | 139 kt | ~0.191g |
+| Autobrake warning call | ~1080 m | 133 kt | ~0.221g |
+| Reverse selected | ~880 m | 129 kt | ~0.255g |
+
+At the last state, introducing a two-second delay raises the conditional requirement to approximately **0.300g**. Equivalently, assuming a sustained 0.3g gives only about **two seconds of delay allowance** in this idealized equation. These rounded observations cannot identify an exact physical deadline; 0.3g is an illustrative sustained braking scenario, not an established maximum capability.
+
+Appendix 13's approximate +20 s checkpoint lists 800 m remaining and 127 kt. Relative to the narrative's ~2300 m touchdown remaining distance, about **65% of the runway had been used while 63% of touchdown kinetic energy remained** (constant mass). The narrative places strong braking at about 750 m rather than exactly 800 m. Both source statements are retained; no forced reconciliation is used.
+
+The report already explains the sequence: forward-thrust advancement after touchdown disarmed autobrakes and retracted spoilers; strong deceleration followed much later. Our contribution here is a reproducible numerical description and connection to the explicit stopping equation, not a new discovery of the accident's cause. A constant-deceleration fit alone would suppress these discrete system states.
+
+Sources: CAD Report 1/95 §§1.11.4, 2.2.5–2.2.7; physical PDF pages 39–40, 63–65 and Appendix 13/page 159. [Source-stated event table](flight_events.csv), [digitized Figure 5](source_pages/rollout_overlay.png), [35 speed-distance anchors](rollout_trace.csv).
+
+## 3. The final turn had changing speed, wind readings and drift
+
+Selected Figures 1–2 readings show ground speed rising roughly **127 to 163 kt** between report-datum A≈110 and 145 s, while heading changes roughly **91°M to 133°M**. FMC wind-speed readings fall from about **48 kt at A≈110 s to 14 kt at A≈130 s**; the sampled drift excursion reaches about **13° around A≈135 s**.
+
+These are coarse readings with substantial declared raster sensitivities, roughly ±6–7 kt for these speed samples and ±2° for drift. Unsampled peaks are not bounded. The observations do not identify a wind-only cause for the ground-speed change: the aircraft is turning, its controls are changing and the wind vector's projection changes. CAS is not TAS, and CAS minus ground speed is not a recovered wind vector. Magnetic heading and true FMC wind direction are not subtracted without a common bearing frame.
+
+![Approach samples](flight/approach_wind_samples.png)
+
+The final-phase extraction also reveals an important measurement issue: the plotted radio-height trace crosses zero before the first ground flag and sits near −8 ft on the ground. It must not be interpreted as negative aircraft clearance or converted directly into historical terrain elevation.
+
+The first ground flag reads B≈31.0 s. Integrating the coarse speed polyline to the last preterminal speed anchor yields about 2.08 km; a deliberately conservative declared pixel/anchor sensitivity calculation gives 1.86–2.31 km. The final anchor is **not explicitly identified as runway exit**, and these are not physical error bounds. We do not tune the curve to force the narrative's ~2300 m distance.
+
+[Flight methods and limitations](flight/README.md), [final-phase figure](flight/final_approach_rollout.png), [original Figure 4 anchors](flight/trace_anchors.json), [Figure 1–2 anchors](flight/approach_anchors.json).
+
+## 4. “The airport wind” is not one number
+
+All actual printed A/B/C fields were transcribed: **15 irregular timestamps × five sensors × three fields = 225 direction–speed pairs**. Thirty printed rolling-extrema pairs were additionally retained.
+
+- **Same sensor, different time window:** at wind-system 03:35:30, NW's present-field speed is **37 kt**, its two-minute mean **23 kt**, and its ten-minute mean **19 kt**. The 18 kt difference is exact arithmetic of printed numbers, not a calibrated error bound on true wind.
+- **Same timestamp, different locations:** at 03:38:00, NW records **12 kt** while Lei Yue Mun records **37 kt**, a **25 kt** difference. This is spatial variation across ground sensors, not measured shear encountered by the aircraft.
+- **Sparse samples miss peaks:** NW's preceding-ten-minute maximum reaches **44 kt**, but the largest retained NW present-field reading is only **37 kt**. We know the sparse printout does not contain all instrument-recorded maxima; we cannot locate the missing peak on the flight timeline.
+
+“A” means the maximum one-second speed in a five-second window, not an instantaneous mean. “B/C” are overlapping two-/ten-minute averages. The printer was event-triggered, so the rows are neither uniformly spaced nor independent observations. No interpolation fills the gaps.
+
+![Wind-window comparison](wind/wind_windows.png)
+
+The NOAA 03:00 and 04:00 UTC observations both give 070°/about21 kt, consistent with the report's weather table. Their gust fields give about34 and40 kt. Shared originating observations are possible, so this is a cross-format consistency check, not independent replication. In the declared comparable routine-report subset, 8285/8360 observations (**99.10%**) have lower mean wind speed. This is retrospective selected-record context, not a population percentile with a CI, a forecast or accident probability. Gusts are missing from most records, so no unconditional gust distribution is estimated.
+
+[Wind extraction and source anomalies](wind/README.md) · [NOAA decoder/QC](noaa/README.md).
+
+## 5. What is explicit, and what remains unidentified
+
+The reconstructed ground speed is linear in runway coordinate between each of the 35 Figure 5 anchors. Within segment i, let \(v_i>0\) be its initial speed, \(x_i\) its coordinate and \(m_i=(v_{i+1}-v_i)/(x_{i+1}-x_i)\). Under runway-parallel motion,
+
+\[
+v(t)=v_i e^{m_i(t-t_i)},\qquad
+x(t)=x_i+\frac{v_i}{m_i}\left(e^{m_i(t-t_i)}-1\right).
+\]
+
+For \(m_i=0\), use \(x=x_i+v_i(t-t_i)\). Segment duration is \(\log(v_{i+1}/v_i)/m_i\). All **34 numerical segments** are in [explicit_rollout.json](explicit_rollout.json). This is an explicit reconstruction under stated interpolation, **not** an optimal landing formula. Its time origin is the first retained anchor before touchdown, not report datum A, B or UTC. It ends at the last source anchor, not at a modeled stop. The final yaw means its runway-parallel assumption is not a complete physical replay.
+
+| Object | Status / meaning |
+|---|---|
+| Source-stated flight events | Transcribed; rounded source values and discrepancies retained. |
+| Selected flight traces | Digitized: 190 approach/final-phase anchors plus 35 speed-distance anchors. |
+| Explicit rollout interpolation | Derived conditional on the polyline and runway-parallel motion; no extrapolation. |
+| Ground weather printout | Complete A/B/C transcription for five sensors and all printed timestamps. |
+| NOAA archive | All8549 records decoded with raw fields and quality flags;24 on event date. |
+| Pixel-reading ranges | Declared deterministic sensitivity boxes; no statistical coverage. |
+| Actual physical tracking/model-error distribution | Not identified from these sources. |
+| Exact flight/wind clock offset | Unknown; no synchronized join or lag correlation performed. |
+| Complete georeferenced 3D flight path | Not delivered; terrain registration and raw-state evidence still needed. |
+| Population95% landing prediction interval | Not available from a single accident. |
+| Historical feasibility/near-optimality | Not established by this reconstruction. |
+
+The ground-weather clock is explicitly unsynchronized with ATC in the primary report. Report-datum A/B are also retained separately here. No guessed clock offset is used to claim that a particular ground gust caused a flight excursion.
+
+Source inconsistencies are data, not inconveniences: touchdown is about2300 m remaining in the narrative,2250 m in Appendix13, and about2210 m at Figure5's plotted ground-flag transition. These may refer to different timing/position conventions or rounded reconstruction; this benchmark cannot resolve them. The LYM direction printed as360° and the actual-versus-illustrative NW mean discrepancy are also preserved.
+
+## Verification and reproduction
+
+[Verification record](verification.json) records final test results, artifact counts, source identities and review dispositions. Source images with anchor overlays were visually inspected. Tests check units, axis transformations and sensitivity enclosures, missingness, parser source identity, published-value consistency, analytical reconstruction against independent quadrature, and frozen-model identity. They do not validate raw aircraft or meteorological measurement accuracy.
+
+From the workspace root:
+
+```sh
+research/checkers-runway13/.venv/bin/python research/checkers-runway13/evidence/cal605_reconstruction/reconstruct.py
+research/checkers-runway13/.venv/bin/python research/checkers-runway13/evidence/cal605_reconstruction/flight/build_flight.py
+research/checkers-runway13/.venv/bin/python research/checkers-runway13/evidence/cal605_reconstruction/flight/build_approach.py
+python3 research/checkers-runway13/evidence/cal605_reconstruction/noaa/decode_noaa.py
+python3 research/checkers-runway13/evidence/cal605_reconstruction/wind/reconstruct_wind.py
+```
+
+No source aircraft configuration, nominal optimizer, braking assumption or terrain-owner artifact was changed. No publication, purchase, outreach or operational aviation action occurred.
+
+**Implication for the next model discussion:** a useful condition-to-landing rule must make stopping-aid state/activation history and the available disturbance information explicit. More geometric precision alone will not fix a two-second/constant-braking assumption applied to this event. That is a supported model-design lesson, not permission to silently change the frozen model. Routine landings and go-arounds are still needed for generalization.
+
+
+FILE research/checkers-runway13/evidence/cal605_reconstruction/SPEC.md
+---
+title: Matched CAL605 flight and weather reconstruction benchmark
+type: feature
+created: 2026-10-13
+status: in-review
+baseline_commit: NO_VCS
+context: []
+---
+
+<frozen-after-approval reason="Aryan: Let’s make that and then see what surprising results we get; accepted matched historical reconstruction and exploratory comparison, 13 October 2026">
+
+## Intent
+
+Build the uncertainty-aware CAL605 flight/weather reconstruction proposed in the preceding conversation, then compare observations with the existing landing equations and investigate discrepancies. Deliver reusable numerical evidence, readable figures and an evidence-qualified findings report. The object is a historical reconstruction benchmark, not a completed historical optimum or operational procedure.
+
+Use the already-held CAD Report 1/95, especially Appendices 5–7 and 11–12, together with the acquired NOAA 1993 station-year archive. Work in a separate evidence directory so ongoing terrain reconstruction and frozen model sources remain untouched. Preserve numerical evidence and failed hypotheses, not just interesting-looking findings.
+
+## Boundaries and constraints
+
+Always distinguish report-stated numbers, manual image readings, computationally digitized traces, reconstructed quantities and assumed counterfactuals. Every observation needs source page/figure or raw record, units, time reference, method and uncertainty semantics. Plot-derived precision must reflect raster resolution, trace thickness, ambiguous intersections and axis calibration. Such bounds are digitization sensitivity bounds, not physical 95% confidence intervals. Raw DFDR measurement errors remain unavailable unless documented. Flight trace time and wind-system clock are distinct; no arbitrary alignment presented as observed synchronization.
+
+Preserve the existing aircraft, objective, fixed braking model and source artifacts. Comparisons may evaluate that formula at observed inputs, clearly labeled conditional diagnostics. Do not tune the frozen solver or infer control, aerodynamic parameters and local wind simultaneously from position alone. Do not use mean surface weather as flight-path gust truth. No causal population claim from one accident, and no generic prediction interval or accident probability. Do not reinterpret radio height as AMSL or map trace integration as independent position truth.
+
+External contact, paid acquisition, publication and model-meaning changes require separate authorization; none is needed for this approved local evidence work. Do not duplicate terrain-owner geometry reconstruction or claim its active outputs as stable. Routine-flight validation remains a wider-project gap; it is not silently replaced by the accident case.
+
+## I/O and edge cases
+
+| Input | Expected behavior |
+|---|---|
+| Readable published flight curve | Calibrate axes, preserve actual pixel anchors and extract trace samples; show image overlays and ranges attributable to reading precision. |
+| Overlapping/indistinct trace | Mark ambiguous or missing; no forced invented sample. Interpolation explicitly labeled. |
+| Published narrative flight events | Separate source-stated event table; compare with graph without treating them as independent measurements. |
+| Wind A/B/C fields | Decode present/2-minute/10-minute semantics separately; preserve sensor and own-clock labels. Missing scheduled record is not zero wind. |
+| NOAA missing/quality flags | Retain raw fields, null sentinels, documented quality filtering and report types; no imputation. |
+| Unknown UTC offset or datum | Maintain separate relative times and report identifiability limit; sensitivity scenarios cannot certify alignment. |
+| Historical/model disagreement | Report mismatch and conditional decomposition, without claiming matched controls or historical superiority. |
+
+</frozen-after-approval>
+
+## Code map
+
+- `../../../../data/kai-tak-2026-10-13/sources/`: immutable primary report PDF and searchable transcription (workspace-root resolution is authoritative).
+- `../weather_feasibility_2026-10-13/`: acquired NOAA archive and acquisition evidence.
+- `../../approximation/reference_outcomes.json` and `../../model/config.json`: read-only nominal comparator.
+- `source_pages/`: rendered source evidence and annotated extraction overlays.
+- `noaa/`: separately owned reproducible NOAA decoding and QC.
+
+## Tasks and acceptance
+
+- [x] SRC-01 `manifest.json`: source hashes and page/figure index; preserve input identity.
+- [x] WX-01 `wind/wind_records.csv`, `wind/wind_extraction.json`: visually verified five-sensor printout transcription and field semantics with missing/ambiguous fields explicit.
+- [x] FLT-01 `flight/flight_traces.csv`, `flight/trace_anchors.json`, `flight_events.csv`, `rollout_trace.csv`: reconstruct readable approach/rollout variables with provenance, uncertainty, independent narrative checks and source overlays.
+- [x] WX-02 `noaa/`: documented decoder, year/event tables, quality/missingness summary and tests.
+- [x] COMP-01 `reconstruct.py`, `analysis.json`: derive observed timing/runway diagnostics, compare frozen reference and conditional stopping formulas, retain assumptions and unidentifiable quantities.
+- [x] OUT-01 `REPORT.md`, standalone figures: distinguish achieved extraction, findings, limitations and wider-project blockers.
+- [x] VAL-01 `test_reconstruction.py`, `verification.json`: test axis transforms, bounds, chronology, units, cross-source consistency and scalar distance calculations; independently review extraction and consequential findings.
+
+Given the retained raw inputs and manual anchors, when the script runs, then derived tables and figures reproduce without network access. Given uncertain anchors, when propagated, then output ranges enclose declared digitization inputs without statistical labels. Given a clock offset not identified by evidence, when joining sources, then no exact synchronization is asserted. Given each final numerical finding, when traced backward, then its source and calculation are inspectable. Given comparison to the synthetic model, then unmatched entry state, control history and environment remain explicit.
+
+## Verification
+
+Use the project's existing Python virtual environment, numerical libraries and local Poppler rendering tools. Inspect overlays against primary PDF pages and cross-check published narrative numbers. Run meaningful reconstruction/decoder tests, verify source hashes and inspect report/figure contents. Final status separates benchmark implementation from historical 3D/optimality/prediction completeness.
+
+## Spec change log
+
+2026-10-13: Initial benchmark scope records explicit authorization; no renewed approval gate for accepted work. Workspace BMAD config is absent; use project-local paths and existing frozen model conventions.

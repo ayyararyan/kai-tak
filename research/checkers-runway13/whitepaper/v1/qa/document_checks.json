@@ -1,0 +1,14 @@
+{
+  "pages": 23,
+  "characters": 58619,
+  "all_pages_have_text": true,
+  "both_extractors_checked": true,
+  "text_within_page_bounds": true,
+  "no_unresolved_refs_or_missing_glyphs_or_overfull_boxes": true,
+  "all_fonts_embedded": true,
+  "pdf_links": 48,
+  "pdf_sha256": "0fc56dcd02145905494701f98ab96c229bc8ae4a75386602eba4dd7246e8b855",
+  "visual_inspection": "Assistant inspected all 23 rendered pages in contact sheets, all five figure PNGs (including corrected historical support and new historical stopping panel); no clipping or blank pages observed.",
+  "scientific_scope": "Document/data-derivation checks; no new independent scientific peer review.",
+  "visual_inspection_utc": "2026-10-13T13:40:22.558554+00:00"
+}

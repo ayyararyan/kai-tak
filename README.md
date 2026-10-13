@@ -6,11 +6,20 @@ Historical reconstruction and mathematical study of the Kai Tak Runway 13 approa
 
 **Work in progress.** This repository is a snapshot of research assembled on 13 October 2026. It is not an operational flight procedure, a validated aircraft simulator, or a claim that the historical approach was globally optimal or suboptimal.
 
+## White paper · version 2
+
+**[Read the 30-page PDF](research/checkers-runway13/whitepaper/v2/checkers-with-runway-13-white-paper-v2.pdf)** · [Editable source ZIP](research/checkers-runway13/whitepaper/checkers-with-runway-13-white-paper-v2-source.zip) · [Build instructions and evidence](research/checkers-runway13/whitepaper/v2/README.md)
+
+Version 2 adds a complete landing under the declared steady 070° true / 21 kt mean-wind scenario: touchdown at **302.11 m**, stop at **2,233.23 m**, and **552.77 m** of runway remaining with unchanged 2-second / 0.15g braking. Its own interval certificate establishes normalized margin **≥0.1507934696816132**; a separate necessary upper bound is **0.2167443782**. This remains a synthetic-entry/corridor research result, not historical obstacle clearance, near-optimality, a physical prediction interval or flight guidance. The calm result below is a different scenario, not a superseded certificate.
+
+The manuscript has seven reproducible figures, explicit coefficients, technical derivations, a version-change ledger and frozen source evidence. It also includes the final blockwise reconstruction supplement. The rest of the repository and initial data release retain their separately dated snapshot status.
+
 ## What is here
 
 | Research area | Starting point |
 |---|---|
 | Project decisions, chronology and unresolved requirements | [Project state](research/checkers-runway13/PROJECT_STATE.md) |
+| Wind-conditioned complete landing, figure and certificate | [Calculated landing](research/checkers-runway13/counterfactual/REPORT.md) |
 | Executable nominal landing model and reproduction instructions | [Model README](research/checkers-runway13/README.md) |
 | Explicit approach, flare and stopping formulas | [Closed form and bounds](research/checkers-runway13/approximation/CLOSED_FORM_AND_BOUNDS.md) |
 | Continuous-time feasibility witness and corrected optimality bounds | [Coupled analytical results](research/checkers-runway13/analytical/coupled/RESULTS.md) |
@@ -18,11 +27,15 @@ Historical reconstruction and mathematical study of the Kai Tak Runway 13 approa
 | Registered sheets, block matching and 3D research | [Block-matching specification](research/checkers-runway13/reconstruction/block_matching/SPEC.md), [scene](research/checkers-runway13/reconstruction/block_matching/scene/README.md) |
 | Actual CAL605 recorder/weather reconstruction | [Evidence specification](research/checkers-runway13/evidence/cal605_reconstruction/SPEC.md), [weather decoding](research/checkers-runway13/evidence/cal605_reconstruction/noaa/README.md) |
 | Prior literature and contribution assessment | [Literature](research/checkers-runway13/literature/LITERATURE_AND_COMPARISON.md) |
-| White-paper preparation in progress | [White-paper work](research/checkers-runway13/whitepaper/) |
+| Latest white paper: v2 | [PDF, editable sources and verification](research/checkers-runway13/whitepaper/v2/) |
 
 The original `research/checkers-runway13/` and `data/kai-tak-2026-10-13/` layout is retained so relative paths in the research scripts continue to resolve.
 
 ## Current mathematical result
+
+The new **steady-wind conditional case** constructs a complete turn, descent, flare and stop: touchdown **302 m past the threshold**, full stop after **96.6 s**, and **553 m of runway remaining**. It has its own continuous-time model-feasibility certificate. The synthetic entry/corridor, uniform 070° true / 21 kt wind and simplified aircraft/braking assumptions are explicit; this is not a historically validated or near-optimal landing. [Read the result and limitations](research/checkers-runway13/counterfactual/REPORT.md).
+
+![Constructed wind-conditioned approach and stopping result](research/checkers-runway13/counterfactual/landing.png)
 
 The synthetic nominal model has an explicit complete landing with a computer-assisted continuous-time feasibility certificate. The verified finite-family normalized-margin bracket is **[0.0397, 0.1559772)**. The earlier claimed 0.03972 upper bound was withdrawn after checker defects and must not be used.
 
@@ -45,7 +58,7 @@ The model README describes the scenario solver. Historical-mode refusal is inten
 
 ## Download the larger datasets and outputs
 
-Code, reports, source inventories and compact outputs are in Git. Bulky open-data sources, imagery, registered geometry, meshes and intermediate numerical exports are attached to the [initial research snapshot release](https://github.com/ayyararyan/kai-tak/releases/tag/snapshot-2026-10-13).
+Code, reports, source inventories and compact outputs are in Git. Bulky open-data sources, imagery, registered geometry, meshes and intermediate numerical exports are attached to the [updated research release](https://github.com/ayyararyan/kai-tak/releases/tag/update-2026-10-13) and the unchanged [initial data release](https://github.com/ayyararyan/kai-tak/releases/tag/snapshot-2026-10-13). The manifest selects the current archive for each data group.
 
 ```sh
 python3 scripts/fetch_data.py

@@ -1,0 +1,64 @@
+{
+  "created_utc": "2026-10-13T14:08:16.163101+00:00",
+  "source_files": {
+    "CAD_CAL605": {
+      "path": "data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+      "sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "bytes": 7653178,
+      "title": "Hong Kong Civil Aviation Department Aircraft Accident Report 1/95, CAL605, 4 November 1993",
+      "url": "https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf",
+      "observation_epoch": "1993-11-04",
+      "source_type": "primary_accident_report"
+    },
+    "LandsD_datum": {
+      "path": "research/checkers-runway13/reconstruction/downloads/geodetic_explanatory_notes.pdf",
+      "sha256": "ebd993c44f5d4a9584393faf09129d35dec86bbdf434907b2e9cf3afe65c4a6b",
+      "bytes": 629335,
+      "title": "Lands Department Geodetic Survey Explanatory Notes",
+      "url": "https://www.geodetic.gov.hk/common/data/pdf/explanatorynotes.pdf",
+      "source_type": "primary_survey_datum_documentation"
+    }
+  },
+  "files": [
+    {
+      "path": "CAL605_pdf131_appendix1.png",
+      "bytes": 2159966,
+      "sha256": "8e2e70d66791602c6ba2220bfed353c18d99c38d18f59e16c17ed7bfa1a4158e"
+    },
+    {
+      "path": "CAL605_pdf143_appendix9.png",
+      "bytes": 289990,
+      "sha256": "31666df665ed3706b26b93c47cb2da2e52c063913fe3ef73826b4bedd56bf33a"
+    },
+    {
+      "path": "CAL605_pdf143_checkerboard_crop.png",
+      "bytes": 42798,
+      "sha256": "988d45023b44f2bf8b6659f4f87265c351b48cf733b0262b86048e62868a4f69"
+    },
+    {
+      "path": "CAL605_pdf143_checkerboard_upright.png",
+      "bytes": 51802,
+      "sha256": "b46b963b648444286309a29f78297afde03395625ddf0d897035da675baf47ac"
+    },
+    {
+      "path": "CAL605_runway-033.png",
+      "bytes": 415405,
+      "sha256": "dc542ce2e678128b952d6593ff5cb32327246e62f5fec8e86190b8e30da23379"
+    },
+    {
+      "path": "CAL605_runway-034.png",
+      "bytes": 255014,
+      "sha256": "a8dd0fa3c85f83d712dc2499cebd9ceeeb430a008ab0131897a3221f6f234153"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 3084,
+      "sha256": "6c134df4cb5609fc0e599742c5d23b6b3e76ca6dcf6272568a0efcc945124d3c"
+    },
+    {
+      "path": "source_observations.json",
+      "bytes": 11554,
+      "sha256": "60025f23332193f547b5299aa94d52412f60300b7cbe20b11560e00ed9bbfed3"
+    }
+  ]
+}

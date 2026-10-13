@@ -1,0 +1,40 @@
+{
+  "cell_id": "KC_ROAD_CONTROL_04",
+  "road_cell_source_properties": {
+    "block_id": "KC_ROAD_CONTROL_04",
+    "west_road": "South Wall",
+    "east_road": "Tak Ku Ling",
+    "north_road": "Carpenter Road",
+    "south_road": "Nga Tsin Wai Road",
+    "reference_edition_month": "1989-10",
+    "photo_epoch": "1993-11-02",
+    "area_m2": 10771.616333007812,
+    "geometry_semantics": "road-centre matching cell; includes portions of streets; not building/parcel outline",
+    "contents_verified": false,
+    "height_valid": false,
+    "role": "local blockwise inspection area"
+  },
+  "cell_area_epsg2326_m2": 10771.616337434125,
+  "across_date_current_template_rows": 62,
+  "across_date_unclassified_region_overlap_rows": 138,
+  "epochs": {
+    "1989-10": {
+      "template_assignments": 62,
+      "region_assignments": 74,
+      "template_statuses": {
+        "ambiguous_content_candidate": 7,
+        "strong_content_candidate_unverified": 55
+      }
+    },
+    "1994-07": {
+      "template_assignments": 62,
+      "region_assignments": 72,
+      "template_statuses": {
+        "strong_content_candidate_unverified": 55,
+        "ambiguous_content_candidate": 7
+      }
+    }
+  },
+  "full_contents_verified": false,
+  "historical_identity_accepted": 0
+}

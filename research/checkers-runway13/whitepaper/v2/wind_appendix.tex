@@ -1,0 +1,41 @@
+\section{Wind conversion, explicit coefficients and the case-specific bound}
+\label{app:wind}
+\subsection{Meteorological direction and endpoint states}
+Let $W$ be wind speed, $\beta$ its meteorological \emph{from} bearing, and $\alpha$ the runway's true forward bearing. In a forward/right/up frame,
+\begin{equation}
+w_x=-W\cos(\beta-\alpha),\qquad
+w_y=-W\sin(\beta-\alpha),\qquad w_h=0.
+\end{equation}
+The minus sign converts a from direction into the velocity toward direction. With $W=21(1852/3600)$ m/s, $\beta=70^\circ$ and $\alpha=135^\circ-1^\circ50'=799/6$ degrees, the vector in Section~\ref{sec:wind} follows. NOAA's rounded 10.8 m/s mean corroborates the source report but does not replace the exact 21-kt scenario input.
+
+If horizontal ground track is $\chi$, let $\mathbf d=(\cos\chi,\sin\chi)$ and let $H=V\cos\gamma$ be horizontal airspeed. Writing horizontal ground velocity as $u_g\mathbf d$, the endpoint condition is
+\begin{equation}
+\|u_g\mathbf d-\mathbf w_{xy}\|^2=H^2,
+\qquad
+u_g=\mathbf d\!\cdot\!\mathbf w_{xy}
++\sqrt{H^2-\|\mathbf w_{xy}\|^2+(\mathbf d\!\cdot\!\mathbf w_{xy})^2}.
+\end{equation}
+The positive branch is used for forward motion, with nonnegative radicand required. Vertical ground velocity equals $V\sin\gamma$ in this zero-vertical-wind case. This shows explicitly why holding EAS, flight-path angle and ground track fixed changes endpoint ground velocity with wind.
+
+\subsection{Evaluating the explicit reference}
+The new approach and flare use the endpoint-preserving basis already defined in Appendix~\ref{app:dynamics}. The following coefficient tables are rounded display copies. Full-precision evaluation coefficients and phase domains are supplied in \path{evidence/counterfactual/formula.json}; the certificate is bound to the exact-decimal source construction and selected parameter vector, not to these rounded tables. Derivative order $j$ is obtained by differentiating with respect to $s$ and dividing by $T^j$. Do not extrapolate beyond either phase.
+
+\input{wind_coefficients.tex}
+
+For the ground phase, use $t_D=45.3645437606$ s, $x_D=302.114052038$ m, $u=72.4900358883$ m/s, $d=2$ s and $a=1.4709975$ m/s$^2$ in Appendix~\ref{app:ground}. The two flight polynomials meet in position, velocity and acceleration; one-sided rates are checked separately. This specifies a time-indexed mathematical reference, not a feedback response to an unobserved gust.
+
+\subsection{A wind-case bound that does not reuse the calm bound}
+The fixed normalized touchdown-position inequality gives $x_D\geq200+500\eta$. The finite parameter family imposes $u\geq69$ m/s. Both terms of $2u+u^2/(2a)$ increase with nonnegative $u$, while the normalized reserve inequality gives $S\leq2636(1-\eta)$. Hence every feasible candidate satisfies
+\begin{align}
+200+500\eta+138+\frac{4761}{2a}&\leq2636(1-\eta),\\
+\eta&\leq\frac{2636-200-138-4761/(2a)}{3136}
+=\frac{66656817}{307536544}.
+\end{align}
+This is a necessary condition only. It need not be attainable: it discards airborne constraints and allows the limiting touchdown distance and speed to be combined even when no admissible airborne curve realizes them. It remains valid precisely because this relaxation can only enlarge the feasible set. The sharper-looking zero-wind bound depends on a different relation between airspeed and forward speed and cannot be carried over unchanged.
+
+Subtracting the exact decimal lower certificate from the rational upper bound yields the gap bound
+\begin{equation}
+\frac{1584555818464679384939}{24026292500000000000000}
+\approx0.0659509085084467.
+\end{equation}
+A tighter bound or better candidate would narrow this interval. Multistart agreement alone cannot do so.

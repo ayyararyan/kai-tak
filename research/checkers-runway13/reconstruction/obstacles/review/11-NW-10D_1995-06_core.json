@@ -1,0 +1,30 @@
+{
+  "source_id": "1980_1990:1293",
+  "source_sha256": "11e52296ec8bd3d1e54e9c8b65c51c35eaba952669398f580651e084126021c3",
+  "crs": "EPSG:2326",
+  "bounds": [
+    836750,
+    821600,
+    837500,
+    822200
+  ],
+  "width": 3000,
+  "height": 2400,
+  "resolution_m": 0.25,
+  "affine_pixel_edges": [
+    0.25,
+    0.0,
+    836750.0,
+    0.0,
+    -0.25,
+    822200.0
+  ],
+  "pixel_center_formula": "E=left+(col+0.5)*resolution; N=top-(row+0.5)*resolution",
+  "pixel_edge_formula": "E=left+col*resolution; N=top-row*resolution",
+  "source_date": "1995-06",
+  "date_precision": "month",
+  "resampling": "area_average_after_palette_decode",
+  "tif_sha256": "755300ec9a754e6bfecfcade7c31b2d4172a070bf8c9d78fa7ea52752329f00e",
+  "png_sha256": "0e1fdc3513bfc46a9e145eac294487ce97fe25bae0ac57af4b9eca470674226f",
+  "cartographic_ground_accuracy_m": null
+}

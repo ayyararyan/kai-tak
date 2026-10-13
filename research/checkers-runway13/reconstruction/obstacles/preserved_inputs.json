@@ -1,0 +1,7 @@
+{
+  "model/config.json": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693",
+  "model/trajectory.py": "9b557ce07c7e8f177b0b3cfac1765c1c9aec4997e28b52d3185ad533f7cf3f6a",
+  "reconstruction/block_matching/historical_faces.geojson": "f866def637ad2c3495e9a9463a6abfc1b04cbf600b8b52b6ed5ee503bd749ef7",
+  "reconstruction/block_matching/aerial_registration/sparse_stereo_points.csv": "841a89fb4560e2b7c3513f44f5ed836efa5467267482b3d5e980ae40fb025324",
+  "reconstruction/block_matching/aerial_registration/observed_surface_mesh.glb": "c146fae1866e003e74dea693e05df4139e49b414bab0c6f82c14312bc61dc241"
+}

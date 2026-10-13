@@ -25,7 +25,7 @@ The magnetic difference does not establish a 47-degree air-heading change under 
 \begin{table}[H]
 \caption{Selected inputs and their evidential roles. The source-based entries do not calibrate the complete aircraft model.}
 \small
-\begin{tabularx}{\textwidth}{@{}p{0.24\textwidth}p{0.24\textwidth}X@{}}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{0.24\textwidth}>{\raggedright\arraybackslash}p{0.24\textwidth}>{\raggedright\arraybackslash}X@{}}
 \toprule
 Quantity & Value or description & Role in this paper\\
 \midrule
@@ -47,7 +47,7 @@ Several variables also require careful interpretation. Cockpit control-wheel, co
 
 Most importantly, the report's discussion of touchdown does not support a causal claim against the geometry of the approach. Section 2.6.5 describes a controllable touchdown and states that touchdown parameters were not a causal factor in the accident. The approximate touchdown station and groundspeed reported there are evidence about that case, not proof that an alternative turn would have prevented the overrun. This paper treats CAL605 as an informative reconstruction benchmark, not as the historical optimum or a representative normal flight.
 
-\status{The complete primary report and selected source metadata are available. This manuscript freezes the settled source evidence and NOAA diagnostic. Flight-trace extraction and cross-source alignment are under development and are not reported here as completed validation.}
+\status{The primary report and a verified exploratory benchmark are available. The benchmark digitizes selected flight traces and transcribes the five-sensor weather printout. It does not recover raw DFDR, a complete georeferenced flight path or an identified flight/wind clock offset. Section~\ref{sec:weather} reports the supported conditional findings.}
 
 \section{Reconstructing the approach area through time}
 \label{sec:geometry}
@@ -59,7 +59,7 @@ The acquisition assembled 227 valid historical survey-map archives across 93 cor
 The modern terrain and building layers provide context, not a replacement for history. The Lands Department's 5-metre terrain product documents photography from 2014--2015 and a March 2019 revision \cite{dtm}. A September 2026 building release is a different epoch \cite{buildings}. Roof and base fields are approximate elevations above Hong Kong Principal Datum. A roof elevation is not a height to be added to terrain, and Hong Kong Principal Datum must be reconciled with the aviation height reference before clearance calculations.
 
 \subsection{What has been recovered from the 1993 photographs}
-Two overlapping frames, A36142 and A36143, dated 2 November 1993, support an actual image-based stereo reconstruction. The retained result has 1,318 sparse matched points and 171,356 filtered dense surface points. Camera labels and scan-scale assumptions supply provisional intrinsics. Matched image features determine relative geometry; manually interpreted ground features and survey-road controls anchor a local metric transformation.
+Two overlapping frames, A36142 and A36143, dated 2 November 1993, support an actual image-based stereo reconstruction. The retained result has 1,318 sparse matched points and 171,307 filtered dense surface points. Camera labels and scan-scale assumptions supply provisional intrinsics. Matched image features determine relative geometry; manually interpreted ground features and survey-road controls anchor a local metric transformation.
 
 The vertical coordinate measures height relative to a fitted park/road plane. It is not an absolute surveyed elevation or necessarily the height of a roof above that building's own base. Two inspected roof features have conditional relative-plane estimates of approximately 10.77 and 19.20 metres. They are different features. Variation under selected focal-length and principal-point perturbations is a sensitivity experiment, not a comprehensive error interval.
 
@@ -69,12 +69,14 @@ The vertical coordinate measures height relative to a fitted park/road plane. It
 \label{fig:stereo}
 \end{figure}
 
-The held-out map controls give a horizontal root-mean-square discrepancy of 5.754 metres for the metric stereo alignment. Only 3,781 dense points lie inside the map-control hull. These facts limit the interpretation of a visually extensive cloud: image coverage is much broader than locally controlled geometry. Points can represent roofs, ground, vegetation or mismatches that survive the filters. They do not constitute a classified, watertight city model.
+The held-out map controls give a horizontal root-mean-square discrepancy of 5.754 metres for the metric stereo alignment. Only 3,780 dense points lie inside the map-control hull. These facts limit the interpretation of a visually extensive cloud: image coverage is much broader than locally controlled geometry. Points can represent roofs, ground, vegetation or mismatches that survive the filters. They do not constitute a classified, watertight city model.
 
 \subsection{From surface evidence to aircraft clearance}
 Clearance concerns the aircraft's swept volume and its tracking uncertainty. It cannot be established by checking a single point against a visually plausible surface. Historical building identities, roof geometry, terrain changes, occlusions, datum offsets and registration errors must be reconciled over the relevant corridor. Unknown geometry must remain unknown rather than becoming an empty obstacle list.
 
-A useful intermediate output is nevertheless possible: an evidence-linked reconstruction in which each object or point records its source date, coordinate meaning and support. Such a resource allows errors to be inspected and corrected. The mathematical landing model can consume it only when the geometric assumptions required by that model are justified.
+A conservative observed-surface mesh now connects supported points into 225,371 triangles using 155,891 vertices. It retains holes and has 86,061 boundary edges; it is not watertight. An interpolation-support correction removed 49 previously exported dense points before the geometry used in this draft was frozen. The point counts and figure reflect that corrected delivery. Neither connected triangles nor an attractive rendering establish complete building solids.
+
+The useful intermediate output is an evidence-linked reconstruction in which each object or point records its source date, coordinate meaning and support. Such a resource allows errors to be inspected and corrected. The mathematical landing model can consume it only when the geometric assumptions required by that model are justified.
 
 \status{Dated registered maps and conditional local stereo geometry are available. A complete historical obstacle surface with independently defensible vertical accuracy and whole-aircraft clearance is not established.}
 
@@ -185,8 +187,52 @@ At the fixed candidate, an extra metre of touchdown distance removes one metre o
 
 This calculation illustrates why touchdown location and speed belong in the same problem as the approach. It does not demonstrate that speed can be reduced safely at any desired point, that stronger braking is available, or that a historical crew had the information and controls assumed by a counterfactual optimizer.
 
-\section{Historical weather and the validation problem}
+\section{Historical confrontation: stopping and weather}
 \label{sec:weather}
+\subsection{When the synthetic runway margin disappears}
+The settled CAL605 benchmark contains 190 selected approach/final-phase pixel anchors, 35 speed--distance anchors and a complete transcription of the printed five-sensor A/B/C wind fields. Source overlays, extraction methods, reading sensitivities and discrepancies are retained. Its verification record reports 43 passing tests and reproduction of 19 numerical files. These establish a reproducible exploratory reconstruction, not independent physical sensor accuracy.
+
+A direct conditional comparison substitutes the report-stated touchdown station of approximately 480 m and groundspeed of 160 kt into equation~\eqref{eq:stop}, while holding the model's 2 s delay, $0.15g$ deceleration and 2,786 m available length fixed. The results are:
+\begin{table}[H]
+\centering\small
+\caption{Changing touchdown inputs under the same illustrative stopping law. Historical inputs are rounded report values; the rows are conditional calculations, not alternative validated flights.}
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Inputs & Touchdown (m) & Speed (kt) & Runway left (m)\\
+\midrule
+Synthetic reference & 313.49 & 151.40 & 254.68\\
+Later touchdown only & 480.00 & 151.40 & 88.17\\
+Higher speed only & 313.49 & 160.00 & 4.99\\
+Both report-stated inputs & 480.00 & 160.00 & $-161.52$\\
+\bottomrule
+\end{tabular}
+\end{table}
+Later touchdown consumes another 166.51 m; the speed change consumes another 249.69 m at fixed delay and deceleration. A negative remainder places the formula's stop beyond the runway. It does not reconstruct the aircraft's final movement into the water. The synthetic and historical entry conditions, environment and control histories differ, so this calculation cannot establish a superior approach.
+
+\subsection{Falling speed can accompany a worsening stopping requirement}
+For current speed $v$, runway remaining $R$ and assumed additional delay $\tau$, the constant deceleration needed to stop at the end is
+\begin{equation}
+a_{\mathrm{req}}=\frac{v^2}{2(R-v\tau)},\qquad R>v\tau.
+\label{eq:required}
+\end{equation}
+This is a diagnostic, not the deceleration actually applied. Applying it to the report's narrative landmarks gives a rising requirement even as speed falls. With no additional delay, the requirement rises from about $0.150g$ at 2,300 m remaining and 160 kt, to $0.191g$ at 1,365 m and 139 kt, $0.221g$ at 1,080 m and 133 kt, and $0.255g$ at 880 m and 129 kt. An additional two-second delay at the last state raises the conditional requirement to about $0.300g$.
+
+\begin{figure}[H]
+\centering\includegraphics[width=0.96\textwidth]{figures/historical_stopping.pdf}
+\caption{Source-stated CAL605 rollout landmarks evaluated through the constant-deceleration diagnostic. Reported speed falls while required deceleration rises because available runway is being consumed. The curves connect four narrative landmarks; they are not continuous measurements or fitted aircraft deceleration. CAD Report 1/95, sections 2.2.5--2.2.7; derived from equation~\eqref{eq:required}.}
+\label{fig:historicalstop}
+\end{figure}
+
+The report already describes the stopping-aid sequence, including forward-thrust advancement, autobrake disarming and spoiler retraction after touchdown, followed by much later strong deceleration. The contribution here is an auditable quantitative description connected to the explicit model, not a new discovery of the accident's cause. A fixed-delay, constant-braking model does not encode those discrete states. More precise approach geometry alone will not repair that mismatch.
+
+The source also contains different approximate touchdown-distance conventions: about 2,300 m remaining in the narrative, 2,250 m in Appendix 13 and roughly 2,210 m at the digitized Figure 5 ground-flag transition. These are retained rather than forced into agreement. Equation~\eqref{eq:required} uses the narrative landmarks; the preceding table uses $2786-480$ as the threshold-consistent remaining length. Their numerical differences are not presented as contradictory precise measurements.
+
+\subsection{The airport wind is not a single number}
+The ground-weather printout contains 15 irregular timestamps, five sensors and three A/B/C fields: 225 printed direction--speed pairs. The A field is a maximum one-second speed within a five-second window; B and C are overlapping two- and ten-minute averages. At wind-system 03:35:30, the NW sensor shows 37 kt in A, 23 kt in B and 19 kt in C. At 03:38:00, NW shows 12 kt while Lei Yue Mun shows 37 kt in A. These differences describe sensor location and aggregation window, not measured wind shear along the aircraft's path.
+
+The ground-weather clock's offset to the flight/ATC timeline is unidentified. No exact synchronized join is imposed, and no particular ground gust is assigned as the cause of a flight excursion. The printout was event-triggered and does not contain all recorded peaks. Interpolation would add assumptions, not recover missing observations.
+
+\subsection{Annual station-weather context}
 The retained NOAA Integrated Surface Database archive contains 8,549 records for station identifiers 450070--99999 in 1993, including 24 records on 4 November \cite{noaa,isd}. Decoding preserves source flags, missing values and raw fields. A record containing missing wind is not converted to calm conditions, and absence of a gust group is not interpreted as zero gust.
 
 For descriptive comparison, the routine subset is fixed to FM-15 reports with source flag 4, exact UTC-hour timestamps, normal-wind coding, present wind speed with quality code 1 or 5, and exclusion of rows missing both temperature and visibility. It contains 8,360 observed records. This is a selected archive subset, not a random sample of landings or a complete set of independent weather states.
@@ -201,9 +247,9 @@ The 03:00 and 04:00 UTC reports on 4 November both give wind from $070^\circ$ tr
 
 The case therefore challenges the model in a non-benign observed weather context. But it does not calibrate a gust process. Station siting, sensor height, the relation between surface measurements and aircraft-local wind, and clock offsets remain material. A high rank in the annual routine subset cannot identify which wind realization acted along the flight path.
 
-The matched-case reconstruction will preserve separate wind-system and flight-recorder clocks until an alignment is supported. Published narrative events can cross-check digitized curves, but they are not necessarily independent measurements. A comparison to the zero-wind synthetic witness must expose the mismatched conditions rather than interpreting the distance between the curves as pilot inefficiency.
+The matched-case reconstruction preserves separate wind-system and flight-recorder clocks. Published narrative events cross-check digitized curves, but they are not necessarily independent measurements. Comparison to the zero-wind synthetic witness exposes the mismatched conditions rather than interpreting the distance between curves as pilot inefficiency.
 
-\status{The weather decoder, retained tables and quality checks are complete for this source snapshot. The combined flight/weather reconstruction, model discrepancy analysis and routine-flight validation are not results of this first draft.}
+\status{Selected flight-trace reconstruction, wind-printout transcription, NOAA decoding and conditional stopping diagnostics are available in the settled benchmark. A complete georeferenced trajectory, physical uncertainty calibration, routine-flight validation and an equivalent-conditions improvement comparison remain unresolved.}
 
 \section{Uncertainty, counterfactuals and the meaning of a better approach}
 \label{sec:uncertainty}
@@ -271,13 +317,13 @@ Historical improvement & A valid baseline and candidate with equivalent conditio
 \end{tabularx}
 \end{table}
 
-The immediate empirical priority is the matched CAL605 reconstruction. It can expose inconsistencies in the current model and establish which aspects of the recorded motion are actually identified. It cannot establish typical operational performance from one accident. Broader validation remains dependent on routine approaches, go-arounds and their configuration and weather metadata.
+The matched CAL605 benchmark now exposes a specific limitation: a two-second delay followed by constant braking does not encode the stopping-aid history in this event. The next empirical task is to identify which dynamics and discrete states can be supported by the records, preserving the frozen baseline while any proposed model change is assessed explicitly. Broader validation remains dependent on routine approaches, go-arounds and their configuration and weather metadata.
 
 The mathematical priority is a useful certified gap or a clearly scoped approximation result after historical constraints are introduced. Exact symbolic global optimality is not required for the intended study. An explicit approximation with honest error and performance bounds can be more informative than an opaque numerical optimum, provided its domain and limitations are established.
 
 \section{Conclusion}
 Kai Tak can be studied as a coupled geometric and dynamical problem without assuming either that its approach was uniquely optimal or that a better one must exist. This first version assembles a dated evidence base, presents conditional historical 3D measurements, constructs an explicit synthetic approach-to-stop candidate and separates its feasibility certificate from the unresolved optimum.
 
-The candidate establishes that the stipulated reduced problem admits a complete landing trajectory. The reconstruction establishes that historical geometry can be recovered locally from actual imagery. The weather diagnostic establishes that the selected accident case occupies an unusually windy part of the declared routine archive subset. None of these results alone resolves the historical landing problem.
+The candidate establishes that the stipulated reduced problem admits a complete landing trajectory. The reconstruction establishes that historical geometry can be recovered locally from actual imagery. The CAL605 benchmark shows how remaining runway and stopping-aid history can worsen the required braking even as speed falls, while the weather diagnostic places the case near the high-wind end of the declared routine subset. None of these results alone resolves the historical landing problem.
 
 The next version should connect them through a common, uncertainty-aware comparison. The contribution will be strongest where a clear statement survives that connection: a physical constraint identified, a historical feature recovered, a model assumption rejected, or an alternative trajectory shown to improve a defined objective under the same conditions. That is the standard by which this project should be judged.

@@ -1,0 +1,15 @@
+test_axes_and_inverse (test_reconstruction.ReconstructionTests.test_axes_and_inverse) ... ok
+test_frontier (test_reconstruction.ReconstructionTests.test_frontier) ... ok
+test_interval_encloses_continuous_perturbations (test_reconstruction.ReconstructionTests.test_interval_encloses_continuous_perturbations) ... ok
+test_invalid_inputs (test_reconstruction.ReconstructionTests.test_invalid_inputs) ... ok
+test_manifest_and_no_ci (test_reconstruction.ReconstructionTests.test_manifest_and_no_ci) ... ok
+test_piecewise_formula_against_quadrature (test_reconstruction.ReconstructionTests.test_piecewise_formula_against_quadrature) ... ok
+test_source_discrepancy_preserved (test_reconstruction.ReconstructionTests.test_source_discrepancy_preserved) ... ok
+test_stopping_decomposition_and_units (test_reconstruction.ReconstructionTests.test_stopping_decomposition_and_units) ... ok
+test_trace_order_and_enclosure (test_reconstruction.ReconstructionTests.test_trace_order_and_enclosure) ... ok
+test_unbounded_frontier_is_explicit (test_reconstruction.ReconstructionTests.test_unbounded_frontier_is_explicit) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.285s
+
+OK

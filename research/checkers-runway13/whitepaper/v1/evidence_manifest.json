@@ -1,12 +1,12 @@
 {
-  "snapshot_utc": "2026-10-13T13:24:59.023422+00:00",
-  "scope": "Draft v1; source snapshot, not new scientific validation. Active unfinished CAL605 analysis excluded.",
+  "snapshot_utc": "2026-10-13T13:37:13.371553+00:00",
+  "scope": "Draft v1 updated to settled geometry correction and verified CAL605 benchmark. Source snapshot, not new scientific peer review.",
   "files": [
     {
       "source": "PROJECT_STATE.md",
       "snapshot": "evidence/PROJECT_STATE.md",
-      "sha256": "0103c70223c79195807764c7b494772417fdfa21b00c48631b7c2a9ecf19d1a4",
-      "bytes": 29708
+      "sha256": "9c8ff46aa3d56a02a5160d1fe1774fcccd7dcababc224d15ab7af414de0d95ac",
+      "bytes": 34533
     },
     {
       "source": "MODEL_IMPLEMENTATION_SPEC.md",
@@ -101,14 +101,14 @@
     {
       "source": "reconstruction/block_matching/aerial_registration/README.md",
       "snapshot": "evidence/reconstruction/block_matching/aerial_registration/README.md",
-      "sha256": "85d9ebdbf81c23fed693b2d9e71d458c89a8ffc127a4c8cc7cf0c972d1f55af1",
-      "bytes": 8709
+      "sha256": "c6d92372417f56a8b017f8da56c0ed9d59d03eabf14efcc8fc9004137e2855e1",
+      "bytes": 12241
     },
     {
       "source": "reconstruction/block_matching/aerial_registration/stereo_verification.json",
       "snapshot": "evidence/reconstruction/block_matching/aerial_registration/stereo_verification.json",
-      "sha256": "6aca7b270d51db411068fcf056344a3a1651b63b61191d012248ad72a746d08b",
-      "bytes": 1512
+      "sha256": "1aa46915a083962a3cc7a60065ceaba113d69ed9effb27f83cd8e67c98b470ec",
+      "bytes": 1819
     },
     {
       "source": "reconstruction/block_matching/aerial_registration/sparse_stereo_report.json",
@@ -119,14 +119,14 @@
     {
       "source": "reconstruction/block_matching/aerial_registration/dense_stereo_report.json",
       "snapshot": "evidence/reconstruction/block_matching/aerial_registration/dense_stereo_report.json",
-      "sha256": "d0a34456168079ae9a0784519382e00cb15b516225c33284c7babd4c84bdcc2f",
-      "bytes": 4014
+      "sha256": "28ddf7ddff1f4a75e756a6beb3842ed8d6c8fd7e68d211a9e162cf94b72a6374",
+      "bytes": 4425
     },
     {
       "source": "reconstruction/block_matching/scene/validation.json",
       "snapshot": "evidence/reconstruction/block_matching/scene/validation.json",
-      "sha256": "d4189df73786b0765aa1518ec2f60ced3ce928520e9055999d4efd5605dee2fa",
-      "bytes": 551
+      "sha256": "ab34f82f8fbaca0a515608b0ae3f44539263d5162e2fa088557618df7f2a7a0c",
+      "bytes": 835
     },
     {
       "source": "geospatial/README.md",
@@ -143,20 +143,20 @@
     {
       "source": "evidence/cal605_reconstruction/noaa/README.md",
       "snapshot": "evidence/evidence/cal605_reconstruction/noaa/README.md",
-      "sha256": "460a3704fc5d27a49628c386b412535428f861f68f7bc5a290623a7687d1378c",
-      "bytes": 7746
+      "sha256": "64c308501364f3d9d095cebfe4612cd927d4174c96d1baf0f9279cccf549dd81",
+      "bytes": 8995
     },
     {
       "source": "evidence/cal605_reconstruction/noaa/verification.json",
       "snapshot": "evidence/evidence/cal605_reconstruction/noaa/verification.json",
-      "sha256": "12c7e0aadc85b4e9ba920cc176227d31e7607b5d7432fa8f045cb80c9deae67c",
-      "bytes": 6307
+      "sha256": "e9cea872418b2a97622be93551d4d27e61fda992fc2c62ae6e9d003bde58c883",
+      "bytes": 6668
     },
     {
       "source": "evidence/cal605_reconstruction/noaa/acceptance_verification.json",
       "snapshot": "evidence/evidence/cal605_reconstruction/noaa/acceptance_verification.json",
-      "sha256": "1ac30387f2b91bf53e7d91acaffa0520004a1d008f64b02147aac36cc6974e46",
-      "bytes": 925
+      "sha256": "f6a6f0bab428784570eb6f1e8ceada99ecb769c466cd21f6551dc1e1c8271471",
+      "bytes": 1029
     },
     {
       "source": "literature/LITERATURE_AND_COMPARISON.md",
@@ -178,11 +178,11 @@
     },
     {
       "source": "reconstruction/block_matching/aerial_registration/dense_stereo_points.csv",
-      "sha256": "c287de3c3b6f5dca1703d0ed473b950cf168d3ce61072c6610fc11e7cef774a0",
-      "bytes": 33980899,
+      "sha256": "634aa4f28a4d7e80014c48eae199ce829a72d0b5461aaf7e7beeb9a1c8a0dba9",
+      "bytes": 33971110,
       "derived": "evidence/stereo_plot_data.csv",
-      "full_points": 171356,
-      "inside_control_hull": 3781,
+      "full_points": 171307,
+      "inside_control_hull": 3780,
       "sampling": "every fifth source row, beginning at zero"
     },
     {
@@ -192,8 +192,80 @@
     },
     {
       "snapshot": "evidence/stereo_plot_data.csv",
-      "sha256": "bf778a6abaf88c310aa790021d9049fefe55a54d53a6339b0fc9447889cc46c1",
-      "bytes": 2316366
+      "sha256": "020e06d1ca36ce849f6935ca63ad7f9281d07d3c0724b246ee844076f0fb8b9b",
+      "bytes": 2315670
+    },
+    {
+      "source": "reconstruction/block_matching/REPORT.md",
+      "snapshot": "evidence/reconstruction/block_matching/REPORT.md",
+      "sha256": "7777a06d303c56a49aba38827320b88d515f1bee52eaff67fdb125cc75a39ae6",
+      "bytes": 10049
+    },
+    {
+      "source": "reconstruction/block_matching/HANDOFF.json",
+      "snapshot": "evidence/reconstruction/block_matching/HANDOFF.json",
+      "sha256": "9311455a95ff9912a59138fcccc8a6cdf120a632f7923b80355d5bcd1cb36aff",
+      "bytes": 7342
+    },
+    {
+      "source": "reconstruction/block_matching/validation.json",
+      "snapshot": "evidence/reconstruction/block_matching/validation.json",
+      "sha256": "c441ec85ae1d44c48527d9083d6d6b04e0b1ee4c674491f9f676e110bbaeb349",
+      "bytes": 2174
+    },
+    {
+      "source": "reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json",
+      "snapshot": "evidence/reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json",
+      "sha256": "ae7aa69c6ed42263bc6e060fb92133aaeed8e39f9909bdea48d99dc27986b394",
+      "bytes": 2635
+    },
+    {
+      "source": "reconstruction/block_matching/aerial_registration/observed_mesh_verification.json",
+      "snapshot": "evidence/reconstruction/block_matching/aerial_registration/observed_mesh_verification.json",
+      "sha256": "a50c3ae569ce52d7c47a21bbe905f18fc4be233f4b311c5c225b08fe9ea42cc7",
+      "bytes": 1205
+    },
+    {
+      "source": "evidence/cal605_reconstruction/REPORT.md",
+      "snapshot": "evidence/evidence/cal605_reconstruction/REPORT.md",
+      "sha256": "dc026a9d7bb925109fa1a77014c2a388e79a25be55c56d9e2cf6b32c238781f3",
+      "bytes": 13379
+    },
+    {
+      "source": "evidence/cal605_reconstruction/verification.json",
+      "snapshot": "evidence/evidence/cal605_reconstruction/verification.json",
+      "sha256": "bf93850ae01b3d5539b42e51af7f56238e73cebfae6536910f30793165892681",
+      "bytes": 2411
+    },
+    {
+      "source": "evidence/cal605_reconstruction/analysis.json",
+      "snapshot": "evidence/evidence/cal605_reconstruction/analysis.json",
+      "sha256": "7e957b6c8cd42493f6809a49b7be917c147a1e147ecadeef98a64762259b2c42",
+      "bytes": 5716
+    },
+    {
+      "source": "evidence/cal605_reconstruction/delivery_manifest.json",
+      "snapshot": "evidence/evidence/cal605_reconstruction/delivery_manifest.json",
+      "sha256": "2fb872cbfc5285ab3abf98731cd47c3687435eb92ee82d1f37613f65fdd85aea",
+      "bytes": 10129
+    },
+    {
+      "source": "evidence/cal605_reconstruction/clock_alignment.json",
+      "snapshot": "evidence/evidence/cal605_reconstruction/clock_alignment.json",
+      "sha256": "cf3250dafc6c559bb82b1d2a2073b008a69de16ca79bdd0a48aa1ca10b8279cb",
+      "bytes": 1292
+    },
+    {
+      "source": "evidence/cal605_reconstruction/flight/README.md",
+      "snapshot": "evidence/evidence/cal605_reconstruction/flight/README.md",
+      "sha256": "2bb2c74851ac1d0f0b9bb91125eab70bdb1ce58da16ff1ddad7b042385801257",
+      "bytes": 8874
+    },
+    {
+      "source": "evidence/cal605_reconstruction/wind/README.md",
+      "snapshot": "evidence/evidence/cal605_reconstruction/wind/README.md",
+      "sha256": "7ef27fc02ccdac883402a4f7b530873ca2cec90ae218bd82b38073106a2257db",
+      "bytes": 7742
     }
   ]
 }

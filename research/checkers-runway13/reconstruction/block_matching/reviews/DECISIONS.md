@@ -28,3 +28,13 @@ All findings are evaluated against source evidence; reviewer assertions alone ar
 ## Delivery verification boundary
 
 The OpenClaw browser returned 'unsupported protocol file:' for a local file and 'browser navigation blocked by policy' for a localhost preview. No alternate access path was used to bypass those controls. HTML/data tests, JavaScript syntax and separately generated static images can be verified; actual browser interaction remains unverified. This is a delivery-verification limitation, not a claim the standalone viewer fails in a user's normal browser.
+
+## Final repair verification
+
+B7–B9: full 94-edition rerun finalized with 23,801 pairs. Actual source coverage removed 34 former clipped rows; 237 shared classifications changed, including two former strong candidates downgraded. Exact raster-cell polygons need zero topology repairs. Ten regressions and 944 artifact checks pass on parent rerun; 489 candidate manifest entries are hash-checked. Detailed comparison is in candidates/REVIEW_REPAIRS.md.
+
+Dense interpolation repair: expanded support audit removed 484 accepted image correspondences and 49 exported points, including the six specifically affected by sentinel blending. Final dense count 171,307; mesh 225,371 faces/155,891 vertices. Parent reran 25 guardrail tests, 24 stereo checks and 24 mesh checks. Sparse observations and roof estimates are unchanged.
+
+Viewer repairs: all sparse flags enforced, courtyard rings retained, corrected mesh made available as default surface view. Parent reran 11 semantic tests and Node trace-construction checks; static surface preview visually inspected. These do not replace browser verification.
+
+Independent acceptance audit: A1/A2 accepted as full-scope incompleteness, not waived or relabelled completed. The broad candidate queue, unresolved buildings/heights and full approach coverage remain active requirements. A3 preserves browser-verification limitation. A4 unsupported estate grouping corrected to source-backed individual house names; only one accepted form overlaps the four road cells, now explicit in report. No model-meaning changes or approval request arose from these repairs.

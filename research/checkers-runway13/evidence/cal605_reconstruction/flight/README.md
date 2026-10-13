@@ -19,7 +19,7 @@ research/checkers-runway13/.venv/bin/python research/checkers-runway13/evidence/
 research/checkers-runway13/.venv/bin/python -m unittest discover -s research/checkers-runway13/evidence/cal605_reconstruction/flight -p 'test_flight.py' -v
 ```
 
-No network access is required. Scripts preserve the actual manually read raster coordinates and calibration values, and regenerate JSON/CSV/PNG outputs. Source-PDF and source-raster checksums are in `trace_anchors.json`; the Figure 1–2 raster checksums are in `approach_anchors.json`.
+No network access is required. Both scripts reject changed or missing source inputs before any artifact write: the inspected PDF and all three chart rasters have SHA256 identities pinned in code. Rendered overlays use the same verified bytes, not a fresh read from a potentially replaced file. Changing a pin requires reinspection and recalibration, not merely updating a checksum. Scripts preserve the actual manually read raster coordinates and calibration values, and regenerate JSON/CSV/PNG outputs. Source-PDF and source-raster checksums are in `trace_anchors.json`; the Figure 1–2 raster checksums are in `approach_anchors.json`.
 
 ## Artifact semantics
 
@@ -40,7 +40,7 @@ All time axes remain as printed: **A and B are distinct arbitrary report datums*
 
 Final-phase horizontal anchor readings use ±3 pixels; both time-axis calibration endpoints also vary ±3 pixels. This gives roughly ±0.42 seconds from datum B. Vertical reading allowances are ±8 pixels for GS/CAS, ±4 for heading and ±5 for radio height; vertical-axis calibration endpoints vary ±3 pixels. Final bounds evaluate all endpoint corners of the affine mapping. The approach chart has ±4-pixel horizontal reading/calibration ranges; its vertical allowances are documented variable by variable and intentionally larger near overlapping traces. These are **declared reading sensitivities**, not empirically estimated standard errors.
 
-For each interpolated timestamp, candidate piecewise-linear segments are evaluated over independent anchor time/value boxes. Shared calibration correlations are relaxed, so this encloses the declared independent boxes. Six tests check axis transforms, a randomized affine enclosure, 2,000 random independent anchor-polyline realizations across four variables, semantics, counts and non-claims. This does not prove unobserved curve excursions lie inside the polyline envelope.
+For each interpolated timestamp, candidate piecewise-linear segments are evaluated over independent anchor time/value boxes. Shared calibration correlations are relaxed, so this encloses the declared independent boxes. Ten tests check axis transforms, a randomized affine enclosure, 2,000 random independent anchor-polyline realizations across four variables, semantics, counts and non-claims, plus source-identity preflight and changed/missing-source rejection with byte-and-mtime preservation of all existing outputs. This does not prove unobserved curve excursions lie inside the polyline envelope.
 
 **Not covered:** source-plot transcription/calibration error, raw DFDR sensor errors, exact historical physical position, clock synchronization error, unresolved between-anchor gust peaks, or joint 95% physical uncertainty. Bounds are not confidence intervals or prediction intervals. Integrating groundspeed is derived path length, not independent ground-position truth.
 
@@ -55,3 +55,7 @@ For each interpolated timestamp, candidate piecewise-linear segments are evaluat
 ## Remaining scope
 
 The selected final approach/rollout variables are extracted and reproducible. Complete three-minute DFDR recovery, a georeferenced 3D flight track, raw measurement-error calibration, exact weather-clock linkage and historical landing confidence/prediction intervals remain unavailable. No accident probability, optimality gap, historical clearance certificate or exact operational procedure is produced here.
+
+## Verification repair (13 October 2026)
+
+Parent review identified that previously recording fresh input hashes could silently attach unchanged manual anchors to a substituted source. Both producers now pin the inspected PDF/raster identities and reject mismatches before writing. Ten tests pass, including five changed-source and five missing-source subcases. Numerical anchors, their CSV readings, interpolated traces, Figure 4 anchor/calibration JSON and flight summary are hash-identical to the previous inspected result; uncertainty mathematics is unchanged. The narrative reverse-selection cross-reference was corrected from section 2.2.6 to section 2.2.7.

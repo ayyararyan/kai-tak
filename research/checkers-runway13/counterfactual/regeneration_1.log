@@ -1,0 +1,39 @@
+{
+  "status": "conditional_scenario_feasible",
+  "metrics": {
+    "approach_s": 41.22260120739175,
+    "flare_s": 4.1419425532420995,
+    "touchdown_time_s": 45.36454376063385,
+    "braking_start_s": 47.36454376063385,
+    "stop_time_s": 96.64405367709503,
+    "touchdown_x_m": 302.11405203827735,
+    "touchdown_groundspeed_mps": 72.49003588833959,
+    "touchdown_groundspeed_kt": 140.90935701837068,
+    "touchdown_eas_kt": 151.5577495804075,
+    "touchdown_sink_mps": 0.7,
+    "stop_x_m": 2233.2308450169853,
+    "runway_remaining_m": 552.7691549830147,
+    "margin_beyond_required_150m_m": 402.7691549830147,
+    "ground_travel_m": 1931.116792978708,
+    "threshold_groundspeed_kt": 142.28128054156122,
+    "entry_horizontal_groundspeed_kt": 133.75887646685229,
+    "max_bank_deg": 10.420602277274655,
+    "max_roll_deg_s": 2.3510159949972858,
+    "max_thrust_slew_n_s": 84720.46520245669,
+    "eas_range_kt": [
+      141.11173540665945,
+      153.0309339990775
+    ]
+  },
+  "replay_passed": true,
+  "dense_eta": 0.15279338516648622,
+  "verification": {
+    "coefficient_error": 9.094947017729282e-13,
+    "rate_errors": {
+      "roll_rad_s": 1.1988772821713845e-10,
+      "slew_n_s": 0.0008413982432102785,
+      "scalar_vector": 1.1641532182693481e-10,
+      "force_balance_mps2": 5.8120309543940055e-15
+    }
+  }
+}

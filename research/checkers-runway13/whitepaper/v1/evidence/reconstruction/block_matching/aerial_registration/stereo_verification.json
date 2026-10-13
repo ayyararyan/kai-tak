@@ -1,5 +1,5 @@
 {
-  "verified_utc": "2026-10-13T13:21:35.919739+00:00",
+  "verified_utc": "2026-10-13T13:29:24.263916+00:00",
   "checks": {
     "source_hashes_match": true,
     "pinned_labels_validate": true,
@@ -22,21 +22,24 @@
     "dense_texture_filter": true,
     "dense_qc_mask_count": true,
     "dense_qc_bits_reproduce_acceptance": true,
+    "all_accepted_right_support_valid": true,
+    "all_accepted_right_disparity_contributors_valid": true,
     "guardrail_tests_pass": true
   },
   "all_passed": true,
-  "guardrail_tests_run": 19,
+  "guardrail_tests_run": 25,
   "numeric_detail": {
     "sparse_retriangulation_max_abs_error_m": 0.0,
     "dense_retriangulation_max_abs_error_m": 0.0
   },
   "review_repair_geometry_changes": {
     "sparse_ply_identical_to_pre_guard_repair": true,
-    "dense_ply_identical_to_pre_guard_repair": true,
+    "dense_ply_identical_to_pre_guard_repair": false,
     "roof_heights_unchanged": true,
     "metric_baseline_unchanged": true,
     "map_holdout_rmse_unchanged": true
   },
+  "dense_change_reason": "49 exported samples removed:6 invalid-sentinel blends plus43 other invalid right-image interpolation supports; earlier outputs preserved under invalidated_dense_lr_blend/",
   "full_historical_scene_complete": false,
   "independent_height_accuracy_calibrated": false
 }
