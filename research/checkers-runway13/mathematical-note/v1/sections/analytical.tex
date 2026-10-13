@@ -1,0 +1,139 @@
+\section{Analytical bounds and preliminary results}\label{sec:bounds}
+\subsection{Stopping and terminal restrictions}
+\begin{lemma}[Stopping monotonicity]\label{lem:stop}
+For $a_b>0$, $\tau\geq0$ and $U\geq0$, the stopping position $S(x,U)=x+\tau U+U^2/(2a_b)$ is increasing in $x$ and strictly increasing in $U$ on $(0,\infty)$. At required margin $e$, a nonnegative speed satisfies $S(x,U)\leq L_0(1-e)$ if and only if $B=L_0(1-e)-x\geq0$ and
+\begin{equation}\label{eq:uspeed}
+ 0\leq U\leq -a_b\tau+\sqrt{a_b^2\tau^2+2a_bB}.
+\end{equation}
+\end{lemma}
+\begin{proof}
+$S_x=1$ and $S_U=\tau+U/a_b>0$ for $U>0$. Multiplying the stopping inequality by $2a_b$ and completing the square gives $(U+a_b\tau)^2\leq a_b^2\tau^2+2a_bB$. The right endpoint in \eqref{eq:uspeed} is nonnegative exactly when $B\geq0$. The ground equations integrate to $S$, so no stopping approximation is involved.
+\end{proof}
+
+At touchdown $V_D^2=(U-w_x)^2+w_y^2+\sigma^2$. The lower EAS margin gives $V_D\geq k(135+40e)\exp(6/17000)$. Set
+\begin{equation}\label{eq:terminalD}
+ D_e=[k(135+40e)\exp(6/17000)]^2-w_y^2-\sigma^2,
+ \qquad U_e=w_x+\sqrt{D_e}.
+\end{equation}
+We explicitly restrict the following terminal relaxation to $D_e>0$ and the positive air-forward touchdown branch $U-w_x>0$, with $U_e>0$. For baseline headwind this branch already follows from $U>0$; it must not be assumed merely from positive ground speed for arbitrary tailwind.
+
+\begin{proposition}[Terminal relaxation]\label{prop:terminal}
+On $0\leq e\leq0.45$ and the branch above, any feasible landing satisfying the prescribed terminal conditions obeys
+\begin{equation}\label{eq:terminalF}
+ f(e)=200+500e+\tau U_e+\frac{U_e^2}{2a_b}-L_0(1-e)\leq0.
+\end{equation}
+The function $f$ is strictly increasing. If $f(0)>0$, no nonnegative-margin landing exists on that branch. If $f(0)\leq0<f(0.45)$, its unique zero in $[0,0.45)$ is the relaxed upper value; if $f(0.45)\leq0$, the relaxed upper value is $0.45$. This relaxation need not produce an airborne trajectory.
+\end{proposition}
+\begin{proof}
+The touchdown-distance margin requires $x_D\geq200+500e$, while \eqref{eq:terminalD} and the branch choice require $U\geq U_e$. Lemma~\ref{lem:stop} gives \eqref{eq:terminalF}. The entry EAS is $153$, hence its lower normalized margin is $(153-135)/40=0.45$. Differentiation yields
+\begin{align*}
+ U'_e&=\frac{40k^2 \exp(12/17000)(135+40e)}{\sqrt{D_e}}>0,\\
+ f'(e)&=3136+(\tau+U_e/a_b)U'_e>0.
+\end{align*}
+Continuity and strict monotonicity prove the alternatives, including equality at $e=0$. Conversely, whenever $f(e)\leq0$, choosing $x_D=200+500e$ and $U=U_e$ satisfies these retained inequalities. For $e\leq0.45$, the touchdown upper-distance and fixed-sink margins do not obstruct this relaxed choice. Other operating, geometric and path conditions have been removed; they cannot be restored by the scalar argument.
+\end{proof}
+
+The zero has an algebraic representation. With
+\[
+ Q_e=200-L_0+3136e+\tau w_x+\frac{w_x^2+D_e}{2a_b},
+ \qquad B_w=\tau+w_x/a_b,
+\]
+it solves $Q_e+B_w\sqrt{D_e}=0$, hence $Q_e^2-B_w^2D_e=0$, a quartic in $e$. Squaring is not reversible without the original sign equation. In particular $B_w$ can be negative; if $B_w=0$, the unsquared equation is simply $Q_e=0$.
+
+The polynomial family additionally imposes $U\geq69$. Replacing $U_e$ by $\max(69,U_e)$ preserves the bound. When the floor binds at the relaxed optimum, its exact value is
+\begin{equation}\label{eq:eta69}
+ e_{69}=\frac{L_0-200-2(69)-69^2/(2a_b)}{3136}
+ =\frac{66656817}{307536544}\approx0.21674437819.
+\end{equation}
+The switch satisfies $D_e=(69-w_x)^2$ with $69-w_x\geq0$. The broader baseline terminal relaxation has upper value approximately $0.223501289399$. Neither value is the achievable family optimum; the much smaller bound below uses airborne work.
+
+\subsection{Regularity and attainment}\label{sec:compactness}
+All polynomial times lie in compact intervals bounded away from zero. The exact Bernstein calculation in the source regularity certificate gives
+\begin{equation}\label{eq:vzbound}
+ |\dot z_a|\leq\frac{33792275107}{1258291200}<26.856,
+ \qquad |\dot z_f|\leq\frac{719106075}{33554432}<21.432.
+\end{equation}
+These bounds hold over the entire parameter box, not only along the delivered path. They use the bound $5$ on the magnitudes of the fixed vertical endpoint velocities. Appendix~\ref{app:polynomials} explains the finite rational calculation.
+
+\begin{lemma}[Uniform force regularity]\label{lem:regular}
+On any nonnegative-margin portion of the declared family satisfying the hard ground and bank constraints, $V,H,L,L_u$ are uniformly separated from zero. Thus inverse forces and phasewise control rates extend continuously to its closure.
+\end{lemma}
+\begin{proof}
+For $|\phi|\leq25^\circ$, gear nonpenetration gives $z\geq6\cos\phi+6.0579|\sin\phi|\geq6$. The last inequality follows by concavity on $[0,25^\circ]$: the smaller endpoint value is $6$. Hence $V\geq135k \exp(6/17000)>69$. With zero vertical wind, \eqref{eq:vzbound} gives $H^2=V^2-\dot z^2$ bounded strictly away from zero. Also $L\geq0.5mg$ and $L_u=L\cos\phi\geq0.5mg\cos25^\circ>0$. All denominators in the force and rate formulas are consequently bounded away from zero. Polynomial dependence and the smooth elementary operations then give continuity, including at phase endpoints when each side is retained separately.
+\end{proof}
+
+\input{sections/attainment.tex}
+
+\subsection{Coupled airspeed, energy and thrust-slew restrictions}
+For this subsection $e\in[0,0.45]$ is a tested margin. The flare has $\dot y=0$. The family bounds imply $6\leq z\leq34$ and $|\dot z|\leq22$; these constants are not available for an arbitrary smooth path. Define
+\begin{align}\label{eq:energyconstants}
+ v_-&=k(135+40e),& v_+&=k(175-40e),\notag\\
+ V_-&=v_-\exp(6/17000),&V_+&=v_+\exp(34/17000),\notag\\
+ Q_-&=\tfrac12\rho_0 S v_-^2,&Q_+&=\tfrac12\rho_0 S v_+^2,\notag\\
+ L_+&=mg(1.4-0.9e),&&\notag\\
+ D_+&=\max_{Q\in\{Q_-,Q_+\}}\left(0.08Q+\frac{0.045L_+^2}{Q}\right).
+\end{align}
+The last expression bounds drag: $Q=\rho_0 S(kE)^2/2$ exactly, drag increases with $L^2$, and its displayed dependence on $Q>0$ is convex. Dropping the simultaneous $C_L$ constraint only enlarges this upper bound.
+
+Assume $V_-^2-w_y^2-22^2>0$. At the gate $v_x>0$; since $v_x^2\geq V_-^2-w_y^2-22^2$, continuity prevents a sign change. Consequently the forward air branch is valid for the entire flare and
+\begin{equation}\label{eq:umin}
+ \dot x\geq u_-=w_x+\sqrt{V_-^2-w_y^2-22^2}>0.
+\end{equation}
+The final strict inequality is checked for each reported condition. For $u=\dot x$,
+\[
+ (V/u)^2\leq1-2w_x/u+(w_x^2+w_y^2+22^2)/u^2.
+\]
+Its derivative has no positive local maximum: for $w_x\leq0$ it is negative; for $w_x>0$ the sole critical point is a minimum. Thus
+\begin{equation}\label{eq:ratio}
+ R_v=\max\left(1,\frac{\sqrt{(u_--w_x)^2+w_y^2+22^2}}{u_-}\right),
+ \qquad \int_0^{T_f}V\,dt\leq R_v x_D.
+\end{equation}
+
+At the zero-acceleration gate, writing $\theta=3.1^\circ$,
+\begin{align}\label{eq:gateT}
+ Q_G&=\tfrac12\rho_0 S(153k)^2,\quad L_G=mg\cos\theta,\notag\\
+ T_G&=-mg\sin\theta+0.08Q_G+0.045L_G^2/Q_G.
+\end{align}
+The lower thrust margin and slew cap imply $T(t)\geq700000e$ and $T(t)\geq T_G-Kt$, $K=100000(1-e)$. Put
+\begin{align}\label{eq:ramp}
+ A&=\max(0,T_G-700000e),\quad t_-(x)=\max(4,x/(w_x+V_+)),\notag\\
+ z_*(x)&=\min(t_-(x),A/K),\quad J(x)=Az_*(x)-Kz_*(x)^2/2.
+\end{align}
+Here $w_x+V_+>0$ and $T_f\geq t_-(x_D)$ follow from the family duration floor and $\dot x\leq w_x+V_+$. Hence $J(x_D)$ is a lower bound for the integrated thrust excess above $700000e$.
+
+\begin{proposition}[Coupled necessary work inequality]\label{prop:energy}
+Under these premises every feasible flare at margin at least $e$ satisfies
+\begin{equation}\label{eq:energyspeed}
+ U\geq\max\left\{69,U_e,w_x+\sqrt{\max(0,R-Cx_D+B(x_D))}\right\},
+\end{equation}
+where $V_G=153k\exp(21.24/17000)$ and
+\begin{align}\label{eq:RCB}
+ R&=V_G^2+2g(15.24)-w_y^2-\sigma^2,\notag\\
+ C&=2\max(0,D_+-700000e)R_v/m,\quad B(x)=2V_-J(x)/m.
+\end{align}
+\end{proposition}
+\begin{proof}
+Dot \eqref{eq:newton} with $v$. Constant wind and $w_z=0$ give the air-relative energy identity
+\begin{equation}\label{eq:energy}
+ \frac{d}{dt}\left(\frac{V^2}{2}+gz\right)=\frac{(T-D)V}{m}.
+\end{equation}
+Since $T-D\geq-\max(0,D_+-700000e)+\max(A-Kt,0)$, integration, \eqref{eq:ratio} and $V\geq V_-$ yield
+\[
+ V_D^2\geq V_G^2+2g(15.24)-Cx_D+B(x_D).
+\]
+Substitute $V_D^2=(U-w_x)^2+w_y^2+\sigma^2$. The positive air branch proved above allows the positive square root. If the resulting lower radicand is negative, $U>w_x$ still implies the weaker lower bound obtained by replacing it with zero. Combine with the terminal and family speed floors.
+\end{proof}
+
+\begin{proposition}[Certified global-family exclusion]\label{prop:global}
+For the baseline wind and A1 model, no member of $\mathcal P$ has $\eta(q)\geq0.181970215$. In particular the weak upper endpoint in \eqref{eq:bracket} is valid.
+\end{proposition}
+\begin{proof}[Computer-assisted proof]
+Take the exact decimal $e=0.181970215$. The possible touchdown interval is $[200+500e,700-500e]$. Partition it into 4,096 equal closed cells with rational-decimal endpoints. On each cell use outward interval operations to enclose the lower-speed expression $\underline U(x)$ in \eqref{eq:energyspeed} and then
+\[
+ x+2\underline U(x)+\underline U(x)^2/(2a_b)-2636(1-e).
+\]
+Every lower enclosure is strictly positive; the smallest displayed lower endpoint exceeds $0.9678323903$ m. The code tests the unrounded interval endpoint against zero, not this displayed summary. Lemma~\ref{lem:stop} rules out stopping within the available length in every cell. Larger margins satisfy all original inequalities at $e$, so they are excluded by nesting; no monotonicity claim about the derived relaxation itself is needed. The source is \texttt{strong\_bound.exclusion}, rerun without optimization in the accompanying verification package.
+\end{proof}
+
+The argument proves a necessary exclusion over the entire polynomial parameter family, not an optimal trajectory. In particular, \eqref{eq:vzbound}, $z\leq34$ and $T_f\geq4$ are family restrictions. The terminal proposition has a broader branch-qualified domain; the energy upper bound cannot be transferred to that unrestricted class. Earlier synthetic-model bounds and invalidated interval searches are separate records (Appendix~\ref{app:history}).
+\fig{bracket}{The proved feasible value and the family-wide exclusion bound are separated. The interval is a bracket for the unknown global family optimum, not an uncertainty interval for the local root. The secondary-retention scale is shown separately so that it cannot be confused with the much larger global gap.}{fig:bracket}

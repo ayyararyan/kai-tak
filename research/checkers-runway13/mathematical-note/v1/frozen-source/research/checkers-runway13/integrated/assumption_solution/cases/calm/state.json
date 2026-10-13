@@ -1,0 +1,18 @@
+{
+  "status": "completed_numerical_secondary_polish",
+  "condition": {
+    "name": "calm",
+    "urban": 25,
+    "roof_delta": 0,
+    "frame_dx": 0,
+    "frame_dy": 0,
+    "runway_level": 6,
+    "buffer": 5,
+    "wind_mps": [
+      0,
+      0,
+      0
+    ]
+  },
+  "result_sha256": "9d1d7cbf0f049c31fe07ab9db7afa051af2d3529fc2acac5f769caed2b93892e"
+}

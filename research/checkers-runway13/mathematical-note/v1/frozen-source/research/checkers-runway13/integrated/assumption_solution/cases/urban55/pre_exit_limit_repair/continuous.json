@@ -1,0 +1,21 @@
+{
+  "certified": false,
+  "reason": "interval_unresolved_not_infeasibility",
+  "unresolved": [
+    0,
+    0.8248119354248047,
+    0.8248128890991211,
+    20
+  ],
+  "processed": 278,
+  "source_sha256": {
+    "integrated/assumption_solution/conditional_model.py": "6bcda9a723b8f53022ab33df7a22bb2537ce7e394e0b7a59f8a0274a323fab53",
+    "integrated/assumption_solution/forces.py": "4cb5b04b9290ce841fbdcc887bc7c5e53f3dc012d8813b313e07ba832579ad1b",
+    "integrated/assumption_solution/certify.py": "41484472fed552412f0c6357fb3d03907a76742e9b78b867dcfa32e73008ec1d",
+    "integrated/assumption_solution/scene.json": "12ba41558c5d54b3281816aa847e1c6d7598d8f02e54b484defe5357ece592ff",
+    "counterfactual/continuous.py": "c220e280115238c7f42779236a1bf41fe29e786cc58d6c6830d3fc35f7db8a8c",
+    "model/config.json": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693",
+    "model/trajectory.py": "9b557ce07c7e8f177b0b3cfac1765c1c9aec4997e28b52d3185ad533f7cf3f6a"
+  },
+  "result_sha256": "3e6607d3102273989e17c3cde111ec8378ba657ef1f1dc2451e5629d77ffa817"
+}

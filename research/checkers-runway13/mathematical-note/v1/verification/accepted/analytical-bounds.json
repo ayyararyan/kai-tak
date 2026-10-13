@@ -1,0 +1,37 @@
+{
+  "baseline_strong_family_exclusion": {
+    "excluded": true,
+    "eta_upper_real_decimal": "0.181970215",
+    "cells": 4096,
+    "residual_lower_display_m": 0.9678323903412959,
+    "C_display": 2.1631504015156198,
+    "ramp": true,
+    "scope": "frozen polynomial family only"
+  },
+  "tailwind5_zero_not_excluded": {
+    "excluded": false,
+    "eta": "0",
+    "first_unresolved_cell": 0,
+    "cells": 2048
+  },
+  "terminal_interval_bounds": {
+    "full": {
+      "lower_root_exact": "1258200404569269/5629499534213120",
+      "upper_exact": "629100202284639/2814749767106560",
+      "upper_display": 0.2235012893992799,
+      "lower_F_upper_display": -6.482869942920443e-12,
+      "upper_F_lower_display": 1.44306962622022e-13,
+      "proof": "outward interval residual signs, strict monotonicity and initial EAS cap; lower root is not a feasible-trajectory bound"
+    },
+    "family": {
+      "lower_root_exact": "152520297008031/703687441776640",
+      "upper_exact": "1220162376064257/5629499534213120",
+      "upper_display": 0.21674437819006034,
+      "lower_F_upper_display": -3.671594771470794e-12,
+      "upper_F_lower_display": 1.3419947720524719e-12,
+      "proof": "outward interval residual signs, strict monotonicity and initial EAS cap; lower root is not a feasible-trajectory bound"
+    }
+  },
+  "fresh": true,
+  "seconds": 0.8210181249305606
+}

@@ -1,0 +1,14 @@
+# Rebuildable runtime and page-review scratch; accepted receipts remain visible.
+.venv*/
+__pycache__/
+.pytest_cache/
+*.pyc
+main.aux
+main.bbl
+main.blg
+main.log
+main.out
+main.pdf
+qa/*.log
+qa/pages/
+qa/contact-sheets/

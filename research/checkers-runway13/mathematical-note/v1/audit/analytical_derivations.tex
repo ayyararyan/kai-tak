@@ -1,0 +1,93 @@
+% Suggested self-contained supplementary derivations, independently reconstructed.
+% Not a second authoritative manuscript; parent may incorporate selected blocks.
+
+\subsection*{Exact polynomial regularity calculation}
+Write the scalar Hermite basis as
+\[
+ H(s)=10s^3-15s^4+6s^5,\quad
+ A(s)=s-6s^3+8s^4-3s^5,\quad
+ B(s)=-4s^3+7s^4-3s^5.
+\]
+Let $b=64s^3(1-s)^3$ and $o=(2s-1)b$.  For a polynomial
+$p(s)=\sum_{k=0}^n c_ks^k$ and rational cell $[a,a+h]$, substitution
+$s=a+ht$ gives power coefficients
+\[
+ d_j=h^j\sum_{k=j}^n c_k\binom{k}{j}a^{k-j}.
+\]
+The corresponding degree-$n$ Bernstein coefficients are
+\[
+ \beta_i=\sum_{j=0}^i d_j\frac{\binom{i}{j}}{\binom{n}{j}},
+ \qquad 0\le i\le n.
+\]
+Indeed $t^j=\sum_{i=j}^n\binom{i}{j}\binom{n}{j}^{-1}
+\binom ni t^i(1-t)^{n-i}$.  Since the Bernstein basis is nonnegative
+and sums to one on $[0,1]$, $p([a,a+h])$ lies between the smallest
+and largest $\beta_i$.  This is an exact rational enclosure when
+the input data are rational; no sampled polynomial values are used.
+
+Apply the formula to $H',A',B',b',o'$ on the 128 cells
+$[i/128,(i+1)/128]$.  The maximum absolute enclosure endpoints are
+respectively
+\[
+ \frac{15}{8},\quad1,\quad1,\quad
+ \frac{288141339}{83886080},\quad2.
+\]
+The fixed entry/gate vertical endpoint speeds obey
+$|v_z|<5$, verified by outward evaluation of
+$153k\exp(z/17000)\sin(3.1^\circ)$ at $z=146,21.24$.
+The approach parameter bounds therefore imply
+\begin{align*}
+ |\dot z_a|
+ &\le\frac{124.76}{30}\frac{15}{8}
+ +5(1+1)+\frac{50}{30}
+ \left(\frac{288141339}{83886080}+2\right)\\
+ &=\frac{33792275107}{1258291200}.
+\end{align*}
+Similarly,
+\begin{align*}
+ |\dot z_f|
+ &\le\frac{15.24}{4}\frac{15}{8}
+ +5+0.7+\frac{10}{4}\frac{288141339}{83886080}\\
+ &=\frac{719106075}{33554432}<22.
+\end{align*}
+
+For feasible nonnegative-margin paths, gear nonpenetration gives
+$z\ge6\cos\phi+6.0579|\sin\phi|\ge6$.
+For $\theta\in[0,25^\circ]$, the derivative
+$6.0579\cos\theta-6\sin\theta$ is positive, proving the last
+inequality.  Thus $V\ge135k$, and the preceding approach bound
+gives the entirely rational strict comparison
+\[
+ (135k)^2-
+ \left(\frac{33792275107}{1258291200}\right)^2-64^2
+ =\frac{9617823244026244151}{1583296743997440000}>0.
+\]
+Consequently the horizontal airspeed exceeds $64$ on both phases.
+Also $L\ge mg/2$ and $L_u\ge(mg/2)\cos25^\circ$.
+These explicit separations exclude the inverse-dynamics
+singularities needed in the compactness argument.
+
+\subsection*{Closure without a strict-forward-speed substitution}
+The canonical hard forward constraint is $\dot x\ge0$, not
+$\dot x>0$.  Suppose $q_j$ is a feasible sequence in the parameter
+box and $q_j\to q$.  The positive duration floor gives uniform
+convergence of states and derivatives through jerk on each
+normalized phase.  The preceding height and airspeed inequalities
+first pass to the limit at the kinematic level; hence the moving
+basis has no singular limit.  Lift and its upward component then
+retain their uniform positive bounds.  All inverse controls,
+phasewise rates, finite-reference-cloud distances and conservative
+clearance predicates are continuous at $q$.  Every inequality at
+every time therefore passes to the limit, as do the finite
+terminal and exact ground constraints.  This proves closedness
+in the compact box.  For each continuous margin $m$,
+\[
+ \left|\inf_s m(q,s)-\inf_s m(\widetilde q,s)\right|
+ \le\sup_s|m(q,s)-m(\widetilde q,s)|,
+\]
+so the finite minimum defining the primary objective is continuous.
+Nonemptiness supplied by a certified witness yields primary
+attainment.  A nonempty closed primary-retention superlevel is
+compact, and the normalized-time effort integral is continuous
+there, yielding secondary attainment without identifying its
+minimizer.

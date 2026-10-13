@@ -1,0 +1,19 @@
+{
+  "source_mosaic_sha256": "e5a4ae8262a1e6e830090381919473d25ba9523785b939081ad05c23200bb3e4",
+  "selected_pixels": [
+    [
+      1,
+      224,
+      802,
+      998
+    ],
+    [
+      36,
+      173,
+      806,
+      917
+    ]
+  ],
+  "review": "Visually identified opposing runwayedges on near-contemporarymappedmosaic; candidate3/4 in retainedsourcepass. No endpoints inferredbeyondselectedsegments.",
+  "physical_accuracy_bound_m": null
+}

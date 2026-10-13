@@ -1,0 +1,139 @@
+\section{Mathematical model and optimization problem}\label{sec:model}
+\subsection{Coordinates, state and force inversion}
+Lengths, times and forces are in metres, seconds and newtons unless indicated otherwise. The runway frame has $x$ forward from the threshold, $y$ to the right and $h$ vertically above runway level. Wind $w=(w_x,w_y,0)$ is a velocity of air relative to ground; positive $w_x$ is a tailwind. The baseline is the exact decimal vector
+\begin{equation}\label{eq:wind}
+ w^0=(-4.876589552990943,\ 9.64006667211232,\ 0).
+\end{equation}
+The decision reference $r=(x,y,h)$ is virtual. The centre of gravity (CG) is
+\begin{equation}\label{eq:cg}
+ R=r+6e_z,\qquad \dot R=\dot r,\quad\ddot R=\ddot r.
+\end{equation}
+The offset is fixed in the inertial vertical direction, not in the rotating body. Thus $r$ is not a wheel point during bank. We use $z=R_z=h+6$ throughout all aerodynamic expressions.
+
+Let $v=\dot R-w$, $V=|v|$ and $H=(v_x^2+v_y^2)^{1/2}$. On the regular domain $V,H>0$, define the orthonormal basis
+\begin{equation}\label{eq:basis}
+ e_t=v/V,\qquad e_r=(-v_y,v_x,0)/H,\qquad e_u=e_t\times e_r.
+\end{equation}
+For $F=m(\ddot R+ge_z)$, set $L_u=F\cdot e_u$, $L_r=F\cdot e_r$, $L=(L_u^2+L_r^2)^{1/2}$ and $\phi=\operatorname{atan2}(L_r,L_u)$. Lift points along $\cos\phi\,e_u+\sin\phi\,e_r$. The reduced Newton equation is
+\begin{equation}\label{eq:newton}
+ m\ddot R=(T-D)e_t+L\cos\phi\,e_u+L\sin\phi\,e_r-mge_z.
+\end{equation}
+Writing $Q=\rho(z)V^2S/2$, inverse dynamics gives
+\begin{align}\label{eq:force}
+ \rho(z)&=1.225e^{-z/8500}, & C_L&=L/Q, & n&=L/(mg),\notag\\
+ D&=Q(0.08+0.045C_L^2), & T&=D+F\cdot e_t.
+\end{align}
+Here $\rho_0=1.225$, $m=238461.67357166$, $g=9.80665$ and $S=541.2$ are fixed model constants. Equivalent airspeed in knots and air flight-path angle are
+\begin{equation}\label{eq:eas}
+ E=\frac{V e^{-z/17000}}{k},\qquad
+ \gamma=\operatorname{atan2}(v_z,H),\qquad k=1852/3600.
+\end{equation}
+Bank and thrust rates are exact one-sided time derivatives within each flight phase. In particular,
+\begin{equation}\label{eq:roll}
+ \dot\phi=(L_u\dot L_r-L_r\dot L_u)/L^2.
+\end{equation}
+The moving basis is differentiated as well as the acceleration; the full formulas are in Appendix~\ref{app:rates}.
+
+\subsection{The twelve-parameter family}
+Let
+\[
+ q=(T_a,T_f,x_D,U,b_x,c_x,b_y,c_y,b_z,c_z,f_x,f_z)
+ \in\mathcal B.
+\]
+The closed parameter box is given in Table~\ref{tab:parameters}. Each phase uses normalized time $s\in[0,1]$; its physical derivatives are $T^{-j}d^j/ds^j$.
+\begin{table}[htbp]\centering\caption{The unchanged polynomial parameter domain. Bump amplitudes are in metres.}\label{tab:parameters}
+\begin{tabular}{ll}\toprule
+Coordinates & Closed interval\\\midrule
+$T_a,T_f$ & $[30,55]$, $[4,12]$ seconds\\
+$x_D,U$ & $[200,700]$ metres, $[69,88]$ metres/second\\
+$b_x,c_x,b_y,c_y$ & $[-400,400]$ each\\
+$b_z,c_z,f_x,f_z$ & $[-50,50],[-50,50],[-50,50],[-10,10]$\\\bottomrule
+\end{tabular}\end{table}
+
+For endpoint positions $P_0,P_1$, velocities $v_0,v_1$ and zero accelerations, the quintic Hermite polynomial is
+\begin{align}\label{eq:hermite}
+ \mathcal H_T(s)&=P_0+Tv_0s+(10A-4B)s^3\notag\\
+ &\quad+(-15A+7B)s^4+(6A-3B)s^5,\notag\\
+ A&=P_1-P_0-Tv_0,\qquad B=T(v_1-v_0).
+\end{align}
+Put $b(s)=64s^3(1-s)^3$ and $o(s)=(2s-1)b(s)$. The approach adds $(b_xb+c_xo,b_yb+c_yo,b_zb+c_zo)$; the flare adds $(f_xb,0,f_zb)$. Both additions and their first two derivatives vanish at the endpoints.
+
+The CG positions are $P_A=(-2500,1000,146)$, $P_G=(0,0,21.24)$ and $P_D=(x_D,0,6)$. At entry and gate, $E=153$, $\gamma=-3.1^\circ$, with ground-track directions $-47^\circ$ and $0^\circ$. For unit horizontal ground direction $d=(d_x,d_y,0)$, the endpoint velocity is
+\begin{align}\label{eq:endvelocity}
+ V_z&=153k e^{z/17000},\notag\\
+ G_d&=w\cdot d+\sqrt{(V_z\cos\gamma)^2-|w|^2+(w\cdot d)^2},\notag\\
+ \dot R&=(G_dd_x,G_dd_y,V_z\sin\gamma).
+\end{align}
+The positive square-root branch and $G_d>0$ are part of the endpoint specification. At touchdown, $\dot R=(U,0,-\sigma)$ with $\sigma=0.7$. Both phase endpoint accelerations are zero. Position, velocity and acceleration therefore join exactly at the gate. Control rates need not match; both one-sided values are constrained. The flare has $y\equiv0$.
+
+The inherited corridor is also an exact part of the definition. Let $\mathcal R$ be the 2,001 CG-reference points used by the sealed checker, with their stored binary64 coordinate values interpreted exactly. The frozen \texttt{reference\_cloud.npy} already stores the CG-shifted cloud; the checker independently reconstructs the upward shift and verifies equality to this finite object. Its provenance is the original zero-wind synthetic reference with parameters $(36,6.5,500,77,0,\ldots,0)$ sampled at 1,001 equally spaced normalized times per phase (the common gate once). Those provenance formulas do not replace the stored coordinates by ideal real-arithmetic samples. The corridor margin is $1-\operatorname{dist}(R,\mathcal R)/400$. This is distance to a finite point set, not to a fitted continuous centreline; time is continuous in its subsequent evaluation.
+
+\subsection{Operating margins, hard constraints and objective}
+For a two-sided operating quantity $f\in[\ell,u]$, define margins $(f-\ell)/(u-\ell)$ and $(u-f)/(u-\ell)$. For $|f|\leq c$, define $1-|f|/c$. Table~\ref{tab:margins} specifies all airborne operating inequalities. They hold on both closed phases unless indicated otherwise.
+\begin{table}[htbp]\centering\caption{Normalized operating constraints. These, and the terminal margins below, determine the objective.}\label{tab:margins}
+\begin{tabular}{lll}\toprule
+Quantity & Bounds or cap & Normalization\\\midrule
+$E$ & $[135,175]$ kt & span $40$ kt\\
+$C_L$ & $[0,2.8]$ & span $2.8$\\
+$n$ & $[0.5,1.4]$ & span $0.9$\\
+$T$ & $[0,700000]$ N & span $700000$ N\\
+$\phi$ & $|\phi|\leq25^\circ$ & cap $25^\circ$\\
+$\dot\phi$ & $|\dot\phi|\leq5^\circ$/s & cap $5^\circ$/s\\
+$\dot T$ & $|\dot T|\leq100000$ N/s & cap $100000$ N/s\\
+$\gamma$ & $\gamma\geq-6^\circ$ & $1+\gamma/(6^\circ)$\\
+Approach $\dot z$ & $\dot z\geq-8$ m/s & $1+\dot z/8$\\
+Corridor & distance $\leq400$ m & $1-\operatorname{dist}/400$\\\bottomrule
+\end{tabular}\end{table}
+
+The touchdown distance margins are $(x_D-200)/500$ and $(700-x_D)/500$. The sink margins are $\sigma/1.5$ and $(1.5-\sigma)/1.5$. Lateral position, track and bank at touchdown are structurally zero, hence their normalized tolerance margins are identically one. The stopping margin is defined below. Forward ground velocity $\dot x\geq0$, upward lift component $L_u>0$, all occupied-geometry predicates and intended gear contact are hard constraints, not additional objective margins.
+
+For a geometrically admissible regular path define
+\begin{equation}\label{eq:objective}
+ \eta(q)=\min\left\{\inf_{s\in[0,1]}m_{j,\nu}(q,s),\ m_{k,D}(q),\ m_{\rm stop}(q)\right\},
+\end{equation}
+where $\nu\in\{a,f\}$ and the indices range over precisely the applicable margins above. Set $\mathcal P=\{q\in\mathcal B:\text{hard constraints hold},\ \eta(q)\geq0\}$ and $\eta^*_{\mathcal P}=\sup_{q\in\mathcal P}\eta(q)$. The secondary functional is
+\begin{equation}\label{eq:effort}
+ \mathcal E(q)=\sum_{\nu=a,f}\int_0^{T_\nu}
+ \left[\left(\frac{\phi}{25^\circ}\right)^2+
+ \left(\frac{\dot\phi}{5^\circ/{\rm s}}\right)^2+
+ \left(\frac{\dot T}{100000}\right)^2\right]dt.
+\end{equation}
+It has units of time. The intended secondary problem minimizes it subject to retaining a primary target within $10^{-4}$. A numerical minimizer and a certified retention inequality are distinct conclusions.
+
+\subsection{Assumed occupancy and obstacle geometry}\label{sec:geometry}
+The CG-fixed non-gear box is $[-40.8,30.2]\times[-32.7,32.7]\times[-4,13.8]$. Body pitch is zero, yaw is ground track and body bank equals $\phi$. The ideal gear layout has vertical coordinates $-6$ and maximum absolute lateral coordinate $6.0579$. In the allowed bank range the lowest body and gear heights are
+\begin{equation}\label{eq:support}
+ z_B=z-4\cos\phi-32.7|\sin\phi|,\quad
+ z_G=z-6\cos\phi-6.0579|\sin\phi|.
+\end{equation}
+All occupied points fit in a horizontal disk of radius $55$; for example the largest body-corner norm is less than $55$. With horizontal allowance $b_h=5$, write $r_h=55+b_h=60$ and $z_-=\min(z_B,z_G)$.
+
+For a rectangle $[\ell_x,u_x]\times[\ell_y,u_y]$ with assumed top $h_o$ above runway, impose
+\begin{equation}\label{eq:obstacle}
+ \max\left\{\max(\ell_x-x,x-u_x,\ell_y-y,y-u_y)-r_h,
+ z_--h_o-3\right\}\geq0.
+\end{equation}
+This sufficient separation test defines the conservative feasible set. Its failure is not a collision theorem for a more detailed shape. In addition, $z_B\geq0.5$ and $z_G\geq0$ hold throughout flight.
+
+The complete assumed scene consists of the frozen source-derived bounding rectangles, an assumed hill cap and light-point rectangles, together with an urban blanket of height $25$ above runway. The blanket covers $x\leq-600$ and the side regions $-600\leq x\leq0$, $|y|\geq100$, using the same inflated-rectangle disjunction. Source structures receive assumed tops of $45$ m HKPD; hill and light tops are $140$ and $12$ m HKPD. Runway level is assumed $6$ m HKPD. The adopted threshold easting/northing is $(838277.9926795285,820320.961097593)$ m and grid bearing $134.02^\circ$. These choices define a frame and scene, not a datum or historical registration result. The exact rectangles are a finite input in \texttt{scene.json}, bound by the source manifest.
+
+\subsection{Ideal contact and ground roll}\label{sec:ground}
+At $t_D=T_a+T_f$, bank is zero and all ideal gear points reach flat ground together. The model resets vertical velocity from $-\sigma$ to zero and pose to straight, level ground motion. Its translational vertical impulse is $m\sigma$, with kinetic-energy removal $m\sigma^2/2$; no strut-load or attitude-moment dynamics are asserted. Aerodynamic control-rate constraints end at touchdown and do not apply to the ideal reset. Lateral tyre authority and successful braking mode are assumptions.
+
+With $u=t-t_D$, delay $\tau=2$ and deceleration $a_b=1.4709975$, the ground law is
+\begin{equation}\label{eq:ground}
+ x(u)=\begin{cases}
+ x_D+Uu,&0\leq u\leq\tau,\\
+ x_D+U\tau+U(u-\tau)-\tfrac12a_b(u-\tau)^2,&\tau\leq u\leq\tau+U/a_b,\\
+ x_D+\tau U+U^2/(2a_b),&u\geq\tau+U/a_b.
+ \end{cases}
+\end{equation}
+Throughout this phase $y=0,z=6$. Let $L_0=2786-150=2636$. The exact stopping margin is
+\begin{equation}\label{eq:stop}
+ m_{\rm stop}=\frac{L_0-x_D-\tau U-U^2/(2a_b)}{L_0}.
+\end{equation}
+Hard obstacle separation is checked along the entire ground segment. Contact with the runway is a structural equality, not a clearance tolerance.
+
+\subsection{Relation to the synthetic V5 model}
+V5's original family uses the unshifted point reference at heights $140$, $15.24$ and zero and evaluates density there. A1 uses CG heights $146$, $21.24$ and $6$ in both endpoint speed construction and density. Although \eqref{eq:cg} preserves acceleration, those altitude-dependent speeds change polynomial coefficients and forces. The two models therefore cannot be interchanged by translating a plotted path alone. A1 also replaces the empty synthetic obstacle scene with the declared whole-aircraft geometry and ideal contact interpretation above. The inherited parameter box, force constants, operating normalizations and braking constants remain unchanged.
+\fig{landing}{The hybrid landing object, shown schematically. The virtual reference and CG differ by a fixed vertical translation during flight; the gear is part of a banked occupied set. Contact resets the vertical motion before delay and braking. Heights and phase lengths in this schematic are not to scale.}{fig:landing}

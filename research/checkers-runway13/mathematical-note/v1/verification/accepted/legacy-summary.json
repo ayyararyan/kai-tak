@@ -1,0 +1,50 @@
+{
+  "witnesses": [
+    {
+      "scenario": "synthetic-calm",
+      "certified": true,
+      "eta_lower_real_decimal": "0.0397",
+      "accepted_intervals": 2502,
+      "processed": 5002
+    },
+    {
+      "scenario": "synthetic-wind",
+      "certified": true,
+      "eta_lower_real_decimal": "0.1507934696816132",
+      "accepted_intervals": 376,
+      "processed": 750
+    }
+  ],
+  "bounds": {
+    "vertical_speed": {
+      "certified_abs_vertical_speed_lt_mps": 14,
+      "records": [
+        {
+          "phase": 0,
+          "cover_intervals": 128,
+          "max_abs_display": 11.645983141916668
+        },
+        {
+          "phase": 1,
+          "cover_intervals": 128,
+          "max_abs_display": 13.949332088876938
+        }
+      ],
+      "certified_horizontal_speed_gt_mps": 68,
+      "domain": "entire parameter box, nominal zero wind, airborne h>=0 and EAS>=135"
+    },
+    "family_upper_bound": {
+      "lower_numerator": 1559771,
+      "upper_numerator": 1559772,
+      "denominator": 10000000,
+      "upper_display": 0.1559772,
+      "lower_F_upper_display": -0.00013125194352436916,
+      "upper_F_lower_display": 0.0002464956673745526,
+      "domain": "continuous polynomial family only; Tf>=4 and proved |vz|<14; unchanged nominal ground rule",
+      "attained": false
+    }
+  },
+  "model": "original synthetic V5 model; numbers not substituted into A1",
+  "fresh": true,
+  "seconds": 17.8402852921281
+}

@@ -1,0 +1,32 @@
+{
+  "utc": "2026-10-13T15:48:02.320247+00:00",
+  "historical_integration_acceptance": false,
+  "historical_clearance": null,
+  "historical_optimum": null,
+  "downstream_exact_solution_stage": "not_started_due_geometry_physics_prerequisite",
+  "gates": {
+    "horizontal_registration": false,
+    "common_vertical_datum": false,
+    "target_date_surface_coverage": false,
+    "obstacle_top_hard_bounds": false,
+    "whole_aircraft_inflight_envelope": false,
+    "CG_gear_reference_and_attitude": false,
+    "tracking_uncertainty_bound": false,
+    "aircraft_actuator_calibration": false,
+    "calibrated_fixed_braking_applicability": false,
+    "go_around_and_causal_feedback": false
+  },
+  "evidence_features": 88,
+  "new_mapped_runway_edges": 2,
+  "new_coast_polylines": 1,
+  "new_partial_terrain_contours": 2,
+  "new_readable_ground_spots": 8,
+  "new_unresolved_spot_readings": 1,
+  "new_mapped_equipment_points": 4,
+  "accepted_new_complete_historical_obstacle_volumes": 0,
+  "new_historical_hard_height_bounds": 0,
+  "unknown_coverage_preserved": true,
+  "candidate_reference": "counterfactual/formula.json",
+  "candidate_action": "refused attaching body or claiming historical collision/clearance without reference/datum/pose",
+  "requested_full_goal": "INCOMPLETE"
+}

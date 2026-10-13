@@ -1,0 +1,39 @@
+{
+  "verified_utc": "2026-10-13T16:11:34.185595+00:00",
+  "scope": "new diagnostic tests/source observations/archive integrity and inherited preservation only; no old producers or old36test suite rerun",
+  "new_tests": {
+    "run": 7,
+    "passed": true,
+    "failures": 0,
+    "errors": 0
+  },
+  "new_producer_exact_object_replay": true,
+  "frozen_inputs_checked": 13,
+  "frozen_mismatches": [],
+  "prior_package_files_checked": 145,
+  "changed_prior_paths": [
+    "README.md",
+    "REPORT.md",
+    "TRACEABILITY.md"
+  ],
+  "unchanged_prior_package_files": 142,
+  "inherited_handoff_hashes_checked": 37,
+  "primary_observations_checked": 7,
+  "archive_records": 5637,
+  "archive_unique_ids": 5637,
+  "archive_expected_matches": [],
+  "original_diagnostics_unchanged": true,
+  "accepted_registration": false,
+  "source_supported_offset_hypothesis_m": 61,
+  "accepted_offset_m": null,
+  "historical_clearance_ready": false,
+  "closed_form_optimum": null,
+  "requirements": {
+    "total": 16,
+    "implemented": 1,
+    "partial": 10,
+    "blocked": 5
+  },
+  "review": "owner verification only; no extra agents or external review",
+  "errors": []
+}

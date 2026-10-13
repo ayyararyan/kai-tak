@@ -1,0 +1,25 @@
+{
+  "source_commit": "78a9ce1c627f917c94306af5529d5e9ebeb743e8",
+  "files": [
+    {
+      "path": "inputs/active_branch.json",
+      "sha256": "e02a0e70acbba01bdebc1761e42489543ff868c16d01b926a15f1b88eefdfb71"
+    },
+    {
+      "path": "inputs/conditions.csv",
+      "sha256": "cc4d74364e7200a040589fff02143c9fd701a6c8896d182560032eea2aa6f1c6"
+    },
+    {
+      "path": "inputs/figure_data.json",
+      "sha256": "a0ff0d6cb959f6d464d36dd5244ad24a36bebb84f9c4d8ea82186d53929af917"
+    },
+    {
+      "path": "inputs/local_certificate.json",
+      "sha256": "21fc4bfc4013e0177d4675b0aaf407fb275d6d7b0a5c575d1ecc2986c882af9b"
+    },
+    {
+      "path": "verification/condition-values.json",
+      "sha256": "64f1e1d294b50a36b6088a00319db3cdb4a2c3239347f79354aee1abaa12666e"
+    }
+  ]
+}

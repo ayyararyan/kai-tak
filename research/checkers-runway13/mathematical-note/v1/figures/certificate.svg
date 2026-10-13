@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="371.805729pt" height="263.52pt" viewBox="0 0 371.805729 263.52" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Logical implications in the certificate; no high-dimensional geometric projection</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Logical implications in the certificate; no high-dimensional geometric projection</dc:title>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Kai Tak mathematical note: reproducible scientific figures</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 263.52 
+L 371.805729 263.52 
+L 371.805729 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 87.188443 66.602798 
+L 292.0534 66.602798 
+L 292.0534 10.947374 
+L 87.188443 10.947374 
+z
+" clip-path="url(#pa42d0c91b3)" style="fill: #ffffff; stroke: #737373; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 17.605001 154.42272 
+L 180.084105 154.42272 
+L 180.084105 92.984914 
+L 17.605001 92.984914 
+z
+" clip-path="url(#pa42d0c91b3)" style="fill: #ffffff; stroke: #6c6c6c; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 198.098092 154.42272 
+L 360.577196 154.42272 
+L 360.577196 92.984914 
+L 198.098092 92.984914 
+z
+" clip-path="url(#pa42d0c91b3)" style="fill: #ffffff; stroke: #7c7c7c; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 140.666607 67.404254 
+Q 120.742444 79.975481 101.574722 92.069428 
+" clip-path="url(#pa42d0c91b3)" style="fill: none; stroke: #737373; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 104.68982 91.759324 
+L 101.574722 92.069428 
+L 103.195698 89.391287 
+z
+" clip-path="url(#pa42d0c91b3)" style="fill: #737373; stroke: #737373; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 238.575237 67.404254 
+Q 258.4994 79.975481 277.667121 92.069428 
+" clip-path="url(#pa42d0c91b3)" style="fill: none; stroke: #737373; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 276.046145 89.391287 
+L 277.667121 92.069428 
+L 274.552023 91.759324 
+z
+" clip-path="url(#pa42d0c91b3)" style="fill: #737373; stroke: #737373; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 51.866899 222.365705 
+L 327.374944 222.365705 
+L 327.374944 175.383854 
+L 51.866899 175.383854 
+z
+" clip-path="url(#pa42d0c91b3)" style="fill: #ffffff; stroke: #393939; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 100.887291 155.100409 
+Q 119.861274 164.722791 138.037546 173.940626 
+" clip-path="url(#pa42d0c91b3)" style="fill: none; stroke: #6c6c6c; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 136.173535 171.425579 
+L 138.037546 173.940626 
+L 134.907101 173.922807 
+z
+" clip-path="url(#pa42d0c91b3)" style="fill: #6c6c6c; stroke: #6c6c6c; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 278.354552 155.100409 
+Q 259.38057 164.722791 241.204297 173.940626 
+" clip-path="url(#pa42d0c91b3)" style="fill: none; stroke: #7c7c7c; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 244.334742 173.922807 
+L 241.204297 173.940626 
+L 243.068309 171.425579 
+z
+" clip-path="url(#pa42d0c91b3)" style="fill: #7c7c7c; stroke: #7c7c7c; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 87.188443 10.947374 
+L 292.0534 10.947374 
+" clip-path="url(#pa42d0c91b3)" style="fill: none; stroke: #737373; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 17.605001 92.984914 
+L 180.084105 92.984914 
+" clip-path="url(#pa42d0c91b3)" style="fill: none; stroke: #6c6c6c; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 198.098092 92.984914 
+L 360.577196 92.984914 
+" clip-path="url(#pa42d0c91b3)" style="fill: none; stroke: #7c7c7c; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 51.866899 175.383854 
+L 327.374944 175.383854 
+" clip-path="url(#pa42d0c91b3)" style="fill: none; stroke: #393939; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <!-- Unique root $F(\zeta^*)=0$ -->
+    <g style="fill: #737373" transform="translate(142.120922 26.462801)">
+     <text>
+      <tspan x="0" y="-0.581187" style="font-weight: 700; font-size: 9.5px; font-family: 'Arial'; fill: #737373">U</tspan>
+      <tspan x="6.860596" y="-0.581187" style="font-weight: 700; font-size: 9.5px; font-family: 'Arial'; fill: #737373">n</tspan>
+      <tspan x="12.663574" y="-0.581187" style="font-weight: 700; font-size: 9.5px; font-family: 'Arial'; fill: #737373">i</tspan>
+      <tspan x="15.302979" y="-0.581187" style="font-weight: 700; font-size: 9.5px; font-family: 'Arial'; fill: #737373">q</tspan>
+      <tspan x="21.105957" y="-0.581187" style="font-weight: 700; font-size: 9.5px; font-family: 'Arial'; fill: #737373">u</tspan>
+      <tspan x="26.908936" y="-0.581187" style="font-weight: 700; font-size: 9.5px; font-family: 'Arial'; fill: #737373">e</tspan>
+      <tspan x="32.192383" y="-0.581187" style="font-weight: 700; font-size: 9.5px; font-family: 'Arial'; fill: #737373"> </tspan>
+      <tspan x="34.831787" y="-0.581187" style="font-weight: 700; font-size: 9.5px; font-family: 'Arial'; fill: #737373">r</tspan>
+      <tspan x="38.528809" y="-0.581187" style="font-weight: 700; font-size: 9.5px; font-family: 'Arial'; fill: #737373">o</tspan>
+      <tspan x="44.331787" y="-0.581187" style="font-weight: 700; font-size: 9.5px; font-family: 'Arial'; fill: #737373">o</tspan>
+      <tspan x="50.134766" y="-0.581187" style="font-weight: 700; font-size: 9.5px; font-family: 'Arial'; fill: #737373">t</tspan>
+      <tspan x="53.29834" y="-0.581187" style="font-weight: 700; font-size: 9.5px; font-family: 'Arial'; fill: #737373"> </tspan>
+      <tspan x="55.937744" y="-0.581187" style="font-style: italic; font-size: 9.5px; font-family: 'STIXGeneral'; fill: #737373">F</tspan>
+      <tspan x="64.905777" y="-0.581187" style="font-style: italic; font-size: 9.5px; font-family: 'STIXGeneral'; fill: #737373">ζ</tspan>
+      <tspan x="61.742264" y="-0.581187" style="font-size: 9.5px; font-family: 'STIXGeneral'; fill: #737373">(</tspan>
+      <tspan x="76.693775" y="-0.581187" style="font-size: 9.5px; font-family: 'STIXGeneral'; fill: #737373">)</tspan>
+      <tspan x="81.757288" y="-0.581187" style="font-size: 9.5px; font-family: 'STIXGeneral'; fill: #737373">=</tspan>
+      <tspan x="90.164811" y="-0.581187" style="font-size: 9.5px; font-family: 'STIXGeneral'; fill: #737373">0</tspan>
+      <tspan x="71.611265" y="-4.504687" style="font-size: 6.65px; font-family: 'STIXGeneral'; fill: #737373">*</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8.5px; font-family: 'Arial'; fill: #393939" transform="translate(122.298929 45.945774)">Krawczyk inclusion · nine equations</text>
+    <!-- Scaled root box, radius $10^{-20}$ -->
+    <g style="fill: #393939" transform="translate(135.433422 57.712215)">
+     <text>
+      <tspan x="0" y="-0.4645" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">S</tspan>
+      <tspan x="5.669434" y="-0.4645" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">c</tspan>
+      <tspan x="9.919434" y="-0.4645" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">a</tspan>
+      <tspan x="14.646729" y="-0.4645" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">l</tspan>
+      <tspan x="16.535156" y="-0.4645" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">e</tspan>
+      <tspan x="21.262451" y="-0.4645" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">d</tspan>
+      <tspan x="25.989746" y="-0.4645" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939"> </tspan>
+      <tspan x="28.351318" y="-0.4645" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">r</tspan>
+      <tspan x="31.181885" y="-0.4645" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">o</tspan>
+      <tspan x="35.90918" y="-0.4645" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">o</tspan>
+      <tspan x="40.636475" y="-0.4645" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">t</tspan>
+      <tspan x="42.998047" y="-0.4645" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939"> </tspan>
+      <tspan x="45.359619" y="-0.4645" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">b</tspan>
+      <tspan x="50.086914" y="-0.4645" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">o</tspan>
+      <tspan x="54.814209" y="-0.4645" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">x</tspan>
+      <tspan x="59.064209" y="-0.4645" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">,</tspan>
+      <tspan x="61.425781" y="-0.4645" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939"> </tspan>
+      <tspan x="63.787354" y="-0.4645" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">r</tspan>
+      <tspan x="66.61792" y="-0.4645" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">a</tspan>
+      <tspan x="71.345215" y="-0.4645" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">d</tspan>
+      <tspan x="76.07251" y="-0.4645" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">i</tspan>
+      <tspan x="77.960938" y="-0.4645" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">u</tspan>
+      <tspan x="82.688232" y="-0.4645" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">s</tspan>
+      <tspan x="86.938232" y="-0.4645" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939"> </tspan>
+      <tspan x="89.299805" y="-0.4645" style="font-size: 8.5px; font-family: 'STIXGeneral'; fill: #393939">1</tspan>
+      <tspan x="93.54985" y="-0.4645" style="font-size: 8.5px; font-family: 'STIXGeneral'; fill: #393939">0</tspan>
+      <tspan x="97.933771" y="-3.975" style="font-size: 5.95px; font-family: 'STIXGeneral'; fill: #393939">−</tspan>
+      <tspan x="102.009571" y="-3.975" style="font-size: 5.95px; font-family: 'STIXGeneral'; fill: #393939">2</tspan>
+      <tspan x="104.984603" y="-3.975" style="font-size: 5.95px; font-family: 'STIXGeneral'; fill: #393939">0</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial'; text-anchor: middle; fill: #6c6c6c" x="98.844553" y="107.730879" transform="rotate(-0 98.844553 107.730879)">Active-gradient sufficiency</text>
+   </g>
+   <g id="text_4">
+    <!-- Six gradients in $\mathbb{R}^5$ · $\lambda_i&gt;0$ -->
+    <g style="fill: #393939" transform="translate(50.054553 128.725737)">
+     <text>
+      <tspan x="0" y="-0.398875" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">S</tspan>
+      <tspan x="5.669434" y="-0.398875" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">i</tspan>
+      <tspan x="7.557861" y="-0.398875" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">x</tspan>
+      <tspan x="11.807861" y="-0.398875" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939"> </tspan>
+      <tspan x="14.169434" y="-0.398875" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">g</tspan>
+      <tspan x="18.896729" y="-0.398875" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">r</tspan>
+      <tspan x="21.727295" y="-0.398875" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">a</tspan>
+      <tspan x="26.45459" y="-0.398875" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">d</tspan>
+      <tspan x="31.181885" y="-0.398875" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">i</tspan>
+      <tspan x="33.070312" y="-0.398875" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">e</tspan>
+      <tspan x="37.797607" y="-0.398875" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">n</tspan>
+      <tspan x="42.524902" y="-0.398875" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">t</tspan>
+      <tspan x="44.886475" y="-0.398875" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">s</tspan>
+      <tspan x="49.136475" y="-0.398875" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939"> </tspan>
+      <tspan x="51.498047" y="-0.398875" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">i</tspan>
+      <tspan x="53.386475" y="-0.398875" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">n</tspan>
+      <tspan x="58.11377" y="-0.398875" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939"> </tspan>
+      <tspan x="70.569537" y="-0.398875" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939"> </tspan>
+      <tspan x="72.931109" y="-0.398875" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939">·</tspan>
+      <tspan x="75.761675" y="-0.398875" style="font-size: 8.5px; font-family: 'Arial'; fill: #393939"> </tspan>
+      <tspan x="60.475342" y="-0.398875" style="font-style: italic; font-size: 8.5px; font-family: 'STIXGeneral'; fill: #393939">ℝ</tspan>
+      <tspan x="78.123248" y="-0.398875" style="font-style: italic; font-size: 8.5px; font-family: 'STIXGeneral'; fill: #393939">λ</tspan>
+      <tspan x="67.212005" y="-3.909375" style="font-size: 5.95px; font-family: 'STIXGeneral'; fill: #393939">5</tspan>
+      <tspan x="82.016299" y="0.876125" style="font-style: italic; font-size: 5.95px; font-family: 'STIXGeneral'; fill: #393939">i</tspan>
+      <tspan x="85.752914" y="-0.398875" style="font-size: 8.5px; font-family: 'STIXGeneral'; fill: #393939">&gt;</tspan>
+      <tspan x="93.275485" y="-0.398875" style="font-size: 8.5px; font-family: 'STIXGeneral'; fill: #393939">0</tspan>
+     </text>
+    </g>
+    <text style="font-size: 8.5px; font-family: 'Arial'; fill: #393939" transform="translate(40.971506 138.752333)">Nonsingular augmented matrix</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial'; text-anchor: middle; fill: #7c7c7c" x="279.337644" y="107.730879" transform="rotate(-0 279.337644 107.730879)">Whole-time feasibility</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8.5px; font-family: 'Arial'; fill: #393939" transform="translate(214.841238 128.045737)">398 accepted cells · event bounds</text>
+    <text style="font-size: 8.5px; font-family: 'Arial'; fill: #393939" transform="translate(219.101199 138.80413)">Geometry and exact ground law</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 9.5px; font-family: 'Arial'; text-anchor: middle; fill: #393939" x="189.620922" y="190.129818" transform="rotate(-0 189.620922 190.129818)">Strict local primary optimum</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8.5px; font-family: 'Arial'; text-anchor: middle; fill: #393939" x="189.620922" y="210.483856" transform="rotate(-0 189.620922 210.483856)">Five flare variables; the connected path attains its value</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: middle; fill: #393939" x="189.620922" y="236.821659" transform="rotate(-0 189.620922 236.821659)">Necessary flare constraints transfer the bound to 12 parameters</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8.4px; font-family: 'Arial'; text-anchor: middle; fill: #737373" x="189.620922" y="250.193417" transform="rotate(-0 189.620922 250.193417)">Full-family conclusion: non-strict local optimality, not uniqueness</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pa42d0c91b3">
+   <rect x="13.0132" y="2.6352" width="353.215442" height="252.9792"/>
+  </clipPath>
+ </defs>
+</svg>

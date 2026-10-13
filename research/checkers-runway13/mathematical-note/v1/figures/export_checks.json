@@ -1,0 +1,151 @@
+{
+  "status": "pass",
+  "revision": "author-requested grayscale-only",
+  "checked_utc": "2026-10-13T19:31:34.974832+00:00",
+  "figures_checked": 6,
+  "exports_reproduced": 18,
+  "all_colors_grayscale": true,
+  "palette": {
+    "INK": {
+      "original": "#263D45",
+      "grayscale": "#393939"
+    },
+    "SLATE": {
+      "original": "#63777D",
+      "grayscale": "#737373"
+    },
+    "COPPER": {
+      "original": "#A65F3D",
+      "grayscale": "#6C6C6C"
+    },
+    "SAGE": {
+      "original": "#72816A",
+      "grayscale": "#7C7C7C"
+    },
+    "PALE": {
+      "original": "#F3F1EA",
+      "grayscale": "#F1F1F1"
+    },
+    "LIGHT": {
+      "original": "#DCE2DD",
+      "grayscale": "#E0E0E0"
+    },
+    "GRID": {
+      "original": "#D5DBD8",
+      "grayscale": "#DADADA"
+    },
+    "BLUE": {
+      "original": "#477D8F",
+      "grayscale": "#737373"
+    }
+  },
+  "records": [
+    {
+      "name": "landing",
+      "pdf_pages": 1,
+      "width_pdf_points": 371.80572509765625,
+      "height_pdf_points": 218.16000366210938,
+      "no_pdf_raster_images": true,
+      "no_svg_raster_images": true,
+      "all_pdf_text_inside_page": true,
+      "font_names": [
+        "BADBSQ+STIXGeneral-Italic",
+        "CGVTOM+Arial-BoldMT",
+        "DQERZA+STIXGeneral-Regular",
+        "GBRJKT+ArialMT"
+      ],
+      "exports_reproduced": true,
+      "png_equal_rgb_channels": true,
+      "svg_fill_stroke_grayscale": true
+    },
+    {
+      "name": "active",
+      "pdf_pages": 1,
+      "width_pdf_points": 371.80572509765625,
+      "height_pdf_points": 218.16000366210938,
+      "no_pdf_raster_images": true,
+      "no_svg_raster_images": true,
+      "all_pdf_text_inside_page": true,
+      "font_names": [
+        "BHXMVT+ArialMT",
+        "CGEVOW+Arial-BoldMT",
+        "CXKTUE+STIXGeneral-Italic",
+        "EOVKEC+STIXGeneral-Regular"
+      ],
+      "exports_reproduced": true,
+      "png_equal_rgb_channels": true,
+      "svg_fill_stroke_grayscale": true
+    },
+    {
+      "name": "certificate",
+      "pdf_pages": 1,
+      "width_pdf_points": 371.80572509765625,
+      "height_pdf_points": 263.5199890136719,
+      "no_pdf_raster_images": true,
+      "no_svg_raster_images": true,
+      "all_pdf_text_inside_page": true,
+      "font_names": [
+        "BQXTHN+ArialMT",
+        "CBSMFD+STIXGeneral-Regular",
+        "ERQITU+Arial-BoldMT",
+        "FKIHEC+STIXGeneral-Italic"
+      ],
+      "exports_reproduced": true,
+      "png_equal_rgb_channels": true,
+      "svg_fill_stroke_grayscale": true
+    },
+    {
+      "name": "continuous",
+      "pdf_pages": 1,
+      "width_pdf_points": 371.80572509765625,
+      "height_pdf_points": 320.3999938964844,
+      "no_pdf_raster_images": true,
+      "no_svg_raster_images": true,
+      "all_pdf_text_inside_page": true,
+      "font_names": [
+        "BPAGSY+ArialMT",
+        "CXKTUE+STIXGeneral-Italic",
+        "GCZQBI+Arial-BoldMT",
+        "SCTNCP+STIXGeneral-Regular"
+      ],
+      "exports_reproduced": true,
+      "png_equal_rgb_channels": true,
+      "svg_fill_stroke_grayscale": true
+    },
+    {
+      "name": "bracket",
+      "pdf_pages": 1,
+      "width_pdf_points": 371.80572509765625,
+      "height_pdf_points": 198.0,
+      "no_pdf_raster_images": true,
+      "no_svg_raster_images": true,
+      "all_pdf_text_inside_page": true,
+      "font_names": [
+        "FCCUTI+ArialMT",
+        "FGQPYM+STIXNonUnicode-Italic",
+        "FTJTTV+STIXGeneral-Italic",
+        "GGLZTF+STIXGeneral-Regular",
+        "HJPTCK+Arial-BoldMT"
+      ],
+      "exports_reproduced": true,
+      "png_equal_rgb_channels": true,
+      "svg_fill_stroke_grayscale": true
+    },
+    {
+      "name": "conditions",
+      "pdf_pages": 1,
+      "width_pdf_points": 371.80572509765625,
+      "height_pdf_points": 302.3999938964844,
+      "no_pdf_raster_images": true,
+      "no_svg_raster_images": true,
+      "all_pdf_text_inside_page": true,
+      "font_names": [
+        "CWPHNI+ArialMT",
+        "RBWYGY+Arial-BoldMT"
+      ],
+      "exports_reproduced": true,
+      "png_equal_rgb_channels": true,
+      "svg_fill_stroke_grayscale": true
+    }
+  ]
+}

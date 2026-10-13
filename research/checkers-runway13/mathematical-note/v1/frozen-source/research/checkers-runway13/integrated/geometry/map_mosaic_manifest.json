@@ -1,0 +1,476 @@
+{
+  "pixel_edge_transform": [
+    2,
+    0,
+    837500,
+    0,
+    -2,
+    821600
+  ],
+  "crs": "EPSG:2326",
+  "dates": "latest acquired edition strictly before November1993; not proof of query-date geometry",
+  "sources": [
+    {
+      "source_id": "1980_1990:1002",
+      "sheet": "11-NE-22A",
+      "edition_date": "1993-08-01",
+      "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_1002_11-NE-22A_1993-08-01.zip",
+      "source_sha256": "8184de272cc541a2be195204e6ba388933d0da81da7a82bb221ff58b593fe871",
+      "tiff_member": "HP1C-11NE22A-199308.tif",
+      "affine_pixel_edges": [
+        0.0635032278,
+        0.0,
+        838955.0336611186,
+        0.0,
+        -0.0635032278,
+        819254.0624678402
+      ],
+      "index_core_bounds_epsg2326": [
+        839000,
+        818600,
+        839750,
+        819200
+      ]
+    },
+    {
+      "source_id": "1980_1990:1007",
+      "sheet": "11-NE-22B",
+      "edition_date": "1993-08-01",
+      "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_1007_11-NE-22B_1993-08-01.zip",
+      "source_sha256": "cda1476d6043eb9a1a9dded05a7fe1ae49fc5bd73013f105ccc9275fde153127",
+      "tiff_member": "HP1C-11NE22B-199308.tif",
+      "affine_pixel_edges": [
+        0.0635088307,
+        0.0,
+        839704.960780607,
+        0.0,
+        -0.0634977702,
+        819254.0211307199
+      ],
+      "index_core_bounds_epsg2326": [
+        839750,
+        818600,
+        840500,
+        819200
+      ]
+    },
+    {
+      "source_id": "1980_1990:1011",
+      "sheet": "11-NE-22D",
+      "edition_date": "1993-08-01",
+      "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_1011_11-NE-22D_1993-08-01.zip",
+      "source_sha256": "a99b907877b80d729bb00e78a965041a3ea5d93ecd689ccd12dde1de38e1a92f",
+      "tiff_member": "HP1C-11NE22D-199308.tif",
+      "affine_pixel_edges": [
+        0.0635073533,
+        0.0,
+        839705.0040807008,
+        0.0,
+        -0.0635013458,
+        818654.057945918
+      ],
+      "index_core_bounds_epsg2326": [
+        839750,
+        818000,
+        840500,
+        818600
+      ]
+    },
+    {
+      "source_id": "1980_1990:678",
+      "sheet": "11-NE-11A",
+      "edition_date": "1989-10-01",
+      "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_678_11-NE-11A_1989-10-01.zip",
+      "source_sha256": "21179cf9bc022c497eb12c9b8b16725e9beefb7012648720e29feb2963c56713",
+      "tiff_member": "HP1C-11NE11A-198910.tif",
+      "affine_pixel_edges": [
+        0.0635079931,
+        0.0,
+        837453.4862989179,
+        0.0,
+        -0.0633434439,
+        821650.9828569121
+      ],
+      "index_core_bounds_epsg2326": [
+        837500,
+        821000,
+        838250,
+        821600
+      ]
+    },
+    {
+      "source_id": "1980_1990:686",
+      "sheet": "11-NE-11B",
+      "edition_date": "1989-12-01",
+      "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_686_11-NE-11B_1989-12-01.zip",
+      "source_sha256": "46d0d870085c8f9c536ae08a63ce0fde233e4f24dadf459c497eb31ac9cf1aa1",
+      "tiff_member": "HP1C-11NE11B-198912.tif",
+      "affine_pixel_edges": [
+        0.0635098767,
+        0.0,
+        838203.9088209515,
+        0.0,
+        -0.0635154272,
+        821653.8586395701
+      ],
+      "index_core_bounds_epsg2326": [
+        838250,
+        821000,
+        839000,
+        821600
+      ]
+    },
+    {
+      "source_id": "1980_1990:695",
+      "sheet": "11-NE-11C",
+      "edition_date": "1990-01-01",
+      "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_695_11-NE-11C_1990-01-01.zip",
+      "source_sha256": "f35ed181bd50a66d74d924cf710e305d37f3c4e09f981c53bfaee1d528434196",
+      "tiff_member": "HP1C-11NE11C-199001.tif",
+      "affine_pixel_edges": [
+        0.0635171408,
+        0.0,
+        837453.5278035016,
+        0.0,
+        -0.0635354907,
+        821054.1695054421
+      ],
+      "index_core_bounds_epsg2326": [
+        837500,
+        820400,
+        838250,
+        821000
+      ]
+    },
+    {
+      "source_id": "1980_1990:702",
+      "sheet": "11-NE-11D",
+      "edition_date": "1989-12-01",
+      "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_702_11-NE-11D_1989-12-01.zip",
+      "source_sha256": "74ac45b7160411c511a98960cd97d89ba7957131470336786981254500aea2e4",
+      "tiff_member": "HP1C-11NE11D-198912.tif",
+      "affine_pixel_edges": [
+        0.0635057976,
+        0.0,
+        838204.9242497116,
+        0.0,
+        -0.0635185222,
+        821044.6695301314
+      ],
+      "index_core_bounds_epsg2326": [
+        838250,
+        820400,
+        839000,
+        821000
+      ]
+    },
+    {
+      "source_id": "1980_1990:711",
+      "sheet": "11-NE-12A",
+      "edition_date": "1991-09-01",
+      "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_711_11-NE-12A_1991-09-01.zip",
+      "source_sha256": "f549877d65bf8fc1e257ec60ec923056d62ebd3efe08af39d59a1ea737991821",
+      "tiff_member": "HP1C-11NE12A-199109.tif",
+      "affine_pixel_edges": [
+        0.0635114451,
+        0.0,
+        838953.8737639522,
+        0.0,
+        -0.0635075817,
+        821652.6837165805
+      ],
+      "index_core_bounds_epsg2326": [
+        839000,
+        821000,
+        839750,
+        821600
+      ]
+    },
+    {
+      "source_id": "1980_1990:720",
+      "sheet": "11-NE-12B",
+      "edition_date": "1990-02-01",
+      "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_720_11-NE-12B_1990-02-01.zip",
+      "source_sha256": "61a504f8db20770cf3b85066cf382c65e0990b811b1b9da3933286f969895c6b",
+      "tiff_member": "HP1C-11NE12B-199002.tif",
+      "affine_pixel_edges": [
+        0.0634941896,
+        0.0,
+        839705.1794363857,
+        0.0,
+        -0.063522358,
+        821648.5320653679
+      ],
+      "index_core_bounds_epsg2326": [
+        839750,
+        821000,
+        840500,
+        821600
+      ]
+    },
+    {
+      "source_id": "1980_1990:727",
+      "sheet": "11-NE-12C",
+      "edition_date": "1991-09-01",
+      "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_727_11-NE-12C_1991-09-01.zip",
+      "source_sha256": "1c2a5f082b1a0b633d6d0867ae3c50bb222892a52823cceb3417be05b1f1e308",
+      "tiff_member": "HP1C-11NE12C-199109.tif",
+      "affine_pixel_edges": [
+        0.0634976696,
+        0.0,
+        838955.0346996442,
+        0.0,
+        -0.0634997062,
+        821047.0138655432
+      ],
+      "index_core_bounds_epsg2326": [
+        839000,
+        820400,
+        839750,
+        821000
+      ]
+    },
+    {
+      "source_id": "1980_1990:736",
+      "sheet": "11-NE-12D",
+      "edition_date": "1990-02-01",
+      "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_736_11-NE-12D_1990-02-01.zip",
+      "source_sha256": "6fb29546b3805630b7d3cc22b114f4d031446dd26b1e2a30e3b8b6198ffcbfbb",
+      "tiff_member": "HP1C-11NE12D-199002.tif",
+      "affine_pixel_edges": [
+        0.0635020204,
+        0.0,
+        839704.9861267959,
+        0.0,
+        -0.0635043744,
+        821053.4921143099
+      ],
+      "index_core_bounds_epsg2326": [
+        839750,
+        820400,
+        840500,
+        821000
+      ]
+    },
+    {
+      "source_id": "1980_1990:821",
+      "sheet": "11-NE-16A",
+      "edition_date": "1989-12-01",
+      "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_821_11-NE-16A_1989-12-01.zip",
+      "source_sha256": "305f6c4339b375b968278f91c215a2075fe8e2603e4652961e36fec847064966",
+      "tiff_member": "HP1C-11NE16A-198912.tif",
+      "affine_pixel_edges": [
+        0.0635040242,
+        0.0,
+        837454.9981016181,
+        0.0,
+        -0.0634969587,
+        820454.0218478802
+      ],
+      "index_core_bounds_epsg2326": [
+        837500,
+        819800,
+        838250,
+        820400
+      ]
+    },
+    {
+      "source_id": "1980_1990:830",
+      "sheet": "11-NE-16B",
+      "edition_date": "1989-12-01",
+      "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_830_11-NE-16B_1989-12-01.zip",
+      "source_sha256": "210b26c8915f33018b5ebb120a40e132e4ab6d17c570296daa0baa0d0242d157",
+      "tiff_member": "HP1C-11NE16B-198912.tif",
+      "affine_pixel_edges": [
+        0.0635019148,
+        0.0,
+        838206.4051794416,
+        0.0,
+        -0.0634855168,
+        820449.2060063011
+      ],
+      "index_core_bounds_epsg2326": [
+        838250,
+        819800,
+        839000,
+        820400
+      ]
+    },
+    {
+      "source_id": "1980_1990:840",
+      "sheet": "11-NE-16C",
+      "edition_date": "1989-12-01",
+      "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_840_11-NE-16C_1989-12-01.zip",
+      "source_sha256": "f499e279b186e9d8b2ab40564a04c8bebdf8eea34a92de1e49cafd6440acb9db",
+      "tiff_member": "HP1C-11NE16C-198912.tif",
+      "affine_pixel_edges": [
+        0.0634881313,
+        0.0,
+        837455.5772358358,
+        0.0,
+        -0.0634881313,
+        819849.7904463555
+      ],
+      "index_core_bounds_epsg2326": [
+        837500,
+        819200,
+        838250,
+        819800
+      ]
+    },
+    {
+      "source_id": "1980_1990:844",
+      "sheet": "11-NE-16D",
+      "edition_date": "1986-07-01",
+      "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_844_11-NE-16D_1986-07-01.zip",
+      "source_sha256": "a3c3099d9540088f7f9d216451d2ef6adc61bc9cdc4e37b0c301cc5e51fe52d1",
+      "tiff_member": "HP1C-11NE16D-198607.tif",
+      "affine_pixel_edges": [
+        0.0634894511,
+        0.0,
+        838205.4739439954,
+        0.0,
+        -0.0634817798,
+        819853.5905261934
+      ],
+      "index_core_bounds_epsg2326": [
+        838250,
+        819200,
+        839000,
+        819800
+      ]
+    },
+    {
+      "source_id": "1980_1990:850",
+      "sheet": "11-NE-17A",
+      "edition_date": "1990-03-01",
+      "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_850_11-NE-17A_1990-03-01.zip",
+      "source_sha256": "fb37d1d61431fe7429c7a4fa11ecfd19ea2a389303b100c544e46bf64f4d7fec",
+      "tiff_member": "HP1C-11NE17A-199003.tif",
+      "affine_pixel_edges": [
+        0.0635098853,
+        0.0,
+        838955.2942684544,
+        0.0,
+        -0.0634769817,
+        820453.5168786112
+      ],
+      "index_core_bounds_epsg2326": [
+        839000,
+        819800,
+        839750,
+        820400
+      ]
+    },
+    {
+      "source_id": "1980_1990:859",
+      "sheet": "11-NE-17B",
+      "edition_date": "1993-07-01",
+      "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_859_11-NE-17B_1993-07-01.zip",
+      "source_sha256": "f7683c50c068cbf1eb10d86f8cf148376aa283d80bee40bc0650ed249b15ce49",
+      "tiff_member": "HP1C-11NE17B-199307.tif",
+      "affine_pixel_edges": [
+        0.063512953,
+        0.0,
+        839705.0404055569,
+        0.0,
+        -0.0634997356,
+        820455.9612550719
+      ],
+      "index_core_bounds_epsg2326": [
+        839750,
+        819800,
+        840500,
+        820400
+      ]
+    },
+    {
+      "source_id": "1980_1990:865",
+      "sheet": "11-NE-17C",
+      "edition_date": "1993-07-01",
+      "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_865_11-NE-17C_1993-07-01.zip",
+      "source_sha256": "a6f06e70e64aef9be7bf26096b1f4464d8735e75a30ac5fa0116e1429dba912c",
+      "tiff_member": "HP1C-11NE17C-199307.tif",
+      "affine_pixel_edges": [
+        0.0635035532,
+        0.0,
+        838953.0846942378,
+        0.0,
+        -0.0635101824,
+        819855.9277269132
+      ],
+      "index_core_bounds_epsg2326": [
+        839000,
+        819200,
+        839750,
+        819800
+      ]
+    },
+    {
+      "source_id": "1980_1990:871",
+      "sheet": "11-NE-17D",
+      "edition_date": "1993-04-01",
+      "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_871_11-NE-17D_1993-04-01.zip",
+      "source_sha256": "d2cc51eda8b23c203e1172491fba1a0118635c15f1a5fa016d36c220a57083dd",
+      "tiff_member": "HP1C-11NE17D-199304.tif",
+      "affine_pixel_edges": [
+        0.0635036601,
+        0.0,
+        839704.5017542461,
+        0.0,
+        -0.0634977495,
+        819855.8517458959
+      ],
+      "index_core_bounds_epsg2326": [
+        839750,
+        819200,
+        840500,
+        819800
+      ]
+    },
+    {
+      "source_id": "1980_1990:991",
+      "sheet": "11-NE-21A",
+      "edition_date": "1989-12-01",
+      "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_991_11-NE-21A_1989-12-01.zip",
+      "source_sha256": "404351e90c9fb40184ff315154f51f2cd54cbccd8345dc6580e5e236472284d3",
+      "tiff_member": "HP1C-11NE21A-198912.tif",
+      "affine_pixel_edges": [
+        0.0635041286,
+        0.0,
+        837455.03670422,
+        0.0,
+        -0.0634954065,
+        819253.9858165891
+      ],
+      "index_core_bounds_epsg2326": [
+        837500,
+        818600,
+        838250,
+        819200
+      ]
+    },
+    {
+      "source_id": "1980_1990:999",
+      "sheet": "11-NE-21C",
+      "edition_date": "1993-10-01",
+      "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_999_11-NE-21C_1993-10-01.zip",
+      "source_sha256": "a053fcef8856ca3ccd7d556ba65bdbe8a1795885c53d18d0cb6e85cc4e126f97",
+      "tiff_member": "HP1C-11NE21C-199310.tif",
+      "affine_pixel_edges": [
+        0.063508391,
+        0.0,
+        837455.0092000747,
+        0.0,
+        -0.0634957285,
+        818654.0019760452
+      ],
+      "index_core_bounds_epsg2326": [
+        837500,
+        818000,
+        838250,
+        818600
+      ]
+    }
+  ]
+}

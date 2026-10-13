@@ -1,0 +1,105 @@
+{
+  "figure_count": 6,
+  "formats": [
+    "pdf",
+    "svg",
+    "png"
+  ],
+  "font_family": "Arial",
+  "v5_palette_preserved": false,
+  "grayscale": true,
+  "palette_conversion": "round(0.2126 R + 0.7152 G + 0.0722 B), equal RGB channels",
+  "fixed_text_width_tex_pt": 373.2,
+  "records": [
+    {
+      "figure": "landing",
+      "meaning": "Conceptual hybrid landing and inertial CG/reference distinction",
+      "master_inches": [
+        5.163968451639684,
+        3.03
+      ],
+      "input": "inputs/figure_data.json",
+      "input_sha256": "a0ff0d6cb959f6d464d36dd5244ad24a36bebb84f9c4d8ea82186d53929af917",
+      "outputs": {
+        "pdf": "b245da22368c4c08b3d0fed803cbe8b950c6981707d81ee6a181b7ab61fdd159",
+        "svg": "b07820d4e7244e982d7678fda6f8b404513382d04e731a44d7bcf8059e060f5e",
+        "png": "d29849a3064d6e38cc89eb26991ee955923b3fa461cf5941e0442320746d4506"
+      }
+    },
+    {
+      "figure": "active",
+      "meaning": "Six active constraints and separate normalized-time event locations",
+      "master_inches": [
+        5.163968451639684,
+        3.03
+      ],
+      "input": "inputs/figure_data.json",
+      "input_sha256": "a0ff0d6cb959f6d464d36dd5244ad24a36bebb84f9c4d8ea82186d53929af917",
+      "outputs": {
+        "pdf": "a4da20d6f0309643049e3815b19e89e789b31cc89fdc3e83cea95d04a2aa095e",
+        "svg": "c7b88b435fc9f16b7d9851190f023386ddfd7098e5225ecfef6fa52cdd4558b2",
+        "png": "db988499790f3d9b561020188ada092d861b5182356c7fe8dcca1918ba9a3f1f"
+      }
+    },
+    {
+      "figure": "certificate",
+      "meaning": "Logical implications in the certificate; no high-dimensional geometric projection",
+      "master_inches": [
+        5.163968451639684,
+        3.66
+      ],
+      "input": "inputs/figure_data.json",
+      "input_sha256": "a0ff0d6cb959f6d464d36dd5244ad24a36bebb84f9c4d8ea82186d53929af917",
+      "outputs": {
+        "pdf": "1c6ef3a006636649dae0845707ee5f5c1ebfcf8bd05459a531160647987673c8",
+        "svg": "e8195b0fa38469f7a22124bcc98877c97405c33a6a138100a8f3d9f2836c0985",
+        "png": "0c3541aa85e49cf333a865623901e31ad9bf91fac7664faa61d742cad6bcc91c"
+      }
+    },
+    {
+      "figure": "continuous",
+      "meaning": "Numerical critical margins plus all 398 accepted time cells and event zones",
+      "master_inches": [
+        5.163968451639684,
+        4.45
+      ],
+      "input": "inputs/figure_data.json",
+      "input_sha256": "a0ff0d6cb959f6d464d36dd5244ad24a36bebb84f9c4d8ea82186d53929af917",
+      "outputs": {
+        "pdf": "e9f05dde11f37a025e50f63977a8b8254aa21c316f852b8cc509b2e737b89506",
+        "svg": "73030df45a8c147c8e5c0f1547d0db835a0059f75faefd547febfc40ab070a8a",
+        "png": "948d334c9e6b16b5873f268785b1c4073c1ff66e511e2ab92371424f999f2339"
+      }
+    },
+    {
+      "figure": "bracket",
+      "meaning": "Global family bracket, with one-sided retention lower bound on a separate scale",
+      "master_inches": [
+        5.163968451639684,
+        2.75
+      ],
+      "input": "inputs/figure_data.json",
+      "input_sha256": "a0ff0d6cb959f6d464d36dd5244ad24a36bebb84f9c4d8ea82186d53929af917",
+      "outputs": {
+        "pdf": "5c55c94cfb3772c6ba38002f759ac0f8933757057519be60c485812bafa91091",
+        "svg": "9fc24ad20f714136a78e36557f92d3422eb112b0436e6ddee344df6b141ec2c1",
+        "png": "1f02ff0765e89409de48596cc9773c64bd72bc62be355af8bf3bf09c93652713"
+      }
+    },
+    {
+      "figure": "conditions",
+      "meaning": "Ten individually certified secondary-path margins; unresolved cases have no invented bars",
+      "master_inches": [
+        5.163968451639684,
+        4.2
+      ],
+      "input": "inputs/figure_data.json",
+      "input_sha256": "a0ff0d6cb959f6d464d36dd5244ad24a36bebb84f9c4d8ea82186d53929af917",
+      "outputs": {
+        "pdf": "6d973028ac7acb3904c08d04a6420450f756b7ae698f5b0ed3c4723b936da0ee",
+        "svg": "7b0d615b28b4acd5dbe3ce05e83238b5dd4d592e5ca8192e9fa8be275aa49af3",
+        "png": "8e5134f52d11e726838ad02f33a847feb541676fc3981997c4517794ebb2de56"
+      }
+    }
+  ]
+}

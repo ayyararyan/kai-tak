@@ -1,0 +1,20 @@
+[
+  {
+    "name": "tailwind3",
+    "certified_eta": "0.00554748408841633",
+    "touchdown_x_m": 319.65972746281506,
+    "stop_x_m": 2621.245031942964,
+    "runway_remaining_m": 164.75496805703597,
+    "effort": 9.98763938225008,
+    "secondary_local_complete": true
+  },
+  {
+    "name": "urban58",
+    "certified_eta": "0.011876478604716387",
+    "touchdown_x_m": 694.0367606976039,
+    "stop_x_m": 2593.4696473262848,
+    "runway_remaining_m": 192.53035267371524,
+    "effort": 21.468482705695912,
+    "secondary_local_complete": true
+  }
+]

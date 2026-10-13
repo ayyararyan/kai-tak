@@ -1,0 +1,2423 @@
+{
+  "checked_utc": "2026-10-13T19:33:02.131680+00:00",
+  "scope": "Grayscale revision; clean source extraction using same pinned production environment and existing TeX/fonts. No new mathematical computation.",
+  "baseline_commit": "01ccec8c3c982fbfe9352be3c43b693d41d01ba5",
+  "production_pdf_sha256": "10ac658ffa41e7fad5cd7da3a4be5e2ad013a0b9b27ac2d37100a45171d6c98f",
+  "clean_pdf_sha256": "6c7d530138f067b75d274ba546b2c6bcd64f66ce47fb679068457f55a2443e47",
+  "pages_compared": 36,
+  "page_text_matches": 36,
+  "page_pixel_matches_100dpi": 36,
+  "figure_exports_byte_identical": 18,
+  "build_proof_inputs_identical": 529,
+  "pages": [
+    {
+      "page": 1,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 2,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 3,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 4,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 5,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 6,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 7,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 8,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 9,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 10,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 11,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 12,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 13,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 14,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 15,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 16,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 17,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 18,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 19,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 20,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 21,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 22,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 23,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 24,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 25,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 26,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 27,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 28,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 29,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 30,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 31,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 32,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 33,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 34,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 35,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    },
+    {
+      "page": 36,
+      "text_identical": true,
+      "pixels_100dpi_identical": true,
+      "dimensions_identical": true
+    }
+  ],
+  "figure_exports": [
+    {
+      "path": "figures/active.pdf",
+      "sha256": "a4da20d6f0309643049e3815b19e89e789b31cc89fdc3e83cea95d04a2aa095e"
+    },
+    {
+      "path": "figures/active.png",
+      "sha256": "db988499790f3d9b561020188ada092d861b5182356c7fe8dcca1918ba9a3f1f"
+    },
+    {
+      "path": "figures/active.svg",
+      "sha256": "c7b88b435fc9f16b7d9851190f023386ddfd7098e5225ecfef6fa52cdd4558b2"
+    },
+    {
+      "path": "figures/bracket.pdf",
+      "sha256": "5c55c94cfb3772c6ba38002f759ac0f8933757057519be60c485812bafa91091"
+    },
+    {
+      "path": "figures/bracket.png",
+      "sha256": "1f02ff0765e89409de48596cc9773c64bd72bc62be355af8bf3bf09c93652713"
+    },
+    {
+      "path": "figures/bracket.svg",
+      "sha256": "9fc24ad20f714136a78e36557f92d3422eb112b0436e6ddee344df6b141ec2c1"
+    },
+    {
+      "path": "figures/certificate.pdf",
+      "sha256": "1c6ef3a006636649dae0845707ee5f5c1ebfcf8bd05459a531160647987673c8"
+    },
+    {
+      "path": "figures/certificate.png",
+      "sha256": "0c3541aa85e49cf333a865623901e31ad9bf91fac7664faa61d742cad6bcc91c"
+    },
+    {
+      "path": "figures/certificate.svg",
+      "sha256": "e8195b0fa38469f7a22124bcc98877c97405c33a6a138100a8f3d9f2836c0985"
+    },
+    {
+      "path": "figures/conditions.pdf",
+      "sha256": "6d973028ac7acb3904c08d04a6420450f756b7ae698f5b0ed3c4723b936da0ee"
+    },
+    {
+      "path": "figures/conditions.png",
+      "sha256": "8e5134f52d11e726838ad02f33a847feb541676fc3981997c4517794ebb2de56"
+    },
+    {
+      "path": "figures/conditions.svg",
+      "sha256": "7b0d615b28b4acd5dbe3ce05e83238b5dd4d592e5ca8192e9fa8be275aa49af3"
+    },
+    {
+      "path": "figures/continuous.pdf",
+      "sha256": "e9f05dde11f37a025e50f63977a8b8254aa21c316f852b8cc509b2e737b89506"
+    },
+    {
+      "path": "figures/continuous.png",
+      "sha256": "948d334c9e6b16b5873f268785b1c4073c1ff66e511e2ab92371424f999f2339"
+    },
+    {
+      "path": "figures/continuous.svg",
+      "sha256": "73030df45a8c147c8e5c0f1547d0db835a0059f75faefd547febfc40ab070a8a"
+    },
+    {
+      "path": "figures/landing.pdf",
+      "sha256": "b245da22368c4c08b3d0fed803cbe8b950c6981707d81ee6a181b7ab61fdd159"
+    },
+    {
+      "path": "figures/landing.png",
+      "sha256": "d29849a3064d6e38cc89eb26991ee955923b3fa461cf5941e0442320746d4506"
+    },
+    {
+      "path": "figures/landing.svg",
+      "sha256": "b07820d4e7244e982d7678fda6f8b404513382d04e731a44d7bcf8059e060f5e"
+    }
+  ],
+  "input_bindings": [
+    {
+      "path": "root_table.tex",
+      "sha256": "48b3b05c73152a72876efac995e84a99743a128430e0ea7601c74739b6997def"
+    },
+    {
+      "path": "build.py",
+      "sha256": "45ef31e0e6e22d982fc7a5275cff05ce3b9f854e5af78007ca59619a72e008c7"
+    },
+    {
+      "path": "INPUT_MANIFEST.json",
+      "sha256": "1106fadd2d471f8400f79783e25c738475b4effab967df1ec22742b948dc7959"
+    },
+    {
+      "path": "RFS.cls",
+      "sha256": "eeee1e58bcc34e9edb64c32162187836f5cc54da9f9ca7651073b954688eddf2"
+    },
+    {
+      "path": "condition_table.tex",
+      "sha256": "fb7ff1140f84fed9ba657e2b5a3c03463bea5b479193c5159d76d164798b715e"
+    },
+    {
+      "path": "references.bib",
+      "sha256": "5a928b7cc12f8d157ff3ca5da3427d501caeeb460e375c80a509408b685d9cc0"
+    },
+    {
+      "path": "crop.cfg",
+      "sha256": "af36c5069ca200b440f1c4a8a820020287eb544aa3b29a4bb00e915469733a2f"
+    },
+    {
+      "path": "rfs-workingpaper.sty",
+      "sha256": "7a7610ad48e746b1cdd0e67a37c4c3ddefdc15f0358a81495f517b4717d97424"
+    },
+    {
+      "path": "package_sources.py",
+      "sha256": "0b763f8c5ecc68fc791f461ef36cf215e1f6b4718559956b346946b0bc239bda"
+    },
+    {
+      "path": "make_figures.py",
+      "sha256": "d91b94c7b4b5774881c0481ec55def032f3b0f5e450df64d16b01e6f055b5925"
+    },
+    {
+      "path": "main.tex",
+      "sha256": "fc48e2e44029da051be0a98bb5e6f8dfd6fecbaf4aa8eae3c2ad2503277dce7e"
+    },
+    {
+      "path": "abstract.tex",
+      "sha256": "039a0ef28bdc42ee4482e79089a2fe99f1b4353a678032afb9cad8f82e553cc3"
+    },
+    {
+      "path": "crop.sty",
+      "sha256": "c6759bb8261ca2ce85982f87b1f7a7142f84cc0782cf480a525a914abc49e424"
+    },
+    {
+      "path": "approach_table.tex",
+      "sha256": "cea4a02f6516c793866f0d6f3e3677d49c72c84bd163947017327defa88015aa"
+    },
+    {
+      "path": "appendices.tex",
+      "sha256": "2f1e338d9ea56ede3b449812bc161e6c740dbfcaa50ec9e50fb55b30dc81ebb4"
+    },
+    {
+      "path": "rfs.bst",
+      "sha256": "5a1bdf7baa70add87e9c24073b03de7b12f64a70526aa4c37e6fc89136dfeed4"
+    },
+    {
+      "path": "wind_table.tex",
+      "sha256": "db251d490bd976cf40fe6892ef4ee5a8322a1f748c0cf21fc6fc4b7f54d8ad57"
+    },
+    {
+      "path": "FORMAT_SOURCE_MANIFEST.json",
+      "sha256": "bb3033ed7ec05be3bdd7ec2f42f339c101aaf95c0cac8b91b17442a3e22586a5"
+    },
+    {
+      "path": "requirements.lock",
+      "sha256": "ed29757b44090acf799571d3ffb2d0df15363e736fca59ce5ca35ea751235d38"
+    },
+    {
+      "path": "sections/attainment.tex",
+      "sha256": "a0971290ae92bd932291fbf6e54e74c2f8a3de9dd7b3cd6ed62a5332a80b5abc"
+    },
+    {
+      "path": "sections/model.tex",
+      "sha256": "47ec5a1c605916c86c28a5a45b2e6c05283bc401602f149a12311c6305926f7b"
+    },
+    {
+      "path": "sections/discussion.tex",
+      "sha256": "3c392cf9bc49101f308fc156977dc086490ab86cc2aa809251bed59161984bc7"
+    },
+    {
+      "path": "sections/introduction.tex",
+      "sha256": "77300f3e2e29bb1054ce4cf6feb0574e828619c37a6facd67066ec886592de9e"
+    },
+    {
+      "path": "sections/conditional.tex",
+      "sha256": "336777db556c086548fe1c94c8ab8e988d23891ee5a235bc1511b35b01305d3c"
+    },
+    {
+      "path": "sections/active.tex",
+      "sha256": "527b2c32d7da402bae1078e40f89b9690e93e9f7e84ae72935e98cd62609ebba"
+    },
+    {
+      "path": "sections/local.tex",
+      "sha256": "3923887bb3465bd44b4106158d5e9b8371d64fcc9c0bb6ad66eacdaeb46ccb67"
+    },
+    {
+      "path": "sections/continuous.tex",
+      "sha256": "fac33e0a4a01ddd199e6874092a65d06421964431146c3e587e4fe1f7fc1469b"
+    },
+    {
+      "path": "sections/analytical.tex",
+      "sha256": "4b41c874c35467111a70a7b55d87b23218b9e6542422661de44052e34936ba24"
+    },
+    {
+      "path": "verification/reproduce.py",
+      "sha256": "99ad7f53cea1c59f6f283b18d39ce5ec3c5d45086b9d56b79a4c780313d1ba10"
+    },
+    {
+      "path": "verification/make_source_snapshot.py",
+      "sha256": "89b14d440739dd41901cc2a0da4c3fe73ee4735b7d9045f06173cc42e3962679"
+    },
+    {
+      "path": "verification/emit_matrices.py",
+      "sha256": "3fd92688561ee8e2f194d566e15fe265ebe4af1546480258c948153d6c21fe65"
+    },
+    {
+      "path": "verification/verify_public_inputs.py",
+      "sha256": "3866174e1d5112110e568af0c00c1013462ed06f4e3aae71d187939b3408e120"
+    },
+    {
+      "path": "verification/requirements.lock",
+      "sha256": "84540af78b8432ac8a04f824c3cfdc230de33a46eee98bafae75d07305db0724"
+    },
+    {
+      "path": "audit/analytical_derivations.tex",
+      "sha256": "2c7478aa6151cfc5f36dd3974cd4bfba36488c6c86ca31ec33480663e7dd6a04"
+    },
+    {
+      "path": "scripts/check_pdf.py",
+      "sha256": "c6951380f0b5e0c6346d080afc35525322393aef0e48c58fdf03cf4d77b91ad6"
+    },
+    {
+      "path": "scripts/verify_content.py",
+      "sha256": "2826c8312ef88f4df96254dcdc8509a130f150ae4867d6010a8347d00ba7fbf1"
+    },
+    {
+      "path": "scripts/verify_all.py",
+      "sha256": "e61c6dc54a88659095630e391fbe35c9e3cb41c492df0006f5e5d7a39ab5bfb5"
+    },
+    {
+      "path": "frozen-source/PUBLIC_SOURCE_MANIFEST.json",
+      "sha256": "2379eab54afb7f1baa0a9f71501e558e98706148cdea6b51bbf4c960c8113a51"
+    },
+    {
+      "path": "frozen-source/NOTICE.md",
+      "sha256": "18a1fedb86cf153380806b75a21346d785525cdd03a683cbb141509a59efb286"
+    },
+    {
+      "path": "inputs/local_certificate.json",
+      "sha256": "21fc4bfc4013e0177d4675b0aaf407fb275d6d7b0a5c575d1ecc2986c882af9b"
+    },
+    {
+      "path": "inputs/conditions.csv",
+      "sha256": "cc4d74364e7200a040589fff02143c9fd701a6c8896d182560032eea2aa6f1c6"
+    },
+    {
+      "path": "inputs/figure_data.json",
+      "sha256": "a0ff0d6cb959f6d464d36dd5244ad24a36bebb84f9c4d8ea82186d53929af917"
+    },
+    {
+      "path": "inputs/active_branch.json",
+      "sha256": "e02a0e70acbba01bdebc1761e42489543ff868c16d01b926a15f1b88eefdfb71"
+    },
+    {
+      "path": "frozen-source/publication/scientific-results-20261013/run_public_tests.py",
+      "sha256": "fbd9fba2a62affc8d32bdbe710ef7a3830109896e4019c92c2582ce614bec8a6"
+    },
+    {
+      "path": "frozen-source/publication/scientific-results-20261013/requirements.txt",
+      "sha256": "2455a786b76e7bb518f61d80ec60592acd9aa9576c8e27079ee33850aac0a2a5"
+    },
+    {
+      "path": "frozen-source/publication/scientific-results-20261013/source_public_mapping.json",
+      "sha256": "9f0e3a988c2f3285860f1914a41d458059411e31d2764884d4e7634edafaa64e"
+    },
+    {
+      "path": "frozen-source/publication/scientific-results-20261013/README.md",
+      "sha256": "22ac88d017750d0c290b07b0f1b2db210744c076b385f74e7952777c0fcca482"
+    },
+    {
+      "path": "frozen-source/publication/scientific-results-20261013/preserved_path_disposition.json",
+      "sha256": "3f44bd801859d4a57dda37069c8737f7bd655d0d16612a39d12e229bcd62da8f"
+    },
+    {
+      "path": "frozen-source/publication/scientific-results-20261013/verification.json",
+      "sha256": "54a7bfb711e4c08e3c72d0072d644f49cf8730ba40c5f19a9afbc14bdc07a75c"
+    },
+    {
+      "path": "frozen-source/publication/scientific-results-20261013/verify_public_snapshot.py",
+      "sha256": "053881daaf7eca25588ab4fd8f537f24e30bc3ffa2e25d86829856ce78b74b7a"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/PROJECT_STATE.md",
+      "sha256": "63d7fc3a93962ae9a488afc9d8b8f5da83479f0dbd52ffbf670c5823015ba378"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/requirements.lock",
+      "sha256": "b15b3da613478814c340c9628297b1b06afda1897d9a91104fcbddf0ac92005f"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/evidence/EVIDENCE_REPORT.md",
+      "sha256": "601cc3b9c93fb1315c01a393b0b5236eb92700b834ce449a0a2531d551319b64"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/analytical/verify_full_landing_analysis.py",
+      "sha256": "fbe4067189ab78a6f1f6d4c4e8a4ac7d639dbe10c43c550d1bb37ba794202f90"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/build_airframe.py",
+      "sha256": "53b517fe3564cb6203a31ee9e700a2d340d45c5cd690d2d9c3f26e6fb110bf22"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/prior_artifact_verification.json",
+      "sha256": "890dfb31d13af1c6b3d793ba10ee9ff11bb73e1ca1fef35f4cfa388aa5904800"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/extract_airframe.py",
+      "sha256": "bbef4578667209a3ce5523f4c122c59567b3b1f3989bf90cf563558a87a41cbd"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/derive_mapped_runway.py",
+      "sha256": "84b38e25592b0efd61a9c82b0fcd2068f1da475eb91c3be5f7794e27f1ab02ab"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/clearance.py",
+      "sha256": "87ccd39c312914531fb962fa2d93116f8d08794f6a248a87eeedd0ec36d7104a"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/digitize_hill.py",
+      "sha256": "ace20561298a15b0609b84e37a2f48bf7929f3bd5e70837fb596707dbce20d1e"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/test_frames_and_gate.py",
+      "sha256": "1f24256db25fbc5295f07c011bd802c6c5e2dee3347848402b0113e4898511a4"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/digitize_coast.py",
+      "sha256": "ae4df657109ba89b8e19a8a46b44b794e8f6281490ce2a00a7bcf04aef71fe5d"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/physical_parameters.json",
+      "sha256": "0e9b82680b746c5523534e1b38b7cc9416b610407fe8a537ed24480797b5a183"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/source_manifest.json",
+      "sha256": "c57bb94270b6d575ed76e16c948a2e5a0f3ff4f7a54cb6fe55898afa3fa0d640"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/prepare_registration.py",
+      "sha256": "53b22dbda25e227b2dbe2ecd34c138930c751861d5e6d17aa1913576fc4beff3"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/evidence_gates.png",
+      "sha256": "85c099eb380ef86755871a4656780f05306fe68a7ae1e0d797bcd854337942fb"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/conditions.json",
+      "sha256": "cb0eb2036c1da30fd646409283d7840afff4fba329c3020285eafc2ac14f91e9"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/REPORT.md",
+      "sha256": "700c671df04111242448c8a47234d81166edeedfa1516445798055d4a0841bae"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/register_south.py",
+      "sha256": "77548f480462e1d1b293edc6a822831ae47f5b7c11fad6bc74c06026ea007a5f"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/inspection_receipt.json",
+      "sha256": "70b9955621278c713accdec377b6c23fb399175b7ad320e5499ffc036fd2eaf8"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/build_scene.py",
+      "sha256": "bf55b9278106a95efdfc76a145525d73b7102985b88a1655d11e117a104aaa24"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/evidence_gates.pdf",
+      "sha256": "b5c0152171e54cb2686ef0268316dd682b11f89de523edc000aef805417a2b00"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/ASSUMPTION_AUTHORIZATION.md",
+      "sha256": "145a50f263100851adc254db104d6d014077c1149214cc255453182e6cdf5258"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/plot_evidence.py",
+      "sha256": "6cf4019b748e20a2b5bddf2e1bc92905f89d447f33e1cec16ff74478e243ca3b"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/check_runway_registration.py",
+      "sha256": "44b05e99b4e49a24cf102d0d377abaf3db151a026ea776ae7a2935282f3598a1"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/registration.json",
+      "sha256": "6063584e5171b4678caea2a3d2f7ffe74a3af589aa4fa04a3b6a37185b93324a"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/test_integrated.py",
+      "sha256": "1a7a6a88b9f56488a655af25e5c728f028c00d209ac1ec3061623f23102edaf6"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/register_runway.py",
+      "sha256": "c18636c0429631d3bca66aeff0aa5e299778e6d73d37c22d5860f1b8b8813b12"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/TRACEABILITY.md",
+      "sha256": "83127e38a18a24a54305b7fb2375da1636a74f75236635571f078ca990257fb2"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/primary_source_manifest.json",
+      "sha256": "2e1d0e0cbfb5652fd02e11a0b880b9686cdfd38fa76d1048e3f47a3868f6df9d"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/README.md",
+      "sha256": "aa0cfd8295120ca65a217e6ecaecc0e4e4def56b299b00124ff24fc413e3bb76"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/build_source_ledger.py",
+      "sha256": "7c5eb25abc04d66621b9c1a8dd2d0a96467f104a03cf5f81a9f5ad27eabb8fdb"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/frames.py",
+      "sha256": "083ea658e56bf6803cfb1547c0fe9c7420dc43e7615668712ac533554cfa9f85"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/source_observations.json",
+      "sha256": "8cfa7a8dd2697f1c251f41d2710116bcac0a7eb410c186ebd7cbda588b6a20d3"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/test_source_geometry.py",
+      "sha256": "1ffa007345b790d5b22cdb66abf69be2740e6009643d553662ad63ba9de5b867"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/artifact_manifest.json",
+      "sha256": "e176bfa4fbadfb7bc91297ba6647534a0181206057a80845f40b3a93ee4546f7"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/evaluate.py",
+      "sha256": "6da13e02db1673b7fc174d69d8681ca1ccc8c63f155033c575d5e4b6e556f6fd"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/verification.json",
+      "sha256": "f3791bfda7f2945eb3b2ce9359665b205b1d069b014db06052d157eee67d2a00"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/SPEC.md",
+      "sha256": "9d807830f2225e4c19208e37272dcd24ebec085d6114d57d9fe39aa7dfa3a3e4"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/check_mapped_axis.py",
+      "sha256": "e35a8b3e015dae50aa0ca61abf87fa42608b0d127fa743127c3628862b220ffc"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/check_printed_grid.py",
+      "sha256": "b1b7a47c4379f17aae70bdaf4911846bcec6e3adbabd83d069c334e6c4232129"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/verify.py",
+      "sha256": "84d23724dbe3cc7afeeb828a91420076b349ec0df8fe581b1ce7a0f8a8964753"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/PHYSICAL_CALIBRATION.md",
+      "sha256": "f027edae3996a1d626096638d40f4103630fa6949b6bb63a10ea20688c66b12c"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/integration_status.json",
+      "sha256": "762c38bb916eee60e5b272e3a0f2424b46c0c3b014048360820c4d53ed358696"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/prepare_maps.py",
+      "sha256": "66fbd16a387a6f3876f1cbf4f298f627dab207de54a7169ca4ba029c621e42e4"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/evaluation.json",
+      "sha256": "716cf983430c150e9e92c54fca1fb2a3a64d0fe412774a302eea9561cbd831d0"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/prepare_south_registration.py",
+      "sha256": "1f2402e3e78ccb779a166783663b02df5d09735b8b9934208b42bc6dd2d5df93"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/model/test_model.py",
+      "sha256": "e10285f5d0702b1d7f13cf8446a2f9d78742b12e3c5894b3fd5c2f4efb695786"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/model/config.json",
+      "sha256": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/model/test_review_solver.py",
+      "sha256": "c730c734a50c734ca20fa2139ad26e71cb1533764a5a34748869e27aec79a80c"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/model/__init__.py",
+      "sha256": "6b65156957acd5c13a616a594a95d8da429b1bd513c1c31ccad3f1609a7a8006"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/model/trajectory.py",
+      "sha256": "9b557ce07c7e8f177b0b3cfac1765c1c9aec4997e28b52d3185ad533f7cf3f6a"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/model/test_review_trajectory.py",
+      "sha256": "b116ae6250105cc889a1bb57e1f7c4efedb33605773181665442df50ae2013f6"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/model/solve.py",
+      "sha256": "2b93ae2341226f854cc0277b02a9b04e67c25ca569fa2ee0f82920ed860f6a15"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/regeneration_2.log",
+      "sha256": "a71c1fb374c34a0cdcd3d26271bad58e910e29740362df3710f6e73ae26912d7"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/regeneration_1.log",
+      "sha256": "a71c1fb374c34a0cdcd3d26271bad58e910e29740362df3710f6e73ae26912d7"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/formula.json",
+      "sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/result.json",
+      "sha256": "49296dd026b3f0702fb672264c2c5524221a38acbf60631b6b8581e6c0b7bfe8"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/delivery_manifest.json",
+      "sha256": "8f01b9abb6b0f40ca40d25b871e8102a4509504a9b2805d440c85ef4aa52f95e"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/calculate.py",
+      "sha256": "c9b77777356cd93cf14f97d57289bab489e109525c4056abf44111afb29be605"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/REPORT.md",
+      "sha256": "deb41f43c3473b0ce6e7f786cdd5f12f730c71a0c03c12abb672810da306539c"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/test.log",
+      "sha256": "cd5edcf6f13920f3512b3579cf9e62f9c213c3d3f06887b2ac9fb7a3d51d2348"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/SCOPE_AUDIT.md",
+      "sha256": "d7df7768b51f2f8c172c0cd2c1a7f1f49962cb8a0ffb5744f55222ce7f3d0477"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/continuous_check.json",
+      "sha256": "3631409dfc2fef2c0b8e6bf40d77143358b0bc6ced7c30261c620ce58f228f36"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/selected.json",
+      "sha256": "9d8b40c750caea97f45f894f314e47f4ae934d577f4a5014c8a35b4f04defe64"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/continuous.log",
+      "sha256": "41986402d2816426652c9ee7a7d5eb5d4ef49aa9c9f25ed569fcdc83ca120509"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/delivery.log",
+      "sha256": "a71c1fb374c34a0cdcd3d26271bad58e910e29740362df3710f6e73ae26912d7"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/path_controls.csv",
+      "sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/search_state.json",
+      "sha256": "3756d4a88c11bfae4fbd7764e17b1a07f5c72e2abbe75fe2f92c93764bcd7493"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/landing.pdf",
+      "sha256": "4b0a300dae6402b0bd785e206132b95b61ea3374e524e8c5dc6a5b9f6c417d3c"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/landing.png",
+      "sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/search_checkpoint.json",
+      "sha256": "4cedc557b9ed80c8e52d61f14bff6aacf5b69fdc1046f692fc3b53aa264a13e6"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/inputs.json",
+      "sha256": "5e498fee46936c4a53a908ec255d34b83c4894af223aff10bfbd8610605f088b"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/test_counterfactual.py",
+      "sha256": "66589ebeae8ff8d64fafa91499a7ab4df91be215a931929d16b4a3967e5ebed7"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/search.log",
+      "sha256": "59f14c5c04080c60dbd4b87525220373373a341282d8d85a68649ab8c1d88592"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/continuous.py",
+      "sha256": "c220e280115238c7f42779236a1bf41fe29e786cc58d6c6830d3fc35f7db8a8c"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/verification.json",
+      "sha256": "9a22ee599829be5de129883483d89cd8c5ca88ee8606cfe33a146bce7c052264"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/SPEC.md",
+      "sha256": "aa42d0e9812ac35d9dc3f2823beb8e535b82597c0dee5dd0cee9c5487579697f"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/verify_delivery.py",
+      "sha256": "e99ccee20cda1ef54a34a4631ce3d0240be1404d7e502f7042f71bc88826a082"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/verification.log",
+      "sha256": "9a22ee599829be5de129883483d89cd8c5ca88ee8606cfe33a146bce7c052264"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/deliver.py",
+      "sha256": "30dab99db968f3d9ea3308d6d22f294b78b0ff73d47a2de682c38c51d13e36dd"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/outputs/scenario/optimization_replay.json",
+      "sha256": "8829c708a7e0dd6262cab24547ff171ab5a73a78e9aea08a14428c62cd3eb1e0"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/reviews/change_snapshot.txt",
+      "sha256": "8aea84db93c15e3ff47ff6cd458050fd048ec2818a86a2a3082720c913daac63"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/reviews/DISPOSITION.md",
+      "sha256": "9f5d9410b58e530cdf40873454d78208aba1d370d03255b2dcb26810b8c66b4d"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/reviews/parent_certificate_check.json",
+      "sha256": "e3675cf3a42000ed7caed90660f036dce22c9e68440435cd717544bdd5e9c083"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/reviews/edge.md",
+      "sha256": "d889250041921468de874cf12c1f303c1ce461b0e3f105321429ae21d4560353"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/reviews/blind.md",
+      "sha256": "29cdd8af4ecc456d607f300219245e358b2f1336a40d6fdf6d9453b9dfa04ca4"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/reviews/parent_final_verification.json",
+      "sha256": "2375724bc41568b3b89d15f593d314f0e60d60caa539b22e4fb9b979ff5458c2"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/reviews/acceptance.md",
+      "sha256": "1fa8704467f7fb469131d2207067ea29c7755e3787f80368f554f30d6b04a653"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-363a34a8137840349f2606ba2cdef553/formula.json",
+      "sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-363a34a8137840349f2606ba2cdef553/result.json",
+      "sha256": "3665865a0624ac35d1f16afa940ad8fdf385a73a99da6bdea34188134a62cf46"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-363a34a8137840349f2606ba2cdef553/path_controls.csv",
+      "sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-363a34a8137840349f2606ba2cdef553/landing.pdf",
+      "sha256": "ed422e29962fb344cddbf3573ba5fbafbb8d7cd49ca8aa4ccb765e3656d5a8e4"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-363a34a8137840349f2606ba2cdef553/landing.png",
+      "sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-6e6cbd5b0af743df91b72a5926209e82/formula.json",
+      "sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-6e6cbd5b0af743df91b72a5926209e82/result.json",
+      "sha256": "38d0198850949e8d5dac04c3baa1cbef6b4927d6b4098d71b23fe525904ed46b"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-6e6cbd5b0af743df91b72a5926209e82/path_controls.csv",
+      "sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-6e6cbd5b0af743df91b72a5926209e82/landing.pdf",
+      "sha256": "45afae39bdb048190ac081ff366eea73c4eb13fe5d8a0b2b7acee34111e3899f"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-6e6cbd5b0af743df91b72a5926209e82/landing.png",
+      "sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-5c16a9f41155458d8e3304389e854d5f/formula.json",
+      "sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-5c16a9f41155458d8e3304389e854d5f/result.json",
+      "sha256": "49296dd026b3f0702fb672264c2c5524221a38acbf60631b6b8581e6c0b7bfe8"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-5c16a9f41155458d8e3304389e854d5f/path_controls.csv",
+      "sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-5c16a9f41155458d8e3304389e854d5f/landing.pdf",
+      "sha256": "4b0a300dae6402b0bd785e206132b95b61ea3374e524e8c5dc6a5b9f6c417d3c"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-5c16a9f41155458d8e3304389e854d5f/landing.png",
+      "sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-7bfe87003e5c4dc093c356928fd7e8ca/formula.json",
+      "sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-7bfe87003e5c4dc093c356928fd7e8ca/result.json",
+      "sha256": "d6e8f74ceaebbd7d139ed097772ed0313485d6d32b6eb1ee9111d1f6176819d5"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-7bfe87003e5c4dc093c356928fd7e8ca/path_controls.csv",
+      "sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-7bfe87003e5c4dc093c356928fd7e8ca/landing.pdf",
+      "sha256": "643a9775c9ac1f13a813e7271f3854273250868af9977e3ac1c89b584d52404e"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-7bfe87003e5c4dc093c356928fd7e8ca/landing.png",
+      "sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/legacy-949fdca5d37144af8c9b5ed30368a8a1/formula.json",
+      "sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/legacy-949fdca5d37144af8c9b5ed30368a8a1/result.json",
+      "sha256": "81ce130e3b3f2402dc8eaa64eae306fe27d6d5a227b818704b878e5667ad64ee"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/legacy-949fdca5d37144af8c9b5ed30368a8a1/path_controls.csv",
+      "sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/legacy-949fdca5d37144af8c9b5ed30368a8a1/landing.pdf",
+      "sha256": "e77e7a92442b44662204b9fd460d977b132f1caca82a327e69f35b279dae43dc"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/legacy-949fdca5d37144af8c9b5ed30368a8a1/landing.png",
+      "sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-d0f7a74fb3ed4479af628b450956b2dd/formula.json",
+      "sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-d0f7a74fb3ed4479af628b450956b2dd/result.json",
+      "sha256": "f90d895080861bb732f34ab67a59ac1922e16bee1b5f7f6f3cb5f26fd132a6bf"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-d0f7a74fb3ed4479af628b450956b2dd/path_controls.csv",
+      "sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-d0f7a74fb3ed4479af628b450956b2dd/landing.pdf",
+      "sha256": "7e591db8525557475a3d3a17b8eb5f337c21bef494c370c7157f754dfc5391b0"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/bundles/delivery-d0f7a74fb3ed4479af628b450956b2dd/landing.png",
+      "sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/formula.json",
+      "sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/result.json",
+      "sha256": "81ce130e3b3f2402dc8eaa64eae306fe27d6d5a227b818704b878e5667ad64ee"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/delivery_manifest.json",
+      "sha256": "24ed271016f8e19b031f9c3fbce3007f06309a1c32f2d6b4eec53b679a8fcdf7"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/continuous_check.json",
+      "sha256": "e922f5304e5440eca1a20a34354d04893428d0ec6cccd27997fefc671c0a5f82"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/selected.json",
+      "sha256": "1e60478efb7537bfa63db3fef7be1ed5026f410040a16b9de306cdb971c2ffe6"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/path_controls.csv",
+      "sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/landing.pdf",
+      "sha256": "e77e7a92442b44662204b9fd460d977b132f1caca82a327e69f35b279dae43dc"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/landing.png",
+      "sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/search_checkpoint.json",
+      "sha256": "4cedc557b9ed80c8e52d61f14bff6aacf5b69fdc1046f692fc3b53aa264a13e6"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/verification.json",
+      "sha256": "f8a9110c9f8d3c3cdd72c8e93e68b21b9baccf43d4fd003292454e84e9dad5fe"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/reconstruction/obstacles/obstacle_evidence.geojson",
+      "sha256": "ac3ab63f3c516b8dfa1e18c4be64082fccfd0986979df0619fcc5fe3effb2a30"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/reconstruction/obstacles/readiness.json",
+      "sha256": "8ff9e652fa4ec809207cbadff0eee6e525ef17a740cf85d530879bdb698b519c"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/reconstruction/obstacles/unresolved_footprints.geojson",
+      "sha256": "b78d5754894cb75975c0a58cddcd1178dcc4ecc449444e5218b506993b091a85"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/reconstruction/block_matching/HANDOFF.json",
+      "sha256": "9f22ab99f964c030608afa44283fe6e92f03f11d30938eb0c0a3a9d5068b9c62"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/reconstruction/block_matching/historical_faces.geojson",
+      "sha256": "f866def637ad2c3495e9a9463a6abfc1b04cbf600b8b52b6ed5ee503bd749ef7"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/primary_observations.json",
+      "sha256": "848d5980cbc948e291ab63769031cc11c1f33a0be238e16036111be3d2bab7cc"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/REPORT.md",
+      "sha256": "c6006cec52c3f77138657b5839ce62c851f55f6a096a9c013e2f4b0529d13468"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/verify_followup.py",
+      "sha256": "c0c20a70cca15ee443ac8080ba1cdbb90d4db49758922c9724b280d405f4ac2f"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/query_survey_archive.py",
+      "sha256": "15f0bad3993352d390d0246b79f99d5a979c2d7969cbe65a62e658cfade6698c"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/test_diagnosis.py",
+      "sha256": "13500315aee373b3e73d86b6022ddb7b2893d7066d0942741bafbb3d6b7cd566"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/verification.json",
+      "sha256": "016fbee863139ba2e3d1e18d3b6f2164d9f7ca6b92ed7747a5e14ab9fbf7abd9"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/threshold_diagnosis.json",
+      "sha256": "b39403e042a2d8d72a8ad7ac80a1a497566986e128cca8e275c595319ff99dac"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/diagnose_threshold.py",
+      "sha256": "66cf46057c3d36d7891fa5f636d63a3d1c1bd9af5731e16de8e47f31334ff86d"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/derivations/CLEARANCE_AND_REFERENCE.md",
+      "sha256": "d3f275ee86c5625fa5ac0f5b574d575f0d5a7849e18076095414af3c6d149d39"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/derivations/IDENTIFICATION_AND_SEQUENCE.md",
+      "sha256": "45c25d03ea3fb01538bbee2553037ddccdbec8bd5b4d9df11073ff19a7d29f02"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/records_followup/RELATIVE_HEIGHT.md",
+      "sha256": "e55f8d8e13cf63afdb3b6bbae16b5ba497a5b4d17683d6e4b52d46158536f136"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/records_followup/REPORT.md",
+      "sha256": "e750fdb07c1eaef1b8454914e9111640795679e483894176bd1555f8b534d2a9"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/records_followup/verify_records.py",
+      "sha256": "49b030a94515edbaa5f7139319b4e1aaba90fef0e1b9e209af76741fd2cb0393"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/records_followup/source_inventory.json",
+      "sha256": "9b8c9567c72af6de8000e30efffa9484b2f918327d2743a670af7fea89cfd02d"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/records_followup/artifact_manifest.json",
+      "sha256": "b04d9dbf57445bff496600741a5f8e71c86cfa62393fb16512c5143e088ac73b"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/records_followup/verification.json",
+      "sha256": "6865807606ef3217c19bc6d980bf84456ca9df552340896a3b338a31e7dcf193"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/aircraft_followup/wheel_plan.json",
+      "sha256": "31a6c12930fc3cfbe4ce6cd506347d38741286e91c0efa10ab0000efd0299e84"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/aircraft_followup/test_prerequisites.py",
+      "sha256": "3ef4156afaaf605861749b6f98adfb1cda3fa18e6a0a6194247d7ee3e1f4c8f3"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/aircraft_followup/prerequisites.py",
+      "sha256": "1e59d8a3052c5bcae58694e748e9eead0f9c34197747661bd5976a29f50c725c"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/aircraft_followup/REPORT.md",
+      "sha256": "6f8a86cbf651d343c384cd9b19cc856fe96d07972594a31c83e04c4b018969cc"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/aircraft_followup/prior_integrity.json",
+      "sha256": "772cceaffcff589bd3ba7d695077b2abf8a39a916eb19cafe484c2503a44a43e"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/aircraft_followup/source_binding.json",
+      "sha256": "b9f822bf8f55099800bef102e35628eb2ee610c42b37362612c5928dd5fee27b"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/sources/runway_map_legend_detail.png",
+      "sha256": "7929c2e0a6bf9f4950556acd1c0d08e17439f9f33e449bbdb1f1d7da2c295ca9"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/sources/hill_spot_5_original.png",
+      "sha256": "63ff444376f2f842d6386cdf9c0d228c59bcdb4e096a2913c1ff1a95cd73ff41"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/sources/hill_spot_4_original.png",
+      "sha256": "3ac5b58421e2e650fa8c54c5ae36a326957128e54d014d800a936c425319a200"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/sources/hill_spot_3_original.png",
+      "sha256": "d20635dbaf7927fa4ec2f165ed090422a257bcc5e2c842e4adb8eced758bb58d"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/sources/printed_grid_830.png",
+      "sha256": "3bfbe2141c207b91400617c7cd5df6a0a94329dcc94d9b710751e9c5c41e2367"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/sources/hill_reservoir_1989.png",
+      "sha256": "f44058d9fa56d5d1d7bd7bfe5faf768a34a7137d40a974830ce4577a064a0f4c"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/sources/hill_spot_8_original.png",
+      "sha256": "3d95a4c42260aa6fb624016f3eadef36d36ee643ec3968b422ffae8d61b73acb"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/sources/hill_80_contour_detail.png",
+      "sha256": "a35d597a93e81ab719edb424eaf241ea05046292f0ae221a482601f12aa862a5"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/sources/black_tile_diagnostic.png",
+      "sha256": "926c489faa565bf9c426bc932b8b500be86ea43f1f356e870f93f1b4142dc1e8"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/sources/hill_spot_4_reading.png",
+      "sha256": "8f1d4acad340c21ea3b852f70f3380a87e1ae848de3e915dd1776605c31b02c1"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/sources/hill_spot_10_original.png",
+      "sha256": "67920ca501f9fcb2f5c734c36dccda862ab7c1ca271b710157758cc5fc119468"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/sources/hill_additional_spots_contact.png",
+      "sha256": "d6a58e11db7b29e5836aeeddcc3a772eb57a6016b82b061b4193fcb39098194d"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/sources/hill_east_contours_1989.png",
+      "sha256": "9f5c933c7092bfadb5f9e52ba028849eed390e63621cbd32d2957ad3428d1b32"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/sources/hill_spot_1_original.png",
+      "sha256": "4be71a584091e9f7d74c26077ae3aa75a91e43afa720a9dfea718f4a2cdc4574"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/sources/hill_spot_6_original.png",
+      "sha256": "c0bc559e0800b5485afb2953e87fa0621dcf043171b4dd0e4d7f45c3127b63ad"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/sources/runway_spot_candidates.png",
+      "sha256": "5b173c51808f7181ecc8b6726492735501c5008913a79b590e1670c2d4a93690"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/sources/hill_60_contour_detail.png",
+      "sha256": "bef93455f7df88cdc76198040864cca129d9fe01e0905f0dcd12d8e04520e862"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/sources/hill_spot_7_original.png",
+      "sha256": "e7959ba1538cb826dda388907a182abeb1a9f8ffb04513c6b8721749d0aaa97e"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/sources/hill_spot_0_original.png",
+      "sha256": "367abd8cafbdb187cda5e915aedf0aac145b2147df74eeeee76213e92dde3b2e"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/sources/hill_additional_spots_original.png",
+      "sha256": "32f43249eb6cba6997f6f5670077b7430e0e079c8d53c8ffdae8a8b46efd93a5"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/analysis_tools.py",
+      "sha256": "224a68c73eb0d311c3c76a69455f3f53f67b7914580c024900aa852efcc95789"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/secondary_polish.log",
+      "sha256": "44469afc61f1f9f0c5a392c183285de0dee352dc96e9ba1f639b7a960230c284"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/test_solution.py",
+      "sha256": "76c9781dea907f194520287f2f574582b0921262ef1e613e7db1b0f11d470a39"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/SPEC_AMENDMENT.md",
+      "sha256": "16a98e4449c61b36a07e33c6fb0a5c895ed41fc1dd16944159f065e445926c1f"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/finish_secondary.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/certify.log",
+      "sha256": "f3cec9cca3244fb65d8ea0173f87a8b55e9c22858d54dc25f0acbce18695926a"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/certify_delivery.log",
+      "sha256": "8ff7e41639dc08aa417c76dc8cc225eae8c1a66070fffac0b7117bc3c15e8742"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/verify_package.py",
+      "sha256": "3b1984f3c21e670637c642f0c68bdbc222499a420f999138ef5f48d8062fb0e2"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/energy_bound.py",
+      "sha256": "e549d488d288170cb702966c17cf4d35fd02d302c1efeffaed5af3bb488f3492"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/secondary_polish.py",
+      "sha256": "d7582134aa8d12e6b9a1e99cc8fd7c479fe288f1c724bbe5b7f70e03170ce274"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/conditions.json",
+      "sha256": "d1386f1391b0420c34d3e2d7975be875dab56039ed994e3a1812a52e64e3e310"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/REPORT.md",
+      "sha256": "353ba70f860f385cf1cacf9d3204a4b1ef7ecb9108aa7b664ade429a82a7713d"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/search_extra.log",
+      "sha256": "50f766d3ebbbdcbb08cef210716296d35d0db8b74a59f1a73a079d16bb170440"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/energy_bound.log",
+      "sha256": "05a9fcc58284115531a903711cdba1d31acc804b2860b861d1c19c94e156ace7"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/build_scene.py",
+      "sha256": "b7f541fc89e293bfa985b4697f56d0abce5fddf480a201291dc9bc37aef20090"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/ASSUMPTIONS.md",
+      "sha256": "5bbd0c2cbd0b2af972068d2b4424218f4809aee6b47e2d4754bf1bfb7343b799"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/certify_settled.log",
+      "sha256": "1f9ae7bcc496ea0b6478a436d647916b5a5d2404a04d529c8c4fa684a03ad533"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/regularity.json",
+      "sha256": "2ccbc6c11aa7109ad6d9274f50105dfedb74488cefd57ea006930c6dfb63b83b"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/conditional_landings.png",
+      "sha256": "b1acbbe0ba42d9daf59406f81cabb7f5cb5e08a03a9f2064038cc994668f6410"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/export.py",
+      "sha256": "0f012bd8ba8b47ab470d9f1bf234e02bdddd516e0a07c0ca071115b50eec7b80"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/tests_geospatial.log",
+      "sha256": "c232440d46ba6266c41f96d3eeb528eeb77a7771fda5a6a0a452a7d404c05cb0"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/forces.py",
+      "sha256": "4cb5b04b9290ce841fbdcc887bc7c5e53f3dc012d8813b313e07ba832579ad1b"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/search_extra.py",
+      "sha256": "5533c54ef51a75e4e8819b9d0444d0f5a220837e79e3ad1821f16cf5442815c0"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/conditional_landings.pdf",
+      "sha256": "97bb945d6e4a6b565c84233ac3a9d05612d8c1e0d01e801112f2ca09244c93ac"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/TRACEABILITY.md",
+      "sha256": "dd9723410dc20b0d0a880c567b94f17bb659733fe639073d0e95fa717640c116"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/scene.json",
+      "sha256": "12ba41558c5d54b3281816aa847e1c6d7598d8f02e54b484defe5357ece592ff"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/README.md",
+      "sha256": "416fe864e6ab63279946b9d85e1eadf518abf70f6d7980247a70c8ca8e14af86"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/conditional_model.py",
+      "sha256": "425b724b43e2fb09a2716705265acbe16bc97958bc183f733084148507af7318"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/repair_exit.log",
+      "sha256": "5fbb6433455cb6d2c1f5ce14c809cd13677b417978bfa885d409d6565cca4b27"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/conditions.csv",
+      "sha256": "cc4d74364e7200a040589fff02143c9fd701a6c8896d182560032eea2aa6f1c6"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/reference_cloud.npy",
+      "sha256": "56af991fe0ca8a15abb452e3fc3f9c692d4fe2f2fc615ba5e9db0e259a076027"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/finish_secondary.py",
+      "sha256": "41f4829bfbf00fdab696c1b5a63aa832721a7684b994e2e28116ff1ea6e7793e"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/export.log",
+      "sha256": "e99663430ca43907b892de19c794d26dc926a9a6d19c7d47c4affd38e4b1fdac"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/tests_initial_environment_error.log",
+      "sha256": "6fc1d2db27a460342107af7d7aaee23217b3fe5ef591c00b90bb2858139e390a"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/artifact_manifest.json",
+      "sha256": "d93e67874c377d82db8140b9f3d1061011e70230683ceb286539c17d8047e10f"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/search.py",
+      "sha256": "4f200f2cbdf4edf16c2e8c680334f2ae9d058ea31fdb4e9038e2429579444b11"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/search.log",
+      "sha256": "a68a095e607fc4c54c08d454ba172da03caac0aa11d1feccd35a37785243ae58"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/evaluate.py",
+      "sha256": "0946e144ef5a56b00452d0e47e43b0fbbcd4f32f9c4b1885053b9d1b1a31fce7"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/verification.json",
+      "sha256": "59f28cefe3be0d7e22b26eeb214a48dd436f4a585ac347aee57895834a4d8728"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refine_tall.py",
+      "sha256": "a4f461d30a575516198327cb3e1be3e09c12659da258f95d027ba6b06f825eb2"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/regularity.py",
+      "sha256": "65ac61dd90a32298bb702a4cd34cfa6894fe0cfc58357bef5965d5e2cff6e684"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/verification.log",
+      "sha256": "876632c41f6c8d3a1803021784a71e9d735e92f91c8e374c9fdc8cf5a597f510"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/certify.py",
+      "sha256": "db6a73e4c90742b8bda6b2a9b8c125172c929c5d8fc7c0a4030c6546a214b9a7"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/energy_bound_final.log",
+      "sha256": "05a9fcc58284115531a903711cdba1d31acc804b2860b861d1c19c94e156ace7"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/repair_exit.py",
+      "sha256": "b14489de8cbcf1a8eb71ddd0890fbb8d4ce4a532b3c5f2d3ba87f97715122bc9"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refine_tall.log",
+      "sha256": "f93aaef9b2aeddfcb03bca068ada9db918e5453391fcdfc9791088f53f629138"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/certify_final.log",
+      "sha256": "e0347cf935ff5ae23250721bf8145c3916d39621b51865271e87155fc0992004"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/tests_geospatial_runner_error.log",
+      "sha256": "2c9ddcae611634d1e054e66ed9e458d487bacfbb0fa49c140c7ba6a9ac51a919"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/tests_core.log",
+      "sha256": "0f605ac63195b581afb3b84e1621dc96e1e4ba68a1bb8b5f16e9c094181fee8f"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/export_delivery.log",
+      "sha256": "a53f745d695519891f3ac9d6a1ad285c0e483717f8e6532a4446d96ea2e1af0e"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/DERIVATION.md",
+      "sha256": "ef1c79a5b21d14d80a0d754175766235c6d7cd66b9b112cd79116bccbc860153"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/runway_projective_diagnostic.json",
+      "sha256": "81e880069f3d4a9a324ce033869a45a8aa1711a86f344f1d53207c41382656ca"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/mapped_runway_edge_selection.json",
+      "sha256": "322a1deeee545bc52ef369851f046f36804b305f676edd9539c820f98a45e147"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/A36172_CW_view.png",
+      "sha256": "5bc11afd3b414d4db6f7d690be55f1e18e8865b849087023e2106f2397d03ad4"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/airframe_envelope.png",
+      "sha256": "923c4b3ba71a560ccd5b74324516934698852407ba348b2d5ea50a0936dfba53"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/airframe_envelope.pdf",
+      "sha256": "06451e1d7807cfba283548e301ea9dd9b6f079a11639114426b7435d1c2c1628"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/sheet_830.png",
+      "sha256": "91335a24669d5dbeb4b3b1187be9aabd936d6191c800df317b23ceed5ac2a57e"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/mapped_runway_edges.geojson",
+      "sha256": "15a253c9de5c1d26d82fd42d3ebd5b677c2a167b7dc3c51013b863965b6f77e2"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/mapped_runway_edge_candidates.json",
+      "sha256": "b198f45ac8f1e3724ef68d3101a5380e8090fa437e264026fce0f4d8a4f01f86"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/seawall_detail.png",
+      "sha256": "24b3fdee33c5999908f33fd9e16c6f73eb1a838e487099b31b049af8d7c04d8c"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/integrated_evidence.geojson",
+      "sha256": "0f9b3bd6d4a4a4b9b954e0a7eb568ccc6d0c8095340382de83c93fc5c1d1d9fa"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/sheet_702.png",
+      "sha256": "d13f450bd55b7a7038fd469a017830929b61f3610f8827804cdb5e2a449e169c"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/seawall_source_picks.png",
+      "sha256": "d29150a1f1e4d6ee815490740605189290d4687a29f99fab82ff821b741d895f"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/runway_crosscheck.json",
+      "sha256": "28c10ad0e9d020b69889e79d225e0d0c36402eb95dedd81c07fd33c77b311434"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/runway_control_picks.json",
+      "sha256": "b44c0d13f362a3c4f855649f8b14f4c19172ac1211272d09978682ff792d35d3"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/hill_spot_crop_centres.json",
+      "sha256": "5116c4568198aa7e78721c8c479e91c97668accc1044fc308f758a0e44ae792a"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/hill_terrain_inspection.json",
+      "sha256": "e858464d3460b4154846c54ecdf63be62f72a0b249ef4f63fdf44f4bd3150981"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/south_registration_diagnostic.json",
+      "sha256": "0c4a626620aff73912184c2714a0930a8d51961199ac331d593b84616d39653b"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/sheet_1011.png",
+      "sha256": "48f8fc5f6774b8826daf2c753b83ddb0173f840a1e17088456e4414aa245d66b"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/runway_registration_map_view_controls.png",
+      "sha256": "9207f4ac627950d1d307b0097c8a0dea20c52e74f87e05beb757338366b509bc"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/A36172_runway_end_detail.png",
+      "sha256": "4cc17425c06aa751829b99ee8fc16af7965b39a161f46136825543fb756d5247"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/airframe_envelope.json",
+      "sha256": "49f84a515af128d19682c156fb81c06cf3019a830ac1708b923ddb5f9d4746d5"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/airframe_projection_intersection.json",
+      "sha256": "eef47dcd7b800cf40e418771e3e03124ed654a2fbb866b80845e01b59b97625f"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/south_runway_map_controls.png",
+      "sha256": "a2d56f0862cf04c7dd04f6f4e50ad8cf027af768406b2d7993f0665aeabedcaa"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/roundabout_map_check.png",
+      "sha256": "bca51c5faea1fae4611f460bd6371641b9420426383b250d4a515960af3c5b54"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/south_projective_diagnostic.json",
+      "sha256": "994eee33a9db13338d8fd335598e23d812237afaa461361eea95179500e0adfe"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/roundabout_photo_check.png",
+      "sha256": "4dc399b85f054393b2b0e300e18bf72d3f4d9a8c894d9ebcba3a4017ae1a6389"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/map_mosaic_manifest.json",
+      "sha256": "05572079470c4ce22765307dbf05096e171898b5a8ea6d6d09ef28c941d4a6ab"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/south_runway_map.png",
+      "sha256": "e5a4ae8262a1e6e830090381919473d25ba9523785b939081ad05c23200bb3e4"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/hill_terrain_picks.png",
+      "sha256": "90d8889885cd04ad8258844b247493b60d029bf7eb321d5b49108c7b7c045e56"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/runway_registration_map_view.png",
+      "sha256": "217aa033366dda2747fa6a3aded4bf0d4e6d79a3350503296dc3b5753e7d3147"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/historical_seawall.geojson",
+      "sha256": "b58e02585c12a8f6e452a2bc7ec3c419afd303d4e3e778e102a61fab0c3d4869"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/south_map_sources.json",
+      "sha256": "e6a2b657aa132a34d2cf6c99a595dea49e94b7da75ea3768ac5aad9071389d2e"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/mapped_runway_axis_check.json",
+      "sha256": "230864360ee250fa073150114524b82e2506619d0fb0d6062e14a2c299b3dc20"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/RW13_threshold_detail.png",
+      "sha256": "c09211f4c59d98acb4ecc598edfa71ca7f018eaae44635214413b6a4311bc573"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/printed_grid_check.json",
+      "sha256": "81c8e2d67d5d319539b1d635a097c6d2ed3558e35c005b3eecea5ace841f436e"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/runway_registration_diagnostic.json",
+      "sha256": "bcef2a83e92867bb3f226bccce6e3e0dee002306139dfe92139f43b8a76dde1a"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/mapped_runway_edge_candidates.png",
+      "sha256": "ab4fa6e25f8bc2d1012c89c1721ab13d83d578b2e46e48223e866acb4b71a58f"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/south_control_picks.json",
+      "sha256": "29c17a0556a157ba99de473eb09716ca6c8da0f47792c16bae6a97948c040420"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/mapped_axis_candidates.json",
+      "sha256": "c3a09ea0adb35d29eb8f759aa8fc6c4febc9bf6db0bc4bb093e57b4f00585942"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/runway_photo_diagnostic_view_controls.png",
+      "sha256": "f1741b17c3d4468226afed2402fcc438e4b6d39c85bd2e09012d54310e44c1b3"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/historical_hill_terrain.geojson",
+      "sha256": "f653dee81574ac7cfe05fdb583fbd8afcf6fc2f6730afb66af84e57cce49fe2d"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/runway_registration_map.png",
+      "sha256": "4bc074a41cd43a51dee57b6758cd868128024614aa01e3128a80d2b5ac212481"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/runway_photo_diagnostic_view.png",
+      "sha256": "de5fbb09dba5b59c320346bc1fc69cf8b8d3cc4672fd4d3c4ba65d561ff4de17"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/mapped_axis_candidates.png",
+      "sha256": "5de5b1520d4ccdfcbed96e2198ab568ae7063ef2ae916b786f08994a70aab739"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/runway_map_mosaic.png",
+      "sha256": "e6daae428f76350a2d4bb6108a3298244bfb2aab4308f7184bce5a56f2e169ff"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/historical_approach_lights.geojson",
+      "sha256": "8526a840b9e05a75568b8d5580f7d9c7445c5d7c465df283cad7858b8bba41af"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/rejected_registration/runway_control_picks.json",
+      "sha256": "8162016e7c6f3b3c213bce8f5e46bf736e3ac8c639cba6afd54df63306abd056"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/geometry/rejected_registration/runway_registration_diagnostic.json",
+      "sha256": "cf43f997804a98cb7018b673f7322909fcbf6d7a225e29f58c9a1da9efc92c06"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/critical_conditions.py",
+      "sha256": "35a036902611b0f20221a994d627f8c9817fd15f8f94305d747d2b6c3483e621"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/taylor_domain.json",
+      "sha256": "04a324acb0b27a9c99bf02893ca83201d76b6958b28d1016de879eb0646dbee4"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/critical_conditions.json",
+      "sha256": "dbbe8a803954f8b661afeae2b632f6a052ae80b08685728e160b35dbf9615a75"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/taylor_domain_refined.json",
+      "sha256": "b2fcb316252fa00cce893ee164914d28eed96e8f85fe7e048b9fc3f8985c927d"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/target_polish.log",
+      "sha256": "ee2291bc748c35f22336328c10ed8ab8bd06bf984355bdf82e006ac5a942fd94"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/export_refinement.py",
+      "sha256": "68a8fe48b3f2462b080aa8242361825d13b053c322deb06af3c6404fb5760fe6"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/verify_frontier.py",
+      "sha256": "6a96c8a02a514482561aa92d9fd197c51e4b034e1b06e3acf73af502bf315bd0"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/retention_urban45.json",
+      "sha256": "1cae478e90a309556de97c44742c00e3448f368df132372e9ad07ffca3e116c4"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/parent_snapshot.json",
+      "sha256": "db37526d45ad0856b7756efb0801ce1eea6e4f96bdf698873afad79e156c5080"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/strong_bound.py",
+      "sha256": "d1557ca18cfa22885671d84aacfb025702c78f71984f4e134675ff2ca0ce3bc3"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/tailwind3_formula.json",
+      "sha256": "8646c6171e5192e1e58ae15e24410630b3a801315c954d6e7ffa07bed8293e36"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/REPORT.md",
+      "sha256": "60b8cd89d3f357491c126b5adfe83906af5235c062f29509f8864e3ac43d38e1"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/domain_probe.py",
+      "sha256": "8d5bf2fc903c7f03c503c9ee319fe81e93186fcef4655c7add409d151e56842f"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/continuation_urban.json",
+      "sha256": "d7c2313adbd73f2790ce54700f5f0638caa08a013294853df49561c9794c880a"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/inspect_active.py",
+      "sha256": "8690a1178a0d50de0d70484de90852d5f88cf335fe41795f2a42602134fb967a"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/retention_calm.json",
+      "sha256": "d6de324a67f8ba32a319e3d5a0bf483b20a749e1369a588e216d2b476bf5ee9e"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/verify_taylor_domain.py",
+      "sha256": "0a21a4e6e47536e635a310f6c05bf6298a6860d234a6bed843177fa4226be387"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/taylor_domain_final.log",
+      "sha256": "f63cf4adef1c7a2822d3af3b1d44ebfb89edeaa9da3e728489ab9b5ed2ca1032"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/retention_tailwind2.json",
+      "sha256": "5bf4df27b630ae01675c7da11b0f7bc71b1cf2d804f1755a9845e991bc50e9b4"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/tailwind3_verified.json",
+      "sha256": "1530b96c68ab7bfa128dba61af2a459c6fe8c975cb4f3e70b007553bf0289e98"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/urban58_verified.json",
+      "sha256": "794435116736d9a94deac61100b28633facecc6a682b944bdf975adcb6c51450"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/active_branch.log",
+      "sha256": "ff5466dab0d167693c3308ba050469a68d4b566886765c5df7dcc94d2253e365"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/urban58_path_controls.csv",
+      "sha256": "1236b4cbdb3f567d61cd37a5f51a284a1d1914843572abcbda90e2365071bb07"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/urban58_pre_secondary_polish.json",
+      "sha256": "87ec6969c8fa702369fd9d425c6140e3c3f1a6f0d090f1ba2f2eec7388981483"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/tailwind3_path_controls.csv",
+      "sha256": "ebddb0adf0abf84f01d4d213b5e1ab7afc6d1b78cbfcd8cf8809491fd9d2dbb2"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/retention_buffer15.json",
+      "sha256": "82832c6ccb7eac5c6d563566f242fb47bac90b5e1b159cce7516b83efec6fea8"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/target_polish.py",
+      "sha256": "a75765990dae197ac0051d3f78d9bb6d2156bbba37a71135850b30181580bc1f"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/polish_frontier.py",
+      "sha256": "2313d2dd32c9f86dbf7d57d00ee4dab08150f3140ab05179e584d3db7d367ea5"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/box_certifier.py",
+      "sha256": "89c189d5afe1f0cb1ec5b8520c0e956d5551f1a7537c732fcdfc70e8274d1fd2"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/tests_geospatial.log",
+      "sha256": "0c5b9385d3e288ccac90e88b3a2e57269f17a8cbc122007aafa74ce027262458"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/domain_probe.log",
+      "sha256": "e031487caf41a4e439d0afd78449b2e39952c4a93ba1cd4ef317a10b191f9f6b"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/retention_urban55.json",
+      "sha256": "1a175b6b054f2fab8579f9645a62ebb9c65ceaa66059abc0084111edc8962422"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/TRACEABILITY.md",
+      "sha256": "6074a7e06b09e4f1975b3f2365abd84e9d29f6a06c4e690fe7d90ceb71ccbc18"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/taylor_domain_refined.log",
+      "sha256": "ce697c5ddaaa512181aa3c12ef82addb457eb42fab0d6fe36931e1c62de15823"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/README.md",
+      "sha256": "fdf827e21bd4d5540b12aa12780d17c174b022d95facf1289942d8c64c87a3a3"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/active_branch.py",
+      "sha256": "14145932bc1bf2bbce7efa042734d02187cbf47e339b8eea9353d75bd6d64f6c"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/retention.log",
+      "sha256": "457c57e839c39cebadd29ec68d7aa429b594c99a0abd0f75be33458dad187e61"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/branch_domain.log",
+      "sha256": "ec54ada0b6e6c606e9aae66adad2c5d8d2bec9b99cf662ad9ef08fe5e4f1e72c"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/debug_domain.py",
+      "sha256": "ece9b1d3f0c5b69170fec6674c23fbe4df3ce3e312b50733abeb14b377eb90a9"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/verify_refinement.py",
+      "sha256": "48bf503202acd7da4fc770c98c5658e0dddb6e857f61de73f9f8464f4d36345b"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/urban58_secondary_polish.json",
+      "sha256": "da2556dcbcfe09191803acbaa7774527868a6313e78f7a1790eb59bc4a45e73a"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/retention_proof.py",
+      "sha256": "2f95fd10ec18e091be8a150e5d0e157fc061305c4c2d5f4347528ce103aeb14e"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/box_certifier_initial.py",
+      "sha256": "95c9c4ad9094b36e280e0716a4400c654e83a4346b11a41a5e6156c97f0d7bc9"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/new_conditions.json",
+      "sha256": "2d3a78be1e70774a24efcdc554360f2a1ac9c29cd1a081784839aa6577d8be31"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/continuation_wind.json",
+      "sha256": "6c4e0dd51da2720f9ea24546c805114e4b9fef2c65ebd0a3c0de0c8013feb507"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/parameter_taylor.py",
+      "sha256": "4bfbd74e1fb64f92e75827de7f34dacf0064a741f133860ef7aca0586b2c5732"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/artifact_manifest.json",
+      "sha256": "ad2ecd821ea9afb8fee12c170097213827a6305694d71aa701a0648cb1ad0013"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/frontier.log",
+      "sha256": "1c102a76cc82b14bbf842b870ca3ddb1c782ccd812dbff8f7bd335c30678d9dd"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/test_refinement.py",
+      "sha256": "7bb1874056ca91969c7ddf439609a9b02fb072aa75879b8a5203e71078877ecc"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/tests_initial.log",
+      "sha256": "c2fef441f9b7f732fa97186e9871cdfd6c3734cf62c0ff91ba13a33fb532e421"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/strong_bound.log",
+      "sha256": "105458becc5c2e9290ad2c1fe2ce6350ad994fc7799c45509c02415d6f0d76f1"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/verification.json",
+      "sha256": "04ba4e9993ceba6f686d6123ef35b9076feecfc8bc54cb9021a8af8611ef2677"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/critical_conditions.log",
+      "sha256": "bb6a3f0665e21f45d9d4110a2e942a3cbaa25f9b855ac7f8d536c0edf1b97e2c"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/retention_headwind10.json",
+      "sha256": "1ea0a927d3ee10a440599d12fd60569f7589bb0593e8511b6a0f288ea1335a40"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/branch_domain.json",
+      "sha256": "bec7ec86199e0cde56639acbe67fa3650e48fcd33e1c0024b0eabd75dc35744e"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/taylor_domain.log",
+      "sha256": "7de5061d0261aacf042fb96a425fc3ef989208f867ebed1f2bf7176b298f9297"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/continue_cases.py",
+      "sha256": "b879aa9a607f67d5c33241c8a3304840b68368c0a18473766f94f4310f89feb2"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/verification.log",
+      "sha256": "04ba4e9993ceba6f686d6123ef35b9076feecfc8bc54cb9021a8af8611ef2677"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/continuation.log",
+      "sha256": "b4d9034392665ddec0bb4d0a2885ca5c7240f7620a019620d7517bc5358fb484"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/retention_urban50.json",
+      "sha256": "7fa60571c3d1efe4732e66b845fd67ca1dcfd966d33be8c0d9575839508f09f4"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/target_polish.json",
+      "sha256": "d7ee4581f925df17a08e8f397dea88e3911133a348d611d69f954594156a2ed0"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/domain_probe.json",
+      "sha256": "0890e4cc84a309f4ee0e278266024e571b62c1ff1afc41a1ad7f2ef3c7336499"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/urban58_formula.json",
+      "sha256": "75feed1344b46109ee0076eb22ab8bda8c6cd8699bc5422edfdf2621bdaa6739"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/active_branch.json",
+      "sha256": "e02a0e70acbba01bdebc1761e42489543ff868c16d01b926a15f1b88eefdfb71"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/strong_bound.json",
+      "sha256": "5eb49150666a138371c1eeb178c4232c514d8e6f5a69b5158e9ec4565d676b1b"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/polish_frontier.log",
+      "sha256": "86bb0c7630db59c5ab7111b84aef47f7206bd874715e839a527b047723526213"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/tests_core.log",
+      "sha256": "825c6192e10525daba7d3765ede4b376c69915ceb0b30ef8b3ff60db7c70fbfc"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/retention_mean.json",
+      "sha256": "ddc18f7f0140632337b015553ff0d61d35ebd8dc3d0758d9e6b57461bee9bb30"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/verify_branch_domain.py",
+      "sha256": "045be46e395c758894fc656d8ec79558d4405ecf5e06062089a5676c8faf0b8b"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/DERIVATION.md",
+      "sha256": "eaa7f6485e0c005ce055f4f3bb1794e1ec713a43d8327a002fd0e80407b7c5f9"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/geospatial_tests.log",
+      "sha256": "2c0ee25cd4d247593ba76eb2894a2b93f3445a82180ff505ee79f126aeeed0b5"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/root_attempts.json",
+      "sha256": "b32dee5e8cee5aead3fa2cbaf2a590582f6731ec9bf9141c3b2e318114ad0bfe"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/REPORT.md",
+      "sha256": "b64bf0b81981a861d86d59d3b194e77ae0bc82ffc9daefdbb6a84281c2556eb9"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/retention_replay.log",
+      "sha256": "53d15b423f355405992caacc9bddb5ea2320b4b1300f4ce8ebde2fb3688eacde"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/interval_root.py",
+      "sha256": "081fc7ec1775bc23d6bf4976c1511cd07a195bbcf316120f4b3b847fbbf11d68"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/validate.log",
+      "sha256": "95420ccadd381b80d21c6c7b4def44b6bf9a7c44b0cf7fd51072a03d41d46926"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/TRACEABILITY.md",
+      "sha256": "7d15327b586619d1ee9581a2437227c2ab257f423ea75a0793225871890eb9a9"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/preserved_snapshot.json",
+      "sha256": "39bfd61c8bea3d439ccdda5cdf1c9630351e0ca2a397eec1b9b328020f393e9f"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/README.md",
+      "sha256": "00485ec2a4642fd3946363019ac01c7e1838786241fa22055f7f3c920f6f7157"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/validate.py",
+      "sha256": "25edcaddbd28359f7382e35ccb03e0859a4843433ff30c236c559c69c3734104"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/certificate.json",
+      "sha256": "21fc4bfc4013e0177d4675b0aaf407fb275d6d7b0a5c575d1ecc2986c882af9b"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/retention_replay.py",
+      "sha256": "4bc55ed3ab9083a53f7fe9302b26de761d4c8baf185fe21ad65c05e60c386191"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/retention_replay.json",
+      "sha256": "84b6b721ff9e118c524019359fea5b9d7b2da2d3e18f641fed09ce0446f200f7"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/artifact_manifest.json",
+      "sha256": "4962a7e76ed45575c637ea77275530138b37aa57659bc5c2aa0b67489cd72a27"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/test_local_certificate.py",
+      "sha256": "1d8fadd878da40a07ada1f7c6fac2cc4bfeca5c0fc184df7877373c50ad5002e"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/tests.log",
+      "sha256": "c7a7f3b4fca70a4fc80355848c77caa93a7c22c37ea294418dc361a8604cfbd8"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/verification.json",
+      "sha256": "78b5650a90f17a0fa3002a971069704377e799fa7faa358e43d6dcbb7dbccc0f"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/verify.py",
+      "sha256": "1b3cdc21073d37bf8895259ff61f2f7f2e23cec51e7e8e26411267fd497aaf0c"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/tests_initial_failure.log",
+      "sha256": "f6c136aa729122c15caa9ca7b497fe9269a47d05a08776a6e930300e55fe2131"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/DERIVATION.md",
+      "sha256": "7b74e37514f4c59f34762fb54d70d93f0c33aaaccc833eff0db10ae4e1143ca2"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/mean/formula.json",
+      "sha256": "c71ffc187b81964de343c23003b3ab581f01c8041ccca40dfab7e3de3a11722e"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/mean/state.json",
+      "sha256": "7babe283ff79b27866c84f3723ba33c612eea8347b7b3751b408db23acd86b52"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/mean/result.json",
+      "sha256": "347a8aca1e118e0a6ebfa69b3f46c2e715b24fa882d3d6003f2db778196af458"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/mean/continuous.json",
+      "sha256": "2fdcf91b3921d910b8cc9df1f34163286b2cd20ccfa88b8aee97dc104610b41f"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/mean/path_controls.csv",
+      "sha256": "367a6c4727aec8614b1e0e89847a23fe611c44e1d5eb3475bd5c1f07030a725c"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/mean/energy_bound.json",
+      "sha256": "1755206a4a6e428b5a0dfc46ad554ea7d4e69bcc96b446b4f51e0074883e25f8"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/mean/verification.json",
+      "sha256": "8d48141c856813582e2fa7c5f0568994e0dba3e7050dda699d15d95288d39e09"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/mean/runs.json",
+      "sha256": "633e0c221bcfcf1eb8b1b5c6b095b3b2237de4ff992fec9621a1a9447df734d1"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/buffer15/formula.json",
+      "sha256": "4f438671e4eed14c8885bf297891a6943d7fd48d710c140c71d0c682538afcc1"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/buffer15/state.json",
+      "sha256": "d5d540b91ddaaff201a72f48dc01345157fcf0c6d38e31cab1a22166e2bedb60"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/buffer15/result.json",
+      "sha256": "39fb4ce4bfbcaec2922643b6ab18922630a30a7ea60edea7dd648cbc882060c9"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/buffer15/continuous.json",
+      "sha256": "217ab2b3f114c1b3817224f0c7cda9f897d7dabfb1789d8b716bebda023a1663"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/buffer15/path_controls.csv",
+      "sha256": "c7bc7a0a79239286b8e1db286f5cf680690be0895d0b32cc33b61ce99a6e227c"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/buffer15/energy_bound.json",
+      "sha256": "18d57847aa7b777da876954440d329d1149748ee4e0852743fb651163fb04dd4"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/buffer15/verification.json",
+      "sha256": "c516097803b664c70c6551f8f012fda7262e60732cf094f801f7c58c076b17f9"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/buffer15/runs.json",
+      "sha256": "b6566e80c8f8883410494e3572d4e367a2c95546e1b925ce54e03e832c0371ac"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban55/formula.json",
+      "sha256": "2eee682e7b7cae520247b8a17a85e438af7f64cb9da8727393488458cdb04397"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban55/state.json",
+      "sha256": "a4526fa32fd6944efea60477a9801723f3de2fb68c4a4b69ffb0223aed393b37"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban55/result.json",
+      "sha256": "d7db59afd9758e233573a583625fc3f4538c1e14ba397b292fab445ee0f077aa"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban55/continuous.json",
+      "sha256": "4f496f9a23f92f292693c9c424cf29dd9435061a7172d9ff3700404c00e48f54"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban55/path_controls.csv",
+      "sha256": "c244c3f555e6c1e5e2a3f818c76587559f09e2af6c77cdba5ae7e4e10b0a33f9"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban55/energy_bound.json",
+      "sha256": "6d0135cb585802f4b28bf676ed45e4a165a3538c7405715bcdc40c22434d3daf"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban55/verification.json",
+      "sha256": "1a075a24fd4838ed077b71d8720cf3bae172609857256713c0fcea028cb9d2ea"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban55/runs.json",
+      "sha256": "2dbf6b234f4328855ddb09b3ded7b94d98ab1d4fb2f8d20ddf4b49b2374fe2e0"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban65/state.json",
+      "sha256": "08e7fdd96e1eadcf9ec7361ae28b7dbb9d591416966b32ef327562822a934668"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban65/runs.json",
+      "sha256": "68ccdc8906240333ecbc0a1a117d6d35d5f972641ea6aaaeb9fa095f2b952908"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/calm/formula.json",
+      "sha256": "182d56cd0585a3f16e53bcc0b68fc10b0789d16d9840730cc3c25ae9e85f5303"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/calm/state.json",
+      "sha256": "d5af5ae1c693a3c7ce4e13d41c868175e1b45bab825ebad6f3deef0896d68fa2"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/calm/result.json",
+      "sha256": "9d1d7cbf0f049c31fe07ab9db7afa051af2d3529fc2acac5f769caed2b93892e"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/calm/continuous.json",
+      "sha256": "98d54b16e8da9c6f25f7ed8c59883986dea0847a7369264de180f95b991d1a62"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/calm/path_controls.csv",
+      "sha256": "38c9d2a5803f1cb725c323cb9e498374a2e3123a241e522ca805e4d33745bf38"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/calm/energy_bound.json",
+      "sha256": "bc720829c96b712dce2b598426e721bd83bccd70abadce59afbb351ef073ed59"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/calm/verification.json",
+      "sha256": "a5dbdf8e167d3341a39f578d4d683c55e8817c5bb6345bb70d355c5f32b2c9af"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/calm/runs.json",
+      "sha256": "570c2a3df501d33d17fe08b6b3f002cf40fe304f127389873a08a5c9d07133a7"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/headwind10/formula.json",
+      "sha256": "0f56ab2c745d3e91389b62ac31e9012dee6f15f7f2981719dd524682f6b90f24"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/headwind10/state.json",
+      "sha256": "dde9d16dcfb961bfc01e4d03ee1f10d99d20cb8979ef47f230d38bc461482a3e"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/headwind10/result.json",
+      "sha256": "b06430872d3545d950301e568a18a92c43d8fa7b06eb4eeb41c5c9c342ed440a"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/headwind10/continuous.json",
+      "sha256": "ac6df5def5902861bdeee1ad822edaff50d653218433ea256e6d2f54726ee2e7"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/headwind10/path_controls.csv",
+      "sha256": "dd021547167ce92368734827125a8a21ccb13853940c5d6746a84e96c780065b"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/headwind10/energy_bound.json",
+      "sha256": "f33c49aa76785e38160027b49c14feeff41b18abaca0119ad20b9beac4607e4e"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/headwind10/verification.json",
+      "sha256": "3e7bf20a727a4481e137f333bf61d21926a1b63ded78d224de50b2021b9dd786"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/headwind10/runs.json",
+      "sha256": "559f7af7e6794c5f619d7e65789a36799a5cb80c1a127884c877313d51b066b4"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban45/formula.json",
+      "sha256": "e36f73a22be700ea4466c4a6e1e4a3fbe9e14fcd18183fedd6e09315b66080d0"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban45/state.json",
+      "sha256": "76c88b07833c19c47857c4d3215006224b3c9ff8ee4e6112b6752e90bcc63596"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban45/result.json",
+      "sha256": "4194802593659bce77a9e7007d70196b47d54b0d2157395f3ca99e76cef9905e"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban45/continuous.json",
+      "sha256": "e799df0b12d395bab753f85115ae519719e2d923a215f41867a0df051d81ec64"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban45/path_controls.csv",
+      "sha256": "dc561937ee335b02744951a314b9f687946453a769a5fa6970ed3f1bf700733f"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban45/energy_bound.json",
+      "sha256": "33af1ef4a23a5c0ae597169de76d00bb615be240448aa570bbcdaac0e62217e4"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban45/verification.json",
+      "sha256": "5e728b19171c2804b904df87f6894ecae49112c7493dcd1b02941090ea55de88"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban45/runs.json",
+      "sha256": "54bf16b16c09af24bd8022c34e63f99bd24f4c2b7cab7b200c3b699e5b38b72b"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/frame_shift/state.json",
+      "sha256": "fad852b3cf0e8d538557fc8240ae04b13e763f8e05db7223eda32cc7ec63f39f"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/frame_shift/runs.json",
+      "sha256": "6e0da9d28454e65d3bbd5e0e1b3b5751c5b4abae3efc301ee5dc3a4467b58d24"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/tailwind5/state.json",
+      "sha256": "59c07380358e3ff2d622cd48ddb5d23686a1e278f90d91e1307f82bd94dea041"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/tailwind5/runs.json",
+      "sha256": "8b308394420b81ff57c843225c22cb5de359a8c9ca80246026312ea5795e0514"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/tailwind2/formula.json",
+      "sha256": "4f8b39a610e8de504fe70e9ef882874c5288a0c767d4bfd28b3553ae8e98089f"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/tailwind2/state.json",
+      "sha256": "f69213e5c71598f6a8a27cf0c65cbbc3ab4829623e963be07d71ce0e32a41313"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/tailwind2/result.json",
+      "sha256": "99eb6e9b83bc8521769a0ef0a51ed7e378678d67945af648cd61a59103e43997"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/tailwind2/continuous.json",
+      "sha256": "a098d27e912459433ea787f65a1389e467e7a855c8aae0799a7e4688c56bbe48"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/tailwind2/path_controls.csv",
+      "sha256": "6d2be46fa5dd05327b4d742d98d3192e26f39281fb1b8fc8f9152c07eb9f8b69"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/tailwind2/energy_bound.json",
+      "sha256": "05dc6250d471ad90055116ac57f2e39ea7a5653644dc23f0ed30d93f221eafa7"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/tailwind2/verification.json",
+      "sha256": "d100e7eb34980b4c9ccf468d640b648cf5ff8270ce801cee2ebd0881b694404e"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/tailwind2/runs.json",
+      "sha256": "576f616e5749f3a12a85b82ec11a90968046b87480c45e0103a1b2036246a0e5"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban60/state.json",
+      "sha256": "768356e1cf1f25b4bbcbd68a738aa55179e87d3ded0674ffb31a7544bc8d3ab3"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban60/runs.json",
+      "sha256": "7349de201eb5c21f5df7f922d4719b15d271df84dc0a14a15f5eecef0018617c"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban50/formula.json",
+      "sha256": "2e315d1c183726ab9af9c796c4b177b0ec05ef1fefa8925c0d7e1da622830ac3"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban50/state.json",
+      "sha256": "e3a5ed5915f2a7552ef3687e4cc6b7d125a30725ab07fd6065818aeb5f5ce453"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban50/result.json",
+      "sha256": "560c42ccecd200aa40635a2371fe8a3f59d07d4bc054806d9bd60d22ecb32e6d"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban50/continuous.json",
+      "sha256": "51ca597771af0fee0a2cbfd79261616cba500cced17c3a09291e71308267a713"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban50/path_controls.csv",
+      "sha256": "a3b4e80d00f7e1c29bacaf0ce046c5dd8e327fe4bcd94ac731a9ff8d05ebd1b7"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban50/energy_bound.json",
+      "sha256": "aed71cf12aaa525f195bf556ea60ae121cc4389d6d4bb7df7d4b095d3f4230bc"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban50/verification.json",
+      "sha256": "ee14e03aaef9bd262bd750008a5d8cfad38672dfc58e63b19fcd392ece22f0bf"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban50/runs.json",
+      "sha256": "4a61d358f10fbe9c4675bde15ee0b95f32c927a918e8a874a38b2303cd8d6cd2"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/calm/pre_secondary_polish/formula.json",
+      "sha256": "9b6593a172f2568cf52c6f519d8c8eb762f0421c8ed7f509151962a5d1c45dc8"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/calm/pre_secondary_polish/state.json",
+      "sha256": "f91569d3a4aa3196da86f6f93061b8ef1e238a387cc856a4aaa3af254ccdd11e"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/calm/pre_secondary_polish/result.json",
+      "sha256": "3228b68d5c40394b9318f2c766a6b6292d8a8ede6752eb320b60c87b04b62b8d"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/calm/pre_secondary_polish/continuous.json",
+      "sha256": "882aa19d40d2bc09e95094d2e42a75d9b6f72bdf16f0b7980a1c62807ef4dfa3"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/calm/pre_secondary_polish/verification.json",
+      "sha256": "d16c9e74db67f587dd8ad796153ee9c3717b288f36d90652d57ed683b5d06797"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban55/pre_secondary_polish/formula.json",
+      "sha256": "b14fe880b3d80e06f533ca16f07353d111e15081348064f3965a6879c6901a4d"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban55/pre_secondary_polish/state.json",
+      "sha256": "fba67f08642b049cece1169fec0284969428adfb3ed2f9d6dc1833771fa9570a"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban55/pre_secondary_polish/result.json",
+      "sha256": "b1725ca80944a486feea9b2bc1c8d2c9eb0e2a984c51c6e78127a1643d63c156"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban55/pre_secondary_polish/continuous.json",
+      "sha256": "d5984a241ee504c44effab93826875bbce3d68e8c2a66487242018bb78271c4d"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban55/pre_secondary_polish/verification.json",
+      "sha256": "aa7b7f2c5b89fb3d8d5e07be10f9af29a7e1d1446899ebb2521132e39046f88b"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban55/pre_exit_limit_repair/state.json",
+      "sha256": "a1a4da04ce0f9889d06ffe809fbe843851d1b86946f6d8a860dfe86d9ac94516"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban55/pre_exit_limit_repair/result.json",
+      "sha256": "3e6607d3102273989e17c3cde111ec8378ba657ef1f1dc2451e5629d77ffa817"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban55/pre_exit_limit_repair/continuous.json",
+      "sha256": "b25afc60cc1d69a04474248ee0e3bb63deee43a18fbb6836047190ced3982d76"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/assumption_solution/cases/urban55/pre_exit_limit_repair/runs.json",
+      "sha256": "d476c327fbae42a86c6002020efae6f53013a7c3ffc15bda60c7f717cd955992"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/sources/all_hk_1993_index_00500.json",
+      "sha256": "cffbd988e3ff3dfc3470fb749a317a83c3e0df6fda9a46f064ba76177a646ac8"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/sources/all_hk_1993_index_05000.json",
+      "sha256": "a016681dc74cc78969fd620e1fb5da263d2b8a89061dc13f90e1e59b42a32cb6"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/sources/survey_archive_check.json",
+      "sha256": "afb2f4d4da671d756b148148be4fe2c81378a80a971dfe05b954dfcb6ad0b05b"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/sources/all_hk_1993_index_01500.json",
+      "sha256": "564a158a077f270548cec427a22de1dad18cdf9e4cdeb1956dddaf967bfa17c7"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/sources/all_hk_1993_index_04000.json",
+      "sha256": "8354e5d07625ee810dc243d211a8f9d1f6564b88ec9d80d7c67a320c532f4189"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/sources/survey_date_numeric.json",
+      "sha256": "0eeba9421e17a9bb5c70b7fc7a97801e61d6fb76390ce40339662b7f18958f0a"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/sources/all_hk_1993_index_03500.json",
+      "sha256": "7d51dec67676f8ca90822951ff8ec62fd4fd7d1399f83c9e41fdbab799104743"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/sources/survey_plates_public_index.json",
+      "sha256": "e75508c5102b2facb1864a2f1d5dd215c761d294216764fdc0d10a1371de677c"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/sources/all_hk_1993_index_02500.json",
+      "sha256": "64428a90b0b8713236d6fc47b49085d3547dcd56a93041fe5e3bc71273021649"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/sources/all_hk_1993_index_02000.json",
+      "sha256": "b37314162cdaee15d84254923a17f4a7f17cef30f7a940dc056b7a8e65dbf844"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/sources/all_hk_1993_index_03000.json",
+      "sha256": "b28a2494f81516fedf282f419c3b7561c893bf713a8a1d3240ff66419246c7f3"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/sources/survey_year_count.json",
+      "sha256": "00a8efc6560a780f06dd71aeccb425c53e336143350585590665fbf3fe3e450a"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/sources/all_hk_1993_index_01000.json",
+      "sha256": "5bb5c62699c4875bcef83eeae9d444ba90d96420054a46bd090a570092a14bb5"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/sources/survey_date_public_index.json",
+      "sha256": "1f25a9136281faec7e1d9006432db221d8bf8e241694e5626706958b66d65f49"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/sources/all_hk_1993_index_04500.json",
+      "sha256": "10d96b39b0d68d53ce1a884629a12ff22ae9a5c8f6a8cd0339dc73d779fa7cd6"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/sources/survey_name_simple.json",
+      "sha256": "f7f42962b62783a0dcdff38d732dadec22002a209df6c6f9a01fb3d848dcd8a7"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/sources/all_hk_1993_index_00000.json",
+      "sha256": "156bca9c7a2dcc08507471b2953177a62ca34f2801ee2e5c9875f745e5074230"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/sources/retrieval.json",
+      "sha256": "94e49de6e010cc68ee13779341c969db2d6aef4269b8f846d9d709bb677eb2da"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/sources/all_hk_1993_index_05500.json",
+      "sha256": "9f9f454ae0250b2699c21865d9b709838834a9b47b9fa74039ffd2e81311702b"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/prior_checkpoint/previous_manifest.json",
+      "sha256": "da9d12be09f1db5a66b06c11807906abafb20bac27b9f7d97071c041396e2037"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/prior_checkpoint/REPORT.md",
+      "sha256": "48c14268afc265d3bdea69efbd9747ef6c4d192bce1a3a50d9a0b2b04b7de861"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/prior_checkpoint/TRACEABILITY.md",
+      "sha256": "0e63050dd91b86d4b1b76293814486c3ab105dea4f981bb9a77d608c723b454c"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/integrated/followup/prior_checkpoint/README.md",
+      "sha256": "43a52ad552cba42f1eb717296c93ab2f0696540dd5d10164784ee1533193a8d6"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/analytical/coupled/existence_and_bounds.py",
+      "sha256": "2134b6ce05a12b37d3edb731f4d91650926ee667be0a28999a7a2d5a9e52a3a9"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/analytical/coupled/certify_candidate.py",
+      "sha256": "028eb9c2b39041793ff8d8973abd9e92682325e628ea9da375dc1361b963777f"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/analytical/coupled/continuous_certificate_refined.json",
+      "sha256": "774f34ad182a5015eeed799c910cde01eb6b297c1b4e6c4a119582b0d83db973"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/analytical/coupled/solve_coupled.py",
+      "sha256": "618346126b42cad2b92fb2cf4019ec004db5866439790a41d4117af5d68510e9"
+    },
+    {
+      "path": "frozen-source/research/checkers-runway13/evidence/cal605_reconstruction/noaa/README.md",
+      "sha256": "64c308501364f3d9d095cebfe4612cd927d4174c96d1baf0f9279cccf549dd81"
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "certified": false,
+    "reason": "interval_unresolved_not_infeasibility",
+    "unresolved": [
+      1,
+      0.0,
+      3.814697265625e-06,
+      18
+    ],
+    "processed": 78,
+    "source_sha256": {
+      "integrated/assumption_solution/refinement/box_certifier.py": "95c9c4ad9094b36e280e0716a4400c654e83a4346b11a41a5e6156c97f0d7bc9",
+      "integrated/assumption_solution/refinement/parameter_taylor.py": "4bfbd74e1fb64f92e75827de7f34dacf0064a741f133860ef7aca0586b2c5732",
+      "integrated/assumption_solution/refinement/active_branch.json": "e02a0e70acbba01bdebc1761e42489543ff868c16d01b926a15f1b88eefdfb71"
+    }
+  },
+  {
+    "certified": false,
+    "reason": "interval_unresolved_not_infeasibility",
+    "unresolved": [
+      1,
+      0.0,
+      3.814697265625e-06,
+      18
+    ],
+    "processed": 78,
+    "source_sha256": {
+      "integrated/assumption_solution/refinement/box_certifier.py": "95c9c4ad9094b36e280e0716a4400c654e83a4346b11a41a5e6156c97f0d7bc9",
+      "integrated/assumption_solution/refinement/parameter_taylor.py": "4bfbd74e1fb64f92e75827de7f34dacf0064a741f133860ef7aca0586b2c5732",
+      "integrated/assumption_solution/refinement/active_branch.json": "e02a0e70acbba01bdebc1761e42489543ff868c16d01b926a15f1b88eefdfb71"
+    }
+  },
+  {
+    "certified": false,
+    "reason": "interval_unresolved_not_infeasibility",
+    "unresolved": [
+      1,
+      0.0,
+      3.814697265625e-06,
+      18
+    ],
+    "processed": 78,
+    "source_sha256": {
+      "integrated/assumption_solution/refinement/box_certifier.py": "95c9c4ad9094b36e280e0716a4400c654e83a4346b11a41a5e6156c97f0d7bc9",
+      "integrated/assumption_solution/refinement/parameter_taylor.py": "4bfbd74e1fb64f92e75827de7f34dacf0064a741f133860ef7aca0586b2c5732",
+      "integrated/assumption_solution/refinement/active_branch.json": "e02a0e70acbba01bdebc1761e42489543ff868c16d01b926a15f1b88eefdfb71"
+    }
+  }
+]

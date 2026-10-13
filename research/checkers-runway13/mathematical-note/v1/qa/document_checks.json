@@ -1,0 +1,315 @@
+{
+  "pages": 36,
+  "fonts": [
+    "Arial-BoldMT",
+    "ArialMT",
+    "CourierNewPSMT",
+    "NewTXMI",
+    "NewTXMI7",
+    "STIXGeneral-Italic",
+    "STIXGeneral-Regular",
+    "STIXNonUnicode-Italic",
+    "TeXGyreTermesX-Bold",
+    "TeXGyreTermesX-Regular",
+    "Times-Bold",
+    "Times-Italic",
+    "Times-Roman",
+    "txexs",
+    "txmiaX",
+    "txsym",
+    "txsys"
+  ],
+  "page_info": [
+    {
+      "page": 1,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 1664,
+      "spans": 168,
+      "physical_overflow": []
+    },
+    {
+      "page": 2,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 2938,
+      "spans": 282,
+      "physical_overflow": []
+    },
+    {
+      "page": 3,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 2004,
+      "spans": 445,
+      "physical_overflow": []
+    },
+    {
+      "page": 4,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 1697,
+      "spans": 474,
+      "physical_overflow": []
+    },
+    {
+      "page": 5,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 2029,
+      "spans": 428,
+      "physical_overflow": []
+    },
+    {
+      "page": 6,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 2416,
+      "spans": 355,
+      "physical_overflow": []
+    },
+    {
+      "page": 7,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 1147,
+      "spans": 205,
+      "physical_overflow": []
+    },
+    {
+      "page": 8,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 1670,
+      "spans": 340,
+      "physical_overflow": []
+    },
+    {
+      "page": 9,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 1964,
+      "spans": 407,
+      "physical_overflow": []
+    },
+    {
+      "page": 10,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 2472,
+      "spans": 366,
+      "physical_overflow": []
+    },
+    {
+      "page": 11,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 1619,
+      "spans": 532,
+      "physical_overflow": []
+    },
+    {
+      "page": 12,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 1836,
+      "spans": 331,
+      "physical_overflow": []
+    },
+    {
+      "page": 13,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 1514,
+      "spans": 172,
+      "physical_overflow": []
+    },
+    {
+      "page": 14,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 1700,
+      "spans": 296,
+      "physical_overflow": []
+    },
+    {
+      "page": 15,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 1691,
+      "spans": 181,
+      "physical_overflow": []
+    },
+    {
+      "page": 16,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 2318,
+      "spans": 368,
+      "physical_overflow": []
+    },
+    {
+      "page": 17,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 1745,
+      "spans": 268,
+      "physical_overflow": []
+    },
+    {
+      "page": 18,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 1864,
+      "spans": 321,
+      "physical_overflow": []
+    },
+    {
+      "page": 19,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 1958,
+      "spans": 166,
+      "physical_overflow": []
+    },
+    {
+      "page": 20,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 2438,
+      "spans": 282,
+      "physical_overflow": []
+    },
+    {
+      "page": 21,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 2582,
+      "spans": 363,
+      "physical_overflow": []
+    },
+    {
+      "page": 22,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 1449,
+      "spans": 173,
+      "physical_overflow": []
+    },
+    {
+      "page": 23,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 2143,
+      "spans": 248,
+      "physical_overflow": []
+    },
+    {
+      "page": 24,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 2176,
+      "spans": 242,
+      "physical_overflow": []
+    },
+    {
+      "page": 25,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 2178,
+      "spans": 269,
+      "physical_overflow": []
+    },
+    {
+      "page": 26,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 1442,
+      "spans": 112,
+      "physical_overflow": []
+    },
+    {
+      "page": 27,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 2639,
+      "spans": 251,
+      "physical_overflow": []
+    },
+    {
+      "page": 28,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 1594,
+      "spans": 391,
+      "physical_overflow": []
+    },
+    {
+      "page": 29,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 1780,
+      "spans": 455,
+      "physical_overflow": []
+    },
+    {
+      "page": 30,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 2072,
+      "spans": 220,
+      "physical_overflow": []
+    },
+    {
+      "page": 31,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 2016,
+      "spans": 394,
+      "physical_overflow": []
+    },
+    {
+      "page": 32,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 2071,
+      "spans": 162,
+      "physical_overflow": []
+    },
+    {
+      "page": 33,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 2489,
+      "spans": 230,
+      "physical_overflow": []
+    },
+    {
+      "page": 34,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 2374,
+      "spans": 161,
+      "physical_overflow": []
+    },
+    {
+      "page": 35,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 728,
+      "spans": 30,
+      "physical_overflow": []
+    },
+    {
+      "page": 36,
+      "width_pt": 517.3800048828125,
+      "height_pt": 779.2999877929688,
+      "text_chars": 916,
+      "spans": 67,
+      "physical_overflow": []
+    }
+  ],
+  "failures": [],
+  "overfull_boxes": [],
+  "unresolved_references": false
+}

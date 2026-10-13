@@ -1,0 +1,188 @@
+{
+  "pdf_sha256": "24965a9e628ce7f845870b0774e77d07911021e5a366dd8bf8fc033982dfda28",
+  "pages": 36,
+  "pages_individually_inspected": 36,
+  "blocking_defects_remaining": 0,
+  "records": [
+    {
+      "page": 1,
+      "reviewer": "analytical",
+      "image_sha256": "28a5b6443219443992417628e010319586a7e6ebc7cff4af892fbce010d0a9d1"
+    },
+    {
+      "page": 2,
+      "reviewer": "analytical",
+      "image_sha256": "70ed6ce8d4271d1ee8d5e6a826055e22fb4ff48791b204b044fea2916045812c"
+    },
+    {
+      "page": 3,
+      "reviewer": "analytical",
+      "image_sha256": "e77de056126f2b106f30f89b7f6372f3da72b56a02f37d8e621f8b138e71f49c"
+    },
+    {
+      "page": 4,
+      "reviewer": "analytical",
+      "image_sha256": "e5159c8e955845d092ac80078a7b18cd2930252131c47feca8a7b9c63d49c716"
+    },
+    {
+      "page": 5,
+      "reviewer": "analytical",
+      "image_sha256": "a02b70dba01e548a474c2493b4b19a7164d49da9403760637399b8e6e8449823"
+    },
+    {
+      "page": 6,
+      "reviewer": "analytical",
+      "image_sha256": "0f8828b795f44aa29a57f9e9654299d946f7805f88500fc3aa6ec4fa29384e41"
+    },
+    {
+      "page": 7,
+      "reviewer": "analytical",
+      "image_sha256": "7c825008ae3d30bf502099444bb46c3d3cd792beefba3374faeb4c72755a5b53"
+    },
+    {
+      "page": 8,
+      "reviewer": "analytical",
+      "image_sha256": "396a7f17464be23633e1cd8cec42e0cee0c84f265b7106240b3b43ec11e99583"
+    },
+    {
+      "page": 9,
+      "reviewer": "analytical",
+      "image_sha256": "1be96104ee1de9fd5e52370f207eda08bb953136271fb0a59f23461364bd3858"
+    },
+    {
+      "page": 10,
+      "reviewer": "analytical",
+      "image_sha256": "0498bee4565130b6e46d9fc632d8591d8ae68ed4e96a9729124bd1aa2ce9afad"
+    },
+    {
+      "page": 11,
+      "reviewer": "analytical",
+      "image_sha256": "52174bd5c3926fa6559b93473f071ecfea765278c35fcdab705274a00812ff22"
+    },
+    {
+      "page": 12,
+      "reviewer": "analytical",
+      "image_sha256": "bf6692b1e00712aefe4618847fbc65044816f26dde0e64d412dd9728bfe4f00e"
+    },
+    {
+      "page": 13,
+      "reviewer": "certificate",
+      "image_sha256": "36c6ac74414647d0c559a03f055e81cf069c269fbd641c55d3801e0b8a41af8c"
+    },
+    {
+      "page": 14,
+      "reviewer": "certificate",
+      "image_sha256": "0fae8174f98be832e41687edaf3b126fa10f31ddd20af16d8011021686ad9fd2"
+    },
+    {
+      "page": 15,
+      "reviewer": "certificate",
+      "image_sha256": "8d1574eb97fcce5cb96cdcad59d85289b87b9f6832454516d210c07c501e6500"
+    },
+    {
+      "page": 16,
+      "reviewer": "certificate",
+      "image_sha256": "6ba2d1205ee99aaebd0bfb72a677e03d1c4745d367d213fb18e5a39cea635a0a"
+    },
+    {
+      "page": 17,
+      "reviewer": "certificate",
+      "image_sha256": "b3f8f2502ac3dba5191dd41b9f4f4ef4f9814e20af40b6cd2058aa2a7e0ffb63"
+    },
+    {
+      "page": 18,
+      "reviewer": "certificate",
+      "image_sha256": "f9f7b67f28ffc240c88cf8ed528de4eefb5c66c9e666a96601bbf5e5271e260b"
+    },
+    {
+      "page": 19,
+      "reviewer": "certificate",
+      "image_sha256": "1eea3eb184c0dcd3b84ee30b1717b750a2de30919f9ebc12cd9dc72f2b3e8383"
+    },
+    {
+      "page": 20,
+      "reviewer": "certificate",
+      "image_sha256": "215087ec749f07af4ed1fda59fd43ab4a498933c9dbc32d633853d94b942bd81"
+    },
+    {
+      "page": 21,
+      "reviewer": "certificate",
+      "image_sha256": "107c378b280c912412ff23564d95158cf0ed326f30df14755c0e8f421de04a1a"
+    },
+    {
+      "page": 22,
+      "reviewer": "certificate",
+      "image_sha256": "24a6b63883b16938455588034dea90623573b7e5bd229c7329a69adfb5cfa505"
+    },
+    {
+      "page": 23,
+      "reviewer": "certificate",
+      "image_sha256": "363aedbc4b58dcdd2ff24a65d82d668845d179fd75bf430faf8bafe5a0713e9e"
+    },
+    {
+      "page": 24,
+      "reviewer": "certificate",
+      "image_sha256": "69f3ad03667fea73d59bbd7af9d72bb34aa530c44cdacc6191e0f5c9a76a2a08"
+    },
+    {
+      "page": 25,
+      "reviewer": "reproduction",
+      "image_sha256": "a14a49438aae8655683ddb35be18446e7cb2e7e3be82af29b7097f67ce9f3c23"
+    },
+    {
+      "page": 26,
+      "reviewer": "reproduction",
+      "image_sha256": "7fbeadd88ca20886a6569443f80aabeb308ce74b5c2fab57f9777837512666c2"
+    },
+    {
+      "page": 27,
+      "reviewer": "reproduction",
+      "image_sha256": "97aaba054d0b54d2983a4c31dc327428f3bb696b0ede4c8ca8bc7bcbcdf0426c"
+    },
+    {
+      "page": 28,
+      "reviewer": "reproduction",
+      "image_sha256": "f6dd6ebb99b08dbed5c84a1383559992854f647fd104a8fe165b1d1ad2fef56e"
+    },
+    {
+      "page": 29,
+      "reviewer": "reproduction",
+      "image_sha256": "b2bd64c7b6f318b8c4ab455a54e950c7a8b1b36712d0e0873d6548896c0d8682"
+    },
+    {
+      "page": 30,
+      "reviewer": "reproduction",
+      "image_sha256": "b9c837389845b615597fbdc10e51ab807888e7d3df697808df658f1ee6d7fb62"
+    },
+    {
+      "page": 31,
+      "reviewer": "reproduction",
+      "image_sha256": "7212e88fcbdbc62313ab0c043b0233d3c11dc089c70823bf1dcb1be6e09b7a96"
+    },
+    {
+      "page": 32,
+      "reviewer": "reproduction",
+      "image_sha256": "aef598d55be4477dfa7f90916cdd3366276758e02bea1d0143005f40660faa08"
+    },
+    {
+      "page": 33,
+      "reviewer": "reproduction",
+      "image_sha256": "13fcc2db0b4e056a80dd3c87c110f2f8e68f05e5bb39d8c5679053ff5747582d"
+    },
+    {
+      "page": 34,
+      "reviewer": "reproduction",
+      "image_sha256": "3d49daeb0b6cda40ad0b2610459da88f4281717dc4db12cf18591f9a2837b037"
+    },
+    {
+      "page": 35,
+      "reviewer": "reproduction",
+      "image_sha256": "814104f32477f944608e7dcefb25093087bd00cf4d8fd213d9349e7d41ed4202"
+    },
+    {
+      "page": 36,
+      "reviewer": "reproduction",
+      "image_sha256": "0167a3ee5a509132272b2ca6df0b40c680db1496a4018bb663a138e688700862"
+    }
+  ]
+}

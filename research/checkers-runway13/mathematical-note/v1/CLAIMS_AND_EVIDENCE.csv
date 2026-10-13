@@ -1,0 +1,21 @@
+id,claim,classification,premises,manuscript_label,source_relative_to_assumption_solution_unless_stated,reproduction_stage,status
+C01,A1 model and hybrid equations,definition,A1 assumptions; fixed constants and frame,sections/model.tex,SPEC_AMENDMENT.md; conditional_model.py; forces.py; box_certifier.py,public-tests,independently reconstructed
+C02,Stopping monotonicity and speed cap,analytical theorem,"a_b>0,tau>=0,U>=0",lem:stop,DERIVATION.md section3,bounds,proved in paper
+C03,Terminal relaxed unique root and quartic sign,necessary bound,positive radical and air-forward branch; fixed touchdown,prop:terminal,terminal_bounds.py; DERIVATION.md section4,bounds,proved; broader than family but branch-qualified
+C04,Exact 69m/s floor regime,necessary bound,family U>=69 binding in relaxed problem,eq:eta69,terminal_bounds.py,bounds,rational value independently reconstructed
+C05,Regularity and attainment,analytical theorem,closed compact parameter box; nonnegative forward; ground; EAS/load/bank,lem:regular; prop:attain,regularity.py; regularity.json,public-tests,proved; not optimizer identification
+C06,Coupled work inequality,necessary bound,"family6<=z<=34,abs(vz)<=22; forward branch; constant horizontal wind",prop:energy,refinement/strong_bound.py,bounds,analytical reconstruction
+C07,Global family exclusion .181970215,computer-assisted theorem,C06 and exact4096cell inequalities,prop:global,refinement/strong_bound.json,bounds,freshly reproduced
+C08,Exact nine-dimensional root,computer-assisted theorem,fixed decimal box and derivatives; Krawczyk norm<1,thm:root,refinement/local_certificate/interval_root.py; certificate.json,local,freshly reproduced; full matrix export
+C09,Positive simplex,computer-assisted theorem,six active gradients; residual Neumann inclusion,lem:simplex,refinement/local_certificate/validate.py,local,freshly reproduced
+C10,Strict five-dimensional max-min sufficiency,analytical theorem,"C08,C09,C12; smoothness and uniform Taylor bound",thm:strict,local_certificate/DERIVATION.md; independent audit,local,proof reconstructed; radius not quantified
+C11,Event extrema and endpoint slopes,computer-assisted theorem,exact stationary root; closed neighborhoods and separated signs,lem:events,local_certificate/validate.py events,local,freshly reproduced
+C12,Complete continuous feasible root path,certified feasible construction,"C08,C11;398accepted cells; structural contact/ground",thm:feasible,local_certificate/validate.py full_path,local,freshly reproduced
+C13,Twelve-dimensional non-strict local maximum,analytical theorem,"C10,C12; fixed gate; active margins independent of7approach coordinates",thm:transfer,coefficient construction; independent transfer proof,local,dependence inspected; proof in main text
+C14,Secondary loss<=1e-4,computer-assisted theorem,primary upper root endpoint; secondary continuous lower,prop:retention,local_certificate/retention_replay.py,retention,freshly reproduced; no effort optimality
+C15,Sensitivity approx -.01800313 per m/s,numerical diagnostic,baseline active branch; fixed other inputs,eq:sensitivity,refinement/active_branch.json; active_branch.py,public-tests,numeric only; no derivative interval
+C16,Three explicit wind domains,certified feasible construction,affine exact decimal decisions; recomputed wind-dependent endpoints,prop:wind,refinement/parameter_taylor.py; taylor_domain_refined.json,domains,all3freshly reproduced
+C17,Ten condition paths,certified feasible construction,individual specified constant-wind/geometry cases,tab:conditions,verification/condition-values.json; original case artifacts,conditions,10fresh certificates and replays
+C18,Frame-shift gate exclusion,analytical theorem,"specific(+80,-50)mshift; fixed gate; conservative urban predicate",sec:conditional,assumption_solution/DERIVATION.md section5,public-tests,conditional endpoint obstruction
+C19,Original synthetic witnesses and bounds,certified feasible construction / necessary bound,original unshifted synthetic model; separate constants/wind,app:history,analytical/coupled/; counterfactual/,legacy,2fresh witnesses; family bound/regularity rerun
+C20,Global/secondary optimum and unresolved conditions,open question,no accepted matching global proof,discussion,reports; preserved failed/invalidated attempts,not applicable,explicitly open; no infeasibility claim

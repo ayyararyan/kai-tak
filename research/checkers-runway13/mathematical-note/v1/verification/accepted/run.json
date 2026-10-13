@@ -1,0 +1,61 @@
+{
+  "source_commit": "78a9ce1c627f917c94306af5529d5e9ebeb743e8",
+  "results": [
+    {
+      "stage": "public-tests",
+      "returncode": 0,
+      "seconds": 21.546569125028327,
+      "command": "python verification/reproduce.py --source SOURCE --output OUTPUT --stage public-tests",
+      "log": "public-tests.log"
+    },
+    {
+      "stage": "local",
+      "returncode": 0,
+      "seconds": 6.5812015410047024,
+      "command": "python verification/reproduce.py --source SOURCE --output OUTPUT --stage local",
+      "log": "local.log"
+    },
+    {
+      "stage": "retention",
+      "returncode": 0,
+      "seconds": 27.345112749841064,
+      "command": "python verification/reproduce.py --source SOURCE --output OUTPUT --stage retention",
+      "log": "retention.log"
+    },
+    {
+      "stage": "bounds",
+      "returncode": 0,
+      "seconds": 0.9205657909624279,
+      "command": "python verification/reproduce.py --source SOURCE --output OUTPUT --stage bounds",
+      "log": "bounds.log"
+    },
+    {
+      "stage": "domains",
+      "returncode": 0,
+      "seconds": 14.588896624976769,
+      "command": "python verification/reproduce.py --source SOURCE --output OUTPUT --stage domains",
+      "log": "domains.log"
+    },
+    {
+      "stage": "conditions",
+      "returncode": 0,
+      "seconds": 211.97399783390574,
+      "command": "python verification/reproduce.py --source SOURCE --output OUTPUT --stage conditions",
+      "log": "conditions.log"
+    },
+    {
+      "stage": "legacy",
+      "returncode": 0,
+      "seconds": 17.8402852921281,
+      "command": "python scripts/verify_all.py --source-root frozen-source --output-dir verification/accepted --stage legacy",
+      "log": "legacy.log",
+      "execution": "separate process while six-stage invocation was running; same verified frozen source, independent module-level interval state"
+    }
+  ],
+  "complete": true,
+  "passed": true,
+  "seconds": 283.10229566693306,
+  "stage_count": 7,
+  "seconds_sum_of_stages": 300.79662895784713,
+  "legacy_added_separately": true
+}

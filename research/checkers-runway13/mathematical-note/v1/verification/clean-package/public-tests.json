@@ -1,0 +1,11 @@
+{
+  "numerical_core_proof_passed": 102,
+  "geometry_passed": 15,
+  "total_passed": 117,
+  "pytest_deselected": 6,
+  "geometry_excluded": 1,
+  "restricted_source_tests_not_run": 5,
+  "original_workspace_tests_not_run": 2,
+  "seconds": 14.233170917024836,
+  "counts_cross_checked_in_log": "public-tests.log"
+}

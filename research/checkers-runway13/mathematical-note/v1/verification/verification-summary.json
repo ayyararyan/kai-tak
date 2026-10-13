@@ -1,0 +1,34 @@
+{
+  "verified_utc": "2026-10-13T19:02:44.955601+00:00",
+  "source_commit": "78a9ce1c627f917c94306af5529d5e9ebeb743e8",
+  "public_tests_passed": 117,
+  "public_tests_not_run": 7,
+  "restricted_input_tests_not_run": 5,
+  "original_workspace_tests_not_run": 2,
+  "source_subset_files_checked": 487,
+  "source_subset_bytes": 34184693,
+  "source_subset_manifest_sha256": "2379eab54afb7f1baa0a9f71501e558e98706148cdea6b51bbf4c960c8113a51",
+  "all_inherited_tracked_artifacts_unchanged": true,
+  "git_diff_against_pin_returncode": 0,
+  "fresh_local_semantics_equal_sealed_source": {
+    "root": true,
+    "simplex": true,
+    "cover": true,
+    "strict_force_slacks": true,
+    "geometry_minima": true
+  },
+  "conditions_certified": 10,
+  "wind_domains_certified": 3,
+  "legacy_synthetic_witnesses_certified": 2,
+  "matrices_exported_and_original_offsets_weights_matched": true,
+  "no_optimization_run": true,
+  "no_model_change": true,
+  "no_publication_or_push": true,
+  "scientific_claim_boundaries": {
+    "historical_certification": false,
+    "global_primary_optimum": false,
+    "global_secondary_optimum": false,
+    "unobserved_gust_policy": false,
+    "source_restricted_tests_passed": false
+  }
+}

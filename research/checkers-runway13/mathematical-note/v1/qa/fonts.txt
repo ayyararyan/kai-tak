@@ -1,0 +1,37 @@
+name                                 type              encoding         emb sub uni object ID
+------------------------------------ ----------------- ---------------- --- --- --- ---------
+QVIUWV+Times-Bold                    CID TrueType      Identity-H       yes yes yes      4  0
+IRQUGZ+Times-Roman                   CID TrueType      Identity-H       yes yes yes      6  0
+MIUVPK+TeXGyreTermesX-Regular        Type 1C           WinAnsi          yes yes yes      8  0
+KOOBRH+NewTXMI                       Type 1C           Builtin          yes yes yes      9  0
+DTQSCH+Times-Italic                  CID TrueType      Identity-H       yes yes yes     10  0
+AOGCSG+txsys                         Type 1C           Builtin          yes yes no      19  0
+VJKBIL+txmiaX                        Type 1C           Builtin          yes yes yes     27  0
+BFIDME+txexs                         Type 1C           Builtin          yes yes no      33  0
+KONLXK+CourierNewPSMT                CID TrueType      Identity-H       yes yes yes     37  0
+QEULYP+NewTXMI7                      Type 1C           Builtin          yes yes yes     43  0
+CPWLDB+txsym                         Type 1C           Builtin          yes yes yes     86  0
+CGVTOM+Arial-BoldMT                  CID TrueType      Identity-H       yes yes yes     52  0
+GBRJKT+ArialMT                       CID TrueType      Identity-H       yes yes yes     59  0
+DQERZA+STIXGeneral-Regular           CID TrueType      Identity-H       yes yes yes     66  0
+BADBSQ+STIXGeneral-Italic            CID TrueType      Identity-H       yes yes yes     73  0
+HJPTCK+Arial-BoldMT                  CID TrueType      Identity-H       yes yes yes    116  0
+FCCUTI+ArialMT                       CID TrueType      Identity-H       yes yes yes    123  0
+GGLZTF+STIXGeneral-Regular           CID TrueType      Identity-H       yes yes yes    130  0
+FTJTTV+STIXGeneral-Italic            CID TrueType      Identity-H       yes yes yes    137  0
+FGQPYM+STIXNonUnicode-Italic         CID TrueType      Identity-H       yes yes yes    144  0
+CGEVOW+Arial-BoldMT                  CID TrueType      Identity-H       yes yes yes    166  0
+BHXMVT+ArialMT                       CID TrueType      Identity-H       yes yes yes    173  0
+EOVKEC+STIXGeneral-Regular           CID TrueType      Identity-H       yes yes yes    180  0
+CXKTUE+STIXGeneral-Italic            CID TrueType      Identity-H       yes yes yes    187  0
+TDODLP+TeXGyreTermesX-Bold           Type 1C           WinAnsi          yes yes yes    209  0
+ERQITU+Arial-BoldMT                  CID TrueType      Identity-H       yes yes yes    224  0
+BQXTHN+ArialMT                       CID TrueType      Identity-H       yes yes yes    231  0
+CBSMFD+STIXGeneral-Regular           CID TrueType      Identity-H       yes yes yes    238  0
+FKIHEC+STIXGeneral-Italic            CID TrueType      Identity-H       yes yes yes    245  0
+GCZQBI+Arial-BoldMT                  CID TrueType      Identity-H       yes yes yes    278  0
+BPAGSY+ArialMT                       CID TrueType      Identity-H       yes yes yes    285  0
+SCTNCP+STIXGeneral-Regular           CID TrueType      Identity-H       yes yes yes    292  0
+CXKTUE+STIXGeneral-Italic            CID TrueType      Identity-H       yes yes yes    299  0
+RBWYGY+Arial-BoldMT                  CID TrueType      Identity-H       yes yes yes    336  0
+CWPHNI+ArialMT                       CID TrueType      Identity-H       yes yes yes    343  0

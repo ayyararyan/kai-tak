@@ -1,0 +1,61 @@
+{
+  "estimate": 0.11835929622004114,
+  "scalar_relaxation_at_root": {
+    "best": {
+      "regime": "speed_floor_switch",
+      "x_m": 422.64287144425407,
+      "stop_m": 2324.004895163971
+    },
+    "candidates": [
+      {
+        "regime": "left_endpoint",
+        "x_m": 259.1796481100206,
+        "stop_m": 2343.5311021167745
+      },
+      {
+        "regime": "right_endpoint",
+        "x_m": 640.8203518899794,
+        "stop_m": 2542.1823756096965
+      },
+      {
+        "regime": "speed_floor_switch",
+        "x_m": 422.64287144425407,
+        "stop_m": 2324.004895163971
+      }
+    ],
+    "residual": -4.547473508864641e-13,
+    "C": 3.16694493630223,
+    "R": 6509.181021808042,
+    "U0": 71.90754007907256
+  },
+  "exclusion": {
+    "excluded": true,
+    "eta_upper_real_decimal": "0.118560",
+    "cells": 2048,
+    "residual_lower_display_m": 0.7283149760549337,
+    "scope": "entire frozen12-dimensionalfamily at eta and above; flareenergy relaxation plus exact interval x cover",
+    "historical_certified": false
+  },
+  "exact_optimum": false,
+  "condition": {
+    "name": "calm",
+    "urban": 25,
+    "roof_delta": 0,
+    "frame_dx": 0,
+    "frame_dy": 0,
+    "runway_level": 6,
+    "buffer": 5,
+    "wind_mps": [
+      0,
+      0,
+      0
+    ]
+  },
+  "source_sha256": {
+    "integrated/assumption_solution/energy_bound.py": "e549d488d288170cb702966c17cf4d35fd02d302c1efeffaed5af3bb488f3492",
+    "integrated/assumption_solution/conditional_model.py": "425b724b43e2fb09a2716705265acbe16bc97958bc183f733084148507af7318",
+    "integrated/assumption_solution/regularity.py": "65ac61dd90a32298bb702a4cd34cfa6894fe0cfc58357bef5965d5e2cff6e684",
+    "integrated/assumption_solution/regularity.json": "2ccbc6c11aa7109ad6d9274f50105dfedb74488cefd57ea006930c6dfb63b83b",
+    "model/config.json": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693"
+  }
+}

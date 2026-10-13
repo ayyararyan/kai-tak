@@ -1,0 +1,17 @@
+\section{Introduction}
+A landing is a constrained connection between two different dynamical regimes. During flight, the shape and timing of the trajectory determine lift, thrust, bank and their rates. At touchdown, geometric contact replaces airborne motion; stopping then consumes the remaining runway. A trajectory can respect each endpoint requirement yet fail between endpoints, and a feasible numerical construction need not be locally optimal. The mathematical problem is to establish both statements for the same precisely defined object.
+
+This note considers the assumption-conditional model A1 developed alongside \emph{Checkers with Runway 13} \citep{v5,repository}. Its variables describe a seventh-degree approach joined to a sixth-degree flare, followed by ideal contact, a fixed delay and constant-deceleration ground roll. The primary objective is the smallest normalized operating margin over the complete trajectory. Geometry is imposed as a hard constraint. The optimization is finite-dimensional, but its inequality system is indexed by continuous time.
+
+The principal result concerns five flare parameters. Six limiting margins meet at a common value: stopping, three thrust-slew events, maximum load and minimum thrust. The interior event times are unknowns, so equal margins and stationarity define nine equations. A verified root is only the first step. We prove that the active gradients form a simplex containing zero in its strict interior. Consequently every nonzero small flare perturbation decreases at least one necessary margin to first order. A uniform Taylor estimate makes this a strict local sufficiency theorem. Continuous-time verification then connects this upper-support argument to an actually feasible landing.
+
+The approach has seven additional parameters. The six necessary active margins do not depend on them: the gate state is fixed and their evaluation is entirely within the flare or ground roll. This separation proves a non-strict local optimum of the twelve-parameter family. It neither identifies a unique approach nor permits arbitrary variations outside that family. An independent family-wide exclusion gives the bracket
+\begin{equation}\label{eq:bracket}
+ 0.15236076430186170190\leq\eta^*_{\mathcal P}
+ \leq 0.181970215.
+\end{equation}
+The left side is constructive; the right side is a necessary bound derived after discarding constraints. Their positive separation is the remaining global question.
+
+The proof combines explicit analysis with finite interval computations. We give the contraction and local-sufficiency arguments in full, state exactly what the interval calculations enclose, and specify the immutable numerical inputs. Krawczyk's inclusion method \citep{krawczyk} and verified linear algebra \citep{rump} are used as mathematical tools, not as substitutes for the argument connecting their outputs to optimality. Decimal display values, numerical trajectory plots and forward replay have different evidential roles from the exact root box and outward inequalities.
+
+The model is a declared mathematical scenario. It uses source-motivated aircraft dimensions together with assumed force limits, a conservative occupied set and an ideal contact law. The result does not certify a historical flight. The earlier synthetic model in V5 is retained as a separate mathematical object; its coefficients and certified values are not substituted into A1.

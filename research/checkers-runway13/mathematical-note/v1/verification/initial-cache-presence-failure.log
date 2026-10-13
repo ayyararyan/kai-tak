@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/KAI_TAK_REPOSITORY/research/checkers-runway13/mathematical-note/v1/verification/reproduce.py", line 306, in <module>
+    main()
+  File "/KAI_TAK_REPOSITORY/research/checkers-runway13/mathematical-note/v1/verification/reproduce.py", line 144, in main
+    write(output / "public-input-integrity.json", check(source))
+                                                  ^^^^^^^^^^^^^
+  File "/KAI_TAK_REPOSITORY/research/checkers-runway13/mathematical-note/v1/verification/verify_public_inputs.py", line 53, in check
+    require(not (root / row["path"]).exists(), "excluded file present: " + row["path"])
+  File "/KAI_TAK_REPOSITORY/research/checkers-runway13/mathematical-note/v1/verification/verify_public_inputs.py", line 23, in require
+    raise ValueError(message)
+ValueError: excluded file present: integrated/assumption_solution/__pycache__/conditional_model.cpython-312.pyc

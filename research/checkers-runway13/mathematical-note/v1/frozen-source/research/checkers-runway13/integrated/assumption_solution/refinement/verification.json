@@ -1,0 +1,66 @@
+{
+  "verified_utc": "2026-10-13T17:55:55.850683+00:00",
+  "parent_manifest_artifacts_unchanged": 136,
+  "parent_snapshot_files_including_manifest_unchanged": 137,
+  "prior_artifacts_unchanged": 397,
+  "frozen_inputs_unchanged": 13,
+  "core_tests_passed": 97,
+  "geospatial_tests_passed": 16,
+  "new_tests_within_core": 12,
+  "original_continuous_retention_proofs": 8,
+  "new_landings": [
+    {
+      "name": "tailwind3",
+      "certified_eta": "0.00554748408841633",
+      "secondary_complete": true,
+      "replay_position_error_m": 8.74078140347356e-12
+    },
+    {
+      "name": "urban58",
+      "certified_eta": "0.011876478604716387",
+      "secondary_complete": true,
+      "replay_position_error_m": 5.652093523795389e-12
+    }
+  ],
+  "parameter_domains": [
+    {
+      "radius_mps": ".001",
+      "certified_eta": ".149"
+    },
+    {
+      "radius_mps": ".002",
+      "certified_eta": ".147"
+    },
+    {
+      "radius_mps": ".005",
+      "certified_eta": ".14"
+    }
+  ],
+  "closed_time_cells_checked": 16610,
+  "baseline_family_lower": "0.15225866725206007",
+  "baseline_family_upper": "0.181970215",
+  "gap": "0.02971154774793993",
+  "parent_independent_QA": {
+    "provenance": "parent inter-session read-only report, original delivered snapshot; not rerun attribution",
+    "manifest_artifacts": 136,
+    "prior_artifacts": 397,
+    "frozen_inputs": 13,
+    "core_tests": 85,
+    "geospatial_tests": 16,
+    "assumption_tests_separately": 12,
+    "baseline_certificate_eta": "0.14930569444740496",
+    "baseline_certificate_processed": 592,
+    "old_energy_exclusion_eta": "0.191605",
+    "old_energy_exclusion_cells": 2048,
+    "old_energy_residual_lower_m": 0.6839037985926542
+  },
+  "historical_certified": false,
+  "global_optimum_proved": false,
+  "global_secondary_proved": false,
+  "unresolved_target_conditions": [
+    "tailwind5",
+    "urban60",
+    "urban65"
+  ],
+  "errors": []
+}

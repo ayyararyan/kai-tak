@@ -1,0 +1,67 @@
+\section{Conditional results and sensitivity}\label{sec:conditional}
+\subsection{Continuous primary retention}
+Let $q_S$ denote the original delivered baseline secondary trajectory, retained without changing its coefficients. It is not the exact root path: its rounded touchdown and stop positions are $301.996569301$ m and $2234.513819249$ m.
+
+\begin{proposition}[Retention relative to the proved local primary value]\label{prop:retention}
+The delivered secondary trajectory is continuously feasible and satisfies
+\begin{equation}\label{eq:retention}
+ \eta_0-\eta(q_S)\leq10^{-4}.
+\end{equation}
+This is not a proof of local or global secondary-effort minimality.
+\end{proposition}
+\begin{proof}[Computer-assisted proof]
+The root box proves $\eta_0\leq\overline\eta=c_6+10^{-20}$. The complete-time secondary checker, including hard geometry and exact ground rollout, certifies
+\begin{align}\label{eq:retainedlevel}
+ \eta(q_S)&\geq\overline\eta-10^{-4}\notag\\
+ &=0.152260764301861701928625206455836893973748530913.
+\end{align}
+The separate calculation processes 4,020 time cells; this is a processed count, not the accepted count from the root certificate. Subtracting the certified lower bound from the certified upper bound proves \eqref{eq:retention}. No comparison of sampled minima is used. The argument supplies no lower bound on the loss and no inequality comparing $\mathcal E(q_S)$ with other retained paths.
+\end{proof}
+
+For the other delivered primary/secondary pairs a related comparison uses an interval upper evaluation of any one primary margin at a selected time. Since a continuous minimum cannot exceed that value, its upper endpoint is a valid primary upper bound. A secondary all-time lower bound at that endpoint minus $10^{-4}$ proves retention relative to that particular primary path. A dense scan may select the evaluation point but cannot certify a lower bound on the continuous primary minimum. Only the baseline comparison above uses the proved exact local optimum.
+
+\subsection{Implicit sensitivity and an explicit wind family}
+The equations extend smoothly to $F(\zeta,w_x)$ near the baseline while $w_y$ and every other parameter remain fixed. Theorem~\ref{thm:root} gives nonsingularity at the root, so the implicit-function theorem supplies a local equality branch and
+\begin{equation}\label{eq:sensitivity}
+ \frac{d\zeta}{dw_x}=-F_{\zeta}^{-1}F_{w_x}.
+\end{equation}
+The saved active-branch calculation evaluates
+\[
+ \frac{d\eta}{dw_x}\simeq-0.01800313\quad\text{per m/s}.
+\]
+This value was computed numerically and checked by finite-difference re-solves; it is not a rigorous interval enclosure of the derivative. Baseline nonsingularity alone also supplies no explicit continuation radius and no guarantee that the same active regime remains controlling throughout a displayed wind range.
+
+A separate statement concerns an explicit feasible construction. Let $q_c$ and $q'_c$ be the exact decimal vectors in Appendix~\ref{app:wind}, copied from the frozen numerical branch output. For $\delta=w_x-w_x^0$, set
+\begin{equation}\label{eq:windfamily}
+ q(\delta)=q_c+q'_c\delta,\qquad
+ w(\delta)=(w_x^0+\delta,w_y^0,0).
+\end{equation}
+The seven approach derivatives in $q'_c$ are zero. Nevertheless the approach coefficients change with wind because its endpoint velocities are recomputed using \eqref{eq:endvelocity}. The construction is affine in the decision parameters, not in the controls, and its centre is a specified decimal vector rather than the exact implicit root.
+
+\begin{proposition}[Certified known-wind neighborhoods]\label{prop:wind}
+For every $\delta$ in each closed interval in Table~\ref{tab:wind}, the path \eqref{eq:windfamily} is a feasible complete A1 landing in the original parameter box, with continuous primary margin at least the corresponding lower bound.
+\end{proposition}
+\begin{table}[htbp]\centering\caption{Certified parameter domains for the explicit family. These are feasibility levels, not bounds on the sensitivity or an optimality radius.}\label{tab:wind}
+\begin{tabular}{cc}\toprule
+Along-wind perturbation (m/s) & Certified primary lower bound\\\midrule
+$|\delta|\leq0.001$ & $0.149$\\
+$|\delta|\leq0.002$ & $0.147$\\
+$|\delta|\leq0.005$ & $0.140$\\\bottomrule
+\end{tabular}\end{table}
+\begin{proof}[Computer-assisted proof]
+For $j=0,1,2,3$, interval automatic differentiation encloses $\partial_\delta R^{(j)}(s,\delta)$ over the time cell and parameter interval. The mean-value theorem gives
+\[
+ R^{(j)}(s,\delta)\in R^{(j)}(s,0)+[-d,d]\,
+ \partial_\delta R^{(j)}(s,[-d,d]),\qquad |\delta|\leq d.
+\]
+Duration denominators and wind-dependent endpoint data are differentiated, preserving the actual parameter dependence. Subsequent interval hulls may enlarge this set but do not exclude a possible value. Each of the three computations proves complete closed time coverage, all operating margins at its stated level, hard whole-body geometry, contact factorization and exact rollout. It also verifies that every $q(\delta)$ stays inside the original parameter bounds. The supplied executable reproduction reruns these finite inclusions; it does not infer a domain from finitely many wind samples.
+\end{proof}
+
+The widest radius is about $0.00972$ kt. Each wind is known and constant when constructing its associated trajectory. There is no common control law responding causally to unobserved gusts. The attempted interval enclosure at $|\delta|\leq0.01$ was unresolved; interval overestimation is not an infeasibility proof.
+
+\subsection{Ten accepted condition points}
+Table~\ref{tab:conditions} reports the delivered secondary paths across the ten accepted conditions. Wind-only changes preserve the baseline geometry. Urban and buffer changes retain baseline wind; urban height replaces only the blanket height. The numbers are deliberately conservative downward-rounded feasibility levels, not estimates of the global optima. Every row has its own continuous flight/geometry/rollout certificate. The baseline exact root is a separate path from the baseline delivered-secondary row.
+\input{condition_table.tex}
+\fig{conditions}{Individually certified condition points. Each bar represents a lower bound for a distinct delivered trajectory, not a common policy or a feasibility frontier. Tailwind 5 kt and urban heights 60 m and 65 m remain unresolved and are listed without invented numerical bounds.}{fig:conditions}
+
+A separate fixed-gate check excludes the specific frame-shift case $(+80,-50)$ m from the imposed conservative model: an urban-side predicate is $-10$ m at the common gate, regardless of trajectory parameters. This is an analytical endpoint obstruction, not evidence about the actual airport. By contrast, the 5 kt tailwind and the 60 m and 65 m urban-blanket cases have neither accepted feasible paths nor global exclusions. Negative dense-search margins and local condition-transition estimates do not resolve those cases.

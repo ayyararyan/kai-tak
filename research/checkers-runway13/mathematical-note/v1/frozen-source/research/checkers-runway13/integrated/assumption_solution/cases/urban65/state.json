@@ -1,0 +1,17 @@
+{
+  "status": "unresolved",
+  "condition": {
+    "name": "urban65",
+    "urban": 65,
+    "roof_delta": 0,
+    "frame_dx": 0,
+    "frame_dy": 0,
+    "runway_level": 6,
+    "buffer": 5,
+    "wind_mps": [
+      -4.876589552990943,
+      9.64006667211232,
+      0
+    ]
+  }
+}

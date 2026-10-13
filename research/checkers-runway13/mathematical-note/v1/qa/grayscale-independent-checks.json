@@ -1,0 +1,504 @@
+{
+  "checked_at_utc": "2026-10-13T19:34:38Z",
+  "baseline_commit": "01ccec8c3c982fbfe9352be3c43b693d41d01ba5",
+  "scope": "Independent content-preservation and visual audit of author-requested grayscale conversion. Writes limited to these two QA reports. No scientific proof rerun.",
+  "baseline_pdf_sha256": "24965a9e628ce7f845870b0774e77d07911021e5a366dd8bf8fc033982dfda28",
+  "current_pdf_sha256": "10ac658ffa41e7fad5cd7da3a4be5e2ad013a0b9b27ac2d37100a45171d6c98f",
+  "palette_checks": [
+    {
+      "name": "INK",
+      "previous": "#263D45",
+      "current": "#393939",
+      "expected_grayscale": "#393939",
+      "exact_match": true
+    },
+    {
+      "name": "SLATE",
+      "previous": "#63777D",
+      "current": "#737373",
+      "expected_grayscale": "#737373",
+      "exact_match": true
+    },
+    {
+      "name": "COPPER",
+      "previous": "#A65F3D",
+      "current": "#6C6C6C",
+      "expected_grayscale": "#6C6C6C",
+      "exact_match": true
+    },
+    {
+      "name": "SAGE",
+      "previous": "#72816A",
+      "current": "#7C7C7C",
+      "expected_grayscale": "#7C7C7C",
+      "exact_match": true
+    },
+    {
+      "name": "PALE",
+      "previous": "#F3F1EA",
+      "current": "#F1F1F1",
+      "expected_grayscale": "#F1F1F1",
+      "exact_match": true
+    },
+    {
+      "name": "LIGHT",
+      "previous": "#DCE2DD",
+      "current": "#E0E0E0",
+      "expected_grayscale": "#E0E0E0",
+      "exact_match": true
+    },
+    {
+      "name": "GRID",
+      "previous": "#D5DBD8",
+      "current": "#DADADA",
+      "expected_grayscale": "#DADADA",
+      "exact_match": true
+    },
+    {
+      "name": "BLUE",
+      "previous": "#477D8F",
+      "current": "#737373",
+      "expected_grayscale": "#737373",
+      "exact_match": true
+    }
+  ],
+  "unchanged_function_asts": {
+    "sha": true,
+    "configure": true,
+    "refresh_data": true,
+    "arrow": true,
+    "save": true,
+    "landing": true,
+    "active": true,
+    "certificate": true,
+    "continuous": true,
+    "bracket": true,
+    "conditions": true
+  },
+  "main_function_diff_review": "Only manifest metadata: palette-preserved flag false, grayscale flag true, conversion description. Module changes are palette values plus explanatory docstring/comments.",
+  "figure_data_byte_identical": true,
+  "figures": [
+    {
+      "name": "landing",
+      "svg_identical_after_only_color_and_reference_id_normalization": true,
+      "pdf_text_font_sizes_bboxes_identical": true,
+      "pdf_canvas_identical": true,
+      "svg_colors_all_equal_channel_grays": true,
+      "pdf_color_setting_operators": [
+        "G",
+        "g"
+      ],
+      "pdf_only_device_gray_color_setting_operators": true,
+      "png_pixels_all_equal_channel_grays": true,
+      "sha256": {
+        "pdf": "b245da22368c4c08b3d0fed803cbe8b950c6981707d81ee6a181b7ab61fdd159",
+        "svg": "b07820d4e7244e982d7678fda6f8b404513382d04e731a44d7bcf8059e060f5e",
+        "png": "d29849a3064d6e38cc89eb26991ee955923b3fa461cf5941e0442320746d4506"
+      },
+      "visually_inspected": true
+    },
+    {
+      "name": "active",
+      "svg_identical_after_only_color_and_reference_id_normalization": true,
+      "pdf_text_font_sizes_bboxes_identical": true,
+      "pdf_canvas_identical": true,
+      "svg_colors_all_equal_channel_grays": true,
+      "pdf_color_setting_operators": [
+        "G",
+        "g"
+      ],
+      "pdf_only_device_gray_color_setting_operators": true,
+      "png_pixels_all_equal_channel_grays": true,
+      "sha256": {
+        "pdf": "a4da20d6f0309643049e3815b19e89e789b31cc89fdc3e83cea95d04a2aa095e",
+        "svg": "c7b88b435fc9f16b7d9851190f023386ddfd7098e5225ecfef6fa52cdd4558b2",
+        "png": "db988499790f3d9b561020188ada092d861b5182356c7fe8dcca1918ba9a3f1f"
+      },
+      "visually_inspected": true
+    },
+    {
+      "name": "certificate",
+      "svg_identical_after_only_color_and_reference_id_normalization": true,
+      "pdf_text_font_sizes_bboxes_identical": true,
+      "pdf_canvas_identical": true,
+      "svg_colors_all_equal_channel_grays": true,
+      "pdf_color_setting_operators": [
+        "G",
+        "g"
+      ],
+      "pdf_only_device_gray_color_setting_operators": true,
+      "png_pixels_all_equal_channel_grays": true,
+      "sha256": {
+        "pdf": "1c6ef3a006636649dae0845707ee5f5c1ebfcf8bd05459a531160647987673c8",
+        "svg": "e8195b0fa38469f7a22124bcc98877c97405c33a6a138100a8f3d9f2836c0985",
+        "png": "0c3541aa85e49cf333a865623901e31ad9bf91fac7664faa61d742cad6bcc91c"
+      },
+      "visually_inspected": true
+    },
+    {
+      "name": "continuous",
+      "svg_identical_after_only_color_and_reference_id_normalization": true,
+      "pdf_text_font_sizes_bboxes_identical": true,
+      "pdf_canvas_identical": true,
+      "svg_colors_all_equal_channel_grays": true,
+      "pdf_color_setting_operators": [
+        "G",
+        "g"
+      ],
+      "pdf_only_device_gray_color_setting_operators": true,
+      "png_pixels_all_equal_channel_grays": true,
+      "sha256": {
+        "pdf": "e9f05dde11f37a025e50f63977a8b8254aa21c316f852b8cc509b2e737b89506",
+        "svg": "73030df45a8c147c8e5c0f1547d0db835a0059f75faefd547febfc40ab070a8a",
+        "png": "948d334c9e6b16b5873f268785b1c4073c1ff66e511e2ab92371424f999f2339"
+      },
+      "visually_inspected": true
+    },
+    {
+      "name": "bracket",
+      "svg_identical_after_only_color_and_reference_id_normalization": true,
+      "pdf_text_font_sizes_bboxes_identical": true,
+      "pdf_canvas_identical": true,
+      "svg_colors_all_equal_channel_grays": true,
+      "pdf_color_setting_operators": [
+        "G",
+        "g"
+      ],
+      "pdf_only_device_gray_color_setting_operators": true,
+      "png_pixels_all_equal_channel_grays": true,
+      "sha256": {
+        "pdf": "5c55c94cfb3772c6ba38002f759ac0f8933757057519be60c485812bafa91091",
+        "svg": "9fc24ad20f714136a78e36557f92d3422eb112b0436e6ddee344df6b141ec2c1",
+        "png": "1f02ff0765e89409de48596cc9773c64bd72bc62be355af8bf3bf09c93652713"
+      },
+      "visually_inspected": true
+    },
+    {
+      "name": "conditions",
+      "svg_identical_after_only_color_and_reference_id_normalization": true,
+      "pdf_text_font_sizes_bboxes_identical": true,
+      "pdf_canvas_identical": true,
+      "svg_colors_all_equal_channel_grays": true,
+      "pdf_color_setting_operators": [
+        "G",
+        "g"
+      ],
+      "pdf_only_device_gray_color_setting_operators": true,
+      "png_pixels_all_equal_channel_grays": true,
+      "sha256": {
+        "pdf": "6d973028ac7acb3904c08d04a6420450f756b7ae698f5b0ed3c4723b936da0ee",
+        "svg": "7b0d615b28b4acd5dbe3ce05e83238b5dd4d592e5ca8192e9fa8be275aa49af3",
+        "png": "8e5134f52d11e726838ad02f33a847feb541676fc3981997c4517794ebb2de56"
+      },
+      "visually_inspected": true
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "28a5b6443219443992417628e010319586a7e6ebc7cff4af892fbce010d0a9d1",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 2,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "70ed6ce8d4271d1ee8d5e6a826055e22fb4ff48791b204b044fea2916045812c",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 3,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "e77de056126f2b106f30f89b7f6372f3da72b56a02f37d8e621f8b138e71f49c",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 4,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "e5159c8e955845d092ac80078a7b18cd2930252131c47feca8a7b9c63d49c716",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 5,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "a02b70dba01e548a474c2493b4b19a7164d49da9403760637399b8e6e8449823",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 6,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "0f8828b795f44aa29a57f9e9654299d946f7805f88500fc3aa6ec4fa29384e41",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 7,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "7c825008ae3d30bf502099444bb46c3d3cd792beefba3374faeb4c72755a5b53",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 8,
+      "pixels_identical_to_prior": false,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "a09ab9cd4c9c581365a194f262db8dcaa85fd5729c1ab7d8bfbc9482cddd0bdd",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": true
+    },
+    {
+      "page": 9,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "1be96104ee1de9fd5e52370f207eda08bb953136271fb0a59f23461364bd3858",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 10,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "0498bee4565130b6e46d9fc632d8591d8ae68ed4e96a9729124bd1aa2ce9afad",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 11,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "52174bd5c3926fa6559b93473f071ecfea765278c35fcdab705274a00812ff22",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 12,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "bf6692b1e00712aefe4618847fbc65044816f26dde0e64d412dd9728bfe4f00e",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 13,
+      "pixels_identical_to_prior": false,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "dc9b1aafd7d7aab2ca0bf4ec44b7b0b9888c9f5518accb0664cdfc79750bbea8",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": true
+    },
+    {
+      "page": 14,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "0fae8174f98be832e41687edaf3b126fa10f31ddd20af16d8011021686ad9fd2",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 15,
+      "pixels_identical_to_prior": false,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "60cffeb7890e45767ffabe7d8b2d015d4da3465016de89200f7ce0608bbe9068",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": true
+    },
+    {
+      "page": 16,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "6ba2d1205ee99aaebd0bfb72a677e03d1c4745d367d213fb18e5a39cea635a0a",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 17,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "b3f8f2502ac3dba5191dd41b9f4f4ef4f9814e20af40b6cd2058aa2a7e0ffb63",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 18,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "f9f7b67f28ffc240c88cf8ed528de4eefb5c66c9e666a96601bbf5e5271e260b",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 19,
+      "pixels_identical_to_prior": false,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "422c88bcbe4658d90900e4affe01c3279e108a64e86c3cba37d0c750304733a7",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": true
+    },
+    {
+      "page": 20,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "215087ec749f07af4ed1fda59fd43ab4a498933c9dbc32d633853d94b942bd81",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 21,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "107c378b280c912412ff23564d95158cf0ed326f30df14755c0e8f421de04a1a",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 22,
+      "pixels_identical_to_prior": false,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "7bc2d02fda015803bb8efd0785702c6003b21b564da561aea30db415521666d9",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": true
+    },
+    {
+      "page": 23,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "363aedbc4b58dcdd2ff24a65d82d668845d179fd75bf430faf8bafe5a0713e9e",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 24,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "69f3ad03667fea73d59bbd7af9d72bb34aa530c44cdacc6191e0f5c9a76a2a08",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 25,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "a14a49438aae8655683ddb35be18446e7cb2e7e3be82af29b7097f67ce9f3c23",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 26,
+      "pixels_identical_to_prior": false,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "835fd9d33da1c4cd1a6539925482dc45cbec4a124cbf2e127f4b8fe9b12bf4be",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": true
+    },
+    {
+      "page": 27,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "97aaba054d0b54d2983a4c31dc327428f3bb696b0ede4c8ca8bc7bcbcdf0426c",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 28,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "f6dd6ebb99b08dbed5c84a1383559992854f647fd104a8fe165b1d1ad2fef56e",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 29,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "b2bd64c7b6f318b8c4ab455a54e950c7a8b1b36712d0e0873d6548896c0d8682",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 30,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "b9c837389845b615597fbdc10e51ab807888e7d3df697808df658f1ee6d7fb62",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 31,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "7212e88fcbdbc62313ab0c043b0233d3c11dc089c70823bf1dcb1be6e09b7a96",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 32,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "aef598d55be4477dfa7f90916cdd3366276758e02bea1d0143005f40660faa08",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 33,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "13fcc2db0b4e056a80dd3c87c110f2f8e68f05e5bb39d8c5679053ff5747582d",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 34,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "3d49daeb0b6cda40ad0b2610459da88f4281717dc4db12cf18591f9a2837b037",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 35,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "814104f32477f944608e7dcefb25093087bd00cf4d8fd213d9349e7d41ed4202",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    },
+    {
+      "page": 36,
+      "pixels_identical_to_prior": true,
+      "text_words_and_bboxes_identical": true,
+      "current_png_sha256": "0167a3ee5a509132272b2ca6df0b40c680db1496a4018bb663a138e688700862",
+      "current_png_matches_fresh_pdf_render": true,
+      "visually_inspected_this_pass": false
+    }
+  ],
+  "changed_page_numbers": [
+    8,
+    13,
+    15,
+    19,
+    22,
+    26
+  ],
+  "unchanged_page_pixel_count": 30,
+  "all_36_page_text_words_and_bboxes_identical": true,
+  "visual_inspected_figure_count": 6,
+  "visual_inspected_manuscript_page_count": 6,
+  "blocking_findings": [],
+  "checker_notes": [
+    "Matplotlib marker IDs depend on colors; SVG comparison canonicalizes IDs with their references and normalizes only six-digit color literals. All remaining SVG bytes are identical.",
+    "PDF gray validation uses the actual g/G DeviceGray color-setting operators, not approximate RGB values returned by a color-managed renderer. Initial DeviceRGB colorspace selection is superseded by g/G before painting."
+  ],
+  "result": "PASS"
+}

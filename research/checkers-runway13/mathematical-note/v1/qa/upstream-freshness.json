@@ -1,0 +1,269 @@
+{
+  "checked_at_utc": "2026-10-13T19:14:45Z",
+  "repository": "https://github.com/ayyararyan/kai-tak.git",
+  "frozen_commit": "78a9ce1c627f917c94306af5529d5e9ebeb743e8",
+  "initial_upstream_snapshot": "58f643681d34d17acadd594485de85f3e8426f7c",
+  "upstream_main_commit": "63af06b8c16e11d883bf92b176df7c5ac0eeaa6f",
+  "live_remote_main_commit": "63af06b8c16e11d883bf92b176df7c5ac0eeaa6f",
+  "local_origin_main_at_check": "58f643681d34d17acadd594485de85f3e8426f7c",
+  "frozen_is_ancestor": true,
+  "intervening_commit_count": 5,
+  "commits": [
+    {
+      "commit": "125ebac16dc52a86998e2f6c4893e116bfca67d8",
+      "committer_time": "2026-10-14T00:21:14+05:30",
+      "committer_time_utc": "2026-10-13T18:51:14Z",
+      "subject": "Redesign main README with research-first software-style landing page",
+      "changes": [
+        {
+          "status": "M",
+          "path": "README.md"
+        }
+      ]
+    },
+    {
+      "commit": "b8758455e6fb6fbe33683bc7290c1887683fe705",
+      "committer_time": "2026-10-14T00:29:11+05:30",
+      "committer_time_utc": "2026-10-13T18:59:11Z",
+      "subject": "Add publication-quality runway allocation diagram for README",
+      "changes": [
+        {
+          "status": "A",
+          "path": "assets/runway-allocation.svg"
+        }
+      ]
+    },
+    {
+      "commit": "a772db4a0198edfdba5cb3e4c351e3259a554ef8",
+      "committer_time": "2026-10-14T00:29:14+05:30",
+      "committer_time_utc": "2026-10-13T18:59:14Z",
+      "subject": "Display redesigned runway-distance diagram in main README",
+      "changes": [
+        {
+          "status": "M",
+          "path": "README.md"
+        }
+      ]
+    },
+    {
+      "commit": "58f643681d34d17acadd594485de85f3e8426f7c",
+      "committer_time": "2026-10-14T00:41:12+05:30",
+      "committer_time_utc": "2026-10-13T19:11:12Z",
+      "subject": "Use requested cropped Kai Tak overview in README",
+      "changes": [
+        {
+          "status": "M",
+          "path": "README.md"
+        },
+        {
+          "status": "A",
+          "path": "assets/kai-tak-overview-cropped.webp"
+        }
+      ]
+    },
+    {
+      "commit": "63af06b8c16e11d883bf92b176df7c5ac0eeaa6f",
+      "committer_time": "2026-10-14T00:43:43+05:30",
+      "committer_time_utc": "2026-10-13T19:13:43Z",
+      "subject": "Revise project description in README.md",
+      "changes": [
+        {
+          "status": "M",
+          "path": "README.md"
+        }
+      ]
+    }
+  ],
+  "aggregate_changes": [
+    {
+      "status": "M",
+      "path": "README.md"
+    },
+    {
+      "status": "A",
+      "path": "assets/kai-tak-overview-cropped.webp"
+    },
+    {
+      "status": "A",
+      "path": "assets/runway-allocation.svg"
+    }
+  ],
+  "compared_trees": [
+    {
+      "path": "archive",
+      "frozen_tree_oid": "2ee136c73187e0c7669021aeda754b38e6f0b350",
+      "upstream_tree_oid": "2ee136c73187e0c7669021aeda754b38e6f0b350",
+      "identical": true
+    },
+    {
+      "path": "data",
+      "frozen_tree_oid": "155fcb97043f2ca78eb7b9fa24ad740ae446ffcc",
+      "upstream_tree_oid": "155fcb97043f2ca78eb7b9fa24ad740ae446ffcc",
+      "identical": true
+    },
+    {
+      "path": "publication",
+      "frozen_tree_oid": "7a5ca1b10f38aa8267a629eace2bff7ca9985fdb",
+      "upstream_tree_oid": "7a5ca1b10f38aa8267a629eace2bff7ca9985fdb",
+      "identical": true
+    },
+    {
+      "path": "research",
+      "frozen_tree_oid": "5f2c1b1611d419e88b7daf78a9430b2fbde821f8",
+      "upstream_tree_oid": "5f2c1b1611d419e88b7daf78a9430b2fbde821f8",
+      "identical": true
+    },
+    {
+      "path": "scripts",
+      "frozen_tree_oid": "865b17ac4f55b20f6f5a2c884bf417065330b4d9",
+      "upstream_tree_oid": "865b17ac4f55b20f6f5a2c884bf417065330b4d9",
+      "identical": true
+    },
+    {
+      "path": "tests",
+      "frozen_tree_oid": "595e56fbb025c81997a1cab092f832ef26215385",
+      "upstream_tree_oid": "595e56fbb025c81997a1cab092f832ef26215385",
+      "identical": true
+    },
+    {
+      "path": "visual-atlas",
+      "frozen_tree_oid": "4c8630e99fbf119ad388c9d19657cbf0d087fe37",
+      "upstream_tree_oid": "4c8630e99fbf119ad388c9d19657cbf0d087fe37",
+      "identical": true
+    },
+    {
+      "path": "research/checkers-runway13/integrated/assumption_solution",
+      "frozen_tree_oid": "9e9f74c5bf3d88ad86e4c069f542a815bd8e14c8",
+      "upstream_tree_oid": "9e9f74c5bf3d88ad86e4c069f542a815bd8e14c8",
+      "identical": true
+    },
+    {
+      "path": "research/checkers-runway13/integrated/assumption_solution/refinement",
+      "frozen_tree_oid": "3899e93e44ca4f5ac7f206eca169575cdc3c70c0",
+      "upstream_tree_oid": "3899e93e44ca4f5ac7f206eca169575cdc3c70c0",
+      "identical": true
+    },
+    {
+      "path": "research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate",
+      "frozen_tree_oid": "8a91dd68db343bf01886cb63ded90302661f16a0",
+      "upstream_tree_oid": "8a91dd68db343bf01886cb63ded90302661f16a0",
+      "identical": true
+    },
+    {
+      "path": "publication/scientific-results-20261013",
+      "frozen_tree_oid": "56bb7f1378097cac230a3770f72925b651b4c139",
+      "upstream_tree_oid": "56bb7f1378097cac230a3770f72925b651b4c139",
+      "identical": true
+    },
+    {
+      "path": "research/checkers-runway13/analytical/coupled",
+      "frozen_tree_oid": "88f253080b41976636ac9e9a25bd856399f225ab",
+      "upstream_tree_oid": "88f253080b41976636ac9e9a25bd856399f225ab",
+      "identical": true
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5",
+      "frozen_tree_oid": "d15e165bdf82e70001f3d528e028c829a0cfa769",
+      "upstream_tree_oid": "d15e165bdf82e70001f3d528e028c829a0cfa769",
+      "identical": true
+    }
+  ],
+  "conclusion": "All scientific source trees, data, scripts, tests, and V5 are unchanged byte-for-byte in Git tree objects between the frozen commit and the live upstream main checked here. Only README.md and two README illustration assets changed. The scientific freeze remains valid at this upstream snapshot; no merge, rebase or scientific-source modification performed.",
+  "visual_hash_bridge": {
+    "previous_pdf_sha256": "8d1acbe45f2641f29781aecd304900c9f88ac8c25851b44f7545c05c1211d8ed",
+    "current_pdf_sha256": "24965a9e628ce7f845870b0774e77d07911021e5a366dd8bf8fc033982dfda28",
+    "current_pdf_pages": 36,
+    "renderer": "PyMuPDF 1.28.2",
+    "render_matrix": [
+      1.4,
+      1.4
+    ],
+    "all_12_pages_identical": true,
+    "pages": [
+      {
+        "page": 1,
+        "prior_review_png_sha256": "28a5b6443219443992417628e010319586a7e6ebc7cff4af892fbce010d0a9d1",
+        "current_png_sha256": "28a5b6443219443992417628e010319586a7e6ebc7cff4af892fbce010d0a9d1",
+        "fresh_pdf_render_sha256": "28a5b6443219443992417628e010319586a7e6ebc7cff4af892fbce010d0a9d1",
+        "all_identical": true
+      },
+      {
+        "page": 2,
+        "prior_review_png_sha256": "70ed6ce8d4271d1ee8d5e6a826055e22fb4ff48791b204b044fea2916045812c",
+        "current_png_sha256": "70ed6ce8d4271d1ee8d5e6a826055e22fb4ff48791b204b044fea2916045812c",
+        "fresh_pdf_render_sha256": "70ed6ce8d4271d1ee8d5e6a826055e22fb4ff48791b204b044fea2916045812c",
+        "all_identical": true
+      },
+      {
+        "page": 3,
+        "prior_review_png_sha256": "e77de056126f2b106f30f89b7f6372f3da72b56a02f37d8e621f8b138e71f49c",
+        "current_png_sha256": "e77de056126f2b106f30f89b7f6372f3da72b56a02f37d8e621f8b138e71f49c",
+        "fresh_pdf_render_sha256": "e77de056126f2b106f30f89b7f6372f3da72b56a02f37d8e621f8b138e71f49c",
+        "all_identical": true
+      },
+      {
+        "page": 4,
+        "prior_review_png_sha256": "e5159c8e955845d092ac80078a7b18cd2930252131c47feca8a7b9c63d49c716",
+        "current_png_sha256": "e5159c8e955845d092ac80078a7b18cd2930252131c47feca8a7b9c63d49c716",
+        "fresh_pdf_render_sha256": "e5159c8e955845d092ac80078a7b18cd2930252131c47feca8a7b9c63d49c716",
+        "all_identical": true
+      },
+      {
+        "page": 5,
+        "prior_review_png_sha256": "a02b70dba01e548a474c2493b4b19a7164d49da9403760637399b8e6e8449823",
+        "current_png_sha256": "a02b70dba01e548a474c2493b4b19a7164d49da9403760637399b8e6e8449823",
+        "fresh_pdf_render_sha256": "a02b70dba01e548a474c2493b4b19a7164d49da9403760637399b8e6e8449823",
+        "all_identical": true
+      },
+      {
+        "page": 6,
+        "prior_review_png_sha256": "0f8828b795f44aa29a57f9e9654299d946f7805f88500fc3aa6ec4fa29384e41",
+        "current_png_sha256": "0f8828b795f44aa29a57f9e9654299d946f7805f88500fc3aa6ec4fa29384e41",
+        "fresh_pdf_render_sha256": "0f8828b795f44aa29a57f9e9654299d946f7805f88500fc3aa6ec4fa29384e41",
+        "all_identical": true
+      },
+      {
+        "page": 7,
+        "prior_review_png_sha256": "7c825008ae3d30bf502099444bb46c3d3cd792beefba3374faeb4c72755a5b53",
+        "current_png_sha256": "7c825008ae3d30bf502099444bb46c3d3cd792beefba3374faeb4c72755a5b53",
+        "fresh_pdf_render_sha256": "7c825008ae3d30bf502099444bb46c3d3cd792beefba3374faeb4c72755a5b53",
+        "all_identical": true
+      },
+      {
+        "page": 8,
+        "prior_review_png_sha256": "396a7f17464be23633e1cd8cec42e0cee0c84f265b7106240b3b43ec11e99583",
+        "current_png_sha256": "396a7f17464be23633e1cd8cec42e0cee0c84f265b7106240b3b43ec11e99583",
+        "fresh_pdf_render_sha256": "396a7f17464be23633e1cd8cec42e0cee0c84f265b7106240b3b43ec11e99583",
+        "all_identical": true
+      },
+      {
+        "page": 9,
+        "prior_review_png_sha256": "1be96104ee1de9fd5e52370f207eda08bb953136271fb0a59f23461364bd3858",
+        "current_png_sha256": "1be96104ee1de9fd5e52370f207eda08bb953136271fb0a59f23461364bd3858",
+        "fresh_pdf_render_sha256": "1be96104ee1de9fd5e52370f207eda08bb953136271fb0a59f23461364bd3858",
+        "all_identical": true
+      },
+      {
+        "page": 10,
+        "prior_review_png_sha256": "0498bee4565130b6e46d9fc632d8591d8ae68ed4e96a9729124bd1aa2ce9afad",
+        "current_png_sha256": "0498bee4565130b6e46d9fc632d8591d8ae68ed4e96a9729124bd1aa2ce9afad",
+        "fresh_pdf_render_sha256": "0498bee4565130b6e46d9fc632d8591d8ae68ed4e96a9729124bd1aa2ce9afad",
+        "all_identical": true
+      },
+      {
+        "page": 11,
+        "prior_review_png_sha256": "52174bd5c3926fa6559b93473f071ecfea765278c35fcdab705274a00812ff22",
+        "current_png_sha256": "52174bd5c3926fa6559b93473f071ecfea765278c35fcdab705274a00812ff22",
+        "fresh_pdf_render_sha256": "52174bd5c3926fa6559b93473f071ecfea765278c35fcdab705274a00812ff22",
+        "all_identical": true
+      },
+      {
+        "page": 12,
+        "prior_review_png_sha256": "bf6692b1e00712aefe4618847fbc65044816f26dde0e64d412dd9728bfe4f00e",
+        "current_png_sha256": "bf6692b1e00712aefe4618847fbc65044816f26dde0e64d412dd9728bfe4f00e",
+        "fresh_pdf_render_sha256": "bf6692b1e00712aefe4618847fbc65044816f26dde0e64d412dd9728bfe4f00e",
+        "all_identical": true
+      }
+    ]
+  }
+}

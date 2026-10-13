@@ -1,0 +1,70 @@
+\section{Computer-assisted continuous-time verification}\label{sec:continuous}
+The local upper-support argument is useful only if the exact root path is feasible. Ordinary interval subdivision alone cannot usually prove an active equality: a cell containing a true minimum also contains values of the interval extension below it. The certificate therefore combines analytical local extrema with interval coverage of the remaining constraints.
+
+\subsection{Stationary neighborhoods and endpoint slopes}
+For this time-domain argument, extend the endpoint margins as $g_2(p,s)=1+\dot{\mathcal T}(p,s)/100000$ near $s=0$ and $g_3(p,s)=1-\dot{\mathcal T}(p,s)/100000$ near $s=1$. Their endpoint values are exactly the functions in \eqref{eq:active}. The five special time intervals are given in Table~\ref{tab:events}. Their endpoints denote the listed exact decimals; the computational intervals enclose those decimals outward. Each interior stationary coordinate of $X$ lies strictly inside its assigned interval.
+\begin{table}[htbp]\centering\caption{Special normalized flare-time intervals and certified derivative signs. Derivatives are with respect to normalized time $s$.}\label{tab:events}
+\begin{tabular}{lll}\toprule
+Margin & Closed interval & Strict bound\\\midrule
+Interior slew & $[.7535208320375588,$ & $g_4''>13.33$\\
+ & $\phantom{[}.773520832037559]$ &\\
+Upper load & $[.7325247126666857,$ & $g_5''>6.58$\\
+ & $\phantom{[}.752524712666686]$ &\\
+Lower thrust & $[.3571596023161144,$ & $g_6''>0.869$\\
+ & $\phantom{[}.37715960231611445]$ &\\
+Gate slew & $[0,.01]$ & $g_2'>3.78$\\
+Touchdown slew & $[.99,1]$ & $g_3'<-2.31$\\\bottomrule
+\end{tabular}\end{table}
+
+\begin{lemma}[Local time-minimum bounds]\label{lem:events}
+At the exact root path, each special margin is at least $\eta_0$ throughout its corresponding interval in Table~\ref{tab:events}. Each of the three interior intervals contains exactly one stationary point of its assigned margin.
+\end{lemma}
+\begin{proof}[Computer-assisted proof]
+Interval Taylor jets enclose the required derivatives for every root parameter in $\widehat X$ and every time in the full assigned interval. They establish the strict curvature and slope bounds shown, while separating each slew sign. At the exact interior root time, the margin equals $\eta_0$ and its derivative is zero by \eqref{eq:root}. Strictly positive second derivative makes that stationary point the unique minimum on its interval. At the gate, a positive one-sided derivative implies the minimum is the endpoint value $\eta_0$; at touchdown the negative derivative gives the same conclusion from the right endpoint. These arguments require no assertion that all stationary points on the full phase have been enumerated.
+\end{proof}
+
+\subsection{Coverage, omitted constraints and contact}
+For every other margin the checker uses an inclusion extension over closed time cells and the complete interval root box. It accepts a cell only if all ordinary operating margins have lower endpoints strictly greater than $c_6+r_0$, hard geometry has nonnegative lower endpoints, and force regularity and forward speed hold. Inside a special interval it omits only the corresponding margin already controlled by Lemma~\ref{lem:events}. All other active and inactive margins remain tested there. Outside those intervals nothing is omitted.
+
+A polynomial is evaluated after an exact shift to a cell centre, which reduces dependency overestimation. Repeated bisection refines unresolved cells; a depth limit leads to an unresolved result, never acceptance. The recorded accepted cells share their exact decimal endpoints, begin at zero and end at one separately in each phase. Hence their union covers every time, including both sides of the gate.
+
+The corridor calculation selects one frozen reference point using a nearest-neighbour query, then encloses the distance to that point by interval arithmetic. For any selected point $P\in\mathcal R$, $\operatorname{dist}(R,\mathcal R)\leq|R-P|$. The proof therefore does not trust the query to return the exact nearest point. A poor selection can cause unnecessary subdivision, but cannot produce a false lower bound on the corridor margin.
+
+At touchdown, direct interval subtraction cannot prove the exact zero gear clearance. The polynomial construction instead factors
+\begin{equation}\label{eq:gear-factor}
+ z(s)-6=(1-s)h_1(s),\qquad \ddot x(s)=(1-s)a_1(s).
+\end{equation}
+Since $\ddot y=0$ in the flare, $L_r=mw_y\ddot x/H$, so
+\begin{equation}\label{eq:gearproof}
+ z_G\geq(1-s)\left[h_1(s)-\frac{6.0579m|w_ya_1(s)|}{HL}\right]
+       +6(1-\cos\phi).
+\end{equation}
+The checker proves the bracket nonnegative; the last term is analytically nonnegative. Thus pre-contact nonpenetration includes the exact endpoint. This is a structural factorization, not a permitted penetration tolerance.
+
+\begin{theorem}[Whole-time feasibility of the connected landing]\label{thm:feasible}
+Retain the seven exact decimal approach coordinates in Appendix~\ref{app:box} and use the five exact flare coordinates of $\zeta^*$. The resulting A1 path belongs to $\mathcal P$ and has continuous primary value $\eta(q^*)=\eta_0$. It satisfies all force, rate, corridor, hard occupied-geometry and hybrid stopping constraints, with the ideal contact transition specified in Section~\ref{sec:ground}.
+\end{theorem}
+\begin{proof}[Computer-assisted proof]
+All twelve parameters lie strictly inside their original bounds. The interval calculation accepts 32 approach cells and 366 flare cells, for 398 accepted cells after 786 processed cells. Of these, 347 omit no margin; 45 omit only the already-proved upper-load margin, five only the already-proved slew margin, and one only the already-proved lower-thrust margin. The covers are closed and gap-free. The smallest ordinary checked operating slack over $\eta_0$ exceeds $6.86\times10^{-7}$; the interval acceptance comparisons use the larger upper root endpoint. Combining their inequalities with Lemma~\ref{lem:events} proves every airborne operating margin is at least $\eta_0$.
+
+The same cells establish object and urban separation, non-gear clearance and gear nonpenetration, including \eqref{eq:gearproof}. Forward speed and $L_u$ are strictly positive throughout this witness. Hermite and bump endpoint identities enforce the common gate state and zero accelerations, and impose touchdown lateral position, track and bank exactly. The touchdown distance and fixed-sink margins are strictly greater than the upper root endpoint. The stop margin equals $\eta_0$ by $F_1(\zeta^*)=0$.
+
+For ground motion, substitute the interval-enclosed $x_D,U$ into \eqref{eq:ground}. Interval geometry is nonnegative over the entire segment $[x_D,x_D+2U+U^2/(2a_b)]$ at $y=0,z=6$. Ground gear contact is an exact structural equality. The stipulated reset and braking law complete the hybrid path; no airborne constraint is extended through the impulse. Since at least one margin equals $\eta_0$ and all others are no smaller, \eqref{eq:objective} has value exactly $\eta_0$.
+\end{proof}
+
+The rounded stop position is $2234.377025300292$ m, leaving $551.622974699708$ m of the full $2786$ m runway. An independent forward integration of Newton's equation of the rounded numerical centre has maximum position discrepancy about $1.14\times10^{-11}$ m. That number tests computational consistency of the force inversion; it neither gives physical accuracy nor replaces the interval proof for the exact implicit root.
+\fig{continuous}{Critical flare margins at the numerical root centre, with the certified primary level and special event neighborhoods. Curves are plotting evaluations, not proof by sampling. The lower strip shows the accepted interval partition; analytical event bounds complete the certificate in the shaded neighborhoods.}{fig:continuous}
+
+\subsection{Transfer to the complete parameter family}
+\begin{theorem}[Non-strict local optimality in twelve parameters]\label{thm:transfer}
+The connected path $q^*=(a^*,p^*)$ of Theorem~\ref{thm:feasible} is a local primary maximum in the original twelve-parameter family. More strongly, there is a neighborhood $N$ of $p^*$ such that every feasible $(a,p)$ with $p\in N$ has $\eta(a,p)\leq\eta_0$, with strict inequality whenever $p\ne p^*$. The conclusion is uniform over admissible approach parameters $a$.
+\end{theorem}
+\begin{proof}
+The gate position, velocity and acceleration are fixed by the declared wind and endpoint conditions. The flare Hermite coefficients, its two bumps and all flare force quantities therefore depend only on $p$, not on any of the seven approach coordinates. The stopping margin depends only on $(x_D,U)$. Thus the six fixed-time functions used in Theorem~\ref{thm:strict} remain necessary constraints for every complete feasible $(a,p)$:
+\[
+ \eta(a,p)\leq\psi(p):=\min_{1\leq i\leq6}g_i(p).
+\]
+Varying $T_a$ shifts the absolute gate time but does not remove any normalized flare time from the domain. In particular the flare-side gate slew remains constrained independently of its approach-side counterpart. The strict upper-support argument proves $\psi(p)<\eta_0$ for $p\ne p^*$ sufficiently close, while $\psi(p^*)=\eta_0$. Feasibility at $(a^*,p^*)$ supplies equality there. This proves the stated local maximum without assuming that any particular approach perturbation remains feasible.
+\end{proof}
+
+Approach-only perturbations may preserve the value, lower it, or violate feasibility. The theorem does not classify them and does not assert strict twelve-dimensional optimality. Nor does it imply local optimality with respect to arbitrary smooth flare perturbations outside the polynomial family. Combining the feasible root with Proposition~\ref{prop:global} gives \eqref{eq:bracket}; the printed lower endpoint is rounded downward from the exact root-box lower endpoint.

@@ -1,0 +1,33 @@
+\section{Characterization of the active landing solution}\label{sec:active}
+Write $a=(T_a,b_x,c_x,b_y,c_y,b_z,c_z)$ for the approach coordinates and $p=(T_f,x_D,U,f_x,f_z)$ for the flare coordinates. Their feasible domains are the corresponding products in Table~\ref{tab:parameters}. The normalized coordinates used for root isolation are
+\begin{equation}\label{eq:zcoords}
+ \zeta=(T_f/5,x_D/300,U/75,f_x,f_z,\eta,s_S,s_L,s_T)\in\R^9.
+\end{equation}
+Scales $5$, $300$ and $75$ carry the respective physical units; all computations use their exact values. Let $\mathcal T(p,s)$ be flare thrust and $\dot{\mathcal T}=T_f^{-1}\partial_s\mathcal T$ its physical time derivative. The six active margins are
+\begin{align}\label{eq:active}
+ g_1(p)&=m_{\rm stop}(p),\notag\\
+ g_2(p)&=1+\dot{\mathcal T}(p,0)/100000,\notag\\
+ g_3(p)&=1-\dot{\mathcal T}(p,1)/100000,\notag\\
+ g_4(p,s_S)&=1-\dot{\mathcal T}(p,s_S)/100000,\notag\\
+ g_5(p,s_L)&=(1.4-n_f(p,s_L))/0.9,\notag\\
+ g_6(p,s_T)&=\mathcal T(p,s_T)/700000.
+\end{align}
+The event-time letters indicate interior slew, load and thrust. Gate slew here is the flare-side value; the approach-side value is checked separately.
+
+The signed expressions agree locally with the absolute slew margins because gate slew is negative, while touchdown and interior slew are positive. The source derivation's sentence calling touchdown slew negative is a prose error: both executable equations and the sealed certificate record the sign vector $(-1,+1,+1)$. The new audit records this correction without changing the earlier artifact.
+
+The nine equations are
+\begin{equation}\label{eq:root}
+ F(\zeta)=\left(g_1-\eta,\ldots,g_6-\eta,
+ \partial_sg_4,\partial_sg_5,\partial_sg_6\right)^\top=0.
+\end{equation}
+Here the first five coordinates of $\zeta$ determine $p$, and the last three supply the corresponding interior events. Thrust slew is $T_s/T_f$; its stationarity is $T_{ss}/T_f=0$. These identities determine the needed mixed derivatives exactly. At the certified solution the approximate physical values are
+\begin{align}\label{eq:physical}
+ T_f&\simeq4.140834462862,&x_D&\simeq302.126459392735,\notag\\
+ U&\simeq72.512142316831,&f_x&\simeq-0.054163922082,\notag\\
+ f_z&\simeq-0.014824733206.&&
+\end{align}
+They summarize the solution but do not define it. The exact definition is the unique root in the box of Theorem~\ref{thm:root}, with the seven approach decimals specified in Appendix~\ref{app:box}.
+
+A fixed-time upper-support argument will use the event times at the exact root. It is not necessary to optimize the event times anew for every perturbed $p$: a continuous-time minimum cannot exceed its value at any one fixed normalized time. This observation avoids differentiating an unknown global argmin map.
+\fig{active}{The six active margins and their locations in the flare. The three interior events are distinct; load and slew happen close together but are not the same stationary point. Event-time positions are evaluated from the numerical centre solely for illustration. Stopping is a terminal hybrid constraint, not an additional in-flight event.}{fig:active}

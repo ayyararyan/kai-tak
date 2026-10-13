@@ -1,0 +1,35 @@
+[
+  {
+    "certified": false,
+    "reason": "interval_unresolved_not_infeasibility",
+    "unresolved": [
+      1,
+      0.0,
+      3.814697265625e-06,
+      18
+    ],
+    "processed": 74
+  },
+  {
+    "certified": false,
+    "reason": "interval_unresolved_not_infeasibility",
+    "unresolved": [
+      1,
+      0.0,
+      3.814697265625e-06,
+      18
+    ],
+    "processed": 78
+  },
+  {
+    "certified": false,
+    "reason": "interval_unresolved_not_infeasibility",
+    "unresolved": [
+      1,
+      0.7422027587890625,
+      0.7422065734863281,
+      18
+    ],
+    "processed": 417
+  }
+]
