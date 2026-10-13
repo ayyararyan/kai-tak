@@ -2,9 +2,8 @@
 
 # Checkers with Runway 13
 
-**A 47° turn over Kowloon. A runway that still had to be long enough to stop.**
+**A 47° turn over the Kowloon Peninsula**
 
-Historical geography · 3D reconstruction · Flight dynamics · Mathematical verification
 
 [**Read the white paper**](research/checkers-runway13/whitepaper/v5/checkers-with-runway-13-white-paper-v5.pdf) · [**Explore the visual atlas**](visual-atlas/v1/README.md) · [**Latest mathematical results**](publication/scientific-results-20261013/README.md) · [**Browse the archive**](archive/README.md)
 
