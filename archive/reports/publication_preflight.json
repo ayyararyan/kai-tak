@@ -1,0 +1,15 @@
+{
+  "checked_utc": "2026-10-13T17:29:01.622263+00:00",
+  "status": "passed",
+  "tests": 59,
+  "metadata_checks": 32912,
+  "unchanged_data_bundles": 5,
+  "unchanged_data_members": 418,
+  "private_correspondence_tracked": false,
+  "newer_main_research_publication_data_asset_paths_changed": false,
+  "retained_main_commit": "2b65c24e2e755b22ea383a51e1c46691681487ab",
+  "original_licenses_activated": false,
+  "immutable_release_control_enabled": true,
+  "local_link_failures": [],
+  "scope": "Publication preparation; actual remote upload and readback are separate gates."
+}

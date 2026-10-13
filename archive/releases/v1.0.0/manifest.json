@@ -22871,5 +22871,7 @@
   "release_tag": "archive-v1.0.0",
   "release_url": "https://github.com/ayyararyan/kai-tak/releases/tag/archive-v1.0.0",
   "publication_authorized": true,
-  "scope": "Frozen permitted-data subset; full historical provenance/reuse remains incomplete. No new original-work license grant."
+  "scope": "Frozen permitted-data subset; full historical provenance/reuse remains incomplete. No new original-work license grant.",
+  "supplemental_asset_index": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/RELEASE_ASSETS.json",
+  "metadata_delivery": "Metadata/tooling tar and exact source commit recorded in supplemental asset index; private source-history bundle not published."
 }
