@@ -9,3 +9,6 @@ retained byte-for-byte from main during the architecture merge, alongside the RE
 The current homepage uses a source-linked [atlas plate](../visual-atlas/README.md).
 Atlas images stay with their edition, cameras and provenance; do not duplicate
 them here merely to simplify a relative link.
+
+`kai-tak-overview-cropped.webp` is the author-selected cropped homepage overview.
+It and its main-README reference are retained exactly during the merge.

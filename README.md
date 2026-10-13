@@ -12,7 +12,7 @@ Historical geography · 3D reconstruction · Flight dynamics · Mathematical ver
 
 <p align="center">
   <a href="visual-atlas/v1/README.md">
-    <img src="visual-atlas/v1/renders/web/01-grand-overview.webp" width="900" alt="Evidence-led geographical overview of the historic Kai Tak airport landscape from the project visual atlas">
+    <img src="assets/kai-tak-overview-cropped.webp" width="900" alt="Cropped historical source-map overview of Kai Tak, Kowloon and Kowloon Bay, including the clearly marked source-tile gap">
   </a>
 </p>
 <p align="center"><sub>From the <a href="visual-atlas/v1/README.md">Kai Tak Visual Atlas</a>. Historical sources, model geometry and illustrative context are identified separately in the atlas.</sub></p>

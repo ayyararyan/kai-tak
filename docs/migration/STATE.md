@@ -47,3 +47,11 @@ author-maintained main README. Atlas gallery bytes and its browser acceptance re
 unchanged. The inherited direct scientific-snapshot command in the preserved README
 retains its ledger-hash limitation; `docs/REPRODUCIBILITY.md` documents the working
 snapshot-safe `scripts/repo.py science` route. No README change was made to hide it.
+
+
+A concurrent author update advanced main to
+`58f643681d34d17acadd594485de85f3e8426f7c` during merge verification, adding the
+cropped overview image. The merge now retains that newer README and
+`assets/kai-tak-overview-cropped.webp` exactly, as well as the runway diagram.
+The first checkpoint above remains historical; merge-preservation.json identifies
+the final protected input. Main was not overwritten by the earlier candidate.
