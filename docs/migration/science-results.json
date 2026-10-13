@@ -1,0 +1,72 @@
+{
+  "runs": [
+    {
+      "command": [
+        "<validation-python>",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "model",
+        "counterfactual"
+      ],
+      "cwd": "research/checkers-runway13",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "stdout": "........................................................................ [ 80%]\n.................                                                        [100%]\n89 passed in 2.93s\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<validation-python>",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "test_explicit_reference.py"
+      ],
+      "cwd": "research/checkers-runway13/approximation",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "stdout": "..............................                                           [100%]\n30 passed in 0.89s\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<validation-python>",
+        "evaluate.py"
+      ],
+      "cwd": "research/checkers-runway13/integrated",
+      "exit_code": 2,
+      "expected_exit": 2,
+      "passed": true,
+      "stdout": "{\n  \"requested_goal\": \"historical condition-dependent closed-form optimal full landing\",\n  \"overall\": \"INCOMPLETE\",\n  \"stage\": \"historical integration blocked\",\n  \"frozen_files_checked\": 13,\n  \"frozen_files_changed\": [],\n  \"blockers\": [\n    {\n      \"id\": \"horizontal_registration\",\n      \"status\": \"unresolved\"\n    },\n    {\n      \"id\": \"common_vertical_datum\",\n      \"status\": \"unresolved\"\n    },\n    {\n      \"id\": \"target_date_surface_coverage\",\n      \"status\": \"unresolved\"\n    },\n    {\n      \"id\": \"obstacle_top_hard_bounds\",\n      \"status\": \"unresolved\"\n    },\n    {\n      \"id\": \"whole_aircraft_inflight_envelope\",\n      \"status\": \"unresolved\"\n    },\n    {\n      \"id\": \"CG_gear_reference_and_attitude\",\n      \"status\": \"unresolved\"\n    },\n    {\n      \"id\": \"tracking_uncertainty_bound\",\n      \"status\": \"unresolved\"\n    },\n    {\n      \"id\": \"aircraft_actuator_calibration\",\n      \"status\": \"unresolved\"\n    },\n    {\n      \"id\": \"calibrated_fixed_braking_applicability\",\n      \"status\": \"unresolved\"\n    },\n    {\n      \"id\": \"go_around_and_causal_feedback\",\n      \"status\": \"unresolved\"\n    },\n    {\n      \"id\": \"registration_values_not_accepted\"\n    },\n    {\n      \"id\": \"static_drawing_not_inflight_bound\"\n    },\n    {\n      \"id\": \"full_historical_integration_not_implemented\",\n      \"status\": \"acceptance_not_established\"\n    }\n  ],\n  \"candidate\": \"counterfactual/formula.json\",\n  \"candidate_historical_clearance\": null,\n  \"limiting_historical_feature\": null,\n  \"reason_no_limiting_feature\": \"No accepted common frame, absolute obstacle top bounds or body-pose/reference history; no physical clearance number calculated.\",\n  \"downstream_optimality\": \"not_started_under_required_sequence\",\n  \"closed_form_optimum\": null,\n  \"global_proof\": null,\n  \"historical_condition_cells_certified\": 0\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "<validation-python>",
+        "publication/scientific-results-20261013/run_public_tests.py"
+      ],
+      "cwd": "<disposable public scientific snapshot>",
+      "snapshot_commit": "91ff7407b65c16323f6f15c72871387fb3ef8063",
+      "current_scientific_bound_files_checked": 234,
+      "ledger_prefix_preserved": true,
+      "exit_code": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"mapped_public_files\": 235,\n  \"sealed_source_bindings\": 224,\n  \"original_sealed_manifests\": 3,\n  \"preservation_dispositions\": {\n    \"identical_git\": 438,\n    \"normalized_git\": 5,\n    \"not_in_git\": 167\n  },\n  \"scope\": \"public-copy integrity; does not assert private-source reproduction or scientific completeness\"\n}\n........................................................................ [ 70%]\n..............................                                           [100%]\n102 passed, 6 deselected in 13.83s\n",
+      "stderr": "test_continuous_feature_and_time_reporting (integrated.test_frames_and_gate.FrameGateTests.test_continuous_feature_and_time_reporting) ... ok\ntest_domain_boundaries_and_units (integrated.test_frames_and_gate.FrameGateTests.test_domain_boundaries_and_units) ... ok\ntest_empty_scene_not_historical (integrated.test_frames_and_gate.FrameGateTests.test_empty_scene_not_historical) ... ok\ntest_frame_inverse_and_orientation (integrated.test_frames_and_gate.FrameGateTests.test_frame_inverse_and_orientation) ... ok\ntest_gate_cannot_upgrade_old_certificate (integrated.test_frames_and_gate.FrameGateTests.test_gate_cannot_upgrade_old_certificate) ... ok\ntest_inherited_unknowns_preserved (integrated.test_frames_and_gate.FrameGateTests.test_inherited_unknowns_preserved) ... ok\ntest_join_gap_refused (integrated.test_frames_and_gate.FrameGateTests.test_join_gap_refused) ... ok\ntest_official_numeric_checkpoint (integrated.test_frames_and_gate.FrameGateTests.test_official_numeric_checkpoint) ... ok\ntest_source_scenario_condition_not_optimality (integrated.test_frames_and_gate.FrameGateTests.test_source_scenario_condition_not_optimality) ... ok\ntest_unknown_registration_refused (integrated.test_frames_and_gate.FrameGateTests.test_unknown_registration_refused) ... ok\ntest_all_scene_geometries_and_bound_sources (integrated.test_source_geometry.SourceGeometryTests.test_all_scene_geometries_and_bound_sources) ... ok\ntest_hill_readings_and_nonpromotion (integrated.test_source_geometry.SourceGeometryTests.test_hill_readings_and_nonpromotion) ... ok\ntest_new_geometry_coordinate_roundtrip (integrated.test_source_geometry.SourceGeometryTests.test_new_geometry_coordinate_roundtrip) ... ok\ntest_requirement_coverage_every_id_once (integrated.test_source_geometry.SourceGeometryTests.test_requirement_coverage_every_id_once) ... ok\ntest_runway_identity_diagnostic_is_not_registration (integrated.test_source_geometry.SourceGeometryTests.test_runway_identity_diagnostic_is_not_registration) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 0.035s\n\nOK\n",
+      "scope": "Frozen public scientific snapshot, not later mutable ledger bytes."
+    }
+  ],
+  "errors": [],
+  "scope": "Model/counterfactual/explicit-reference regressions, public scientific snapshot checks and expected historical refusal; not full optimization or scientific completeness.",
+  "lane": "science",
+  "checked_utc": "2026-10-13T18:52:58.576530+00:00",
+  "status": "passed"
+}

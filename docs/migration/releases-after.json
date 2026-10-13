@@ -1,0 +1,74 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "tag": "visual-atlas-v1",
+      "same_release_id": true,
+      "same_asset_metadata": true,
+      "same_immutability": true,
+      "assets": 1
+    },
+    {
+      "tag": "archive-v1.0.0",
+      "same_release_id": true,
+      "same_asset_metadata": true,
+      "same_immutability": true,
+      "assets": 9
+    },
+    {
+      "tag": "update-2026-10-13",
+      "same_release_id": true,
+      "same_asset_metadata": true,
+      "same_immutability": true,
+      "assets": 4
+    },
+    {
+      "tag": "snapshot-2026-10-13",
+      "same_release_id": true,
+      "same_asset_metadata": true,
+      "same_immutability": true,
+      "assets": 6
+    },
+    {
+      "tag": "integration-2026-10-13",
+      "same_release_id": true,
+      "same_asset_metadata": true,
+      "same_immutability": true,
+      "assets": 2
+    }
+  ],
+  "tags": [
+    {
+      "tag": "archive-v1.0.0",
+      "expected_commit": "9f4f7b0cc47b2db0933bd4d20b4e3698f43a465d",
+      "remote_commit": "9f4f7b0cc47b2db0933bd4d20b4e3698f43a465d",
+      "matches": true
+    },
+    {
+      "tag": "integration-2026-10-13",
+      "expected_commit": "128f7006e8c929a878bd80bdf84521a97c45ee30",
+      "remote_commit": "128f7006e8c929a878bd80bdf84521a97c45ee30",
+      "matches": true
+    },
+    {
+      "tag": "snapshot-2026-10-13",
+      "expected_commit": "fd0c0d85b6c514fc7f919542192f18b747f4e092",
+      "remote_commit": "fd0c0d85b6c514fc7f919542192f18b747f4e092",
+      "matches": true
+    },
+    {
+      "tag": "update-2026-10-13",
+      "expected_commit": "6178eed1de49f66ac658acf5f5d26fa7e754b9ba",
+      "remote_commit": "6178eed1de49f66ac658acf5f5d26fa7e754b9ba",
+      "matches": true
+    },
+    {
+      "tag": "visual-atlas-v1",
+      "expected_commit": "c39008bbdb400e5a0ca25bfb480af85f1b0e6047",
+      "remote_commit": "c39008bbdb400e5a0ca25bfb480af85f1b0e6047",
+      "matches": true
+    }
+  ],
+  "observed_main": "78a9ce1c627f917c94306af5529d5e9ebeb743e8",
+  "verified_utc": "2026-10-13T18:35:54.808904+00:00"
+}

@@ -1,0 +1,43 @@
+{
+  "checked_utc": "2026-10-13T18:52:37.009332+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "tag": "visual-atlas-v1",
+      "same_release_id": true,
+      "same_asset_metadata": true,
+      "same_immutability": true,
+      "assets": 1
+    },
+    {
+      "tag": "archive-v1.0.0",
+      "same_release_id": true,
+      "same_asset_metadata": true,
+      "same_immutability": true,
+      "assets": 9
+    },
+    {
+      "tag": "update-2026-10-13",
+      "same_release_id": true,
+      "same_asset_metadata": true,
+      "same_immutability": true,
+      "assets": 4
+    },
+    {
+      "tag": "snapshot-2026-10-13",
+      "same_release_id": true,
+      "same_asset_metadata": true,
+      "same_immutability": true,
+      "assets": 6
+    },
+    {
+      "tag": "integration-2026-10-13",
+      "same_release_id": true,
+      "same_asset_metadata": true,
+      "same_immutability": true,
+      "assets": 2
+    }
+  ],
+  "release_count": 5,
+  "asset_count": 22
+}

@@ -1,0 +1,55 @@
+name: Representative atlas rebuild (manual)
+on:
+  workflow_dispatch:
+    inputs:
+      view:
+        description: 'One source-bound view; rendered in a disposable checkout'
+        type: choice
+        options: ['08-november-surface', '10-modern-core']
+        default: '08-november-surface'
+permissions:
+  contents: read
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      ATLAS_VIEW: ${{ inputs.view }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+      - name: Install the recorded Blender series, verifying the official checksum
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libegl1 libxkbcommon0 libxi6 libxrender1 libxxf86vm1 libsm6 fonts-dejavu-core
+          cd "$RUNNER_TEMP"
+          curl --fail --location --retry 3 -O https://download.blender.org/release/Blender4.5/blender-4.5.3-linux-x64.tar.xz
+          curl --fail --location --retry 3 -O https://download.blender.org/release/Blender4.5/blender-4.5.3.sha256
+          sha256sum --check --ignore-missing blender-4.5.3.sha256
+          tar -xf blender-4.5.3-linux-x64.tar.xz
+          echo "BLENDER=$RUNNER_TEMP/blender-4.5.3-linux-x64/blender" >> "$GITHUB_ENV"
+      - name: Prepare a disposable source tree and restore original inputs
+        run: |
+          git worktree add --detach "$RUNNER_TEMP/atlas-rebuild" HEAD
+          cd "$RUNNER_TEMP/atlas-rebuild"
+          python -m pip install -r visual-atlas/v1/metadata/requirements.txt
+          python scripts/fetch_data.py
+          python visual-atlas/v1/scripts/restore_scene_bundle.py
+      - name: Regenerate machine-local jobs and render one view
+        run: |
+          cd "$RUNNER_TEMP/atlas-rebuild"
+          "$BLENDER" --version
+          python visual-atlas/v1/scripts/prepare.py
+          python visual-atlas/v1/scripts/make_jobs.py
+          python visual-atlas/v1/scripts/render_all.py "$ATLAS_VIEW"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: representative-atlas-render
+          path: |
+            ${{ runner.temp }}/atlas-rebuild/visual-atlas/v1/renders/master/${{ inputs.view }}.png
+            ${{ runner.temp }}/atlas-rebuild/visual-atlas/v1/renders/master/${{ inputs.view }}.render.json
+          if-no-files-found: error

@@ -1,0 +1,25 @@
+{
+  "scope": "migration",
+  "protected_files_checked": 2967,
+  "tags_unavailable": [],
+  "errors": [],
+  "runs": [
+    {
+      "command": [
+        "<validation-python>",
+        "scripts/archive_validate.py"
+      ],
+      "cwd": ".",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "passed": true,
+      "stdout": "{\n  \"schema_version\": \"1.0.0\",\n  \"status\": \"passed\",\n  \"mode\": \"metadata-only\",\n  \"checks\": 32912,\n  \"checks_passed\": 32912,\n  \"errors\": [],\n  \"warning_count\": 2739,\n  \"full_provenance_complete\": false,\n  \"scientific_validation\": \"Not established by archive-integrity checks\",\n  \"publication_ready\": false\n}\n",
+      "stderr": ""
+    }
+  ],
+  "restoration_executed": false,
+  "restore_note": "This command checks supplied files; use fetch_data.py for actual restoration. Without --data-root only metadata is checked.",
+  "lane": "release",
+  "checked_utc": "2026-10-13T19:01:06.303999+00:00",
+  "status": "passed"
+}

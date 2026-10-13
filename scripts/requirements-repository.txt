@@ -1,0 +1,5 @@
+# Maintenance only. Scientific and rendering environments remain independent.
+jsonschema==4.25.1
+PyYAML==6.0.2
+pytest==9.1.1
+markdown-it-py==4.0.0
