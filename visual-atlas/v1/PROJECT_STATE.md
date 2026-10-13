@@ -29,3 +29,11 @@ Open `gallery/index.html` or `renders/print/Kai-Tak-Visual-Atlas-A4.pdf`. Recomm
 ## GitHub publication authorization
 
 2026-10-13: user requested “if not push them.” Publishing images, PDF, previews, gallery, scripts and durable records in Git; 17 editable scenes and prepared assets in release `visual-atlas-v1`. Transient smoke/replay renders, runtime logs and superseded backups stay local. No new scientific completeness claim or website deployment. Remote verification receipt follows publication.
+
+## Verified GitHub delivery
+
+Published 2026-10-13. Snapshot commit `c39008bbdb400e5a0ca25bfb480af85f1b0e6047`, pushed to `main`; release/tag `visual-atlas-v1` targets that exact commit. All 180 atlas Git entries matched an independent bare fetch (2,438 repository entries checked). Public HTTP downloads of the PDF, contact sheet and README matched local SHA256 values. The 66,025,065-byte scene bundle matched GitHub's SHA256 and a fresh unauthenticated public download restored all 27 scene/asset files with archive, exact-member-set and per-member verification.
+
+The images, PDF, scripts and gallery are in Git; all 17 editable Blender scenes plus 10 prepared assets are in the published release. Superseded backups, logs and smoke/replay scratch were excluded. Nothing remains pending for this authorized GitHub delivery. Gallery browser acceptance and scientific reconstruction limitations remain unchanged.
+
+Receipt: `metadata/publication_receipt.json`. Initial snapshot inventories remain bound to the release commit; this ledger/receipt update is a separate follow-up commit. No website deployment or future automatic synchronization was enabled.

@@ -1,0 +1,72 @@
+{
+  "verified_utc": "2026-10-13T17:58:11.589993+00:00",
+  "repository": "https://github.com/ayyararyan/kai-tak",
+  "branch": "main",
+  "snapshot_commit": "c39008bbdb400e5a0ca25bfb480af85f1b0e6047",
+  "release": {
+    "assets": [
+      {
+        "apiUrl": "https://api.github.com/repos/ayyararyan/kai-tak/releases/assets/637815899",
+        "contentType": "application/zip",
+        "createdAt": "2026-10-13T17:56:19Z",
+        "digest": "sha256:63c7796f6a8f55c11f5b1964f2de1338bf40ae6aae2adcf06cdf0716d8553b64",
+        "downloadCount": 0,
+        "id": "RA_kwDOVHfA3M4mBExb",
+        "label": "",
+        "name": "kai-tak-visual-atlas-v1-scenes.zip",
+        "size": 66025065,
+        "state": "uploaded",
+        "updatedAt": "2026-10-13T17:56:25Z",
+        "url": "https://github.com/ayyararyan/kai-tak/releases/download/visual-atlas-v1/kai-tak-visual-atlas-v1-scenes.zip"
+      }
+    ],
+    "isDraft": false,
+    "tagName": "visual-atlas-v1",
+    "targetCommitish": "c39008bbdb400e5a0ca25bfb480af85f1b0e6047",
+    "url": "https://github.com/ayyararyan/kai-tak/releases/tag/visual-atlas-v1"
+  },
+  "git_readback": {
+    "verified_utc": "2026-10-13T17:57:32.591616+00:00",
+    "release_commit": "c39008bbdb400e5a0ca25bfb480af85f1b0e6047",
+    "remote_head_matched": true,
+    "independent_bare_fetch": true,
+    "all_tree_entries_matched": 2438,
+    "atlas_tree_entries_matched": 180,
+    "pdf_and_contact_sheet_blob_bytes_matched": true
+  },
+  "http_readback": {
+    "verified_utc": "2026-10-13T17:56:32.779235+00:00",
+    "files": [
+      {
+        "path": "visual-atlas/v1/renders/print/Kai-Tak-Visual-Atlas-A4.pdf",
+        "url": "https://raw.githubusercontent.com/ayyararyan/kai-tak/c39008bbdb400e5a0ca25bfb480af85f1b0e6047/visual-atlas/v1/renders/print/Kai-Tak-Visual-Atlas-A4.pdf",
+        "sha256": "5860859254a52e4ae381113dd165bebd1f03f6c4170cf1eba69a1d4d6490b2e4",
+        "bytes": 5143067,
+        "matched": true
+      },
+      {
+        "path": "visual-atlas/v1/qa/contact-sheet.jpg",
+        "url": "https://raw.githubusercontent.com/ayyararyan/kai-tak/c39008bbdb400e5a0ca25bfb480af85f1b0e6047/visual-atlas/v1/qa/contact-sheet.jpg",
+        "sha256": "babae98c288abd9cd94e7928036de2e94ed12c6e949dbedb10a655fd83c52d29",
+        "bytes": 388241,
+        "matched": true
+      },
+      {
+        "path": "visual-atlas/v1/README.md",
+        "url": "https://raw.githubusercontent.com/ayyararyan/kai-tak/c39008bbdb400e5a0ca25bfb480af85f1b0e6047/visual-atlas/v1/README.md",
+        "sha256": "8aacaf29d263e16c039d5ab0b8edfd62f912fff1ff5091c09f7aeef765476e0c",
+        "bytes": 9422,
+        "matched": true
+      }
+    ]
+  },
+  "public_scene_restore": {
+    "downloaded_without_authentication": true,
+    "archive_sha256": "63c7796f6a8f55c11f5b1964f2de1338bf40ae6aae2adcf06cdf0716d8553b64",
+    "exact_member_set_verified": true,
+    "members_sha256_verified": 27
+  },
+  "excluded": "Only transient logs, smoke/replay copies, caches and superseded .blend1 backups. Original research datasets retain their pre-existing archive restoration routes.",
+  "scientific_acceptance": "Unchanged; historical completeness is not claimed and gallery browser interaction remains unverified.",
+  "receipt_scope": "This post-publication receipt is a follow-up Git commit, not part of the immutable visual-atlas-v1 snapshot."
+}

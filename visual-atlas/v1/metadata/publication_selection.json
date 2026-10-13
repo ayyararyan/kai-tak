@@ -2196,5 +2196,7 @@
       "public_sha256": "027bcd155c66ea8d0159be8fb86b5c9d18cf51a6edc0c097e513d7794044f11a"
     }
   ],
-  "secret_pattern_scan_findings": 0
+  "secret_pattern_scan_findings": 0,
+  "snapshot_commit": "c39008bbdb400e5a0ca25bfb480af85f1b0e6047",
+  "snapshot_note": "Frozen inventory of the initial visual-atlas-v1 publication. Later receipt/ledger edits are separate; original source and public hashes are retained."
 }

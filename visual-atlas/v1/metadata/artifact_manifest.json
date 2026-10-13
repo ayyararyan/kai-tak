@@ -1502,5 +1502,7 @@
       "role": "storyboard"
     }
   ],
-  "total_bytes": 566897916
+  "total_bytes": 566897916,
+  "snapshot_commit": "c39008bbdb400e5a0ca25bfb480af85f1b0e6047",
+  "snapshot_note": "Frozen inventory of the initial visual-atlas-v1 publication. Later receipt/ledger edits are separate; original source and public hashes are retained."
 }
