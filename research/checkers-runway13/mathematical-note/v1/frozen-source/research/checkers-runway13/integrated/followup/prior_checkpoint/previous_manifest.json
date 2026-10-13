@@ -1,0 +1,737 @@
+{
+  "created_utc": "2026-10-13T15:48:02.917984+00:00",
+  "root": "integrated/",
+  "scope": "localresearchpackage; thirdpartysourcesnotapprovedforpublication",
+  "artifacts": [
+    {
+      "path": "HANDOFF_TASK.md",
+      "bytes": 10961,
+      "sha256": "e6ca740ccdfcb0d8f536fc1f608e9f4027b59b705777bd87054a7901a9e41e95"
+    },
+    {
+      "path": "PHYSICAL_CALIBRATION.md",
+      "bytes": 5434,
+      "sha256": "f027edae3996a1d626096638d40f4103630fa6949b6bb63a10ea20688c66b12c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2990,
+      "sha256": "43a52ad552cba42f1eb717296c93ab2f0696540dd5d10164784ee1533193a8d6"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 9671,
+      "sha256": "48c14268afc265d3bdea69efbd9747ef6c4d192bce1a3a50d9a0b2b04b7de861"
+    },
+    {
+      "path": "SPEC.md",
+      "bytes": 6906,
+      "sha256": "9d807830f2225e4c19208e37272dcd24ebec085d6114d57d9fe39aa7dfa3a3e4"
+    },
+    {
+      "path": "TRACEABILITY.md",
+      "bytes": 4153,
+      "sha256": "0e63050dd91b86d4b1b76293814486c3ab105dea4f981bb9a77d608c723b454c"
+    },
+    {
+      "path": "build_airframe.py",
+      "bytes": 5861,
+      "sha256": "53b517fe3564cb6203a31ee9e700a2d340d45c5cd690d2d9c3f26e6fb110bf22"
+    },
+    {
+      "path": "build_replay.log",
+      "bytes": 5789,
+      "sha256": "a0d10b5d0dd7c82153dffb87605894ccc6260930f72ac41a2d3dcab589268980"
+    },
+    {
+      "path": "build_scene.py",
+      "bytes": 6293,
+      "sha256": "bf55b9278106a95efdfc76a145525d73b7102985b88a1655d11e117a104aaa24"
+    },
+    {
+      "path": "build_source_ledger.py",
+      "bytes": 9147,
+      "sha256": "7c5eb25abc04d66621b9c1a8dd2d0a96467f104a03cf5f81a9f5ad27eabb8fdb"
+    },
+    {
+      "path": "check_mapped_axis.py",
+      "bytes": 2130,
+      "sha256": "e35a8b3e015dae50aa0ca61abf87fa42608b0d127fa743127c3628862b220ffc"
+    },
+    {
+      "path": "check_printed_grid.py",
+      "bytes": 1483,
+      "sha256": "b1b7a47c4379f17aae70bdaf4911846bcec6e3adbabd83d069c334e6c4232129"
+    },
+    {
+      "path": "check_runway_registration.py",
+      "bytes": 3304,
+      "sha256": "44b05e99b4e49a24cf102d0d377abaf3db151a026ea776ae7a2935282f3598a1"
+    },
+    {
+      "path": "clearance.py",
+      "bytes": 6785,
+      "sha256": "87ccd39c312914531fb962fa2d93116f8d08794f6a248a87eeedd0ec36d7104a"
+    },
+    {
+      "path": "conditions.json",
+      "bytes": 3389,
+      "sha256": "cb0eb2036c1da30fd646409283d7840afff4fba329c3020285eafc2ac14f91e9"
+    },
+    {
+      "path": "derivations/CLEARANCE_AND_REFERENCE.md",
+      "bytes": 5805,
+      "sha256": "d3f275ee86c5625fa5ac0f5b574d575f0d5a7849e18076095414af3c6d149d39"
+    },
+    {
+      "path": "derivations/IDENTIFICATION_AND_SEQUENCE.md",
+      "bytes": 4530,
+      "sha256": "45c25d03ea3fb01538bbee2553037ddccdbec8bd5b4d9df11073ff19a7d29f02"
+    },
+    {
+      "path": "derive_mapped_runway.py",
+      "bytes": 3645,
+      "sha256": "84b38e25592b0efd61a9c82b0fcd2068f1da475eb91c3be5f7794e27f1ab02ab"
+    },
+    {
+      "path": "digitize_coast.py",
+      "bytes": 3333,
+      "sha256": "ae4df657109ba89b8e19a8a46b44b794e8f6281490ce2a00a7bcf04aef71fe5d"
+    },
+    {
+      "path": "digitize_hill.py",
+      "bytes": 5951,
+      "sha256": "ace20561298a15b0609b84e37a2f48bf7929f3bd5e70837fb596707dbce20d1e"
+    },
+    {
+      "path": "evaluate.py",
+      "bytes": 4458,
+      "sha256": "6da13e02db1673b7fc174d69d8681ca1ccc8c63f155033c575d5e4b6e556f6fd"
+    },
+    {
+      "path": "evaluation.json",
+      "bytes": 1796,
+      "sha256": "716cf983430c150e9e92c54fca1fb2a3a64d0fe412774a302eea9561cbd831d0"
+    },
+    {
+      "path": "evidence_gates.pdf",
+      "bytes": 22390,
+      "sha256": "b5c0152171e54cb2686ef0268316dd682b11f89de523edc000aef805417a2b00"
+    },
+    {
+      "path": "evidence_gates.png",
+      "bytes": 108985,
+      "sha256": "85c099eb380ef86755871a4656780f05306fe68a7ae1e0d797bcd854337942fb"
+    },
+    {
+      "path": "extract_airframe.py",
+      "bytes": 1042,
+      "sha256": "bbef4578667209a3ce5523f4c122c59567b3b1f3989bf90cf563558a87a41cbd"
+    },
+    {
+      "path": "frames.py",
+      "bytes": 2742,
+      "sha256": "083ea658e56bf6803cfb1547c0fe9c7420dc43e7615668712ac533554cfa9f85"
+    },
+    {
+      "path": "geometry/A36172_CW.png",
+      "bytes": 3926804,
+      "sha256": "8f41297ab8a310852249e0d369028de1c51b09a5f8551d779a10207c5542bdc6"
+    },
+    {
+      "path": "geometry/A36172_CW_view.png",
+      "bytes": 1269850,
+      "sha256": "5bc11afd3b414d4db6f7d690be55f1e18e8865b849087023e2106f2397d03ad4"
+    },
+    {
+      "path": "geometry/A36172_CW_view_controls.png",
+      "bytes": 2066648,
+      "sha256": "7ea105e5c8beb7d0caa053d1eccf094ca3f1877ea823f229fd6b7381359418f5"
+    },
+    {
+      "path": "geometry/A36172_runway_end_detail.png",
+      "bytes": 444018,
+      "sha256": "4cc17425c06aa751829b99ee8fc16af7965b39a161f46136825543fb756d5247"
+    },
+    {
+      "path": "geometry/RW13_threshold_detail.png",
+      "bytes": 229104,
+      "sha256": "c09211f4c59d98acb4ecc598edfa71ca7f018eaae44635214413b6a4311bc573"
+    },
+    {
+      "path": "geometry/aerial1993_contact.png",
+      "bytes": 2575326,
+      "sha256": "3c05764e3501d002c23a2a850a71c81bd06997b61d389515e0531f6101e2e0fd"
+    },
+    {
+      "path": "geometry/aircraft_dxf_axes.png",
+      "bytes": 131923,
+      "sha256": "2d15c015ecc183f12220ba78dd52d177b070181cf570a0327a922926edb0c05a"
+    },
+    {
+      "path": "geometry/aircraft_dxf_curves.npz",
+      "bytes": 563664,
+      "sha256": "048bd0f98231a71e657f63f2c5274b36a306487bdc1355ee9481d6b81f461142"
+    },
+    {
+      "path": "geometry/aircraft_threeview.png",
+      "bytes": 59150,
+      "sha256": "98470b32760435d1ab9b1412d9d52b16c86c7d6d3b745aeab42868c43d0fd3f9"
+    },
+    {
+      "path": "geometry/aircraft_threeview.svg",
+      "bytes": 669940,
+      "sha256": "360df12ce514c203a924492850c290d5c89c8a2538b3230fa63414f1bff983a9"
+    },
+    {
+      "path": "geometry/airframe_envelope.json",
+      "bytes": 13068,
+      "sha256": "49f84a515af128d19682c156fb81c06cf3019a830ac1708b923ddb5f9d4746d5"
+    },
+    {
+      "path": "geometry/airframe_envelope.pdf",
+      "bytes": 18964,
+      "sha256": "06451e1d7807cfba283548e301ea9dd9b6f079a11639114426b7435d1c2c1628"
+    },
+    {
+      "path": "geometry/airframe_envelope.png",
+      "bytes": 214854,
+      "sha256": "923c4b3ba71a560ccd5b74324516934698852407ba348b2d5ea50a0936dfba53"
+    },
+    {
+      "path": "geometry/airframe_projection_intersection.json",
+      "bytes": 61222,
+      "sha256": "eef47dcd7b800cf40e418771e3e03124ed654a2fbb866b80845e01b59b97625f"
+    },
+    {
+      "path": "geometry/hill_spot_crop_centres.json",
+      "bytes": 130,
+      "sha256": "5116c4568198aa7e78721c8c479e91c97668accc1044fc308f758a0e44ae792a"
+    },
+    {
+      "path": "geometry/hill_terrain_inspection.json",
+      "bytes": 772,
+      "sha256": "e858464d3460b4154846c54ecdf63be62f72a0b249ef4f63fdf44f4bd3150981"
+    },
+    {
+      "path": "geometry/hill_terrain_picks.png",
+      "bytes": 398600,
+      "sha256": "90d8889885cd04ad8258844b247493b60d029bf7eb321d5b49108c7b7c045e56"
+    },
+    {
+      "path": "geometry/historical_approach_lights.geojson",
+      "bytes": 6951,
+      "sha256": "8526a840b9e05a75568b8d5580f7d9c7445c5d7c465df283cad7858b8bba41af"
+    },
+    {
+      "path": "geometry/historical_hill_terrain.geojson",
+      "bytes": 33399,
+      "sha256": "f653dee81574ac7cfe05fdb583fbd8afcf6fc2f6730afb66af84e57cce49fe2d"
+    },
+    {
+      "path": "geometry/historical_seawall.geojson",
+      "bytes": 5163,
+      "sha256": "b58e02585c12a8f6e452a2bc7ec3c419afd303d4e3e778e102a61fab0c3d4869"
+    },
+    {
+      "path": "geometry/integrated_evidence.geojson",
+      "bytes": 511164,
+      "sha256": "0f9b3bd6d4a4a4b9b954e0a7eb568ccc6d0c8095340382de83c93fc5c1d1d9fa"
+    },
+    {
+      "path": "geometry/map_mosaic_manifest.json",
+      "bytes": 13417,
+      "sha256": "05572079470c4ce22765307dbf05096e171898b5a8ea6d6d09ef28c941d4a6ab"
+    },
+    {
+      "path": "geometry/mapped_axis_candidates.json",
+      "bytes": 3609,
+      "sha256": "c3a09ea0adb35d29eb8f759aa8fc6c4febc9bf6db0bc4bb093e57b4f00585942"
+    },
+    {
+      "path": "geometry/mapped_axis_candidates.png",
+      "bytes": 116672,
+      "sha256": "5de5b1520d4ccdfcbed96e2198ab568ae7063ef2ae916b786f08994a70aab739"
+    },
+    {
+      "path": "geometry/mapped_runway_axis_check.json",
+      "bytes": 919,
+      "sha256": "230864360ee250fa073150114524b82e2506619d0fb0d6062e14a2c299b3dc20"
+    },
+    {
+      "path": "geometry/mapped_runway_edge_candidates.json",
+      "bytes": 1934,
+      "sha256": "b198f45ac8f1e3724ef68d3101a5380e8090fa437e264026fce0f4d8a4f01f86"
+    },
+    {
+      "path": "geometry/mapped_runway_edge_candidates.png",
+      "bytes": 113978,
+      "sha256": "ab4fa6e25f8bc2d1012c89c1721ab13d83d578b2e46e48223e866acb4b71a58f"
+    },
+    {
+      "path": "geometry/mapped_runway_edge_selection.json",
+      "bytes": 441,
+      "sha256": "322a1deeee545bc52ef369851f046f36804b305f676edd9539c820f98a45e147"
+    },
+    {
+      "path": "geometry/mapped_runway_edges.geojson",
+      "bytes": 18334,
+      "sha256": "15a253c9de5c1d26d82fd42d3ebd5b677c2a167b7dc3c51013b863965b6f77e2"
+    },
+    {
+      "path": "geometry/printed_grid_check.json",
+      "bytes": 1729,
+      "sha256": "81c8e2d67d5d319539b1d635a097c6d2ed3558e35c005b3eecea5ace841f436e"
+    },
+    {
+      "path": "geometry/rejected_registration/runway_control_picks.json",
+      "bytes": 2280,
+      "sha256": "8162016e7c6f3b3c213bce8f5e46bf736e3ac8c639cba6afd54df63306abd056"
+    },
+    {
+      "path": "geometry/rejected_registration/runway_registration_diagnostic.json",
+      "bytes": 5698,
+      "sha256": "cf43f997804a98cb7018b673f7322909fcbf6d7a225e29f58c9a1da9efc92c06"
+    },
+    {
+      "path": "geometry/roundabout_map_check.png",
+      "bytes": 199355,
+      "sha256": "bca51c5faea1fae4611f460bd6371641b9420426383b250d4a515960af3c5b54"
+    },
+    {
+      "path": "geometry/roundabout_photo_check.png",
+      "bytes": 222290,
+      "sha256": "4dc399b85f054393b2b0e300e18bf72d3f4d9a8c894d9ebcba3a4017ae1a6389"
+    },
+    {
+      "path": "geometry/runway_control_picks.json",
+      "bytes": 3543,
+      "sha256": "b44c0d13f362a3c4f855649f8b14f4c19172ac1211272d09978682ff792d35d3"
+    },
+    {
+      "path": "geometry/runway_crosscheck.json",
+      "bytes": 2534,
+      "sha256": "28c10ad0e9d020b69889e79d225e0d0c36402eb95dedd81c07fd33c77b311434"
+    },
+    {
+      "path": "geometry/runway_map_mosaic.png",
+      "bytes": 1762167,
+      "sha256": "e6daae428f76350a2d4bb6108a3298244bfb2aab4308f7184bce5a56f2e169ff"
+    },
+    {
+      "path": "geometry/runway_photo_diagnostic.png",
+      "bytes": 3547792,
+      "sha256": "d0afd514947994d16fd9d0c80fedc77186cce7520009aab0c0c0ad4aad67ef2b"
+    },
+    {
+      "path": "geometry/runway_photo_diagnostic_view.png",
+      "bytes": 1119497,
+      "sha256": "de5fbb09dba5b59c320346bc1fc69cf8b8d3cc4672fd4d3c4ba65d561ff4de17"
+    },
+    {
+      "path": "geometry/runway_photo_diagnostic_view_controls.png",
+      "bytes": 1774976,
+      "sha256": "f1741b17c3d4468226afed2402fcc438e4b6d39c85bd2e09012d54310e44c1b3"
+    },
+    {
+      "path": "geometry/runway_projective_diagnostic.json",
+      "bytes": 1012,
+      "sha256": "81e880069f3d4a9a324ce033869a45a8aa1711a86f344f1d53207c41382656ca"
+    },
+    {
+      "path": "geometry/runway_registration_diagnostic.json",
+      "bytes": 5274,
+      "sha256": "bcef2a83e92867bb3f226bccce6e3e0dee002306139dfe92139f43b8a76dde1a"
+    },
+    {
+      "path": "geometry/runway_registration_map.png",
+      "bytes": 347959,
+      "sha256": "4bc074a41cd43a51dee57b6758cd868128024614aa01e3128a80d2b5ac212481"
+    },
+    {
+      "path": "geometry/runway_registration_map_view.png",
+      "bytes": 511451,
+      "sha256": "217aa033366dda2747fa6a3aded4bf0d4e6d79a3350503296dc3b5753e7d3147"
+    },
+    {
+      "path": "geometry/runway_registration_map_view_controls.png",
+      "bytes": 1065516,
+      "sha256": "9207f4ac627950d1d307b0097c8a0dea20c52e74f87e05beb757338366b509bc"
+    },
+    {
+      "path": "geometry/seawall_detail.png",
+      "bytes": 176375,
+      "sha256": "24b3fdee33c5999908f33fd9e16c6f73eb1a838e487099b31b049af8d7c04d8c"
+    },
+    {
+      "path": "geometry/seawall_source_picks.png",
+      "bytes": 371220,
+      "sha256": "d29150a1f1e4d6ee815490740605189290d4687a29f99fab82ff821b741d895f"
+    },
+    {
+      "path": "geometry/sheet_1011.png",
+      "bytes": 371216,
+      "sha256": "48f8fc5f6774b8826daf2c753b83ddb0173f840a1e17088456e4414aa245d66b"
+    },
+    {
+      "path": "geometry/sheet_686.png",
+      "bytes": 2194291,
+      "sha256": "0f9bc8e8d2f5e6616f4e97ac9e3e541d5d707400c88b1d98b9d690904eb3bff2"
+    },
+    {
+      "path": "geometry/sheet_702.png",
+      "bytes": 745987,
+      "sha256": "d13f450bd55b7a7038fd469a017830929b61f3610f8827804cdb5e2a449e169c"
+    },
+    {
+      "path": "geometry/sheet_830.png",
+      "bytes": 576868,
+      "sha256": "91335a24669d5dbeb4b3b1187be9aabd936d6191c800df317b23ceed5ac2a57e"
+    },
+    {
+      "path": "geometry/south_control_picks.json",
+      "bytes": 1521,
+      "sha256": "29c17a0556a157ba99de473eb09716ca6c8da0f47792c16bae6a97948c040420"
+    },
+    {
+      "path": "geometry/south_map_sources.json",
+      "bytes": 11162,
+      "sha256": "e6a2b657aa132a34d2cf6c99a595dea49e94b7da75ea3768ac5aad9071389d2e"
+    },
+    {
+      "path": "geometry/south_projective_diagnostic.json",
+      "bytes": 938,
+      "sha256": "994eee33a9db13338d8fd335598e23d812237afaa461361eea95179500e0adfe"
+    },
+    {
+      "path": "geometry/south_registration_diagnostic.json",
+      "bytes": 4365,
+      "sha256": "0c4a626620aff73912184c2714a0930a8d51961199ac331d593b84616d39653b"
+    },
+    {
+      "path": "geometry/south_runway_map.png",
+      "bytes": 79895,
+      "sha256": "e5a4ae8262a1e6e830090381919473d25ba9523785b939081ad05c23200bb3e4"
+    },
+    {
+      "path": "geometry/south_runway_map_controls.png",
+      "bytes": 114091,
+      "sha256": "a2d56f0862cf04c7dd04f6f4e50ad8cf027af768406b2d7993f0665aeabedcaa"
+    },
+    {
+      "path": "inspection_receipt.json",
+      "bytes": 3680,
+      "sha256": "70b9955621278c713accdec377b6c23fb399175b7ad320e5499ffc036fd2eaf8"
+    },
+    {
+      "path": "integration_status.json",
+      "bytes": 1273,
+      "sha256": "762c38bb916eee60e5b272e3a0f2424b46c0c3b014048360820c4d53ed358696"
+    },
+    {
+      "path": "map_rebuild.log",
+      "bytes": 12703,
+      "sha256": "aa14ca4d1efe8b47c91e8b38ffda341961ef89c9f1dc5fc22e34eb175bc88b83"
+    },
+    {
+      "path": "physical_parameters.json",
+      "bytes": 14563,
+      "sha256": "0e9b82680b746c5523534e1b38b7cc9416b610407fe8a537ed24480797b5a183"
+    },
+    {
+      "path": "plot_evidence.py",
+      "bytes": 2220,
+      "sha256": "6cf4019b748e20a2b5bddf2e1bc92905f89d447f33e1cec16ff74478e243ca3b"
+    },
+    {
+      "path": "prepare_maps.py",
+      "bytes": 2318,
+      "sha256": "66fbd16a387a6f3876f1cbf4f298f627dab207de54a7169ca4ba029c621e42e4"
+    },
+    {
+      "path": "prepare_registration.py",
+      "bytes": 1970,
+      "sha256": "53b22dbda25e227b2dbe2ecd34c138930c751861d5e6d17aa1913576fc4beff3"
+    },
+    {
+      "path": "prepare_south_registration.py",
+      "bytes": 1461,
+      "sha256": "1f2402e3e78ccb779a166783663b02df5d09735b8b9934208b42bc6dd2d5df93"
+    },
+    {
+      "path": "primary_source_manifest.json",
+      "bytes": 3266,
+      "sha256": "2e1d0e0cbfb5652fd02e11a0b880b9686cdfd38fa76d1048e3f47a3868f6df9d"
+    },
+    {
+      "path": "prior_artifact_verification.json",
+      "bytes": 94,
+      "sha256": "890dfb31d13af1c6b3d793ba10ee9ff11bb73e1ca1fef35f4cfa388aa5904800"
+    },
+    {
+      "path": "register_runway.py",
+      "bytes": 2575,
+      "sha256": "c18636c0429631d3bca66aeff0aa5e299778e6d73d37c22d5860f1b8b8813b12"
+    },
+    {
+      "path": "register_south.py",
+      "bytes": 1981,
+      "sha256": "77548f480462e1d1b293edc6a822831ae47f5b7c11fad6bc74c06026ea007a5f"
+    },
+    {
+      "path": "registration.json",
+      "bytes": 1681,
+      "sha256": "6063584e5171b4678caea2a3d2f7ffe74a3af589aa4fa04a3b6a37185b93324a"
+    },
+    {
+      "path": "source_manifest.json",
+      "bytes": 1571,
+      "sha256": "c57bb94270b6d575ed76e16c948a2e5a0f3ff4f7a54cb6fe55898afa3fa0d640"
+    },
+    {
+      "path": "source_observations.json",
+      "bytes": 18978,
+      "sha256": "8cfa7a8dd2697f1c251f41d2710116bcac0a7eb410c186ebd7cbda588b6a20d3"
+    },
+    {
+      "path": "sources/747-400.dxf",
+      "bytes": 824895,
+      "sha256": "8f497c741674a7ab8b75dc92792cacfc428892d7d6b1c710c94dd7e68de932a2"
+    },
+    {
+      "path": "sources/aip2026_GEN2_1.html",
+      "bytes": 11602,
+      "sha256": "43d8785e85eea0dbd160ac1090b292810815708ad9044077f512cee01ffa01ad"
+    },
+    {
+      "path": "sources/ais.json",
+      "bytes": 23705,
+      "sha256": "681d439820796a581123814c333f34c0f620349aaed8a8ad1d11b78a709cc5ed"
+    },
+    {
+      "path": "sources/ais_index.html",
+      "bytes": 64138,
+      "sha256": "efaa6aad648994a7bbbb4179c41a8d13b37eb644bbb0a2e284fad66316352eec"
+    },
+    {
+      "path": "sources/approach_chart.png",
+      "bytes": 853222,
+      "sha256": "83d8d7d4ea37d5bd71b69697905d6e8bfc31196b1c57b3fb523bc84e872dbb41"
+    },
+    {
+      "path": "sources/approach_chart_full.png",
+      "bytes": 2805284,
+      "sha256": "ba1e798d5fcc058edab4e7286f442a982ab2f4dbda00c18272c3a26a0fb525eb"
+    },
+    {
+      "path": "sources/approach_graticule_pick.png",
+      "bytes": 457670,
+      "sha256": "0d07c4ff540091292d9fcbba7fcc9ce51fd0e9447f6b7763677a669162242688"
+    },
+    {
+      "path": "sources/approach_plan_detail.png",
+      "bytes": 852556,
+      "sha256": "faa5e1148c72eaa8c0d08115c8a1f650f66b27861016c9d1e4262d7bc04dc9cd"
+    },
+    {
+      "path": "sources/black_tile_diagnostic.png",
+      "bytes": 352099,
+      "sha256": "926c489faa565bf9c426bc932b8b500be86ea43f1f356e870f93f1b4142dc1e8"
+    },
+    {
+      "path": "sources/boeing_747-400_Rev_F.pdf",
+      "bytes": 15793881,
+      "sha256": "9dd5baf00f3b9e5fdaa0bdf25425e1e65c9c6ee440d5b5c547956f95ccacef08"
+    },
+    {
+      "path": "sources/boeing_747-400_Rev_F.txt",
+      "bytes": 278381,
+      "sha256": "7cfd7bbad67e6528bae37de74ac421cf0f1c8ece94f9081edac388316fab52bd"
+    },
+    {
+      "path": "sources/boeing_7474.zip",
+      "bytes": 88882,
+      "sha256": "004f8505b623ac80fd8c4225d60845b89af2e0f996e7de0ce52b2b337bb0c5ed"
+    },
+    {
+      "path": "sources/boeing_page_31.png",
+      "bytes": 124395,
+      "sha256": "f8fddbb615072f4b66e40101a0e71d6953411a691fbef318c8b884d1bc8e936a"
+    },
+    {
+      "path": "sources/boeing_page_34.png",
+      "bytes": 158043,
+      "sha256": "5c0f1bb65b02703e042c1d9995d9d2265957444d0159e18a0f46f86d923e305b"
+    },
+    {
+      "path": "sources/boeing_page_35.png",
+      "bytes": 148203,
+      "sha256": "0765d4f840b1351334595ea90b25ebcf65c8cf3400ca3c3c7b2567a12071f7bf"
+    },
+    {
+      "path": "sources/boeing_page_39.png",
+      "bytes": 152770,
+      "sha256": "4cc630c9ebe2456e793f34c68489e717000fd563c6bca07b358fec44c3741bae"
+    },
+    {
+      "path": "sources/boeing_performance_16.png",
+      "bytes": 189469,
+      "sha256": "d77d12911103c4d1a5cac544a2e77f97ead01192c5ba991a1f7318374af4dfb3"
+    },
+    {
+      "path": "sources/boeing_performance_97.png",
+      "bytes": 242454,
+      "sha256": "bdd2e22c502eedd3878cb1064d3b67475dae070cedbfed8b2b5adc0109794db3"
+    },
+    {
+      "path": "sources/hill_60_contour_detail.png",
+      "bytes": 255539,
+      "sha256": "bef93455f7df88cdc76198040864cca129d9fe01e0905f0dcd12d8e04520e862"
+    },
+    {
+      "path": "sources/hill_80_contour_detail.png",
+      "bytes": 209159,
+      "sha256": "a35d597a93e81ab719edb424eaf241ea05046292f0ae221a482601f12aa862a5"
+    },
+    {
+      "path": "sources/hill_additional_spots_contact.png",
+      "bytes": 139655,
+      "sha256": "d6a58e11db7b29e5836aeeddcc3a772eb57a6016b82b061b4193fcb39098194d"
+    },
+    {
+      "path": "sources/hill_additional_spots_original.png",
+      "bytes": 154131,
+      "sha256": "32f43249eb6cba6997f6f5670077b7430e0e079c8d53c8ffdae8a8b46efd93a5"
+    },
+    {
+      "path": "sources/hill_east_contours_1989.png",
+      "bytes": 395432,
+      "sha256": "9f5c933c7092bfadb5f9e52ba028849eed390e63621cbd32d2957ad3428d1b32"
+    },
+    {
+      "path": "sources/hill_reservoir_1989.png",
+      "bytes": 279697,
+      "sha256": "f44058d9fa56d5d1d7bd7bfe5faf768a34a7137d40a974830ce4577a064a0f4c"
+    },
+    {
+      "path": "sources/hill_spot_0_original.png",
+      "bytes": 1427,
+      "sha256": "367abd8cafbdb187cda5e915aedf0aac145b2147df74eeeee76213e92dde3b2e"
+    },
+    {
+      "path": "sources/hill_spot_10_original.png",
+      "bytes": 1940,
+      "sha256": "67920ca501f9fcb2f5c734c36dccda862ab7c1ca271b710157758cc5fc119468"
+    },
+    {
+      "path": "sources/hill_spot_1_original.png",
+      "bytes": 1574,
+      "sha256": "4be71a584091e9f7d74c26077ae3aa75a91e43afa720a9dfea718f4a2cdc4574"
+    },
+    {
+      "path": "sources/hill_spot_3_original.png",
+      "bytes": 1605,
+      "sha256": "d20635dbaf7927fa4ec2f165ed090422a257bcc5e2c842e4adb8eced758bb58d"
+    },
+    {
+      "path": "sources/hill_spot_4_original.png",
+      "bytes": 1593,
+      "sha256": "3ac5b58421e2e650fa8c54c5ae36a326957128e54d014d800a936c425319a200"
+    },
+    {
+      "path": "sources/hill_spot_4_reading.png",
+      "bytes": 23336,
+      "sha256": "8f1d4acad340c21ea3b852f70f3380a87e1ae848de3e915dd1776605c31b02c1"
+    },
+    {
+      "path": "sources/hill_spot_5_original.png",
+      "bytes": 1387,
+      "sha256": "63ff444376f2f842d6386cdf9c0d228c59bcdb4e096a2913c1ff1a95cd73ff41"
+    },
+    {
+      "path": "sources/hill_spot_6_original.png",
+      "bytes": 1613,
+      "sha256": "c0bc559e0800b5485afb2953e87fa0621dcf043171b4dd0e4d7f45c3127b63ad"
+    },
+    {
+      "path": "sources/hill_spot_7_original.png",
+      "bytes": 1056,
+      "sha256": "e7959ba1538cb826dda388907a182abeb1a9f8ffb04513c6b8721749d0aaa97e"
+    },
+    {
+      "path": "sources/hill_spot_8_original.png",
+      "bytes": 875,
+      "sha256": "3d95a4c42260aa6fb624016f3eadef36d36ee643ec3968b422ffae8d61b73acb"
+    },
+    {
+      "path": "sources/printed_grid_830.png",
+      "bytes": 15826,
+      "sha256": "3bfbe2141c207b91400617c7cd5df6a0a94329dcc94d9b710751e9c5c41e2367"
+    },
+    {
+      "path": "sources/runway_map_legend_detail.png",
+      "bytes": 42918,
+      "sha256": "7929c2e0a6bf9f4950556acd1c0d08e17439f9f33e449bbdb1f1d7da2c295ca9"
+    },
+    {
+      "path": "sources/runway_plan_full.png",
+      "bytes": 209267,
+      "sha256": "36895f39df4248a100eb07f9ea11fa9e018927d026fb3b9f89b417b9ef2dbf5a"
+    },
+    {
+      "path": "sources/runway_plan_primary.png",
+      "bytes": 257931,
+      "sha256": "e41cd3b2c902130650a1e8dde8c3a682ef25f5374b986e8eba29a8fbc8e829fe"
+    },
+    {
+      "path": "sources/runway_plan_variation.png",
+      "bytes": 23723,
+      "sha256": "632322fe9cf15917407a494e28fa442687967494dcc4feafca6b56200b6b1d3c"
+    },
+    {
+      "path": "sources/runway_plan_variation_read.png",
+      "bytes": 22972,
+      "sha256": "603f0a3ea67ff5fe4c869d04b06a274a3f8407dd173643d7d9c53728360b59e0"
+    },
+    {
+      "path": "sources/runway_spot_candidates.png",
+      "bytes": 37431,
+      "sha256": "5b173c51808f7181ecc8b6726492735501c5008913a79b590e1670c2d4a93690"
+    },
+    {
+      "path": "test_frames_and_gate.py",
+      "bytes": 3801,
+      "sha256": "1f24256db25fbc5295f07c011bd802c6c5e2dee3347848402b0113e4898511a4"
+    },
+    {
+      "path": "test_integrated.py",
+      "bytes": 6094,
+      "sha256": "1a7a6a88b9f56488a655af25e5c728f028c00d209ac1ec3061623f23102edaf6"
+    },
+    {
+      "path": "test_source_geometry.py",
+      "bytes": 3349,
+      "sha256": "1ffa007345b790d5b22cdb66abf69be2740e6009643d553662ad63ba9de5b867"
+    },
+    {
+      "path": "tests.log",
+      "bytes": 4305,
+      "sha256": "303e74554a688994c67e9573bccae9fd374d2a0edade9db00514312bc90ebc43"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 2037,
+      "sha256": "f3791bfda7f2945eb3b2ce9359665b205b1d069b014db06052d157eee67d2a00"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 7236,
+      "sha256": "84d23724dbe3cc7afeeb828a91420076b349ec0df8fe581b1ce7a0f8a8964753"
+    }
+  ],
+  "excludes": [
+    "python_deps (versions inverification.json)",
+    "__pycache__",
+    "artifact_manifest.json itself"
+  ]
+}

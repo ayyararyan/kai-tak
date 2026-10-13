@@ -1,0 +1,26 @@
+{
+  "source": "research/checkers-runway13/whitepaper/v5",
+  "commit": "78a9ce1c627f917c94306af5529d5e9ebeb743e8",
+  "files": [
+    {
+      "path": "RFS.cls",
+      "sha256": "eeee1e58bcc34e9edb64c32162187836f5cc54da9f9ca7651073b954688eddf2"
+    },
+    {
+      "path": "rfs-workingpaper.sty",
+      "sha256": "7a7610ad48e746b1cdd0e67a37c4c3ddefdc15f0358a81495f517b4717d97424"
+    },
+    {
+      "path": "rfs.bst",
+      "sha256": "5a1bdf7baa70add87e9c24073b03de7b12f64a70526aa4c37e6fc89136dfeed4"
+    },
+    {
+      "path": "crop.sty",
+      "sha256": "c6759bb8261ca2ce85982f87b1f7a7142f84cc0782cf480a525a914abc49e424"
+    },
+    {
+      "path": "crop.cfg",
+      "sha256": "af36c5069ca200b440f1c4a8a820020287eb544aa3b29a4bb00e915469733a2f"
+    }
+  ]
+}

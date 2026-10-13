@@ -1,0 +1,291 @@
+.........F..........F.........FFFFF..................................... [ 70%]
+..............................                                           [100%]
+=================================== FAILURES ===================================
+_______________________ test_frozen_inputs_and_corridor ________________________
+
+    def test_frozen_inputs_and_corridor():
+>       c.check_sources();assert c.BASE_CFG['parameters']['wind_mps']['value']==[0,0,0]
+        ^^^^^^^^^^^^^^^^^
+
+counterfactual/test_counterfactual.py:22: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+counterfactual/calculate.py:133: in check_sources
+    if hashlib.sha256((ROOT/path).read_bytes()).hexdigest()!=want: raise ValueError('source changed: '+path)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+/PYTHON_INSTALLATION/lib/python3.12/pathlib.py:1019: in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/KAI_TAK_REPOSITORY/research/checkers-runway13/mathematical-note/v1/frozen-source/research/checkers-runway13/analytical/coupled/solve_coupled.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/KAI_TAK_REPOSITORY/research/checkers-runway13/mathematical-note/v1/frozen-source/research/checkers-runway13/analytical/coupled/solve_coupled.py'
+
+/PYTHON_INSTALLATION/lib/python3.12/pathlib.py:1013: FileNotFoundError
+_______________________ test_stale_certificate_rejected ________________________
+
+q = array([ 4.12226012e+01,  4.14194255e+00,  3.02114052e+02,  7.24900359e+01,
+        1.57143054e+01, -1.48034547e+01,  2.27387495e+01,  8.11748241e+00,
+        3.55922509e+01, -2.18207830e+00, -5.15385452e-02, -2.88207533e-02])
+
+    def test_stale_certificate_rejected(q):
+        from deliver import validate_certificate
+        cert=json.loads((c.OUT/'continuous_check.json').read_text())
+>       validate_certificate(cert,q)
+
+counterfactual/test_counterfactual.py:87: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+counterfactual/deliver.py:25: in validate_certificate
+    reference_point_cloud_sha256=inputs()['reference_cloud_sha256'],
+                                 ^^^^^^^^
+counterfactual/calculate.py:122: in inputs
+    hashes={p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in paths}
+                             ^^^^^^^^^^^^^^^^^^^^^
+/PYTHON_INSTALLATION/lib/python3.12/pathlib.py:1019: in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/KAI_TAK_REPOSITORY/research/checkers-runway13/mathematical-note/v1/frozen-source/research/checkers-runway13/analytical/coupled/solve_coupled.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/KAI_TAK_REPOSITORY/research/checkers-runway13/mathematical-note/v1/frozen-source/research/checkers-runway13/analytical/coupled/solve_coupled.py'
+
+/PYTHON_INSTALLATION/lib/python3.12/pathlib.py:1013: FileNotFoundError
+_________________ test_terminal_gate_survives_optimized_python _________________
+
+q = array([ 4.12226012e+01,  4.14194255e+00,  3.02114052e+02,  7.24900359e+01,
+        1.57143054e+01, -1.48034547e+01,  2.27387495e+01,  8.11748241e+00,
+        3.55922509e+01, -2.18207830e+00, -5.15385452e-02, -2.88207533e-02])
+
+    def test_terminal_gate_survives_optimized_python(q):
+        import subprocess
+        script='import sys;sys.path.insert(0,'+repr(str(c.OUT))+');import continuous as x;x.certify('+repr([repr(float(x)) for x in q])+',"0.49")'
+        result=subprocess.run([sys.executable,'-O','-c',script],capture_output=True,text=True)
+>       assert result.returncode!=0 and 'terminal margin below' in result.stderr
+E       assert (1 != 0 and 'terminal margin below' in 'Traceback (most recent call last):\n  File "<string>", line 1, in <module>\n  File "/LOCAL_USER/.openclaw/workspace...heckers-runway13/mathematical-note/v1/frozen-source/research/checkers-runway13/analytical/coupled/solve_coupled.py\'\n')
+E        +  where 1 = CompletedProcess(args=['/PROOF_ENV/bin/python',...eckers-runway13/mathematical-note/v1/frozen-source/research/checkers-runway13/analytical/coupled/solve_coupled.py\'\n').returncode
+E        +  and   'Traceback (most recent call last):\n  File "<string>", line 1, in <module>\n  File "/LOCAL_USER/.openclaw/workspace...heckers-runway13/mathematical-note/v1/frozen-source/research/checkers-runway13/analytical/coupled/solve_coupled.py\'\n' = CompletedProcess(args=['/PROOF_ENV/bin/python',...eckers-runway13/mathematical-note/v1/frozen-source/research/checkers-runway13/analytical/coupled/solve_coupled.py\'\n').stderr
+
+counterfactual/test_counterfactual.py:111: AssertionError
+___________________ test_failed_search_blocks_old_selection ____________________
+
+tmp_path = PosixPath('/TEMP/pytest-of-user/pytest-1146/test_failed_search_blocks_old_0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x110103f80>
+
+    def test_failed_search_blocks_old_selection(tmp_path,monkeypatch):
+        setup_temp_search(tmp_path,monkeypatch)
+        old=(tmp_path/'selected.json').read_bytes()
+        monkeypatch.setattr(c,'solve',lambda *a,**k:dict(success=False,sampled_exact_eta=-.1,hard_min=-.1))
+>       c.search()
+
+counterfactual/test_counterfactual.py:124: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+counterfactual/calculate.py:155: in search
+    return _search(run_id)
+           ^^^^^^^^^^^^^^^
+counterfactual/calculate.py:161: in _search
+    if (OUT/'inputs.json').exists(): check_sources()
+                                     ^^^^^^^^^^^^^^^
+counterfactual/calculate.py:133: in check_sources
+    if hashlib.sha256((ROOT/path).read_bytes()).hexdigest()!=want: raise ValueError('source changed: '+path)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+/PYTHON_INSTALLATION/lib/python3.12/pathlib.py:1019: in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/KAI_TAK_REPOSITORY/research/checkers-runway13/mathematical-note/v1/frozen-source/research/checkers-runway13/analytical/coupled/solve_coupled.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/KAI_TAK_REPOSITORY/research/checkers-runway13/mathematical-note/v1/frozen-source/research/checkers-runway13/analytical/coupled/solve_coupled.py'
+
+/PYTHON_INSTALLATION/lib/python3.12/pathlib.py:1013: FileNotFoundError
+___________________ test_interrupted_search_blocks_selection ___________________
+
+tmp_path = PosixPath('/TEMP/pytest-of-user/pytest-1146/test_interrupted_search_blocks0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x11014a1e0>
+
+    def test_interrupted_search_blocks_selection(tmp_path,monkeypatch):
+        setup_temp_search(tmp_path,monkeypatch)
+        def interrupted(*a,**k):raise KeyboardInterrupt('simulated interruption')
+        monkeypatch.setattr(c,'solve',interrupted)
+>       with pytest.raises(KeyboardInterrupt):c.search()
+                                              ^^^^^^^^^^
+
+counterfactual/test_counterfactual.py:133: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+counterfactual/calculate.py:155: in search
+    return _search(run_id)
+           ^^^^^^^^^^^^^^^
+counterfactual/calculate.py:161: in _search
+    if (OUT/'inputs.json').exists(): check_sources()
+                                     ^^^^^^^^^^^^^^^
+counterfactual/calculate.py:133: in check_sources
+    if hashlib.sha256((ROOT/path).read_bytes()).hexdigest()!=want: raise ValueError('source changed: '+path)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+/PYTHON_INSTALLATION/lib/python3.12/pathlib.py:1019: in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/KAI_TAK_REPOSITORY/research/checkers-runway13/mathematical-note/v1/frozen-source/research/checkers-runway13/analytical/coupled/solve_coupled.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/KAI_TAK_REPOSITORY/research/checkers-runway13/mathematical-note/v1/frozen-source/research/checkers-runway13/analytical/coupled/solve_coupled.py'
+
+/PYTHON_INSTALLATION/lib/python3.12/pathlib.py:1013: FileNotFoundError
+_________________ test_bad_refinement_keeps_feasible_incumbent _________________
+
+tmp_path = PosixPath('/TEMP/pytest-of-user/pytest-1146/test_bad_refinement_keeps_feas0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x1101498b0>
+q = array([ 4.12226012e+01,  4.14194255e+00,  3.02114052e+02,  7.24900359e+01,
+        1.57143054e+01, -1.48034547e+01,  2.27387495e+01,  8.11748241e+00,
+        3.55922509e+01, -2.18207830e+00, -5.15385452e-02, -2.88207533e-02])
+
+    def test_bad_refinement_keeps_feasible_incumbent(tmp_path,monkeypatch,q):
+        setup_temp_search(tmp_path,monkeypatch)
+        good=dict(success=True,sampled_exact_eta=.1,hard_min=.001,q=q.tolist())
+        calls=iter([good.copy() for _ in range(4)]+[dict(good,sampled_exact_eta=.2,hard_min=-1e-5),dict(good,success=False)])
+        monkeypatch.setattr(c,'solve',lambda *a,**k:next(calls))
+>       c.search();selected=c.current_selection()
+        ^^^^^^^^^^
+
+counterfactual/test_counterfactual.py:141: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+counterfactual/calculate.py:155: in search
+    return _search(run_id)
+           ^^^^^^^^^^^^^^^
+counterfactual/calculate.py:161: in _search
+    if (OUT/'inputs.json').exists(): check_sources()
+                                     ^^^^^^^^^^^^^^^
+counterfactual/calculate.py:133: in check_sources
+    if hashlib.sha256((ROOT/path).read_bytes()).hexdigest()!=want: raise ValueError('source changed: '+path)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+/PYTHON_INSTALLATION/lib/python3.12/pathlib.py:1019: in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/KAI_TAK_REPOSITORY/research/checkers-runway13/mathematical-note/v1/frozen-source/research/checkers-runway13/analytical/coupled/solve_coupled.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/KAI_TAK_REPOSITORY/research/checkers-runway13/mathematical-note/v1/frozen-source/research/checkers-runway13/analytical/coupled/solve_coupled.py'
+
+/PYTHON_INSTALLATION/lib/python3.12/pathlib.py:1013: FileNotFoundError
+_______________ test_stale_certificate_failure_preserves_bundle ________________
+
+tmp_path = PosixPath('/TEMP/pytest-of-user/pytest-1146/test_stale_certificate_failure0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x10ffcfec0>
+
+    def test_stale_certificate_failure_preserves_bundle(tmp_path,monkeypatch):
+        import deliver as d
+        original=setup_temp_search(tmp_path,monkeypatch)
+        monkeypatch.setattr(d,'OUT',tmp_path)
+        cert=json.loads((tmp_path/'continuous_check.json').read_text());cert['checker_source_sha256']='stale'
+        (tmp_path/'continuous_check.json').write_text(json.dumps(cert))
+        for name in ['continuous.py','calculate.py']:(tmp_path/name).write_bytes((original/name).read_bytes())
+        for name in d.BUNDLE_FILES:(tmp_path/name).write_bytes(b'original-'+name.encode())
+        before={name:(tmp_path/name).read_bytes() for name in d.BUNDLE_FILES}
+>       with pytest.raises(ValueError,match='certificate'):d.produce()
+                                                           ^^^^^^^^^^^
+
+counterfactual/test_counterfactual.py:153: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+counterfactual/deliver.py:144: in produce
+    result=_produce(stage)
+           ^^^^^^^^^^^^^^^
+counterfactual/deliver.py:32: in _produce
+    check_sources()
+counterfactual/calculate.py:133: in check_sources
+    if hashlib.sha256((ROOT/path).read_bytes()).hexdigest()!=want: raise ValueError('source changed: '+path)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+/PYTHON_INSTALLATION/lib/python3.12/pathlib.py:1019: in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/KAI_TAK_REPOSITORY/research/checkers-runway13/mathematical-note/v1/frozen-source/research/checkers-runway13/analytical/coupled/solve_coupled.py')
+mode = 'rb', buffering = -1, encoding = None, errors = None, newline = None
+
+    def open(self, mode='r', buffering=-1, encoding=None,
+             errors=None, newline=None):
+        """
+        Open the file pointed to by this path and return a file object, as
+        the built-in open() function does.
+        """
+        if "b" not in mode:
+            encoding = io.text_encoding(encoding)
+>       return io.open(self, mode, buffering, encoding, errors, newline)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/KAI_TAK_REPOSITORY/research/checkers-runway13/mathematical-note/v1/frozen-source/research/checkers-runway13/analytical/coupled/solve_coupled.py'
+
+/PYTHON_INSTALLATION/lib/python3.12/pathlib.py:1013: FileNotFoundError
+=========================== short test summary info ============================
+FAILED counterfactual/test_counterfactual.py::test_frozen_inputs_and_corridor
+FAILED counterfactual/test_counterfactual.py::test_stale_certificate_rejected
+FAILED counterfactual/test_counterfactual.py::test_terminal_gate_survives_optimized_python
+FAILED counterfactual/test_counterfactual.py::test_failed_search_blocks_old_selection
+FAILED counterfactual/test_counterfactual.py::test_interrupted_search_blocks_selection
+FAILED counterfactual/test_counterfactual.py::test_bad_refinement_keeps_feasible_incumbent
+FAILED counterfactual/test_counterfactual.py::test_stale_certificate_failure_preserves_bundle
+7 failed, 95 passed, 6 deselected in 13.77s
+
+Traceback (most recent call last):
+  File "/KAI_TAK_REPOSITORY/research/checkers-runway13/mathematical-note/v1/verification/reproduce.py", line 306, in <module>
+    main()
+  File "/KAI_TAK_REPOSITORY/research/checkers-runway13/mathematical-note/v1/verification/reproduce.py", line 155, in main
+    assert result.returncode == 0
+           ^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

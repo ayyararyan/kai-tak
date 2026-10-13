@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "/KAI_TAK_REPOSITORY/publication/scientific-results-20261013/verify_public_snapshot.py", line 76, in <module>
+    print(json.dumps(check(), indent=2))
+                     ^^^^^^^
+  File "/KAI_TAK_REPOSITORY/publication/scientific-results-20261013/verify_public_snapshot.py", line 32, in check
+    require(path.is_file() and path.stat().st_size == row['public_bytes']
+  File "/KAI_TAK_REPOSITORY/publication/scientific-results-20261013/verify_public_snapshot.py", line 23, in require
+    raise ValueError(message)
+ValueError: public byte mismatch: research/checkers-runway13/PROJECT_STATE.md
+Traceback (most recent call last):
+  File "/KAI_TAK_REPOSITORY/publication/scientific-results-20261013/run_public_tests.py", line 44, in <module>
+    subprocess.run([sys.executable, str(HERE/'verify_public_snapshot.py')], check=True, env=env)
+  File "/PYTHON_INSTALLATION/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/PROOF_ENV/bin/python', '/KAI_TAK_REPOSITORY/publication/scientific-results-20261013/verify_public_snapshot.py']' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/KAI_TAK_REPOSITORY/research/checkers-runway13/mathematical-note/v1/verification/reproduce.py", line 278, in <module>
+    main()
+  File "/KAI_TAK_REPOSITORY/research/checkers-runway13/mathematical-note/v1/verification/reproduce.py", line 131, in main
+    subprocess.run([sys.executable, str(source / "publication/scientific-results-20261013/run_public_tests.py")],
+  File "/PYTHON_INSTALLATION/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/PROOF_ENV/bin/python', '/KAI_TAK_REPOSITORY/publication/scientific-results-20261013/run_public_tests.py']' returned non-zero exit status 1.

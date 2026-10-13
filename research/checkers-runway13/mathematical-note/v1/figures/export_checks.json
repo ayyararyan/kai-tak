@@ -1,0 +1,108 @@
+{
+  "status": "pass",
+  "figures_checked": 6,
+  "exports_reproduced": 18,
+  "final_corrections": {
+    "certificate": "root vector \u03b6",
+    "bracket": "one-sided retention ray; no upper endpoint asserted"
+  },
+  "final_repair_exports_reproduced": 6,
+  "other_figure_exports_unchanged": 12,
+  "records": [
+    {
+      "name": "landing",
+      "pdf_pages": 1,
+      "width_pdf_points": 371.80572509765625,
+      "height_pdf_points": 218.16000366210938,
+      "no_pdf_raster_images": true,
+      "no_svg_raster_images": true,
+      "all_pdf_text_inside_page": true,
+      "font_names": [
+        "BADBSQ+STIXGeneral-Italic",
+        "CGVTOM+Arial-BoldMT",
+        "DQERZA+STIXGeneral-Regular",
+        "GBRJKT+ArialMT"
+      ],
+      "exports_reproduced": true
+    },
+    {
+      "name": "active",
+      "pdf_pages": 1,
+      "width_pdf_points": 371.80572509765625,
+      "height_pdf_points": 218.16000366210938,
+      "no_pdf_raster_images": true,
+      "no_svg_raster_images": true,
+      "all_pdf_text_inside_page": true,
+      "font_names": [
+        "BHXMVT+ArialMT",
+        "CGEVOW+Arial-BoldMT",
+        "CXKTUE+STIXGeneral-Italic",
+        "EOVKEC+STIXGeneral-Regular"
+      ],
+      "exports_reproduced": true
+    },
+    {
+      "name": "certificate",
+      "pdf_pages": 1,
+      "width_pdf_points": 371.80572509765625,
+      "height_pdf_points": 263.5199890136719,
+      "no_pdf_raster_images": true,
+      "no_svg_raster_images": true,
+      "all_pdf_text_inside_page": true,
+      "font_names": [
+        "BQXTHN+ArialMT",
+        "CBSMFD+STIXGeneral-Regular",
+        "ERQITU+Arial-BoldMT",
+        "FKIHEC+STIXGeneral-Italic"
+      ],
+      "exports_reproduced": true
+    },
+    {
+      "name": "continuous",
+      "pdf_pages": 1,
+      "width_pdf_points": 371.80572509765625,
+      "height_pdf_points": 320.3999938964844,
+      "no_pdf_raster_images": true,
+      "no_svg_raster_images": true,
+      "all_pdf_text_inside_page": true,
+      "font_names": [
+        "BPAGSY+ArialMT",
+        "CXKTUE+STIXGeneral-Italic",
+        "GCZQBI+Arial-BoldMT",
+        "SCTNCP+STIXGeneral-Regular"
+      ],
+      "exports_reproduced": true
+    },
+    {
+      "name": "bracket",
+      "pdf_pages": 1,
+      "width_pdf_points": 371.80572509765625,
+      "height_pdf_points": 198.0,
+      "no_pdf_raster_images": true,
+      "no_svg_raster_images": true,
+      "all_pdf_text_inside_page": true,
+      "font_names": [
+        "FCCUTI+ArialMT",
+        "FGQPYM+STIXNonUnicode-Italic",
+        "FTJTTV+STIXGeneral-Italic",
+        "GGLZTF+STIXGeneral-Regular",
+        "HJPTCK+Arial-BoldMT"
+      ],
+      "exports_reproduced": true
+    },
+    {
+      "name": "conditions",
+      "pdf_pages": 1,
+      "width_pdf_points": 371.80572509765625,
+      "height_pdf_points": 302.3999938964844,
+      "no_pdf_raster_images": true,
+      "no_svg_raster_images": true,
+      "all_pdf_text_inside_page": true,
+      "font_names": [
+        "CWPHNI+ArialMT",
+        "RBWYGY+Arial-BoldMT"
+      ],
+      "exports_reproduced": true
+    }
+  ]
+}

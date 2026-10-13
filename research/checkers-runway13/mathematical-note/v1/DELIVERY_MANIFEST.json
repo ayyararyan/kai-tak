@@ -1,0 +1,77 @@
+{
+  "title": "Certified Local Optimality in a Constrained Landing Model",
+  "author": "Aryan Ayyar",
+  "version": 1,
+  "date": "2026-10-14",
+  "verified_utc": "2026-10-13T19:22:03.179129+00:00",
+  "status": "author authorized GitHub branch publication; prepared for push",
+  "source_repository": "https://github.com/ayyararyan/kai-tak",
+  "source_commit": "78a9ce1c627f917c94306af5529d5e9ebeb743e8",
+  "latest_scientific_scope_check": "qa/upstream-freshness.json",
+  "branch": "mathematical-note/v1",
+  "local_changes_committed": false,
+  "pushed": false,
+  "release_created_or_modified": false,
+  "assets": [
+    {
+      "path": "certified-local-optimality-v1.pdf",
+      "bytes": 477910,
+      "sha256": "24965a9e628ce7f845870b0774e77d07911021e5a366dd8bf8fc033982dfda28"
+    },
+    {
+      "path": "certified-local-optimality-v1-sources.zip",
+      "bytes": 23493938,
+      "sha256": "b23b7c33b6535b2e342feeaf09f704369efeaf6f3ba74258d36a76e04eed6cd8"
+    },
+    {
+      "path": "PACKAGE_MANIFEST.json",
+      "bytes": 135929,
+      "sha256": "d599383673f24be04e1481cd76861f9d74b1b431bda0958d28a16f453e0f1038"
+    }
+  ],
+  "source_archive_members": 638,
+  "zip_crc_check_passed": true,
+  "every_member_matches_working_file": true,
+  "two_package_runs_byte_identical": true,
+  "pages": 36,
+  "figures": 6,
+  "figure_exports": 18,
+  "requirements_verified": 15,
+  "public_tests_passed": 117,
+  "excluded_tests_not_passed": 7,
+  "replay_stages_passed": 7,
+  "root_path_accepted_cells": 398,
+  "wind_domains_certified": 3,
+  "condition_points_certified": 10,
+  "clean_page_text_matches": 36,
+  "clean_page_pixel_matches_100dpi": 36,
+  "clean_figure_export_matches": 18,
+  "individually_visually_reviewed_pages": 36,
+  "verification_summary": "SCIENTIFIC_VERIFICATION.md",
+  "independent_review": "INDEPENDENT_REVIEW.md",
+  "readiness": "PUBLICATION_READINESS.md",
+  "original_author_review_assets": [
+    {
+      "path": "certified-local-optimality-v1.pdf",
+      "bytes": 477910,
+      "sha256": "24965a9e628ce7f845870b0774e77d07911021e5a366dd8bf8fc033982dfda28"
+    },
+    {
+      "path": "certified-local-optimality-v1-sources.zip",
+      "bytes": 23494476,
+      "sha256": "b7a199d75ba6a87d41fce1b6dced137a2bd817914e489b82aae239fb7d6e1976"
+    },
+    {
+      "path": "PACKAGE_MANIFEST.json",
+      "bytes": 135930,
+      "sha256": "98f63be79ca5ce8b23fe117e74a22a72f94a741d516da657e8f8006a91dbf0a0"
+    }
+  ],
+  "publication_authorization": "Aryan: Push to GitHub",
+  "publication_normalization": {
+    "files": 9,
+    "local_path_occurrences": 462,
+    "scientific_or_build_inputs_changed": 0,
+    "details": "../../../../publication/mathematical-note-v1-publication/inventory.json"
+  }
+}

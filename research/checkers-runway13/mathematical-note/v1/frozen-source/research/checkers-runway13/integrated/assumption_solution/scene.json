@@ -1,0 +1,619 @@
+{
+  "source_sha256": "0f9b3bd6d4a4a4b9b954e0a7eb568ccc6d0c8095340382de83c93fc5c1d1d9fa",
+  "origin_EN_assumed_m": [
+    838277.9926795285,
+    820320.961097593
+  ],
+  "grid_bearing_assumed_deg": 134.02,
+  "runway_HKPD_assumed_m": 6.0,
+  "obstacles": [
+    {
+      "id": "shing_tung",
+      "source_index": 24,
+      "bounds_xy": [
+        -1240.2466783845548,
+        -586.1868662736208,
+        -1178.501382239785,
+        -546.2730643357644
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "mau_tung",
+      "source_index": 25,
+      "bounds_xy": [
+        -1179.7951556055798,
+        -552.0373257653468,
+        -1117.7704677207173,
+        -511.59120330146527
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "on_tung",
+      "source_index": 26,
+      "bounds_xy": [
+        -1159.9196014131307,
+        -626.382560693608,
+        -1077.937229682211,
+        -573.4029637960505
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "hong_tung",
+      "source_index": 27,
+      "bounds_xy": [
+        -1072.640876901848,
+        -671.3543341256293,
+        -1037.57670766235,
+        -612.586370533856
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "market_podium",
+      "source_index": 28,
+      "bounds_xy": [
+        -1189.1760618259405,
+        -649.614198958276,
+        -1146.8963470622125,
+        -601.1887632523465
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "block22",
+      "source_index": 29,
+      "bounds_xy": [
+        -1117.9239392689522,
+        -560.9913675151913,
+        -1029.2756066673558,
+        -479.68884342667417
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "block23",
+      "source_index": 30,
+      "bounds_xy": [
+        -1012.4173251646592,
+        -700.2797825372477,
+        -940.2537728831633,
+        -576.8063762699494
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "lee_school",
+      "source_index": 31,
+      "bounds_xy": [
+        -926.7432652614243,
+        -714.4140118964306,
+        -857.9590190530259,
+        -636.8160792890108
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "ng_wah",
+      "source_index": 32,
+      "bounds_xy": [
+        -986.1350145176649,
+        -825.57876301304,
+        -893.0671671488188,
+        -760.0017604620264
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "regal",
+      "source_index": 33,
+      "bounds_xy": [
+        -901.5724273931094,
+        -431.52735396788296,
+        -853.610301499071,
+        -363.3648694621704
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "po_sing",
+      "source_index": 34,
+      "bounds_xy": [
+        -916.1205961766341,
+        -447.3843153144364,
+        -876.2146934394527,
+        -409.1842722481154
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "city_market",
+      "source_index": 35,
+      "bounds_xy": [
+        -1186.950061345021,
+        -131.30384406030794,
+        -1080.437019449032,
+        -26.23853825726883
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "lok_sin_school",
+      "source_index": 36,
+      "bounds_xy": [
+        -1134.9104550549973,
+        -243.75134916894928,
+        -1086.4958232299261,
+        -200.37492337761427
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "maternity",
+      "source_index": 37,
+      "bounds_xy": [
+        -1196.1323048624413,
+        -148.86382554695297,
+        -1168.0151674012948,
+        -122.35563492070423
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "dispensary",
+      "source_index": 38,
+      "bounds_xy": [
+        -1211.367057230486,
+        -169.18377109054344,
+        -1181.9309091421594,
+        -134.23972941957686
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "shing_tung",
+      "source_index": 39,
+      "bounds_xy": [
+        -1239.924064749095,
+        -586.587751920601,
+        -1177.8628281479203,
+        -546.5988547638855
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "mau_tung",
+      "source_index": 40,
+      "bounds_xy": [
+        -1178.9043573967615,
+        -552.4023862192305,
+        -1117.190568242194,
+        -512.0569757047856
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "on_tung",
+      "source_index": 41,
+      "bounds_xy": [
+        -1159.1346874265694,
+        -626.7925675092674,
+        -1077.3559532891206,
+        -573.6584417050559
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "hong_tung",
+      "source_index": 42,
+      "bounds_xy": [
+        -1072.0293775430525,
+        -671.6865351133724,
+        -1037.2821562601905,
+        -612.874333982835
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "market_podium",
+      "source_index": 43,
+      "bounds_xy": [
+        -1188.6175013691525,
+        -649.8902417459232,
+        -1146.4705533194042,
+        -601.489964687492
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "block22",
+      "source_index": 44,
+      "bounds_xy": [
+        -1117.446634843085,
+        -561.4304389505086,
+        -1028.587474246092,
+        -479.93802391862135
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "block23",
+      "source_index": 45,
+      "bounds_xy": [
+        -1011.9068142724961,
+        -700.4957752694637,
+        -939.8395979404401,
+        -577.3104114971921
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "lee_school",
+      "source_index": 46,
+      "bounds_xy": [
+        -926.1582309056807,
+        -714.653344435222,
+        -857.5933275097551,
+        -636.9484074073971
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "ng_wah",
+      "source_index": 47,
+      "bounds_xy": [
+        -985.9099896064968,
+        -825.8204257271532,
+        -892.906298057507,
+        -760.1727615712313
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "regal",
+      "source_index": 48,
+      "bounds_xy": [
+        -900.9713477505261,
+        -431.8476471743903,
+        -852.8008869535099,
+        -364.07661869750575
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "po_sing",
+      "source_index": 49,
+      "bounds_xy": [
+        -915.5520647036818,
+        -447.9219733542865,
+        -875.5283603742997,
+        -409.60796162753377
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "city_market",
+      "source_index": 50,
+      "bounds_xy": [
+        -1186.7641201669946,
+        -131.3361383408086,
+        -1080.2834093152212,
+        -26.513075531042773
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "lok_sin_school",
+      "source_index": 51,
+      "bounds_xy": [
+        -1134.457334490115,
+        -243.78239477581684,
+        -1086.3189789537284,
+        -200.35116289620066
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "maternity",
+      "source_index": 52,
+      "bounds_xy": [
+        -1195.9828661615225,
+        -148.94248953417957,
+        -1167.8401652436053,
+        -122.59854398131176
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "dispensary",
+      "source_index": 53,
+      "bounds_xy": [
+        -1211.171616143255,
+        -169.31314255746383,
+        -1181.8007734666699,
+        -134.43104298542812
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "shing_tung",
+      "source_index": 54,
+      "bounds_xy": [
+        -1239.997757355365,
+        -586.6155900536419,
+        -1178.110772458312,
+        -546.621651372001
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "mau_tung",
+      "source_index": 55,
+      "bounds_xy": [
+        -1179.1592795174824,
+        -552.1741032495432,
+        -1117.5328471272976,
+        -511.9974093653801
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "on_tung",
+      "source_index": 56,
+      "bounds_xy": [
+        -1159.3811646316108,
+        -626.5598016044548,
+        -1077.6946324865485,
+        -573.6110122173473
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "hong_tung",
+      "source_index": 57,
+      "bounds_xy": [
+        -1072.2757611913794,
+        -671.2918041566332,
+        -1037.3514487289533,
+        -612.6485124446734
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "market_podium",
+      "source_index": 58,
+      "bounds_xy": [
+        -1188.9472631430417,
+        -649.6593440449701,
+        -1146.889495580947,
+        -601.5231807471564
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "block22",
+      "source_index": 59,
+      "bounds_xy": [
+        -1117.5287421579287,
+        -561.2988499568946,
+        -1028.8428545818892,
+        -480.0660260999115
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "block23",
+      "source_index": 60,
+      "bounds_xy": [
+        -1012.0651356796709,
+        -699.9321185580841,
+        -940.0801737650199,
+        -577.0864347569959
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "lee_school",
+      "source_index": 61,
+      "bounds_xy": [
+        -926.4173658016912,
+        -714.3624310906771,
+        -857.7647887413013,
+        -636.5648167712126
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "ng_wah",
+      "source_index": 62,
+      "bounds_xy": [
+        -986.1348670346406,
+        -825.3465891449096,
+        -892.8775611907265,
+        -760.1406134431614
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "regal",
+      "source_index": 63,
+      "bounds_xy": [
+        -901.1547049479266,
+        -431.73702615912015,
+        -853.0762815827499,
+        -363.80755910946175
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "po_sing",
+      "source_index": 64,
+      "bounds_xy": [
+        -915.5628263018314,
+        -447.54279754449976,
+        -875.7145540659958,
+        -409.493909894314
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "city_market",
+      "source_index": 65,
+      "bounds_xy": [
+        -1186.7116951446312,
+        -131.45879642205307,
+        -1080.4997965372195,
+        -26.558786341421182
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "lok_sin_school",
+      "source_index": 66,
+      "bounds_xy": [
+        -1134.2126848225028,
+        -244.00080930745304,
+        -1086.2529140170514,
+        -200.65733590660943
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "maternity",
+      "source_index": 67,
+      "bounds_xy": [
+        -1195.9287558471453,
+        -148.97552873281157,
+        -1167.8747768936978,
+        -122.62723925487751
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "dispensary",
+      "source_index": 68,
+      "bounds_xy": [
+        -1211.0256055872642,
+        -169.25394143279152,
+        -1181.7435583263593,
+        -134.3709916268043
+      ],
+      "top_hkpd_assumed_m": 45.0,
+      "category": "source_footprint_assumed_top_and_epoch"
+    },
+    {
+      "id": "SE_approach_light_0",
+      "source_index": 71,
+      "bounds_xy": [
+        2885.06343159777,
+        -0.16341041636405862,
+        2889.06343159777,
+        3.8365895836359414
+      ],
+      "top_hkpd_assumed_m": 12.0,
+      "category": "source_point_assumed_equipment_solid"
+    },
+    {
+      "id": "SE_approach_light_1",
+      "source_index": 72,
+      "bounds_xy": [
+        2944.5185156880216,
+        -12.516018916358234,
+        2948.5185156880216,
+        -8.516018916358234
+      ],
+      "top_hkpd_assumed_m": 12.0,
+      "category": "source_point_assumed_equipment_solid"
+    },
+    {
+      "id": "SE_approach_light_2",
+      "source_index": 73,
+      "bounds_xy": [
+        2944.6390567685785,
+        -0.30229271448502004,
+        2948.6390567685785,
+        3.69770728551498
+      ],
+      "top_hkpd_assumed_m": 12.0,
+      "category": "source_point_assumed_equipment_solid"
+    },
+    {
+      "id": "SE_approach_light_3",
+      "source_index": 74,
+      "bounds_xy": [
+        2944.5861337747074,
+        12.40354213531532,
+        2948.5861337747074,
+        16.40354213531532
+      ],
+      "top_hkpd_assumed_m": 12.0,
+      "category": "source_point_assumed_equipment_solid"
+    },
+    {
+      "id": "assumed_hill_and_equipment_cap",
+      "bounds_xy": [
+        -2109.036142640415,
+        -596.3969386995803,
+        -1802.333029970565,
+        -136.1246975526899
+      ],
+      "top_hkpd_assumed_m": 140.0,
+      "category": "assumed_rectangle_and_cap_from_source_spot_extent"
+    }
+  ],
+  "historical_certified": false,
+  "source_nulls_modified": false,
+  "background": {
+    "urban_top_above_runway_m": 25.0,
+    "urban_end_x_m": -600.0,
+    "clear_approach_halfwidth_m": 100.0,
+    "ground_m": 0.0,
+    "category": "assumed_completion_of_unknown_coverage"
+  }
+}

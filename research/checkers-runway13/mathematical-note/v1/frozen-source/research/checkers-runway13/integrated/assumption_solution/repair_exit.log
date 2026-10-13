@@ -1,0 +1,2 @@
+PRIMARY {'success': True, 'eta': 0.0995366724803114, 'hard_min': 0.000874302787995558, 'iterations': 22, 'effort': 18.342999521448593}
+SECONDARY {'success': False, 'eta': 0.0994846407709461, 'hard_min': 0.0008575908994471708, 'iterations': 700, 'effort': 17.213202625910732}

@@ -1,0 +1,74 @@
+{
+  "verified_utc": "2026-10-13T18:24:00.009721+00:00",
+  "kind": "prepush public-copy validation; remote publication is a separate receipt",
+  "base_commit": "516bba9537f856d58a4cb440ad57e658dcd2bfcf",
+  "source_mapped_files": 235,
+  "source_boundary_rechecked": true,
+  "original_manifest_entries": [
+    136,
+    69,
+    19
+  ],
+  "original_manifests_unchanged": 3,
+  "canonical_preserved_paths_checked": 610,
+  "public_tests": {
+    "environment": "fresh Python3.12.13 environment; dependencies in requirements.txt; no private PYTHONPATH",
+    "core_proof_passed": 102,
+    "geometry_passed": 15,
+    "public_total": 117,
+    "core_deselected": 6,
+    "geometry_excluded": 1,
+    "source_dependent_tests_passed_in_separate_private_fixture": 5,
+    "source_inputs_supplied_privately": 7,
+    "original_workspace_preservation_tests_not_claimed_public": 2,
+    "original_parent_audit_total_separate_provenance": 124
+  },
+  "fresh_public_retention": {
+    "certified": true,
+    "processed_cells": 4020,
+    "eta_lower_real_decimal": "0.152260764301861701928625206455836893973748530913",
+    "retention_budget": ".0001",
+    "primary_upper_real_decimal": "0.152360764301861701928625206455836893973748530913"
+  },
+  "fresh_root_center_replay": {
+    "passed": true,
+    "max_position_error_m": 1.1370195674268277e-11,
+    "max_velocity_error_mps": 1.7232953777117627e-12,
+    "method": "independent6-state Newton integration with reference CL,T,bank; lift/drag recomputed from replayed state",
+    "terminal_cg_state": [
+      302.12645939273176,
+      -1.8871805377777583e-13,
+      5.999999999997218,
+      72.51214231683122,
+      -2.009517193289915e-14,
+      -0.7000000000006532
+    ]
+  },
+  "evaluator_checks": {
+    "mean_at20": "passed",
+    "urban58_at45": "passed"
+  },
+  "publication_integrity": "235 mapped public files and224 original seal bindings pass; 610paths explicitly classified",
+  "historical_certified": false,
+  "global_optimum_proved": false,
+  "global_secondary_proved": false,
+  "new_science_or_model_changes": false,
+  "release_changes": false,
+  "known_initial_check_failures": "Initial public attempt encountered omitted CAD scan in four source tests and absent mpmath in existing geospatial environment. Fresh combined environment resolves dependency; five source tests are separately labelled private-fixture passes. No code or source exclusion bypass.",
+  "release_metadata_readback": "GitHub REST release-list lookup returned rate-limit403; no release mutation attempted/required. Existing release receipts and manifests preserved byte-for-byte; no fresh release-asset download claim.",
+  "staged_audit": {
+    "total_changed_files": 246,
+    "new_files": 243,
+    "modified_existing_files": 3,
+    "modified_existing_paths": [
+      ".gitignore",
+      "README.md",
+      "research/checkers-runway13/PROJECT_STATE.md"
+    ],
+    "no_removed_paths": true,
+    "no_new_credentials_private_paths_or_internal_session_ids": true,
+    "existing_public_ledger_email_like_tokens_preserved_no_new_values": true,
+    "relative_markdown_links_checked": "all new/changed Markdown links resolve",
+    "sealed_whitespace_preserved": "CSV CRLF plus eight pre-existing end-of-file/log whitespace warnings deliberately retained to preserve scientific hashes"
+  }
+}

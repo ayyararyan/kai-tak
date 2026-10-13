@@ -1,0 +1,75 @@
+{
+  "verified_utc": "2026-10-13T15:48:02.175572+00:00",
+  "sources": [
+    {
+      "id": "CAD",
+      "path": "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+      "source_url": "https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf",
+      "sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "bytes": 7653178,
+      "role": "primarysource; applicability recorded perobservation"
+    },
+    {
+      "id": "BOEING",
+      "path": "integrated/sources/boeing_747-400_Rev_F.pdf",
+      "source_url": "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/747-400_Rev_F.pdf",
+      "sha256": "9dd5baf00f3b9e5fdaa0bdf25425e1e65c9c6ee440d5b5c547956f95ccacef08",
+      "bytes": 15793881,
+      "role": "primarysource; applicability recorded perobservation"
+    },
+    {
+      "id": "DXF",
+      "path": "integrated/sources/boeing_7474.zip",
+      "source_url": "https://www.boeing.com/content/dam/boeing/v2/airports/dwgs/7474.zip",
+      "sha256": "004f8505b623ac80fd8c4225d60845b89af2e0f996e7de0ce52b2b337bb0c5ed",
+      "bytes": 88882,
+      "role": "primarysource; applicability recorded perobservation"
+    },
+    {
+      "id": "AIP",
+      "path": "integrated/sources/aip2026_GEN2_1.html",
+      "source_url": "https://www.ais.gov.hk/eaip_20261001/2026-10-01-000000/html/eAIP/VH-GEN-2.1-en-US.html",
+      "sha256": "43d8785e85eea0dbd160ac1090b292810815708ad9044077f512cee01ffa01ad",
+      "bytes": 11602,
+      "role": "primarysource; applicability recorded perobservation"
+    },
+    {
+      "id": "FRAME",
+      "path": "reconstruction/downloads/geodetic_transform_parameters.pdf",
+      "source_url": "https://www.geodetic.gov.hk/common/data/parameter/7P_ITRF96_HK80_V1.pdf",
+      "sha256": "6e63f8803c1a0d1ae8306db30bc76e2daff67e79099cf0fc93278f1b1a2d19fd",
+      "bytes": 158557,
+      "role": "primarysource; applicability recorded perobservation"
+    }
+  ],
+  "additional_source_pages": [
+    {
+      "url": "https://www.boeing.com/commercial/airports/3-view",
+      "inspected": "gate-planningdrawingaccuracywording",
+      "local_snapshot": null
+    },
+    {
+      "url": "https://www.boeing.com/commercial/airports/plan-manuals",
+      "inspected": "official747400manual link",
+      "local_snapshot": null
+    },
+    {
+      "url": "https://www.ais.gov.hk/eaip_20261001/VH-history-en-US.html",
+      "inspected": "availablehistory2026Aug-Nov; no1993document obtained",
+      "local_snapshot": null
+    }
+  ],
+  "acquisition_failures": [
+    {
+      "url": "https://www.easa.europa.eu/en/document-library/type-certificates/easaima196-boeing-747",
+      "result": "404; no certificate acquired"
+    },
+    {
+      "url": "https://www.boeing.com/commercial/airports/plan_manuals",
+      "result": "old route404; currentplan-manuals route succeeded"
+    }
+  ],
+  "search_limitation": "configuredweb_searchproviderdisabled; primaryURLretrievalandlocalarchivesused; no exhaustiveinternetsearchclaim",
+  "other_geometry_sources": "Sourcearchives,picks,worldfilesandhashesin geometry/map_mosaic_manifest.json,south_map_sources.json,registrationdiagnosticsandfeatureproperties",
+  "third_party_publication": "localresearchonly; no redistribution authorization inferred"
+}

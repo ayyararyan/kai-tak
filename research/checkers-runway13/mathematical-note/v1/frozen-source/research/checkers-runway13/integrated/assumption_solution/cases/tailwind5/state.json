@@ -1,0 +1,17 @@
+{
+  "status": "unresolved",
+  "condition": {
+    "name": "tailwind5",
+    "urban": 25,
+    "roof_delta": 0,
+    "frame_dx": 0,
+    "frame_dy": 0,
+    "runway_level": 6,
+    "buffer": 5,
+    "wind_mps": [
+      2.5722222222222224,
+      0,
+      0
+    ]
+  }
+}

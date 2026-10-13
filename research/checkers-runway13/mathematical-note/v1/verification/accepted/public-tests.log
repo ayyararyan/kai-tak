@@ -1,0 +1,25 @@
+........................................................................ [ 70%]
+..............................                                           [100%]
+102 passed, 6 deselected in 13.53s
+
+test_continuous_feature_and_time_reporting (integrated.test_frames_and_gate.FrameGateTests.test_continuous_feature_and_time_reporting) ... ok
+test_domain_boundaries_and_units (integrated.test_frames_and_gate.FrameGateTests.test_domain_boundaries_and_units) ... ok
+test_empty_scene_not_historical (integrated.test_frames_and_gate.FrameGateTests.test_empty_scene_not_historical) ... ok
+test_frame_inverse_and_orientation (integrated.test_frames_and_gate.FrameGateTests.test_frame_inverse_and_orientation) ... ok
+test_gate_cannot_upgrade_old_certificate (integrated.test_frames_and_gate.FrameGateTests.test_gate_cannot_upgrade_old_certificate) ... ok
+test_inherited_unknowns_preserved (integrated.test_frames_and_gate.FrameGateTests.test_inherited_unknowns_preserved) ... ok
+test_join_gap_refused (integrated.test_frames_and_gate.FrameGateTests.test_join_gap_refused) ... ok
+test_official_numeric_checkpoint (integrated.test_frames_and_gate.FrameGateTests.test_official_numeric_checkpoint) ... ok
+test_source_scenario_condition_not_optimality (integrated.test_frames_and_gate.FrameGateTests.test_source_scenario_condition_not_optimality) ... ok
+test_unknown_registration_refused (integrated.test_frames_and_gate.FrameGateTests.test_unknown_registration_refused) ... ok
+test_all_scene_geometries_and_bound_sources (integrated.test_source_geometry.SourceGeometryTests.test_all_scene_geometries_and_bound_sources) ... ok
+test_hill_readings_and_nonpromotion (integrated.test_source_geometry.SourceGeometryTests.test_hill_readings_and_nonpromotion) ... ok
+test_new_geometry_coordinate_roundtrip (integrated.test_source_geometry.SourceGeometryTests.test_new_geometry_coordinate_roundtrip) ... ok
+test_requirement_coverage_every_id_once (integrated.test_source_geometry.SourceGeometryTests.test_requirement_coverage_every_id_once) ... ok
+test_runway_identity_diagnostic_is_not_registration (integrated.test_source_geometry.SourceGeometryTests.test_runway_identity_diagnostic_is_not_registration) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.043s
+
+OK
+

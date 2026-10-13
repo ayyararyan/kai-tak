@@ -1,0 +1,1 @@
+strong family exclusion {'excluded': True, 'eta_upper_real_decimal': '0.181970215', 'cells': 4096, 'residual_lower_display_m': 0.9678323903412959, 'C_display': 2.1631504015156198, 'ramp': True, 'scope': 'frozen polynomial family only'}

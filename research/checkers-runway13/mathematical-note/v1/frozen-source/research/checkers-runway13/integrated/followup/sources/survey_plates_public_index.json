@@ -1,0 +1,12 @@
+{
+  "endpoint": "https://api.hkmapservice.gov.hk/oss/services/OneStop/FlightPaths/MapServer/2/query",
+  "where": "PHOTONO IN ('72998','72999','73000','73001','A72998','A72999','A73000','A73001')",
+  "retrieved_utc": "2026-10-13T16:02:46.728695+00:00",
+  "response": {
+    "error": {
+      "code": 400,
+      "message": "Failed to execute query.",
+      "details": []
+    }
+  }
+}

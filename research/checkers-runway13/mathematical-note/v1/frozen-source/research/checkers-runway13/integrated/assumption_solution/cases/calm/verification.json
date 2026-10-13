@@ -1,0 +1,206 @@
+{
+  "metrics": {
+    "name": "calm",
+    "status": "continuous_conditional_feasible",
+    "numerical_eta": 0.03907064969526841,
+    "certified_eta": 0.03607064969526841,
+    "global_family_eta_upper": 0.11856,
+    "global_full_eta_upper": 0.15738029311006088,
+    "family_gap_upper": 0.08248935030473159,
+    "secondary_local_complete": true,
+    "touchdown_s": 41.326865075909495,
+    "touchdown_x_m": 313.61147409934716,
+    "touchdown_speed_kt": 151.45771373676487,
+    "stop_s": 96.2953979253098,
+    "stop_x_m": 2533.0080806341166,
+    "runway_remaining_m": 252.9919193658834,
+    "effort": 9.46128296705825,
+    "limiting_assumed_geometry": "urban_upstream",
+    "minimum_sampled_obstacle_separation_m": 21.243623614071126,
+    "max_bank_deg": 13.324391768000819,
+    "historical_certified": false
+  },
+  "independent_replay": {
+    "passed": true,
+    "max_position_error_m": 9.260133675822742e-12,
+    "max_velocity_error_mps": 2.5479318932430785e-12,
+    "method": "independent6-state Newton integration with reference CL,T,bank; lift/drag recomputed from replayed state",
+    "terminal_cg_state": [
+      313.6114740993521,
+      -2.3299628538817534e-12,
+      5.999999999999223,
+      77.91657940013611,
+      -1.5835792104234104e-13,
+      -0.6999999999998825
+    ]
+  },
+  "terminal_global_bounds": {
+    "full": {
+      "lower_root_exact": "885972286757403/5629499534213120",
+      "upper_exact": "221493071689353/1407374883553280",
+      "upper_display": 0.15738029311006088,
+      "lower_F_upper_display": -5.076876322475036e-12,
+      "upper_F_lower_display": 1.6293267024627786e-12,
+      "proof": "outward interval residual signs, strict monotonicity and initial EAS cap; lower root is not a feasible-trajectory bound"
+    },
+    "family": {
+      "lower_root_exact": "885972286757403/5629499534213120",
+      "upper_exact": "221493071689353/1407374883553280",
+      "upper_display": 0.15738029311006088,
+      "lower_F_upper_display": -5.076876322475036e-12,
+      "upper_F_lower_display": 1.6293267024627786e-12,
+      "proof": "outward interval residual signs, strict monotonicity and initial EAS cap; lower root is not a feasible-trajectory bound"
+    }
+  },
+  "energy_family_bound": {
+    "estimate": 0.11835929622004114,
+    "scalar_relaxation_at_root": {
+      "best": {
+        "regime": "speed_floor_switch",
+        "x_m": 422.64287144425407,
+        "stop_m": 2324.004895163971
+      },
+      "candidates": [
+        {
+          "regime": "left_endpoint",
+          "x_m": 259.1796481100206,
+          "stop_m": 2343.5311021167745
+        },
+        {
+          "regime": "right_endpoint",
+          "x_m": 640.8203518899794,
+          "stop_m": 2542.1823756096965
+        },
+        {
+          "regime": "speed_floor_switch",
+          "x_m": 422.64287144425407,
+          "stop_m": 2324.004895163971
+        }
+      ],
+      "residual": -4.547473508864641e-13,
+      "C": 3.16694493630223,
+      "R": 6509.181021808042,
+      "U0": 71.90754007907256
+    },
+    "exclusion": {
+      "excluded": true,
+      "eta_upper_real_decimal": "0.118560",
+      "cells": 2048,
+      "residual_lower_display_m": 0.7283149760549337,
+      "scope": "entire frozen12-dimensionalfamily at eta and above; flareenergy relaxation plus exact interval x cover",
+      "historical_certified": false
+    },
+    "exact_optimum": false,
+    "condition": {
+      "name": "calm",
+      "urban": 25,
+      "roof_delta": 0,
+      "frame_dx": 0,
+      "frame_dy": 0,
+      "runway_level": 6,
+      "buffer": 5,
+      "wind_mps": [
+        0,
+        0,
+        0
+      ]
+    },
+    "source_sha256": {
+      "integrated/assumption_solution/energy_bound.py": "e549d488d288170cb702966c17cf4d35fd02d302c1efeffaed5af3bb488f3492",
+      "integrated/assumption_solution/conditional_model.py": "425b724b43e2fb09a2716705265acbe16bc97958bc183f733084148507af7318",
+      "integrated/assumption_solution/regularity.py": "65ac61dd90a32298bb702a4cd34cfa6894fe0cfc58357bef5965d5e2cff6e684",
+      "integrated/assumption_solution/regularity.json": "2ccbc6c11aa7109ad6d9274f50105dfedb74488cefd57ea006930c6dfb63b83b",
+      "model/config.json": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693"
+    }
+  },
+  "primary_dense_eta": 0.03912128959273453,
+  "secondary_loss": 5.063989746612041e-05,
+  "secondary_local_retention_passed": true,
+  "geometry_minima_sampled_m": {
+    "forward_speed": 54.063864318357446,
+    "lift_up": 8.515329027131328,
+    "object_0": 507.31388051685053,
+    "object_1": 470.4799652253424,
+    "object_2": 525.1189411661665,
+    "object_3": 560.0160710021296,
+    "object_4": 555.5887085450125,
+    "object_5": 434.34326847661754,
+    "object_6": 521.6684593505041,
+    "object_7": 578.0380828868266,
+    "object_8": 700.2871691311906,
+    "object_9": 314.22246732364135,
+    "object_10": 358.7352616557336,
+    "object_11": 50.20956958029056,
+    "object_12": 189.33862020850773,
+    "object_13": 135.40307302619533,
+    "object_14": 147.60797407044845,
+    "object_15": 507.55267415911567,
+    "object_16": 470.87163788865234,
+    "object_17": 525.318467878537,
+    "object_18": 560.275623315196,
+    "object_19": 555.8266995009178,
+    "object_20": 434.52858315696943,
+    "object_21": 522.1395862212066,
+    "object_22": 578.1611323369569,
+    "object_23": 700.4563403231678,
+    "object_24": 314.8451773839132,
+    "object_25": 359.10941608842654,
+    "object_26": 50.18510656220174,
+    "object_27": 189.2776485416366,
+    "object_28": 135.5925912517107,
+    "object_29": 147.74576492309802,
+    "object_30": 507.6017444369894,
+    "object_31": 470.836752626113,
+    "object_32": 525.3083215328795,
+    "object_33": 560.063999136645,
+    "object_34": 555.8876762427781,
+    "object_35": 434.677855717288,
+    "object_36": 521.9375331938097,
+    "object_37": 577.7868203690284,
+    "object_38": 700.4241921950979,
+    "object_39": 314.6116811171137,
+    "object_40": 359.011858894567,
+    "object_41": 50.20956958029056,
+    "object_42": 189.53580237888127,
+    "object_43": 135.62128652527645,
+    "object_44": 147.6857135644742,
+    "object_45": 2511.451957498423,
+    "object_46": 2570.9070415886745,
+    "object_47": 2571.0275826692314,
+    "object_48": 2570.9746596753603,
+    "object_49": 290.94406251771716,
+    "urban_upstream": 21.243623614071126,
+    "urban_side_-1": 39.999999999999545,
+    "urban_side_1": 24.100840183659102,
+    "nongear_ground": 1.500000000000007,
+    "gear_ground": 0.0002800000574136874,
+    "urban_exit_limit": 23.089893710574728
+  },
+  "operating_minima_sampled": {
+    "eas_lower": 0.03907118391821811,
+    "eas_upper": 0.5487076904818544,
+    "cl_lower": 0.35295668694308124,
+    "cl_upper": 0.46939746202239907,
+    "load_lower": 0.40924656308970925,
+    "load_upper": 0.12376896549144104,
+    "thrust_lower": 0.12780269497871186,
+    "thrust_upper": 0.6253763475544455,
+    "bank": 0.4670243292799673,
+    "roll": 0.28073027142283913,
+    "slew": 0.03907064969526841,
+    "descent": 0.039071289615031035,
+    "approach_sink": 0.055433411689691736,
+    "corridor": 0.8745589161567368,
+    "touchdown_x_lower": 0.22722294819869432,
+    "touchdown_x_upper": 0.7727770518013056,
+    "touchdown_sink_lower": 0.4666666666666666,
+    "touchdown_sink_upper": 0.5333333333333333,
+    "touchdown_lateral": 1.0,
+    "touchdown_track": 1.0,
+    "touchdown_bank": 1.0,
+    "stop": 0.03907128959252026
+  },
+  "result_sha256": "9d1d7cbf0f049c31fe07ab9db7afa051af2d3529fc2acac5f769caed2b93892e",
+  "certificate_sha256": "98d54b16e8da9c6f25f7ed8c59883986dea0847a7369264de180f95b991d1a62",
+  "hist_certified": false
+}

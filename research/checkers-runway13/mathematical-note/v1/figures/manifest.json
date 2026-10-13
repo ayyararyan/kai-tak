@@ -1,0 +1,103 @@
+{
+  "figure_count": 6,
+  "formats": [
+    "pdf",
+    "svg",
+    "png"
+  ],
+  "font_family": "Arial",
+  "v5_palette_preserved": true,
+  "fixed_text_width_tex_pt": 373.2,
+  "records": [
+    {
+      "figure": "landing",
+      "meaning": "Conceptual hybrid landing and inertial CG/reference distinction",
+      "master_inches": [
+        5.163968451639684,
+        3.03
+      ],
+      "input": "inputs/figure_data.json",
+      "input_sha256": "a0ff0d6cb959f6d464d36dd5244ad24a36bebb84f9c4d8ea82186d53929af917",
+      "outputs": {
+        "pdf": "34bc4f9cc24bccd99826292477b4174a8e06ee510f242ef3bebc9f0b4d8cee54",
+        "svg": "be395d8696b560acf98b7112d8dcfebf4535d2acd69230289ffffc13e6532ea7",
+        "png": "743e6c498e6d20193db74d5b01a9993225ef90d9ae7aca3669ca6b430ceffd27"
+      }
+    },
+    {
+      "figure": "active",
+      "meaning": "Six active constraints and separate normalized-time event locations",
+      "master_inches": [
+        5.163968451639684,
+        3.03
+      ],
+      "input": "inputs/figure_data.json",
+      "input_sha256": "a0ff0d6cb959f6d464d36dd5244ad24a36bebb84f9c4d8ea82186d53929af917",
+      "outputs": {
+        "pdf": "f9b4a48264f0877557097ed656b07fb6f55168a41940b7562f48e58d95d77ba6",
+        "svg": "d6bb7e87d19895c06f3329ab4b89f46a493f41d37232e3061fc3ef95046511fa",
+        "png": "24d9e8b04031283145cccced27b6aa55b0a521264de8fb765729d6907a980667"
+      }
+    },
+    {
+      "figure": "certificate",
+      "meaning": "Logical implications in the certificate; no high-dimensional geometric projection",
+      "master_inches": [
+        5.163968451639684,
+        3.66
+      ],
+      "input": "inputs/figure_data.json",
+      "input_sha256": "a0ff0d6cb959f6d464d36dd5244ad24a36bebb84f9c4d8ea82186d53929af917",
+      "outputs": {
+        "pdf": "266b7540ae369a73a20feb78e30beaa8e6d1594144ba4f4fbacb728f082f525a",
+        "svg": "026a9082464318ed0336097004385c4affba9f1f51b08e83efed9e9afa202aa8",
+        "png": "f79c185f4441d6a1ee9dc06084a018be2d0303939bf2e62e2ad07a657ef89dbc"
+      }
+    },
+    {
+      "figure": "continuous",
+      "meaning": "Numerical critical margins plus all 398 accepted time cells and event zones",
+      "master_inches": [
+        5.163968451639684,
+        4.45
+      ],
+      "input": "inputs/figure_data.json",
+      "input_sha256": "a0ff0d6cb959f6d464d36dd5244ad24a36bebb84f9c4d8ea82186d53929af917",
+      "outputs": {
+        "pdf": "f16ead125c7691a70305c8ba1680e9bcdeac01daad86a4ad4e0c9da13e98dc4c",
+        "svg": "0c327c540b2d30f0e61612d5523ce66fc4f8959af69f45a49f932aec81e94590",
+        "png": "bb8089bce64fb85ae05e52598585d8161d5eefdc70056b93a68f4b6cd0f77a6d"
+      }
+    },
+    {
+      "figure": "bracket",
+      "meaning": "Global family bracket, with one-sided retention lower bound on a separate scale",
+      "master_inches": [
+        5.163968451639684,
+        2.75
+      ],
+      "input": "inputs/figure_data.json",
+      "input_sha256": "a0ff0d6cb959f6d464d36dd5244ad24a36bebb84f9c4d8ea82186d53929af917",
+      "outputs": {
+        "pdf": "c5b4696d368804ea9be654be16906233b7fe587a28c9ed2a95410a00e47e0725",
+        "svg": "0313626a5e2b4fd743276a83694f7226a6f3c4e6f1e38f577e05400c79937469",
+        "png": "4dc247239c3496aa3b3557192eb3f16e105e757ee93c76d8d0e536ff1dd4717f"
+      }
+    },
+    {
+      "figure": "conditions",
+      "meaning": "Ten individually certified secondary-path margins; unresolved cases have no invented bars",
+      "master_inches": [
+        5.163968451639684,
+        4.2
+      ],
+      "input": "inputs/figure_data.json",
+      "input_sha256": "a0ff0d6cb959f6d464d36dd5244ad24a36bebb84f9c4d8ea82186d53929af917",
+      "outputs": {
+        "pdf": "6551a090b39833e8a2f14f741c61dc59857c2fba0d5ccdedfaea647d36f6b907",
+        "svg": "04bace154e0bd3bc04232ed2b14fc427999c35b6fb0b5a6d28cb14b7f81852a1",
+        "png": "31ff599bc348576bb0e247a55ab7af4669f3103e50dee53d8da969ada082db8a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1118 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hill_contour_60_1989",
+        "source_id": "1980_1990:1292",
+        "sheet": "11-NW-10D",
+        "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_1292_11-NW-10D_1989-11-01.zip",
+        "source_sha256": "08073a6bf01bb11184c5ea1ff4265802ddd66b97d5b516a29cfc1ca6215e8e21",
+        "source_tiff_sha256": "d3268bf64e8bce5ddccb47dc9a926c68377740333279534bbb78483735ad5c78",
+        "edition_month": "1989-11",
+        "query_date": "1993-11-04",
+        "query_date_presence_certified": false,
+        "vertical_datum": "HKPD",
+        "grid_crs": "EPSG:2326",
+        "display_geometry_crs": "EPSG:4326",
+        "meaning": "partial mapped terrainisoline, not a closed terrain surface",
+        "category": "manually interpreted mapped surface observation",
+        "physical_horizontal_error_bound_m": null,
+        "physical_height_error_bound_m": null,
+        "physical_upper_bound_m": null,
+        "is_full_structure_top": false,
+        "clearance_eligible": false,
+        "limitations": [
+          "Mapedition is not individualsurvey or targetdaypresence date.",
+          "Mapped contours/spots do not bound equipment, roofs or intervening unknown terrain.",
+          "Digitizingtolerance is not a physical error bound."
+        ],
+        "elevation_HKPD_m": 60,
+        "core_pixel_edge_picks": [
+          [
+            1570.0,
+            844.5
+          ],
+          [
+            1568.0,
+            832.5
+          ],
+          [
+            1570.0,
+            825.0
+          ],
+          [
+            1568.25,
+            820.0
+          ],
+          [
+            1568.5,
+            810.0
+          ],
+          [
+            1568.75,
+            793.0
+          ],
+          [
+            1572.5,
+            778.0
+          ],
+          [
+            1574.75,
+            765.75
+          ],
+          [
+            1580.0,
+            761.25
+          ],
+          [
+            1584.75,
+            750.5
+          ],
+          [
+            1589.5,
+            746.75
+          ],
+          [
+            1597.25,
+            745.75
+          ],
+          [
+            1608.5,
+            747.5
+          ],
+          [
+            1617.75,
+            748.0
+          ],
+          [
+            1626.0,
+            745.25
+          ],
+          [
+            1630.25,
+            745.75
+          ],
+          [
+            1637.25,
+            751.25
+          ],
+          [
+            1644.5,
+            752.5
+          ],
+          [
+            1652.75,
+            749.75
+          ],
+          [
+            1659.75,
+            743.5
+          ],
+          [
+            1669.5,
+            731.75
+          ],
+          [
+            1675.75,
+            728.25
+          ],
+          [
+            1683.5,
+            728.5
+          ]
+        ],
+        "EN_m": [
+          [
+            837142.5,
+            821988.875
+          ],
+          [
+            837142.0,
+            821991.875
+          ],
+          [
+            837142.5,
+            821993.75
+          ],
+          [
+            837142.0625,
+            821995.0
+          ],
+          [
+            837142.125,
+            821997.5
+          ],
+          [
+            837142.1875,
+            822001.75
+          ],
+          [
+            837143.125,
+            822005.5
+          ],
+          [
+            837143.6875,
+            822008.5625
+          ],
+          [
+            837145.0,
+            822009.6875
+          ],
+          [
+            837146.1875,
+            822012.375
+          ],
+          [
+            837147.375,
+            822013.3125
+          ],
+          [
+            837149.3125,
+            822013.5625
+          ],
+          [
+            837152.125,
+            822013.125
+          ],
+          [
+            837154.4375,
+            822013.0
+          ],
+          [
+            837156.5,
+            822013.6875
+          ],
+          [
+            837157.5625,
+            822013.5625
+          ],
+          [
+            837159.3125,
+            822012.1875
+          ],
+          [
+            837161.125,
+            822011.875
+          ],
+          [
+            837163.1875,
+            822012.5625
+          ],
+          [
+            837164.9375,
+            822014.125
+          ],
+          [
+            837167.375,
+            822017.0625
+          ],
+          [
+            837168.9375,
+            822017.9375
+          ],
+          [
+            837170.875,
+            822017.875
+          ]
+        ],
+        "source_core": "reconstruction/obstacles/review/11-NW-10D_1989-11_core.png",
+        "source_core_sha256": "eff531728f784c4d442ebe75000cb8777b403a133502fc5466da44d33a4c397d",
+        "digitizing_pick_tolerance_core_px": 1.0,
+        "digitizing_axis_tolerance_m": 0.25,
+        "interpolation_error_bound_m": null,
+        "length_m": 52.707431551833245
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.18536329842888,
+            22.336963231454238
+          ],
+          [
+            114.18535844648422,
+            22.33699032343438
+          ],
+          [
+            114.18536330110723,
+            22.337007255506755
+          ],
+          [
+            114.18535905489935,
+            22.33701854394887
+          ],
+          [
+            114.18535966297152,
+            22.337041120354
+          ],
+          [
+            114.185360272005,
+            22.337079500264934
+          ],
+          [
+            114.18536937455923,
+            22.337113364441016
+          ],
+          [
+            114.18537483654086,
+            22.337141020288296
+          ],
+          [
+            114.18538757785572,
+            22.337151179012597
+          ],
+          [
+            114.18539910663479,
+            22.337175448072955
+          ],
+          [
+            114.18541063445107,
+            22.337183913626802
+          ],
+          [
+            114.18542944228788,
+            22.33718617027362
+          ],
+          [
+            114.18545674354304,
+            22.337182217946285
+          ],
+          [
+            114.18547919137126,
+            22.33718108792801
+          ],
+          [
+            114.18549921285292,
+            22.337187295378367
+          ],
+          [
+            114.18550952668245,
+            22.337186166004525
+          ],
+          [
+            114.18552651351139,
+            22.337173748053704
+          ],
+          [
+            114.1855441076333,
+            22.33717092505406
+          ],
+          [
+            114.18556412911637,
+            22.337177132496414
+          ],
+          [
+            114.18558111759448,
+            22.337191241852928
+          ],
+          [
+            114.18560478055329,
+            22.337217767886543
+          ],
+          [
+            114.18561994855085,
+            22.337225668817403
+          ],
+          [
+            114.18563875621942,
+            22.337225103385336
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hill_contour_80_1989",
+        "source_id": "1980_1990:1292",
+        "sheet": "11-NW-10D",
+        "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_1292_11-NW-10D_1989-11-01.zip",
+        "source_sha256": "08073a6bf01bb11184c5ea1ff4265802ddd66b97d5b516a29cfc1ca6215e8e21",
+        "source_tiff_sha256": "d3268bf64e8bce5ddccb47dc9a926c68377740333279534bbb78483735ad5c78",
+        "edition_month": "1989-11",
+        "query_date": "1993-11-04",
+        "query_date_presence_certified": false,
+        "vertical_datum": "HKPD",
+        "grid_crs": "EPSG:2326",
+        "display_geometry_crs": "EPSG:4326",
+        "meaning": "partial mapped terrainisoline, not a closed terrain surface",
+        "category": "manually interpreted mapped surface observation",
+        "physical_horizontal_error_bound_m": null,
+        "physical_height_error_bound_m": null,
+        "physical_upper_bound_m": null,
+        "is_full_structure_top": false,
+        "clearance_eligible": false,
+        "limitations": [
+          "Mapedition is not individualsurvey or targetdaypresence date.",
+          "Mapped contours/spots do not bound equipment, roofs or intervening unknown terrain.",
+          "Digitizingtolerance is not a physical error bound."
+        ],
+        "elevation_HKPD_m": 80,
+        "core_pixel_edge_picks": [
+          [
+            1415.0,
+            524.5
+          ],
+          [
+            1422.25,
+            535.5
+          ],
+          [
+            1432.75,
+            545.0
+          ],
+          [
+            1446.0,
+            550.0
+          ],
+          [
+            1464.75,
+            554.0
+          ],
+          [
+            1482.0,
+            560.25
+          ],
+          [
+            1494.5,
+            568.5
+          ],
+          [
+            1502.5,
+            576.75
+          ],
+          [
+            1506.5,
+            584.75
+          ],
+          [
+            1505.5,
+            591.0
+          ],
+          [
+            1499.0,
+            599.75
+          ],
+          [
+            1491.25,
+            607.75
+          ],
+          [
+            1483.5,
+            614.75
+          ],
+          [
+            1475.25,
+            620.5
+          ],
+          [
+            1465.25,
+            626.75
+          ],
+          [
+            1456.5,
+            632.75
+          ],
+          [
+            1448.5,
+            639.0
+          ],
+          [
+            1439.75,
+            646.75
+          ],
+          [
+            1431.25,
+            656.0
+          ],
+          [
+            1425.75,
+            662.5
+          ],
+          [
+            1421.5,
+            668.75
+          ]
+        ],
+        "EN_m": [
+          [
+            837103.75,
+            822068.875
+          ],
+          [
+            837105.5625,
+            822066.125
+          ],
+          [
+            837108.1875,
+            822063.75
+          ],
+          [
+            837111.5,
+            822062.5
+          ],
+          [
+            837116.1875,
+            822061.5
+          ],
+          [
+            837120.5,
+            822059.9375
+          ],
+          [
+            837123.625,
+            822057.875
+          ],
+          [
+            837125.625,
+            822055.8125
+          ],
+          [
+            837126.625,
+            822053.8125
+          ],
+          [
+            837126.375,
+            822052.25
+          ],
+          [
+            837124.75,
+            822050.0625
+          ],
+          [
+            837122.8125,
+            822048.0625
+          ],
+          [
+            837120.875,
+            822046.3125
+          ],
+          [
+            837118.8125,
+            822044.875
+          ],
+          [
+            837116.3125,
+            822043.3125
+          ],
+          [
+            837114.125,
+            822041.8125
+          ],
+          [
+            837112.125,
+            822040.25
+          ],
+          [
+            837109.9375,
+            822038.3125
+          ],
+          [
+            837107.8125,
+            822036.0
+          ],
+          [
+            837106.4375,
+            822034.375
+          ],
+          [
+            837105.375,
+            822032.8125
+          ]
+        ],
+        "source_core": "reconstruction/obstacles/review/11-NW-10D_1989-11_core.png",
+        "source_core_sha256": "eff531728f784c4d442ebe75000cb8777b403a133502fc5466da44d33a4c397d",
+        "digitizing_pick_tolerance_core_px": 1.0,
+        "digitizing_axis_tolerance_m": 0.25,
+        "interpolation_error_bound_m": null,
+        "length_m": 59.043428622950145
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.18498718706763,
+            22.33768569678335
+          ],
+          [
+            114.18500477998168,
+            22.337660861818016
+          ],
+          [
+            114.1850302602123,
+            22.337639412917124
+          ],
+          [
+            114.1850624147515,
+            22.337628123069248
+          ],
+          [
+            114.18510791685885,
+            22.33761909017733
+          ],
+          [
+            114.18514977844828,
+            22.337604977761565
+          ],
+          [
+            114.18518011242799,
+            22.33758635064219
+          ],
+          [
+            114.18519952577064,
+            22.337567724081403
+          ],
+          [
+            114.18520923191741,
+            22.337549662431332
+          ],
+          [
+            114.18520680426856,
+            22.33753555228451
+          ],
+          [
+            114.18519102885273,
+            22.337515798717824
+          ],
+          [
+            114.18517222003557,
+            22.337497738538417
+          ],
+          [
+            114.18515341135723,
+            22.33748193600037
+          ],
+          [
+            114.18513338944786,
+            22.337468955576757
+          ],
+          [
+            114.18510912056765,
+            22.337454846545853
+          ],
+          [
+            114.18508788523089,
+            22.33744130176767
+          ],
+          [
+            114.18506846996809,
+            22.33742719248325
+          ],
+          [
+            114.18504723440795,
+            22.337409696823368
+          ],
+          [
+            114.18502660535607,
+            22.33738881466458
+          ],
+          [
+            114.18501325708151,
+            22.337374140655612
+          ],
+          [
+            114.18500294234619,
+            22.337360030903465
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hill_surface_spot_0_1989",
+        "source_id": "1980_1990:1292",
+        "sheet": "11-NW-10D",
+        "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_1292_11-NW-10D_1989-11-01.zip",
+        "source_sha256": "08073a6bf01bb11184c5ea1ff4265802ddd66b97d5b516a29cfc1ca6215e8e21",
+        "source_tiff_sha256": "d3268bf64e8bce5ddccb47dc9a926c68377740333279534bbb78483735ad5c78",
+        "edition_month": "1989-11",
+        "query_date": "1993-11-04",
+        "query_date_presence_certified": false,
+        "vertical_datum": "HKPD",
+        "grid_crs": "EPSG:2326",
+        "display_geometry_crs": "EPSG:4326",
+        "meaning": "mapped ground/path/playground surface spot; notroof/equipmenttop",
+        "category": "manually interpreted mapped surface observation",
+        "physical_horizontal_error_bound_m": null,
+        "physical_height_error_bound_m": null,
+        "physical_upper_bound_m": null,
+        "is_full_structure_top": false,
+        "clearance_eligible": false,
+        "limitations": [
+          "Mapedition is not individualsurvey or targetdaypresence date.",
+          "Mapped contours/spots do not bound equipment, roofs or intervening unknown terrain.",
+          "Digitizingtolerance is not a physical error bound."
+        ],
+        "elevation_HKPD_m": 58.2,
+        "source_pixel_edge_pick": [
+          7363.285714285715,
+          2627.0
+        ],
+        "core_pixel_edge_pick": [
+          1690.3644600640982,
+          451.09486119495705
+        ],
+        "EN_m": [
+          837172.591115016,
+          822087.2262847013
+        ],
+        "source_symbol": "spotheightcross",
+        "reading_status": "accepted_source_reading",
+        "source_crop": "integrated/sources/hill_spot_0_original.png",
+        "source_crop_sha256": "367abd8cafbdb187cda5e915aedf0aac145b2147df74eeeee76213e92dde3b2e",
+        "digitizing_pick_tolerance_source_px": 4,
+        "digitizing_axis_tolerance_m": 0.2540072804
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1856554543021,
+          22.337851384405266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hill_surface_spot_1_1989",
+        "source_id": "1980_1990:1292",
+        "sheet": "11-NW-10D",
+        "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_1292_11-NW-10D_1989-11-01.zip",
+        "source_sha256": "08073a6bf01bb11184c5ea1ff4265802ddd66b97d5b516a29cfc1ca6215e8e21",
+        "source_tiff_sha256": "d3268bf64e8bce5ddccb47dc9a926c68377740333279534bbb78483735ad5c78",
+        "edition_month": "1989-11",
+        "query_date": "1993-11-04",
+        "query_date_presence_certified": false,
+        "vertical_datum": "HKPD",
+        "grid_crs": "EPSG:2326",
+        "display_geometry_crs": "EPSG:4326",
+        "meaning": "mapped ground/path/playground surface spot; notroof/equipmenttop",
+        "category": "manually interpreted mapped surface observation",
+        "physical_horizontal_error_bound_m": null,
+        "physical_height_error_bound_m": null,
+        "physical_upper_bound_m": null,
+        "is_full_structure_top": false,
+        "clearance_eligible": false,
+        "limitations": [
+          "Mapedition is not individualsurvey or targetdaypresence date.",
+          "Mapped contours/spots do not bound equipment, roofs or intervening unknown terrain.",
+          "Digitizingtolerance is not a physical error bound."
+        ],
+        "elevation_HKPD_m": 59.4,
+        "source_pixel_edge_pick": [
+          7358.857142857143,
+          2765.0
+        ],
+        "core_pixel_edge_pick": [
+          1689.2395772389136,
+          486.1478658900596
+        ],
+        "EN_m": [
+          837172.3098943097,
+          822078.4630335275
+        ],
+        "source_symbol": "spotheightcross",
+        "reading_status": "accepted_source_reading",
+        "source_crop": "integrated/sources/hill_spot_1_original.png",
+        "source_crop_sha256": "4be71a584091e9f7d74c26077ae3aa75a91e43afa720a9dfea718f4a2cdc4574",
+        "digitizing_pick_tolerance_source_px": 4,
+        "digitizing_axis_tolerance_m": 0.2540072804
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18565271944561,
+          22.337772247366125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hill_surface_spot_3_1989",
+        "source_id": "1980_1990:1292",
+        "sheet": "11-NW-10D",
+        "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_1292_11-NW-10D_1989-11-01.zip",
+        "source_sha256": "08073a6bf01bb11184c5ea1ff4265802ddd66b97d5b516a29cfc1ca6215e8e21",
+        "source_tiff_sha256": "d3268bf64e8bce5ddccb47dc9a926c68377740333279534bbb78483735ad5c78",
+        "edition_month": "1989-11",
+        "query_date": "1993-11-04",
+        "query_date_presence_certified": false,
+        "vertical_datum": "HKPD",
+        "grid_crs": "EPSG:2326",
+        "display_geometry_crs": "EPSG:4326",
+        "meaning": "mapped ground/path/playground surface spot; notroof/equipmenttop",
+        "category": "manually interpreted mapped surface observation",
+        "physical_horizontal_error_bound_m": null,
+        "physical_height_error_bound_m": null,
+        "physical_upper_bound_m": null,
+        "is_full_structure_top": false,
+        "clearance_eligible": false,
+        "limitations": [
+          "Mapedition is not individualsurvey or targetdaypresence date.",
+          "Mapped contours/spots do not bound equipment, roofs or intervening unknown terrain.",
+          "Digitizingtolerance is not a physical error bound."
+        ],
+        "elevation_HKPD_m": 73.5,
+        "source_pixel_edge_pick": [
+          6406.428571428572,
+          3560.285714285714
+        ],
+        "core_pixel_edge_pick": [
+          1447.3171967724338,
+          688.1562273167074
+        ],
+        "EN_m": [
+          837111.8292991931,
+          822027.9609431708
+        ],
+        "source_symbol": "spotheightcross",
+        "reading_status": "accepted_source_reading",
+        "source_crop": "integrated/sources/hill_spot_3_original.png",
+        "source_crop_sha256": "d20635dbaf7927fa4ec2f165ed090422a257bcc5e2c842e4adb8eced758bb58d",
+        "digitizing_pick_tolerance_source_px": 4,
+        "digitizing_axis_tolerance_m": 0.2540072804
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18506559302027,
+          22.337316215386494
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hill_surface_spot_4_1989",
+        "source_id": "1980_1990:1292",
+        "sheet": "11-NW-10D",
+        "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_1292_11-NW-10D_1989-11-01.zip",
+        "source_sha256": "08073a6bf01bb11184c5ea1ff4265802ddd66b97d5b516a29cfc1ca6215e8e21",
+        "source_tiff_sha256": "d3268bf64e8bce5ddccb47dc9a926c68377740333279534bbb78483735ad5c78",
+        "edition_month": "1989-11",
+        "query_date": "1993-11-04",
+        "query_date_presence_certified": false,
+        "vertical_datum": "HKPD",
+        "grid_crs": "EPSG:2326",
+        "display_geometry_crs": "EPSG:4326",
+        "meaning": "mapped ground/path/playground surface spot; notroof/equipmenttop",
+        "category": "manually interpreted mapped surface observation",
+        "physical_horizontal_error_bound_m": null,
+        "physical_height_error_bound_m": null,
+        "physical_upper_bound_m": null,
+        "is_full_structure_top": false,
+        "clearance_eligible": false,
+        "limitations": [
+          "Mapedition is not individualsurvey or targetdaypresence date.",
+          "Mapped contours/spots do not bound equipment, roofs or intervening unknown terrain.",
+          "Digitizingtolerance is not a physical error bound."
+        ],
+        "elevation_HKPD_m": null,
+        "source_pixel_edge_pick": [
+          6418.285714285715,
+          3925.4285714285716
+        ],
+        "core_pixel_edge_pick": [
+          1450.328979820013,
+          780.9051714171655
+        ],
+        "EN_m": [
+          837112.582244955,
+          822004.7737071457
+        ],
+        "source_symbol": "spotheightcross",
+        "reading_status": "unresolved_digit",
+        "source_crop": "integrated/sources/hill_spot_4_original.png",
+        "source_crop_sha256": "3ac5b58421e2e650fa8c54c5ae36a326957128e54d014d800a936c425319a200",
+        "digitizing_pick_tolerance_source_px": 4,
+        "digitizing_axis_tolerance_m": 0.2540072804
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18507288971594,
+          22.337106820949533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hill_surface_spot_5_1989",
+        "source_id": "1980_1990:1292",
+        "sheet": "11-NW-10D",
+        "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_1292_11-NW-10D_1989-11-01.zip",
+        "source_sha256": "08073a6bf01bb11184c5ea1ff4265802ddd66b97d5b516a29cfc1ca6215e8e21",
+        "source_tiff_sha256": "d3268bf64e8bce5ddccb47dc9a926c68377740333279534bbb78483735ad5c78",
+        "edition_month": "1989-11",
+        "query_date": "1993-11-04",
+        "query_date_presence_certified": false,
+        "vertical_datum": "HKPD",
+        "grid_crs": "EPSG:2326",
+        "display_geometry_crs": "EPSG:4326",
+        "meaning": "mapped ground/path/playground surface spot; notroof/equipmenttop",
+        "category": "manually interpreted mapped surface observation",
+        "physical_horizontal_error_bound_m": null,
+        "physical_height_error_bound_m": null,
+        "physical_upper_bound_m": null,
+        "is_full_structure_top": false,
+        "clearance_eligible": false,
+        "limitations": [
+          "Mapedition is not individualsurvey or targetdaypresence date.",
+          "Mapped contours/spots do not bound equipment, roofs or intervening unknown terrain.",
+          "Digitizingtolerance is not a physical error bound."
+        ],
+        "elevation_HKPD_m": 35.7,
+        "source_pixel_edge_pick": [
+          8240.285714285714,
+          3245.714285714286
+        ],
+        "core_pixel_edge_pick": [
+          1913.1275459625758,
+          608.2527942536399
+        ],
+        "EN_m": [
+          837228.2818864906,
+          822047.9368014366
+        ],
+        "source_symbol": "spotheightcross",
+        "reading_status": "accepted_source_reading",
+        "source_crop": "integrated/sources/hill_spot_5_original.png",
+        "source_crop_sha256": "63ff444376f2f842d6386cdf9c0d228c59bcdb4e096a2913c1ff1a95cd73ff41",
+        "digitizing_pick_tolerance_source_px": 4,
+        "digitizing_axis_tolerance_m": 0.2540072804
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18619603459246,
+          22.337496547474515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hill_surface_spot_6_1989",
+        "source_id": "1980_1990:1292",
+        "sheet": "11-NW-10D",
+        "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_1292_11-NW-10D_1989-11-01.zip",
+        "source_sha256": "08073a6bf01bb11184c5ea1ff4265802ddd66b97d5b516a29cfc1ca6215e8e21",
+        "source_tiff_sha256": "d3268bf64e8bce5ddccb47dc9a926c68377740333279534bbb78483735ad5c78",
+        "edition_month": "1989-11",
+        "query_date": "1993-11-04",
+        "query_date_presence_certified": false,
+        "vertical_datum": "HKPD",
+        "grid_crs": "EPSG:2326",
+        "display_geometry_crs": "EPSG:4326",
+        "meaning": "mapped ground/path/playground surface spot; notroof/equipmenttop",
+        "category": "manually interpreted mapped surface observation",
+        "physical_horizontal_error_bound_m": null,
+        "physical_height_error_bound_m": null,
+        "physical_upper_bound_m": null,
+        "is_full_structure_top": false,
+        "clearance_eligible": false,
+        "limitations": [
+          "Mapedition is not individualsurvey or targetdaypresence date.",
+          "Mapped contours/spots do not bound equipment, roofs or intervening unknown terrain.",
+          "Digitizingtolerance is not a physical error bound."
+        ],
+        "elevation_HKPD_m": 31.4,
+        "source_pixel_edge_pick": [
+          8197.857142857143,
+          3518.0
+        ],
+        "core_pixel_edge_pick": [
+          1902.350442767609,
+          677.4153480310924
+        ],
+        "EN_m": [
+          837225.5876106919,
+          822030.6461629922
+        ],
+        "source_symbol": "spotheightcross",
+        "reading_status": "accepted_source_reading",
+        "source_crop": "integrated/sources/hill_spot_6_original.png",
+        "source_crop_sha256": "c0bc559e0800b5485afb2953e87fa0621dcf043171b4dd0e4d7f45c3127b63ad",
+        "digitizing_pick_tolerance_source_px": 4,
+        "digitizing_axis_tolerance_m": 0.2540072804
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18616987026455,
+          22.337340404587373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hill_surface_spot_7_1989",
+        "source_id": "1980_1990:1292",
+        "sheet": "11-NW-10D",
+        "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_1292_11-NW-10D_1989-11-01.zip",
+        "source_sha256": "08073a6bf01bb11184c5ea1ff4265802ddd66b97d5b516a29cfc1ca6215e8e21",
+        "source_tiff_sha256": "d3268bf64e8bce5ddccb47dc9a926c68377740333279534bbb78483735ad5c78",
+        "edition_month": "1989-11",
+        "query_date": "1993-11-04",
+        "query_date_presence_certified": false,
+        "vertical_datum": "HKPD",
+        "grid_crs": "EPSG:2326",
+        "display_geometry_crs": "EPSG:4326",
+        "meaning": "mapped ground/path/playground surface spot; notroof/equipmenttop",
+        "category": "manually interpreted mapped surface observation",
+        "physical_horizontal_error_bound_m": null,
+        "physical_height_error_bound_m": null,
+        "physical_upper_bound_m": null,
+        "is_full_structure_top": false,
+        "clearance_eligible": false,
+        "limitations": [
+          "Mapedition is not individualsurvey or targetdaypresence date.",
+          "Mapped contours/spots do not bound equipment, roofs or intervening unknown terrain.",
+          "Digitizingtolerance is not a physical error bound."
+        ],
+        "elevation_HKPD_m": 38.4,
+        "source_pixel_edge_pick": [
+          8864.42857142857,
+          3104.5714285714284
+        ],
+        "core_pixel_edge_pick": [
+          2071.663451205939,
+          572.401480962988
+        ],
+        "EN_m": [
+          837267.9158628015,
+          822056.8996297593
+        ],
+        "source_symbol": "spotheightcross",
+        "reading_status": "accepted_source_reading",
+        "source_crop": "integrated/sources/hill_spot_7_original.png",
+        "source_crop_sha256": "e7959ba1538cb826dda388907a182abeb1a9f8ffb04513c6b8721749d0aaa97e",
+        "digitizing_pick_tolerance_source_px": 4,
+        "digitizing_axis_tolerance_m": 0.2540072804
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18658077597873,
+          22.33757746426976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hill_surface_spot_8_1989",
+        "source_id": "1980_1990:1292",
+        "sheet": "11-NW-10D",
+        "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_1292_11-NW-10D_1989-11-01.zip",
+        "source_sha256": "08073a6bf01bb11184c5ea1ff4265802ddd66b97d5b516a29cfc1ca6215e8e21",
+        "source_tiff_sha256": "d3268bf64e8bce5ddccb47dc9a926c68377740333279534bbb78483735ad5c78",
+        "edition_month": "1989-11",
+        "query_date": "1993-11-04",
+        "query_date_presence_certified": false,
+        "vertical_datum": "HKPD",
+        "grid_crs": "EPSG:2326",
+        "display_geometry_crs": "EPSG:4326",
+        "meaning": "mapped ground/path/playground surface spot; notroof/equipmenttop",
+        "category": "manually interpreted mapped surface observation",
+        "physical_horizontal_error_bound_m": null,
+        "physical_height_error_bound_m": null,
+        "physical_upper_bound_m": null,
+        "is_full_structure_top": false,
+        "clearance_eligible": false,
+        "limitations": [
+          "Mapedition is not individualsurvey or targetdaypresence date.",
+          "Mapped contours/spots do not bound equipment, roofs or intervening unknown terrain.",
+          "Digitizingtolerance is not a physical error bound."
+        ],
+        "elevation_HKPD_m": 31.4,
+        "source_pixel_edge_pick": [
+          8761.0,
+          4068.714285714286
+        ],
+        "core_pixel_edge_pick": [
+          2045.3919942602515,
+          817.3007860230282
+        ],
+        "EN_m": [
+          837261.3479985651,
+          821995.6748034942
+        ],
+        "source_symbol": "spotheightcross",
+        "reading_status": "accepted_source_reading",
+        "source_crop": "integrated/sources/hill_spot_8_original.png",
+        "source_crop_sha256": "3d95a4c42260aa6fb624016f3eadef36d36ee643ec3968b422ffae8d61b73acb",
+        "digitizing_pick_tolerance_source_px": 4,
+        "digitizing_axis_tolerance_m": 0.2540072804
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18651698204742,
+          22.337024572738297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hill_surface_spot_10_1989",
+        "source_id": "1980_1990:1292",
+        "sheet": "11-NW-10D",
+        "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_1292_11-NW-10D_1989-11-01.zip",
+        "source_sha256": "08073a6bf01bb11184c5ea1ff4265802ddd66b97d5b516a29cfc1ca6215e8e21",
+        "source_tiff_sha256": "d3268bf64e8bce5ddccb47dc9a926c68377740333279534bbb78483735ad5c78",
+        "edition_month": "1989-11",
+        "query_date": "1993-11-04",
+        "query_date_presence_certified": false,
+        "vertical_datum": "HKPD",
+        "grid_crs": "EPSG:2326",
+        "display_geometry_crs": "EPSG:4326",
+        "meaning": "mapped ground/path/playground surface spot; notroof/equipmenttop",
+        "category": "manually interpreted mapped surface observation",
+        "physical_horizontal_error_bound_m": null,
+        "physical_height_error_bound_m": null,
+        "physical_upper_bound_m": null,
+        "is_full_structure_top": false,
+        "clearance_eligible": false,
+        "limitations": [
+          "Mapedition is not individualsurvey or targetdaypresence date.",
+          "Mapped contours/spots do not bound equipment, roofs or intervening unknown terrain.",
+          "Digitizingtolerance is not a physical error bound."
+        ],
+        "elevation_HKPD_m": 31.7,
+        "source_pixel_edge_pick": [
+          7984.571428571428,
+          5328.857142857143
+        ],
+        "core_pixel_edge_pick": [
+          1848.1746344529092,
+          1137.3862460814416
+        ],
+        "EN_m": [
+          837212.0436586132,
+          821915.6534384796
+        ],
+        "source_symbol": "spotheightcross",
+        "reading_status": "accepted_source_reading",
+        "source_crop": "integrated/sources/hill_spot_10_original.png",
+        "source_crop_sha256": "67920ca501f9fcb2f5c734c36dccda862ab7c1ca271b710157758cc5fc119468",
+        "digitizing_pick_tolerance_source_px": 4,
+        "digitizing_axis_tolerance_m": 0.2540072804
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18603832810165,
+          22.336301961682697
+        ]
+      }
+    }
+  ]
+}

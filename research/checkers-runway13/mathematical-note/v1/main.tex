@@ -1,0 +1,36 @@
+\documentclass[12pt,nosurname]{RFS}
+\usepackage{rfs-workingpaper}
+\usepackage{graphicx,booktabs,longtable,xcolor,xurl}
+\definecolor{ink}{HTML}{304750}\definecolor{sage}{HTML}{687C69}\definecolor{copper}{HTML}{AF6843}
+\makeatletter
+\patchcmd{\@begintheorem}{\item[}{\item[\MakeLinkTarget{\@currentcounter}}{}{}
+\patchcmd{\NRorg@opargbegintheorem}{\item[}{\item[\MakeLinkTarget{\@currentcounter}}{}{}
+\makeatother
+\newcommand{\R}{\mathbb R}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\abs}[1]{\left\lvert#1\right\rvert}
+\newcommand{\fig}[3]{\begin{figure}[htbp]\centering\includegraphics[width=\textwidth]{figures/#1.pdf}\caption{#2}\label{#3}\end{figure}}
+\setlist{nosep,leftmargin=1.4em}
+\hypersetup{pdftitle={Certified Local Optimality in a Constrained Landing Model},pdfauthor={Aryan Ayyar},pdfsubject={Independent mathematical research note, Version 1},pdfkeywords={validated numerics, max-min optimization, hybrid landing, interval arithmetic}}
+\begin{document}
+\title{Certified Local Optimality in a Constrained Landing Model}
+\author{Aryan Ayyar}
+\shorttitle{Certified Local Optimality}
+\input{abstract.tex}
+\maketitle
+{\footnotesize\noindent Version 1 · 14 October 2026\par}
+\medskip
+{\small\noindent Independent mathematical research note. Companion to \emph{Checkers with Runway 13}, Version 5.\par}
+\clearpage
+\input{sections/introduction.tex}
+\input{sections/model.tex}\FloatBarrier
+\input{sections/analytical.tex}\FloatBarrier
+\input{sections/active.tex}
+\input{sections/local.tex}\FloatBarrier
+\input{sections/continuous.tex}\FloatBarrier
+\input{sections/conditional.tex}\FloatBarrier
+\input{sections/discussion.tex}
+\clearpage\appendix
+\input{appendices.tex}
+\clearpage\setlength{\bibsep}{3pt}\bibliographystyle{rfs}\bibliography{references}
+\end{document}

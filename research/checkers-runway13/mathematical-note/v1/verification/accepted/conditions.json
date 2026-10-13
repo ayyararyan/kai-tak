@@ -1,0 +1,272 @@
+{
+  "cases": [
+    {
+      "name": "buffer15",
+      "eta_lower_real_decimal": "0.1522586672517442",
+      "processed": 3976,
+      "accepted_cells": 1989,
+      "certified": true,
+      "replay_passed": true,
+      "condition": {
+        "name": "buffer15",
+        "urban": 25,
+        "roof_delta": 0,
+        "frame_dx": 0,
+        "frame_dy": 0,
+        "runway_level": 6,
+        "buffer": 15,
+        "wind_mps": [
+          -4.876589552990943,
+          9.64006667211232,
+          0
+        ]
+      },
+      "stop_display": [
+        2234.5138192498625,
+        2234.5138192498625
+      ]
+    },
+    {
+      "name": "calm",
+      "eta_lower_real_decimal": "0.039021289592747265",
+      "processed": 3126,
+      "accepted_cells": 1564,
+      "certified": true,
+      "replay_passed": true,
+      "condition": {
+        "name": "calm",
+        "urban": 25,
+        "roof_delta": 0,
+        "frame_dx": 0,
+        "frame_dy": 0,
+        "runway_level": 6,
+        "buffer": 5,
+        "wind_mps": [
+          0,
+          0,
+          0
+        ]
+      },
+      "stop_display": [
+        2533.008080634116,
+        2533.008080634116
+      ]
+    },
+    {
+      "name": "headwind10",
+      "eta_lower_real_decimal": "0.1462028910807011",
+      "processed": 3270,
+      "accepted_cells": 1636,
+      "certified": true,
+      "replay_passed": true,
+      "condition": {
+        "name": "headwind10",
+        "urban": 25,
+        "roof_delta": 0,
+        "frame_dx": 0,
+        "frame_dy": 0,
+        "runway_level": 6,
+        "buffer": 5,
+        "wind_mps": [
+          -5.144444444444445,
+          0,
+          0
+        ]
+      },
+      "stop_display": [
+        2250.47703240459,
+        2250.47703240459
+      ]
+    },
+    {
+      "name": "mean",
+      "eta_lower_real_decimal": "0.15225866725206007",
+      "processed": 3976,
+      "accepted_cells": 1989,
+      "certified": true,
+      "replay_passed": true,
+      "condition": {
+        "name": "mean",
+        "urban": 25,
+        "roof_delta": 0,
+        "frame_dx": 0,
+        "frame_dy": 0,
+        "runway_level": 6,
+        "buffer": 5,
+        "wind_mps": [
+          -4.876589552990943,
+          9.64006667211232,
+          0
+        ]
+      },
+      "stop_display": [
+        2234.5138192489585,
+        2234.5138192489585
+      ]
+    },
+    {
+      "name": "tailwind2",
+      "eta_lower_real_decimal": "0.016768057530118538",
+      "processed": 3194,
+      "accepted_cells": 1598,
+      "certified": true,
+      "replay_passed": true,
+      "condition": {
+        "name": "tailwind2",
+        "urban": 25,
+        "roof_delta": 0,
+        "frame_dx": 0,
+        "frame_dy": 0,
+        "runway_level": 6,
+        "buffer": 5,
+        "wind_mps": [
+          1.028888888888889,
+          0,
+          0
+        ]
+      },
+      "stop_display": [
+        2591.6676003512207,
+        2591.6676003512207
+      ]
+    },
+    {
+      "name": "urban45",
+      "eta_lower_real_decimal": "0.1522586672517442",
+      "processed": 3982,
+      "accepted_cells": 1992,
+      "certified": true,
+      "replay_passed": true,
+      "condition": {
+        "name": "urban45",
+        "urban": 45,
+        "roof_delta": 0,
+        "frame_dx": 0,
+        "frame_dy": 0,
+        "runway_level": 6,
+        "buffer": 5,
+        "wind_mps": [
+          -4.876589552990943,
+          9.64006667211232,
+          0
+        ]
+      },
+      "stop_display": [
+        2234.513819249808,
+        2234.513819249808
+      ]
+    },
+    {
+      "name": "urban50",
+      "eta_lower_real_decimal": "0.1522499864636599",
+      "processed": 3970,
+      "accepted_cells": 1986,
+      "certified": true,
+      "replay_passed": true,
+      "condition": {
+        "name": "urban50",
+        "urban": 50,
+        "roof_delta": 0,
+        "frame_dx": 0,
+        "frame_dy": 0,
+        "runway_level": 6,
+        "buffer": 5,
+        "wind_mps": [
+          -4.876589552990943,
+          9.64006667211232,
+          0
+        ]
+      },
+      "stop_display": [
+        2234.5372356819976,
+        2234.5372356819976
+      ]
+    },
+    {
+      "name": "urban55",
+      "eta_lower_real_decimal": "0.09943667248032322",
+      "processed": 242,
+      "accepted_cells": 122,
+      "certified": true,
+      "replay_passed": true,
+      "condition": {
+        "name": "urban55",
+        "urban": 55,
+        "roof_delta": 0,
+        "frame_dx": 0,
+        "frame_dy": 0,
+        "runway_level": 6,
+        "buffer": 5,
+        "wind_mps": [
+          -4.876589552990943,
+          9.64006667211232,
+          0
+        ]
+      },
+      "stop_display": [
+        2373.753134455703,
+        2373.753134455703
+      ]
+    },
+    {
+      "name": "tailwind3",
+      "eta_lower_real_decimal": "0.00554748408841633",
+      "processed": 3140,
+      "accepted_cells": 1571,
+      "certified": true,
+      "replay_passed": true,
+      "condition": {
+        "name": "tailwind3",
+        "urban": 25,
+        "roof_delta": 0,
+        "frame_dx": 0,
+        "frame_dy": 0,
+        "runway_level": 6,
+        "buffer": 5,
+        "wind_mps": [
+          1.5433333333333334,
+          0,
+          0
+        ]
+      },
+      "stop_display": [
+        2621.245031942964,
+        2621.245031942964
+      ]
+    },
+    {
+      "name": "urban58",
+      "eta_lower_real_decimal": "0.011876478604716387",
+      "processed": 2950,
+      "accepted_cells": 1476,
+      "certified": true,
+      "replay_passed": true,
+      "condition": {
+        "name": "urban58",
+        "urban": 58,
+        "roof_delta": 0,
+        "frame_dx": 0,
+        "frame_dy": 0,
+        "runway_level": 6,
+        "buffer": 5,
+        "wind_mps": [
+          -4.876589552990943,
+          9.64006667211232,
+          0
+        ]
+      },
+      "stop_display": [
+        2593.4696473262843,
+        2593.4696473262843
+      ]
+    }
+  ],
+  "certified_count": 10,
+  "unresolved_not_infeasible": [
+    "tailwind5",
+    "urban60",
+    "urban65"
+  ],
+  "fresh": true,
+  "seconds": 211.87276541697793
+}

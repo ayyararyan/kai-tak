@@ -1,0 +1,94 @@
+{
+  "query_date": "1993-11-04",
+  "aircraft_baseline": {
+    "type": "747-409B",
+    "engines": "PW4056",
+    "flaps_deg": 30,
+    "gear": "down",
+    "mass_kg": 238461.67357166,
+    "mass_category": "source estimated"
+  },
+  "wind_direction_cases": "any supplied true meteorologicalFROM angle; necessary steady-crosswind domain only",
+  "landing_conditions": {
+    "dry": {
+      "crosswind_limit_kt": 25
+    },
+    "wet_no_standing_water": {
+      "crosswind_limit_kt": 22
+    },
+    "standing_water_or_slush": {
+      "crosswind_limit_kt": 10
+    }
+  },
+  "cal605_mean_scenario_checks": {
+    "dry": {
+      "headwind_kt": 9.479331744474834,
+      "rightward_crosswind_kt": 18.73879050734576,
+      "crosswind_limit_kt": 25.0,
+      "source_condition_passes": true,
+      "full_landing_feasible": null,
+      "gust_policy_certified": false,
+      "scope": "CAD Report1/95 pp49-50 airline limits; true bearing is supplied, not historical survey inferred"
+    },
+    "wet_no_standing_water": {
+      "headwind_kt": 9.479331744474834,
+      "rightward_crosswind_kt": 18.73879050734576,
+      "crosswind_limit_kt": 22.0,
+      "source_condition_passes": true,
+      "full_landing_feasible": null,
+      "gust_policy_certified": false,
+      "scope": "CAD Report1/95 pp49-50 airline limits; true bearing is supplied, not historical survey inferred"
+    },
+    "standing_water_or_slush": {
+      "headwind_kt": 9.479331744474834,
+      "rightward_crosswind_kt": 18.73879050734576,
+      "crosswind_limit_kt": 10.0,
+      "source_condition_passes": false,
+      "full_landing_feasible": null,
+      "gust_policy_certified": false,
+      "scope": "CAD Report1/95 pp49-50 airline limits; true bearing is supplied, not historical survey inferred"
+    }
+  },
+  "entry_arms": [
+    {
+      "name": "published_IGS_visual_transition",
+      "localizer_magnetic_deg": 88,
+      "glidepath_deg": 3.1,
+      "MM_distance_from_touchdown_NM": 1.7,
+      "distance_semantics": "source statement, NOT a precise radial distance from displaced threshold",
+      "MM_EN_m": null,
+      "entry_position_m": null,
+      "vertical_reference": "aviationAMSL unresolved realization",
+      "after_MM": "ignore flight-path indications; visual transition required",
+      "mandatory_missed_approach_if_no_visual_at_MM": true
+    },
+    {
+      "name": "published_IGS_GP_inoperative",
+      "conditions": "source Appendix1 note2; establishedLLZ4500ft notgreaterKL-DME15NM, descend3000ft; at9NM descend as3degreeGP, OM>=1800ft, then decisionheight",
+      "published_KL15NM_fix": {
+        "printed": "2219.12N 11356.05E",
+        "lat_deg": 22.318666666666665,
+        "lon_deg": 113.93416666666667,
+        "datum": null,
+        "source": "CAD Appendix1 note2, PDFp131"
+      },
+      "horizontal_fix_datum": null,
+      "role": "published acquisition alternative, not independent clearance proof"
+    },
+    {
+      "name": "conditional_visual_entry",
+      "conditions": "explicit caller fullstate and source-compatible visual constraints; no inferred historical point",
+      "entry_state": null
+    }
+  ],
+  "frozen_ground_law": {
+    "delay_s": 2,
+    "deceleration_mps2": 1.4709975,
+    "LDA_m": 2786,
+    "reserve_m": 150
+  },
+  "supported_historical_optimum_condition_cells": [],
+  "known_wind_paths_are_causal_feedback": false,
+  "physical_prediction_interval": null,
+  "closed_form_global_optimum": null
+}

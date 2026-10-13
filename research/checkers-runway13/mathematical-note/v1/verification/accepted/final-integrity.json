@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "mapped_public_files": 235,
+  "scientific_byte_exceptions": 0,
+  "append_only_ledger_binding": [
+    {
+      "path": "research/checkers-runway13/PROJECT_STATE.md",
+      "historical_prefix_bytes": 102013,
+      "historical_prefix_sha256": "cf21248a24a6d5af146a5bc3c70a567f442eee234908b726ce80f3147add415f",
+      "pinned_full_bytes": 106014,
+      "pinned_full_sha256": "63d7fc3a93962ae9a488afc9d8b8f5da83479f0dbd52ffbf670c5823015ba378",
+      "appended_bytes": 4001,
+      "reason": "subsequent V5 publication ledger entries; exact old prefix preserved"
+    }
+  ],
+  "sealed_source_bindings": 224,
+  "original_sealed_manifests": 3,
+  "preservation_dispositions": {
+    "identical_git": 438,
+    "normalized_git": 5,
+    "not_in_git": 167
+  },
+  "scope": "public input integrity; no private-source reproduction claim"
+}

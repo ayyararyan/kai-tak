@@ -1,0 +1,561 @@
+NEW FILE calculate.py
+"""Coupled continuous-model candidate search. Finite search is NOT a proof.
+
+Preserves v1 parameter family and all margins; uses analytic rates, both joins.
+Does not modify or supersede the sampled v1 executable.
+"""
+import sys
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT))
+import json
+import numpy as np
+from scipy.optimize import minimize
+from model import trajectory as tr
+from model.solve import SCALE
+from analytical.verify_full_landing_analysis import curves
+
+import copy, hashlib, csv, argparse
+OUT=Path(__file__).resolve().parent
+
+def wind_vector(speed_kt, from_true_deg, runway_true_deg):
+    vals=np.array([speed_kt,from_true_deg,runway_true_deg],float)
+    if not np.all(np.isfinite(vals)) or speed_kt<0: raise ValueError('invalid wind')
+    delta=np.deg2rad(from_true_deg-runway_true_deg)
+    return np.array([-speed_kt*tr.KT*np.cos(delta),-speed_kt*tr.KT*np.sin(delta),0.])
+
+BASE_CFG=tr.load_config()
+EV=tr.Evaluator(BASE_CFG)  # frozen original zero-wind corridor
+CFG=copy.deepcopy(BASE_CFG)
+CFG['parameters']['wind_mps'].update(value=wind_vector(21,70,133+1/6).tolist(),category='scenario-based',source='CAD report surface mean 070 true / 21 kt held spatially and temporally constant; runway true =135 magnetic -1deg50min west (1990 chart)')
+P=tr.values(CFG)
+
+def validate_q(q):
+    q=np.asarray(q,float)
+    if q.shape!=(12,) or not np.all(np.isfinite(q)): raise ValueError('invalid decisions')
+    if any(not lo<=x<=hi for x,(lo,hi) in zip(q,tr.BOUNDS)): raise ValueError('decisions outside frozen box')
+    return q
+
+
+def phase(polys,T,s):
+    r,v,a,j=[np.column_stack([z.deriv(k)(s)/T**k for z in polys]) for k in range(4)]
+    va=v-np.array(P['wind_mps']); V=np.linalg.norm(va,axis=1); et=va/V[:,None]
+    h=np.linalg.norm(va[:,:2],axis=1)
+    er=np.column_stack([-va[:,1]/h,va[:,0]/h,np.zeros(len(s))]); eu=np.cross(et,er)
+    F=P['mass_kg']*(a+[0,0,tr.G]); Fd=P['mass_kg']*j
+    dot=lambda x,y:np.sum(x*y,axis=1)
+    lu,lr=dot(F,eu),dot(F,er); L=np.hypot(lu,lr)
+    vd=dot(et,a); etd=(a-et*vd[:,None])/V[:,None]
+    psid=(va[:,0]*a[:,1]-va[:,1]*a[:,0])/h**2
+    erd=-psid[:,None]*np.column_stack([va[:,0]/h,va[:,1]/h,np.zeros(len(s))])
+    eud=np.cross(etd,er)+np.cross(et,erd)
+    lud,lrd=dot(Fd,eu)+dot(F,eud),dot(Fd,er)+dot(F,erd)
+    roll=(lu*lrd-lr*lud)/L**2
+    ld=(lu*lud+lr*lrd)/L
+    Q=.5*P['rho0_kg_m3']*np.exp(-r[:,2]/P['density_scale_m'])*V**2*P['wing_area_m2']
+    cl=L/Q; qd=Q*(-v[:,2]/P['density_scale_m']+2*vd/V); cld=ld/Q-cl*qd/Q
+    drag=Q*(P['cd0']+P['induced_factor']*cl**2)
+    dd=qd*(P['cd0']+P['induced_factor']*cl**2)+2*Q*P['induced_factor']*cl*cld
+    thrust=drag+dot(F,et); slew=dd+dot(Fd,et)+dot(F,etd)
+    return dict(pos=r,vel=v,acc=a,bank=np.arctan2(lr,lu),roll=roll,cl=cl,load=L/(P['mass_kg']*tr.G),
+                thrust=thrust,slew=slew,eas=V*np.exp(-r[:,2]/(2*P['density_scale_m']))/tr.KT,
+                gamma=np.arctan2(va[:,2],h),lu=lu)
+
+def evaluate(q,n=161):
+    q=validate_q(q)
+    s=np.linspace(0,1,n); cs=curves(q,P)
+    phases=[phase(c,T,s) for c,T in zip(cs,q[:2])]
+    d={k:np.concatenate([p[k] for p in phases]) for k in phases[0]}
+    m={}
+    for key,lo,hi in [('eas',135,175),('cl',0,2.8),('load',.5,1.4),('thrust',0,700000)]:
+        m[key+'_lower']=(d[key]-lo)/(hi-lo);m[key+'_upper']=(hi-d[key])/(hi-lo)
+    for key,cap in [('bank',np.deg2rad(25)),('roll',np.deg2rad(5)),('slew',100000)]:
+        m[key]=1-abs(d[key])/cap
+    m['descent']=1+d['gamma']/np.deg2rad(6)
+    m['approach_sink']=1+phases[0]['vel'][:,2]/8
+    m['corridor']=1-EV.reference_tree.query(d['pos'])[0]/400
+    stop=q[2]+2*q[3]+q[3]**2/(2*P['brake_deceleration_mps2'])
+    m['touchdown_x_lower']=np.array([(q[2]-200)/500])
+    m['touchdown_x_upper']=np.array([(700-q[2])/500])
+    m['touchdown_sink_lower']=np.array([.7/1.5])
+    m['touchdown_sink_upper']=np.array([.8/1.5])
+    for key in ['touchdown_lateral','touchdown_track','touchdown_bank']:m[key]=np.array([1.])
+    m['stop']=np.array([(2636-stop)/2636])
+    m.update(tr.obstacle_margins(d['pos'],q[2],stop,CFG.get('obstacles',[]),400))
+    # Touchdown height is identically zero by construction, not a numerical
+    # inequality to differentiate through cancellation residuals.
+    h=np.r_[d['pos'][:-1,2]/100,d['vel'][:,0]/100,d['lu']/(P['mass_kg']*tr.G)]
+    effort=sum(np.trapezoid((p['bank']/np.deg2rad(25))**2+(p['roll']/np.deg2rad(5))**2+(p['slew']/100000)**2,s*T) for p,T in zip(phases,q[:2]))
+    return m,h,effort
+
+def solve(q,n=161,secondary=False,eta_floor=0,maxiter=500):
+    cache={}
+    def get(x):
+        key=x[:-1].tobytes()
+        if key not in cache:
+            cache.clear();cache[key]=evaluate(x[:-1]*SCALE,n)
+        return cache[key]
+    def con(x):
+        m,h,_=get(x)
+        return np.r_[np.concatenate(list(m.values()))-x[-1],h]
+    m,_,_=evaluate(q,n)
+    x0=np.r_[q/SCALE,min(map(np.min,m.values()))-1e-6]
+    b=[(a/s,b/s) for (a,b),s in zip(tr.BOUNDS,SCALE)]+[(eta_floor if secondary else -2,.49)]
+    result=minimize((lambda x:get(x)[2]/50) if secondary else (lambda x:-x[-1]),x0,
+        method='SLSQP',bounds=b,constraints=[{'type':'ineq','fun':con}],
+        options={'maxiter':maxiter,'ftol':1e-10,'eps':1e-6})
+    q=result.x[:-1]*SCALE
+    m,h,eff=evaluate(q,2001)
+    return dict(success=bool(result.success),message=str(result.message),iterations=int(result.nit),status=int(result.status),q=q.tolist(),
+        eta_variable=float(result.x[-1]),sampled_exact_eta=float(min(map(np.min,m.values()))),
+        minima={k:float(np.min(v)) for k,v in m.items()},hard_min=float(min(h)),effort=float(eff),n=n,
+        interpretation='local search and sampled exact derivatives, not continuous or global proof')
+
+
+def write(name,data):
+    (OUT/name).write_text(json.dumps(data,indent=2,allow_nan=False)+'\n')
+
+def inputs():
+    paths=['model/config.json','model/trajectory.py','model/solve.py','analytical/verify_full_landing_analysis.py','analytical/coupled/solve_coupled.py','analytical/coupled/certify_candidate.py','evidence/EVIDENCE_REPORT.md','outputs/scenario/optimization_replay.json']
+    paths += ['evidence/cal605_reconstruction/noaa/README.md']
+    hashes={p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in paths}
+    return dict(source_sha256=hashes,scenario_configuration=CFG,wind_from_true_deg=70,wind_speed_kt=21,
+        runway_magnetic_deg=135,variation_east_positive_deg=-(1+50/60),runway_true_deg=133+1/6,
+        wind_runway_mps=P['wind_mps'],reference_cloud_sha256=hashlib.sha256(EV.reference_tree.data.tobytes()).hexdigest(),
+        observed_mean='Report rounded 21 kt; NOAA 10.8 m/s is about 20.994 kt, corroborating but not numerically substituted.',
+        assumptions=['uniform steady surface mean used throughout airborne path','chart 1990 variation used as scenario bearing, not surveyed 1993 true axis','synthetic entry/corridor and uncalibrated point-mass envelope retained','ground brake law unchanged'],
+        historical_feasibility=None,physical_prediction_intervals=None,global_optimality_gap=None)
+
+def check_sources():
+    record=json.loads((OUT/'inputs.json').read_text())
+    for path,want in record['source_sha256'].items():
+        if hashlib.sha256((ROOT/path).read_bytes()).hexdigest()!=want: raise ValueError('source changed: '+path)
+    if inputs()!=record: raise ValueError('input scenario changed')
+
+def search():
+    if (OUT/'inputs.json').exists(): check_sources()
+    else: write('inputs.json',inputs())
+    prior=json.loads((ROOT/'outputs/scenario/optimization_replay.json').read_text())
+    seed=np.array(prior['optimization']['secondary']['decisions'])
+    starts=[seed, tr.BASE_Q.copy(),seed+np.array([3,1,20,-3,10,-10,15,-15,2,-2,0,0]),seed+np.array([-2,2,40,-2,-15,15,-10,10,-1,1,0,0])]
+    runs=[]
+    for i,q in enumerate(starts):
+        q=np.clip(q,np.array(tr.BOUNDS)[:,0],np.array(tr.BOUNDS)[:,1])
+        r=solve(q,161);r.update(stage='primary_multistart',start=i);runs.append(r)
+        write('search_checkpoint.json',dict(runs=runs));print(json.dumps(r),flush=True)
+    eligible=[r for r in runs if r['success'] and r['sampled_exact_eta']>0 and r['hard_min']>-1e-8]
+    if not eligible:
+        write('result.json',dict(status='unresolved',reason='No numerically successful feasible start',historical_feasibility=None));return
+    best=max(eligible,key=lambda r:r['sampled_exact_eta'])
+    r=solve(np.array(best['q']),601);r.update(stage='primary_refinement');runs.append(r)
+    write('search_checkpoint.json',dict(runs=runs));print(json.dumps(r),flush=True)
+    if r['success'] and r['sampled_exact_eta']>=best['sampled_exact_eta']:best=r
+    secondary=solve(np.array(best['q']),601,True,best['sampled_exact_eta']-5e-5)
+    secondary.update(stage='secondary');runs.append(secondary)
+    write('search_checkpoint.json',dict(runs=runs));print(json.dumps(secondary),flush=True)
+    selected=secondary if secondary['success'] and secondary['sampled_exact_eta']>=best['sampled_exact_eta']-1e-4 and secondary['hard_min']>-1e-8 else best
+    write('selected.json',dict(primary=best,secondary=secondary,selected=selected,secondary_complete=selected is secondary,runs=len(runs)))
+
+if __name__=='__main__':
+    search()
+
+
+NEW FILE continuous.py
+"""Outward-rounded interval feasibility of a fixed REAL-DECIMAL candidate.
+
+mpmath interval arithmetic at 40 decimal digits. Covers closed phase intervals;
+does not use a grid as a feasibility certificate. Does not prove optimality.
+"""
+import sys,json,hashlib,math,time
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT))
+from mpmath import iv
+import numpy as np
+from model import trajectory as tr
+
+iv.dps=40
+I=lambda x:iv.mpf(str(x))
+Z=I(0)
+dot=lambda a,b:sum((x*y for x,y in zip(a,b)),Z)
+def cross(a,b):return [a[1]*b[2]-a[2]*b[1],a[2]*b[0]-a[0]*b[2],a[0]*b[1]-a[1]*b[0]]
+def norm(a):return iv.sqrt(sum((x**2 for x in a),Z))
+def lo(x):return float(x.a)
+def hi(x):return float(x.b)
+def positive(x):return bool(x.a>=0)
+def safe_atan2(y,x):
+    # mpmath 1.3.0 iv.atan2(0,[-a,b]) can return [pi,pi] even when b>0.
+    # Never trust its branch-cut enclosure. On x>0 there is no branch cut;
+    # elsewhere use the full rigorous range. Candidate acceptance proves x>0.
+    if x.a<=0:return iv.mpf([-iv.pi.b,iv.pi.b])
+    return iv.atan2(y,x)
+
+def deriv(c,k=1):
+    for _ in range(k):c=[(i+1)*c[i+1] for i in range(len(c)-1)]
+    return c
+
+def horner(c,x):
+    result=Z
+    for v in reversed(c):result=result*x+v
+    return result
+
+def poly(c,left,right):
+    # Centered Taylor polynomial: outward-rounded exact algebra.
+    mid=(I(left)+I(right))/2;rad=(I(right)-I(left))/2
+    shift=iv.mpf([-rad.b,rad.b]);dc=c[:];coef=[];fact=1
+    for k in range(len(c)):
+        if k:fact*=k
+        coef.append(horner(dc,mid)/fact);dc=deriv(dc)
+    return horner(coef,shift)
+
+# Exact declared angle and speed, not rounded component substitution.
+W=[-I(21)*I(1852)/3600*iv.cos((I(70)-I(799)/6)*iv.pi/180),
+   -I(21)*I(1852)/3600*iv.sin((I(70)-I(799)/6)*iv.pi/180),Z]
+
+def velocity(z,track):
+    gam=-I('3.1')*iv.pi/180;chi=I(track)*iv.pi/180
+    V=I(153)*I(1852)/3600*iv.exp(I(z)/17000)
+    d=[iv.cos(chi),iv.sin(chi)];wd=dot(W[:2],d)
+    gs=wd+iv.sqrt((V*iv.cos(gam))**2-dot(W[:2],W[:2])+wd**2)
+    return [gs*d[0],gs*d[1],V*iv.sin(gam)]
+
+def coefficients(q):
+    v0=velocity(140,-47);vg=velocity('15.24',0)
+    bump=[0,0,0,64,-192,192,-64,0];odd=[0,0,0,-64,320,-576,448,-128]
+    phases=[]
+    for idx,(p0,p1,w0,w1,T) in enumerate([
+        ([-2500,1000,140],[0,0,'15.24'],v0,vg,q[0]),
+        ([0,0,'15.24'],[q[2],0,0],vg,[q[3],Z,-I('.7')],q[1])]):
+        cs=[]
+        for j in range(3):
+            start=p0[j] if hasattr(p0[j],'a') else I(p0[j]);end=p1[j] if hasattr(p1[j],'a') else I(p1[j])
+            c0=start;c1=T*w0[j];A=end-c0-c1;B=T*w1[j]-c1;C=-2*Z
+            c=[c0,c1,Z,10*A-4*B+C/2,-15*A+7*B-C,6*A-3*B+C/2,Z,Z]
+            even=q[4+2*j] if idx==0 else (q[10] if j==0 else q[11] if j==2 else Z)
+            oddamp=q[5+2*j] if idx==0 else Z
+            c=[x+even*b+oddamp*o for x,b,o in zip(c,bump,odd)]
+            cs.append(c)
+        phases.append(cs)
+    return phases
+
+def enclose(cs,T,left,right,phase,reference,kinematics=None):
+    r,v,a,j=kinematics if kinematics is not None else [[poly(deriv(c,k),left,right)/T**k for c in cs] for k in range(4)]
+    va=[x-w for x,w in zip(v,W)]
+    V=norm(va);H=norm(va[:2]);et=[x/V for x in va];er=[-va[1]/H,va[0]/H,Z];eu=cross(et,er)
+    mass=I('238461.67357166');g=I('9.80665')
+    F=[mass*(x+(g if k==2 else Z)) for k,x in enumerate(a)];Fd=[mass*x for x in j]
+    lu,lr=dot(F,eu),dot(F,er);L=norm([lu,lr])
+    vd=dot(et,a);etd=[(x-y*vd)/V for x,y in zip(a,et)]
+    psid=(va[0]*a[1]-va[1]*a[0])/(H*H);erd=[-psid*va[0]/H,-psid*va[1]/H,Z]
+    eud=[x+y for x,y in zip(cross(etd,er),cross(et,erd))]
+    lud=dot(Fd,eu)+dot(F,eud);lrd=dot(Fd,er)+dot(F,erd)
+    roll=(lu*lrd-lr*lud)/(L*L);ld=(lu*lud+lr*lrd)/L
+    Q=I('.5')*I('1.225')*iv.exp(-r[2]/8500)*V*V*I('541.2');cl=L/Q
+    qd=Q*(-v[2]/8500+2*vd/V);cld=ld/Q-cl*qd/Q
+    drag=Q*(I('.08')+I('.045')*cl*cl)
+    dd=qd*(I('.08')+I('.045')*cl*cl)+2*Q*I('.045')*cl*cld
+    thrust=drag+dot(F,et);slew=dd+dot(Fd,et)+dot(F,etd)
+    eas=V*iv.exp(-r[2]/17000)/(I(1852)/3600)
+    m={}
+    for key,x,l,h in [('eas',eas,I(135),I(175)),('cl',cl,Z,I('2.8')),('load',L/(mass*g),I('.5'),I('1.4')),('thrust',thrust,Z,I(700000))]:
+        m[key+'_lower']=(x-l)/(h-l);m[key+'_upper']=(h-x)/(h-l)
+    m['bank']=1-abs(safe_atan2(lr,lu))/(I(25)*iv.pi/180)
+    m['roll']=1-abs(roll)/(I(5)*iv.pi/180)
+    m['slew']=1-abs(slew)/100000
+    m['descent']=1+safe_atan2(va[2],H)/(I(6)*iv.pi/180)
+    if phase==0:m['approach_sink']=1+v[2]/8
+    # One fixed reference point provides an upper bound on nearest distance.
+    midpoint=np.array([(lo(x)+hi(x))/2 for x in r]);index=reference.query(midpoint)[1]
+    point=reference.data[index]
+    # float repr denotes the exact stored point-cloud coordinate, not a new curve.
+    point_iv=[iv.mpf(float(x)) for x in point]
+    m['corridor']=1-norm([x-y for x,y in zip(r,point_iv)])/400
+    # Flare contact is structural. Factor z(s)=(1-s)g(s), with the exact
+    # algebraic endpoint equality supplied by Hermite/bump construction.
+    if phase==1:
+        gcoef=[];cumulative=Z
+        for c in cs[2][:-1]:
+            cumulative+=c;gcoef.append(cumulative)
+        height_factor=poly(gcoef,left,right)
+        ground_ok=positive(height_factor)
+    else:ground_ok=positive(r[2])
+    return m,ground_ok and positive(v[0]) and bool(lu.a>0),{'V':lo(V),'horizontal_speed':lo(H),'lift':lo(L),'lift_up':lo(lu)}
+
+def certify(q_strings,eta_string='0.039',maxdepth=22):
+    from calculate import check_sources
+    check_sources()
+    cfg=tr.load_config()
+    expected=ROOT/'model/config.json'
+    # Bind every physical/domain constant and the exact reference implementation.
+    if hashlib.sha256(expected.read_bytes()).hexdigest()!=CONFIG_HASH:raise ValueError('configuration changed')
+    if hashlib.sha256((ROOT/'model/trajectory.py').read_bytes()).hexdigest()!=SOURCE_HASH:raise ValueError('reference definition changed')
+    q=[I(x) for x in q_strings];eta=I(eta_string);cs=coefficients(q);ev=tr.Evaluator(cfg)
+    for x,(l,h) in zip(q,tr.BOUNDS):
+        if not (x.a>=l and x.b<=h):raise ValueError('candidate outside box')
+    stop=q[2]+2*q[3]+q[3]**2/(2*I('1.4709975'))
+    terminal={'touchdown_x_lower':(q[2]-200)/500,'touchdown_x_upper':(700-q[2])/500,
+        'touchdown_sink_lower':I('.7')/I('1.5'),'touchdown_sink_upper':I('.8')/I('1.5'),
+        'touchdown_lateral':I(1),'touchdown_track':I(1),'touchdown_bank':I(1),'stop':(2636-stop)/2636}
+    assert all(x.a>=eta.b for x in terminal.values())
+    minima={k:lo(x) for k,x in terminal.items()};accepted=[];processed=0
+    lower_domain={'V':1e100,'horizontal_speed':1e100,'lift':1e100,'lift_up':1e100}
+    start=time.monotonic()
+    for phase in range(2):
+        stack=[(0.,1.,0)]
+        while stack:
+            left,right,depth=stack.pop();processed+=1
+            try:
+                m,hard,dom=enclose(cs[phase],q[phase],left,right,phase,ev.reference_tree)
+                ok=hard and all(x.a>=eta.b for x in m.values())
+            except (ValueError,ZeroDivisionError):ok=False
+            if ok:
+                accepted.append([phase,left,right,depth])
+                for k,x in m.items():minima[k]=min(minima.get(k,1e100),lo(x))
+                for k,x in dom.items():lower_domain[k]=min(lower_domain[k],x)
+            elif depth>=maxdepth:
+                return dict(certified=False,unresolved=[phase,left,right,depth],processed=processed)
+            else:
+                mid=(left+right)/2;stack.extend([(mid,right,depth+1),(left,mid,depth+1)])
+    return dict(certified=True,eta_lower_real_decimal=eta_string,q_real_decimal=q_strings,
+        interval_precision_digits=iv.dps,accepted_intervals=len(accepted),processed=processed,
+        maximum_depth=max(x[3] for x in accepted),margin_lower_enclosures_display_only=minima,
+        nonsingular_domain_lower_display_only=lower_domain,cover=accepted,
+        stop_enclosure_display=[lo(stop),hi(stop)],seconds=time.monotonic()-start,
+        config_sha256=CONFIG_HASH,trajectory_source_sha256=SOURCE_HASH,
+        reference_point_cloud_sha256=hashlib.sha256(ev.reference_tree.data.tobytes()).hexdigest(),
+        reference_point_cloud_shape=list(ev.reference_tree.data.shape),
+        domain='declared constant-wind real-decimal polynomial-family model, exact analytic rates; frozen zero-wind reference cloud',
+        proof='outward-rounded interval inequalities cover both closed phases; structural endpoint identities; exact ground rule',
+        global_optimality=False)
+
+CONFIG_HASH='2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693'
+SOURCE_HASH='9b557ce07c7e8f177b0b3cfac1765c1c9aec4997e28b52d3185ad533f7cf3f6a'
+
+if __name__=='__main__':
+    from calculate import OUT,write
+    selected=json.loads((OUT/'selected.json').read_text())['selected']
+    q=[repr(x) for x in selected['q']]
+    target=max(0.,selected['sampled_exact_eta']-.002)
+    result=certify(q,repr(target))
+    result.update(wind_speed_kt=21,wind_from_true_deg=70,runway_true_deg_exact='799/6',historical_clearance=False,physical_prediction_interval=None)
+    result['checker_source_sha256']=hashlib.sha256(Path(__file__).read_bytes()).hexdigest()
+    result['calculator_source_sha256']=hashlib.sha256((OUT/'calculate.py').read_bytes()).hexdigest()
+    result['inputs_sha256']=hashlib.sha256((OUT/'inputs.json').read_bytes()).hexdigest()
+    write('continuous_check.json',result)
+    print(json.dumps({k:v for k,v in result.items() if k!='cover'},indent=2))
+
+
+NEW FILE deliver.py
+"""Reconstruct, replay and export the selected wind-conditioned candidate."""
+import json,csv,hashlib,sys
+from fractions import Fraction as F
+from datetime import datetime,timezone
+import numpy as np
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from calculate import *
+from analytical.verify_full_landing_analysis import analytic
+
+
+def upper_bound():
+    dec=F(15,100)*F(980665,100000)
+    bound=(2636-200-2*69-F(69**2)/(2*dec))/3136
+    return dict(upper_exact=str(bound),upper_display=float(bound),proof='xTD>=200+500eta, ground speed u>=69; monotone stop xTD+2u+u^2/(2a)<=2636(1-eta); hence3136eta<=2636-200-138-4761/(2a)',scope='fixed decision family terminal relaxation; valid for declared wind; not a global optimum or near-optimality proof')
+
+
+def validate_certificate(cert,q):
+    if not cert.get('certified'):return
+    expected=dict(q_real_decimal=[repr(float(x)) for x in q],wind_speed_kt=21,wind_from_true_deg=70,runway_true_deg_exact='799/6',
+        checker_source_sha256=hashlib.sha256((OUT/'continuous.py').read_bytes()).hexdigest(),
+        calculator_source_sha256=hashlib.sha256((OUT/'calculate.py').read_bytes()).hexdigest(),
+        inputs_sha256=hashlib.sha256((OUT/'inputs.json').read_bytes()).hexdigest(),
+        reference_point_cloud_sha256=inputs()['reference_cloud_sha256'],
+        config_sha256=inputs()['source_sha256']['model/config.json'],trajectory_source_sha256=inputs()['source_sha256']['model/trajectory.py'])
+    for key,value in expected.items():
+        if cert.get(key)!=value:raise ValueError('stale or substituted certificate: '+key)
+
+
+def produce():
+    check_sources()
+    selected=json.loads((OUT/'selected.json').read_text());q=np.array(selected['selected']['q']);validate_q(q)
+    cs=curves(q,P); n=10001;s=np.linspace(0,1,n)
+    ds=[phase(c,T,s) for c,T in zip(cs,q[:2])]
+    margins,hard,effort=evaluate(q,n)
+    pmins={k:float(np.min(v)) for k,v in margins.items()}
+    eta=min(pmins.values());primary_eta=min(float(np.min(v)) for v in evaluate(selected['primary']['q'],n)[0].values())
+    ev=tr.Evaluator(CFG);ev.reference_tree=EV.reference_tree
+    evaluated=ev.evaluate(q,3001)
+    replay=tr.replay(evaluated,CFG,reference_tree=EV.reference_tree)
+    accepted=selected['selected']['success'] and eta>0 and min(hard)>=0 and all(replay.get(k,False) for k in ['passed','terminal_constraints_passed','path_constraints_passed','stop_constraint_passed'])
+    ro=tr.rollout(q,P,501);start_v=ds[0]['vel'][0];gate_v=ds[0]['vel'][-1]
+    stats=dict(approach_s=q[0],flare_s=q[1],touchdown_time_s=q[0]+q[1],braking_start_s=q[0]+q[1]+2,
+        stop_time_s=float(ro['time_s'][-1]),touchdown_x_m=q[2],touchdown_groundspeed_mps=q[3],touchdown_groundspeed_kt=q[3]/tr.KT,
+        touchdown_eas_kt=float(ds[1]['eas'][-1]),touchdown_sink_mps=.7,stop_x_m=ro['stop_x_m'],runway_remaining_m=ro['reserve_remaining_m'],
+        margin_beyond_required_150m_m=ro['reserve_remaining_m']-150,ground_travel_m=ro['stop_x_m']-q[2],
+        threshold_groundspeed_kt=float(gate_v[0]/tr.KT),entry_horizontal_groundspeed_kt=float(np.linalg.norm(start_v[:2])/tr.KT),
+        max_bank_deg=float(max(np.max(abs(d['bank'])) for d in ds)*180/np.pi),max_roll_deg_s=float(max(np.max(abs(d['roll'])) for d in ds)*180/np.pi),
+        max_thrust_slew_n_s=float(max(np.max(abs(d['slew'])) for d in ds)),eas_range_kt=[float(min(d['eas'].min() for d in ds)),float(max(d['eas'].max() for d in ds))])
+    formula=dict(type='piecewise polynomial time-indexed reference, not feedback control',domain='no extrapolation beyond specified phases',
+        position_formula='r(t)=sum(c[k]*s^k), s=(t-t0)/T; derivative k divides by T^k',
+        phases=[dict(name=name,t0_s=0 if i==0 else q[0],duration_s=q[i],coefficients_xyz_m=[p.coef.tolist() for p in cs[i]]) for i,name in enumerate(['approach','flare'])],
+        ground=dict(delay_s=2,deceleration_mps2=P['brake_deceleration_mps2'],touchdown_x_m=q[2],touchdown_groundspeed_mps=q[3],
+        formula='h=t-touchdown_time; for 0<=h<=2: x=xTD+u*h; for 2<=h<=2+u/a: x=xTD+2u+u*(h-2)-a*(h-2)^2/2; thereafter x=xStop, v=0'))
+    write('formula.json',formula)
+    names=['time_s','phase','x_m','y_m','z_m','vx_mps','vy_mps','vz_mps','eas_kt','bank_deg','roll_deg_s','cl','load_g','thrust_n','thrust_slew_n_s','gamma_air_deg']
+    with (OUT/'path_controls.csv').open('w',newline='') as f:
+        w=csv.writer(f);w.writerow(names)
+        for i,(d,T) in enumerate(zip(ds,q[:2])):
+            for k in range(0,n,10):
+                w.writerow([s[k]*T+(q[0] if i else 0),'approach' if i==0 else 'flare',*d['pos'][k],*d['vel'][k],d['eas'][k],np.rad2deg(d['bank'][k]),np.rad2deg(d['roll'][k]),d['cl'][k],d['load'][k],d['thrust'][k],d['slew'][k],np.rad2deg(d['gamma'][k])])
+        for t,x,v in zip(ro['time_s'][1:],ro['x_m'][1:],ro['speed_mps'][1:]):w.writerow([t,'ground',x,0,0,v,0,0]+['']*8)
+    coefficient_error=0.;rate_errors=dict(roll_rad_s=0.,slew_n_s=0.,scalar_vector=0.,force_balance_mps2=0.)
+    other=tr.curves(q,CFG)
+    for i in range(2):
+        for j in range(3):
+            a,b=cs[i][j].coef,other[i][j].coef;l=max(len(a),len(b));coefficient_error=max(coefficient_error,float(np.max(abs(np.pad(a,(0,l-len(a)))-np.pad(b,(0,l-len(b)))))))
+        for ss in np.linspace(.01,.99,31):
+            a=analytic(cs[i],q[i],ss,P);vec=phase(cs[i],q[i],np.array([ss]));dt=1e-4
+            left=analytic(cs[i],q[i],ss-dt/q[i],P);right=analytic(cs[i],q[i],ss+dt/q[i],P)
+            rate_errors['roll_rad_s']=max(rate_errors['roll_rad_s'],abs(a['roll']-(right['bank']-left['bank'])/(2*dt)))
+            rate_errors['slew_n_s']=max(rate_errors['slew_n_s'],abs(a['slew']-(right['thrust']-left['thrust'])/(2*dt)))
+            for key in ['roll','slew','bank','thrust','eas','gamma']:
+                rate_errors['scalar_vector']=max(rate_errors['scalar_vector'],abs(a[key]-vec[key][0]))
+            rate_errors['force_balance_mps2']=max(rate_errors['force_balance_mps2'],a['acceleration_residual'])
+    certpath=OUT/'continuous_check.json';cert=json.loads(certpath.read_text()) if certpath.exists() else dict(certified=False,status='pending')
+    validate_certificate(cert,q)
+    bound=upper_bound()
+    gap=F(bound['upper_exact'])-F(cert['eta_lower_real_decimal']) if cert.get('certified') else None
+    bound['candidate_certified_gap_upper_exact']=str(gap) if gap is not None else None
+    bound['candidate_certified_gap_upper_display']=float(gap) if gap is not None else None
+    result=dict(utc=datetime.now(timezone.utc).isoformat(),status='conditional_scenario_feasible' if accepted else 'unresolved',metrics=stats,q=q.tolist(),
+        exact_rate_dense_grid_per_phase=n,dense_eta=eta,dense_margin_minima=pmins,hard_min_excluding_structural_contact=float(min(hard)),
+        primary_dense_eta=primary_eta,secondary_primary_loss=primary_eta-eta,secondary_retention_passed=bool(primary_eta-eta<=1e-4),effort=effort,
+        optimizer_runs=selected['runs'],optimization_complete=bool(selected['secondary_complete'] and primary_eta-eta<=1e-4 and accepted),secondary_complete=selected['secondary_complete'],independent_forward_replay=replay,
+        verification=dict(coefficient_error=coefficient_error,rate_errors=rate_errors),continuous_check=cert.get('certified',False),global_bound=bound,
+        historical_feasibility=None,physical_CI=None,physical_prediction_interval=None,robust_feedback_feasibility=None,
+        scope='constructed complete landing in fixed synthetic corridor with uniform 070true/21kt wind; not historical landing, operational procedure, terrain clearance or calibrated uncertainty',
+        model_sources_sha256=inputs()['source_sha256'])
+    write('result.json',result)
+    fig,ax=plt.subplots(2,2,figsize=(12,8));color='#43665a'
+    pos=np.concatenate([d['pos'] for d in ds]);tt=np.r_[s*q[0],q[0]+s*q[1]]
+    ax[0,0].plot(pos[:,0],pos[:,1],color=color);ax[0,0].plot([0,2786],[0,0],lw=7,color='#888888',alpha=.3)
+    ax[0,0].scatter([q[2],ro['stop_x_m']],[0,0],color=['#bc713e',color]);ax[0,0].annotate('Touchdown', (q[2],0),xytext=(350,200),arrowprops=dict(arrowstyle='->'))
+    ax[0,0].annotate(f"Stop: {ro['reserve_remaining_m']:.0f} m remain",(ro['stop_x_m'],0),xytext=(1250,500),arrowprops=dict(arrowstyle='->'))
+    ax[0,0].set(xlabel='Distance from runway threshold (m)',ylabel='Right of runway (m)',title='Constructed ground track');ax[0,0].axis('equal')
+    ax[0,1].plot(tt,pos[:,2],color=color);ax[0,1].axvline(q[0],color='gray',ls=':');ax[0,1].set(xlabel='Seconds from model entry',ylabel='Height above runway (m)',title=f'Threshold {q[0]:.1f}s → touchdown {q[:2].sum():.1f}s')
+    for i,d in enumerate(ds):
+        ax[1,0].plot(s*q[i]+(q[0] if i else 0),np.linalg.norm(d['vel'][:,:2],axis=1)/tr.KT,color=color)
+    ax[1,0].plot(ro['time_s'],ro['speed_mps']/tr.KT,color=color);ax[1,0].axvline(q[:2].sum()+2,color='gray',ls=':')
+    ax[1,0].set(xlabel='Seconds from model entry',ylabel='Horizontal ground speed (kt)',title=f'Fixed braking law → stop at {ro["time_s"][-1]:.1f}s')
+    ax[1,1].plot(tt,np.rad2deg(np.concatenate([d['bank'] for d in ds])),color=color);ax[1,1].axhline(25,color='gray',ls=':');ax[1,1].axhline(-25,color='gray',ls=':');ax[1,1].set(xlabel='Seconds from model entry',ylabel='Bank angle (degrees)',title='Finite-rate airborne turn')
+    for a in ax.flat:a.grid(alpha=.15)
+    fig.suptitle('Calculated landing — uniform 070° true / 21 kt wind\nSynthetic entry/corridor; uncalibrated aircraft; no historical terrain-clearance claim',fontsize=12)
+    fig.tight_layout();fig.savefig(OUT/'landing.png',dpi=170);fig.savefig(OUT/'landing.pdf');plt.close(fig)
+    print(json.dumps(dict(status=result['status'],metrics=stats,replay_passed=replay['passed'],dense_eta=eta,verification=result['verification']),indent=2))
+    return result
+
+if __name__=='__main__':produce()
+
+
+NEW FILE test_counterfactual.py
+import json,sys
+from pathlib import Path
+import numpy as np
+import pytest
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+import calculate as c
+from deliver import upper_bound
+from analytical.verify_full_landing_analysis import analytic
+from numpy.polynomial import Polynomial
+
+@pytest.fixture
+def q():return np.array(json.loads((c.OUT/'selected.json').read_text())['selected']['q'])
+
+@pytest.mark.parametrize('speed,frm,run,expected',[(10,0,0,[-10,0,0]),(10,180,0,[10,0,0]),(10,90,0,[0,-10,0]),(10,270,0,[0,10,0]),(10,135,135,[-10,0,0])])
+def test_wind_sign(speed,frm,run,expected):np.testing.assert_allclose(c.wind_vector(speed,frm,run)/c.tr.KT,expected,atol=1e-13)
+
+@pytest.mark.parametrize('args',[(np.nan,0,0),(1,np.inf,0),(1,0,np.nan),(-1,0,0)])
+def test_bad_wind(args):
+    with pytest.raises(ValueError):c.wind_vector(*args)
+
+def test_frozen_inputs_and_corridor():
+    c.check_sources();assert c.BASE_CFG['parameters']['wind_mps']['value']==[0,0,0]
+    assert c.inputs()['reference_cloud_sha256']==c.hashlib.sha256(c.tr.Evaluator(c.BASE_CFG).reference_tree.data.tobytes()).hexdigest()
+    assert c.P['wind_mps'][0]<0 and c.P['wind_mps'][1]>0
+
+@pytest.mark.parametrize('bad',[[0]*11,[float('nan')]*12,[0]*12])
+def test_bad_decisions(bad):
+    with pytest.raises(ValueError):c.evaluate(bad)
+
+def test_endpoints(q):
+    cs=c.curves(q,c.P)
+    a0=analytic(cs[0],q[0],0,c.P);a1=analytic(cs[0],q[0],1,c.P);b0=analytic(cs[1],q[1],0,c.P);b1=analytic(cs[1],q[1],1,c.P)
+    np.testing.assert_allclose(a0['pos'],[-2500,1000,140],atol=1e-8)
+    np.testing.assert_allclose(a1['pos'],[0,0,15.24],atol=1e-8)
+    for k in ['pos','vel','acc']:np.testing.assert_allclose(a1[k],b0[k],atol=1e-8)
+    np.testing.assert_allclose(b1['pos'],[q[2],0,0],atol=1e-8)
+    np.testing.assert_allclose(b1['vel'],[q[3],0,-.7],atol=1e-8)
+    for x in [a0,a1,b0]:assert abs(x['eas']-153)<1e-8 and abs(np.rad2deg(x['gamma'])+3.1)<1e-8
+
+def test_scalar_rates_and_fd(q):
+    for cs,T in zip(c.curves(q,c.P),q[:2]):
+        for s in np.linspace(.02,.98,15):
+            a=analytic(cs,T,s,c.P);v=c.phase(cs,T,np.array([s]));dt=1e-4
+            for k in ['bank','thrust','roll','slew','eas','gamma']:assert abs(a[k]-v[k][0])<1e-7
+            l=analytic(cs,T,s-dt/T,c.P);r=analytic(cs,T,s+dt/T,c.P)
+            assert abs((r['bank']-l['bank'])/(2*dt)-a['roll'])<1e-7
+            assert abs((r['thrust']-l['thrust'])/(2*dt)-a['slew'])<.1
+            assert a['acceleration_residual']<1e-10
+
+def test_coefficients_roundtrip(q):
+    exp=json.loads((c.OUT/'formula.json').read_text())
+    for p,cs in zip(exp['phases'],c.curves(q,c.P)):
+        for values,poly in zip(p['coefficients_xyz_m'],cs):
+            rec=Polynomial(values)
+            for k in range(4):np.testing.assert_allclose(rec.deriv(k)(np.linspace(0,1,31)),poly.deriv(k)(np.linspace(0,1,31)),atol=1e-10)
+
+def test_dense_replay_and_stopping(q):
+    r=json.loads((c.OUT/'result.json').read_text());assert r['status']=='conditional_scenario_feasible'
+    assert r['dense_eta']>0 and r['secondary_retention_passed']
+    for k in ['passed','terminal_constraints_passed','path_constraints_passed','stop_constraint_passed']:assert r['independent_forward_replay'][k]
+    assert abs(r['metrics']['stop_x_m']-(q[2]+2*q[3]+q[3]**2/(2*c.P['brake_deceleration_mps2'])))<1e-9
+    assert r['physical_CI'] is None and r['historical_feasibility'] is None
+
+def test_historical_closed():
+    with pytest.raises(c.tr.HistoricalUnavailable):c.tr.validate_config(c.CFG,'historical')
+
+def test_upper_bound():
+    b=upper_bound();assert b['upper_exact']=='66656817/307536544';assert .21674<b['upper_display']<.21675
+
+def test_interval_coefficients_and_air_controls(q):
+    import continuous as ivc
+    qs=[ivc.I(repr(float(x))) for x in q];cs=ivc.coefficients(qs)
+    for i,(coeff,T) in enumerate(zip(cs,qs[:2])):
+        for s in [.1,.4,.8]:
+            scalar=analytic(c.curves(q,c.P)[i],q[i],s,c.P)
+            vals=[[ivc.poly(ivc.deriv(cc,k),s-1e-9,s+1e-9)/T**k for cc in coeff] for k in range(4)]
+            for k,key in enumerate(['pos','vel','acc']):
+                for interval,value in zip(vals[k],scalar[key]):assert ivc.lo(interval)-1e-8<=value<=ivc.hi(interval)+1e-8
+            m,hard,_=ivc.enclose(coeff,T,s-1e-9,s+1e-9,i,c.EV.reference_tree)
+            assert hard
+            expected={'eas_lower':(scalar['eas']-135)/40,'bank':1-abs(scalar['bank'])/np.deg2rad(25),'roll':1-abs(scalar['roll'])/np.deg2rad(5),'slew':1-abs(scalar['slew'])/1e5,'descent':1+scalar['gamma']/np.deg2rad(6)}
+            for key,value in expected.items():assert ivc.lo(m[key])-1e-8<=value<=ivc.hi(m[key])+1e-8
+
+def test_stale_certificate_rejected(q):
+    from deliver import validate_certificate
+    cert=json.loads((c.OUT/'continuous_check.json').read_text())
+    validate_certificate(cert,q)
+    for key in ['q_real_decimal','wind_speed_kt','wind_from_true_deg','runway_true_deg_exact','checker_source_sha256','calculator_source_sha256','reference_point_cloud_sha256','inputs_sha256','config_sha256','trajectory_source_sha256']:
+        bad=dict(cert);bad[key]=None
+        with pytest.raises(ValueError,match='certificate'):validate_certificate(bad,q)
+
+def test_continuous_cover_and_gap():
+    from fractions import Fraction
+    cert=json.loads((c.OUT/'continuous_check.json').read_text());assert cert['certified']
+    for p in [0,1]:
+        spans=sorted((left,right) for phase,left,right,depth in cert['cover'] if phase==p)
+        assert spans[0][0]==0 and spans[-1][1]==1
+        assert all(a[1]==b[0] for a,b in zip(spans,spans[1:]))
+    r=json.loads((c.OUT/'result.json').read_text())
+    assert Fraction(r['global_bound']['candidate_certified_gap_upper_exact'])==Fraction(upper_bound()['upper_exact'])-Fraction(cert['eta_lower_real_decimal'])

@@ -1,0 +1,24 @@
+{
+ "status":"manual_correspondence_estimates_for_diagnostic_registration_not_survey_control",
+ "photo":"reconstruction/chronology/aerial/fullframes/A36143.jpg",
+ "photo_date":"1993-11-02",
+ "reference_maps":["11-NE-11C 1990-01","11-NE-11D 1989-12","11-NE-16A 1989-12","11-NE-16B 1989-12"],
+ "pixel_frame":"1200x960 displayed previews; underlying *_view.png are1500x1200, multiply displayed pixels by1.25; map E=837500+1.25u, N=821000-1.25v",
+ "photo_preview_transform":"prepare_registration.py uses the pinned old affine only to make a picking image; invert to original photo pixels before new fit",
+ "pick_tolerance_display_pixels":3,
+ "physical_ground_accuracy_m":null,
+ "query_date_persistence_certified":false,
+ "points":[
+ {"id":"A_north","feature":"rounded northern apex of first narrow grass island","map_uv":[423,244],"photo_uv":[390,247],"role":"fit"},
+ {"id":"A_south","feature":"southern corner of first grass island","map_uv":[445,335],"photo_uv":[408,341],"role":"holdout"},
+ {"id":"B_east","feature":"east tangent of next small grass island","map_uv":[499,319],"photo_uv":[455,327],"role":"fit"},
+ {"id":"B_south","feature":"southern apex of next small grass island","map_uv":[479,348],"photo_uv":[433,348],"role":"holdout"},
+ {"id":"C_north","feature":"northern apex of small triangular grass island","map_uv":[538,362],"photo_uv":[490,365],"role":"fit"},
+ {"id":"C_southwest","feature":"southwest apex of small triangular grass island","map_uv":[518,411],"photo_uv":[471,406],"role":"holdout"},
+ {"id":"D_north","feature":"northern rounded apex of long grass island","map_uv":[575,411],"photo_uv":[529,413],"role":"fit"},
+ {"id":"D_southeast","feature":"southeastern apex of long grass island","map_uv":[637,523],"photo_uv":[580,523],"role":"holdout"},
+ {"id":"seawall_corner","feature":"shoreline corner adjacent to runway and former city boundary","map_uv":[497,721],"photo_uv":[461,761],"role":"fit"},
+ {"id":"roundabout","feature":"centre of northern approach-road roundabout","map_uv":[251,63],"photo_uv":[206,52],"role":"fit"}
+ ],
+ "threshold_preview_observation":{"photo_uv":[579,556],"meaning":"estimated centre of leading edge of RWY13 threshold piano-key markings; visual inspection required at original pixel scale","status":"candidate_not_accepted"}
+}

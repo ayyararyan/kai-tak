@@ -1,0 +1,496 @@
+{
+  "schema": 1,
+  "claim": "observationsandlimitations,notcertifiedtruevalues",
+  "observations": [
+    {
+      "id": "RW-ELEV",
+      "source": "CAD",
+      "source_path": "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+      "source_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "locator": "printed p26",
+      "meaning": "Reported runway elevation above aviation mean sea level",
+      "value": 15,
+      "unit": "ft AMSL",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": [
+        "HKPD offset and aviation reference realization unresolved; no statistical/hard accuracy supplied"
+      ]
+    },
+    {
+      "id": "RW-LENGTH",
+      "source": "CAD",
+      "source_path": "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+      "source_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "locator": "printed p27",
+      "meaning": "physical runway length",
+      "value": 3331.5,
+      "unit": "m",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": [
+        "Published dimensions/direction, not a ground-control coordinate"
+      ]
+    },
+    {
+      "id": "RW-LDA",
+      "source": "CAD",
+      "source_path": "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+      "source_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "locator": "printed p27",
+      "meaning": "Runway13 landing distance available",
+      "value": 2786,
+      "unit": "m",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": [
+        "Published dimensions/direction, not a ground-control coordinate"
+      ]
+    },
+    {
+      "id": "RW-WIDTH",
+      "source": "CAD",
+      "source_path": "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+      "source_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "locator": "printed p27",
+      "meaning": "runway width",
+      "value": 61,
+      "unit": "m",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": [
+        "Published dimensions/direction, not a ground-control coordinate"
+      ]
+    },
+    {
+      "id": "RW-BEARING",
+      "source": "CAD",
+      "source_path": "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+      "source_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "locator": "printed p27",
+      "meaning": "runway magnetic direction",
+      "value": 135,
+      "unit": "deg magnetic",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": [
+        "Published dimensions/direction, not a ground-control coordinate"
+      ]
+    },
+    {
+      "id": "RW-TAXI",
+      "source": "CAD",
+      "source_path": "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+      "source_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "locator": "printed p26",
+      "meaning": "Runway to parallel taxiway centreline separation",
+      "value": 111,
+      "unit": "m",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": []
+    },
+    {
+      "id": "RW-PROM",
+      "source": "CAD",
+      "source_path": "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+      "source_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "locator": "printed p26",
+      "meaning": "Promontory width",
+      "value": 242.3,
+      "unit": "m",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": []
+    },
+    {
+      "id": "IGS-LLZ",
+      "source": "CAD",
+      "source_path": "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+      "source_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "locator": "printed pp25-26, Appendix1",
+      "meaning": "Published IGS localizer magnetic bearing",
+      "value": 88,
+      "unit": "deg magnetic",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": []
+    },
+    {
+      "id": "IGS-GP",
+      "source": "CAD",
+      "source_path": "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+      "source_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "locator": "printed p25, Appendix1",
+      "meaning": "Published IGS glidepath",
+      "value": 3.1,
+      "unit": "deg",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": []
+    },
+    {
+      "id": "IGS-MM",
+      "source": "CAD",
+      "source_path": "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+      "source_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "locator": "printed p26",
+      "meaning": "Middle marker distance from touchdown",
+      "value": 1.7,
+      "unit": "NM",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": [
+        "Not an exact radial distance from displaced threshold; marker coordinate unresolved"
+      ]
+    },
+    {
+      "id": "IGS-MM-MISSED",
+      "source": "CAD",
+      "source_path": "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+      "source_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "locator": "Appendix1, PDF p131",
+      "meaning": "Mandatory missed approach byMM if no visual; right turn atMM orKL-DME2.2NM whenMMunserviceable; indications ignoredafterMM",
+      "value": true,
+      "unit": "procedure",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": [
+        "Do not use prescribed missed-approach15deg bank/1.5deg-per-second/180kt as landing control envelope"
+      ]
+    },
+    {
+      "id": "IGS-GPINOP-FIX",
+      "source": "CAD",
+      "source_path": "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+      "source_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "locator": "Appendix1 note2, PDF p131",
+      "meaning": "Published KL-DME15NM fix text",
+      "value": {
+        "printed": "2219.12N 11356.05E",
+        "lat_deg": 22.318666666666665,
+        "lon_deg": 113.93416666666667,
+        "horizontal_datum": null
+      },
+      "unit": "geographic coordinates in unspecified historical chart datum",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": [
+        "No automaticWGS84 orHK80 assignment; printed decimal minute precision not physical accuracy"
+      ]
+    },
+    {
+      "id": "IGS-GPINOP",
+      "source": "CAD",
+      "source_path": "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+      "source_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "locator": "Appendix1 note2",
+      "meaning": "EstablishedLLZ4500ft atnotgreaterKL15NM then3000ft; atKL9NM descend3deg toOMnotbelow1800ft",
+      "value": {
+        "entry_alt_ft": 4500,
+        "intermediate_alt_ft": 3000,
+        "descent_DME_NM": 9,
+        "OM_floor_ft": 1800
+      },
+      "unit": "mixed source units",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": []
+    },
+    {
+      "id": "MAG-VAR",
+      "source": "CAD",
+      "source_path": "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+      "source_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "locator": "Appendix1 map legend",
+      "meaning": "Published1990 variation",
+      "value": -1.8333333333333333,
+      "unit": "deg east-positive",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": [
+        "Historical map annotation, not a1993magnetic survey orgridconvergence"
+      ]
+    },
+    {
+      "id": "PAPI",
+      "source": "CAD",
+      "source_path": "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+      "source_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "locator": "printed p28",
+      "meaning": "PAPI located315m pastthreshold with3.1deg slope and52ftminimum eyeheight",
+      "value": {
+        "station_m": 315,
+        "slope_deg": 3.1,
+        "eyeheight_ft": 52
+      },
+      "unit": "mixed source units",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": [
+        "Eye point notCG orgear; cannot replace frozen50ftpointreference with52ft"
+      ]
+    },
+    {
+      "id": "AIR-MASS",
+      "source": "CAD",
+      "source_path": "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+      "source_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "locator": "printed p11, PDFp18, aircraftdetails",
+      "meaning": "Estimated landing weight",
+      "value": 525718,
+      "unit": "lb",
+      "category": "estimated in source",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": [
+        "Exact conversion238461.67357166kg retains source uncertainty; printed239tonnes rounded"
+      ]
+    },
+    {
+      "id": "AIR-ZFCG",
+      "source": "CAD",
+      "source_path": "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+      "source_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "locator": "printed p11, PDFp18, aircraftdetails",
+      "meaning": "Zero-fuel centreofgravity",
+      "value": 27.1,
+      "unit": "% mean aerodynamic chord",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": [
+        "NOT landingCG; MAC station/length and fuel/load distribution unavailable"
+      ]
+    },
+    {
+      "id": "AIR-CONFIG",
+      "source": "CAD",
+      "source_path": "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+      "source_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "locator": "printed pp1-3 and11",
+      "meaning": "Aircraft/engine/configuration",
+      "value": {
+        "aircraft": "747-409B",
+        "engines": "fourPW4056",
+        "flaps_deg": 30,
+        "gear": "down",
+        "Vref_CAS_kt": 141,
+        "target_CAS_kt": 153
+      },
+      "unit": "mixed",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": [
+        "CAS-toEAS approximation is frozen scenario assumption, not calibration"
+      ]
+    },
+    {
+      "id": "WIND-LIMITS",
+      "source": "CAD",
+      "source_path": "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+      "source_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "locator": "printed pp49-50",
+      "meaning": "ChinaAirlines steady crosswind limits atHongKong",
+      "value": {
+        "dry_kt": 25,
+        "wet_no_standing_water_kt": 22,
+        "standing_water_or_slush_kt": 10
+      },
+      "unit": "kt",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": [
+        "Operator/aircraft-specifichistorical limits; gust note leavesPICjudgment; no feedback guarantee"
+      ]
+    },
+    {
+      "id": "BRAKE-LOGIC",
+      "source": "CAD",
+      "source_path": "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+      "source_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "locator": "printed p14",
+      "meaning": "Autobrake ground/wheel-spin/throttle-idle activation conditions",
+      "value": "requires allfourthrottles idlewithin3s ofmainwheelspinup otherwise disarms",
+      "unit": "source description",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": [
+        "Not equivalent to fixed2sdelay+.15g law"
+      ]
+    },
+    {
+      "id": "ENGINE-IDENT",
+      "source": "CAD",
+      "source_path": "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+      "source_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "locator": "printed pp43-44 andAppendix21",
+      "meaning": "Thrustleveranglesnotrecorded;BoeingmatchedPW4056modelN2toinferlevermovement",
+      "value": null,
+      "unit": "unavailable identified model",
+      "category": "unidentified",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": [
+        "No aerodynamicpolar,rollactuator,thrustslewcalibrationfromthisdescription"
+      ]
+    },
+    {
+      "id": "BRAKE-DIST",
+      "source": "CAD",
+      "source_path": "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+      "source_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "locator": "printed p79, PDFp86",
+      "meaning": "Reported AFM rollout examples160kt underconditionsprevailing",
+      "value": {
+        "autobrake2_m": 2350,
+        "autobrake3_m": 2100,
+        "autobrake4_m": 1720
+      },
+      "unit": "m",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": [
+        "Different brake laws and source assumptions; no replacement of frozen2s/.15g"
+      ]
+    },
+    {
+      "id": "BOEING-DIMS",
+      "source": "BOEING",
+      "source_path": "integrated/sources/boeing_747-400_Rev_F.pdf",
+      "source_sha256": "9dd5baf00f3b9e5fdaa0bdf25425e1e65c9c6ee440d5b5c547956f95ccacef08",
+      "locator": "printed2-14 PDFp31,2-17 PDFp34",
+      "meaning": "Static747400planningdimensions",
+      "value": {
+        "length_m": 70.67,
+        "span_max_gross_fullfuel_m": 64.92,
+        "tail_max_static_m": 19.51,
+        "main_gear_track_m": 11
+      },
+      "unit": "m",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": [
+        "December2024RevFgenericmodel; no proven1993inflightdeformationbound"
+      ]
+    },
+    {
+      "id": "BOEING-THRUST",
+      "source": "BOEING",
+      "source_path": "integrated/sources/boeing_747-400_Rev_F.pdf",
+      "source_sha256": "9dd5baf00f3b9e5fdaa0bdf25425e1e65c9c6ee440d5b5c547956f95ccacef08",
+      "locator": "printed1-4 PDFp16",
+      "meaning": "PW4056ratedtakeoff thrust perengine",
+      "value": 56750,
+      "unit": "lbf",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": [
+        "Not netapproachthrust map, response or slew bound; frozen700kN totalcap unchanged"
+      ]
+    },
+    {
+      "id": "BOEING-LANDING",
+      "source": "BOEING",
+      "source_path": "integrated/sources/boeing_747-400_Rev_F.pdf",
+      "source_sha256": "9dd5baf00f3b9e5fdaa0bdf25425e1e65c9c6ee440d5b5c547956f95ccacef08",
+      "locator": "printed3-36 PDFp97",
+      "meaning": "Airportfacilityplanning FARlandinglength curves flaps30",
+      "value": "zero wind; dry/wet; pressurealtitude andweight; consultairline",
+      "unit": "source applicability",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": [
+        "Not calibration of touchdown-to-stop law; no data pointdigitized orhardintervalasserted"
+      ]
+    },
+    {
+      "id": "BOEING-DXF",
+      "source": "DXF",
+      "source_path": "integrated/sources/boeing_7474.zip",
+      "source_sha256": "004f8505b623ac80fd8c4225d60845b89af2e0f996e7de0ce52b2b337bb0c5ed",
+      "locator": "747-400.dxf member timestamp1998-03-19",
+      "meaning": "Official generic3viewplanningdrawing",
+      "value": "drawing unitsinferredinches",
+      "unit": "source geometry",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": [
+        "Website says shouldbeaccuratewithin6in forgateplanning; nothardinflightbound",
+        "$INSUNITSabsent; projectionsnotconsistentenoughforacceptedprojectionintersection"
+      ]
+    },
+    {
+      "id": "AIP-DATUM",
+      "source": "AIP",
+      "source_path": "integrated/sources/aip2026_GEN2_1.html",
+      "source_sha256": "43d8785e85eea0dbd160ac1090b292810815708ad9044077f512cee01ffa01ad",
+      "locator": "GEN2.1 sections4.1-4.3, effective2026-10-01",
+      "meaning": "HKPD/geoid andaviationreferences differ",
+      "value": {
+        "HKPD_below_MSL_asat2016_m": 1.3,
+        "geoid": "HKGEOID2016_SMO tiedtoHKPD",
+        "AIP_ALT_ELEV": "MSL"
+      },
+      "unit": "source definitions",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": [
+        "Not a1993runwaydatumconversion; 1.30mnotassignedtohistoricalrunway"
+      ]
+    },
+    {
+      "id": "OFFICIAL-FRAME",
+      "source": "FRAME",
+      "source_path": "reconstruction/downloads/geodetic_transform_parameters.pdf",
+      "source_sha256": "6e63f8803c1a0d1ae8306db30bc76e2daff67e79099cf0fc93278f1b1a2d19fd",
+      "locator": "7P_ITRF96_HK80_V1.0,2002-03-01",
+      "meaning": "Published7parameter coordinate-frame transform/checkpoint",
+      "value": {
+        "ITRF96_epoch": "1998:121",
+        "translation_m": [
+          162.619,
+          276.961,
+          161.763
+        ],
+        "rotation_arcsec": [
+          0.067741,
+          -2.243649,
+          -1.158827
+        ],
+        "scale_ppm": 1.094239
+      },
+      "unit": "mixed source units",
+      "category": "observed source statement",
+      "query_date": "1993-11-04",
+      "measurement_error_hard_bound": null,
+      "limitations": [
+        "Numericimplementationcheckisnotphysicalhistoricalregistrationaccuracy"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "completed_numerical",
+  "condition": {
+    "name": "urban45",
+    "urban": 45,
+    "roof_delta": 0,
+    "frame_dx": 0,
+    "frame_dy": 0,
+    "runway_level": 6,
+    "buffer": 5,
+    "wind_mps": [
+      -4.876589552990943,
+      9.64006667211232,
+      0
+    ]
+  },
+  "result_sha256": "4194802593659bce77a9e7007d70196b47d54b0d2157395f3ca99e76cef9905e"
+}

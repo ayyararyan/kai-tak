@@ -1,0 +1,186 @@
+{
+  "v5": {
+    "pages": 38,
+    "page_rect": [
+      0.0,
+      0.0,
+      517.3800048828125,
+      779.2999877929688
+    ],
+    "sizes": [
+      [
+        11.955,
+        55075
+      ],
+      [
+        9.564,
+        10703
+      ],
+      [
+        9.963,
+        1938
+      ],
+      [
+        8.728,
+        1374
+      ],
+      [
+        8.001,
+        381
+      ],
+      [
+        8.767,
+        362
+      ],
+      [
+        9.092,
+        267
+      ],
+      [
+        8.364,
+        257
+      ]
+    ],
+    "fonts": [
+      [
+        "Times-Roman",
+        62137
+      ],
+      [
+        "ArialMT",
+        3402
+      ],
+      [
+        "Times-Bold",
+        1720
+      ],
+      [
+        "CourierNewPSMT",
+        1034
+      ],
+      [
+        "TeXGyreTermesX-Regular",
+        980
+      ],
+      [
+        "NewTXMI",
+        809
+      ],
+      [
+        "Times-Italic",
+        666
+      ],
+      [
+        "Arial-BoldMT",
+        572
+      ]
+    ],
+    "common_body_baselines": [
+      [
+        14.346,
+        121
+      ],
+      [
+        14.347,
+        35
+      ]
+    ]
+  },
+  "note": {
+    "pages": 36,
+    "page_rect": [
+      0.0,
+      0.0,
+      517.3800048828125,
+      779.2999877929688
+    ],
+    "sizes": [
+      [
+        11.955,
+        54854
+      ],
+      [
+        9.564,
+        5763
+      ],
+      [
+        8.767,
+        1027
+      ],
+      [
+        8.0,
+        497
+      ],
+      [
+        8.5,
+        340
+      ],
+      [
+        9.963,
+        318
+      ],
+      [
+        8.4,
+        195
+      ],
+      [
+        10.4,
+        167
+      ]
+    ],
+    "fonts": [
+      [
+        "Times-Roman",
+        49330
+      ],
+      [
+        "TeXGyreTermesX-Regular",
+        3000
+      ],
+      [
+        "NewTXMI",
+        2786
+      ],
+      [
+        "Times-Bold",
+        2463
+      ],
+      [
+        "txsys",
+        1710
+      ],
+      [
+        "CourierNewPSMT",
+        1622
+      ],
+      [
+        "ArialMT",
+        1531
+      ],
+      [
+        "Times-Italic",
+        688
+      ]
+    ],
+    "common_body_baselines": [
+      [
+        14.346,
+        77
+      ],
+      [
+        14.347,
+        22
+      ]
+    ]
+  },
+  "style_files_byte_identical": [
+    "RFS.cls",
+    "rfs-workingpaper.sty",
+    "rfs.bst",
+    "crop.sty",
+    "crop.cfg"
+  ],
+  "same_page_rectangle": true,
+  "same_modal_body_size": true,
+  "same_modal_body_baseline": true
+}

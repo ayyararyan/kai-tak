@@ -1,0 +1,30 @@
+{
+  "status": "mapped_line_diagnostic_not_historical_survey",
+  "selected_candidate_indices": [
+    3,
+    4
+  ],
+  "grid_bearings_deg": [
+    134.01788283677584,
+    134.01615333560628
+  ],
+  "mean_mapped_grid_bearing_deg": 134.01701808619106,
+  "normal_width_at_mosaic_x400_m": 61.01233880566439,
+  "reported_width_m": 61,
+  "width_difference_m": 0.012338805664391828,
+  "source_error_hard_bound_m": null,
+  "threshold_crosscheck_with_mapped_axis": {
+    "back_projected_EN_m": [
+      838328.3954448821,
+      820261.9282588651
+    ],
+    "disagreement_m": 77.6229012827399,
+    "accepted": false
+  },
+  "limitations": [
+    "Source-map line/raster/edition error notcalibrated.",
+    "Crossedges are approximatelyparallel, not exactrectangles imposedondata.",
+    "A mappedaxis cannot validate photographictranslation or the aviationdatum.",
+    "Chartmagneticbearingplusvariation is not silentlyoverwritten."
+  ]
+}

@@ -1,0 +1,10 @@
+synthetic-calm certified 0.0397 2502
+Traceback (most recent call last):
+  File "/KAI_TAK_REPOSITORY/research/checkers-runway13/mathematical-note/v1/verification/reproduce.py", line 332, in <module>
+    main()
+  File "/KAI_TAK_REPOSITORY/research/checkers-runway13/mathematical-note/v1/verification/reproduce.py", line 315, in main
+    fresh = module.certify(stored["q_real_decimal"], stored["eta_lower_real_decimal"])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/KAI_TAK_REPOSITORY/research/checkers-runway13/mathematical-note/v1/frozen-source/research/checkers-runway13/counterfactual/continuous.py", line 136, in certify
+    from calculate import check_sources
+ModuleNotFoundError: No module named 'calculate'

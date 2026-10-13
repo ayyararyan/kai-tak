@@ -1,0 +1,71 @@
+{
+  "verified_utc": "2026-10-13T15:48:02.841923+00:00",
+  "verification_scope": "implemented correctness,sourceintegrity,rebuild and expectedblockedgate; NOT scientificcompletion",
+  "correctness": {
+    "tests_run": 36,
+    "failures": 0,
+    "errors": 0,
+    "successful": true
+  },
+  "rebuild": {
+    "producers_run": 11,
+    "deterministic_outputs_compared": 14,
+    "unexpected_output_changes": []
+  },
+  "integrity": {
+    "frozen_inputs_checked": 13,
+    "frozen_mismatches": [],
+    "inherited_handoff_artifacts_checked": 37,
+    "inherited_mismatches": [],
+    "primary_documents_checked": 5,
+    "inspected_images_checked": 15,
+    "inspected_image_mismatches": []
+  },
+  "scene_features": 88,
+  "source_observations": 28,
+  "new_accepted_complete_historical_obstacle_volumes": 0,
+  "new_hard_height_bounds": 0,
+  "overview_halftone_tile_check": {
+    "mean": 235.1830582010582,
+    "std": 15.595783678001057,
+    "all_black": false
+  },
+  "local_broken_links": [],
+  "end_to_end": {
+    "blocked_path_verified": true,
+    "historical_clearance_accepted": false,
+    "condition_to_closed_form_optimum_implemented": false,
+    "global_optimality_proof": false
+  },
+  "specification": {
+    "required": 16,
+    "Implemented": 1,
+    "Partially implemented": 10,
+    "Blocked": 5,
+    "unapproved_scope_reductions": 0,
+    "unapproved_proxy_substitutions": 0,
+    "overall": "INCOMPLETE"
+  },
+  "errors": [],
+  "review": "ownerverificationonly; no independent external reviewer",
+  "runtime": {
+    "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "packages": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "matplotlib": "3.11.2",
+      "rasterio": "1.5.2",
+      "pyproj": "3.8.0",
+      "shapely": "2.2.0",
+      "pillow": "12.3.0"
+    },
+    "isolated_packages": {
+      "fonttools": "4.66.1",
+      "mpmath": "1.4.1",
+      "ezdxf": "1.4.4",
+      "typing_extensions": "4.16.0",
+      "pyparsing": "3.3.3"
+    }
+  }
+}

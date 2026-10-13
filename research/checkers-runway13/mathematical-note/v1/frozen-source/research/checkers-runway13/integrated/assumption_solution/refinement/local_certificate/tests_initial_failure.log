@@ -1,0 +1,86 @@
+..FF.......                                                              [100%]
+=================================== FAILURES ===================================
+________________ test_force_and_slew_against_independent_numpy _________________
+
+    def test_force_and_slew_against_independent_numpy():
+     z=variables([str(x)for x in BASE['z']]);q=BASE['q'];c=Case();polys=c.curves(q)[1]
+     for s in [0.,.13,.3671596,.7425247,.7635208,1.]:
+      th,ld,T=state(z,D(str(s)));p=phase(polys,q[1],np.array([s]),c.p)
+      assert abs(float(midpoint(th.c[0].v))-p['thrust'][0])<2e-7
+>     assert abs(float(midpoint(th.c[1].v/T.v))-p['slew'][0])<2e-7
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+integrated/assumption_solution/refinement/local_certificate/test_local_certificate.py:44: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+.venv/lib/python3.12/site-packages/mpmath/ctx_iv.py:56: in __float__
+    return self.cast(float, libmp.to_float)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = mpi('-84763.923569816751443309596323663274509080625510428062', '-84763.923569816751443309596323663274509080625510427887')
+cls = <class 'float'>, f_convert = <function to_float at 0x10d963880>
+
+    def cast(self, cls, f_convert):
+        a, b = self._mpi_
+        if a == b:
+            return cls(f_convert(a))
+>       raise ValueError
+E       ValueError
+
+.venv/lib/python3.12/site-packages/mpmath/ctx_iv.py:50: ValueError
+___________________ test_analytic_system_jacobian_regression ___________________
+
+proof = ({'certified': True, 'center': ['0.828166892572350798346132239036969796434284587227', '1.00708819797578277757988923079...4256108, 'eas_upper': 0.351456130223692, 'cl_lower': 0.21095032172235306, 'cl_upper': 0.31211827442929546, ...}, ...}})
+
+    def test_analytic_system_jacobian_regression(proof):
+>    r,X,m,stored=proof;x=np.array([float(v)for v in r['center']]);f,j,*_=system([repr(v)for v in x]);J0=np.array([[float(midpoint(v))for v in row]for row in j])
+                                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+integrated/assumption_solution/refinement/local_certificate/test_local_certificate.py:48: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+integrated/assumption_solution/refinement/local_certificate/interval_root.py:130: in system
+    z=variables(xs);m,st,cu,signs=active(z);F=[x-z[5] for x in m]+st
+      ^^^^^^^^^^^^^
+integrated/assumption_solution/refinement/local_certificate/interval_root.py:80: in variables
+    def variables(xs):return [D(x,[I(int(i==j)) for j in range(N)]) for i,x in enumerate(xs)]
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+integrated/assumption_solution/refinement/local_certificate/interval_root.py:21: in __init__
+    def __init__(self,v,d=None):self.v=interval(v);self.d=[I(0)]*N if d is None else d
+                                       ^^^^^^^^^^^
+integrated/assumption_solution/refinement/local_certificate/interval_root.py:15: in interval
+    def interval(x):return x if hasattr(x,'a') else I(x)
+                                                    ^^^^
+counterfactual/continuous.py:16: in <lambda>
+    I=lambda x:iv.mpf(str(x))
+               ^^^^^^^^^^^^^^
+.venv/lib/python3.12/site-packages/mpmath/ctx_iv.py:44: in __new__
+    return cls.ctx.convert(x)
+           ^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.12/site-packages/mpmath/ctx_iv.py:423: in convert
+    v = mpi_from_str(x, ctx.prec)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.12/site-packages/mpmath/libmp/libmpi.py:492: in mpi_from_str
+    return mpi_from_str_a_b(x, y, percent, prec)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.12/site-packages/mpmath/libmp/libmpi.py:442: in mpi_from_str_a_b
+    xa = from_str(x, wp, round_floor)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.12/site-packages/mpmath/libmp/libmpf.py:1331: in from_str
+    man, exp = str_to_man_exp(x, base=10)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+x = 'np.float64', base = 10
+
+    def str_to_man_exp(x, base=10):
+        """Helper function for from_str."""
+        x = x.lower().rstrip('l')
+        # Verify that the input is a valid float literal
+>       float(x)
+E       ValueError: could not convert string to float: 'np.float64'
+
+.venv/lib/python3.12/site-packages/mpmath/libmp/libmpf.py:1294: ValueError
+=========================== short test summary info ============================
+FAILED integrated/assumption_solution/refinement/local_certificate/test_local_certificate.py::test_force_and_slew_against_independent_numpy
+FAILED integrated/assumption_solution/refinement/local_certificate/test_local_certificate.py::test_analytic_system_jacobian_regression
+2 failed, 9 passed in 7.15s

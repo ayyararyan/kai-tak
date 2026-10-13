@@ -1,0 +1,165 @@
+\section{Polynomial identities and regularity bounds}\label{app:polynomials}
+For a scalar coordinate the endpoint construction can be written
+\begin{equation}\label{eq:basispoly}
+ P(s)=P_0+(P_1-P_0)H_0(s)+Tv_0A_0(s)+Tv_1B_0(s),
+\end{equation}
+where
+\begin{align*}
+ H_0(s)&=10s^3-15s^4+6s^5,\\
+ A_0(s)&=s-6s^3+8s^4-3s^5,\\
+ B_0(s)&=-4s^3+7s^4-3s^5.
+\end{align*}
+Direct differentiation verifies the six endpoint conditions in \eqref{eq:hermite}. The bump $b=64s^3(1-s)^3$ has a zero of order three at both endpoints; multiplying it by $2s-1$ preserves these zeros. Thus the family enforces exactly the positions, velocities and accelerations stated in the main text. No numerical linear solve is needed to establish the identities.
+
+For reproducible rational range bounds, let $p(s)=\sum_{k=0}^nc_ks^k$ and substitute $s=a+ht$ on a rational cell. The power coefficients become
+\[
+ d_j=h^j\sum_{k=j}^nc_k\binom kj a^{k-j},
+\]
+and the degree-$n$ Bernstein coefficients are
+\begin{equation}\label{eq:bernstein}
+ \beta_i=\sum_{j=0}^i d_j\frac{\binom ij}{\binom nj},\quad 0\leq i\leq n.
+\end{equation}
+Indeed expansion of the Bernstein basis gives
+$t^j=\sum_{i=j}^n\binom ij\binom nj^{-1}\binom ni t^i(1-t)^{n-i}$. Its basis functions are nonnegative and sum to one, so $p$ lies between the smallest and largest $\beta_i$. This is a finite exact rational calculation, not a bound inferred from sampled values.
+
+Apply \eqref{eq:bernstein} to $H_0',A_0',B_0',b',o'$ on the 128 cells $[i/128,(i+1)/128]$. Maximum absolute enclosure endpoints are, respectively,
+\[
+ 15/8,\quad1,\quad1,\quad288141339/83886080,\quad2.
+\]
+The entry and gate vertical speeds have magnitude less than $5$, as outward evaluation of $153k\exp(z/17000)\sin(3.1^\circ)$ at $z=146,21.24$ verifies. Therefore
+\begin{align*}
+ |\dot z_a|&\leq\frac{124.76}{30}\frac{15}{8}+5(1+1)
+ +\frac{50}{30}\left(\frac{288141339}{83886080}+2\right)
+ =\frac{33792275107}{1258291200},\\
+ |\dot z_f|&\leq\frac{15.24}{4}\frac{15}{8}+5+0.7
+ +\frac{10}{4}\frac{288141339}{83886080}
+ =\frac{719106075}{33554432}.
+\end{align*}
+The horizontal-air-speed separation can even be proved by the rational inequality
+\[
+ (135k)^2-\left(\frac{33792275107}{1258291200}\right)^2-64^2
+ =\frac{9617823244026244151}{1583296743997440000}>0.
+\]
+Thus $H>64$ on the nonnegative feasible set. This prevents a singular limit in the compactness proof independently of numerical rounding of \eqref{eq:vzbound}.
+
+For the flare height bound, $0\leq H_0\leq1$, $A_0\geq0$, $-0.2\leq B_0\leq0$, and $0\leq b\leq1$ on $[0,1]$; these follow either by factorization or the same rational enclosure. Since $v_{G,z}<0$, $v_{D,z}=-0.7$, $T_f\leq12$ and $f_z\leq10$,
+\[
+ z_f\leq21.24+12(0.7)(0.2)+10=32.92<34.
+\]
+For the lower bound, $6\cos\theta+6.0579\sin\theta$ is increasing on $[0,25^\circ]$, because its derivative is positive there. Gear nonpenetration then implies $z_f\geq6$. These height and derivative bounds supply exactly the family-specific premises of Proposition~\ref{prop:energy}.
+
+\section{Differentiating inverse dynamics}\label{app:rates}
+Let $a=\ddot R$, $j=\dddot R$ and $\dot V=e_t\cdot a$. Constant wind gives
+\begin{align*}
+ \dot e_t&=(a-e_t\dot V)/V,&
+ \dot\psi&=(v_xa_y-v_ya_x)/H^2,\\
+ \dot e_r&=-\dot\psi(v_x,v_y,0)/H,&
+ \dot e_u&=\dot e_t\times e_r+e_t\times\dot e_r.
+\end{align*}
+With $\dot F=mj$,
+\begin{align*}
+ \dot L_u&=\dot F\cdot e_u+F\cdot\dot e_u,&
+ \dot L_r&=\dot F\cdot e_r+F\cdot\dot e_r,\\
+ \dot L&=(L_u\dot L_u+L_r\dot L_r)/L,&
+ \dot Q&=Q(-\dot z/8500+2\dot V/V),\\
+ \dot C_L&=\dot L/Q-C_L\dot Q/Q,&&\\
+ \dot D&=\dot Q(0.08+0.045C_L^2)+0.09QC_L\dot C_L,&&\\
+ \dot T&=\dot D+\dot F\cdot e_t+F\cdot\dot e_t.&&
+\end{align*}
+Together with \eqref{eq:roll}, these are the exact first-rate formulas used by the continuous checker and the independent floating-point evaluator. They hold on each open phase and extend one-sided to its endpoints. Smooth position through acceleration does not imply a shared jerk, so omitting either side of a rate check at the gate would change the model.
+
+In the flare, $a_y=0$ and $v_y=-w_y$. Thus $L_r=mw_ya_x/H$, the identity used in \eqref{eq:gearproof}. Zero endpoint accelerations and $a_y=0$ imply zero bank at touchdown even with crosswind: air heading and ground heading need not coincide, but the lateral projection of the vertical weight-support force onto $e_r$ is zero.
+
+\section{Exact root and fixed approach data}\label{app:box}
+The decimal strings in Table~\ref{tab:rootbox} define $c$ exactly; they are not rounded coefficients of an assumed exact optimizer. The root is the unique solution of \eqref{eq:root} in \eqref{eq:box}. Its coordinates are correlated by those equations. An independent selection of interval endpoints generally does not solve them.
+\input{root_table.tex}
+The seven approach coordinates, in the units of Table~\ref{tab:parameters}, are the following exact finite decimals from the baseline active-branch input:
+\input{approach_table.tex}
+They are held fixed only to construct one connected feasible path. Theorem~\ref{thm:transfer} does not require all nearby approaches to remain feasible.
+
+For avoidance of decimal ambiguity, the full primary box endpoints are
+\begin{align*}
+ \underline\eta&=0.152360764301861701908625206455836893973748530913,\\
+ \overline\eta&=0.152360764301861701928625206455836893973748530913.
+\end{align*}
+The physical root-coordinate radii inherited from the scaled box are $5\times10^{-20}$ s for $T_f$, $3\times10^{-18}$ m for $x_D$, $7.5\times10^{-19}$ m/s for $U$, and $10^{-20}$ m for each flare bump. These are isolation widths, not physical uncertainty or a local-optimality radius. The much smaller Krawczyk image demonstrates strict inclusion but is not needed as a new advertised parameter box.
+
+\section{Interval automatic differentiation and Taylor jets}\label{app:jets}
+The interval evaluator uses two nested exact algebraic constructions. A dual number stores an interval value $a$ and nine derivative intervals $a_i$. Addition and multiplication obey
+\[
+ (ab)_i=a_i b+ab_i,\qquad
+ (a/b)_i=(a_i b-ab_i)/b^2,
+\]
+with the usual derivative formulas for square root and exponential on their regular domains. Each operation is evaluated with outward rounding. Induction on the expression graph proves inclusion of the value and each derivative.
+
+The normalized-time jet stores coefficients $a_n=a^{(n)}(s)/n!$, $0\leq n\leq3$, each itself a dual number. If $c=ab$, $b=1/a$, $b=\sqrt a$ or $b=\exp a$, the coefficient recurrences are
+\begin{align*}
+ c_n&=\sum_{k=0}^na_kb_{n-k},\\
+ b_0&=1/a_0,\qquad
+ b_n=-a_0^{-1}\sum_{k=1}^na_kb_{n-k} &&(b=1/a),\\
+ b_0&=\sqrt{a_0},\qquad
+ b_n=\frac{a_n-\sum_{k=1}^{n-1}b_kb_{n-k}}{2b_0} &&(b=\sqrt a),\\
+ b_0&=\exp(a_0),\qquad
+ b_n=\frac1n\sum_{k=1}^n k a_kb_{n-k} &&(b=\exp a).
+\end{align*}
+The product identity, $ab=1$, $b^2=a$ and $b'=a'b$ prove these recurrences coefficient by coefficient. Keeping order three loses no derivative of order at most three. Position polynomials themselves are evaluated without approximation; the jet truncation is a derivative representation, not a truncated trajectory.
+
+Applied to thrust, the jet gives $T_s,T_{ss},T_{sss}$. Its dual components supply the mixed derivatives for $DF$, including derivatives of the stationarity equations with respect to all root coordinates. The interior slew curvature is $-T_{sss}/(100000T_f)$ on the positive branch. Load and lower-thrust curvatures use their second derivatives. This is why finite-difference Jacobians are unnecessary in the proof.
+
+The preconditioner is chosen numerically for sharpness, but its final finite decimal entries are exact specified constants. The inequality $\norm{I-C\mathbb J}_\infty<1$ is checked outward, and therefore also proves $C$ nonsingular; no unverified inverse is assumed. The additive matrix export in the package records every interval Jacobian entry, both decimal preconditioners, residual matrices and exact binary endpoint representations. Reproduction recomputes them from the source expressions.
+
+\section{Continuous-time verification algorithm}\label{app:algorithm}
+The verifier has two logically separate inputs: exact polynomial/physical data and a finite list of proved active neighborhoods. Its procedure is:
+\begin{enumerate}
+\item Enclose the root parameters and construct interval Hermite coefficients, with exact endpoint identities retained symbolically.
+\item Split $[0,1]$ at every special-event neighborhood endpoint. Treat approach and flare as separate closed domains.
+\item On each cell, enclose position through jerk, inverse forces, exact rates, corridor distance and all geometric predicates. Remove only a margin whose entire cell lies in its proved neighborhood.
+\item Accept only after all remaining margin lower endpoints exceed $\overline\eta$, and all hard geometry lower endpoints are nonnegative. Otherwise bisect, or return unresolved at the depth limit.
+\item Check that the accepted closed cells cover both phases without gaps; check terminal margins, factored gear contact and the whole ground segment.
+\end{enumerate}
+The maximum accepted subdivision depth in the local certificate is 12. Cells are enclosures of all real times in their domains, not quadrature nodes. The exact numerical value of a selected subdivision endpoint is its stored decimal representation, consistently used in both event and ordinary interval evaluations.
+
+The disjunctive geometry extension encloses maxima and minima by taking the corresponding extrema of endpoint bounds. It is inclusion-preserving but can be pessimistic. The family dependence is likewise enclosed, not discarded: an interval hull may include combinations no actual parameter realizes, which can make certification harder but cannot make a false trajectory feasible. For the wind-family check, first-order parameter differentiation reduces that dependency inflation before the force enclosure.
+
+\section{Explicit wind-family coefficients}\label{app:wind}
+The following finite decimals, not the exact local root, define \eqref{eq:windfamily}. Nonzero derivative entries have the units of the corresponding parameter divided by m/s. Entry and gate velocities are recomputed from the changed known wind.
+\input{wind_table.tex}\FloatBarrier
+The baseline root-isolation radius $10^{-20}$, the unquantified local-optimality neighborhood and the wind intervals in Table~\ref{tab:wind} are three different domains. None can be substituted for either of the others.
+
+\section{Source chronology, invalidations and claim domains}\label{app:history}
+The source freeze is public repository commit \path{78a9ce1c627f917c94306af5529d5e9ebeb743e8}. The latest mathematical layer at that commit is the A1 local certificate, not the older analytical status in V5's frozen evidence. The note preserves that chronology.
+
+The original synthetic model had a continuously certified witness with margin at least $0.0397$ over 2,502 closed cells and a family bound $0.1559772$, with a broader terminal-only bound near $0.15769490255$. These values use its own altitude convention and zero-wind scenario. They are not competing bounds on A1 at the baseline wind. The A1 terminal floor value \eqref{eq:eta69}, its broader terminal relaxation near $0.223501289399$, the earlier energy upper bound $0.191605$ and the later $0.181970215$ each have their stated domains.
+
+Two earlier global-checker failures are retained as invalidated evidence. A corridor-distance lower enclosure was incorrectly used for an exclusion upper bound, and interval \texttt{atan2} across its branch cut wrongly excluded a box containing a known feasible witness. The associated claimed upper values $0.10$, $0.05$, $0.04$ and $0.03972$ were withdrawn. They are not used here. The repaired checker uses a conservative full-angle hull when the denominator interval is nonpositive; the accepted candidate additionally has strictly positive lift-up and horizontal speed.
+
+An earlier urban55 search missed the one-sided clearance just before exiting the upstream urban region. Its pre-repair candidate is preserved. The accepted path has an explicit exit-root condition and a fresh continuous certificate. Failed wider wind enclosures and negative-margin tailwind/urban searches are also preserved, without being promoted to infeasibility results. These records explain why accepted input hashes and finite proof coverage matter more than an optimizer success flag.
+
+\section{Certificate specification and reproduction}\label{app:reproduce}
+The source package includes the manuscript, original vector figure code, compact figure inputs, V5's unchanged academic class/style files and a manifest-bound public proof-source subset. No private source scans or installable proprietary fonts are included. Relative paths below are rooted in the package. The source subset preserves repository-relative paths beneath \texttt{frozen-source/}.
+
+{\footnotesize\begin{longtable}{>{\raggedright\arraybackslash}p{.36\textwidth}>{\raggedright\arraybackslash}p{.57\textwidth}}\toprule
+Object & Role and finite content\\\midrule\endhead
+\path{inputs/local_certificate.json} & Exact decimal centre/radius, Krawczyk offsets, multiplier intervals, event inequalities and 398-cell cover.\\
+\path{verification/accepted/} & Fresh reproduction receipts and logs; full matrices are in \path{verification/final/local_matrices.json}.\\
+\path{frozen-source/PUBLIC_SOURCE_MANIFEST.json} & SHA-256 binding of every included public source file to the pinned commit.\\
+\path{CLAIMS_AND_EVIDENCE.csv} & Claim classification, premises, executable evidence and theorem linkage.\\
+\path{audit/} & Independent analytical/model, interval/optimization and numerical-reproduction reviews; corrections and failures retained.\\
+\path{FIGURE_PROVENANCE.md} & Per-figure mathematical object, input, plotting status and intended interpretation.\\\bottomrule
+\end{longtable}}
+
+The build and proof checks are separate. After creating an environment from the supplied pinned requirements, the principal commands are
+\begin{quote}\small\ttfamily
+python build.py --figures\par
+python scripts/verify\_all.py \textbackslash\par
+\hspace*{1em}--source-root frozen-source \textbackslash\par
+\hspace*{1em}--output-dir verification/replay\par
+python verification/emit\_matrices.py \textbackslash\par
+\hspace*{1em}--source-root frozen-source \textbackslash\par
+\hspace*{1em}--output verification/replay/local\_matrices.json
+\end{quote}
+The README gives exact invocation details, host-tool prerequisites and the tested environment. The build uses XeLaTeX, BibTeX, locally licensed Times/Arial/Courier New and NewTX mathematics. The class retains the V5 page trim $182.52\times274.92$ mm, $373.2$ TeX-point text width, 12-point body and 14.4-point normal baseline. Source package extraction is checked in a fresh directory; the existing host TeX and licensed fonts are reused, not claimed to be a fresh operating-system installation.
+
+The publicly reproducible numerical suite contains 102 numerical/core/proof tests and 15 geometry tests. Five historical-source tests and two original-workspace preservation tests require omitted or unnormalized inputs; they are explicitly excluded, not counted as passes. Publication mapping and the new source manifest supply separate integrity checks. The old publication checker expects a historical complete project ledger; later V5 appendages make that exact-file expectation stale. The additive verification checks the old prefix and the pinned current file separately, preserving the original failure log and checker.
+
+Root, simplex, event and complete-path calculations are freshly executed, as are baseline secondary retention, the stronger global exclusion, the three wind domains and the ten accepted condition paths. Restricted historical originals are not needed for those conditional mathematical statements. 

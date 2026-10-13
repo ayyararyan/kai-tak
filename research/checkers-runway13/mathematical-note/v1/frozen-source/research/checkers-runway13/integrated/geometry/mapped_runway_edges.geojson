@@ -1,0 +1,493 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mapped_runway_edge_0_1993",
+        "meaning": "partial opposing mapped runway edge, visually selected fromHoughcandidates",
+        "source_mosaic": "integrated/geometry/south_runway_map.png",
+        "source_mosaic_sha256": "e5a4ae8262a1e6e830090381919473d25ba9523785b939081ad05c23200bb3e4",
+        "source_sheet_records": [
+          {
+            "source_id": "1980_1990:865",
+            "sheet": "11-NE-17C",
+            "edition_date": "1993-07-01",
+            "date_precision": "month",
+            "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_865_11-NE-17C_1993-07-01.zip",
+            "source_sha256": "a6f06e70e64aef9be7bf26096b1f4464d8735e75a30ac5fa0116e1429dba912c",
+            "receipt_sha256": "a6f06e70e64aef9be7bf26096b1f4464d8735e75a30ac5fa0116e1429dba912c",
+            "source_sha256_matches": true,
+            "crc_ok": true,
+            "tiff_member": "HP1C-11NE17C-199307.tif",
+            "tiff_sha256": "e620c536df6a7d49cd2ab4f5b54c4bb70c46d2afa9085a562c424c464f4e1369",
+            "tfw_member": "HP1C-11NE17C-199307.tfw",
+            "tfw_sha256": "5723ff8cc0ce7dc8167054aacdb84a76dc56d192c5cebd8aa4c280607ee2ae78",
+            "tfw_text": "0.0635035532\n0.0000000000\n0.0000000000\n-0.0635101824\n838953.1164460144\n819855.8959718221\n",
+            "crs": "EPSG:2326",
+            "crs_in_tiff": "None",
+            "crs_assignment_basis": "Hong Kong 1980 Grid source documentation and printed sheet legend",
+            "affine_pixel_edges": [
+              0.0635035532,
+              0.0,
+              838953.0846942378,
+              0.0,
+              -0.0635101824,
+              819855.9277269132
+            ],
+            "width": 13228,
+            "height": 11811,
+            "nominal_resolution_m": [
+              0.0635035532,
+              0.0635101824
+            ],
+            "raster_bounds_epsg2326": [
+              838953.0846942378,
+              819105.8089625868,
+              839793.1096959674,
+              819855.9277269132
+            ],
+            "index_core_bounds_epsg2326": [
+              839000,
+              819200,
+              839750,
+              819800
+            ],
+            "index_reprojected_bounds_epsg2326": [
+              839000.0002804081,
+              819199.9996969267,
+              839750.0002797495,
+              819799.9996973692
+            ],
+            "index_integral_grid_snap": true,
+            "index_snap_tolerance_m": 0.01,
+            "margins_west_south_east_north_m": [
+              46.91530576220248,
+              94.1910374131985,
+              43.10969596740324,
+              55.92772691324353
+            ],
+            "core_within_raster": true,
+            "rasterio_tfw_max_coefficient_difference": 0.0,
+            "metadata_checks_pass": true,
+            "printed_grid_status": "not_independently_checked",
+            "cartographic_ground_accuracy_m": null
+          },
+          {
+            "source_id": "1980_1990:1002",
+            "sheet": "11-NE-22A",
+            "edition_date": "1993-08-01",
+            "date_precision": "month",
+            "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_1002_11-NE-22A_1993-08-01.zip",
+            "source_sha256": "8184de272cc541a2be195204e6ba388933d0da81da7a82bb221ff58b593fe871",
+            "receipt_sha256": "8184de272cc541a2be195204e6ba388933d0da81da7a82bb221ff58b593fe871",
+            "source_sha256_matches": true,
+            "crc_ok": true,
+            "tiff_member": "HP1C-11NE22A-199308.tif",
+            "tiff_sha256": "059e48f32c7cb8126849a6806a64df58d138f591cbdee6684d8dd40d00bd7f58",
+            "tfw_member": "HP1C-11NE22A-199308.tfw",
+            "tfw_sha256": "7ee5575956056ad636eb3aef6e9045311df36a3ee276a4ec2420cb62f72977e2",
+            "tfw_text": "0.0635032278\n0.0000000000\n0.0000000000\n-0.0635032278\n838955.0654127325\n819254.0307162262\n",
+            "crs": "EPSG:2326",
+            "crs_in_tiff": "None",
+            "crs_assignment_basis": "Hong Kong 1980 Grid source documentation and printed sheet legend",
+            "affine_pixel_edges": [
+              0.0635032278,
+              0.0,
+              838955.0336611186,
+              0.0,
+              -0.0635032278,
+              819254.0624678402
+            ],
+            "width": 13228,
+            "height": 11811,
+            "nominal_resolution_m": [
+              0.0635032278,
+              0.0635032278
+            ],
+            "raster_bounds_epsg2326": [
+              838955.0336611186,
+              818504.0258442943,
+              839795.054358457,
+              819254.0624678402
+            ],
+            "index_core_bounds_epsg2326": [
+              839000,
+              818600,
+              839750,
+              819200
+            ],
+            "index_reprojected_bounds_epsg2326": [
+              839000.000279854,
+              818599.9996971897,
+              839750.0002791984,
+              819199.9996976301
+            ],
+            "index_integral_grid_snap": true,
+            "index_snap_tolerance_m": 0.01,
+            "margins_west_south_east_north_m": [
+              44.966338881407864,
+              95.974155705655,
+              45.0543584569823,
+              54.06246784015093
+            ],
+            "core_within_raster": true,
+            "rasterio_tfw_max_coefficient_difference": 0.0,
+            "metadata_checks_pass": true,
+            "printed_grid_status": "not_independently_checked",
+            "cartographic_ground_accuracy_m": null
+          },
+          {
+            "source_id": "1980_1990:1007",
+            "sheet": "11-NE-22B",
+            "edition_date": "1993-08-01",
+            "date_precision": "month",
+            "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_1007_11-NE-22B_1993-08-01.zip",
+            "source_sha256": "cda1476d6043eb9a1a9dded05a7fe1ae49fc5bd73013f105ccc9275fde153127",
+            "receipt_sha256": "cda1476d6043eb9a1a9dded05a7fe1ae49fc5bd73013f105ccc9275fde153127",
+            "source_sha256_matches": true,
+            "crc_ok": true,
+            "tiff_member": "HP1C-11NE22B-199308.tif",
+            "tiff_sha256": "9bf61b2389f4888ed67f45e8b5d94b80f989d1d3da809ad6e9d06ecc8e1a2ef0",
+            "tfw_member": "HP1C-11NE22B-199308.tfw",
+            "tfw_sha256": "b67451aac1d0d0a12146ff3968a9a4a09316cbbff67317d3a4e953f0b4696626",
+            "tfw_text": "0.0635088307\n0.0000000000\n0.0000000000\n-0.0634977702\n839704.9925350223\n819253.9893818349\n",
+            "crs": "EPSG:2326",
+            "crs_in_tiff": "None",
+            "crs_assignment_basis": "Hong Kong 1980 Grid source documentation and printed sheet legend",
+            "affine_pixel_edges": [
+              0.0635088307,
+              0.0,
+              839704.960780607,
+              0.0,
+              -0.0634977702,
+              819254.0211307199
+            ],
+            "width": 13228,
+            "height": 11811,
+            "nominal_resolution_m": [
+              0.0635088307,
+              0.0634977702
+            ],
+            "raster_bounds_epsg2326": [
+              839704.960780607,
+              818504.0489668878,
+              840545.0555931065,
+              819254.0211307199
+            ],
+            "index_core_bounds_epsg2326": [
+              839750,
+              818600,
+              840500,
+              819200
+            ],
+            "index_reprojected_bounds_epsg2326": [
+              839750.0002786486,
+              818599.9996978923,
+              840500.0002779902,
+              819199.9996983327
+            ],
+            "index_integral_grid_snap": true,
+            "index_snap_tolerance_m": 0.01,
+            "margins_west_south_east_north_m": [
+              45.03921939304564,
+              95.95103311224375,
+              45.05559310654644,
+              54.02113071992062
+            ],
+            "core_within_raster": true,
+            "rasterio_tfw_max_coefficient_difference": 0.0,
+            "metadata_checks_pass": true,
+            "printed_grid_status": "not_independently_checked",
+            "cartographic_ground_accuracy_m": null
+          }
+        ],
+        "mosaic_pixel_edge_endpoints": [
+          [
+            1,
+            224
+          ],
+          [
+            802,
+            998
+          ]
+        ],
+        "EN_m": [
+          [
+            839001,
+            819576
+          ],
+          [
+            839802,
+            818802
+          ]
+        ],
+        "grid_crs": "EPSG:2326",
+        "query_date": "1993-11-04",
+        "query_date_presence_certified": false,
+        "category": "derived from selected mapped line",
+        "top_height_HKPD_m": null,
+        "physical_horizontal_error_bound_m": null,
+        "physical_vertical_error_bound_m": null,
+        "clearance_eligible": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.20339997271519,
+            22.315171601651286
+          ],
+          [
+            114.2111725090288,
+            22.30818045596347
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "mapped_runway_edge_1_1993",
+        "meaning": "partial opposing mapped runway edge, visually selected fromHoughcandidates",
+        "source_mosaic": "integrated/geometry/south_runway_map.png",
+        "source_mosaic_sha256": "e5a4ae8262a1e6e830090381919473d25ba9523785b939081ad05c23200bb3e4",
+        "source_sheet_records": [
+          {
+            "source_id": "1980_1990:865",
+            "sheet": "11-NE-17C",
+            "edition_date": "1993-07-01",
+            "date_precision": "month",
+            "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_865_11-NE-17C_1993-07-01.zip",
+            "source_sha256": "a6f06e70e64aef9be7bf26096b1f4464d8735e75a30ac5fa0116e1429dba912c",
+            "receipt_sha256": "a6f06e70e64aef9be7bf26096b1f4464d8735e75a30ac5fa0116e1429dba912c",
+            "source_sha256_matches": true,
+            "crc_ok": true,
+            "tiff_member": "HP1C-11NE17C-199307.tif",
+            "tiff_sha256": "e620c536df6a7d49cd2ab4f5b54c4bb70c46d2afa9085a562c424c464f4e1369",
+            "tfw_member": "HP1C-11NE17C-199307.tfw",
+            "tfw_sha256": "5723ff8cc0ce7dc8167054aacdb84a76dc56d192c5cebd8aa4c280607ee2ae78",
+            "tfw_text": "0.0635035532\n0.0000000000\n0.0000000000\n-0.0635101824\n838953.1164460144\n819855.8959718221\n",
+            "crs": "EPSG:2326",
+            "crs_in_tiff": "None",
+            "crs_assignment_basis": "Hong Kong 1980 Grid source documentation and printed sheet legend",
+            "affine_pixel_edges": [
+              0.0635035532,
+              0.0,
+              838953.0846942378,
+              0.0,
+              -0.0635101824,
+              819855.9277269132
+            ],
+            "width": 13228,
+            "height": 11811,
+            "nominal_resolution_m": [
+              0.0635035532,
+              0.0635101824
+            ],
+            "raster_bounds_epsg2326": [
+              838953.0846942378,
+              819105.8089625868,
+              839793.1096959674,
+              819855.9277269132
+            ],
+            "index_core_bounds_epsg2326": [
+              839000,
+              819200,
+              839750,
+              819800
+            ],
+            "index_reprojected_bounds_epsg2326": [
+              839000.0002804081,
+              819199.9996969267,
+              839750.0002797495,
+              819799.9996973692
+            ],
+            "index_integral_grid_snap": true,
+            "index_snap_tolerance_m": 0.01,
+            "margins_west_south_east_north_m": [
+              46.91530576220248,
+              94.1910374131985,
+              43.10969596740324,
+              55.92772691324353
+            ],
+            "core_within_raster": true,
+            "rasterio_tfw_max_coefficient_difference": 0.0,
+            "metadata_checks_pass": true,
+            "printed_grid_status": "not_independently_checked",
+            "cartographic_ground_accuracy_m": null
+          },
+          {
+            "source_id": "1980_1990:1002",
+            "sheet": "11-NE-22A",
+            "edition_date": "1993-08-01",
+            "date_precision": "month",
+            "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_1002_11-NE-22A_1993-08-01.zip",
+            "source_sha256": "8184de272cc541a2be195204e6ba388933d0da81da7a82bb221ff58b593fe871",
+            "receipt_sha256": "8184de272cc541a2be195204e6ba388933d0da81da7a82bb221ff58b593fe871",
+            "source_sha256_matches": true,
+            "crc_ok": true,
+            "tiff_member": "HP1C-11NE22A-199308.tif",
+            "tiff_sha256": "059e48f32c7cb8126849a6806a64df58d138f591cbdee6684d8dd40d00bd7f58",
+            "tfw_member": "HP1C-11NE22A-199308.tfw",
+            "tfw_sha256": "7ee5575956056ad636eb3aef6e9045311df36a3ee276a4ec2420cb62f72977e2",
+            "tfw_text": "0.0635032278\n0.0000000000\n0.0000000000\n-0.0635032278\n838955.0654127325\n819254.0307162262\n",
+            "crs": "EPSG:2326",
+            "crs_in_tiff": "None",
+            "crs_assignment_basis": "Hong Kong 1980 Grid source documentation and printed sheet legend",
+            "affine_pixel_edges": [
+              0.0635032278,
+              0.0,
+              838955.0336611186,
+              0.0,
+              -0.0635032278,
+              819254.0624678402
+            ],
+            "width": 13228,
+            "height": 11811,
+            "nominal_resolution_m": [
+              0.0635032278,
+              0.0635032278
+            ],
+            "raster_bounds_epsg2326": [
+              838955.0336611186,
+              818504.0258442943,
+              839795.054358457,
+              819254.0624678402
+            ],
+            "index_core_bounds_epsg2326": [
+              839000,
+              818600,
+              839750,
+              819200
+            ],
+            "index_reprojected_bounds_epsg2326": [
+              839000.000279854,
+              818599.9996971897,
+              839750.0002791984,
+              819199.9996976301
+            ],
+            "index_integral_grid_snap": true,
+            "index_snap_tolerance_m": 0.01,
+            "margins_west_south_east_north_m": [
+              44.966338881407864,
+              95.974155705655,
+              45.0543584569823,
+              54.06246784015093
+            ],
+            "core_within_raster": true,
+            "rasterio_tfw_max_coefficient_difference": 0.0,
+            "metadata_checks_pass": true,
+            "printed_grid_status": "not_independently_checked",
+            "cartographic_ground_accuracy_m": null
+          },
+          {
+            "source_id": "1980_1990:1007",
+            "sheet": "11-NE-22B",
+            "edition_date": "1993-08-01",
+            "date_precision": "month",
+            "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_1007_11-NE-22B_1993-08-01.zip",
+            "source_sha256": "cda1476d6043eb9a1a9dded05a7fe1ae49fc5bd73013f105ccc9275fde153127",
+            "receipt_sha256": "cda1476d6043eb9a1a9dded05a7fe1ae49fc5bd73013f105ccc9275fde153127",
+            "source_sha256_matches": true,
+            "crc_ok": true,
+            "tiff_member": "HP1C-11NE22B-199308.tif",
+            "tiff_sha256": "9bf61b2389f4888ed67f45e8b5d94b80f989d1d3da809ad6e9d06ecc8e1a2ef0",
+            "tfw_member": "HP1C-11NE22B-199308.tfw",
+            "tfw_sha256": "b67451aac1d0d0a12146ff3968a9a4a09316cbbff67317d3a4e953f0b4696626",
+            "tfw_text": "0.0635088307\n0.0000000000\n0.0000000000\n-0.0634977702\n839704.9925350223\n819253.9893818349\n",
+            "crs": "EPSG:2326",
+            "crs_in_tiff": "None",
+            "crs_assignment_basis": "Hong Kong 1980 Grid source documentation and printed sheet legend",
+            "affine_pixel_edges": [
+              0.0635088307,
+              0.0,
+              839704.960780607,
+              0.0,
+              -0.0634977702,
+              819254.0211307199
+            ],
+            "width": 13228,
+            "height": 11811,
+            "nominal_resolution_m": [
+              0.0635088307,
+              0.0634977702
+            ],
+            "raster_bounds_epsg2326": [
+              839704.960780607,
+              818504.0489668878,
+              840545.0555931065,
+              819254.0211307199
+            ],
+            "index_core_bounds_epsg2326": [
+              839750,
+              818600,
+              840500,
+              819200
+            ],
+            "index_reprojected_bounds_epsg2326": [
+              839750.0002786486,
+              818599.9996978923,
+              840500.0002779902,
+              819199.9996983327
+            ],
+            "index_integral_grid_snap": true,
+            "index_snap_tolerance_m": 0.01,
+            "margins_west_south_east_north_m": [
+              45.03921939304564,
+              95.95103311224375,
+              45.05559310654644,
+              54.02113071992062
+            ],
+            "core_within_raster": true,
+            "rasterio_tfw_max_coefficient_difference": 0.0,
+            "metadata_checks_pass": true,
+            "printed_grid_status": "not_independently_checked",
+            "cartographic_ground_accuracy_m": null
+          }
+        ],
+        "mosaic_pixel_edge_endpoints": [
+          [
+            36,
+            173
+          ],
+          [
+            806,
+            917
+          ]
+        ],
+        "EN_m": [
+          [
+            839036,
+            819627
+          ],
+          [
+            839806,
+            818883
+          ]
+        ],
+        "grid_crs": "EPSG:2326",
+        "query_date": "1993-11-04",
+        "query_date_presence_certified": false,
+        "category": "derived from selected mapped line",
+        "top_height_HKPD_m": null,
+        "physical_horizontal_error_bound_m": null,
+        "physical_vertical_error_bound_m": null,
+        "clearance_eligible": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.20373975964019,
+            22.31563210613636
+          ],
+          [
+            114.21121150887457,
+            22.308911926744738
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "recorded_utc": "2026-10-13T15:47:00.678694+00:00",
+  "reviewer": "taskowner visualsource/artifact inspection",
+  "independent_peer_review": false,
+  "items": [
+    {
+      "path": "sources/approach_chart.png",
+      "sha256": "83d8d7d4ea37d5bd71b69697905d6e8bfc31196b1c57b3fb523bc84e872dbb41",
+      "inspection": "Directly read Appendix1 symbols/procedure; no preciseMMcoordinate inferred"
+    },
+    {
+      "path": "sources/runway_plan_variation_read.png",
+      "sha256": "603f0a3ea67ff5fe4c869d04b06a274a3f8407dd173643d7d9c53728360b59e0",
+      "inspection": "Upright read confirms1degree50minutesW; no conflictingvariation adopted"
+    },
+    {
+      "path": "sources/boeing_page_31.png",
+      "sha256": "f8fddbb615072f4b66e40101a0e71d6953411a691fbef318c8b884d1bc8e936a",
+      "inspection": "Staticdimensions inspected; no flightbound inferred"
+    },
+    {
+      "path": "sources/boeing_page_34.png",
+      "sha256": "5c0f1bb65b02703e042c1d9995d9d2265957444d0159e18a0f46f86d923e305b",
+      "inspection": "Staticgroundclearance/loadingranges inspected"
+    },
+    {
+      "path": "sources/boeing_performance_97.png",
+      "sha256": "bdd2e22c502eedd3878cb1064d3b67475dae070cedbfed8b2b5adc0109794db3",
+      "inspection": "Airportplanning FARlandingcurve conditions; no stoppinglawcalibration"
+    },
+    {
+      "path": "sources/printed_grid_830.png",
+      "sha256": "3bfbe2141c207b91400617c7cd5df6a0a94329dcc94d9b710751e9c5c41e2367",
+      "inspection": "Read820300N,820100N,838300E,838600E labels"
+    },
+    {
+      "path": "sources/hill_additional_spots_original.png",
+      "sha256": "32f43249eb6cba6997f6f5670077b7430e0e079c8d53c8ffdae8a8b46efd93a5",
+      "inspection": "Eightreadable acceptedgroundspots; ambiguous readings withheld/null"
+    },
+    {
+      "path": "geometry/hill_terrain_picks.png",
+      "sha256": "90d8889885cd04ad8258844b247493b60d029bf7eb321d5b49108c7b7c045e56",
+      "inspection": "Contour60/80 traces and sourcecrosses checked; ambiguousspotlabelunreadable"
+    },
+    {
+      "path": "geometry/seawall_source_picks.png",
+      "sha256": "d29150a1f1e4d6ee815490740605189290d4687a29f99fab82ff821b741d895f",
+      "inspection": "Refinededge checked; partialline, no walltop"
+    },
+    {
+      "path": "geometry/mapped_runway_edge_candidates.png",
+      "sha256": "ab4fa6e25f8bc2d1012c89c1721ab13d83d578b2e46e48223e866acb4b71a58f",
+      "inspection": "Opposingrunwayedges selected; linesextendingintosea notaccepted"
+    },
+    {
+      "path": "geometry/RW13_threshold_detail.png",
+      "sha256": "c09211f4c59d98acb4ecc598edfa71ca7f018eaae44635214413b6a4311bc573",
+      "inspection": "Thresholdbarcentre distinguished fromendofpianomarks"
+    },
+    {
+      "path": "geometry/A36172_runway_end_detail.png",
+      "sha256": "4cc17425c06aa751829b99ee8fc16af7965b39a161f46136825543fb756d5247",
+      "inspection": "Physicalend interpretation remainsdiagnostic"
+    },
+    {
+      "path": "geometry/runway_map_mosaic.png",
+      "sha256": "e6daae428f76350a2d4bb6108a3298244bfb2aab4308f7184bce5a56f2e169ff",
+      "inspection": "Area-average display removes blackhalftone artefact; overviewonly"
+    },
+    {
+      "path": "geometry/airframe_envelope.png",
+      "sha256": "923c4b3ba71a560ccd5b74324516934698852407ba348b2d5ea50a0936dfba53",
+      "inspection": "Conditionalstaticdimensionbox, not accurateoccupiedflightmesh"
+    },
+    {
+      "path": "evidence_gates.png",
+      "sha256": "85c099eb380ef86755871a4656780f05306fe68a7ae1e0d797bcd854337942fb",
+      "inspection": "Labels distinguishdiagnosticregistration andnecessarywindcondition"
+    }
+  ],
+  "scope": "readings/plotsemantics only; not historical physicalvalidation"
+}

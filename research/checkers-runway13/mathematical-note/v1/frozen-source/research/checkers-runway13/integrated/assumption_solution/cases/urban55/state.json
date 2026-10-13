@@ -1,0 +1,18 @@
+{
+  "status": "completed_numerical_secondary_polish",
+  "condition": {
+    "name": "urban55",
+    "urban": 55,
+    "roof_delta": 0,
+    "frame_dx": 0,
+    "frame_dy": 0,
+    "runway_level": 6,
+    "buffer": 5,
+    "wind_mps": [
+      -4.876589552990943,
+      9.64006667211232,
+      0
+    ]
+  },
+  "result_sha256": "d7db59afd9758e233573a583625fc3f4538c1e14ba397b292fab445ee0f077aa"
+}

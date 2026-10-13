@@ -1,0 +1,211 @@
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex)
+entering extended mode
+(./main.tex
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-08-10>
+(./RFS.cls
+Document Class: RFS 2000/05/19 v1.4b Standard LaTeX document class
+(/TEXMF_ROOT/texmf-dist/tex/latex/psnfss/pifont.sty (/TEXMF_ROOT/texmf-dist/tex/latex/psnfss/upzd.fd) (/TEXMF_ROOT/texmf-dist/tex/latex/psnfss/upsy.fd)) (/TEXMF_ROOT/texmf-dist/tex/latex/base/latexsym.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/base/ifthen.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/jknapltx/mathrsfs.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/graphics/rotating.sty (/TEXMF_ROOT/texmf-dist/tex/latex/graphics/graphicx.sty (/TEXMF_ROOT/texmf-dist/tex/latex/graphics/keyval.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/graphics/graphics.sty (/TEXMF_ROOT/texmf-dist/tex/latex/graphics/trig.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (/TEXMF_ROOT/texmf-dist/tex/latex/graphics-def/xetex.def)))) (/TEXMF_ROOT/texmf-dist/tex/latex/tools/calc.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/textcase/textcase.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/booktabs/booktabs.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/tools/dcolumn.sty (/TEXMF_ROOT/texmf-dist/tex/latex/tools/array.sty)) (/TEXMF_ROOT/texmf-dist/tex/latex/wrapfig/wrapfig.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/boxedminipage/boxedminipage.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/multirow/multirow.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/graphics/epsfig.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/amsfonts/amsfonts.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/amsfonts/amssymb.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/amsmath/amsbsy.sty (/TEXMF_ROOT/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/TEXMF_ROOT/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/TEXMF_ROOT/texmf-dist/tex/latex/amsmath/amstext.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/TEXMF_ROOT/texmf-dist/tex/latex/natbib/natbib.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/amsfonts/euscript.sty)
+
+Package array Warning: Redefining primitive column m on input line 1656.
+
+
+Package array Warning: Column d is already defined on input line 1816.
+
+
+Package array Warning: Column m is already defined on input line 1817.
+
+(/TEXMF_ROOT/texmf-dist/tex/latex/url/url.sty) (./crop.sty (/TEXMF_ROOT/texmf-dist/tex/latex/graphics/color.sty (/TEXMF_ROOT/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/TEXMF_ROOT/texmf-dist/tex/latex/graphics/mathcolor.ltx)))
+==> First Aid for crop.sty applied!
+) (./rfs-workingpaper.sty (/TEXMF_ROOT/texmf-dist/tex/latex/fontspec/fontspec.sty (/TEXMF_ROOT/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty (/TEXMF_ROOT/texmf-dist/tex/latex/base/fontenc.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/TEXMF_ROOT/texmf-dist/tex/latex/newtx/newtxmath.sty `newtxmath' v1.754, 2024/09/22 Math macros based originally on txfonts (msharpe) (/TEXMF_ROOT/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/TEXMF_ROOT/texmf-dist/tex/generic/iftex/iftex.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/xkeyval/xkeyval.sty (/TEXMF_ROOT/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/TEXMF_ROOT/texmf-dist/tex/generic/xkeyval/xkvutils.tex))) (/TEXMF_ROOT/texmf-dist/tex/latex/oberdiek/centernot.sty) (/TEXMF_ROOT/texmf-dist/tex/generic/kastrup/binhex.tex)
+amsthm NOT loaded
+) (/TEXMF_ROOT/texmf-dist/tex/latex/mathtools/mathtools.sty (/TEXMF_ROOT/texmf-dist/tex/latex/mathtools/mhsetup.sty)) (/TEXMF_ROOT/texmf-dist/tex/latex/microtype/microtype.sty (/TEXMF_ROOT/texmf-dist/tex/latex/microtype/microtype-xetex.def) (/TEXMF_ROOT/texmf-dist/tex/latex/microtype/microtype.cfg)) (/TEXMF_ROOT/texmf-dist/tex/latex/tools/tabularx.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/float/float.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/placeins/placeins.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/enumitem/enumitem.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/setspace/setspace.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/needspace/needspace.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/geometry/geometry.sty (/TEXMF_ROOT/texmf-dist/tex/generic/iftex/ifvtex.sty)) (/TEXMF_ROOT/texmf-dist/tex/latex/base/ulasy.fd) (/TEXMF_ROOT/texmf-dist/tex/latex/jknapltx/ursfs.fd) (/TEXMF_ROOT/texmf-dist/tex/latex/hyperref/hyperref.sty (/TEXMF_ROOT/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty) (/TEXMF_ROOT/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty) (/TEXMF_ROOT/texmf-dist/tex/generic/pdfescape/pdfescape.sty (/TEXMF_ROOT/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (/TEXMF_ROOT/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty (/TEXMF_ROOT/texmf-dist/tex/generic/infwarerr/infwarerr.sty))) (/TEXMF_ROOT/texmf-dist/tex/latex/hycolor/hycolor.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/hyperref/nameref.sty (/TEXMF_ROOT/texmf-dist/tex/latex/refcount/refcount.sty) (/TEXMF_ROOT/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty (/TEXMF_ROOT/texmf-dist/tex/latex/kvoptions/kvoptions.sty))) (/TEXMF_ROOT/texmf-dist/tex/generic/stringenc/stringenc.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/hyperref/pd1enc.def) (/TEXMF_ROOT/texmf-dist/tex/generic/intcalc/intcalc.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/hyperref/puenc.def) (/TEXMF_ROOT/texmf-dist/tex/generic/bitset/bitset.sty (/TEXMF_ROOT/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))) (/TEXMF_ROOT/texmf-dist/tex/latex/hyperref/hxetex.def (/TEXMF_ROOT/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty (/TEXMF_ROOT/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty))) (/TEXMF_ROOT/texmf-dist/tex/generic/stringenc/se-ascii-print.def)) (/TEXMF_ROOT/texmf-dist/tex/latex/tools/longtable.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/xcolor/xcolor.sty (/TEXMF_ROOT/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/TEXMF_ROOT/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/TEXMF_ROOT/texmf-local/tex/latex/xurl/xurl.sty) (/TEXMF_ROOT/texmf-dist/tex/latex/l3kernel/l3backend-xetex.def) (./main.aux) (/TEXMF_ROOT/texmf-dist/tex/latex/newtx/omlntxmi.fd) (/TEXMF_ROOT/texmf-dist/tex/latex/newtx/untxexa.fd) (/TEXMF_ROOT/texmf-dist/tex/latex/newtx/lmsntxsy.fd) (/TEXMF_ROOT/texmf-dist/tex/latex/newtx/lmxntxexx.fd)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+(./main.out) (./main.out) (./abstract.tex) (/TEXMF_ROOT/texmf-dist/tex/latex/newtx/ot1minntx.fd) (/TEXMF_ROOT/texmf-dist/tex/latex/amsfonts/umsa.fd) (/TEXMF_ROOT/texmf-dist/tex/latex/microtype/mt-msa.cfg) (/TEXMF_ROOT/texmf-dist/tex/latex/amsfonts/umsb.fd) (/TEXMF_ROOT/texmf-dist/tex/latex/microtype/mt-msb.cfg) (/TEXMF_ROOT/texmf-dist/tex/latex/newtx/untxmia.fd) (/TEXMF_ROOT/texmf-dist/tex/latex/newtx/untxsym.fd) (/TEXMF_ROOT/texmf-dist/tex/latex/newtx/untxsyc.fd)
+Underfull \hbox (badness 1881) in paragraph at lines 21--21
+\TU/Times(0)/m/n/12 of an exact active solution with primary normalized margin near
+[1] (./sections/introduction.tex
+Underfull \hbox (badness 1281) in paragraph at lines 2--3
+\TU/Times(0)/m/n/12 A landing is a constrained connection between two different dynamical
+
+Package natbib Warning: Citation `v5' on page 2 undefined on input line 4.
+
+
+Package natbib Warning: Citation `repository' on page 2 undefined on input line 4.
+
+
+Underfull \hbox (badness 2717) in paragraph at lines 4--5
+[]\TU/Times(0)/m/n/12 This note considers the assumption-conditional model A1 developed
+
+Package natbib Warning: Citation `krawczyk' on page 2 undefined on input line 15.
+
+
+Package natbib Warning: Citation `rump' on page 2 undefined on input line 15.
+
+) (./sections/model.tex
+Underfull \hbox (badness 2913) in paragraph at lines 17--1
+\TU/Times(0)/m/n/12 aircraft dimensions together with assumed force limits, a conservative
+[2]
+Underfull \hbox (badness 4132) in paragraph at lines 16--18
+\TU/Times(0)/m/n/12 For $\OML/ntxmi/m/it/12 F \U/ntxmia/m/it/12 = \OML/ntxmi/m/it/12 m\LMS/ntxsy/m/n/12 ¹[] Ï \OML/ntxmi/m/it/12 ge[]\LMS/ntxsy/m/n/12 º$\TU/Times(0)/m/n/12 , set $\OML/ntxmi/m/it/12 L[] \U/ntxmia/m/it/12 = \OML/ntxmi/m/it/12 F \LMS/ntxsy/m/n/12 ^^A \OML/ntxmi/m/it/12 e[]$\TU/Times(0)/m/n/12 , $\OML/ntxmi/m/it/12 L[] \U/ntxmia/m/it/12 = \OML/ntxmi/m/it/12 F \LMS/ntxsy/m/n/12 ^^A \OML/ntxmi/m/it/12 e[]$\TU/Times(0)/m/n/12 , $\OML/ntxmi/m/it/12 L \U/ntxmia/m/it/12 = \LMS/ntxsy/m/n/12 ¹\OML/ntxmi/m/it/12 L[] \LMS/ntxsy/m/n/12 Ï \OML/ntxmi/m/it/12 L[]\LMS/ntxsy/m/n/12 º[]$ \TU/Times(0)/m/n/12 and $\OML/ntxmi/m/it/12 ^^^ \U/ntxmia/m/it/12 =
+
+Underfull \hbox (badness 3635) in paragraph at lines 16--18
+[]\LMS/ntxsy/m/n/12 ¹\OML/ntxmi/m/it/12 L[]; L[]\LMS/ntxsy/m/n/12 º$\TU/Times(0)/m/n/12 . Lift points along $[] \OML/ntxmi/m/it/12 ^^^ e[] \LMS/ntxsy/m/n/12 Ï [] \OML/ntxmi/m/it/12 ^^^ e[]$\TU/Times(0)/m/n/12 . The reduced Newton
+[3]
+Underfull \hbox (badness 3930) in paragraph at lines 66--68
+\TU/Times(0)/m/n/12 The positive square-root branch and $\OML/ntxmi/m/it/12 G[] > \OT1/minntx/m/n/12 0$ \TU/Times(0)/m/n/12 are part of the endpoint
+
+Underfull \hbox (badness 3884) in paragraph at lines 69--70
+[]\TU/Times(0)/m/n/12 The inherited corridor is also an exact part of the definition. Let
+
+Underfull \hbox (badness 1867) in paragraph at lines 69--70
+\LMS/ntxsy/m/n/12 R$ \TU/Times(0)/m/n/12 be the 2,001 CG-reference points used by the sealed checker, with
+
+Underfull \hbox (badness 2644) in paragraph at lines 69--70
+\TU/Times(0)/m/n/12 their stored binary64 coordinate values interpreted exactly. The frozen
+
+Underfull \hbox (badness 1127) in paragraph at lines 69--70
+\TU/Times(0)/m/n/12 independently reconstructs the upward shift and verifies equality to this
+[4]
+Underfull \hbox (badness 1024) in paragraph at lines 88--89
+\TU/Times(0)/m/n/12 predicates and intended gear contact are hard constraints, not additional
+[5]
+Underfull \hbox (badness 1546) in paragraph at lines 118--119
+\TU/Times(0)/m/n/12 threshold easting/northing is $\LMS/ntxsy/m/n/12 ¹\OT1/minntx/m/n/12 838277\OML/ntxmi/m/it/12 :\OT1/minntx/m/n/12 9926795285\OML/ntxmi/m/it/12 ; \OT1/minntx/m/n/12 820320\OML/ntxmi/m/it/12 :\OT1/minntx/m/n/12 961097593\LMS/ntxsy/m/n/12 º$ \TU/Times(0)/m/n/12 m
+[6]
+Underfull \hbox (badness 1960) in paragraph at lines 130--132
+\TU/Times(0)/m/n/12 Throughout this phase $\OML/ntxmi/m/it/12 y \U/ntxmia/m/it/12 = \OT1/minntx/m/n/12 0\OML/ntxmi/m/it/12 ; z \U/ntxmia/m/it/12 = \OT1/minntx/m/n/12 6$\TU/Times(0)/m/n/12 . Let $\OML/ntxmi/m/it/12 L[] \U/ntxmia/m/it/12 = \OT1/minntx/m/n/12 2786 \LMS/ntxsy/m/n/12 ^^@ \OT1/minntx/m/n/12 150 \U/ntxmia/m/it/12 = \OT1/minntx/m/n/12 2636$\TU/Times(0)/m/n/12 . The exact
+) [7] (./sections/analytical.tex
+Underfull \hbox (badness 1436) in paragraph at lines 10--11
+\TU/Times(0)/b/n/12 Proof. $\OML/ntxmi/m/it/12 S[] \U/ntxmia/m/it/12 = \OT1/minntx/m/n/12 1$ \TU/Times(0)/m/n/12 and $\OML/ntxmi/m/it/12 S[] \U/ntxmia/m/it/12 = \OML/ntxmi/m/it/12 ^^\ \LMS/ntxsy/m/n/12 Ï \OML/ntxmi/m/it/12 U\LMS/ntxsy/m/n/12 ^^9d\OML/ntxmi/m/it/12 a[] > \OT1/minntx/m/n/12 0$ \TU/Times(0)/m/n/12 for $\OML/ntxmi/m/it/12 U > \OT1/minntx/m/n/12 0$\TU/Times(0)/m/n/12 . Multiplying the stopping
+[8]
+Underfull \hbox (badness 1521) in paragraph at lines 28--29
+\TU/Times(0)/m/n/12 and the branch choice require $\OML/ntxmi/m/it/12 U \LMS/ntxsy/m/n/12 ^^U \OML/ntxmi/m/it/12 U[]$\TU/Times(0)/m/n/12 . Lemma []1[] gives []. The entry
+
+Underfull \hbox (badness 1297) in paragraph at lines 43--44
+[]\TU/Times(0)/m/n/12 The polynomial family additionally imposes $\OML/ntxmi/m/it/12 U \LMS/ntxsy/m/n/12 ^^U \OT1/minntx/m/n/12 69$\TU/Times(0)/m/n/12 . Replacing $\OML/ntxmi/m/it/12 U[]$ \TU/Times(0)/m/n/12 by
+[9]
+Underfull \hbox (badness 1354) in paragraph at lines 59--60
+\TU/Times(0)/m/n/12 of the declared family satisfying the hard ground and bank constraints,
+
+Underfull \hbox (badness 1917) in paragraph at lines 59--60
+\OML/ntxmi/m/it/12 V; H; L; L[]$ \TU/Times(0)/m/n/12 are uniformly separated from zero. Thus inverse forces and
+
+Underfull \hbox (badness 1308) in paragraph at lines 62--63
+\TU/Times(0)/m/n/12 are consequently bounded away from zero. Polynomial dependence and
+(./sections/attainment.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+[]\TU/Times(0)/m/n/12 For the
+
+Underfull \hbox (badness 1406) in paragraph at lines 2--3
+\TU/Times(0)/m/n/12 that the maximum primary value is attained. For any nonempty closed
+) [10]
+Underfull \hbox (badness 2865) in paragraph at lines 78--79
+[]\TU/Times(0)/m/n/12 Assume $\OML/ntxmi/m/it/12 V[] \LMS/ntxsy/m/n/12 ^^@ \OML/ntxmi/m/it/12 w[] \LMS/ntxsy/m/n/12 ^^@ \OT1/minntx/m/n/12 22[] \OML/ntxmi/m/it/12 > \OT1/minntx/m/n/12 0$\TU/Times(0)/m/n/12 . At the gate $\OML/ntxmi/m/it/12 v[] > \OT1/minntx/m/n/12 0$\TU/Times(0)/m/n/12 ; since $\OML/ntxmi/m/it/12 v[] \LMS/ntxsy/m/n/12 ^^U \OML/ntxmi/m/it/12 V[] \LMS/ntxsy/m/n/12 ^^@ \OML/ntxmi/m/it/12 w[] \LMS/ntxsy/m/n/12 ^^@ \OT1/minntx/m/n/12 22[]$\TU/Times(0)/m/n/12 ,
+[11]
+Underfull \hbox (badness 4303) in paragraph at lines 128--129
+[]\TU/Times(0)/m/n/12 For the baseline wind
+) [12] (./sections/active.tex
+Underfull \hbox (badness 4505) in paragraph at lines 2--3
+\TU/Times(0)/m/n/12 Write $\OML/ntxmi/m/it/12 a \U/ntxmia/m/it/12 = \LMS/ntxsy/m/n/12 ¹\OML/ntxmi/m/it/12 T[]; b[]; c[]; b[]; c[]; b[]; c[]\LMS/ntxsy/m/n/12 º$ \TU/Times(0)/m/n/12 for the approach coordinates and $\OML/ntxmi/m/it/12 p \U/ntxmia/m/it/12 =
+[13]) (./sections/local.tex [14]
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[]\TU/Times(0)/m/n/12 For the baseline
+[15]
+Underfull \hbox (badness 1360) in paragraph at lines 36--37
+\TU/Times(0)/m/n/12 separated interval inequalities. Newton iteration only selected $\OML/ntxmi/m/it/12 c$\TU/Times(0)/m/n/12 ; neither
+[16] [17]
+Underfull \hbox (badness 7777) in paragraph at lines 74--75
+[]\TU/Times(0)/m/n/12 Let $\OML/ntxmi/m/it/12 p[]$ \TU/Times(0)/m/n/12 be
+) [18] (./sections/continuous.tex
+Underfull \hbox (badness 3815) in paragraph at lines 20--21
+[]\TU/Times(0)/m/n/12 At the exact root path, each
+[19] [20]
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+[]\TU/Times(0)/m/n/12 Retain the
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
+[]\TU/Times(0)/m/n/12 The rounded stop position is $\OT1/minntx/m/n/12 2234\OML/ntxmi/m/it/12 :\OT1/minntx/m/n/12 377025300292$ \TU/Times(0)/m/n/12 m, leaving
+
+Underfull \hbox (badness 2529) in paragraph at lines 55--57
+\TU/Times(0)/m/n/12 integration of Newton’s equation of the rounded numerical centre has
+
+Underfull \hbox (badness 1221) in paragraph at lines 55--57
+\TU/Times(0)/m/n/12 maximum position discrepancy about $\OT1/minntx/m/n/12 1\OML/ntxmi/m/it/12 :\OT1/minntx/m/n/12 14 \LMS/ntxsy/m/n/12 ^^B \OT1/minntx/m/n/12 10[]$ \TU/Times(0)/m/n/12 m. That number tests
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+[]\TU/Times(0)/m/n/12 The
+[22]) (./sections/conditional.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+[]\TU/Times(0)/m/n/12 The
+
+Underfull \hbox (badness 1442) in paragraph at lines 12--14
+\TU/Times(0)/b/n/12 Computer-assisted proof. \TU/Times(0)/m/n/12 The root box proves $\OML/ntxmi/m/it/12 ^^Q[] \LMS/ntxsy/m/n/12 ^^T [] \U/ntxmia/m/it/12 = \OML/ntxmi/m/it/12 c[] \LMS/ntxsy/m/n/12 Ï \OT1/minntx/m/n/12 10[]$\TU/Times(0)/m/n/12 . The
+[23]
+Underfull \hbox (badness 1286) in paragraph at lines 31--33
+\TU/Times(0)/m/n/12 guarantee that the same active regime remains controlling throughout a
+[24]
+Underfull \hbox (badness 1009) in paragraph at lines 56--58
+\TU/Times(0)/m/n/12 enlarge this set but do not exclude a possible value. Each of the three
+(./condition_table.tex)
+Underfull \hbox (badness 1558) in paragraph at lines 63--66
+\TU/Times(0)/m/n/12 not estimates of the global optima. Every row has its own continuous
+)
+Underfull \hbox (badness 5622) in paragraph at lines 67--31
+[]\TU/Times(0)/m/n/12 A separate fixed-gate check excludes the specific frame-shift case
+[25] [26] (./sections/discussion.tex
+Underfull \hbox (badness 2269) in paragraph at lines 2--3
+\TU/Times(0)/m/n/12 interval coverage establish feasibility, including the approach, occupied
+
+Underfull \hbox (badness 3386) in paragraph at lines 8--9
+\TU/Times(0)/m/n/12 reduced model omits calibrated aerodynamic uncertainty, six-degree-of-
+
+Underfull \hbox (badness 1360) in paragraph at lines 8--9
+\TU/Times(0)/m/n/12 freedom attitude dynamics, load-rated contact, causal gust response and
+) [27] (./appendices.tex
+Underfull \hbox (badness 1728) in paragraph at lines 37--39
+\TU/Times(0)/m/n/12 The horizontal-air-speed separation can even be proved by the rational
+[28] (./root_table.tex [29]) (./approach_table.tex) [30]
+Underfull \hbox (badness 2103) in paragraph at lines 107--108
+\TU/Times(0)/m/n/12 the mixed derivatives for $\OML/ntxmi/m/it/12 DF$\TU/Times(0)/m/n/12 , including derivatives of the stationarity
+
+Underfull \hbox (badness 1189) in paragraph at lines 107--108
+\TU/Times(0)/m/n/12 use their second derivatives. This is why finite-difference Jacobians are
+[31]
+Underfull \hbox (badness 1259) in paragraph at lines 120--121
+\TU/Times(0)/m/n/12 are enclosures of all real times in their domains, not quadrature nodes.
+(./wind_table.tex) [32] [33]
+Underfull \hbox (badness 1496) in paragraph at lines 139--140
+\TU/Times(0)/m/n/12 compact figure inputs, V5’s unchanged academic class/style files and a
+
+Underfull \hbox (badness 2368) in paragraph at lines 139--140
+\TU/Times(0)/m/n/12 manifest-bound public proof-source subset. No private source scans or
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+[]\TU/Times(0)/m/n/12 The publicly reproducible numerical suite contains 102 numeri-
+[34]) [35] (./main.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 14--18
+[]\TU/Times(0)/m/n/9.6 ———. 2026b.  Kai tak landing research: Assumption-conditional scientific
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--18
+\TU/Times(0)/m/n/9.6 results and validated local certificate.  Research repository.  Source freeze
+)
+
+Package natbib Warning: There were undefined citations.
+
+[36] (./main.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)
+Output written on main.pdf (36 pages).
+Transcript written on main.log.

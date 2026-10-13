@@ -1,0 +1,7 @@
+from pathlib import Path
+import json,hashlib,numpy as np
+R=Path(__file__).resolve().parents[1];G=R/'integrated/geometry'
+rows=json.loads((R/'reconstruction/block_matching/registered/sheet_registration_inventory.json').read_text())['records'];r=next(x for x in rows if x['source_id']=='1980_1990:830')
+p=np.array([[134,214],[562,499],[134,499]],float);target=np.array([[838300,820300],[838600,820100],[838300,820100]],float);px=p*r['width']/1200;a,b,c,d,e,f=r['affine_pixel_edges'];en=np.c_[a*px[:,0]+b*px[:,1]+c,d*px[:,0]+e*px[:,1]+f]
+out={'source_id':r['source_id'],'archive':r['source_archive'],'source_sha256':r['source_sha256'],'printed_label_crop':'integrated/sources/printed_grid_830.png','printed_label_crop_sha256':hashlib.sha256((R/'integrated/sources/printed_grid_830.png').read_bytes()).hexdigest(),'display_frame':'sheet830 raster rescaled to1200pxwidth, pixel-edge convention','picks_display_xy':p.tolist(),'source_pixel_xy':px.tolist(),'read_printed_EN_m':target.tolist(),'worldfile_EN_m':en.tolist(),'residual_EN_m':(en-target).tolist(),'max_residual_distance_m':float(np.linalg.norm(en-target,axis=1).max()),'visual_pick_tolerance_display_px':1.5,'interpretation':'independent printed labels and grid intersections check raster transform convention; NOT physical1993ground accuracy, datum link or photo fitvalidation','historical_clearance_eligible':False}
+(G/'printed_grid_check.json').write_text(json.dumps(out,indent=2)+'\n');print(out['max_residual_distance_m'])

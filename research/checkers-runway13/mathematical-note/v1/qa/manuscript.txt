@@ -1,0 +1,1876 @@
+Certiﬁed Local Optimality in a Constrained
+Landing Model
+Aryan Ayyar
+A smooth airborne trajectory must satisfy force and control-rate limits
+at every time, clear an assumed occupied geometry, and connect to
+a feasible touchdown and stopping motion. We study this problem
+in a twelve-parameter polynomial family with a ﬁxed hybrid contact
+and braking law. For a declared constant wind, we prove existence
+of an exact active solution with primary normalized margin near
+0.1523607643018617. An outward-rounded Krawczyk calculation iso-
+lates a unique root of nine equations, coupling ﬁve ﬂare variables, the
+objective value and three interior event times. A validated positive
+simplex of six active gradients supplies a strict ﬁrst-order max-min
+sufﬁciency argument, rather than only necessary stationarity conditions.
+Stationary-event inequalities and a complete interval time cover establish
+feasibility of the connected landing. Dependence of the active margins
+on the ﬂare variables alone transfers the result to non-strict local primary
+optimality in the full family. Analytical stopping and coupled energy–
+thrust inequalities give a separate, unmatched global-family upper bound
+of 0.181970215. We also establish continuous primary retention for a
+delivered secondary trajectory and certiﬁed feasibility of small known-
+wind parameter domains. The conclusions concern the explicit reduced
+model and conservative assumed geometry; global primary optimality,
+secondary-effort optimality and an operational feedback landing policy
+remain open.
+Version 1 · 14 October 2026
+Independent mathematical research note. Companion to Checkers with Runway 13, Version 5.
+1
+
+Aryan Ayyar
+1. Introduction
+A landing is a constrained connection between two different dynamical
+regimes. During ﬂight, the shape and timing of the trajectory determine lift,
+thrust, bank and their rates. At touchdown, geometric contact replaces airborne
+motion; stopping then consumes the remaining runway. A trajectory can
+respect each endpoint requirement yet fail between endpoints, and a feasible
+numerical construction need not be locally optimal. The mathematical problem
+is to establish both statements for the same precisely deﬁned object.
+This note considers the assumption-conditional model A1 developed
+alongside Checkers with Runway 13 (Ayyar 2026a,b). Its variables describe
+a seventh-degree approach joined to a sixth-degree ﬂare, followed by ideal
+contact, a ﬁxed delay and constant-deceleration ground roll. The primary
+objective is the smallest normalized operating margin over the complete
+trajectory. Geometry is imposed as a hard constraint. The optimization is
+ﬁnite-dimensional, but its inequality system is indexed by continuous time.
+The principal result concerns ﬁve ﬂare parameters. Six limiting margins
+meet at a common value: stopping, three thrust-slew events, maximum load
+and minimum thrust. The interior event times are unknowns, so equal margins
+and stationarity deﬁne nine equations. A veriﬁed root is only the ﬁrst step.
+We prove that the active gradients form a simplex containing zero in its strict
+interior. Consequently every nonzero small ﬂare perturbation decreases at least
+one necessary margin to ﬁrst order. A uniform Taylor estimate makes this a
+strict local sufﬁciency theorem. Continuous-time veriﬁcation then connects
+this upper-support argument to an actually feasible landing.
+The approach has seven additional parameters. The six necessary active
+margins do not depend on them: the gate state is ﬁxed and their evaluation
+is entirely within the ﬂare or ground roll. This separation proves a non-strict
+local optimum of the twelve-parameter family. It neither identiﬁes a unique
+approach nor permits arbitrary variations outside that family. An independent
+family-wide exclusion gives the bracket
+0.15236076430186170190≤𝜂∗
+P ≤0.181970215.
+(1)
+The left side is constructive; the right side is a necessary bound derived
+after discarding constraints. Their positive separation is the remaining global
+question.
+The proof combines explicit analysis with ﬁnite interval computations. We
+give the contraction and local-sufﬁciency arguments in full, state exactly what
+the interval calculations enclose, and specify the immutable numerical inputs.
+Krawczyk’s inclusion method (Krawczyk 1969) and veriﬁed linear algebra
+(Rump 2010) are used as mathematical tools, not as substitutes for the argument
+connecting their outputs to optimality. Decimal display values, numerical
+trajectory plots and forward replay have different evidential roles from the
+exact root box and outward inequalities.
+2
+
+Certiﬁed Local Optimality
+The model is a declared mathematical scenario. It uses source-motivated
+aircraft dimensions together with assumed force limits, a conservative
+occupied set and an ideal contact law. The result does not certify a historical
+ﬂight. The earlier synthetic model in V5 is retained as a separate mathematical
+object; its coefﬁcients and certiﬁed values are not substituted into A1.
+2. Mathematical model and optimization problem
+2.1 Coordinates, state and force inversion
+Lengths, times and forces are in metres, seconds and newtons unless indicated
+otherwise. The runway frame has 𝑥forward from the threshold, 𝑦to the right
+and ℎvertically above runway level. Wind 𝑤= (𝑤𝑥,𝑤𝑦,0) is a velocity of air
+relative to ground; positive 𝑤𝑥is a tailwind. The baseline is the exact decimal
+vector
+𝑤0 = (−4.876589552990943, 9.64006667211232, 0).
+(2)
+The decision reference 𝑟= (𝑥,𝑦,ℎ) is virtual. The centre of gravity (CG) is
+𝑅=𝑟+6𝑒𝑧,
+¤𝑅= ¤𝑟,
+¥𝑅= ¥𝑟.
+(3)
+The offset is ﬁxed in the inertial vertical direction, not in the rotating body.
+Thus 𝑟is not a wheel point during bank. We use 𝑧= 𝑅𝑧=ℎ+6 throughout all
+aerodynamic expressions.
+Let 𝑣= ¤𝑅−𝑤, 𝑉= |𝑣| and 𝐻= (𝑣2
+𝑥+𝑣2
+𝑦)1/2. On the regular domain 𝑉,𝐻>0,
+deﬁne the orthonormal basis
+𝑒𝑡=𝑣/𝑉,
+𝑒𝑟= (−𝑣𝑦,𝑣𝑥,0)/𝐻,
+𝑒𝑢=𝑒𝑡×𝑒𝑟.
+(4)
+For 𝐹=𝑚( ¥𝑅+𝑔𝑒𝑧), set 𝐿𝑢=𝐹·𝑒𝑢, 𝐿𝑟=𝐹·𝑒𝑟, 𝐿= (𝐿2
+𝑢+𝐿2
+𝑟)1/2 and 𝜙=
+atan2(𝐿𝑟,𝐿𝑢). Lift points along cos𝜙𝑒𝑢+sin𝜙𝑒𝑟. The reduced Newton
+equation is
+𝑚¥𝑅= (𝑇−𝐷)𝑒𝑡+𝐿cos𝜙𝑒𝑢+𝐿sin𝜙𝑒𝑟−𝑚𝑔𝑒𝑧.
+(5)
+Writing 𝑄= 𝜌(𝑧)𝑉2𝑆/2, inverse dynamics gives
+𝜌(𝑧) =1.225𝑒−𝑧/8500,
+𝐶𝐿= 𝐿/𝑄,
+𝑛= 𝐿/(𝑚𝑔),
+𝐷=𝑄(0.08+0.045𝐶2
+𝐿),
+𝑇=𝐷+𝐹·𝑒𝑡.
+(6)
+Here 𝜌0 =1.225, 𝑚=238461.67357166, 𝑔=9.80665 and 𝑆=541.2 are ﬁxed
+model constants. Equivalent airspeed in knots and air ﬂight-path angle are
+𝐸= 𝑉𝑒−𝑧/17000
+𝑘
+,
+𝛾=atan2(𝑣𝑧,𝐻),
+𝑘=1852/3600.
+(7)
+Bank and thrust rates are exact one-sided time derivatives within each ﬂight
+phase. In particular,
+¤𝜙= (𝐿𝑢¤𝐿𝑟−𝐿𝑟¤𝐿𝑢)/𝐿2.
+(8)
+The moving basis is differentiated as well as the acceleration; the full formulas
+are in Appendix B.
+3
+
+Aryan Ayyar
+2.2 The twelve-parameter family
+Let
+𝑞= (𝑇𝑎,𝑇𝑓,𝑥𝐷,𝑈,𝑏𝑥,𝑐𝑥,𝑏𝑦,𝑐𝑦,𝑏𝑧,𝑐𝑧, 𝑓𝑥, 𝑓𝑧) ∈B.
+The closed parameter box is given in Table 1. Each phase uses normalized time
+𝑠∈[0,1]; its physical derivatives are 𝑇−𝑗𝑑𝑗/𝑑𝑠𝑗.
+Table 1
+The unchanged polynomial parameter domain. Bump amplitudes are in metres.
+Coordinates
+Closed interval
+𝑇𝑎,𝑇𝑓
+[30,55], [4,12] seconds
+𝑥𝐷,𝑈
+[200,700] metres, [69,88] metres/second
+𝑏𝑥,𝑐𝑥,𝑏𝑦,𝑐𝑦
+[−400,400] each
+𝑏𝑧,𝑐𝑧, 𝑓𝑥, 𝑓𝑧
+[−50,50],[−50,50],[−50,50],[−10,10]
+For endpoint positions 𝑃0,𝑃1, velocities 𝑣0,𝑣1 and zero accelerations, the
+quintic Hermite polynomial is
+H𝑇(𝑠) =𝑃0+𝑇𝑣0𝑠+(10𝐴−4𝐵)𝑠3
++(−15𝐴+7𝐵)𝑠4+(6𝐴−3𝐵)𝑠5,
+𝐴=𝑃1−𝑃0−𝑇𝑣0,
+𝐵=𝑇(𝑣1−𝑣0).
+(9)
+Put 𝑏(𝑠) =64𝑠3(1−𝑠)3 and 𝑜(𝑠) = (2𝑠−1)𝑏(𝑠). The approach adds (𝑏𝑥𝑏+
+𝑐𝑥𝑜,𝑏𝑦𝑏+𝑐𝑦𝑜,𝑏𝑧𝑏+𝑐𝑧𝑜); the ﬂare adds ( 𝑓𝑥𝑏,0, 𝑓𝑧𝑏). Both additions and their
+ﬁrst two derivatives vanish at the endpoints.
+The CG positions are 𝑃𝐴= (−2500,1000,146), 𝑃𝐺= (0,0,21.24) and 𝑃𝐷=
+(𝑥𝐷,0,6). At entry and gate, 𝐸=153, 𝛾=−3.1◦, with ground-track directions
+−47◦and 0◦. For unit horizontal ground direction 𝑑= (𝑑𝑥,𝑑𝑦,0), the endpoint
+velocity is
+𝑉𝑧=153𝑘𝑒𝑧/17000,
+𝐺𝑑=𝑤·𝑑+
+p
+(𝑉𝑧cos𝛾)2−|𝑤|2+(𝑤·𝑑)2,
+¤𝑅= (𝐺𝑑𝑑𝑥,𝐺𝑑𝑑𝑦,𝑉𝑧sin𝛾).
+(10)
+The positive square-root branch and 𝐺𝑑>0 are part of the endpoint
+speciﬁcation. At touchdown, ¤𝑅= (𝑈,0,−𝜎) with 𝜎=0.7. Both phase endpoint
+accelerations are zero. Position, velocity and acceleration therefore join exactly
+at the gate. Control rates need not match; both one-sided values are constrained.
+The ﬂare has 𝑦≡0.
+The inherited corridor is also an exact part of the deﬁnition. Let
+R be the 2,001 CG-reference points used by the sealed checker, with
+their stored binary64 coordinate values interpreted exactly. The frozen
+4
+
+Certiﬁed Local Optimality
+reference_cloud.npy already stores the CG-shifted cloud; the checker
+independently reconstructs the upward shift and veriﬁes equality to this
+ﬁnite object. Its provenance is the original zero-wind synthetic reference
+with parameters (36,6.5,500,77,0,...,0) sampled at 1,001 equally spaced
+normalized times per phase (the common gate once). Those provenance
+formulas do not replace the stored coordinates by ideal real-arithmetic samples.
+The corridor margin is 1−dist(𝑅,R)/400. This is distance to a ﬁnite point
+set, not to a ﬁtted continuous centreline; time is continuous in its subsequent
+evaluation.
+2.3 Operating margins, hard constraints and objective
+For a two-sided operating quantity 𝑓∈[ℓ,𝑢], deﬁne margins ( 𝑓−ℓ)/(𝑢−ℓ)
+and (𝑢−𝑓)/(𝑢−ℓ). For | 𝑓| ≤𝑐, deﬁne 1−| 𝑓|/𝑐. Table 2 speciﬁes all airborne
+operating inequalities. They hold on both closed phases unless indicated
+otherwise.
+Table 2
+Normalized operating constraints. These, and the terminal margins below, determine the objective.
+Quantity
+Bounds or cap
+Normalization
+𝐸
+[135,175] kt
+span 40 kt
+𝐶𝐿
+[0,2.8]
+span 2.8
+𝑛
+[0.5,1.4]
+span 0.9
+𝑇
+[0,700000] N
+span 700000 N
+𝜙
+|𝜙| ≤25◦
+cap 25◦
+¤𝜙
+| ¤𝜙| ≤5◦/s
+cap 5◦/s
+¤𝑇
+| ¤𝑇| ≤100000 N/s
+cap 100000 N/s
+𝛾
+𝛾≥−6◦
+1+𝛾/(6◦)
+Approach ¤𝑧
+¤𝑧≥−8 m/s
+1+ ¤𝑧/8
+Corridor
+distance ≤400 m
+1−dist/400
+The touchdown distance margins are (𝑥𝐷−200)/500 and (700−𝑥𝐷)/500.
+The sink margins are 𝜎/1.5 and (1.5−𝜎)/1.5. Lateral position, track and
+bank at touchdown are structurally zero, hence their normalized tolerance
+margins are identically one. The stopping margin is deﬁned below. Forward
+ground velocity ¤𝑥≥0, upward lift component 𝐿𝑢>0, all occupied-geometry
+predicates and intended gear contact are hard constraints, not additional
+objective margins.
+For a geometrically admissible regular path deﬁne
+𝜂(𝑞) =min
+
+inf
+𝑠∈[0,1]𝑚𝑗,𝜈(𝑞,𝑠), 𝑚𝑘,𝐷(𝑞), 𝑚stop(𝑞)
+
+,
+(11)
+where 𝜈∈{𝑎, 𝑓} and the indices range over precisely the applicable margins
+above. Set P ={𝑞∈B :hard constraints hold, 𝜂(𝑞) ≥0} and 𝜂∗
+P =sup𝑞∈P𝜂(𝑞).
+5
+
+Aryan Ayyar
+The secondary functional is
+E(𝑞) =
+Õ
+𝜈=𝑎, 𝑓
+∫𝑇𝜈
+0
+" 𝜙
+25◦
+2
++
+
+¤𝜙
+5◦/s
+2
++
+
+¤𝑇
+100000
+2#
+𝑑𝑡.
+(12)
+It has units of time. The intended secondary problem minimizes it subject to
+retaining a primary target within 10−4. A numerical minimizer and a certiﬁed
+retention inequality are distinct conclusions.
+2.4 Assumed occupancy and obstacle geometry
+The CG-ﬁxed non-gear box is [−40.8,30.2]×[−32.7,32.7]×[−4,13.8]. Body
+pitch is zero, yaw is ground track and body bank equals 𝜙. The ideal gear layout
+has vertical coordinates −6 and maximum absolute lateral coordinate 6.0579.
+In the allowed bank range the lowest body and gear heights are
+𝑧𝐵=𝑧−4cos𝜙−32.7|sin𝜙|,
+𝑧𝐺=𝑧−6cos𝜙−6.0579|sin𝜙|.
+(13)
+All occupied points ﬁt in a horizontal disk of radius 55; for example the largest
+body-corner norm is less than 55. With horizontal allowance 𝑏ℎ=5, write 𝑟ℎ=
+55+𝑏ℎ=60 and 𝑧−=min(𝑧𝐵,𝑧𝐺).
+For a rectangle [ℓ𝑥,𝑢𝑥]×[ℓ𝑦,𝑢𝑦] with assumed top ℎ𝑜above runway, impose
+max
+
+max(ℓ𝑥−𝑥,𝑥−𝑢𝑥,ℓ𝑦−𝑦,𝑦−𝑢𝑦)−𝑟ℎ,𝑧−−ℎ𝑜−3
+	
+≥0.
+(14)
+This sufﬁcient separation test deﬁnes the conservative feasible set. Its failure
+is not a collision theorem for a more detailed shape. In addition, 𝑧𝐵≥0.5 and
+𝑧𝐺≥0 hold throughout ﬂight.
+The complete assumed scene consists of the frozen source-derived bounding
+rectangles, an assumed hill cap and light-point rectangles, together with an
+urban blanket of height 25 above runway. The blanket covers 𝑥≤−600 and the
+side regions −600≤𝑥≤0, |𝑦| ≥100, using the same inﬂated-rectangle disjunc-
+tion. Source structures receive assumed tops of 45 m HKPD; hill and light tops
+are 140 and 12 m HKPD. Runway level is assumed 6 m HKPD. The adopted
+threshold easting/northing is (838277.9926795285,820320.961097593) m
+and grid bearing 134.02◦. These choices deﬁne a frame and scene, not a
+datum or historical registration result. The exact rectangles are a ﬁnite input
+in scene.json, bound by the source manifest.
+2.5 Ideal contact and ground roll
+At 𝑡𝐷=𝑇𝑎+𝑇𝑓, bank is zero and all ideal gear points reach ﬂat ground together.
+The model resets vertical velocity from −𝜎to zero and pose to straight, level
+ground motion. Its translational vertical impulse is 𝑚𝜎, with kinetic-energy
+removal 𝑚𝜎2/2; no strut-load or attitude-moment dynamics are asserted.
+Aerodynamic control-rate constraints end at touchdown and do not apply to the
+ideal reset. Lateral tyre authority and successful braking mode are assumptions.
+6
+
+Certiﬁed Local Optimality
+With 𝑢=𝑡−𝑡𝐷, delay 𝜏=2 and deceleration 𝑎𝑏=1.4709975, the ground law
+is
+𝑥(𝑢) =
+
+
+𝑥𝐷+𝑈𝑢,
+0≤𝑢≤𝜏,
+𝑥𝐷+𝑈𝜏+𝑈(𝑢−𝜏)−1
+2𝑎𝑏(𝑢−𝜏)2,
+𝜏≤𝑢≤𝜏+𝑈/𝑎𝑏,
+𝑥𝐷+𝜏𝑈+𝑈2/(2𝑎𝑏),
+𝑢≥𝜏+𝑈/𝑎𝑏.
+(15)
+Throughout this phase 𝑦=0,𝑧=6. Let 𝐿0 =2786−150=2636. The exact
+stopping margin is
+𝑚stop = 𝐿0−𝑥𝐷−𝜏𝑈−𝑈2/(2𝑎𝑏)
+𝐿0
+.
+(16)
+Hard obstacle separation is checked along the entire ground segment. Contact
+with the runway is a structural equality, not a clearance tolerance.
+2.6 Relation to the synthetic V5 model
+V5’s original family uses the unshifted point reference at heights 140, 15.24
+and zero and evaluates density there. A1 uses CG heights 146, 21.24 and
+6 in both endpoint speed construction and density. Although (3) preserves
+acceleration, those altitude-dependent speeds change polynomial coefﬁcients
+and forces. The two models therefore cannot be interchanged by translating a
+plotted path alone. A1 also replaces the empty synthetic obstacle scene with the
+declared whole-aircraft geometry and ideal contact interpretation above. The
+inherited parameter box, force constants, operating normalizations and braking
+constants remain unchanged.
+7
+
+Aryan Ayyar
+One path, two flight phases, one ideal reset
+CG path  R
+Virtual reference  r
+Contacṫ
+z : −0.7 ⟼0
+CG stays 6 m above runway
+Gate
+Stop
+Approach
+turn and descent
+Flare
+straight track
+Delay
+2 s
+Braking
+ab = 0.15g
+h
+x
+Schematic, not to scale.  y is runway-right, out of this side view.
+Figure 1
+The hybrid landing object, shown schematically. The virtual reference and CG differ by a ﬁxed
+vertical translation during ﬂight; the gear is part of a banked occupied set. Contact resets the vertical
+motion before delay and braking. Heights and phase lengths in this schematic are not to scale.
+3. Analytical bounds and preliminary results
+3.1 Stopping and terminal restrictions
+Lemma 1 (Stopping monotonicity). For 𝑎𝑏>0, 𝜏≥0 and 𝑈≥0, the stopping
+position 𝑆(𝑥,𝑈) =𝑥+𝜏𝑈+𝑈2/(2𝑎𝑏) is increasing in 𝑥and strictly increasing
+in 𝑈on (0,∞). At required margin 𝑒, a nonnegative speed satisﬁes 𝑆(𝑥,𝑈) ≤
+𝐿0(1−𝑒) if and only if 𝐵= 𝐿0(1−𝑒)−𝑥≥0 and
+0≤𝑈≤−𝑎𝑏𝜏+
+q
+𝑎2
+𝑏𝜏2+2𝑎𝑏𝐵.
+(17)
+Proof.
+𝑆𝑥=1 and 𝑆𝑈=𝜏+𝑈/𝑎𝑏>0 for 𝑈>0. Multiplying the stopping
+inequality by 2𝑎𝑏and completing the square gives (𝑈+𝑎𝑏𝜏)2 ≤𝑎2
+𝑏𝜏2+2𝑎𝑏𝐵.
+The right endpoint in (17) is nonnegative exactly when 𝐵≥0. The ground
+equations integrate to 𝑆, so no stopping approximation is involved.
+■
+At touchdown 𝑉2
+𝐷= (𝑈−𝑤𝑥)2+𝑤2
+𝑦+𝜎2. The lower EAS margin gives 𝑉𝐷≥
+𝑘(135+40𝑒)exp(6/17000). Set
+𝐷𝑒= [𝑘(135+40𝑒)exp(6/17000)]2−𝑤2
+𝑦−𝜎2,
+𝑈𝑒=𝑤𝑥+
+p
+𝐷𝑒.
+(18)
+We explicitly restrict the following terminal relaxation to 𝐷𝑒>0 and the
+positive air-forward touchdown branch 𝑈−𝑤𝑥>0, with 𝑈𝑒>0. For baseline
+headwind this branch already follows from 𝑈>0; it must not be assumed
+merely from positive ground speed for arbitrary tailwind.
+8
+
+Certiﬁed Local Optimality
+Proposition 1 (Terminal relaxation). On 0≤𝑒≤0.45 and the branch above,
+any feasible landing satisfying the prescribed terminal conditions obeys
+𝑓(𝑒) =200+500𝑒+𝜏𝑈𝑒+ 𝑈2
+𝑒
+2𝑎𝑏
+−𝐿0(1−𝑒) ≤0.
+(19)
+The function 𝑓is strictly increasing. If 𝑓(0) >0, no nonnegative-margin
+landing exists on that branch. If 𝑓(0) ≤0< 𝑓(0.45), its unique zero in [0,0.45)
+is the relaxed upper value; if 𝑓(0.45) ≤0, the relaxed upper value is 0.45. This
+relaxation need not produce an airborne trajectory.
+Proof.
+The touchdown-distance margin requires 𝑥𝐷≥200+500𝑒, while (18)
+and the branch choice require 𝑈≥𝑈𝑒. Lemma 1 gives (19). The entry
+EAS is 153, hence its lower normalized margin is (153−135)/40=0.45.
+Differentiation yields
+𝑈′
+𝑒= 40𝑘2exp(12/17000)(135+40𝑒)
+√𝐷𝑒
+>0,
+𝑓′(𝑒) =3136+(𝜏+𝑈𝑒/𝑎𝑏)𝑈′
+𝑒>0.
+Continuity and strict monotonicity prove the alternatives, including equality
+at 𝑒=0. Conversely, whenever 𝑓(𝑒) ≤0, choosing 𝑥𝐷=200+500𝑒and 𝑈=𝑈𝑒
+satisﬁes these retained inequalities. For 𝑒≤0.45, the touchdown upper-distance
+and ﬁxed-sink margins do not obstruct this relaxed choice. Other operating,
+geometric and path conditions have been removed; they cannot be restored by
+the scalar argument.
+■
+The zero has an algebraic representation. With
+𝑄𝑒=200−𝐿0+3136𝑒+𝜏𝑤𝑥+ 𝑤2
+𝑥+𝐷𝑒
+2𝑎𝑏
+,
+𝐵𝑤=𝜏+𝑤𝑥/𝑎𝑏,
+it solves 𝑄𝑒+𝐵𝑤
+√𝐷𝑒=0, hence 𝑄2
+𝑒−𝐵2
+𝑤𝐷𝑒=0, a quartic in 𝑒. Squaring is not
+reversible without the original sign equation. In particular 𝐵𝑤can be negative;
+if 𝐵𝑤=0, the unsquared equation is simply 𝑄𝑒=0.
+The polynomial family additionally imposes 𝑈≥69. Replacing 𝑈𝑒by
+max(69,𝑈𝑒) preserves the bound. When the ﬂoor binds at the relaxed optimum,
+its exact value is
+𝑒69 = 𝐿0−200−2(69)−692/(2𝑎𝑏)
+3136
+= 66656817
+307536544 ≈0.21674437819.
+(20)
+The switch satisﬁes 𝐷𝑒= (69−𝑤𝑥)2 with 69−𝑤𝑥≥0. The broader baseline
+terminal relaxation has upper value approximately 0.223501289399. Neither
+value is the achievable family optimum; the much smaller bound below uses
+airborne work.
+9
+
+Aryan Ayyar
+3.2 Regularity and attainment
+All polynomial times lie in compact intervals bounded away from zero. The
+exact Bernstein calculation in the source regularity certiﬁcate gives
+|¤𝑧𝑎| ≤33792275107
+1258291200 <26.856,
+|¤𝑧𝑓| ≤719106075
+33554432 <21.432.
+(21)
+These bounds hold over the entire parameter box, not only along the delivered
+path. They use the bound 5 on the magnitudes of the ﬁxed vertical endpoint
+velocities. Appendix A explains the ﬁnite rational calculation.
+Lemma 2 (Uniform force regularity). On any nonnegative-margin portion
+of the declared family satisfying the hard ground and bank constraints,
+𝑉,𝐻,𝐿,𝐿𝑢are uniformly separated from zero. Thus inverse forces and
+phasewise control rates extend continuously to its closure.
+Proof.
+For |𝜙| ≤25◦, gear nonpenetration gives 𝑧≥6cos𝜙+6.0579|sin𝜙| ≥6.
+The last inequality follows by concavity on [0,25◦]: the smaller endpoint
+value is 6. Hence 𝑉≥135𝑘exp(6/17000) >69. With zero vertical wind, (21)
+gives 𝐻2 =𝑉2−¤𝑧2 bounded strictly away from zero. Also 𝐿≥0.5𝑚𝑔and 𝐿𝑢=
+𝐿cos𝜙≥0.5𝑚𝑔cos25◦>0. All denominators in the force and rate formulas
+are consequently bounded away from zero. Polynomial dependence and
+the smooth elementary operations then give continuity, including at phase
+endpoints when each side is retained separately.
+■
+Proposition 2 (Attainment on the closed admissible family). For
+the
+declared closed hard predicate ¤𝑥≥0, a nonnegative feasible witness implies
+that the maximum primary value is attained. For any nonempty closed
+primary-retention superlevel, the secondary effort minimum is attained.
+Proof.
+Consider a sequence in the closed admissible family. Compactness
+of B gives a convergent subsequence. Lemma 2 supplies uniform positive
+denominator bounds along the sequence and its limit, so every force and rate
+quantity converges uniformly on each normalized phase. The ﬁnitely many
+geometric maxima and minima are continuous; inequalities for every time
+are preserved under this convergence. Endpoint equalities and the ground
+law are continuous in 𝑞. Thus the admissible set is closed in a compact
+box. For ﬁnitely many continuous margin functions on compact normalized-
+time domains, |inf𝑚(𝑞,·)−inf𝑚(𝑞′,·)| ≤sup|𝑚(𝑞,·)−𝑚(𝑞′,·)|, which proves
+continuity of 𝜂. The extreme-value theorem applies to 𝜂and, on a closed
+retention set, to the continuous integral E. The computed witness has strictly
+positive forward speed, a stronger property than the closed model constraint.
+■
+10
+
+Certiﬁed Local Optimality
+3.3 Coupled airspeed, energy and thrust-slew restrictions
+For this subsection 𝑒∈[0,0.45] is a tested margin. The ﬂare has ¤𝑦=0. The
+family bounds imply 6≤𝑧≤34 and |¤𝑧| ≤22; these constants are not available
+for an arbitrary smooth path. Deﬁne
+𝑣−= 𝑘(135+40𝑒),
+𝑣+ = 𝑘(175−40𝑒),
+𝑉−=𝑣−exp(6/17000),
+𝑉+ =𝑣+exp(34/17000),
+𝑄−= 1
+2 𝜌0𝑆𝑣2
+−,
+𝑄+ = 1
+2 𝜌0𝑆𝑣2
++,
+𝐿+ =𝑚𝑔(1.4−0.9𝑒),
+𝐷+ =
+max
+𝑄∈{𝑄−,𝑄+}
+
+0.08𝑄+ 0.045𝐿2
++
+𝑄
+
+.
+(22)
+The last expression bounds drag: 𝑄= 𝜌0𝑆(𝑘𝐸)2/2 exactly, drag increases
+with 𝐿2, and its displayed dependence on 𝑄>0 is convex. Dropping the
+simultaneous 𝐶𝐿constraint only enlarges this upper bound.
+Assume 𝑉2
+−−𝑤2
+𝑦−222 >0. At the gate 𝑣𝑥>0; since 𝑣2
+𝑥≥𝑉2
+−−𝑤2
+𝑦−222,
+continuity prevents a sign change. Consequently the forward air branch is valid
+for the entire ﬂare and
+¤𝑥≥𝑢−=𝑤𝑥+
+q
+𝑉2−−𝑤2𝑦−222 >0.
+(23)
+The ﬁnal strict inequality is checked for each reported condition. For 𝑢= ¤𝑥,
+(𝑉/𝑢)2 ≤1−2𝑤𝑥/𝑢+(𝑤2
+𝑥+𝑤2
+𝑦+222)/𝑢2.
+Its derivative has no positive local maximum: for 𝑤𝑥≤0 it is negative; for 𝑤𝑥>
+0 the sole critical point is a minimum. Thus
+𝑅𝑣=max
+©­­
+«
+1,
+q
+(𝑢−−𝑤𝑥)2+𝑤2𝑦+222
+𝑢−
+ª®®
+¬
+,
+∫𝑇𝑓
+0
+𝑉𝑑𝑡≤𝑅𝑣𝑥𝐷.
+(24)
+At the zero-acceleration gate, writing 𝜃=3.1◦,
+𝑄𝐺= 1
+2 𝜌0𝑆(153𝑘)2,
+𝐿𝐺=𝑚𝑔cos𝜃,
+𝑇𝐺=−𝑚𝑔sin𝜃+0.08𝑄𝐺+0.045𝐿2
+𝐺/𝑄𝐺.
+(25)
+The lower thrust margin and slew cap imply 𝑇(𝑡) ≥700000𝑒and 𝑇(𝑡) ≥𝑇𝐺−𝐾𝑡,
+𝐾=100000(1−𝑒). Put
+𝐴=max(0,𝑇𝐺−700000𝑒),
+𝑡−(𝑥) =max(4,𝑥/(𝑤𝑥+𝑉+)),
+𝑧∗(𝑥) =min(𝑡−(𝑥),𝐴/𝐾),
+𝐽(𝑥) = 𝐴𝑧∗(𝑥)−𝐾𝑧∗(𝑥)2/2.
+(26)
+Here 𝑤𝑥+𝑉+ >0 and 𝑇𝑓≥𝑡−(𝑥𝐷) follow from the family duration ﬂoor and ¤𝑥≤
+𝑤𝑥+𝑉+. Hence 𝐽(𝑥𝐷) is a lower bound for the integrated thrust excess above
+700000𝑒.
+11
+
+Aryan Ayyar
+Proposition 3 (Coupled necessary work inequality). Under these premises
+every feasible ﬂare at margin at least 𝑒satisﬁes
+𝑈≥max
+n
+69,𝑈𝑒,𝑤𝑥+
+p
+max(0,𝑅−𝐶𝑥𝐷+𝐵(𝑥𝐷))
+o
+,
+(27)
+where 𝑉𝐺=153𝑘exp(21.24/17000) and
+𝑅=𝑉2
+𝐺+2𝑔(15.24)−𝑤2
+𝑦−𝜎2,
+𝐶=2max(0,𝐷+−700000𝑒)𝑅𝑣/𝑚,
+𝐵(𝑥) =2𝑉−𝐽(𝑥)/𝑚.
+(28)
+Proof.
+Dot (5) with 𝑣. Constant wind and 𝑤𝑧=0 give the air-relative energy
+identity
+𝑑
+𝑑𝑡
+𝑉2
+2 +𝑔𝑧
+
+= (𝑇−𝐷)𝑉
+𝑚
+.
+(29)
+Since 𝑇−𝐷≥−max(0,𝐷+−700000𝑒)+max(𝐴−𝐾𝑡,0), integration, (24) and
+𝑉≥𝑉−yield
+𝑉2
+𝐷≥𝑉2
+𝐺+2𝑔(15.24)−𝐶𝑥𝐷+𝐵(𝑥𝐷).
+Substitute 𝑉2
+𝐷= (𝑈−𝑤𝑥)2+𝑤2
+𝑦+𝜎2. The positive air branch proved above
+allows the positive square root. If the resulting lower radicand is negative,
+𝑈>𝑤𝑥still implies the weaker lower bound obtained by replacing it with zero.
+Combine with the terminal and family speed ﬂoors.
+■
+Proposition 4 (Certiﬁed global-family exclusion). For the baseline wind
+and A1 model, no member of P has 𝜂(𝑞) ≥0.181970215. In particular the weak
+upper endpoint in (1) is valid.
+Computer-assisted proof.
+Take the exact decimal 𝑒=0.181970215. The
+possible touchdown interval is [200+500𝑒,700−500𝑒]. Partition it into 4,096
+equal closed cells with rational-decimal endpoints. On each cell use outward
+interval operations to enclose the lower-speed expression 𝑈(𝑥) in (27) and then
+𝑥+2𝑈(𝑥)+𝑈(𝑥)2/(2𝑎𝑏)−2636(1−𝑒).
+Every lower enclosure is strictly positive; the smallest displayed lower end-
+point exceeds 0.9678323903 m. The code tests the unrounded interval endpoint
+against zero, not this displayed summary. Lemma 1 rules out stopping within
+the available length in every cell. Larger margins satisfy all original inequalities
+at 𝑒, so they are excluded by nesting; no monotonicity claim about the derived
+relaxation itself is needed. The source is strong_bound.exclusion,
+rerun without optimization in the accompanying veriﬁcation package.
+■
+12
+
+Certiﬁed Local Optimality
+The argument proves a necessary exclusion over the entire polynomial
+parameter family, not an optimal trajectory. In particular, (21), 𝑧≤34 and 𝑇𝑓≥4
+are family restrictions. The terminal proposition has a broader branch-qualiﬁed
+domain; the energy upper bound cannot be transferred to that unrestricted class.
+Earlier synthetic-model bounds and invalidated interval searches are separate
+records (Appendix G).
+0.15
+0.16
+0.17
+0.18
+0.19
+Certified feasible
+0.1523607643
+Family exclusion
+0.181970215
+η *
+ remains unidentified
+−10−4
+0
+Retention guarantee: ηS −ηloc ≥−10−4
+The global-family gap is still open
+Bracket width  0.02960945
+Separate scale; no upper endpoint is asserted.
+Figure 2
+The proved feasible value and the family-wide exclusion bound are separated. The interval is a
+bracket for the unknown global family optimum, not an uncertainty interval for the local root. The
+secondary-retention scale is shown separately so that it cannot be confused with the much larger
+global gap.
+4. Characterization of the active landing solution
+Write 𝑎= (𝑇𝑎,𝑏𝑥,𝑐𝑥,𝑏𝑦,𝑐𝑦,𝑏𝑧,𝑐𝑧) for the approach coordinates and 𝑝=
+(𝑇𝑓,𝑥𝐷,𝑈, 𝑓𝑥, 𝑓𝑧) for the ﬂare coordinates. Their feasible domains are the
+corresponding products in Table 1. The normalized coordinates used for root
+isolation are
+𝜁= (𝑇𝑓/5,𝑥𝐷/300,𝑈/75, 𝑓𝑥, 𝑓𝑧,𝜂,𝑠𝑆,𝑠𝐿,𝑠𝑇) ∈R9.
+(30)
+Scales 5, 300 and 75 carry the respective physical units; all computations use
+their exact values. Let T (𝑝,𝑠) be ﬂare thrust and ¤T =𝑇−1
+𝑓𝜕𝑠T its physical time
+13
+
+Aryan Ayyar
+derivative. The six active margins are
+𝑔1(𝑝) =𝑚stop(𝑝),
+𝑔2(𝑝) =1+ ¤T (𝑝,0)/100000,
+𝑔3(𝑝) =1−¤T (𝑝,1)/100000,
+𝑔4(𝑝,𝑠𝑆) =1−¤T (𝑝,𝑠𝑆)/100000,
+𝑔5(𝑝,𝑠𝐿) = (1.4−𝑛𝑓(𝑝,𝑠𝐿))/0.9,
+𝑔6(𝑝,𝑠𝑇) =T (𝑝,𝑠𝑇)/700000.
+(31)
+The event-time letters indicate interior slew, load and thrust. Gate slew here is
+the ﬂare-side value; the approach-side value is checked separately.
+The signed expressions agree locally with the absolute slew margins because
+gate slew is negative, while touchdown and interior slew are positive. The
+source derivation’s sentence calling touchdown slew negative is a prose error:
+both executable equations and the sealed certiﬁcate record the sign vector
+(−1,+1,+1). The new audit records this correction without changing the earlier
+artifact.
+The nine equations are
+𝐹(𝜁) = (𝑔1−𝜂,...,𝑔6−𝜂,𝜕𝑠𝑔4,𝜕𝑠𝑔5,𝜕𝑠𝑔6)⊤=0.
+(32)
+Here the ﬁrst ﬁve coordinates of 𝜁determine 𝑝, and the last three supply the
+corresponding interior events. Thrust slew is 𝑇𝑠/𝑇𝑓; its stationarity is 𝑇𝑠𝑠/𝑇𝑓=
+0. These identities determine the needed mixed derivatives exactly. At the
+certiﬁed solution the approximate physical values are
+𝑇𝑓≃4.140834462862,
+𝑥𝐷≃302.126459392735,
+𝑈≃72.512142316831,
+𝑓𝑥≃−0.054163922082,
+𝑓𝑧≃−0.014824733206.
+(33)
+They summarize the solution but do not deﬁne it. The exact deﬁnition is
+the unique root in the box of Theorem 1, with the seven approach decimals
+speciﬁed in Appendix C.
+A ﬁxed-time upper-support argument will use the event times at the exact
+root. It is not necessary to optimize the event times anew for every perturbed
+𝑝: a continuous-time minimum cannot exceed its value at any one ﬁxed
+normalized time. This observation avoids differentiating an unknown global
+argmin map.
+14
+
+Certiﬁed Local Optimality
+0.00
+0.25
+0.50
+0.75
+1.00
+Normalized flare time  s
+Lower thrust
+Upper load
+Interior slew
+Touchdown slew
+Gate slew
+Stopping (hybrid)
+terminal equation
+s = 0.0000
+s = 1.0000
+s = 0.7635
+s = 0.7425
+s = 0.3672
+Five flare variables · six equal active margins
+ηloc ≃ 0.1523607643   ·   Flare duration 4.1408 s
+Figure 3
+The six active margins and their locations in the ﬂare. The three interior events are distinct; load
+and slew happen close together but are not the same stationary point. Event-time positions are
+evaluated from the numerical centre solely for illustration. Stopping is a terminal hybrid constraint,
+not an additional in-ﬂight event.
+5. Rigorous local-optimality theorem
+5.1 Validated root and nonsingularity
+Let 𝑐∈Q9 be the complete decimal centre printed in Appendix C, and put 𝑟0 =
+10−20. The exact intended box is
+𝑋=𝑐+[−𝑟0,𝑟0]9.
+(34)
+Its scale is the coordinate system (30), not metres, seconds or a neighborhood
+on which optimality has been quantiﬁed. Outward interval conversion encloses
+this rational box by a slightly larger representable hull b𝑋.
+Theorem 1 (Validated root existence and uniqueness). For
+the
+baseline
+wind (2) and the stated A1 force law, 𝐹in (32) has exactly one root 𝜁∗in
+𝑋. Every Jacobian enclosed by the interval Jacobian calculation on b𝑋is
+nonsingular. In particular
+𝑐6−10−20 ≤𝜂0 ≤𝑐6+10−20,
+𝑐6 =0.152360764301861701918625206455836893973748530913.
+(35)
+where 𝜂0 =𝜁∗
+6. The three stationary-event coordinates lie strictly in (0,1) and
+the signed slew branches are (−1,+1,+1).
+Computer-assisted proof.
+The force formulas are compositions of polyno-
+mials, exponentials, square roots and division with denominators separated
+15
+
+Aryan Ayyar
+from zero on b𝑋. They therefore deﬁne a 𝐶2 map on an open neighborhood of 𝑋.
+Interval automatic differentiation supplies an inclusion matrix J( b𝑋) containing
+𝐷𝐹(𝜁) for every 𝜁∈𝑋. Let 𝐶be the ﬁxed matrix of exact ﬁnite decimal
+entries generated by rounding a high-precision inverse at 𝑐. Its entries are then
+re-entered as outward intervals; this approximate inverse is not assumed exact.
+The veriﬁed Krawczyk enclosure is
+𝐾(𝑋) =𝑐−𝐶𝐹(𝑐)+(𝐼−𝐶J( b𝑋))(𝑋−𝑐).
+(36)
+The outward computation encloses every component of 𝐾(𝑋)−𝑐in (−1.964×
+10−34,1.964×10−34) and proves
+sup
+𝐽∈J( b𝑋)
+∥𝐼−𝐶𝐽∥∞<1.964×10−14 <1.
+(37)
+The sharper component bounds accompany Table A1. These are comparisons
+of interval endpoints before decimal display rounding. All arithmetic used in
+the comparisons is outward-rounded at 50 decimal digits.
+For any 𝜁∈𝑋, the integral mean-value formula gives
+𝜁−𝐶𝐹(𝜁) =𝑐−𝐶𝐹(𝑐)+
+
+𝐼−𝐶
+∫1
+0
+𝐷𝐹(𝑐+𝑡(𝜁−𝑐))𝑑𝑡
+
+(𝜁−𝑐) ∈𝐾(𝑋).
+Thus Ψ(𝜁) =𝜁−𝐶𝐹(𝜁) maps 𝑋into its strict interior and, by (37), is a
+contraction in the inﬁnity norm. The contraction theorem gives a unique ﬁxed
+point in 𝑋. For any enclosed 𝐽, the matrix 𝐶𝐽= 𝐼−(𝐼−𝐶𝐽) is invertible by its
+convergent Neumann series. In ﬁnite dimensions both 𝐶and 𝐽are consequently
+invertible. Hence ﬁxed points of Ψ are precisely zeros of 𝐹. This proves
+existence, uniqueness in 𝑋and the nonsingularity assertion.
+The interval inputs enclose the intended exact 𝑐and 𝑟0; inclusion is checked
+against the inner radius, so use of b𝑋does not weaken the conclusion to
+a different decimal box. The event-time and slew-sign assertions are direct
+separated interval inequalities. Newton iteration only selected 𝑐; neither
+convergence nor its residual supplies any of the existence premises.
+■
+The proof establishes local root uniqueness inside the speciﬁed box. It says
+nothing about other roots outside it. Likewise nonsingularity at ﬁxed baseline
+wind provides a local implicit branch, not a certiﬁed interval of wind values.
+5.2 The active-gradient simplex
+Fix (𝑠𝑆,𝑠𝐿,𝑠𝑇) at their exact root values and write the six functions in (31) as
+𝑔𝑖(𝜉) in the ﬁve scaled ﬂare coordinates 𝜉= (𝑇𝑓/5,𝑥𝐷/300,𝑈/75, 𝑓𝑥, 𝑓𝑧). Let 𝐺
+have rows ∇𝑔𝑖(𝜉∗)⊤and deﬁne
+𝐴𝐺=
+𝐺⊤
+1⊤
+
+,
+𝐴𝐺𝜆= (0,0,0,0,0,1)⊤.
+(38)
+The proof uses only these ﬁxed-time functions; it does not differentiate an
+argmin map.
+16
+
+Certiﬁed Local Optimality
+Lemma 3 (Validated positive simplex). The augmented matrix 𝐴𝐺is nonsin-
+gular, and its solution 𝜆has strictly positive entries. In particular 𝐺has rank
+ﬁve, 𝐺⊤𝜆=0, 1⊤𝜆=1, and zero belongs to the strict interior of the simplex
+generated by the six gradient vectors.
+Computer-assisted proof.
+Apply interval differentiation to the six margins
+over b𝑋, using only the ﬁrst ﬁve derivatives in each row. For a ﬁxed decimal
+approximate inverse 𝐶𝐴, the veriﬁed bound is 𝑟𝐴= ∥𝐼−𝐶𝐴𝐴𝐺∥∞<2.484×
+10−14. The Neumann argument used above proves nonsingularity uniformly
+over the enclosed matrices. For a chosen centre b𝜆and 𝑏= (0,0,0,0,0,1)⊤, the
+residual equation gives
+𝜆−b𝜆
+
+∞≤
+𝐶𝐴(𝑏−𝐴𝐺b𝜆)
+
+∞
+1−𝑟𝐴
+.
+(39)
+The implementation encloses both centre and residual with intervals, so no
+unvalidated solve is used. The resulting outward summaries are in Table 3;
+every lower endpoint is positive. Rank ﬁve follows because the condition
+rank(𝐺) <5 would make its ﬁve transposed rows, and hence the six rows of
+𝐴𝐺, dependent. Nonsingularity of 𝐴𝐺also means afﬁne independence of its six
+gradient columns. Positive barycentric coordinates summing to one put zero in
+the strict interior of that ﬁve-dimensional simplex.
+■
+Table 3
+Outward decimal enclosures of the simplex weights. The source stores longer endpoint strings;
+these deliberately widened intervals retain strict positivity.
+Active margin
+Lower endpoint
+Upper endpoint
+Stopping
+0.8560644515753778
+0.8560644515753782
+Gate slew
+0.0009658211277946
+0.0009658211277950
+Touchdown slew
+0.0045094051150227
+0.0045094051150231
+Interior slew
+0.0087917210360731
+0.0087917210360735
+Upper load
+0.0514426236725329
+0.0514426236725333
+Lower thrust
+0.0782259774731976
+0.0782259774731981
+17
+
+Aryan Ayyar
+Theorem 2 (Strict local primary optimality in ﬁve variables). Let
+𝑝∗
+be
+the ﬂare coordinates of 𝜁∗. Deﬁne the ﬂare relaxation as the minimum of
+all continuous ﬂare operating margins and the terminal margins, omitting the
+approach and hard geometric inequalities. Then 𝑝∗is a strict local maximum of
+this primary objective, with value 𝜂0, once whole-time feasibility in Theorem 3
+is established. There exist 𝜖,𝛼>0 such that every nonzero scaled perturbation
+ℎwith ∥ℎ∥<𝜖satisﬁes
+𝜂𝑓(𝜉∗+ℎ) ≤𝜂0−𝛼∥ℎ∥<𝜂0.
+(40)
+No numerical value of 𝜖or 𝛼is claimed.
+Proof.
+For nonzero 𝑑, suppose ∇𝑔𝑖(𝜉∗)·𝑑≥0 for all 𝑖. Multiplying by the
+strictly positive weights and summing gives zero. Each term must therefore
+vanish. Since 𝐺has rank ﬁve, 𝑑=0, a contradiction. Thus every unit vector
+has a strictly negative minimum inner product.
+The function ℎ0(𝑑) =min𝑖∇𝑔𝑖(𝜉∗)·𝑑is continuous on the unit sphere. By
+compactness its maximum is a strictly negative number, say −𝛽. Hence
+min
+𝑖∇𝑔𝑖(𝜉∗)·ℎ≤−𝛽∥ℎ∥
+for all ℎ.
+Choose a closed ball around 𝜉∗in the regular signed-branch domain. The six
+Hessians are continuous and bounded there, so a common 𝑀<∞satisﬁes
+|𝑔𝑖(𝜉∗+ℎ)−𝑔𝑖(𝜉∗)−∇𝑔𝑖(𝜉∗)·ℎ| ≤𝑀∥ℎ∥2.
+All six root values equal 𝜂0. Taking their minimum gives
+min
+𝑖𝑔𝑖(𝜉∗+ℎ) ≤𝜂0−𝛽∥ℎ∥+𝑀∥ℎ∥2.
+For ∥ℎ∥< 𝛽/(2𝑀) (with the evident interpretation if 𝑀=0), this is at most
+𝜂0−𝛽∥ℎ∥/2. Every full ﬂare minimum is bounded above by these six ﬁxed-
+time or terminal values. Theorem 3 establishes 𝜂𝑓(𝜉∗) =𝜂0, completing (40)
+with 𝛼= 𝛽/2 and a sufﬁciently small 𝜖.
+■
+This is a ﬁrst-order sufﬁcient max-min argument. Positive multipliers alone
+would not sufﬁce without afﬁne independence; necessary KKT conditions
+alone would not supply the uniform directional decrease. The ﬁxed active-
+time construction also makes the proof independent of whether other local time
+extrema move smoothly under perturbation.
+18
+
+Certiﬁed Local Optimality
+Unique root F(ζ * ) = 0
+Krawczyk inclusion · nine equations
+Scaled root box, radius 10−20
+Active-gradient sufficiency
+Six gradients in ℝ5 · λi > 0
+Nonsingular augmented matrix
+Whole-time feasibility
+398 accepted cells · event bounds
+Geometry and exact ground law
+Strict local primary optimum
+Five flare variables; the connected path attains its value
+Necessary flare constraints transfer the bound to 12 parameters
+Full-family conclusion: non-strict local optimality, not uniqueness
+Figure 4
+Logical structure of the certiﬁcate. The diagram depicts implications, not a projection of a ﬁve-
+dimensional simplex. Root isolation, active-gradient sufﬁciency and continuous-time feasibility
+supply different premises; only their combination supports the local-optimality conclusion.
+6. Computer-assisted continuous-time veriﬁcation
+The local upper-support argument is useful only if the exact root path is
+feasible. Ordinary interval subdivision alone cannot usually prove an active
+equality: a cell containing a true minimum also contains values of the interval
+extension below it. The certiﬁcate therefore combines analytical local extrema
+with interval coverage of the remaining constraints.
+6.1 Stationary neighborhoods and endpoint slopes
+For this time-domain argument, extend the endpoint margins as 𝑔2(𝑝,𝑠) =
+1+ ¤T (𝑝,𝑠)/100000 near 𝑠=0 and 𝑔3(𝑝,𝑠) =1−¤T (𝑝,𝑠)/100000 near 𝑠=1.
+Their endpoint values are exactly the functions in (31). The ﬁve special time
+intervals are given in Table 4. Their endpoints denote the listed exact decimals;
+the computational intervals enclose those decimals outward. Each interior
+stationary coordinate of 𝑋lies strictly inside its assigned interval.
+Lemma 4 (Local time-minimum bounds). At the exact root path, each
+special margin is at least 𝜂0 throughout its corresponding interval in Table 4.
+Each of the three interior intervals contains exactly one stationary point of its
+assigned margin.
+19
+
+Aryan Ayyar
+Table 4
+Special normalized ﬂare-time intervals and certiﬁed derivative signs. Derivatives are with respect
+to normalized time 𝑠.
+Margin
+Closed interval
+Strict bound
+Interior slew
+[.7535208320375588,
+𝑔′′
+4 >13.33
+.773520832037559]
+Upper load
+[.7325247126666857,
+𝑔′′
+5 >6.58
+.752524712666686]
+Lower thrust
+[.3571596023161144,
+𝑔′′
+6 >0.869
+.37715960231611445]
+Gate slew
+[0,.01]
+𝑔′
+2 >3.78
+Touchdown slew
+[.99,1]
+𝑔′
+3 <−2.31
+Computer-assisted proof.
+Interval Taylor jets enclose the required deriva-
+tives for every root parameter in b𝑋and every time in the full assigned interval.
+They establish the strict curvature and slope bounds shown, while separating
+each slew sign. At the exact interior root time, the margin equals 𝜂0 and
+its derivative is zero by (32). Strictly positive second derivative makes that
+stationary point the unique minimum on its interval. At the gate, a positive one-
+sided derivative implies the minimum is the endpoint value 𝜂0; at touchdown
+the negative derivative gives the same conclusion from the right endpoint.
+These arguments require no assertion that all stationary points on the full phase
+have been enumerated.
+■
+6.2 Coverage, omitted constraints and contact
+For every other margin the checker uses an inclusion extension over closed
+time cells and the complete interval root box. It accepts a cell only if all
+ordinary operating margins have lower endpoints strictly greater than 𝑐6+𝑟0,
+hard geometry has nonnegative lower endpoints, and force regularity and
+forward speed hold. Inside a special interval it omits only the corresponding
+margin already controlled by Lemma 4. All other active and inactive margins
+remain tested there. Outside those intervals nothing is omitted.
+A polynomial is evaluated after an exact shift to a cell centre, which reduces
+dependency overestimation. Repeated bisection reﬁnes unresolved cells; a
+depth limit leads to an unresolved result, never acceptance. The recorded
+accepted cells share their exact decimal endpoints, begin at zero and end at
+one separately in each phase. Hence their union covers every time, including
+both sides of the gate.
+The corridor calculation selects one frozen reference point using a nearest-
+neighbour query, then encloses the distance to that point by interval arithmetic.
+For any selected point 𝑃∈R, dist(𝑅,R) ≤|𝑅−𝑃|. The proof therefore does
+not trust the query to return the exact nearest point. A poor selection can
+20
+
+Certiﬁed Local Optimality
+cause unnecessary subdivision, but cannot produce a false lower bound on the
+corridor margin.
+At touchdown, direct interval subtraction cannot prove the exact zero gear
+clearance. The polynomial construction instead factors
+𝑧(𝑠)−6= (1−𝑠)ℎ1(𝑠),
+¥𝑥(𝑠) = (1−𝑠)𝑎1(𝑠).
+(41)
+Since ¥𝑦=0 in the ﬂare, 𝐿𝑟=𝑚𝑤𝑦¥𝑥/𝐻, so
+𝑧𝐺≥(1−𝑠)
+
+ℎ1(𝑠)−6.0579𝑚|𝑤𝑦𝑎1(𝑠)|
+𝐻𝐿
+
++6(1−cos𝜙).
+(42)
+The checker proves the bracket nonnegative; the last term is analytically
+nonnegative. Thus pre-contact nonpenetration includes the exact endpoint.
+This is a structural factorization, not a permitted penetration tolerance.
+Theorem 3 (Whole-time feasibility of the connected landing). Retain
+the
+seven exact decimal approach coordinates in Appendix C and use the ﬁve
+exact ﬂare coordinates of 𝜁∗. The resulting A1 path belongs to P and has
+continuous primary value 𝜂(𝑞∗) =𝜂0. It satisﬁes all force, rate, corridor, hard
+occupied-geometry and hybrid stopping constraints, with the ideal contact
+transition speciﬁed in Section 2.5.
+Computer-assisted proof.
+All twelve parameters lie strictly inside their
+original bounds. The interval calculation accepts 32 approach cells and 366
+ﬂare cells, for 398 accepted cells after 786 processed cells. Of these, 347
+omit no margin; 45 omit only the already-proved upper-load margin, ﬁve
+only the already-proved slew margin, and one only the already-proved lower-
+thrust margin. The covers are closed and gap-free. The smallest ordinary
+checked operating slack over 𝜂0 exceeds 6.86×10−7; the interval acceptance
+comparisons use the larger upper root endpoint. Combining their inequalities
+with Lemma 4 proves every airborne operating margin is at least 𝜂0.
+The same cells establish object and urban separation, non-gear clearance
+and gear nonpenetration, including (42). Forward speed and 𝐿𝑢are strictly
+positive throughout this witness. Hermite and bump endpoint identities enforce
+the common gate state and zero accelerations, and impose touchdown lateral
+position, track and bank exactly. The touchdown distance and ﬁxed-sink
+margins are strictly greater than the upper root endpoint. The stop margin
+equals 𝜂0 by 𝐹1(𝜁∗) =0.
+For ground motion, substitute the interval-enclosed 𝑥𝐷,𝑈into (15). Interval
+geometry is nonnegative over the entire segment [𝑥𝐷,𝑥𝐷+2𝑈+𝑈2/(2𝑎𝑏)] at
+𝑦=0,𝑧=6. Ground gear contact is an exact structural equality. The stipulated
+reset and braking law complete the hybrid path; no airborne constraint is
+extended through the impulse. Since at least one margin equals 𝜂0 and all others
+are no smaller, (11) has value exactly 𝜂0.
+■
+21
+
+Aryan Ayyar
+The
+rounded
+stop
+position
+is
+2234.377025300292
+m,
+leaving
+551.622974699708 m of the full 2786 m runway. An independent forward
+integration of Newton’s equation of the rounded numerical centre has
+maximum position discrepancy about 1.14×10−11 m. That number tests
+computational consistency of the force inversion; it neither gives physical
+accuracy nor replaces the interval proof for the exact implicit root.
+0.4
+0.8
+Thrust-slew margin
+ηloc
+0.2
+0.4
+Upper-load margin
+0.15
+0.30
+Lower-thrust margin
+Approach
+32 cells
+0.00
+0.25
+0.50
+0.75
+1.00
+Normalized phase time  s
+Flare
+366 cells
+Critical margins and complete time coverage
+Curves: numerical centre. Shading: certified event-proof neighborhoods.
+Figure 5
+Critical ﬂare margins at the numerical root centre, with the certiﬁed primary level and special
+event neighborhoods. Curves are plotting evaluations, not proof by sampling. The lower strip
+shows the accepted interval partition; analytical event bounds complete the certiﬁcate in the shaded
+neighborhoods.
+6.3 Transfer to the complete parameter family
+Theorem 4 (Non-strict local optimality in twelve parameters). The
+connected path 𝑞∗= (𝑎∗,𝑝∗) of Theorem 3 is a local primary maximum in
+the original twelve-parameter family. More strongly, there is a neighborhood
+𝑁of 𝑝∗such that every feasible (𝑎,𝑝) with 𝑝∈𝑁has 𝜂(𝑎,𝑝) ≤𝜂0, with
+strict inequality whenever 𝑝≠𝑝∗. The conclusion is uniform over admissible
+approach parameters 𝑎.
+22
+
+Certiﬁed Local Optimality
+Proof.
+The gate position, velocity and acceleration are ﬁxed by the declared
+wind and endpoint conditions. The ﬂare Hermite coefﬁcients, its two bumps
+and all ﬂare force quantities therefore depend only on 𝑝, not on any of the seven
+approach coordinates. The stopping margin depends only on (𝑥𝐷,𝑈). Thus the
+six ﬁxed-time functions used in Theorem 2 remain necessary constraints for
+every complete feasible (𝑎,𝑝):
+𝜂(𝑎,𝑝) ≤𝜓(𝑝) := min
+1≤𝑖≤6𝑔𝑖(𝑝).
+Varying 𝑇𝑎shifts the absolute gate time but does not remove any normalized
+ﬂare time from the domain. In particular the ﬂare-side gate slew remains
+constrained independently of its approach-side counterpart. The strict upper-
+support argument proves 𝜓(𝑝) <𝜂0 for 𝑝≠𝑝∗sufﬁciently close, while 𝜓(𝑝∗) =
+𝜂0. Feasibility at (𝑎∗,𝑝∗) supplies equality there. This proves the stated local
+maximum without assuming that any particular approach perturbation remains
+feasible.
+■
+Approach-only perturbations may preserve the value, lower it, or violate
+feasibility. The theorem does not classify them and does not assert strict twelve-
+dimensional optimality. Nor does it imply local optimality with respect to
+arbitrary smooth ﬂare perturbations outside the polynomial family. Combining
+the feasible root with Proposition 4 gives (1); the printed lower endpoint is
+rounded downward from the exact root-box lower endpoint.
+7. Conditional results and sensitivity
+7.1 Continuous primary retention
+Let 𝑞𝑆denote the original delivered baseline secondary trajectory, retained
+without changing its coefﬁcients. It is not the exact root path: its rounded
+touchdown and stop positions are 301.996569301 m and 2234.513819249 m.
+Proposition 5 (Retention relative to the proved local primary value). The
+delivered secondary trajectory is continuously feasible and satisﬁes
+𝜂0−𝜂(𝑞𝑆) ≤10−4.
+(43)
+This is not a proof of local or global secondary-effort minimality.
+Computer-assisted proof.
+The root box proves 𝜂0 ≤𝜂=𝑐6+10−20. The
+complete-time secondary checker, including hard geometry and exact ground
+rollout, certiﬁes
+𝜂(𝑞𝑆) ≥𝜂−10−4
+=0.152260764301861701928625206455836893973748530913. (44)
+23
+
+Aryan Ayyar
+The separate calculation processes 4,020 time cells; this is a processed count,
+not the accepted count from the root certiﬁcate. Subtracting the certiﬁed lower
+bound from the certiﬁed upper bound proves (43). No comparison of sampled
+minima is used. The argument supplies no lower bound on the loss and no
+inequality comparing E(𝑞𝑆) with other retained paths.
+■
+For the other delivered primary/secondary pairs a related comparison uses
+an interval upper evaluation of any one primary margin at a selected time. Since
+a continuous minimum cannot exceed that value, its upper endpoint is a valid
+primary upper bound. A secondary all-time lower bound at that endpoint minus
+10−4 proves retention relative to that particular primary path. A dense scan may
+select the evaluation point but cannot certify a lower bound on the continuous
+primary minimum. Only the baseline comparison above uses the proved exact
+local optimum.
+7.2 Implicit sensitivity and an explicit wind family
+The equations extend smoothly to 𝐹(𝜁,𝑤𝑥) near the baseline while 𝑤𝑦and
+every other parameter remain ﬁxed. Theorem 1 gives nonsingularity at the root,
+so the implicit-function theorem supplies a local equality branch and
+𝑑𝜁
+𝑑𝑤𝑥
+=−𝐹−1
+𝜁𝐹𝑤𝑥.
+(45)
+The saved active-branch calculation evaluates
+𝑑𝜂
+𝑑𝑤𝑥
+≃−0.01800313
+per m/s.
+This value was computed numerically and checked by ﬁnite-difference re-
+solves; it is not a rigorous interval enclosure of the derivative. Baseline
+nonsingularity alone also supplies no explicit continuation radius and no
+guarantee that the same active regime remains controlling throughout a
+displayed wind range.
+A separate statement concerns an explicit feasible construction. Let 𝑞𝑐
+and 𝑞′
+𝑐be the exact decimal vectors in Appendix F, copied from the frozen
+numerical branch output. For 𝛿=𝑤𝑥−𝑤0
+𝑥, set
+𝑞(𝛿) =𝑞𝑐+𝑞′
+𝑐𝛿,
+𝑤(𝛿) = (𝑤0
+𝑥+𝛿,𝑤0
+𝑦,0).
+(46)
+The seven approach derivatives in 𝑞′
+𝑐are zero. Nevertheless the approach
+coefﬁcients change with wind because its endpoint velocities are recomputed
+using (10). The construction is afﬁne in the decision parameters, not in the
+controls, and its centre is a speciﬁed decimal vector rather than the exact
+implicit root.
+24
+
+Certiﬁed Local Optimality
+Proposition 6 (Certiﬁed known-wind neighborhoods). For every 𝛿in each
+closed interval in Table 5, the path (46) is a feasible complete A1 landing
+in the original parameter box, with continuous primary margin at least the
+corresponding lower bound.
+Table 5
+Certiﬁed parameter domains for the explicit family. These are feasibility levels, not bounds on the
+sensitivity or an optimality radius.
+Along-wind perturbation (m/s)
+Certiﬁed primary lower bound
+|𝛿| ≤0.001
+0.149
+|𝛿| ≤0.002
+0.147
+|𝛿| ≤0.005
+0.140
+Computer-assisted proof.
+For 𝑗=0,1,2,3, interval automatic differentiation
+encloses 𝜕𝛿𝑅( 𝑗)(𝑠,𝛿) over the time cell and parameter interval. The mean-value
+theorem gives
+𝑅( 𝑗)(𝑠,𝛿) ∈𝑅( 𝑗)(𝑠,0)+[−𝑑,𝑑]𝜕𝛿𝑅( 𝑗)(𝑠,[−𝑑,𝑑]),
+|𝛿| ≤𝑑.
+Duration denominators and wind-dependent endpoint data are differentiated,
+preserving the actual parameter dependence. Subsequent interval hulls may
+enlarge this set but do not exclude a possible value. Each of the three
+computations proves complete closed time coverage, all operating margins at
+its stated level, hard whole-body geometry, contact factorization and exact
+rollout. It also veriﬁes that every 𝑞(𝛿) stays inside the original parameter
+bounds. The supplied executable reproduction reruns these ﬁnite inclusions;
+it does not infer a domain from ﬁnitely many wind samples.
+■
+The widest radius is about 0.00972 kt. Each wind is known and constant
+when constructing its associated trajectory. There is no common control law
+responding causally to unobserved gusts. The attempted interval enclosure at
+|𝛿| ≤0.01 was unresolved; interval overestimation is not an infeasibility proof.
+7.3 Ten accepted condition points
+Table 6 reports the delivered secondary paths across the ten accepted conditions.
+Wind-only changes preserve the baseline geometry. Urban and buffer changes
+retain baseline wind; urban height replaces only the blanket height. The
+numbers are deliberately conservative downward-rounded feasibility levels,
+not estimates of the global optima. Every row has its own continuous
+ﬂight/geometry/rollout certiﬁcate. The baseline exact root is a separate path
+from the baseline delivered-secondary row.
+25
+
+Aryan Ayyar
+Table 6
+Ten separately certiﬁed delivered paths. Margin lower bounds are rounded downward to six
+decimals; positions are rounded display values in metres. Wind labels denote the named real-
+decimal scenario vectors, with exact inputs in the package.
+Condition
+𝜂≥
+𝑥𝐷
+𝑥stop
+Baseline wind
+0.152258
+301.997
+2234.514
+Calm
+0.039021
+313.611
+2533.008
+10 kt headwind
+0.146202
+300.948
+2250.477
+2 kt tailwind
+0.016768
+317.644
+2591.668
+3 kt tailwind
+0.005547
+319.660
+2621.245
+Urban height 45 m
+0.152258
+301.997
+2234.514
+Urban height 50 m
+0.152249
+301.978
+2234.537
+Urban height 55 m
+0.099436
+413.404
+2373.753
+Urban height 58 m
+0.011876
+694.037
+2593.470
+Horizontal allowance 15 m
+0.152258
+301.997
+2234.514
+0
+0.05
+0.10
+0.15
+Certified primary lower bound
+Baseline wind
+Headwind 10 kt
+Calm
+Tailwind 2 kt
+Tailwind 3 kt
+Urban 45 m
+Urban 50 m
+Urban 55 m
+Urban 58 m
+Buffer 15 m
+0.152258
+0.146202
+0.039021
+0.016768
+0.005547
+0.152258
+0.152249
+0.099436
+0.011876
+0.152258
+Geometry changes at baseline wind
+Ten individually certified secondary paths
+Separate constructions; bars do not define a feasibility frontier.
+UNRESOLVED
+Tailwind 5 kt  ·  Urban 60 m  ·  Urban 65 m
+Figure 6
+Individually certiﬁed condition points. Each bar represents a lower bound for a distinct delivered
+trajectory, not a common policy or a feasibility frontier. Tailwind 5 kt and urban heights 60 m and
+65 m remain unresolved and are listed without invented numerical bounds.
+26
+
+Certiﬁed Local Optimality
+A separate ﬁxed-gate check excludes the speciﬁc frame-shift case
+(+80,−50) m from the imposed conservative model: an urban-side predicate
+is −10 m at the common gate, regardless of trajectory parameters. This is
+an analytical endpoint obstruction, not evidence about the actual airport. By
+contrast, the 5 kt tailwind and the 60 m and 65 m urban-blanket cases have
+neither accepted feasible paths nor global exclusions. Negative dense-search
+margins and local condition-transition estimates do not resolve those cases.
+8. Discussion and open mathematical problems
+The positive result is a certiﬁed connection between an exact local optimizer
+and a complete feasible hybrid trajectory. Root isolation identiﬁes an actual
+solution of the active equations. The gradient simplex proves strict local
+primary optimality in ﬁve ﬂare coordinates. Stationary-time arguments and
+interval coverage establish feasibility, including the approach, occupied
+geometry and ideal contact law. The dependence structure then transfers the
+upper-support argument to a non-strict local maximum in twelve parameters.
+The remaining global gap is concrete. The achieved lower endpoint in
+(1) and the family exclusion differ by approximately 0.0296094506981383.
+Closing that gap requires either a better feasible construction or a stronger
+exclusion using constraints discarded by the energy relaxation. The six active
+ﬂare constraints suggest a lower-dimensional global search, but local sharpness
+does not exclude another branch. Nor does the terminal relaxation identify the
+controls needed to attain its scalar bound.
+The secondary problem is also distinct. Continuous primary retention has
+been certiﬁed, and numerical effort minimizations have been delivered, but
+no inequality proves their effort optimality. A complete condition map would
+require validated continuation of active branches, treatment of changing active
+sets and geometric disjunctions, and either constructions or exclusions for
+the unresolved wind and urban cases. The three small wind neighborhoods
+establish only the explicitly parameterized feasible family.
+The mathematical and physical domains should be kept separate. This
+reduced model omits calibrated aerodynamic uncertainty, six-degree-of-
+freedom attitude dynamics, load-rated contact, causal gust response and
+go-around viability. Its scene completes missing obstacle coverage through
+explicit assumptions. Those limitations do not negate the local theorem; they
+identify the object to which it applies. A historical or operational claim would
+require a different evidential and modelling argument.
+27
+
+Aryan Ayyar
+Appendix A.
+Polynomial identities and regularity bounds
+For a scalar coordinate the endpoint construction can be written
+𝑃(𝑠) =𝑃0+(𝑃1−𝑃0)𝐻0(𝑠)+𝑇𝑣0𝐴0(𝑠)+𝑇𝑣1𝐵0(𝑠),
+(47)
+where
+𝐻0(𝑠) =10𝑠3−15𝑠4+6𝑠5,
+𝐴0(𝑠) =𝑠−6𝑠3+8𝑠4−3𝑠5,
+𝐵0(𝑠) =−4𝑠3+7𝑠4−3𝑠5.
+Direct differentiation veriﬁes the six endpoint conditions in (9). The bump 𝑏=
+64𝑠3(1−𝑠)3 has a zero of order three at both endpoints; multiplying it by 2𝑠−1
+preserves these zeros. Thus the family enforces exactly the positions, velocities
+and accelerations stated in the main text. No numerical linear solve is needed
+to establish the identities.
+For reproducible rational range bounds, let 𝑝(𝑠) =Í𝑛
+𝑘=0𝑐𝑘𝑠𝑘and substitute
+𝑠=𝑎+ℎ𝑡on a rational cell. The power coefﬁcients become
+𝑑𝑗=ℎ𝑗
+𝑛
+Õ
+𝑘=𝑗
+𝑐𝑘
+𝑘
+𝑗
+
+𝑎𝑘−𝑗,
+and the degree-𝑛Bernstein coefﬁcients are
+𝛽𝑖=
+𝑖Õ
+𝑗=0
+𝑑𝑗
+ 𝑖
+𝑗
+
+ 𝑛
+𝑗
+ ,
+0≤𝑖≤𝑛.
+(48)
+Indeed expansion of the Bernstein basis gives 𝑡𝑗=Í𝑛
+𝑖=𝑗
+ 𝑖
+𝑗
+  𝑛
+𝑗
+−1 𝑛
+𝑖
+𝑡𝑖(1−𝑡)𝑛−𝑖.
+Its basis functions are nonnegative and sum to one, so 𝑝lies between the
+smallest and largest 𝛽𝑖. This is a ﬁnite exact rational calculation, not a bound
+inferred from sampled values.
+Apply (48) to 𝐻′
+0,𝐴′
+0,𝐵′
+0,𝑏′,𝑜′ on the 128 cells [𝑖/128,(𝑖+1)/128]. Maxi-
+mum absolute enclosure endpoints are, respectively,
+15/8,
+1,
+1,
+288141339/83886080,
+2.
+The entry and gate vertical speeds have magnitude less than 5, as outward
+evaluation of 153𝑘exp(𝑧/17000)sin(3.1◦) at 𝑧=146,21.24 veriﬁes. Therefore
+|¤𝑧𝑎| ≤124.76
+30
+15
+8 +5(1+1)+ 50
+30
+288141339
+83886080 +2
+
+= 33792275107
+1258291200 ,
+|¤𝑧𝑓| ≤15.24
+4
+15
+8 +5+0.7+ 10
+4
+288141339
+83886080 = 719106075
+33554432 .
+28
+
+Certiﬁed Local Optimality
+The horizontal-air-speed separation can even be proved by the rational
+inequality
+(135𝑘)2−
+33792275107
+1258291200
+2
+−642 = 9617823244026244151
+1583296743997440000 >0.
+Thus 𝐻>64 on the nonnegative feasible set. This prevents a singular limit in
+the compactness proof independently of numerical rounding of (21).
+For the ﬂare height bound, 0≤𝐻0 ≤1, 𝐴0 ≥0, −0.2≤𝐵0 ≤0, and 0≤𝑏≤1 on
+[0,1]; these follow either by factorization or the same rational enclosure. Since
+𝑣𝐺,𝑧<0, 𝑣𝐷,𝑧=−0.7, 𝑇𝑓≤12 and 𝑓𝑧≤10,
+𝑧𝑓≤21.24+12(0.7)(0.2)+10=32.92<34.
+For the lower bound, 6cos𝜃+6.0579sin𝜃is increasing on [0,25◦], because its
+derivative is positive there. Gear nonpenetration then implies 𝑧𝑓≥6. These
+height and derivative bounds supply exactly the family-speciﬁc premises of
+Proposition 3.
+Appendix B.
+Differentiating inverse dynamics
+Let 𝑎= ¥𝑅, 𝑗= ¨𝑅and ¤𝑉=𝑒𝑡·𝑎. Constant wind gives
+¤𝑒𝑡= (𝑎−𝑒𝑡¤𝑉)/𝑉,
+¤𝜓= (𝑣𝑥𝑎𝑦−𝑣𝑦𝑎𝑥)/𝐻2,
+¤𝑒𝑟=−¤𝜓(𝑣𝑥,𝑣𝑦,0)/𝐻,
+¤𝑒𝑢= ¤𝑒𝑡×𝑒𝑟+𝑒𝑡× ¤𝑒𝑟.
+With ¤𝐹=𝑚𝑗,
+¤𝐿𝑢= ¤𝐹·𝑒𝑢+𝐹· ¤𝑒𝑢,
+¤𝐿𝑟= ¤𝐹·𝑒𝑟+𝐹· ¤𝑒𝑟,
+¤𝐿= (𝐿𝑢¤𝐿𝑢+𝐿𝑟¤𝐿𝑟)/𝐿,
+¤𝑄=𝑄(−¤𝑧/8500+2 ¤𝑉/𝑉),
+¤𝐶𝐿= ¤𝐿/𝑄−𝐶𝐿¤𝑄/𝑄,
+¤𝐷= ¤𝑄(0.08+0.045𝐶2
+𝐿)+0.09𝑄𝐶𝐿¤𝐶𝐿,
+¤𝑇= ¤𝐷+ ¤𝐹·𝑒𝑡+𝐹· ¤𝑒𝑡.
+Together with (8), these are the exact ﬁrst-rate formulas used by the continuous
+checker and the independent ﬂoating-point evaluator. They hold on each
+open phase and extend one-sided to its endpoints. Smooth position through
+acceleration does not imply a shared jerk, so omitting either side of a rate check
+at the gate would change the model.
+In the ﬂare, 𝑎𝑦=0 and 𝑣𝑦=−𝑤𝑦. Thus 𝐿𝑟=𝑚𝑤𝑦𝑎𝑥/𝐻, the identity used in
+(42). Zero endpoint accelerations and 𝑎𝑦=0 imply zero bank at touchdown
+even with crosswind: air heading and ground heading need not coincide, but
+the lateral projection of the vertical weight-support force onto 𝑒𝑟is zero.
+29
+
+Aryan Ayyar
+Appendix C.
+Exact root and ﬁxed approach data
+The decimal strings in Table A1 deﬁne 𝑐exactly; they are not rounded
+coefﬁcients of an assumed exact optimizer. The root is the unique solution of
+(32) in (34). Its coordinates are correlated by those equations. An independent
+selection of interval endpoints generally does not solve them. In the same
+Table A1
+Exact decimal centre of the scaled root box. Every coordinate has exact radius 10−20.
+Coordinate
+Exact centre 𝑐𝑖
+𝑇𝑓/5
+0.828166892572350798346132239036969796434284587227
+𝑥𝐷/300
+1.00708819797578277757988923079646312157494318537
+𝑈/75
+0.966828564224417027917923697606192868395258198399
+𝑓𝑥
+-0.0541639220816773321011413707558375035064437706277
+𝑓𝑧
+-0.0148247332056131376799362505546836506035492894573
+𝜂
+0.152360764301861701918625206455836893973748530913
+𝑠𝑆
+0.763520832037558933983831253901580196263121832139
+𝑠𝐿
+0.742524712666685897431892059100460080408671780144
+𝑠𝑇
+0.367159602316114440267379742208002318715902381307
+coordinate order, outward bounds on |𝐾𝑖−𝑐𝑖| are 10−36 times
+(6.762, 7.685, 1.594, 15.48, 196.4,
+1.696, 116.2, 33.95, 53.98).
+The seven approach coordinates, in the units of Table 1, are the following exact
+ﬁnite decimals from the baseline active-branch input:
+𝑇𝑎
+=40.45511499029442
+𝑏𝑥
+=17.554312278350075
+𝑐𝑥
+=−18.902355338597157
+𝑏𝑦
+=24.330223470703103
+𝑐𝑦
+=6.9036241051397464
+𝑏𝑧
+=45.306069713015454
+𝑐𝑧
+=−1.453757342378532
+They are held ﬁxed only to construct one connected feasible path. Theorem 4
+does not require all nearby approaches to remain feasible.
+For avoidance of decimal ambiguity, the full primary box endpoints are
+𝜂=0.152360764301861701908625206455836893973748530913,
+𝜂=0.152360764301861701928625206455836893973748530913.
+The physical root-coordinate radii inherited from the scaled box are 5×10−20
+s for 𝑇𝑓, 3×10−18 m for 𝑥𝐷, 7.5×10−19 m/s for 𝑈, and 10−20 m for each ﬂare
+bump. These are isolation widths, not physical uncertainty or a local-optimality
+radius. The much smaller Krawczyk image demonstrates strict inclusion but is
+not needed as a new advertised parameter box.
+30
+
+Certiﬁed Local Optimality
+Appendix D.
+Interval automatic differentiation and Taylor jets
+The interval evaluator uses two nested exact algebraic constructions. A dual
+number stores an interval value 𝑎and nine derivative intervals 𝑎𝑖. Addition
+and multiplication obey
+(𝑎𝑏)𝑖=𝑎𝑖𝑏+𝑎𝑏𝑖,
+(𝑎/𝑏)𝑖= (𝑎𝑖𝑏−𝑎𝑏𝑖)/𝑏2,
+with the usual derivative formulas for square root and exponential on their
+regular domains. Each operation is evaluated with outward rounding. Induction
+on the expression graph proves inclusion of the value and each derivative.
+The normalized-time jet stores coefﬁcients 𝑎𝑛=𝑎(𝑛)(𝑠)/𝑛!, 0≤𝑛≤3, each
+itself a dual number. If 𝑐=𝑎𝑏, 𝑏=1/𝑎, 𝑏=√𝑎or 𝑏=exp𝑎, the coefﬁcient
+recurrences are
+𝑐𝑛=
+𝑛
+Õ
+𝑘=0
+𝑎𝑘𝑏𝑛−𝑘,
+𝑏0 =1/𝑎0,
+𝑏𝑛=−𝑎−1
+0
+𝑛
+Õ
+𝑘=1
+𝑎𝑘𝑏𝑛−𝑘
+(𝑏=1/𝑎),
+𝑏0 =√𝑎0,
+𝑏𝑛= 𝑎𝑛−Í𝑛−1
+𝑘=1𝑏𝑘𝑏𝑛−𝑘
+2𝑏0
+(𝑏=√𝑎),
+𝑏0 =exp(𝑎0),
+𝑏𝑛= 1
+𝑛
+𝑛
+Õ
+𝑘=1
+𝑘𝑎𝑘𝑏𝑛−𝑘
+(𝑏=exp𝑎).
+The product identity, 𝑎𝑏=1, 𝑏2 =𝑎and 𝑏′=𝑎′𝑏prove these recurrences coef-
+ﬁcient by coefﬁcient. Keeping order three loses no derivative of order at most
+three. Position polynomials themselves are evaluated without approximation;
+the jet truncation is a derivative representation, not a truncated trajectory.
+Applied to thrust, the jet gives 𝑇𝑠,𝑇𝑠𝑠,𝑇𝑠𝑠𝑠. Its dual components supply
+the mixed derivatives for 𝐷𝐹, including derivatives of the stationarity
+equations with respect to all root coordinates. The interior slew curvature is
+−𝑇𝑠𝑠𝑠/(100000𝑇𝑓) on the positive branch. Load and lower-thrust curvatures
+use their second derivatives. This is why ﬁnite-difference Jacobians are
+unnecessary in the proof.
+The preconditioner is chosen numerically for sharpness, but its ﬁnal ﬁnite
+decimal entries are exact speciﬁed constants. The inequality ∥𝐼−𝐶J∥∞<1
+is checked outward, and therefore also proves 𝐶nonsingular; no unveriﬁed
+inverse is assumed. The additive matrix export in the package records every
+interval Jacobian entry, both decimal preconditioners, residual matrices and
+exact binary endpoint representations. Reproduction recomputes them from the
+source expressions.
+31
+
+Aryan Ayyar
+Appendix E.
+Continuous-time veriﬁcation algorithm
+The veriﬁer has two logically separate inputs: exact polynomial/physical data
+and a ﬁnite list of proved active neighborhoods. Its procedure is:
+1. Enclose the root parameters and construct interval Hermite coefﬁcients,
+with exact endpoint identities retained symbolically.
+2. Split [0,1] at every special-event neighborhood endpoint. Treat approach
+and ﬂare as separate closed domains.
+3. On each cell, enclose position through jerk, inverse forces, exact rates,
+corridor distance and all geometric predicates. Remove only a margin
+whose entire cell lies in its proved neighborhood.
+4. Accept only after all remaining margin lower endpoints exceed 𝜂, and all
+hard geometry lower endpoints are nonnegative. Otherwise bisect, or return
+unresolved at the depth limit.
+5. Check that the accepted closed cells cover both phases without gaps; check
+terminal margins, factored gear contact and the whole ground segment.
+The maximum accepted subdivision depth in the local certiﬁcate is 12. Cells
+are enclosures of all real times in their domains, not quadrature nodes.
+The exact numerical value of a selected subdivision endpoint is its stored
+decimal representation, consistently used in both event and ordinary interval
+evaluations.
+The disjunctive geometry extension encloses maxima and minima by taking
+the corresponding extrema of endpoint bounds. It is inclusion-preserving but
+can be pessimistic. The family dependence is likewise enclosed, not discarded:
+an interval hull may include combinations no actual parameter realizes, which
+can make certiﬁcation harder but cannot make a false trajectory feasible.
+For the wind-family check, ﬁrst-order parameter differentiation reduces that
+dependency inﬂation before the force enclosure.
+Appendix F.
+Explicit wind-family coefﬁcients
+The following ﬁnite decimals, not the exact local root, deﬁne (46). Nonzero
+derivative entries have the units of the corresponding parameter divided by
+m/s. Entry and gate velocities are recomputed from the changed known wind.
+32
+
+Certiﬁed Local Optimality
+Table A2
+Exact ﬁnite-decimal wind-family input vectors.
+Coordinate
+Exact 𝑞𝑐decimal
+Exact 𝑞′
+𝑐decimal
+𝑇𝑎
+40.45511499029442
+0
+𝑇𝑓
+4.1408344628617435
+-0.11066452444996222
+𝑥𝐷
+302.1264593927342
+-3.935299293324053
+𝑈
+72.51214231683133
+1.0018913574888975
+𝑏𝑥
+17.554312278350075
+0
+𝑐𝑥
+-18.902355338597157
+0
+𝑏𝑦
+24.330223470703103
+0
+𝑐𝑦
+6.9036241051397464
+0
+𝑏𝑧
+45.306069713015454
+0
+𝑐𝑧
+-1.453757342378532
+0
+𝑓𝑥
+-0.05416392208167613
+0.018454391224874828
+𝑓𝑧
+-0.014824733205644995
+-0.22842502574710072
+The baseline root-isolation radius 10−20, the unquantiﬁed local-optimality
+neighborhood and the wind intervals in Table 5 are three different domains.
+None can be substituted for either of the others.
+Appendix G.
+Source chronology, invalidations and claim domains
+The source freeze is public repository commit 78a9ce1c627f917c9430
+6af5529d5e9ebeb743e8. The latest mathematical layer at that commit is
+the A1 local certiﬁcate, not the older analytical status in V5’s frozen evidence.
+The note preserves that chronology.
+The original synthetic model had a continuously certiﬁed witness with
+margin at least 0.0397 over 2,502 closed cells and a family bound 0.1559772,
+with a broader terminal-only bound near 0.15769490255. These values use
+its own altitude convention and zero-wind scenario. They are not competing
+bounds on A1 at the baseline wind. The A1 terminal ﬂoor value (20), its
+broader terminal relaxation near 0.223501289399, the earlier energy upper
+bound 0.191605 and the later 0.181970215 each have their stated domains.
+Two earlier global-checker failures are retained as invalidated evidence. A
+corridor-distance lower enclosure was incorrectly used for an exclusion upper
+bound, and interval atan2 across its branch cut wrongly excluded a box
+containing a known feasible witness. The associated claimed upper values 0.10,
+0.05, 0.04 and 0.03972 were withdrawn. They are not used here. The repaired
+checker uses a conservative full-angle hull when the denominator interval is
+nonpositive; the accepted candidate additionally has strictly positive lift-up and
+horizontal speed.
+An earlier urban55 search missed the one-sided clearance just before exiting
+the upstream urban region. Its pre-repair candidate is preserved. The accepted
+path has an explicit exit-root condition and a fresh continuous certiﬁcate.
+Failed wider wind enclosures and negative-margin tailwind/urban searches are
+also preserved, without being promoted to infeasibility results. These records
+33
+
+Aryan Ayyar
+explain why accepted input hashes and ﬁnite proof coverage matter more than
+an optimizer success ﬂag.
+Appendix H.
+Certiﬁcate speciﬁcation and reproduction
+The source package includes the manuscript, original vector ﬁgure code,
+compact ﬁgure inputs, V5’s unchanged academic class/style ﬁles and a
+manifest-bound public proof-source subset. No private source scans or
+installable proprietary fonts are included. Relative paths below are rooted in
+the package. The source subset preserves repository-relative paths beneath
+frozen-source/.
+Object
+Role and ﬁnite content
+inputs/local_certifica
+te.json
+Exact decimal centre/radius, Krawczyk offsets,
+multiplier intervals, event inequalities and 398-cell
+cover.
+verification/accepted/
+Fresh reproduction receipts and logs; full matrices are
+in verification/final/local_matrices.
+json.
+frozen-source/PUBLIC_S
+OURCE_MANIFEST.json
+SHA-256 binding of every included public source ﬁle
+to the pinned commit.
+CLAIMS_AND_EVIDENCE.csv
+Claim classiﬁcation, premises, executable evidence
+and theorem linkage.
+audit/
+Independent analytical/model, interval/optimization
+and numerical-reproduction reviews; corrections and
+failures retained.
+FIGURE_PROVENANCE.md
+Per-ﬁgure mathematical object, input, plotting status
+and intended interpretation.
+The build and proof checks are separate. After creating an environment from
+the supplied pinned requirements, the principal commands are
+python build.py --figures
+python scripts/verify_all.py \
+--source-root frozen-source \
+--output-dir verification/replay
+python verification/emit_matrices.py \
+--source-root frozen-source \
+--output verification/replay/local_matrices.json
+The README gives exact invocation details, host-tool prerequisites and
+the tested environment. The build uses XeLaTeX, BibTeX, locally licensed
+Times/Arial/Courier New and NewTX mathematics. The class retains the V5
+page trim 182.52×274.92 mm, 373.2 TeX-point text width, 12-point body and
+14.4-point normal baseline. Source package extraction is checked in a fresh
+directory; the existing host TeX and licensed fonts are reused, not claimed to
+be a fresh operating-system installation.
+The
+publicly
+reproducible
+numerical
+suite
+contains
+102
+numeri-
+cal/core/proof tests and 15 geometry tests. Five historical-source tests and two
+original-workspace preservation tests require omitted or unnormalized inputs;
+34
+
+Certiﬁed Local Optimality
+they are explicitly excluded, not counted as passes. Publication mapping and
+the new source manifest supply separate integrity checks. The old publication
+checker expects a historical complete project ledger; later V5 appendages
+make that exact-ﬁle expectation stale. The additive veriﬁcation checks the old
+preﬁx and the pinned current ﬁle separately, preserving the original failure log
+and checker.
+Root, simplex, event and complete-path calculations are freshly executed, as
+are baseline secondary retention, the stronger global exclusion, the three wind
+domains and the ten accepted condition paths. Restricted historical originals
+are not needed for those conditional mathematical statements.
+35
+
+Aryan Ayyar
+References
+Ayyar, A. 2026a. Checkers with runway 13. Independent research white paper. Version 5, 13
+October. https://github.com/ayyararyan/kai-tak/tree/78a9ce1c627f91
+7c94306af5529d5e9ebeb743e8/research/checkers-runway13/whitepaper
+/v5.
+———.
+2026b.
+Kai
+tak
+landing
+research:
+Assumption-conditional
+scientiﬁc
+results
+and
+validated
+local
+certiﬁcate.
+Research
+repository.
+Source
+freeze
+78a9ce1c627f917c94306af5529d5e9ebeb743e8. https://github.com/ayyararya
+n/kai-tak/tree/78a9ce1c627f917c94306af5529d5e9ebeb743e8/publica
+tion/scientific-results-20261013.
+Krawczyk, R. 1969. Newton-algorithmen zur bestimmung von nullstellen mit fehlerschranken.
+Computing 4:187–201. https://doi.org/10.1007/BF02234767.
+Rump, S. M. 2010. Veriﬁcation methods: Rigorous results using ﬂoating-point arithmetic. Acta
+Numerica 19:287–449. Author’s corrected version: https://www.tuhh.de/ti3/rump/i
+ntlab/ActaNumerica2010.pdf.
+36

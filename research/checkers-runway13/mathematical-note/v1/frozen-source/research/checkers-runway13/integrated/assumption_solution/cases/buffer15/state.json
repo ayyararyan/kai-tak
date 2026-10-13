@@ -1,0 +1,18 @@
+{
+  "status": "completed_numerical",
+  "condition": {
+    "name": "buffer15",
+    "urban": 25,
+    "roof_delta": 0,
+    "frame_dx": 0,
+    "frame_dy": 0,
+    "runway_level": 6,
+    "buffer": 15,
+    "wind_mps": [
+      -4.876589552990943,
+      9.64006667211232,
+      0
+    ]
+  },
+  "result_sha256": "39fb4ce4bfbcaec2922643b6ab18922630a30a7ea60edea7dd648cbc882060c9"
+}

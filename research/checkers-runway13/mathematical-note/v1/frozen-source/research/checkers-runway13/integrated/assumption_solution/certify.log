@@ -1,0 +1,7 @@
+buffer15 {'certified': True, 'eta_lower_real_decimal': '0.14930600428507443', 'processed': 592, 'seconds': 3.6655770828947425}
+calm {'certified': True, 'eta_lower_real_decimal': '0.03612128959273542', 'processed': 428, 'seconds': 2.6453689590562135}
+headwind10 {'certified': True, 'eta_lower_real_decimal': '0.14325097999902991', 'processed': 560, 'seconds': 3.4466061668936163}
+mean {'certified': True, 'eta_lower_real_decimal': '0.14930569444740496', 'processed': 592, 'seconds': 3.812202249886468}
+tailwind2 {'certified': True, 'eta_lower_real_decimal': '0.013804691216846469', 'processed': 520, 'seconds': 3.157921333098784}
+urban45 {'certified': True, 'eta_lower_real_decimal': '0.14930600428167165', 'processed': 598, 'seconds': 3.660188082838431}
+urban50 {'certified': True, 'eta_lower_real_decimal': '0.14929646039010436', 'processed': 604, 'seconds': 4.4109172080643475}

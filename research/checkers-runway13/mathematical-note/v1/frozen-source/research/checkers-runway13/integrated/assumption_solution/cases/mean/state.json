@@ -1,0 +1,18 @@
+{
+  "status": "completed_numerical",
+  "condition": {
+    "name": "mean",
+    "urban": 25,
+    "roof_delta": 0,
+    "frame_dx": 0,
+    "frame_dy": 0,
+    "runway_level": 6,
+    "buffer": 5,
+    "wind_mps": [
+      -4.876589552990943,
+      9.64006667211232,
+      0
+    ]
+  },
+  "result_sha256": "347a8aca1e118e0a6ebfa69b3f46c2e715b24fa882d3d6003f2db778196af458"
+}

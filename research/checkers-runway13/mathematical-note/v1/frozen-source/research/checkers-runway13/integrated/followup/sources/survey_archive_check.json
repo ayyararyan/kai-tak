@@ -1,0 +1,23 @@
+{
+  "endpoint": "https://api.hkmapservice.gov.hk/oss/services/OneStop/FlightPaths/MapServer/2/query",
+  "where": "YEARFLIGHT = 1993",
+  "scope": "all public layer2 records for1993; not special-survey completeness",
+  "retrieved_utc": "2026-10-13T16:04:29.328775+00:00",
+  "count": 5637,
+  "matches": [],
+  "files": {
+    "all_hk_1993_index_00500.json": "cffbd988e3ff3dfc3470fb749a317a83c3e0df6fda9a46f064ba76177a646ac8",
+    "all_hk_1993_index_05000.json": "a016681dc74cc78969fd620e1fb5da263d2b8a89061dc13f90e1e59b42a32cb6",
+    "all_hk_1993_index_01500.json": "564a158a077f270548cec427a22de1dad18cdf9e4cdeb1956dddaf967bfa17c7",
+    "all_hk_1993_index_04000.json": "8354e5d07625ee810dc243d211a8f9d1f6564b88ec9d80d7c67a320c532f4189",
+    "all_hk_1993_index_03500.json": "7d51dec67676f8ca90822951ff8ec62fd4fd7d1399f83c9e41fdbab799104743",
+    "all_hk_1993_index_02500.json": "64428a90b0b8713236d6fc47b49085d3547dcd56a93041fe5e3bc71273021649",
+    "all_hk_1993_index_02000.json": "b37314162cdaee15d84254923a17f4a7f17cef30f7a940dc056b7a8e65dbf844",
+    "all_hk_1993_index_03000.json": "b28a2494f81516fedf282f419c3b7561c893bf713a8a1d3240ff66419246c7f3",
+    "all_hk_1993_index_01000.json": "5bb5c62699c4875bcef83eeae9d444ba90d96420054a46bd090a570092a14bb5",
+    "all_hk_1993_index_04500.json": "10d96b39b0d68d53ce1a884629a12ff22ae9a5c8f6a8cd0339dc73d779fa7cd6",
+    "all_hk_1993_index_00000.json": "156bca9c7a2dcc08507471b2953177a62ca34f2801ee2e5c9875f745e5074230",
+    "all_hk_1993_index_05500.json": "9f9f454ae0250b2699c21865d9b709838834a9b47b9fa74039ffd2e81311702b"
+  },
+  "query_keys_not_saved": true
+}
