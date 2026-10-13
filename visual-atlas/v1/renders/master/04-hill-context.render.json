@@ -1,0 +1,184 @@
+{
+  "id": "04-hill-context",
+  "epoch": "2014–2015 photography-derived terrain",
+  "kind": "geography",
+  "style": "cinematic",
+  "mode": "interpretive",
+  "lighting": "warm",
+  "lighting_historical_weather": false,
+  "blender_version": "4.5.3 LTS",
+  "python_version": "3.11.11 (main, Apr 25 2025, 12:39:20) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "samples_requested": 48,
+  "origin_epsg2326": [
+    837500,
+    821000
+  ],
+  "horizontal_crs": "EPSG:2326",
+  "vertical_datum": "HKPD; modern 2014–2015 terrain only",
+  "axis_mapping": "X=east, Y=north, Z=source height",
+  "vertical_exaggeration": 1,
+  "source_counts": {
+    "features": 1,
+    "interpretive_features_omitted": 0
+  },
+  "source_sha256": {
+    "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/scenes/jobs/04-hill-context.json": "2d0531d7eca450aa6fdbfbfa7b8ad1c4752d6df1b14333f09386c55933de2fa9",
+    "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/metadata/input_manifest.json": "5480ca71109f375a2307f590449e19edd594a89903751007feee3c6b9398cc4b",
+    "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill_context.json": "6875efda4d204a8afe396f2ca7b38e3cda032c945a0be974bc99f4e49b8b2520"
+  },
+  "camera": {
+    "location": [
+      100,
+      420,
+      650
+    ],
+    "target": [
+      -300,
+      1020,
+      50
+    ],
+    "projection": "ORTHO",
+    "ortho_scale": 1100,
+    "lens": 48,
+    "location_epsg2326": [
+      837600,
+      821420,
+      650
+    ],
+    "target_epsg2326": [
+      837200,
+      822020,
+      50
+    ],
+    "world_matrix": [
+      [
+        0.8320503234863281,
+        -0.3547874093055725,
+        0.42640140652656555,
+        100.0
+      ],
+      [
+        0.5547001361846924,
+        0.5321811437606812,
+        -0.6396021842956543,
+        420.0
+      ],
+      [
+        4.9981032645973755e-09,
+        0.7687061429023743,
+        0.6396021246910095,
+        650.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "rotation_euler_radians": [
+      0.8768157362937927,
+      -4.9981032645973755e-09,
+      0.5880025625228882
+    ],
+    "sensor_width_mm": 36.0,
+    "grid_azimuth_degrees": 326.30993247402023,
+    "elevation_angle_degrees": -39.76215915180505,
+    "bearing_note": "Grid-north camera direction, not true/magnetic aircraft heading",
+    "view_frame": [
+      [
+        550.0,
+        309.375,
+        -1.0
+      ],
+      [
+        550.0,
+        -309.375,
+        -1.0
+      ],
+      [
+        -550.0,
+        -309.375,
+        -1.0
+      ],
+      [
+        -550.0,
+        309.375,
+        -1.0
+      ]
+    ]
+  },
+  "display_board": {
+    "bounds": [
+      -670.0,
+      685.0,
+      65.0,
+      1370.0
+    ],
+    "z": 15.0,
+    "is_terrain": false
+  },
+  "width": 3840,
+  "height": 2160,
+  "render_seconds": 1.884,
+  "output": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/renders/master/04-hill-context.png",
+  "output_sha256": "f33cb96b8bcb99a48953446574e41328ffaf230a9bf371998480a089d34f19fe",
+  "objects": [
+    {
+      "name": "Checkerboard Hill region · 2014–2015 terrain context",
+      "type": "MESH",
+      "metadata": {
+        "source": "geospatial/derived/Kowloon_KaiTak_DTM_5m_HK1980.tif",
+        "evidence_level": "B modern contextual DTM, not historical terrain",
+        "epoch": "2014–2015 photography",
+        "contextual": true,
+        "display_is_historical_terrain": false
+      }
+    },
+    {
+      "name": "Exhibition support · NOT geographic terrain",
+      "type": "MESH",
+      "metadata": {
+        "evidence_level": "presentation_only",
+        "physical_geography": false,
+        "purpose": "Neutral missing-evidence display support",
+        "z_is_display_choice": true
+      }
+    },
+    {
+      "name": "Evidence display boundary · not a coastline",
+      "type": "CURVE",
+      "metadata": {
+        "physical_geography": false
+      }
+    },
+    {
+      "name": "Warm artistic afternoon",
+      "type": "LIGHT",
+      "metadata": {
+        "historical_weather": false,
+        "artistic_choice": true
+      }
+    },
+    {
+      "name": "Large soft exhibition fill",
+      "type": "LIGHT",
+      "metadata": {}
+    },
+    {
+      "name": "Recorded virtual camera",
+      "type": "CAMERA",
+      "metadata": {
+        "source": "Virtual artistic viewpoint; not an historical aircraft pose",
+        "location": "[100, 420, 650]",
+        "target": "[-300, 1020, 50]",
+        "projection": "ORTHO",
+        "ortho_scale": 1100,
+        "lens": 48
+      }
+    }
+  ],
+  "landmark_pixels": {},
+  "projected_marks": []
+}

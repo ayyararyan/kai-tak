@@ -1,0 +1,380 @@
+{
+  "id": "map-1997-04",
+  "epoch": "1997-04",
+  "kind": "map",
+  "style": "architectural",
+  "mode": "evidence",
+  "lighting": "daylight",
+  "lighting_historical_weather": false,
+  "blender_version": "4.5.3 LTS",
+  "python_version": "3.11.11 (main, Apr 25 2025, 12:39:20) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "samples_requested": 48,
+  "origin_epsg2326": [
+    837500,
+    821000
+  ],
+  "horizontal_crs": "EPSG:2326",
+  "vertical_datum": "display_plane_not_terrain",
+  "axis_mapping": "X=east, Y=north, Z=source height",
+  "vertical_exaggeration": 1,
+  "source_counts": {
+    "registered_map_planes": 1,
+    "height_unknown_outlines": 15
+  },
+  "source_sha256": {
+    "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/scenes/jobs/map-1997-04.json": "af991283547df47d6d28608abface1045d954466b08442c7fbf048ac9ab4d5f4",
+    "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/metadata/input_manifest.json": "5480ca71109f375a2307f590449e19edd594a89903751007feee3c6b9398cc4b",
+    "/Users/maheit/.openclaw/workspace/repos/kai-tak/research/checkers-runway13/reconstruction/block_matching/scene/scene.json": "734ca0e43995571686de9a43cc7b0522a1cf55d1c97d868f66fb2ed7ca1e34e8",
+    "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1997-04-display.png": "dfb4713fcc1ff5a9727748a9777c6802c9eb2ac25311cc71f5c9ee652f016167"
+  },
+  "camera": {
+    "location": [
+      1100,
+      -1050,
+      1100
+    ],
+    "target": [
+      375,
+      300,
+      20
+    ],
+    "projection": "ORTHO",
+    "ortho_scale": 1300,
+    "lens": 48,
+    "location_epsg2326": [
+      838600,
+      819950,
+      1100
+    ],
+    "target_epsg2326": [
+      837875,
+      821300,
+      20
+    ],
+    "world_matrix": [
+      [
+        0.880994439125061,
+        -0.27256348729133606,
+        0.3867272734642029,
+        1100.0
+      ],
+      [
+        0.4731266498565674,
+        0.5075321793556213,
+        -0.720112681388855,
+        -1050.0
+      ],
+      [
+        -9.959939006876084e-08,
+        0.8173862099647522,
+        0.5760900378227234,
+        1100.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "rotation_euler_radians": [
+      0.9568592309951782,
+      9.959939006876084e-08,
+      0.4928364157676697
+    ],
+    "sensor_width_mm": 36.0,
+    "grid_azimuth_degrees": 331.76255446183274,
+    "elevation_angle_degrees": -35.176010682464245,
+    "bearing_note": "Grid-north camera direction, not true/magnetic aircraft heading",
+    "view_frame": [
+      [
+        650.0,
+        365.625,
+        -1.0
+      ],
+      [
+        650.0,
+        -365.625,
+        -1.0
+      ],
+      [
+        -650.0,
+        -365.625,
+        -1.0
+      ],
+      [
+        -650.0,
+        365.625,
+        -1.0
+      ]
+    ]
+  },
+  "display_board": {
+    "bounds": [
+      -20.29215967655182,
+      -20.0,
+      770.0,
+      620.0
+    ],
+    "z": -3.400000184774399,
+    "is_terrain": false
+  },
+  "width": 3840,
+  "height": 2160,
+  "render_seconds": 2.271,
+  "output": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/renders/master/map-1997-04.png",
+  "output_sha256": "9c41160e1e9cb0b8f5549aea7eab7dc297f02db8837924ea12e473a84d7c6df3",
+  "objects": [
+    {
+      "name": "1997-04 survey edition · registered reference",
+      "type": "MESH",
+      "metadata": {
+        "source": "/Users/maheit/.openclaw/workspace/repos/kai-tak/research/checkers-runway13/reconstruction/block_matching/registered/11-NE-11A_1997-04_core.png",
+        "source_epoch": "1997-04",
+        "evidence_level": "A",
+        "vertical_datum": "display_plane_not_terrain",
+        "distribution": "Local author review; source imagery rights must be checked before distribution"
+      }
+    },
+    {
+      "name": "Shing Tung House · height unknown",
+      "type": "CURVE",
+      "metadata": {
+        "source": "scene.json#/historical_faces/shing_tung",
+        "source_epoch": "1997-04",
+        "evidence_level": "B",
+        "height_m": "null",
+        "display_offset_m": 0.15,
+        "physical_volume": false,
+        "vertical_datum": "display_plane_not_terrain"
+      }
+    },
+    {
+      "name": "Mau Tung House · height unknown",
+      "type": "CURVE",
+      "metadata": {
+        "source": "scene.json#/historical_faces/mau_tung",
+        "source_epoch": "1997-04",
+        "evidence_level": "B",
+        "height_m": "null",
+        "display_offset_m": 0.15,
+        "physical_volume": false,
+        "vertical_datum": "display_plane_not_terrain"
+      }
+    },
+    {
+      "name": "On Tung House · height unknown",
+      "type": "CURVE",
+      "metadata": {
+        "source": "scene.json#/historical_faces/on_tung",
+        "source_epoch": "1997-04",
+        "evidence_level": "B",
+        "height_m": "null",
+        "display_offset_m": 0.15,
+        "physical_volume": false,
+        "vertical_datum": "display_plane_not_terrain"
+      }
+    },
+    {
+      "name": "Hong Tung House · height unknown",
+      "type": "CURVE",
+      "metadata": {
+        "source": "scene.json#/historical_faces/hong_tung",
+        "source_epoch": "1997-04",
+        "evidence_level": "B",
+        "height_m": "null",
+        "display_offset_m": 0.15,
+        "physical_volume": false,
+        "vertical_datum": "display_plane_not_terrain"
+      }
+    },
+    {
+      "name": "Cooked food centre and market · height unknown",
+      "type": "CURVE",
+      "metadata": {
+        "source": "scene.json#/historical_faces/market_podium",
+        "source_epoch": "1997-04",
+        "evidence_level": "B",
+        "height_m": "null",
+        "display_offset_m": 0.15,
+        "physical_volume": false,
+        "vertical_datum": "display_plane_not_terrain"
+      }
+    },
+    {
+      "name": "Tung Tau Block 22 · height unknown",
+      "type": "CURVE",
+      "metadata": {
+        "source": "scene.json#/historical_faces/block22",
+        "source_epoch": "1997-04",
+        "evidence_level": "B",
+        "height_m": "null",
+        "display_offset_m": 0.15,
+        "physical_volume": false,
+        "vertical_datum": "display_plane_not_terrain"
+      }
+    },
+    {
+      "name": "Tung Tau Block 23 · height unknown",
+      "type": "CURVE",
+      "metadata": {
+        "source": "scene.json#/historical_faces/block23",
+        "source_epoch": "1997-04",
+        "evidence_level": "B",
+        "height_m": "null",
+        "display_offset_m": 0.15,
+        "physical_volume": false,
+        "vertical_datum": "display_plane_not_terrain"
+      }
+    },
+    {
+      "name": "Lee Kau Yan Memorial School · height unknown",
+      "type": "CURVE",
+      "metadata": {
+        "source": "scene.json#/historical_faces/lee_school",
+        "source_epoch": "1997-04",
+        "evidence_level": "B",
+        "height_m": "null",
+        "display_offset_m": 0.15,
+        "physical_volume": false,
+        "vertical_datum": "display_plane_not_terrain"
+      }
+    },
+    {
+      "name": "Ng Wah College · height unknown",
+      "type": "CURVE",
+      "metadata": {
+        "source": "scene.json#/historical_faces/ng_wah",
+        "source_epoch": "1997-04",
+        "evidence_level": "B",
+        "height_m": "null",
+        "display_offset_m": 0.15,
+        "physical_volume": false,
+        "vertical_datum": "display_plane_not_terrain"
+      }
+    },
+    {
+      "name": "Regal Airport Hotel · height unknown",
+      "type": "CURVE",
+      "metadata": {
+        "source": "scene.json#/historical_faces/regal",
+        "source_epoch": "1997-04",
+        "evidence_level": "B",
+        "height_m": "null",
+        "display_offset_m": 0.15,
+        "physical_volume": false,
+        "vertical_datum": "display_plane_not_terrain"
+      }
+    },
+    {
+      "name": "Po Sing Court · height unknown",
+      "type": "CURVE",
+      "metadata": {
+        "source": "scene.json#/historical_faces/po_sing",
+        "source_epoch": "1997-04",
+        "evidence_level": "B",
+        "height_m": "null",
+        "display_offset_m": 0.15,
+        "physical_volume": false,
+        "vertical_datum": "display_plane_not_terrain"
+      }
+    },
+    {
+      "name": "Kowloon City Market · height unknown",
+      "type": "CURVE",
+      "metadata": {
+        "source": "scene.json#/historical_faces/city_market",
+        "source_epoch": "1997-04",
+        "evidence_level": "B",
+        "height_m": "null",
+        "display_offset_m": 0.15,
+        "physical_volume": false,
+        "vertical_datum": "display_plane_not_terrain"
+      }
+    },
+    {
+      "name": "Lok Sin Tong Primary School · height unknown",
+      "type": "CURVE",
+      "metadata": {
+        "source": "scene.json#/historical_faces/lok_sin_school",
+        "source_epoch": "1997-04",
+        "evidence_level": "B",
+        "height_m": "null",
+        "display_offset_m": 0.15,
+        "physical_volume": false,
+        "vertical_datum": "display_plane_not_terrain"
+      }
+    },
+    {
+      "name": "Maternity Home · height unknown",
+      "type": "CURVE",
+      "metadata": {
+        "source": "scene.json#/historical_faces/maternity",
+        "source_epoch": "1997-04",
+        "evidence_level": "B",
+        "height_m": "null",
+        "display_offset_m": 0.15,
+        "physical_volume": false,
+        "vertical_datum": "display_plane_not_terrain"
+      }
+    },
+    {
+      "name": "Lee Kee Memorial Dispensary · height unknown",
+      "type": "CURVE",
+      "metadata": {
+        "source": "scene.json#/historical_faces/dispensary",
+        "source_epoch": "1997-04",
+        "evidence_level": "B",
+        "height_m": "null",
+        "display_offset_m": 0.15,
+        "physical_volume": false,
+        "vertical_datum": "display_plane_not_terrain"
+      }
+    },
+    {
+      "name": "Exhibition support · NOT geographic terrain",
+      "type": "MESH",
+      "metadata": {
+        "evidence_level": "presentation_only",
+        "physical_geography": false,
+        "purpose": "Neutral missing-evidence display support",
+        "z_is_display_choice": true
+      }
+    },
+    {
+      "name": "Evidence display boundary · not a coastline",
+      "type": "CURVE",
+      "metadata": {
+        "physical_geography": false
+      }
+    },
+    {
+      "name": "Clear artistic daylight",
+      "type": "LIGHT",
+      "metadata": {
+        "historical_weather": false,
+        "artistic_choice": true
+      }
+    },
+    {
+      "name": "Large soft exhibition fill",
+      "type": "LIGHT",
+      "metadata": {}
+    },
+    {
+      "name": "Recorded virtual camera",
+      "type": "CAMERA",
+      "metadata": {
+        "source": "Virtual artistic viewpoint; not an historical aircraft pose",
+        "location": "[1100, -1050, 1100]",
+        "target": "[375, 300, 20]",
+        "projection": "ORTHO",
+        "ortho_scale": 1300,
+        "lens": 48
+      }
+    }
+  ],
+  "landmark_pixels": {},
+  "projected_marks": []
+}

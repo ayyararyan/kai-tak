@@ -1,0 +1,17 @@
+{
+  "id": "12",
+  "slug": "visual-atlas",
+  "title": "Checkers with Runway 13",
+  "subtitle": "A city, an airport, and the limits of what the archive lets us recover",
+  "epoch": "1993 photo surface / historical maps, 1986–1993",
+  "mode": "interpretive",
+  "type": "Evidence-led panoramic synthesis; separated panels",
+  "source_render": "12-panorama",
+  "idea": "Create the signature public illustration without pretending to a complete historical city.",
+  "limit": "The photographic panorama and airport map are separate views, not a seamless calibrated terrain/city model. The geographic inset supplies context; missing areas do not mean empty Hong Kong.",
+  "caption": "The reconstructed city appears as an incomplete relief beside the historical airport geography. Together they show why this place invites investigation, while leaving the unknown architecture visibly unresolved.",
+  "sources": [
+    "reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json",
+    "integrated/geometry/map_mosaic_manifest.json"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "07",
+  "slug": "kowloon-1989",
+  "title": "Kowloon, October 1989",
+  "subtitle": "Reviewed historical faces on their original survey-sheet context",
+  "epoch": "Survey edition: October 1989",
+  "mode": "evidence",
+  "type": "Height-unknown historical cartography",
+  "source_render": "map-1989-10",
+  "idea": "Read a dated documentary layer without fabricating elevations.",
+  "limit": "15 reviewed mapped forms, not a complete building census. Their physical heights remain unknown. Map edition is not a construction or presence date.",
+  "caption": "The highlighted mapped faces are supported by the inspected sheet. They stay flat because the archive does not establish their heights. The map's many other symbols are not automatically accepted building footprints.",
+  "sources": [
+    "reconstruction/block_matching/historical_faces_hk1980.geojson",
+    "reconstruction/block_matching/registered/11-NE-11A_1989-10_core.json"
+  ]
+}

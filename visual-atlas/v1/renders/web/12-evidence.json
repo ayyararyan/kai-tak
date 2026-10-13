@@ -1,0 +1,24 @@
+{
+  "id": "12",
+  "slug": "visual-atlas",
+  "title": "Checkers with Runway 13",
+  "subtitle": "Panoramic source surface, without the separate geographic inset",
+  "epoch": "Photographs: 2 November 1993",
+  "mode": "evidence",
+  "type": "Partial observed-surface panorama",
+  "source_render": "12-panorama",
+  "idea": "Create the signature public illustration without pretending to a complete historical city.",
+  "limit": "Only the partial nominally calibrated 1993 surface is shown. Elevations remain relative to a fitted park/road plane, not HKPD; no geographic inset is included.",
+  "caption": "This is only the supported photo-derived patch. Missing faces remain absent; the neutral support is not reconstructed terrain. Relative elevations are not HKPD.",
+  "sources": [
+    "reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json",
+    "integrated/geometry/map_mosaic_manifest.json"
+  ],
+  "master": "renders/master/atlas-12-visual-atlas.png",
+  "annotated": "renders/annotated/12-visual-atlas.png",
+  "web": "renders/web/12-visual-atlas.webp",
+  "size": [
+    3840,
+    2160
+  ]
+}

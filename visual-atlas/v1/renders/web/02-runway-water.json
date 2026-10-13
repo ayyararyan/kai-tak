@@ -1,0 +1,17 @@
+{
+  "id": "02",
+  "slug": "runway-water",
+  "title": "The runway into the bay",
+  "subtitle": "A mapped peninsula, with the surviving seawall evidence highlighted",
+  "epoch": "Survey editions, 1986–1993",
+  "mode": "evidence",
+  "type": "Oblique historical map scene",
+  "source_render": "02-runway-water",
+  "idea": "Understand the airport's unusual relationship to the water.",
+  "limit": "Only partial runway edges and the August 1993 southeastern seawall are traced. Shoreline completion, water height and exact threshold registration remain unresolved.",
+  "caption": "The map records the runway projecting into Kowloon Bay. Highlighted linework is the actually digitized evidence, not a completed shoreline. Published landing distance available is 2,786 m; it is not the runway's total physical length.",
+  "sources": [
+    "integrated/geometry/historical_seawall.geojson",
+    "integrated/geometry/mapped_runway_edges.geojson"
+  ]
+}

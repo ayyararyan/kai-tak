@@ -1,0 +1,163 @@
+{
+  "files": [
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/scene/scene.json",
+      "available": true,
+      "bytes": 53893170,
+      "sha256": "734ca0e43995571686de9a43cc7b0522a1cf55d1c97d868f66fb2ed7ca1e34e8"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/historical_faces_hk1980.geojson",
+      "available": true,
+      "bytes": 307358,
+      "sha256": "ababd2644f766efb29a79eb02d4a73ffd09893f74190c1e5f464e75627c3bb2e"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/observed_surface_mesh.ply",
+      "available": true,
+      "bytes": 17350341,
+      "sha256": "49866bd77fd74a04f8ba18e8a734d05ee169b2ddd9bc7d74b6039800869a8323"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/observed_surface_mesh.glb",
+      "available": true,
+      "bytes": 7071056,
+      "sha256": "c146fae1866e003e74dea693e05df4139e49b414bab0c6f82c14312bc61dc241"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json",
+      "available": true,
+      "bytes": 2635,
+      "sha256": "ae7aa69c6ed42263bc6e060fb92133aaeed8e39f9909bdea48d99dc27986b394"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/dense_stereo_points.csv",
+      "available": true,
+      "bytes": 33971110,
+      "sha256": "634aa4f28a4d7e80014c48eae199ce829a72d0b5461aaf7e7beeb9a1c8a0dba9"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/dense_stereo_report.json",
+      "available": true,
+      "bytes": 4425,
+      "sha256": "28ddf7ddff1f4a75e756a6beb3842ed8d6c8fd7e68d211a9e162cf94b72a6374"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/sparse_stereo_points.csv",
+      "available": true,
+      "bytes": 301054,
+      "sha256": "841a89fb4560e2b7c3513f44f5ed836efa5467267482b3d5e980ae40fb025324"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/manual_stereo_labels.json",
+      "available": true,
+      "bytes": 3321,
+      "sha256": "254dca4fc0dd95088e7a0f9e6af8846a83c49cb90827e0e265439a08662da7c1"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/date_annotation_audit.json",
+      "available": true,
+      "bytes": 602,
+      "sha256": "658db7ba346c2d12afa673f2671c2fcd6dd9d84c76147e4ca580fc01734e6afa"
+    },
+    {
+      "path": "research/checkers-runway13/geospatial/derived/Kowloon_KaiTak_buildings_20260921.geojson",
+      "available": true,
+      "bytes": 71966641,
+      "sha256": "b764e11af1b1a3b225756e142251977508b357f4542e728444a03d28152f1a57"
+    },
+    {
+      "path": "research/checkers-runway13/geospatial/derived/Kowloon_KaiTak_DTM_5m_HK1980.tif",
+      "available": true,
+      "bytes": 4328178,
+      "sha256": "7f040a7bbc639aa068c19ea994e3f1b58e35097abf88ebe9033c2eff9b998bdb"
+    },
+    {
+      "path": "research/checkers-runway13/integrated/geometry/runway_map_mosaic.png",
+      "available": true,
+      "bytes": 1762167,
+      "sha256": "e6daae428f76350a2d4bb6108a3298244bfb2aab4308f7184bce5a56f2e169ff"
+    },
+    {
+      "path": "research/checkers-runway13/integrated/geometry/map_mosaic_manifest.json",
+      "available": true,
+      "bytes": 13417,
+      "sha256": "05572079470c4ce22765307dbf05096e171898b5a8ea6d6d09ef28c941d4a6ab"
+    },
+    {
+      "path": "research/checkers-runway13/integrated/geometry/mapped_runway_edges.geojson",
+      "available": true,
+      "bytes": 18334,
+      "sha256": "15a253c9de5c1d26d82fd42d3ebd5b677c2a167b7dc3c51013b863965b6f77e2"
+    },
+    {
+      "path": "research/checkers-runway13/integrated/geometry/historical_seawall.geojson",
+      "available": true,
+      "bytes": 5163,
+      "sha256": "b58e02585c12a8f6e452a2bc7ec3c419afd303d4e3e778e102a61fab0c3d4869"
+    },
+    {
+      "path": "research/checkers-runway13/integrated/geometry/historical_hill_terrain.geojson",
+      "available": true,
+      "bytes": 33399,
+      "sha256": "f653dee81574ac7cfe05fdb583fbd8afcf6fc2f6730afb66af84e57cce49fe2d"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/registered/11-NE-11A_1989-10_core.png",
+      "available": true,
+      "bytes": 2397201,
+      "sha256": "7daf2f8720a78b8ded383ae4f0ec811fa18eda1140c1e0248802d94c3b984259"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/registered/11-NE-11A_1989-10_core.json",
+      "available": true,
+      "bytes": 842,
+      "sha256": "cdd4b3142c28f7d41fee4a0f0bfb63adb3fd0164da9a333c6abd3295f24de022"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/registered/11-NE-11A_1994-07_core.png",
+      "available": true,
+      "bytes": 2437557,
+      "sha256": "ff47e9e448d5ec708e3fcc2978312eff62e712aff88433a36884c47539f22805"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/registered/11-NE-11A_1994-07_core.json",
+      "available": true,
+      "bytes": 842,
+      "sha256": "413996dbe93645f01065eaaad230e8f0c1238ec32861e74cf985dfe273644fee"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/registered/11-NE-11A_1997-04_core.png",
+      "available": true,
+      "bytes": 2745013,
+      "sha256": "04e7fba1b11e21b9ca4af973b4f22b0c33cce5957d1fde180d992e2becb5e4e7"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/registered/11-NE-11A_1997-04_core.json",
+      "available": true,
+      "bytes": 842,
+      "sha256": "46af67cdd1d08628e50fa7204c6d3d9b1d6e06ab80d53728c77ee3c130c1274e"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A36142.jpg",
+      "available": true,
+      "bytes": 876169,
+      "sha256": "42da43eebfa6eae39597ea16d917f900986d80f7c069b909ebbe3563fc074767"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A36143.jpg",
+      "available": true,
+      "bytes": 818247,
+      "sha256": "e8439e24ffd7acbbaf7b5247b2fddbd7a52fd079e3c986481771efe204eaf289"
+    }
+  ],
+  "original_scene_sha256": "734ca0e43995571686de9a43cc7b0522a1cf55d1c97d868f66fb2ed7ca1e34e8",
+  "source_restore_receipt": "metadata/restore_receipt.json; separate recorded acquisition operation, not re-run by prepare.py",
+  "unavailable": [
+    "complete calibrated 1993 city",
+    "complete historical coastline vector",
+    "verified historical runway threshold registration",
+    "absolute HKPD transform for stereo",
+    "historical building heights for mapped faces"
+  ]
+}

@@ -1,0 +1,12 @@
+# Published in the checksum-verified visual-atlas-v1 release
+/scenes/*.blend
+/assets/
+# Preserved locally, not publication deliverables
+/qa/superseded-scenes/
+/qa/*.log
+/qa/renderer-smoke*
+/qa/replay-*
+/qa/negative-hash-job.json
+/qa/change_snapshot.txt
+/qa/render_progress.json
+__pycache__/

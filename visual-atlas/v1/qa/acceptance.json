@@ -1,0 +1,811 @@
+{
+  "verified_utc": "2026-10-13T17:54:54.104812+00:00",
+  "passed": 157,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "All declared input hashes current",
+      "passed": true,
+      "detail": 25
+    },
+    {
+      "name": "Archive restore actual receipt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Authoritative mesh counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No historical invented heights",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Stereo relative vertical datum",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "GLB Y-up mapping independently compared to all original vertices",
+      "passed": true,
+      "detail": {
+        "maximum_difference_m": 6.103503983467817e-05,
+        "vertices": 155891
+      }
+    },
+    {
+      "name": "GLB original triangle order preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Modern courtyard-safe roof area conservation",
+      "passed": true,
+      "detail": {
+        "max_area_error_m2": 2.7284841053187847e-12,
+        "interior_rings": 1
+      }
+    },
+    {
+      "name": "Wide modern component/omission accounting",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Modern elevations valid and never transferred",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4K render and output hash: 08-november-surface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Current pinned renderer inputs: 08-november-surface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Saved editable Blender scene: 08-november-surface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nonphysical support and no exaggeration: 08-november-surface",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4K render and output hash: 03-city-beneath",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Current pinned renderer inputs: 03-city-beneath",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Saved editable Blender scene: 03-city-beneath",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nonphysical support and no exaggeration: 03-city-beneath",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4K render and output hash: 08-surface-daylight",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Current pinned renderer inputs: 08-surface-daylight",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Saved editable Blender scene: 08-surface-daylight",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nonphysical support and no exaggeration: 08-surface-daylight",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4K render and output hash: 10-modern-core",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Current pinned renderer inputs: 10-modern-core",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Saved editable Blender scene: 10-modern-core",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nonphysical support and no exaggeration: 10-modern-core",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4K render and output hash: 10-modern-airport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Current pinned renderer inputs: 10-modern-airport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Saved editable Blender scene: 10-modern-airport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nonphysical support and no exaggeration: 10-modern-airport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4K render and output hash: map-1989-10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Current pinned renderer inputs: map-1989-10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Saved editable Blender scene: map-1989-10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nonphysical support and no exaggeration: map-1989-10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4K render and output hash: map-1994-07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Current pinned renderer inputs: map-1994-07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Saved editable Blender scene: map-1994-07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nonphysical support and no exaggeration: map-1994-07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4K render and output hash: map-1997-04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Current pinned renderer inputs: map-1997-04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Saved editable Blender scene: map-1997-04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nonphysical support and no exaggeration: map-1997-04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4K render and output hash: 01-grand-overview",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Current pinned renderer inputs: 01-grand-overview",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Saved editable Blender scene: 01-grand-overview",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nonphysical support and no exaggeration: 01-grand-overview",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4K render and output hash: 02-runway-water",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Current pinned renderer inputs: 02-runway-water",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Saved editable Blender scene: 02-runway-water",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nonphysical support and no exaggeration: 02-runway-water",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4K render and output hash: 05-virtual-perspective",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Current pinned renderer inputs: 05-virtual-perspective",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Saved editable Blender scene: 05-virtual-perspective",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nonphysical support and no exaggeration: 05-virtual-perspective",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4K render and output hash: 06-final-alignment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Current pinned renderer inputs: 06-final-alignment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Saved editable Blender scene: 06-final-alignment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nonphysical support and no exaggeration: 06-final-alignment",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4K render and output hash: 04-hill-observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Current pinned renderer inputs: 04-hill-observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Saved editable Blender scene: 04-hill-observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nonphysical support and no exaggeration: 04-hill-observations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4K render and output hash: 12-panorama",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Current pinned renderer inputs: 12-panorama",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Saved editable Blender scene: 12-panorama",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nonphysical support and no exaggeration: 12-panorama",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4K render and output hash: 11-surface-top",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Current pinned renderer inputs: 11-surface-top",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Saved editable Blender scene: 11-surface-top",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nonphysical support and no exaggeration: 11-surface-top",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4K render and output hash: 11-map-top",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Current pinned renderer inputs: 11-map-top",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Saved editable Blender scene: 11-map-top",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nonphysical support and no exaggeration: 11-map-top",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4K render and output hash: 04-hill-context",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Current pinned renderer inputs: 04-hill-context",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Saved editable Blender scene: 04-hill-context",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Nonphysical support and no exaggeration: 04-hill-context",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Matched actual camera: 03-city-beneath / map-1989-10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Matched actual camera: map-1989-10 / map-1994-07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Matched actual camera: map-1989-10 / map-1997-04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Matched actual camera: 01-grand-overview / 10-modern-airport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Matched actual camera: 08-november-surface / 08-surface-daylight",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Matched actual camera: 11-surface-top / 11-map-top",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Full source preserved in hero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Core subset keeps only original supported triangles",
+      "passed": true,
+      "detail": {
+        "retained_triangles": 52230
+      }
+    },
+    {
+      "name": "Distinct vertical datums",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All mosaic source epochs included",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Runway line grid bearing",
+      "passed": true,
+      "detail": {
+        "grid_bearing_deg": 134.01788283677584,
+        "not_magnetic": true
+      }
+    },
+    {
+      "name": "Twelve subjects accounted",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finished PNG semantics 01 annotated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finished PNG semantics 01 master",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Web preview/caption record 01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Print metadata 01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Local source links 01",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finished PNG semantics 02 annotated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finished PNG semantics 02 master",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Web preview/caption record 02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Print metadata 02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Local source links 02",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finished PNG semantics 03 annotated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finished PNG semantics 03 master",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Web preview/caption record 03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Print metadata 03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Local source links 03",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finished PNG semantics 04 annotated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finished PNG semantics 04 master",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Web preview/caption record 04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Print metadata 04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Local source links 04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Evidence-mode master consistency 04",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finished PNG semantics 05 annotated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finished PNG semantics 05 master",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Web preview/caption record 05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Print metadata 05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Local source links 05",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finished PNG semantics 06 annotated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finished PNG semantics 06 master",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Web preview/caption record 06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Print metadata 06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Local source links 06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Evidence-mode master consistency 06",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finished PNG semantics 07 annotated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finished PNG semantics 07 master",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Web preview/caption record 07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Print metadata 07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Local source links 07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finished PNG semantics 08 annotated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finished PNG semantics 08 master",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Web preview/caption record 08",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Print metadata 08",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Local source links 08",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finished PNG semantics 09 annotated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finished PNG semantics 09 master",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Web preview/caption record 09",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Print metadata 09",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Local source links 09",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finished PNG semantics 10 annotated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finished PNG semantics 10 master",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Web preview/caption record 10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Print metadata 10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Local source links 10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finished PNG semantics 11 annotated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finished PNG semantics 11 master",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Web preview/caption record 11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Print metadata 11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Local source links 11",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finished PNG semantics 12 annotated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Finished PNG semantics 12 master",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Web preview/caption record 12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Print metadata 12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Local source links 12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Evidence-mode master consistency 12",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Crop semantics 12-square.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Crop semantics 12-vertical.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Static gallery links resolve",
+      "passed": true,
+      "detail": [
+        "../renders/annotated/08-november-1993.png",
+        "../renders/annotated/08-daylight.png",
+        "../renders/print/Kai-Tak-Visual-Atlas-A4.pdf",
+        "../metadata/SOURCE_AUDIT.md",
+        "../qa/REPORT.md",
+        "../README.md"
+      ]
+    },
+    {
+      "name": "Gallery no external runtime dependencies",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "browser_interaction": "unverified: OpenClaw file protocol unsupported and localhost navigation explicitly blocked by policy; no bypass attempted"
+}

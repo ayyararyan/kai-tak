@@ -1,0 +1,26 @@
+{
+  "id": "04",
+  "slug": "checkerboard-hill",
+  "title": "Reading Checkerboard Hill",
+  "subtitle": "Partial source-backed contours and spot elevations only",
+  "epoch": "Survey edition: November 1989",
+  "mode": "evidence",
+  "type": "Historical terrain observations, no interpolated surface",
+  "source_render": "04-hill-observations",
+  "idea": "Locate the hill region and explain why the checkerboard was a visual landmark.",
+  "limit": "Eight mapped spot heights and two partial contours do not define the full hill. The painted board's exact surveyed position and face geometry are unavailable. No flown approach arc is asserted.",
+  "caption": "Two partial contours and eight spot elevations survive in the audited source. The missing hill surface is not filled. The painted checkerboard itself has not been placed as a surveyed 3D object.",
+  "sources": [
+    "integrated/geometry/historical_hill_terrain.geojson",
+    "geospatial/derived/Kowloon_KaiTak_DTM_5m_HK1980.tif",
+    "integrated/geometry/mapped_runway_edges.geojson",
+    "integrated/geometry/historical_seawall.geojson"
+  ],
+  "master": "renders/master/atlas-04-checkerboard-hill.png",
+  "annotated": "renders/annotated/04-checkerboard-hill.png",
+  "web": "renders/web/04-checkerboard-hill.webp",
+  "size": [
+    3840,
+    2160
+  ]
+}

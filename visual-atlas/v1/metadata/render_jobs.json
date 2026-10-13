@@ -1,0 +1,920 @@
+[
+  {
+    "id": "08-november-surface",
+    "kind": "stereo",
+    "epoch": "1993-11-02",
+    "style": "cinematic",
+    "lighting": "warm",
+    "mode": "evidence",
+    "camera": {
+      "location": [
+        1500,
+        -2100,
+        1800
+      ],
+      "target": [
+        280,
+        -240,
+        15
+      ],
+      "projection": "ORTHO",
+      "ortho_scale": 3000,
+      "lens": 48
+    },
+    "width": 3840,
+    "height": 2160,
+    "samples": 48,
+    "output": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/renders/master/08-november-surface.png",
+    "save_blend": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/scenes/08-november-surface.blend",
+    "asset_hashes": {
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-mosaic-display.png": "68c3df7cf2a22f6a3cf3656d26c00a56966559bc013ae419fd9abe81af085ba2",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/geography.json": "aced5e419129fbf0d9f0bfa103d92504a290e5a9150fd0eba2e31d8c069024ca",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1989-10-display.png": "ea20c3f2df05fa5eeacbc7caa39e19c5f1ac4ded42a899f4397df89463a18e0f",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill.json": "aa049f77ee382c6f1a8d184dac6c7eb72f5f87ba61e7821723fde9600285d420",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill_context.json": "6875efda4d204a8afe396f2ca7b38e3cda032c945a0be974bc99f4e49b8b2520",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_scene.json": "a93590e36545122440eb5e55532fa0b1f887ec68b1b3a0190d41e32bbef50f80",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1994-07-display.png": "45aec0c5d01c7e2c9771464f14e59a0027c5b8d2561e914718517c85dd4f6984",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1997-04-display.png": "dfb4713fcc1ff5a9727748a9777c6802c9eb2ac25311cc71f5c9ee652f016167",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_roofs.json": "7a785398c90516322ceafeda99ed7703bc88b58a74ddfa175c0389a0e4bc8078",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_roofs.json": "4029f1393431a49bb1c5746c1d8b0fac337378f74b649543d123231903ce24b6"
+    },
+    "scene_sha256": "734ca0e43995571686de9a43cc7b0522a1cf55d1c97d868f66fb2ed7ca1e34e8"
+  },
+  {
+    "id": "03-city-beneath",
+    "kind": "stereo",
+    "epoch": "1993-11-02",
+    "style": "architectural",
+    "lighting": "daylight",
+    "mode": "evidence",
+    "camera": {
+      "location": [
+        1100,
+        -1050,
+        1100
+      ],
+      "target": [
+        375,
+        300,
+        20
+      ],
+      "projection": "ORTHO",
+      "ortho_scale": 1300,
+      "lens": 48
+    },
+    "width": 3840,
+    "height": 2160,
+    "samples": 48,
+    "output": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/renders/master/03-city-beneath.png",
+    "save_blend": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/scenes/03-city-beneath.blend",
+    "stereo_bounds": [
+      0,
+      0,
+      750,
+      600
+    ],
+    "board_bounds": [
+      0,
+      0,
+      750,
+      600
+    ],
+    "asset_hashes": {
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-mosaic-display.png": "68c3df7cf2a22f6a3cf3656d26c00a56966559bc013ae419fd9abe81af085ba2",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/geography.json": "aced5e419129fbf0d9f0bfa103d92504a290e5a9150fd0eba2e31d8c069024ca",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1989-10-display.png": "ea20c3f2df05fa5eeacbc7caa39e19c5f1ac4ded42a899f4397df89463a18e0f",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill.json": "aa049f77ee382c6f1a8d184dac6c7eb72f5f87ba61e7821723fde9600285d420",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill_context.json": "6875efda4d204a8afe396f2ca7b38e3cda032c945a0be974bc99f4e49b8b2520",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_scene.json": "a93590e36545122440eb5e55532fa0b1f887ec68b1b3a0190d41e32bbef50f80",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1994-07-display.png": "45aec0c5d01c7e2c9771464f14e59a0027c5b8d2561e914718517c85dd4f6984",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1997-04-display.png": "dfb4713fcc1ff5a9727748a9777c6802c9eb2ac25311cc71f5c9ee652f016167",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_roofs.json": "7a785398c90516322ceafeda99ed7703bc88b58a74ddfa175c0389a0e4bc8078",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_roofs.json": "4029f1393431a49bb1c5746c1d8b0fac337378f74b649543d123231903ce24b6"
+    },
+    "marks": [
+      {
+        "label": "scale0",
+        "point": [
+          60,
+          20,
+          0
+        ]
+      },
+      {
+        "label": "scale1",
+        "point": [
+          160,
+          20,
+          0
+        ]
+      }
+    ],
+    "scene_sha256": "734ca0e43995571686de9a43cc7b0522a1cf55d1c97d868f66fb2ed7ca1e34e8"
+  },
+  {
+    "id": "08-surface-daylight",
+    "kind": "stereo",
+    "epoch": "1993-11-02",
+    "style": "architectural",
+    "lighting": "daylight",
+    "mode": "evidence",
+    "camera": {
+      "location": [
+        1500,
+        -2100,
+        1800
+      ],
+      "target": [
+        280,
+        -240,
+        15
+      ],
+      "projection": "ORTHO",
+      "ortho_scale": 3000,
+      "lens": 48
+    },
+    "width": 3840,
+    "height": 2160,
+    "samples": 48,
+    "output": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/renders/master/08-surface-daylight.png",
+    "save_blend": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/scenes/08-surface-daylight.blend",
+    "asset_hashes": {
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-mosaic-display.png": "68c3df7cf2a22f6a3cf3656d26c00a56966559bc013ae419fd9abe81af085ba2",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/geography.json": "aced5e419129fbf0d9f0bfa103d92504a290e5a9150fd0eba2e31d8c069024ca",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1989-10-display.png": "ea20c3f2df05fa5eeacbc7caa39e19c5f1ac4ded42a899f4397df89463a18e0f",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill.json": "aa049f77ee382c6f1a8d184dac6c7eb72f5f87ba61e7821723fde9600285d420",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill_context.json": "6875efda4d204a8afe396f2ca7b38e3cda032c945a0be974bc99f4e49b8b2520",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_scene.json": "a93590e36545122440eb5e55532fa0b1f887ec68b1b3a0190d41e32bbef50f80",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1994-07-display.png": "45aec0c5d01c7e2c9771464f14e59a0027c5b8d2561e914718517c85dd4f6984",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1997-04-display.png": "dfb4713fcc1ff5a9727748a9777c6802c9eb2ac25311cc71f5c9ee652f016167",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_roofs.json": "7a785398c90516322ceafeda99ed7703bc88b58a74ddfa175c0389a0e4bc8078",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_roofs.json": "4029f1393431a49bb1c5746c1d8b0fac337378f74b649543d123231903ce24b6"
+    },
+    "scene_sha256": "734ca0e43995571686de9a43cc7b0522a1cf55d1c97d868f66fb2ed7ca1e34e8"
+  },
+  {
+    "id": "10-modern-core",
+    "kind": "modern",
+    "epoch": "2026-09-21",
+    "style": "architectural",
+    "lighting": "daylight",
+    "mode": "evidence",
+    "camera": {
+      "location": [
+        1100,
+        -1050,
+        1100
+      ],
+      "target": [
+        375,
+        300,
+        20
+      ],
+      "projection": "ORTHO",
+      "ortho_scale": 1300,
+      "lens": 48
+    },
+    "width": 3840,
+    "height": 2160,
+    "samples": 48,
+    "output": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/renders/master/10-modern-core.png",
+    "save_blend": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/scenes/10-modern-core.blend",
+    "asset_hashes": {
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-mosaic-display.png": "68c3df7cf2a22f6a3cf3656d26c00a56966559bc013ae419fd9abe81af085ba2",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/geography.json": "aced5e419129fbf0d9f0bfa103d92504a290e5a9150fd0eba2e31d8c069024ca",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1989-10-display.png": "ea20c3f2df05fa5eeacbc7caa39e19c5f1ac4ded42a899f4397df89463a18e0f",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill.json": "aa049f77ee382c6f1a8d184dac6c7eb72f5f87ba61e7821723fde9600285d420",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill_context.json": "6875efda4d204a8afe396f2ca7b38e3cda032c945a0be974bc99f4e49b8b2520",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_scene.json": "a93590e36545122440eb5e55532fa0b1f887ec68b1b3a0190d41e32bbef50f80",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1994-07-display.png": "45aec0c5d01c7e2c9771464f14e59a0027c5b8d2561e914718517c85dd4f6984",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1997-04-display.png": "dfb4713fcc1ff5a9727748a9777c6802c9eb2ac25311cc71f5c9ee652f016167",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_roofs.json": "7a785398c90516322ceafeda99ed7703bc88b58a74ddfa175c0389a0e4bc8078",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_roofs.json": "4029f1393431a49bb1c5746c1d8b0fac337378f74b649543d123231903ce24b6"
+    },
+    "scene_sha256": "734ca0e43995571686de9a43cc7b0522a1cf55d1c97d868f66fb2ed7ca1e34e8"
+  },
+  {
+    "id": "10-modern-airport",
+    "kind": "modern",
+    "epoch": "2026-09-21",
+    "style": "architectural",
+    "lighting": "daylight",
+    "mode": "evidence",
+    "camera": {
+      "location": [
+        5200,
+        -5500,
+        5700
+      ],
+      "target": [
+        1500,
+        -1200,
+        0
+      ],
+      "projection": "ORTHO",
+      "ortho_scale": 6900,
+      "lens": 48
+    },
+    "width": 3840,
+    "height": 2160,
+    "samples": 48,
+    "output": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/renders/master/10-modern-airport.png",
+    "save_blend": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/scenes/10-modern-airport.blend",
+    "scene_path": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_scene.json",
+    "modern_roofs_path": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_roofs.json",
+    "board_bounds": [
+      0,
+      -3000,
+      3000,
+      600
+    ],
+    "asset_hashes": {
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-mosaic-display.png": "68c3df7cf2a22f6a3cf3656d26c00a56966559bc013ae419fd9abe81af085ba2",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/geography.json": "aced5e419129fbf0d9f0bfa103d92504a290e5a9150fd0eba2e31d8c069024ca",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1989-10-display.png": "ea20c3f2df05fa5eeacbc7caa39e19c5f1ac4ded42a899f4397df89463a18e0f",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill.json": "aa049f77ee382c6f1a8d184dac6c7eb72f5f87ba61e7821723fde9600285d420",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill_context.json": "6875efda4d204a8afe396f2ca7b38e3cda032c945a0be974bc99f4e49b8b2520",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_scene.json": "a93590e36545122440eb5e55532fa0b1f887ec68b1b3a0190d41e32bbef50f80",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1994-07-display.png": "45aec0c5d01c7e2c9771464f14e59a0027c5b8d2561e914718517c85dd4f6984",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1997-04-display.png": "dfb4713fcc1ff5a9727748a9777c6802c9eb2ac25311cc71f5c9ee652f016167",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_roofs.json": "7a785398c90516322ceafeda99ed7703bc88b58a74ddfa175c0389a0e4bc8078",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_roofs.json": "4029f1393431a49bb1c5746c1d8b0fac337378f74b649543d123231903ce24b6"
+    },
+    "scene_sha256": "a93590e36545122440eb5e55532fa0b1f887ec68b1b3a0190d41e32bbef50f80"
+  },
+  {
+    "id": "map-1989-10",
+    "kind": "map",
+    "epoch": "1989-10",
+    "style": "architectural",
+    "lighting": "daylight",
+    "mode": "evidence",
+    "camera": {
+      "location": [
+        1100,
+        -1050,
+        1100
+      ],
+      "target": [
+        375,
+        300,
+        20
+      ],
+      "projection": "ORTHO",
+      "ortho_scale": 1300,
+      "lens": 48
+    },
+    "width": 3840,
+    "height": 2160,
+    "samples": 48,
+    "output": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/renders/master/map-1989-10.png",
+    "save_blend": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/scenes/map-1989-10.blend",
+    "asset_hashes": {
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-mosaic-display.png": "68c3df7cf2a22f6a3cf3656d26c00a56966559bc013ae419fd9abe81af085ba2",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/geography.json": "aced5e419129fbf0d9f0bfa103d92504a290e5a9150fd0eba2e31d8c069024ca",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1989-10-display.png": "ea20c3f2df05fa5eeacbc7caa39e19c5f1ac4ded42a899f4397df89463a18e0f",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill.json": "aa049f77ee382c6f1a8d184dac6c7eb72f5f87ba61e7821723fde9600285d420",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill_context.json": "6875efda4d204a8afe396f2ca7b38e3cda032c945a0be974bc99f4e49b8b2520",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_scene.json": "a93590e36545122440eb5e55532fa0b1f887ec68b1b3a0190d41e32bbef50f80",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1994-07-display.png": "45aec0c5d01c7e2c9771464f14e59a0027c5b8d2561e914718517c85dd4f6984",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1997-04-display.png": "dfb4713fcc1ff5a9727748a9777c6802c9eb2ac25311cc71f5c9ee652f016167",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_roofs.json": "7a785398c90516322ceafeda99ed7703bc88b58a74ddfa175c0389a0e4bc8078",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_roofs.json": "4029f1393431a49bb1c5746c1d8b0fac337378f74b649543d123231903ce24b6"
+    },
+    "map_image_path": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1989-10-display.png",
+    "scene_sha256": "734ca0e43995571686de9a43cc7b0522a1cf55d1c97d868f66fb2ed7ca1e34e8"
+  },
+  {
+    "id": "map-1994-07",
+    "kind": "map",
+    "epoch": "1994-07",
+    "style": "architectural",
+    "lighting": "daylight",
+    "mode": "evidence",
+    "camera": {
+      "location": [
+        1100,
+        -1050,
+        1100
+      ],
+      "target": [
+        375,
+        300,
+        20
+      ],
+      "projection": "ORTHO",
+      "ortho_scale": 1300,
+      "lens": 48
+    },
+    "width": 3840,
+    "height": 2160,
+    "samples": 48,
+    "output": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/renders/master/map-1994-07.png",
+    "save_blend": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/scenes/map-1994-07.blend",
+    "asset_hashes": {
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-mosaic-display.png": "68c3df7cf2a22f6a3cf3656d26c00a56966559bc013ae419fd9abe81af085ba2",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/geography.json": "aced5e419129fbf0d9f0bfa103d92504a290e5a9150fd0eba2e31d8c069024ca",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1989-10-display.png": "ea20c3f2df05fa5eeacbc7caa39e19c5f1ac4ded42a899f4397df89463a18e0f",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill.json": "aa049f77ee382c6f1a8d184dac6c7eb72f5f87ba61e7821723fde9600285d420",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill_context.json": "6875efda4d204a8afe396f2ca7b38e3cda032c945a0be974bc99f4e49b8b2520",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_scene.json": "a93590e36545122440eb5e55532fa0b1f887ec68b1b3a0190d41e32bbef50f80",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1994-07-display.png": "45aec0c5d01c7e2c9771464f14e59a0027c5b8d2561e914718517c85dd4f6984",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1997-04-display.png": "dfb4713fcc1ff5a9727748a9777c6802c9eb2ac25311cc71f5c9ee652f016167",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_roofs.json": "7a785398c90516322ceafeda99ed7703bc88b58a74ddfa175c0389a0e4bc8078",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_roofs.json": "4029f1393431a49bb1c5746c1d8b0fac337378f74b649543d123231903ce24b6"
+    },
+    "map_image_path": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1994-07-display.png",
+    "scene_sha256": "734ca0e43995571686de9a43cc7b0522a1cf55d1c97d868f66fb2ed7ca1e34e8"
+  },
+  {
+    "id": "map-1997-04",
+    "kind": "map",
+    "epoch": "1997-04",
+    "style": "architectural",
+    "lighting": "daylight",
+    "mode": "evidence",
+    "camera": {
+      "location": [
+        1100,
+        -1050,
+        1100
+      ],
+      "target": [
+        375,
+        300,
+        20
+      ],
+      "projection": "ORTHO",
+      "ortho_scale": 1300,
+      "lens": 48
+    },
+    "width": 3840,
+    "height": 2160,
+    "samples": 48,
+    "output": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/renders/master/map-1997-04.png",
+    "save_blend": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/scenes/map-1997-04.blend",
+    "asset_hashes": {
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-mosaic-display.png": "68c3df7cf2a22f6a3cf3656d26c00a56966559bc013ae419fd9abe81af085ba2",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/geography.json": "aced5e419129fbf0d9f0bfa103d92504a290e5a9150fd0eba2e31d8c069024ca",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1989-10-display.png": "ea20c3f2df05fa5eeacbc7caa39e19c5f1ac4ded42a899f4397df89463a18e0f",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill.json": "aa049f77ee382c6f1a8d184dac6c7eb72f5f87ba61e7821723fde9600285d420",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill_context.json": "6875efda4d204a8afe396f2ca7b38e3cda032c945a0be974bc99f4e49b8b2520",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_scene.json": "a93590e36545122440eb5e55532fa0b1f887ec68b1b3a0190d41e32bbef50f80",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1994-07-display.png": "45aec0c5d01c7e2c9771464f14e59a0027c5b8d2561e914718517c85dd4f6984",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1997-04-display.png": "dfb4713fcc1ff5a9727748a9777c6802c9eb2ac25311cc71f5c9ee652f016167",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_roofs.json": "7a785398c90516322ceafeda99ed7703bc88b58a74ddfa175c0389a0e4bc8078",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_roofs.json": "4029f1393431a49bb1c5746c1d8b0fac337378f74b649543d123231903ce24b6"
+    },
+    "map_image_path": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1997-04-display.png",
+    "scene_sha256": "734ca0e43995571686de9a43cc7b0522a1cf55d1c97d868f66fb2ed7ca1e34e8"
+  },
+  {
+    "id": "01-grand-overview",
+    "kind": "geography",
+    "epoch": "mixed map editions 1986\u20131993",
+    "style": "architectural",
+    "lighting": "daylight",
+    "mode": "evidence",
+    "camera": {
+      "location": [
+        5200,
+        -5500,
+        5700
+      ],
+      "target": [
+        1500,
+        -1200,
+        0
+      ],
+      "projection": "ORTHO",
+      "ortho_scale": 6900,
+      "lens": 48
+    },
+    "width": 3840,
+    "height": 2160,
+    "samples": 48,
+    "output": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/renders/master/01-grand-overview.png",
+    "save_blend": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/scenes/01-grand-overview.blend",
+    "geography_path": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/geography.json",
+    "board_bounds": [
+      0,
+      -3000,
+      3000,
+      600
+    ],
+    "marks": [
+      {
+        "label": "KOWLOON",
+        "point": [
+          280,
+          160,
+          2
+        ]
+      },
+      {
+        "label": "RUNWAY 13 / 31",
+        "point": [
+          2100,
+          -2050,
+          2
+        ]
+      },
+      {
+        "label": "KOWLOON BAY",
+        "point": [
+          850,
+          -1400,
+          2
+        ]
+      },
+      {
+        "label": "SOURCE TILE GAP",
+        "point": [
+          900,
+          -2400,
+          2
+        ]
+      }
+    ],
+    "asset_hashes": {
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-mosaic-display.png": "68c3df7cf2a22f6a3cf3656d26c00a56966559bc013ae419fd9abe81af085ba2",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/geography.json": "aced5e419129fbf0d9f0bfa103d92504a290e5a9150fd0eba2e31d8c069024ca",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1989-10-display.png": "ea20c3f2df05fa5eeacbc7caa39e19c5f1ac4ded42a899f4397df89463a18e0f",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill.json": "aa049f77ee382c6f1a8d184dac6c7eb72f5f87ba61e7821723fde9600285d420",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill_context.json": "6875efda4d204a8afe396f2ca7b38e3cda032c945a0be974bc99f4e49b8b2520",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_scene.json": "a93590e36545122440eb5e55532fa0b1f887ec68b1b3a0190d41e32bbef50f80",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1994-07-display.png": "45aec0c5d01c7e2c9771464f14e59a0027c5b8d2561e914718517c85dd4f6984",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1997-04-display.png": "dfb4713fcc1ff5a9727748a9777c6802c9eb2ac25311cc71f5c9ee652f016167",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_roofs.json": "7a785398c90516322ceafeda99ed7703bc88b58a74ddfa175c0389a0e4bc8078",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_roofs.json": "4029f1393431a49bb1c5746c1d8b0fac337378f74b649543d123231903ce24b6"
+    }
+  },
+  {
+    "id": "02-runway-water",
+    "kind": "geography",
+    "epoch": "mixed map editions 1986\u20131993",
+    "style": "cinematic",
+    "lighting": "warm",
+    "mode": "evidence",
+    "camera": {
+      "location": [
+        4300,
+        -4600,
+        3300
+      ],
+      "target": [
+        1800,
+        -1600,
+        0
+      ],
+      "projection": "ORTHO",
+      "ortho_scale": 4000,
+      "lens": 48
+    },
+    "width": 3840,
+    "height": 2160,
+    "samples": 48,
+    "output": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/renders/master/02-runway-water.png",
+    "save_blend": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/scenes/02-runway-water.blend",
+    "geography_path": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/geography.json",
+    "board_bounds": [
+      0,
+      -3000,
+      3000,
+      600
+    ],
+    "marks": [
+      {
+        "label": "KOWLOON",
+        "point": [
+          280,
+          160,
+          2
+        ]
+      },
+      {
+        "label": "RUNWAY 13 / 31",
+        "point": [
+          2100,
+          -2050,
+          2
+        ]
+      },
+      {
+        "label": "KOWLOON BAY",
+        "point": [
+          850,
+          -1400,
+          2
+        ]
+      },
+      {
+        "label": "SOURCE TILE GAP",
+        "point": [
+          900,
+          -2400,
+          2
+        ]
+      }
+    ],
+    "asset_hashes": {
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-mosaic-display.png": "68c3df7cf2a22f6a3cf3656d26c00a56966559bc013ae419fd9abe81af085ba2",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/geography.json": "aced5e419129fbf0d9f0bfa103d92504a290e5a9150fd0eba2e31d8c069024ca",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1989-10-display.png": "ea20c3f2df05fa5eeacbc7caa39e19c5f1ac4ded42a899f4397df89463a18e0f",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill.json": "aa049f77ee382c6f1a8d184dac6c7eb72f5f87ba61e7821723fde9600285d420",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill_context.json": "6875efda4d204a8afe396f2ca7b38e3cda032c945a0be974bc99f4e49b8b2520",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_scene.json": "a93590e36545122440eb5e55532fa0b1f887ec68b1b3a0190d41e32bbef50f80",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1994-07-display.png": "45aec0c5d01c7e2c9771464f14e59a0027c5b8d2561e914718517c85dd4f6984",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1997-04-display.png": "dfb4713fcc1ff5a9727748a9777c6802c9eb2ac25311cc71f5c9ee652f016167",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_roofs.json": "7a785398c90516322ceafeda99ed7703bc88b58a74ddfa175c0389a0e4bc8078",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_roofs.json": "4029f1393431a49bb1c5746c1d8b0fac337378f74b649543d123231903ce24b6"
+    }
+  },
+  {
+    "id": "05-virtual-perspective",
+    "kind": "stereo",
+    "epoch": "1993-11-02",
+    "style": "cinematic",
+    "lighting": "warm",
+    "mode": "interpretive",
+    "camera": {
+      "location": [
+        -500,
+        550,
+        240
+      ],
+      "target": [
+        380,
+        -550,
+        25
+      ],
+      "projection": "PERSP",
+      "ortho_scale": 1500,
+      "lens": 35
+    },
+    "width": 3840,
+    "height": 2160,
+    "samples": 48,
+    "output": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/renders/master/05-virtual-perspective.png",
+    "save_blend": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/scenes/05-virtual-perspective.blend",
+    "asset_hashes": {
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-mosaic-display.png": "68c3df7cf2a22f6a3cf3656d26c00a56966559bc013ae419fd9abe81af085ba2",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/geography.json": "aced5e419129fbf0d9f0bfa103d92504a290e5a9150fd0eba2e31d8c069024ca",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1989-10-display.png": "ea20c3f2df05fa5eeacbc7caa39e19c5f1ac4ded42a899f4397df89463a18e0f",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill.json": "aa049f77ee382c6f1a8d184dac6c7eb72f5f87ba61e7821723fde9600285d420",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill_context.json": "6875efda4d204a8afe396f2ca7b38e3cda032c945a0be974bc99f4e49b8b2520",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_scene.json": "a93590e36545122440eb5e55532fa0b1f887ec68b1b3a0190d41e32bbef50f80",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1994-07-display.png": "45aec0c5d01c7e2c9771464f14e59a0027c5b8d2561e914718517c85dd4f6984",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1997-04-display.png": "dfb4713fcc1ff5a9727748a9777c6802c9eb2ac25311cc71f5c9ee652f016167",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_roofs.json": "7a785398c90516322ceafeda99ed7703bc88b58a74ddfa175c0389a0e4bc8078",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_roofs.json": "4029f1393431a49bb1c5746c1d8b0fac337378f74b649543d123231903ce24b6"
+    },
+    "scene_sha256": "734ca0e43995571686de9a43cc7b0522a1cf55d1c97d868f66fb2ed7ca1e34e8"
+  },
+  {
+    "id": "06-final-alignment",
+    "kind": "geography",
+    "epoch": "mixed map editions 1986\u20131993",
+    "style": "architectural",
+    "lighting": "daylight",
+    "mode": "interpretive",
+    "camera": {
+      "location": [
+        1500,
+        -1200,
+        6000
+      ],
+      "target": [
+        1500,
+        -1200,
+        0
+      ],
+      "projection": "ORTHO",
+      "ortho_scale": 6400,
+      "lens": 48
+    },
+    "width": 3840,
+    "height": 2160,
+    "samples": 48,
+    "output": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/renders/master/06-final-alignment.png",
+    "save_blend": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/scenes/06-final-alignment.blend",
+    "geography_path": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/geography.json",
+    "board_bounds": [
+      0,
+      -3000,
+      3000,
+      600
+    ],
+    "marks": [
+      {
+        "label": "KOWLOON",
+        "point": [
+          280,
+          160,
+          2
+        ]
+      },
+      {
+        "label": "RUNWAY 13 / 31",
+        "point": [
+          2100,
+          -2050,
+          2
+        ]
+      },
+      {
+        "label": "KOWLOON BAY",
+        "point": [
+          850,
+          -1400,
+          2
+        ]
+      },
+      {
+        "label": "SOURCE TILE GAP",
+        "point": [
+          900,
+          -2400,
+          2
+        ]
+      }
+    ],
+    "asset_hashes": {
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-mosaic-display.png": "68c3df7cf2a22f6a3cf3656d26c00a56966559bc013ae419fd9abe81af085ba2",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/geography.json": "aced5e419129fbf0d9f0bfa103d92504a290e5a9150fd0eba2e31d8c069024ca",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1989-10-display.png": "ea20c3f2df05fa5eeacbc7caa39e19c5f1ac4ded42a899f4397df89463a18e0f",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill.json": "aa049f77ee382c6f1a8d184dac6c7eb72f5f87ba61e7821723fde9600285d420",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill_context.json": "6875efda4d204a8afe396f2ca7b38e3cda032c945a0be974bc99f4e49b8b2520",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_scene.json": "a93590e36545122440eb5e55532fa0b1f887ec68b1b3a0190d41e32bbef50f80",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1994-07-display.png": "45aec0c5d01c7e2c9771464f14e59a0027c5b8d2561e914718517c85dd4f6984",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1997-04-display.png": "dfb4713fcc1ff5a9727748a9777c6802c9eb2ac25311cc71f5c9ee652f016167",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_roofs.json": "7a785398c90516322ceafeda99ed7703bc88b58a74ddfa175c0389a0e4bc8078",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_roofs.json": "4029f1393431a49bb1c5746c1d8b0fac337378f74b649543d123231903ce24b6"
+    }
+  },
+  {
+    "id": "04-hill-observations",
+    "kind": "geography",
+    "epoch": "1989-11",
+    "style": "architectural",
+    "lighting": "daylight",
+    "mode": "evidence",
+    "camera": {
+      "location": [
+        10,
+        620,
+        370
+      ],
+      "target": [
+        -315,
+        1000,
+        50
+      ],
+      "projection": "ORTHO",
+      "ortho_scale": 480,
+      "lens": 48
+    },
+    "width": 3840,
+    "height": 2160,
+    "samples": 48,
+    "output": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/renders/master/04-hill-observations.png",
+    "save_blend": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/scenes/04-hill-observations.blend",
+    "geography_path": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill.json",
+    "board_bounds": [
+      -480,
+      830,
+      -150,
+      1160
+    ],
+    "asset_hashes": {
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-mosaic-display.png": "68c3df7cf2a22f6a3cf3656d26c00a56966559bc013ae419fd9abe81af085ba2",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/geography.json": "aced5e419129fbf0d9f0bfa103d92504a290e5a9150fd0eba2e31d8c069024ca",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1989-10-display.png": "ea20c3f2df05fa5eeacbc7caa39e19c5f1ac4ded42a899f4397df89463a18e0f",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill.json": "aa049f77ee382c6f1a8d184dac6c7eb72f5f87ba61e7821723fde9600285d420",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill_context.json": "6875efda4d204a8afe396f2ca7b38e3cda032c945a0be974bc99f4e49b8b2520",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_scene.json": "a93590e36545122440eb5e55532fa0b1f887ec68b1b3a0190d41e32bbef50f80",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1994-07-display.png": "45aec0c5d01c7e2c9771464f14e59a0027c5b8d2561e914718517c85dd4f6984",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1997-04-display.png": "dfb4713fcc1ff5a9727748a9777c6802c9eb2ac25311cc71f5c9ee652f016167",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_roofs.json": "7a785398c90516322ceafeda99ed7703bc88b58a74ddfa175c0389a0e4bc8078",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_roofs.json": "4029f1393431a49bb1c5746c1d8b0fac337378f74b649543d123231903ce24b6"
+    }
+  },
+  {
+    "id": "12-panorama",
+    "kind": "stereo",
+    "epoch": "1993-11-02",
+    "style": "cinematic",
+    "lighting": "warm",
+    "mode": "interpretive",
+    "camera": {
+      "location": [
+        400,
+        -2600,
+        1400
+      ],
+      "target": [
+        260,
+        -220,
+        15
+      ],
+      "projection": "ORTHO",
+      "ortho_scale": 2600,
+      "lens": 48,
+      "shift_x": 0.16
+    },
+    "width": 3840,
+    "height": 2160,
+    "samples": 48,
+    "output": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/renders/master/12-panorama.png",
+    "save_blend": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/scenes/12-panorama.blend",
+    "asset_hashes": {
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-mosaic-display.png": "68c3df7cf2a22f6a3cf3656d26c00a56966559bc013ae419fd9abe81af085ba2",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/geography.json": "aced5e419129fbf0d9f0bfa103d92504a290e5a9150fd0eba2e31d8c069024ca",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1989-10-display.png": "ea20c3f2df05fa5eeacbc7caa39e19c5f1ac4ded42a899f4397df89463a18e0f",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill.json": "aa049f77ee382c6f1a8d184dac6c7eb72f5f87ba61e7821723fde9600285d420",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill_context.json": "6875efda4d204a8afe396f2ca7b38e3cda032c945a0be974bc99f4e49b8b2520",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_scene.json": "a93590e36545122440eb5e55532fa0b1f887ec68b1b3a0190d41e32bbef50f80",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1994-07-display.png": "45aec0c5d01c7e2c9771464f14e59a0027c5b8d2561e914718517c85dd4f6984",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1997-04-display.png": "dfb4713fcc1ff5a9727748a9777c6802c9eb2ac25311cc71f5c9ee652f016167",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_roofs.json": "7a785398c90516322ceafeda99ed7703bc88b58a74ddfa175c0389a0e4bc8078",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_roofs.json": "4029f1393431a49bb1c5746c1d8b0fac337378f74b649543d123231903ce24b6"
+    },
+    "scene_sha256": "734ca0e43995571686de9a43cc7b0522a1cf55d1c97d868f66fb2ed7ca1e34e8"
+  },
+  {
+    "id": "11-surface-top",
+    "kind": "stereo",
+    "epoch": "1993-11-02",
+    "style": "architectural",
+    "lighting": "daylight",
+    "mode": "evidence",
+    "camera": {
+      "location": [
+        100,
+        210,
+        1600
+      ],
+      "target": [
+        100,
+        210,
+        0
+      ],
+      "projection": "ORTHO",
+      "ortho_scale": 500,
+      "lens": 48
+    },
+    "width": 3840,
+    "height": 2160,
+    "samples": 48,
+    "output": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/renders/master/11-surface-top.png",
+    "save_blend": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/scenes/11-surface-top.blend",
+    "asset_hashes": {
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-mosaic-display.png": "68c3df7cf2a22f6a3cf3656d26c00a56966559bc013ae419fd9abe81af085ba2",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/geography.json": "aced5e419129fbf0d9f0bfa103d92504a290e5a9150fd0eba2e31d8c069024ca",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1989-10-display.png": "ea20c3f2df05fa5eeacbc7caa39e19c5f1ac4ded42a899f4397df89463a18e0f",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill.json": "aa049f77ee382c6f1a8d184dac6c7eb72f5f87ba61e7821723fde9600285d420",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill_context.json": "6875efda4d204a8afe396f2ca7b38e3cda032c945a0be974bc99f4e49b8b2520",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_scene.json": "a93590e36545122440eb5e55532fa0b1f887ec68b1b3a0190d41e32bbef50f80",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1994-07-display.png": "45aec0c5d01c7e2c9771464f14e59a0027c5b8d2561e914718517c85dd4f6984",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1997-04-display.png": "dfb4713fcc1ff5a9727748a9777c6802c9eb2ac25311cc71f5c9ee652f016167",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_roofs.json": "7a785398c90516322ceafeda99ed7703bc88b58a74ddfa175c0389a0e4bc8078",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_roofs.json": "4029f1393431a49bb1c5746c1d8b0fac337378f74b649543d123231903ce24b6"
+    },
+    "marks": [
+      {
+        "label": "1",
+        "point": [
+          8.976841110619716,
+          228.0992839008104,
+          10.769431630259533
+        ]
+      },
+      {
+        "label": "2",
+        "point": [
+          134.94323234830517,
+          270.86049837083556,
+          -0.02801001937223191
+        ]
+      },
+      {
+        "label": "3",
+        "point": [
+          19.099114543176256,
+          129.2577362417942,
+          19.195490912459263
+        ]
+      }
+    ],
+    "scene_sha256": "734ca0e43995571686de9a43cc7b0522a1cf55d1c97d868f66fb2ed7ca1e34e8"
+  },
+  {
+    "id": "11-map-top",
+    "kind": "map",
+    "epoch": "1989-10",
+    "style": "architectural",
+    "lighting": "daylight",
+    "mode": "evidence",
+    "camera": {
+      "location": [
+        100,
+        210,
+        1600
+      ],
+      "target": [
+        100,
+        210,
+        0
+      ],
+      "projection": "ORTHO",
+      "ortho_scale": 500,
+      "lens": 48
+    },
+    "width": 3840,
+    "height": 2160,
+    "samples": 48,
+    "output": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/renders/master/11-map-top.png",
+    "save_blend": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/scenes/11-map-top.blend",
+    "asset_hashes": {
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-mosaic-display.png": "68c3df7cf2a22f6a3cf3656d26c00a56966559bc013ae419fd9abe81af085ba2",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/geography.json": "aced5e419129fbf0d9f0bfa103d92504a290e5a9150fd0eba2e31d8c069024ca",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1989-10-display.png": "ea20c3f2df05fa5eeacbc7caa39e19c5f1ac4ded42a899f4397df89463a18e0f",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill.json": "aa049f77ee382c6f1a8d184dac6c7eb72f5f87ba61e7821723fde9600285d420",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill_context.json": "6875efda4d204a8afe396f2ca7b38e3cda032c945a0be974bc99f4e49b8b2520",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_scene.json": "a93590e36545122440eb5e55532fa0b1f887ec68b1b3a0190d41e32bbef50f80",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1994-07-display.png": "45aec0c5d01c7e2c9771464f14e59a0027c5b8d2561e914718517c85dd4f6984",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1997-04-display.png": "dfb4713fcc1ff5a9727748a9777c6802c9eb2ac25311cc71f5c9ee652f016167",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_roofs.json": "7a785398c90516322ceafeda99ed7703bc88b58a74ddfa175c0389a0e4bc8078",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_roofs.json": "4029f1393431a49bb1c5746c1d8b0fac337378f74b649543d123231903ce24b6"
+    },
+    "map_image_path": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1989-10-display.png",
+    "marks": [
+      {
+        "label": "1",
+        "point": [
+          8.976841110619716,
+          228.0992839008104,
+          0
+        ]
+      },
+      {
+        "label": "2",
+        "point": [
+          134.94323234830517,
+          270.86049837083556,
+          0
+        ]
+      },
+      {
+        "label": "3",
+        "point": [
+          19.099114543176256,
+          129.2577362417942,
+          0
+        ]
+      }
+    ],
+    "scene_sha256": "734ca0e43995571686de9a43cc7b0522a1cf55d1c97d868f66fb2ed7ca1e34e8"
+  },
+  {
+    "id": "04-hill-context",
+    "kind": "geography",
+    "epoch": "2014\u20132015 photography-derived terrain",
+    "style": "cinematic",
+    "lighting": "warm",
+    "mode": "interpretive",
+    "camera": {
+      "location": [
+        100,
+        420,
+        650
+      ],
+      "target": [
+        -300,
+        1020,
+        50
+      ],
+      "projection": "ORTHO",
+      "ortho_scale": 1100,
+      "lens": 48
+    },
+    "width": 3840,
+    "height": 2160,
+    "samples": 48,
+    "output": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/renders/master/04-hill-context.png",
+    "save_blend": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/scenes/04-hill-context.blend",
+    "geography_path": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill_context.json",
+    "asset_hashes": {
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-mosaic-display.png": "68c3df7cf2a22f6a3cf3656d26c00a56966559bc013ae419fd9abe81af085ba2",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/geography.json": "aced5e419129fbf0d9f0bfa103d92504a290e5a9150fd0eba2e31d8c069024ca",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1989-10-display.png": "ea20c3f2df05fa5eeacbc7caa39e19c5f1ac4ded42a899f4397df89463a18e0f",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill.json": "aa049f77ee382c6f1a8d184dac6c7eb72f5f87ba61e7821723fde9600285d420",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill_context.json": "6875efda4d204a8afe396f2ca7b38e3cda032c945a0be974bc99f4e49b8b2520",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_scene.json": "a93590e36545122440eb5e55532fa0b1f887ec68b1b3a0190d41e32bbef50f80",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1994-07-display.png": "45aec0c5d01c7e2c9771464f14e59a0027c5b8d2561e914718517c85dd4f6984",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-1997-04-display.png": "dfb4713fcc1ff5a9727748a9777c6802c9eb2ac25311cc71f5c9ee652f016167",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_roofs.json": "7a785398c90516322ceafeda99ed7703bc88b58a74ddfa175c0389a0e4bc8078",
+      "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/modern_airport_roofs.json": "4029f1393431a49bb1c5746c1d8b0fac337378f74b649543d123231903ce24b6"
+    }
+  }
+]

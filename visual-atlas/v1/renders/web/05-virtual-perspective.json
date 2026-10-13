@@ -1,0 +1,16 @@
+{
+  "id": "05",
+  "slug": "virtual-perspective",
+  "title": "Looking through the approach area",
+  "subtitle": "An illustrative virtual perspective, not a recovered cockpit view",
+  "epoch": "Surface: 2 November 1993; camera: illustrative",
+  "mode": "interpretive",
+  "type": "Virtual-camera observed-surface scene",
+  "source_render": "05-virtual-perspective",
+  "idea": "Experience the visual layering in the available urban patch.",
+  "limit": "Evidence-limited alternative: runway and complete approach terrain are outside this surface reconstruction. No aircraft position, historical field of view, cockpit or flight path is reconstructed.",
+  "caption": "The camera is a documented artistic viewpoint over the observed surface. It conveys local visual complexity, not what a particular pilot saw. The historical final turn required visual references; this image makes no zero-visibility claim.",
+  "sources": [
+    "reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json"
+  ]
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "job": "08-november-surface",
+    "returncode": 0,
+    "identical_png_bytes": false,
+    "pixel_mean_abs_channel_difference": 0.0,
+    "pixel_max_channel_difference": 0.0,
+    "pixel_fraction_exact": 1.0,
+    "normalized_rmse": 0.0,
+    "note": "All decoded RGB pixels match exactly in this fresh-process replay. PNG container bytes differ; no general cross-version or cross-hardware bitwise guarantee.",
+    "decoded_pixels_identical": true
+  },
+  {
+    "job": "10-modern-core",
+    "returncode": 0,
+    "identical_png_bytes": false,
+    "pixel_mean_abs_channel_difference": 0.0,
+    "pixel_max_channel_difference": 0.0,
+    "pixel_fraction_exact": 1.0,
+    "normalized_rmse": 0.0,
+    "note": "All decoded RGB pixels match exactly in this fresh-process replay. PNG container bytes differ; no general cross-version or cross-hardware bitwise guarantee.",
+    "decoded_pixels_identical": true
+  },
+  {
+    "test": "source_hash_mismatch_refused",
+    "returncode": 1,
+    "passed": true
+  }
+]

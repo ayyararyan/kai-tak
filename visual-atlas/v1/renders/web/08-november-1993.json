@@ -1,0 +1,17 @@
+{
+  "id": "08",
+  "slug": "november-1993",
+  "title": "November 1993, in fragments",
+  "subtitle": "The actual observed-surface reconstruction, rendered without invented walls",
+  "epoch": "Photographs: 2 November 1993",
+  "mode": "evidence",
+  "type": "Conditional historical stereo reconstruction",
+  "source_render": "08-november-surface",
+  "idea": "Give the strongest 3D source evidence the atlas's principal visual treatment.",
+  "limit": "225,371 original triangles; nominal camera calibration. Heights are relative to a fitted park/road plane, not HKPD. Only 3,780 of 171,307 dense points lie inside the local map-control hull.",
+  "caption": "A36142 and A36143 supply the image observations. The original mesh keeps unsupported holes and uses no generated architecture. Warm lighting is an artistic choice, not evidence of weather on the photographic date.",
+  "sources": [
+    "reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json",
+    "reconstruction/chronology/aerial/date_annotation_audit.json"
+  ]
+}

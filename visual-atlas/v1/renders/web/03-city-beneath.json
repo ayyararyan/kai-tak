@@ -1,0 +1,16 @@
+{
+  "id": "03",
+  "slug": "city-beneath",
+  "title": "The city beneath the aircraft",
+  "subtitle": "An elevated virtual view of the observed Kowloon surface",
+  "epoch": "Photographs: 2 November 1993",
+  "mode": "evidence",
+  "type": "Partial photo-derived surface",
+  "source_render": "03-city-beneath",
+  "idea": "Reveal actual observed urban surface structure without completing the missing city.",
+  "limit": "A small observed patch, not all Kowloon. Surfaces include roofs, ground, vegetation and possible mismatches; holes mean missing observations.",
+  "caption": "Two overlapping photographs recover a broken relief of the city. The gaps are retained: the archive does not support complete walls, roofs or historical building solids here.",
+  "sources": [
+    "reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json"
+  ]
+}

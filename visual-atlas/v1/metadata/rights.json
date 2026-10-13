@@ -1,0 +1,14 @@
+{
+  "A36143": {
+    "distribution": "permitted_with_attribution",
+    "product": "DAP-L0 open-data 300dpi",
+    "authority": "DATA_SOURCES.md; metadata/SOURCE_AUDIT.md; CSDI terms linked from acquisition page",
+    "terms": [
+      "https://data.gov.hk/en/terms-and-conditions",
+      "https://portal.csdi.gov.hk/csdi-webpage/doc/TNC"
+    ],
+    "required_attribution": "Lands Department, HKSAR Government; CSDI; DATA.GOV.HK"
+  },
+  "publication_authorized": true,
+  "authorization": "Aryan explicitly requested GitHub push of the atlas in this conversation, 2026-10-13; not blanket permission for future releases."
+}

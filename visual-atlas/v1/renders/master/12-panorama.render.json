@@ -1,0 +1,203 @@
+{
+  "id": "12-panorama",
+  "epoch": "1993-11-02",
+  "kind": "stereo",
+  "style": "cinematic",
+  "mode": "interpretive",
+  "lighting": "warm",
+  "lighting_historical_weather": false,
+  "blender_version": "4.5.3 LTS",
+  "python_version": "3.11.11 (main, Apr 25 2025, 12:39:20) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "samples_requested": 48,
+  "origin_epsg2326": [
+    837500,
+    821000
+  ],
+  "horizontal_crs": "EPSG:2326",
+  "vertical_datum": "relative_ground_plane",
+  "axis_mapping": "X=east, Y=north, Z=source height",
+  "vertical_exaggeration": 1,
+  "source_counts": {
+    "vertices": 155891,
+    "triangles": 225371,
+    "source_vertices": 155891,
+    "source_triangles": 225371,
+    "retained_vertices": 155891,
+    "retained_triangles": 225371,
+    "subset_bounds": null,
+    "subset_policy": "Full source mesh",
+    "objects": 1
+  },
+  "source_sha256": {
+    "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/scenes/jobs/12-panorama.json": "2e5618dbe322f36a15ee2e1da1aa145236b87f7d1be0b5584364e4bdbbbc8067",
+    "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/metadata/input_manifest.json": "5480ca71109f375a2307f590449e19edd594a89903751007feee3c6b9398cc4b",
+    "/Users/maheit/.openclaw/workspace/repos/kai-tak/research/checkers-runway13/reconstruction/block_matching/scene/scene.json": "734ca0e43995571686de9a43cc7b0522a1cf55d1c97d868f66fb2ed7ca1e34e8"
+  },
+  "camera": {
+    "location": [
+      400,
+      -2600,
+      1400
+    ],
+    "target": [
+      260,
+      -220,
+      15
+    ],
+    "projection": "ORTHO",
+    "ortho_scale": 2600,
+    "lens": 48,
+    "shift_x": 0.16,
+    "location_epsg2326": [
+      837900,
+      818400,
+      1400
+    ],
+    "target_epsg2326": [
+      837760,
+      820780,
+      15
+    ],
+    "world_matrix": [
+      [
+        0.9982743859291077,
+        -0.029497170820832253,
+        0.050775907933712006,
+        400.0
+      ],
+      [
+        0.05872202292084694,
+        0.5014519691467285,
+        -0.8631904125213623,
+        -2600.0
+      ],
+      [
+        -3.3743068339475712e-09,
+        0.8646824955940247,
+        0.5023187398910522,
+        1400.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "rotation_euler_radians": [
+      1.044517993927002,
+      3.3743068339475712e-09,
+      0.058755822479724884
+    ],
+    "sensor_width_mm": 36.0,
+    "grid_azimuth_degrees": 356.6335393365702,
+    "elevation_angle_degrees": -30.153528083368705,
+    "bearing_note": "Grid-north camera direction, not true/magnetic aircraft heading",
+    "view_frame": [
+      [
+        1716.0,
+        731.25,
+        -1.0
+      ],
+      [
+        1716.0,
+        -731.25,
+        -1.0
+      ],
+      [
+        -884.0,
+        -731.25,
+        -1.0
+      ],
+      [
+        -884.0,
+        731.25,
+        -1.0
+      ]
+    ]
+  },
+  "display_board": {
+    "bounds": [
+      -397.0528564453125,
+      -1184.10302734375,
+      994.2810668945312,
+      629.5172729492188
+    ],
+    "z": -21.21139144897461,
+    "is_terrain": false
+  },
+  "width": 3840,
+  "height": 2160,
+  "render_seconds": 2.736,
+  "output": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/renders/master/12-panorama.png",
+  "output_sha256": "7b9188042798a1da2f187ef166046d0b1c2611607577e7954013c6daae107bf1",
+  "objects": [
+    {
+      "name": "November 1993 · partial observed surfaces",
+      "type": "MESH",
+      "metadata": {
+        "evidence_level": "B",
+        "source_epoch": "1993-11-02",
+        "vertical_datum": "relative_ground_plane",
+        "source": "scene.json#/observed_mesh",
+        "complete_buildings": false,
+        "watertight": false,
+        "nominal_camera_calibration": true,
+        "outside_control_hull_extrapolation": true,
+        "source_vertices": 155891,
+        "source_triangles": 225371,
+        "retained_vertices": 155891,
+        "retained_triangles": 225371,
+        "subset_bounds": "null",
+        "subset_policy": "Full source mesh",
+        "vertical_exaggeration": 1.0
+      }
+    },
+    {
+      "name": "Exhibition support · NOT geographic terrain",
+      "type": "MESH",
+      "metadata": {
+        "evidence_level": "presentation_only",
+        "physical_geography": false,
+        "purpose": "Neutral missing-evidence display support",
+        "z_is_display_choice": true
+      }
+    },
+    {
+      "name": "Evidence display boundary · not a coastline",
+      "type": "CURVE",
+      "metadata": {
+        "physical_geography": false
+      }
+    },
+    {
+      "name": "Warm artistic afternoon",
+      "type": "LIGHT",
+      "metadata": {
+        "historical_weather": false,
+        "artistic_choice": true
+      }
+    },
+    {
+      "name": "Large soft exhibition fill",
+      "type": "LIGHT",
+      "metadata": {}
+    },
+    {
+      "name": "Recorded virtual camera",
+      "type": "CAMERA",
+      "metadata": {
+        "source": "Virtual artistic viewpoint; not an historical aircraft pose",
+        "location": "[400, -2600, 1400]",
+        "target": "[260, -220, 15]",
+        "projection": "ORTHO",
+        "ortho_scale": 2600,
+        "lens": 48,
+        "shift_x": 0.16
+      }
+    }
+  ],
+  "landmark_pixels": {},
+  "projected_marks": []
+}

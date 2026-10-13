@@ -1,0 +1,17 @@
+{
+  "id": "06",
+  "slug": "final-alignment",
+  "title": "Forty-seven degrees",
+  "subtitle": "The difference between published inbound and runway magnetic courses",
+  "epoch": "Historical procedure reference; maps: 1986–1993",
+  "mode": "interpretive",
+  "type": "Cartography plus schematic direction diagram",
+  "source_render": "06-final-alignment",
+  "idea": "Make the heading change understandable without drawing an invented flight track.",
+  "limit": "088° and 135° are magnetic courses. The adjacent diagram is schematic and is not aligned to the map's grid north. The mapped runway edge is about 134.02° GRID.",
+  "caption": "The nominal course difference is 47°. Turning an aircraft between those directions takes space, time and visual reference. These arrows compare directions only; they are not a historical track or the research model's trajectory.",
+  "sources": [
+    "integrated/geometry/mapped_runway_axis_check.json",
+    "integrated/REPORT.md"
+  ]
+}

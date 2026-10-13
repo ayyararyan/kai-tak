@@ -1,0 +1,143 @@
+{
+  "name": "kai-tak-visual-atlas-v1-scenes.zip",
+  "url": "https://github.com/ayyararyan/kai-tak/releases/download/visual-atlas-v1/kai-tak-visual-atlas-v1-scenes.zip",
+  "sha256": "63c7796f6a8f55c11f5b1964f2de1338bf40ae6aae2adcf06cdf0716d8553b64",
+  "bytes": 66025065,
+  "members": [
+    {
+      "path": "visual-atlas/v1/assets/geography.json",
+      "bytes": 3239,
+      "sha256": "aced5e419129fbf0d9f0bfa103d92504a290e5a9150fd0eba2e31d8c069024ca"
+    },
+    {
+      "path": "visual-atlas/v1/assets/hill.json",
+      "bytes": 11438,
+      "sha256": "aa049f77ee382c6f1a8d184dac6c7eb72f5f87ba61e7821723fde9600285d420"
+    },
+    {
+      "path": "visual-atlas/v1/assets/hill_context.json",
+      "bytes": 3778599,
+      "sha256": "6875efda4d204a8afe396f2ca7b38e3cda032c945a0be974bc99f4e49b8b2520"
+    },
+    {
+      "path": "visual-atlas/v1/assets/map-1989-10-display.png",
+      "bytes": 1533138,
+      "sha256": "ea20c3f2df05fa5eeacbc7caa39e19c5f1ac4ded42a899f4397df89463a18e0f"
+    },
+    {
+      "path": "visual-atlas/v1/assets/map-1994-07-display.png",
+      "bytes": 1521909,
+      "sha256": "45aec0c5d01c7e2c9771464f14e59a0027c5b8d2561e914718517c85dd4f6984"
+    },
+    {
+      "path": "visual-atlas/v1/assets/map-1997-04-display.png",
+      "bytes": 1682793,
+      "sha256": "dfb4713fcc1ff5a9727748a9777c6802c9eb2ac25311cc71f5c9ee652f016167"
+    },
+    {
+      "path": "visual-atlas/v1/assets/map-mosaic-display.png",
+      "bytes": 1959945,
+      "sha256": "68c3df7cf2a22f6a3cf3656d26c00a56966559bc013ae419fd9abe81af085ba2"
+    },
+    {
+      "path": "visual-atlas/v1/assets/modern_airport_roofs.json",
+      "bytes": 19308785,
+      "sha256": "4029f1393431a49bb1c5746c1d8b0fac337378f74b649543d123231903ce24b6"
+    },
+    {
+      "path": "visual-atlas/v1/assets/modern_airport_scene.json",
+      "bytes": 20417354,
+      "sha256": "a93590e36545122440eb5e55532fa0b1f887ec68b1b3a0190d41e32bbef50f80"
+    },
+    {
+      "path": "visual-atlas/v1/assets/modern_roofs.json",
+      "bytes": 993954,
+      "sha256": "7a785398c90516322ceafeda99ed7703bc88b58a74ddfa175c0389a0e4bc8078"
+    },
+    {
+      "path": "visual-atlas/v1/scenes/01-grand-overview.blend",
+      "bytes": 2502537,
+      "sha256": "6cc4afed0d369548167c35309b87b59ecaef7b0ea1200ea2079f1685de3bd825"
+    },
+    {
+      "path": "visual-atlas/v1/scenes/02-runway-water.blend",
+      "bytes": 2502523,
+      "sha256": "482978517985d88dca5fa21a775b55dc4b5db83d082ed025b092a26cdb7f6d30"
+    },
+    {
+      "path": "visual-atlas/v1/scenes/03-city-beneath.blend",
+      "bytes": 4047596,
+      "sha256": "93702583bf35fcc10587d33c143603817fb59ce80ecccd97e7304c036258b00e"
+    },
+    {
+      "path": "visual-atlas/v1/scenes/04-hill-context.blend",
+      "bytes": 2288945,
+      "sha256": "15e536d469bc2c75c44781d9d394d7db17f7496844aff84fc828da12d13112d7"
+    },
+    {
+      "path": "visual-atlas/v1/scenes/04-hill-observations.blend",
+      "bytes": 519191,
+      "sha256": "7fdbc1b5f6f5b0b7a40454ecbd70659616abce7bdcc858f5868e428aa11c725f"
+    },
+    {
+      "path": "visual-atlas/v1/scenes/05-virtual-perspective.blend",
+      "bytes": 15828942,
+      "sha256": "2127df968d35d39363a5616393ed326fa2e0a0ee9e282dca3034fff85cd423e7"
+    },
+    {
+      "path": "visual-atlas/v1/scenes/06-final-alignment.blend",
+      "bytes": 2502548,
+      "sha256": "12d8dc5ad3ac1ba5085b3c6f7bb6107abf014c5069e57621eeea6cb2e06d1419"
+    },
+    {
+      "path": "visual-atlas/v1/scenes/08-november-surface.blend",
+      "bytes": 15828931,
+      "sha256": "3042d56901482a58b3b7f312a7165df113782d3d0c4e1e619c63d75c6526b89f"
+    },
+    {
+      "path": "visual-atlas/v1/scenes/08-surface-daylight.blend",
+      "bytes": 15828939,
+      "sha256": "061cb0fa63b3258f8f6a92573849a0a07bac2fa0307e36f51428e827054308d3"
+    },
+    {
+      "path": "visual-atlas/v1/scenes/10-modern-airport.blend",
+      "bytes": 44518830,
+      "sha256": "43acd702a953eb2e38ab48179483ccd45271d66df64e2256acd0b1f5264292da"
+    },
+    {
+      "path": "visual-atlas/v1/scenes/10-modern-core.blend",
+      "bytes": 4727325,
+      "sha256": "8cfd949ad6750df5ee2b5fbfd4279bc5af3a80ff969cf42a8f76689d9927cbfd"
+    },
+    {
+      "path": "visual-atlas/v1/scenes/11-map-top.blend",
+      "bytes": 2127478,
+      "sha256": "93a529b4b11e28823763749664b82e97e7e6219df9e8136b9c451c218627f1f3"
+    },
+    {
+      "path": "visual-atlas/v1/scenes/11-surface-top.blend",
+      "bytes": 15829184,
+      "sha256": "868fcbe5c061a6e75f0158b77ae49f8b864b71711995c4f0342d0bc080a22ab8"
+    },
+    {
+      "path": "visual-atlas/v1/scenes/12-panorama.blend",
+      "bytes": 15829090,
+      "sha256": "9a751720d4ce342c184211edbbd54c18fd2d5d327e4d40001951bb5e32d9197c"
+    },
+    {
+      "path": "visual-atlas/v1/scenes/map-1989-10.blend",
+      "bytes": 2127272,
+      "sha256": "63d85b832f481753c26f573d2f363bd4d74bc226b768b50e87d938413c5cff0f"
+    },
+    {
+      "path": "visual-atlas/v1/scenes/map-1994-07.blend",
+      "bytes": 2114099,
+      "sha256": "78c010f939b77a764b960ff1ec99fd1f192e0ea732ef538e783305ccaffe29d4"
+    },
+    {
+      "path": "visual-atlas/v1/scenes/map-1997-04.blend",
+      "bytes": 2269187,
+      "sha256": "da3a9ba2175516c22350058df36d5bb5d5cdb202662b4728fadc6ede12f751ac"
+    }
+  ]
+}

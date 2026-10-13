@@ -1,0 +1,258 @@
+{
+  "id": "02-runway-water",
+  "epoch": "mixed map editions 1986–1993",
+  "kind": "geography",
+  "style": "cinematic",
+  "mode": "evidence",
+  "lighting": "warm",
+  "lighting_historical_weather": false,
+  "blender_version": "4.5.3 LTS",
+  "python_version": "3.11.11 (main, Apr 25 2025, 12:39:20) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "samples_requested": 48,
+  "origin_epsg2326": [
+    837500,
+    821000
+  ],
+  "horizontal_crs": "EPSG:2326",
+  "vertical_datum": "display plane only, not physical terrain",
+  "axis_mapping": "X=east, Y=north, Z=source height",
+  "vertical_exaggeration": 1,
+  "source_counts": {
+    "features": 4,
+    "interpretive_features_omitted": 0
+  },
+  "source_sha256": {
+    "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/scenes/jobs/02-runway-water.json": "eb3e793c6400fe247f8c7849676b4e15fe4fb3fbfc9b0e6f5c86684e186555e7",
+    "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/metadata/input_manifest.json": "5480ca71109f375a2307f590449e19edd594a89903751007feee3c6b9398cc4b",
+    "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/geography.json": "aced5e419129fbf0d9f0bfa103d92504a290e5a9150fd0eba2e31d8c069024ca",
+    "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/map-mosaic-display.png": "68c3df7cf2a22f6a3cf3656d26c00a56966559bc013ae419fd9abe81af085ba2"
+  },
+  "camera": {
+    "location": [
+      4300,
+      -4600,
+      3300
+    ],
+    "target": [
+      1800,
+      -1600,
+      0
+    ],
+    "projection": "ORTHO",
+    "ortho_scale": 4000,
+    "lens": 48,
+    "location_epsg2326": [
+      841800,
+      816400,
+      3300
+    ],
+    "target_epsg2326": [
+      839300,
+      819400,
+      0
+    ],
+    "world_matrix": [
+      [
+        0.7682212591171265,
+        -0.413205623626709,
+        0.4889756143093109,
+        4300.0
+      ],
+      [
+        0.6401844024658203,
+        0.4958467483520508,
+        -0.58677077293396,
+        -4600.0
+      ],
+      [
+        1.6669639890665167e-08,
+        0.7638043761253357,
+        0.645447850227356,
+        3300.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "rotation_euler_radians": [
+      0.8691868782043457,
+      -1.6669639890665167e-08,
+      0.6947382688522339
+    ],
+    "sensor_width_mm": 36.0,
+    "grid_azimuth_degrees": 320.1944289077348,
+    "elevation_angle_degrees": -40.199260890298966,
+    "bearing_note": "Grid-north camera direction, not true/magnetic aircraft heading",
+    "view_frame": [
+      [
+        2000.0,
+        1125.0,
+        -1.0
+      ],
+      [
+        2000.0,
+        -1125.0,
+        -1.0
+      ],
+      [
+        -2000.0,
+        -1125.0,
+        -1.0
+      ],
+      [
+        -2000.0,
+        1125.0,
+        -1.0
+      ]
+    ]
+  },
+  "display_board": {
+    "bounds": [
+      0,
+      -3000,
+      3000,
+      600
+    ],
+    "z": -4.000000715255737,
+    "is_terrain": false
+  },
+  "width": 3840,
+  "height": 2160,
+  "render_seconds": 1.842,
+  "output": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/renders/master/02-runway-water.png",
+  "output_sha256": "6296c00c0c048e3e6b185eadbd8cb38d4fd88866ad8c5839647326c951cce651",
+  "objects": [
+    {
+      "name": "Historical airport survey map mosaic",
+      "type": "MESH",
+      "metadata": {
+        "source": "integrated/geometry/map_mosaic_manifest.json",
+        "evidence_level": "A cartographic observations; mixed editions",
+        "display_is_historical_terrain": false
+      }
+    },
+    {
+      "name": "mapped_runway_edge_0_1993",
+      "type": "CURVE",
+      "metadata": {
+        "source": "integrated/geometry/mapped_runway_edges.geojson",
+        "evidence_level": "A source map line; display Z not elevation",
+        "epoch": "see source sheet records",
+        "display_is_historical_terrain": false
+      }
+    },
+    {
+      "name": "mapped_runway_edge_1_1993",
+      "type": "CURVE",
+      "metadata": {
+        "source": "integrated/geometry/mapped_runway_edges.geojson",
+        "evidence_level": "A source map line; display Z not elevation",
+        "epoch": "see source sheet records",
+        "display_is_historical_terrain": false
+      }
+    },
+    {
+      "name": "seawall_SE_1993_08",
+      "type": "CURVE",
+      "metadata": {
+        "source": "integrated/geometry/historical_seawall.geojson",
+        "evidence_level": "A source map line; display Z not elevation",
+        "epoch": "1993-08",
+        "display_is_historical_terrain": false
+      }
+    },
+    {
+      "name": "Exhibition support · NOT geographic terrain",
+      "type": "MESH",
+      "metadata": {
+        "evidence_level": "presentation_only",
+        "physical_geography": false,
+        "purpose": "Neutral missing-evidence display support",
+        "z_is_display_choice": true
+      }
+    },
+    {
+      "name": "Evidence display boundary · not a coastline",
+      "type": "CURVE",
+      "metadata": {
+        "physical_geography": false
+      }
+    },
+    {
+      "name": "Warm artistic afternoon",
+      "type": "LIGHT",
+      "metadata": {
+        "historical_weather": false,
+        "artistic_choice": true
+      }
+    },
+    {
+      "name": "Large soft exhibition fill",
+      "type": "LIGHT",
+      "metadata": {}
+    },
+    {
+      "name": "Recorded virtual camera",
+      "type": "CAMERA",
+      "metadata": {
+        "source": "Virtual artistic viewpoint; not an historical aircraft pose",
+        "location": "[4300, -4600, 3300]",
+        "target": "[1800, -1600, 0]",
+        "projection": "ORTHO",
+        "ortho_scale": 4000,
+        "lens": 48
+      }
+    }
+  ],
+  "landmark_pixels": {},
+  "projected_marks": [
+    {
+      "label": "KOWLOON",
+      "point": [
+        280,
+        160,
+        2
+      ],
+      "x": 1880.6668853759766,
+      "y": -362.19889640808105,
+      "camera_depth": 6887.39794921875
+    },
+    {
+      "label": "RUNWAY 13 / 31",
+      "point": [
+        2100,
+        -2050,
+        2
+      ],
+      "x": 1864.687843322754,
+      "y": 1411.7424774169922,
+      "camera_depth": 4700.69873046875
+    },
+    {
+      "label": "KOWLOON BAY",
+      "point": [
+        850,
+        -1400,
+        2
+      ],
+      "x": 1342.2974395751953,
+      "y": 606.487283706665,
+      "camera_depth": 5693.3193359375
+    },
+    {
+      "label": "SOURCE TILE GAP",
+      "point": [
+        900,
+        -2400,
+        2
+      ],
+      "x": 764.5949935913086,
+      "y": 1102.3341536521912,
+      "camera_depth": 5082.10009765625
+    }
+  ]
+}

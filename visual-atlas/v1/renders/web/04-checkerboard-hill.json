@@ -1,0 +1,19 @@
+{
+  "id": "04",
+  "slug": "checkerboard-hill",
+  "title": "Reading Checkerboard Hill",
+  "subtitle": "Actual historical height observations and a separately dated modern terrain view",
+  "epoch": "Hill observations: November 1989 / terrain context: 2014–2015",
+  "mode": "interpretive",
+  "type": "Separated historical observations and modern terrain context",
+  "source_render": "04-hill-observations",
+  "idea": "Locate the hill region and explain why the checkerboard was a visual landmark.",
+  "limit": "Eight mapped spot heights and two partial contours do not define the full hill. The painted board's exact surveyed position and face geometry are unavailable. No flown approach arc is asserted.",
+  "caption": "The surviving hill observations rise from 31.4 to 80 m above Hong Kong Principal Datum. They are evidence of local terrain, not a complete hill model. The checkerboard helped pilots recognize the visual turn toward the airport.",
+  "sources": [
+    "integrated/geometry/historical_hill_terrain.geojson",
+    "geospatial/derived/Kowloon_KaiTak_DTM_5m_HK1980.tif",
+    "integrated/geometry/mapped_runway_edges.geojson",
+    "integrated/geometry/historical_seawall.geojson"
+  ]
+}

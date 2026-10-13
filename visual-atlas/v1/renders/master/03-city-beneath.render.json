@@ -1,0 +1,229 @@
+{
+  "id": "03-city-beneath",
+  "epoch": "1993-11-02",
+  "kind": "stereo",
+  "style": "architectural",
+  "mode": "evidence",
+  "lighting": "daylight",
+  "lighting_historical_weather": false,
+  "blender_version": "4.5.3 LTS",
+  "python_version": "3.11.11 (main, Apr 25 2025, 12:39:20) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "samples_requested": 48,
+  "origin_epsg2326": [
+    837500,
+    821000
+  ],
+  "horizontal_crs": "EPSG:2326",
+  "vertical_datum": "relative_ground_plane",
+  "axis_mapping": "X=east, Y=north, Z=source height",
+  "vertical_exaggeration": 1,
+  "source_counts": {
+    "vertices": 36108,
+    "triangles": 52230,
+    "source_vertices": 155891,
+    "source_triangles": 225371,
+    "retained_vertices": 36108,
+    "retained_triangles": 52230,
+    "subset_bounds": [
+      0,
+      0,
+      750,
+      600
+    ],
+    "subset_policy": "Retain complete original triangles only when all three original vertices lie inside bounds; no clipping or new triangles",
+    "objects": 1
+  },
+  "source_sha256": {
+    "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/scenes/jobs/03-city-beneath.json": "d0e78574cbd40eec335c757e1c6ad3f32a7a8bf549e1b437c48ebe9fb75e6b31",
+    "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/metadata/input_manifest.json": "5480ca71109f375a2307f590449e19edd594a89903751007feee3c6b9398cc4b",
+    "/Users/maheit/.openclaw/workspace/repos/kai-tak/research/checkers-runway13/reconstruction/block_matching/scene/scene.json": "734ca0e43995571686de9a43cc7b0522a1cf55d1c97d868f66fb2ed7ca1e34e8"
+  },
+  "camera": {
+    "location": [
+      1100,
+      -1050,
+      1100
+    ],
+    "target": [
+      375,
+      300,
+      20
+    ],
+    "projection": "ORTHO",
+    "ortho_scale": 1300,
+    "lens": 48,
+    "location_epsg2326": [
+      838600,
+      819950,
+      1100
+    ],
+    "target_epsg2326": [
+      837875,
+      821300,
+      20
+    ],
+    "world_matrix": [
+      [
+        0.880994439125061,
+        -0.27256348729133606,
+        0.3867272734642029,
+        1100.0
+      ],
+      [
+        0.4731266498565674,
+        0.5075321793556213,
+        -0.720112681388855,
+        -1050.0
+      ],
+      [
+        -9.959939006876084e-08,
+        0.8173862099647522,
+        0.5760900378227234,
+        1100.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "rotation_euler_radians": [
+      0.9568592309951782,
+      9.959939006876084e-08,
+      0.4928364157676697
+    ],
+    "sensor_width_mm": 36.0,
+    "grid_azimuth_degrees": 331.76255446183274,
+    "elevation_angle_degrees": -35.176010682464245,
+    "bearing_note": "Grid-north camera direction, not true/magnetic aircraft heading",
+    "view_frame": [
+      [
+        650.0,
+        365.625,
+        -1.0
+      ],
+      [
+        650.0,
+        -365.625,
+        -1.0
+      ],
+      [
+        -650.0,
+        -365.625,
+        -1.0
+      ],
+      [
+        -650.0,
+        365.625,
+        -1.0
+      ]
+    ]
+  },
+  "display_board": {
+    "bounds": [
+      0,
+      0,
+      750,
+      600
+    ],
+    "z": -19.28904914855957,
+    "is_terrain": false
+  },
+  "width": 3840,
+  "height": 2160,
+  "render_seconds": 2.74,
+  "output": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/renders/master/03-city-beneath.png",
+  "output_sha256": "9ff89ba0680962b850dae47df7aaa7fd452ec7c7eaedfb9f3fa22922962b88ee",
+  "objects": [
+    {
+      "name": "November 1993 · partial observed surfaces",
+      "type": "MESH",
+      "metadata": {
+        "evidence_level": "B",
+        "source_epoch": "1993-11-02",
+        "vertical_datum": "relative_ground_plane",
+        "source": "scene.json#/observed_mesh",
+        "complete_buildings": false,
+        "watertight": false,
+        "nominal_camera_calibration": true,
+        "outside_control_hull_extrapolation": true,
+        "source_vertices": 155891,
+        "source_triangles": 225371,
+        "retained_vertices": 36108,
+        "retained_triangles": 52230,
+        "subset_bounds": "[0, 0, 750, 600]",
+        "subset_policy": "Retain complete original triangles only when all three original vertices lie inside bounds; no clipping or new triangles",
+        "vertical_exaggeration": 1.0
+      }
+    },
+    {
+      "name": "Exhibition support · NOT geographic terrain",
+      "type": "MESH",
+      "metadata": {
+        "evidence_level": "presentation_only",
+        "physical_geography": false,
+        "purpose": "Neutral missing-evidence display support",
+        "z_is_display_choice": true
+      }
+    },
+    {
+      "name": "Evidence display boundary · not a coastline",
+      "type": "CURVE",
+      "metadata": {
+        "physical_geography": false
+      }
+    },
+    {
+      "name": "Clear artistic daylight",
+      "type": "LIGHT",
+      "metadata": {
+        "historical_weather": false,
+        "artistic_choice": true
+      }
+    },
+    {
+      "name": "Large soft exhibition fill",
+      "type": "LIGHT",
+      "metadata": {}
+    },
+    {
+      "name": "Recorded virtual camera",
+      "type": "CAMERA",
+      "metadata": {
+        "source": "Virtual artistic viewpoint; not an historical aircraft pose",
+        "location": "[1100, -1050, 1100]",
+        "target": "[375, 300, 20]",
+        "projection": "ORTHO",
+        "ortho_scale": 1300,
+        "lens": 48
+      }
+    }
+  ],
+  "landmark_pixels": {},
+  "projected_marks": [
+    {
+      "label": "scale0",
+      "point": [
+        60,
+        20,
+        0
+      ],
+      "x": 708.9569091796875,
+      "y": 1294.4476318359375,
+      "camera_depth": 1806.4158935546875
+    },
+    {
+      "label": "scale1",
+      "point": [
+        160,
+        20,
+        0
+      ],
+      "x": 969.1890335083008,
+      "y": 1374.9587059020996,
+      "camera_depth": 1767.7431640625
+    }
+  ]
+}

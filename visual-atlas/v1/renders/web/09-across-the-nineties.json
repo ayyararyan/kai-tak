@@ -1,0 +1,15 @@
+{
+  "id": "09",
+  "slug": "across-the-nineties",
+  "title": "Three editions, one place",
+  "subtitle": "1989, 1994 and 1997 maps, with a separately dated 1993 photo-derived view",
+  "epoch": "1989 / 1993 / 1994 / 1997",
+  "mode": "evidence",
+  "type": "Matched-camera documentary comparison",
+  "idea": "Distinguish documentary change from inferred urban chronology.",
+  "limit": "All panels share horizontal camera and extent. The stereo panel has relative Z; maps are flat documentary layers. No precise construction or demolition dates follow from edition differences.",
+  "caption": "The same view makes changes in documentary content inspectable. Unequal detail is preserved: map ink, reviewed faces and photograph-derived surfaces are different kinds of evidence.",
+  "sources": [
+    "reconstruction/block_matching/scene/scene.json"
+  ]
+}

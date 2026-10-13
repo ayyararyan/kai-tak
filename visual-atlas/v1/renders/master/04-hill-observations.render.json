@@ -1,0 +1,273 @@
+{
+  "id": "04-hill-observations",
+  "epoch": "1989-11",
+  "kind": "geography",
+  "style": "architectural",
+  "mode": "evidence",
+  "lighting": "daylight",
+  "lighting_historical_weather": false,
+  "blender_version": "4.5.3 LTS",
+  "python_version": "3.11.11 (main, Apr 25 2025, 12:39:20) [Clang 17.0.0 (clang-1700.0.13.3)]",
+  "engine": "BLENDER_EEVEE_NEXT",
+  "samples_requested": 48,
+  "origin_epsg2326": [
+    837500,
+    821000
+  ],
+  "horizontal_crs": "EPSG:2326",
+  "vertical_datum": "HKPD for mapped elevations, display plane not terrain",
+  "axis_mapping": "X=east, Y=north, Z=source height",
+  "vertical_exaggeration": 1,
+  "source_counts": {
+    "features": 10,
+    "interpretive_features_omitted": 0
+  },
+  "source_sha256": {
+    "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/scenes/jobs/04-hill-observations.json": "274e73c02b8dafca47d8c3b2243944cca879209a6cb8dd7033571c384b76951c",
+    "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/metadata/input_manifest.json": "5480ca71109f375a2307f590449e19edd594a89903751007feee3c6b9398cc4b",
+    "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/assets/hill.json": "aa049f77ee382c6f1a8d184dac6c7eb72f5f87ba61e7821723fde9600285d420"
+  },
+  "camera": {
+    "location": [
+      10,
+      620,
+      370
+    ],
+    "target": [
+      -315,
+      1000,
+      50
+    ],
+    "projection": "ORTHO",
+    "ortho_scale": 480,
+    "lens": 48,
+    "location_epsg2326": [
+      837510,
+      821620,
+      370
+    ],
+    "target_epsg2326": [
+      837185,
+      822000,
+      50
+    ],
+    "world_matrix": [
+      [
+        0.7599619626998901,
+        -0.35035499930381775,
+        0.5474569797515869,
+        10.0
+      ],
+      [
+        0.6499675512313843,
+        0.4096457362174988,
+        -0.6401035785675049,
+        620.0
+      ],
+      [
+        6.020692211450296e-08,
+        0.8422836661338806,
+        0.5390345454216003,
+        370.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "rotation_euler_radians": [
+      1.0015058517456055,
+      -6.020692211450296e-08,
+      0.7075417041778564
+    ],
+    "sensor_width_mm": 36.0,
+    "grid_azimuth_degrees": 319.46084825851653,
+    "elevation_angle_degrees": -32.61794245110174,
+    "bearing_note": "Grid-north camera direction, not true/magnetic aircraft heading",
+    "view_frame": [
+      [
+        240.0,
+        135.0,
+        -1.0
+      ],
+      [
+        240.0,
+        -135.0,
+        -1.0
+      ],
+      [
+        -240.0,
+        -135.0,
+        -1.0
+      ],
+      [
+        -240.0,
+        135.0,
+        -1.0
+      ]
+    ]
+  },
+  "display_board": {
+    "bounds": [
+      -480,
+      830,
+      -150,
+      1160
+    ],
+    "z": 27.600000381469727,
+    "is_terrain": false
+  },
+  "width": 3840,
+  "height": 2160,
+  "render_seconds": 1.74,
+  "output": "/Users/maheit/.openclaw/workspace/repos/kai-tak/visual-atlas/v1/renders/master/04-hill-observations.png",
+  "output_sha256": "eb0dee8a8167fa21d8afad1a8ca53de9f47184f65500221375991c0620a3009e",
+  "objects": [
+    {
+      "name": "hill_contour_60_1989",
+      "type": "CURVE",
+      "metadata": {
+        "source": "integrated/geometry/historical_hill_terrain.geojson",
+        "evidence_level": "A mapped height observation, not full terrain",
+        "epoch": "1989-11",
+        "display_is_historical_terrain": false
+      }
+    },
+    {
+      "name": "hill_contour_80_1989",
+      "type": "CURVE",
+      "metadata": {
+        "source": "integrated/geometry/historical_hill_terrain.geojson",
+        "evidence_level": "A mapped height observation, not full terrain",
+        "epoch": "1989-11",
+        "display_is_historical_terrain": false
+      }
+    },
+    {
+      "name": "hill_surface_spot_0_1989",
+      "type": "CURVE",
+      "metadata": {
+        "source": "integrated/geometry/historical_hill_terrain.geojson",
+        "evidence_level": "A mapped height observation, not full terrain",
+        "epoch": "1989-11",
+        "display_is_historical_terrain": false
+      }
+    },
+    {
+      "name": "hill_surface_spot_1_1989",
+      "type": "CURVE",
+      "metadata": {
+        "source": "integrated/geometry/historical_hill_terrain.geojson",
+        "evidence_level": "A mapped height observation, not full terrain",
+        "epoch": "1989-11",
+        "display_is_historical_terrain": false
+      }
+    },
+    {
+      "name": "hill_surface_spot_3_1989",
+      "type": "CURVE",
+      "metadata": {
+        "source": "integrated/geometry/historical_hill_terrain.geojson",
+        "evidence_level": "A mapped height observation, not full terrain",
+        "epoch": "1989-11",
+        "display_is_historical_terrain": false
+      }
+    },
+    {
+      "name": "hill_surface_spot_5_1989",
+      "type": "CURVE",
+      "metadata": {
+        "source": "integrated/geometry/historical_hill_terrain.geojson",
+        "evidence_level": "A mapped height observation, not full terrain",
+        "epoch": "1989-11",
+        "display_is_historical_terrain": false
+      }
+    },
+    {
+      "name": "hill_surface_spot_6_1989",
+      "type": "CURVE",
+      "metadata": {
+        "source": "integrated/geometry/historical_hill_terrain.geojson",
+        "evidence_level": "A mapped height observation, not full terrain",
+        "epoch": "1989-11",
+        "display_is_historical_terrain": false
+      }
+    },
+    {
+      "name": "hill_surface_spot_7_1989",
+      "type": "CURVE",
+      "metadata": {
+        "source": "integrated/geometry/historical_hill_terrain.geojson",
+        "evidence_level": "A mapped height observation, not full terrain",
+        "epoch": "1989-11",
+        "display_is_historical_terrain": false
+      }
+    },
+    {
+      "name": "hill_surface_spot_8_1989",
+      "type": "CURVE",
+      "metadata": {
+        "source": "integrated/geometry/historical_hill_terrain.geojson",
+        "evidence_level": "A mapped height observation, not full terrain",
+        "epoch": "1989-11",
+        "display_is_historical_terrain": false
+      }
+    },
+    {
+      "name": "hill_surface_spot_10_1989",
+      "type": "CURVE",
+      "metadata": {
+        "source": "integrated/geometry/historical_hill_terrain.geojson",
+        "evidence_level": "A mapped height observation, not full terrain",
+        "epoch": "1989-11",
+        "display_is_historical_terrain": false
+      }
+    },
+    {
+      "name": "Exhibition support · NOT geographic terrain",
+      "type": "MESH",
+      "metadata": {
+        "evidence_level": "presentation_only",
+        "physical_geography": false,
+        "purpose": "Neutral missing-evidence display support",
+        "z_is_display_choice": true
+      }
+    },
+    {
+      "name": "Evidence display boundary · not a coastline",
+      "type": "CURVE",
+      "metadata": {
+        "physical_geography": false
+      }
+    },
+    {
+      "name": "Clear artistic daylight",
+      "type": "LIGHT",
+      "metadata": {
+        "historical_weather": false,
+        "artistic_choice": true
+      }
+    },
+    {
+      "name": "Large soft exhibition fill",
+      "type": "LIGHT",
+      "metadata": {}
+    },
+    {
+      "name": "Recorded virtual camera",
+      "type": "CAMERA",
+      "metadata": {
+        "source": "Virtual artistic viewpoint; not an historical aircraft pose",
+        "location": "[10, 620, 370]",
+        "target": "[-315, 1000, 50]",
+        "projection": "ORTHO",
+        "ortho_scale": 480,
+        "lens": 48
+      }
+    }
+  ],
+  "landmark_pixels": {},
+  "projected_marks": []
+}

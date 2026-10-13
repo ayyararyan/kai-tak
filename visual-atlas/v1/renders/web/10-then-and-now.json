@@ -1,0 +1,17 @@
+{
+  "id": "10",
+  "slug": "then-and-now",
+  "title": "The airport landscape, then and now",
+  "subtitle": "Historical map evidence and the September 2026 building inventory",
+  "epoch": "Historical maps: 1986–1993 / buildings: 21 September 2026",
+  "mode": "evidence",
+  "type": "Matched-camera, separate-datum comparison",
+  "idea": "Show the transformation of the airport area without transplanting a modern skyline into history.",
+  "limit": "Modern solids use approximate HKPD base/top elevations; missing or invalid records are omitted explicitly. Flat historical maps are not a 1993 solid city. No terrain surface is shown; the available DTM derives from 2014–2015 photographs.",
+  "caption": "The right panel shows current-source building geometry, including development in the former airport area. The old airport is not depicted as operational in 2026. Cameras match horizontally; source epochs and vertical meanings remain separate.",
+  "sources": [
+    "geospatial/README.md",
+    "geospatial/derived/Kowloon_KaiTak_buildings_20260921.geojson",
+    "integrated/geometry/map_mosaic_manifest.json"
+  ]
+}

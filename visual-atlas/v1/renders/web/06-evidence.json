@@ -1,0 +1,24 @@
+{
+  "id": "06",
+  "slug": "final-alignment",
+  "title": "Forty-seven degrees",
+  "subtitle": "Historical map context and the partial digitized runway edges",
+  "epoch": "Historical procedure reference; maps: 1986–1993",
+  "mode": "evidence",
+  "type": "Historical cartographic reference",
+  "source_render": "06-final-alignment",
+  "idea": "Make the heading change understandable without drawing an invented flight track.",
+  "limit": "Map reference plane only. Exact threshold registration remains unresolved. No course diagram or inferred flight track is included.",
+  "caption": "The accepted map lines are highlighted; complete runway registration is still unresolved. This evidence-only view adds no schematic course arrows or inferred flight track.",
+  "sources": [
+    "integrated/geometry/mapped_runway_axis_check.json",
+    "integrated/REPORT.md"
+  ],
+  "master": "renders/master/atlas-06-final-alignment.png",
+  "annotated": "renders/annotated/06-final-alignment.png",
+  "web": "renders/web/06-final-alignment.webp",
+  "size": [
+    3840,
+    2160
+  ]
+}

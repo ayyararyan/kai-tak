@@ -1,0 +1,9 @@
+{
+  "state": "blocked",
+  "browser_available": true,
+  "file_navigation": "Navigation blocked: unsupported protocol file:",
+  "localhost_navigation": "browser navigation blocked by policy",
+  "interaction_verified": false,
+  "bypass_attempted": false,
+  "static_checks": "gallery source syntax/assets/caption records/local links"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "01",
+  "slug": "grand-overview",
+  "title": "A runway inside the city",
+  "subtitle": "Kai Tak and Kowloon, read through the historical survey archive",
+  "epoch": "Survey editions, 1986–1993",
+  "mode": "evidence",
+  "type": "Map-based geographic reconstruction",
+  "source_render": "01-grand-overview",
+  "idea": "See the airport, urban fabric and bay together.",
+  "limit": "Bounded cartographic alternative: no complete historical terrain, coastline vector or calibrated city model. Flat map board is not terrain.",
+  "caption": "The historical survey sheets place the long airport peninsula beside the urban fabric of Kowloon. Their different editions remain visible; they do not form a single-date city survey.",
+  "sources": [
+    "integrated/geometry/map_mosaic_manifest.json",
+    "integrated/geometry/mapped_runway_edges.geojson"
+  ]
+}

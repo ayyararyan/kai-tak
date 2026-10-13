@@ -1,0 +1,15 @@
+{
+  "source_hash_chain": "passed",
+  "modern_core_components": 464,
+  "modern_wide_components": 3546,
+  "modern_wide_omitted": 167,
+  "historical_null_heights": 45,
+  "modern_roof_triangulation_area_and_holes": "passed",
+  "origin_epsg2326": [
+    837500.0,
+    821000.0
+  ],
+  "blender_axes": "X=easting-837500,Y=northing-821000,Z=explicit view datum",
+  "glb_mapping_documented": "GLB x+837600=E; -GLB z+821200=N; GLB y=relative Z; renderer uses PLY-derived source scene, no GLB reorientation ambiguity",
+  "vertical_exaggeration": 1
+}

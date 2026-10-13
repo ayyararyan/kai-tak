@@ -1,0 +1,1656 @@
+{
+  "generated_utc": "2026-10-13T17:46:08.583641+00:00",
+  "coordinate_convention": "EPSG:2326; X east/Y north/Z explicitly source-specific; no vertical exaggeration",
+  "views": [
+    {
+      "id": "01-grand-overview",
+      "epoch": "mixed map editions 1986\u20131993",
+      "kind": "geography",
+      "style": "architectural",
+      "mode": "evidence",
+      "lighting": "daylight",
+      "horizontal_crs": "EPSG:2326",
+      "origin_epsg2326": [
+        837500,
+        821000
+      ],
+      "vertical_datum": "display plane only, not physical terrain",
+      "vertical_exaggeration": 1,
+      "camera": {
+        "location": [
+          5200,
+          -5500,
+          5700
+        ],
+        "target": [
+          1500,
+          -1200,
+          0
+        ],
+        "projection": "ORTHO",
+        "ortho_scale": 6900,
+        "lens": 48,
+        "location_epsg2326": [
+          842700,
+          815500,
+          5700
+        ],
+        "target_epsg2326": [
+          839000,
+          819800,
+          0
+        ],
+        "world_matrix": [
+          [
+            0.7580108642578125,
+            -0.462308794260025,
+            0.46009790897369385,
+            5200.0
+          ],
+          [
+            0.6522419452667236,
+            0.5372778177261353,
+            -0.5347083806991577,
+            -5500.0
+          ],
+          [
+            -4.147732823867045e-09,
+            0.7054099440574646,
+            0.7087996006011963,
+            5700.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "rotation_euler_radians": [
+          0.7830013036727905,
+          4.147732823867045e-09,
+          0.7105383276939392
+        ],
+        "sensor_width_mm": 36.0,
+        "grid_azimuth_degrees": 319.289153328819,
+        "elevation_angle_degrees": -45.137326114674266,
+        "bearing_note": "Grid-north camera direction, not true/magnetic aircraft heading",
+        "view_frame": [
+          [
+            3450.0,
+            1940.625,
+            -1.0
+          ],
+          [
+            3450.0,
+            -1940.625,
+            -1.0
+          ],
+          [
+            -3450.0,
+            -1940.625,
+            -1.0
+          ],
+          [
+            -3450.0,
+            1940.625,
+            -1.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "02-runway-water",
+      "epoch": "mixed map editions 1986\u20131993",
+      "kind": "geography",
+      "style": "cinematic",
+      "mode": "evidence",
+      "lighting": "warm",
+      "horizontal_crs": "EPSG:2326",
+      "origin_epsg2326": [
+        837500,
+        821000
+      ],
+      "vertical_datum": "display plane only, not physical terrain",
+      "vertical_exaggeration": 1,
+      "camera": {
+        "location": [
+          4300,
+          -4600,
+          3300
+        ],
+        "target": [
+          1800,
+          -1600,
+          0
+        ],
+        "projection": "ORTHO",
+        "ortho_scale": 4000,
+        "lens": 48,
+        "location_epsg2326": [
+          841800,
+          816400,
+          3300
+        ],
+        "target_epsg2326": [
+          839300,
+          819400,
+          0
+        ],
+        "world_matrix": [
+          [
+            0.7682212591171265,
+            -0.413205623626709,
+            0.4889756143093109,
+            4300.0
+          ],
+          [
+            0.6401844024658203,
+            0.4958467483520508,
+            -0.58677077293396,
+            -4600.0
+          ],
+          [
+            1.6669639890665167e-08,
+            0.7638043761253357,
+            0.645447850227356,
+            3300.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "rotation_euler_radians": [
+          0.8691868782043457,
+          -1.6669639890665167e-08,
+          0.6947382688522339
+        ],
+        "sensor_width_mm": 36.0,
+        "grid_azimuth_degrees": 320.1944289077348,
+        "elevation_angle_degrees": -40.199260890298966,
+        "bearing_note": "Grid-north camera direction, not true/magnetic aircraft heading",
+        "view_frame": [
+          [
+            2000.0,
+            1125.0,
+            -1.0
+          ],
+          [
+            2000.0,
+            -1125.0,
+            -1.0
+          ],
+          [
+            -2000.0,
+            -1125.0,
+            -1.0
+          ],
+          [
+            -2000.0,
+            1125.0,
+            -1.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "03-city-beneath",
+      "epoch": "1993-11-02",
+      "kind": "stereo",
+      "style": "architectural",
+      "mode": "evidence",
+      "lighting": "daylight",
+      "horizontal_crs": "EPSG:2326",
+      "origin_epsg2326": [
+        837500,
+        821000
+      ],
+      "vertical_datum": "relative_ground_plane",
+      "vertical_exaggeration": 1,
+      "camera": {
+        "location": [
+          1100,
+          -1050,
+          1100
+        ],
+        "target": [
+          375,
+          300,
+          20
+        ],
+        "projection": "ORTHO",
+        "ortho_scale": 1300,
+        "lens": 48,
+        "location_epsg2326": [
+          838600,
+          819950,
+          1100
+        ],
+        "target_epsg2326": [
+          837875,
+          821300,
+          20
+        ],
+        "world_matrix": [
+          [
+            0.880994439125061,
+            -0.27256348729133606,
+            0.3867272734642029,
+            1100.0
+          ],
+          [
+            0.4731266498565674,
+            0.5075321793556213,
+            -0.720112681388855,
+            -1050.0
+          ],
+          [
+            -9.959939006876084e-08,
+            0.8173862099647522,
+            0.5760900378227234,
+            1100.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "rotation_euler_radians": [
+          0.9568592309951782,
+          9.959939006876084e-08,
+          0.4928364157676697
+        ],
+        "sensor_width_mm": 36.0,
+        "grid_azimuth_degrees": 331.76255446183274,
+        "elevation_angle_degrees": -35.176010682464245,
+        "bearing_note": "Grid-north camera direction, not true/magnetic aircraft heading",
+        "view_frame": [
+          [
+            650.0,
+            365.625,
+            -1.0
+          ],
+          [
+            650.0,
+            -365.625,
+            -1.0
+          ],
+          [
+            -650.0,
+            -365.625,
+            -1.0
+          ],
+          [
+            -650.0,
+            365.625,
+            -1.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "04-hill-context",
+      "epoch": "2014\u20132015 photography-derived terrain",
+      "kind": "geography",
+      "style": "cinematic",
+      "mode": "interpretive",
+      "lighting": "warm",
+      "horizontal_crs": "EPSG:2326",
+      "origin_epsg2326": [
+        837500,
+        821000
+      ],
+      "vertical_datum": "HKPD; modern 2014\u20132015 terrain only",
+      "vertical_exaggeration": 1,
+      "camera": {
+        "location": [
+          100,
+          420,
+          650
+        ],
+        "target": [
+          -300,
+          1020,
+          50
+        ],
+        "projection": "ORTHO",
+        "ortho_scale": 1100,
+        "lens": 48,
+        "location_epsg2326": [
+          837600,
+          821420,
+          650
+        ],
+        "target_epsg2326": [
+          837200,
+          822020,
+          50
+        ],
+        "world_matrix": [
+          [
+            0.8320503234863281,
+            -0.3547874093055725,
+            0.42640140652656555,
+            100.0
+          ],
+          [
+            0.5547001361846924,
+            0.5321811437606812,
+            -0.6396021842956543,
+            420.0
+          ],
+          [
+            4.9981032645973755e-09,
+            0.7687061429023743,
+            0.6396021246910095,
+            650.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "rotation_euler_radians": [
+          0.8768157362937927,
+          -4.9981032645973755e-09,
+          0.5880025625228882
+        ],
+        "sensor_width_mm": 36.0,
+        "grid_azimuth_degrees": 326.30993247402023,
+        "elevation_angle_degrees": -39.76215915180505,
+        "bearing_note": "Grid-north camera direction, not true/magnetic aircraft heading",
+        "view_frame": [
+          [
+            550.0,
+            309.375,
+            -1.0
+          ],
+          [
+            550.0,
+            -309.375,
+            -1.0
+          ],
+          [
+            -550.0,
+            -309.375,
+            -1.0
+          ],
+          [
+            -550.0,
+            309.375,
+            -1.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "04-hill-observations",
+      "epoch": "1989-11",
+      "kind": "geography",
+      "style": "architectural",
+      "mode": "evidence",
+      "lighting": "daylight",
+      "horizontal_crs": "EPSG:2326",
+      "origin_epsg2326": [
+        837500,
+        821000
+      ],
+      "vertical_datum": "HKPD for mapped elevations, display plane not terrain",
+      "vertical_exaggeration": 1,
+      "camera": {
+        "location": [
+          10,
+          620,
+          370
+        ],
+        "target": [
+          -315,
+          1000,
+          50
+        ],
+        "projection": "ORTHO",
+        "ortho_scale": 480,
+        "lens": 48,
+        "location_epsg2326": [
+          837510,
+          821620,
+          370
+        ],
+        "target_epsg2326": [
+          837185,
+          822000,
+          50
+        ],
+        "world_matrix": [
+          [
+            0.7599619626998901,
+            -0.35035499930381775,
+            0.5474569797515869,
+            10.0
+          ],
+          [
+            0.6499675512313843,
+            0.4096457362174988,
+            -0.6401035785675049,
+            620.0
+          ],
+          [
+            6.020692211450296e-08,
+            0.8422836661338806,
+            0.5390345454216003,
+            370.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "rotation_euler_radians": [
+          1.0015058517456055,
+          -6.020692211450296e-08,
+          0.7075417041778564
+        ],
+        "sensor_width_mm": 36.0,
+        "grid_azimuth_degrees": 319.46084825851653,
+        "elevation_angle_degrees": -32.61794245110174,
+        "bearing_note": "Grid-north camera direction, not true/magnetic aircraft heading",
+        "view_frame": [
+          [
+            240.0,
+            135.0,
+            -1.0
+          ],
+          [
+            240.0,
+            -135.0,
+            -1.0
+          ],
+          [
+            -240.0,
+            -135.0,
+            -1.0
+          ],
+          [
+            -240.0,
+            135.0,
+            -1.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "05-virtual-perspective",
+      "epoch": "1993-11-02",
+      "kind": "stereo",
+      "style": "cinematic",
+      "mode": "interpretive",
+      "lighting": "warm",
+      "horizontal_crs": "EPSG:2326",
+      "origin_epsg2326": [
+        837500,
+        821000
+      ],
+      "vertical_datum": "relative_ground_plane",
+      "vertical_exaggeration": 1,
+      "camera": {
+        "location": [
+          -500,
+          550,
+          240
+        ],
+        "target": [
+          380,
+          -550,
+          25
+        ],
+        "projection": "PERSP",
+        "ortho_scale": 1500,
+        "lens": 35,
+        "location_epsg2326": [
+          837000,
+          821550,
+          240
+        ],
+        "target_epsg2326": [
+          837880,
+          820450,
+          25
+        ],
+        "world_matrix": [
+          [
+            -0.7808688282966614,
+            0.09425213187932968,
+            -0.6175438761711121,
+            -500.0
+          ],
+          [
+            -0.6246950626373291,
+            -0.11781527101993561,
+            0.7719298005104065,
+            550.0
+          ],
+          [
+            -6.724198442498164e-08,
+            0.9885525107383728,
+            0.15087710320949554,
+            240.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "rotation_euler_radians": [
+          1.4193408489227295,
+          6.724198442498164e-08,
+          -2.4668517112731934
+        ],
+        "sensor_width_mm": 36.0,
+        "grid_azimuth_degrees": 141.34019174590992,
+        "elevation_angle_degrees": -8.677764585703308,
+        "bearing_note": "Grid-north camera direction, not true/magnetic aircraft heading",
+        "view_frame": [
+          [
+            0.5,
+            0.28125,
+            -0.9722222089767456
+          ],
+          [
+            0.5,
+            -0.28125,
+            -0.9722222089767456
+          ],
+          [
+            -0.5,
+            -0.28125,
+            -0.9722222089767456
+          ],
+          [
+            -0.5,
+            0.28125,
+            -0.9722222089767456
+          ]
+        ]
+      }
+    },
+    {
+      "id": "06-final-alignment",
+      "epoch": "mixed map editions 1986\u20131993",
+      "kind": "geography",
+      "style": "architectural",
+      "mode": "interpretive",
+      "lighting": "daylight",
+      "horizontal_crs": "EPSG:2326",
+      "origin_epsg2326": [
+        837500,
+        821000
+      ],
+      "vertical_datum": "display plane only, not physical terrain",
+      "vertical_exaggeration": 1,
+      "camera": {
+        "location": [
+          1500,
+          -1200,
+          6000
+        ],
+        "target": [
+          1500,
+          -1200,
+          0
+        ],
+        "projection": "ORTHO",
+        "ortho_scale": 6400,
+        "lens": 48,
+        "location_epsg2326": [
+          839000,
+          819800,
+          6000
+        ],
+        "target_epsg2326": [
+          839000,
+          819800,
+          0
+        ],
+        "world_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            1500.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1200.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            6000.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "rotation_euler_radians": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "sensor_width_mm": 36.0,
+        "grid_azimuth_degrees": 0.0,
+        "elevation_angle_degrees": -90.0,
+        "bearing_note": "Grid-north camera direction, not true/magnetic aircraft heading",
+        "view_frame": [
+          [
+            3200.0,
+            1800.0,
+            -1.0
+          ],
+          [
+            3200.0,
+            -1800.0,
+            -1.0
+          ],
+          [
+            -3200.0,
+            -1800.0,
+            -1.0
+          ],
+          [
+            -3200.0,
+            1800.0,
+            -1.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "08-november-surface",
+      "epoch": "1993-11-02",
+      "kind": "stereo",
+      "style": "cinematic",
+      "mode": "evidence",
+      "lighting": "warm",
+      "horizontal_crs": "EPSG:2326",
+      "origin_epsg2326": [
+        837500,
+        821000
+      ],
+      "vertical_datum": "relative_ground_plane",
+      "vertical_exaggeration": 1,
+      "camera": {
+        "location": [
+          1500,
+          -2100,
+          1800
+        ],
+        "target": [
+          280,
+          -240,
+          15
+        ],
+        "projection": "ORTHO",
+        "ortho_scale": 3000,
+        "lens": 48,
+        "location_epsg2326": [
+          839000,
+          818900,
+          1800
+        ],
+        "target_epsg2326": [
+          837780,
+          820760,
+          15
+        ],
+        "world_matrix": [
+          [
+            0.8361767530441284,
+            -0.34326139092445374,
+            0.4277617335319519,
+            1500.0
+          ],
+          [
+            0.5484601259231567,
+            0.523332953453064,
+            -0.6521611213684082,
+            -2100.0
+          ],
+          [
+            -7.157197501328483e-08,
+            0.7799322009086609,
+            0.6258640289306641,
+            1800.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "rotation_euler_radians": [
+          0.8945574760437012,
+          7.157197501328483e-08,
+          0.5805215239524841
+        ],
+        "sensor_width_mm": 36.0,
+        "grid_azimuth_degrees": 326.7385712067223,
+        "elevation_angle_degrees": -38.74564765956585,
+        "bearing_note": "Grid-north camera direction, not true/magnetic aircraft heading",
+        "view_frame": [
+          [
+            1500.0,
+            843.75,
+            -1.0
+          ],
+          [
+            1500.0,
+            -843.75,
+            -1.0
+          ],
+          [
+            -1500.0,
+            -843.75,
+            -1.0
+          ],
+          [
+            -1500.0,
+            843.75,
+            -1.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "08-surface-daylight",
+      "epoch": "1993-11-02",
+      "kind": "stereo",
+      "style": "architectural",
+      "mode": "evidence",
+      "lighting": "daylight",
+      "horizontal_crs": "EPSG:2326",
+      "origin_epsg2326": [
+        837500,
+        821000
+      ],
+      "vertical_datum": "relative_ground_plane",
+      "vertical_exaggeration": 1,
+      "camera": {
+        "location": [
+          1500,
+          -2100,
+          1800
+        ],
+        "target": [
+          280,
+          -240,
+          15
+        ],
+        "projection": "ORTHO",
+        "ortho_scale": 3000,
+        "lens": 48,
+        "location_epsg2326": [
+          839000,
+          818900,
+          1800
+        ],
+        "target_epsg2326": [
+          837780,
+          820760,
+          15
+        ],
+        "world_matrix": [
+          [
+            0.8361767530441284,
+            -0.34326139092445374,
+            0.4277617335319519,
+            1500.0
+          ],
+          [
+            0.5484601259231567,
+            0.523332953453064,
+            -0.6521611213684082,
+            -2100.0
+          ],
+          [
+            -7.157197501328483e-08,
+            0.7799322009086609,
+            0.6258640289306641,
+            1800.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "rotation_euler_radians": [
+          0.8945574760437012,
+          7.157197501328483e-08,
+          0.5805215239524841
+        ],
+        "sensor_width_mm": 36.0,
+        "grid_azimuth_degrees": 326.7385712067223,
+        "elevation_angle_degrees": -38.74564765956585,
+        "bearing_note": "Grid-north camera direction, not true/magnetic aircraft heading",
+        "view_frame": [
+          [
+            1500.0,
+            843.75,
+            -1.0
+          ],
+          [
+            1500.0,
+            -843.75,
+            -1.0
+          ],
+          [
+            -1500.0,
+            -843.75,
+            -1.0
+          ],
+          [
+            -1500.0,
+            843.75,
+            -1.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "10-modern-airport",
+      "epoch": "2026-09-21",
+      "kind": "modern",
+      "style": "architectural",
+      "mode": "evidence",
+      "lighting": "daylight",
+      "horizontal_crs": "EPSG:2326",
+      "origin_epsg2326": [
+        837500,
+        821000
+      ],
+      "vertical_datum": "HKPD",
+      "vertical_exaggeration": 1,
+      "camera": {
+        "location": [
+          5200,
+          -5500,
+          5700
+        ],
+        "target": [
+          1500,
+          -1200,
+          0
+        ],
+        "projection": "ORTHO",
+        "ortho_scale": 6900,
+        "lens": 48,
+        "location_epsg2326": [
+          842700,
+          815500,
+          5700
+        ],
+        "target_epsg2326": [
+          839000,
+          819800,
+          0
+        ],
+        "world_matrix": [
+          [
+            0.7580108642578125,
+            -0.462308794260025,
+            0.46009790897369385,
+            5200.0
+          ],
+          [
+            0.6522419452667236,
+            0.5372778177261353,
+            -0.5347083806991577,
+            -5500.0
+          ],
+          [
+            -4.147732823867045e-09,
+            0.7054099440574646,
+            0.7087996006011963,
+            5700.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "rotation_euler_radians": [
+          0.7830013036727905,
+          4.147732823867045e-09,
+          0.7105383276939392
+        ],
+        "sensor_width_mm": 36.0,
+        "grid_azimuth_degrees": 319.289153328819,
+        "elevation_angle_degrees": -45.137326114674266,
+        "bearing_note": "Grid-north camera direction, not true/magnetic aircraft heading",
+        "view_frame": [
+          [
+            3450.0,
+            1940.625,
+            -1.0
+          ],
+          [
+            3450.0,
+            -1940.625,
+            -1.0
+          ],
+          [
+            -3450.0,
+            -1940.625,
+            -1.0
+          ],
+          [
+            -3450.0,
+            1940.625,
+            -1.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "10-modern-core",
+      "epoch": "2026-09-21",
+      "kind": "modern",
+      "style": "architectural",
+      "mode": "evidence",
+      "lighting": "daylight",
+      "horizontal_crs": "EPSG:2326",
+      "origin_epsg2326": [
+        837500,
+        821000
+      ],
+      "vertical_datum": "HKPD",
+      "vertical_exaggeration": 1,
+      "camera": {
+        "location": [
+          1100,
+          -1050,
+          1100
+        ],
+        "target": [
+          375,
+          300,
+          20
+        ],
+        "projection": "ORTHO",
+        "ortho_scale": 1300,
+        "lens": 48,
+        "location_epsg2326": [
+          838600,
+          819950,
+          1100
+        ],
+        "target_epsg2326": [
+          837875,
+          821300,
+          20
+        ],
+        "world_matrix": [
+          [
+            0.880994439125061,
+            -0.27256348729133606,
+            0.3867272734642029,
+            1100.0
+          ],
+          [
+            0.4731266498565674,
+            0.5075321793556213,
+            -0.720112681388855,
+            -1050.0
+          ],
+          [
+            -9.959939006876084e-08,
+            0.8173862099647522,
+            0.5760900378227234,
+            1100.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "rotation_euler_radians": [
+          0.9568592309951782,
+          9.959939006876084e-08,
+          0.4928364157676697
+        ],
+        "sensor_width_mm": 36.0,
+        "grid_azimuth_degrees": 331.76255446183274,
+        "elevation_angle_degrees": -35.176010682464245,
+        "bearing_note": "Grid-north camera direction, not true/magnetic aircraft heading",
+        "view_frame": [
+          [
+            650.0,
+            365.625,
+            -1.0
+          ],
+          [
+            650.0,
+            -365.625,
+            -1.0
+          ],
+          [
+            -650.0,
+            -365.625,
+            -1.0
+          ],
+          [
+            -650.0,
+            365.625,
+            -1.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "11-map-top",
+      "epoch": "1989-10",
+      "kind": "map",
+      "style": "architectural",
+      "mode": "evidence",
+      "lighting": "daylight",
+      "horizontal_crs": "EPSG:2326",
+      "origin_epsg2326": [
+        837500,
+        821000
+      ],
+      "vertical_datum": "display_plane_not_terrain",
+      "vertical_exaggeration": 1,
+      "camera": {
+        "location": [
+          100,
+          210,
+          1600
+        ],
+        "target": [
+          100,
+          210,
+          0
+        ],
+        "projection": "ORTHO",
+        "ortho_scale": 500,
+        "lens": 48,
+        "location_epsg2326": [
+          837600,
+          821210,
+          1600
+        ],
+        "target_epsg2326": [
+          837600,
+          821210,
+          0
+        ],
+        "world_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            100.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            210.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1600.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "rotation_euler_radians": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "sensor_width_mm": 36.0,
+        "grid_azimuth_degrees": 0.0,
+        "elevation_angle_degrees": -90.0,
+        "bearing_note": "Grid-north camera direction, not true/magnetic aircraft heading",
+        "view_frame": [
+          [
+            250.0,
+            140.625,
+            -1.0
+          ],
+          [
+            250.0,
+            -140.625,
+            -1.0
+          ],
+          [
+            -250.0,
+            -140.625,
+            -1.0
+          ],
+          [
+            -250.0,
+            140.625,
+            -1.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "11-surface-top",
+      "epoch": "1993-11-02",
+      "kind": "stereo",
+      "style": "architectural",
+      "mode": "evidence",
+      "lighting": "daylight",
+      "horizontal_crs": "EPSG:2326",
+      "origin_epsg2326": [
+        837500,
+        821000
+      ],
+      "vertical_datum": "relative_ground_plane",
+      "vertical_exaggeration": 1,
+      "camera": {
+        "location": [
+          100,
+          210,
+          1600
+        ],
+        "target": [
+          100,
+          210,
+          0
+        ],
+        "projection": "ORTHO",
+        "ortho_scale": 500,
+        "lens": 48,
+        "location_epsg2326": [
+          837600,
+          821210,
+          1600
+        ],
+        "target_epsg2326": [
+          837600,
+          821210,
+          0
+        ],
+        "world_matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            100.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            210.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1600.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "rotation_euler_radians": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "sensor_width_mm": 36.0,
+        "grid_azimuth_degrees": 0.0,
+        "elevation_angle_degrees": -90.0,
+        "bearing_note": "Grid-north camera direction, not true/magnetic aircraft heading",
+        "view_frame": [
+          [
+            250.0,
+            140.625,
+            -1.0
+          ],
+          [
+            250.0,
+            -140.625,
+            -1.0
+          ],
+          [
+            -250.0,
+            -140.625,
+            -1.0
+          ],
+          [
+            -250.0,
+            140.625,
+            -1.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "12-panorama",
+      "epoch": "1993-11-02",
+      "kind": "stereo",
+      "style": "cinematic",
+      "mode": "interpretive",
+      "lighting": "warm",
+      "horizontal_crs": "EPSG:2326",
+      "origin_epsg2326": [
+        837500,
+        821000
+      ],
+      "vertical_datum": "relative_ground_plane",
+      "vertical_exaggeration": 1,
+      "camera": {
+        "location": [
+          400,
+          -2600,
+          1400
+        ],
+        "target": [
+          260,
+          -220,
+          15
+        ],
+        "projection": "ORTHO",
+        "ortho_scale": 2600,
+        "lens": 48,
+        "shift_x": 0.16,
+        "location_epsg2326": [
+          837900,
+          818400,
+          1400
+        ],
+        "target_epsg2326": [
+          837760,
+          820780,
+          15
+        ],
+        "world_matrix": [
+          [
+            0.9982743859291077,
+            -0.029497170820832253,
+            0.050775907933712006,
+            400.0
+          ],
+          [
+            0.05872202292084694,
+            0.5014519691467285,
+            -0.8631904125213623,
+            -2600.0
+          ],
+          [
+            -3.3743068339475712e-09,
+            0.8646824955940247,
+            0.5023187398910522,
+            1400.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "rotation_euler_radians": [
+          1.044517993927002,
+          3.3743068339475712e-09,
+          0.058755822479724884
+        ],
+        "sensor_width_mm": 36.0,
+        "grid_azimuth_degrees": 356.6335393365702,
+        "elevation_angle_degrees": -30.153528083368705,
+        "bearing_note": "Grid-north camera direction, not true/magnetic aircraft heading",
+        "view_frame": [
+          [
+            1716.0,
+            731.25,
+            -1.0
+          ],
+          [
+            1716.0,
+            -731.25,
+            -1.0
+          ],
+          [
+            -884.0,
+            -731.25,
+            -1.0
+          ],
+          [
+            -884.0,
+            731.25,
+            -1.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "map-1989-10",
+      "epoch": "1989-10",
+      "kind": "map",
+      "style": "architectural",
+      "mode": "evidence",
+      "lighting": "daylight",
+      "horizontal_crs": "EPSG:2326",
+      "origin_epsg2326": [
+        837500,
+        821000
+      ],
+      "vertical_datum": "display_plane_not_terrain",
+      "vertical_exaggeration": 1,
+      "camera": {
+        "location": [
+          1100,
+          -1050,
+          1100
+        ],
+        "target": [
+          375,
+          300,
+          20
+        ],
+        "projection": "ORTHO",
+        "ortho_scale": 1300,
+        "lens": 48,
+        "location_epsg2326": [
+          838600,
+          819950,
+          1100
+        ],
+        "target_epsg2326": [
+          837875,
+          821300,
+          20
+        ],
+        "world_matrix": [
+          [
+            0.880994439125061,
+            -0.27256348729133606,
+            0.3867272734642029,
+            1100.0
+          ],
+          [
+            0.4731266498565674,
+            0.5075321793556213,
+            -0.720112681388855,
+            -1050.0
+          ],
+          [
+            -9.959939006876084e-08,
+            0.8173862099647522,
+            0.5760900378227234,
+            1100.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "rotation_euler_radians": [
+          0.9568592309951782,
+          9.959939006876084e-08,
+          0.4928364157676697
+        ],
+        "sensor_width_mm": 36.0,
+        "grid_azimuth_degrees": 331.76255446183274,
+        "elevation_angle_degrees": -35.176010682464245,
+        "bearing_note": "Grid-north camera direction, not true/magnetic aircraft heading",
+        "view_frame": [
+          [
+            650.0,
+            365.625,
+            -1.0
+          ],
+          [
+            650.0,
+            -365.625,
+            -1.0
+          ],
+          [
+            -650.0,
+            -365.625,
+            -1.0
+          ],
+          [
+            -650.0,
+            365.625,
+            -1.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "map-1994-07",
+      "epoch": "1994-07",
+      "kind": "map",
+      "style": "architectural",
+      "mode": "evidence",
+      "lighting": "daylight",
+      "horizontal_crs": "EPSG:2326",
+      "origin_epsg2326": [
+        837500,
+        821000
+      ],
+      "vertical_datum": "display_plane_not_terrain",
+      "vertical_exaggeration": 1,
+      "camera": {
+        "location": [
+          1100,
+          -1050,
+          1100
+        ],
+        "target": [
+          375,
+          300,
+          20
+        ],
+        "projection": "ORTHO",
+        "ortho_scale": 1300,
+        "lens": 48,
+        "location_epsg2326": [
+          838600,
+          819950,
+          1100
+        ],
+        "target_epsg2326": [
+          837875,
+          821300,
+          20
+        ],
+        "world_matrix": [
+          [
+            0.880994439125061,
+            -0.27256348729133606,
+            0.3867272734642029,
+            1100.0
+          ],
+          [
+            0.4731266498565674,
+            0.5075321793556213,
+            -0.720112681388855,
+            -1050.0
+          ],
+          [
+            -9.959939006876084e-08,
+            0.8173862099647522,
+            0.5760900378227234,
+            1100.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "rotation_euler_radians": [
+          0.9568592309951782,
+          9.959939006876084e-08,
+          0.4928364157676697
+        ],
+        "sensor_width_mm": 36.0,
+        "grid_azimuth_degrees": 331.76255446183274,
+        "elevation_angle_degrees": -35.176010682464245,
+        "bearing_note": "Grid-north camera direction, not true/magnetic aircraft heading",
+        "view_frame": [
+          [
+            650.0,
+            365.625,
+            -1.0
+          ],
+          [
+            650.0,
+            -365.625,
+            -1.0
+          ],
+          [
+            -650.0,
+            -365.625,
+            -1.0
+          ],
+          [
+            -650.0,
+            365.625,
+            -1.0
+          ]
+        ]
+      }
+    },
+    {
+      "id": "map-1997-04",
+      "epoch": "1997-04",
+      "kind": "map",
+      "style": "architectural",
+      "mode": "evidence",
+      "lighting": "daylight",
+      "horizontal_crs": "EPSG:2326",
+      "origin_epsg2326": [
+        837500,
+        821000
+      ],
+      "vertical_datum": "display_plane_not_terrain",
+      "vertical_exaggeration": 1,
+      "camera": {
+        "location": [
+          1100,
+          -1050,
+          1100
+        ],
+        "target": [
+          375,
+          300,
+          20
+        ],
+        "projection": "ORTHO",
+        "ortho_scale": 1300,
+        "lens": 48,
+        "location_epsg2326": [
+          838600,
+          819950,
+          1100
+        ],
+        "target_epsg2326": [
+          837875,
+          821300,
+          20
+        ],
+        "world_matrix": [
+          [
+            0.880994439125061,
+            -0.27256348729133606,
+            0.3867272734642029,
+            1100.0
+          ],
+          [
+            0.4731266498565674,
+            0.5075321793556213,
+            -0.720112681388855,
+            -1050.0
+          ],
+          [
+            -9.959939006876084e-08,
+            0.8173862099647522,
+            0.5760900378227234,
+            1100.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "rotation_euler_radians": [
+          0.9568592309951782,
+          9.959939006876084e-08,
+          0.4928364157676697
+        ],
+        "sensor_width_mm": 36.0,
+        "grid_azimuth_degrees": 331.76255446183274,
+        "elevation_angle_degrees": -35.176010682464245,
+        "bearing_note": "Grid-north camera direction, not true/magnetic aircraft heading",
+        "view_frame": [
+          [
+            650.0,
+            365.625,
+            -1.0
+          ],
+          [
+            650.0,
+            -365.625,
+            -1.0
+          ],
+          [
+            -650.0,
+            -365.625,
+            -1.0
+          ],
+          [
+            -650.0,
+            365.625,
+            -1.0
+          ]
+        ]
+      }
+    }
+  ]
+}

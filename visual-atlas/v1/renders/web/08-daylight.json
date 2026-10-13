@@ -1,0 +1,24 @@
+{
+  "id": "08",
+  "slug": "november-1993",
+  "title": "November 1993, in fragments",
+  "subtitle": "Architectural daylight treatment · same source and camera",
+  "epoch": "Photographs: 2 November 1993",
+  "mode": "evidence",
+  "type": "Conditional historical stereo reconstruction",
+  "source_render": "08-november-surface",
+  "idea": "Give the strongest 3D source evidence the atlas's principal visual treatment.",
+  "limit": "225,371 original triangles; nominal camera calibration. Heights are relative to a fitted park/road plane, not HKPD. Only 3,780 of 171,307 dense points lie inside the local map-control hull.",
+  "caption": "The same original mesh in neutral daylight. The artistic treatment changes; the source coordinates, holes and camera do not.",
+  "sources": [
+    "reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json",
+    "reconstruction/chronology/aerial/date_annotation_audit.json"
+  ],
+  "master": "renders/master/atlas-08-november-1993.png",
+  "annotated": "renders/annotated/08-november-1993.png",
+  "web": "renders/web/08-november-1993.webp",
+  "size": [
+    3840,
+    2160
+  ]
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "id": "01",
+    "slug": "grand-overview",
+    "title": "A runway inside the city",
+    "subtitle": "Kai Tak and Kowloon, read through the historical survey archive",
+    "epoch": "Survey editions, 1986–1993",
+    "mode": "evidence",
+    "type": "Map-based geographic reconstruction",
+    "source_render": "01-grand-overview",
+    "idea": "See the airport, urban fabric and bay together.",
+    "limit": "Bounded cartographic alternative: no complete historical terrain, coastline vector or calibrated city model. Flat map board is not terrain.",
+    "caption": "The historical survey sheets place the long airport peninsula beside the urban fabric of Kowloon. Their different editions remain visible; they do not form a single-date city survey.",
+    "sources": [
+      "integrated/geometry/map_mosaic_manifest.json",
+      "integrated/geometry/mapped_runway_edges.geojson"
+    ]
+  },
+  {
+    "id": "02",
+    "slug": "runway-water",
+    "title": "The runway into the bay",
+    "subtitle": "A mapped peninsula, with the surviving seawall evidence highlighted",
+    "epoch": "Survey editions, 1986–1993",
+    "mode": "evidence",
+    "type": "Oblique historical map scene",
+    "source_render": "02-runway-water",
+    "idea": "Understand the airport's unusual relationship to the water.",
+    "limit": "Only partial runway edges and the August 1993 southeastern seawall are traced. Shoreline completion, water height and exact threshold registration remain unresolved.",
+    "caption": "The map records the runway projecting into Kowloon Bay. Highlighted linework is the actually digitized evidence, not a completed shoreline. Published landing distance available is 2,786 m; it is not the runway's total physical length.",
+    "sources": [
+      "integrated/geometry/historical_seawall.geojson",
+      "integrated/geometry/mapped_runway_edges.geojson"
+    ]
+  },
+  {
+    "id": "03",
+    "slug": "city-beneath",
+    "title": "The city beneath the aircraft",
+    "subtitle": "An elevated virtual view of the observed Kowloon surface",
+    "epoch": "Photographs: 2 November 1993",
+    "mode": "evidence",
+    "type": "Partial photo-derived surface",
+    "source_render": "03-city-beneath",
+    "idea": "Reveal actual observed urban surface structure without completing the missing city.",
+    "limit": "A small observed patch, not all Kowloon. Surfaces include roofs, ground, vegetation and possible mismatches; holes mean missing observations.",
+    "caption": "Two overlapping photographs recover a broken relief of the city. The gaps are retained: the archive does not support complete walls, roofs or historical building solids here.",
+    "sources": [
+      "reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json"
+    ]
+  },
+  {
+    "id": "04",
+    "slug": "checkerboard-hill",
+    "title": "Reading Checkerboard Hill",
+    "subtitle": "Actual historical height observations and a separately dated modern terrain view",
+    "epoch": "Hill observations: November 1989 / terrain context: 2014–2015",
+    "mode": "interpretive",
+    "type": "Separated historical observations and modern terrain context",
+    "source_render": "04-hill-observations",
+    "idea": "Locate the hill region and explain why the checkerboard was a visual landmark.",
+    "limit": "Eight mapped spot heights and two partial contours do not define the full hill. The painted board's exact surveyed position and face geometry are unavailable. No flown approach arc is asserted.",
+    "caption": "The surviving hill observations rise from 31.4 to 80 m above Hong Kong Principal Datum. They are evidence of local terrain, not a complete hill model. The checkerboard helped pilots recognize the visual turn toward the airport.",
+    "sources": [
+      "integrated/geometry/historical_hill_terrain.geojson",
+      "geospatial/derived/Kowloon_KaiTak_DTM_5m_HK1980.tif",
+      "integrated/geometry/mapped_runway_edges.geojson",
+      "integrated/geometry/historical_seawall.geojson"
+    ]
+  },
+  {
+    "id": "05",
+    "slug": "virtual-perspective",
+    "title": "Looking through the approach area",
+    "subtitle": "An illustrative virtual perspective, not a recovered cockpit view",
+    "epoch": "Surface: 2 November 1993; camera: illustrative",
+    "mode": "interpretive",
+    "type": "Virtual-camera observed-surface scene",
+    "source_render": "05-virtual-perspective",
+    "idea": "Experience the visual layering in the available urban patch.",
+    "limit": "Evidence-limited alternative: runway and complete approach terrain are outside this surface reconstruction. No aircraft position, historical field of view, cockpit or flight path is reconstructed.",
+    "caption": "The camera is a documented artistic viewpoint over the observed surface. It conveys local visual complexity, not what a particular pilot saw. The historical final turn required visual references; this image makes no zero-visibility claim.",
+    "sources": [
+      "reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json"
+    ]
+  },
+  {
+    "id": "06",
+    "slug": "final-alignment",
+    "title": "Forty-seven degrees",
+    "subtitle": "The difference between published inbound and runway magnetic courses",
+    "epoch": "Historical procedure reference; maps: 1986–1993",
+    "mode": "interpretive",
+    "type": "Cartography plus schematic direction diagram",
+    "source_render": "06-final-alignment",
+    "idea": "Make the heading change understandable without drawing an invented flight track.",
+    "limit": "088° and 135° are magnetic courses. The adjacent diagram is schematic and is not aligned to the map's grid north. The mapped runway edge is about 134.02° GRID.",
+    "caption": "The nominal course difference is 47°. Turning an aircraft between those directions takes space, time and visual reference. These arrows compare directions only; they are not a historical track or the research model's trajectory.",
+    "sources": [
+      "integrated/geometry/mapped_runway_axis_check.json",
+      "integrated/REPORT.md"
+    ]
+  },
+  {
+    "id": "07",
+    "slug": "kowloon-1989",
+    "title": "Kowloon, October 1989",
+    "subtitle": "Reviewed historical faces on their original survey-sheet context",
+    "epoch": "Survey edition: October 1989",
+    "mode": "evidence",
+    "type": "Height-unknown historical cartography",
+    "source_render": "map-1989-10",
+    "idea": "Read a dated documentary layer without fabricating elevations.",
+    "limit": "15 reviewed mapped forms, not a complete building census. Their physical heights remain unknown. Map edition is not a construction or presence date.",
+    "caption": "The highlighted mapped faces are supported by the inspected sheet. They stay flat because the archive does not establish their heights. The map's many other symbols are not automatically accepted building footprints.",
+    "sources": [
+      "reconstruction/block_matching/historical_faces_hk1980.geojson",
+      "reconstruction/block_matching/registered/11-NE-11A_1989-10_core.json"
+    ]
+  },
+  {
+    "id": "08",
+    "slug": "november-1993",
+    "title": "November 1993, in fragments",
+    "subtitle": "The actual observed-surface reconstruction, rendered without invented walls",
+    "epoch": "Photographs: 2 November 1993",
+    "mode": "evidence",
+    "type": "Conditional historical stereo reconstruction",
+    "source_render": "08-november-surface",
+    "idea": "Give the strongest 3D source evidence the atlas's principal visual treatment.",
+    "limit": "225,371 original triangles; nominal camera calibration. Heights are relative to a fitted park/road plane, not HKPD. Only 3,780 of 171,307 dense points lie inside the local map-control hull.",
+    "caption": "A36142 and A36143 supply the image observations. The original mesh keeps unsupported holes and uses no generated architecture. Warm lighting is an artistic choice, not evidence of weather on the photographic date.",
+    "sources": [
+      "reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json",
+      "reconstruction/chronology/aerial/date_annotation_audit.json"
+    ]
+  },
+  {
+    "id": "09",
+    "slug": "across-the-nineties",
+    "title": "Three editions, one place",
+    "subtitle": "1989, 1994 and 1997 maps, with a separately dated 1993 photo-derived view",
+    "epoch": "1989 / 1993 / 1994 / 1997",
+    "mode": "evidence",
+    "type": "Matched-camera documentary comparison",
+    "idea": "Distinguish documentary change from inferred urban chronology.",
+    "limit": "All panels share horizontal camera and extent. The stereo panel has relative Z; maps are flat documentary layers. No precise construction or demolition dates follow from edition differences.",
+    "caption": "The same view makes changes in documentary content inspectable. Unequal detail is preserved: map ink, reviewed faces and photograph-derived surfaces are different kinds of evidence.",
+    "sources": [
+      "reconstruction/block_matching/scene/scene.json"
+    ]
+  },
+  {
+    "id": "10",
+    "slug": "then-and-now",
+    "title": "The airport landscape, then and now",
+    "subtitle": "Historical map evidence and the September 2026 building inventory",
+    "epoch": "Historical maps: 1986–1993 / buildings: 21 September 2026",
+    "mode": "evidence",
+    "type": "Matched-camera, separate-datum comparison",
+    "idea": "Show the transformation of the airport area without transplanting a modern skyline into history.",
+    "limit": "Modern solids use approximate HKPD base/top elevations; missing or invalid records are omitted explicitly. Flat historical maps are not a 1993 solid city. No terrain surface is shown; the available DTM derives from 2014–2015 photographs.",
+    "caption": "The right panel shows current-source building geometry, including development in the former airport area. The old airport is not depicted as operational in 2026. Cameras match horizontally; source epochs and vertical meanings remain separate.",
+    "sources": [
+      "geospatial/README.md",
+      "geospatial/derived/Kowloon_KaiTak_buildings_20260921.geojson",
+      "integrated/geometry/map_mosaic_manifest.json"
+    ]
+  },
+  {
+    "id": "11",
+    "slug": "evidence-chain",
+    "title": "From photograph to spatial evidence",
+    "subtitle": "One source image, its linked surface, and the geographic interpretation",
+    "epoch": "Photo and surface: 2 November 1993 / map: October 1989",
+    "mode": "evidence",
+    "type": "Source-linked explanatory triptych",
+    "idea": "Show how the archive produces 3D evidence.",
+    "limit": "The photograph is rotated toward north for reading, not orthorectified. Numbered points are actual same-source correspondences. Nominal calibration, parallax and local alignment uncertainty remain.",
+    "caption": "Numbered features connect original A36143 pixels to measured stereo tracks and their geographic positions. The map is a different dated source. Agreement of these panels is traceability, not an independent accuracy certificate.",
+    "sources": [
+      "reconstruction/chronology/aerial/fullframes/A36143.jpg",
+      "reconstruction/block_matching/aerial_registration/sparse_stereo_points.csv",
+      "reconstruction/block_matching/aerial_registration/manual_stereo_labels.json"
+    ]
+  },
+  {
+    "id": "12",
+    "slug": "visual-atlas",
+    "title": "Checkers with Runway 13",
+    "subtitle": "A city, an airport, and the limits of what the archive lets us recover",
+    "epoch": "1993 photo surface / historical maps, 1986–1993",
+    "mode": "interpretive",
+    "type": "Evidence-led panoramic synthesis; separated panels",
+    "source_render": "12-panorama",
+    "idea": "Create the signature public illustration without pretending to a complete historical city.",
+    "limit": "The photographic panorama and airport map are separate views, not a seamless calibrated terrain/city model. The geographic inset supplies context; missing areas do not mean empty Hong Kong.",
+    "caption": "The reconstructed city appears as an incomplete relief beside the historical airport geography. Together they show why this place invites investigation, while leaving the unknown architecture visibly unresolved.",
+    "sources": [
+      "reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json",
+      "integrated/geometry/map_mosaic_manifest.json"
+    ]
+  }
+]

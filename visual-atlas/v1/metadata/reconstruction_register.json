@@ -1,0 +1,66 @@
+[
+  {
+    "layer": "Historical maps",
+    "level": "A source observations",
+    "epoch": "1986\u20131993 wide mosaic; 1989-10/1994-07/1997-04 core",
+    "vertical": "none; flat documentary display plane",
+    "geometry": "source raster and reviewed mapped faces",
+    "limitations": "edition dates not precise presence/construction dates; physical heights null"
+  },
+  {
+    "layer": "1993 observed surface",
+    "level": "B conditional reconstruction from A photograph observations",
+    "epoch": "1993-11-02",
+    "vertical": "relative fitted park/road plane; NOT HKPD",
+    "geometry": "155891 vertices /225371 original source triangles; open holes retained",
+    "limitations": "nominal calibration; extrapolation outside local control; unclassified surfaces and possible mismatches"
+  },
+  {
+    "layer": "Historical hill observations",
+    "level": "A manually read mapped observations",
+    "epoch": "1989-11",
+    "vertical": "HKPD mapped spot/contour values",
+    "geometry": "8 spots and2partial contours; unknown ninth spot omitted",
+    "limitations": "no terrain interpolation, missing painted board placement"
+  },
+  {
+    "layer": "Historical runway/seawall lines",
+    "level": "A interpreted map line observations; registration unresolved",
+    "epoch": "runway edges July1993; seawall August1993",
+    "vertical": "none; display offset only",
+    "geometry": "two partial opposing runway edges and partial southeastern seawall",
+    "limitations": "no completed coastline/runway perimeter/threshold or tide level"
+  },
+  {
+    "layer": "Modern buildings",
+    "level": "B approximate source elevations",
+    "epoch": "2026-09-21",
+    "vertical": "HKPD base/top",
+    "geometry": "464 core components or3546airport-area components; courtyards retained",
+    "limitations": "not1993, no unseen facade details;167wide records omitted"
+  },
+  {
+    "layer": "Modern hill terrain context",
+    "level": "B modern contextual terrain",
+    "epoch": "2014\u20132015 photography",
+    "vertical": "HKPD",
+    "geometry": "5mDTM grid crop with original samples; no vertical exaggeration",
+    "limitations": "nothistoricalsurvey, notlandmask, notstrictlybareearth"
+  },
+  {
+    "layer": "Unknown areas",
+    "level": "C missing evidence",
+    "epoch": "varies by source",
+    "vertical": "unknown",
+    "geometry": "none; neutral display support or original source-tile gaps",
+    "limitations": "does not imply historically empty land"
+  },
+  {
+    "layer": "Artistic lighting/cameras/supports/course diagram",
+    "level": "illustration/presentation only",
+    "epoch": "not historical event evidence",
+    "vertical": "explicit source datum or schematic",
+    "geometry": "documented virtual cameras; nongeographic supports; direction arrows",
+    "limitations": "no flown path, cockpit reconstruction, historical weather or clearance claim"
+  }
+]

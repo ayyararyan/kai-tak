@@ -1,0 +1,17 @@
+{
+  "id": "11",
+  "slug": "evidence-chain",
+  "title": "From photograph to spatial evidence",
+  "subtitle": "One source image, its linked surface, and the geographic interpretation",
+  "epoch": "Photo and surface: 2 November 1993 / map: October 1989",
+  "mode": "evidence",
+  "type": "Source-linked explanatory triptych",
+  "idea": "Show how the archive produces 3D evidence.",
+  "limit": "The photograph is rotated toward north for reading, not orthorectified. Numbered points are actual same-source correspondences. Nominal calibration, parallax and local alignment uncertainty remain.",
+  "caption": "Numbered features connect original A36143 pixels to measured stereo tracks and their geographic positions. The map is a different dated source. Agreement of these panels is traceability, not an independent accuracy certificate.",
+  "sources": [
+    "reconstruction/chronology/aerial/fullframes/A36143.jpg",
+    "reconstruction/block_matching/aerial_registration/sparse_stereo_points.csv",
+    "reconstruction/block_matching/aerial_registration/manual_stereo_labels.json"
+  ]
+}

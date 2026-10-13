@@ -1,0 +1,9 @@
+{
+  "verified_utc": "2026-10-13T17:32:29.303263+00:00",
+  "command": "python3 scripts/fetch_data.py",
+  "result": "success",
+  "member_count": 1254,
+  "archive_count": 5,
+  "output": "Restored kai-tak-chronology-data-2026-10-13.tar.gz 846 files\nRestored kai-tak-geospatial-data-2026-10-13.tar.gz 5 files\nRestored kai-tak-reconstruction-data-update-2026-10-13.tar.gz 387 files\nRestored kai-tak-supporting-data-update-2026-10-13.tar.gz 11 files\nRestored kai-tak-integrated-data-2026-10-13.tar.gz 5 files\n",
+  "mechanism": "Existing helper verifies archive bytes, archive SHA256, complete member set, member SHA256, prevents conflicting overwrite"
+}
