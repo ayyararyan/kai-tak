@@ -121,7 +121,15 @@
   "raw_fast_receipt_sha256": "b7b5ae24f805e65b90a0c58476f86ddd7c7ebadc495c4d0b377fadeacdab62c4",
   "scientific_proof_rerun": false,
   "reason": "Scientific source and manuscript input bytes preserved; the existing theorem/certificate evidence remains applicable. New tests exercise maintenance integration only.",
-  "hosted_ci": "Pending: local evidence is not hosted acceptance.",
+  "hosted_ci": {
+    "conclusion": "success",
+    "databaseId": 38457296326,
+    "headBranch": "integration/mathematical-note-v1-main",
+    "headSha": "d0ce5e9ac266baa57b13a134e6e54111c2dc2242",
+    "status": "completed",
+    "url": "https://github.com/ayyararyan/kai-tak/actions/runs/38457296326"
+  },
   "independent_review": "grayscale-main-independent-review.md",
-  "independent_review_verdict": "No actionable defects; independent 63 checker tests, navigation, status, links and preservation checks passed."
+  "independent_review_verdict": "No actionable defects; independent 63 checker tests, navigation, status, links and preservation checks passed.",
+  "main_remote_verification": "grayscale-main-verification.json"
 }

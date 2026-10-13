@@ -4,11 +4,11 @@
   "version": 1,
   "date": "2026-10-14",
   "verified_utc": "2026-10-13T19:35:37.846559+00:00",
-  "status": "grayscale revision published; local integration and independent review passed; hosted pre-main check pending",
+  "status": "grayscale note merged into main after local, independent and hosted checks; remote tree and public downloads verified",
   "source_repository": "https://github.com/ayyararyan/kai-tak",
   "source_commit": "78a9ce1c627f917c94306af5529d5e9ebeb743e8",
   "latest_scientific_scope_check": "qa/upstream-freshness.json",
-  "branch": "mathematical-note/v1",
+  "branch": "main",
   "local_changes_committed": true,
   "pushed": true,
   "release_created_or_modified": false,
@@ -74,9 +74,9 @@
     "scientific_or_build_inputs_changed": 0,
     "details": "../../../../publication/mathematical-note-v1-publication/inventory.json"
   },
-  "publication_verified_utc": "2026-10-13T19:39:32.367207+00:00",
-  "publication_verification": "../../../../publication/mathematical-note-v1-publication/grayscale-branch-verification.json",
-  "main_merged": false,
+  "publication_verified_utc": "2026-10-13T19:46:42.228421+00:00",
+  "publication_verification": "../../../../publication/mathematical-note-v1-publication/grayscale-main-verification.json",
+  "main_merged": true,
   "previous_public_assets": [
     {
       "path": "certified-local-optimality-v1.pdf",
@@ -108,5 +108,7 @@
     "README.md",
     "STATE.md"
   ],
-  "main_integration_checks": "../../../../publication/mathematical-note-v1-publication/grayscale-integration-checks.json"
+  "main_integration_checks": "../../../../publication/mathematical-note-v1-publication/grayscale-integration-checks.json",
+  "main_merge_commit": "d0ce5e9ac266baa57b13a134e6e54111c2dc2242",
+  "main_hosted_prepublication_check": "https://github.com/ayyararyan/kai-tak/actions/runs/38457296326"
 }
