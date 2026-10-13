@@ -2,7 +2,8 @@
 title: Source-backed historical obstacle update
 type: feature
 created: 2026-10-13
-status: in-review
+status: done
+historical_obstacle_reconstruction: incomplete
 baseline_commit: NO_VCS
 context: []
 ---
@@ -51,11 +52,11 @@ No aircraft-model meaning changes, live operations, spending, outreach, publishi
 
 ## Tasks & Acceptance
 
-- [ ] OBS-01: inspect relevant historical hill/approach maps and printed datum/legend; preserve hash-bound readings and interpretation exclusions.
-- [ ] OBS-02: investigate original aviation records for useful absolute elevation and obstacle context; keep unresolved symbols unpromoted.
-- [ ] OBS-03: build geographical observation and unresolved-footprint exports, with complete source/date/datum semantics and an approach-coverage unknown mask.
-- [ ] OBS-04: verify source/crop hashes, coordinate conversions, null propagation, temporal distinctions and model/source preservation.
-- [ ] OBS-05: report new supported evidence and remaining obstacle-readiness gaps; append verified status to the sole project ledger.
+- [x] OBS-01: inspect relevant historical hill/approach maps and printed datum/legend; preserve hash-bound readings and interpretation exclusions.
+- [x] OBS-02: investigate original aviation records for useful absolute elevation and obstacle context; keep unresolved symbols unpromoted.
+- [x] OBS-03: build geographical observation and unresolved-footprint exports, with complete source/date/datum semantics and an approach-coverage unknown mask.
+- [x] OBS-04: verify source/crop hashes, coordinate conversions, null propagation, temporal distinctions and model/source preservation.
+- [x] OBS-05: report new supported evidence and remaining obstacle-readiness gaps; append verified status to the sole project ledger.
 
 Given an accepted reading, rebuilding must reproduce its value and coordinate from the pinned source and digitized location. Given a changed source, export must fail rather than reuse approval. Given unmeasured roofs or unreviewed coverage, no obstacle-clearance-ready flag or invented upper surface may result. Given a different datum or date, observations must remain distinguishable. Given source-supported new elevations, the handoff must identify their physical surface and not merely add a figure. Completion of this implementation does not close the full historical reconstruction specification.
 
@@ -66,3 +67,21 @@ Given an accepted reading, rebuilding must reproduce its value and coordinate fr
 ## Verification
 
 Use the existing geospatial virtual environment. Rebuild the exports and run focused tests for evidence binding, coordinate location, source-time separation, datum handling and fail-closed readiness. Visually inspect every newly accepted source reading and its physical symbol. Compare the frozen model/source hashes before and after. Independent review must distinguish implemented data handling from unfulfilled historical completeness.
+
+## Verified handoff
+
+The bounded source-backed evidence update is implemented and verified: 24 mapped observations at 12 sites in 2 editions; 27 tests pass. Full historical reconstruction remains INCOMPLETE with 0 complete obstacle volumes or physical upper bounds. See REPORT.md and parent_verification.json. All review findings were repaired without changing accepted readings or aircraft model meaning.
+
+## Suggested Review Order
+
+- Read scientific status and what actually improved.
+  [REPORT.md:1](REPORT.md#L1)
+- Inspect accepted source readings and the independent acceptance receipt.
+  [observations.json:1](observations.json#L1)
+  [inspection_receipt.json:1](inspection_receipt.json#L1)
+- Inspect fail-closed input evidence and unknown obstacle exports.
+  [build_obstacles.py:1](build_obstacles.py#L1)
+- Check review repairs and reproducibility evidence.
+  [DECISIONS.md:1](reviews/DECISIONS.md#L1)
+  [parent_verification.json:1](parent_verification.json#L1)
+  [test_obstacles.py:1](test_obstacles.py#L1)

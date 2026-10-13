@@ -1,0 +1,44 @@
+{
+  "verified_utc": "2026-10-13T14:26:37.662876+00:00",
+  "parent_code_and_output_hashes_verified": true,
+  "fresh_in_memory_outputs_match_saved": [
+    "obstacle_evidence.geojson",
+    "unresolved_footprints.geojson",
+    "readiness.json",
+    "verification.json"
+  ],
+  "git_manifest_hashes_verified": 1504,
+  "archives": [
+    {
+      "name": "kai-tak-chronology-data-2026-10-13.tar.gz",
+      "sha256": "d1a3cfee7764904865e94d78bda46ed2c6f302245af478a81937d245215b6d15",
+      "members": 846,
+      "obstacle_scratch_absent": true
+    },
+    {
+      "name": "kai-tak-geospatial-data-2026-10-13.tar.gz",
+      "sha256": "68bc39b735e72e802ab90238b395f0ad3f0932a396dccaedb5f8ee62e8d69d58",
+      "members": 5,
+      "obstacle_scratch_absent": true
+    },
+    {
+      "name": "kai-tak-reconstruction-data-update-2026-10-13.tar.gz",
+      "sha256": "4b7db79932aec5d543199355f29b3606ea64594ba3abad15ec4fda1e9b4f4dc6",
+      "members": 387,
+      "obstacle_scratch_absent": true
+    },
+    {
+      "name": "kai-tak-supporting-data-update-2026-10-13.tar.gz",
+      "sha256": "6fb757fbc547e6fe54f7055553629afa1bcc28da0512b42b7b34e70c0f2a2da0",
+      "members": 11,
+      "obstacle_scratch_absent": true
+    }
+  ],
+  "archive_replacement_required": false,
+  "historical_clearance_ready": false,
+  "complete_obstacle_volumes": 0,
+  "public_copy_obstacle_tests_passed": 27,
+  "test_failures": 0,
+  "rebuild_scope": "Fresh in-memory rebuild using original local inputs; scan-dependent public acquisition path not re-run",
+  "publication_scope": "Settled obstacle handoff, latest ledger, and removal of internal obstacle review scratch. Existing scientific gaps and third-party exclusions retained."
+}

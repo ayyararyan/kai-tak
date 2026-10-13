@@ -1451,3 +1451,6 @@ python_deps/
 /research/checkers-runway13/whitepaper/v1/main.pdf
 /research/checkers-runway13/whitepaper/v1/main.toc
 /research/checkers-runway13/whitepaper/v1/qa/rebuild_location.txt
+
+# Internal obstacle review scratch; keep durable review decisions
+/research/checkers-runway13/reconstruction/obstacles/reviews/change_snapshot.txt

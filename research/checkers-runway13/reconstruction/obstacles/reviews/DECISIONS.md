@@ -15,4 +15,4 @@ These repairs enforce the existing frozen specification and do not change model 
 
 ## Evidence scope
 
-Blind review: static supplied snapshot only. Edge review: read-only reachable-path probes against the builder. Acceptance audit: all24 point-image symbols, both legends, original hill context, all45 preserved footprint geometries/properties, and fresh in-memory build matching saved objects. The separate aviation-source investigator inspected the original CAD pages; the acceptance auditor did not claim a second aviation-page audit.
+Blind review: static supplied snapshot only. Edge review: read-only reachable-path probes against the builder. Acceptance audit: all 24 point-image symbols, both legends, original hill context, all 45 preserved footprint geometries/properties, and fresh in-memory build matching saved objects. The separate aviation-source investigator inspected the original CAD pages; the acceptance auditor did not claim a second aviation-page audit.

@@ -54,4 +54,8 @@ geospatial/.venv/bin/python reconstruction/obstacles/build_obstacles.py
 geospatial/.venv/bin/python -m unittest discover -s reconstruction/obstacles -p test_obstacles.py -v
 ```
 
-Unchanged extraction reproduces the inspected readings. Changed observations cannot inherit the old receipt: a new substantive manual inspection is required. No automatic acceptance-refresh command is supplied. Original archives, prior scene geometry and aircraft model/configuration are preserved. This package is local; it has not been published or synchronized to the public snapshot.
+Unchanged extraction reproduces the inspected readings. Changed observations cannot inherit the old receipt: a new substantive manual inspection is required. No automatic acceptance-refresh command is supplied. Original archives, prior scene geometry and aircraft model/configuration are preserved. This continuation performs no publication or peer synchronization; publication status is maintained separately in the canonical project ledger.
+
+## Verification outcome
+
+Parent verification: **27 tests passed**, **38 input files verified**, original-source-to-crop/readings regeneration retained the manual-inspection hashes, and all four exported objects matched a fresh in-memory rebuild. Five protected aircraft/source/geometry files retain their original hashes. Three independent review roles completed; all identified evidence-validation gaps were repaired, and fresh edge-path probes confirmed those repairs. The acceptance auditor separately inspected all 24 printed readings and both original map legends. [Verification receipt](parent_verification.json). No test or review establishes missing historical surfaces or aviation clearance.

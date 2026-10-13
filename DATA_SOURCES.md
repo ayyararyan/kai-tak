@@ -36,3 +36,7 @@ Large files are distributed as release archives instead of Git blobs. Restore th
 The update includes the wind-conditioned calculation, both white-paper drafts, reconstruction supplements and the current obstacle-evidence work. In-progress review/QA statuses are retained; publication does not turn drafts into accepted scientific results. Earlier local-only/no-publication statements in archived reports describe their original handoff. Aryan subsequently authorized publication of the assembled project.
 
 Stable counterfactual artifact aliases are materialized as ordinary files for GitHub viewing. Their contents match the source aliases. Historical source-document and private-file exclusions remain in force, including newly acquired accident-report scans and the cartographic specification document; derived observations and source references remain included.
+
+## Settled obstacle evidence handoff
+
+The final obstacle reports, review decisions and parent verification receipt are included. The bounded evidence update is verified; the historical obstacle model remains incomplete: 24 approximate mapped readings at 12 sites, zero complete obstacle volumes or physical upper bounds, and historical clearance readiness false. Internal `reconstruction/obstacles/reviews/change_snapshot.txt` is excluded from this tree; durable `reviews/DECISIONS.md` is retained. Earlier Git commits retain their historical contents. Third-party exclusions and all existing data-archive selections are unchanged.
