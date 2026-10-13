@@ -1,0 +1,25 @@
+{
+  "verified_utc": "2026-10-13T17:25:28.497000+00:00",
+  "repository": "ayyararyan/kai-tak",
+  "visibility": "PUBLIC",
+  "branch": "main",
+  "artifact_commit": "7c47f7656647ab70be84cd3e7ba94508dc94749e",
+  "independent_remote_fetch": true,
+  "all_tracked_paths_modes_blobs_identical": true,
+  "tracked_files": 2110,
+  "artifacts": {
+    "checkers-with-runway-13-white-paper-v4.pdf": {
+      "bytes": 946613,
+      "sha256": "4bc4f1e1240b2e9677fd2518a67078c6c82385e5822510b069ff5172226920da"
+    },
+    "checkers-with-runway-13-white-paper-v4-sources.zip": {
+      "bytes": 11866118,
+      "sha256": "9490baf3e0cc819e8e661e60594ba922e7f21fc50988cad213f4a6ec174568a3"
+    }
+  },
+  "prior_v2_v3_blobs_unchanged_from": "c7d350c13e753f287f0f3b21b4806eaf7a5674ab",
+  "website_deployment": false,
+  "browser_render_test": false,
+  "route": "Git objects fetched directly from GitHub into independent bare repository",
+  "auth": "GraphQL viewer ayyararyan; REST viewer check rate-limited, not treated as a successful check"
+}
