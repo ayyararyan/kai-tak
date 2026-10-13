@@ -1,0 +1,42 @@
+name: Release integrity (no publication)
+on:
+  workflow_dispatch:
+    inputs:
+      full_restore:
+        description: 'Download both historical data selections and atlas scenes into separate clean roots (several GB)'
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  integrity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r scripts/requirements-repository.txt
+      - run: python scripts/repo.py release --require-tags --report "$RUNNER_TEMP/release-metadata.json"
+      - name: Restore both independent research distributions
+        if: inputs.full_restore
+        run: |
+          python scripts/fetch_data.py --archive-dir "$RUNNER_TEMP/legacy-cache" --destination "$RUNNER_TEMP/legacy-root" --report "$RUNNER_TEMP/legacy-restore.json"
+          python scripts/fetch_data.py --release v1.0.0 --archive-dir "$RUNNER_TEMP/archive-cache" --destination "$RUNNER_TEMP/archive-root" --report "$RUNNER_TEMP/archive-restore.json"
+          python visual-atlas/v1/scripts/restore_scene_bundle.py --destination "$RUNNER_TEMP/atlas-root"
+          python scripts/repo.py release --data-root "$RUNNER_TEMP/archive-root" --report "$RUNNER_TEMP/release-installed.json"
+          python scripts/repo.py atlas --data-root "$RUNNER_TEMP/legacy-root" --scene-root "$RUNNER_TEMP/atlas-root" --report "$RUNNER_TEMP/atlas-dependencies.json"
+          python scripts/archive_reproduce.py --data-root "$RUNNER_TEMP/archive-root" --report "$RUNNER_TEMP/weather-replay.json"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: release-integrity-reports
+          path: |
+            ${{ runner.temp }}/release-*.json
+            ${{ runner.temp }}/*-restore.json
+            ${{ runner.temp }}/atlas-dependencies.json
+            ${{ runner.temp }}/weather-replay.json
+          if-no-files-found: warn

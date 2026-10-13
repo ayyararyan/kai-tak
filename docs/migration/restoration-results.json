@@ -1,0 +1,103 @@
+{
+  "restorations": [
+    {
+      "started_utc": "2026-10-13T18:26:54.535081+00:00",
+      "finished_utc": "2026-10-13T18:27:12.923705+00:00",
+      "status": "restored",
+      "release": "legacy:integration-2026-10-13",
+      "operation": "restore",
+      "assets": [
+        {
+          "name": "kai-tak-chronology-data-2026-10-13.tar.gz",
+          "sha256": "d1a3cfee7764904865e94d78bda46ed2c6f302245af478a81937d245215b6d15",
+          "files": 846,
+          "status": "restored"
+        },
+        {
+          "name": "kai-tak-geospatial-data-2026-10-13.tar.gz",
+          "sha256": "68bc39b735e72e802ab90238b395f0ad3f0932a396dccaedb5f8ee62e8d69d58",
+          "files": 5,
+          "status": "restored"
+        },
+        {
+          "name": "kai-tak-reconstruction-data-update-2026-10-13.tar.gz",
+          "sha256": "4b7db79932aec5d543199355f29b3606ea64594ba3abad15ec4fda1e9b4f4dc6",
+          "files": 387,
+          "status": "restored"
+        },
+        {
+          "name": "kai-tak-supporting-data-update-2026-10-13.tar.gz",
+          "sha256": "6fb757fbc547e6fe54f7055553629afa1bcc28da0512b42b7b34e70c0f2a2da0",
+          "files": 11,
+          "status": "restored"
+        },
+        {
+          "name": "kai-tak-integrated-data-2026-10-13.tar.gz",
+          "sha256": "db21d94e76d0e97c852b45e2d28e9ebf4842fefd3274ac86ac254cc74e821e65",
+          "files": 5,
+          "status": "restored"
+        }
+      ],
+      "archive_coverage": "exceptions-remain",
+      "scientific_scope": "Byte integrity only; not historical accuracy, full research reproducibility or aviation safety.",
+      "exception_count": 352,
+      "original_report_sha256": "7a2fe484a4f69132d1182e8c34a576f55d917ce46add64007f9af13f82f9e336"
+    },
+    {
+      "started_utc": "2026-10-13T18:26:18.285817+00:00",
+      "finished_utc": "2026-10-13T18:26:24.401295+00:00",
+      "status": "restored",
+      "release": "v1.0.0",
+      "operation": "restore",
+      "assets": [
+        {
+          "name": "kai-tak-archive-v1.0.0-collection-01.tar.gz",
+          "sha256": "9e8782985920d2e9f1209329d19d5dfd89bc0b49205cf3751c77b919eb7f86f6",
+          "files": 275,
+          "status": "restored"
+        },
+        {
+          "name": "kai-tak-archive-v1.0.0-collection-02.tar.gz",
+          "sha256": "947d26b3005be47d72012786bd39809efb96fc1c852b2c77587cc2d088d063a9",
+          "files": 133,
+          "status": "restored"
+        },
+        {
+          "name": "kai-tak-archive-v1.0.0-collection-03.tar.gz",
+          "sha256": "cd43d6166701c6f032480499a9d05237f032cd02e71be955c3df26269b95b803",
+          "files": 3,
+          "status": "restored"
+        },
+        {
+          "name": "kai-tak-archive-v1.0.0-collection-05.tar.gz",
+          "sha256": "00f45fc60ae87dcbc2da31b73fa74ff7bf7da6fa230041c43b165b3d2b46a442",
+          "files": 1,
+          "status": "restored"
+        },
+        {
+          "name": "kai-tak-archive-v1.0.0-collection-06.tar.gz",
+          "sha256": "94876e2dab67575f2558d7027482f76727c95fd3be2d08cffaf192d14e1489e9",
+          "files": 6,
+          "status": "restored"
+        }
+      ],
+      "archive_coverage": "exceptions-remain",
+      "scientific_scope": "Byte integrity only; not historical accuracy, full research reproducibility or aviation safety.",
+      "exception_count": 2854,
+      "original_report_sha256": "b742595991a021b616a86cbc64b390825dcaa2be812fcd8fc4c956345f2da9f8"
+    },
+    {
+      "status": "restored",
+      "release": "visual-atlas-v1",
+      "asset": "kai-tak-visual-atlas-v1-scenes.zip",
+      "sha256": "63c7796f6a8f55c11f5b1964f2de1338bf40ae6aae2adcf06cdf0716d8553b64",
+      "files": 27,
+      "stdout": "Verified/restored 27 scene and asset files"
+    }
+  ],
+  "initial_legacy_attempt": {
+    "status": "refused",
+    "reason": "pre-existing cache entries were symlinks; no destination restored",
+    "repair": "copied actual target files to fresh ordinary-file cache, independently SHA256-verified, reran original helper unchanged"
+  }
+}

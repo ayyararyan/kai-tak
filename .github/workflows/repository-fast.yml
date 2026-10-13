@@ -1,0 +1,25 @@
+name: Repository fast checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  fast:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r scripts/requirements-repository.txt
+      - run: python scripts/repo.py fast --preservation-scope migration --report "$RUNNER_TEMP/fast.json"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: repository-fast-report
+          path: ${{ runner.temp }}/fast.json
+          if-no-files-found: warn

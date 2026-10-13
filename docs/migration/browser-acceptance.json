@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "browser": "155.0.8059.40",
+  "checks": [
+    {
+      "name": "homepage title and immediate product links",
+      "passed": true
+    },
+    {
+      "name": "homepage hero loads",
+      "passed": true
+    },
+    {
+      "name": "paper index navigates to accepted v5",
+      "passed": true
+    },
+    {
+      "name": "mobile homepage no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "gallery twelve subject cards",
+      "passed": true
+    },
+    {
+      "name": "all preview images decode",
+      "passed": true
+    },
+    {
+      "name": "evidence variant default",
+      "passed": true
+    },
+    {
+      "name": "context switch updates imagery and disclosure",
+      "passed": true
+    },
+    {
+      "name": "modal selects evidence-specific full resolution",
+      "passed": true
+    },
+    {
+      "name": "next button",
+      "passed": true
+    },
+    {
+      "name": "keyboard previous",
+      "passed": true
+    },
+    {
+      "name": "escape closes modal",
+      "passed": true
+    },
+    {
+      "name": "mobile gallery no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile dialog opens",
+      "passed": true
+    },
+    {
+      "name": "no JavaScript runtime errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "scope": "Real Chromium desktop/mobile interaction. Markdown homepage preview uses local commonmark/table renderer, not a claim of deployed GitHub rendering. Source-detail links may require restored data.",
+  "verified_utc": "2026-10-13T18:59:28.442123+00:00",
+  "edition": "v1",
+  "gallery_path": "visual-atlas/v1/gallery/index.html",
+  "gallery_sha256": "a8078ee6063551e8b4d69b5dea6baee0a91ee82cc5941fee1693e37d1cdacb67",
+  "latest_paper_tested": "v5",
+  "homepage_sha256": "80533bf615204e7a21652a17dcf37eceafbd082de0af9b8179b8633ba9788f39",
+  "test_script_sha256": "2dbbebf95171f13034bd351ea0e1b6c055fc3855d04c6997d84d973fc755ed20",
+  "screenshots": [
+    {
+      "name": "homepage-desktop.png",
+      "sha256": "1c51c9744f4c2722eff5f39f971a5d7eec3301c03c57db80784a69b552d2eda1"
+    },
+    {
+      "name": "homepage-mobile.png",
+      "sha256": "c6725d94c890f030ed26b0528e8911409d2082e3352c26235b178688d35ecb33"
+    },
+    {
+      "name": "gallery-desktop.png",
+      "sha256": "f9282f1046588ec7542c87a2e4c5fd399379c6baf561e8a3acf7fe4ff166f2e0"
+    },
+    {
+      "name": "gallery-mobile.png",
+      "sha256": "e9f71b3ab0efc80335e819519b2cebcb18aa5672dd66cc930e10a4f0b5b346d9"
+    }
+  ]
+}

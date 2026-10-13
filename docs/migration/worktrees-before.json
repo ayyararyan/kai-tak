@@ -1,0 +1,20 @@
+[
+  {
+    "name": "kai-tak",
+    "head": "516bba9537f856d58a4cb440ad57e658dcd2bfcf",
+    "untracked_count": 0,
+    "note": "Clean tracked and untracked status"
+  },
+  {
+    "name": "kai-tak-archive",
+    "head": "ab7bd01fde1300659f9963902c967bdd5b033510",
+    "untracked_count": 0,
+    "note": "Clean tracked and untracked status"
+  },
+  {
+    "name": "kai-tak-v5",
+    "head": "2b65c24e2e755b22ea383a51e1c46691681487ab",
+    "untracked_count": 485,
+    "note": "Separate local v5 work is excluded from this migration; contents not copied."
+  }
+]

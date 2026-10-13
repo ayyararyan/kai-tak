@@ -1,0 +1,201 @@
+[
+  {
+    "tag": "visual-atlas-v1",
+    "id": 411958055,
+    "published_at": "2026-10-13T17:56:54Z",
+    "immutable": true,
+    "target_commit": "c39008bbdb400e5a0ca25bfb480af85f1b0e6047",
+    "assets": [
+      {
+        "id": 637815899,
+        "name": "kai-tak-visual-atlas-v1-scenes.zip",
+        "bytes": 66025065,
+        "digest": "sha256:63c7796f6a8f55c11f5b1964f2de1338bf40ae6aae2adcf06cdf0716d8553b64",
+        "url": "https://github.com/ayyararyan/kai-tak/releases/download/visual-atlas-v1/kai-tak-visual-atlas-v1-scenes.zip"
+      }
+    ]
+  },
+  {
+    "tag": "archive-v1.0.0",
+    "id": 411937098,
+    "published_at": "2026-10-13T17:31:46Z",
+    "immutable": true,
+    "target_commit": "9f4f7b0cc47b2db0933bd4d20b4e3698f43a465d",
+    "assets": [
+      {
+        "id": 637752529,
+        "name": "kai-tak-archive-v1.0.0-collection-01.tar.gz",
+        "bytes": 653644559,
+        "digest": "sha256:9e8782985920d2e9f1209329d19d5dfd89bc0b49205cf3751c77b919eb7f86f6",
+        "url": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-01.tar.gz"
+      },
+      {
+        "id": 637752520,
+        "name": "kai-tak-archive-v1.0.0-collection-02.tar.gz",
+        "bytes": 106528609,
+        "digest": "sha256:947d26b3005be47d72012786bd39809efb96fc1c852b2c77587cc2d088d063a9",
+        "url": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-02.tar.gz"
+      },
+      {
+        "id": 637752522,
+        "name": "kai-tak-archive-v1.0.0-collection-03.tar.gz",
+        "bytes": 51300217,
+        "digest": "sha256:cd43d6166701c6f032480499a9d05237f032cd02e71be955c3df26269b95b803",
+        "url": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-03.tar.gz"
+      },
+      {
+        "id": 637752511,
+        "name": "kai-tak-archive-v1.0.0-collection-05.tar.gz",
+        "bytes": 127917,
+        "digest": "sha256:00f45fc60ae87dcbc2da31b73fa74ff7bf7da6fa230041c43b165b3d2b46a442",
+        "url": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-05.tar.gz"
+      },
+      {
+        "id": 637752519,
+        "name": "kai-tak-archive-v1.0.0-collection-06.tar.gz",
+        "bytes": 13152570,
+        "digest": "sha256:94876e2dab67575f2558d7027482f76727c95fd3be2d08cffaf192d14e1489e9",
+        "url": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-06.tar.gz"
+      },
+      {
+        "id": 637752561,
+        "name": "kai-tak-archive-v1.0.0-metadata-and-tools.tar.gz",
+        "bytes": 2055494,
+        "digest": "sha256:50fa58fb1e9d2b7dfbfdeaa3bd54104db82e23c72dde58b8141bf5d5689d0e67",
+        "url": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-metadata-and-tools.tar.gz"
+      },
+      {
+        "id": 637752629,
+        "name": "manifest.json",
+        "bytes": 1146888,
+        "digest": "sha256:b1a435dbede1b3772a7a023ce5816f17f7b5a48d884d604a0b44ef09435a26ac",
+        "url": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/manifest.json"
+      },
+      {
+        "id": 637752660,
+        "name": "RELEASE_ASSETS.json",
+        "bytes": 2241,
+        "digest": "sha256:58b8f6d5754e6e656c3a588639bbbb1e2f82a3fb734b179e73f462619385c5dd",
+        "url": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/RELEASE_ASSETS.json"
+      },
+      {
+        "id": 637752690,
+        "name": "SHA256SUMS",
+        "bytes": 831,
+        "digest": "sha256:5eed2a037855e0277e42f9f59da6902d0392e620f45ed262f973b9fbcea0be1a",
+        "url": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/SHA256SUMS"
+      }
+    ]
+  },
+  {
+    "tag": "update-2026-10-13",
+    "id": 411761625,
+    "published_at": "2026-10-13T14:22:35Z",
+    "immutable": false,
+    "target_commit": "6178eed1de49f66ac658acf5f5d26fa7e754b9ba",
+    "assets": [
+      {
+        "id": 637260978,
+        "name": "kai-tak-reconstruction-data-update-2026-10-13.tar.gz",
+        "bytes": 686377436,
+        "digest": "sha256:4b7db79932aec5d543199355f29b3606ea64594ba3abad15ec4fda1e9b4f4dc6",
+        "url": "https://github.com/ayyararyan/kai-tak/releases/download/update-2026-10-13/kai-tak-reconstruction-data-update-2026-10-13.tar.gz"
+      },
+      {
+        "id": 637260981,
+        "name": "kai-tak-supporting-data-update-2026-10-13.tar.gz",
+        "bytes": 22781441,
+        "digest": "sha256:6fb757fbc547e6fe54f7055553629afa1bcc28da0512b42b7b34e70c0f2a2da0",
+        "url": "https://github.com/ayyararyan/kai-tak/releases/download/update-2026-10-13/kai-tak-supporting-data-update-2026-10-13.tar.gz"
+      },
+      {
+        "id": 637260977,
+        "name": "NOTICE.md",
+        "bytes": 1331,
+        "digest": "sha256:18a1fedb86cf153380806b75a21346d785525cdd03a683cbb141509a59efb286",
+        "url": "https://github.com/ayyararyan/kai-tak/releases/download/update-2026-10-13/NOTICE.md"
+      },
+      {
+        "id": 637260975,
+        "name": "SHA256SUMS",
+        "bytes": 450,
+        "digest": "sha256:0187ca3b13f6daa167c2a80cc710388aba41870fedee4c030f48952fdb06b058",
+        "url": "https://github.com/ayyararyan/kai-tak/releases/download/update-2026-10-13/SHA256SUMS"
+      }
+    ]
+  },
+  {
+    "tag": "snapshot-2026-10-13",
+    "id": 411714834,
+    "published_at": "2026-10-13T13:38:43Z",
+    "immutable": false,
+    "target_commit": "fd0c0d85b6c514fc7f919542192f18b747f4e092",
+    "assets": [
+      {
+        "id": 637146016,
+        "name": "kai-tak-chronology-data-2026-10-13.tar.gz",
+        "bytes": 829668609,
+        "digest": "sha256:d1a3cfee7764904865e94d78bda46ed2c6f302245af478a81937d245215b6d15",
+        "url": "https://github.com/ayyararyan/kai-tak/releases/download/snapshot-2026-10-13/kai-tak-chronology-data-2026-10-13.tar.gz"
+      },
+      {
+        "id": 637146021,
+        "name": "kai-tak-geospatial-data-2026-10-13.tar.gz",
+        "bytes": 143369563,
+        "digest": "sha256:68bc39b735e72e802ab90238b395f0ad3f0932a396dccaedb5f8ee62e8d69d58",
+        "url": "https://github.com/ayyararyan/kai-tak/releases/download/snapshot-2026-10-13/kai-tak-geospatial-data-2026-10-13.tar.gz"
+      },
+      {
+        "id": 637146017,
+        "name": "kai-tak-reconstruction-data-2026-10-13.tar.gz",
+        "bytes": 683568302,
+        "digest": "sha256:f4b7a8bd4e83400e1938c8f01a98f1fdf495f94ab5dc28b6f8dcebf522987e20",
+        "url": "https://github.com/ayyararyan/kai-tak/releases/download/snapshot-2026-10-13/kai-tak-reconstruction-data-2026-10-13.tar.gz"
+      },
+      {
+        "id": 637146020,
+        "name": "kai-tak-supporting-data-2026-10-13.tar.gz",
+        "bytes": 1592278,
+        "digest": "sha256:6ec3021b838a7ed3e7913933a1b13c23a0b26b6b3936e87d4a2b1ada2d7f59e8",
+        "url": "https://github.com/ayyararyan/kai-tak/releases/download/snapshot-2026-10-13/kai-tak-supporting-data-2026-10-13.tar.gz"
+      },
+      {
+        "id": 637146054,
+        "name": "NOTICE.md",
+        "bytes": 1331,
+        "digest": "sha256:18a1fedb86cf153380806b75a21346d785525cdd03a683cbb141509a59efb286",
+        "url": "https://github.com/ayyararyan/kai-tak/releases/download/snapshot-2026-10-13/NOTICE.md"
+      },
+      {
+        "id": 637146019,
+        "name": "SHA256SUMS",
+        "bytes": 436,
+        "digest": "sha256:f2b1d5590dfbe613522e30385da6b078b9caf540df968b4da6be1ae3180e42ec",
+        "url": "https://github.com/ayyararyan/kai-tak/releases/download/snapshot-2026-10-13/SHA256SUMS"
+      }
+    ]
+  },
+  {
+    "tag": "integration-2026-10-13",
+    "id": 411891031,
+    "published_at": "2026-10-13T16:35:23Z",
+    "immutable": false,
+    "target_commit": "128f7006e8c929a878bd80bdf84521a97c45ee30",
+    "assets": [
+      {
+        "id": 637613485,
+        "name": "kai-tak-integrated-data-2026-10-13.tar.gz",
+        "bytes": 14188648,
+        "digest": "sha256:db21d94e76d0e97c852b45e2d28e9ebf4842fefd3274ac86ac254cc74e821e65",
+        "url": "https://github.com/ayyararyan/kai-tak/releases/download/integration-2026-10-13/kai-tak-integrated-data-2026-10-13.tar.gz"
+      },
+      {
+        "id": 637613483,
+        "name": "SHA256SUMS",
+        "bytes": 558,
+        "digest": "sha256:285a8ba4c8781151e92f42c26beaea985cc0f6aa86413085a0256b365e286197",
+        "url": "https://github.com/ayyararyan/kai-tak/releases/download/integration-2026-10-13/SHA256SUMS"
+      }
+    ]
+  }
+]

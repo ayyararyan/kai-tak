@@ -1,0 +1,1353 @@
+{
+  "checked": 794,
+  "missing": [
+    {
+      "source": "research/checkers-runway13/evidence/cal605_reconstruction/REPORT.md",
+      "target": "source_pages/rollout_overlay.png"
+    },
+    {
+      "source": "research/checkers-runway13/integrated/README.md",
+      "target": "HANDOFF_TASK.md"
+    },
+    {
+      "source": "research/checkers-runway13/integrated/followup/REPORT.md",
+      "target": "tests.log"
+    },
+    {
+      "source": "research/checkers-runway13/integrated/followup/REPORT.md",
+      "target": "page160_full.png"
+    },
+    {
+      "source": "research/checkers-runway13/integrated/followup/REPORT.md",
+      "target": "appendix14_controlblock.png"
+    },
+    {
+      "source": "research/checkers-runway13/integrated/followup/REPORT.md",
+      "target": "appendix14_titleblock.png"
+    },
+    {
+      "source": "research/checkers-runway13/integrated/followup/REPORT.md",
+      "target": "sources/bravo_access.json"
+    },
+    {
+      "source": "research/checkers-runway13/integrated/followup/prior_checkpoint/README.md",
+      "target": "SPEC.md"
+    },
+    {
+      "source": "research/checkers-runway13/integrated/followup/prior_checkpoint/README.md",
+      "target": "HANDOFF_TASK.md"
+    },
+    {
+      "source": "research/checkers-runway13/integrated/followup/prior_checkpoint/REPORT.md",
+      "target": "SPEC.md"
+    },
+    {
+      "source": "research/checkers-runway13/integrated/followup/prior_checkpoint/REPORT.md",
+      "target": "geometry/integrated_evidence.geojson"
+    },
+    {
+      "source": "research/checkers-runway13/integrated/followup/prior_checkpoint/REPORT.md",
+      "target": "derivations/CLEARANCE_AND_REFERENCE.md"
+    },
+    {
+      "source": "research/checkers-runway13/integrated/followup/prior_checkpoint/REPORT.md",
+      "target": "PHYSICAL_CALIBRATION.md"
+    },
+    {
+      "source": "research/checkers-runway13/integrated/followup/prior_checkpoint/REPORT.md",
+      "target": "verification.json"
+    },
+    {
+      "source": "research/checkers-runway13/integrated/followup/prior_checkpoint/REPORT.md",
+      "target": "evidence_gates.pdf"
+    },
+    {
+      "source": "research/checkers-runway13/integrated/followup/prior_checkpoint/REPORT.md",
+      "target": "derivations/IDENTIFICATION_AND_SEQUENCE.md"
+    },
+    {
+      "source": "research/checkers-runway13/integrated/records_followup/REPORT.md",
+      "target": "LANDS_ENQUIRY_DRAFT.md"
+    },
+    {
+      "source": "research/checkers-runway13/integrated/records_followup/REPORT.md",
+      "target": "CAD_ENQUIRY_DRAFT.md"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/REPORT.md",
+      "target": "scene/index.html"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/REPORT.md",
+      "target": "scene/overview.png"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/REPORT.md",
+      "target": "aerial_registration/observed_surface_mesh.glb"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/REPORT.md",
+      "target": "scene/index.html"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/LOCAL_AFFINE_STAGE.md",
+      "target": "local_registration_comparison.png"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/LOCAL_AFFINE_STAGE.md",
+      "target": "picked_road_controls.png"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/LOCAL_AFFINE_STAGE.md",
+      "target": "A36143_camera_label.jpg"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "observed_surface_mesh.glb"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "observed_surface_mesh.ply"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "dense_stereo_evidence.png"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "stereo_actual_matches.jpg"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "stereo_surface_pair_inspection.jpg"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "dense_stereo_points.ply"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "dense_stereo_points.csv"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "sparse_stereo_points.ply"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "observed_surface_faces.csv"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1989-10_core.tif"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1989-10_core.png"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1994-07_core.tif"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1994-07_core.png"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1997-04_core.tif"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1997-04_core.png"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/registration_report.md",
+      "target": "registered/grid_crops_678.png"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/registration_report.md",
+      "target": "registered/grid_crops_679.png"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/registration_report.md",
+      "target": "registered/grid_crops_680.png"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/scene/README.md",
+      "target": "index.html"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/scene/README.md",
+      "target": "overview.png"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/block_matching/scene/README.md",
+      "target": "scene.json"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/chronology/REPORT.md",
+      "target": "source_comparison.png"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/chronology/REPORT.md",
+      "target": "coverage.png"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/chronology/REPORT.md",
+      "target": "structures/aoi_features_1993-11-04.csv"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/chronology/REPORT.md",
+      "target": "structures/current_features_1993-11-04.csv"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/chronology/REPORT.md",
+      "target": "structure_source_matches_1993-11-04.csv"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/chronology/REPORT.md",
+      "target": "sheet_photo_pairs_1993.csv"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/chronology/REPORT.md",
+      "target": "structures/chronology.sqlite"
+    },
+    {
+      "source": "research/checkers-runway13/reconstruction/chronology/REPORT.md",
+      "target": "structures/events.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/MODEL_IMPLEMENTATION_SPEC.md",
+      "target": "model/trajectory.py#L1"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/MODEL_IMPLEMENTATION_SPEC.md",
+      "target": "model/solve.py#L1"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "findings.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "findings.pdf"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "conditional_stopping_cases.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "flight_events.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "source_pages/rollout_overlay.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "rollout_trace.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "flight/approach_wind_samples.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "flight/final_approach_rollout.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "flight/trace_anchors.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "flight/approach_anchors.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "wind/wind_windows.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "explicit_rollout.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "scene/index.html"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "scene/overview.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "aerial_registration/observed_surface_mesh.glb"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "candidates/index.html"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "historical_faces.geojson"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "historical_faces_hk1980.geojson"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "structure_matches.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "manual_review_decisions.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "modern_correspondences.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "scene/index.html"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "reviews/DECISIONS.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "MODEL_REQUIREMENTS_TRACEABILITY.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "observed_surface_mesh.glb"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "observed_surface_mesh.ply"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "dense_stereo_evidence.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "stereo_actual_matches.jpg"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "stereo_surface_pair_inspection.jpg"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "dense_stereo_points.ply"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "dense_stereo_points.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "sparse_stereo_points.ply"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "sparse_stereo_points.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "LOCAL_AFFINE_STAGE.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "four_road_control_blocks.geojson"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "observed_surface_faces.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/sheet_registration_inventory.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1989-10_core.tif"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1989-10_core.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1989-10_core.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1994-07_core.tif"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1994-07_core.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1994-07_core.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1997-04_core.tif"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1997-04_core.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1997-04_core.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/grid_crops_678.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/grid_crops_679.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/grid_crops_680.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/printed_grid_validation.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/REPORT.md",
+      "target": "source_comparison.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/REPORT.md",
+      "target": "aerial/gallery.html"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/REPORT.md",
+      "target": "coverage.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/REPORT.md",
+      "target": "historical_visual_observations.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/REPORT.md",
+      "target": "structures/README.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/REPORT.md",
+      "target": "aerial/VISUAL_OBSERVATIONS.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/REPORT.md",
+      "target": "structures/aoi_features_1993-11-04.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/REPORT.md",
+      "target": "structures/current_features_1993-11-04.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/REPORT.md",
+      "target": "structure_source_matches_1993-11-04.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/REPORT.md",
+      "target": "sheet_photo_pairs_1993.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/REPORT.md",
+      "target": "structures/chronology.sqlite"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/REPORT.md",
+      "target": "structures/events.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/REPORT.md",
+      "target": "historical_visual_observations.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/REPORT.md",
+      "target": "validation.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/REPORT.md",
+      "target": "MODEL_REQUIREMENTS_TRACEABILITY.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/REPORT.md",
+      "target": "manifest.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/MODEL_IMPLEMENTATION_SPEC.md",
+      "target": "model/trajectory.py#L1"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/MODEL_IMPLEMENTATION_SPEC.md",
+      "target": "model/solve.py#L1"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/REPORT.md",
+      "target": "landing.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "findings.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "findings.pdf"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "conditional_stopping_cases.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "flight_events.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "source_pages/rollout_overlay.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "rollout_trace.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "flight/approach_wind_samples.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "flight/final_approach_rollout.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "flight/trace_anchors.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "flight/approach_anchors.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "wind/wind_windows.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "explicit_rollout.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "scene/index.html"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "scene/overview.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "aerial_registration/observed_surface_mesh.glb"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "candidates/road_cells/index.html"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "candidates/index.html"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "historical_faces.geojson"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "historical_faces_hk1980.geojson"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "structure_matches.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "manual_review_decisions.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "modern_correspondences.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "candidates/road_cells/index.html"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "scene/index.html"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "reviews/DECISIONS.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "MODEL_REQUIREMENTS_TRACEABILITY.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "observed_surface_mesh.glb"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "observed_surface_mesh.ply"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "dense_stereo_evidence.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "stereo_actual_matches.jpg"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "stereo_surface_pair_inspection.jpg"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "dense_stereo_points.ply"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "dense_stereo_points.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "sparse_stereo_points.ply"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "sparse_stereo_points.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "LOCAL_AFFINE_STAGE.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "four_road_control_blocks.geojson"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "observed_surface_faces.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/sheet_registration_inventory.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1989-10_core.tif"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1989-10_core.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1989-10_core.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1994-07_core.tif"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1994-07_core.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1994-07_core.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1997-04_core.tif"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1997-04_core.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1997-04_core.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/grid_crops_678.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/grid_crops_679.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/grid_crops_680.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/printed_grid_validation.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/REPORT.md",
+      "target": "source_comparison.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/REPORT.md",
+      "target": "aerial/gallery.html"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/REPORT.md",
+      "target": "coverage.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/REPORT.md",
+      "target": "historical_visual_observations.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/REPORT.md",
+      "target": "structures/README.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/REPORT.md",
+      "target": "aerial/VISUAL_OBSERVATIONS.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/REPORT.md",
+      "target": "structures/aoi_features_1993-11-04.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/REPORT.md",
+      "target": "structures/current_features_1993-11-04.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/REPORT.md",
+      "target": "structure_source_matches_1993-11-04.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/REPORT.md",
+      "target": "sheet_photo_pairs_1993.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/REPORT.md",
+      "target": "structures/chronology.sqlite"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/REPORT.md",
+      "target": "structures/events.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/REPORT.md",
+      "target": "historical_visual_observations.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/REPORT.md",
+      "target": "validation.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/REPORT.md",
+      "target": "MODEL_REQUIREMENTS_TRACEABILITY.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/REPORT.md",
+      "target": "manifest.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/REPORT.md",
+      "target": "landing.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "findings.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "findings.pdf"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "conditional_stopping_cases.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "flight_events.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "source_pages/rollout_overlay.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "rollout_trace.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "flight/approach_wind_samples.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "flight/final_approach_rollout.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "flight/trace_anchors.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "flight/approach_anchors.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "wind/wind_windows.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "explicit_rollout.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "scene/index.html"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "scene/overview.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "aerial_registration/observed_surface_mesh.glb"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "candidates/road_cells/index.html"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "candidates/index.html"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "historical_faces.geojson"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "historical_faces_hk1980.geojson"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "structure_matches.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "manual_review_decisions.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "modern_correspondences.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "candidates/road_cells/index.html"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "scene/index.html"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "reviews/DECISIONS.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "MODEL_REQUIREMENTS_TRACEABILITY.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "observed_surface_mesh.glb"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "observed_surface_mesh.ply"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "dense_stereo_evidence.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "stereo_actual_matches.jpg"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "stereo_surface_pair_inspection.jpg"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "dense_stereo_points.ply"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "dense_stereo_points.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "sparse_stereo_points.ply"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "sparse_stereo_points.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "LOCAL_AFFINE_STAGE.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "four_road_control_blocks.geojson"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "observed_surface_faces.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/sheet_registration_inventory.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1989-10_core.tif"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1989-10_core.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1989-10_core.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1994-07_core.tif"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1994-07_core.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1994-07_core.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1997-04_core.tif"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1997-04_core.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1997-04_core.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/grid_crops_678.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/grid_crops_679.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/grid_crops_680.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/printed_grid_validation.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/chronology/REPORT.md",
+      "target": "source_comparison.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/chronology/REPORT.md",
+      "target": "aerial/gallery.html"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/chronology/REPORT.md",
+      "target": "coverage.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/chronology/REPORT.md",
+      "target": "historical_visual_observations.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/chronology/REPORT.md",
+      "target": "structures/README.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/chronology/REPORT.md",
+      "target": "aerial/VISUAL_OBSERVATIONS.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/chronology/REPORT.md",
+      "target": "structures/aoi_features_1993-11-04.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/chronology/REPORT.md",
+      "target": "structures/current_features_1993-11-04.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/chronology/REPORT.md",
+      "target": "structure_source_matches_1993-11-04.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/chronology/REPORT.md",
+      "target": "sheet_photo_pairs_1993.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/chronology/REPORT.md",
+      "target": "structures/chronology.sqlite"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/chronology/REPORT.md",
+      "target": "structures/events.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/chronology/REPORT.md",
+      "target": "historical_visual_observations.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/chronology/REPORT.md",
+      "target": "validation.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/chronology/REPORT.md",
+      "target": "MODEL_REQUIREMENTS_TRACEABILITY.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/chronology/REPORT.md",
+      "target": "manifest.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/obstacles/REPORT.md",
+      "target": "aviation_sources/REPORT.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/obstacles/REPORT.md",
+      "target": "inspection_receipt.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/obstacles/REPORT.md",
+      "target": "verification.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/counterfactual/REPORT.md",
+      "target": "landing.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "findings.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "findings.pdf"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "conditional_stopping_cases.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "flight_events.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "source_pages/rollout_overlay.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "rollout_trace.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "flight/approach_wind_samples.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "flight/final_approach_rollout.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "flight/trace_anchors.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "flight/approach_anchors.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "wind/wind_windows.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "target": "explicit_rollout.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "scene/index.html"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "scene/overview.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "aerial_registration/observed_surface_mesh.glb"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "candidates/road_cells/index.html"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "candidates/index.html"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "historical_faces.geojson"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "historical_faces_hk1980.geojson"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "structure_matches.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "manual_review_decisions.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "modern_correspondences.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "candidates/road_cells/index.html"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "scene/index.html"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "reviews/DECISIONS.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/REPORT.md",
+      "target": "MODEL_REQUIREMENTS_TRACEABILITY.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "observed_surface_mesh.glb"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "observed_surface_mesh.ply"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "dense_stereo_evidence.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "stereo_actual_matches.jpg"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "stereo_surface_pair_inspection.jpg"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "dense_stereo_points.ply"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "dense_stereo_points.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "sparse_stereo_points.ply"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "sparse_stereo_points.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "LOCAL_AFFINE_STAGE.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "four_road_control_blocks.geojson"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "target": "observed_surface_faces.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/sheet_registration_inventory.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1989-10_core.tif"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1989-10_core.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1989-10_core.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1994-07_core.tif"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1994-07_core.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1994-07_core.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1997-04_core.tif"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1997-04_core.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/11-NE-11A_1997-04_core.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/grid_crops_678.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/grid_crops_679.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/grid_crops_680.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/registration_report.md",
+      "target": "registered/printed_grid_validation.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/chronology/REPORT.md",
+      "target": "source_comparison.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/chronology/REPORT.md",
+      "target": "aerial/gallery.html"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/chronology/REPORT.md",
+      "target": "coverage.png"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/chronology/REPORT.md",
+      "target": "historical_visual_observations.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/chronology/REPORT.md",
+      "target": "structures/README.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/chronology/REPORT.md",
+      "target": "aerial/VISUAL_OBSERVATIONS.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/chronology/REPORT.md",
+      "target": "structures/aoi_features_1993-11-04.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/chronology/REPORT.md",
+      "target": "structures/current_features_1993-11-04.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/chronology/REPORT.md",
+      "target": "structure_source_matches_1993-11-04.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/chronology/REPORT.md",
+      "target": "sheet_photo_pairs_1993.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/chronology/REPORT.md",
+      "target": "structures/chronology.sqlite"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/chronology/REPORT.md",
+      "target": "structures/events.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/chronology/REPORT.md",
+      "target": "historical_visual_observations.csv"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/chronology/REPORT.md",
+      "target": "validation.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/chronology/REPORT.md",
+      "target": "MODEL_REQUIREMENTS_TRACEABILITY.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/chronology/REPORT.md",
+      "target": "manifest.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/obstacles/REPORT.md",
+      "target": "aviation_sources/REPORT.md"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/obstacles/REPORT.md",
+      "target": "inspection_receipt.json"
+    },
+    {
+      "source": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/obstacles/REPORT.md",
+      "target": "verification.json"
+    }
+  ]
+}

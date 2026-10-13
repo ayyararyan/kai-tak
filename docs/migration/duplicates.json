@@ -1,0 +1,2256 @@
+[
+  {
+    "sha256": "8c749d4b22505c91f1e0b6e9a72f17966c53d5d3565f0573aabe0851d0a1beac",
+    "paths": [
+      "research/checkers-runway13/MODEL_EQUATIONS.md",
+      "research/checkers-runway13/whitepaper/v1/evidence/MODEL_EQUATIONS.md",
+      "research/checkers-runway13/whitepaper/v2/evidence/MODEL_EQUATIONS.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/MODEL_EQUATIONS.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/MODEL_EQUATIONS.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/MODEL_EQUATIONS.md"
+    ],
+    "bytes_each": 5646
+  },
+  {
+    "sha256": "3d8a9ce242783e357317beca0470044c00d4f62c74084cd1ffa70472815a8ceb",
+    "paths": [
+      "research/checkers-runway13/MODEL_IMPLEMENTATION_SPEC.md",
+      "research/checkers-runway13/whitepaper/v1/evidence/MODEL_IMPLEMENTATION_SPEC.md",
+      "research/checkers-runway13/whitepaper/v2/evidence/MODEL_IMPLEMENTATION_SPEC.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/MODEL_IMPLEMENTATION_SPEC.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/MODEL_IMPLEMENTATION_SPEC.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/MODEL_IMPLEMENTATION_SPEC.md"
+    ],
+    "bytes_each": 8304
+  },
+  {
+    "sha256": "5ac1fa68810cec397d013875d534350bbf8f28d08eb0ed1d49912d253030e426",
+    "paths": [
+      "research/checkers-runway13/MODEL_VALIDATION_REPORT.md",
+      "research/checkers-runway13/whitepaper/v1/evidence/MODEL_VALIDATION_REPORT.md",
+      "research/checkers-runway13/whitepaper/v2/evidence/MODEL_VALIDATION_REPORT.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/MODEL_VALIDATION_REPORT.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/MODEL_VALIDATION_REPORT.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/MODEL_VALIDATION_REPORT.md"
+    ],
+    "bytes_each": 5853
+  },
+  {
+    "sha256": "386695fa71afc900113f123e7204966a64dfd43eb2db0faed4fb3577c30554fa",
+    "paths": [
+      "research/checkers-runway13/analytical/coupled/RESULTS.md",
+      "research/checkers-runway13/whitepaper/v1/evidence/analytical/coupled/RESULTS.md",
+      "research/checkers-runway13/whitepaper/v2/evidence/analytical/coupled/RESULTS.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/analytical/coupled/RESULTS.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/analytical/coupled/RESULTS.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/analytical/coupled/RESULTS.md"
+    ],
+    "bytes_each": 10443
+  },
+  {
+    "sha256": "b7b0df206960d708192f16f75b35c407dea165f0a79e9346c0b3897d196c171e",
+    "paths": [
+      "research/checkers-runway13/analytical/coupled/candidate_search.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/analytical/coupled/candidate_search.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/analytical/coupled/candidate_search.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/analytical/coupled/candidate_search.json"
+    ],
+    "bytes_each": 6706
+  },
+  {
+    "sha256": "028eb9c2b39041793ff8d8973abd9e92682325e628ea9da375dc1361b963777f",
+    "paths": [
+      "research/checkers-runway13/analytical/coupled/certify_candidate.py",
+      "research/checkers-runway13/whitepaper/v3/evidence/analytical/coupled/certify_candidate.py",
+      "research/checkers-runway13/whitepaper/v4/evidence/analytical/coupled/certify_candidate.py",
+      "research/checkers-runway13/whitepaper/v5/evidence/analytical/coupled/certify_candidate.py"
+    ],
+    "bytes_each": 8593
+  },
+  {
+    "sha256": "774f34ad182a5015eeed799c910cde01eb6b297c1b4e6c4a119582b0d83db973",
+    "paths": [
+      "research/checkers-runway13/analytical/coupled/continuous_certificate_refined.json",
+      "research/checkers-runway13/whitepaper/v1/evidence/analytical/coupled/continuous_certificate_refined.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/analytical/coupled/continuous_certificate_refined.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/analytical/coupled/continuous_certificate_refined.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/analytical/coupled/continuous_certificate_refined.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/analytical/coupled/continuous_certificate_refined.json"
+    ],
+    "bytes_each": 202790
+  },
+  {
+    "sha256": "2134b6ce05a12b37d3edb731f4d91650926ee667be0a28999a7a2d5a9e52a3a9",
+    "paths": [
+      "research/checkers-runway13/analytical/coupled/existence_and_bounds.py",
+      "research/checkers-runway13/whitepaper/v3/evidence/analytical/coupled/existence_and_bounds.py",
+      "research/checkers-runway13/whitepaper/v4/evidence/analytical/coupled/existence_and_bounds.py",
+      "research/checkers-runway13/whitepaper/v5/evidence/analytical/coupled/existence_and_bounds.py"
+    ],
+    "bytes_each": 3063
+  },
+  {
+    "sha256": "3c0887817a4bb387d6fd4a07f8fb5d12f1527d9f713a8a79b3cea73a2a5e9106",
+    "paths": [
+      "research/checkers-runway13/analytical/coupled/existence_bounds.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/analytical/coupled/existence_bounds.json",
+      "research/checkers-runway13/whitepaper/v3/qa/fresh_existence_bounds.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/analytical/coupled/existence_bounds.json",
+      "research/checkers-runway13/whitepaper/v4/qa/clean_fresh_existence_bounds.json",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/fresh_existence_bounds.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/analytical/coupled/existence_bounds.json",
+      "research/checkers-runway13/whitepaper/v5/qa/science_fresh_calm_bound.json"
+    ],
+    "bytes_each": 851
+  },
+  {
+    "sha256": "4c42e38a5e1b2ef2b83b0755e20a34769521b02debd0f5ab512fb715262d4190",
+    "paths": [
+      "research/checkers-runway13/analytical/coupled/global_exclusion_attempt.py",
+      "research/checkers-runway13/whitepaper/v3/evidence/analytical/coupled/global_exclusion_attempt.py",
+      "research/checkers-runway13/whitepaper/v4/evidence/analytical/coupled/global_exclusion_attempt.py",
+      "research/checkers-runway13/whitepaper/v5/evidence/analytical/coupled/global_exclusion_attempt.py"
+    ],
+    "bytes_each": 3625
+  },
+  {
+    "sha256": "618346126b42cad2b92fb2cf4019ec004db5866439790a41d4117af5d68510e9",
+    "paths": [
+      "research/checkers-runway13/analytical/coupled/solve_coupled.py",
+      "research/checkers-runway13/whitepaper/v3/evidence/analytical/coupled/solve_coupled.py",
+      "research/checkers-runway13/whitepaper/v4/evidence/analytical/coupled/solve_coupled.py",
+      "research/checkers-runway13/whitepaper/v5/evidence/analytical/coupled/solve_coupled.py"
+    ],
+    "bytes_each": 5270
+  },
+  {
+    "sha256": "5ca8236697bfb8ebf6cc256318213a05d2485e93cf44fc95b98e6885524eff92",
+    "paths": [
+      "research/checkers-runway13/analytical/coupled/verify_delivery.py",
+      "research/checkers-runway13/whitepaper/v3/evidence/analytical/coupled/verify_delivery.py",
+      "research/checkers-runway13/whitepaper/v4/evidence/analytical/coupled/verify_delivery.py",
+      "research/checkers-runway13/whitepaper/v5/evidence/analytical/coupled/verify_delivery.py"
+    ],
+    "bytes_each": 5829
+  },
+  {
+    "sha256": "8e96dacb1b8589025e8c8927eb1c40f9b92de3044f61624b736948caab08eec8",
+    "paths": [
+      "research/checkers-runway13/analytical/verify_finite_roll_position.py",
+      "research/checkers-runway13/whitepaper/v3/evidence/analytical/verify_finite_roll_position.py",
+      "research/checkers-runway13/whitepaper/v4/evidence/analytical/verify_finite_roll_position.py",
+      "research/checkers-runway13/whitepaper/v5/evidence/analytical/verify_finite_roll_position.py"
+    ],
+    "bytes_each": 8424
+  },
+  {
+    "sha256": "fbe4067189ab78a6f1f6d4c4e8a4ac7d639dbe10c43c550d1bb37ba794202f90",
+    "paths": [
+      "research/checkers-runway13/analytical/verify_full_landing_analysis.py",
+      "research/checkers-runway13/whitepaper/v3/evidence/analytical/verify_full_landing_analysis.py",
+      "research/checkers-runway13/whitepaper/v4/evidence/analytical/verify_full_landing_analysis.py",
+      "research/checkers-runway13/whitepaper/v5/evidence/analytical/verify_full_landing_analysis.py"
+    ],
+    "bytes_each": 10554
+  },
+  {
+    "sha256": "3437e4a364585b0397f4f7a21cc2595b503ce4f3629171608ad5078f4df30340",
+    "paths": [
+      "research/checkers-runway13/analytical/verify_scs.py",
+      "research/checkers-runway13/whitepaper/v3/evidence/analytical/verify_scs.py",
+      "research/checkers-runway13/whitepaper/v4/evidence/analytical/verify_scs.py",
+      "research/checkers-runway13/whitepaper/v5/evidence/analytical/verify_scs.py"
+    ],
+    "bytes_each": 6886
+  },
+  {
+    "sha256": "c9905b322a0f674e48a8f3461642648496a94ff57f6cb77eda7416af6bd16c3c",
+    "paths": [
+      "research/checkers-runway13/approximation/CLOSED_FORM_AND_BOUNDS.md",
+      "research/checkers-runway13/whitepaper/v1/evidence/approximation/CLOSED_FORM_AND_BOUNDS.md",
+      "research/checkers-runway13/whitepaper/v2/evidence/approximation/CLOSED_FORM_AND_BOUNDS.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/approximation/CLOSED_FORM_AND_BOUNDS.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/approximation/CLOSED_FORM_AND_BOUNDS.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/approximation/CLOSED_FORM_AND_BOUNDS.md"
+    ],
+    "bytes_each": 9984
+  },
+  {
+    "sha256": "586cdc4cd0b69d20126a5c97e19cb39937426ff9ec58498cb45412df96a83165",
+    "paths": [
+      "research/checkers-runway13/approximation/SPEC.md",
+      "research/checkers-runway13/whitepaper/v1/evidence/approximation/SPEC.md",
+      "research/checkers-runway13/whitepaper/v2/evidence/approximation/SPEC.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/approximation/SPEC.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/approximation/SPEC.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/approximation/SPEC.md"
+    ],
+    "bytes_each": 7969
+  },
+  {
+    "sha256": "3e1f7409db0c27b1b4c493bb98f1185636d4ca48534682ef6a0b3d0ce7670a7a",
+    "paths": [
+      "research/checkers-runway13/approximation/STATUS.md",
+      "research/checkers-runway13/whitepaper/v1/evidence/approximation/STATUS.md"
+    ],
+    "bytes_each": 4894
+  },
+  {
+    "sha256": "b6e90f05d26f4d555ae1d064cad1d8583a7e11f02ec33d0d1871e535bb8f256a",
+    "paths": [
+      "research/checkers-runway13/approximation/explicit_reference.py",
+      "research/checkers-runway13/whitepaper/v3/evidence/approximation/explicit_reference.py",
+      "research/checkers-runway13/whitepaper/v4/evidence/approximation/explicit_reference.py",
+      "research/checkers-runway13/whitepaper/v5/evidence/approximation/explicit_reference.py"
+    ],
+    "bytes_each": 14282
+  },
+  {
+    "sha256": "614bea92909e525f847dff84307cd65b91d7bba0375176ebec15accc35994922",
+    "paths": [
+      "research/checkers-runway13/approximation/parent_verification.json",
+      "research/checkers-runway13/whitepaper/v1/evidence/approximation/parent_verification.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/approximation/parent_verification.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/approximation/parent_verification.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/approximation/parent_verification.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/approximation/parent_verification.json"
+    ],
+    "bytes_each": 789
+  },
+  {
+    "sha256": "95311d6d1857fc6330532dcce52cc58f03e20b489c3249a0da6cf3f14cea0c76",
+    "paths": [
+      "research/checkers-runway13/approximation/reference_formula.json",
+      "research/checkers-runway13/whitepaper/v1/evidence/approximation/reference_formula.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/approximation/reference_formula.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/approximation/reference_formula.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/approximation/reference_formula.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/approximation/reference_formula.json"
+    ],
+    "bytes_each": 4544
+  },
+  {
+    "sha256": "23a2e3c01c35a95d7d933cf87351a86c6e0eef2d69e821421cb60b60d9242c51",
+    "paths": [
+      "research/checkers-runway13/approximation/reference_outcomes.json",
+      "research/checkers-runway13/whitepaper/v1/evidence/approximation/reference_outcomes.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/approximation/reference_outcomes.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/approximation/reference_outcomes.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/approximation/reference_outcomes.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/approximation/reference_outcomes.json"
+    ],
+    "bytes_each": 2715
+  },
+  {
+    "sha256": "0be83cc35aadcfc580dedabbfb0e99d53d3992115bb58270ddb8774db3432d73",
+    "paths": [
+      "research/checkers-runway13/approximation/test_explicit_reference.py",
+      "research/checkers-runway13/whitepaper/v3/evidence/approximation/test_explicit_reference.py",
+      "research/checkers-runway13/whitepaper/v4/evidence/approximation/test_explicit_reference.py",
+      "research/checkers-runway13/whitepaper/v5/evidence/approximation/test_explicit_reference.py"
+    ],
+    "bytes_each": 7715
+  },
+  {
+    "sha256": "deb41f43c3473b0ce6e7f786cdd5f12f730c71a0c03c12abb672810da306539c",
+    "paths": [
+      "research/checkers-runway13/counterfactual/REPORT.md",
+      "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/REPORT.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/REPORT.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/counterfactual/REPORT.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/counterfactual/REPORT.md"
+    ],
+    "bytes_each": 9285
+  },
+  {
+    "sha256": "d7df7768b51f2f8c172c0cd2c1a7f1f49962cb8a0ffb5744f55222ce7f3d0477",
+    "paths": [
+      "research/checkers-runway13/counterfactual/SCOPE_AUDIT.md",
+      "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/SCOPE_AUDIT.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/SCOPE_AUDIT.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/counterfactual/SCOPE_AUDIT.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/counterfactual/SCOPE_AUDIT.md"
+    ],
+    "bytes_each": 5346
+  },
+  {
+    "sha256": "aa42d0e9812ac35d9dc3f2823beb8e535b82597c0dee5dd0cee9c5487579697f",
+    "paths": [
+      "research/checkers-runway13/counterfactual/SPEC.md",
+      "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/SPEC.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/SPEC.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/counterfactual/SPEC.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/counterfactual/SPEC.md"
+    ],
+    "bytes_each": 8500
+  },
+  {
+    "sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a",
+    "paths": [
+      "research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/formula.json",
+      "research/checkers-runway13/counterfactual/bundles/delivery-363a34a8137840349f2606ba2cdef553/formula.json",
+      "research/checkers-runway13/counterfactual/bundles/delivery-5c16a9f41155458d8e3304389e854d5f/formula.json",
+      "research/checkers-runway13/counterfactual/bundles/delivery-6e6cbd5b0af743df91b72a5926209e82/formula.json",
+      "research/checkers-runway13/counterfactual/bundles/delivery-7bfe87003e5c4dc093c356928fd7e8ca/formula.json",
+      "research/checkers-runway13/counterfactual/bundles/delivery-d0f7a74fb3ed4479af628b450956b2dd/formula.json",
+      "research/checkers-runway13/counterfactual/bundles/legacy-949fdca5d37144af8c9b5ed30368a8a1/formula.json",
+      "research/checkers-runway13/counterfactual/formula.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/formula.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/formula.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/counterfactual/formula.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/counterfactual/formula.json"
+    ],
+    "bytes_each": 2024
+  },
+  {
+    "sha256": "e77e7a92442b44662204b9fd460d977b132f1caca82a327e69f35b279dae43dc",
+    "paths": [
+      "research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/landing.pdf",
+      "research/checkers-runway13/counterfactual/bundles/legacy-949fdca5d37144af8c9b5ed30368a8a1/landing.pdf"
+    ],
+    "bytes_each": 25815
+  },
+  {
+    "sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af",
+    "paths": [
+      "research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/landing.png",
+      "research/checkers-runway13/counterfactual/bundles/delivery-363a34a8137840349f2606ba2cdef553/landing.png",
+      "research/checkers-runway13/counterfactual/bundles/delivery-5c16a9f41155458d8e3304389e854d5f/landing.png",
+      "research/checkers-runway13/counterfactual/bundles/delivery-6e6cbd5b0af743df91b72a5926209e82/landing.png",
+      "research/checkers-runway13/counterfactual/bundles/delivery-7bfe87003e5c4dc093c356928fd7e8ca/landing.png",
+      "research/checkers-runway13/counterfactual/bundles/delivery-d0f7a74fb3ed4479af628b450956b2dd/landing.png",
+      "research/checkers-runway13/counterfactual/bundles/legacy-949fdca5d37144af8c9b5ed30368a8a1/landing.png",
+      "research/checkers-runway13/counterfactual/landing.png"
+    ],
+    "bytes_each": 214680
+  },
+  {
+    "sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640",
+    "paths": [
+      "research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/path_controls.csv",
+      "research/checkers-runway13/counterfactual/bundles/delivery-363a34a8137840349f2606ba2cdef553/path_controls.csv",
+      "research/checkers-runway13/counterfactual/bundles/delivery-5c16a9f41155458d8e3304389e854d5f/path_controls.csv",
+      "research/checkers-runway13/counterfactual/bundles/delivery-6e6cbd5b0af743df91b72a5926209e82/path_controls.csv",
+      "research/checkers-runway13/counterfactual/bundles/delivery-7bfe87003e5c4dc093c356928fd7e8ca/path_controls.csv",
+      "research/checkers-runway13/counterfactual/bundles/delivery-d0f7a74fb3ed4479af628b450956b2dd/path_controls.csv",
+      "research/checkers-runway13/counterfactual/bundles/legacy-949fdca5d37144af8c9b5ed30368a8a1/path_controls.csv",
+      "research/checkers-runway13/counterfactual/path_controls.csv",
+      "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/path_controls.csv",
+      "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/path_controls.csv",
+      "research/checkers-runway13/whitepaper/v4/evidence/counterfactual/path_controls.csv",
+      "research/checkers-runway13/whitepaper/v5/evidence/counterfactual/path_controls.csv"
+    ],
+    "bytes_each": 595676
+  },
+  {
+    "sha256": "81ce130e3b3f2402dc8eaa64eae306fe27d6d5a227b818704b878e5667ad64ee",
+    "paths": [
+      "research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/result.json",
+      "research/checkers-runway13/counterfactual/bundles/legacy-949fdca5d37144af8c9b5ed30368a8a1/result.json"
+    ],
+    "bytes_each": 7964
+  },
+  {
+    "sha256": "4cedc557b9ed80c8e52d61f14bff6aacf5b69fdc1046f692fc3b53aa264a13e6",
+    "paths": [
+      "research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/search_checkpoint.json",
+      "research/checkers-runway13/counterfactual/search_checkpoint.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/search_checkpoint.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/search_checkpoint.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/counterfactual/search_checkpoint.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/counterfactual/search_checkpoint.json"
+    ],
+    "bytes_each": 10582
+  },
+  {
+    "sha256": "4b0a300dae6402b0bd785e206132b95b61ea3374e524e8c5dc6a5b9f6c417d3c",
+    "paths": [
+      "research/checkers-runway13/counterfactual/bundles/delivery-5c16a9f41155458d8e3304389e854d5f/landing.pdf",
+      "research/checkers-runway13/counterfactual/landing.pdf"
+    ],
+    "bytes_each": 25815
+  },
+  {
+    "sha256": "49296dd026b3f0702fb672264c2c5524221a38acbf60631b6b8581e6c0b7bfe8",
+    "paths": [
+      "research/checkers-runway13/counterfactual/bundles/delivery-5c16a9f41155458d8e3304389e854d5f/result.json",
+      "research/checkers-runway13/counterfactual/result.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/result.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/result.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/counterfactual/result.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/counterfactual/result.json"
+    ],
+    "bytes_each": 8012
+  },
+  {
+    "sha256": "c9b77777356cd93cf14f97d57289bab489e109525c4056abf44111afb29be605",
+    "paths": [
+      "research/checkers-runway13/counterfactual/calculate.py",
+      "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/calculate.py",
+      "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/calculate.py",
+      "research/checkers-runway13/whitepaper/v4/evidence/counterfactual/calculate.py",
+      "research/checkers-runway13/whitepaper/v5/evidence/counterfactual/calculate.py"
+    ],
+    "bytes_each": 10775
+  },
+  {
+    "sha256": "c220e280115238c7f42779236a1bf41fe29e786cc58d6c6830d3fc35f7db8a8c",
+    "paths": [
+      "research/checkers-runway13/counterfactual/continuous.py",
+      "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/continuous.py",
+      "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/continuous.py",
+      "research/checkers-runway13/whitepaper/v4/evidence/counterfactual/continuous.py",
+      "research/checkers-runway13/whitepaper/v5/evidence/counterfactual/continuous.py"
+    ],
+    "bytes_each": 10472
+  },
+  {
+    "sha256": "3631409dfc2fef2c0b8e6bf40d77143358b0bc6ced7c30261c620ce58f228f36",
+    "paths": [
+      "research/checkers-runway13/counterfactual/continuous_check.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/continuous_check.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/continuous_check.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/counterfactual/continuous_check.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/counterfactual/continuous_check.json"
+    ],
+    "bytes_each": 28062
+  },
+  {
+    "sha256": "30dab99db968f3d9ea3308d6d22f294b78b0ff73d47a2de682c38c51d13e36dd",
+    "paths": [
+      "research/checkers-runway13/counterfactual/deliver.py",
+      "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/deliver.py",
+      "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/deliver.py",
+      "research/checkers-runway13/whitepaper/v4/evidence/counterfactual/deliver.py",
+      "research/checkers-runway13/whitepaper/v5/evidence/counterfactual/deliver.py"
+    ],
+    "bytes_each": 11844
+  },
+  {
+    "sha256": "a71c1fb374c34a0cdcd3d26271bad58e910e29740362df3710f6e73ae26912d7",
+    "paths": [
+      "research/checkers-runway13/counterfactual/delivery.log",
+      "research/checkers-runway13/counterfactual/regeneration_1.log",
+      "research/checkers-runway13/counterfactual/regeneration_2.log"
+    ],
+    "bytes_each": 1322
+  },
+  {
+    "sha256": "8f01b9abb6b0f40ca40d25b871e8102a4509504a9b2805d440c85ef4aa52f95e",
+    "paths": [
+      "research/checkers-runway13/counterfactual/delivery_manifest.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/delivery_manifest.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/delivery_manifest.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/counterfactual/delivery_manifest.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/counterfactual/delivery_manifest.json"
+    ],
+    "bytes_each": 1941
+  },
+  {
+    "sha256": "5e498fee46936c4a53a908ec255d34b83c4894af223aff10bfbd8610605f088b",
+    "paths": [
+      "research/checkers-runway13/counterfactual/inputs.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/inputs.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/inputs.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/counterfactual/inputs.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/counterfactual/inputs.json"
+    ],
+    "bytes_each": 11586
+  },
+  {
+    "sha256": "9f5d9410b58e530cdf40873454d78208aba1d370d03255b2dcb26810b8c66b4d",
+    "paths": [
+      "research/checkers-runway13/counterfactual/reviews/DISPOSITION.md",
+      "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/reviews/DISPOSITION.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/reviews/DISPOSITION.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/counterfactual/reviews/DISPOSITION.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/counterfactual/reviews/DISPOSITION.md"
+    ],
+    "bytes_each": 1999
+  },
+  {
+    "sha256": "1fa8704467f7fb469131d2207067ea29c7755e3787f80368f554f30d6b04a653",
+    "paths": [
+      "research/checkers-runway13/counterfactual/reviews/acceptance.md",
+      "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/reviews/acceptance.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/reviews/acceptance.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/counterfactual/reviews/acceptance.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/counterfactual/reviews/acceptance.md"
+    ],
+    "bytes_each": 4625
+  },
+  {
+    "sha256": "e3675cf3a42000ed7caed90660f036dce22c9e68440435cd717544bdd5e9c083",
+    "paths": [
+      "research/checkers-runway13/counterfactual/reviews/parent_certificate_check.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/reviews/parent_certificate_check.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/reviews/parent_certificate_check.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/counterfactual/reviews/parent_certificate_check.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/counterfactual/reviews/parent_certificate_check.json"
+    ],
+    "bytes_each": 309
+  },
+  {
+    "sha256": "2375724bc41568b3b89d15f593d314f0e60d60caa539b22e4fb9b979ff5458c2",
+    "paths": [
+      "research/checkers-runway13/counterfactual/reviews/parent_final_verification.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/reviews/parent_final_verification.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/reviews/parent_final_verification.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/counterfactual/reviews/parent_final_verification.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/counterfactual/reviews/parent_final_verification.json"
+    ],
+    "bytes_each": 1037
+  },
+  {
+    "sha256": "3756d4a88c11bfae4fbd7764e17b1a07f5c72e2abbe75fe2f92c93764bcd7493",
+    "paths": [
+      "research/checkers-runway13/counterfactual/search_state.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/search_state.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/search_state.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/counterfactual/search_state.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/counterfactual/search_state.json"
+    ],
+    "bytes_each": 165
+  },
+  {
+    "sha256": "9d8b40c750caea97f45f894f314e47f4ae934d577f4a5014c8a35b4f04defe64",
+    "paths": [
+      "research/checkers-runway13/counterfactual/selected.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/selected.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/selected.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/counterfactual/selected.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/counterfactual/selected.json"
+    ],
+    "bytes_each": 5058
+  },
+  {
+    "sha256": "66589ebeae8ff8d64fafa91499a7ab4df91be215a931929d16b4a3967e5ebed7",
+    "paths": [
+      "research/checkers-runway13/counterfactual/test_counterfactual.py",
+      "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/test_counterfactual.py",
+      "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/test_counterfactual.py",
+      "research/checkers-runway13/whitepaper/v4/evidence/counterfactual/test_counterfactual.py",
+      "research/checkers-runway13/whitepaper/v5/evidence/counterfactual/test_counterfactual.py"
+    ],
+    "bytes_each": 10151
+  },
+  {
+    "sha256": "9a22ee599829be5de129883483d89cd8c5ca88ee8606cfe33a146bce7c052264",
+    "paths": [
+      "research/checkers-runway13/counterfactual/verification.json",
+      "research/checkers-runway13/counterfactual/verification.log",
+      "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/verification.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/verification.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/counterfactual/verification.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/counterfactual/verification.json"
+    ],
+    "bytes_each": 949
+  },
+  {
+    "sha256": "e99ccee20cda1ef54a34a4631ce3d0240be1404d7e502f7042f71bc88826a082",
+    "paths": [
+      "research/checkers-runway13/counterfactual/verify_delivery.py",
+      "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/verify_delivery.py",
+      "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/verify_delivery.py",
+      "research/checkers-runway13/whitepaper/v4/evidence/counterfactual/verify_delivery.py",
+      "research/checkers-runway13/whitepaper/v5/evidence/counterfactual/verify_delivery.py"
+    ],
+    "bytes_each": 2542
+  },
+  {
+    "sha256": "601cc3b9c93fb1315c01a393b0b5236eb92700b834ce449a0a2531d551319b64",
+    "paths": [
+      "research/checkers-runway13/evidence/EVIDENCE_REPORT.md",
+      "research/checkers-runway13/whitepaper/v1/evidence/evidence/EVIDENCE_REPORT.md",
+      "research/checkers-runway13/whitepaper/v2/evidence/evidence/EVIDENCE_REPORT.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/evidence/EVIDENCE_REPORT.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/evidence/EVIDENCE_REPORT.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/evidence/EVIDENCE_REPORT.md"
+    ],
+    "bytes_each": 10403
+  },
+  {
+    "sha256": "ea22be6e2488bf4d322a2775a172f4ef4c2dad879c2bf6e431fb5c7fdabd3df0",
+    "paths": [
+      "research/checkers-runway13/evidence/cal605_reconstruction/REPORT.md",
+      "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/evidence/cal605_reconstruction/REPORT.md"
+    ],
+    "bytes_each": 13397
+  },
+  {
+    "sha256": "7e957b6c8cd42493f6809a49b7be917c147a1e147ecadeef98a64762259b2c42",
+    "paths": [
+      "research/checkers-runway13/evidence/cal605_reconstruction/analysis.json",
+      "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/analysis.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/analysis.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/analysis.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/analysis.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/evidence/cal605_reconstruction/analysis.json"
+    ],
+    "bytes_each": 5716
+  },
+  {
+    "sha256": "cf3250dafc6c559bb82b1d2a2073b008a69de16ca79bdd0a48aa1ca10b8279cb",
+    "paths": [
+      "research/checkers-runway13/evidence/cal605_reconstruction/clock_alignment.json",
+      "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/clock_alignment.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/clock_alignment.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/clock_alignment.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/clock_alignment.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/evidence/cal605_reconstruction/clock_alignment.json"
+    ],
+    "bytes_each": 1292
+  },
+  {
+    "sha256": "db4ba3d890a36c27267e889576bc6b881fac70f5dbda327fdb1cdb24bccca5fa",
+    "paths": [
+      "research/checkers-runway13/evidence/cal605_reconstruction/delivery_manifest.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/delivery_manifest.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/delivery_manifest.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/delivery_manifest.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/evidence/cal605_reconstruction/delivery_manifest.json"
+    ],
+    "bytes_each": 10129
+  },
+  {
+    "sha256": "2bb2c74851ac1d0f0b9bb91125eab70bdb1ce58da16ff1ddad7b042385801257",
+    "paths": [
+      "research/checkers-runway13/evidence/cal605_reconstruction/flight/README.md",
+      "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/flight/README.md",
+      "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/flight/README.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/flight/README.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/flight/README.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/evidence/cal605_reconstruction/flight/README.md"
+    ],
+    "bytes_each": 8874
+  },
+  {
+    "sha256": "09318fd9a5da4a263afa016aeec4ba1e3be6d4c8a232d4376bb329355685c85f",
+    "paths": [
+      "research/checkers-runway13/evidence/cal605_reconstruction/flight/approach_anchor_readings.csv",
+      "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/flight/approach_anchor_readings.csv",
+      "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/flight/approach_anchor_readings.csv",
+      "research/checkers-runway13/whitepaper/v5/evidence/evidence/cal605_reconstruction/flight/approach_anchor_readings.csv"
+    ],
+    "bytes_each": 15188
+  },
+  {
+    "sha256": "227a93849e990a1983d285547528c3e8e9400b8ed64ff203085526fc6be20232",
+    "paths": [
+      "research/checkers-runway13/evidence/cal605_reconstruction/flight/flight_anchor_readings.csv",
+      "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/flight/flight_anchor_readings.csv",
+      "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/flight/flight_anchor_readings.csv",
+      "research/checkers-runway13/whitepaper/v5/evidence/evidence/cal605_reconstruction/flight/flight_anchor_readings.csv"
+    ],
+    "bytes_each": 26298
+  },
+  {
+    "sha256": "9d98e8ad5144ae367903c1c59c7e436cc602d1b7894049d11c47bf19244b4135",
+    "paths": [
+      "research/checkers-runway13/evidence/cal605_reconstruction/flight/flight_summary.json",
+      "research/checkers-runway13/evidence/cal605_reconstruction/reviews/regenerate_flight_build_flight.py.log",
+      "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/flight/flight_summary.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/flight/flight_summary.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/evidence/cal605_reconstruction/flight/flight_summary.json"
+    ],
+    "bytes_each": 1177
+  },
+  {
+    "sha256": "64c308501364f3d9d095cebfe4612cd927d4174c96d1baf0f9279cccf549dd81",
+    "paths": [
+      "research/checkers-runway13/evidence/cal605_reconstruction/noaa/README.md",
+      "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/noaa/README.md",
+      "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/noaa/README.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/noaa/README.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/noaa/README.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/evidence/cal605_reconstruction/noaa/README.md"
+    ],
+    "bytes_each": 8995
+  },
+  {
+    "sha256": "f6a6f0bab428784570eb6f1e8ceada99ecb769c466cd21f6551dc1e1c8271471",
+    "paths": [
+      "research/checkers-runway13/evidence/cal605_reconstruction/noaa/acceptance_verification.json",
+      "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/noaa/acceptance_verification.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/noaa/acceptance_verification.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/noaa/acceptance_verification.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/noaa/acceptance_verification.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/evidence/cal605_reconstruction/noaa/acceptance_verification.json"
+    ],
+    "bytes_each": 1029
+  },
+  {
+    "sha256": "8e34a0d30d4658bdb40304d738fa6ed0acd6d0a412504294fcd0e843d70d496a",
+    "paths": [
+      "research/checkers-runway13/evidence/cal605_reconstruction/noaa/verification.json",
+      "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/noaa/verification.json"
+    ],
+    "bytes_each": 6636
+  },
+  {
+    "sha256": "c676fb0d5462201c3d1231c69bd0128fdfbc7a9966b0b1f93729571ebc31c9b2",
+    "paths": [
+      "research/checkers-runway13/evidence/cal605_reconstruction/reviews/regenerate_wind_reconstruct_wind.py.log",
+      "research/checkers-runway13/evidence/cal605_reconstruction/wind/summary.json"
+    ],
+    "bytes_each": 6252
+  },
+  {
+    "sha256": "bf93850ae01b3d5539b42e51af7f56238e73cebfae6536910f30793165892681",
+    "paths": [
+      "research/checkers-runway13/evidence/cal605_reconstruction/verification.json",
+      "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/verification.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/verification.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/verification.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/verification.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/evidence/cal605_reconstruction/verification.json"
+    ],
+    "bytes_each": 2411
+  },
+  {
+    "sha256": "7ef27fc02ccdac883402a4f7b530873ca2cec90ae218bd82b38073106a2257db",
+    "paths": [
+      "research/checkers-runway13/evidence/cal605_reconstruction/wind/README.md",
+      "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/wind/README.md",
+      "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/wind/README.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/wind/README.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/wind/README.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/evidence/cal605_reconstruction/wind/README.md"
+    ],
+    "bytes_each": 7742
+  },
+  {
+    "sha256": "485c67054dd3acb7915557ee97f34d5fd0a85b940c2219417a06262f82625465",
+    "paths": [
+      "research/checkers-runway13/evidence/cal605_reconstruction/wind/wind_records.csv",
+      "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/wind/wind_records.csv",
+      "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/wind/wind_records.csv",
+      "research/checkers-runway13/whitepaper/v5/evidence/evidence/cal605_reconstruction/wind/wind_records.csv"
+    ],
+    "bytes_each": 20709
+  },
+  {
+    "sha256": "1ac992bf7838fa3476067ec43c9682bcda2d62d5c9eeb04180f291060d7a7788",
+    "paths": [
+      "research/checkers-runway13/geospatial/README.md",
+      "research/checkers-runway13/whitepaper/v1/evidence/geospatial/README.md",
+      "research/checkers-runway13/whitepaper/v2/evidence/geospatial/README.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/geospatial/README.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/geospatial/README.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/geospatial/README.md"
+    ],
+    "bytes_each": 6664
+  },
+  {
+    "sha256": "117bca6e971fdbea2b366a653ba9ddc87ef8304fc72af0062f11d39d068476b1",
+    "paths": [
+      "research/checkers-runway13/geospatial/metadata/building_supplement1",
+      "research/checkers-runway13/reconstruction/chronology/structures/documentation/Building_FSDT_v1.1.pdf"
+    ],
+    "bytes_each": 799255
+  },
+  {
+    "sha256": "9a3ae164893411ab017ce892f6baa0a70b979adadb656a3ce222891b835323a8",
+    "paths": [
+      "research/checkers-runway13/geospatial/metadata/building_supplement1.txt",
+      "research/checkers-runway13/reconstruction/chronology/structures/documentation/Building_FSDT_v1.1.txt"
+    ],
+    "bytes_each": 59437
+  },
+  {
+    "sha256": "05a9fcc58284115531a903711cdba1d31acc804b2860b861d1c19c94e156ace7",
+    "paths": [
+      "research/checkers-runway13/integrated/assumption_solution/energy_bound.log",
+      "research/checkers-runway13/integrated/assumption_solution/energy_bound_final.log"
+    ],
+    "bytes_each": 2352
+  },
+  {
+    "sha256": "04ba4e9993ceba6f686d6123ef35b9076feecfc8bc54cb9021a8af8611ef2677",
+    "paths": [
+      "research/checkers-runway13/integrated/assumption_solution/refinement/verification.json",
+      "research/checkers-runway13/integrated/assumption_solution/refinement/verification.log"
+    ],
+    "bytes_each": 1904
+  },
+  {
+    "sha256": "ef06c27cc45b30f97ad3bc09198ff7b3a3794b8a3a9ad4233d1c872a39e9e31f",
+    "paths": [
+      "research/checkers-runway13/literature/APPROXIMATE_LANDING_NOVELTY_2026-10-13.md",
+      "research/checkers-runway13/whitepaper/v1/evidence/literature/APPROXIMATE_LANDING_NOVELTY_2026-10-13.md",
+      "research/checkers-runway13/whitepaper/v2/evidence/literature/APPROXIMATE_LANDING_NOVELTY_2026-10-13.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/literature/APPROXIMATE_LANDING_NOVELTY_2026-10-13.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/literature/APPROXIMATE_LANDING_NOVELTY_2026-10-13.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/literature/APPROXIMATE_LANDING_NOVELTY_2026-10-13.md"
+    ],
+    "bytes_each": 5672
+  },
+  {
+    "sha256": "b167fb01d96631a749fde1cbb4a894ee257b14f0f5e0cc3520a984f26100431a",
+    "paths": [
+      "research/checkers-runway13/literature/LITERATURE_AND_COMPARISON.md",
+      "research/checkers-runway13/whitepaper/v1/evidence/literature/LITERATURE_AND_COMPARISON.md",
+      "research/checkers-runway13/whitepaper/v2/evidence/literature/LITERATURE_AND_COMPARISON.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/literature/LITERATURE_AND_COMPARISON.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/literature/LITERATURE_AND_COMPARISON.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/literature/LITERATURE_AND_COMPARISON.md"
+    ],
+    "bytes_each": 12772
+  },
+  {
+    "sha256": "6b65156957acd5c13a616a594a95d8da429b1bd513c1c31ccad3f1609a7a8006",
+    "paths": [
+      "research/checkers-runway13/model/__init__.py",
+      "research/checkers-runway13/whitepaper/v3/evidence/model/__init__.py",
+      "research/checkers-runway13/whitepaper/v4/evidence/model/__init__.py",
+      "research/checkers-runway13/whitepaper/v5/evidence/model/__init__.py"
+    ],
+    "bytes_each": 69
+  },
+  {
+    "sha256": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693",
+    "paths": [
+      "research/checkers-runway13/model/config.json",
+      "research/checkers-runway13/outputs/scenario-longer/parameter_provenance.json",
+      "research/checkers-runway13/outputs/scenario-refined/parameter_provenance.json",
+      "research/checkers-runway13/outputs/scenario/parameter_provenance.json",
+      "research/checkers-runway13/outputs/search_failure/parameter_provenance.json",
+      "research/checkers-runway13/whitepaper/v1/evidence/model/config.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/model/config.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/model/config.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/model/config.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/model/config.json"
+    ],
+    "bytes_each": 9059
+  },
+  {
+    "sha256": "2b93ae2341226f854cc0277b02a9b04e67c25ca569fa2ee0f82920ed860f6a15",
+    "paths": [
+      "research/checkers-runway13/model/solve.py",
+      "research/checkers-runway13/whitepaper/v3/evidence/model/solve.py",
+      "research/checkers-runway13/whitepaper/v4/evidence/model/solve.py",
+      "research/checkers-runway13/whitepaper/v5/evidence/model/solve.py"
+    ],
+    "bytes_each": 10645
+  },
+  {
+    "sha256": "e10285f5d0702b1d7f13cf8446a2f9d78742b12e3c5894b3fd5c2f4efb695786",
+    "paths": [
+      "research/checkers-runway13/model/test_model.py",
+      "research/checkers-runway13/whitepaper/v3/evidence/model/test_model.py",
+      "research/checkers-runway13/whitepaper/v4/evidence/model/test_model.py",
+      "research/checkers-runway13/whitepaper/v5/evidence/model/test_model.py"
+    ],
+    "bytes_each": 5304
+  },
+  {
+    "sha256": "c730c734a50c734ca20fa2139ad26e71cb1533764a5a34748869e27aec79a80c",
+    "paths": [
+      "research/checkers-runway13/model/test_review_solver.py",
+      "research/checkers-runway13/whitepaper/v3/evidence/model/test_review_solver.py",
+      "research/checkers-runway13/whitepaper/v4/evidence/model/test_review_solver.py",
+      "research/checkers-runway13/whitepaper/v5/evidence/model/test_review_solver.py"
+    ],
+    "bytes_each": 748
+  },
+  {
+    "sha256": "b116ae6250105cc889a1bb57e1f7c4efedb33605773181665442df50ae2013f6",
+    "paths": [
+      "research/checkers-runway13/model/test_review_trajectory.py",
+      "research/checkers-runway13/whitepaper/v3/evidence/model/test_review_trajectory.py",
+      "research/checkers-runway13/whitepaper/v4/evidence/model/test_review_trajectory.py",
+      "research/checkers-runway13/whitepaper/v5/evidence/model/test_review_trajectory.py"
+    ],
+    "bytes_each": 4305
+  },
+  {
+    "sha256": "9b557ce07c7e8f177b0b3cfac1765c1c9aec4997e28b52d3185ad533f7cf3f6a",
+    "paths": [
+      "research/checkers-runway13/model/trajectory.py",
+      "research/checkers-runway13/whitepaper/v3/evidence/model/trajectory.py",
+      "research/checkers-runway13/whitepaper/v4/evidence/model/trajectory.py",
+      "research/checkers-runway13/whitepaper/v5/evidence/model/trajectory.py"
+    ],
+    "bytes_each": 21372
+  },
+  {
+    "sha256": "e69588933ddb87b7625b96ab29849a855bf6eb6c6c11cb64f914191c00720358",
+    "paths": [
+      "research/checkers-runway13/outputs/scenario-longer/baseline.csv",
+      "research/checkers-runway13/outputs/scenario/baseline.csv",
+      "research/checkers-runway13/outputs/search_failure/baseline.csv"
+    ],
+    "bytes_each": 731946
+  },
+  {
+    "sha256": "685c9a1733f8faa6bd40247c73a4101fbb8d9fa59ece5080f9de431957d96686",
+    "paths": [
+      "research/checkers-runway13/outputs/scenario-longer/candidate.csv",
+      "research/checkers-runway13/outputs/scenario/candidate.csv"
+    ],
+    "bytes_each": 754036
+  },
+  {
+    "sha256": "f355c8b694c59dd235799740eccb7e0427ddd2f2f1b940b5779450acdeea782e",
+    "paths": [
+      "research/checkers-runway13/outputs/scenario-longer/trajectory.png",
+      "research/checkers-runway13/outputs/scenario/trajectory.png"
+    ],
+    "bytes_each": 227862
+  },
+  {
+    "sha256": "8829c708a7e0dd6262cab24547ff171ab5a73a78e9aea08a14428c62cd3eb1e0",
+    "paths": [
+      "research/checkers-runway13/outputs/scenario/optimization_replay.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/outputs/scenario/optimization_replay.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/outputs/scenario/optimization_replay.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/outputs/scenario/optimization_replay.json"
+    ],
+    "bytes_each": 37914
+  },
+  {
+    "sha256": "9f22ab99f964c030608afa44283fe6e92f03f11d30938eb0c0a3a9d5068b9c62",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/HANDOFF.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/HANDOFF.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/HANDOFF.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/HANDOFF.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/reconstruction/block_matching/HANDOFF.json"
+    ],
+    "bytes_each": 8982
+  },
+  {
+    "sha256": "18add497b2e88914395fab97877805cb0cb4201fe09355cb78b1abc6954f3893",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/REPORT.md",
+      "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/REPORT.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/REPORT.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/REPORT.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/reconstruction/block_matching/REPORT.md"
+    ],
+    "bytes_each": 11173
+  },
+  {
+    "sha256": "c6d92372417f56a8b017f8da56c0ed9d59d03eabf14efcc8fc9004137e2855e1",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/aerial_registration/README.md",
+      "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/reconstruction/block_matching/aerial_registration/README.md"
+    ],
+    "bytes_each": 12241
+  },
+  {
+    "sha256": "28ddf7ddff1f4a75e756a6beb3842ed8d6c8fd7e68d211a9e162cf94b72a6374",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/aerial_registration/dense_stereo_report.json",
+      "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/dense_stereo_report.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/dense_stereo_report.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/aerial_registration/dense_stereo_report.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/aerial_registration/dense_stereo_report.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/reconstruction/block_matching/aerial_registration/dense_stereo_report.json"
+    ],
+    "bytes_each": 4425
+  },
+  {
+    "sha256": "17c70dac3685c3f04eb9d01026aaf3c74ed32313e70755bb854f9afc58377bc9",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/aerial_registration/guarded_sparse_run.log",
+      "research/checkers-runway13/reconstruction/block_matching/aerial_registration/sparse_stereo_report.json",
+      "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/sparse_stereo_report.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/sparse_stereo_report.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/aerial_registration/sparse_stereo_report.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/aerial_registration/sparse_stereo_report.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/reconstruction/block_matching/aerial_registration/sparse_stereo_report.json",
+      "research/checkers-runway13/whitepaper/v5/inputs/historical/sparse_stereo_report.json"
+    ],
+    "bytes_each": 9195
+  },
+  {
+    "sha256": "254dca4fc0dd95088e7a0f9e6af8846a83c49cb90827e0e265439a08662da7c1",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/aerial_registration/manual_stereo_labels.json",
+      "research/checkers-runway13/whitepaper/v5/inputs/historical/manual_stereo_labels.json"
+    ],
+    "bytes_each": 3321
+  },
+  {
+    "sha256": "a50c3ae569ce52d7c47a21bbe905f18fc4be233f4b311c5c225b08fe9ea42cc7",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/aerial_registration/observed_mesh_verification.json",
+      "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/observed_mesh_verification.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/observed_mesh_verification.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/aerial_registration/observed_mesh_verification.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/aerial_registration/observed_mesh_verification.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/reconstruction/block_matching/aerial_registration/observed_mesh_verification.json"
+    ],
+    "bytes_each": 1205
+  },
+  {
+    "sha256": "ae7aa69c6ed42263bc6e060fb92133aaeed8e39f9909bdea48d99dc27986b394",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json",
+      "research/checkers-runway13/reconstruction/block_matching/aerial_registration/repaired_mesh_run.log",
+      "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json"
+    ],
+    "bytes_each": 2635
+  },
+  {
+    "sha256": "5778db43d56cff962f666fcb44208a2dd7f300474c0b83c09addba3933dc2965",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/aerial_registration/registration.json",
+      "research/checkers-runway13/whitepaper/v5/inputs/historical/registration.json"
+    ],
+    "bytes_each": 3060
+  },
+  {
+    "sha256": "841a89fb4560e2b7c3513f44f5ed836efa5467267482b3d5e980ae40fb025324",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/aerial_registration/sparse_stereo_points.csv",
+      "research/checkers-runway13/whitepaper/v5/inputs/historical/sparse_stereo_points.csv"
+    ],
+    "bytes_each": 301054
+  },
+  {
+    "sha256": "3337245f1865f3573ca6c1bfcc11c45f85b6e4a547c834a56240a08035785903",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/aerial_registration/stereo_ground_controls.json",
+      "research/checkers-runway13/whitepaper/v5/inputs/historical/stereo_ground_controls.json"
+    ],
+    "bytes_each": 7255
+  },
+  {
+    "sha256": "1aa46915a083962a3cc7a60065ceaba113d69ed9effb27f83cd8e67c98b470ec",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/aerial_registration/stereo_verification.json",
+      "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/stereo_verification.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/stereo_verification.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/aerial_registration/stereo_verification.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/aerial_registration/stereo_verification.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/reconstruction/block_matching/aerial_registration/stereo_verification.json"
+    ],
+    "bytes_each": 1819
+  },
+  {
+    "sha256": "afc13dd41e754fbd1f009bd986e2efd348a2ff0008d25a03359a2e98750793d7",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-3A_1984-10/ranked_candidates.csv",
+      "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-3C_1991-08/ranked_candidates.csv",
+      "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-4A_1985-06/ranked_candidates.csv",
+      "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-5A_1985-03/ranked_candidates.csv",
+      "research/checkers-runway13/reconstruction/block_matching/candidates/11-SE-3A_1993-08/ranked_candidates.csv",
+      "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-3A_1984-10/ranked_candidates.csv",
+      "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-3C_1991-08/ranked_candidates.csv",
+      "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-4A_1985-06/ranked_candidates.csv",
+      "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-5A_1985-03/ranked_candidates.csv",
+      "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-SE-3A_1993-08/ranked_candidates.csv"
+    ],
+    "bytes_each": 14
+  },
+  {
+    "sha256": "ed778c73ea51338d6576fb5992b189f2b94d9f3d5e199f46c1af520d6b0b3e6c",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-3A_1984-10/ranked_candidates.geojson",
+      "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-3C_1991-08/ranked_candidates.geojson",
+      "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-4A_1985-06/ranked_candidates.geojson",
+      "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-5A_1985-03/ranked_candidates.geojson",
+      "research/checkers-runway13/reconstruction/block_matching/candidates/11-SE-3A_1993-08/map_regions.geojson",
+      "research/checkers-runway13/reconstruction/block_matching/candidates/11-SE-3A_1993-08/ranked_candidates.geojson",
+      "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-3A_1984-10/ranked_candidates.geojson",
+      "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-3C_1991-08/ranked_candidates.geojson",
+      "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-4A_1985-06/ranked_candidates.geojson",
+      "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-5A_1985-03/ranked_candidates.geojson",
+      "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-SE-1A_1991-01/map_regions.geojson",
+      "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-SE-3A_1993-08/map_regions.geojson",
+      "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-SE-3A_1993-08/ranked_candidates.geojson"
+    ],
+    "bytes_each": 42
+  },
+  {
+    "sha256": "18aab78c59d96662f99b3bbe890b773f5ba833c845a306c581d7c6d62eba9df2",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/repair_export_topology.py",
+      "research/checkers-runway13/reconstruction/block_matching/candidates/repair_export_topology.py"
+    ],
+    "bytes_each": 2275
+  },
+  {
+    "sha256": "6606d883e9495bcbf2394f08d876891820f49cecd1b104231ac09dc0062ab7db",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/digitization_attempts.json",
+      "research/checkers-runway13/reconstruction/block_matching/reviews/pre_fix_geometry/digitization_attempts.json"
+    ],
+    "bytes_each": 12401
+  },
+  {
+    "sha256": "5412ec94318b1d30c53ad0eea3205cd3b81f9daa943c277e10f68afe83e372e2",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/digitization_candidates_hk1980.geojson",
+      "research/checkers-runway13/reconstruction/block_matching/reviews/pre_fix_geometry/digitization_candidates_hk1980.geojson"
+    ],
+    "bytes_each": 258561
+  },
+  {
+    "sha256": "f866def637ad2c3495e9a9463a6abfc1b04cbf600b8b52b6ed5ee503bd749ef7",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/historical_faces.geojson",
+      "research/checkers-runway13/whitepaper/v3/inputs/historical_faces.geojson",
+      "research/checkers-runway13/whitepaper/v4/inputs/historical_faces.geojson",
+      "research/checkers-runway13/whitepaper/v5/inputs/historical_faces.geojson"
+    ],
+    "bytes_each": 312728
+  },
+  {
+    "sha256": "ababd2644f766efb29a79eb02d4a73ffd09893f74190c1e5f464e75627c3bb2e",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/historical_faces_hk1980.geojson",
+      "research/checkers-runway13/reconstruction/block_matching/reviews/pre_fix_geometry/historical_faces_hk1980.geojson"
+    ],
+    "bytes_each": 307358
+  },
+  {
+    "sha256": "cdd4b3142c28f7d41fee4a0f0bfb63adb3fd0164da9a333c6abd3295f24de022",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/registered/11-NE-11A_1989-10_core.json",
+      "research/checkers-runway13/whitepaper/v3/inputs/11-NE-11A_1989-10_core.json",
+      "research/checkers-runway13/whitepaper/v4/inputs/11-NE-11A_1989-10_core.json",
+      "research/checkers-runway13/whitepaper/v5/inputs/11-NE-11A_1989-10_core.json"
+    ],
+    "bytes_each": 842
+  },
+  {
+    "sha256": "413996dbe93645f01065eaaad230e8f0c1238ec32861e74cf985dfe273644fee",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/registered/11-NE-11A_1994-07_core.json",
+      "research/checkers-runway13/whitepaper/v3/inputs/11-NE-11A_1994-07_core.json",
+      "research/checkers-runway13/whitepaper/v4/inputs/11-NE-11A_1994-07_core.json",
+      "research/checkers-runway13/whitepaper/v5/inputs/11-NE-11A_1994-07_core.json"
+    ],
+    "bytes_each": 842
+  },
+  {
+    "sha256": "c751bd91f98a4bcbdb78743d34be9ce97846fe35cca3c582e8abda15c8fcbb87",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/registration_report.md",
+      "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/registration_report.md",
+      "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/registration_report.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/registration_report.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/registration_report.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/reconstruction/block_matching/registration_report.md"
+    ],
+    "bytes_each": 6233
+  },
+  {
+    "sha256": "5b2cb57cbcee39c0de12193f3e85ea20e18f8f3a67b2f02b8226884b27bab816",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/road_cell_parent_verification.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/road_cell_parent_verification.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/road_cell_parent_verification.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/road_cell_parent_verification.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/reconstruction/block_matching/road_cell_parent_verification.json"
+    ],
+    "bytes_each": 359
+  },
+  {
+    "sha256": "5e6c2446a3ac7c223748eec8465afe1c12efbe63c3de0f56aeb4899d3cf29706",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/road_cell_visual_observations.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/road_cell_visual_observations.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/road_cell_visual_observations.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/road_cell_visual_observations.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/reconstruction/block_matching/road_cell_visual_observations.json"
+    ],
+    "bytes_each": 8585
+  },
+  {
+    "sha256": "32e41a87b5e7b59139bff586f54e14f61d26a4e6a8087eff5f1f4558c472b20a",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/scene/readable/verification.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/scene/readable/verification.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/scene/readable/verification.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/scene/readable/verification.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/reconstruction/block_matching/scene/readable/verification.json"
+    ],
+    "bytes_each": 645
+  },
+  {
+    "sha256": "ab34f82f8fbaca0a515608b0ae3f44539263d5162e2fa088557618df7f2a7a0c",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/scene/validation.json",
+      "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/scene/validation.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/scene/validation.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/scene/validation.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/scene/validation.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/reconstruction/block_matching/scene/validation.json"
+    ],
+    "bytes_each": 835
+  },
+  {
+    "sha256": "b8e3a0fd8e9717b724316f9bdcdad140cb2f14c71ae3bb9b800b5d43bb9c5c5d",
+    "paths": [
+      "research/checkers-runway13/reconstruction/block_matching/validation.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/validation.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/validation.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/validation.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/reconstruction/block_matching/validation.json"
+    ],
+    "bytes_each": 2872
+  },
+  {
+    "sha256": "f8deecf9c45d622e3b4fd6bcef7b4245a7e736d4364b02dec8a8004be96f7a34",
+    "paths": [
+      "research/checkers-runway13/reconstruction/chronology/HANDOFF.json",
+      "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/HANDOFF.json",
+      "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/HANDOFF.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/chronology/HANDOFF.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/chronology/HANDOFF.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/reconstruction/chronology/HANDOFF.json"
+    ],
+    "bytes_each": 4757
+  },
+  {
+    "sha256": "6a06f484eeeb20e9b6ff35d0fcb12c74efc4d96a80fc08c480ae54405c7aa11d",
+    "paths": [
+      "research/checkers-runway13/reconstruction/chronology/REPORT.md",
+      "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/REPORT.md",
+      "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/REPORT.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/chronology/REPORT.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/chronology/REPORT.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/reconstruction/chronology/REPORT.md"
+    ],
+    "bytes_each": 10016
+  },
+  {
+    "sha256": "e8439e24ffd7acbbaf7b5247b2fddbd7a52fd079e3c986481771efe204eaf289",
+    "paths": [
+      "research/checkers-runway13/reconstruction/chronology/aerial/A36143_l0_download_result",
+      "research/checkers-runway13/whitepaper/v3/inputs/A36143.jpg",
+      "research/checkers-runway13/whitepaper/v4/inputs/A36143.jpg",
+      "research/checkers-runway13/whitepaper/v5/inputs/A36143.jpg"
+    ],
+    "bytes_each": 818247
+  },
+  {
+    "sha256": "f7f3a2bd73ed0d92c4ed0dcbcf800ba26212988f69dafc5ed258001e0ae5f65a",
+    "paths": [
+      "research/checkers-runway13/reconstruction/chronology/aerial/A36143_product.json",
+      "research/checkers-runway13/whitepaper/v3/inputs/A36143_product.json",
+      "research/checkers-runway13/whitepaper/v4/inputs/A36143_product.json",
+      "research/checkers-runway13/whitepaper/v5/inputs/A36143_product.json"
+    ],
+    "bytes_each": 757
+  },
+  {
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "paths": [
+      "research/checkers-runway13/reconstruction/chronology/aerial/CN4581_product.json",
+      "research/checkers-runway13/reconstruction/chronology/matching_issues.json"
+    ],
+    "bytes_each": 2
+  },
+  {
+    "sha256": "c8f5dbaeec03c4096af7a29f6de0b9300dc0c114b1c892d5210199556a805a99",
+    "paths": [
+      "research/checkers-runway13/reconstruction/chronology/aerial/fullframe_manifest.json",
+      "research/checkers-runway13/whitepaper/v5/inputs/historical/aerial_fullframe_manifest.json"
+    ],
+    "bytes_each": 43488
+  },
+  {
+    "sha256": "e50ce772f1001f7d098d4334a82c98f0c0f3ce0ecfa7d47da94474a61eec6d00",
+    "paths": [
+      "research/checkers-runway13/reconstruction/chronology/aerial/landmark_frame_matches.csv",
+      "research/checkers-runway13/whitepaper/v5/inputs/historical/landmark_frame_matches.csv"
+    ],
+    "bytes_each": 431690
+  },
+  {
+    "sha256": "aaf8eae2c1e911595b5d70898752bf41726dc7918fb74400c3283d8091cb8635",
+    "paths": [
+      "research/checkers-runway13/reconstruction/obstacles/REPORT.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/obstacles/REPORT.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/obstacles/REPORT.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/reconstruction/obstacles/REPORT.md"
+    ],
+    "bytes_each": 7076
+  },
+  {
+    "sha256": "af990de7bb002418f93dd349d0764b4aea33a285dd73eacaae23adb6f4eb376d",
+    "paths": [
+      "research/checkers-runway13/reconstruction/obstacles/observations.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/obstacles/observations.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/obstacles/observations.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/reconstruction/obstacles/observations.json"
+    ],
+    "bytes_each": 27629
+  },
+  {
+    "sha256": "ac3ab63f3c516b8dfa1e18c4be64082fccfd0986979df0619fcc5fe3effb2a30",
+    "paths": [
+      "research/checkers-runway13/reconstruction/obstacles/obstacle_evidence.geojson",
+      "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/obstacles/obstacle_evidence.geojson",
+      "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/obstacles/obstacle_evidence.geojson",
+      "research/checkers-runway13/whitepaper/v5/evidence/reconstruction/obstacles/obstacle_evidence.geojson"
+    ],
+    "bytes_each": 85601
+  },
+  {
+    "sha256": "a4c35fc6f64d07b1258651f1993baeb4d316989a82058f102f64e2fccc03d2ab",
+    "paths": [
+      "research/checkers-runway13/reconstruction/obstacles/parent_verification.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/obstacles/parent_verification.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/obstacles/parent_verification.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/reconstruction/obstacles/parent_verification.json"
+    ],
+    "bytes_each": 2899
+  },
+  {
+    "sha256": "8ff9e652fa4ec809207cbadff0eee6e525ef17a740cf85d530879bdb698b519c",
+    "paths": [
+      "research/checkers-runway13/reconstruction/obstacles/readiness.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/obstacles/readiness.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/obstacles/readiness.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/reconstruction/obstacles/readiness.json"
+    ],
+    "bytes_each": 9456
+  },
+  {
+    "sha256": "b78d5754894cb75975c0a58cddcd1178dcc4ecc449444e5218b506993b091a85",
+    "paths": [
+      "research/checkers-runway13/reconstruction/obstacles/unresolved_footprints.geojson",
+      "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/obstacles/unresolved_footprints.geojson",
+      "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/obstacles/unresolved_footprints.geojson",
+      "research/checkers-runway13/whitepaper/v5/evidence/reconstruction/obstacles/unresolved_footprints.geojson"
+    ],
+    "bytes_each": 337765
+  },
+  {
+    "sha256": "7de32c29acf8f3729884a002ff133252ad6cab1b7a2da486b104ccc9d85a704d",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v1/evidence/weather_plot_data.csv",
+      "research/checkers-runway13/whitepaper/v2/evidence/weather_plot_data.csv",
+      "research/checkers-runway13/whitepaper/v3/evidence/weather_plot_data.csv",
+      "research/checkers-runway13/whitepaper/v4/evidence/weather_plot_data.csv",
+      "research/checkers-runway13/whitepaper/v5/evidence/weather_plot_data.csv"
+    ],
+    "bytes_each": 460625
+  },
+  {
+    "sha256": "89ff5543e114082e88b7d5ea17aa3c728dfd9b2ea767ba2972fe84684e4c1d47",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v1/figures/historical_stopping.pdf",
+      "research/checkers-runway13/whitepaper/v2/figures/historical_stopping.pdf"
+    ],
+    "bytes_each": 15114
+  },
+  {
+    "sha256": "8160e7d752354d6fcc28c7cb81776eb70763d0e0c4c2e7c22a8065c6c1199709",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v1/figures/historical_support.pdf",
+      "research/checkers-runway13/whitepaper/v2/figures/historical_support.pdf"
+    ],
+    "bytes_each": 73609
+  },
+  {
+    "sha256": "75f302320f18dbedccd4b232be6124e72d5392161f420767e6d1c504dc3bf682",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v1/figures/stopping_boundary.pdf",
+      "research/checkers-runway13/whitepaper/v2/figures/stopping_boundary.pdf"
+    ],
+    "bytes_each": 21355
+  },
+  {
+    "sha256": "211d6d509869919396632dbac1397d080dca9f54c4605f748d939be175b09837",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v1/figures/synthetic_trajectory.pdf",
+      "research/checkers-runway13/whitepaper/v2/figures/synthetic_trajectory.pdf"
+    ],
+    "bytes_each": 20359
+  },
+  {
+    "sha256": "71759acd364284d6c38b0135698fa30c296a213d55da08ab6861ff9980855f3f",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v1/figures/weather_context.pdf",
+      "research/checkers-runway13/whitepaper/v2/figures/weather_context.pdf"
+    ],
+    "bytes_each": 14052
+  },
+  {
+    "sha256": "be7499bb1cce23c3a8dff9b55be5c3434519245327225db2588bc3f581a6a887",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v1/references.tex",
+      "research/checkers-runway13/whitepaper/v2/references.tex"
+    ],
+    "bytes_each": 2595
+  },
+  {
+    "sha256": "cb2008b106fb87323919e6a6482dfcf46f0c40dc42482b72424aa30dd50c0940",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v1/requirements.txt",
+      "research/checkers-runway13/whitepaper/v2/requirements.txt"
+    ],
+    "bytes_each": 48
+  },
+  {
+    "sha256": "16ba315669dba824283eb312927a91a231e0da416a9d3492a89c9f877cd11b5d",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v2/evidence/PROJECT_STATE.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/PROJECT_STATE.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/PROJECT_STATE.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/PROJECT_STATE.md"
+    ],
+    "bytes_each": 47131
+  },
+  {
+    "sha256": "efe75955636f15e8a6b1635c9f10b9b3cabc0442199faa3565f0e590798debf7",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v2/evidence/approximation/STATUS.md",
+      "research/checkers-runway13/whitepaper/v3/evidence/approximation/STATUS.md",
+      "research/checkers-runway13/whitepaper/v4/evidence/approximation/STATUS.md",
+      "research/checkers-runway13/whitepaper/v5/evidence/approximation/STATUS.md"
+    ],
+    "bytes_each": 4895
+  },
+  {
+    "sha256": "fca349e456c1eae543c71d5cdd956106f48063ea7f77747a8ba48bc5d51534fb",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/noaa/verification.json",
+      "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/noaa/verification.json",
+      "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/noaa/verification.json",
+      "research/checkers-runway13/whitepaper/v5/evidence/evidence/cal605_reconstruction/noaa/verification.json"
+    ],
+    "bytes_each": 6607
+  },
+  {
+    "sha256": "020e06d1ca36ce849f6935ca63ad7f9281d07d3c0724b246ee844076f0fb8b9b",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v2/evidence/stereo_plot_data.csv",
+      "research/checkers-runway13/whitepaper/v3/evidence/stereo_plot_data.csv",
+      "research/checkers-runway13/whitepaper/v4/evidence/stereo_plot_data.csv",
+      "research/checkers-runway13/whitepaper/v5/evidence/stereo_plot_data.csv"
+    ],
+    "bytes_each": 2315670
+  },
+  {
+    "sha256": "7284e264c33593c41cd15252c699c6c0d54c15fa4f14a0cf7cc1708cc23dfa36",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v2/evidence_manifest.json",
+      "research/checkers-runway13/whitepaper/v3/evidence_manifest.json",
+      "research/checkers-runway13/whitepaper/v4/evidence_manifest.json",
+      "research/checkers-runway13/whitepaper/v5/evidence_manifest.json"
+    ],
+    "bytes_each": 25657
+  },
+  {
+    "sha256": "1f300b33ab127b3728595a120e4e71a3a7dd7e7380b5c15e2d6bd0ed75fd17dc",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v2/qa/figure_checks.json",
+      "research/checkers-runway13/whitepaper/v3/qa/figure_checks.json",
+      "research/checkers-runway13/whitepaper/v3/qa/verified_input_checks.log",
+      "research/checkers-runway13/whitepaper/v3/qa/verify_v2_inputs.log",
+      "research/checkers-runway13/whitepaper/v4/qa/clean_figure_checks.json",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/figure_checks.json",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/verified_input_checks.log",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/verify_v2_inputs.log"
+    ],
+    "bytes_each": 977
+  },
+  {
+    "sha256": "3aa0e9a8a2d023ce2dc38d6ed7ccbcf057e650cd23699617ca1adcd0f366c49a",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/CITATION_VERIFICATION.md",
+      "research/checkers-runway13/whitepaper/v4/CITATION_VERIFICATION.md"
+    ],
+    "bytes_each": 4671
+  },
+  {
+    "sha256": "e968434dbcd9769f7624917a49f234dd66624c19a9dee70fbe147f619494b6af",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/CLAIMS_AND_EVIDENCE.csv",
+      "research/checkers-runway13/whitepaper/v4/CLAIMS_AND_EVIDENCE.csv",
+      "research/checkers-runway13/whitepaper/v5/editorial/V4_CLAIMS_AND_EVIDENCE.csv"
+    ],
+    "bytes_each": 13418
+  },
+  {
+    "sha256": "2e0f7950e50aba7bf12eae274d98756921f2bf816c9154c4769fb005378c26f6",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/INSIGHTS.md",
+      "research/checkers-runway13/whitepaper/v4/INSIGHTS.md"
+    ],
+    "bytes_each": 2541
+  },
+  {
+    "sha256": "30c4a3d0b3b8118add00c753739deed5e55698ec148a522534f9205aeff79917",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/README.md",
+      "research/checkers-runway13/whitepaper/v4/V3_README.md"
+    ],
+    "bytes_each": 4084
+  },
+  {
+    "sha256": "68209010aee5907619987a401c3b89771694618d75eba1ae0a4e76ba10626b1d",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/REQUIREMENTS_TRACEABILITY.md",
+      "research/checkers-runway13/whitepaper/v4/V3_REQUIREMENTS_TRACEABILITY.md"
+    ],
+    "bytes_each": 2155
+  },
+  {
+    "sha256": "c1a0c092f14afaacd3488da87904d55af9c8120c0ac59d0ec6c77abc1dbd484c",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/RIGHTS_AND_PROVENANCE.md",
+      "research/checkers-runway13/whitepaper/v4/RIGHTS_AND_PROVENANCE.md"
+    ],
+    "bytes_each": 3740
+  },
+  {
+    "sha256": "b139f1bcaa50ec44a4d7f91b50a559dd671beb6817d6b08d16519e85dd06a27e",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/SOURCE_MANIFEST.json",
+      "research/checkers-runway13/whitepaper/v4/SOURCE_MANIFEST.json",
+      "research/checkers-runway13/whitepaper/v5/SOURCE_MANIFEST.json"
+    ],
+    "bytes_each": 16942
+  },
+  {
+    "sha256": "b29fbf87deaf8f5f71543f024612ba57fb04eedc7e4bb085c6d0415fb337c3ac",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/SPEC.md",
+      "research/checkers-runway13/whitepaper/v4/V3_SPEC.md"
+    ],
+    "bytes_each": 1952
+  },
+  {
+    "sha256": "bc35a73c8a5bfbef2ccb8a7ab5a86c8acb843ebaaea5793438d67453f36ff560",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/VERIFICATION.md",
+      "research/checkers-runway13/whitepaper/v4/V3_VERIFICATION.md"
+    ],
+    "bytes_each": 8441
+  },
+  {
+    "sha256": "fba7bff58c4cbe47b31c4c122cc7231fb9570e09e7d1eb54c6ffd3a5219a80ef",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/VERSION_CHANGES.md",
+      "research/checkers-runway13/whitepaper/v4/V3_VERSION_CHANGES.md"
+    ],
+    "bytes_each": 2088
+  },
+  {
+    "sha256": "4c952e91d01124b5a847c5a4ca209a5e9253f30cdf8943029c36f02baa556067",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/abstract.md",
+      "research/checkers-runway13/whitepaper/v4/abstract.md"
+    ],
+    "bytes_each": 1414
+  },
+  {
+    "sha256": "5b6eff45cc396bedba88000fbc7edb34cc95e555112b982736c416b84f93a4a9",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/appendices.tex",
+      "research/checkers-runway13/whitepaper/v4/baseline/appendices.tex"
+    ],
+    "bytes_each": 13938
+  },
+  {
+    "sha256": "df2442c054da825a79641088724e2dc0cbbbd844c415efe4248b43c7ee94eea5",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/coefficients.tex",
+      "research/checkers-runway13/whitepaper/v4/baseline/coefficients.tex"
+    ],
+    "bytes_each": 2454
+  },
+  {
+    "sha256": "67392e60a9d919cab740f49ef0cd7a9d2601457b208d8bd3ed87ac3e9e750d40",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/executive-summary.md",
+      "research/checkers-runway13/whitepaper/v4/executive-summary.md"
+    ],
+    "bytes_each": 2387
+  },
+  {
+    "sha256": "df8b6bd092535d40bc18a92912233abaac8680f1b34ebb16e94f6de5e59b2f60",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/01_historical_airport.pdf",
+      "research/checkers-runway13/whitepaper/v4/figures/01_historical_airport.pdf"
+    ],
+    "bytes_each": 211873
+  },
+  {
+    "sha256": "c5aac37e2d28c5c4f7fd29d5e68fa4f84a985b762ea8fd9beeefb5dce4d0dd99",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/01_historical_airport.png",
+      "research/checkers-runway13/whitepaper/v4/figures/01_historical_airport.png"
+    ],
+    "bytes_each": 876541
+  },
+  {
+    "sha256": "dc5cdbae7a86e34432142178d1edbe1c43c160abf92c7c224fb461ef6752262d",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/02_approach_geometry.pdf",
+      "research/checkers-runway13/whitepaper/v4/figures/02_approach_geometry.pdf"
+    ],
+    "bytes_each": 30565
+  },
+  {
+    "sha256": "51be3163e337c3999771dd07ce720ef54984f27cb91e14abd60ee075d524d138",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/02_approach_geometry.png",
+      "research/checkers-runway13/whitepaper/v4/figures/02_approach_geometry.png"
+    ],
+    "bytes_each": 60744
+  },
+  {
+    "sha256": "e47c6c5d145d3aec7c326b43ebc9ee546d2288e28242b047e6d5e2126a9a9fc1",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/03_dated_maps.pdf",
+      "research/checkers-runway13/whitepaper/v4/figures/03_dated_maps.pdf"
+    ],
+    "bytes_each": 107125
+  },
+  {
+    "sha256": "c76c5ae76e404f0b89c0fc3d5afe0c88732834842eb7d40291aa3ebd053878ff",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/03_dated_maps.png",
+      "research/checkers-runway13/whitepaper/v4/figures/03_dated_maps.png"
+    ],
+    "bytes_each": 469373
+  },
+  {
+    "sha256": "079842069bbf68f30ba2b8423ef284ef81a4867d3e6df42551ba83a80364c483",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/04_reconstruction.pdf",
+      "research/checkers-runway13/whitepaper/v4/figures/04_reconstruction.pdf"
+    ],
+    "bytes_each": 125780
+  },
+  {
+    "sha256": "908b3ca2a336e7707b412d46f1da5dcfa5a597cd3e30a54e29ba563f307bf975",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/04_reconstruction.png",
+      "research/checkers-runway13/whitepaper/v4/figures/04_reconstruction.png"
+    ],
+    "bytes_each": 420245
+  },
+  {
+    "sha256": "684a7a4856a39c0069b6e54a12f740d4c6acf98cc19d0b1355ebe813e2f83db4",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/05_turn_physics.pdf",
+      "research/checkers-runway13/whitepaper/v4/figures/05_turn_physics.pdf"
+    ],
+    "bytes_each": 24726
+  },
+  {
+    "sha256": "c057e99184abfd8a3b6bdd27728aadd60612f8c205ba080a84703fe27fed903e",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/05_turn_physics.png",
+      "research/checkers-runway13/whitepaper/v4/figures/05_turn_physics.png"
+    ],
+    "bytes_each": 133219
+  },
+  {
+    "sha256": "abca900b7169ea3f04f63643b12071473f5a1d5bab6eff6d5b66917261083518",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/06_wind_vectors.pdf",
+      "research/checkers-runway13/whitepaper/v4/figures/06_wind_vectors.pdf"
+    ],
+    "bytes_each": 25822
+  },
+  {
+    "sha256": "c7293d3ac9f47bfe53fce5b2cd707c676d4dc65671212f19ac2b8661b57f5167",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/06_wind_vectors.png",
+      "research/checkers-runway13/whitepaper/v4/figures/06_wind_vectors.png"
+    ],
+    "bytes_each": 96432
+  },
+  {
+    "sha256": "216784dbfe6f19fcb5fe0481bc53a01c7ca817358964a19e824048413e942de6",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/07_calm_profiles.pdf",
+      "research/checkers-runway13/whitepaper/v4/figures/07_calm_profiles.pdf"
+    ],
+    "bytes_each": 26384
+  },
+  {
+    "sha256": "0ed3c4e1a6ad37c6fe3779d46f6b69ab30a47a848334a45debdb43d6c4e6b6fa",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/07_calm_profiles.png",
+      "research/checkers-runway13/whitepaper/v4/figures/07_calm_profiles.png"
+    ],
+    "bytes_each": 102321
+  },
+  {
+    "sha256": "05e02b020d0c287b4a23a048d88017626ff37afbdfc156f3e0803bfbebf5d2ed",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/08_stopping.pdf",
+      "research/checkers-runway13/whitepaper/v4/figures/08_stopping.pdf"
+    ],
+    "bytes_each": 25778
+  },
+  {
+    "sha256": "569b819d4c3954afa792090e788aa6f277bde66f7e99a6db5f44685f12e13b2d",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/08_stopping.png",
+      "research/checkers-runway13/whitepaper/v4/figures/08_stopping.png"
+    ],
+    "bytes_each": 85585
+  },
+  {
+    "sha256": "64b8a9688c22ea123b3ffed7137afc32130551c18e6a311598180c59f3153851",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/09_complete_calm.pdf",
+      "research/checkers-runway13/whitepaper/v4/figures/09_complete_calm.pdf"
+    ],
+    "bytes_each": 30336
+  },
+  {
+    "sha256": "9ac847a8f1f8751e5a5210ca8def1deeabb837341a6af7ac3826d08dd4ae6121",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/09_complete_calm.png",
+      "research/checkers-runway13/whitepaper/v4/figures/09_complete_calm.png"
+    ],
+    "bytes_each": 99365
+  },
+  {
+    "sha256": "d93a563cd1602cd92ba35115c2c66936deda127df53e27a27467c2f4e082de86",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/10_certificate.pdf",
+      "research/checkers-runway13/whitepaper/v4/figures/10_certificate.pdf"
+    ],
+    "bytes_each": 23572
+  },
+  {
+    "sha256": "8af7bd0bf98e7352f6a7a5dfba0935cd799137d27ea1c18c411ab42d351922c4",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/10_certificate.png",
+      "research/checkers-runway13/whitepaper/v4/figures/10_certificate.png"
+    ],
+    "bytes_each": 51115
+  },
+  {
+    "sha256": "6bb7a2d347772dd3716b64e831dda8eb3502a7d3cee5bc10118ac498ac65c77c",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/11_wind_profiles.pdf",
+      "research/checkers-runway13/whitepaper/v4/figures/11_wind_profiles.pdf"
+    ],
+    "bytes_each": 22208
+  },
+  {
+    "sha256": "fd28f00018a3075e836fd65313e2d210e98bbd5ebe4a46bce6760dba7e5910b1",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/11_wind_profiles.png",
+      "research/checkers-runway13/whitepaper/v4/figures/11_wind_profiles.png"
+    ],
+    "bytes_each": 131618
+  },
+  {
+    "sha256": "5d946621278d54356e9127a10670ef6d91f7fb65e25a2308a2426fcc43dcea0f",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/12_scenario_comparison.pdf",
+      "research/checkers-runway13/whitepaper/v4/figures/12_scenario_comparison.pdf"
+    ],
+    "bytes_each": 21418
+  },
+  {
+    "sha256": "180dba541e73df3c463e90ec03e11e8eca98494be6c459022491672b4e30dd5b",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/12_scenario_comparison.png",
+      "research/checkers-runway13/whitepaper/v4/figures/12_scenario_comparison.png"
+    ],
+    "bytes_each": 93738
+  },
+  {
+    "sha256": "11fa402e3b2dd95b802b6e6b2c9a0f1ae0209575b8c5cb9fa2ceec195805950c",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/13_recorder.pdf",
+      "research/checkers-runway13/whitepaper/v4/figures/13_recorder.pdf"
+    ],
+    "bytes_each": 20354
+  },
+  {
+    "sha256": "f7e8a34f9e6483cc8e71b274e12b770b8833629f7b44fa61266e3ed80c0c89b2",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/13_recorder.png",
+      "research/checkers-runway13/whitepaper/v4/figures/13_recorder.png"
+    ],
+    "bytes_each": 130734
+  },
+  {
+    "sha256": "508e7691f57d0879d80ff9c9ef500748bd69d7335f63f92d4d703bcb41fd213a",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/14_weather.pdf",
+      "research/checkers-runway13/whitepaper/v4/figures/14_weather.pdf"
+    ],
+    "bytes_each": 33573
+  },
+  {
+    "sha256": "74c565a92d3140612021d71e33071677e6a241478836595e33412d3708c3e2a4",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/14_weather.png",
+      "research/checkers-runway13/whitepaper/v4/figures/14_weather.png"
+    ],
+    "bytes_each": 114505
+  },
+  {
+    "sha256": "e8ad5c3d60f1e2ebe54ce61acc24c4f1794fdf3124e40e894ea7809a0c5708cd",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/15_rollout.pdf",
+      "research/checkers-runway13/whitepaper/v4/figures/15_rollout.pdf"
+    ],
+    "bytes_each": 22801
+  },
+  {
+    "sha256": "ae741956fd02ac73da2447c2d1356b24e6b3834c71ad3137515450a92bfd95df",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/15_rollout.png",
+      "research/checkers-runway13/whitepaper/v4/figures/15_rollout.png"
+    ],
+    "bytes_each": 109532
+  },
+  {
+    "sha256": "39e249d454cc443eadfe6a6e013211f3673906f60ba21e3d1df88b65c329e496",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/16_evidence_synthesis.pdf",
+      "research/checkers-runway13/whitepaper/v4/figures/16_evidence_synthesis.pdf"
+    ],
+    "bytes_each": 22966
+  },
+  {
+    "sha256": "4d09492d3d669e23eb65dc11676fb59d2e09cc79afa54cd1dcb0441ef5b67de1",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/figures/16_evidence_synthesis.png",
+      "research/checkers-runway13/whitepaper/v4/figures/16_evidence_synthesis.png"
+    ],
+    "bytes_each": 65880
+  },
+  {
+    "sha256": "7daf2f8720a78b8ded383ae4f0ec811fa18eda1140c1e0248802d94c3b984259",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/inputs/11-NE-11A_1989-10_core.png",
+      "research/checkers-runway13/whitepaper/v4/inputs/11-NE-11A_1989-10_core.png",
+      "research/checkers-runway13/whitepaper/v5/inputs/11-NE-11A_1989-10_core.png"
+    ],
+    "bytes_each": 2397201
+  },
+  {
+    "sha256": "ff47e9e448d5ec708e3fcc2978312eff62e712aff88433a36884c47539f22805",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/inputs/11-NE-11A_1994-07_core.png",
+      "research/checkers-runway13/whitepaper/v4/inputs/11-NE-11A_1994-07_core.png",
+      "research/checkers-runway13/whitepaper/v5/inputs/11-NE-11A_1994-07_core.png"
+    ],
+    "bytes_each": 2437557
+  },
+  {
+    "sha256": "b52a0a10f9ed366c5a5ef90b44801392f309cdcf5cca95b3aeff4730879d07c4",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/inputs/provenance.json",
+      "research/checkers-runway13/whitepaper/v4/inputs/provenance.json",
+      "research/checkers-runway13/whitepaper/v5/inputs/provenance.json"
+    ],
+    "bytes_each": 3118
+  },
+  {
+    "sha256": "2a61ecef26f94db3fa2f3e587d9c84ec03977560df25e84714804d78e8996d84",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/main.tex",
+      "research/checkers-runway13/whitepaper/v4/baseline/main.tex"
+    ],
+    "bytes_each": 3441
+  },
+  {
+    "sha256": "11f1e24d10b84ce2fa75c664bb28536127055c96f200182af21a729edba815fe",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/make_figures.py",
+      "research/checkers-runway13/whitepaper/v4/make_figures.py"
+    ],
+    "bytes_each": 22306
+  },
+  {
+    "sha256": "10005e14cebcf7ccf72b52799f400ee940c535b19d3bbc2f2cddf6caaccf7dcd",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/qa/clean_build.log",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/clean_build.log"
+    ],
+    "bytes_each": 467
+  },
+  {
+    "sha256": "7e729c6e9c0c84a56f8fa0c94370596f265aed2b56e3d1182f4abcb0d9cdd208",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/qa/clean_calm_certificate.json",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/clean_calm_certificate.json"
+    ],
+    "bytes_each": 233252
+  },
+  {
+    "sha256": "f6a6a82796dbaebb8a3b07149cf9a8b4b29a18a389b978d9bc8e96dd24282c43",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/qa/clean_certificates.log",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/clean_certificates.log"
+    ],
+    "bytes_each": 55
+  },
+  {
+    "sha256": "6c14b83232af9e9c6b9b2486e74cc682288c70136062aea3ba7dc7769375e103",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/qa/clean_environment_versions.txt",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/clean_environment_versions.txt"
+    ],
+    "bytes_each": 295
+  },
+  {
+    "sha256": "55bb9b20cd5789bf327ad751b1c54e26e6055646683e4f092f2a71037dcb9a97",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/qa/clean_rebuild.json",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/clean_rebuild.json"
+    ],
+    "bytes_each": 3586
+  },
+  {
+    "sha256": "277af5399cd265eeb6364a048d107bcad19f8d2dc7c3d76ad67427f7e951ff3b",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/qa/clean_wind_certificate.json",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/clean_wind_certificate.json"
+    ],
+    "bytes_each": 32525
+  },
+  {
+    "sha256": "9689b3f36d16147c69d1c18c65ad0a1f843bf7061ca4f786358f4a9c89087c2c",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/qa/delivery_acceptance.json",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/delivery_acceptance.json"
+    ],
+    "bytes_each": 490
+  },
+  {
+    "sha256": "8656627f6932e439beabed10eedb9cc84ad34ef8fe97a28362eec02b0cd27915",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/qa/document_checks.json",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/document_checks.json"
+    ],
+    "bytes_each": 2835
+  },
+  {
+    "sha256": "a181294c01fb6399f7a06f73f0fe10481393a8cb0408f9ca0193a90228c2bfaf",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/qa/figure_generation.log",
+      "research/checkers-runway13/whitepaper/v3/qa/make_figures.log",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/figure_generation.log",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/make_figures.log"
+    ],
+    "bytes_each": 40
+  },
+  {
+    "sha256": "065bdf9a756bdc8c92cffb899ba0111eeb9b168070516aa703a95122c86a651c",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/qa/figure_provenance.json",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/figure_provenance.json"
+    ],
+    "bytes_each": 5338
+  },
+  {
+    "sha256": "fda30f5f94304355d6081633287ac7109896409c100bad7320e43316532f52f4",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/qa/fonts.txt",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/fonts.txt"
+    ],
+    "bytes_each": 4812
+  },
+  {
+    "sha256": "a942c318b7100c221417f06848c06a58df8a2d1d24162866bb1df24201a40f45",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/qa/fresh_calm_certificate.json",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/fresh_calm_certificate.json"
+    ],
+    "bytes_each": 233251
+  },
+  {
+    "sha256": "017ee974e3dc1282a145f3528cdcc223fbe5160dcac48cedb63e499cddade693",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/qa/fresh_wind_certificate.json",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/fresh_wind_certificate.json"
+    ],
+    "bytes_each": 32524
+  },
+  {
+    "sha256": "9aa0a6fb9cca79ce856a42c910605446a6afe3af7742774b9a9798b58366ed2c",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/qa/insight_calculations.json",
+      "research/checkers-runway13/whitepaper/v4/qa/clean_insight_calculations.json",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/insight_calculations.json"
+    ],
+    "bytes_each": 559
+  },
+  {
+    "sha256": "69e07ca16212c3d3945e2e7f0b5ebb9581a9da0365daf8074207db7873989318",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/qa/model_counterfactual_tests.log",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/model_counterfactual_tests.log"
+    ],
+    "bytes_each": 179
+  },
+  {
+    "sha256": "fc1d195be84fa3ceef5800d3a09d3bcbf35c05988d9565c417d3479c4ed67305",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/qa/portable_tests.log",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/portable_tests.log"
+    ],
+    "bytes_each": 179
+  },
+  {
+    "sha256": "6ded79abafa967be67a52d1c5072fa328bdf722cb243aae3ae87c8b2b108384e",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/qa/preservation_check.json",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/preservation_check.json"
+    ],
+    "bytes_each": 330
+  },
+  {
+    "sha256": "95b49465a0ed6d3f669a8e043c8b15e5adfc6974e1fff797859f4d0944b89483",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/qa/v3_claim_checks.json",
+      "research/checkers-runway13/whitepaper/v4/qa/clean_v3_claim_checks.json",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/v3_claim_checks.json"
+    ],
+    "bytes_each": 275
+  },
+  {
+    "sha256": "e0c0dd2c4f8fe0f0fe1759ac9363c40e217c7dbe18839696617a3777843663ec",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/qa/verify_v3_claims.log",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/verify_v3_claims.log"
+    ],
+    "bytes_each": 90
+  },
+  {
+    "sha256": "4c3636df635270b973e7bf12959a3ba910b4b2b0c3f096eefb4b67e48f42ab88",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/qa/visual_inspection.json",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/visual_inspection.json"
+    ],
+    "bytes_each": 1625
+  },
+  {
+    "sha256": "480d19a76c14aa3054ee2da665030ad5e45545ed3fb3f9730c0b8cf41c814227",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/qa/wind_certificate_rerun.log",
+      "research/checkers-runway13/whitepaper/v4/qa/v3-baseline/wind_certificate_rerun.log"
+    ],
+    "bytes_each": 33
+  },
+  {
+    "sha256": "a3a6722fbe1be2a202c3593b887fd9c95c2f83e66889863c2246f6cb8c459b85",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/references.bib",
+      "research/checkers-runway13/whitepaper/v4/baseline/references.bib"
+    ],
+    "bytes_each": 4395
+  },
+  {
+    "sha256": "598c89bf583b4b6a5f1a35561f0856f9b4b7d013a725860bee238800c5d99b8c",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/requirements.txt",
+      "research/checkers-runway13/whitepaper/v4/requirements.txt",
+      "research/checkers-runway13/whitepaper/v5/requirements.txt"
+    ],
+    "bytes_each": 105
+  },
+  {
+    "sha256": "759b4f9fba67561cf72a1a3946e3a5bc1a9e0726490ce45e6dddec19f796e1cb",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/sections/foreword.tex",
+      "research/checkers-runway13/whitepaper/v4/baseline/sections/foreword.tex"
+    ],
+    "bytes_each": 3165
+  },
+  {
+    "sha256": "d8dafe0e237b9be9b6de33313fcb1fccdbf0749c1a01a2bd7b8c6aea0a92c4a8",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/sections/part1.tex",
+      "research/checkers-runway13/whitepaper/v4/baseline/sections/part1.tex"
+    ],
+    "bytes_each": 4097
+  },
+  {
+    "sha256": "3b7377122a4ce6d16778c62c1d2e9537169f862c65b1bf22129d1cba61838c76",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/sections/part2.tex",
+      "research/checkers-runway13/whitepaper/v4/baseline/sections/part2.tex"
+    ],
+    "bytes_each": 7291
+  },
+  {
+    "sha256": "67aadd2d687b99468dd87a4926b7041df4072b4d80c118191b483009ac2ce821",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/sections/part3.tex",
+      "research/checkers-runway13/whitepaper/v4/baseline/sections/part3.tex"
+    ],
+    "bytes_each": 8369
+  },
+  {
+    "sha256": "bce16fa72633556468eb3b985630812ea7bfe9543acaad513cad9f158ade0187",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/sections/part4.tex",
+      "research/checkers-runway13/whitepaper/v4/baseline/sections/part4.tex"
+    ],
+    "bytes_each": 6596
+  },
+  {
+    "sha256": "3158ab724fa78feb8407e32edea63e6a6657191aab510395b927968c9ca48d61",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/sections/part5.tex",
+      "research/checkers-runway13/whitepaper/v4/baseline/sections/part5.tex"
+    ],
+    "bytes_each": 3324
+  },
+  {
+    "sha256": "fab4a7e95873454cd91e01b13ed3090db15b637871dabe85c4d46c95f86c9a59",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/sections/part6.tex",
+      "research/checkers-runway13/whitepaper/v4/baseline/sections/part6.tex"
+    ],
+    "bytes_each": 8798
+  },
+  {
+    "sha256": "03441a243e381d188aea0c2a54ee8b89f211a95b2abc82ab4a6ba9d03f2d8469",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/sections/part7.tex",
+      "research/checkers-runway13/whitepaper/v4/baseline/sections/part7.tex"
+    ],
+    "bytes_each": 5470
+  },
+  {
+    "sha256": "071ac79211baadb406070c7c295ddb2b92cca24e3f66eb1bdd0cab0fbd127e17",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/sections/part8.tex",
+      "research/checkers-runway13/whitepaper/v4/baseline/sections/part8.tex"
+    ],
+    "bytes_each": 5685
+  },
+  {
+    "sha256": "20bd14cbddb1f6c0a18ccb491dabfaf999ae7b2e15f9b57c1df4d441e9ae28d0",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/sections/summary.tex",
+      "research/checkers-runway13/whitepaper/v4/baseline/sections/summary.tex"
+    ],
+    "bytes_each": 2803
+  },
+  {
+    "sha256": "3d075c631b1828b3a802466ba5183aa1e8de76fe0a7fa15c58c2966c128369f8",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/verify_certificates.py",
+      "research/checkers-runway13/whitepaper/v4/verify_certificates.py",
+      "research/checkers-runway13/whitepaper/v5/verify_certificates.py"
+    ],
+    "bytes_each": 1581
+  },
+  {
+    "sha256": "6d417df3e53fda8f5db0e76b0eb6cddf4b3f480e740064cf284a810bb77750ff",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/verify_v2_inputs.py",
+      "research/checkers-runway13/whitepaper/v4/verify_v2_inputs.py",
+      "research/checkers-runway13/whitepaper/v5/verify_v2_inputs.py"
+    ],
+    "bytes_each": 15159
+  },
+  {
+    "sha256": "1654a6d07632210ae6839e563ce4579498dda64637d6b1d64ab085f9d3193f5b",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v3/verify_v3_claims.py",
+      "research/checkers-runway13/whitepaper/v4/verify_v3_claims.py",
+      "research/checkers-runway13/whitepaper/v5/verify_v3_claims.py"
+    ],
+    "bytes_each": 1737
+  },
+  {
+    "sha256": "eeee1e58bcc34e9edb64c32162187836f5cc54da9f9ca7651073b954688eddf2",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v4/RFS.cls",
+      "research/checkers-runway13/whitepaper/v5/RFS.cls"
+    ],
+    "bytes_each": 61073
+  },
+  {
+    "sha256": "781551603dcd60260217c22d1285db95d9f45a8019ade3c9adc218e92d77fef0",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v4/coefficients.tex",
+      "research/checkers-runway13/whitepaper/v5/coefficients.tex"
+    ],
+    "bytes_each": 2566
+  },
+  {
+    "sha256": "af36c5069ca200b440f1c4a8a820020287eb544aa3b29a4bb00e915469733a2f",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v4/crop.cfg",
+      "research/checkers-runway13/whitepaper/v5/crop.cfg"
+    ],
+    "bytes_each": 3109
+  },
+  {
+    "sha256": "c6759bb8261ca2ce85982f87b1f7a7142f84cc0782cf480a525a914abc49e424",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v4/crop.sty",
+      "research/checkers-runway13/whitepaper/v5/crop.sty"
+    ],
+    "bytes_each": 17627
+  },
+  {
+    "sha256": "a41e080f65120368f22e5e320455051128252383fd2c9ff36de5ca012720599e",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v4/references.bib",
+      "research/checkers-runway13/whitepaper/v5/references.bib"
+    ],
+    "bytes_each": 4499
+  },
+  {
+    "sha256": "5a1bdf7baa70add87e9c24073b03de7b12f64a70526aa4c37e6fc89136dfeed4",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v4/rfs.bst",
+      "research/checkers-runway13/whitepaper/v5/rfs.bst"
+    ],
+    "bytes_each": 35792
+  },
+  {
+    "sha256": "7ee0843d8cd3df5097f56367e7ac0189ce46e131e4b5dc80bab2c67523243edf",
+    "paths": [
+      "research/checkers-runway13/whitepaper/v5/qa/science_checks.json",
+      "research/checkers-runway13/whitepaper/v5/qa/science_checks_fresh_bound.json"
+    ],
+    "bytes_each": 19949
+  },
+  {
+    "sha256": "7ad548506a199a2b3e9311d6e72cb628e6f76061afa47a4de922eb9ce1aacc13",
+    "paths": [
+      "visual-atlas/v1/comparisons/09-across-the-nineties.png",
+      "visual-atlas/v1/renders/annotated/09-across-the-nineties.png"
+    ],
+    "bytes_each": 3227064
+  },
+  {
+    "sha256": "6050ac47b0aabe7ed1952bc2dbd81ad87210f328f16a56d73897ddd5ef77fe64",
+    "paths": [
+      "visual-atlas/v1/comparisons/10-then-and-now.png",
+      "visual-atlas/v1/renders/annotated/10-then-and-now.png"
+    ],
+    "bytes_each": 1819759
+  },
+  {
+    "sha256": "92428524acc5764ea32d66dbebf8c8367eb7b730598b9d49796d6ea9318aa1c4",
+    "paths": [
+      "visual-atlas/v1/comparisons/11-evidence-chain.png",
+      "visual-atlas/v1/renders/annotated/11-evidence-chain.png"
+    ],
+    "bytes_each": 2088294
+  }
+]

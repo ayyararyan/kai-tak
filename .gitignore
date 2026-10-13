@@ -1763,3 +1763,9 @@ python_deps/
 /research/checkers-runway13/whitepaper/v5/qa/pages/
 /research/checkers-runway13/whitepaper/v5/qa/*pytest_tmp/
 /research/checkers-runway13/whitepaper/v5/qa/*.log
+
+# Architecture maintenance: local-only temporary work (not frozen research outputs)
+/.work/
+/.cache/
+/.science-venv/
+/.archive-receipts/

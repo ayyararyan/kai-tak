@@ -1,0 +1,32 @@
+{
+  "main_before_merge": "a772db4a0198edfdba5cb3e4c351e3259a554ef8",
+  "architecture_branch_tip": "fce4b541311b0898919403f7cb3c2cd4fd0e03a4",
+  "checked_utc": "2026-10-13T19:11:54.306296+00:00",
+  "user_instruction": "Check and merge with main; keep the README currently in main.",
+  "preserved_files": [
+    {
+      "path": "README.md",
+      "sha256": "e53cc092d12d45ce2c360ebcd536f79242df824d3a9f30e82f8a42de6c94e8cc",
+      "bytes": 12037,
+      "identical_to_main": true
+    },
+    {
+      "path": "assets/runway-allocation.svg",
+      "sha256": "8b078532e0c750b5a5e87ef1c7c251264354337049ed1aa67905a0ff333fea40",
+      "bytes": 7864,
+      "identical_to_main": true
+    }
+  ],
+  "resolution": "Keep main README and diagram exactly; root homepage is author-maintained and excluded from generated navigation. Other pillar and status pages remain generated.",
+  "scientific_changes": false,
+  "prior_branch_ci": "Both81a3a9e andfce4b54 hostedfastchecks succeeded; mergedtree checked separately.",
+  "validation": {
+    "fast_status": "passed",
+    "tests": "100 passed, 43 subtests passed",
+    "protected_baseline_files": 2967,
+    "scientific_status": "passed",
+    "scientific_tests": "89 current model/counterfactual +30 explicit reference +117 published proof snapshot",
+    "gate": "expected exit2 with INCOMPLETE and no changed frozen files",
+    "independent_review": "Five targeted regressions passed; exact README/diagram equality independently verified; no remaining scoped findings."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "input_files_checked": 25,
+  "scene_members_checked": 27,
+  "errors": [],
+  "scope": "Source/scene byte identity only; no render or browser acceptance.",
+  "lane": "atlas",
+  "checked_utc": "2026-10-13T18:52:50.375310+00:00",
+  "status": "passed"
+}

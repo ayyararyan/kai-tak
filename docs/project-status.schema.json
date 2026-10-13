@@ -1,0 +1,321 @@
+{
+  "type": "object",
+  "required": [
+    "schema_version",
+    "project",
+    "as_of",
+    "audited_commit",
+    "latest_paper",
+    "papers",
+    "archive",
+    "atlas",
+    "tags",
+    "science",
+    "receipts"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "project": {
+      "const": "Checkers with Runway 13"
+    },
+    "as_of": {
+      "type": "string",
+      "minLength": 1,
+      "format": "date"
+    },
+    "audited_commit": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[a-f0-9]{40}$"
+    },
+    "latest_paper": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^v[1-9][0-9]*$"
+    },
+    "papers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "version",
+          "status",
+          "pages",
+          "pdf",
+          "pdf_sha256",
+          "source_package",
+          "source_sha256",
+          "guide"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "version": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^v[1-9][0-9]*$"
+          },
+          "status": {
+            "enum": [
+              "published",
+              "historical-draft"
+            ]
+          },
+          "pages": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "pdf": {
+            "type": "string",
+            "minLength": 1
+          },
+          "pdf_sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "source_package": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "source_sha256": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "guide": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "status": {
+                  "const": "published"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "source_package": {
+                  "type": "string"
+                },
+                "source_sha256": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "archive": {
+      "type": "object",
+      "required": [
+        "version",
+        "tag",
+        "entry",
+        "manifest",
+        "collections",
+        "catalogue_artifacts",
+        "datasets",
+        "permitted_files",
+        "bundles",
+        "provenance_warnings"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tag": {
+          "type": "string",
+          "minLength": 1
+        },
+        "entry": {
+          "type": "string",
+          "minLength": 1
+        },
+        "manifest": {
+          "type": "string",
+          "minLength": 1
+        },
+        "collections": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "catalogue_artifacts": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "datasets": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "permitted_files": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "bundles": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "provenance_warnings": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "atlas": {
+      "type": "object",
+      "required": [
+        "version",
+        "tag",
+        "entry",
+        "gallery",
+        "pdf",
+        "scene_manifest",
+        "plates",
+        "views",
+        "browser_acceptance"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tag": {
+          "type": "string",
+          "minLength": 1
+        },
+        "entry": {
+          "type": "string",
+          "minLength": 1
+        },
+        "gallery": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pdf": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scene_manifest": {
+          "type": "string",
+          "minLength": 1
+        },
+        "plates": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "views": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "browser_acceptance": {
+          "enum": [
+            "unverified",
+            "verified-local-chromium"
+          ]
+        }
+      }
+    },
+    "tags": {
+      "type": "object",
+      "required": [
+        "archive-v1.0.0",
+        "integration-2026-10-13",
+        "snapshot-2026-10-13",
+        "update-2026-10-13",
+        "visual-atlas-v1"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "archive-v1.0.0": {
+          "type": "string",
+          "minLength": 1
+        },
+        "integration-2026-10-13": {
+          "type": "string",
+          "minLength": 1
+        },
+        "snapshot-2026-10-13": {
+          "type": "string",
+          "minLength": 1
+        },
+        "update-2026-10-13": {
+          "type": "string",
+          "minLength": 1
+        },
+        "visual-atlas-v1": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "science": {
+      "type": "object",
+      "required": [
+        "historical_clearance",
+        "historical_optimum",
+        "nominal_and_steady_wind_certificates"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "historical_clearance": {
+          "const": "blocked"
+        },
+        "historical_optimum": {
+          "const": "unresolved"
+        },
+        "nominal_and_steady_wind_certificates": {
+          "const": "fixed-model feasibility only"
+        }
+      }
+    },
+    "receipts": {
+      "type": "object",
+      "required": [
+        "paper",
+        "archive",
+        "atlas"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "paper": {
+          "type": "string",
+          "minLength": 1
+        },
+        "archive": {
+          "type": "string",
+          "minLength": 1
+        },
+        "atlas": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Current public products, independent version histories"
+}

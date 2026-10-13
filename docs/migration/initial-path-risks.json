@@ -1,0 +1,3222 @@
+[
+  {
+    "path": "archive/audit/PROVENANCE_AUDIT.md",
+    "line": 69,
+    "kind": "absolute"
+  },
+  {
+    "path": "archive/collections/01/README.md",
+    "line": 7,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "archive/collections/01/collection.json",
+    "line": 17,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "archive/collections/02/README.md",
+    "line": 7,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "archive/collections/02/collection.json",
+    "line": 17,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "archive/collections/03/README.md",
+    "line": 7,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "archive/collections/03/collection.json",
+    "line": 13,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "archive/collections/04/README.md",
+    "line": 7,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "archive/collections/04/collection.json",
+    "line": 15,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "archive/collections/05/README.md",
+    "line": 7,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "archive/collections/05/collection.json",
+    "line": 14,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "archive/collections/06/README.md",
+    "line": 7,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "archive/collections/06/collection.json",
+    "line": 14,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "archive/collections/07/README.md",
+    "line": 7,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "archive/collections/07/collection.json",
+    "line": 15,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "archive/collections/08/README.md",
+    "line": 7,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "archive/collections/08/collection.json",
+    "line": 13,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "archive/collections/09/README.md",
+    "line": 7,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "archive/collections/09/collection.json",
+    "line": 16,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "archive/licensing/README.md",
+    "line": 3,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "archive/releases/v1.0.0/RELEASE_NOTES.md",
+    "line": 15,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "publication/integration_source_inventory.json",
+    "line": 435,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/PROJECT_STATE.md",
+    "line": 45,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/PROJECT_STATE.md",
+    "line": 51,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/analytical/coupled/certify_candidate.py",
+    "line": 8,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/analytical/coupled/solve_coupled.py",
+    "line": 8,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/evidence/EVIDENCE_REPORT.md",
+    "line": 11,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/evidence/cal605_reconstruction/SPEC.md",
+    "line": 42,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/evidence/cal605_reconstruction/SPEC.md",
+    "line": 44,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/evidence/cal605_reconstruction/flight/build_flight.py",
+    "line": 15,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/evidence/cal605_reconstruction/noaa/README.md",
+    "line": 42,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/evidence/cal605_reconstruction/test_reconstruction.py",
+    "line": 35,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/evidence/cal605_reconstruction/wind/manifest.json",
+    "line": 7,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/evidence/cal605_reconstruction/wind/manifest.json",
+    "line": 12,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/evidence/cal605_reconstruction/wind/reconstruct_wind.py",
+    "line": 9,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/evidence/weather_feasibility_2026-10-13/README.md",
+    "line": 26,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/build_source_ledger.py",
+    "line": 12,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/followup/REPORT.md",
+    "line": 3,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/followup/diagnose_threshold.py",
+    "line": 6,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/followup/diagnose_threshold.py",
+    "line": 32,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/followup/primary_observations.json",
+    "line": 12,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/followup/primary_observations.json",
+    "line": 28,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/followup/primary_observations.json",
+    "line": 44,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/followup/primary_observations.json",
+    "line": 60,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/followup/primary_observations.json",
+    "line": 75,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/followup/primary_observations.json",
+    "line": 91,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/followup/primary_observations.json",
+    "line": 116,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/followup/query_survey_archive.py",
+    "line": 4,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/followup/threshold_diagnosis.json",
+    "line": 9,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/followup/verify_followup.py",
+    "line": 7,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/primary_source_manifest.json",
+    "line": 6,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/source_observations.json",
+    "line": 8,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/source_observations.json",
+    "line": 24,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/source_observations.json",
+    "line": 40,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/source_observations.json",
+    "line": 56,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/source_observations.json",
+    "line": 72,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/source_observations.json",
+    "line": 88,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/source_observations.json",
+    "line": 102,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/source_observations.json",
+    "line": 116,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/source_observations.json",
+    "line": 130,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/source_observations.json",
+    "line": 144,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/source_observations.json",
+    "line": 160,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/source_observations.json",
+    "line": 176,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/source_observations.json",
+    "line": 197,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/source_observations.json",
+    "line": 216,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/source_observations.json",
+    "line": 232,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/source_observations.json",
+    "line": 252,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/source_observations.json",
+    "line": 268,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/source_observations.json",
+    "line": 284,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/source_observations.json",
+    "line": 307,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/source_observations.json",
+    "line": 327,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/source_observations.json",
+    "line": 343,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/source_observations.json",
+    "line": 359,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/block_matching/SPEC.md",
+    "line": 46,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/block_matching/SPEC.md",
+    "line": 52,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/block_matching/candidates/README.md",
+    "line": 107,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/block_matching/candidates/extract_candidates.py",
+    "line": 21,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/README.md",
+    "line": 100,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/extract_candidates.py",
+    "line": 20,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/validate_and_summarize.py",
+    "line": 13,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/README.md",
+    "line": 6,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/block_matching/candidates/validate_and_summarize.py",
+    "line": 13,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/block_matching/reviews/code_snapshot.md",
+    "line": 324,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/block_matching/reviews/current_code_snapshot.md",
+    "line": 353,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/block_matching/scene/readable/index.html",
+    "line": 11,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/block_matching/scene/readable/spec-readable-reconstruction.md",
+    "line": 22,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/chronology/HANDOFF.json",
+    "line": 96,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/chronology/HANDOFF.json",
+    "line": 101,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/chronology/SPEC.md",
+    "line": 44,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/chronology/SPEC.md",
+    "line": 45,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/chronology/prepare_handoff.py",
+    "line": 11,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/chronology/structures/chronology.py",
+    "line": 5,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/chronology/structures/documentation/sources.json",
+    "line": 4,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/chronology/structures/review_repair_baseline/chronology.py",
+    "line": 5,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v1/README.md",
+    "line": 50,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v1/evidence/PROJECT_STATE.md",
+    "line": 45,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v1/evidence/PROJECT_STATE.md",
+    "line": 51,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/EVIDENCE_REPORT.md",
+    "line": 11,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/noaa/README.md",
+    "line": 42,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/HANDOFF.json",
+    "line": 96,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/HANDOFF.json",
+    "line": 101,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v2/evidence/PROJECT_STATE.md",
+    "line": 45,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v2/evidence/PROJECT_STATE.md",
+    "line": 51,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/EVIDENCE_REPORT.md",
+    "line": 11,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/noaa/README.md",
+    "line": 42,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/HANDOFF.json",
+    "line": 96,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/HANDOFF.json",
+    "line": 101,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v3/evidence/PROJECT_STATE.md",
+    "line": 45,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v3/evidence/PROJECT_STATE.md",
+    "line": 51,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v3/evidence/analytical/coupled/certify_candidate.py",
+    "line": 8,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v3/evidence/analytical/coupled/solve_coupled.py",
+    "line": 8,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v3/evidence/evidence/EVIDENCE_REPORT.md",
+    "line": 11,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/noaa/README.md",
+    "line": 42,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/chronology/HANDOFF.json",
+    "line": 96,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/chronology/HANDOFF.json",
+    "line": 101,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v4/evidence/PROJECT_STATE.md",
+    "line": 45,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v4/evidence/PROJECT_STATE.md",
+    "line": 51,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v4/evidence/analytical/coupled/certify_candidate.py",
+    "line": 8,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v4/evidence/analytical/coupled/solve_coupled.py",
+    "line": 8,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v4/evidence/evidence/EVIDENCE_REPORT.md",
+    "line": 11,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v4/evidence/evidence/cal605_reconstruction/noaa/README.md",
+    "line": 42,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/chronology/HANDOFF.json",
+    "line": 96,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/chronology/HANDOFF.json",
+    "line": 101,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "scripts/archive_catalogue.py",
+    "line": 165,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "scripts/archive_catalogue.py",
+    "line": 169,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "scripts/archive_validate.py",
+    "line": 162,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "tests/test_archive_io.py",
+    "line": 102,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "tests/test_archive_metadata.py",
+    "line": 61,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "visual-atlas/v1/PROJECT_STATE.md",
+    "line": 7,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/SPEC.md",
+    "line": 39,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "visual-atlas/v1/gallery/index.html",
+    "line": 17,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 28,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 30,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 31,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 32,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 33,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 34,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 35,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 36,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 37,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 38,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 39,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 68,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 69,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 83,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 84,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 85,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 86,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 87,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 88,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 89,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 90,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 91,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 92,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 139,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 140,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 142,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 143,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 144,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 145,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 146,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 147,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 148,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 149,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 150,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 151,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 180,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 181,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 183,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 184,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 185,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 186,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 187,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 188,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 189,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 190,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 191,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 192,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 221,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 222,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 223,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 224,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 232,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 233,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 234,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 235,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 236,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 237,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 238,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 239,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 240,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 241,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 270,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 271,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 273,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 274,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 275,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 276,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 277,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 278,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 279,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 280,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 281,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 282,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 284,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 312,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 313,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 315,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 316,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 317,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 318,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 319,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 320,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 321,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 322,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 323,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 324,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 326,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 354,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 355,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 357,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 358,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 359,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 360,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 361,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 362,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 363,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 364,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 365,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 366,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 368,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 396,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 397,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 398,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 440,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 441,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 442,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 443,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 444,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 445,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 446,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 447,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 448,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 449,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 477,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 478,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 479,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 521,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 522,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 523,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 524,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 525,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 526,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 527,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 528,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 529,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 530,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 558,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 559,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 561,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 562,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 563,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 564,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 565,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 566,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 567,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 568,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 569,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 570,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 599,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 600,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 601,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 643,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 644,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 645,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 646,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 647,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 648,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 649,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 650,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 651,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 652,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 680,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 681,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 682,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 690,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 691,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 692,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 693,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 694,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 695,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 696,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 697,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 698,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 699,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 728,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 729,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 731,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 732,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 733,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 734,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 735,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 736,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 737,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 738,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 739,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 740,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 769,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 770,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 772,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 773,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 774,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 775,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 776,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 777,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 778,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 779,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 780,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 781,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 836,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 837,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 839,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 840,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 841,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 842,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 843,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 844,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 845,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 846,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 847,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 848,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 850,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 904,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 905,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 906,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 908,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 909,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 910,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 911,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 912,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 913,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 914,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 915,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 916,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/metadata/render_jobs.json",
+    "line": 917,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/01-grand-overview.render.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/01-grand-overview.render.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/01-grand-overview.render.json",
+    "line": 28,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/01-grand-overview.render.json",
+    "line": 29,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/01-grand-overview.render.json",
+    "line": 126,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/02-runway-water.render.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/02-runway-water.render.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/02-runway-water.render.json",
+    "line": 28,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/02-runway-water.render.json",
+    "line": 29,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/02-runway-water.render.json",
+    "line": 126,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/03-city-beneath.render.json",
+    "line": 38,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/03-city-beneath.render.json",
+    "line": 39,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/03-city-beneath.render.json",
+    "line": 40,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/03-city-beneath.render.json",
+    "line": 137,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/04-hill-context.render.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/04-hill-context.render.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/04-hill-context.render.json",
+    "line": 28,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/04-hill-context.render.json",
+    "line": 125,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/04-hill-observations.render.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/04-hill-observations.render.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/04-hill-observations.render.json",
+    "line": 28,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/04-hill-observations.render.json",
+    "line": 125,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/05-virtual-perspective.render.json",
+    "line": 33,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/05-virtual-perspective.render.json",
+    "line": 34,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/05-virtual-perspective.render.json",
+    "line": 35,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/05-virtual-perspective.render.json",
+    "line": 132,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/06-final-alignment.render.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/06-final-alignment.render.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/06-final-alignment.render.json",
+    "line": 28,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/06-final-alignment.render.json",
+    "line": 29,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/06-final-alignment.render.json",
+    "line": 126,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/08-november-surface.render.json",
+    "line": 33,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/08-november-surface.render.json",
+    "line": 34,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/08-november-surface.render.json",
+    "line": 35,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/08-november-surface.render.json",
+    "line": 132,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/08-surface-daylight.render.json",
+    "line": 33,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/08-surface-daylight.render.json",
+    "line": 34,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/08-surface-daylight.render.json",
+    "line": 35,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/08-surface-daylight.render.json",
+    "line": 132,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/10-modern-airport.render.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/10-modern-airport.render.json",
+    "line": 28,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/10-modern-airport.render.json",
+    "line": 29,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/10-modern-airport.render.json",
+    "line": 30,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/10-modern-airport.render.json",
+    "line": 127,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/10-modern-core.render.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/10-modern-core.render.json",
+    "line": 28,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/10-modern-core.render.json",
+    "line": 29,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/10-modern-core.render.json",
+    "line": 30,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/10-modern-core.render.json",
+    "line": 127,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/11-map-top.render.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/11-map-top.render.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/11-map-top.render.json",
+    "line": 28,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/11-map-top.render.json",
+    "line": 29,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/11-map-top.render.json",
+    "line": 126,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/11-map-top.render.json",
+    "line": 133,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/11-surface-top.render.json",
+    "line": 33,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/11-surface-top.render.json",
+    "line": 34,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/11-surface-top.render.json",
+    "line": 35,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/11-surface-top.render.json",
+    "line": 132,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/12-panorama.render.json",
+    "line": 33,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/12-panorama.render.json",
+    "line": 34,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/12-panorama.render.json",
+    "line": 35,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/12-panorama.render.json",
+    "line": 133,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/map-1989-10.render.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/map-1989-10.render.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/map-1989-10.render.json",
+    "line": 28,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/map-1989-10.render.json",
+    "line": 29,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/map-1989-10.render.json",
+    "line": 126,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/map-1989-10.render.json",
+    "line": 133,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/map-1994-07.render.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/map-1994-07.render.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/map-1994-07.render.json",
+    "line": 28,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/map-1994-07.render.json",
+    "line": 29,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/map-1994-07.render.json",
+    "line": 126,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/map-1994-07.render.json",
+    "line": 133,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/map-1997-04.render.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/map-1997-04.render.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/map-1997-04.render.json",
+    "line": 28,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/map-1997-04.render.json",
+    "line": 29,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/map-1997-04.render.json",
+    "line": 126,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/renders/master/map-1997-04.render.json",
+    "line": 133,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/01-grand-overview.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/01-grand-overview.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/01-grand-overview.json",
+    "line": 28,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/01-grand-overview.json",
+    "line": 70,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/01-grand-overview.json",
+    "line": 71,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/01-grand-overview.json",
+    "line": 72,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/01-grand-overview.json",
+    "line": 73,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/01-grand-overview.json",
+    "line": 74,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/01-grand-overview.json",
+    "line": 75,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/01-grand-overview.json",
+    "line": 76,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/01-grand-overview.json",
+    "line": 77,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/01-grand-overview.json",
+    "line": 78,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/01-grand-overview.json",
+    "line": 79,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/02-runway-water.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/02-runway-water.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/02-runway-water.json",
+    "line": 28,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/02-runway-water.json",
+    "line": 70,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/02-runway-water.json",
+    "line": 71,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/02-runway-water.json",
+    "line": 72,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/02-runway-water.json",
+    "line": 73,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/02-runway-water.json",
+    "line": 74,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/02-runway-water.json",
+    "line": 75,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/02-runway-water.json",
+    "line": 76,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/02-runway-water.json",
+    "line": 77,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/02-runway-water.json",
+    "line": 78,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/02-runway-water.json",
+    "line": 79,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/03-city-beneath.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/03-city-beneath.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/03-city-beneath.json",
+    "line": 41,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/03-city-beneath.json",
+    "line": 42,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/03-city-beneath.json",
+    "line": 43,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/03-city-beneath.json",
+    "line": 44,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/03-city-beneath.json",
+    "line": 45,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/03-city-beneath.json",
+    "line": 46,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/03-city-beneath.json",
+    "line": 47,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/03-city-beneath.json",
+    "line": 48,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/03-city-beneath.json",
+    "line": 49,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/03-city-beneath.json",
+    "line": 50,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-context.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-context.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-context.json",
+    "line": 28,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-context.json",
+    "line": 30,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-context.json",
+    "line": 31,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-context.json",
+    "line": 32,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-context.json",
+    "line": 33,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-context.json",
+    "line": 34,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-context.json",
+    "line": 35,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-context.json",
+    "line": 36,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-context.json",
+    "line": 37,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-context.json",
+    "line": 38,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-context.json",
+    "line": 39,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-observations.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-observations.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-observations.json",
+    "line": 28,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-observations.json",
+    "line": 36,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-observations.json",
+    "line": 37,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-observations.json",
+    "line": 38,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-observations.json",
+    "line": 39,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-observations.json",
+    "line": 40,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-observations.json",
+    "line": 41,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-observations.json",
+    "line": 42,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-observations.json",
+    "line": 43,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-observations.json",
+    "line": 44,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/04-hill-observations.json",
+    "line": 45,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/05-virtual-perspective.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/05-virtual-perspective.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/05-virtual-perspective.json",
+    "line": 29,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/05-virtual-perspective.json",
+    "line": 30,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/05-virtual-perspective.json",
+    "line": 31,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/05-virtual-perspective.json",
+    "line": 32,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/05-virtual-perspective.json",
+    "line": 33,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/05-virtual-perspective.json",
+    "line": 34,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/05-virtual-perspective.json",
+    "line": 35,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/05-virtual-perspective.json",
+    "line": 36,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/05-virtual-perspective.json",
+    "line": 37,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/05-virtual-perspective.json",
+    "line": 38,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/06-final-alignment.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/06-final-alignment.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/06-final-alignment.json",
+    "line": 28,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/06-final-alignment.json",
+    "line": 70,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/06-final-alignment.json",
+    "line": 71,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/06-final-alignment.json",
+    "line": 72,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/06-final-alignment.json",
+    "line": 73,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/06-final-alignment.json",
+    "line": 74,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/06-final-alignment.json",
+    "line": 75,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/06-final-alignment.json",
+    "line": 76,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/06-final-alignment.json",
+    "line": 77,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/06-final-alignment.json",
+    "line": 78,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/06-final-alignment.json",
+    "line": 79,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/08-november-surface.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/08-november-surface.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/08-november-surface.json",
+    "line": 29,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/08-november-surface.json",
+    "line": 30,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/08-november-surface.json",
+    "line": 31,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/08-november-surface.json",
+    "line": 32,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/08-november-surface.json",
+    "line": 33,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/08-november-surface.json",
+    "line": 34,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/08-november-surface.json",
+    "line": 35,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/08-november-surface.json",
+    "line": 36,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/08-november-surface.json",
+    "line": 37,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/08-november-surface.json",
+    "line": 38,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/08-surface-daylight.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/08-surface-daylight.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/08-surface-daylight.json",
+    "line": 29,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/08-surface-daylight.json",
+    "line": 30,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/08-surface-daylight.json",
+    "line": 31,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/08-surface-daylight.json",
+    "line": 32,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/08-surface-daylight.json",
+    "line": 33,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/08-surface-daylight.json",
+    "line": 34,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/08-surface-daylight.json",
+    "line": 35,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/08-surface-daylight.json",
+    "line": 36,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/08-surface-daylight.json",
+    "line": 37,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/08-surface-daylight.json",
+    "line": 38,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-airport.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-airport.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-airport.json",
+    "line": 28,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-airport.json",
+    "line": 29,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-airport.json",
+    "line": 37,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-airport.json",
+    "line": 38,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-airport.json",
+    "line": 39,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-airport.json",
+    "line": 40,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-airport.json",
+    "line": 41,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-airport.json",
+    "line": 42,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-airport.json",
+    "line": 43,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-airport.json",
+    "line": 44,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-airport.json",
+    "line": 45,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-airport.json",
+    "line": 46,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-core.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-core.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-core.json",
+    "line": 29,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-core.json",
+    "line": 30,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-core.json",
+    "line": 31,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-core.json",
+    "line": 32,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-core.json",
+    "line": 33,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-core.json",
+    "line": 34,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-core.json",
+    "line": 35,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-core.json",
+    "line": 36,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-core.json",
+    "line": 37,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/10-modern-core.json",
+    "line": 38,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-map-top.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-map-top.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-map-top.json",
+    "line": 29,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-map-top.json",
+    "line": 30,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-map-top.json",
+    "line": 31,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-map-top.json",
+    "line": 32,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-map-top.json",
+    "line": 33,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-map-top.json",
+    "line": 34,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-map-top.json",
+    "line": 35,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-map-top.json",
+    "line": 36,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-map-top.json",
+    "line": 37,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-map-top.json",
+    "line": 38,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-map-top.json",
+    "line": 40,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-surface-top.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-surface-top.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-surface-top.json",
+    "line": 29,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-surface-top.json",
+    "line": 30,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-surface-top.json",
+    "line": 31,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-surface-top.json",
+    "line": 32,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-surface-top.json",
+    "line": 33,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-surface-top.json",
+    "line": 34,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-surface-top.json",
+    "line": 35,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-surface-top.json",
+    "line": 36,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-surface-top.json",
+    "line": 37,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/11-surface-top.json",
+    "line": 38,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/12-panorama.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/12-panorama.json",
+    "line": 28,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/12-panorama.json",
+    "line": 30,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/12-panorama.json",
+    "line": 31,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/12-panorama.json",
+    "line": 32,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/12-panorama.json",
+    "line": 33,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/12-panorama.json",
+    "line": 34,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/12-panorama.json",
+    "line": 35,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/12-panorama.json",
+    "line": 36,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/12-panorama.json",
+    "line": 37,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/12-panorama.json",
+    "line": 38,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/12-panorama.json",
+    "line": 39,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1989-10.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1989-10.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1989-10.json",
+    "line": 29,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1989-10.json",
+    "line": 30,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1989-10.json",
+    "line": 31,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1989-10.json",
+    "line": 32,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1989-10.json",
+    "line": 33,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1989-10.json",
+    "line": 34,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1989-10.json",
+    "line": 35,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1989-10.json",
+    "line": 36,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1989-10.json",
+    "line": 37,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1989-10.json",
+    "line": 38,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1989-10.json",
+    "line": 40,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1994-07.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1994-07.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1994-07.json",
+    "line": 29,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1994-07.json",
+    "line": 30,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1994-07.json",
+    "line": 31,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1994-07.json",
+    "line": 32,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1994-07.json",
+    "line": 33,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1994-07.json",
+    "line": 34,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1994-07.json",
+    "line": 35,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1994-07.json",
+    "line": 36,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1994-07.json",
+    "line": 37,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1994-07.json",
+    "line": 38,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1994-07.json",
+    "line": 40,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1997-04.json",
+    "line": 26,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1997-04.json",
+    "line": 27,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1997-04.json",
+    "line": 29,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1997-04.json",
+    "line": 30,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1997-04.json",
+    "line": 31,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1997-04.json",
+    "line": 32,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1997-04.json",
+    "line": 33,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1997-04.json",
+    "line": 34,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1997-04.json",
+    "line": 35,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1997-04.json",
+    "line": 36,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1997-04.json",
+    "line": 37,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1997-04.json",
+    "line": 38,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scenes/jobs/map-1997-04.json",
+    "line": 40,
+    "kind": "absolute"
+  },
+  {
+    "path": "visual-atlas/v1/scripts/build_gallery.py",
+    "line": 21,
+    "kind": "relative-depth"
+  },
+  {
+    "path": "visual-atlas/v1/scripts/render_all.py",
+    "line": 5,
+    "kind": "absolute"
+  }
+]

@@ -1,0 +1,35 @@
+name: Scientific regression checks
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'research/checkers-runway13/model/**'
+      - 'research/checkers-runway13/counterfactual/**'
+      - 'research/checkers-runway13/approximation/**'
+      - 'research/checkers-runway13/analytical/**'
+      - 'research/checkers-runway13/integrated/**'
+      - 'research/checkers-runway13/requirements.lock'
+      - 'publication/scientific-results-20261013/**'
+      - 'scripts/repo.py'
+      - '.github/workflows/scientific-smoke.yml'
+permissions:
+  contents: read
+jobs:
+  science:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r publication/scientific-results-20261013/requirements.txt
+      - run: python scripts/repo.py science --report "$RUNNER_TEMP/science.json"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: scientific-smoke-report
+          path: ${{ runner.temp }}/science.json
+          if-no-files-found: warn

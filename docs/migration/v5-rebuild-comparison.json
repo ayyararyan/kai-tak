@@ -1,0 +1,445 @@
+{
+  "checked_utc": "2026-10-13T18:52:03.150126+00:00",
+  "status": "passed",
+  "version": "v5",
+  "accepted_pdf_sha256": "328f848d805df1e5bac5fd6aff6f28363112bea3acd9a5fcb71c33ec16842939",
+  "public_source_zip_sha256": "6a7d44fb94de027a7394f0d6fa88874f4ce7bf7ee030a87696d3dbae4617724f",
+  "source_members": 278,
+  "command": "python build.py --figures (extracted published package; XELATEX/BIBTEX set to installed TeX Live)",
+  "python": "3.12.13 with exact pinned library versions; production guide records3.14",
+  "pages": [
+    {
+      "page": 1,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 2,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 3,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 4,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 5,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 6,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 7,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 8,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 9,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 10,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 11,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 12,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 13,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 14,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 15,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 16,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 17,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 18,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 19,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 20,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 21,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 22,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 23,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 24,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 25,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 26,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 27,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 28,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 29,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 30,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 31,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 32,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 33,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 34,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 35,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 36,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 37,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    },
+    {
+      "page": 38,
+      "text_identical": true,
+      "pixels_identical_100dpi": true
+    }
+  ],
+  "figures": [
+    {
+      "path": "figures/01_place.pdf",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/01_place.png",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/01_place.svg",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/02_bearings.pdf",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/02_bearings.png",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/02_bearings.svg",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/03_turn.pdf",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/03_turn.png",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/03_turn.svg",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/04_landing.pdf",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/04_landing.png",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/04_landing.svg",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/05_runway.pdf",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/05_runway.png",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/05_runway.svg",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/06_maps.pdf",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/06_maps.png",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/06_maps.svg",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/07_stereo.pdf",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/07_stereo.png",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/07_stereo.svg",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/08_wind.pdf",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/08_wind.png",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/08_wind.svg",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/09_certificate.pdf",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/09_certificate.png",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/09_certificate.svg",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/10_recorder.pdf",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/10_recorder.png",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/10_recorder.svg",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/11_weather.pdf",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/11_weather.png",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/11_weather.svg",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/12_rollout.pdf",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/12_rollout.png",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/12_rollout.svg",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/A1_paths.pdf",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/A1_paths.png",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/A1_paths.svg",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/A2_controls.pdf",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/A2_controls.png",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/A2_controls.svg",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/A3_weather_context.pdf",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/A3_weather_context.png",
+      "byte_identical": true
+    },
+    {
+      "path": "figures/A3_weather_context.svg",
+      "byte_identical": true
+    },
+    {
+      "path": "presentation/01_place.png",
+      "byte_identical": true
+    },
+    {
+      "path": "presentation/02_bearings.png",
+      "byte_identical": true
+    },
+    {
+      "path": "presentation/03_turn.png",
+      "byte_identical": true
+    },
+    {
+      "path": "presentation/04_landing.png",
+      "byte_identical": true
+    },
+    {
+      "path": "presentation/05_runway.png",
+      "byte_identical": true
+    },
+    {
+      "path": "presentation/06_maps.png",
+      "byte_identical": true
+    },
+    {
+      "path": "presentation/07_stereo.png",
+      "byte_identical": true
+    },
+    {
+      "path": "presentation/08_wind.png",
+      "byte_identical": true
+    },
+    {
+      "path": "presentation/09_certificate.png",
+      "byte_identical": true
+    },
+    {
+      "path": "presentation/10_recorder.png",
+      "byte_identical": true
+    },
+    {
+      "path": "presentation/11_weather.png",
+      "byte_identical": true
+    },
+    {
+      "path": "presentation/12_rollout.png",
+      "byte_identical": true
+    },
+    {
+      "path": "presentation/A1_paths.png",
+      "byte_identical": true
+    },
+    {
+      "path": "presentation/A2_controls.png",
+      "byte_identical": true
+    },
+    {
+      "path": "presentation/A3_weather_context.png",
+      "byte_identical": true
+    }
+  ],
+  "scope": "Fresh build and full15figure suite; no accepted files rewritten;100dpi pixel comparison nothuman peer review."
+}

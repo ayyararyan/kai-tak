@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "project": "Checkers with Runway 13",
+  "as_of": "2026-10-14",
+  "audited_commit": "125ebac16dc52a86998e2f6c4893e116bfca67d8",
+  "latest_paper": "v5",
+  "papers": [
+    {
+      "version": "v5",
+      "status": "published",
+      "pages": 38,
+      "pdf": "research/checkers-runway13/whitepaper/v5/checkers-with-runway-13-white-paper-v5.pdf",
+      "pdf_sha256": "328f848d805df1e5bac5fd6aff6f28363112bea3acd9a5fcb71c33ec16842939",
+      "source_package": "research/checkers-runway13/whitepaper/v5/checkers-with-runway-13-white-paper-v5-sources.zip",
+      "source_sha256": "6a7d44fb94de027a7394f0d6fa88874f4ce7bf7ee030a87696d3dbae4617724f",
+      "guide": "research/checkers-runway13/whitepaper/v5/README.md"
+    },
+    {
+      "version": "v4",
+      "status": "published",
+      "pages": 35,
+      "pdf": "research/checkers-runway13/whitepaper/v4/checkers-with-runway-13-white-paper-v4.pdf",
+      "pdf_sha256": "4bc4f1e1240b2e9677fd2518a67078c6c82385e5822510b069ff5172226920da",
+      "source_package": "research/checkers-runway13/whitepaper/v4/checkers-with-runway-13-white-paper-v4-sources.zip",
+      "source_sha256": "9490baf3e0cc819e8e661e60594ba922e7f21fc50988cad213f4a6ec174568a3",
+      "guide": "research/checkers-runway13/whitepaper/v4/README.md"
+    },
+    {
+      "version": "v3",
+      "status": "published",
+      "pages": 33,
+      "pdf": "research/checkers-runway13/whitepaper/v3/checkers-with-runway-13-white-paper-v3.pdf",
+      "pdf_sha256": "c517517899088cb72a82be5f76e73767846aab3925fd0d418a6f13cf14959ea3",
+      "source_package": "research/checkers-runway13/whitepaper/v3/checkers-with-runway-13-white-paper-v3-sources.zip",
+      "source_sha256": "b175febc3c5ff5515183604cb57994a4369eafd2b65a436029b97ab7490a8715",
+      "guide": "research/checkers-runway13/whitepaper/v3/README.md"
+    },
+    {
+      "version": "v2",
+      "status": "published",
+      "pages": 30,
+      "pdf": "research/checkers-runway13/whitepaper/v2/checkers-with-runway-13-white-paper-v2.pdf",
+      "pdf_sha256": "a6de1e92665ed9b7d8773843174f2600d148acf932834e52a3a94527bee6f2fc",
+      "source_package": "research/checkers-runway13/whitepaper/checkers-with-runway-13-white-paper-v2-source.zip",
+      "source_sha256": "58de087713f965d24f63ad643fada134fd53704e984006c65250ef49ec77ce89",
+      "guide": "research/checkers-runway13/whitepaper/v2/README.md"
+    },
+    {
+      "version": "v1",
+      "status": "historical-draft",
+      "pages": 23,
+      "pdf": "research/checkers-runway13/whitepaper/v1/checkers-with-runway-13-white-paper-v1.pdf",
+      "pdf_sha256": "0fc56dcd02145905494701f98ab96c229bc8ae4a75386602eba4dd7246e8b855",
+      "source_package": null,
+      "source_sha256": null,
+      "guide": "research/checkers-runway13/whitepaper/v1/README.md"
+    }
+  ],
+  "archive": {
+    "version": "v1.0.0",
+    "tag": "archive-v1.0.0",
+    "entry": "archive/README.md",
+    "manifest": "archive/releases/v1.0.0/manifest.json",
+    "collections": 9,
+    "catalogue_artifacts": 3268,
+    "datasets": 44,
+    "permitted_files": 418,
+    "bundles": 5,
+    "provenance_warnings": 2739
+  },
+  "atlas": {
+    "version": "v1",
+    "tag": "visual-atlas-v1",
+    "entry": "visual-atlas/v1/README.md",
+    "gallery": "visual-atlas/v1/gallery/index.html",
+    "pdf": "visual-atlas/v1/renders/print/Kai-Tak-Visual-Atlas-A4.pdf",
+    "scene_manifest": "visual-atlas/v1/metadata/scene_bundle.json",
+    "plates": 12,
+    "views": 17,
+    "browser_acceptance": "verified-local-chromium"
+  },
+  "tags": {
+    "archive-v1.0.0": "9f4f7b0cc47b2db0933bd4d20b4e3698f43a465d",
+    "integration-2026-10-13": "128f7006e8c929a878bd80bdf84521a97c45ee30",
+    "snapshot-2026-10-13": "fd0c0d85b6c514fc7f919542192f18b747f4e092",
+    "update-2026-10-13": "6178eed1de49f66ac658acf5f5d26fa7e754b9ba",
+    "visual-atlas-v1": "c39008bbdb400e5a0ca25bfb480af85f1b0e6047"
+  },
+  "science": {
+    "historical_clearance": "blocked",
+    "historical_optimum": "unresolved",
+    "nominal_and_steady_wind_certificates": "fixed-model feasibility only"
+  },
+  "receipts": {
+    "paper": "publication/v5_verification.json",
+    "archive": "archive/reports/publication_verification.json",
+    "atlas": "visual-atlas/v1/metadata/publication_receipt.json"
+  }
+}

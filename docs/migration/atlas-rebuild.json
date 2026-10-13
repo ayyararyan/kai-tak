@@ -1,0 +1,26 @@
+{
+  "checked_utc": "2026-10-13T18:41:06.557436+00:00",
+  "view": "08-november-surface",
+  "preparation_inputs": 25,
+  "prepared_jobs": 17,
+  "render": [
+    {
+      "id": "08-november-surface",
+      "success": true,
+      "returncode": 0,
+      "seconds": 10.1
+    }
+  ],
+  "accepted_size": [
+    3840,
+    2160
+  ],
+  "rebuilt_size": [
+    3840,
+    2160
+  ],
+  "decoded_RGB_equal": true,
+  "rebuilt_sha256": "12f0fdc3c9389de79e2a9a7fd9192824ad3b47de22142186ab420000883c0b90",
+  "accepted_sha256": "b672d2eb33465b2fa3c66eb8313f165bfdf8acb13373dcdf52cb06525c94ebc2",
+  "scope": "One fresh Blender scene/render in disposable full tracked-plus-restored tree; original source hashes/jobs/cameras/scene files unchanged. No all-scene rerender."
+}
