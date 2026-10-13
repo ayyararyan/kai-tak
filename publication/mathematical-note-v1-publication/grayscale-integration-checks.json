@@ -1,0 +1,125 @@
+{
+  "scope": "Grayscale mathematical companion integration; maintenance and byte-preservation checks, no new scientific computations.",
+  "main_baseline": "96c19132c7b44329addfa47cab77d0afcb52bc88",
+  "grayscale_artifact_commit": "0146dba2f69759ee97739ab931db50df639e0e50",
+  "fast": {
+    "python_syntax_files": 400,
+    "json_files": 1389,
+    "preservation": {
+      "scope": "migration",
+      "protected_files_checked": 2967,
+      "tags_unavailable": [],
+      "errors": []
+    },
+    "errors": [],
+    "lane": "fast",
+    "checked_utc": "2026-10-13T19:42:30.380902+00:00",
+    "status": "passed"
+  },
+  "link_checks": {
+    "checked": 1946,
+    "inherited_historical_exceptions": 777,
+    "inherited_frozen_copy_exceptions": 17,
+    "errors": []
+  },
+  "archive_metadata": {
+    "schema_version": "1.0.0",
+    "status": "passed",
+    "mode": "metadata-only",
+    "checks": 32912,
+    "checks_passed": 32912,
+    "errors": [],
+    "warning_count": 2739,
+    "full_provenance_complete": false,
+    "scientific_validation": "Not established by archive-integrity checks",
+    "publication_ready": false
+  },
+  "tests": {
+    "passed": 122,
+    "subtests_passed": 43,
+    "exit_code": 0,
+    "stdout": "..................................................................................................... [ 82%]\n.....................                                                    [100%]\n122 passed, 43 subtests passed in 5.79s\n"
+  },
+  "preservation": {
+    "scope": "migration",
+    "protected_files_checked": 2967,
+    "tags_unavailable": [],
+    "errors": [],
+    "lane": "preservation",
+    "checked_utc": "2026-10-13T19:42:20.255359+00:00",
+    "status": "passed"
+  },
+  "final_scope": {
+    "checked_utc": "2026-10-13T19:42:42.511365+00:00",
+    "main_baseline": "96c19132c7b44329addfa47cab77d0afcb52bc88",
+    "grayscale_artifact_commit": "0146dba2f69759ee97739ab931db50df639e0e50",
+    "working_head": "4da2546e9a10c8e1f3e0e5485df2ba2fd75cb857",
+    "baseline_files_checked": 3041,
+    "permitted_main_maintenance_changes": [
+      {
+        "path": "docs/PROJECT_STATUS.md",
+        "sha256": "3277fafbe14193ccf84746045fa9d0d8b2bfb1437c068f5b130d9c38fd2f461f"
+      },
+      {
+        "path": "docs/REPRODUCIBILITY.md",
+        "sha256": "075e71dfdc7c1387efbf68a4e86c199ca9fbf4f81c16c97286cace19c9c6fbf8"
+      },
+      {
+        "path": "docs/project-status.json",
+        "sha256": "66ecd60dbb3388b32edb446244b061530046861e63afcdb7fd0de57a5542fa7a"
+      },
+      {
+        "path": "docs/project-status.schema.json",
+        "sha256": "9703849c41f2f82cb5a88a60809fc22fae6f9b4809332804d939ce829e89f918"
+      },
+      {
+        "path": "papers/README.md",
+        "sha256": "491d8ca725f3fb88fd3829e653e08a975801b987d5f365c5d2eef7a096572a98"
+      },
+      {
+        "path": "scripts/repository_checks.py",
+        "sha256": "7f2c83c46598ad0cda86dd7a09456aa64f4749b99c256413b0af3ba185340776"
+      },
+      {
+        "path": "scripts/update_navigation.py",
+        "sha256": "a78e913e2568432a8c0e0c944f5ac35fdc972472edf5417159c2883c7d4a8842"
+      },
+      {
+        "path": "tests/test_repository_checks.py",
+        "sha256": "7649282e2357cd886bc2ea147ca457547b4abe3c7a5ac3cc0da2f465e8f22d29"
+      }
+    ],
+    "root_README_unchanged": true,
+    "root_README_sha256": "49635abe18071f5223075afd0c6f8217a962559253c15886a2492df35bf238a1",
+    "accepted_note_files_checked": 644,
+    "publication_only_note_changes": [
+      {
+        "path": "research/checkers-runway13/mathematical-note/v1/DELIVERY_MANIFEST.json",
+        "sha256": "e7ddb69f98c89580194caadbe6015adc2c6eeac1e5c958c4a3da87709d7da803"
+      },
+      {
+        "path": "research/checkers-runway13/mathematical-note/v1/README.md",
+        "sha256": "1ec867d78035344bc9d37157b0f8f41949de4ac3c3c3f5eb81cdabf38e7aee6a"
+      },
+      {
+        "path": "research/checkers-runway13/mathematical-note/v1/STATE.md",
+        "sha256": "a3ebb2b276813b4286d975f8af12d0f0b5d554dd7e4b3023bb3f982112f913f4"
+      }
+    ],
+    "source_archive_sha256": "a0d84f7e12525f986c41e9a06545020cf0258e8f1fd0a4329a5341fdba62b84c",
+    "verified_archive_members": 641,
+    "archived_member_worktree_differences": [
+      "README.md",
+      "STATE.md"
+    ],
+    "difference_reason": "Post-package publication documentation only; the archive is an immutable grayscale build snapshot.",
+    "new_files_scoped_to_note_and_publication_receipts": true,
+    "scientific_inputs_and_grayscale_assets_unchanged": true,
+    "passed": true
+  },
+  "navigation_check": "passed; no stale blocks",
+  "raw_fast_receipt_sha256": "b7b5ae24f805e65b90a0c58476f86ddd7c7ebadc495c4d0b377fadeacdab62c4",
+  "scientific_proof_rerun": false,
+  "reason": "Scientific source and manuscript input bytes preserved; the existing theorem/certificate evidence remains applicable. New tests exercise maintenance integration only.",
+  "hosted_ci": "Pending: local evidence is not hosted acceptance."
+}

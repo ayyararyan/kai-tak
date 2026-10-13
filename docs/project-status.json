@@ -95,5 +95,19 @@
     "paper": "publication/v5_verification.json",
     "archive": "archive/reports/publication_verification.json",
     "atlas": "visual-atlas/v1/metadata/publication_receipt.json"
+  },
+  "mathematical_note": {
+    "title": "Certified Local Optimality in a Constrained Landing Model",
+    "version": "v1",
+    "status": "published-in-repository",
+    "rendering_revision": "grayscale-only",
+    "pages": 36,
+    "pdf": "research/checkers-runway13/mathematical-note/v1/certified-local-optimality-v1.pdf",
+    "pdf_sha256": "10ac658ffa41e7fad5cd7da3a4be5e2ad013a0b9b27ac2d37100a45171d6c98f",
+    "source_package": "research/checkers-runway13/mathematical-note/v1/certified-local-optimality-v1-sources.zip",
+    "source_sha256": "a0d84f7e12525f986c41e9a06545020cf0258e8f1fd0a4329a5341fdba62b84c",
+    "guide": "research/checkers-runway13/mathematical-note/v1/README.md",
+    "delivery_manifest": "research/checkers-runway13/mathematical-note/v1/DELIVERY_MANIFEST.json",
+    "publication_receipt": "publication/mathematical-note-v1-publication/grayscale-branch-verification.json"
   }
 }

@@ -1,0 +1,41 @@
+{
+  "checked_utc": "2026-10-13T19:39:32.367207+00:00",
+  "repository": "ayyararyan/kai-tak",
+  "branch": "mathematical-note/v1",
+  "commit": "0146dba2f69759ee97739ab931db50df639e0e50",
+  "remote_commit": "0146dba2f69759ee97739ab931db50df639e0e50",
+  "independent_bare_fetch_commit": "0146dba2f69759ee97739ab931db50df639e0e50",
+  "full_tree_match": true,
+  "tree_entries_verified": 3617,
+  "assets": [
+    {
+      "path": "research/checkers-runway13/mathematical-note/v1/certified-local-optimality-v1.pdf",
+      "url": "https://raw.githubusercontent.com/ayyararyan/kai-tak/0146dba2f69759ee97739ab931db50df639e0e50/research/checkers-runway13/mathematical-note/v1/certified-local-optimality-v1.pdf",
+      "bytes": 476868,
+      "sha256": "10ac658ffa41e7fad5cd7da3a4be5e2ad013a0b9b27ac2d37100a45171d6c98f",
+      "matches_git": true,
+      "route": "unauthenticated public HTTP"
+    },
+    {
+      "path": "research/checkers-runway13/mathematical-note/v1/certified-local-optimality-v1-sources.zip",
+      "url": "https://raw.githubusercontent.com/ayyararyan/kai-tak/0146dba2f69759ee97739ab931db50df639e0e50/research/checkers-runway13/mathematical-note/v1/certified-local-optimality-v1-sources.zip",
+      "bytes": 23447405,
+      "sha256": "a0d84f7e12525f986c41e9a06545020cf0258e8f1fd0a4329a5341fdba62b84c",
+      "matches_git": true,
+      "route": "unauthenticated public HTTP",
+      "members_verified": 641
+    },
+    {
+      "path": "research/checkers-runway13/mathematical-note/v1/STATE.md",
+      "url": "https://raw.githubusercontent.com/ayyararyan/kai-tak/0146dba2f69759ee97739ab931db50df639e0e50/research/checkers-runway13/mathematical-note/v1/STATE.md",
+      "bytes": 4913,
+      "sha256": "fee39f1ec8da716855b0b8755915820b9a78e7a47abd89a338f9f797c9cf0d63",
+      "matches_git": true,
+      "route": "unauthenticated public HTTP"
+    }
+  ],
+  "existing_release_metadata_unchanged": true,
+  "existing_release_count": 5,
+  "existing_tag_refs_unchanged": true,
+  "release_or_tag_mutation_performed": false
+}

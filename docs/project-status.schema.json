@@ -11,7 +11,8 @@
     "atlas",
     "tags",
     "science",
-    "receipts"
+    "receipts",
+    "mathematical_note"
   ],
   "additionalProperties": false,
   "properties": {
@@ -310,6 +311,72 @@
           "minLength": 1
         },
         "atlas": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "mathematical_note": {
+      "type": "object",
+      "required": [
+        "title",
+        "pdf",
+        "source_package",
+        "guide",
+        "delivery_manifest",
+        "version",
+        "status",
+        "rendering_revision",
+        "pages",
+        "pdf_sha256",
+        "source_sha256",
+        "publication_receipt"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pdf": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_package": {
+          "type": "string",
+          "minLength": 1
+        },
+        "guide": {
+          "type": "string",
+          "minLength": 1
+        },
+        "delivery_manifest": {
+          "type": "string",
+          "minLength": 1
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^v[1-9][0-9]*$"
+        },
+        "status": {
+          "const": "published-in-repository"
+        },
+        "rendering_revision": {
+          "const": "grayscale-only"
+        },
+        "pages": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "pdf_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "source_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "publication_receipt": {
           "type": "string",
           "minLength": 1
         }

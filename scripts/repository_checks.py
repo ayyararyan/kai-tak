@@ -25,6 +25,14 @@ PRESERVED_TAGS = {
 }
 ATLAS_COVERAGE = {'input': 25, 'scene': 27}
 MUTABLE_BASELINE = {'README.md', '.gitignore'}
+# Only this sealed public proof snapshot may inherit existing historical links.
+# The manifest is pinned independently of the mutable navigation metadata.
+FROZEN_LINK_SNAPSHOTS = {
+    'research/checkers-runway13/mathematical-note/v1/frozen-source/': {
+        'manifest_sha256': '2379eab54afb7f1baa0a9f71501e558e98706148cdea6b51bbf4c960c8113a51',
+        'source_commit': '78a9ce1c627f917c94306af5529d5e9ebeb743e8',
+    },
+}
 PRIVATE = re.compile(r'(^|/)(\.env(?:\..*)?|.*private-source-history.*|authorized_enquiries_[^/]*|REQUEST_DRAFTS\.md|.*ENQUIRY_DRAFT\.md|.*token.*\.json|id_(?:rsa|ed25519))($|/)', re.I)
 
 
@@ -75,6 +83,10 @@ def validate_status(root, status):
     paths += [(v, None) for k in ['entry', 'manifest'] for v in [status['archive'][k]]]
     paths += [(status['atlas'][k], None) for k in ['entry', 'gallery', 'pdf', 'scene_manifest']]
     paths += [(v, None) for v in status['receipts'].values()]
+    note = status['mathematical_note']
+    paths += [(note[k], note.get(h)) for k, h in
+              [('pdf', 'pdf_sha256'), ('source_package', 'source_sha256'),
+               ('guide', ''), ('delivery_manifest', ''), ('publication_receipt', '')]]
     for path, digest in paths:
         if not safe_reference(root, path):
             errors.append(f'Unsafe/private status path: {path}')
@@ -84,6 +96,7 @@ def validate_status(root, status):
             errors.append(f'Status artifact checksum mismatch: {path}')
     if errors:
         return errors
+    errors.extend(validate_mathematical_note(root, note))
     for paper in status['papers']:
         version = paper['version']
         base = f'research/checkers-runway13/whitepaper/{version}'
@@ -151,6 +164,46 @@ def validate_status(root, status):
     return errors
 
 
+def validate_mathematical_note(root, note):
+    """Bind an independent accepted companion; do not relabel the white paper."""
+    errors = []
+    version = note['version']
+    base = f'research/checkers-runway13/mathematical-note/{version}'
+    names = {'pdf': f'certified-local-optimality-{version}.pdf',
+             'source_package': f'certified-local-optimality-{version}-sources.zip',
+             'guide': 'README.md', 'delivery_manifest': 'DELIVERY_MANIFEST.json'}
+    if any(note[key] != f'{base}/{name}' for key, name in names.items()):
+        return ['Mathematical-note version disagrees with artifact paths']
+    qa_path = root / base / 'qa/document_checks.json'
+    clean_path = root / base / 'qa/grayscale-clean-build.json'
+    if not qa_path.is_file() or not clean_path.is_file():
+        return ['Mathematical note lacks versioned document QA']
+    qa = read(root, qa_path)
+    clean = read(root, clean_path)
+    delivery = read(root, note['delivery_manifest'])
+    receipt = read(root, note['publication_receipt'])
+    if (clean.get('production_pdf_sha256') != note['pdf_sha256']
+            or clean.get('pages_compared') != note['pages'] or clean.get('passed') is not True
+            or qa.get('pages') != note['pages'] or qa.get('failures')
+            or qa.get('unresolved_references') is not False):
+        errors.append('Mathematical-note page count/PDF identity disagrees with document QA')
+    if any(delivery.get(key) != note[key] for key in ('title', 'pages', 'rendering_revision')) or delivery.get('version') != int(version[1:]):
+        errors.append('Mathematical-note identity disagrees with delivery manifest')
+    for key, digest in [('pdf', 'pdf_sha256'), ('source_package', 'source_sha256')]:
+        matches = [a for a in delivery.get('assets', []) if a.get('path') == names[key]]
+        if len(matches) != 1 or matches[0].get('sha256') != note[digest] or matches[0].get('bytes') != (root / note[key]).stat().st_size:
+            errors.append('Mathematical-note asset is not bound by delivery manifest: ' + key)
+        published = [a for a in receipt.get('assets', []) if a.get('path') == note[key]]
+        if len(published) != 1 or published[0].get('sha256') != note[digest] or published[0].get('bytes') != (root / note[key]).stat().st_size or published[0].get('matches_git') is not True:
+            errors.append('Mathematical-note asset is not bound by publication receipt: ' + key)
+    commit = receipt.get('commit')
+    if (not isinstance(commit, str) or not re.fullmatch(r'[a-f0-9]{40}', commit)
+            or receipt.get('remote_commit') != commit or receipt.get('independent_bare_fetch_commit') != commit
+            or receipt.get('full_tree_match') is not True):
+        errors.append('Mathematical-note publication lacks matching remote verification')
+    return errors
+
+
 class HTMLReferences(HTMLParser):
     def __init__(self):
         super().__init__()
@@ -212,6 +265,9 @@ def check_links(root, paths, exceptions):
     allowed = {(x['source'], x['target'], x.get('issue', 'missing')) for x in exceptions['links']}
     records = {x['path']: x['sha256'] for x in exceptions.get('historical_records', [])}
     errors, inherited, checked, documents = [], [], 0, {}
+    copied, copy_errors = frozen_copy_link_exceptions(root, paths, exceptions)
+    allowed.update(copied)
+    errors.extend(copy_errors)
     if records:
         errors.extend(validate_exceptions(root, {'links': [], 'historical_records': exceptions['historical_records']}, read(root, 'docs/migration/baseline.json')))
     inventory = {(root / name).resolve() for name in paths}
@@ -258,6 +314,51 @@ def check_links(root, paths, exceptions):
                 else:
                     errors.append(row)
     return {'checked': checked, 'inherited': inherited, 'errors': errors}
+
+
+def frozen_copy_link_exceptions(root, paths, exceptions):
+    """Inherit exact old link defects only for manifest-bound, unchanged copies."""
+    inventory = set(paths)
+    active = [(prefix, pin) for prefix, pin in FROZEN_LINK_SNAPSHOTS.items()
+              if any(path.startswith(prefix) for path in inventory)]
+    if not active:
+        return set(), []
+    baseline = read(root, 'docs/migration/baseline.json')
+    errors = validate_exceptions(root, exceptions, baseline)
+    if errors:
+        return set(), errors
+    original_hashes = {row['path']: row['sha256'] for row in baseline['files']}
+    allowed = set()
+    for prefix, pin in active:
+        name = prefix + 'PUBLIC_SOURCE_MANIFEST.json'
+        path = root / name
+        if name not in inventory or path.is_symlink() or not safe_reference(root, name) or not path.is_file() or sha(path) != pin['manifest_sha256']:
+            errors.append('Frozen link-copy manifest is missing or changed: ' + name)
+            continue
+        manifest = read(root, name)
+        if manifest.get('source_commit') != pin['source_commit']:
+            errors.append('Frozen link-copy source commit changed: ' + name)
+            continue
+        verified = {}
+        for row in exceptions['links']:
+            source, target = row['source'], row['target']
+            copy = prefix + source
+            if copy not in inventory:
+                continue
+            if copy not in verified:
+                entry = manifest.get('files', {}).get(source, {})
+                digest = original_hashes.get(source)
+                p = root / copy
+                verified[copy] = (source in inventory and safe_reference(root, copy)
+                                  and not p.is_symlink() and p.is_file()
+                                  and entry.get('sha256') == digest == row.get('source_sha256')
+                                  and entry.get('bytes') == p.stat().st_size
+                                  and sha(p) == digest)
+                if not verified[copy]:
+                    errors.append('Frozen historical-link copy differs from its original: ' + copy)
+            if verified[copy]:
+                allowed.add((copy, target, row.get('issue', 'missing')))
+    return allowed, errors
 
 
 def validate_exceptions(root, exceptions, baseline):

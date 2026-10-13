@@ -16,6 +16,18 @@
 | v1 | Historical working draft · 23 pages | [PDF](../research/checkers-runway13/whitepaper/v1/checkers-with-runway-13-white-paper-v1.pdf) | [Guide](../research/checkers-runway13/whitepaper/v1/README.md) |
 <!-- paper-index:end -->
 
+<!-- mathematical-note:start -->
+## Independent mathematical companion
+
+**Certified Local Optimality in a Constrained Landing Model**, v1, 36 pages; grayscale edition published in this repository.
+
+[Read the PDF](../research/checkers-runway13/mathematical-note/v1/certified-local-optimality-v1.pdf) · [Editable source package](../research/checkers-runway13/mathematical-note/v1/certified-local-optimality-v1-sources.zip) · [Reproduction guide](../research/checkers-runway13/mathematical-note/v1/README.md) · [Publication evidence](../publication/mathematical-note-v1-publication/grayscale-branch-verification.json)
+
+A separate research note on the declared model's certified local optimum,
+analytical bounds and continuous-time feasibility. It does not replace
+the white-paper version history above; no journal or tagged-release status is implied.
+<!-- mathematical-note:end -->
+
 ## What changed
 
 - **v5:** a full narrative rewrite and fifteen redesigned scientific illustrations,

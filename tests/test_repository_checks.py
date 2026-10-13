@@ -321,3 +321,114 @@ def test_scientific_snapshot_wrapper_refuses_changed_science(tmp_path, monkeypat
     else:
         with pytest.raises(ValueError):
             repo.verify_current_scientific_bindings('a' * 40)
+
+
+@pytest.mark.parametrize('field,value', [
+    ('pdf_sha256', '0' * 64), ('source_sha256', '0' * 64), ('pages', 999),
+    ('version', 'v99'), ('guide', '../outside.md'),
+    ('publication_receipt', 'research/authorized_enquiries_20261013/private.md'),
+    ('status', 'journal-published'), ('made_up_doi', '10.fake/not-issued'),
+])
+def test_mathematical_note_metadata_rejects_unverified_changes(status, field, value):
+    status['mathematical_note'][field] = value
+    assert checks.validate_status(ROOT, status)
+
+
+def test_mathematical_companion_is_independent_of_latest_white_paper(status):
+    from update_navigation import blocks
+    assert checks.validate_status(ROOT, status) == []
+    assert status['latest_paper'] == 'v5'
+    assert len(status['papers']) == 5
+    output = blocks(status)
+    assert 'Latest published paper: v5' in output['papers/README.md', 'paper-index']
+    companion = output['papers/README.md', 'mathematical-note']
+    assert 'Independent mathematical companion' in companion
+    assert status['mathematical_note']['pdf'] in companion
+    assert status['mathematical_note']['publication_receipt'] in companion
+    products = output['docs/PROJECT_STATUS.md', 'status-products']
+    assert 'Preservation baseline:' in products
+    assert 'checked against GitHub main' not in products
+    assert 'README.md' not in {path for path, marker in output}
+
+
+@pytest.mark.parametrize('mutation', ['asset', 'commit', 'qa'])
+def test_mathematical_note_requires_publication_and_qa_binding(status, monkeypatch, mutation):
+    original = checks.read
+    def altered(root, path):
+        data = original(root, path)
+        if str(path) == status['mathematical_note']['publication_receipt']:
+            if mutation == 'asset':
+                data['assets'][0]['sha256'] = '0' * 64
+            elif mutation == 'commit':
+                data['remote_commit'] = '0' * 40
+        if mutation == 'qa' and str(path).endswith('mathematical-note/v1/qa/grayscale-clean-build.json'):
+            data['production_pdf_sha256'] = '0' * 64
+        return data
+    monkeypatch.setattr(checks, 'read', altered)
+    assert checks.validate_status(ROOT, status)
+
+
+@pytest.fixture
+def frozen_link_fixture(tmp_path, monkeypatch):
+    original = 'research/report.md'
+    prefix = 'snapshot/'
+    source = tmp_path / original
+    source.parent.mkdir()
+    source.write_text('[old](missing.md)\n')
+    copied = prefix + original
+    copy_path = tmp_path / copied
+    copy_path.parent.mkdir(parents=True)
+    copy_path.write_bytes(source.read_bytes())
+    digest = checks.sha(source)
+    baseline = tmp_path / 'docs/migration/baseline.json'
+    baseline.parent.mkdir(parents=True)
+    baseline.write_text(json.dumps({'files': [{'path': original, 'sha256': digest}]}))
+    name = prefix + 'PUBLIC_SOURCE_MANIFEST.json'
+    manifest = tmp_path / name
+    manifest.write_text(json.dumps({'source_commit': 'a' * 40,
+        'files': {original: {'bytes': source.stat().st_size, 'sha256': digest}}}))
+    monkeypatch.setattr(checks, 'FROZEN_LINK_SNAPSHOTS', {prefix: {
+        'manifest_sha256': checks.sha(manifest), 'source_commit': 'a' * 40}})
+    exceptions = {'links': [{'source': original, 'target': 'missing.md',
+        'issue': 'missing', 'source_sha256': digest,
+        'classification': 'historical', 'reason': 'Original absent artifact'}]}
+    return {'root': tmp_path, 'original': original, 'copied': copied,
+            'manifest': name, 'exceptions': exceptions,
+            'paths': [original, copied, name]}
+
+
+def test_only_exact_frozen_copy_inherits_existing_link_exception(frozen_link_fixture):
+    f = frozen_link_fixture
+    result = checks.check_links(f['root'], f['paths'], f['exceptions'])
+    assert result['errors'] == []
+    assert {e['source'] for e in result['inherited']} == {f['original'], f['copied']}
+
+
+@pytest.mark.parametrize('mutation', ['copy', 'source_and_copy', 'manifest',
+    'target', 'issue', 'new_document', 'arbitrary_copy', 'symlink', 'unlisted_original'])
+def test_frozen_copy_exception_never_hides_new_or_changed_material(frozen_link_fixture, mutation):
+    f = frozen_link_fixture
+    root = f['root']
+    if mutation in ('copy', 'source_and_copy'):
+        (root / f['copied']).write_text('[old](missing.md) [new](new.md)\n')
+        if mutation == 'source_and_copy':
+            (root / f['original']).write_bytes((root / f['copied']).read_bytes())
+    elif mutation == 'manifest':
+        (root / f['manifest']).write_text('{}')
+    elif mutation == 'target':
+        f['exceptions']['links'][0]['target'] = 'different.md'
+    elif mutation == 'issue':
+        f['exceptions']['links'][0]['issue'] = 'fragment'
+    elif mutation in ('new_document', 'arbitrary_copy'):
+        name = 'snapshot/new.md' if mutation == 'new_document' else 'unregistered/report.md'
+        p = root / name
+        p.parent.mkdir(exist_ok=True)
+        p.write_bytes((root / f['original']).read_bytes())
+        f['paths'].append(name)
+    elif mutation == 'symlink':
+        (root / f['copied']).unlink()
+        (root / f['copied']).symlink_to(root / f['original'])
+    else:
+        f['paths'].remove(f['original'])
+    result = checks.check_links(root, f['paths'], f['exceptions'])
+    assert result['errors']

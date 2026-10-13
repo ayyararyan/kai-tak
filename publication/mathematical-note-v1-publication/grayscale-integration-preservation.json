@@ -1,0 +1,190 @@
+{
+  "audit": "independent grayscale integration exact-identity preservation; read-only repository inspection",
+  "repository": "ayyararyan/kai-tak",
+  "checked_utc_start": "2026-10-13T19:40:18.682171+00:00",
+  "checked_utc_end": "2026-10-13T19:40:20.414120+00:00",
+  "integration_head": "4da2546e9a10c8e1f3e0e5485df2ba2fd75cb857",
+  "integration_head_at_end": "4da2546e9a10c8e1f3e0e5485df2ba2fd75cb857",
+  "main_baseline": "96c19132c7b44329addfa47cab77d0afcb52bc88",
+  "accepted_grayscale_commit": "0146dba2f69759ee97739ab931db50df639e0e50",
+  "scientific_freeze_commit": "78a9ce1c627f917c94306af5529d5e9ebeb743e8",
+  "scope_limit": "No scientific tests, optimization, builds, Git mutations or publication performed; concurrent administrative integration changes are listed separately and do not imply scientific change.",
+  "assets": {
+    "certified-local-optimality-v1.pdf": {
+      "actual_sha256": "10ac658ffa41e7fad5cd7da3a4be5e2ad013a0b9b27ac2d37100a45171d6c98f",
+      "expected_sha256": "10ac658ffa41e7fad5cd7da3a4be5e2ad013a0b9b27ac2d37100a45171d6c98f",
+      "bytes": 476868,
+      "matches": true
+    },
+    "certified-local-optimality-v1-sources.zip": {
+      "actual_sha256": "a0d84f7e12525f986c41e9a06545020cf0258e8f1fd0a4329a5341fdba62b84c",
+      "expected_sha256": "a0d84f7e12525f986c41e9a06545020cf0258e8f1fd0a4329a5341fdba62b84c",
+      "bytes": 23447405,
+      "matches": true
+    }
+  },
+  "note_comparison": {
+    "accepted_tracked_files": 644,
+    "integration_head_tracked_files": 644,
+    "commit_tree_deltas": [],
+    "working_tree_deltas": [],
+    "working_tree_matches": true
+  },
+  "archive": {
+    "manifest_member_count": 641,
+    "actual_members": 641,
+    "unique_members": 641,
+    "member_set_matches": true,
+    "crc_bad_member": null,
+    "sha256_matches_manifest": true,
+    "size_matches_manifest": true,
+    "member_hash_or_size_mismatches": [],
+    "members_differing_from_working_files": [],
+    "members_verified": 641,
+    "member_identity_list_sha256": "1b15eb5838c84144c2f5b63a80b980d618e6bf125611541d2d10d10b492d7bb4"
+  },
+  "frozen_source": {
+    "manifest_files": 487,
+    "checked_files": 487,
+    "manifest_mismatches": [],
+    "differences_from_original_scientific_freeze": [],
+    "differences_from_grayscale_commit": [],
+    "manifest_sha256": "2379eab54afb7f1baa0a9f71501e558e98706148cdea6b51bbf4c960c8113a51"
+  },
+  "main_preservation": {
+    "baseline_tracked_files": 3041,
+    "existing_files_compared": 3041,
+    "existing_file_deltas": [
+      {
+        "path": "docs/REPRODUCIBILITY.md",
+        "before": {
+          "mode": "100644",
+          "type": "blob",
+          "blob": "dd788ecfde98480cd324b3e04a432646c2d394e7"
+        },
+        "after": {
+          "mode": "100644",
+          "type": "blob",
+          "blob": "9668428f9560e5e7731daef47dff66f10377ee90"
+        }
+      },
+      {
+        "path": "docs/project-status.json",
+        "before": {
+          "mode": "100644",
+          "type": "blob",
+          "blob": "a7ef9ee2d649e04949d55174c8561e0df769222a"
+        },
+        "after": {
+          "mode": "100644",
+          "type": "blob",
+          "blob": "7169333d33c161bff361091dcaaa0da49d34e342"
+        }
+      },
+      {
+        "path": "docs/project-status.schema.json",
+        "before": {
+          "mode": "100644",
+          "type": "blob",
+          "blob": "fc58dd7835a8cfcfa1bc3dcc0c0b4a985472f5c4"
+        },
+        "after": {
+          "mode": "100644",
+          "type": "blob",
+          "blob": "814e7dd426010f7e2db9a4c9e9642e4c560f0001"
+        }
+      },
+      {
+        "path": "papers/README.md",
+        "before": {
+          "mode": "100644",
+          "type": "blob",
+          "blob": "e1367e3498d74069c9dca13294fb95d899ea017b"
+        },
+        "after": {
+          "mode": "100644",
+          "type": "blob",
+          "blob": "e445be2d6e37b80b5bb8eaa5c08feb88bdf84598"
+        }
+      },
+      {
+        "path": "scripts/repository_checks.py",
+        "before": {
+          "mode": "100644",
+          "type": "blob",
+          "blob": "330bddf187f6deb6ccb9afe3a6f4fba201f1bc68"
+        },
+        "after": {
+          "mode": "100644",
+          "type": "blob",
+          "blob": "722be3acacda5316b4ce77257a4da7a2f7df4efa"
+        }
+      },
+      {
+        "path": "scripts/update_navigation.py",
+        "before": {
+          "mode": "100644",
+          "type": "blob",
+          "blob": "447fd6e18e9b2eb45e7db32daef029b9b6745f22"
+        },
+        "after": {
+          "mode": "100644",
+          "type": "blob",
+          "blob": "de665aaed0bfd6325ccc97e1e722e1374607f6c7"
+        }
+      }
+    ],
+    "root_README_unchanged": true,
+    "root_README_sha256": "49635abe18071f5223075afd0c6f8217a962559253c15886a2492df35bf238a1",
+    "protected_research_assets_files": 2612,
+    "protected_deltas": [],
+    "whitepaper_files": 922,
+    "whitepaper_deltas": [],
+    "new_paths_vs_main_count": 648,
+    "new_paths_vs_main_prefix_counts": {
+      "note": 644,
+      "publication_receipt": 4
+    }
+  },
+  "historical_tags": {
+    "baseline_receipt": "scratch/kai-tak-architecture-audit/refs-after.txt",
+    "baseline_receipt_sha256": "0a6da80e0e3c62e72b1037ebed9c4bead689f5fc4c1858487886c7d72f4c27e5",
+    "baseline": {
+      "refs/tags/archive-v1.0.0": "9f4f7b0cc47b2db0933bd4d20b4e3698f43a465d",
+      "refs/tags/integration-2026-10-13": "128f7006e8c929a878bd80bdf84521a97c45ee30",
+      "refs/tags/snapshot-2026-10-13": "fd0c0d85b6c514fc7f919542192f18b747f4e092",
+      "refs/tags/update-2026-10-13": "6178eed1de49f66ac658acf5f5d26fa7e754b9ba",
+      "refs/tags/visual-atlas-v1": "c39008bbdb400e5a0ca25bfb480af85f1b0e6047"
+    },
+    "current_local": {
+      "refs/tags/archive-v1.0.0": "9f4f7b0cc47b2db0933bd4d20b4e3698f43a465d",
+      "refs/tags/integration-2026-10-13": "128f7006e8c929a878bd80bdf84521a97c45ee30",
+      "refs/tags/snapshot-2026-10-13": "fd0c0d85b6c514fc7f919542192f18b747f4e092",
+      "refs/tags/update-2026-10-13": "6178eed1de49f66ac658acf5f5d26fa7e754b9ba",
+      "refs/tags/visual-atlas-v1": "c39008bbdb400e5a0ca25bfb480af85f1b0e6047"
+    },
+    "current_remote": {
+      "refs/tags/archive-v1.0.0": "9f4f7b0cc47b2db0933bd4d20b4e3698f43a465d",
+      "refs/tags/integration-2026-10-13": "128f7006e8c929a878bd80bdf84521a97c45ee30",
+      "refs/tags/snapshot-2026-10-13": "fd0c0d85b6c514fc7f919542192f18b747f4e092",
+      "refs/tags/update-2026-10-13": "6178eed1de49f66ac658acf5f5d26fa7e754b9ba",
+      "refs/tags/visual-atlas-v1": "c39008bbdb400e5a0ca25bfb480af85f1b0e6047"
+    },
+    "count": 5,
+    "local_unchanged": true,
+    "remote_unchanged": true,
+    "release_metadata_not_requeried": "This bounded pass verifies Git tag refs only; it does not independently re-audit GitHub release asset metadata."
+  },
+  "working_status_at_end": [
+    " M docs/REPRODUCIBILITY.md",
+    " M docs/project-status.json",
+    " M docs/project-status.schema.json",
+    " M papers/README.md",
+    " M scripts/repository_checks.py",
+    " M scripts/update_navigation.py",
+    "?? publication/mathematical-note-v1-publication/grayscale-branch-verification.json"
+  ],
+  "passed_exact_preservation": true,
+  "later_ledger_changes": "STATE.md, DELIVERY_MANIFEST.json and publication receipts may intentionally change after this bounded check. Such changes need explicit disposition; this receipt describes its recorded snapshot only.",
+  "private_paths_in_report": false
+}

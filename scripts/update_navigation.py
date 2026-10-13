@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def blocks(status):
     paper = next(p for p in status['papers'] if p['version'] == status['latest_paper'])
     archive, atlas = status['archive'], status['atlas']
+    note = status['mathematical_note']
     release = 'https://github.com/ayyararyan/kai-tak/releases/tag/'
     rows = []
     for p in status['papers']:
@@ -22,6 +23,13 @@ def blocks(status):
             f"## Latest published paper: {paper['version']}", '',
             f"[Read the {paper['pages']}-page PDF](../{paper['pdf']}) · [Editable source package](../{paper['source_package']}) · [Build guide](../{paper['guide']})", '',
             '| Version | Status | Read | Reproduction |', '|---|---|---|---|', *rows]),
+        ('papers/README.md', 'mathematical-note'): '\n'.join([
+            '## Independent mathematical companion', '',
+            f"**{note['title']}**, {note['version']}, {note['pages']} pages; grayscale edition published in this repository.", '',
+            f"[Read the PDF](../{note['pdf']}) · [Editable source package](../{note['source_package']}) · [Reproduction guide](../{note['guide']}) · [Publication evidence](../{note['publication_receipt']})", '',
+            'A separate research note on the declared model\'s certified local optimum,',
+            'analytical bounds and continuous-time feasibility. It does not replace',
+            'the white-paper version history above; no journal or tagged-release status is implied.']),
         ('visual-atlas/README.md', 'atlas-current'): '\n'.join([
             f"**Published edition: {atlas['version']}.** {atlas['plates']} principal 4K plates, {atlas['views']} Blender views.", '',
             f"[Read the atlas PDF]({atlas['pdf'].removeprefix('visual-atlas/')}) · [Plate and methods guide]({atlas['entry'].removeprefix('visual-atlas/')}) · [Download editable scenes]({release}{atlas['tag']})"]),
@@ -33,9 +41,10 @@ def blocks(status):
             'python3 -m http.server 8000 --bind 127.0.0.1',
             f"# Open http://127.0.0.1:8000/{atlas['gallery']}", '```']),
         ('docs/PROJECT_STATUS.md', 'status-products'): '\n'.join([
-            f"As of **{date}**, checked against GitHub main at `{status['audited_commit']}`.", '',
+            f"As of **{date}**. Preservation baseline: `{status['audited_commit']}`; current product identities are bound by the receipts below.", '',
             '| Product | Current public version | Authority |', '|---|---|---|',
             f"| Checkers with Runway 13 | **{paper['version']}**, {paper['pages']}-page edition | [Paper index](../papers/README.md), [publication receipt](../{status['receipts']['paper']}) |",
+            f"| Mathematical companion | **{note['version']}**, {note['pages']}-page grayscale note; repository publication | [PDF](../{note['pdf']}), [guide](../{note['guide']}), [publication evidence](../{note['publication_receipt']}) |",
             f"| Historical Research Archive | **{archive['version']}**, {archive['permitted_files']} permitted files in {archive['bundles']} bundles | [Archive](../{archive['entry']}), [release receipt](../{status['receipts']['archive']}) |",
             f"| Visual Atlas | **{atlas['version']}**, {atlas['plates']} principal plates / {atlas['views']} views | [Atlas](../visual-atlas/README.md), [delivery receipt](../{status['receipts']['atlas']}) |"]),
     }

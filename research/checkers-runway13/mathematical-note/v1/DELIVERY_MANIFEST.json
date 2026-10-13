@@ -4,13 +4,13 @@
   "version": 1,
   "date": "2026-10-14",
   "verified_utc": "2026-10-13T19:35:37.846559+00:00",
-  "status": "grayscale revision built and checked; branch push and checked main merge authorized",
+  "status": "grayscale revision published and public-download verified; checked main integration in progress",
   "source_repository": "https://github.com/ayyararyan/kai-tak",
   "source_commit": "78a9ce1c627f917c94306af5529d5e9ebeb743e8",
   "latest_scientific_scope_check": "qa/upstream-freshness.json",
   "branch": "mathematical-note/v1",
-  "local_changes_committed": false,
-  "pushed": false,
+  "local_changes_committed": true,
+  "pushed": true,
   "release_created_or_modified": false,
   "assets": [
     {
@@ -31,7 +31,7 @@
   ],
   "source_archive_members": 641,
   "zip_crc_check_passed": true,
-  "every_member_matches_working_file": true,
+  "every_member_matches_working_file": false,
   "two_package_runs_byte_identical": true,
   "pages": 36,
   "figures": 6,
@@ -67,15 +67,15 @@
       "sha256": "98f63be79ca5ce8b23fe117e74a22a72f94a741d516da657e8f8006a91dbf0a0"
     }
   ],
-  "publication_authorization": "Aryan: Push to GitHub",
+  "publication_authorization": "Aryan: make figures in grayscale, compile and push; merge with main only after checking",
   "publication_normalization": {
     "files": 9,
     "local_path_occurrences": 462,
     "scientific_or_build_inputs_changed": 0,
     "details": "../../../../publication/mathematical-note-v1-publication/inventory.json"
   },
-  "publication_verified_utc": "2026-10-13T19:23:55.671515+00:00",
-  "publication_verification": "../../../../publication/mathematical-note-v1-publication/verification.json",
+  "publication_verified_utc": "2026-10-13T19:39:32.367207+00:00",
+  "publication_verification": "../../../../publication/mathematical-note-v1-publication/grayscale-branch-verification.json",
   "main_merged": false,
   "previous_public_assets": [
     {
@@ -96,10 +96,16 @@
   ],
   "previous_publication_artifact_commit": "73f4e5fb63d3947d123a8a479f00e362f8d33bbf",
   "rendering_revision": "grayscale-only",
-  "source_archive_note": "Current grayscale package; older colour artifacts are preserved in Git history and local author archive.",
+  "source_archive_note": "Immutable 641-member grayscale build snapshot. README.md and STATE.md have subsequent publication-only updates in Git; archived content is verified by PACKAGE_MANIFEST.json.",
   "scientific_verification_carried_forward_without_rerun": true,
   "manuscript_and_scientific_inputs_unchanged": true,
   "grayscale_visual_check": "qa/grayscale-visual-review.md",
   "grayscale_preservation_check": "qa/grayscale-independent-checks.json",
-  "grayscale_clean_build_check": "qa/grayscale-clean-build.json"
+  "grayscale_clean_build_check": "qa/grayscale-clean-build.json",
+  "publication_artifact_commit": "0146dba2f69759ee97739ab931db50df639e0e50",
+  "main_merge_authorized": true,
+  "post_package_document_updates": [
+    "README.md",
+    "STATE.md"
+  ]
 }

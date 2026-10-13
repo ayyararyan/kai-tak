@@ -81,6 +81,21 @@ PDF byte identity is not generally expected from a fresh TeX run. Compare extrac
 text, pagination and rendered pixels where the recorded platform supports that test.
 Never replace the accepted PDF with a freshly built one just to make hashes match.
 
+## Rebuild or verify the mathematical companion
+
+The independent [mathematical note v1](../research/checkers-runway13/mathematical-note/v1/README.md)
+has its own [source package](../research/checkers-runway13/mathematical-note/v1/certified-local-optimality-v1-sources.zip),
+pinned environments and complete public proof closure. It does not supersede V5.
+Extract the package into a new directory outside the accepted tree, then follow
+its README for `build.py` and `scripts/verify_all.py`. Supply a fresh output directory
+for verification receipts; do not regenerate accepted certificates in place.
+The note records 117 public tests and seven excluded tests (not passes), with
+scientific replay and grayscale production evidence kept distinct.
+
+Its copied historical reports retain source-identical missing links. Fast checks
+inherit only existing historical exceptions whose exact source bytes and pinned
+snapshot manifest match; new links and changed copies still fail.
+
 ## Restore research data
 
 Both established modes use the unchanged helper and refuse conflicting local files:
