@@ -1,0 +1,82 @@
+{
+  "source_id": "1980_1990:830",
+  "archive": "reconstruction/chronology/sheets/maps/1980_1990_830_11-NE-16B_1989-12-01.zip",
+  "source_sha256": "210b26c8915f33018b5ebb120a40e132e4ab6d17c570296daa0baa0d0242d157",
+  "printed_label_crop": "integrated/sources/printed_grid_830.png",
+  "printed_label_crop_sha256": "3bfbe2141c207b91400617c7cd5df6a0a94329dcc94d9b710751e9c5c41e2367",
+  "display_frame": "sheet830 raster rescaled to1200pxwidth, pixel-edge convention",
+  "picks_display_xy": [
+    [
+      134.0,
+      214.0
+    ],
+    [
+      562.0,
+      499.0
+    ],
+    [
+      134.0,
+      499.0
+    ]
+  ],
+  "source_pixel_xy": [
+    [
+      1477.1266666666668,
+      2358.9933333333333
+    ],
+    [
+      6195.113333333334,
+      5500.643333333333
+    ],
+    [
+      1477.1266666666668,
+      5500.643333333333
+    ]
+  ],
+  "read_printed_EN_m": [
+    [
+      838300.0,
+      820300.0
+    ],
+    [
+      838600.0,
+      820100.0
+    ],
+    [
+      838300.0,
+      820100.0
+    ]
+  ],
+  "worldfile_EN_m": [
+    [
+      838300.205551177,
+      820299.4440954067
+    ],
+    [
+      838599.8067385112,
+      820099.994821552
+    ],
+    [
+      838300.205551177,
+      820099.994821552
+    ]
+  ],
+  "residual_EN_m": [
+    [
+      0.20555117703042924,
+      -0.5559045933187008
+    ],
+    [
+      -0.19326148880645633,
+      -0.005178448045626283
+    ],
+    [
+      0.20555117703042924,
+      -0.005178448045626283
+    ]
+  ],
+  "max_residual_distance_m": 0.5926898035662711,
+  "visual_pick_tolerance_display_px": 1.5,
+  "interpretation": "independent printed labels and grid intersections check raster transform convention; NOT physical1993ground accuracy, datum link or photo fitvalidation",
+  "historical_clearance_eligible": false
+}

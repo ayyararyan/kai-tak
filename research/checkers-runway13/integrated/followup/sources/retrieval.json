@@ -1,0 +1,32 @@
+[
+  {
+    "path": "integrated/followup/sources/ivao_chart_lead.pdf",
+    "url": "https://www.xe.ivao.aero/download/charts/VHHX.pdf",
+    "final_url": "https://www.xe.ivao.aero/download/charts/VHHX.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "bytes": 5103952,
+    "sha256": "bb3632592f91bae5cbdc05fff58b04e702bcac8bd5d7d982c53f859490fab829",
+    "role": "discovery_only_nonprimary"
+  },
+  {
+    "path": "integrated/followup/sources/ivao_ad_lead.pdf",
+    "url": "https://www.xe.ivao.aero/download/charts/VHHX_AD.pdf",
+    "final_url": "https://www.xe.ivao.aero/download/charts/VHHX_AD.pdf",
+    "status": 200,
+    "type": "application/pdf",
+    "bytes": 40872,
+    "sha256": "27f868b103459596b60acb7c9adc0de996775fedad32e0bd8bed554f648d2c47",
+    "role": "discovery_only_nonprimary"
+  },
+  {
+    "path": "integrated/followup/sources/cad_history.html",
+    "url": "https://www.cad.gov.hk/english/kaitak.html",
+    "final_url": "https://www.cad.gov.hk/english/kaitak.html",
+    "status": 200,
+    "type": "text/html",
+    "bytes": 13461,
+    "sha256": "40b7d5609e00f3097cf44d6e1ba0e2bcb3a3f66c5494866210c0bb8fd7c21693",
+    "role": "primary_CAD_history"
+  }
+]

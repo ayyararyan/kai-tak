@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-13T14:29:40.406001+00:00",
+  "role": "frozen baseline integrity, not source accuracy",
+  "files": {
+    "model/config.json": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693",
+    "model/trajectory.py": "9b557ce07c7e8f177b0b3cfac1765c1c9aec4997e28b52d3185ad533f7cf3f6a",
+    "model/solve.py": "2b93ae2341226f854cc0277b02a9b04e67c25ca569fa2ee0f82920ed860f6a15",
+    "analytical/coupled/continuous_certificate_refined.json": "774f34ad182a5015eeed799c910cde01eb6b297c1b4e6c4a119582b0d83db973",
+    "counterfactual/inputs.json": "5e498fee46936c4a53a908ec255d34b83c4894af223aff10bfbd8610605f088b",
+    "counterfactual/formula.json": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a",
+    "counterfactual/result.json": "49296dd026b3f0702fb672264c2c5524221a38acbf60631b6b8581e6c0b7bfe8",
+    "counterfactual/continuous_check.json": "3631409dfc2fef2c0b8e6bf40d77143358b0bc6ced7c30261c620ce58f228f36",
+    "reconstruction/block_matching/HANDOFF.json": "9f22ab99f964c030608afa44283fe6e92f03f11d30938eb0c0a3a9d5068b9c62",
+    "reconstruction/block_matching/historical_faces.geojson": "f866def637ad2c3495e9a9463a6abfc1b04cbf600b8b52b6ed5ee503bd749ef7",
+    "reconstruction/obstacles/readiness.json": "8ff9e652fa4ec809207cbadff0eee6e525ef17a740cf85d530879bdb698b519c",
+    "reconstruction/obstacles/obstacle_evidence.geojson": "ac3ab63f3c516b8dfa1e18c4be64082fccfd0986979df0619fcc5fe3effb2a30",
+    "reconstruction/obstacles/unresolved_footprints.geojson": "b78d5754894cb75975c0a58cddcd1178dcc4ecc449444e5218b506993b091a85"
+  }
+}

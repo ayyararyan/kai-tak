@@ -1,0 +1,16 @@
+{
+  "endpoint": "https://api.hkmapservice.gov.hk/oss/services/OneStop/FlightPaths/MapServer/2/query",
+  "parameters": {
+    "where": "DATEFLIGHT = 752457600000",
+    "outFields": "*",
+    "returnGeometry": "false"
+  },
+  "retrieved_utc": "2026-10-13T16:03:10.151056+00:00",
+  "response": {
+    "error": {
+      "code": 400,
+      "message": "Failed to execute query.",
+      "details": []
+    }
+  }
+}

@@ -1,0 +1,474 @@
+{
+  "retrievals": [
+    {
+      "file": "sources/grs_guide.pdf",
+      "url": "https://www.grs.gov.hk/ws/erp/filemanager/doc/tg/Kai_Tak_Airport_2011.pdf",
+      "sha256": "d7e672de7c738200138fe042d20fa6173d9a282387d7fe13fd447bc5546298bf",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/lands_categories.pdf",
+      "url": "https://www.landsd.gov.hk/doc/en/list_of_record.pdf",
+      "sha256": "16503b6d7c61fb6bebf9a69823b755d5f50a2d732dbf113744000d4bb0186ba0",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/cad_disposal.pdf",
+      "url": "https://www.grs.gov.hk/pdf/ps_rec_dest_2021/CAD_2021_E.pdf",
+      "sha256": "a8c06ae5ccc721a3cd7b08a23c7000e7bc5d164d554754502ab25f5947c0d4fd",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/lands_contacts.html",
+      "url": "https://www.landsd.gov.hk/en/about-us/contact-us.html",
+      "sha256": "4a3c50dc67a8226c14c6a3d211c73c56a4cabee3a41e761fa71b17d4315b273d",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/cad_contacts.html",
+      "url": "https://www.cad.gov.hk/english/Access_to_Information_Officer.html",
+      "sha256": "2a67d09de82b0ab42a991fa7edd2e535aecf928fe6c5889956ae1938b3320f8a",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/cad_disclosure.html",
+      "url": "https://www.cad.gov.hk/english/accesstoinformation.html",
+      "sha256": "5c96fb7d31a000dfd06f55aac6d6c13cbb7d32761eb50203154b5b2cafe80467",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/cad_categories.html",
+      "url": "https://www.cad.gov.hk/english/records.html",
+      "sha256": "15e87fb7ef82c04c57a4bedce6bd9c061e31fa2476b675b7c8397d9af74770c5",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/lands_aerial.html",
+      "url": "https://www.landsd.gov.hk/en/survey-mapping/mapping/aerial-photo-photogrammetric-products/aerial-photo.html",
+      "sha256": "51161e7f0a964052cbd6a81e031e242123d28b28fb84257e8fdd394596f2d266",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/lands_access.html",
+      "url": "https://www.landsd.gov.hk/en/about-us/access-information.html",
+      "sha256": "a087695a46eb7c4625d3428801f9c0bdefda772798d84c632579c9e5292b68bc",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/grs_home.html",
+      "url": "https://www.grs.gov.hk/en/index.html",
+      "sha256": "0852774c5026ff218c2a673defddaf69621fb162505874e1ef0801386950d78e",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/cad_disclosure2015.html",
+      "url": "https://www.cad.gov.hk/english/disclosure2015.html",
+      "sha256": "6a0b93e1e65d96977749df67568d180b48342a29445f863f830b2bccfc35101b",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/cad_disclosure2016.html",
+      "url": "https://www.cad.gov.hk/english/disclosure2016.html",
+      "sha256": "b83ed1b5b087f6b2d4767791d5f7a3f05fd617d2f057ac1c6f9c0eb7d6e9af18",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/cad_disclosure2017.html",
+      "url": "https://www.cad.gov.hk/english/disclosure2017.html",
+      "sha256": "98bc6d122c4f587728b1ad572e5c90c0799429f2133bf1f308123e103c186730",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/cad_disclosure2018.html",
+      "url": "https://www.cad.gov.hk/english/disclosure2018.html",
+      "sha256": "542776c8652886ccf8d70dc8b4de622a2add21c750cbb234f56c9b9cac769078",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/cad_disclosure2019.html",
+      "url": "https://www.cad.gov.hk/english/disclosure2019.html",
+      "sha256": "d08a53a52823bc92d5702e45db83db6bf0ea3883b7da313c0b4ba70d2c60d9d3",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/cad_disclosure2020.html",
+      "url": "https://www.cad.gov.hk/english/disclosure2020.html",
+      "sha256": "a0f86b7ec96604b01293604b6c104f945de99d51053d439ded4c05bcacdbfa84",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/cad_disclosure2021.html",
+      "url": "https://www.cad.gov.hk/english/disclosure2021.html",
+      "sha256": "d8680af214cc76cb7a2d0bd577f99029082e87b407564745f2bee7f1dcf4c3e2",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/cad_disclosure2022.html",
+      "url": "https://www.cad.gov.hk/english/disclosure2022.html",
+      "sha256": "ccb7ad368de5b2c399875b0d6b835a446001054dcd1905c0e74e710d147ac080",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/cad_disclosure2023.html",
+      "url": "https://www.cad.gov.hk/english/disclosure2023.html",
+      "sha256": "bda2cbb2cb05677947329b58c4f22cf1362a20b1b43d7d0e844a57c4e6767c7e",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/cad_disclosure2024.html",
+      "url": "https://www.cad.gov.hk/english/disclosure2024.html",
+      "sha256": "bd3fc6bdbefbfeea85575206871306dcb6dd90e72856830a123cf35c451de549",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/cad_disclosure2025.html",
+      "url": "https://www.cad.gov.hk/english/disclosure2025.html",
+      "sha256": "f77814c83b3c43f6c5e48a780de47501a8c1f8f30df7129cc7e8c391d9cda6a3",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/cad_disclosure2026.html",
+      "url": "https://www.cad.gov.hk/english/disclosure2026.html",
+      "sha256": "4d0b825341632ea972a1e7ad1ed8fff7d8737b84d3755ba520ddcd002b42e790",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/catalogue_Kai_Tak_runway.html",
+      "url": "https://search.grs.gov.hk/en/search.xhtml?q=Kai+Tak+runway",
+      "sha256": "5595bccf37fc23a167a3d648a59039a6ee54d92b434bb19c60868af92bc4988d",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/catalogue_Kai_Tak_survey.html",
+      "url": "https://search.grs.gov.hk/en/search.xhtml?q=Kai+Tak+survey",
+      "sha256": "c83241bb11aedd48f052e16b26cadbc41e2dd9a306488534b7a6f6b1d6b7c1c5",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/catalogue_Kai_Tak_1993.html",
+      "url": "https://search.grs.gov.hk/en/search.xhtml?q=Kai+Tak+1993",
+      "sha256": "1d79ca6ccf2cecf6e32ad494e7ae2087e0d607fc93486b25918cbec78b37b131",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/catalogue_115-93.html",
+      "url": "https://search.grs.gov.hk/en/search.xhtml?q=115-93",
+      "sha256": "a5b4621be2ffdd739f37e5670e3590282b795ecbb66742ae26e5e5b08f7157a2",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/catalogue_Kai_Tak_obstruction.html",
+      "url": "https://search.grs.gov.hk/en/search.xhtml?q=Kai+Tak+obstruction",
+      "sha256": "30b0b710ec051e93e091a5eee23f9ba82b5130a4dacf96c2dfe7fb8bb812d57f",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/catalogue_targeted_0.html",
+      "url": "https://search.grs.gov.hk/en/search.xhtml?q=%22Kai+Tak%22+AND+%22lighting%22",
+      "sha256": "cfcc14af52d96dbc29b3424fecda93cb8bae48761c80af9f00d70f464b746688",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/catalogue_targeted_1.html",
+      "url": "https://search.grs.gov.hk/en/search.xhtml?q=%22Kai+Tak%22+AND+%22survey%22",
+      "sha256": "3860cf7771bdf1ce52a652b65940dfa2237b9501df998e90f8fb931f1016aca4",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/catalogue_targeted_2.html",
+      "url": "https://search.grs.gov.hk/en/search.xhtml?q=%22Kai+Tak%22+AND+%22obstructions%22",
+      "sha256": "3e50317076d8325f7d4bdc8d747ba31ae991bfa47723035348863e1cfb6d75e4",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/catalogue_targeted_3.html",
+      "url": "https://search.grs.gov.hk/en/search.xhtml?q=%22Kai+Tak%22+AND+%22benchmark%22",
+      "sha256": "63000cc8f59f33d1a962def8c79a0b669c9d44260415916badd5a7aaebf6f4d4",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/catalogue_targeted_4.html",
+      "url": "https://search.grs.gov.hk/en/search.xhtml?q=%22Kowloon+Tsai%22+AND+%22radar%22",
+      "sha256": "677613932bc2694bac7fcda2c421b8b1eee7ebfc2b3e52ba69aa06ce00442016",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/catalogue_targeted_5.html",
+      "url": "https://search.grs.gov.hk/en/search.xhtml?q=%22Mei+Tung%22",
+      "sha256": "28d91216c14278052bab697e3224a2ebfd0717b6a957acfecdcb00dbdd81cc46",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/catalogue_all_0.html",
+      "url": "https://search.grs.gov.hk/en/search.xhtml?q=%22Kai+Tak%22+AND+%22lighting%22&rpp=50",
+      "sha256": "cb5e129daa85d38f9bd4a07b794d5442cf51f0ccf082f5f7df066a014d3e10f1",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/catalogue_all_1.html",
+      "url": "https://search.grs.gov.hk/en/search.xhtml?q=%22Kai+Tak%22+AND+%22survey%22&rpp=50",
+      "sha256": "e0e27be8b503a7a707bc8828bbe98a30168571b41b3044a1e3e5e385aa0e984b",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/catalogue_all_4.html",
+      "url": "https://search.grs.gov.hk/en/search.xhtml?q=%22Kowloon+Tsai%22+AND+%22radar%22&rpp=50",
+      "sha256": "76818a0e3872fc0e0b3f9cd9ed16657381c5a63c9678a3b9331b22514859b581",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/HKRS1232-3-328.html",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=Kai+Tak+1993&eid=RuYiQLxJCFoSTAKA0wq7Bw%3D%3D&ls=q%3DKai%2BTak%2B1993",
+      "sha256": "84c52831e8d32ec9135cc2e8cbe4d738c3bfdab98c48e05a5c6a2fad9404a607",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/HKRS1232-3-322.html",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=Kai+Tak+1993&eid=bA2dETmcezyag4kboimw%2Bg%3D%3D&ls=q%3DKai%2BTak%2B1993",
+      "sha256": "3eed892e4c74cd31d7608e8a0e7afc4d56764a2e9b66faddfe8fc97c463e5c52",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/HKRS1232-3-327.html",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=Kai+Tak+runway&eid=MHSHEG%2FmnnpMvgIVCjdpuw%3D%3D&ls=q%3DKai%2BTak%2Brunway",
+      "sha256": "833884c33e1402fbd3c901a73b6cd20265e06340648b62698d1ddc57f3b3619e",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/HKRS1689-1-208.html",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=Kai+Tak+runway&eid=ItdahF%2FLYH9EHnLpeqhlUA%3D%3D&ls=q%3DKai%2BTak%2Brunway",
+      "sha256": "423545f13f6fdf09b9450d4a850446670162e56197a4d4ab16196234ea649eef",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/HKRS545-8-289.html",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=Kai+Tak+1993&eid=LHLZtR4Xm53x0Ce4tNTlig%3D%3D&ls=q%3DKai%2BTak%2B1993",
+      "sha256": "7f30a45f09f72ae3a173f690a548ec3579ba3f8c875ffb55634489dec917fc9e",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/HKRS815-30-1055.html",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=%22Kowloon+Tsai%22+AND+%22radar%22&eid=4XCpsjBmXQiLwA2PneSAcw%3D%3D&ls=q%3D%2522Kowloon%2BTsai%2522%2BAND%2B%2522radar%2522",
+      "sha256": "190a63965b53102b3aef709a80bf52345d0c5a24d88b388a046cdcab45daafef",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/HKRS815-30-1057.html",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=%22Kowloon+Tsai%22+AND+%22radar%22&eid=ngRe%2FupqB57F3pX%2FQyva3A%3D%3D&ls=q%3D%2522Kowloon%2BTsai%2522%2BAND%2B%2522radar%2522",
+      "sha256": "44530e76ac5617baad1d304930bd4b6cc3026a9e864dcf235e4710c7e5a04cd5",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/HKRS815-29-1533.html",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=%22Kowloon+Tsai%22+AND+%22radar%22&eid=8Zp8RObQgR09iDBW6dXUYA%3D%3D&ls=q%3D%2522Kowloon%2BTsai%2522%2BAND%2B%2522radar%2522",
+      "sha256": "c81278b5043322db7a8aa2bb983ea408461b3109762c4a4be118685d0b5d8018",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/HKRS815-13-1134.html",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=%22Kai+Tak%22+AND+%22lighting%22&eid=Bp5mV2VSj04S4R1sJYlutA%3D%3D&ls=q%3D%2522Kai%2BTak%2522%2BAND%2B%2522lighting%2522",
+      "sha256": "1a22eb8a2ca77875923887ffef721c7193258227963e6670852c06dae5d846e2",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/HKRS728-2-2-19.html",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=%22Kai+Tak%22+AND+%22survey%22&eid=9hyHCfUfnKS8B1t5aaCZYA%3D%3D&ls=q%3D%2522Kai%2BTak%2522%2BAND%2B%2522survey%2522%26rpp%3D50",
+      "sha256": "04ac10c299bf00cc29fb913b63ee07022bbccf022fe86451ecfb21dca42e45f3",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/HKRS728-2-2-20.html",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=%22Kai+Tak%22+AND+%22survey%22&eid=J5rlmTGhHz5f5wvHkTxpLQ%3D%3D&ls=q%3D%2522Kai%2BTak%2522%2BAND%2B%2522survey%2522%26rpp%3D50",
+      "sha256": "a26f7ce289078c7f44e62b2fd107a9c9eaf1cc13380559dfd6d14aec06a129b0",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/HKRS728-2-2-21.html",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=%22Kai+Tak%22+AND+%22survey%22&eid=atPggij18ftKR12wyn%2Fgtw%3D%3D&ls=q%3D%2522Kai%2BTak%2522%2BAND%2B%2522survey%2522%26rpp%3D50",
+      "sha256": "c709c28ff0b690d004dad50fd84a580b001d8f2569240a2463b6df62625ac45b",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/HKRS728-2-2-22.html",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=%22Kai+Tak%22+AND+%22survey%22&eid=GWKxRc3%2FH6v6GfmeZdewww%3D%3D&ls=q%3D%2522Kai%2BTak%2522%2BAND%2B%2522survey%2522%26rpp%3D50",
+      "sha256": "6c3dd4333f377c7986de950260f735d20111cc83f156850f9db3c178dcb5081d",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    },
+    {
+      "file": "sources/HKRS728-2-2-36.html",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=%22Kai+Tak%22+AND+%22survey%22&eid=Ss3VD52oZiSo3kVJv4bZZw%3D%3D&ls=q%3D%2522Kai%2BTak%2522%2BAND%2B%2522survey%2522%26rpp%3D50",
+      "sha256": "9edf1390bcf35db45eda5900aa50e255a9aca0d356424b0740f747053a1dab43",
+      "category": "official administrative/catalogue metadata, not accepted historical geometry",
+      "redistribution": "not established; local research copy"
+    }
+  ],
+  "catalogue_records": [
+    {
+      "record_id": "HKRS1232-3-328",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=Kai+Tak+1993&eid=RuYiQLxJCFoSTAKA0wq7Bw%3D%3D&ls=q%3DKai%2BTak%2B1993",
+      "source_file": "sources/HKRS1232-3-328.html",
+      "sha256": "84c52831e8d32ec9135cc2e8cbe4d738c3bfdab98c48e05a5c6a2fad9404a607",
+      "record_contents_obtained": false,
+      "numerical_geometry_accepted": false
+    },
+    {
+      "record_id": "HKRS1232-3-322",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=Kai+Tak+1993&eid=bA2dETmcezyag4kboimw%2Bg%3D%3D&ls=q%3DKai%2BTak%2B1993",
+      "source_file": "sources/HKRS1232-3-322.html",
+      "sha256": "3eed892e4c74cd31d7608e8a0e7afc4d56764a2e9b66faddfe8fc97c463e5c52",
+      "record_contents_obtained": false,
+      "numerical_geometry_accepted": false
+    },
+    {
+      "record_id": "HKRS1232-3-327",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=Kai+Tak+runway&eid=MHSHEG%2FmnnpMvgIVCjdpuw%3D%3D&ls=q%3DKai%2BTak%2Brunway",
+      "source_file": "sources/HKRS1232-3-327.html",
+      "sha256": "833884c33e1402fbd3c901a73b6cd20265e06340648b62698d1ddc57f3b3619e",
+      "record_contents_obtained": false,
+      "numerical_geometry_accepted": false
+    },
+    {
+      "record_id": "HKRS1689-1-208",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=Kai+Tak+runway&eid=ItdahF%2FLYH9EHnLpeqhlUA%3D%3D&ls=q%3DKai%2BTak%2Brunway",
+      "source_file": "sources/HKRS1689-1-208.html",
+      "sha256": "423545f13f6fdf09b9450d4a850446670162e56197a4d4ab16196234ea649eef",
+      "record_contents_obtained": false,
+      "numerical_geometry_accepted": false
+    },
+    {
+      "record_id": "HKRS545-8-289",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=Kai+Tak+1993&eid=LHLZtR4Xm53x0Ce4tNTlig%3D%3D&ls=q%3DKai%2BTak%2B1993",
+      "source_file": "sources/HKRS545-8-289.html",
+      "sha256": "7f30a45f09f72ae3a173f690a548ec3579ba3f8c875ffb55634489dec917fc9e",
+      "record_contents_obtained": false,
+      "numerical_geometry_accepted": false
+    },
+    {
+      "record_id": "HKRS815-30-1055",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=%22Kowloon+Tsai%22+AND+%22radar%22&eid=4XCpsjBmXQiLwA2PneSAcw%3D%3D&ls=q%3D%2522Kowloon%2BTsai%2522%2BAND%2B%2522radar%2522",
+      "source_file": "sources/HKRS815-30-1055.html",
+      "sha256": "190a63965b53102b3aef709a80bf52345d0c5a24d88b388a046cdcab45daafef",
+      "record_contents_obtained": false,
+      "numerical_geometry_accepted": false
+    },
+    {
+      "record_id": "HKRS815-30-1057",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=%22Kowloon+Tsai%22+AND+%22radar%22&eid=ngRe%2FupqB57F3pX%2FQyva3A%3D%3D&ls=q%3D%2522Kowloon%2BTsai%2522%2BAND%2B%2522radar%2522",
+      "source_file": "sources/HKRS815-30-1057.html",
+      "sha256": "44530e76ac5617baad1d304930bd4b6cc3026a9e864dcf235e4710c7e5a04cd5",
+      "record_contents_obtained": false,
+      "numerical_geometry_accepted": false
+    },
+    {
+      "record_id": "HKRS815-29-1533",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=%22Kowloon+Tsai%22+AND+%22radar%22&eid=8Zp8RObQgR09iDBW6dXUYA%3D%3D&ls=q%3D%2522Kowloon%2BTsai%2522%2BAND%2B%2522radar%2522",
+      "source_file": "sources/HKRS815-29-1533.html",
+      "sha256": "c81278b5043322db7a8aa2bb983ea408461b3109762c4a4be118685d0b5d8018",
+      "record_contents_obtained": false,
+      "numerical_geometry_accepted": false
+    },
+    {
+      "record_id": "HKRS815-13-1134",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=%22Kai+Tak%22+AND+%22lighting%22&eid=Bp5mV2VSj04S4R1sJYlutA%3D%3D&ls=q%3D%2522Kai%2BTak%2522%2BAND%2B%2522lighting%2522",
+      "source_file": "sources/HKRS815-13-1134.html",
+      "sha256": "1a22eb8a2ca77875923887ffef721c7193258227963e6670852c06dae5d846e2",
+      "record_contents_obtained": false,
+      "numerical_geometry_accepted": false
+    },
+    {
+      "record_id": "HKRS728-2-2-19",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=%22Kai+Tak%22+AND+%22survey%22&eid=9hyHCfUfnKS8B1t5aaCZYA%3D%3D&ls=q%3D%2522Kai%2BTak%2522%2BAND%2B%2522survey%2522%26rpp%3D50",
+      "source_file": "sources/HKRS728-2-2-19.html",
+      "sha256": "04ac10c299bf00cc29fb913b63ee07022bbccf022fe86451ecfb21dca42e45f3",
+      "record_contents_obtained": false,
+      "numerical_geometry_accepted": false
+    },
+    {
+      "record_id": "HKRS728-2-2-20",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=%22Kai+Tak%22+AND+%22survey%22&eid=J5rlmTGhHz5f5wvHkTxpLQ%3D%3D&ls=q%3D%2522Kai%2BTak%2522%2BAND%2B%2522survey%2522%26rpp%3D50",
+      "source_file": "sources/HKRS728-2-2-20.html",
+      "sha256": "a26f7ce289078c7f44e62b2fd107a9c9eaf1cc13380559dfd6d14aec06a129b0",
+      "record_contents_obtained": false,
+      "numerical_geometry_accepted": false
+    },
+    {
+      "record_id": "HKRS728-2-2-21",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=%22Kai+Tak%22+AND+%22survey%22&eid=atPggij18ftKR12wyn%2Fgtw%3D%3D&ls=q%3D%2522Kai%2BTak%2522%2BAND%2B%2522survey%2522%26rpp%3D50",
+      "source_file": "sources/HKRS728-2-2-21.html",
+      "sha256": "c709c28ff0b690d004dad50fd84a580b001d8f2569240a2463b6df62625ac45b",
+      "record_contents_obtained": false,
+      "numerical_geometry_accepted": false
+    },
+    {
+      "record_id": "HKRS728-2-2-22",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=%22Kai+Tak%22+AND+%22survey%22&eid=GWKxRc3%2FH6v6GfmeZdewww%3D%3D&ls=q%3D%2522Kai%2BTak%2522%2BAND%2B%2522survey%2522%26rpp%3D50",
+      "source_file": "sources/HKRS728-2-2-22.html",
+      "sha256": "6c3dd4333f377c7986de950260f735d20111cc83f156850f9db3c178dcb5081d",
+      "record_contents_obtained": false,
+      "numerical_geometry_accepted": false
+    },
+    {
+      "record_id": "HKRS728-2-2-36",
+      "url": "https://search.grs.gov.hk/en/arcview.xhtml?q=%22Kai+Tak%22+AND+%22survey%22&eid=Ss3VD52oZiSo3kVJv4bZZw%3D%3D&ls=q%3D%2522Kai%2BTak%2522%2BAND%2B%2522survey%2522%26rpp%3D50",
+      "source_file": "sources/HKRS728-2-2-36.html",
+      "sha256": "9edf1390bcf35db45eda5900aa50e255a9aca0d356424b0740f747053a1dab43",
+      "record_contents_obtained": false,
+      "numerical_geometry_accepted": false
+    }
+  ],
+  "physical_historical_geometry_added": 0,
+  "private_exclusions": [
+    "LANDS_ENQUIRY_DRAFT.md",
+    "CAD_ENQUIRY_DRAFT.md"
+  ],
+  "third_party_sources": "local only pending independent redistribution-rights check"
+}

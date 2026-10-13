@@ -1,0 +1,257 @@
+{
+  "method": "local6parameter affine, manually picked ground features",
+  "historical_clearance_ready": false,
+  "physical_accuracy_bound_m": null,
+  "crs": "EPSG:2326",
+  "source_pixel_xy1_to_EN": [
+    [
+      -0.04435737850602628,
+      0.620035282124587
+    ],
+    [
+      0.6425002168656141,
+      0.026425873644464852
+    ],
+    [
+      837190.0533569133,
+      819759.4698027866
+    ]
+  ],
+  "controls": [
+    {
+      "id": "A_north",
+      "feature": "rounded northern apex of first narrow grass island",
+      "map_uv": [
+        423,
+        244
+      ],
+      "photo_uv": [
+        390,
+        247
+      ],
+      "role": "fit",
+      "source_photo_pixel_xy": [
+        1440.6658629960202,
+        1424.4066579128628
+      ],
+      "map_EN_m": [
+        838028.75,
+        820695.0
+      ],
+      "residual_m": 13.404099312165636
+    },
+    {
+      "id": "A_south",
+      "feature": "southern corner of first grass island",
+      "map_uv": [
+        445,
+        335
+      ],
+      "photo_uv": [
+        408,
+        341
+      ],
+      "role": "holdout",
+      "source_photo_pixel_xy": [
+        1264.7463400584975,
+        1445.1157314184431
+      ],
+      "map_EN_m": [
+        838056.25,
+        820581.25
+      ],
+      "residual_m": 6.218285456036356
+    },
+    {
+      "id": "B_east",
+      "feature": "east tangent of next small grass island",
+      "map_uv": [
+        499,
+        319
+      ],
+      "photo_uv": [
+        455,
+        327
+      ],
+      "role": "fit",
+      "source_photo_pixel_xy": [
+        1281.840665497769,
+        1540.7841951674961
+      ],
+      "map_EN_m": [
+        838123.75,
+        820601.25
+      ],
+      "residual_m": 6.30594830109485
+    },
+    {
+      "id": "B_south",
+      "feature": "southern apex of next small grass island",
+      "map_uv": [
+        479,
+        348
+      ],
+      "photo_uv": [
+        433,
+        348
+      ],
+      "role": "holdout",
+      "source_photo_pixel_xy": [
+        1247.3091716864121,
+        1493.6870642424653
+      ],
+      "map_EN_m": [
+        838098.75,
+        820565.0
+      ],
+      "residual_m": 8.502484734198573
+    },
+    {
+      "id": "C_north",
+      "feature": "northern apex of small triangular grass island",
+      "map_uv": [
+        538,
+        362
+      ],
+      "photo_uv": [
+        490,
+        365
+      ],
+      "role": "fit",
+      "source_photo_pixel_xy": [
+        1205.6425879579272,
+        1604.262967721829
+      ],
+      "map_EN_m": [
+        838172.5,
+        820547.5
+      ],
+      "residual_m": 5.525201524092244
+    },
+    {
+      "id": "C_southwest",
+      "feature": "southwest apex of small triangular grass island",
+      "map_uv": [
+        518,
+        411
+      ],
+      "photo_uv": [
+        471,
+        406
+      ],
+      "role": "holdout",
+      "source_photo_pixel_xy": [
+        1133.83350765644,
+        1559.9226183835333
+      ],
+      "map_EN_m": [
+        838147.5,
+        820486.25
+      ],
+      "residual_m": 18.301700113436365
+    },
+    {
+      "id": "D_north",
+      "feature": "northern rounded apex of long grass island",
+      "map_uv": [
+        575,
+        411
+      ],
+      "photo_uv": [
+        529,
+        413
+      ],
+      "role": "fit",
+      "source_photo_pixel_xy": [
+        1110.3474694589765,
+        1674.089490074609
+      ],
+      "map_EN_m": [
+        838218.75,
+        820486.25
+      ],
+      "residual_m": 6.36198622005802
+    },
+    {
+      "id": "D_southeast",
+      "feature": "southeastern apex of long grass island",
+      "map_uv": [
+        637,
+        523
+      ],
+      "photo_uv": [
+        580,
+        523
+      ],
+      "role": "holdout",
+      "source_photo_pixel_xy": [
+        898.9969253094532,
+        1757.8289430717546
+      ],
+      "map_EN_m": [
+        838296.25,
+        820346.25
+      ],
+      "residual_m": 23.86671069415776
+    },
+    {
+      "id": "seawall_corner",
+      "feature": "shoreline corner adjacent to runway and former city boundary",
+      "map_uv": [
+        497,
+        721
+      ],
+      "photo_uv": [
+        461,
+        761
+      ],
+      "role": "fit",
+      "source_photo_pixel_xy": [
+        483.75001462192813,
+        1483.1307087195646
+      ],
+      "map_EN_m": [
+        838121.25,
+        820098.75
+      ],
+      "residual_m": 0.2953708080874371
+    },
+    {
+      "id": "roundabout",
+      "feature": "centre of northern approach-road roundabout",
+      "map_uv": [
+        251,
+        63
+      ],
+      "photo_uv": [
+        206,
+        52
+      ],
+      "role": "fit",
+      "source_photo_pixel_xy": [
+        1832.4878647741054,
+        1089.9247150277524
+      ],
+      "map_EN_m": [
+        837813.75,
+        820921.25
+      ],
+      "residual_m": 5.705810204909872
+    }
+  ],
+  "fit_rmse_m": 7.338041256598425,
+  "holdout_rmse_m": 15.933701916604425,
+  "limitations": [
+    "1989/1990 map versus1993 photograph; same-surface identity manually interpreted",
+    "Fit/holdout samples not independent surveys",
+    "Perspective relief distortion and camera calibration unresolved",
+    "No hard accuracy bound; no vertical calibration",
+    "Some picks are approximate tangencies, not surveyed monument points"
+  ],
+  "source_sha256": {
+    "integrated/geometry/runway_control_picks.json": "8162016e7c6f3b3c213bce8f5e46bf736e3ac8c639cba6afd54df63306abd056",
+    "reconstruction/chronology/aerial/fullframes/A36143.jpg": "e8439e24ffd7acbbaf7b5247b2fddbd7a52fd079e3c986481771efe204eaf289",
+    "reconstruction/block_matching/aerial_registration/registration.json": "5778db43d56cff962f666fcb44208a2dd7f300474c0b83c09addba3933dc2965",
+    "integrated/prepare_registration.py": "53b22dbda25e227b2dbe2ecd34c138930c751861d5e6d17aa1913576fc4beff3"
+  }
+}

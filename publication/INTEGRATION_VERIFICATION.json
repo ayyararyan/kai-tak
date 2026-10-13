@@ -1,0 +1,31 @@
+{
+  "verified_utc": "2026-10-13T16:34:02.843062+00:00",
+  "scope": "Publication validation, not scientific completion",
+  "research_files": 155,
+  "git_research_files": 150,
+  "bulk_research_files": 5,
+  "integration_tests_passed": 36,
+  "followup_tests_passed": 7,
+  "test_condition": "public code with documented dependencies and locally supplied excluded source originals; source links removed before staging",
+  "frozen_inputs_unchanged": 13,
+  "historical_gate_expected_exit": 2,
+  "historical_clearance": null,
+  "closed_form_optimum": null,
+  "archive_groups_verified": 5,
+  "archive_members_verified": 1254,
+  "source_drift_since_capture": [],
+  "secret_or_private_path_findings": [],
+  "errors": [],
+  "unchanged_manuscripts": {
+    "research/checkers-runway13/whitepaper/v1/checkers-with-runway-13-white-paper-v1.pdf": "0fc56dcd02145905494701f98ab96c229bc8ae4a75386602eba4dd7246e8b855",
+    "research/checkers-runway13/whitepaper/v2/checkers-with-runway-13-white-paper-v2.pdf": "a6de1e92665ed9b7d8773843174f2600d148acf932834e52a3a94527bee6f2fc",
+    "research/checkers-runway13/whitepaper/checkers-with-runway-13-white-paper-v2-source.zip": "58de087713f965d24f63ad643fada134fd53704e984006c65250ef49ec77ce89"
+  },
+  "settled_archival_handoff": {
+    "late_handoff_files": 6,
+    "retrieval_hashes_rechecked": 50,
+    "catalogue_identities_rechecked": 14,
+    "exact_rational_checks": 8,
+    "errors": []
+  }
+}

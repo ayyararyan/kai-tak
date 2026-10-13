@@ -1,0 +1,193 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "SE_approach_light_0",
+        "source_id": "1980_1990:1011",
+        "sheet": "11-NE-22D",
+        "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_1011_11-NE-22D_1993-08-01.zip",
+        "source_sha256": "a99b907877b80d729bb00e78a965041a3ea5d93ecd689ccd12dde1de38e1a92f",
+        "source_tiff": "HP1C-11NE22D-199308.tif",
+        "edition_month": "1993-08",
+        "query_date": "1993-11-04",
+        "query_date_presence_certified": false,
+        "meaning": "mapped approach light/strobe symbol, not surveyed extent or top",
+        "category": "deterministically derived from manually interpreted source outer edge",
+        "source_pixel_edge_picks": [
+          [
+            10200.257777777779,
+            5364.688888888888
+          ]
+        ],
+        "pick_tolerance_display_px": 3,
+        "pick_tolerance_grid_axis_m": 2.100188173631,
+        "physical_horizontal_error_bound_m": null,
+        "top_height_HKPD_m": null,
+        "physical_height_bound_m": null,
+        "clearance_eligible": false,
+        "crs_source_geometry": "EPSG:2326",
+        "EN_m": [
+          840352.7954551452,
+          818313.3929816752
+        ],
+        "limitations": [
+          "Interpolation joins sampled mapped seawallline only",
+          "No walltop elevation, sea-surface law or hard spatial bound",
+          "Map edition and photo appearance do not certify target-day wall volume"
+        ],
+        "symbol": "approachlight and strobelight",
+        "horizontal_extent_m": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21651683755925,
+          22.303766817981174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "SE_approach_light_1",
+        "source_id": "1980_1990:1011",
+        "sheet": "11-NE-22D",
+        "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_1011_11-NE-22D_1993-08-01.zip",
+        "source_sha256": "a99b907877b80d729bb00e78a965041a3ea5d93ecd689ccd12dde1de38e1a92f",
+        "source_tiff": "HP1C-11NE22D-199308.tif",
+        "edition_month": "1993-08",
+        "query_date": "1993-11-04",
+        "query_date_presence_certified": false,
+        "meaning": "mapped approach light/strobe symbol, not surveyed extent or top",
+        "category": "deterministically derived from manually interpreted source outer edge",
+        "source_pixel_edge_picks": [
+          [
+            11008.635555555556,
+            5875.4366666666665
+          ]
+        ],
+        "pick_tolerance_display_px": 3,
+        "pick_tolerance_grid_axis_m": 2.100188173631,
+        "physical_horizontal_error_bound_m": null,
+        "top_height_HKPD_m": null,
+        "physical_height_bound_m": null,
+        "clearance_eligible": false,
+        "crs_source_geometry": "EPSG:2326",
+        "EN_m": [
+          840404.1333882784,
+          818280.9598104219
+        ],
+        "limitations": [
+          "Interpolation joins sampled mapped seawallline only",
+          "No walltop elevation, sea-surface law or hard spatial bound",
+          "Map edition and photo appearance do not certify target-day wall volume"
+        ],
+        "symbol": "approachlight",
+        "horizontal_extent_m": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21701498256779,
+          22.30347380401562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "SE_approach_light_2",
+        "source_id": "1980_1990:1011",
+        "sheet": "11-NE-22D",
+        "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_1011_11-NE-22D_1993-08-01.zip",
+        "source_sha256": "a99b907877b80d729bb00e78a965041a3ea5d93ecd689ccd12dde1de38e1a92f",
+        "source_tiff": "HP1C-11NE22D-199308.tif",
+        "edition_month": "1993-08",
+        "query_date": "1993-11-04",
+        "query_date_presence_certified": false,
+        "meaning": "mapped approach light/strobe symbol, not surveyed extent or top",
+        "category": "deterministically derived from manually interpreted source outer edge",
+        "source_pixel_edge_picks": [
+          [
+            10876.355555555556,
+            6015.065555555555
+          ]
+        ],
+        "pick_tolerance_display_px": 3,
+        "pick_tolerance_grid_axis_m": 2.100188173631,
+        "physical_horizontal_error_bound_m": null,
+        "top_height_HKPD_m": null,
+        "physical_height_bound_m": null,
+        "clearance_eligible": false,
+        "crs_source_geometry": "EPSG:2326",
+        "EN_m": [
+          840395.7326355838,
+          818272.093188065
+        ],
+        "limitations": [
+          "Interpolation joins sampled mapped seawallline only",
+          "No walltop elevation, sea-surface law or hard spatial bound",
+          "Map edition and photo appearance do not certify target-day wall volume"
+        ],
+        "symbol": "approachlight",
+        "horizontal_extent_m": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21693343152982,
+          22.30339375318034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "SE_approach_light_3",
+        "source_id": "1980_1990:1011",
+        "sheet": "11-NE-22D",
+        "source_archive": "reconstruction/chronology/sheets/maps/1980_1990_1011_11-NE-22D_1993-08-01.zip",
+        "source_sha256": "a99b907877b80d729bb00e78a965041a3ea5d93ecd689ccd12dde1de38e1a92f",
+        "source_tiff": "HP1C-11NE22D-199308.tif",
+        "edition_month": "1993-08",
+        "query_date": "1993-11-04",
+        "query_date_presence_certified": false,
+        "meaning": "mapped approach light/strobe symbol, not surveyed extent or top",
+        "category": "deterministically derived from manually interpreted source outer edge",
+        "source_pixel_edge_picks": [
+          [
+            10736.726666666667,
+            6158.36888888889
+          ]
+        ],
+        "pick_tolerance_display_px": 3,
+        "pick_tolerance_grid_axis_m": 2.100188173631,
+        "physical_horizontal_error_bound_m": null,
+        "top_height_HKPD_m": null,
+        "physical_height_bound_m": null,
+        "clearance_eligible": false,
+        "crs_source_geometry": "EPSG:2326",
+        "EN_m": [
+          840386.8651744063,
+          818262.9932335407
+        ],
+        "limitations": [
+          "Interpolation joins sampled mapped seawallline only",
+          "No walltop elevation, sea-surface law or hard spatial bound",
+          "Map edition and photo appearance do not certify target-day wall volume"
+        ],
+        "symbol": "approachlight",
+        "horizontal_extent_m": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21684735064646,
+          22.303311596288594
+        ]
+      }
+    }
+  ]
+}

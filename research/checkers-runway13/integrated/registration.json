@@ -1,0 +1,51 @@
+{
+  "horizontal_scene_crs": "EPSG:2326",
+  "geojson_display_crs": "EPSG:4326",
+  "vertical_scene_reference": "HKPD for source-map spots only; null for roofs/equipment; relative stereo excluded from absolute scene",
+  "official_horizontal_checkpoint": {
+    "ITRF96_epoch": "1998:121",
+    "input_lon_lat_deg": [
+      114.00029998111111,
+      22.485771437777778
+    ],
+    "ellipsoidal_height_m_assumption": 0,
+    "published_EN_m": [
+      818097.267,
+      838477.97
+    ],
+    "explicit_official_matrix_EN_m": [
+      818097.2645848509,
+      838477.9714786711
+    ],
+    "EPSG_display_transform_EN_m": [
+      818097.2645240758,
+      838477.9709134594
+    ],
+    "explicit_residual_m": [
+      -0.0024151491234079003,
+      0.001478671096265316
+    ],
+    "EPSG_residual_m": [
+      -0.002475924207828939,
+      0.0009134594583883882
+    ],
+    "interpretation": "numeric formula/unit/sign consistency only, NOT historical registration error or realization equivalence"
+  },
+  "threshold_EN_m": null,
+  "true_runway_bearing_1993_deg": null,
+  "grid_runway_bearing_1993_deg": null,
+  "runway_HKPD_m": null,
+  "runway_source_AMSL_ft": 15,
+  "AMSL_to_HKPD_offset_m": null,
+  "source_chart_bearing_scenario": {
+    "magnetic_deg": 135,
+    "variation_east_positive_deg": -1.8333333333333333,
+    "variation_year": 1990,
+    "derived_true_deg": 133.16666666666666,
+    "use": "scenario only, not accepted1993 true/gridbearing"
+  },
+  "accepted_historical_registration": false,
+  "diagnostic_fit": "geometry/runway_registration_diagnostic.json",
+  "independent_diagnostic_crosscheck": "geometry/runway_crosscheck.json",
+  "printed_grid_check": "geometry/printed_grid_check.json"
+}

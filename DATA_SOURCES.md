@@ -1,5 +1,11 @@
 # Data sources, attribution and publication scope
 
+## Historical-integration update
+
+The integration package adds dated open-map/aerial derivatives, authored analytical and calibration documents, source observations, registration checks, and the endpoint/survey follow-up. See [the acquisition catalogue](publication/integration_source_inventory.json) for new source URLs, acquisition hashes and explicit local-only files. The full 1993 public aerial index is included as twelve JSON chunks (5,637 records).
+
+Boeing manuals and detailed drawings, CAD/IVAO chart/report scans and extracts, cached website bodies, unsent enquiry drafts  are not republished. Their acquisition metadata and relevant derived factual observations remain available. The five bulk integration images are an independent fifth data group; the four earlier release archives are unchanged. V3 remains an unfinished local manuscript and is excluded. [Verification and reproduction requirements](publication/INTEGRATION_UPDATE.md) distinguish tests with locally supplied originals from what an unaided public clone can run.
+
 This is an updated public research snapshot, not a complete backup of the workstation. A separate publication manifest records every included source file and explicit file exclusions. The live research directories were not moved or modified by packaging, apart from publication entries appended to their project ledger.
 
 ## Included open data and derived research
