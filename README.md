@@ -103,7 +103,7 @@ The vector $q$ contains the **12 trajectory parameters**. The index set $\mathca
 ```math
 \begin{aligned}
 G^{\mathsf T}\lambda&=0, & \sum_{i=1}^{6}\lambda_i&=1,\\
-\lambda_i&>0, & \operatorname{rank}(G)&=5.
+\lambda_i&>0, & \mathrm{rank}(G)&=5.
 \end{aligned}
 ```
 
