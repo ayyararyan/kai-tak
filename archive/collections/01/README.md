@@ -94,6 +94,5 @@ Ayyar, Aryan (2026). Historical Maps and Aerial Photography. The Kai Tak Histori
 - Verification: Not independently verified.
 - CRS / vertical datum: not applicable or unresolved / not applicable or unresolved.
 - Limitations: Directory classification is navigational, not a verified source or transformation chain.
-- Source links: 
+- Source links: Not established; see unresolved source record.
 - Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
-

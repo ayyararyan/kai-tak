@@ -2257,63 +2257,63 @@
     },
     {
       "path": "archive/collections/01/README.md",
-      "sha256": "90cabbc344155b0c4c4c0e0deaccb9154651e52b15636d8b91a8906c76c5dcb0",
+      "sha256": "882f16f507475fb2f1e0adfd99b79ca8b6da14c60aaae69ee73141412a910b1b",
       "candidate_license": "CC-BY-4.0",
       "approved": false,
       "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
     },
     {
       "path": "archive/collections/02/README.md",
-      "sha256": "3aa79aa0b9ecc4a4da1fa97b0e3a50f28c2b49ec2e663013b9528d48c9b51230",
+      "sha256": "33b9321ef9ffa679a3d576c42f58e81a62f8b5d1090810ce283c4c9c1a00fb8b",
       "candidate_license": "CC-BY-4.0",
       "approved": false,
       "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
     },
     {
       "path": "archive/collections/03/README.md",
-      "sha256": "4f83d2b3482b79f04f8ec1781c80af937659adfac8299aa6a6631dfff7f74275",
+      "sha256": "effd2d6d2e377505c600fd873bcec18923b730199abf43d9c5059d3a3034b8d9",
       "candidate_license": "CC-BY-4.0",
       "approved": false,
       "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
     },
     {
       "path": "archive/collections/04/README.md",
-      "sha256": "4ef2de60ae0223bd8b51ae97945a02a85a296ab3632dceb555b19980d6b5e636",
+      "sha256": "e82acf8ce7b5267a1d1e535f4e356306ed3e58705e4d8f85e484bbeba69e6b59",
       "candidate_license": "CC-BY-4.0",
       "approved": false,
       "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
     },
     {
       "path": "archive/collections/05/README.md",
-      "sha256": "0374e53f2a8648b1c3d87d208109b6044ac4c87b9200c15a8e674af2c7d1ec89",
+      "sha256": "a4629cfd4689930ca2908b1119c1f2c420353733e192f814882e9ed8151ad0f3",
       "candidate_license": "CC-BY-4.0",
       "approved": false,
       "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
     },
     {
       "path": "archive/collections/06/README.md",
-      "sha256": "d5b2046038e9c91820a7d0a1bff2d59c110eb4029d0e465882fb70d25781437a",
+      "sha256": "c29c05c96c44f1f8c4001fd79ff74de23a025520aa33f6c120e7a11676f01604",
       "candidate_license": "CC-BY-4.0",
       "approved": false,
       "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
     },
     {
       "path": "archive/collections/07/README.md",
-      "sha256": "eb11395fde4738b9fc9a4bc7c226e9b353fcced44f40fb65c4ac4fb1cf9dc306",
+      "sha256": "271268d28eafd104d8fb445570e4511efc062c6b2793d55ece3296dd8cdf4840",
       "candidate_license": "CC-BY-4.0",
       "approved": false,
       "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
     },
     {
       "path": "archive/collections/08/README.md",
-      "sha256": "8c66e5ed36754b7835b62e06830c52ddd18d1cf185151a59f7c87e115a601b04",
+      "sha256": "f316349296b9a9f6cc1e8676c3dfc9ccee3c9a397a13ea46dae43ac0ab935374",
       "candidate_license": "CC-BY-4.0",
       "approved": false,
       "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
     },
     {
       "path": "archive/collections/09/README.md",
-      "sha256": "b065e0df18d04bc1a268756eca7e0fead9d09009652b5bad5c632562bed1aaeb",
+      "sha256": "3e78f4607a19eb8ce55e8371c11293bbd9734706fb46ee7875ae585ca63956d9",
       "candidate_license": "CC-BY-4.0",
       "approved": false,
       "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
@@ -2334,7 +2334,7 @@
     },
     {
       "path": "scripts/archive_catalogue.py",
-      "sha256": "9f1d831e7c50467611aba893548d4def6dd3b09ca1954404c61026551412cfa3",
+      "sha256": "e43b9a1debc3e14fe2af9616529e3b91c5a5128026ad60e476de40d3c88d83b6",
       "candidate_license": "MIT",
       "approved": false,
       "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."

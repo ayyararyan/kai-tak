@@ -183,6 +183,3 @@ Decision: **Excluded**. Tokens, cookies, headers with session data, unsent corre
 Identify original creator and all upstream sources before reuse.
 
 Decision: **Rights unresolved**. No new byte redistribution until exact provenance and rights are resolved.
-
-
-
