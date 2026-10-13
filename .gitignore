@@ -1747,3 +1747,19 @@ python_deps/
 /research/checkers-runway13/integrated/**/*_ENQUIRY_DRAFT.md
 /research/checkers-runway13/integrated/aircraft_followup/sources/
 /.venv-scientific/
+
+# V5 publication uses the accepted package set; exclude regenerated local scratch.
+/research/checkers-runway13/whitepaper/v5/__pycache__/
+/research/checkers-runway13/whitepaper/v5/**/__pycache__/
+/research/checkers-runway13/whitepaper/v5/.venv/
+/research/checkers-runway13/whitepaper/v5/.pytest_cache/
+/research/checkers-runway13/whitepaper/v5/main.aux
+/research/checkers-runway13/whitepaper/v5/main.bbl
+/research/checkers-runway13/whitepaper/v5/main.blg
+/research/checkers-runway13/whitepaper/v5/main.log
+/research/checkers-runway13/whitepaper/v5/main.out
+/research/checkers-runway13/whitepaper/v5/main.pdf
+/research/checkers-runway13/whitepaper/v5/abstract.tex
+/research/checkers-runway13/whitepaper/v5/qa/pages/
+/research/checkers-runway13/whitepaper/v5/qa/*pytest_tmp/
+/research/checkers-runway13/whitepaper/v5/qa/*.log

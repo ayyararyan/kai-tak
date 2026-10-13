@@ -10,7 +10,7 @@ Historical Geography, Aviation Evidence, Flight Dynamics and Mathematical Recons
 
 *Cover artwork is an illustration, not a historical photograph or a reconstructed flight path.*
 
-[**Read the white paper (v4, PDF)**](research/checkers-runway13/whitepaper/v4/checkers-with-runway-13-white-paper-v4.pdf) · [**Explore the research**](#explore-the-project) · [**Browse the data**](#historical-data-and-archive) · [**Reproduce the results**](#reproduce-the-research)
+[**Read the white paper (v5, PDF)**](research/checkers-runway13/whitepaper/v5/checkers-with-runway-13-white-paper-v5.pdf) · [**Explore the research**](#explore-the-project) · [**Browse the data**](#historical-data-and-archive) · [**Reproduce the results**](#reproduce-the-research)
 
 ---
 
@@ -38,21 +38,23 @@ This is a new, additive scientific layer. The frozen manuscripts, older syntheti
 
 ## Start with the paper
 
-### [Checkers with Runway 13 — Version 4 · RFS author format](research/checkers-runway13/whitepaper/v4/checkers-with-runway-13-white-paper-v4.pdf)
+### [Checkers with Runway 13 — Version 5](research/checkers-runway13/whitepaper/v5/checkers-with-runway-13-white-paper-v5.pdf)
 
-**35 pages · 16 reproducible scientific figures · 7 worked insights · 6 mathematical appendices**
+**38 pages · 15 redesigned scientific illustrations · Seven-act engineering investigation · Eight technical appendices**
 
-The latest completed white paper is written for curious readers as well as technically trained researchers. It moves from the history and geography of Kai Tak to the mechanics of turning, descending, touchdown, braking, and the limits of what archival evidence can establish.
+Why can a modest bank accumulate a 47-degree turn? Why might reaching the runway leave too little pavement to stop? The rewritten paper follows those questions from the lift vector to the ground roll, then returns to dated photographs, recovered surface geometry, wind and the CAL605 accident record. Physical calculations and historical evidence carry the narrative.
 
-[Read the PDF](research/checkers-runway13/whitepaper/v4/checkers-with-runway-13-white-paper-v4.pdf) · [Read the abstract](research/checkers-runway13/whitepaper/v4/abstract.md) · [Download editable sources](research/checkers-runway13/whitepaper/v4/checkers-with-runway-13-white-paper-v4-sources.zip) · [Inspect claims and evidence](research/checkers-runway13/whitepaper/v4/CLAIMS_AND_EVIDENCE.csv) · [Verification report](research/checkers-runway13/whitepaper/v4/VERIFICATION.md)
+[Read the PDF](research/checkers-runway13/whitepaper/v5/checkers-with-runway-13-white-paper-v5.pdf) · [Read the abstract](research/checkers-runway13/whitepaper/v5/abstract.md) · [Download editable sources](research/checkers-runway13/whitepaper/v5/checkers-with-runway-13-white-paper-v5-sources.zip) · [Inspect claims and evidence](research/checkers-runway13/whitepaper/v5/CLAIMS_AND_EVIDENCE.csv) · [Verification report](research/checkers-runway13/whitepaper/v5/VERIFICATION.md)
 
-![Source-linked 1993 aerial view of Kai Tak and its urban setting from the white paper](research/checkers-runway13/whitepaper/v4/figures/01_historical_airport.png)
+![Three original aerial frames locating Kai Tak, Kowloon City, Checkerboard Hill and the bay](research/checkers-runway13/whitepaper/v5/figures/01_place.png)
 
-*Historical source illustration from the white paper, based on a Lands Department open-data aerial frame. The catalogue and handwritten frame dates disagree; the discrepancy is documented rather than silently resolved. See the [figure rights and provenance](research/checkers-runway13/whitepaper/v4/RIGHTS_AND_PROVENANCE.md).*
+*Separate Lands Department source frames, not a stitched panorama or a reconstructed flight path. The October images and the November catalogue/handwritten-date discrepancy retain their source labels. See [rights and provenance](research/checkers-runway13/whitepaper/v5/RIGHTS_AND_PROVENANCE.md).*
 
-Version 4 uses the RFS author format already used by Aryan’s website papers: Times 12-point text, journal-style proportions and author–year references. It preserves Version 3’s complete scientific content and figures; this is a format edition, not an RFS publication or a new scientific result. All 35 pages were visually inspected, and the editable package was rebuilt from a clean folder. The first-person foreword remains marked for author review.
+V5 preserves V4's RFS-based academic typography while substantially rewriting the prose and redesigning the complete figure system. All 38 pages were visually inspected; a clean source-package build matched their text and rendered pixels, and all 60 figure exports reproduced byte-for-byte. The underlying model, two separate certificates and historical evidence remain unchanged. The first-person foreword remains marked for author review; no independent human specialist review is claimed.
 
-The illustrated [33-page Version 3](research/checkers-runway13/whitepaper/v3/checkers-with-runway-13-white-paper-v3.pdf), its [sources and verification](research/checkers-runway13/whitepaper/v3/README.md), and the earlier [30-page Version 2](research/checkers-runway13/whitepaper/v2/checkers-with-runway-13-white-paper-v2.pdf) remain unchanged and available.
+[Editorial assessment](research/checkers-runway13/whitepaper/v5/EDITORIAL_ASSESSMENT.md) · [Figure redesign](research/checkers-runway13/whitepaper/v5/FIGURE_REDESIGN.md) · [600 dpi presentation figures](research/checkers-runway13/whitepaper/v5/presentation/) · [Publication record](research/checkers-runway13/whitepaper/v5/PUBLICATION.md)
+
+The [35-page Version 4](research/checkers-runway13/whitepaper/v4/checkers-with-runway-13-white-paper-v4.pdf), [33-page Version 3](research/checkers-runway13/whitepaper/v3/checkers-with-runway-13-white-paper-v3.pdf) and [30-page Version 2](research/checkers-runway13/whitepaper/v2/checkers-with-runway-13-white-paper-v2.pdf) remain unchanged and available.
 
 ## Explore the project
 
@@ -116,6 +118,20 @@ The existing [dated research snapshots](publication/release_assets.json), with 1
 
 ## Reproduce the research
 
+### Rebuild the latest white paper (v5)
+
+The [V5 build guide](research/checkers-runway13/whitepaper/v5/README.md) documents the pinned Python dependencies, XeLaTeX/BibTeX, Poppler and locally licensed fonts. The public package's two documentation-only path normalizations do not affect its build inputs.
+
+~~~bash
+cd research/checkers-runway13/whitepaper/v5
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python build.py --figures
+.venv/bin/python verify_certificates.py
+~~~
+
+[Reproducibility report](research/checkers-runway13/whitepaper/v5/REPRODUCIBILITY.md) · [Scientific checks](research/checkers-runway13/whitepaper/v5/SCIENTIFIC_VERIFICATION.md)
+
 ### Rebuild white paper v3
 
 The portable manuscript includes its frozen numerical inputs, plots, source code and proof-checking scripts. It requires Python, Tectonic and Poppler; see the [full build guide](research/checkers-runway13/whitepaper/v3/README.md).
@@ -152,6 +168,6 @@ The research used **AI-assisted implementation, drafting and checking**; the man
 
 Original research and code are copyright © 2026 Aryan Ayyar. **No blanket open-source license has yet been granted.** Third-party datasets, photographs, maps and publications retain their own rights and use conditions. Hong Kong Government open-data material is attributed to its source institutions under the applicable DATA.GOV.HK/CSDI terms. Restricted report scans and scholarly PDFs are inventoried or linked, not republished where permission has not been established.
 
-[Rights and attribution](NOTICE.md) · [Source-by-source publication scope](DATA_SOURCES.md) · [White-paper figure provenance](research/checkers-runway13/whitepaper/v3/RIGHTS_AND_PROVENANCE.md)
+[Rights and attribution](NOTICE.md) · [Source-by-source publication scope](DATA_SOURCES.md) · [White-paper figure provenance](research/checkers-runway13/whitepaper/v5/RIGHTS_AND_PROVENANCE.md)
 
-For scholarly reference, cite **Ayyar, A. (2026), _Checkers with Runway 13_, white paper v3**, with the [versioned PDF](research/checkers-runway13/whitepaper/v3/checkers-with-runway-13-white-paper-v3.pdf) and the specific dataset release or source record used. A persistent archive DOI is not claimed.
+For scholarly reference, cite **Ayyar, A. (2026), _Checkers with Runway 13_, white paper v5**, with the [versioned PDF](research/checkers-runway13/whitepaper/v5/checkers-with-runway-13-white-paper-v5.pdf) and the specific dataset release or source record used. A persistent archive DOI is not claimed.

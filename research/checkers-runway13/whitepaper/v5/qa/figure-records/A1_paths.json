@@ -1,0 +1,23 @@
+{
+  "figure": "A1_paths",
+  "inputs": [
+    {
+      "path": "evidence/approximation/reference_formula.json",
+      "sha256": "95311d6d1857fc6330532dcce52cc58f03e20b489c3249a0da6cf3f14cea0c76"
+    },
+    {
+      "path": "evidence/counterfactual/formula.json",
+      "sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a"
+    }
+  ],
+  "meaning": "Both exact polynomial candidates and derived kinematic profiles; distinct scenario times",
+  "master_inches": [
+    7.1,
+    6.4
+  ],
+  "screen_dpi": 190,
+  "presentation_dpi": 600,
+  "pdf_sha256": "82661cf0694e4129d144f35be16901abafa6e967ebd8a8b965e68c0dd579eee8",
+  "vertical_exaggeration": 1,
+  "paths_evaluated": 2
+}

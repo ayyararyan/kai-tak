@@ -1,0 +1,111 @@
+{
+  "frame": "A36143",
+  "capture_date": "1993-11-02",
+  "reference_sheet": "11-NE-11A",
+  "reference_edition_month": "1989-10",
+  "crs": "EPSG:2326",
+  "model": "local six-parameter affine",
+  "status": "local_ground_planimetric_diagnostic_not_orthophoto",
+  "ground_control_type": "manually matched street-centerline junctions",
+  "fit_holdout_split": "alternating cross streets selected before fit; 6 fit and 4 holdout; all on two parallel roads, not independent across regional surface",
+  "coefficients_pixel_xy1_to_EN": [
+    [
+      -0.05446256083764548,
+      0.6752491584874986
+    ],
+    [
+      0.6238314947312559,
+      0.06226786653380923
+    ],
+    [
+      837177.3726176992,
+      819629.7468246855
+    ]
+  ],
+  "metrics": {
+    "fit": {
+      "count": 6,
+      "rmse_m": 3.7160178845088967,
+      "max_m": 5.170893663628818,
+      "residuals_m": [
+        3.634775346141629,
+        2.2318612939749003,
+        5.170893663628818,
+        4.789202410876746,
+        0.8670298534264174,
+        3.772743706619972
+      ]
+    },
+    "holdout": {
+      "count": 4,
+      "rmse_m": 2.4182661110731636,
+      "max_m": 3.692428959474053,
+      "residuals_m": [
+        3.692428959474053,
+        1.1800540644032724,
+        1.2523644116678458,
+        2.607118735418511
+      ]
+    }
+  },
+  "local_control_bbox_EN": [
+    837545.6621529254,
+    821085.098840092,
+    837777.1518926101,
+    821284.8226107344
+  ],
+  "nominal_output_pixel_m": 0.5,
+  "pixel_size_is_accuracy": false,
+  "manual_pick_uncertainty": "not calibrated; controls visually picked on 1800px inspection images; approximately several source pixels",
+  "not_valid_for": [
+    "whole-frame orthorectification",
+    "building footprints from roof edges",
+    "height measurement",
+    "clearance certification",
+    "controls outside local road grid"
+  ],
+  "source_sha256": {
+    "chronology/aerial/fullframes/A36143.jpg": "e8439e24ffd7acbbaf7b5247b2fddbd7a52fd079e3c986481771efe204eaf289",
+    "chronology/sheets/maps/1980_1990_678_11-NE-11A_1989-10-01.zip": "21179cf9bc022c497eb12c9b8b16725e9beefb7012648720e29feb2963c56713"
+  },
+  "camera_label_observed": "WILD 15/UAGIA Nr 6098 152.12",
+  "camera_calibration_available": false,
+  "calibration_note": "Film label numeric value not a distortion/principal-point/fiducial calibration; API FOCAL_LENGTH is 0.",
+  "support_mask_valid_pixels": 174707,
+  "support_mask_total_pixels": 185200,
+  "support_polygon_hk1980": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          837545.6621529254,
+          821092.5477452907
+        ],
+        [
+          837772.9514739466,
+          821085.098840092
+        ],
+        [
+          837777.1518926101,
+          821271.7870266364
+        ],
+        [
+          837720.2128840587,
+          821279.2359318353
+        ],
+        [
+          837606.8015801406,
+          821282.9603844347
+        ],
+        [
+          837548.9291452194,
+          821284.8226107344
+        ],
+        [
+          837545.6621529254,
+          821092.5477452907
+        ]
+      ]
+    ]
+  }
+}

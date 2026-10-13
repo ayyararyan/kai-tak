@@ -1,0 +1,46 @@
+\parthead{VI}{What the runway record reveals}\label{part:6}
+On 4 November 1993, China Airlines flight CAL605, Boeing 747-409B B-165, overran Runway 13 and entered the sea. A tropical cyclone affected the airport; the flight encountered strong gusty easterly wind, rain, a wet runway and windshear during the visual turn. The official investigation followed the landing through its flight record, weather observations and rollout sequence \citep{cad}.
+
+Its finding about touchdown is the starting point here. The touchdown was controllable, and its parameters were not causal in the accident \citep[§2.6.5]{cad}. The most conspicuous part of the approach was not, in the investigation's account, the part that determined the outcome.
+
+The report's major causes concerned rollout actions and their operational setting. The commander inadvertently advanced the thrust levers while intending to select reverse. His instructions and limited communication reduced the co-pilot's monitoring of rollout and autobrake operation. The investigation also identified the co-pilot's inadequate skill and experience for controlling the rollout in the strong gusty crosswind, and the absence of a clearly defined crosswind-landing technique in the airline's manual \citep[Synopsis; §3]{cad}. These findings describe an interacting aircraft system and crew, far beyond the two numbers in a constant-deceleration law.
+
+The reported sequence included forward thrust, autobrake disarming, spoiler retraction and delayed reverse thrust, with stronger deceleration later. Each transition changes what happens after contact. A stopping model with one delay and one constant brake rate cannot recover that sequence merely by refining the touchdown position. The historical record supplies the missing mechanism.
+
+\subsection*{Reading a recorder through a printed page}
+The report describes 269 recorded parameters but publishes selected plots, not the raw numerical stream. Recovering values from the publication means reading curves through line thickness, overlapping traces and printed axes. The retained benchmark has 190 selected approach/final-phase pixel anchors and 35 speed--distance anchors. Figure~\ref{fig:recorder} uses the final-phase readings directly, with their raster-reading sensitivity.
+
+\fig{10_recorder}{1}{Selected readings from the published CAL605 recorder plot, CAD Report 1/95, Appendix 11, Figure 4. Markers are manually extracted anchors; connecting lines guide the eye. Bars indicate raster-reading sensitivity, not sensor accuracy or physical confidence intervals. The shaded strip marks the first ground indication's declared reading range, not exact physical touchdown time or sensor uncertainty. CAS and ground speed are distinct quantities; radio altitude is not height above a level runway throughout the approach. Heading is magnetic. The horizontal axis uses the plot's Datum B, separate from the ground-weather clock.}{fig:recorder}
+
+\FloatBarrier
+Some absences cannot be repaired by finer digitization. Thrust-lever angle was not recorded. Cockpit wheel, column and pedal positions are not automatically aerodynamic control-surface deflections. The report's Appendix 12 track was reconstructed by integrating acceleration, so it is not an independent positional observation against which those same accelerations can be validated.
+
+Even touchdown distance has several source conventions. The narrative reports about 2,300 m remaining; Appendix 13 gives about 2,250 m; the digitized ground-flag transition is around 2,210 m. Combining the 2,786 m LDA with the rounded 480 m touchdown station gives 2,306 m. These quantities retain their separate origins. Their differences identify a reconstruction task, not an invitation to average them into a falsely precise location. Appendix~\ref{app:sources} preserves the measurement and clock conventions.
+
+\subsection*{The wind had more than one reading}
+The airport wind printout contains 15 irregular timestamps, five sensors and three fields, giving 225 direction--speed pairs. Field A is the maximum one-second speed within a five-second window; B and C are overlapping two- and ten-minute averages. At 03:35:30 on the wind system's clock, the northwest sensor reports 37 kt in A, 23 kt in B and 19 kt in C. All three describe the wind, but at different temporal aggregations.
+
+\fig{11_weather}{1}{Ground-wind observations in their own measurement frame. The northwest and Lei Yue Mun readings are A-field values: maximum one-second speed within a five-second window, printed at irregular event-triggered times. At 03:38:00 the two sensors report 12 and 37 kt. The clock is the wind system's, with no accepted offset to the aircraft timeline. Source: CAD Report 1/95, Appendix 7, retained transcription. These ground observations do not recover aircraft-local wind.}{fig:weather}
+
+At 03:38:00, A-field readings at the northwest and Lei Yue Mun sensors are 12 and 37 kt. The spatial difference is large, but it is a difference between ground instruments; it does not measure a wind gradient encountered by the aircraft. Event-triggered printing also leaves peaks between entries unobserved in this table. The offset between the wind-system clock and the flight/ATC timeline remains unidentified, preventing an exact gust-to-flight-event alignment.
+
+\FloatBarrier
+The NOAA archive adds wider context. Its 03:00 and 04:00 UTC observations give $070^\circ$ true at 10.8 m/s, consistent with the report's rounded 21 kt mean; gust fields are 17.5 and 20.6 m/s \citep{noaa,isd}. In the declared 8,360-row routine subset for 1993, 8,285 speeds are lower than 10.8 m/s, 17 tie and 58 are higher. This locates the reported mean within that selected archive. Dependence between records, incomplete coverage and selection prevent turning the rank into a return period or landing-risk probability. The archive and report may also share originating observations. Agreement between them need not be independent corroboration.
+
+\subsection*{Slower, yet with a harder stop ahead}
+A speed trace falls during the rollout. That alone does not tell us whether the remaining stop is becoming easier. The relevant comparison is between speed squared and the runway still available.
+
+If speed is $v$, remaining runway is $R$ and another delay $\tau$ precedes constant braking, the deceleration needed to stop at the end is
+\begin{equation}
+a_{\rm req}=\frac{v^2}{2(R-v\tau)},\qquad R>v\tau.
+\label{eq:required}
+\end{equation}
+A decrease in $v$ helps the numerator. Loss of runway reduces the denominator. The second can outrun the first.
+
+\fig{12_rollout}{1}{Four report-stated rollout landmarks, translated into the constant deceleration still required by equation~\eqref{eq:required}. The calculation distinguishes an immediate constant-deceleration stop from one delayed by two seconds. These are conditional stopping requirements, not measurements of applied brake force or a continuous deceleration trace. Sources: CAD Report 1/95, §§2.2.5--2.2.7; retained landmark calculations.}{fig:rollout}
+
+Across the four reported landmarks, the speed falls from 160 to 129 kt while the zero-additional-delay stopping requirement rises from approximately $0.150g$ to $0.255g$. At the last point, another two seconds raises the requirement to roughly $0.300g$. The aircraft is slowing, but the available runway is disappearing faster than the falling speed can compensate.
+
+The same distinction protects the interpretation of the earlier benchmark. Inserting the report's rounded 480 m touchdown station and 160 kt ground speed into the fixed two-second/$0.15g$ law gives a remainder of $-161.52$ m. That is an extrapolated scalar outcome under the selected braking assumptions, not a reconstruction of movement into the sea. It does not overturn the investigation's finding that a normal landing roll remained possible at touchdown. Nor would a constructed path with more reserve establish accident prevention.
+
+Touchdown passes a position and speed to a ground system whose state can change. Completing the landing requires both enough pavement and the appropriate sequence of braking actions. The mathematical reference makes the first dependence explicit; the accident record shows why the second cannot be compressed into a constant without consequences.

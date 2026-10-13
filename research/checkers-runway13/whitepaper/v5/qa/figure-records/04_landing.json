@@ -1,0 +1,30 @@
+{
+  "figure": "04_landing",
+  "inputs": [
+    {
+      "path": "evidence/approximation/reference_formula.json",
+      "sha256": "95311d6d1857fc6330532dcce52cc58f03e20b489c3249a0da6cf3f14cea0c76"
+    }
+  ],
+  "meaning": "Calm complete landing in an accurately scaled orthographic local model scene",
+  "master_inches": [
+    7.1,
+    4.7
+  ],
+  "screen_dpi": 190,
+  "presentation_dpi": 600,
+  "pdf_sha256": "aeab08d8c61527b0887e35308eb959160d36e813bcc3a71991a3a5ea4860f74a",
+  "coordinate_frame": "runway forward/right/up; metres; not geographically registered",
+  "vertical_exaggeration": 1,
+  "camera": {
+    "azimuth_deg": -14,
+    "elevation_deg": 53,
+    "projection": "orthographic, orthonormal rows"
+  },
+  "runway_display": {
+    "length_m": 2786.0,
+    "width_m": 61,
+    "meaning": "reported width and LDA used to draw local strip, not historical registration"
+  },
+  "plotted_stop_m": 2531.321117620097
+}

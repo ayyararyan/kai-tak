@@ -1,0 +1,79 @@
+{
+  "edition": "Checkers with Runway 13 \u2014 Version 5",
+  "created_utc": "2026-10-13T18:21:27.881705+00:00",
+  "baseline_git_commit": "2b65c24e2e755b22ea383a51e1c46691681487ab",
+  "branch": "editorial/v5",
+  "local_only": true,
+  "files": [
+    {
+      "path": "checkers-with-runway-13-white-paper-v5.pdf",
+      "bytes": 1481129,
+      "sha256": "328f848d805df1e5bac5fd6aff6f28363112bea3acd9a5fcb71c33ec16842939"
+    },
+    {
+      "path": "checkers-with-runway-13-white-paper-v5-sources.zip",
+      "bytes": 49863349,
+      "sha256": "999ec40c0a243f922533c32c50a2a9d3129eeff4914ec3a712a1552d1dc4e412"
+    },
+    {
+      "path": "VERIFICATION.md",
+      "bytes": 5996,
+      "sha256": "2f2bf96d89494913b6e0701f8222efabe4651a36e66914c2a434916c23fa05be"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "bytes": 4667,
+      "sha256": "214372f598f78e573d618a39037897e97da906767aa0b71f0fb5b7279aedbe07"
+    },
+    {
+      "path": "EDITORIAL_ASSESSMENT.md",
+      "bytes": 7085,
+      "sha256": "652ed5468898613a8ad29719644a2fec2561f75aea87c6d7f929c09e7ed34084"
+    },
+    {
+      "path": "FIGURE_REDESIGN.md",
+      "bytes": 9814,
+      "sha256": "5105a6d32c41f2efd16846fa860a733bcddf685b51b1ba996c7353bac39ed46b"
+    },
+    {
+      "path": "SCIENTIFIC_VERIFICATION.md",
+      "bytes": 15389,
+      "sha256": "b24df858b8ef2114408852a483510da145f1c2f36c34dfcf5e32b1ce7081231d"
+    },
+    {
+      "path": "VERSION_CHANGES.md",
+      "bytes": 4166,
+      "sha256": "d9ce4c159d17fd50b76d9d0222bc6fbf8648ce59bc6c1b1a5fb71148f497dd67"
+    },
+    {
+      "path": "REQUIREMENTS_TRACEABILITY.md",
+      "bytes": 4264,
+      "sha256": "a071b07d83766cda847f35391c2de9d609992480fdaa751c68e65dab9e8d07c0"
+    },
+    {
+      "path": "qa/delivery_acceptance.json",
+      "bytes": 1302,
+      "sha256": "ade60386f734fb49a108811e54acd776a179656e99a4cf04a0699c003e4088df"
+    },
+    {
+      "path": "qa/package_manifest.json",
+      "bytes": 47211,
+      "sha256": "31c2b35e2ea4259c155423947c30fa269bbc4164f99fcdde818f738f5a84d32c"
+    },
+    {
+      "path": "qa/visual_inspection.json",
+      "bytes": 15464,
+      "sha256": "ec104be77000ed52363bb8099005ad3e699a67cc23cda5108330d657055902b2"
+    },
+    {
+      "path": "qa/clean_build_verification.json",
+      "bytes": 48389,
+      "sha256": "666926b45e9507324eadf960b43a7728abea2120698863e34e37a9b3e64efab1"
+    },
+    {
+      "path": "qa/final_layout_delta.json",
+      "bytes": 1238,
+      "sha256": "a44895455edf37aa8861bbf40c29cc8727f093f4da1f1ff148f15c460e951255"
+    }
+  ]
+}

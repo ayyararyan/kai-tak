@@ -1,0 +1,56 @@
+{
+  "figure": "01_place",
+  "inputs": [
+    {
+      "path": "inputs/A36143.jpg",
+      "sha256": "e8439e24ffd7acbbaf7b5247b2fddbd7a52fd079e3c986481771efe204eaf289"
+    },
+    {
+      "path": "inputs/A36143_product.json",
+      "sha256": "f7f3a2bd73ed0d92c4ed0dcbcf800ba26212988f69dafc5ed258001e0ae5f65a"
+    },
+    {
+      "path": "inputs/historical/CN4581.jpg",
+      "sha256": "4510ec691117b2929e1f6da51a49905ec8a7bf992faf220d845910fd74760a83"
+    },
+    {
+      "path": "inputs/historical/CN4589.jpg",
+      "sha256": "67a0c8b715686b7f3a342307454cae7fa134cf17c0dfbc8a5babb097d1f24fec"
+    },
+    {
+      "path": "inputs/historical/SOURCE_MANIFEST.json",
+      "sha256": "560eb20f94e6284f213c4ffd43b9f25c386d17ba593bfc96257dfe389f3680e2"
+    }
+  ],
+  "meaning": "The real airport, Checkerboard Hill and Kowloon Bay in separate historical source photographs",
+  "master_inches": [
+    7.1,
+    5.4
+  ],
+  "screen_dpi": 190,
+  "presentation_dpi": 600,
+  "pdf_sha256": "e710a1dde795b2ae16a2e0cd5d225666a1c2b1f301b0cd83538765c680cb91ee",
+  "image_operations": "Source crops only; no stitching, geometric registration, synthetic scenery or flight overlay.",
+  "crop_pixels": {
+    "A36143": [
+      120,
+      100,
+      2890,
+      2780
+    ],
+    "CN4581": [
+      300,
+      1070,
+      1750,
+      2200
+    ],
+    "CN4589": [
+      300,
+      450,
+      2100,
+      2140
+    ]
+  },
+  "source_date_discrepancy": "A36143 catalogue 1993-11-02; handwritten border appears 3.11.93; unresolved",
+  "annotation_basis": "Visually inspected physical features, not measured geographic coordinates"
+}

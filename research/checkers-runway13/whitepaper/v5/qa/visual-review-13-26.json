@@ -1,0 +1,292 @@
+{
+  "reviewer": "visual_diagnosis",
+  "reviewed_at_utc": "2026-10-13T18:17:07.089342+00:00",
+  "pdf": "checkers-with-runway-13-white-paper-v5.pdf",
+  "pdf_sha256": "328f848d805df1e5bac5fd6aff6f28363112bea3acd9a5fcb71c33ec16842939",
+  "pdf_pages": 38,
+  "accepted_final_page_coverage": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+  ],
+  "freshly_viewed_final_pages": [
+    17,
+    18
+  ],
+  "previously_individually_viewed_pages_transferred_by_exact_pixel_equality": [
+    13,
+    14,
+    15,
+    16,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+  ],
+  "transferred_from_pdf_sha256": "9dc2957599405b9070741904f11074e12614d69ccb32c8b60c07a2a8836dc634",
+  "page_png_sha256": {
+    "13": "0c7137e7e4b8ebfe52d944d3d1dfdca12069190b540b2fef677a34f2ec42c2a4",
+    "14": "e6bcc1aa3123cb963f9ea700cde073a28ad901b1b07a608a3c70ad8e30422d92",
+    "15": "71e67243e467ce57043db20b42d22ecbc05c0a44bdbc50b49a5af7c4542bc617",
+    "16": "58652de80287988d46ce08d5ad9bf85d6e900a5062542a8ac712f6601a87e98d",
+    "17": "6f1e2a58d0adf7ce4db2decbab77dd7097f87ec8310c771aa8dab64d12788ae4",
+    "18": "8c1f0008c6ad45ff77aa7d9856b93a17307bc374ad630064bf8e5e4b06bf6d28",
+    "19": "a544a7d6a7319ac74af89328e97cc3c419ddaebf65d65bf8fddd8463f1849681",
+    "20": "fdf771081b6d4c718c70460d77d8a9f375b0e426a52aba378f791114ca2caf4e",
+    "21": "e6fa2bd78260e0d62c5ed74649920ec3cd1b43343af89ff0ea693729aafe5016",
+    "22": "7fd69f5913fccddc37b7d8b3be7b172ad8a0d95676abd06f8bb547b7967ed345",
+    "23": "a03f1b1838f852c7adc629ea8d6bc45919fce043279f3519fe0bf578bbfac127",
+    "24": "c3f18ae2184af2aea70e6b5aa337d54890a64854dd552f0a27f73dfb3f8cb09a",
+    "25": "5dac5eb74a22a52962db26690687c4b9fba563fd3ec3bb7ef0f572ecc5fb1ba5",
+    "26": "ecf5fdf8bdeb27a92d43d79ccd18bf88da17c3be60a0682f465ab1ab42e5e106",
+    "27": "b2e963b08a38fe37da555011eff1a537977dca937254bfab90fe9b0e30971bf5",
+    "28": "cc472f7be1d9569e9a41406d4a423c72f1c0127c2e01a8666c32ed710f7c540e"
+  },
+  "page_rgb_pixel_sha256": {
+    "13": "f01e707778f34d3b14b2f5e8010e4bd07903ad3cd7e688d36ecbc6dd84dfe289",
+    "14": "49a74589722c7b53cb138362eece37ea7c169a664c42a0df26b4c5b8e3da81d6",
+    "15": "1055812940ce1429c6be59563f95bc8d1247c3888b9842dc8277092cd99a3253",
+    "16": "e25bbdea8716caaccee8bcb0650b247f7db54192ca023c82e0c754876ec7b8a7",
+    "17": "832595871393c20c02810282742df138ad841474b331d9f9a4011d2f832cc482",
+    "18": "459e86cd227fc14958486066c778ea5002e570a136057ff3126621b62935a251",
+    "19": "6133fa021636b7b0b74f74868b44b22636c4a860ac0c51396dee9fd067a6aaa6",
+    "20": "3943f91fcd4991606052ee2dce4b3a5dacb52d996a775ee7e7e645fa469013cc",
+    "21": "fb1e2af84c6d80a89b394af50158f0ab01fe6fc874f2be7d55a552b35265b380",
+    "22": "73a426945ce005d8c6c64d90721952b480603572be69782975fb5f3669188f27",
+    "23": "6a5aecf854f8cfda12b39852c0fb66e90b59db1481ea28ebf58f3c772a163ebf",
+    "24": "00c36447e3678b6e2106bd6009a8003306943a855c19dcc841dfc80a84b558d9",
+    "25": "325e7c947423cce8b3eca31077a42a147e332b9d71a58aed14784d557474fb2f",
+    "26": "8215b53483f5473bdbffd6c9440465c2a4f17f9e4f1595ddf14763d92c215975",
+    "27": "137a048fb7b4fd8c91abfa0267cd95b7ab137bead253671438540053652cbee0",
+    "28": "0f13fe95daeac06b9a8a4458a672f836907536699b022542488e6845f95bed61"
+  },
+  "method": "Fresh independent individual visual inspection of final changed pages17\u201318. Remaining14 pages match the previously individually inspected image pixels exactly, checked by raw RGB SHA256. This is actual page-image review plus verified pixel transfer, not compile-based approval.",
+  "resolved_finding": {
+    "pages": [
+      17,
+      18
+    ],
+    "finding": "Recorder float interrupted Some absences paragraph",
+    "status": "verified fixed",
+    "evidence": "Page17 ends after complete recorder-reading introduction; page18 places complete Some absences paragraph below recorder figure and intact caption. No overlap or new ugly gap."
+  },
+  "open_findings": [],
+  "status": "PASS for final pages13\u201328: all identified defects corrected; no new overlap, clipped mathematical display, unreadable label or interrupted figure paragraph.",
+  "scope_exclusions": "Does not claim this reviewer inspected pages1\u201312 or29\u201338; those remain parent/editorial review coverage.",
+  "prior_review": {
+    "reviewer": "visual_diagnosis",
+    "reviewed_at_utc": "2026-10-13T18:13:34.122163+00:00",
+    "pdf": "checkers-with-runway-13-white-paper-v5.pdf",
+    "pdf_sha256": "9dc2957599405b9070741904f11074e12614d69ccb32c8b60c07a2a8836dc634",
+    "pdf_pages": 38,
+    "actual_pdf_pages_individually_viewed": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "page_png_sha256": {
+      "13": "0c7137e7e4b8ebfe52d944d3d1dfdca12069190b540b2fef677a34f2ec42c2a4",
+      "14": "e6bcc1aa3123cb963f9ea700cde073a28ad901b1b07a608a3c70ad8e30422d92",
+      "15": "71e67243e467ce57043db20b42d22ecbc05c0a44bdbc50b49a5af7c4542bc617",
+      "16": "58652de80287988d46ce08d5ad9bf85d6e900a5062542a8ac712f6601a87e98d",
+      "17": "f16bddeb42f98e45751599c9d71e1b234ae53b152399258b6d84c47261f675f9",
+      "18": "0b79f9e837ac327461701106576e1292982df4e553d3ee21627217dc7f3f02a0",
+      "19": "a544a7d6a7319ac74af89328e97cc3c419ddaebf65d65bf8fddd8463f1849681",
+      "20": "fdf771081b6d4c718c70460d77d8a9f375b0e426a52aba378f791114ca2caf4e",
+      "21": "e6fa2bd78260e0d62c5ed74649920ec3cd1b43343af89ff0ea693729aafe5016",
+      "22": "7fd69f5913fccddc37b7d8b3be7b172ad8a0d95676abd06f8bb547b7967ed345",
+      "23": "a03f1b1838f852c7adc629ea8d6bc45919fce043279f3519fe0bf578bbfac127",
+      "24": "c3f18ae2184af2aea70e6b5aa337d54890a64854dd552f0a27f73dfb3f8cb09a",
+      "25": "5dac5eb74a22a52962db26690687c4b9fba563fd3ec3bb7ef0f572ecc5fb1ba5",
+      "26": "ecf5fdf8bdeb27a92d43d79ccd18bf88da17c3be60a0682f465ab1ab42e5e106",
+      "27": "b2e963b08a38fe37da555011eff1a537977dca937254bfab90fe9b0e30971bf5",
+      "28": "cc472f7be1d9569e9a41406d4a423c72f1c0127c2e01a8666c32ed710f7c540e"
+    },
+    "page_rgb_pixel_sha256": {
+      "13": "f01e707778f34d3b14b2f5e8010e4bd07903ad3cd7e688d36ecbc6dd84dfe289",
+      "14": "49a74589722c7b53cb138362eece37ea7c169a664c42a0df26b4c5b8e3da81d6",
+      "15": "1055812940ce1429c6be59563f95bc8d1247c3888b9842dc8277092cd99a3253",
+      "16": "e25bbdea8716caaccee8bcb0650b247f7db54192ca023c82e0c754876ec7b8a7",
+      "17": "d1f731cdc1bc3f85ee0030783f3163586f408cab646dbf5dcc9f158e56f6cab2",
+      "18": "762d9a799276eaf0836953746fdb6c5598ee57a128413bd511cb4cc2f800bf07",
+      "19": "6133fa021636b7b0b74f74868b44b22636c4a860ac0c51396dee9fd067a6aaa6",
+      "20": "3943f91fcd4991606052ee2dce4b3a5dacb52d996a775ee7e7e645fa469013cc",
+      "21": "fb1e2af84c6d80a89b394af50158f0ab01fe6fc874f2be7d55a552b35265b380",
+      "22": "73a426945ce005d8c6c64d90721952b480603572be69782975fb5f3669188f27",
+      "23": "6a5aecf854f8cfda12b39852c0fb66e90b59db1481ea28ebf58f3c772a163ebf",
+      "24": "00c36447e3678b6e2106bd6009a8003306943a855c19dcc841dfc80a84b558d9",
+      "25": "325e7c947423cce8b3eca31077a42a147e332b9d71a58aed14784d557474fb2f",
+      "26": "8215b53483f5473bdbffd6c9440465c2a4f17f9e4f1595ddf14763d92c215975",
+      "27": "137a048fb7b4fd8c91abfa0267cd95b7ab137bead253671438540053652cbee0",
+      "28": "0f13fe95daeac06b9a8a4458a672f836907536699b022542488e6845f95bed61"
+    },
+    "immutable_review_copies": "qa/visual-review-pages/",
+    "method": "Fresh individual inspection of every captured current PDF page13\u201328. Each actual image was viewed at page scale, including text, captions, figures, mathematics and page boundaries. Per-page encoded and raw-RGB-pixel hashes preserve transfer evidence across later builds.",
+    "previous_findings_resolution": [
+      {
+        "finding": "Wind float interrupted construction paragraph",
+        "status": "verified fixed",
+        "final_pages": [
+          14,
+          15
+        ],
+        "evidence": "Ordinary page boundary remains but no intervening figure interrupts the construction paragraph."
+      },
+      {
+        "finding": "Weather float interrupted NOAA paragraph",
+        "status": "verified fixed",
+        "final_pages": [
+          19,
+          20
+        ],
+        "evidence": "Ordinary page boundary remains but no intervening figure interrupts the NOAA paragraph."
+      },
+      {
+        "finding": "Calm-air witness heading orphaned",
+        "status": "verified fixed",
+        "final_pages": [
+          28
+        ],
+        "evidence": "Heading and coefficient table share page."
+      },
+      {
+        "finding": "Awkward Table A1 tolerances wrap",
+        "status": "verified fixed",
+        "final_pages": [
+          24
+        ],
+        "evidence": "Shortened touchdown label fits on one line."
+      }
+    ],
+    "new_findings": [
+      {
+        "pages": [
+          17,
+          18
+        ],
+        "severity": "pacing",
+        "finding": "Latest reflow interrupts Some absences paragraph after Cockpit wheel, column and pedal positions are not; recorder figure and caption intervene before automatically aerodynamic control-surface deflections.",
+        "suggested_fix": "Clear recorder float before Some absences cannot be repaired by finer digitization.",
+        "owner": "parent",
+        "status": "reported; correction pending"
+      }
+    ],
+    "spacing_notes": [
+      {
+        "page": 22,
+        "observation": "White space follows completed conclusion before appendices; intentional section boundary."
+      },
+      {
+        "page": 27,
+        "observation": "Space below Appendix E introduction keeps witness heading with following coefficient table."
+      }
+    ],
+    "status": "All16 assigned pages inspected. Four prior defects fixed; one new recorder-float interruption requires correction. No overlap, clipped equation or unreadable figure label found.",
+    "scope_exclusions": "Other pages are parent/editorial-review assignments; this reviewer claims only pages13\u201328.",
+    "prior_review": {
+      "reviewer": "visual_diagnosis",
+      "reviewed_at_utc": "2026-10-13T18:08:10.017561+00:00",
+      "pdf": "checkers-with-runway-13-white-paper-v5.pdf",
+      "pdf_sha256": "76390d8343df9bc4023961f1d98d0026d36055dbea6be104e840b6572216f2cc",
+      "actual_pdf_pages_individually_viewed": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "page_renders": "qa/pages/13.png through qa/pages/26.png",
+      "enlarged_figures_individually_viewed": [
+        "08_wind",
+        "09_certificate",
+        "10_recorder",
+        "11_weather",
+        "12_rollout"
+      ],
+      "method": "Individual page-image visual inspection, reading integrated text and captions, plus master-figure enlargements. Not inferred from compilation or text extraction.",
+      "findings": [
+        {
+          "pages": [
+            13,
+            14
+          ],
+          "severity": "pacing",
+          "finding": "Wind figure interrupts opening construction paragraph after braking law; fixed. resumes after whole figure and caption.",
+          "suggested_fix": "Clear wind float before A second complete construction subsection."
+        },
+        {
+          "pages": [
+            18,
+            19
+          ],
+          "severity": "pacing",
+          "finding": "Weather figure interrupts NOAA paragraph after Dependence between.",
+          "suggested_fix": "Clear weather float before The NOAA archive adds wider context paragraph."
+        },
+        {
+          "pages": [
+            26,
+            27
+          ],
+          "severity": "orphan-heading",
+          "finding": "Calm-air witness heading stranded on page26 while coefficient table begins27.",
+          "suggested_fix": "Reserve space or move heading with its table."
+        },
+        {
+          "pages": [
+            23
+          ],
+          "severity": "minor-typography",
+          "finding": "Table A1 first-column touchdown tolerances label breaks toler- / ances awkwardly.",
+          "suggested_fix": "Shorten label or make paragraph column ragged-right."
+        }
+      ],
+      "figure_results": "No overlap, illegible label, or caption/result mismatch found in assigned page range; stopping comparison and recorder/weather displays retain clear scientific meaning.",
+      "status": "Inspection completed; listed parent-owned layout amendments pending and require reinspection.",
+      "scope_exclusions": "Does not claim inspection or acceptance of pages1\u201312 or27\u201337 by this reviewer.",
+      "pdf_sha256_at_receipt_write": "2d8e3ce736c440f5ef5c910c111f4f260fbbc63fdfd69e3c81f49b2ffa20f278",
+      "pdf_revision_note": "The parent regenerated the PDF while this review was being recorded. Findings refer to the first-build page renders actually inspected, not the changed PDF hash at receipt-write time."
+    }
+  }
+}

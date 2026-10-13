@@ -1,0 +1,22 @@
+{
+  "figure": "A2_controls",
+  "inputs": [
+    {
+      "path": "evidence/counterfactual/path_controls.csv",
+      "sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640"
+    },
+    {
+      "path": "evidence/model/config.json",
+      "sha256": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693"
+    }
+  ],
+  "meaning": "Aligned sampled control display for separately certified fixed wind candidate",
+  "master_inches": [
+    7.1,
+    7.7
+  ],
+  "screen_dpi": 190,
+  "presentation_dpi": 600,
+  "pdf_sha256": "8016670d3a0ce0789158ba0cf6e75bbbad268db82c815e0b0d630c0f0feb0c0f",
+  "bank_rate_frame": "moving flight-path bank-angle rate, not generally body-axis roll rate"
+}

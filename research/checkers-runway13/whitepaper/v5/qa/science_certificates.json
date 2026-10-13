@@ -1,0 +1,25 @@
+{
+  "scope": "Fresh original frozen fixed-witness proof reruns, not fresh optimization or new theorem",
+  "proofs": [
+    {
+      "scenario": "calm",
+      "verified_utc": "2026-10-13T17:36:13.953603+00:00",
+      "source_certificate_sha256": "774f34ad182a5015eeed799c910cde01eb6b297c1b4e6c4a119582b0d83db973",
+      "fresh_certified": true,
+      "intervals": 2502,
+      "eta_lower_real_decimal": "0.0397",
+      "exact_cover_matches_saved": true,
+      "receipt": "qa/fresh_calm_certificate.json"
+    },
+    {
+      "scenario": "wind",
+      "verified_utc": "2026-10-13T17:36:16.906000+00:00",
+      "source_certificate_sha256": "3631409dfc2fef2c0b8e6bf40d77143358b0bc6ced7c30261c620ce58f228f36",
+      "fresh_certified": true,
+      "intervals": 376,
+      "eta_lower_real_decimal": "0.1507934696816132",
+      "exact_cover_matches_saved": true,
+      "receipt": "qa/fresh_wind_certificate.json"
+    }
+  ]
+}

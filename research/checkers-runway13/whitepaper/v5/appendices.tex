@@ -1,0 +1,250 @@
+\appendix
+\section{Dynamics and exact control rates}\label{app:dynamics}
+Let $\mathbf r=(x,y,h)$, $\mathbf v=\dot{\mathbf r}-\mathbf w$, $V=\|\mathbf v\|$, $\gamma=\arcsin(v_h/V)$ and $\psi=\operatorname{atan2}(v_y,v_x)$ for constant wind. Define the orthonormal frame
+\begin{align}
+\mathbf e_V&=(\cos\gamma\cos\psi,\cos\gamma\sin\psi,\sin\gamma),\\
+\mathbf e_\gamma&=(-\sin\gamma\cos\psi,-\sin\gamma\sin\psi,\cos\gamma),\\
+\mathbf e_\psi&=(-\sin\psi,\cos\psi,0),\qquad \mathbf f=\ddot{\mathbf r}+(0,0,g).
+\end{align}
+Writing $\ell_\gamma=\mathbf f\cdot\mathbf e_\gamma$ and $\ell_\psi=\mathbf f\cdot\mathbf e_\psi$, inverse dynamics gives
+\begin{align}
+\mathcal L&=m\sqrt{\ell_\gamma^2+\ell_\psi^2}, &\phi&=\operatorname{atan2}(\ell_\psi,\ell_\gamma),\\
+Q&=\tfrac12\rho V^2S_w, & C_L&=\mathcal L/Q,\\
+D&=Q(C_{D0}+k_D C_L^2), &\mathcal T&=m\mathbf f\cdot\mathbf e_V+D,\\
+\rho&=\rho_0e^{-h/H_\rho}, &V_{\rm EAS}&=V\sqrt{\rho/\rho_0}.
+\end{align}
+Here $S_w$ is wing area. For the time derivatives used in the checker,
+\begin{align}
+\dot\ell_i&=\dddot{\mathbf r}\cdot\mathbf e_i+\mathbf f\cdot\dot{\mathbf e}_i,
+&\dot\phi&=\frac{\ell_\gamma\dot\ell_\psi-\ell_\psi\dot\ell_\gamma}{\ell_\gamma^2+\ell_\psi^2},\\
+\dot Q&=Q(-\dot h/H_\rho+2\dot V/V),
+&\dot C_L&=\dot{\mathcal L}/Q-C_L\dot Q/Q,\\
+\dot D&=\dot Q(C_{D0}+k_DC_L^2)+2Qk_DC_L\dot C_L,
+&\dot{\mathcal T}&=m(\dddot{\mathbf r}\cdot\mathbf e_V+\mathbf f\cdot\dot{\mathbf e}_V)+\dot D.
+\end{align}
+Differentiating the three frame vectors supplies the remaining derivatives. The inverse construction requires positive total speed, horizontal airspeed and lift; the interval checker verifies this nonsingular branch. Its bank-angle rate is the rate of $\phi$ in the moving flight-path frame, not generally the body-axis roll rate.
+
+Forward replay integrates
+\begin{align}
+\dot{\mathbf r}&=V\mathbf e_V+\mathbf w,&\dot V&=(\mathcal T-D)/m-g\sin\gamma,\\
+\dot\gamma&=(\mathcal L\cos\phi/m-g\cos\gamma)/V,&
+\dot\psi&=\mathcal L\sin\phi/(mV\cos\gamma).
+\end{align}
+A replay that recomputes lift from the replayed state and $C_L$ command checks force consistency. It remains numerical corroboration, not continuous-time proof or physical calibration. If wind varies along the motion, air-relative acceleration also involves $-d\mathbf w/dt$; the constant-wind equations cannot be extended by changing only the position equation.
+
+\textbf{Frozen constants.} $m=238461.67357166$ kg is the exact conversion of an estimated 525,718 lb, not an exact measured mass; $g=9.80665$ m/s$^2$, $\rho_0=1.225$ kg/m$^3$, $H_\rho=8500$ m, $S_w=541.2$ m$^2$, $C_{D0}=0.08$, $k_D=0.045$. Low-altitude CAS is approximated by EAS for the 153 kt boundary speed. These choices do not establish a calibrated aircraft envelope.
+\par\medskip
+\begin{table}[htbp]\centering\small
+\caption{The frozen research envelope. Source: model configuration. These are stipulated limits; the reported aircraft identity and estimated mass do not calibrate them.}
+\begin{tabularx}{\textwidth}{@{}p{.41\textwidth}X@{}}\toprule
+Quantity & Constraint\\\midrule
+Bank / bank-angle rate & $|\phi|\leq25^\circ$; $|\dot\phi|\leq5^\circ$/s\\
+Equivalent airspeed & 135--175 kt\\
+Lift coefficient / load factor & $0\leq C_L\leq2.8$; 0.5--1.4\\
+Thrust / magnitude of thrust slew & 0--700 kN; at most 100 kN/s\\
+Descent / approach sink & No steeper than $6^\circ$; at most 8 m/s before flare\\
+Touchdown station & 200--700 m beyond usable threshold\\
+Touchdown: lateral / track / bank & 5 m; $2^\circ$; $3^\circ$\\
+Touchdown sink & 0--1.5 m/s; constructed target 0.7 m/s\\
+Reference corridor & 400 m three-dimensional distance from a fixed reference cloud\\
+Ground rule / reserve & 2 s delay, then $0.15g$; at least 150 m remaining\\\bottomrule
+\end{tabularx}\end{table}
+
+\section{Explicit polynomial construction}\label{app:polynomial}
+For a phase of duration $T>0$, put $s=(t-t_0)/T\in[0,1]$. Given endpoint positions $p_0,p_1$, velocities $v_0,v_1$ and accelerations $a_0,a_1$, construct the vector-valued quintic
+\begin{align}
+c_0&=p_0,&c_1&=Tv_0,&c_2&=T^2a_0/2,\\
+A&=p_1-c_0-c_1-c_2,&B&=Tv_1-c_1-2c_2,&C&=T^2a_1-2c_2,\\
+c_3&=10A-4B+C/2,&c_4&=-15A+7B-C,&c_5&=6A-3B+C/2.
+\end{align}
+Then $P(s)=\sum_{k=0}^{5}c_ks^k$ satisfies the six endpoint conditions by substitution and differentiation. To change the interior while preserving those conditions, use
+\[
+B_0(s)=64s^3(1-s)^3,\qquad B_1(s)=(2s-1)B_0(s).
+\]
+Each function and its first two derivatives vanish at both endpoints. Coordinate-specific multiples produce the degree-at-most-seven approach and degree-at-most-six flare. Time derivative order $j$ is $T^{-j}d^j/ds^j$; omitting these duration factors would change the dynamics.
+
+\subsection*{The restricted parameter family}
+The original box has $T_A\in[30,55]$ s, $T_F\in[4,12]$ s, $x_D\in[200,700]$ m and $u\in[69,88]$ m/s. Four horizontal approach amplitudes lie in $[-400,400]$ m and two vertical amplitudes in $[-50,50]$ m. Flare amplitudes lie in $[-50,50]$ m horizontally and $[-10,10]$ m vertically. These twelve bounded parameters define the family; they are not all possible flight controls.
+
+The entry is $(-2500,1000,140)$ m and the threshold state $(0,0,15.24)$ m. Entry/threshold EAS is 153 kt and air flight-path angle $-3.1^\circ$. The selected initial ground track is $-47^\circ$; threshold track is zero. Touchdown is $(x_D,0,0)$ with ground velocity $(u,0,-0.7)$ m/s. Endpoint accelerations are zero; approach and flare meet in position, velocity and acceleration. Contact then resets the vertical component under a separate ground rule.
+
+For a horizontal ground-track unit vector $\mathbf d=(\cos\chi,\sin\chi)$ and horizontal airspeed $H=V\cos\gamma$, endpoint forward ground speed solves $\|u_g\mathbf d-\mathbf w_{xy}\|^2=H^2$:
+\[
+u_g=\mathbf d\cdot\mathbf w_{xy}+\sqrt{H^2-\|\mathbf w_{xy}\|^2+(\mathbf d\cdot\mathbf w_{xy})^2}.
+\]
+The positive branch requires a nonnegative radicand. Thus equal EAS, flight-path angle and ground track across wind scenarios do not imply equal ground velocity.
+
+The coefficients printed in Appendix~\ref{app:coefficients} are rounded evaluation copies. Machine-readable exports preserve full floating precision. The rigorous margin claims instead bind exact real-decimal parameter vectors and reconstruct the endpoint expressions with interval arithmetic; they do not certify arbitrarily rounded coefficient tables.
+\par\medskip
+\section{Attainment and the calm-family bound}\label{app:bounds}
+The retained computer-assisted regularity lemma establishes $|v_h|<14$ m/s throughout both phases over the full parameter box. Here $v_h$ means vertical velocity. On the nonnegative-height feasible domain, EAS $\geq135$ kt implies total airspeed at least $135\kappa$ m/s, where $\kappa=1852/3600$. The vertical bound then keeps horizontal speed above 68 m/s. Positive minimum load keeps lift nonzero, and the bank bound retains a positive-up lift projection.
+
+\begin{proposition}[Restricted calm-family attainment]
+In the frozen zero-wind polynomial family, the primary maximum is attained. The specified continuous secondary effort has a minimum on the set retaining that optimum within $10^{-4}$.
+\end{proposition}
+\begin{proof}
+The certified candidate makes the set with $\eta\geq0.0397$ nonempty. Restrict $q$ to its compact parameter box and $\eta$ to a closed bounded interval containing the valid bounds. Along a convergent feasible sequence, polynomial states and derivatives through jerk converge uniformly, since durations stay positive. The regularity bounds exclude singularities at the limit, so inverse forces, rates and margins are continuous there. Distance to the fixed finite corridor cloud is continuous. Every time-indexed inequality and endpoint equality passes to the limit. The feasible set is therefore compact, and projection onto $\eta$ attains its maximum. Continuous effort also attains a minimum on the nonempty closed retained-primary subset.
+\end{proof}
+This attainment statement concerns the specified calm polynomial family. Identifying the maximizing parameters is a separate problem; neither the wind family nor unrestricted aircraft controls inherit this proof.
+
+At touchdown the normalized EAS floor implies
+\[
+u_{\min}(\eta)=\sqrt{[\kappa(135+40\eta)]^2-0.7^2}\leq u.
+\]
+In the zero-wind flare, lateral motion is zero, forward velocity is positive, and $|v_h|<14$. Hence $v_x\geq\sqrt{[\kappa(135+40\eta)]^2-14^2}$. Since $T_F\geq4$ s, integrating from threshold supplies a lower bound on $x_D$. Combining it with $S\leq2636(1-\eta)$ gives
+\begin{multline}
+4\sqrt{[\kappa(135+40\eta)]^2-14^2}+2u_{\min}(\eta)
++\frac{u_{\min}(\eta)^2}{2(1.4709975)}\\
+\leq2636(1-\eta).
+\end{multline}
+The left side minus the right side increases strictly for $\eta\geq0$. Outward-rounded evaluation brackets its unique nonnegative root between 0.1559771 and 0.1559772. Therefore $\eta^*_{\rm calm}<0.1559772$. This necessary bound relaxes airborne restrictions and need not be attainable.
+
+The corrected checker uses a full angle hull when interval \texttt{atan2} crosses its problematic branch and never uses a lower corridor-margin enclosure as an exclusion upper bound. The earlier purported upper limits 0.10, 0.05, 0.04 and 0.03972 were withdrawn after these defects were found. A later 15,000-box search left 7,071 boxes unresolved at 0.10; its budget exhaustion supplies no stronger bound. Source: \texttt{analytical/coupled/RESULTS.md}, proof code and frozen verification records.
+\par\medskip
+\section{Wind convention and separate upper bound}\label{app:windbound}
+Let wind speed be $W$, its meteorological \emph{from} bearing $\beta$, and runway true bearing $\alpha$. In forward/right/up axes,
+\[
+w_x=-W\cos(\beta-\alpha),\qquad w_y=-W\sin(\beta-\alpha),\qquad w_h=0.
+\]
+Use $W=21(1852/3600)$ m/s, $\beta=70^\circ$, and the scenario convention $\alpha=135^\circ-1^\circ50'=799/6$ degrees. The source chart's 1990 variation is not a surveyed 1993 runway axis. The report's rounded 21 kt is the frozen input; NOAA's 10.8 m/s is not silently substituted.
+
+The wind-case upper bound follows from only three necessary restrictions. Normalized touchdown position requires $x_D\geq200+500\eta$; the original parameter box gives $u\geq69$ m/s; normalized stopping margin requires
+\[
+x_D+2u+\frac{u^2}{2a}\leq2636(1-\eta),\qquad a=1.4709975\ \mathrm{m/s^2}.
+\]
+Since the ground-travel expression increases with nonnegative $u$,
+\begin{align}
+200+500\eta+138+\frac{4761}{2a}&\leq2636(1-\eta),\\
+\eta&\leq\frac{2636-200-138-4761/(2a)}{3136}
+=\frac{66656817}{307536544}.
+\end{align}
+The exact rational upper bound minus the exact decimal lower certificate is
+\[
+\frac{1584555818464679384939}{24026292500000000000000}
+\approx0.0659509085084467.
+\]
+A relaxation can give a valid upper bound even when no feasible flight realizes its limiting touchdown speed and position together. This is why the bound is necessary, not a candidate or an optimum. The sharper-looking calm bound uses a zero-wind airspeed/forward-speed relation and cannot simply be reused.
+
+\subsection*{Certificate scope and reproducibility}
+The wind checker encloses inverse dynamics, exact rates and hard inequalities over both phases; the ground rule is evaluated separately. The source binds the model configuration, original corridor cloud, candidate, calculator and checker by hashes. The calm and wind certificates cover 2,502 and 376 accepted closed intervals, respectively. Certification decisions compare outward-rounded intervals, not their displayed floating summaries.
+
+The companion \texttt{verify\_\allowbreak certificates.py} re-evaluates both fixed witnesses using frozen original proof code and writes new receipts without rerunning optimization or overwriting source certificates. The manuscript builder independently checks source identity, time-cover completeness, polynomial/CSV agreement and scalar arithmetic. These complementary checks establish reproducible computer-assisted evidence for the specified mathematical objects, not an independent peer review or validated aircraft performance.
+\par\medskip
+\section{Numerical evaluation coefficients}\label{app:coefficients}
+For each coordinate, $r_i(t)=\sum_k c_{ik}s^k$, $s=(t-t_0)/T$. All coefficients below have units of metres and are rounded to nine decimal places. Do not extrapolate outside a phase. For exact figure reproduction use the JSON exports; for certification use the source-bound real-decimal parameter construction. Approach starts at $t_0=0$; flare starts at $t_0=T_A$.
+\Needspace{16\baselineskip}
+\input{coefficients.tex}
+\section{Ground motion, bounds and reproduction}\label{app:ground}
+With $q_g=t-t_D$, ground motion after the stipulated contact transition is
+\[
+x(t)=\begin{cases}
+x_D+uq_g,&0\leq q_g\leq d,\\
+x_D+ud+u(q_g-d)-\tfrac12a(q_g-d)^2,&d\leq q_g\leq d+u/a.
+\end{cases}
+\]
+It remains constant afterwards. Lateral and vertical ground coordinates are zero. The model does not resolve landing-gear impact or braking-system modes. Integrating speed gives equation~\eqref{eq:stop}; the full-stop time is $T_A+T_F+d+u/a$. Because stopping station increases with $x_D,u,d$ and decreases with $a$, the extrema in equation~\eqref{eq:box} follow directly. Likewise a joint box gives
+\[
+t_{\rm stop}\in[A_-+F_-+d_-+u_-/a_+,\ A_++F_++d_++u_+/a_-].
+\]
+For a joint Cartesian input box with $a_->0$ and nonnegative speed and delay, the stopping extrema are
+\begin{align}
+S_-&=x_-+u_-d_-+\frac{u_-^2}{2a_+}, &
+S_+&=x_++u_+d_++\frac{u_+^2}{2a_-},\\
+R&\in[L_- - S_+,\ L_+ - S_-].
+\label{eq:box}
+\end{align}
+Monotonicity gives exact extrema over this box without a probability distribution or a statistical-independence assumption. If some extreme combinations cannot occur together, or violate airborne constraints, the enclosure can be conservative for the smaller physically admissible set. No physical input box has been calibrated for these examples.
+
+A prediction interval for an individual landing requires a justified conditional outcome distribution and validation in its intended domain. A confidence interval for a mean or parameter answers a different question. Marginal endpoint intervals do not, on their own, give joint coverage of an entire path or of obstacle clearance.
+
+\subsection*{Reproduction map}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{.35\textwidth}>{\raggedright\arraybackslash}X@{}}\toprule
+File or directory & Role\\\midrule
+\texttt{main.tex}, \texttt{sections/} & Editable narrative and layout; this appendix contains derivations.\\
+\texttt{references.bib} & Bibliographic records and primary-source links.\\
+\texttt{make\_figures.py} & Reproducible V5 illustrations from frozen numerical inputs and evidence-linked archival sources.\\
+\texttt{inputs/}, \texttt{evidence/} & Dated permitted imagery, derived observations, coefficients, proof code and source reports.\\
+\texttt{build.py} & Hash checks, numerical checks, figures, compilation, text/font/layout checks and page rendering.\\
+\texttt{verify\_\allowbreak certificates.py} & Fresh continuous-time checks of both fixed witnesses.\\
+\texttt{CLAIMS\_\allowbreak AND\_\allowbreak EVIDENCE.csv} & Claim categories, exact source paths, limitations and verification routes.\\
+\texttt{VERIFICATION.md}, \texttt{qa/} & What was checked, actual results, visual inspection record and remaining scientific gaps.\\\bottomrule
+\end{tabularx}
+\medskip
+
+The build README distinguishes a manuscript rebuild from proof verification and historical-data acquisition. The compact package reproduces the displayed numerical results and fixed-witness checks. It does not recreate every earlier source acquisition, stereo reconstruction or optimization search from scratch; the wider repository preserves their code and larger-data manifests.
+
+All important statements are assigned an evidence category: source-reported, digitized approximation, reconstructed geometry, model assumption, numerical construction, computer-assisted certificate, theorem within a stated domain, or unresolved. The V5 changes concern exposition and visual communication. Versions 2--4 and all frozen model inputs remain preserved.
+
+\section{Historical sources and their measurement conventions}\label{app:sources}
+The historical reconstruction and the landing calculations use different coordinate systems. The model's origin is the usable Runway 13 threshold; $x$ runs forward, $y$ to the right and $h$ upward from the runway plane. Its entry point and corridor are stipulated. Map-derived horizontal coordinates use the Hong Kong 1980 Grid, EPSG:2326. Stereo elevations are relative to a fitted local park/road plane. A transformation among these frames sufficient for historical clearance has not been accepted.
+
+\subsection*{Runway and photographic dates}
+CAD Report 1/95 records 3,331.5 m of runway length, 61 m width and 2,786 m landing distance available; the stopping law uses the last quantity. The official airport history's 3,390 m extension-era length is a different reported quantity \citep{cad,cadhistory}. The working accident date is 4 November 1993. A36142/A36143 are catalogued as 2 November; A36143's handwritten label appears to read 3 November. This discrepancy is retained. Additional colour frames CN4581 and CN4589 are dated 8 October 1993; no seamless same-day orthophoto is implied by displaying the frames together.
+
+\subsection*{Map inventory and incomplete surface geometry}
+The underlying holdings contain 227 valid survey-map archives covering 93 core sheet locations and 48 full aerial frames. Four road-cell comparisons yielded 404 dated assignments of 202 current templates, 531 dated map-region assignments and 397 cross-date overlaps. These are correspondence candidates, not 935 verified historical buildings. The dated-form inventory contains 45 reviewed forms for 15 named forms.
+
+The retained stereo model has 1,318 sparse matches and 171,307 filtered dense points. Its conservative mesh uses 155,891 vertices and 225,371 triangles, with 86,061 boundary edges. The accepted mesh incorporates the earlier 49-point interpolation-support correction; the invalid predecessor remains excluded. The 3,780 dense points inside the map-control hull constitute 2.2066\% of the dense set. The 5.754 m held-out RMS discrepancy measures horizontal fit, not vertical roof error or a worst-case positional bound.
+
+On sheet 11-NW-10D, the November 1989 and June 1995 editions supply 24 approximate mapped surface elevations at 12 sites. The legends identify metre elevations above Hong Kong Principal Datum (HKPD). Repeated values can be carried-forward cartography rather than independent surveys. A top elevation above HKPD is not a building height to add to a terrain elevation expressed in the same datum. The report's 15 ft AMSL runway elevation converts to 4.572 m in its stated reference; that conversion does not reconcile AMSL with HKPD.
+
+The modern 5 m DTM derives from 2014--2015 photography, with a March 2019 revision. The building dataset used in the wider project is a September 2026 snapshot \citep{dtm,buildings}. These modern products are useful contextual sources, not substitutes for the 1993 city. The accepted historical obstacle inventory still has zero complete obstacle volumes, zero physical obstacle upper bounds and \texttt{historical\_\allowbreak clearance\_\allowbreak ready=false}. Unknown-coverage polygons are retained, so missing evidence never becomes an assertion of clear airspace.
+
+\subsection*{The CAL605 plots and clocks}
+The report describes 269 recorded parameters but publishes selected plots, not the raw numerical stream. Thrust-lever angle was not recorded. Cockpit wheel, column and pedal positions are distinct from aerodynamic surface deflections. Appendix 12's reconstructed track was obtained by integrating accelerations, so it cannot independently validate those same accelerations.
+
+The retained digitization has 190 selected approach/final-phase pixel anchors and 35 speed--distance anchors. Their reading ranges describe uncertainty in locating traces on a raster, not sensor accuracy. Touchdown-distance conventions remain distinct: about 2,300 m remaining in the narrative, about 2,250 m in Appendix 13, roughly 2,210 m at the digitized ground-flag transition, and 2,306 m from the threshold-consistent subtraction $2786-480$. No average is used to conceal those differences.
+
+The wind printout has 15 irregular timestamps, five sensors and three fields, giving 225 direction--speed pairs. Field A is the maximum one-second speed within a five-second window; B and C are overlapping two- and ten-minute averages. Printing is event-triggered, so absent rows are not evidence of absent peaks. The wind-system clock offset to the flight/ATC timeline is unidentified.
+
+NOAA ISD station-year 450070--99999 contains 8,549 rows for 1993, including 24 on 4 November. The specified routine quality/format subset contains 8,360 rows: at 10.8 m/s, 8,285 are lower, 17 tie and 58 are higher \citep{noaa,isd}. Serial dependence, selection and incomplete coverage preclude turning that rank into a return period or landing-risk probability. NOAA and the report may share originating Hong Kong observations.
+
+\section{Scope, open research questions and source rights}\label{app:scope}
+\subsection*{What the certificates establish}
+Each certificate encloses a fixed exact real-decimal construction under the declared reduced point-mass equations. The implementation uses mpmath interval arithmetic at 40 decimal digits, not proof-assistant formalization. Both sides of the approach--flare join, control rates, endpoints and the exact stopping law are checked. Rounded coefficient tables, plotted samples and small forward-replay residuals are complementary evaluation aids, not replacements for the certified object.
+
+The calculations establish feasible references and necessary bounds within specified finite-dimensional families. Neither global optimizer is identified. The calm attainment argument establishes existence, including the continuous secondary minimum on the retained-primary set; it supplies no formula for the attaining parameters. The invalidated stronger exclusions described in Appendix~\ref{app:bounds} remain outside the accepted evidence.
+
+\subsection*{What historical validation would require}
+Historical flyability requires a supported entry state, a common horizontal and vertical reference, dated obstacle coverage, a calibrated aircraft envelope and a swept-volume calculation for wings, tail and landing gear. Point-mass clearance alone would not meet this requirement. Operational use would additionally require tracking and observation-error bounds, a causal feedback policy, routine-flight validation and go-around viability. None of these missing inputs is supplied by the scenario margin.
+
+The information order matters. A robust-control claim would require
+\[
+\exists\,\pi\quad\forall\,w\in\mathcal W:\quad
+\text{the causal policy satisfies the required constraints},
+\]
+whereas separate known-wind constructions have the weaker form
+\[
+\forall\,w\in\mathcal W\quad\exists\,\pi_w:\quad
+\text{some separately chosen solution works for that wind}.
+\]
+The two computed cases establish neither a result for an entire wind set nor the existence of the first policy. A fair comparison with a historical procedure also needs a supported historical baseline and equivalent aircraft, environmental and information conditions.
+
+The official report's causal conclusions govern the CAL605 discussion. Its controllable-touchdown finding is not contradicted by a negative remainder under an assumed constant-braking formula. An accident-prevention counterfactual would require the operational braking and crew/system states absent from that formula.
+
+\subsection*{Related methods and uncertainty objects}
+Steady-wind Dubins-airplane planning studies geometry under restricted motion; richer six-degree-of-freedom landing models represent additional aircraft states; tracking frameworks such as FaSTrack explicitly connect planning to error bounds \citep{wu,kim,fastrack}. Each addresses a particular part of the problem. Adapting those ideas here requires checking their assumptions against this aircraft, these observations and this historical setting. Their algorithms and guarantees have not been independently reproduced or transferred by this investigation.
+
+A raster-reading range, a horizontal registration residual, a forward-replay residual and an objective bound describe different objects. None supplies a physical prediction interval for a landing. The exact joint-box stopping extrema in Appendix~\ref{app:ground} become physically informative only after the input set has been justified and linked to the airborne constraints.
+
+The fixed-braking CAL605 calculation's loss of remainder relative to the calm witness comprises 166.51 m from the later touchdown and 249.69 m from the speed change. This is an algebraic comparison under the same two-second/$0.15g$ rule, not an attribution of actual accident causes.
+
+\subsection*{Attribution and reproducibility}
+Photographs, survey sheets and derived historical geometry are sourced from the Lands Department, Government of the Hong Kong Special Administrative Region, through the CSDI Portal and DATA.GOV.HK. Government and relevant organisations retain intellectual-property ownership; the material is supplied as-is, without endorsement. Open-data reproduction is subject to the cited attribution terms \citep{dataterms,csditerms}. Annotations and interpretations are the author's. The permission is not generalized to paid imagery or other institutions' documents.
+
+CAD report facts and the project's identified manual readings are replotted; report scans and scholarly PDFs without established redistribution permission are not included in the portable package. Source-specific terms accompany the inputs. No blanket original-work licence is granted by this edition. The RFS author class and supporting files retain their own notices; proprietary installable fonts are not redistributed.
+
+The companion reports distinguish a clean manuscript/figure rebuild, fresh fixed-witness verification and the wider historical acquisition programme. Original permitted inputs, derived observations and model scenarios remain separate. This organization lets a later correction change a particular claim without silently rewriting the evidence behind an earlier edition.
+
+\medskip\noindent\textbf{Research assistance.} Aryan Ayyar initiated the project and directed its scientific scope. Research assistance, implementation, numerical checks, figure generation and drafting used AI tools. The foreword remains for author approval; no independent human specialist review or institutional endorsement is implied.
+
+
+\FloatBarrier
+\section{Companion figures and source context}\label{app:views}
+The common local-coordinate view below retains both exact polynomial references. The profiles separate timing from geometry: paths that look almost coincident in space can be traversed at different speeds. The brief rises are present in both accepted constructions.
+\fig{A1_paths}{1}{Calm and steady-wind paths evaluated directly from their frozen coefficients. Height is relative to the runway plane; vertical speed is positive upwards; horizontal ground speed is the magnitude of the horizontal ground-velocity vector. Each curve uses time from its own model entry. The orthographic scene has equal metric scale in all three directions. The paths are separate scenario solutions, not recorded flights.}{fig:paths}
+\FloatBarrier
+\fig{A2_controls}{1}{Control histories for the wind-conditioned reference, from the retained path/control table. Model limits are shown as dashed horizontal rules; the vertical rule marks the approach--flare join. Bank-angle rate is measured in the moving flight-path frame. The display is sampled; continuous validity follows from the separate interval certificate, including one-sided join checks.}{fig:controls}
+\FloatBarrier
+\fig{A3_weather_context}{1}{Annual station context from the specified 1993 NOAA subset. The empirical distribution contains 8,360 qualifying routine reports: 8,285 below 10.8 m/s, 17 equal and 58 above. Repeated weather reports are not independent extreme-wind events. This distribution is neither an accident-risk estimate nor a reconstruction of conditions along the aircraft path.}{fig:annual}
+\FloatBarrier

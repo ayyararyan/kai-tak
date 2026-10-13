@@ -1,0 +1,37 @@
+{
+  "figure": "02_bearings",
+  "inputs": [
+    {
+      "path": "inputs/11-NE-11A_1989-10_core.png",
+      "sha256": "7daf2f8720a78b8ded383ae4f0ec811fa18eda1140c1e0248802d94c3b984259"
+    },
+    {
+      "path": "inputs/11-NE-11A_1989-10_core.json",
+      "sha256": "cdd4b3142c28f7d41fee4a0f0bfb63adb3fd0164da9a333c6abd3295f24de022"
+    },
+    {
+      "path": "inputs/historical/landmark_frame_matches.csv",
+      "sha256": "e50ce772f1001f7d098d4334a82c98f0c0f3ce0ecfa7d47da94474a61eec6d00"
+    },
+    {
+      "path": "evidence/evidence/cal605_reconstruction/analysis.json",
+      "sha256": "7e957b6c8cd42493f6809a49b7be917c147a1e147ecadeef98a64762259b2c42"
+    }
+  ],
+  "meaning": "The 47-degree difference drawn as direction guides in a geographic-relations schematic",
+  "master_inches": [
+    7.1,
+    5.0
+  ],
+  "screen_dpi": 190,
+  "presentation_dpi": 600,
+  "pdf_sha256": "76d01ce1ed2119ab9dd7cc165323aa7568a6f4f4fd23f85032c89c38f14d6bd2",
+  "geometry_status": "Diagrammatic geographic relations, not to scale. Map fragment, landmark, construction origin and runway symbol are not registered. Rays compare magnetic bearings; no historical route, beam position or turning point inferred.",
+  "bearing_sources": "CAD Report 1/95 sections 1.8.1, 1.10 and Appendix 1; unchanged V4 factual bearing transcription",
+  "bearing_values": {
+    "IGS_degM": 88,
+    "runway_degM": 135,
+    "difference_deg": 47
+  },
+  "source_note": "Genuine 1989 source-map fragment; approximate source acquisition anchors support northwest/southeast relation only."
+}

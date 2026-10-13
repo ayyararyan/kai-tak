@@ -1,0 +1,135 @@
+{
+  "figure": "11_weather",
+  "inputs": [
+    {
+      "path": "evidence/evidence/cal605_reconstruction/wind/wind_records.csv",
+      "sha256": "485c67054dd3acb7915557ee97f34d5fd0a85b940c2219417a06262f82625465"
+    }
+  ],
+  "meaning": "Two ground sensors on one irregularly sampled wind-system clock",
+  "master_inches": [
+    7.1,
+    4.35
+  ],
+  "screen_dpi": 190,
+  "presentation_dpi": 600,
+  "pdf_sha256": "4078b76f5cf27d9b2277109c2bb7ad5af01342a5252f31b5062cb491a98d6b85",
+  "evidence_category": "source-transcribed ground-sensor printout",
+  "plotted_series": {
+    "NW": {
+      "clock_times": [
+        "03:30:00",
+        "03:31:00",
+        "03:31:30",
+        "03:32:00",
+        "03:32:30",
+        "03:33:00",
+        "03:34:00",
+        "03:34:30",
+        "03:35:00",
+        "03:35:30",
+        "03:37:30",
+        "03:38:00",
+        "03:38:30",
+        "03:39:00",
+        "03:40:00"
+      ],
+      "minutes_after_033000": [
+        0.0,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        4.0,
+        4.5,
+        5.0,
+        5.5,
+        7.5,
+        8.0,
+        8.5,
+        9.0,
+        10.0
+      ],
+      "speed_kt": [
+        20.0,
+        21.0,
+        20.0,
+        25.0,
+        19.0,
+        22.0,
+        27.0,
+        28.0,
+        21.0,
+        37.0,
+        21.0,
+        12.0,
+        13.0,
+        11.0,
+        17.0
+      ]
+    },
+    "LYM": {
+      "clock_times": [
+        "03:30:00",
+        "03:31:00",
+        "03:31:30",
+        "03:32:00",
+        "03:32:30",
+        "03:33:00",
+        "03:34:00",
+        "03:34:30",
+        "03:35:00",
+        "03:35:30",
+        "03:37:30",
+        "03:38:00",
+        "03:38:30",
+        "03:39:00",
+        "03:40:00"
+      ],
+      "minutes_after_033000": [
+        0.0,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        4.0,
+        4.5,
+        5.0,
+        5.5,
+        7.5,
+        8.0,
+        8.5,
+        9.0,
+        10.0
+      ],
+      "speed_kt": [
+        34.0,
+        40.0,
+        35.0,
+        30.0,
+        31.0,
+        29.0,
+        28.0,
+        31.0,
+        34.0,
+        32.0,
+        39.0,
+        37.0,
+        35.0,
+        33.0,
+        38.0
+      ]
+    }
+  },
+  "highlighted_clock_time": "03:38:00",
+  "highlighted_speeds_kt": {
+    "NW": 12,
+    "LYM": 37
+  },
+  "field": "A: maximum one-second speed within a five-second window",
+  "connector_meaning": "eye guides, not recovered peaks between printouts",
+  "clocks": "Wind-system clock only; no flight-event synchronization",
+  "aircraft_local_wind": false
+}

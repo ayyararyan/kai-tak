@@ -1,0 +1,24 @@
+{
+  "figure": "03_turn",
+  "inputs": [
+    {
+      "path": "evidence/approximation/reference_formula.json",
+      "sha256": "95311d6d1857fc6330532dcce52cc58f03e20b489c3249a0da6cf3f14cea0c76"
+    }
+  ],
+  "meaning": "Force balance, exact circular arc and quadratic radius dependence",
+  "master_inches": [
+    7.1,
+    5.7
+  ],
+  "screen_dpi": 190,
+  "presentation_dpi": 600,
+  "pdf_sha256": "0a50fb46634e1b9bc77c4703679c35942e774b60cc3504ce47d5d9dca04a3e23",
+  "g_mps2": 9.80665,
+  "speed_mps": 78,
+  "bank_deg": 15,
+  "radius_m": 2315.34694449675,
+  "arc_m": 1899.2900928505585,
+  "turn_time_s": 24.34987298526357,
+  "scope": "Ideal coordinated level still-air turn; no roll transitions"
+}

@@ -1,0 +1,48 @@
+{
+  "verified_utc": "2026-10-13T17:41:22.988786+00:00",
+  "retained_primary_sources": {
+    "cad_report": {
+      "filename": "CAD_1-95_CAL605_wayback.pdf",
+      "sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a"
+    },
+    "cad_text": {
+      "filename": "CAD_1-95_CAL605.txt",
+      "sha256": "949a93a8e12f562057c97e31c91c9a464a57a6519bdbca24fffad480a66b98c9"
+    },
+    "cadlink75": {
+      "filename": "CADLink75.pdf",
+      "sha256": "db437b01b833babbf199605846d3e4872fe44decd41ecde86474eaa55b3d63f8"
+    },
+    "isd_format_pdf": {
+      "filename": "isd-format-document.pdf",
+      "sha256": "1be604b08b5f7c2429e6aef178ff8893019c234bc7bc51bfb7ec1e16a6682f04"
+    },
+    "isd_format_text": {
+      "filename": "isd-format-document.txt",
+      "sha256": "983a2ea7a5f99dbc2ae8780f963313d6db2aab808845bafa4a8bb4bf35f449bb"
+    },
+    "dtm_features_retained_html": {
+      "filename": "dtm_features.html",
+      "sha256": "b2f9a34a96c452c12eb015f14e43b690c3682bd403301968e3b2edd4102e29de"
+    }
+  },
+  "cad_scope": "Relevant source sections read: Synopsis, 1.8.1, 1.10, 1.11, 2.2.5\u20137, 2.6.5, 3.2; source images inspected at physical PDF pages 32, 92, 126. No primary report republished.",
+  "fresh_web_checked": [
+    "https://www.cad.gov.hk/english/kaitak.html",
+    "https://arxiv.org/abs/2412.04797v1",
+    "https://arxiv.org/abs/2405.16680v1",
+    "https://arxiv.org/abs/2102.07039v2",
+    "https://data.gov.hk/en/terms-and-conditions",
+    "https://portal.csdi.gov.hk/csdi-webpage/doc/TNC",
+    "https://data.gov.hk/en-data/dataset/hk-landsd-openmap-old-survey-sheets",
+    "https://data.gov.hk/en-data/dataset/hk-landsd-openmap-development-hkms-digital-aerial-photo",
+    "https://portal.csdi.gov.hk/csdi-webpage/metadata/landsd_rcd_1637211194312_35158/html"
+  ],
+  "fallbacks": {
+    "cadlink": "web reader refused PDF size; inspected retained original PDF/text",
+    "dtm": "fresh web timed out; inspected retained original HTML",
+    "noaa": "Displayed frozen derived CSV and archived verification/source format checked; station-year archive not reacquired or reparsed in this audit"
+  },
+  "missing_new_evidence": [],
+  "no_source_semantic_change_required": true
+}

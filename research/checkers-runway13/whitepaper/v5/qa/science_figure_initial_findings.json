@@ -1,0 +1,10 @@
+{
+  "checked_utc": "2026-10-13T18:09:13.536235+00:00",
+  "finding": "Annual CDF upper xlimit18 clips retained observations at19.0 and20.1m/s",
+  "retained_tail": {
+    "19.0": 1,
+    "20.1": 1
+  },
+  "status": "Corrected: upper axis21m/s includes both tail observations; 74 independent figure semantic checks passed",
+  "resolution_receipt": "science_figure_semantics.json"
+}

@@ -1,0 +1,25 @@
+{
+  "verified_utc": "2026-10-13T18:17:57.878890+00:00",
+  "pdf_sha256": "328f848d805df1e5bac5fd6aff6f28363112bea3acd9a5fcb71c33ec16842939",
+  "changes": [
+    {
+      "path": "sections/act1.tex",
+      "prior_sha256": "3e48d27b818969d00a39fd806015f177667b783b58b39baa54bbe0e6934d6d64",
+      "final_sha256": "fd73e16e6d546dc405880b0eccbda5141f938bb2a4775d92787451c7fed9def5",
+      "changes": "Paragraph termination within samepage or float barrier only; prose and mathematics identical."
+    },
+    {
+      "path": "sections/act2.tex",
+      "prior_sha256": "07aab80cb6346feb7a22ad442536ffb904c9fbe5cf1e1d4f94177ac563375116",
+      "final_sha256": "322c982da59ab9e99fa76f5015a9e1ffc3850cbe226b4b2c845f14f7cbf961e9",
+      "changes": "Paragraph termination within samepage or float barrier only; prose and mathematics identical."
+    },
+    {
+      "path": "sections/act6.tex",
+      "prior_sha256": "574f6bd2558369fc4d21885a974fe0c334d6715e65a5b7c6e377fc4beea26744",
+      "final_sha256": "3582e4dff4d4d28768ccf5a511607c50d23a952a07ff20a2c92e54eb42c26b77",
+      "changes": "Paragraph termination within samepage or float barrier only; prose and mathematics identical."
+    }
+  ],
+  "scientific_editorial_review_carries_forward": true
+}

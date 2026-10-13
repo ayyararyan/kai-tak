@@ -1,0 +1,79 @@
+{
+  "10_recorder": {
+    "pdf_pages": 1,
+    "pdf_points": [
+      511.20001220703125,
+      450.0
+    ],
+    "screen_pixels": [
+      1349,
+      1187
+    ],
+    "presentation_pixels": [
+      4260,
+      3750
+    ],
+    "text_spans_outside_canvas": [],
+    "source_hashes_verified": true,
+    "visual_inspection": "screen PNG inspected after label-spacing corrections; no text overlaps or clipping seen",
+    "figure_sha256": "c50f7ba9ab0e4ee5d79a2d3ffe6fe13d687c5594536df4a3c1e83aec7de8424a"
+  },
+  "11_weather": {
+    "pdf_pages": 1,
+    "pdf_points": [
+      511.20001220703125,
+      313.20001220703125
+    ],
+    "screen_pixels": [
+      1349,
+      826
+    ],
+    "presentation_pixels": [
+      4260,
+      2610
+    ],
+    "text_spans_outside_canvas": [],
+    "source_hashes_verified": true,
+    "visual_inspection": "screen PNG inspected after label-spacing corrections; no text overlaps or clipping seen",
+    "figure_sha256": "4078b76f5cf27d9b2277109c2bb7ad5af01342a5252f31b5062cb491a98d6b85"
+  },
+  "12_rollout": {
+    "pdf_pages": 1,
+    "pdf_points": [
+      511.20001220703125,
+      320.3999938964844
+    ],
+    "screen_pixels": [
+      1349,
+      845
+    ],
+    "presentation_pixels": [
+      4260,
+      2670
+    ],
+    "text_spans_outside_canvas": [],
+    "source_hashes_verified": true,
+    "visual_inspection": "screen PNG inspected after label-spacing corrections; no text overlaps or clipping seen",
+    "figure_sha256": "83c642f1e53159bfa1c4fa758d12590eaf5cb06be67707f2ec6c894c50bcf7e0"
+  },
+  "A3_weather_context": {
+    "pdf_pages": 1,
+    "pdf_points": [
+      511.20001220703125,
+      334.79998779296875
+    ],
+    "screen_pixels": [
+      1349,
+      883
+    ],
+    "presentation_pixels": [
+      4260,
+      2790
+    ],
+    "text_spans_outside_canvas": [],
+    "source_hashes_verified": true,
+    "visual_inspection": "screen PNG inspected after label-spacing corrections; no text overlaps or clipping seen",
+    "figure_sha256": "ff2ede69d05af2552fbc61f58f32b52cfeac3c7ee9de7fddd6f196f360b1fb79"
+  },
+  "scope": "Four evidence-figure masters only; final manuscript page integration pending parent."
+}

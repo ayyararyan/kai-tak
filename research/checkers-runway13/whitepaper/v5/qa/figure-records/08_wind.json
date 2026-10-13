@@ -1,0 +1,23 @@
+{
+  "figure": "08_wind",
+  "inputs": [
+    {
+      "path": "evidence/counterfactual/inputs.json",
+      "sha256": "5e498fee46936c4a53a908ec255d34b83c4894af223aff10bfbd8610605f088b"
+    }
+  ],
+  "meaning": "Identical wind decomposed along and right of two ground-track axes",
+  "master_inches": [
+    7.1,
+    4.0
+  ],
+  "screen_dpi": 190,
+  "presentation_dpi": 600,
+  "pdf_sha256": "286d6273b67128651e567d269db2e6e6f32ccf9f205787b22a11f4358c852247",
+  "runway_true_deg": 133.16666666666666,
+  "wind_mps": [
+    -4.876589552990943,
+    9.64006667211232
+  ],
+  "screen_mapping": "runway-forward up, runway-right right; generic track arrows, not aircraft heading"
+}

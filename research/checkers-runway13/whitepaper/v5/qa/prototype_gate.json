@@ -1,0 +1,19 @@
+{
+  "gate": "Four prototype families inspected before remaining suite implementation",
+  "inspected": [
+    "01_place",
+    "02_bearings",
+    "04_landing",
+    "05_runway",
+    "07_stereo"
+  ],
+  "method": "Parent actual PNG views plus independent source/camera review; final PDF-scale inspection remains separate",
+  "fixes": [
+    "landing header/callout spacing and flare detail",
+    "runway label spacing",
+    "geographic schematic explicit nonregistration and separated labels",
+    "stereo camera up-axis positive and original mesh contrast",
+    "roof examples explicitly outside control hull"
+  ],
+  "decision": "passed; remaining figure suite released"
+}

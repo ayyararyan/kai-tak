@@ -1,0 +1,84 @@
+{
+  "verified_utc": "2026-10-13T13:41:06.993979+00:00",
+  "overall_status": "incomplete",
+  "correctness": "tested and actual output invariants verified",
+  "completeness": "3 implemented / 4 partially implemented of 7 requirements",
+  "end_to_end": "partial source-to-surface artifacts verified; browser interaction unverified; full historical scene incomplete",
+  "parent_test_reruns": {
+    "suites": {
+      "registration_and_geometry": 21,
+      "candidate_regressions": 10,
+      "stereo_guardrails": 25,
+      "scene_semantics": 11
+    },
+    "all_passed": true,
+    "total_python_tests": 67,
+    "recorded_utc": "2026-10-13T13:38:44.502007+00:00",
+    "source_hash_receipt": "parent_test_receipt.json"
+  },
+  "parent_node_ui_logic_test": "passed; stubbed trace construction, not browser/WebGL",
+  "candidate_artifact_checks": {
+    "passed": 944,
+    "total": 944
+  },
+  "candidate_manifest_hashes": {
+    "passed": 489,
+    "total": 489
+  },
+  "road_cell_artifact_checks": {
+    "passed": 66,
+    "total": 66
+  },
+  "road_cell_manifest_hashes": {
+    "passed": 41,
+    "total": 41
+  },
+  "road_cell_parent_replay": {
+    "parent_independent_replay_passed": true,
+    "manifest_hashes_verified": 41,
+    "counts": {
+      "templates": 404,
+      "regions": 531,
+      "across_date": 202,
+      "region_pairs": 397
+    },
+    "all_935_assigned_geometries_valid_and_recomputed_areas_within_0_01m2": true,
+    "all_8_visual_observations_hash_bound": true,
+    "browser_interaction_verified": false
+  },
+  "stereo_artifact_checks": 24,
+  "mesh_artifact_checks": 24,
+  "static_surface_preview": "parent visually inspected scene/overview.png; not browser screenshot",
+  "browser_interaction_verified": false,
+  "browser_blocker": "OpenClaw navigation blocked file and localhost URLs; no bypass attempted",
+  "full_historical_reconstruction_complete": false,
+  "clearance_certified": false,
+  "unapproved_scope_reductions": 0,
+  "unapproved_proxy_substitutions": 0,
+  "scene_counts": {
+    "historical_faces": 45,
+    "named_forms": 15,
+    "source_epochs": [
+      "1989-10",
+      "1994-07",
+      "1997-04"
+    ],
+    "historic_physical_volumes": 0,
+    "historic_nonnull_heights": 0,
+    "road_cells": 4,
+    "modern_components": 464,
+    "modern_omitted_components": 10,
+    "stereo_available": true,
+    "dense_available": true,
+    "dense_source_points": 171307,
+    "dense_preview_points": 57103,
+    "observed_mesh_faces": 225371,
+    "observed_mesh_vertices": 155891,
+    "sparse_omitted_rows": 0,
+    "modern_courtyard_components": 1,
+    "offline_plotly_bundled": true,
+    "browser_interaction_verified": false,
+    "browser_verification_blocker": "Parent attempted file and localhost navigation via OpenClaw; navigation policy blocked both. No bypass attempted.",
+    "scene_sha256": "734ca0e43995571686de9a43cc7b0522a1cf55d1c97d868f66fb2ed7ca1e34e8"
+  }
+}

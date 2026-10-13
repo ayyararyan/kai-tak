@@ -1,0 +1,24 @@
+{
+  "utc": "2026-10-13T14:08:35.262924+00:00",
+  "status": "passed",
+  "run_id": "fc0833a6e2ba486ba7d8c9a2844bce52",
+  "source_sha256": {
+    "calculate.py": "c9b77777356cd93cf14f97d57289bab489e109525c4056abf44111afb29be605",
+    "continuous.py": "c220e280115238c7f42779236a1bf41fe29e786cc58d6c6830d3fc35f7db8a8c",
+    "deliver.py": "30dab99db968f3d9ea3308d6d22f294b78b0ff73d47a2de682c38c51d13e36dd",
+    "test_counterfactual.py": "66589ebeae8ff8d64fafa91499a7ab4df91be215a931929d16b4a3967e5ebed7",
+    "verify_delivery.py": "e99ccee20cda1ef54a34a4631ce3d0240be1404d7e502f7042f71bc88826a082"
+  },
+  "manifest_hashes_verified": 22,
+  "fresh_interval_cover_reproduced": true,
+  "interval_boxes": 376,
+  "eta_lower_real_decimal": "0.1507934696816132",
+  "dense_points_per_phase": 20001,
+  "dense_eta": 0.15279338252804847,
+  "dense_hard_min": 1.4496799718699549e-06,
+  "targeted_tests_passed": 37,
+  "producer_reruns_verified": 2,
+  "plot_visually_inspected": true,
+  "historical_complete": false,
+  "physical_prediction_intervals": null
+}

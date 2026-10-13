@@ -1,0 +1,53 @@
+{
+  "reviewed_utc": "2026-10-13T18:08:48.791339+00:00",
+  "pdf_sha256": "2d8e3ce736c440f5ef5c910c111f4f260fbbc63fdfd69e3c81f49b2ffa20f278",
+  "actual_pages_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    20,
+    21
+  ],
+  "complete_main_prose_read": true,
+  "review": "editorial/FINAL_INDEPENDENT_REVIEW.md",
+  "findings": [
+    "E1 historical feature correspondence absent from prose",
+    "E2 figures interrupt sentences",
+    "E3 first-use localiser definition",
+    "E4 exposition self-commentary",
+    "E5 ending rhythm"
+  ],
+  "acceptance": "Editorial/scientific content accepted; final delivery conditional on production-owner clean-package rebuild and matching-artifact checks",
+  "final_reviewed_utc": "2026-10-13T18:13:31.617297+00:00",
+  "final_pdf_sha256": "9dc2957599405b9070741904f11074e12614d69ccb32c8b60c07a2a8836dc634",
+  "final_pdf_pages": 38,
+  "revised_actual_pages_inspected": [
+    2,
+    3,
+    11,
+    12,
+    13,
+    22,
+    37
+  ],
+  "dispositions": {
+    "E1": "accepted, implemented and reinspected",
+    "E2": "accepted, implemented and reinspected",
+    "E3": "accepted, implemented and reinspected",
+    "E4": "accepted, implemented and reinspected",
+    "E5": "accepted, implemented and reinspected"
+  },
+  "remaining_review_boundaries": [
+    "personal foreword author approval",
+    "no independent human specialist peer review"
+  ]
+}

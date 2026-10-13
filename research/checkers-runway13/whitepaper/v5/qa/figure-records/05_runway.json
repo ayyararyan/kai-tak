@@ -1,0 +1,45 @@
+{
+  "figure": "05_runway",
+  "inputs": [
+    {
+      "path": "evidence/approximation/reference_formula.json",
+      "sha256": "95311d6d1857fc6330532dcce52cc58f03e20b489c3249a0da6cf3f14cea0c76"
+    },
+    {
+      "path": "evidence/counterfactual/result.json",
+      "sha256": "49296dd026b3f0702fb672264c2c5524221a38acbf60631b6b8581e6c0b7bfe8"
+    }
+  ],
+  "meaning": "Shared-scale runway allocation for two separately optimized cases, not a causal wind effect",
+  "master_inches": [
+    7.1,
+    4.0
+  ],
+  "screen_dpi": 190,
+  "presentation_dpi": 600,
+  "pdf_sha256": "d28bbe089eed7b84b9048fe82fce228ef8874b751a40d7af5b617f941c172383",
+  "scale": {
+    "same_horizontal_metres_for_both": true,
+    "LDA_m": 2786.0,
+    "braking_deceleration_mps2": 1.4709975,
+    "delay_s": 2
+  },
+  "outcomes": [
+    {
+      "name": "Calm air",
+      "touchdown_m": 313.4921811580115,
+      "delay_m": 155.77610991963755,
+      "braking_m": 2062.052826542448,
+      "stop_m": 2531.321117620097,
+      "remaining_m": 254.67888237990292
+    },
+    {
+      "name": "Steady wind",
+      "touchdown_m": 302.11405203827735,
+      "delay_m": 144.98007177667918,
+      "braking_m": 1786.1367212020286,
+      "stop_m": 2233.2308450169853,
+      "remaining_m": 552.7691549830147
+    }
+  ]
+}

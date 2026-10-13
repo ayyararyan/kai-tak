@@ -1,0 +1,48 @@
+\parthead{III}{The landing continues beyond touchdown}\label{part:3}
+At 78 m/s, a straight still-air descent along a $3.1^\circ$ slope has a vertical velocity of $78\sin(-3.1^\circ)$, about $-4.22$ m/s. Carrying that downward motion unchanged to the pavement would miss the model's chosen touchdown target of $-0.7$ m/s. The flare has to bend the vertical motion as well as bring the aircraft into contact with the ground.
+
+Height and speed are linked by energy. In the still-air coordinated point-mass model, mechanical energy is $E=\tfrac12mV^2+mgh$ and its rate of change is $\dot E=(\mathcal T-D)V$, where $\mathcal T$ denotes thrust and $D$ drag. Descending can exchange potential energy for speed; drag dissipates energy and thrust supplies it. Lift changes the direction of the air-relative velocity without doing work along it. A descent calculation therefore needs a speed calculation, and a flare needs both.
+
+The consequences continue after contact. Imagine first a simple ground roll: the aircraft touches down a distance $x_D$ beyond the usable threshold, travels at forward ground speed $u$ for a delay $d$, then decelerates at a constant rate $a>0$. In a speed--time diagram the delay contributes a rectangle of area $ud$. Braking contributes a triangle with height $u$ and base $u/a$, hence area $u^2/(2a)$. Adding the touchdown station gives
+\begin{equation}
+S=x_D+\underbrace{ud}_{\text{delay travel}}+\underbrace{\frac{u^2}{2a}}_{\text{braking travel}},\qquad R=L-S.
+\label{eq:stop}
+\end{equation}
+Here $S$ is the stopping station, $R$ the runway remaining and $L=2786$ m the landing distance available.
+
+The square of speed is the important feature. Holding deceleration fixed, a 10\% increase in touchdown ground speed increases the braking distance by 21\%, since $1.1^2=1.21$. The delay distance also grows, linearly. A few metres per second can spend much more runway than their size suggests when read as a speed difference.
+
+For the constructed landings, the ground law fixes a two-second delay followed by $0.15g=1.4709975$ m/s$^2$ deceleration, with at least 150 m of runway to remain. These are illustrative research assumptions, not calibrated wet-runway performance. The aircraft model is a reduced coordinated point mass, with finite bank-angle and thrust rates. Its aircraft identity, configuration and estimated mass are anchored to the CAL605 report---a Boeing 747-409B, flaps 30, gear down, estimated 525,718 lb---while its aerodynamic coefficients and operating envelope are stipulated. The entry and corridor are synthetic. This separation lets the calculation expose the coupling among constraints without presenting its path as a recovered historical approach. Appendix~\ref{app:dynamics} gives the complete equations and constants.
+
+\subsection*{Choosing a path that can carry its own forces}
+A curve through space determines much more than a picture. Its first derivative gives velocity; the second gives the acceleration that lift and thrust must supply. Changes in acceleration, described by the third derivative or jerk, affect how quickly bank and thrust must change. The model works backwards through these relations: choose a smooth position curve, then derive the forces and rates it would require.
+
+Two endpoint-constrained polynomials describe approach and flare. Twelve parameters determine their durations, touchdown state and interior shape. The approach begins at $(-2500,1000,140)$ m in runway-forward, runway-right and vertical coordinates: 2.5 km before the usable threshold, 1 km to its right and 140 m above runway level. Its initial ground track is $47^\circ$ left of the runway. The threshold target is $(0,0,15.24)$ m with runway-aligned ground track, 153 kt equivalent airspeed and a $-3.1^\circ$ air flight-path angle. Equivalent airspeed accounts for the change of air density; the force calculation itself uses airspeed and the model density.
+
+The boundary conditions join approach and flare in position, velocity and acceleration. Control-rate checks use the one-sided derivatives at the join. At touchdown a separate ground-contact rule takes over, with the vertical component reset and the forward motion governed by equation~\eqref{eq:stop}. The polynomial construction and its exact parameter ranges are in Appendix~\ref{app:polynomial}.
+
+What should the optimizer improve? A path that saves runway might demand too much bank; one with a comfortable bank angle might approach a speed or thrust limit. The chosen objective gives each inequality a dimensionless margin and raises the smallest of them. If $g_j(t;q)\geq0$ is an inequality, $s_j>0$ its scale and $q$ the trajectory parameters, the primary problem is
+\begin{equation}
+\max_{q,\eta}\eta\quad\text{such that}\quad
+\frac{g_j(t;q)}{s_j}\geq\eta\quad\text{for every relevant }t,j,
+\label{eq:objective}
+\end{equation}
+with structural equalities and additional hard constraints enforced separately. A secondary stage reduces integrated squared normalized bank and rate demands while retaining the primary score within $10^{-4}$.
+
+The scales specify the tradeoffs. The EAS floor contributes $(V_{\rm EAS,kt}-135)/40$, the bank margin is $1-|\phi|/25^\circ$, and the stop-reserve margin is $(2636-S)/2636$. Reweighting these expressions can change the preferred path. Thus $\eta$ is the declared model objective, not a universal measure of aviation safety. The envelope permits bank up to $25^\circ$, bank-angle rate up to $5^\circ$/s and EAS between 135 and 175 kt, together with lift, load, thrust, thrust-slew and descent limits. A 400 m three-dimensional tube surrounds a fixed synthetic reference cloud. All of these constraints remain active in the construction.
+
+\subsection*{A complete calm-air landing}
+The retained calm solution reaches the threshold after 37.34 seconds, spends four seconds in the flare and touches down 313.49 m beyond the threshold. Its touchdown ground speed is 77.888 m/s. The two-second delay then uses 155.78 m and the constant-deceleration phase uses another 2,062.05 m. The aircraft model stops at station 2,531.32 m, leaving 254.68 m of runway. From the synthetic entry to rest takes 96.29 seconds.
+
+\fig{04_landing}{1}{The complete calm-air construction in a local runway frame: approach, flare, touchdown and ground roll. The runway plane, threshold and centreline make the length and height scales explicit; the geometry is not registered onto historical Hong Kong. The source polynomials retain their brief shallow climb. Touchdown is at 313.49 m and the full stop at 2,531.32 m of the 2,786 m landing distance available. Sources: frozen calm reference coefficients and equation~\eqref{eq:stop}; ground law: 2 s delay followed by $0.15g$.}{fig:landing}
+
+The small rise early in the path deserves attention. The accepted model limits descent but does not impose monotonic loss of height; the optimizer uses that freedom. The rise stays in both the mathematical reference and its illustration. Removing it to resemble a more familiar approach would change the model, not improve the drawing.
+
+At this touchdown speed, the stopping law has local sensitivities
+\begin{equation}
+\frac{\partial R}{\partial u}=-d-\frac{u}{a}\approx-54.95\ \frac{\mathrm m}{\mathrm{m/s}},
+\qquad \frac{\partial R}{\partial d}=-u\approx-77.89\ \frac{\mathrm m}{\mathrm s}.
+\end{equation}
+Another second of delay costs nearly 78 m at fixed touchdown speed. One additional metre per second costs about 55 m locally under the same braking law. Touchdown is therefore a commitment about the use of the runway still ahead. The airborne calculation has to deliver a state from which the ground calculation can succeed.
+
+This reference supplies a complete motion in its declared coordinate system. To connect it to Kai Tak itself, the runway, terrain and buildings would have to occupy that same system with defensible dates and heights. That brings the investigation back to the photographs.

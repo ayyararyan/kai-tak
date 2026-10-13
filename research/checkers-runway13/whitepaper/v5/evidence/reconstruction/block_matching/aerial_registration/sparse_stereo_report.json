@@ -1,0 +1,301 @@
+{
+  "generated_utc": "2026-10-13T13:20:13.753042+00:00",
+  "status": "measured_sparse_stereo_reconstruction_conditional_nominal_calibration",
+  "actual_same_epoch_content_overlap_verified": true,
+  "source_date": "1993-11-02",
+  "source_frames": [
+    "A36142",
+    "A36143"
+  ],
+  "same_camera_label": "WILD15/UAGIA Nr6098 152.12",
+  "crs_horizontal": "EPSG:2326 via original 1989 survey worldfile and 6 map road GCPs",
+  "vertical_reference": "relative to four observed park/paved-path stereo points fitted as common local plane; NOT HKPD or absolute elevation",
+  "assumptions": [
+    "nominal152.12mm focal number interpreted as focal length;300dpi taken as metric film scan scale",
+    "shared principal point approximated from corner fiducial layout at1460,1440 original pixels",
+    "no calibrated lens distortion or scan deformation correction",
+    "four selected park/path ground correspondences approximated by one locally planar reference; source ground elevations not equated to sea level",
+    "map road junctions unchanged between1989 and1993; six fitted and four held-out ground coordinates",
+    "all triangulated points remain unclassified except explicitly inspected surface IDs; vegetation/terrain/roof outliers not silently buildings"
+  ],
+  "counts": {
+    "ratio_matches": 1497,
+    "fundamental_inliers": 1318,
+    "positive_depth": 1318,
+    "exported_ply_reprojection_under5px": 1318,
+    "exported_points_within_map_control_hull": 14,
+    "map_control_fit": 6,
+    "map_control_holdout": 4,
+    "stereo_ground_plane_fit": 4,
+    "stereo_ground_plane_holdout": 1,
+    "observed_roof_points": 2
+  },
+  "nominal_K": [
+    [
+      1796.6929133858268,
+      0.0,
+      1460.0
+    ],
+    [
+      0.0,
+      1796.6929133858268,
+      1440.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "nominal_relative_R": [
+    [
+      0.9997466805980748,
+      -0.011544470154613523,
+      -0.01932096897104511
+    ],
+    [
+      0.011494804288578494,
+      0.9999303420317883,
+      -0.0026796564253676707
+    ],
+    [
+      0.01935055832523003,
+      0.0024568868594167692,
+      0.9998097417006206
+    ]
+  ],
+  "nominal_relative_t_unit": [
+    0.04647871970585613,
+    -0.9988289262540073,
+    -0.013435203488265655
+  ],
+  "metric_baseline_m_from_map_scale": 486.3904870846161,
+  "index_center_baseline_m_comparison_only": 525.4198321342658,
+  "ground_plane_fit_track_ids": [
+    788,
+    1030,
+    74,
+    1187
+  ],
+  "ground_plane_holdout_track_ids": [
+    708
+  ],
+  "ground_plane_fit_z_residuals_m": [
+    0.16513197125959778,
+    -0.031241220360016086,
+    -0.31850212643576015,
+    0.18461137553526896
+  ],
+  "ground_plane_holdout_z_residuals_m": [
+    -0.02801001937223191
+  ],
+  "map_fit_horizontal_rmse_m": 6.506971500940156,
+  "map_holdout_horizontal_rmse_m": 5.754265551984461,
+  "map_holdout_horizontal_max_m": 7.859328009039954,
+  "map_control_residuals_ENZ_m": [
+    [
+      -1.4853333556093276,
+      -8.001869722618721,
+      -2.2737367544323206e-13
+    ],
+    [
+      -0.8605831784661859,
+      -7.812069722334854,
+      -4.547473508864641e-13
+    ],
+    [
+      -0.25350315507967025,
+      -5.727548164315522,
+      -2.2737367544323206e-13
+    ],
+    [
+      3.100780900218524,
+      -4.20977527834475,
+      -2.2737367544323206e-13
+    ],
+    [
+      4.12291044218,
+      2.5275481899734586,
+      -2.2737367544323206e-13
+    ],
+    [
+      -6.155106884078123,
+      7.6443016092525795,
+      0.0
+    ],
+    [
+      -3.8407531934790313,
+      4.4137148389127105,
+      -4.547473508864641e-13
+    ],
+    [
+      -1.2467076509492472,
+      2.8206905487459153,
+      0.0
+    ],
+    [
+      2.505747859249823,
+      1.6820122548379004,
+      0.0
+    ],
+    [
+      5.017740603536367,
+      0.7368775389622897,
+      -2.2737367544323206e-13
+    ]
+  ],
+  "reprojection_rms_px_quantiles": [
+    0.0007088131747845227,
+    0.5497318951838749,
+    1.5051943208937035,
+    2.5468663196095136,
+    3.1714754232452633,
+    3.899356530341061
+  ],
+  "camera1_relative_plane_height_m": 1187.5468912236504,
+  "camera2_relative_plane_height_m": 1198.1557752356694,
+  "roof_point_estimates": [
+    {
+      "track_id": 26,
+      "observed_object": "municipal market north roof feature",
+      "height_above_reference_plane_m": 10.769431630259533,
+      "status": "accepted_conditional",
+      "reprojection_rms_px": 2.6495457800574425,
+      "ground_base_elevation_at_building_identified": false,
+      "statistical_or_hard_error_bounds": null
+    },
+    {
+      "track_id": 1135,
+      "observed_object": "municipal market south rooftop service structure",
+      "height_above_reference_plane_m": 19.195490912459263,
+      "status": "accepted_conditional",
+      "reprojection_rms_px": 2.414063516608818,
+      "ground_base_elevation_at_building_identified": false,
+      "statistical_or_hard_error_bounds": null
+    }
+  ],
+  "nominal_intrinsic_sensitivity_experiment": [
+    {
+      "focal_multiplier": 1.0,
+      "principal_x": 1460.0,
+      "principal_y": 1440.0,
+      "metric_baseline_m": 486.3904870846161,
+      "roof_point_26_height_m": 10.769431630259533,
+      "roof_point_1135_height_m": 19.195490912459263,
+      "heldout_ground708_z_m": -0.02801001937223191,
+      "named_point_validity": {
+        "26": true,
+        "1135": true,
+        "708": true
+      },
+      "map_holdout_horizontal_rmse_m": 5.754265551984461
+    },
+    {
+      "focal_multiplier": 0.95,
+      "principal_x": 1460.0,
+      "principal_y": 1440.0,
+      "metric_baseline_m": 486.59705800812253,
+      "roof_point_26_height_m": 10.210183880263912,
+      "roof_point_1135_height_m": 18.188093224230443,
+      "heldout_ground708_z_m": -0.028904619019613165,
+      "named_point_validity": {
+        "26": true,
+        "1135": true,
+        "708": true
+      },
+      "map_holdout_horizontal_rmse_m": 5.733590525100488
+    },
+    {
+      "focal_multiplier": 1.05,
+      "principal_x": 1460.0,
+      "principal_y": 1440.0,
+      "metric_baseline_m": 486.1736970622257,
+      "roof_point_26_height_m": 11.32838895419627,
+      "roof_point_1135_height_m": 20.201860250861728,
+      "heldout_ground708_z_m": -0.02719632436219399,
+      "named_point_validity": {
+        "26": true,
+        "1135": true,
+        "708": true
+      },
+      "map_holdout_horizontal_rmse_m": 5.772238288175799
+    },
+    {
+      "focal_multiplier": 1.0,
+      "principal_x": 1440.0,
+      "principal_y": 1440.0,
+      "metric_baseline_m": 486.58642742168246,
+      "roof_point_26_height_m": 10.768844524290216,
+      "roof_point_1135_height_m": 19.194442439441218,
+      "heldout_ground708_z_m": -0.028001522767453935,
+      "named_point_validity": {
+        "26": true,
+        "1135": true,
+        "708": true
+      },
+      "map_holdout_horizontal_rmse_m": 5.758760576611112
+    },
+    {
+      "focal_multiplier": 1.0,
+      "principal_x": 1480.0,
+      "principal_y": 1440.0,
+      "metric_baseline_m": 486.19426330875797,
+      "roof_point_26_height_m": 10.7699741232193,
+      "roof_point_1135_height_m": 19.196435329007727,
+      "heldout_ground708_z_m": -0.02802151252717522,
+      "named_point_validity": {
+        "26": true,
+        "1135": true,
+        "708": true
+      },
+      "map_holdout_horizontal_rmse_m": 5.749933994595151
+    },
+    {
+      "focal_multiplier": 1.0,
+      "principal_x": 1460.0,
+      "principal_y": 1420.0,
+      "metric_baseline_m": 486.2174859196599,
+      "roof_point_26_height_m": 10.763435471711773,
+      "roof_point_1135_height_m": 19.184710477806902,
+      "heldout_ground708_z_m": -0.027816393766670444,
+      "named_point_validity": {
+        "26": true,
+        "1135": true,
+        "708": true
+      },
+      "map_holdout_horizontal_rmse_m": 5.763367769406506
+    },
+    {
+      "focal_multiplier": 1.0,
+      "principal_x": 1460.0,
+      "principal_y": 1460.0,
+      "metric_baseline_m": 486.56335566138466,
+      "roof_point_26_height_m": 10.775425298809296,
+      "roof_point_1135_height_m": 19.206271711311047,
+      "heldout_ground708_z_m": -0.028203666538956895,
+      "named_point_validity": {
+        "26": true,
+        "1135": true,
+        "708": true
+      },
+      "map_holdout_horizontal_rmse_m": 5.745312945515403
+    }
+  ],
+  "sensitivity_is_calibrated_uncertainty": false,
+  "height_acceptance": "exploratory visualization point heights only; full building heights/roof meshes need more observations; one ground holdout is not vertical accuracy validation",
+  "source_sha256": {
+    "chronology/aerial/fullframes/A36142.jpg": "42da43eebfa6eae39597ea16d917f900986d80f7c069b909ebbe3563fc074767",
+    "chronology/aerial/fullframes/A36143.jpg": "e8439e24ffd7acbbaf7b5247b2fddbd7a52fd079e3c986481771efe204eaf289",
+    "chronology/sheets/maps/1980_1990_678_11-NE-11A_1989-10-01.zip": "21179cf9bc022c497eb12c9b8b16725e9beefb7012648720e29feb2963c56713"
+  },
+  "manual_labels_sha256": "254dca4fc0dd95088e7a0f9e6af8846a83c49cb90827e0e265439a08662da7c1",
+  "tracks_sha256": "55af21bc665c3b95a26b9a6b1557751498844e97904377734862963f13d91081",
+  "accepted_ground_checks": {
+    "788": true,
+    "1030": true,
+    "74": true,
+    "1187": true,
+    "708": true
+  },
+  "transform_sha256": "7234e5f534456a2cef78618bc63bdc72ad7da5a0a268694f7be02e754f2cdac7"
+}

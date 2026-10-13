@@ -1,0 +1,214 @@
+{
+  "prepared_utc": "2026-10-13T17:40:03.824607+00:00",
+  "scope": "V5 visual inputs only; no model/evidence changes; earlier V4 files unchanged",
+  "source_epoch_note": "Supplementary October photographs illustrate physical setting; they do not assert exact 4 November state. A36143 date discrepancy retained.",
+  "source_terms": [
+    "https://data.gov.hk/en/terms-and-conditions",
+    "https://portal.csdi.gov.hk/csdi-webpage/doc/TNC"
+  ],
+  "records": [
+    {
+      "snapshot": "inputs/historical/A36142.jpg",
+      "original_repository_path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A36142.jpg",
+      "sha256": "42da43eebfa6eae39597ea16d917f900986d80f7c069b909ebbe3563fc074767",
+      "bytes": 876169,
+      "kind": "original_historical_photo",
+      "source_manifest_repository_path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframe_manifest.json",
+      "source_manifest_sha256": "c8f5dbaeec03c4096af7a29f6de0b9300dc0c114b1c892d5210199556a805a99",
+      "frame_id": "A36142",
+      "catalogue_date": "1993-11-02",
+      "metadata_record": {
+        "frame_id": "A36142",
+        "product_id": "A36142",
+        "capture_date": "1993-11-02",
+        "product": "DAP-L0",
+        "format": "JPEG",
+        "source_interface": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "stable_preview_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/productPreview?itemId=DAP&sheetNo=A36142",
+        "download_method": "public OpenData requestQueue and queueStatus",
+        "full_resolution_photogrammetric_scan": false,
+        "download_tier": "300 dpi compressed DAP-L0, not paid high-resolution DAP",
+        "status": "downloaded",
+        "path": "fullframes/A36142.jpg",
+        "bytes": 876169,
+        "sha256": "42da43eebfa6eae39597ea16d917f900986d80f7c069b909ebbe3563fc074767",
+        "retrieved_utc": "2026-10-13T12:35:55.396240+00:00",
+        "width": 3000,
+        "height": 3000,
+        "image_mode": "L",
+        "dpi": [
+          300.0,
+          300.0
+        ]
+      },
+      "provider": "Lands Department, HKSAR Government; CSDI Portal; DATA.GOV.HK",
+      "rights_record": "RIGHTS_AND_PROVENANCE.md; DATA.GOV.HK and CSDI terms with attribution and retained intellectual-property ownership",
+      "transform": "none; byte-exact source; crop only when rendering"
+    },
+    {
+      "snapshot": "inputs/historical/CN4581.jpg",
+      "original_repository_path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN4581.jpg",
+      "sha256": "4510ec691117b2929e1f6da51a49905ec8a7bf992faf220d845910fd74760a83",
+      "bytes": 761048,
+      "kind": "original_historical_photo",
+      "source_manifest_repository_path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframe_manifest.json",
+      "source_manifest_sha256": "c8f5dbaeec03c4096af7a29f6de0b9300dc0c114b1c892d5210199556a805a99",
+      "frame_id": "CN4581",
+      "catalogue_date": "1993-10-08",
+      "metadata_record": {
+        "frame_id": "CN4581",
+        "product_id": "CN04581",
+        "capture_date": "1993-10-08",
+        "product": "DAP-L0",
+        "format": "JPEG",
+        "source_interface": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "stable_preview_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/productPreview?itemId=DAP&sheetNo=CN04581",
+        "download_method": "public OpenData requestQueue and queueStatus",
+        "full_resolution_photogrammetric_scan": false,
+        "download_tier": "300 dpi compressed DAP-L0, not paid high-resolution DAP",
+        "status": "downloaded",
+        "path": "fullframes/CN4581.jpg",
+        "bytes": 761048,
+        "sha256": "4510ec691117b2929e1f6da51a49905ec8a7bf992faf220d845910fd74760a83",
+        "retrieved_utc": "2026-10-13T12:37:48.467441+00:00",
+        "width": 3000,
+        "height": 3000,
+        "image_mode": "RGB",
+        "dpi": [
+          300.0,
+          300.0
+        ]
+      },
+      "provider": "Lands Department, HKSAR Government; CSDI Portal; DATA.GOV.HK",
+      "rights_record": "RIGHTS_AND_PROVENANCE.md; DATA.GOV.HK and CSDI terms with attribution and retained intellectual-property ownership",
+      "transform": "none; byte-exact source; crop only when rendering"
+    },
+    {
+      "snapshot": "inputs/historical/CN4589.jpg",
+      "original_repository_path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN4589.jpg",
+      "sha256": "67a0c8b715686b7f3a342307454cae7fa134cf17c0dfbc8a5babb097d1f24fec",
+      "bytes": 688412,
+      "kind": "original_historical_photo",
+      "source_manifest_repository_path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframe_manifest.json",
+      "source_manifest_sha256": "c8f5dbaeec03c4096af7a29f6de0b9300dc0c114b1c892d5210199556a805a99",
+      "frame_id": "CN4589",
+      "catalogue_date": "1993-10-08",
+      "metadata_record": {
+        "frame_id": "CN4589",
+        "product_id": "CN04589",
+        "capture_date": "1993-10-08",
+        "product": "DAP-L0",
+        "format": "JPEG",
+        "source_interface": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "stable_preview_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/productPreview?itemId=DAP&sheetNo=CN04589",
+        "download_method": "public OpenData requestQueue and queueStatus",
+        "full_resolution_photogrammetric_scan": false,
+        "download_tier": "300 dpi compressed DAP-L0, not paid high-resolution DAP",
+        "status": "downloaded",
+        "path": "fullframes/CN4589.jpg",
+        "bytes": 688412,
+        "sha256": "67a0c8b715686b7f3a342307454cae7fa134cf17c0dfbc8a5babb097d1f24fec",
+        "retrieved_utc": "2026-10-13T12:37:57.151882+00:00",
+        "width": 3000,
+        "height": 3000,
+        "image_mode": "RGB",
+        "dpi": [
+          300.0,
+          300.0
+        ]
+      },
+      "provider": "Lands Department, HKSAR Government; CSDI Portal; DATA.GOV.HK",
+      "rights_record": "RIGHTS_AND_PROVENANCE.md; DATA.GOV.HK and CSDI terms with attribution and retained intellectual-property ownership",
+      "transform": "none; byte-exact source; crop only when rendering"
+    },
+    {
+      "snapshot": "inputs/historical/observed_surface_mesh.ply",
+      "original_repository_path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/observed_surface_mesh.ply",
+      "sha256": "49866bd77fd74a04f8ba18e8a734d05ee169b2ddd9bc7d74b6039800869a8323",
+      "bytes": 17350341,
+      "kind": "accepted_derived_open_surface",
+      "source_manifest_repository_path": "research/checkers-runway13/whitepaper/v4/evidence/reconstruction/block_matching/HANDOFF.json",
+      "source_manifest_sha256": "9f22ab99f964c030608afa44283fe6e92f03f11d30938eb0c0a3a9d5068b9c62",
+      "source_frames": [
+        "A36142",
+        "A36143"
+      ],
+      "catalogue_epoch": "1993-11-02",
+      "frame_date_discrepancy": "A36143 border appears 3.11.93; catalogue gives 2 November; unresolved",
+      "vertices": 155891,
+      "triangles": 225371,
+      "boundary_edges": 86061,
+      "horizontal_crs": "EPSG:2326 diagnostic local map-control transform",
+      "vertical_reference": "fitted local park/road plane, not HKPD or building height above ground",
+      "provider": "Derived from Lands Department, HKSAR Government source photographs and survey maps; original Government/CSDI/DATA.GOV.HK rights retained",
+      "transform": "none; byte-exact accepted mesh; no gap closure, smoothing, capping or extrusion"
+    },
+    {
+      "snapshot": "inputs/historical/manual_stereo_labels.json",
+      "original_repository_path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/manual_stereo_labels.json",
+      "sha256": "254dca4fc0dd95088e7a0f9e6af8846a83c49cb90827e0e265439a08662da7c1",
+      "bytes": 3321,
+      "kind": "accepted_reconstruction_metadata",
+      "source_manifest_repository_path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/manual_stereo_labels.json",
+      "provider": "Original project derived metadata from Lands Department source evidence",
+      "transform": "none; source bytes preserved"
+    },
+    {
+      "snapshot": "inputs/historical/stereo_ground_controls.json",
+      "original_repository_path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/stereo_ground_controls.json",
+      "sha256": "3337245f1865f3573ca6c1bfcc11c45f85b6e4a547c834a56240a08035785903",
+      "bytes": 7255,
+      "kind": "accepted_reconstruction_metadata",
+      "source_manifest_repository_path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/sparse_stereo_report.json",
+      "provider": "Original project derived metadata from Lands Department source evidence",
+      "transform": "none; source bytes preserved"
+    },
+    {
+      "snapshot": "inputs/historical/sparse_stereo_points.csv",
+      "original_repository_path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/sparse_stereo_points.csv",
+      "sha256": "841a89fb4560e2b7c3513f44f5ed836efa5467267482b3d5e980ae40fb025324",
+      "bytes": 301054,
+      "kind": "accepted_reconstruction_metadata",
+      "source_manifest_repository_path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/sparse_stereo_report.json",
+      "provider": "Original project derived metadata from Lands Department source evidence",
+      "transform": "none; source bytes preserved"
+    },
+    {
+      "snapshot": "inputs/historical/aerial_fullframe_manifest.json",
+      "original_repository_path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframe_manifest.json",
+      "sha256": "c8f5dbaeec03c4096af7a29f6de0b9300dc0c114b1c892d5210199556a805a99",
+      "bytes": 43488,
+      "kind": "source_lineage_metadata",
+      "provider": "Original project provenance metadata",
+      "transform": "none"
+    },
+    {
+      "snapshot": "inputs/historical/sparse_stereo_report.json",
+      "original_repository_path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/sparse_stereo_report.json",
+      "sha256": "17c70dac3685c3f04eb9d01026aaf3c74ed32313e70755bb854f9afc58377bc9",
+      "bytes": 9195,
+      "kind": "source_lineage_metadata",
+      "provider": "Original project provenance metadata",
+      "transform": "none"
+    },
+    {
+      "snapshot": "inputs/historical/registration.json",
+      "original_repository_path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/registration.json",
+      "sha256": "5778db43d56cff962f666fcb44208a2dd7f300474c0b83c09addba3933dc2965",
+      "bytes": 3060,
+      "kind": "accepted_control_support_geometry",
+      "provider": "Original project derived map-control metadata from Lands Department evidence",
+      "use": "exact support_polygon_hk1980 used by dense_stereo.py and build_sparse_stereo.py",
+      "transform": "none; source bytes preserved"
+    },
+    {
+      "snapshot": "inputs/historical/landmark_frame_matches.csv",
+      "original_repository_path": "research/checkers-runway13/reconstruction/chronology/aerial/landmark_frame_matches.csv",
+      "sha256": "e50ce772f1001f7d098d4334a82c98f0c0f3ce0ecfa7d47da94474a61eec6d00",
+      "bytes": 431690,
+      "kind": "approximate_acquisition_landmark_metadata",
+      "use": "relative geographic context only; not surveyed runway or landmark coordinates",
+      "transform": "none; original bytes preserved"
+    }
+  ]
+}

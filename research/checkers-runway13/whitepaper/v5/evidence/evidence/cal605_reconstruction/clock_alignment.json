@@ -1,0 +1,34 @@
+{
+  "date": "1993-11-04",
+  "clock_domains": {
+    "DFDR_figures1_2": "arbitrary datum A, common printed time reference",
+    "DFDR_figures3_4": "arbitrary datum B",
+    "CVR_DFDR": "report section1.11.3 says synchronized using audible/recorded events",
+    "ground_wind_printout": "separate internal clock labelled UTC; offset against ATC not established",
+    "NOAA": "UTC report timestamps, station metadata unresolved"
+  },
+  "reported_anchors": [
+    {
+      "event": "aircraft_GPWS_warning",
+      "clock": "ATC",
+      "time": "03:35:15",
+      "source": "CAD1/95 section1.7.11",
+      "physical_timing_error_s": null
+    },
+    {
+      "event": "warning_relative_touchdown",
+      "seconds_before_touchdown": 32,
+      "source": "CAD1/95 section2.4 discussion",
+      "physical_timing_error_s": null
+    }
+  ],
+  "derived_approximate_anchor": {
+    "event": "touchdown",
+    "clock": "ATC",
+    "time": "03:35:47",
+    "method": "03:35:15 + reported32seconds; approximate source-based arithmetic, not calibrated synchronization",
+    "source_offset_to_wind_s": null,
+    "used_for_sample_join": false
+  },
+  "policy": "No lag correlation or identification of a particular ground gust with a flight excursion. No invented clock-offset interval. Timing distinctions remain explicit."
+}

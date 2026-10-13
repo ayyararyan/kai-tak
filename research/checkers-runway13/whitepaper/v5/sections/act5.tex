@@ -1,0 +1,47 @@
+\parthead{V}{The air moves, and the constraints must hold}\label{part:5}
+A wind that stays unchanged over the airport does not keep the same relation to an aircraft turning through it. What begins mostly as a headwind can become a substantial crosswind as the track rotates. The change comes from the geometry of the motion, even before any gust is introduced.
+
+Aerodynamic forces depend on velocity through the air; the runway is fixed to the ground. If $\mathbf w$ is a constant wind velocity, the two are related by
+\begin{equation}
+\underbrace{\dot{\mathbf r}}_{\text{ground velocity}}
+=\underbrace{V\mathbf e_V}_{\text{air velocity}}+\underbrace{\mathbf w}_{\text{wind velocity}}.
+\label{eq:wind}
+\end{equation}
+The horizontal direction of $\dot{\mathbf r}$ is ground track. The horizontal direction of $\mathbf e_V$ is air heading. A runway-aligned track can therefore require the aircraft to point into a crosswind. Equal tracks in two wind conditions need not imply equal headings or ground speeds.
+
+Take the wind scenario's stipulated mean: from $070^\circ$ true at 21 kt. Meteorological bearings name the direction the wind comes from, so forming its velocity requires reversing that direction. The chart-based convention used here converts $135^\circ$ magnetic with $1^\circ50'$ west variation to $133^\circ10'$ true. In forward/right/up runway coordinates, the wind vector is approximately $(-4.877,9.640,0)$ m/s. The original chart's 1990 variation is a scenario convention, not a newly surveyed 1993 runway axis; Appendix~\ref{app:windbound} gives the conversion.
+
+\fig{08_wind}{1}{One steady wind, viewed from two track directions. At the $-47^\circ$ entry track its forward and rightward cross-track components are $-10.376$ and 3.008 m/s; at runway alignment they are $-4.877$ and 9.640 m/s. The aircraft/track orientations change while the imposed wind stays fixed. The wind is from $070^\circ$ true at 21 kt, using the chart-based runway bearing $133^\circ10'$. Source: frozen wind input and trigonometric projection.}{fig:wind}
+
+At entry, the headwind component is about 10.38 m/s and the rightward cross-track component only 3.01 m/s. At runway alignment, the headwind component has fallen to 4.88 m/s while the rightward cross-track component is 9.64 m/s. A single wind vector has acquired a different role in the landing. A gust field would introduce further changes; this calculation isolates the directional geometry of steady wind.
+
+\FloatBarrier
+\subsection*{A second complete construction}
+The wind-conditioned path is optimized afresh, holding the synthetic entry position, reference corridor, aircraft assumptions, objective and braking law fixed. It crosses the threshold after 41.223 s and touches down after 45.365 s, at station 302.114 m. Touchdown ground speed is 140.909 kt; equivalent airspeed is 151.558 kt. The former determines the ground distance in the stopping law, while air-relative motion determines the aerodynamic demands.
+
+The full stop comes at 96.644 s and station 2,233.231 m, leaving 552.769 m of runway. Like the calm candidate, the path contains a brief shallow rise permitted by the accepted constraints. The two constructions can now be compared along the same runway scale. Their spatial paths and time profiles appear together in Appendix~\ref{app:views}.
+
+\fig{05_runway}{1}{Where the available runway goes. Each row uses the same 2,786 m scale, separating touchdown station, two-second delay travel, braking at $0.15g$, and remaining runway. The calm case leaves 254.68 m; the separately optimized steady-wind case leaves 552.77 m. Both wind and the optimized airborne path change, so the difference is not a causal wind effect. Sources: frozen scenario outcomes and equation~\eqref{eq:stop}.}{fig:runway}
+
+The difference in remaining runway is 298.09 m. Of that, 11.38 m comes from the earlier touchdown and 286.71 m from the reduced ground travel. This is an algebraic decomposition of two separately optimized outcomes: it does not isolate the effect of changing wind alone. A controlled comparison would first have to decide what stays fixed, such as the path, endpoint airspeed or control policy. Here the question is whether each declared case admits a complete construction under the common modelling rules.
+
+\subsection*{The narrow failure a plot can hide}
+There is one more difficulty in answering that question. A numerical optimizer usually examines constraints at selected times. Between two accepted samples, a margin could briefly become negative. A curve can look smooth and a plot can look feasible while missing the very interval that matters.
+
+\fig{09_certificate}{1}{Why checking samples and checking a whole interval answer different questions. The explanatory curve illustrates how positive sample values can miss a violation between them; interval enclosures cover the values throughout each time span. This pedagogical construction is separate from the two certified landing references. The actual calm and wind checks cover 2,502 and 376 closed intervals respectively, including both sides of the approach--flare join.}{fig:certificate}
+
+Interval arithmetic replaces a single value at a time point with an enclosure over a closed span of time. For these fixed polynomial references, the checker carries those enclosures through the inverse dynamics, forces and control rates, rounding outwards so arithmetic rounding does not shrink the claimed range. If an enclosure is too wide to settle a constraint, the time interval is subdivided. The accepted intervals must cover the complete approach and flare, with no gaps. Endpoint identities and the exact ground rule are checked separately.
+
+The calm reference has a certified normalized margin of at least $0.0397$, using 2,502 accepted intervals. The separate wind certificate establishes at least $0.1507934696816132$, using 376 intervals. Each binds its own exact real-decimal candidate and the specified reduced model. The different interval counts reflect the candidates and numerical enclosures, not a ranking of safety or proof strength. Appendix~\ref{app:windbound} records the mpmath implementation and reproduction procedure.
+
+Feasibility supplies a lower bound on the best attainable score in each family. Necessary restrictions give upper bounds:
+\[
+\begin{gathered}
+0.0397\leq\eta^*_{\rm calm}<0.1559772,\\
+0.1507934696816132\leq\eta^*_{\rm wind}
+\leq\frac{66656817}{307536544}\approx0.2167443782.
+\end{gathered}
+\]
+These brackets concern different wind-conditioned feasible sets. The wind upper bound exceeds its certified lower bound by about 0.06595091. Neither bracket identifies the optimum or establishes useful near-optimality; the upper bounds relax requirements that a complete flight still has to meet. Their derivations appear in Appendices~\ref{app:bounds} and~\ref{app:windbound}.
+
+The declared constraints hold throughout the two constructed landings, including intervals too small to read from a plotted line. An actual landing brings additional states, measurements and decisions into the problem. The historical flight record preserves some of them.

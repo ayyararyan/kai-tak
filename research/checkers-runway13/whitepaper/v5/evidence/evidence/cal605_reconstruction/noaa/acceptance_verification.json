@@ -1,0 +1,25 @@
+{
+  "verified_utc": "2026-10-13T13:29:10.967741+00:00",
+  "checks": {
+    "row_count": true,
+    "all_source_rows_preserved": true,
+    "event_date_exact_filter": true,
+    "csv_output_hashes": true,
+    "no_missing_wind_coerced_zero": true,
+    "no_missing_gust_coerced_zero": true,
+    "absent_sealevel_and_station_pressure": true,
+    "event_03_04_gusts": true,
+    "12_unittests_pass": true,
+    "pinned_source_identity_verified": true,
+    "csv_bytes_unchanged_after_integrity_repair": true
+  },
+  "checks_passed": 11,
+  "checks_total": 11,
+  "artifact_hashes": {
+    "decode_noaa.py": "cd273d6ee666a9f5f9d9f467840e2d87d1ab8427b46b7525f56209cd6ab87401",
+    "test_decode_noaa.py": "73388fea6a38718aa952cb53dc18e65e424e17297622e7c00c30dd4fb4e95331",
+    "README.md": "64c308501364f3d9d095cebfe4612cd927d4174c96d1baf0f9279cccf549dd81",
+    "verification.json": "510a6481314fb1a107001bcd0294aecc2fd7ba16ce13131715603b6566ae7ac4",
+    "test_results.txt": "c6601aeb8d2ab51175e69e6bf8fd4cdbf72b670be36a498eaffca369d7576e49"
+  }
+}

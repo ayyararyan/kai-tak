@@ -1,0 +1,66 @@
+{
+  "figure": "12_rollout",
+  "inputs": [
+    {
+      "path": "evidence/evidence/cal605_reconstruction/analysis.json",
+      "sha256": "7e957b6c8cd42493f6809a49b7be917c147a1e147ecadeef98a64762259b2c42"
+    }
+  ],
+  "meaning": "Runway-distance and speed landmarks with conditional stopping requirements",
+  "master_inches": [
+    7.1,
+    4.45
+  ],
+  "screen_dpi": 190,
+  "presentation_dpi": 600,
+  "pdf_sha256": "83c642f1e53159bfa1c4fa758d12590eaf5cb06be67707f2ec6c894c50bcf7e0",
+  "evidence_category": "report-stated rounded landmarks and conditional derived quantities",
+  "plotted_landmarks": [
+    {
+      "event": "touchdown",
+      "remaining_m": 2300,
+      "speed_kt": 160,
+      "required_decel_no_delay_g": 0.15018910221182388,
+      "required_decel_with_2s_delay_g": 0.1617675985401883,
+      "max_delay_at_0p3g_s": 13.953768827462408,
+      "source": "CAD narrative \u00a7\u00a72.2.5\u20132.2.7"
+    },
+    {
+      "event": "roll_restored",
+      "remaining_m": 1365,
+      "speed_kt": 139,
+      "required_decel_no_delay_g": 0.1909955466122852,
+      "required_decel_with_2s_delay_g": 0.21334880514317547,
+      "max_delay_at_0p3g_s": 6.935892546617961,
+      "source": "CAD narrative \u00a7\u00a72.2.5\u20132.2.7"
+    },
+    {
+      "event": "autobrake_call",
+      "remaining_m": 1080,
+      "speed_kt": 133,
+      "required_decel_no_delay_g": 0.22100689260551906,
+      "required_decel_with_2s_delay_g": 0.2530726561746056,
+      "max_delay_at_0p3g_s": 4.156249175175274,
+      "source": "CAD narrative \u00a7\u00a72.2.5\u20132.2.7"
+    },
+    {
+      "event": "reverse_selected",
+      "remaining_m": 880,
+      "speed_kt": 129,
+      "required_decel_no_delay_g": 0.25516613790775977,
+      "required_decel_with_2s_delay_g": 0.3004873736858828,
+      "max_delay_at_0p3g_s": 1.981706697532342,
+      "source": "CAD narrative \u00a7\u00a72.2.5\u20132.2.7"
+    }
+  ],
+  "speed_conversion_mps_per_kt": 0.5144444444444445,
+  "gravity_mps2": 9.80665,
+  "additional_delay_cases_s": [
+    0,
+    2
+  ],
+  "formula": "a_req/g = v^2 / [2(R-v*tau)g], R > v*tau",
+  "distance_scale": "common linear metre scale for all four rows",
+  "event_axis": "categorical rows in source narrative order; no time-spacing inference",
+  "connectors": "within-row comparison of assumed delays only; no between-event trace"
+}

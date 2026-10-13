@@ -1,0 +1,87 @@
+{
+  "figure": "07_stereo",
+  "inputs": [
+    {
+      "path": "inputs/A36143.jpg",
+      "sha256": "e8439e24ffd7acbbaf7b5247b2fddbd7a52fd079e3c986481771efe204eaf289"
+    },
+    {
+      "path": "inputs/historical/A36142.jpg",
+      "sha256": "42da43eebfa6eae39597ea16d917f900986d80f7c069b909ebbe3563fc074767"
+    },
+    {
+      "path": "inputs/historical/observed_surface_mesh.ply",
+      "sha256": "49866bd77fd74a04f8ba18e8a734d05ee169b2ddd9bc7d74b6039800869a8323"
+    },
+    {
+      "path": "inputs/historical/manual_stereo_labels.json",
+      "sha256": "254dca4fc0dd95088e7a0f9e6af8846a83c49cb90827e0e265439a08662da7c1"
+    },
+    {
+      "path": "inputs/historical/sparse_stereo_report.json",
+      "sha256": "17c70dac3685c3f04eb9d01026aaf3c74ed32313e70755bb854f9afc58377bc9"
+    },
+    {
+      "path": "inputs/historical/sparse_stereo_points.csv",
+      "sha256": "841a89fb4560e2b7c3513f44f5ed836efa5467267482b3d5e980ae40fb025324"
+    },
+    {
+      "path": "inputs/historical/registration.json",
+      "sha256": "5778db43d56cff962f666fcb44208a2dd7f300474c0b83c09addba3933dc2965"
+    },
+    {
+      "path": "inputs/11-NE-11A_1989-10_core.png",
+      "sha256": "7daf2f8720a78b8ded383ae4f0ec811fa18eda1140c1e0248802d94c3b984259"
+    },
+    {
+      "path": "inputs/historical_faces.geojson",
+      "sha256": "f866def637ad2c3495e9a9463a6abfc1b04cbf600b8b52b6ed5ee503bd749ef7"
+    },
+    {
+      "path": "evidence/stereo_plot_data.csv",
+      "sha256": "020e06d1ca36ce849f6935ca63ad7f9281d07d3c0724b246ee844076f0fb8b9b"
+    }
+  ],
+  "meaning": "Matched source photographs, an actual open stereo surface and a dated map-form identity",
+  "master_inches": [
+    7.1,
+    7.0
+  ],
+  "screen_dpi": 190,
+  "presentation_dpi": 600,
+  "pdf_sha256": "0d1ba5b9bd9e8b0514cd9672a623e853538c116677c36e5dbe0456a62b06fd6b",
+  "mesh_vertices": 155891,
+  "mesh_faces": 225371,
+  "surface_operations": "Orthonormal true-scale projection; original triangle topology and pixel luminance; normal-based mild lighting only; no remeshing, gap filling, capping, extrusion or vertical exaggeration.",
+  "projection": {
+    "azimuth_deg": -33,
+    "elevation_deg": 32,
+    "equal_metric_scale_xyz": true,
+    "camera_up_z": 0.848048096156426,
+    "camera_above_scene": true
+  },
+  "crop_pixels": {
+    "A36142": [
+      2010,
+      1300,
+      2530,
+      1850
+    ],
+    "A36143": [
+      2010,
+      560,
+      2530,
+      1110
+    ]
+  },
+  "vertical_reference": "Fitted local park/road plane, not HKPD and not height above local building ground",
+  "named_heights": {
+    "26": 10.769431630259533,
+    "1135": 19.195490912459263
+  },
+  "dense_counts": {
+    "retained": 171307,
+    "inside_control_hull": 3780
+  },
+  "map_fragment": "October 1989 survey sheet 11-NE-11A; geographic identity lead, not proved unchanged 1993 building"
+}

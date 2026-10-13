@@ -1,0 +1,15 @@
+{
+  "verified_utc": "2026-10-13T17:39:20.171776+00:00",
+  "command": "PYTHONPATH=evidence python -m pytest evidence/model/test_model.py evidence/model/test_review_solver.py evidence/model/test_review_trajectory.py evidence/counterfactual/test_counterfactual.py -q -p no:cacheprovider --basetemp=qa/science_pytest_tmp",
+  "result": "89 passed in 2.43s",
+  "exit_code": 0,
+  "fresh_run": true,
+  "scope": "portable frozen model and counterfactual regression tests; no optimization run; tests with search functions mock the numerical solver and use pytest temporary paths",
+  "test_file_sha256": {
+    "evidence/approximation/test_explicit_reference.py": "0be83cc35aadcfc580dedabbfb0e99d53d3992115bb58270ddb8774db3432d73",
+    "evidence/model/test_model.py": "e10285f5d0702b1d7f13cf8446a2f9d78742b12e3c5894b3fd5c2f4efb695786",
+    "evidence/model/test_review_solver.py": "c730c734a50c734ca20fa2139ad26e71cb1533764a5a34748869e27aec79a80c",
+    "evidence/model/test_review_trajectory.py": "b116ae6250105cc889a1bb57e1f7c4efedb33605773181665442df50ae2013f6",
+    "evidence/counterfactual/test_counterfactual.py": "66589ebeae8ff8d64fafa91499a7ab4df91be215a931929d16b4a3967e5ebed7"
+  }
+}

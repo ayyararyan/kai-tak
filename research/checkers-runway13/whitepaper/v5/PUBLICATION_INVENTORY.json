@@ -1,0 +1,2990 @@
+{
+  "authorized_utc": "2026-10-13T18:26:23.597546+00:00",
+  "authorization": "Aryan: push version to github",
+  "remote": "https://github.com/ayyararyan/kai-tak",
+  "branch": "main",
+  "source_snapshot": "Accepted V5 package278members; PDF328f848d\u2026; no manuscript rebuild",
+  "files": [
+    {
+      "path": "CLAIMS_AND_EVIDENCE.csv",
+      "lane": "git and source ZIP",
+      "bytes": 19139,
+      "original_sha256": "b5f99b64c97e4a74e23569022320d6004ce7348f3f760f5c324d4cbb0475e8b0",
+      "public_sha256": "b5f99b64c97e4a74e23569022320d6004ce7348f3f760f5c324d4cbb0475e8b0"
+    },
+    {
+      "path": "EDITORIAL_ASSESSMENT.md",
+      "lane": "git and source ZIP",
+      "bytes": 7085,
+      "original_sha256": "652ed5468898613a8ad29719644a2fec2561f75aea87c6d7f929c09e7ed34084",
+      "public_sha256": "652ed5468898613a8ad29719644a2fec2561f75aea87c6d7f929c09e7ed34084"
+    },
+    {
+      "path": "FIGURE_REDESIGN.md",
+      "lane": "git and source ZIP",
+      "bytes": 9814,
+      "original_sha256": "5105a6d32c41f2efd16846fa860a733bcddf685b51b1ba996c7353bac39ed46b",
+      "public_sha256": "5105a6d32c41f2efd16846fa860a733bcddf685b51b1ba996c7353bac39ed46b"
+    },
+    {
+      "path": "FORMAT_PROVENANCE.md",
+      "lane": "git and source ZIP",
+      "bytes": 1251,
+      "original_sha256": "b82cd4522aabc41807e1c92231ff5ffa6aaa5c34849b22b3582f3ec59311b145",
+      "public_sha256": "b82cd4522aabc41807e1c92231ff5ffa6aaa5c34849b22b3582f3ec59311b145"
+    },
+    {
+      "path": "README.md",
+      "lane": "git and source ZIP",
+      "bytes": 3825,
+      "original_sha256": "638d3c195077c67e1ca3a9f0ac95c2bdd9b2243dbae2b06955d666dae0e0d9c8",
+      "public_sha256": "638d3c195077c67e1ca3a9f0ac95c2bdd9b2243dbae2b06955d666dae0e0d9c8"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "lane": "git and source ZIP",
+      "bytes": 4667,
+      "original_sha256": "214372f598f78e573d618a39037897e97da906767aa0b71f0fb5b7279aedbe07",
+      "public_sha256": "214372f598f78e573d618a39037897e97da906767aa0b71f0fb5b7279aedbe07"
+    },
+    {
+      "path": "REQUIREMENTS_TRACEABILITY.md",
+      "lane": "git and source ZIP",
+      "bytes": 4264,
+      "original_sha256": "a071b07d83766cda847f35391c2de9d609992480fdaa751c68e65dab9e8d07c0",
+      "public_sha256": "a071b07d83766cda847f35391c2de9d609992480fdaa751c68e65dab9e8d07c0"
+    },
+    {
+      "path": "RFS.cls",
+      "lane": "git and source ZIP",
+      "bytes": 61073,
+      "original_sha256": "eeee1e58bcc34e9edb64c32162187836f5cc54da9f9ca7651073b954688eddf2",
+      "public_sha256": "eeee1e58bcc34e9edb64c32162187836f5cc54da9f9ca7651073b954688eddf2"
+    },
+    {
+      "path": "RIGHTS_AND_PROVENANCE.md",
+      "lane": "git and source ZIP",
+      "bytes": 4275,
+      "original_sha256": "9e4eca88b4e4c81984cd2999a93ed788056cd4b72e22dbb9c16df58a8608c9b7",
+      "public_sha256": "9e4eca88b4e4c81984cd2999a93ed788056cd4b72e22dbb9c16df58a8608c9b7"
+    },
+    {
+      "path": "SCIENTIFIC_VERIFICATION.md",
+      "lane": "git and source ZIP",
+      "bytes": 15389,
+      "original_sha256": "b24df858b8ef2114408852a483510da145f1c2f36c34dfcf5e32b1ce7081231d",
+      "public_sha256": "b24df858b8ef2114408852a483510da145f1c2f36c34dfcf5e32b1ce7081231d"
+    },
+    {
+      "path": "SOURCE_MANIFEST.json",
+      "lane": "git and source ZIP",
+      "bytes": 16942,
+      "original_sha256": "b139f1bcaa50ec44a4d7f91b50a559dd671beb6817d6b08d16519e85dd06a27e",
+      "public_sha256": "b139f1bcaa50ec44a4d7f91b50a559dd671beb6817d6b08d16519e85dd06a27e"
+    },
+    {
+      "path": "SPEC.md",
+      "lane": "git and source ZIP",
+      "bytes": 4963,
+      "original_sha256": "0ef59fd2a83097e1ffd40b6e470326361a89eab962fae0f216ea4a9e675f234e",
+      "public_sha256": "0ef59fd2a83097e1ffd40b6e470326361a89eab962fae0f216ea4a9e675f234e"
+    },
+    {
+      "path": "STATE.md",
+      "lane": "git and source ZIP",
+      "bytes": 4353,
+      "original_sha256": "e36aead8d2f6fe8d9710a4b20eca561c74aedf9bb07cc98bc004c1702e00fb5c",
+      "public_sha256": "ea542a3eaa14e630a8a17576efcd944a05be6cf2f973b89c40abb160f5534264"
+    },
+    {
+      "path": "VERIFICATION.md",
+      "lane": "git and source ZIP",
+      "bytes": 5996,
+      "original_sha256": "2f2bf96d89494913b6e0701f8222efabe4651a36e66914c2a434916c23fa05be",
+      "public_sha256": "2f2bf96d89494913b6e0701f8222efabe4651a36e66914c2a434916c23fa05be"
+    },
+    {
+      "path": "VERSION_CHANGES.md",
+      "lane": "git and source ZIP",
+      "bytes": 4166,
+      "original_sha256": "d9ce4c159d17fd50b76d9d0222bc6fbf8648ce59bc6c1b1a5fb71148f497dd67",
+      "public_sha256": "d9ce4c159d17fd50b76d9d0222bc6fbf8648ce59bc6c1b1a5fb71148f497dd67"
+    },
+    {
+      "path": "abstract.md",
+      "lane": "git and source ZIP",
+      "bytes": 1381,
+      "original_sha256": "7f497be1480ba033fbc8f5cc6b5b182bc2e0314d1a139b0a4ce826b7625f6dc8",
+      "public_sha256": "7f497be1480ba033fbc8f5cc6b5b182bc2e0314d1a139b0a4ce826b7625f6dc8"
+    },
+    {
+      "path": "appendices.tex",
+      "lane": "git and source ZIP",
+      "bytes": 28395,
+      "original_sha256": "c9b43829458ac6b3ed1daed17c0b3d638176ab6e34c38ccd993a537e53a15897",
+      "public_sha256": "c9b43829458ac6b3ed1daed17c0b3d638176ab6e34c38ccd993a537e53a15897"
+    },
+    {
+      "path": "build.py",
+      "lane": "git and source ZIP",
+      "bytes": 2111,
+      "original_sha256": "aa200a652788c9e58f484c99c3f9bf2cd8c8f42b024d0a4c86ce8401cfee3ab4",
+      "public_sha256": "aa200a652788c9e58f484c99c3f9bf2cd8c8f42b024d0a4c86ce8401cfee3ab4"
+    },
+    {
+      "path": "check_pdf.py",
+      "lane": "git and source ZIP",
+      "bytes": 3738,
+      "original_sha256": "4a965fba3cbf7aee909ce367b77a111c9e8d6685d8a8735f29d5cc489086d1ab",
+      "public_sha256": "4a965fba3cbf7aee909ce367b77a111c9e8d6685d8a8735f29d5cc489086d1ab"
+    },
+    {
+      "path": "checkers-with-runway-13-white-paper-v5.pdf",
+      "lane": "git and source ZIP",
+      "bytes": 1481129,
+      "original_sha256": "328f848d805df1e5bac5fd6aff6f28363112bea3acd9a5fcb71c33ec16842939",
+      "public_sha256": "328f848d805df1e5bac5fd6aff6f28363112bea3acd9a5fcb71c33ec16842939"
+    },
+    {
+      "path": "coefficients.tex",
+      "lane": "git and source ZIP",
+      "bytes": 2566,
+      "original_sha256": "781551603dcd60260217c22d1285db95d9f45a8019ade3c9adc218e92d77fef0",
+      "public_sha256": "781551603dcd60260217c22d1285db95d9f45a8019ade3c9adc218e92d77fef0"
+    },
+    {
+      "path": "crop.cfg",
+      "lane": "git and source ZIP",
+      "bytes": 3109,
+      "original_sha256": "af36c5069ca200b440f1c4a8a820020287eb544aa3b29a4bb00e915469733a2f",
+      "public_sha256": "af36c5069ca200b440f1c4a8a820020287eb544aa3b29a4bb00e915469733a2f"
+    },
+    {
+      "path": "crop.sty",
+      "lane": "git and source ZIP",
+      "bytes": 17627,
+      "original_sha256": "c6759bb8261ca2ce85982f87b1f7a7142f84cc0782cf480a525a914abc49e424",
+      "public_sha256": "c6759bb8261ca2ce85982f87b1f7a7142f84cc0782cf480a525a914abc49e424"
+    },
+    {
+      "path": "editorial/AUTHORIZED_REQUEST.md",
+      "lane": "git and source ZIP",
+      "bytes": 32684,
+      "original_sha256": "eb0bdf3ea8abb10e47f48e4cb54f42c1667d8fe9d520a639a6a0387bd5d5bdc3",
+      "public_sha256": "eb0bdf3ea8abb10e47f48e4cb54f42c1667d8fe9d520a639a6a0387bd5d5bdc3"
+    },
+    {
+      "path": "editorial/BEFORE_AFTER.md",
+      "lane": "git and source ZIP",
+      "bytes": 11310,
+      "original_sha256": "017607df62b196c96043f52f45cf679fc1bd9f0d708e0aa45332be4351747f1c",
+      "public_sha256": "017607df62b196c96043f52f45cf679fc1bd9f0d708e0aa45332be4351747f1c"
+    },
+    {
+      "path": "editorial/CAVEAT_AUDIT.csv",
+      "lane": "git and source ZIP",
+      "bytes": 125488,
+      "original_sha256": "d336348a90332c93480c8ec27cae685da2b9d0bcafcb7ae3c63276e8bd9d2b4d",
+      "public_sha256": "d336348a90332c93480c8ec27cae685da2b9d0bcafcb7ae3c63276e8bd9d2b4d"
+    },
+    {
+      "path": "editorial/DIAGNOSIS.md",
+      "lane": "git and source ZIP",
+      "bytes": 10265,
+      "original_sha256": "582f8a8d4372bc2772ccc75e1d23f272f6e5ba32d5d0ffe8781748bca7588fd6",
+      "public_sha256": "582f8a8d4372bc2772ccc75e1d23f272f6e5ba32d5d0ffe8781748bca7588fd6"
+    },
+    {
+      "path": "editorial/FIGURE_STORYBOARD.md",
+      "lane": "git and source ZIP",
+      "bytes": 10002,
+      "original_sha256": "cfe28a57fd4558cc5655f11174eb7240516162620ec01a57cfdfcccd61ba4d1e",
+      "public_sha256": "cfe28a57fd4558cc5655f11174eb7240516162620ec01a57cfdfcccd61ba4d1e"
+    },
+    {
+      "path": "editorial/FINAL_INDEPENDENT_REVIEW.md",
+      "lane": "git and source ZIP",
+      "bytes": 13181,
+      "original_sha256": "29d60b0b74d418f42f135e7c08b29febc4b9c378cc6381a6f82bf5b8f34d7984",
+      "public_sha256": "29d60b0b74d418f42f135e7c08b29febc4b9c378cc6381a6f82bf5b8f34d7984"
+    },
+    {
+      "path": "editorial/HISTORICAL_VISUAL_PROVENANCE.md",
+      "lane": "git and source ZIP",
+      "bytes": 4860,
+      "original_sha256": "4dc9ef1a422df3a2d565b3c10dbb36d4e4d45307b16adeddaa4877be114df09a",
+      "public_sha256": "4dc9ef1a422df3a2d565b3c10dbb36d4e4d45307b16adeddaa4877be114df09a"
+    },
+    {
+      "path": "editorial/NARRATIVE_MAP.md",
+      "lane": "git and source ZIP",
+      "bytes": 11264,
+      "original_sha256": "9899b2624b494e2d29064ccd9c3858dde55cd6ecaeb725ed09a57fd9526d1dea",
+      "public_sha256": "9899b2624b494e2d29064ccd9c3858dde55cd6ecaeb725ed09a57fd9526d1dea"
+    },
+    {
+      "path": "editorial/OPENING_ALTERNATIVES.md",
+      "lane": "git and source ZIP",
+      "bytes": 5225,
+      "original_sha256": "f8a7ce6f9eba7ad2e72c5cb11e6d3851c93925da6a9460e202865ddba0ef6ff3",
+      "public_sha256": "f8a7ce6f9eba7ad2e72c5cb11e6d3851c93925da6a9460e202865ddba0ef6ff3"
+    },
+    {
+      "path": "editorial/SCIENTIFIC_CLAIM_MAP.md",
+      "lane": "git and source ZIP",
+      "bytes": 16614,
+      "original_sha256": "74cf661c0dc895f8cc5f1a8f8e2d842ce5e7b08100a3106f22e17bfac761fabf",
+      "public_sha256": "74cf661c0dc895f8cc5f1a8f8e2d842ce5e7b08100a3106f22e17bfac761fabf"
+    },
+    {
+      "path": "editorial/V4_BASELINE.json",
+      "lane": "git and source ZIP",
+      "bytes": 25937,
+      "original_sha256": "538b620257ca8be3ab6af0971923e1ecc98dee4597ec75a7a702361e475b60c7",
+      "public_sha256": "538b620257ca8be3ab6af0971923e1ecc98dee4597ec75a7a702361e475b60c7"
+    },
+    {
+      "path": "editorial/V4_CLAIMS_AND_EVIDENCE.csv",
+      "lane": "git and source ZIP",
+      "bytes": 13418,
+      "original_sha256": "e968434dbcd9769f7624917a49f234dd66624c19a9dee70fbe147f619494b6af",
+      "public_sha256": "e968434dbcd9769f7624917a49f234dd66624c19a9dee70fbe147f619494b6af"
+    },
+    {
+      "path": "editorial/VISUAL_DIAGNOSIS.md",
+      "lane": "git and source ZIP",
+      "bytes": 8774,
+      "original_sha256": "2576eee2c4787fc0238ed41dd14c61ca8c8433c29e37fc83adfef0ca45fc0a45",
+      "public_sha256": "2576eee2c4787fc0238ed41dd14c61ca8c8433c29e37fc83adfef0ca45fc0a45"
+    },
+    {
+      "path": "editorial/VISUAL_INPUT_INVENTORY.json",
+      "lane": "git and source ZIP",
+      "bytes": 10037,
+      "original_sha256": "acc20f6ebd0c719effc1f95eb110c8f7846f6b305792a9160bf586f39cab366b",
+      "public_sha256": "32df29a2826672d8b54472e8a7972c22ba747ed84893ce30e7f4f8ebeb2c271a"
+    },
+    {
+      "path": "evidence/MODEL_EQUATIONS.md",
+      "lane": "git and source ZIP",
+      "bytes": 5646,
+      "original_sha256": "8c749d4b22505c91f1e0b6e9a72f17966c53d5d3565f0573aabe0851d0a1beac",
+      "public_sha256": "8c749d4b22505c91f1e0b6e9a72f17966c53d5d3565f0573aabe0851d0a1beac"
+    },
+    {
+      "path": "evidence/MODEL_IMPLEMENTATION_SPEC.md",
+      "lane": "git and source ZIP",
+      "bytes": 8304,
+      "original_sha256": "3d8a9ce242783e357317beca0470044c00d4f62c74084cd1ffa70472815a8ceb",
+      "public_sha256": "3d8a9ce242783e357317beca0470044c00d4f62c74084cd1ffa70472815a8ceb"
+    },
+    {
+      "path": "evidence/MODEL_VALIDATION_REPORT.md",
+      "lane": "git and source ZIP",
+      "bytes": 5853,
+      "original_sha256": "5ac1fa68810cec397d013875d534350bbf8f28d08eb0ed1d49912d253030e426",
+      "public_sha256": "5ac1fa68810cec397d013875d534350bbf8f28d08eb0ed1d49912d253030e426"
+    },
+    {
+      "path": "evidence/PROJECT_STATE.md",
+      "lane": "git and source ZIP",
+      "bytes": 47131,
+      "original_sha256": "16ba315669dba824283eb312927a91a231e0da416a9d3492a89c9f877cd11b5d",
+      "public_sha256": "16ba315669dba824283eb312927a91a231e0da416a9d3492a89c9f877cd11b5d"
+    },
+    {
+      "path": "evidence/analytical/coupled/RESULTS.md",
+      "lane": "git and source ZIP",
+      "bytes": 10443,
+      "original_sha256": "386695fa71afc900113f123e7204966a64dfd43eb2db0faed4fb3577c30554fa",
+      "public_sha256": "386695fa71afc900113f123e7204966a64dfd43eb2db0faed4fb3577c30554fa"
+    },
+    {
+      "path": "evidence/analytical/coupled/candidate_search.json",
+      "lane": "git and source ZIP",
+      "bytes": 6706,
+      "original_sha256": "b7b0df206960d708192f16f75b35c407dea165f0a79e9346c0b3897d196c171e",
+      "public_sha256": "b7b0df206960d708192f16f75b35c407dea165f0a79e9346c0b3897d196c171e"
+    },
+    {
+      "path": "evidence/analytical/coupled/certify_candidate.py",
+      "lane": "git and source ZIP",
+      "bytes": 8593,
+      "original_sha256": "028eb9c2b39041793ff8d8973abd9e92682325e628ea9da375dc1361b963777f",
+      "public_sha256": "028eb9c2b39041793ff8d8973abd9e92682325e628ea9da375dc1361b963777f"
+    },
+    {
+      "path": "evidence/analytical/coupled/continuous_certificate_refined.json",
+      "lane": "git and source ZIP",
+      "bytes": 202790,
+      "original_sha256": "774f34ad182a5015eeed799c910cde01eb6b297c1b4e6c4a119582b0d83db973",
+      "public_sha256": "774f34ad182a5015eeed799c910cde01eb6b297c1b4e6c4a119582b0d83db973"
+    },
+    {
+      "path": "evidence/analytical/coupled/existence_and_bounds.py",
+      "lane": "git and source ZIP",
+      "bytes": 3063,
+      "original_sha256": "2134b6ce05a12b37d3edb731f4d91650926ee667be0a28999a7a2d5a9e52a3a9",
+      "public_sha256": "2134b6ce05a12b37d3edb731f4d91650926ee667be0a28999a7a2d5a9e52a3a9"
+    },
+    {
+      "path": "evidence/analytical/coupled/existence_bounds.json",
+      "lane": "git and source ZIP",
+      "bytes": 851,
+      "original_sha256": "3c0887817a4bb387d6fd4a07f8fb5d12f1527d9f713a8a79b3cea73a2a5e9106",
+      "public_sha256": "3c0887817a4bb387d6fd4a07f8fb5d12f1527d9f713a8a79b3cea73a2a5e9106"
+    },
+    {
+      "path": "evidence/analytical/coupled/global_exclusion_attempt.py",
+      "lane": "git and source ZIP",
+      "bytes": 3625,
+      "original_sha256": "4c42e38a5e1b2ef2b83b0755e20a34769521b02debd0f5ab512fb715262d4190",
+      "public_sha256": "4c42e38a5e1b2ef2b83b0755e20a34769521b02debd0f5ab512fb715262d4190"
+    },
+    {
+      "path": "evidence/analytical/coupled/solve_coupled.py",
+      "lane": "git and source ZIP",
+      "bytes": 5270,
+      "original_sha256": "618346126b42cad2b92fb2cf4019ec004db5866439790a41d4117af5d68510e9",
+      "public_sha256": "618346126b42cad2b92fb2cf4019ec004db5866439790a41d4117af5d68510e9"
+    },
+    {
+      "path": "evidence/analytical/coupled/verify_delivery.py",
+      "lane": "git and source ZIP",
+      "bytes": 5829,
+      "original_sha256": "5ca8236697bfb8ebf6cc256318213a05d2485e93cf44fc95b98e6885524eff92",
+      "public_sha256": "5ca8236697bfb8ebf6cc256318213a05d2485e93cf44fc95b98e6885524eff92"
+    },
+    {
+      "path": "evidence/analytical/verify_finite_roll_position.py",
+      "lane": "git and source ZIP",
+      "bytes": 8424,
+      "original_sha256": "8e96dacb1b8589025e8c8927eb1c40f9b92de3044f61624b736948caab08eec8",
+      "public_sha256": "8e96dacb1b8589025e8c8927eb1c40f9b92de3044f61624b736948caab08eec8"
+    },
+    {
+      "path": "evidence/analytical/verify_full_landing_analysis.py",
+      "lane": "git and source ZIP",
+      "bytes": 10554,
+      "original_sha256": "fbe4067189ab78a6f1f6d4c4e8a4ac7d639dbe10c43c550d1bb37ba794202f90",
+      "public_sha256": "fbe4067189ab78a6f1f6d4c4e8a4ac7d639dbe10c43c550d1bb37ba794202f90"
+    },
+    {
+      "path": "evidence/analytical/verify_scs.py",
+      "lane": "git and source ZIP",
+      "bytes": 6886,
+      "original_sha256": "3437e4a364585b0397f4f7a21cc2595b503ce4f3629171608ad5078f4df30340",
+      "public_sha256": "3437e4a364585b0397f4f7a21cc2595b503ce4f3629171608ad5078f4df30340"
+    },
+    {
+      "path": "evidence/approximation/CLOSED_FORM_AND_BOUNDS.md",
+      "lane": "git and source ZIP",
+      "bytes": 9984,
+      "original_sha256": "c9905b322a0f674e48a8f3461642648496a94ff57f6cb77eda7416af6bd16c3c",
+      "public_sha256": "c9905b322a0f674e48a8f3461642648496a94ff57f6cb77eda7416af6bd16c3c"
+    },
+    {
+      "path": "evidence/approximation/SPEC.md",
+      "lane": "git and source ZIP",
+      "bytes": 7969,
+      "original_sha256": "586cdc4cd0b69d20126a5c97e19cb39937426ff9ec58498cb45412df96a83165",
+      "public_sha256": "586cdc4cd0b69d20126a5c97e19cb39937426ff9ec58498cb45412df96a83165"
+    },
+    {
+      "path": "evidence/approximation/STATUS.md",
+      "lane": "git and source ZIP",
+      "bytes": 4895,
+      "original_sha256": "efe75955636f15e8a6b1635c9f10b9b3cabc0442199faa3565f0e590798debf7",
+      "public_sha256": "efe75955636f15e8a6b1635c9f10b9b3cabc0442199faa3565f0e590798debf7"
+    },
+    {
+      "path": "evidence/approximation/explicit_reference.py",
+      "lane": "git and source ZIP",
+      "bytes": 14282,
+      "original_sha256": "b6e90f05d26f4d555ae1d064cad1d8583a7e11f02ec33d0d1871e535bb8f256a",
+      "public_sha256": "b6e90f05d26f4d555ae1d064cad1d8583a7e11f02ec33d0d1871e535bb8f256a"
+    },
+    {
+      "path": "evidence/approximation/parent_verification.json",
+      "lane": "git and source ZIP",
+      "bytes": 789,
+      "original_sha256": "614bea92909e525f847dff84307cd65b91d7bba0375176ebec15accc35994922",
+      "public_sha256": "614bea92909e525f847dff84307cd65b91d7bba0375176ebec15accc35994922"
+    },
+    {
+      "path": "evidence/approximation/reference_formula.json",
+      "lane": "git and source ZIP",
+      "bytes": 4544,
+      "original_sha256": "95311d6d1857fc6330532dcce52cc58f03e20b489c3249a0da6cf3f14cea0c76",
+      "public_sha256": "95311d6d1857fc6330532dcce52cc58f03e20b489c3249a0da6cf3f14cea0c76"
+    },
+    {
+      "path": "evidence/approximation/reference_outcomes.json",
+      "lane": "git and source ZIP",
+      "bytes": 2715,
+      "original_sha256": "23a2e3c01c35a95d7d933cf87351a86c6e0eef2d69e821421cb60b60d9242c51",
+      "public_sha256": "23a2e3c01c35a95d7d933cf87351a86c6e0eef2d69e821421cb60b60d9242c51"
+    },
+    {
+      "path": "evidence/approximation/test_explicit_reference.py",
+      "lane": "git and source ZIP",
+      "bytes": 7715,
+      "original_sha256": "0be83cc35aadcfc580dedabbfb0e99d53d3992115bb58270ddb8774db3432d73",
+      "public_sha256": "0be83cc35aadcfc580dedabbfb0e99d53d3992115bb58270ddb8774db3432d73"
+    },
+    {
+      "path": "evidence/counterfactual/REPORT.md",
+      "lane": "git and source ZIP",
+      "bytes": 9285,
+      "original_sha256": "deb41f43c3473b0ce6e7f786cdd5f12f730c71a0c03c12abb672810da306539c",
+      "public_sha256": "deb41f43c3473b0ce6e7f786cdd5f12f730c71a0c03c12abb672810da306539c"
+    },
+    {
+      "path": "evidence/counterfactual/SCOPE_AUDIT.md",
+      "lane": "git and source ZIP",
+      "bytes": 5346,
+      "original_sha256": "d7df7768b51f2f8c172c0cd2c1a7f1f49962cb8a0ffb5744f55222ce7f3d0477",
+      "public_sha256": "d7df7768b51f2f8c172c0cd2c1a7f1f49962cb8a0ffb5744f55222ce7f3d0477"
+    },
+    {
+      "path": "evidence/counterfactual/SPEC.md",
+      "lane": "git and source ZIP",
+      "bytes": 8500,
+      "original_sha256": "aa42d0e9812ac35d9dc3f2823beb8e535b82597c0dee5dd0cee9c5487579697f",
+      "public_sha256": "aa42d0e9812ac35d9dc3f2823beb8e535b82597c0dee5dd0cee9c5487579697f"
+    },
+    {
+      "path": "evidence/counterfactual/calculate.py",
+      "lane": "git and source ZIP",
+      "bytes": 10775,
+      "original_sha256": "c9b77777356cd93cf14f97d57289bab489e109525c4056abf44111afb29be605",
+      "public_sha256": "c9b77777356cd93cf14f97d57289bab489e109525c4056abf44111afb29be605"
+    },
+    {
+      "path": "evidence/counterfactual/continuous.py",
+      "lane": "git and source ZIP",
+      "bytes": 10472,
+      "original_sha256": "c220e280115238c7f42779236a1bf41fe29e786cc58d6c6830d3fc35f7db8a8c",
+      "public_sha256": "c220e280115238c7f42779236a1bf41fe29e786cc58d6c6830d3fc35f7db8a8c"
+    },
+    {
+      "path": "evidence/counterfactual/continuous_check.json",
+      "lane": "git and source ZIP",
+      "bytes": 28062,
+      "original_sha256": "3631409dfc2fef2c0b8e6bf40d77143358b0bc6ced7c30261c620ce58f228f36",
+      "public_sha256": "3631409dfc2fef2c0b8e6bf40d77143358b0bc6ced7c30261c620ce58f228f36"
+    },
+    {
+      "path": "evidence/counterfactual/deliver.py",
+      "lane": "git and source ZIP",
+      "bytes": 11844,
+      "original_sha256": "30dab99db968f3d9ea3308d6d22f294b78b0ff73d47a2de682c38c51d13e36dd",
+      "public_sha256": "30dab99db968f3d9ea3308d6d22f294b78b0ff73d47a2de682c38c51d13e36dd"
+    },
+    {
+      "path": "evidence/counterfactual/delivery_manifest.json",
+      "lane": "git and source ZIP",
+      "bytes": 1941,
+      "original_sha256": "8f01b9abb6b0f40ca40d25b871e8102a4509504a9b2805d440c85ef4aa52f95e",
+      "public_sha256": "8f01b9abb6b0f40ca40d25b871e8102a4509504a9b2805d440c85ef4aa52f95e"
+    },
+    {
+      "path": "evidence/counterfactual/formula.json",
+      "lane": "git and source ZIP",
+      "bytes": 2024,
+      "original_sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a",
+      "public_sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a"
+    },
+    {
+      "path": "evidence/counterfactual/inputs.json",
+      "lane": "git and source ZIP",
+      "bytes": 11586,
+      "original_sha256": "5e498fee46936c4a53a908ec255d34b83c4894af223aff10bfbd8610605f088b",
+      "public_sha256": "5e498fee46936c4a53a908ec255d34b83c4894af223aff10bfbd8610605f088b"
+    },
+    {
+      "path": "evidence/counterfactual/path_controls.csv",
+      "lane": "git and source ZIP",
+      "bytes": 595676,
+      "original_sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640",
+      "public_sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640"
+    },
+    {
+      "path": "evidence/counterfactual/result.json",
+      "lane": "git and source ZIP",
+      "bytes": 8012,
+      "original_sha256": "49296dd026b3f0702fb672264c2c5524221a38acbf60631b6b8581e6c0b7bfe8",
+      "public_sha256": "49296dd026b3f0702fb672264c2c5524221a38acbf60631b6b8581e6c0b7bfe8"
+    },
+    {
+      "path": "evidence/counterfactual/reviews/DISPOSITION.md",
+      "lane": "git and source ZIP",
+      "bytes": 1999,
+      "original_sha256": "9f5d9410b58e530cdf40873454d78208aba1d370d03255b2dcb26810b8c66b4d",
+      "public_sha256": "9f5d9410b58e530cdf40873454d78208aba1d370d03255b2dcb26810b8c66b4d"
+    },
+    {
+      "path": "evidence/counterfactual/reviews/acceptance.md",
+      "lane": "git and source ZIP",
+      "bytes": 4625,
+      "original_sha256": "1fa8704467f7fb469131d2207067ea29c7755e3787f80368f554f30d6b04a653",
+      "public_sha256": "1fa8704467f7fb469131d2207067ea29c7755e3787f80368f554f30d6b04a653"
+    },
+    {
+      "path": "evidence/counterfactual/reviews/parent_certificate_check.json",
+      "lane": "git and source ZIP",
+      "bytes": 309,
+      "original_sha256": "e3675cf3a42000ed7caed90660f036dce22c9e68440435cd717544bdd5e9c083",
+      "public_sha256": "e3675cf3a42000ed7caed90660f036dce22c9e68440435cd717544bdd5e9c083"
+    },
+    {
+      "path": "evidence/counterfactual/reviews/parent_final_verification.json",
+      "lane": "git and source ZIP",
+      "bytes": 1037,
+      "original_sha256": "2375724bc41568b3b89d15f593d314f0e60d60caa539b22e4fb9b979ff5458c2",
+      "public_sha256": "2375724bc41568b3b89d15f593d314f0e60d60caa539b22e4fb9b979ff5458c2"
+    },
+    {
+      "path": "evidence/counterfactual/search_checkpoint.json",
+      "lane": "git and source ZIP",
+      "bytes": 10582,
+      "original_sha256": "4cedc557b9ed80c8e52d61f14bff6aacf5b69fdc1046f692fc3b53aa264a13e6",
+      "public_sha256": "4cedc557b9ed80c8e52d61f14bff6aacf5b69fdc1046f692fc3b53aa264a13e6"
+    },
+    {
+      "path": "evidence/counterfactual/search_state.json",
+      "lane": "git and source ZIP",
+      "bytes": 165,
+      "original_sha256": "3756d4a88c11bfae4fbd7764e17b1a07f5c72e2abbe75fe2f92c93764bcd7493",
+      "public_sha256": "3756d4a88c11bfae4fbd7764e17b1a07f5c72e2abbe75fe2f92c93764bcd7493"
+    },
+    {
+      "path": "evidence/counterfactual/selected.json",
+      "lane": "git and source ZIP",
+      "bytes": 5058,
+      "original_sha256": "9d8b40c750caea97f45f894f314e47f4ae934d577f4a5014c8a35b4f04defe64",
+      "public_sha256": "9d8b40c750caea97f45f894f314e47f4ae934d577f4a5014c8a35b4f04defe64"
+    },
+    {
+      "path": "evidence/counterfactual/test_counterfactual.py",
+      "lane": "git and source ZIP",
+      "bytes": 10151,
+      "original_sha256": "66589ebeae8ff8d64fafa91499a7ab4df91be215a931929d16b4a3967e5ebed7",
+      "public_sha256": "66589ebeae8ff8d64fafa91499a7ab4df91be215a931929d16b4a3967e5ebed7"
+    },
+    {
+      "path": "evidence/counterfactual/verification.json",
+      "lane": "git and source ZIP",
+      "bytes": 949,
+      "original_sha256": "9a22ee599829be5de129883483d89cd8c5ca88ee8606cfe33a146bce7c052264",
+      "public_sha256": "9a22ee599829be5de129883483d89cd8c5ca88ee8606cfe33a146bce7c052264"
+    },
+    {
+      "path": "evidence/counterfactual/verify_delivery.py",
+      "lane": "git and source ZIP",
+      "bytes": 2542,
+      "original_sha256": "e99ccee20cda1ef54a34a4631ce3d0240be1404d7e502f7042f71bc88826a082",
+      "public_sha256": "e99ccee20cda1ef54a34a4631ce3d0240be1404d7e502f7042f71bc88826a082"
+    },
+    {
+      "path": "evidence/evidence/EVIDENCE_REPORT.md",
+      "lane": "git and source ZIP",
+      "bytes": 10403,
+      "original_sha256": "601cc3b9c93fb1315c01a393b0b5236eb92700b834ce449a0a2531d551319b64",
+      "public_sha256": "601cc3b9c93fb1315c01a393b0b5236eb92700b834ce449a0a2531d551319b64"
+    },
+    {
+      "path": "evidence/evidence/cal605_reconstruction/REPORT.md",
+      "lane": "git and source ZIP",
+      "bytes": 13397,
+      "original_sha256": "ea22be6e2488bf4d322a2775a172f4ef4c2dad879c2bf6e431fb5c7fdabd3df0",
+      "public_sha256": "ea22be6e2488bf4d322a2775a172f4ef4c2dad879c2bf6e431fb5c7fdabd3df0"
+    },
+    {
+      "path": "evidence/evidence/cal605_reconstruction/analysis.json",
+      "lane": "git and source ZIP",
+      "bytes": 5716,
+      "original_sha256": "7e957b6c8cd42493f6809a49b7be917c147a1e147ecadeef98a64762259b2c42",
+      "public_sha256": "7e957b6c8cd42493f6809a49b7be917c147a1e147ecadeef98a64762259b2c42"
+    },
+    {
+      "path": "evidence/evidence/cal605_reconstruction/clock_alignment.json",
+      "lane": "git and source ZIP",
+      "bytes": 1292,
+      "original_sha256": "cf3250dafc6c559bb82b1d2a2073b008a69de16ca79bdd0a48aa1ca10b8279cb",
+      "public_sha256": "cf3250dafc6c559bb82b1d2a2073b008a69de16ca79bdd0a48aa1ca10b8279cb"
+    },
+    {
+      "path": "evidence/evidence/cal605_reconstruction/delivery_manifest.json",
+      "lane": "git and source ZIP",
+      "bytes": 10129,
+      "original_sha256": "db4ba3d890a36c27267e889576bc6b881fac70f5dbda327fdb1cdb24bccca5fa",
+      "public_sha256": "db4ba3d890a36c27267e889576bc6b881fac70f5dbda327fdb1cdb24bccca5fa"
+    },
+    {
+      "path": "evidence/evidence/cal605_reconstruction/flight/README.md",
+      "lane": "git and source ZIP",
+      "bytes": 8874,
+      "original_sha256": "2bb2c74851ac1d0f0b9bb91125eab70bdb1ce58da16ff1ddad7b042385801257",
+      "public_sha256": "2bb2c74851ac1d0f0b9bb91125eab70bdb1ce58da16ff1ddad7b042385801257"
+    },
+    {
+      "path": "evidence/evidence/cal605_reconstruction/flight/approach_anchor_readings.csv",
+      "lane": "git and source ZIP",
+      "bytes": 15188,
+      "original_sha256": "09318fd9a5da4a263afa016aeec4ba1e3be6d4c8a232d4376bb329355685c85f",
+      "public_sha256": "09318fd9a5da4a263afa016aeec4ba1e3be6d4c8a232d4376bb329355685c85f"
+    },
+    {
+      "path": "evidence/evidence/cal605_reconstruction/flight/flight_anchor_readings.csv",
+      "lane": "git and source ZIP",
+      "bytes": 26298,
+      "original_sha256": "227a93849e990a1983d285547528c3e8e9400b8ed64ff203085526fc6be20232",
+      "public_sha256": "227a93849e990a1983d285547528c3e8e9400b8ed64ff203085526fc6be20232"
+    },
+    {
+      "path": "evidence/evidence/cal605_reconstruction/flight/flight_summary.json",
+      "lane": "git and source ZIP",
+      "bytes": 1177,
+      "original_sha256": "9d98e8ad5144ae367903c1c59c7e436cc602d1b7894049d11c47bf19244b4135",
+      "public_sha256": "9d98e8ad5144ae367903c1c59c7e436cc602d1b7894049d11c47bf19244b4135"
+    },
+    {
+      "path": "evidence/evidence/cal605_reconstruction/noaa/README.md",
+      "lane": "git and source ZIP",
+      "bytes": 8995,
+      "original_sha256": "64c308501364f3d9d095cebfe4612cd927d4174c96d1baf0f9279cccf549dd81",
+      "public_sha256": "64c308501364f3d9d095cebfe4612cd927d4174c96d1baf0f9279cccf549dd81"
+    },
+    {
+      "path": "evidence/evidence/cal605_reconstruction/noaa/acceptance_verification.json",
+      "lane": "git and source ZIP",
+      "bytes": 1029,
+      "original_sha256": "f6a6f0bab428784570eb6f1e8ceada99ecb769c466cd21f6551dc1e1c8271471",
+      "public_sha256": "f6a6f0bab428784570eb6f1e8ceada99ecb769c466cd21f6551dc1e1c8271471"
+    },
+    {
+      "path": "evidence/evidence/cal605_reconstruction/noaa/verification.json",
+      "lane": "git and source ZIP",
+      "bytes": 6607,
+      "original_sha256": "fca349e456c1eae543c71d5cdd956106f48063ea7f77747a8ba48bc5d51534fb",
+      "public_sha256": "fca349e456c1eae543c71d5cdd956106f48063ea7f77747a8ba48bc5d51534fb"
+    },
+    {
+      "path": "evidence/evidence/cal605_reconstruction/verification.json",
+      "lane": "git and source ZIP",
+      "bytes": 2411,
+      "original_sha256": "bf93850ae01b3d5539b42e51af7f56238e73cebfae6536910f30793165892681",
+      "public_sha256": "bf93850ae01b3d5539b42e51af7f56238e73cebfae6536910f30793165892681"
+    },
+    {
+      "path": "evidence/evidence/cal605_reconstruction/wind/README.md",
+      "lane": "git and source ZIP",
+      "bytes": 7742,
+      "original_sha256": "7ef27fc02ccdac883402a4f7b530873ca2cec90ae218bd82b38073106a2257db",
+      "public_sha256": "7ef27fc02ccdac883402a4f7b530873ca2cec90ae218bd82b38073106a2257db"
+    },
+    {
+      "path": "evidence/evidence/cal605_reconstruction/wind/wind_records.csv",
+      "lane": "git and source ZIP",
+      "bytes": 20709,
+      "original_sha256": "485c67054dd3acb7915557ee97f34d5fd0a85b940c2219417a06262f82625465",
+      "public_sha256": "485c67054dd3acb7915557ee97f34d5fd0a85b940c2219417a06262f82625465"
+    },
+    {
+      "path": "evidence/geospatial/README.md",
+      "lane": "git and source ZIP",
+      "bytes": 6664,
+      "original_sha256": "1ac992bf7838fa3476067ec43c9682bcda2d62d5c9eeb04180f291060d7a7788",
+      "public_sha256": "1ac992bf7838fa3476067ec43c9682bcda2d62d5c9eeb04180f291060d7a7788"
+    },
+    {
+      "path": "evidence/literature/APPROXIMATE_LANDING_NOVELTY_2026-10-13.md",
+      "lane": "git and source ZIP",
+      "bytes": 5672,
+      "original_sha256": "ef06c27cc45b30f97ad3bc09198ff7b3a3794b8a3a9ad4233d1c872a39e9e31f",
+      "public_sha256": "ef06c27cc45b30f97ad3bc09198ff7b3a3794b8a3a9ad4233d1c872a39e9e31f"
+    },
+    {
+      "path": "evidence/literature/LITERATURE_AND_COMPARISON.md",
+      "lane": "git and source ZIP",
+      "bytes": 12772,
+      "original_sha256": "b167fb01d96631a749fde1cbb4a894ee257b14f0f5e0cc3520a984f26100431a",
+      "public_sha256": "b167fb01d96631a749fde1cbb4a894ee257b14f0f5e0cc3520a984f26100431a"
+    },
+    {
+      "path": "evidence/model/__init__.py",
+      "lane": "git and source ZIP",
+      "bytes": 69,
+      "original_sha256": "6b65156957acd5c13a616a594a95d8da429b1bd513c1c31ccad3f1609a7a8006",
+      "public_sha256": "6b65156957acd5c13a616a594a95d8da429b1bd513c1c31ccad3f1609a7a8006"
+    },
+    {
+      "path": "evidence/model/config.json",
+      "lane": "git and source ZIP",
+      "bytes": 9059,
+      "original_sha256": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693",
+      "public_sha256": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693"
+    },
+    {
+      "path": "evidence/model/solve.py",
+      "lane": "git and source ZIP",
+      "bytes": 10645,
+      "original_sha256": "2b93ae2341226f854cc0277b02a9b04e67c25ca569fa2ee0f82920ed860f6a15",
+      "public_sha256": "2b93ae2341226f854cc0277b02a9b04e67c25ca569fa2ee0f82920ed860f6a15"
+    },
+    {
+      "path": "evidence/model/test_model.py",
+      "lane": "git and source ZIP",
+      "bytes": 5304,
+      "original_sha256": "e10285f5d0702b1d7f13cf8446a2f9d78742b12e3c5894b3fd5c2f4efb695786",
+      "public_sha256": "e10285f5d0702b1d7f13cf8446a2f9d78742b12e3c5894b3fd5c2f4efb695786"
+    },
+    {
+      "path": "evidence/model/test_review_solver.py",
+      "lane": "git and source ZIP",
+      "bytes": 748,
+      "original_sha256": "c730c734a50c734ca20fa2139ad26e71cb1533764a5a34748869e27aec79a80c",
+      "public_sha256": "c730c734a50c734ca20fa2139ad26e71cb1533764a5a34748869e27aec79a80c"
+    },
+    {
+      "path": "evidence/model/test_review_trajectory.py",
+      "lane": "git and source ZIP",
+      "bytes": 4305,
+      "original_sha256": "b116ae6250105cc889a1bb57e1f7c4efedb33605773181665442df50ae2013f6",
+      "public_sha256": "b116ae6250105cc889a1bb57e1f7c4efedb33605773181665442df50ae2013f6"
+    },
+    {
+      "path": "evidence/model/trajectory.py",
+      "lane": "git and source ZIP",
+      "bytes": 21372,
+      "original_sha256": "9b557ce07c7e8f177b0b3cfac1765c1c9aec4997e28b52d3185ad533f7cf3f6a",
+      "public_sha256": "9b557ce07c7e8f177b0b3cfac1765c1c9aec4997e28b52d3185ad533f7cf3f6a"
+    },
+    {
+      "path": "evidence/outputs/scenario/optimization_replay.json",
+      "lane": "git and source ZIP",
+      "bytes": 37914,
+      "original_sha256": "8829c708a7e0dd6262cab24547ff171ab5a73a78e9aea08a14428c62cd3eb1e0",
+      "public_sha256": "8829c708a7e0dd6262cab24547ff171ab5a73a78e9aea08a14428c62cd3eb1e0"
+    },
+    {
+      "path": "evidence/reconstruction/block_matching/HANDOFF.json",
+      "lane": "git and source ZIP",
+      "bytes": 8982,
+      "original_sha256": "9f22ab99f964c030608afa44283fe6e92f03f11d30938eb0c0a3a9d5068b9c62",
+      "public_sha256": "9f22ab99f964c030608afa44283fe6e92f03f11d30938eb0c0a3a9d5068b9c62"
+    },
+    {
+      "path": "evidence/reconstruction/block_matching/REPORT.md",
+      "lane": "git and source ZIP",
+      "bytes": 11173,
+      "original_sha256": "18add497b2e88914395fab97877805cb0cb4201fe09355cb78b1abc6954f3893",
+      "public_sha256": "18add497b2e88914395fab97877805cb0cb4201fe09355cb78b1abc6954f3893"
+    },
+    {
+      "path": "evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "lane": "git and source ZIP",
+      "bytes": 12241,
+      "original_sha256": "c6d92372417f56a8b017f8da56c0ed9d59d03eabf14efcc8fc9004137e2855e1",
+      "public_sha256": "c6d92372417f56a8b017f8da56c0ed9d59d03eabf14efcc8fc9004137e2855e1"
+    },
+    {
+      "path": "evidence/reconstruction/block_matching/aerial_registration/dense_stereo_report.json",
+      "lane": "git and source ZIP",
+      "bytes": 4425,
+      "original_sha256": "28ddf7ddff1f4a75e756a6beb3842ed8d6c8fd7e68d211a9e162cf94b72a6374",
+      "public_sha256": "28ddf7ddff1f4a75e756a6beb3842ed8d6c8fd7e68d211a9e162cf94b72a6374"
+    },
+    {
+      "path": "evidence/reconstruction/block_matching/aerial_registration/observed_mesh_verification.json",
+      "lane": "git and source ZIP",
+      "bytes": 1205,
+      "original_sha256": "a50c3ae569ce52d7c47a21bbe905f18fc4be233f4b311c5c225b08fe9ea42cc7",
+      "public_sha256": "a50c3ae569ce52d7c47a21bbe905f18fc4be233f4b311c5c225b08fe9ea42cc7"
+    },
+    {
+      "path": "evidence/reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json",
+      "lane": "git and source ZIP",
+      "bytes": 2635,
+      "original_sha256": "ae7aa69c6ed42263bc6e060fb92133aaeed8e39f9909bdea48d99dc27986b394",
+      "public_sha256": "ae7aa69c6ed42263bc6e060fb92133aaeed8e39f9909bdea48d99dc27986b394"
+    },
+    {
+      "path": "evidence/reconstruction/block_matching/aerial_registration/sparse_stereo_report.json",
+      "lane": "git and source ZIP",
+      "bytes": 9195,
+      "original_sha256": "17c70dac3685c3f04eb9d01026aaf3c74ed32313e70755bb854f9afc58377bc9",
+      "public_sha256": "17c70dac3685c3f04eb9d01026aaf3c74ed32313e70755bb854f9afc58377bc9"
+    },
+    {
+      "path": "evidence/reconstruction/block_matching/aerial_registration/stereo_verification.json",
+      "lane": "git and source ZIP",
+      "bytes": 1819,
+      "original_sha256": "1aa46915a083962a3cc7a60065ceaba113d69ed9effb27f83cd8e67c98b470ec",
+      "public_sha256": "1aa46915a083962a3cc7a60065ceaba113d69ed9effb27f83cd8e67c98b470ec"
+    },
+    {
+      "path": "evidence/reconstruction/block_matching/registration_report.md",
+      "lane": "git and source ZIP",
+      "bytes": 6233,
+      "original_sha256": "c751bd91f98a4bcbdb78743d34be9ce97846fe35cca3c582e8abda15c8fcbb87",
+      "public_sha256": "c751bd91f98a4bcbdb78743d34be9ce97846fe35cca3c582e8abda15c8fcbb87"
+    },
+    {
+      "path": "evidence/reconstruction/block_matching/road_cell_parent_verification.json",
+      "lane": "git and source ZIP",
+      "bytes": 359,
+      "original_sha256": "5b2cb57cbcee39c0de12193f3e85ea20e18f8f3a67b2f02b8226884b27bab816",
+      "public_sha256": "5b2cb57cbcee39c0de12193f3e85ea20e18f8f3a67b2f02b8226884b27bab816"
+    },
+    {
+      "path": "evidence/reconstruction/block_matching/road_cell_visual_observations.json",
+      "lane": "git and source ZIP",
+      "bytes": 8585,
+      "original_sha256": "5e6c2446a3ac7c223748eec8465afe1c12efbe63c3de0f56aeb4899d3cf29706",
+      "public_sha256": "5e6c2446a3ac7c223748eec8465afe1c12efbe63c3de0f56aeb4899d3cf29706"
+    },
+    {
+      "path": "evidence/reconstruction/block_matching/scene/readable/verification.json",
+      "lane": "git and source ZIP",
+      "bytes": 645,
+      "original_sha256": "32e41a87b5e7b59139bff586f54e14f61d26a4e6a8087eff5f1f4558c472b20a",
+      "public_sha256": "32e41a87b5e7b59139bff586f54e14f61d26a4e6a8087eff5f1f4558c472b20a"
+    },
+    {
+      "path": "evidence/reconstruction/block_matching/scene/validation.json",
+      "lane": "git and source ZIP",
+      "bytes": 835,
+      "original_sha256": "ab34f82f8fbaca0a515608b0ae3f44539263d5162e2fa088557618df7f2a7a0c",
+      "public_sha256": "ab34f82f8fbaca0a515608b0ae3f44539263d5162e2fa088557618df7f2a7a0c"
+    },
+    {
+      "path": "evidence/reconstruction/block_matching/validation.json",
+      "lane": "git and source ZIP",
+      "bytes": 2872,
+      "original_sha256": "b8e3a0fd8e9717b724316f9bdcdad140cb2f14c71ae3bb9b800b5d43bb9c5c5d",
+      "public_sha256": "b8e3a0fd8e9717b724316f9bdcdad140cb2f14c71ae3bb9b800b5d43bb9c5c5d"
+    },
+    {
+      "path": "evidence/reconstruction/chronology/HANDOFF.json",
+      "lane": "git and source ZIP",
+      "bytes": 4757,
+      "original_sha256": "f8deecf9c45d622e3b4fd6bcef7b4245a7e736d4364b02dec8a8004be96f7a34",
+      "public_sha256": "f8deecf9c45d622e3b4fd6bcef7b4245a7e736d4364b02dec8a8004be96f7a34"
+    },
+    {
+      "path": "evidence/reconstruction/chronology/REPORT.md",
+      "lane": "git and source ZIP",
+      "bytes": 10016,
+      "original_sha256": "6a06f484eeeb20e9b6ff35d0fcb12c74efc4d96a80fc08c480ae54405c7aa11d",
+      "public_sha256": "6a06f484eeeb20e9b6ff35d0fcb12c74efc4d96a80fc08c480ae54405c7aa11d"
+    },
+    {
+      "path": "evidence/reconstruction/obstacles/REPORT.md",
+      "lane": "git and source ZIP",
+      "bytes": 7076,
+      "original_sha256": "aaf8eae2c1e911595b5d70898752bf41726dc7918fb74400c3283d8091cb8635",
+      "public_sha256": "aaf8eae2c1e911595b5d70898752bf41726dc7918fb74400c3283d8091cb8635"
+    },
+    {
+      "path": "evidence/reconstruction/obstacles/observations.json",
+      "lane": "git and source ZIP",
+      "bytes": 27629,
+      "original_sha256": "af990de7bb002418f93dd349d0764b4aea33a285dd73eacaae23adb6f4eb376d",
+      "public_sha256": "af990de7bb002418f93dd349d0764b4aea33a285dd73eacaae23adb6f4eb376d"
+    },
+    {
+      "path": "evidence/reconstruction/obstacles/obstacle_evidence.geojson",
+      "lane": "git and source ZIP",
+      "bytes": 85601,
+      "original_sha256": "ac3ab63f3c516b8dfa1e18c4be64082fccfd0986979df0619fcc5fe3effb2a30",
+      "public_sha256": "ac3ab63f3c516b8dfa1e18c4be64082fccfd0986979df0619fcc5fe3effb2a30"
+    },
+    {
+      "path": "evidence/reconstruction/obstacles/parent_verification.json",
+      "lane": "git and source ZIP",
+      "bytes": 2899,
+      "original_sha256": "a4c35fc6f64d07b1258651f1993baeb4d316989a82058f102f64e2fccc03d2ab",
+      "public_sha256": "a4c35fc6f64d07b1258651f1993baeb4d316989a82058f102f64e2fccc03d2ab"
+    },
+    {
+      "path": "evidence/reconstruction/obstacles/readiness.json",
+      "lane": "git and source ZIP",
+      "bytes": 9456,
+      "original_sha256": "8ff9e652fa4ec809207cbadff0eee6e525ef17a740cf85d530879bdb698b519c",
+      "public_sha256": "8ff9e652fa4ec809207cbadff0eee6e525ef17a740cf85d530879bdb698b519c"
+    },
+    {
+      "path": "evidence/reconstruction/obstacles/unresolved_footprints.geojson",
+      "lane": "git and source ZIP",
+      "bytes": 337765,
+      "original_sha256": "b78d5754894cb75975c0a58cddcd1178dcc4ecc449444e5218b506993b091a85",
+      "public_sha256": "b78d5754894cb75975c0a58cddcd1178dcc4ecc449444e5218b506993b091a85"
+    },
+    {
+      "path": "evidence/stereo_plot_data.csv",
+      "lane": "git and source ZIP",
+      "bytes": 2315670,
+      "original_sha256": "020e06d1ca36ce849f6935ca63ad7f9281d07d3c0724b246ee844076f0fb8b9b",
+      "public_sha256": "020e06d1ca36ce849f6935ca63ad7f9281d07d3c0724b246ee844076f0fb8b9b"
+    },
+    {
+      "path": "evidence/weather_plot_data.csv",
+      "lane": "git and source ZIP",
+      "bytes": 460625,
+      "original_sha256": "7de32c29acf8f3729884a002ff133252ad6cab1b7a2da486b104ccc9d85a704d",
+      "public_sha256": "7de32c29acf8f3729884a002ff133252ad6cab1b7a2da486b104ccc9d85a704d"
+    },
+    {
+      "path": "evidence_manifest.json",
+      "lane": "git and source ZIP",
+      "bytes": 25657,
+      "original_sha256": "7284e264c33593c41cd15252c699c6c0d54c15fa4f14a0cf7cc1708cc23dfa36",
+      "public_sha256": "7284e264c33593c41cd15252c699c6c0d54c15fa4f14a0cf7cc1708cc23dfa36"
+    },
+    {
+      "path": "figures/01_place.pdf",
+      "lane": "git and source ZIP",
+      "bytes": 354055,
+      "original_sha256": "e710a1dde795b2ae16a2e0cd5d225666a1c2b1f301b0cd83538765c680cb91ee",
+      "public_sha256": "e710a1dde795b2ae16a2e0cd5d225666a1c2b1f301b0cd83538765c680cb91ee"
+    },
+    {
+      "path": "figures/01_place.png",
+      "lane": "git and source ZIP",
+      "bytes": 1456413,
+      "original_sha256": "7f0511d5bf116bc93c57d8b8c9f8127050a2aba67049adbadf47436c74039a76",
+      "public_sha256": "7f0511d5bf116bc93c57d8b8c9f8127050a2aba67049adbadf47436c74039a76"
+    },
+    {
+      "path": "figures/01_place.svg",
+      "lane": "git and source ZIP",
+      "bytes": 519400,
+      "original_sha256": "82925d423975f46eb6d18ac327284869ab1b103bd9bbbdf800cedbc910b08f73",
+      "public_sha256": "82925d423975f46eb6d18ac327284869ab1b103bd9bbbdf800cedbc910b08f73"
+    },
+    {
+      "path": "figures/02_bearings.pdf",
+      "lane": "git and source ZIP",
+      "bytes": 71560,
+      "original_sha256": "76d01ce1ed2119ab9dd7cc165323aa7568a6f4f4fd23f85032c89c38f14d6bd2",
+      "public_sha256": "76d01ce1ed2119ab9dd7cc165323aa7568a6f4f4fd23f85032c89c38f14d6bd2"
+    },
+    {
+      "path": "figures/02_bearings.png",
+      "lane": "git and source ZIP",
+      "bytes": 252119,
+      "original_sha256": "759efb0ae2381ed7eeb67faa545ab29f4ee4924a5cdba554635178da93a1280e",
+      "public_sha256": "759efb0ae2381ed7eeb67faa545ab29f4ee4924a5cdba554635178da93a1280e"
+    },
+    {
+      "path": "figures/02_bearings.svg",
+      "lane": "git and source ZIP",
+      "bytes": 73937,
+      "original_sha256": "44dca8648cd735f23fcc5996d95b85f893654ac62a8853dd0729bf10b09aecc5",
+      "public_sha256": "44dca8648cd735f23fcc5996d95b85f893654ac62a8853dd0729bf10b09aecc5"
+    },
+    {
+      "path": "figures/03_turn.pdf",
+      "lane": "git and source ZIP",
+      "bytes": 27129,
+      "original_sha256": "0a50fb46634e1b9bc77c4703679c35942e774b60cc3504ce47d5d9dca04a3e23",
+      "public_sha256": "0a50fb46634e1b9bc77c4703679c35942e774b60cc3504ce47d5d9dca04a3e23"
+    },
+    {
+      "path": "figures/03_turn.png",
+      "lane": "git and source ZIP",
+      "bytes": 111128,
+      "original_sha256": "42045c4339d1af529de347c1da1953b9c9c98f218083d72a71142eca62f97c9e",
+      "public_sha256": "42045c4339d1af529de347c1da1953b9c9c98f218083d72a71142eca62f97c9e"
+    },
+    {
+      "path": "figures/03_turn.svg",
+      "lane": "git and source ZIP",
+      "bytes": 15273,
+      "original_sha256": "987722e76bf6123c8eb2db0efee75c7c0a8f313784033af16074460bdb2e13f2",
+      "public_sha256": "987722e76bf6123c8eb2db0efee75c7c0a8f313784033af16074460bdb2e13f2"
+    },
+    {
+      "path": "figures/04_landing.pdf",
+      "lane": "git and source ZIP",
+      "bytes": 41991,
+      "original_sha256": "aeab08d8c61527b0887e35308eb959160d36e813bcc3a71991a3a5ea4860f74a",
+      "public_sha256": "aeab08d8c61527b0887e35308eb959160d36e813bcc3a71991a3a5ea4860f74a"
+    },
+    {
+      "path": "figures/04_landing.png",
+      "lane": "git and source ZIP",
+      "bytes": 130847,
+      "original_sha256": "1608abebf093956f07473b233d87cf70f0ca838ab75a0c7ba27a94041f28bd9d",
+      "public_sha256": "1608abebf093956f07473b233d87cf70f0ca838ab75a0c7ba27a94041f28bd9d"
+    },
+    {
+      "path": "figures/04_landing.svg",
+      "lane": "git and source ZIP",
+      "bytes": 20847,
+      "original_sha256": "44cc796eebf2cc26f9e3f4254828674119de3a83cdf39d75bc9d223a3a225bc6",
+      "public_sha256": "44cc796eebf2cc26f9e3f4254828674119de3a83cdf39d75bc9d223a3a225bc6"
+    },
+    {
+      "path": "figures/05_runway.pdf",
+      "lane": "git and source ZIP",
+      "bytes": 41542,
+      "original_sha256": "d28bbe089eed7b84b9048fe82fce228ef8874b751a40d7af5b617f941c172383",
+      "public_sha256": "d28bbe089eed7b84b9048fe82fce228ef8874b751a40d7af5b617f941c172383"
+    },
+    {
+      "path": "figures/05_runway.png",
+      "lane": "git and source ZIP",
+      "bytes": 105204,
+      "original_sha256": "5c0f2fa686478b8bae7b1e78332da2557c745ce1e79a1a6c6981a09ffd50b472",
+      "public_sha256": "5c0f2fa686478b8bae7b1e78332da2557c745ce1e79a1a6c6981a09ffd50b472"
+    },
+    {
+      "path": "figures/05_runway.svg",
+      "lane": "git and source ZIP",
+      "bytes": 13579,
+      "original_sha256": "4de8fa0c09657516c94a7ce4599a5a069b484ad02f609b6a1c913b7a174b88b3",
+      "public_sha256": "4de8fa0c09657516c94a7ce4599a5a069b484ad02f609b6a1c913b7a174b88b3"
+    },
+    {
+      "path": "figures/06_maps.pdf",
+      "lane": "git and source ZIP",
+      "bytes": 158929,
+      "original_sha256": "7eb4353f6b6ec5e18b6a6249bdcaff8f393370550ed8c4670b638c9be185d419",
+      "public_sha256": "7eb4353f6b6ec5e18b6a6249bdcaff8f393370550ed8c4670b638c9be185d419"
+    },
+    {
+      "path": "figures/06_maps.png",
+      "lane": "git and source ZIP",
+      "bytes": 695913,
+      "original_sha256": "e2a9b74cea989d302490ed6eb1daaa5f1f2b8c3e396e97e7f608d1af358c53b6",
+      "public_sha256": "e2a9b74cea989d302490ed6eb1daaa5f1f2b8c3e396e97e7f608d1af358c53b6"
+    },
+    {
+      "path": "figures/06_maps.svg",
+      "lane": "git and source ZIP",
+      "bytes": 274097,
+      "original_sha256": "3a6581b77625c651e8a9138e267549a45aa6f72f0ab06f2cc7d92e555f6c9d77",
+      "public_sha256": "3a6581b77625c651e8a9138e267549a45aa6f72f0ab06f2cc7d92e555f6c9d77"
+    },
+    {
+      "path": "figures/07_stereo.pdf",
+      "lane": "git and source ZIP",
+      "bytes": 293554,
+      "original_sha256": "0d1ba5b9bd9e8b0514cd9672a623e853538c116677c36e5dbe0456a62b06fd6b",
+      "public_sha256": "0d1ba5b9bd9e8b0514cd9672a623e853538c116677c36e5dbe0456a62b06fd6b"
+    },
+    {
+      "path": "figures/07_stereo.png",
+      "lane": "git and source ZIP",
+      "bytes": 852290,
+      "original_sha256": "7e12b0b2991207f26b1f7ac2230cea4a381b9d8c3d59fd8e8e9105aeb227cbef",
+      "public_sha256": "7e12b0b2991207f26b1f7ac2230cea4a381b9d8c3d59fd8e8e9105aeb227cbef"
+    },
+    {
+      "path": "figures/07_stereo.svg",
+      "lane": "git and source ZIP",
+      "bytes": 392483,
+      "original_sha256": "8e0af751af9f0353f902720a26de6a7ac8861c23c0914650d8dd844d825c7c88",
+      "public_sha256": "8e0af751af9f0353f902720a26de6a7ac8861c23c0914650d8dd844d825c7c88"
+    },
+    {
+      "path": "figures/08_wind.pdf",
+      "lane": "git and source ZIP",
+      "bytes": 37620,
+      "original_sha256": "286d6273b67128651e567d269db2e6e6f32ccf9f205787b22a11f4358c852247",
+      "public_sha256": "286d6273b67128651e567d269db2e6e6f32ccf9f205787b22a11f4358c852247"
+    },
+    {
+      "path": "figures/08_wind.png",
+      "lane": "git and source ZIP",
+      "bytes": 95997,
+      "original_sha256": "5bb8512958d161ceab4ae6b1e7b1046013c4626722550db91efc471db8e998c2",
+      "public_sha256": "5bb8512958d161ceab4ae6b1e7b1046013c4626722550db91efc471db8e998c2"
+    },
+    {
+      "path": "figures/08_wind.svg",
+      "lane": "git and source ZIP",
+      "bytes": 8967,
+      "original_sha256": "0bb32fac63120b984df2197e693fb9e07cb44cd7cab61d93df19a5c5e641c37a",
+      "public_sha256": "0bb32fac63120b984df2197e693fb9e07cb44cd7cab61d93df19a5c5e641c37a"
+    },
+    {
+      "path": "figures/09_certificate.pdf",
+      "lane": "git and source ZIP",
+      "bytes": 35947,
+      "original_sha256": "84a82764c98ddfcf457b2cb9a2b0900e260b0fb2996502218d9794795b8cb675",
+      "public_sha256": "84a82764c98ddfcf457b2cb9a2b0900e260b0fb2996502218d9794795b8cb675"
+    },
+    {
+      "path": "figures/09_certificate.png",
+      "lane": "git and source ZIP",
+      "bytes": 79188,
+      "original_sha256": "b7bcc0306c24e450de7583f7478777fa16552ac0e35ed2fb9985018bbf1f2254",
+      "public_sha256": "b7bcc0306c24e450de7583f7478777fa16552ac0e35ed2fb9985018bbf1f2254"
+    },
+    {
+      "path": "figures/09_certificate.svg",
+      "lane": "git and source ZIP",
+      "bytes": 12281,
+      "original_sha256": "3cc17061275c1257f7b0faf4b9c74e7821f70cffa84c5bf4eb26d3cf90412e4f",
+      "public_sha256": "3cc17061275c1257f7b0faf4b9c74e7821f70cffa84c5bf4eb26d3cf90412e4f"
+    },
+    {
+      "path": "figures/10_recorder.pdf",
+      "lane": "git and source ZIP",
+      "bytes": 45173,
+      "original_sha256": "c50f7ba9ab0e4ee5d79a2d3ffe6fe13d687c5594536df4a3c1e83aec7de8424a",
+      "public_sha256": "c50f7ba9ab0e4ee5d79a2d3ffe6fe13d687c5594536df4a3c1e83aec7de8424a"
+    },
+    {
+      "path": "figures/10_recorder.png",
+      "lane": "git and source ZIP",
+      "bytes": 127449,
+      "original_sha256": "1c92c4cb7277398bcb79f48d171c0601dc3c5d3b7913201d8d9ca97f4c8dcd7e",
+      "public_sha256": "1c92c4cb7277398bcb79f48d171c0601dc3c5d3b7913201d8d9ca97f4c8dcd7e"
+    },
+    {
+      "path": "figures/10_recorder.svg",
+      "lane": "git and source ZIP",
+      "bytes": 77365,
+      "original_sha256": "16dc123b066b291606e5ef0466070069fef318d1d05a0aeca309b4fd0ceda803",
+      "public_sha256": "16dc123b066b291606e5ef0466070069fef318d1d05a0aeca309b4fd0ceda803"
+    },
+    {
+      "path": "figures/11_weather.pdf",
+      "lane": "git and source ZIP",
+      "bytes": 38577,
+      "original_sha256": "4078b76f5cf27d9b2277109c2bb7ad5af01342a5252f31b5062cb491a98d6b85",
+      "public_sha256": "4078b76f5cf27d9b2277109c2bb7ad5af01342a5252f31b5062cb491a98d6b85"
+    },
+    {
+      "path": "figures/11_weather.png",
+      "lane": "git and source ZIP",
+      "bytes": 99157,
+      "original_sha256": "f52510b3f45dfe47df64f10dcea8d8ac17cfcf1cb364d4dbea69b13d0d8dba57",
+      "public_sha256": "f52510b3f45dfe47df64f10dcea8d8ac17cfcf1cb364d4dbea69b13d0d8dba57"
+    },
+    {
+      "path": "figures/11_weather.svg",
+      "lane": "git and source ZIP",
+      "bytes": 16265,
+      "original_sha256": "bf570a0224a22fe7dfc13fa1327c4132ee3c6b8a9d75beaac6230f148189a78a",
+      "public_sha256": "bf570a0224a22fe7dfc13fa1327c4132ee3c6b8a9d75beaac6230f148189a78a"
+    },
+    {
+      "path": "figures/12_rollout.pdf",
+      "lane": "git and source ZIP",
+      "bytes": 41306,
+      "original_sha256": "83c642f1e53159bfa1c4fa758d12590eaf5cb06be67707f2ec6c894c50bcf7e0",
+      "public_sha256": "83c642f1e53159bfa1c4fa758d12590eaf5cb06be67707f2ec6c894c50bcf7e0"
+    },
+    {
+      "path": "figures/12_rollout.png",
+      "lane": "git and source ZIP",
+      "bytes": 94914,
+      "original_sha256": "2178edaa174c0f0aefdb51d4347b183e84e7dcccb7247621ebb7d2e342f95ba6",
+      "public_sha256": "2178edaa174c0f0aefdb51d4347b183e84e7dcccb7247621ebb7d2e342f95ba6"
+    },
+    {
+      "path": "figures/12_rollout.svg",
+      "lane": "git and source ZIP",
+      "bytes": 12884,
+      "original_sha256": "defb6326b4904824b6c51ca7caf163e6a26efa2278f989a8153b463fd8d107c5",
+      "public_sha256": "defb6326b4904824b6c51ca7caf163e6a26efa2278f989a8153b463fd8d107c5"
+    },
+    {
+      "path": "figures/A1_paths.pdf",
+      "lane": "git and source ZIP",
+      "bytes": 40447,
+      "original_sha256": "82661cf0694e4129d144f35be16901abafa6e967ebd8a8b965e68c0dd579eee8",
+      "public_sha256": "82661cf0694e4129d144f35be16901abafa6e967ebd8a8b965e68c0dd579eee8"
+    },
+    {
+      "path": "figures/A1_paths.png",
+      "lane": "git and source ZIP",
+      "bytes": 130430,
+      "original_sha256": "add7d358ae4ca0bfaa9a4e73be13873dfcb7bde7592f15c588483f737d4a264d",
+      "public_sha256": "add7d358ae4ca0bfaa9a4e73be13873dfcb7bde7592f15c588483f737d4a264d"
+    },
+    {
+      "path": "figures/A1_paths.svg",
+      "lane": "git and source ZIP",
+      "bytes": 23212,
+      "original_sha256": "4f62d8e8314b08569b7a8250b2263e3e082c5addf3c4294a6f0310bfc32fe608",
+      "public_sha256": "4f62d8e8314b08569b7a8250b2263e3e082c5addf3c4294a6f0310bfc32fe608"
+    },
+    {
+      "path": "figures/A2_controls.pdf",
+      "lane": "git and source ZIP",
+      "bytes": 38365,
+      "original_sha256": "8016670d3a0ce0789158ba0cf6e75bbbad268db82c815e0b0d630c0f0feb0c0f",
+      "public_sha256": "8016670d3a0ce0789158ba0cf6e75bbbad268db82c815e0b0d630c0f0feb0c0f"
+    },
+    {
+      "path": "figures/A2_controls.png",
+      "lane": "git and source ZIP",
+      "bytes": 104986,
+      "original_sha256": "b9b87162e1a309c58cd152afb99083ac1eb5880451a9627ddca3ff0648c8cf5a",
+      "public_sha256": "b9b87162e1a309c58cd152afb99083ac1eb5880451a9627ddca3ff0648c8cf5a"
+    },
+    {
+      "path": "figures/A2_controls.svg",
+      "lane": "git and source ZIP",
+      "bytes": 24962,
+      "original_sha256": "a22b0a7311e86300d434e7843ff9f4505e36cfe851ba6362460593ba59537a80",
+      "public_sha256": "a22b0a7311e86300d434e7843ff9f4505e36cfe851ba6362460593ba59537a80"
+    },
+    {
+      "path": "figures/A3_weather_context.pdf",
+      "lane": "git and source ZIP",
+      "bytes": 31704,
+      "original_sha256": "6a3cdde669dfa0052e5376abfaa05417d8d567b1f849e742804cfcd71600e4b9",
+      "public_sha256": "6a3cdde669dfa0052e5376abfaa05417d8d567b1f849e742804cfcd71600e4b9"
+    },
+    {
+      "path": "figures/A3_weather_context.png",
+      "lane": "git and source ZIP",
+      "bytes": 58387,
+      "original_sha256": "dca241b33b99b4fa08f2482ecf603c9272830b0c714a3706912c8ed5c9aa5927",
+      "public_sha256": "dca241b33b99b4fa08f2482ecf603c9272830b0c714a3706912c8ed5c9aa5927"
+    },
+    {
+      "path": "figures/A3_weather_context.svg",
+      "lane": "git and source ZIP",
+      "bytes": 11348,
+      "original_sha256": "7baa2759877dd6d812d790e54a9519f0276361be02a986a433621864e7e9706f",
+      "public_sha256": "7baa2759877dd6d812d790e54a9519f0276361be02a986a433621864e7e9706f"
+    },
+    {
+      "path": "inputs/11-NE-11A_1989-10_core.json",
+      "lane": "git and source ZIP",
+      "bytes": 842,
+      "original_sha256": "cdd4b3142c28f7d41fee4a0f0bfb63adb3fd0164da9a333c6abd3295f24de022",
+      "public_sha256": "cdd4b3142c28f7d41fee4a0f0bfb63adb3fd0164da9a333c6abd3295f24de022"
+    },
+    {
+      "path": "inputs/11-NE-11A_1989-10_core.png",
+      "lane": "git and source ZIP",
+      "bytes": 2397201,
+      "original_sha256": "7daf2f8720a78b8ded383ae4f0ec811fa18eda1140c1e0248802d94c3b984259",
+      "public_sha256": "7daf2f8720a78b8ded383ae4f0ec811fa18eda1140c1e0248802d94c3b984259"
+    },
+    {
+      "path": "inputs/11-NE-11A_1994-07_core.json",
+      "lane": "git and source ZIP",
+      "bytes": 842,
+      "original_sha256": "413996dbe93645f01065eaaad230e8f0c1238ec32861e74cf985dfe273644fee",
+      "public_sha256": "413996dbe93645f01065eaaad230e8f0c1238ec32861e74cf985dfe273644fee"
+    },
+    {
+      "path": "inputs/11-NE-11A_1994-07_core.png",
+      "lane": "git and source ZIP",
+      "bytes": 2437557,
+      "original_sha256": "ff47e9e448d5ec708e3fcc2978312eff62e712aff88433a36884c47539f22805",
+      "public_sha256": "ff47e9e448d5ec708e3fcc2978312eff62e712aff88433a36884c47539f22805"
+    },
+    {
+      "path": "inputs/A36143.jpg",
+      "lane": "git and source ZIP",
+      "bytes": 818247,
+      "original_sha256": "e8439e24ffd7acbbaf7b5247b2fddbd7a52fd079e3c986481771efe204eaf289",
+      "public_sha256": "e8439e24ffd7acbbaf7b5247b2fddbd7a52fd079e3c986481771efe204eaf289"
+    },
+    {
+      "path": "inputs/A36143_product.json",
+      "lane": "git and source ZIP",
+      "bytes": 757,
+      "original_sha256": "f7f3a2bd73ed0d92c4ed0dcbcf800ba26212988f69dafc5ed258001e0ae5f65a",
+      "public_sha256": "f7f3a2bd73ed0d92c4ed0dcbcf800ba26212988f69dafc5ed258001e0ae5f65a"
+    },
+    {
+      "path": "inputs/historical/A36142.jpg",
+      "lane": "git and source ZIP",
+      "bytes": 876169,
+      "original_sha256": "42da43eebfa6eae39597ea16d917f900986d80f7c069b909ebbe3563fc074767",
+      "public_sha256": "42da43eebfa6eae39597ea16d917f900986d80f7c069b909ebbe3563fc074767"
+    },
+    {
+      "path": "inputs/historical/CN4581.jpg",
+      "lane": "git and source ZIP",
+      "bytes": 761048,
+      "original_sha256": "4510ec691117b2929e1f6da51a49905ec8a7bf992faf220d845910fd74760a83",
+      "public_sha256": "4510ec691117b2929e1f6da51a49905ec8a7bf992faf220d845910fd74760a83"
+    },
+    {
+      "path": "inputs/historical/CN4589.jpg",
+      "lane": "git and source ZIP",
+      "bytes": 688412,
+      "original_sha256": "67a0c8b715686b7f3a342307454cae7fa134cf17c0dfbc8a5babb097d1f24fec",
+      "public_sha256": "67a0c8b715686b7f3a342307454cae7fa134cf17c0dfbc8a5babb097d1f24fec"
+    },
+    {
+      "path": "inputs/historical/SOURCE_MANIFEST.json",
+      "lane": "git and source ZIP",
+      "bytes": 11626,
+      "original_sha256": "560eb20f94e6284f213c4ffd43b9f25c386d17ba593bfc96257dfe389f3680e2",
+      "public_sha256": "560eb20f94e6284f213c4ffd43b9f25c386d17ba593bfc96257dfe389f3680e2"
+    },
+    {
+      "path": "inputs/historical/aerial_fullframe_manifest.json",
+      "lane": "git and source ZIP",
+      "bytes": 43488,
+      "original_sha256": "c8f5dbaeec03c4096af7a29f6de0b9300dc0c114b1c892d5210199556a805a99",
+      "public_sha256": "c8f5dbaeec03c4096af7a29f6de0b9300dc0c114b1c892d5210199556a805a99"
+    },
+    {
+      "path": "inputs/historical/landmark_frame_matches.csv",
+      "lane": "git and source ZIP",
+      "bytes": 431690,
+      "original_sha256": "e50ce772f1001f7d098d4334a82c98f0c0f3ce0ecfa7d47da94474a61eec6d00",
+      "public_sha256": "e50ce772f1001f7d098d4334a82c98f0c0f3ce0ecfa7d47da94474a61eec6d00"
+    },
+    {
+      "path": "inputs/historical/manual_stereo_labels.json",
+      "lane": "git and source ZIP",
+      "bytes": 3321,
+      "original_sha256": "254dca4fc0dd95088e7a0f9e6af8846a83c49cb90827e0e265439a08662da7c1",
+      "public_sha256": "254dca4fc0dd95088e7a0f9e6af8846a83c49cb90827e0e265439a08662da7c1"
+    },
+    {
+      "path": "inputs/historical/observed_surface_mesh.ply",
+      "lane": "git and source ZIP",
+      "bytes": 17350341,
+      "original_sha256": "49866bd77fd74a04f8ba18e8a734d05ee169b2ddd9bc7d74b6039800869a8323",
+      "public_sha256": "49866bd77fd74a04f8ba18e8a734d05ee169b2ddd9bc7d74b6039800869a8323"
+    },
+    {
+      "path": "inputs/historical/registration.json",
+      "lane": "git and source ZIP",
+      "bytes": 3060,
+      "original_sha256": "5778db43d56cff962f666fcb44208a2dd7f300474c0b83c09addba3933dc2965",
+      "public_sha256": "5778db43d56cff962f666fcb44208a2dd7f300474c0b83c09addba3933dc2965"
+    },
+    {
+      "path": "inputs/historical/sparse_stereo_points.csv",
+      "lane": "git and source ZIP",
+      "bytes": 301054,
+      "original_sha256": "841a89fb4560e2b7c3513f44f5ed836efa5467267482b3d5e980ae40fb025324",
+      "public_sha256": "841a89fb4560e2b7c3513f44f5ed836efa5467267482b3d5e980ae40fb025324"
+    },
+    {
+      "path": "inputs/historical/sparse_stereo_report.json",
+      "lane": "git and source ZIP",
+      "bytes": 9195,
+      "original_sha256": "17c70dac3685c3f04eb9d01026aaf3c74ed32313e70755bb854f9afc58377bc9",
+      "public_sha256": "17c70dac3685c3f04eb9d01026aaf3c74ed32313e70755bb854f9afc58377bc9"
+    },
+    {
+      "path": "inputs/historical/stereo_ground_controls.json",
+      "lane": "git and source ZIP",
+      "bytes": 7255,
+      "original_sha256": "3337245f1865f3573ca6c1bfcc11c45f85b6e4a547c834a56240a08035785903",
+      "public_sha256": "3337245f1865f3573ca6c1bfcc11c45f85b6e4a547c834a56240a08035785903"
+    },
+    {
+      "path": "inputs/historical_faces.geojson",
+      "lane": "git and source ZIP",
+      "bytes": 312728,
+      "original_sha256": "f866def637ad2c3495e9a9463a6abfc1b04cbf600b8b52b6ed5ee503bd749ef7",
+      "public_sha256": "f866def637ad2c3495e9a9463a6abfc1b04cbf600b8b52b6ed5ee503bd749ef7"
+    },
+    {
+      "path": "inputs/provenance.json",
+      "lane": "git and source ZIP",
+      "bytes": 3118,
+      "original_sha256": "b52a0a10f9ed366c5a5ef90b44801392f309cdcf5cca95b3aeff4730879d07c4",
+      "public_sha256": "b52a0a10f9ed366c5a5ef90b44801392f309cdcf5cca95b3aeff4730879d07c4"
+    },
+    {
+      "path": "main.tex",
+      "lane": "git and source ZIP",
+      "bytes": 1607,
+      "original_sha256": "b255cabb33a37a0343cf680aecb84f6e2a1c63fac55a21090ce97773fdd4b5f3",
+      "public_sha256": "b255cabb33a37a0343cf680aecb84f6e2a1c63fac55a21090ce97773fdd4b5f3"
+    },
+    {
+      "path": "make_figures.py",
+      "lane": "git and source ZIP",
+      "bytes": 1095,
+      "original_sha256": "77836106ae39e83f5697dfae06ebabd994e7186e52d01f9ddc9425e16710be67",
+      "public_sha256": "77836106ae39e83f5697dfae06ebabd994e7186e52d01f9ddc9425e16710be67"
+    },
+    {
+      "path": "package_sources.py",
+      "lane": "git and source ZIP",
+      "bytes": 2225,
+      "original_sha256": "1aa9090ab28d6121ac349251cfc17dbdcd5f34e93a0b8556487cb063dd6433ee",
+      "public_sha256": "1aa9090ab28d6121ac349251cfc17dbdcd5f34e93a0b8556487cb063dd6433ee"
+    },
+    {
+      "path": "presentation/01_place.png",
+      "lane": "git and source ZIP",
+      "bytes": 10856277,
+      "original_sha256": "6e53a1e87813ad70f62c12e25ce2558fda35880dc2cf57d8b758a84794b80180",
+      "public_sha256": "6e53a1e87813ad70f62c12e25ce2558fda35880dc2cf57d8b758a84794b80180"
+    },
+    {
+      "path": "presentation/02_bearings.png",
+      "lane": "git and source ZIP",
+      "bytes": 1329146,
+      "original_sha256": "ea902053bec0faf6b30a94fed7b3edebd347773ebbfb299d62adc2ea9abf91c6",
+      "public_sha256": "ea902053bec0faf6b30a94fed7b3edebd347773ebbfb299d62adc2ea9abf91c6"
+    },
+    {
+      "path": "presentation/03_turn.png",
+      "lane": "git and source ZIP",
+      "bytes": 415217,
+      "original_sha256": "b5893cf8153e87b988ab1f94d890f255d7a8db13029393806b4a1d3adc51b3d2",
+      "public_sha256": "b5893cf8153e87b988ab1f94d890f255d7a8db13029393806b4a1d3adc51b3d2"
+    },
+    {
+      "path": "presentation/04_landing.png",
+      "lane": "git and source ZIP",
+      "bytes": 495521,
+      "original_sha256": "9af4cabdfa980f104eec421f3560237a121b270999a10e6487702d8f0948e4d9",
+      "public_sha256": "9af4cabdfa980f104eec421f3560237a121b270999a10e6487702d8f0948e4d9"
+    },
+    {
+      "path": "presentation/05_runway.png",
+      "lane": "git and source ZIP",
+      "bytes": 360095,
+      "original_sha256": "43569141a7a3b685bebba8afb87a01525e37773db8c5cc32a89fb30def571808",
+      "public_sha256": "43569141a7a3b685bebba8afb87a01525e37773db8c5cc32a89fb30def571808"
+    },
+    {
+      "path": "presentation/06_maps.png",
+      "lane": "git and source ZIP",
+      "bytes": 4209332,
+      "original_sha256": "89712fa1a10f221275495ad425eb6b1e491c2ced9881fa97e28b07c8c132c954",
+      "public_sha256": "89712fa1a10f221275495ad425eb6b1e491c2ced9881fa97e28b07c8c132c954"
+    },
+    {
+      "path": "presentation/07_stereo.png",
+      "lane": "git and source ZIP",
+      "bytes": 5626244,
+      "original_sha256": "06e7ea4087633ad816fe7f4e446fa56a8c01ccc82d3c82e9ce386063bed5a126",
+      "public_sha256": "06e7ea4087633ad816fe7f4e446fa56a8c01ccc82d3c82e9ce386063bed5a126"
+    },
+    {
+      "path": "presentation/08_wind.png",
+      "lane": "git and source ZIP",
+      "bytes": 305277,
+      "original_sha256": "87d94a5d52afa3ed4699c567c82214c87941d993ce6eb1ac7d252c29462395ba",
+      "public_sha256": "87d94a5d52afa3ed4699c567c82214c87941d993ce6eb1ac7d252c29462395ba"
+    },
+    {
+      "path": "presentation/09_certificate.png",
+      "lane": "git and source ZIP",
+      "bytes": 287912,
+      "original_sha256": "c9a5a695e0e23fd6da56d2b11e6b93c28276859ae97f747fb413492ff34c1410",
+      "public_sha256": "c9a5a695e0e23fd6da56d2b11e6b93c28276859ae97f747fb413492ff34c1410"
+    },
+    {
+      "path": "presentation/10_recorder.png",
+      "lane": "git and source ZIP",
+      "bytes": 511345,
+      "original_sha256": "2c69b0bd2fbf32ba7985d0d3ff33f1423f81b964908298880567d86de1148d87",
+      "public_sha256": "2c69b0bd2fbf32ba7985d0d3ff33f1423f81b964908298880567d86de1148d87"
+    },
+    {
+      "path": "presentation/11_weather.png",
+      "lane": "git and source ZIP",
+      "bytes": 368332,
+      "original_sha256": "2a09fdfe52469e7c82db801a1927abf1e6003b266005636f913e520bbb75420b",
+      "public_sha256": "2a09fdfe52469e7c82db801a1927abf1e6003b266005636f913e520bbb75420b"
+    },
+    {
+      "path": "presentation/12_rollout.png",
+      "lane": "git and source ZIP",
+      "bytes": 344514,
+      "original_sha256": "a1f4a15a8de4ae3759f6b9cd39b687e884250a097f0128dfce831deb5bccd204",
+      "public_sha256": "a1f4a15a8de4ae3759f6b9cd39b687e884250a097f0128dfce831deb5bccd204"
+    },
+    {
+      "path": "presentation/A1_paths.png",
+      "lane": "git and source ZIP",
+      "bytes": 471769,
+      "original_sha256": "50cef329f3ee871a4bb85b0091a5fed9eb81f7fd459aaa85fd46c33394c3032b",
+      "public_sha256": "50cef329f3ee871a4bb85b0091a5fed9eb81f7fd459aaa85fd46c33394c3032b"
+    },
+    {
+      "path": "presentation/A2_controls.png",
+      "lane": "git and source ZIP",
+      "bytes": 377429,
+      "original_sha256": "c27a1ec0c92b13cd65dfd0505dd47975b606ff84c977da75c640f401e6780d33",
+      "public_sha256": "c27a1ec0c92b13cd65dfd0505dd47975b606ff84c977da75c640f401e6780d33"
+    },
+    {
+      "path": "presentation/A3_weather_context.png",
+      "lane": "git and source ZIP",
+      "bytes": 220078,
+      "original_sha256": "e56f3936a23111881ea300b0952e5b3a82b044989272ca6fd72330dbc70ac51f",
+      "public_sha256": "e56f3936a23111881ea300b0952e5b3a82b044989272ca6fd72330dbc70ac51f"
+    },
+    {
+      "path": "qa/caveat_audit_checks.json",
+      "lane": "git and source ZIP",
+      "bytes": 138,
+      "original_sha256": "ea9b912a4053f51554598815918bc16ed75b594bc89694e4bd1c5dfce7198a64",
+      "public_sha256": "ea9b912a4053f51554598815918bc16ed75b594bc89694e4bd1c5dfce7198a64"
+    },
+    {
+      "path": "qa/clean_build_verification.json",
+      "lane": "git and source ZIP",
+      "bytes": 48389,
+      "original_sha256": "666926b45e9507324eadf960b43a7728abea2120698863e34e37a9b3e64efab1",
+      "public_sha256": "666926b45e9507324eadf960b43a7728abea2120698863e34e37a9b3e64efab1"
+    },
+    {
+      "path": "qa/document_checks.json",
+      "lane": "git and source ZIP",
+      "bytes": 9139,
+      "original_sha256": "d958ca2fedd6d2e91f24633b246ab311394afb2fffdb7876b1d6926d8ee76654",
+      "public_sha256": "d958ca2fedd6d2e91f24633b246ab311394afb2fffdb7876b1d6926d8ee76654"
+    },
+    {
+      "path": "qa/figure-records/01_place.json",
+      "lane": "git and source ZIP",
+      "bytes": 1591,
+      "original_sha256": "34a7ae24965f3d5b021bfe43494d6621409514f3c1a61e7ae9cbf2cacbb11583",
+      "public_sha256": "34a7ae24965f3d5b021bfe43494d6621409514f3c1a61e7ae9cbf2cacbb11583"
+    },
+    {
+      "path": "qa/figure-records/02_bearings.json",
+      "lane": "git and source ZIP",
+      "bytes": 1547,
+      "original_sha256": "6fd916c6f31b26b369dcea7bee773575014e4739d5ea63ddeb03c2339ad34324",
+      "public_sha256": "6fd916c6f31b26b369dcea7bee773575014e4739d5ea63ddeb03c2339ad34324"
+    },
+    {
+      "path": "qa/figure-records/03_turn.json",
+      "lane": "git and source ZIP",
+      "bytes": 691,
+      "original_sha256": "d5ace17aa42113aa608d9b9a93084b7989ee6de6519ebfcac97d4cd27f3f22b7",
+      "public_sha256": "d5ace17aa42113aa608d9b9a93084b7989ee6de6519ebfcac97d4cd27f3f22b7"
+    },
+    {
+      "path": "qa/figure-records/04_landing.json",
+      "lane": "git and source ZIP",
+      "bytes": 914,
+      "original_sha256": "7662784ccb0074f1c28fe5ec58477ae8a3ceb9bd8949707fa1e63e412ab4621e",
+      "public_sha256": "7662784ccb0074f1c28fe5ec58477ae8a3ceb9bd8949707fa1e63e412ab4621e"
+    },
+    {
+      "path": "qa/figure-records/05_runway.json",
+      "lane": "git and source ZIP",
+      "bytes": 1265,
+      "original_sha256": "99b4d40137b7253157da470babe7ae7a8c63837d3d11a1d392b0763928eb0ca1",
+      "public_sha256": "99b4d40137b7253157da470babe7ae7a8c63837d3d11a1d392b0763928eb0ca1"
+    },
+    {
+      "path": "qa/figure-records/06_maps.json",
+      "lane": "git and source ZIP",
+      "bytes": 1814,
+      "original_sha256": "45a2f31f36b13bd48fb5fc55d7d17828866028f7d1b88fa3d11ed7fe830e54d7",
+      "public_sha256": "45a2f31f36b13bd48fb5fc55d7d17828866028f7d1b88fa3d11ed7fe830e54d7"
+    },
+    {
+      "path": "qa/figure-records/07_stereo.json",
+      "lane": "git and source ZIP",
+      "bytes": 2810,
+      "original_sha256": "3513da44f96e6e96d1ef916b4ff2c58fd3f59978261ccddcdec639607162cd1e",
+      "public_sha256": "3513da44f96e6e96d1ef916b4ff2c58fd3f59978261ccddcdec639607162cd1e"
+    },
+    {
+      "path": "qa/figure-records/08_wind.json",
+      "lane": "git and source ZIP",
+      "bytes": 663,
+      "original_sha256": "c2bc3d7e68320fcae12049d2c84ff086e8fcd81de952ec179c85877a1244dc01",
+      "public_sha256": "c2bc3d7e68320fcae12049d2c84ff086e8fcd81de952ec179c85877a1244dc01"
+    },
+    {
+      "path": "qa/figure-records/09_certificate.json",
+      "lane": "git and source ZIP",
+      "bytes": 1064,
+      "original_sha256": "18bf8a936452b7fc6055b98c5791a1323c191bbb7aea2278477490df00fa2f6d",
+      "public_sha256": "18bf8a936452b7fc6055b98c5791a1323c191bbb7aea2278477490df00fa2f6d"
+    },
+    {
+      "path": "qa/figure-records/10_recorder.json",
+      "lane": "git and source ZIP",
+      "bytes": 18140,
+      "original_sha256": "2d240c19da9a72805d3f1c17d9ed70c21d68605fcfa2da8c40babab86182bff8",
+      "public_sha256": "2d240c19da9a72805d3f1c17d9ed70c21d68605fcfa2da8c40babab86182bff8"
+    },
+    {
+      "path": "qa/figure-records/11_weather.json",
+      "lane": "git and source ZIP",
+      "bytes": 2570,
+      "original_sha256": "bac7b692fa5ce54a4b47e614ca8dc7a96b0dea5332e7d22015b124ec552ca76f",
+      "public_sha256": "bac7b692fa5ce54a4b47e614ca8dc7a96b0dea5332e7d22015b124ec552ca76f"
+    },
+    {
+      "path": "qa/figure-records/12_rollout.json",
+      "lane": "git and source ZIP",
+      "bytes": 2314,
+      "original_sha256": "3c38d24c02681a0ab753af13e06cedf6c9681a3f48228549dc8028c9c4579feb",
+      "public_sha256": "3c38d24c02681a0ab753af13e06cedf6c9681a3f48228549dc8028c9c4579feb"
+    },
+    {
+      "path": "qa/figure-records/A1_paths.json",
+      "lane": "git and source ZIP",
+      "bytes": 688,
+      "original_sha256": "cc53106dec757389a2e43bd2029004590a57a0e8115d99c295050eba9e239cf0",
+      "public_sha256": "cc53106dec757389a2e43bd2029004590a57a0e8115d99c295050eba9e239cf0"
+    },
+    {
+      "path": "qa/figure-records/A2_controls.json",
+      "lane": "git and source ZIP",
+      "bytes": 706,
+      "original_sha256": "061960a642eea7f18ef525719368e16fb096bb675cd02054e30c9be484e17a08",
+      "public_sha256": "061960a642eea7f18ef525719368e16fb096bb675cd02054e30c9be484e17a08"
+    },
+    {
+      "path": "qa/figure-records/A3_weather_context.json",
+      "lane": "git and source ZIP",
+      "bytes": 1812,
+      "original_sha256": "c497129fb3c462b45131eab8edfaaa3d30794ab021398120b8f091889fd4c3b5",
+      "public_sha256": "c497129fb3c462b45131eab8edfaaa3d30794ab021398120b8f091889fd4c3b5"
+    },
+    {
+      "path": "qa/figure-records/evidence_visual_inspection.json",
+      "lane": "git and source ZIP",
+      "bytes": 2134,
+      "original_sha256": "201dcb148e4526f0eb538880186555a5cc997b8a6df41111d0a2b26fe824bc19",
+      "public_sha256": "201dcb148e4526f0eb538880186555a5cc997b8a6df41111d0a2b26fe824bc19"
+    },
+    {
+      "path": "qa/figure_provenance.json",
+      "lane": "git and source ZIP",
+      "bytes": 42153,
+      "original_sha256": "4e46b2d680d7d7f2231b7996e8318af7ab7449f9e12a2a3bd5868816662f15bb",
+      "public_sha256": "4e46b2d680d7d7f2231b7996e8318af7ab7449f9e12a2a3bd5868816662f15bb"
+    },
+    {
+      "path": "qa/final_layout_delta.json",
+      "lane": "git and source ZIP",
+      "bytes": 1238,
+      "original_sha256": "a44895455edf37aa8861bbf40c29cc8727f093f4da1f1ff148f15c460e951255",
+      "public_sha256": "a44895455edf37aa8861bbf40c29cc8727f093f4da1f1ff148f15c460e951255"
+    },
+    {
+      "path": "qa/fonts.txt",
+      "lane": "git and source ZIP",
+      "bytes": 4136,
+      "original_sha256": "e1df4d0385de78a870f1803ce640bf7e0b0fc6a3ca4870ac9f4bdee57bb9e900",
+      "public_sha256": "e1df4d0385de78a870f1803ce640bf7e0b0fc6a3ca4870ac9f4bdee57bb9e900"
+    },
+    {
+      "path": "qa/fresh_calm_certificate.json",
+      "lane": "git and source ZIP",
+      "bytes": 233252,
+      "original_sha256": "0a693c73f24673d0ec06c2d44bb5dbf2e536805c9407fdf7967eb7c78568b109",
+      "public_sha256": "0a693c73f24673d0ec06c2d44bb5dbf2e536805c9407fdf7967eb7c78568b109"
+    },
+    {
+      "path": "qa/fresh_wind_certificate.json",
+      "lane": "git and source ZIP",
+      "bytes": 32524,
+      "original_sha256": "3a627ebc24ce4c3c1b4c4ffe9bb557ffb186185a7683253b50fdc01b993eac65",
+      "public_sha256": "3a627ebc24ce4c3c1b4c4ffe9bb557ffb186185a7683253b50fdc01b993eac65"
+    },
+    {
+      "path": "qa/pre_final_layout.json",
+      "lane": "git and source ZIP",
+      "bytes": 3061,
+      "original_sha256": "61e8a0748fecd0ce77de8118e85d96c3e07f86f5ed6acb216454e2a7140b8196",
+      "public_sha256": "61e8a0748fecd0ce77de8118e85d96c3e07f86f5ed6acb216454e2a7140b8196"
+    },
+    {
+      "path": "qa/prototype_gate.json",
+      "lane": "git and source ZIP",
+      "bytes": 667,
+      "original_sha256": "21b7fa977e4e7f9deea62ac0d2d24b32742e7b317491a9dbb8815c5e7e0fdc9d",
+      "public_sha256": "21b7fa977e4e7f9deea62ac0d2d24b32742e7b317491a9dbb8815c5e7e0fdc9d"
+    },
+    {
+      "path": "qa/science_certificates.json",
+      "lane": "git and source ZIP",
+      "bytes": 912,
+      "original_sha256": "fffa21588aa41d714f280e069c0cef1d3f0ce4fcc9e7d1002724b544ae50854d",
+      "public_sha256": "fffa21588aa41d714f280e069c0cef1d3f0ce4fcc9e7d1002724b544ae50854d"
+    },
+    {
+      "path": "qa/science_checks.json",
+      "lane": "git and source ZIP",
+      "bytes": 19949,
+      "original_sha256": "7ee0843d8cd3df5097f56367e7ac0189ce46e131e4b5dc80bab2c67523243edf",
+      "public_sha256": "7ee0843d8cd3df5097f56367e7ac0189ce46e131e4b5dc80bab2c67523243edf"
+    },
+    {
+      "path": "qa/science_checks_fresh_bound.json",
+      "lane": "git and source ZIP",
+      "bytes": 19949,
+      "original_sha256": "7ee0843d8cd3df5097f56367e7ac0189ce46e131e4b5dc80bab2c67523243edf",
+      "public_sha256": "7ee0843d8cd3df5097f56367e7ac0189ce46e131e4b5dc80bab2c67523243edf"
+    },
+    {
+      "path": "qa/science_figure_initial_findings.json",
+      "lane": "git and source ZIP",
+      "bytes": 376,
+      "original_sha256": "eb6f6ea814826723568969d4c8d84fbcf6d6d1b60c2528460304946966ee9905",
+      "public_sha256": "eb6f6ea814826723568969d4c8d84fbcf6d6d1b60c2528460304946966ee9905"
+    },
+    {
+      "path": "qa/science_figure_semantics.json",
+      "lane": "git and source ZIP",
+      "bytes": 3707,
+      "original_sha256": "3e9a28bd94b82ca9f96a8c218f6563143bd18758f35462a079374e795064f8d4",
+      "public_sha256": "3e9a28bd94b82ca9f96a8c218f6563143bd18758f35462a079374e795064f8d4"
+    },
+    {
+      "path": "qa/science_fresh_calm_bound.json",
+      "lane": "git and source ZIP",
+      "bytes": 851,
+      "original_sha256": "3c0887817a4bb387d6fd4a07f8fb5d12f1527d9f713a8a79b3cea73a2a5e9106",
+      "public_sha256": "3c0887817a4bb387d6fd4a07f8fb5d12f1527d9f713a8a79b3cea73a2a5e9106"
+    },
+    {
+      "path": "qa/science_independent_editorial_read.json",
+      "lane": "git and source ZIP",
+      "bytes": 1426,
+      "original_sha256": "f3af9835da99e4d31b6500f7e0286ca847570d585e34b85304b55bb47a2749ae",
+      "public_sha256": "f3af9835da99e4d31b6500f7e0286ca847570d585e34b85304b55bb47a2749ae"
+    },
+    {
+      "path": "qa/science_manuscript.json",
+      "lane": "git and source ZIP",
+      "bytes": 3651,
+      "original_sha256": "76dbb7bc12259ead6cc37db1bf599f5f80430788f593e621935bcc3519305afc",
+      "public_sha256": "76dbb7bc12259ead6cc37db1bf599f5f80430788f593e621935bcc3519305afc"
+    },
+    {
+      "path": "qa/science_sources.json",
+      "lane": "git and source ZIP",
+      "bytes": 2208,
+      "original_sha256": "f1bf38e0f00ffd46f382e462bb65946a21d1fe57482d83273c499920a045b903",
+      "public_sha256": "f1bf38e0f00ffd46f382e462bb65946a21d1fe57482d83273c499920a045b903"
+    },
+    {
+      "path": "qa/science_tests.json",
+      "lane": "git and source ZIP",
+      "bytes": 1179,
+      "original_sha256": "9158f64c6b2db78f85c0fec56a77e522c30b01696157f685d38a667d9e55518f",
+      "public_sha256": "9158f64c6b2db78f85c0fec56a77e522c30b01696157f685d38a667d9e55518f"
+    },
+    {
+      "path": "qa/v4_preservation.json",
+      "lane": "git and source ZIP",
+      "bytes": 142,
+      "original_sha256": "7ea523c631741cd0bd488463f3aa5e4554985e0c21224ad5973ddbdecdb82ee9",
+      "public_sha256": "7ea523c631741cd0bd488463f3aa5e4554985e0c21224ad5973ddbdecdb82ee9"
+    },
+    {
+      "path": "qa/visual-review-13-26.json",
+      "lane": "git and source ZIP",
+      "bytes": 13043,
+      "original_sha256": "ace0c4993ed30f9b4e2b9901b0e74332b2163d1f0460a69ce0dfe2c803b77904",
+      "public_sha256": "ace0c4993ed30f9b4e2b9901b0e74332b2163d1f0460a69ce0dfe2c803b77904"
+    },
+    {
+      "path": "qa/visual-review-29-38.json",
+      "lane": "git and source ZIP",
+      "bytes": 5446,
+      "original_sha256": "55fda6b0d723f158a82ff5bef945a4e1e891a2459c574b9be3727a062260ff5f",
+      "public_sha256": "55fda6b0d723f158a82ff5bef945a4e1e891a2459c574b9be3727a062260ff5f"
+    },
+    {
+      "path": "qa/visual_inspection.json",
+      "lane": "git and source ZIP",
+      "bytes": 15464,
+      "original_sha256": "ec104be77000ed52363bb8099005ad3e699a67cc23cda5108330d657055902b2",
+      "public_sha256": "ec104be77000ed52363bb8099005ad3e699a67cc23cda5108330d657055902b2"
+    },
+    {
+      "path": "references.bib",
+      "lane": "git and source ZIP",
+      "bytes": 4499,
+      "original_sha256": "a41e080f65120368f22e5e320455051128252383fd2c9ff36de5ca012720599e",
+      "public_sha256": "a41e080f65120368f22e5e320455051128252383fd2c9ff36de5ca012720599e"
+    },
+    {
+      "path": "requirements.txt",
+      "lane": "git and source ZIP",
+      "bytes": 105,
+      "original_sha256": "598c89bf583b4b6a5f1a35561f0856f9b4b7d013a725860bee238800c5d99b8c",
+      "public_sha256": "598c89bf583b4b6a5f1a35561f0856f9b4b7d013a725860bee238800c5d99b8c"
+    },
+    {
+      "path": "rfs-workingpaper.sty",
+      "lane": "git and source ZIP",
+      "bytes": 5589,
+      "original_sha256": "7a7610ad48e746b1cdd0e67a37c4c3ddefdc15f0358a81495f517b4717d97424",
+      "public_sha256": "7a7610ad48e746b1cdd0e67a37c4c3ddefdc15f0358a81495f517b4717d97424"
+    },
+    {
+      "path": "rfs.bst",
+      "lane": "git and source ZIP",
+      "bytes": 35792,
+      "original_sha256": "5a1bdf7baa70add87e9c24073b03de7b12f64a70526aa4c37e6fc89136dfeed4",
+      "public_sha256": "5a1bdf7baa70add87e9c24073b03de7b12f64a70526aa4c37e6fc89136dfeed4"
+    },
+    {
+      "path": "scripts/evidence_figures.py",
+      "lane": "git and source ZIP",
+      "bytes": 16045,
+      "original_sha256": "cb8cae75f74ab6d3608dcad22fcdfbf277abf7621210f288bcebf553c29b3022",
+      "public_sha256": "cb8cae75f74ab6d3608dcad22fcdfbf277abf7621210f288bcebf553c29b3022"
+    },
+    {
+      "path": "scripts/figure_style.py",
+      "lane": "git and source ZIP",
+      "bytes": 3092,
+      "original_sha256": "c7b14ce3481d69c51e0162837d5282e6c4712a58b8eb9fb676d39057e60bdbf5",
+      "public_sha256": "c7b14ce3481d69c51e0162837d5282e6c4712a58b8eb9fb676d39057e60bdbf5"
+    },
+    {
+      "path": "scripts/historical_figures.py",
+      "lane": "git and source ZIP",
+      "bytes": 16453,
+      "original_sha256": "5b94ddcb9220ce2071f67a13dc721a76c90dfe18889488b402b7319a00f5de29",
+      "public_sha256": "5b94ddcb9220ce2071f67a13dc721a76c90dfe18889488b402b7319a00f5de29"
+    },
+    {
+      "path": "scripts/mechanics_figures.py",
+      "lane": "git and source ZIP",
+      "bytes": 17191,
+      "original_sha256": "50ce5ddfe9cf977d050b4099e95d9e550b5b419e9fc96ddeda72ca896a4ce2de",
+      "public_sha256": "50ce5ddfe9cf977d050b4099e95d9e550b5b419e9fc96ddeda72ca896a4ce2de"
+    },
+    {
+      "path": "scripts/verify_v5_figures.py",
+      "lane": "git and source ZIP",
+      "bytes": 5982,
+      "original_sha256": "a8429efd374cdf9296dc127f291c171a9b5c67088ca5dc61e423c0d34cc421fa",
+      "public_sha256": "a8429efd374cdf9296dc127f291c171a9b5c67088ca5dc61e423c0d34cc421fa"
+    },
+    {
+      "path": "scripts/verify_v5_science.py",
+      "lane": "git and source ZIP",
+      "bytes": 17213,
+      "original_sha256": "3b1b7e1452b39308c9c38624b3f786716c39efa21824272ba899a7a7aaf820fd",
+      "public_sha256": "3b1b7e1452b39308c9c38624b3f786716c39efa21824272ba899a7a7aaf820fd"
+    },
+    {
+      "path": "sections/act1.tex",
+      "lane": "git and source ZIP",
+      "bytes": 4781,
+      "original_sha256": "fd73e16e6d546dc405880b0eccbda5141f938bb2a4775d92787451c7fed9def5",
+      "public_sha256": "fd73e16e6d546dc405880b0eccbda5141f938bb2a4775d92787451c7fed9def5"
+    },
+    {
+      "path": "sections/act2.tex",
+      "lane": "git and source ZIP",
+      "bytes": 3791,
+      "original_sha256": "322c982da59ab9e99fa76f5015a9e1ffc3850cbe226b4b2c845f14f7cbf961e9",
+      "public_sha256": "322c982da59ab9e99fa76f5015a9e1ffc3850cbe226b4b2c845f14f7cbf961e9"
+    },
+    {
+      "path": "sections/act3.tex",
+      "lane": "git and source ZIP",
+      "bytes": 7927,
+      "original_sha256": "d579b81c9a2f894f8a4888355c10335340bc7c70a9ce43991c2a54d3e3737958",
+      "public_sha256": "d579b81c9a2f894f8a4888355c10335340bc7c70a9ce43991c2a54d3e3737958"
+    },
+    {
+      "path": "sections/act4.tex",
+      "lane": "git and source ZIP",
+      "bytes": 6855,
+      "original_sha256": "2a0de20ecafdbefb770f6f54dd3d2ee8bb12647999047a10b4c14fb7040cba2b",
+      "public_sha256": "2a0de20ecafdbefb770f6f54dd3d2ee8bb12647999047a10b4c14fb7040cba2b"
+    },
+    {
+      "path": "sections/act5.tex",
+      "lane": "git and source ZIP",
+      "bytes": 7113,
+      "original_sha256": "cfb421b72321b402f2f039a01392a25355f889b2e80a1387e89963ef1e23a533",
+      "public_sha256": "cfb421b72321b402f2f039a01392a25355f889b2e80a1387e89963ef1e23a533"
+    },
+    {
+      "path": "sections/act6.tex",
+      "lane": "git and source ZIP",
+      "bytes": 8295,
+      "original_sha256": "3582e4dff4d4d28768ccf5a511607c50d23a952a07ff20a2c92e54eb42c26b77",
+      "public_sha256": "3582e4dff4d4d28768ccf5a511607c50d23a952a07ff20a2c92e54eb42c26b77"
+    },
+    {
+      "path": "sections/act7.tex",
+      "lane": "git and source ZIP",
+      "bytes": 3098,
+      "original_sha256": "0073f6b174080fb4b54942f283214575da76e144c3fcf680a1a235fa1bb5d649",
+      "public_sha256": "0073f6b174080fb4b54942f283214575da76e144c3fcf680a1a235fa1bb5d649"
+    },
+    {
+      "path": "sections/foreword.tex",
+      "lane": "git and source ZIP",
+      "bytes": 1503,
+      "original_sha256": "c5d2fd89ee9ed6202ee3e249eeb79a4d3317fb4682334507ad371833f6d3a447",
+      "public_sha256": "c5d2fd89ee9ed6202ee3e249eeb79a4d3317fb4682334507ad371833f6d3a447"
+    },
+    {
+      "path": "verify_certificates.py",
+      "lane": "git and source ZIP",
+      "bytes": 1581,
+      "original_sha256": "3d075c631b1828b3a802466ba5183aa1e8de76fe0a7fa15c58c2966c128369f8",
+      "public_sha256": "3d075c631b1828b3a802466ba5183aa1e8de76fe0a7fa15c58c2966c128369f8"
+    },
+    {
+      "path": "verify_v2_inputs.py",
+      "lane": "git and source ZIP",
+      "bytes": 15159,
+      "original_sha256": "6d417df3e53fda8f5db0e76b0eb6cddf4b3f480e740064cf284a810bb77750ff",
+      "public_sha256": "6d417df3e53fda8f5db0e76b0eb6cddf4b3f480e740064cf284a810bb77750ff"
+    },
+    {
+      "path": "verify_v3_claims.py",
+      "lane": "git and source ZIP",
+      "bytes": 1737,
+      "original_sha256": "1654a6d07632210ae6839e563ce4579498dda64637d6b1d64ab085f9d3193f5b",
+      "public_sha256": "1654a6d07632210ae6839e563ce4579498dda64637d6b1d64ab085f9d3193f5b"
+    },
+    {
+      "path": "DELIVERY_MANIFEST.json",
+      "lane": "git only; original production receipt",
+      "bytes": 2522,
+      "original_sha256": "922a28ea0c1b32cf35b9e25a6def12d9dda3994a9c70ae07ce86d86100802fc9",
+      "public_sha256": "922a28ea0c1b32cf35b9e25a6def12d9dda3994a9c70ae07ce86d86100802fc9"
+    },
+    {
+      "path": "qa/package_manifest.json",
+      "lane": "git only; original production receipt",
+      "bytes": 47211,
+      "original_sha256": "31c2b35e2ea4259c155423947c30fa269bbc4164f99fcdde818f738f5a84d32c",
+      "public_sha256": "31c2b35e2ea4259c155423947c30fa269bbc4164f99fcdde818f738f5a84d32c"
+    },
+    {
+      "path": "qa/delivery_acceptance.json",
+      "lane": "git only; original production receipt",
+      "bytes": 1302,
+      "original_sha256": "ade60386f734fb49a108811e54acd776a179656e99a4cf04a0699c003e4088df",
+      "public_sha256": "ade60386f734fb49a108811e54acd776a179656e99a4cf04a0699c003e4088df"
+    },
+    {
+      "path": "checkers-with-runway-13-white-paper-v5-sources.zip",
+      "lane": "git",
+      "bytes": 49863328,
+      "original_sha256": "999ec40c0a243f922533c32c50a2a9d3129eeff4914ec3a712a1552d1dc4e412",
+      "public_sha256": "6a7d44fb94de027a7394f0d6fa88874f4ce7bf7ee030a87696d3dbae4617724f"
+    }
+  ],
+  "transformations": [
+    {
+      "path": "STATE.md",
+      "original_sha256": "e36aead8d2f6fe8d9710a4b20eca561c74aedf9bb07cc98bc004c1702e00fb5c",
+      "public_sha256": "ea542a3eaa14e630a8a17576efcd944a05be6cf2f973b89c40abb160f5534264",
+      "operation": "Machine-local workspace prefixes replaced by documented placeholders; no mathematical/source result changed."
+    },
+    {
+      "path": "editorial/VISUAL_INPUT_INVENTORY.json",
+      "original_sha256": "acc20f6ebd0c719effc1f95eb110c8f7846f6b305792a9160bf586f39cab366b",
+      "public_sha256": "32df29a2826672d8b54472e8a7972c22ba747ed84893ce30e7f4f8ebeb2c271a",
+      "operation": "Machine-local workspace prefixes replaced by documented placeholders; no mathematical/source result changed."
+    }
+  ],
+  "original_zip_sha256": "999ec40c0a243f922533c32c50a2a9d3129eeff4914ec3a712a1552d1dc4e412",
+  "public_zip_sha256": "6a7d44fb94de027a7394f0d6fa88874f4ce7bf7ee030a87696d3dbae4617724f",
+  "exclusions": [
+    {
+      "path": "abstract.tex",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "evidence/analytical/__pycache__/verify_full_landing_analysis.cpython-314.opt-1.pyc",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "evidence/analytical/__pycache__/verify_full_landing_analysis.cpython-314.pyc",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "evidence/analytical/coupled/__pycache__/certify_candidate.cpython-314.pyc",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "evidence/analytical/coupled/__pycache__/existence_and_bounds.cpython-314.pyc",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "evidence/counterfactual/__pycache__/calculate.cpython-314.opt-1.pyc",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "evidence/counterfactual/__pycache__/calculate.cpython-314.pyc",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "evidence/counterfactual/__pycache__/continuous.cpython-314.opt-1.pyc",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "evidence/counterfactual/__pycache__/continuous.cpython-314.pyc",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "evidence/counterfactual/__pycache__/test_counterfactual.cpython-314-pytest-9.1.1.pyc",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "evidence/model/__pycache__/__init__.cpython-314.opt-1.pyc",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "evidence/model/__pycache__/__init__.cpython-314.pyc",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "evidence/model/__pycache__/solve.cpython-314.opt-1.pyc",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "evidence/model/__pycache__/solve.cpython-314.pyc",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "evidence/model/__pycache__/test_model.cpython-314-pytest-9.1.1.pyc",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "evidence/model/__pycache__/test_review_solver.cpython-314-pytest-9.1.1.pyc",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "evidence/model/__pycache__/test_review_trajectory.cpython-314-pytest-9.1.1.pyc",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "evidence/model/__pycache__/trajectory.cpython-314.opt-1.pyc",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "evidence/model/__pycache__/trajectory.cpython-314.pyc",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "main.aux",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "main.bbl",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "main.blg",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "main.log",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "main.out",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "main.pdf",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/bibtex.log",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/clean-location.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/clean-pip.log",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/compile-1.log",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/compile-2.log",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/compile-3.log",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/compile-4.log",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/contact-01.jpg",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/contact-05.jpg",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/contact-09.jpg",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/contact-13.jpg",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/contact-17.jpg",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/contact-21.jpg",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/contact-25.jpg",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/contact-29.jpg",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/contact-33.jpg",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/contact-37.jpg",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/figures_build.log",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/historical-prototypes/01_place-manuscript-preview.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/historical-prototypes/02_bearings-manuscript-preview.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/historical-prototypes/07_stereo-manuscript-preview.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/historical-prototypes/INSPECTION.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/map-market-detail.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/01.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/02.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/03.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/04.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/05.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/06.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/07.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/08.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/09.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/10.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/11.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/12.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/13.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/14.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/15.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/16.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/17.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/18.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/19.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/20.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/21.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/22.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/23.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/24.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/25.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/26.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/27.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/28.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/29.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/30.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/31.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/32.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/33.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/34.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/35.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/36.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/37.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/pages/38.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/paper-poppler.txt",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/paper-text.txt",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_build.log",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_bad_refinement_keeps_feas0/archive/6895afa6a08b49edae17704dfbfd7207/continuous_check.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_bad_refinement_keeps_feas0/archive/6895afa6a08b49edae17704dfbfd7207/search_state.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_bad_refinement_keeps_feas0/archive/6895afa6a08b49edae17704dfbfd7207/selected.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_bad_refinement_keeps_feas0/continuous_check.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_bad_refinement_keeps_feas0/inputs.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_bad_refinement_keeps_feas0/search_checkpoint.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_bad_refinement_keeps_feas0/search_state.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_bad_refinement_keeps_feas0/selected.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_failed_search_blocks_old_0/archive/b5b506f521824a729886421123bb0e65/continuous_check.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_failed_search_blocks_old_0/archive/b5b506f521824a729886421123bb0e65/search_state.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_failed_search_blocks_old_0/archive/b5b506f521824a729886421123bb0e65/selected.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_failed_search_blocks_old_0/continuous_check.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_failed_search_blocks_old_0/inputs.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_failed_search_blocks_old_0/search_checkpoint.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_failed_search_blocks_old_0/search_state.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_failed_search_blocks_old_0/selected.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_generation_failure_preser0/formula.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_generation_failure_preser0/landing.pdf",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_generation_failure_preser0/landing.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_generation_failure_preser0/path_controls.csv",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_generation_failure_preser0/result.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_interrupted_search_blocks0/archive/786bbc0e052441698f58f9737763362d/continuous_check.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_interrupted_search_blocks0/archive/786bbc0e052441698f58f9737763362d/search_state.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_interrupted_search_blocks0/archive/786bbc0e052441698f58f9737763362d/selected.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_interrupted_search_blocks0/continuous_check.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_interrupted_search_blocks0/inputs.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_interrupted_search_blocks0/search_state.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_interrupted_search_blocks0/selected.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_publish_pointer_bundle0/bundles/delivery-928ab90378ea46fb99fe8800cd649400/formula.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_publish_pointer_bundle0/bundles/delivery-928ab90378ea46fb99fe8800cd649400/landing.pdf",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_publish_pointer_bundle0/bundles/delivery-928ab90378ea46fb99fe8800cd649400/landing.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_publish_pointer_bundle0/bundles/delivery-928ab90378ea46fb99fe8800cd649400/path_controls.csv",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_publish_pointer_bundle0/bundles/delivery-928ab90378ea46fb99fe8800cd649400/result.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_publish_pointer_bundle0/bundles/delivery-b3acbc5488fc49fea0c673c724c773ba/formula.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_publish_pointer_bundle0/bundles/delivery-b3acbc5488fc49fea0c673c724c773ba/landing.pdf",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_publish_pointer_bundle0/bundles/delivery-b3acbc5488fc49fea0c673c724c773ba/landing.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_publish_pointer_bundle0/bundles/delivery-b3acbc5488fc49fea0c673c724c773ba/path_controls.csv",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_publish_pointer_bundle0/bundles/delivery-b3acbc5488fc49fea0c673c724c773ba/result.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_publish_pointer_bundle0/bundles/legacy-0d42d8c9f73a4ae6aadbab6a9ef0b098/formula.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_publish_pointer_bundle0/bundles/legacy-0d42d8c9f73a4ae6aadbab6a9ef0b098/landing.pdf",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_publish_pointer_bundle0/bundles/legacy-0d42d8c9f73a4ae6aadbab6a9ef0b098/landing.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_publish_pointer_bundle0/bundles/legacy-0d42d8c9f73a4ae6aadbab6a9ef0b098/path_controls.csv",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_publish_pointer_bundle0/bundles/legacy-0d42d8c9f73a4ae6aadbab6a9ef0b098/result.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_publish_pointer_bundle0/formula.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_publish_pointer_bundle0/landing.pdf",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_publish_pointer_bundle0/landing.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_publish_pointer_bundle0/path_controls.csv",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_publish_pointer_bundle0/result.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_stale_certificate_failure0/calculate.py",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_stale_certificate_failure0/continuous.py",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_stale_certificate_failure0/continuous_check.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_stale_certificate_failure0/formula.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_stale_certificate_failure0/inputs.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_stale_certificate_failure0/landing.pdf",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_stale_certificate_failure0/landing.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_stale_certificate_failure0/path_controls.csv",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_stale_certificate_failure0/result.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_stale_certificate_failure0/search_state.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/science_pytest_tmp/test_stale_certificate_failure0/selected.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/01.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/02.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/03.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/04.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/05.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/06.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/07.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/08.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/09.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/10.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/11.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/12.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/13.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/14.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/15.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/16.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/17.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/18.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/19.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/20.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/21.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/22.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/23.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/24.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/25.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/26.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/27.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/28.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/29.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/30.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/31.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/32.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/33.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/34.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/35.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/contact-01.jpg",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/contact-07.jpg",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/contact-13.jpg",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/contact-19.jpg",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/contact-25.jpg",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-pages/contact-31.jpg",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-01.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-02.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-03.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-04.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-05.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-06.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-07.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-08.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-09.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-10.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-11.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-12.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-13.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-14.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-15.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-16.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-17.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-18.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-19.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-20.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-21.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-22.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-23.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-24.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-25.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-26.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-27.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-28.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-29.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-30.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-31.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-32.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-33.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-34.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/v4-visual-review/page-35.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/visual-review-pages/13.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/visual-review-pages/14.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/visual-review-pages/15.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/visual-review-pages/16.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/visual-review-pages/17.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/visual-review-pages/18.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/visual-review-pages/19.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/visual-review-pages/20.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/visual-review-pages/21.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/visual-review-pages/22.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/visual-review-pages/23.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/visual-review-pages/24.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/visual-review-pages/25.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/visual-review-pages/26.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/visual-review-pages/27.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/visual-review-pages/28.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/visual-review-pages/CAPTURE.json",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/visual-review-pages/final-17.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "qa/visual-review-pages/final-18.png",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "scripts/__pycache__/evidence_figures.cpython-314.pyc",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "scripts/__pycache__/figure_style.cpython-314.pyc",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "scripts/__pycache__/historical_figures.cpython-314.pyc",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    },
+    {
+      "path": "scripts/__pycache__/mechanics_figures.cpython-314.pyc",
+      "reason": "Not in accepted portable package or explicit delivery receipts; local build, rendered review, cache or temporary test material."
+    }
+  ],
+  "receipt_scope": "Copied production receipts retain original reviewed hashes and pre-publication status. This inventory binds public copies and explicitly records the two documentation-only transformations."
+}

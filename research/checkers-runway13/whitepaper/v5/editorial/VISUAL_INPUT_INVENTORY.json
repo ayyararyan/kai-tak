@@ -1,0 +1,216 @@
+{
+  "review_date": "2026-10-13",
+  "stage": "1-2 inventory, no new figure code yet",
+  "v4_pdf_sha256": "4bc4f1e1240b2e9677fd2518a67078c6c82385e5822510b069ff5172226920da",
+  "actual_pdf_pages_viewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "critical_source_date_note": "A36143 catalogue 1993-11-02 conflicts with handwritten 3.11.93; do not import older archive claim of agreement",
+  "items": [
+    {
+      "path": "inputs/11-NE-11A_1989-10_core.json",
+      "sha256": "cdd4b3142c28f7d41fee4a0f0bfb63adb3fd0164da9a333c6abd3295f24de022",
+      "bytes": 842,
+      "status": "existing_v4_snapshot",
+      "use": "historical imagery, map registration, named dated map forms, or provenance; interpret according to paired metadata"
+    },
+    {
+      "path": "inputs/11-NE-11A_1989-10_core.png",
+      "sha256": "7daf2f8720a78b8ded383ae4f0ec811fa18eda1140c1e0248802d94c3b984259",
+      "bytes": 2397201,
+      "status": "existing_v4_snapshot",
+      "use": "historical imagery, map registration, named dated map forms, or provenance; interpret according to paired metadata"
+    },
+    {
+      "path": "inputs/11-NE-11A_1994-07_core.json",
+      "sha256": "413996dbe93645f01065eaaad230e8f0c1238ec32861e74cf985dfe273644fee",
+      "bytes": 842,
+      "status": "existing_v4_snapshot",
+      "use": "historical imagery, map registration, named dated map forms, or provenance; interpret according to paired metadata"
+    },
+    {
+      "path": "inputs/11-NE-11A_1994-07_core.png",
+      "sha256": "ff47e9e448d5ec708e3fcc2978312eff62e712aff88433a36884c47539f22805",
+      "bytes": 2437557,
+      "status": "existing_v4_snapshot",
+      "use": "historical imagery, map registration, named dated map forms, or provenance; interpret according to paired metadata"
+    },
+    {
+      "path": "inputs/A36143.jpg",
+      "sha256": "e8439e24ffd7acbbaf7b5247b2fddbd7a52fd079e3c986481771efe204eaf289",
+      "bytes": 818247,
+      "status": "existing_v4_snapshot",
+      "use": "historical imagery, map registration, named dated map forms, or provenance; interpret according to paired metadata"
+    },
+    {
+      "path": "inputs/A36143_product.json",
+      "sha256": "f7f3a2bd73ed0d92c4ed0dcbcf800ba26212988f69dafc5ed258001e0ae5f65a",
+      "bytes": 757,
+      "status": "existing_v4_snapshot",
+      "use": "historical imagery, map registration, named dated map forms, or provenance; interpret according to paired metadata"
+    },
+    {
+      "path": "inputs/historical_faces.geojson",
+      "sha256": "f866def637ad2c3495e9a9463a6abfc1b04cbf600b8b52b6ed5ee503bd749ef7",
+      "bytes": 312728,
+      "status": "existing_v4_snapshot",
+      "use": "historical imagery, map registration, named dated map forms, or provenance; interpret according to paired metadata"
+    },
+    {
+      "path": "inputs/provenance.json",
+      "sha256": "b52a0a10f9ed366c5a5ef90b44801392f309cdcf5cca95b3aeff4730879d07c4",
+      "bytes": 3118,
+      "status": "existing_v4_snapshot",
+      "use": "historical imagery, map registration, named dated map forms, or provenance; interpret according to paired metadata"
+    },
+    {
+      "path": "<WORKSPACE>/repos/kai-tak/research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A36142.jpg",
+      "proposed_snapshot": "inputs/A36142.jpg",
+      "sha256": "42da43eebfa6eae39597ea16d917f900986d80f7c069b909ebbe3563fc074767",
+      "matches_committed_manifest": true,
+      "bytes": 876169,
+      "source_date": "1993-11-02",
+      "source": "Lands Department, HKSAR Government; CSDI Portal; DATA.GOV.HK; DAP-L0",
+      "rights": "Open-data reproduction with attribution and retained Government ownership under cited terms; no endorsement; not generalized to paid products",
+      "use": "left stereo source; crop verified corresponding features",
+      "status": "visually_inspected_hash_verified_not_yet_copied",
+      "geometry": "original unrectified scan; no surveyed geographic registration inferred"
+    },
+    {
+      "path": "<WORKSPACE>/repos/kai-tak/research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A36144.jpg",
+      "proposed_snapshot": "inputs/A36144.jpg",
+      "sha256": "e6136095c72dea230c62df3bbc18b270a67d88d9045e86d856237842c8a224b4",
+      "matches_committed_manifest": true,
+      "bytes": 724605,
+      "source_date": "1993-11-02",
+      "source": "Lands Department, HKSAR Government; CSDI Portal; DATA.GOV.HK; DAP-L0",
+      "rights": "Open-data reproduction with attribution and retained Government ownership under cited terms; no endorsement; not generalized to paid products",
+      "use": "alternate airport view if composition requires",
+      "status": "visually_inspected_hash_verified_not_yet_copied",
+      "geometry": "original unrectified scan; no surveyed geographic registration inferred"
+    },
+    {
+      "path": "<WORKSPACE>/repos/kai-tak/research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN4581.jpg",
+      "proposed_snapshot": "inputs/CN4581.jpg",
+      "sha256": "4510ec691117b2929e1f6da51a49905ec8a7bf992faf220d845910fd74760a83",
+      "matches_committed_manifest": true,
+      "bytes": 761048,
+      "source_date": "1993-10-08",
+      "source": "Lands Department, HKSAR Government; CSDI Portal; DATA.GOV.HK; DAP-L0",
+      "rights": "Open-data reproduction with attribution and retained Government ownership under cited terms; no endorsement; not generalized to paid products",
+      "use": "actual painted Checkerboard Hill; 8 October 1993",
+      "status": "visually_inspected_hash_verified_not_yet_copied",
+      "geometry": "original unrectified scan; no surveyed geographic registration inferred"
+    },
+    {
+      "path": "<WORKSPACE>/repos/kai-tak/research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN4589.jpg",
+      "proposed_snapshot": "inputs/CN4589.jpg",
+      "sha256": "67a0c8b715686b7f3a342307454cae7fa134cf17c0dfbc8a5babb097d1f24fec",
+      "matches_committed_manifest": true,
+      "bytes": 688412,
+      "source_date": "1993-10-08",
+      "source": "Lands Department, HKSAR Government; CSDI Portal; DATA.GOV.HK; DAP-L0",
+      "rights": "Open-data reproduction with attribution and retained Government ownership under cited terms; no endorsement; not generalized to paid products",
+      "use": "runway harbour end and Kowloon Bay; 8 October 1993",
+      "status": "visually_inspected_hash_verified_not_yet_copied",
+      "geometry": "original unrectified scan; no surveyed geographic registration inferred"
+    },
+    {
+      "path": "<WORKSPACE>/repos/kai-tak/research/checkers-runway13/reconstruction/block_matching/aerial_registration/observed_surface_mesh.ply",
+      "sha256": "49866bd77fd74a04f8ba18e8a734d05ee169b2ddd9bc7d74b6039800869a8323",
+      "bytes": 17350341,
+      "matches_frozen_v4_handoff": true,
+      "use": "authentic accepted open stereo surface; point and face table alternatives",
+      "status": "hash_verified_not_yet_copied",
+      "horizontal_crs": "EPSG:2326 diagnostic control transform",
+      "vertical_reference": "fitted park/road plane, NOT HKPD",
+      "forbidden_transforms": [
+        "gap closure",
+        "solid building extrusion",
+        "negative-height clamping",
+        "historical aircraft overlay"
+      ]
+    },
+    {
+      "path": "<WORKSPACE>/repos/kai-tak/research/checkers-runway13/reconstruction/block_matching/aerial_registration/dense_stereo_points.csv",
+      "sha256": "634aa4f28a4d7e80014c48eae199ce829a72d0b5461aaf7e7beeb9a1c8a0dba9",
+      "bytes": 33971110,
+      "matches_frozen_v4_handoff": true,
+      "use": "authentic accepted open stereo surface; point and face table alternatives",
+      "status": "hash_verified_not_yet_copied",
+      "horizontal_crs": "EPSG:2326 diagnostic control transform",
+      "vertical_reference": "fitted park/road plane, NOT HKPD",
+      "forbidden_transforms": [
+        "gap closure",
+        "solid building extrusion",
+        "negative-height clamping",
+        "historical aircraft overlay"
+      ]
+    },
+    {
+      "path": "<WORKSPACE>/repos/kai-tak/research/checkers-runway13/reconstruction/block_matching/aerial_registration/observed_surface_faces.csv",
+      "sha256": "6f6ecdd5a930462a59e7b6af90d1b0c67c03bf831cdecc60ea4f0d070283c6b9",
+      "bytes": 29337968,
+      "matches_frozen_v4_handoff": true,
+      "use": "authentic accepted open stereo surface; point and face table alternatives",
+      "status": "hash_verified_not_yet_copied",
+      "horizontal_crs": "EPSG:2326 diagnostic control transform",
+      "vertical_reference": "fitted park/road plane, NOT HKPD",
+      "forbidden_transforms": [
+        "gap closure",
+        "solid building extrusion",
+        "negative-height clamping",
+        "historical aircraft overlay"
+      ]
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/manual_stereo_labels.json",
+      "sha256": "254dca4fc0dd95088e7a0f9e6af8846a83c49cb90827e0e265439a08662da7c1",
+      "use": "existing manually interpreted source correspondences and accepted transformation/control-support information",
+      "status": "committed_metadata_read"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/sparse_stereo_report.json",
+      "sha256": "17c70dac3685c3f04eb9d01026aaf3c74ed32313e70755bb854f9afc58377bc9",
+      "use": "existing manually interpreted source correspondences and accepted transformation/control-support information",
+      "status": "committed_metadata_read"
+    }
+  ],
+  "additional_source_package": "inputs/historical/SOURCE_MANIFEST.json",
+  "additional_source_package_sha256": "560eb20f94e6284f213c4ffd43b9f25c386d17ba593bfc96257dfe389f3680e2",
+  "preparation_status": "11 byte-exact supplemental sources and metadata copied, SHA-256 verified; four historical figures generated"
+}

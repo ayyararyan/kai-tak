@@ -1,0 +1,19 @@
+{
+  "verified_utc": "2026-10-13T18:28:50.228235+00:00",
+  "authorization": "Aryan: push version to github",
+  "remote": "ayyararyan/kai-tak",
+  "visibility": "public",
+  "target_branch": "main",
+  "preserved_remote_baseline": "d9a0000b2b9f3f86dde6c8663f952cff4bdf2d0e",
+  "public_source_zip_members": 278,
+  "public_selected_files": 282,
+  "normalized_documentation_files": 2,
+  "normalized_local_path_occurrences": 10,
+  "science_checks_public_extraction": 287,
+  "figure_checks_public_extraction": 74,
+  "clean_tested_build_inputs_unchanged": 150,
+  "independent_publication_review": "No credential, token, private-key or additional private-content blocker found. Source terms/attributions for11historicalinputs checked. RestrictedCADscans/installablefonts excluded.",
+  "accepted_pdf_unchanged": true,
+  "manuscript_rebuilt": false,
+  "scope": "Only V5 and navigation/additive ledger; newer scientific-result layer preserved. Original production receipts retain their original pre-publication status and hashes; PUBLICATION_INVENTORY binds the public copy."
+}

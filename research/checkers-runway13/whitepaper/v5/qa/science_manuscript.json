@@ -1,0 +1,84 @@
+{
+  "verified_utc": "2026-10-13T18:13:31.618614+00:00",
+  "phase": "Final source/figure-semantic and independent editorial audit complete",
+  "claim_ids_mapped": 53,
+  "scientific_source_claims_preserved": 50,
+  "author_context_claim": "C01 condensed without invented facts; personal residence detail omitted under authorized foreword rewrite",
+  "baseline_ledger_sha256": "e968434dbcd9769f7624917a49f234dd66624c19a9dee70fbe147f619494b6af",
+  "v5_ledger_sha256": "b5f99b64c97e4a74e23569022320d6004ce7348f3f760f5c324d4cbb0475e8b0",
+  "displayed_math_blocks_preserved": 26,
+  "displayed_math_note": "All26 original equation/align/multline/bracket blocks match after whitespace, label, gathered/aligned wrapper and linebreak normalization; one terminal punctuation change permitted.",
+  "coefficient_table_byte_identical": true,
+  "bibliography_keys_cited": [
+    "buildings",
+    "cad",
+    "cadhistory",
+    "cadlink",
+    "csditerms",
+    "dataterms",
+    "dtm",
+    "fastrack",
+    "isd",
+    "kim",
+    "maps",
+    "noaa",
+    "photos",
+    "wu"
+  ],
+  "manuscript_files_sha256": {
+    "main.tex": "b255cabb33a37a0343cf680aecb84f6e2a1c63fac55a21090ce97773fdd4b5f3",
+    "appendices.tex": "c9b43829458ac6b3ed1daed17c0b3d638176ab6e34c38ccd993a537e53a15897",
+    "coefficients.tex": "781551603dcd60260217c22d1285db95d9f45a8019ade3c9adc218e92d77fef0",
+    "sections/act1.tex": "3e48d27b818969d00a39fd806015f177667b783b58b39baa54bbe0e6934d6d64",
+    "sections/act2.tex": "07aab80cb6346feb7a22ad442536ffb904c9fbe5cf1e1d4f94177ac563375116",
+    "sections/act3.tex": "d579b81c9a2f894f8a4888355c10335340bc7c70a9ce43991c2a54d3e3737958",
+    "sections/act4.tex": "2a0de20ecafdbefb770f6f54dd3d2ee8bb12647999047a10b4c14fb7040cba2b",
+    "sections/act5.tex": "cfb421b72321b402f2f039a01392a25355f889b2e80a1387e89963ef1e23a533",
+    "sections/act6.tex": "574f6bd2558369fc4d21885a974fe0c334d6715e65a5b7c6e377fc4beea26744",
+    "sections/act7.tex": "0073f6b174080fb4b54942f283214575da76e144c3fcf680a1a235fa1bb5d649",
+    "sections/foreword.tex": "c5d2fd89ee9ed6202ee3e249eeb79a4d3317fb4682334507ad371833f6d3a447",
+    "abstract.md": "7f497be1480ba033fbc8f5cc6b5b182bc2e0314d1a139b0a4ce826b7625f6dc8"
+  },
+  "physics_precision_repairs": [
+    "bank-angle rate named in moving flight-path frame, not total lift-vector angular rate",
+    "three-dimensional reference-cloud corridor accurately described"
+  ],
+  "figures_inspected": [
+    "04_landing",
+    "05_runway",
+    "03_turn",
+    "08_wind",
+    "09_certificate",
+    "A1_paths",
+    "A2_controls",
+    "01_place",
+    "02_bearings",
+    "07_stereo",
+    "06_maps",
+    "10_recorder",
+    "11_weather",
+    "12_rollout",
+    "A3_weather_context"
+  ],
+  "figure_semantic_checks": [
+    "orthonormal camera rows; vertical exaggeration=1",
+    "no historical registration or terrain inserted",
+    "same 2786 m horizontal scale for both runway rows",
+    "correct 2 s delay and 0.15g braking, reserve boundary2636 m",
+    "calm brief rise visible; complete forward ground stop retained"
+  ],
+  "open_technical_findings": [],
+  "pending": [
+    "production-owner clean-package rebuild and matching-artifact checks"
+  ],
+  "baseline_claim_ids_preserved": 51,
+  "new_visual_claim_ids": [
+    "C52",
+    "C53"
+  ],
+  "ledger_supporting_paths_resolve": true,
+  "math_source_normalization_rechecked": true,
+  "claim_locations_use_stable_figure_labels": true,
+  "abstract_source_review": "Read complete 198-word abstract; established results and reduced uncalibrated model/synthetic geometry/noncausal comparison scopes retained.",
+  "final_pdf_sha256": "9dc2957599405b9070741904f11074e12614d69ccb32c8b60c07a2a8836dc634"
+}

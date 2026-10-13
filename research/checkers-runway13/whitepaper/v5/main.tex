@@ -1,0 +1,36 @@
+\documentclass[12pt,nosurname]{RFS}
+\usepackage{rfs-workingpaper}
+\usepackage{graphicx,booktabs,longtable,xcolor,xurl}
+\definecolor{ink}{HTML}{304750}\definecolor{sage}{HTML}{687C69}\definecolor{copper}{HTML}{AF6843}\definecolor{paper}{HTML}{F4F2EC}
+\makeatletter
+\patchcmd{\@begintheorem}{\item[}{\item[\MakeLinkTarget{\@currentcounter}}{}{}
+\patchcmd{\NRorg@opargbegintheorem}{\item[}{\item[\MakeLinkTarget{\@currentcounter}}{}{}
+\makeatother
+\newcommand{\parthead}[2]{\section{#2}}
+\newcommand{\fig}[4]{\begin{figure}[htbp]\centering\includegraphics[width=#2\textwidth]{figures/#1.pdf}\caption{#3}\label{#4}\end{figure}}
+\newcommand{\R}{\mathbb R}
+\setlist{nosep,leftmargin=1.4em}
+\hypersetup{pdftitle={Checkers with Runway 13},pdfauthor={Aryan Ayyar},pdfsubject={Research white paper, Version 5; illustrated engineering investigation}}
+\begin{document}
+\title{Checkers with Runway 13}
+\author{Aryan Ayyar}
+\shorttitle{Checkers with Runway 13}
+\input{abstract.tex}
+\maketitle
+{\footnotesize\noindent Version 5 · 13 October 2026\par}
+\medskip
+{\small\noindent Independent research white paper. Not peer reviewed or operational flight guidance.\par}
+\clearpage
+\input{sections/foreword.tex}
+\bigskip
+\input{sections/act1.tex}\FloatBarrier
+\input{sections/act2.tex}\FloatBarrier
+\input{sections/act3.tex}\FloatBarrier
+\input{sections/act4.tex}\FloatBarrier
+\input{sections/act5.tex}\FloatBarrier
+\input{sections/act6.tex}\FloatBarrier
+\input{sections/act7.tex}\FloatBarrier
+\clearpage
+\input{appendices.tex}
+\clearpage\setlength{\bibsep}{3pt}\bibliographystyle{rfs}\bibliography{references}
+\end{document}

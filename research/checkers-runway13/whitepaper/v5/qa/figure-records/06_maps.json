@@ -1,0 +1,64 @@
+{
+  "figure": "06_maps",
+  "inputs": [
+    {
+      "path": "inputs/11-NE-11A_1989-10_core.png",
+      "sha256": "7daf2f8720a78b8ded383ae4f0ec811fa18eda1140c1e0248802d94c3b984259"
+    },
+    {
+      "path": "inputs/11-NE-11A_1989-10_core.json",
+      "sha256": "cdd4b3142c28f7d41fee4a0f0bfb63adb3fd0164da9a333c6abd3295f24de022"
+    },
+    {
+      "path": "inputs/11-NE-11A_1994-07_core.png",
+      "sha256": "ff47e9e448d5ec708e3fcc2978312eff62e712aff88433a36884c47539f22805"
+    },
+    {
+      "path": "inputs/11-NE-11A_1994-07_core.json",
+      "sha256": "413996dbe93645f01065eaaad230e8f0c1238ec32861e74cf985dfe273644fee"
+    },
+    {
+      "path": "inputs/historical_faces.geojson",
+      "sha256": "f866def637ad2c3495e9a9463a6abfc1b04cbf600b8b52b6ed5ee503bd749ef7"
+    }
+  ],
+  "meaning": "A 1989 survey field locates three named forms; matched 150-metre windows show their 1994 map depiction",
+  "master_inches": [
+    7.1,
+    6.15
+  ],
+  "screen_dpi": 190,
+  "presentation_dpi": 600,
+  "pdf_sha256": "7eb4353f6b6ec5e18b6a6249bdcaff8f393370550ed8c4670b638c9be185d419",
+  "main_extent_EPSG2326": [
+    837500,
+    821000,
+    838250,
+    821600
+  ],
+  "registered_pixel_spacing_m": 0.25,
+  "positional_accuracy": "Unspecified; raster spacing is not an accuracy bound",
+  "detail_crop_pixels": {
+    "shing_tung": [
+      820,
+      0,
+      1420,
+      600
+    ],
+    "regal": [
+      1500,
+      1300,
+      2100,
+      1900
+    ],
+    "city_market": [
+      0,
+      1430,
+      600,
+      2030
+    ]
+  },
+  "detail_width_m": 150,
+  "historical_status": "Mapped forms at separate edition epochs; unchanged presence, identity and height in1993 are not inferred",
+  "image_operations": "Source raster crops only; no erased or invented linework. Main-map rectangles identify exact later-edition crop extents."
+}

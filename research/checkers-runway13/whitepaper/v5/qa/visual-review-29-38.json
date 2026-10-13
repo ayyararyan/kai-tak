@@ -1,0 +1,124 @@
+{
+  "reviewer": "editorial_diagnosis",
+  "scope": "Actual-page appendix visual/readability review; not a replacement for mathematical source validation or independent main-narrative editorial review.",
+  "reviewed_at_utc": "2026-10-13T18:12:15.121856+00:00",
+  "pdf": "checkers-with-runway-13-white-paper-v5.pdf",
+  "pdf_sha256": "9dc2957599405b9070741904f11074e12614d69ccb32c8b60c07a2a8836dc634",
+  "total_pdf_pages": 38,
+  "pages_reviewed": [
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+  ],
+  "pages": [
+    {
+      "page": 29,
+      "image": "qa/pages/29.png",
+      "image_sha256": "f780e110a9fc82c70e766bf8e1282aa728b5912d4e383d2fe0181d2f68ab0226",
+      "visually_inspected_individually": true,
+      "fresh_render_pixels_match": true,
+      "result": "pass",
+      "observations": "Steady-wind flare table and ground-motion/box-bound equations readable, aligned and unclipped. Continuation context retained by editorial decision."
+    },
+    {
+      "page": 30,
+      "image": "qa/pages/30.png",
+      "image_sha256": "2084edfcb02144acc803b8476dc810647b2d19008b83331e1bf9878c49adf4b1",
+      "visually_inspected_individually": true,
+      "fresh_render_pixels_match": true,
+      "result": "pass",
+      "observations": "Reproduction map and source-coordinate opening readable; filename line breaks are intentional and distinguishable."
+    },
+    {
+      "page": 31,
+      "image": "qa/pages/31.png",
+      "image_sha256": "0d6031d0cdca339c3daa3fd180b3286295f1be9d0f63b50a93351f7bfd768777",
+      "visually_inspected_individually": true,
+      "fresh_render_pixels_match": true,
+      "result": "pass",
+      "observations": "Source dates, geometry counts and datum paragraphs readable; historical_clearance_ready flag wraps without clipping."
+    },
+    {
+      "page": 32,
+      "image": "qa/pages/32.png",
+      "image_sha256": "ab339ff6217c875685006f22d8c45016a061f554a97025250559ef2f709a87c3",
+      "visually_inspected_individually": true,
+      "fresh_render_pixels_match": true,
+      "result": "pass",
+      "observations": "CAL605 clock conventions and certificate-scope paragraphs fit with clear heading hierarchy."
+    },
+    {
+      "page": 33,
+      "image": "qa/pages/33.png",
+      "image_sha256": "4c83ac47c198d648508f2a6c22c5d2f0434310aa5d4b968fce0bc5a5600091ff",
+      "visually_inspected_individually": true,
+      "fresh_render_pixels_match": true,
+      "result": "pass",
+      "observations": "Causal-policy quantifiers, uncertainty and related-method text fit and remain readable."
+    },
+    {
+      "page": 34,
+      "image": "qa/pages/34.png",
+      "image_sha256": "3a96be402b22dfe6cc13742daa6ee69f337278581993a491d5074b73a3491679",
+      "visually_inspected_individually": true,
+      "fresh_render_pixels_match": true,
+      "result": "pass",
+      "observations": "Rights and research-assistance paragraphs readable. Revised Appendix I title encompasses companion figures and source context."
+    },
+    {
+      "page": 35,
+      "image": "qa/pages/35.png",
+      "image_sha256": "2325523a85c6e551af7abbabc01fb6ae077958de59b329e215584b7cdee1421b",
+      "visually_inspected_individually": true,
+      "fresh_render_pixels_match": true,
+      "result": "pass",
+      "observations": "Figure A1 revised 12-point master labels and ticks readable; all three profiles, legend and caption unclipped. Equal-scale path composition retained."
+    },
+    {
+      "page": 36,
+      "image": "qa/pages/36.png",
+      "image_sha256": "06241095915a4207c93176cd8b1d3a48834c2635abe2b504ccd4daacb6b95f32",
+      "visually_inspected_individually": true,
+      "fresh_render_pixels_match": true,
+      "result": "pass",
+      "observations": "Figure A2 revised 12-point master labels readable; five strips, dashed limits, approach/flare rule and caption clear without overlaps."
+    },
+    {
+      "page": 37,
+      "image": "qa/pages/37.png",
+      "image_sha256": "0d96e5ee2f76e40de5707cf72d1c0f98ba95f0e0e222c61a9c418e9be3a61f13",
+      "visually_inspected_individually": true,
+      "fresh_render_pixels_match": true,
+      "result": "pass",
+      "observations": "Figure A3 displays full CDF support through maximum 20.1 m/s within the 21 m/s axis; threshold leader, counts and caption legible. Separate supplementary figure page accepted."
+    },
+    {
+      "page": 38,
+      "image": "qa/pages/38.png",
+      "image_sha256": "62a5eea2508125d0c08a7149f21563efc8bc2da471f35250cbb7cb6673acccf7",
+      "visually_inspected_individually": true,
+      "fresh_render_pixels_match": true,
+      "result": "pass",
+      "observations": "References fit on one page; wrapped URLs and all entries readable without overflow."
+    }
+  ],
+  "confirmed_repairs": [
+    "A1/A2 key labels enlarged to 12 point on master canvas (approximately 8.73 point at manuscript width).",
+    "Appendix I renamed Companion figures and source context.",
+    "A3 CDF includes full selected support, maximum 20.1 m/s, on 21 m/s axis."
+  ],
+  "accepted_layout_choices": [
+    "Separate centered appendix figure pages retained; no forced insertion of annual weather into the path introduction.",
+    "Coefficients retained unchanged, with wind flare continuation context on previous page."
+  ],
+  "blocking_findings": [],
+  "new_source_changes": false,
+  "conclusion": "All 10 assigned current pages visually inspected and readable; no unresolved clipping, collision, illegibility or missing-content defect found."
+}
