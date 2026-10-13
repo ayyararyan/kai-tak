@@ -1,3 +1,5 @@
+> **Verified publication:** [v1.0.0 is public and immutable](https://github.com/ayyararyan/kai-tak/releases/tag/archive-v1.0.0). All nine assets passed public readback and all 418 data members restored cleanly. [Exact verification receipt](reports/publication_verification.json). The full historical completeness limitations below remain.
+
 # Publication update — 2026-10-13
 
 Aryan explicitly authorized publication of the reviewed archive. **[Data Release v1.0.0](https://github.com/ayyararyan/kai-tak/releases/tag/archive-v1.0.0) publishes the 418-file permitted-data subset with its limitations intact.** Original-work license drafts remain inactive, and no Zenodo deposition or DOI is claimed. Current main's accepted v3/v4 packages have been merged unchanged; they do not redefine the original data-catalogue boundary. Private enquiries and private source-history backups are excluded. Remote delivery verification is recorded separately after upload.

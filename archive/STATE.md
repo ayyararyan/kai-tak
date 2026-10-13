@@ -1,3 +1,13 @@
+# Published and verified — 2026-10-13
+
+**Data Release v1.0.0 is public and immutable:** https://github.com/ayyararyan/kai-tak/releases/tag/archive-v1.0.0 . Release tag pins `9f4f7b0cc47b2db0933bd4d20b4e3698f43a465d`. Nine assets were independently read back; 418 data members restored from fresh unauthenticated public downloads. All 2,257 source paths/modes/blob IDs matched an independent Git fetch; all 150 packaged metadata/tooling files matched that source. Installed validation and weather replay passed. See `reports/publication_verification.json` for timestamped exact evidence.
+
+All three old releases/tags and their 12 asset digests remain unchanged. Accepted v3/v4 research bytes were preserved. Private enquiry directories and the private Git-history bundle were not published. No new original-work license was granted and no Zenodo deposit/DOI was created. Full historical provenance/reuse remains incomplete; 2,739 warnings and source restrictions persist.
+
+This post-publication receipt may advance main; immutable tag/assets remain unchanged. No automatic future sync or publication is authorized. Earlier preparation sections below are retained as historical checkpoints and are superseded by this verified status.
+
+---
+
 # Current publication state
 
 Latest explicit instruction: **“Let’s publish it now”**, 2026-10-13. GitHub archive publication is authorized; no new original-work license choice is inferred. Publisher owns staging and release uploads from the isolated archive worktree. Current main 2b65c24 (including the subsequent v4 publication receipt) is merged preserving accepted v3/v4 research bytes; only README/archive navigation, privacy ignore rules and publication metadata are reconciled. Private authorised enquiries remain excluded. Five data bundles retain the reviewed hashes and 418-member set. Public tag: `archive-v1.0.0`. DOI/Zenodo and new license grants remain unperformed.

@@ -1,0 +1,202 @@
+{
+  "verified_utc": "2026-10-13T17:35:36.326680+00:00",
+  "status": "published-and-public-readback-verified",
+  "release_url": "https://github.com/ayyararyan/kai-tak/releases/tag/archive-v1.0.0",
+  "release_id": 411937098,
+  "release_tag": "archive-v1.0.0",
+  "release_source_commit": "9f4f7b0cc47b2db0933bd4d20b4e3698f43a465d",
+  "immutable": true,
+  "draft": false,
+  "public_assets_verified": 9,
+  "asset_hashes": [
+    {
+      "name": "kai-tak-archive-v1.0.0-collection-01.tar.gz",
+      "bytes": 653644559,
+      "sha256": "9e8782985920d2e9f1209329d19d5dfd89bc0b49205cf3751c77b919eb7f86f6",
+      "asset_id": 637752529,
+      "state": "uploaded"
+    },
+    {
+      "name": "kai-tak-archive-v1.0.0-collection-02.tar.gz",
+      "bytes": 106528609,
+      "sha256": "947d26b3005be47d72012786bd39809efb96fc1c852b2c77587cc2d088d063a9",
+      "asset_id": 637752520,
+      "state": "uploaded"
+    },
+    {
+      "name": "kai-tak-archive-v1.0.0-collection-03.tar.gz",
+      "bytes": 51300217,
+      "sha256": "cd43d6166701c6f032480499a9d05237f032cd02e71be955c3df26269b95b803",
+      "asset_id": 637752522,
+      "state": "uploaded"
+    },
+    {
+      "name": "kai-tak-archive-v1.0.0-collection-05.tar.gz",
+      "bytes": 127917,
+      "sha256": "00f45fc60ae87dcbc2da31b73fa74ff7bf7da6fa230041c43b165b3d2b46a442",
+      "asset_id": 637752511,
+      "state": "uploaded"
+    },
+    {
+      "name": "kai-tak-archive-v1.0.0-collection-06.tar.gz",
+      "bytes": 13152570,
+      "sha256": "94876e2dab67575f2558d7027482f76727c95fd3be2d08cffaf192d14e1489e9",
+      "asset_id": 637752519,
+      "state": "uploaded"
+    },
+    {
+      "name": "kai-tak-archive-v1.0.0-metadata-and-tools.tar.gz",
+      "bytes": 2055494,
+      "sha256": "50fa58fb1e9d2b7dfbfdeaa3bd54104db82e23c72dde58b8141bf5d5689d0e67",
+      "asset_id": 637752561,
+      "state": "uploaded"
+    },
+    {
+      "name": "manifest.json",
+      "bytes": 1146888,
+      "sha256": "b1a435dbede1b3772a7a023ce5816f17f7b5a48d884d604a0b44ef09435a26ac",
+      "asset_id": 637752629,
+      "state": "uploaded"
+    },
+    {
+      "name": "RELEASE_ASSETS.json",
+      "bytes": 2241,
+      "sha256": "58b8f6d5754e6e656c3a588639bbbb1e2f82a3fb734b179e73f462619385c5dd",
+      "asset_id": 637752660,
+      "state": "uploaded"
+    },
+    {
+      "name": "SHA256SUMS",
+      "bytes": 831,
+      "sha256": "5eed2a037855e0277e42f9f59da6902d0392e620f45ed262f973b9fbcea0be1a",
+      "asset_id": 637752690,
+      "state": "uploaded"
+    }
+  ],
+  "remote_git_tree": {
+    "verified_utc": "2026-10-13T17:30:49.999915+00:00",
+    "status": "passed",
+    "source_commit": "9f4f7b0cc47b2db0933bd4d20b4e3698f43a465d",
+    "remote_main_commit": "9f4f7b0cc47b2db0933bd4d20b4e3698f43a465d",
+    "tracked_paths": 2257,
+    "all_paths_modes_blob_ids_identical": true,
+    "tree_listing_sha256": "17fa2496fdd8a628165a397cc51b29ffcd2d0954b62f9c0c14fc6e24be5d9ec3",
+    "route": "Independent bare fetch from GitHub; not shared local objects",
+    "browser_rendering_verified": false
+  },
+  "public_metadata_readback": {
+    "checked_utc": "2026-10-13T17:32:39.359967+00:00",
+    "status": "passed",
+    "assets": [
+      {
+        "name": "RELEASE_ASSETS.json",
+        "bytes": 2241,
+        "sha256": "58b8f6d5754e6e656c3a588639bbbb1e2f82a3fb734b179e73f462619385c5dd",
+        "public_http": true
+      },
+      {
+        "name": "SHA256SUMS",
+        "bytes": 831,
+        "sha256": "5eed2a037855e0277e42f9f59da6902d0392e620f45ed262f973b9fbcea0be1a",
+        "public_http": true
+      },
+      {
+        "name": "manifest.json",
+        "bytes": 1146888,
+        "sha256": "b1a435dbede1b3772a7a023ce5816f17f7b5a48d884d604a0b44ef09435a26ac",
+        "public_http": true
+      },
+      {
+        "name": "kai-tak-archive-v1.0.0-metadata-and-tools.tar.gz",
+        "bytes": 2055494,
+        "sha256": "50fa58fb1e9d2b7dfbfdeaa3bd54104db82e23c72dde58b8141bf5d5689d0e67",
+        "public_http": true
+      }
+    ],
+    "metadata_members_exact_remote_git_bytes": 150,
+    "authentication_supplied": false
+  },
+  "public_data_restore": {
+    "status": "restored",
+    "assets": [
+      {
+        "name": "kai-tak-archive-v1.0.0-collection-01.tar.gz",
+        "sha256": "9e8782985920d2e9f1209329d19d5dfd89bc0b49205cf3751c77b919eb7f86f6",
+        "files": 275,
+        "status": "restored"
+      },
+      {
+        "name": "kai-tak-archive-v1.0.0-collection-02.tar.gz",
+        "sha256": "947d26b3005be47d72012786bd39809efb96fc1c852b2c77587cc2d088d063a9",
+        "files": 133,
+        "status": "restored"
+      },
+      {
+        "name": "kai-tak-archive-v1.0.0-collection-03.tar.gz",
+        "sha256": "cd43d6166701c6f032480499a9d05237f032cd02e71be955c3df26269b95b803",
+        "files": 3,
+        "status": "restored"
+      },
+      {
+        "name": "kai-tak-archive-v1.0.0-collection-05.tar.gz",
+        "sha256": "00f45fc60ae87dcbc2da31b73fa74ff7bf7da6fa230041c43b165b3d2b46a442",
+        "files": 1,
+        "status": "restored"
+      },
+      {
+        "name": "kai-tak-archive-v1.0.0-collection-06.tar.gz",
+        "sha256": "94876e2dab67575f2558d7027482f76727c95fd3be2d08cffaf192d14e1489e9",
+        "files": 6,
+        "status": "restored"
+      }
+    ],
+    "files": 418,
+    "authentication_supplied": false,
+    "prepared_local_cache_used": false
+  },
+  "installed_validation": {
+    "status": "passed",
+    "checks": 33330,
+    "checks_passed": 33330,
+    "warning_count": 2739,
+    "full_provenance_complete": false
+  },
+  "weather_replay": {
+    "status": "passed",
+    "producer_exit": 0,
+    "tests_exit": 0,
+    "outputs": [
+      {
+        "path": "research/checkers-runway13/evidence/cal605_reconstruction/noaa/observations_1993.csv",
+        "sha256": "104b2fc2e2e7cdf3ebb2cda338dfebac948a76f95630595242ececf0ce14ef4c",
+        "expected_sha256": "104b2fc2e2e7cdf3ebb2cda338dfebac948a76f95630595242ececf0ce14ef4c",
+        "byte_identical": true,
+        "rows": 8549
+      },
+      {
+        "path": "research/checkers-runway13/evidence/cal605_reconstruction/noaa/observations_1993-11-04.csv",
+        "sha256": "ee619b6c154678b69b197e0ad5205704255d28682f5904aefe08f84093abc01b",
+        "expected_sha256": "ee619b6c154678b69b197e0ad5205704255d28682f5904aefe08f84093abc01b",
+        "byte_identical": true,
+        "rows": 24
+      }
+    ]
+  },
+  "old_releases_preserved": {
+    "count": 3,
+    "assets": 12,
+    "tag_targets": {
+      "archive-v1.0.0": "9f4f7b0cc47b2db0933bd4d20b4e3698f43a465d",
+      "integration-2026-10-13": "128f7006e8c929a878bd80bdf84521a97c45ee30",
+      "snapshot-2026-10-13": "fd0c0d85b6c514fc7f919542192f18b747f4e092",
+      "update-2026-10-13": "6178eed1de49f66ac658acf5f5d26fa7e754b9ba"
+    }
+  },
+  "original_work_license_granted": false,
+  "zenodo_deposited": false,
+  "doi": null,
+  "private_correspondence_published": false,
+  "private_git_backup_published": false,
+  "full_historical_archive_complete": false,
+  "remaining_scope": "2739 provenance/authorship warnings and restricted/missing source dependencies remain; public release is the exact permitted-data subset."
+}
