@@ -1,0 +1,75 @@
+{
+  "verified_utc": "2026-10-13T18:26:55.107723+00:00",
+  "repository": "https://github.com/ayyararyan/kai-tak",
+  "branch": "main",
+  "artifact_commit": "91ff7407b65c16323f6f15c72871387fb3ef8063",
+  "artifact_commit_url": "https://github.com/ayyararyan/kai-tak/commit/91ff7407b65c16323f6f15c72871387fb3ef8063",
+  "remote_commit_matches": true,
+  "verification_route": "independent new bare checkout fetched directly from GitHub; all tracked paths, modes and Git blob hashes compared; key artifact bytes read with git show",
+  "tracked_paths_verified": 2682,
+  "git_tree": "8d7ef44b907ad76684b2f4eda0c0728f8126dec2",
+  "baseline_commit": "516bba9537f856d58a4cb440ad57e658dcd2bfcf",
+  "baseline_paths_preserved_identically": 2436,
+  "modified_baseline_paths": [
+    ".gitignore",
+    "README.md",
+    "research/checkers-runway13/PROJECT_STATE.md"
+  ],
+  "changed_files": 246,
+  "added_files": 243,
+  "source_mapped_files": 235,
+  "new_public_tests_passed": 117,
+  "additional_tests_with_private_sources": 5,
+  "public_scientific_completeness": "INCOMPLETE",
+  "historical_certified": false,
+  "release_asset_changes": false,
+  "website_or_mail_actions": false,
+  "key_byte_checks": [
+    {
+      "path": "README.md",
+      "bytes": 15680,
+      "sha256": "292b4e15157ff8a47a5732f2af4cdb125f88cf0160f7dcf01b67d87ab757493d"
+    },
+    {
+      "path": "publication/scientific-results-20261013/source_public_mapping.json",
+      "bytes": 124502,
+      "sha256": "9f0e3a988c2f3285860f1914a41d458059411e31d2764884d4e7634edafaa64e"
+    },
+    {
+      "path": "research/checkers-runway13/integrated/assumption_solution/artifact_manifest.json",
+      "bytes": 20178,
+      "sha256": "d93e67874c377d82db8140b9f3d1061011e70230683ceb286539c17d8047e10f"
+    },
+    {
+      "path": "research/checkers-runway13/integrated/assumption_solution/refinement/artifact_manifest.json",
+      "bytes": 10132,
+      "sha256": "ad2ecd821ea9afb8fee12c170097213827a6305694d71aa701a0648cb1ad0013"
+    },
+    {
+      "path": "research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/artifact_manifest.json",
+      "bytes": 2961,
+      "sha256": "4962a7e76ed45575c637ea77275530138b37aa57659bc5c2aa0b67489cd72a27"
+    },
+    {
+      "path": "research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/certificate.json",
+      "bytes": 55883,
+      "sha256": "21fc4bfc4013e0177d4675b0aaf407fb275d6d7b0a5c575d1ecc2986c882af9b"
+    },
+    {
+      "path": "research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/retention_replay.json",
+      "bytes": 186756,
+      "sha256": "84b6b721ff9e118c524019359fea5b9d7b2da2d3e18f641fed09ce0446f200f7"
+    },
+    {
+      "path": "research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/REPORT.md",
+      "bytes": 3429,
+      "sha256": "b64bf0b81981a861d86d59d3b194e77ae0bc82ffc9daefdbb6a84281c2556eb9"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v4/checkers-with-runway-13-white-paper-v4.pdf",
+      "bytes": 946613,
+      "sha256": "4bc4f1e1240b2e9677fd2518a67078c6c82385e5822510b069ff5172226920da"
+    }
+  ],
+  "scope_note": "This receipt is committed after the verified artifact commit. It is not evidence of browser rendering, fresh HTTP asset download, historical certification or global optimality."
+}
