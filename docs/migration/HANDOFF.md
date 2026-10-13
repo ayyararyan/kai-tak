@@ -80,3 +80,15 @@ mutation or automatic future publication is proposed.
 Future contributors should start in the relevant pillar, record exact input identities,
 keep unresolved results explicit, preserve released packages and run the appropriate
 verification lane. Do not convert this preservation audit into a data-deletion list.
+
+
+## GitHub branch publication — 14 October 2026 IST
+
+Aryan explicitly authorized “push to GitHub.” Architecture commit
+`81a3a9edcf6dc89821fd7a91b61e7936305c977e` was pushed to
+`architecture/four-pillars-review-20261014`; remote ref identity and anonymous HTTP
+README bytes were freshly verified. Earlier local-only statements above describe
+the pre-publication handoff. No PR was opened, no merge occurred, and no release
+assets or tags were changed. Main had independently advanced to
+`a772db4a0198edfdba5cb3e4c351e3259a554ef8`; this push does not replace or merge it.
+Hosted workflow results are separate from branch-publication verification.

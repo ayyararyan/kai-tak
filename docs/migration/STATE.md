@@ -17,3 +17,15 @@ without changing science, frozen artifacts or published release identities.
 - Evidence: [VALIDATION.md](VALIDATION.md), [REVIEW.md](REVIEW.md), [PRESERVATION.md](PRESERVATION.md).
 
 No background monitoring or future automatic publication is promised.
+
+
+## GitHub branch publication — 14 October 2026 IST
+
+Aryan explicitly authorized “push to GitHub.” Architecture commit
+`81a3a9edcf6dc89821fd7a91b61e7936305c977e` was pushed to
+`architecture/four-pillars-review-20261014`; remote ref identity and anonymous HTTP
+README bytes were freshly verified. Earlier local-only statements above describe
+the pre-publication handoff. No PR was opened, no merge occurred, and no release
+assets or tags were changed. Main had independently advanced to
+`a772db4a0198edfdba5cb3e4c351e3259a554ef8`; this push does not replace or merge it.
+Hosted workflow results are separate from branch-publication verification.
