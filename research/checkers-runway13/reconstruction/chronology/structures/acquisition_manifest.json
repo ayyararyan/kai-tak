@@ -1,0 +1,878 @@
+{
+  "provider": "Lands Department, HKSAR Government, CSDI",
+  "tables": [
+    {
+      "table_id": 1000,
+      "name": "BuildingWorksHistory",
+      "count_before": 168042,
+      "count_after": 168042,
+      "retrieved_count": 168042,
+      "objectids_match": true,
+      "files": [
+        {
+          "path": "raw/BuildingWorksHistory/metadata.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000?f=json",
+          "retrieved_utc": "2026-10-13T12:29:14.259239+00:00",
+          "sha256": "bde71fbd02d0a28672492b1c90b53ff4b1d96c22aab6e70afcac93338ab8826f",
+          "bytes": 3369
+        },
+        {
+          "path": "raw/BuildingWorksHistory/count_before.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&returnCountOnly=true&f=json",
+          "retrieved_utc": "2026-10-13T12:29:14.752739+00:00",
+          "sha256": "5febea6c1ee15b7c62e3db7cf1ba846aa091693350c511f394b9e684d48fd054",
+          "bytes": 16
+        },
+        {
+          "path": "raw/BuildingWorksHistory/ids.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&returnIdsOnly=true&f=json",
+          "retrieved_utc": "2026-10-13T12:29:15.678110+00:00",
+          "sha256": "e752231f68a9a0da6bacd2b50bcf5fbfa2a5a2c313442fa2e9cc3a24505b2c69",
+          "bytes": 1065235
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_000000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=0&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:16.415798+00:00",
+          "sha256": "84735bfeb8b745d593df38c07d6e52f81059fe3d61e0d7226824f6c39f7ffdfe",
+          "bytes": 557836
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_003000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=3000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:17.105909+00:00",
+          "sha256": "0ec09ee3a49061939ea6f3b24af331af4aeb43929d11ad18928aec464e55d848",
+          "bytes": 556892
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_006000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=6000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:17.811752+00:00",
+          "sha256": "2ad608a4d5e93f2db0f40cf3b9a3e742d6456973ac3ee11762fe9cbb4d252db3",
+          "bytes": 557612
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_009000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=9000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:18.802648+00:00",
+          "sha256": "c517173004b05c44220ed6555cca3d1effbaf04130e1723ac80e38a1ac85046d",
+          "bytes": 558459
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_012000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=12000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:19.599205+00:00",
+          "sha256": "5d94d39ae9e2ae029adfbed0027d629f230fba6aab97e74c5641b9db780433eb",
+          "bytes": 559414
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_015000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=15000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:20.273335+00:00",
+          "sha256": "ec12a0c85bfbcc8ec72723c15c7aef1967c3078d7ceb5e83042ba4541e0b94ff",
+          "bytes": 558126
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_018000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=18000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:21.509052+00:00",
+          "sha256": "9ea20786a62e270da0a8247a2bb66f031e24811f34378de9ff45a2879d660ac1",
+          "bytes": 559514
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_021000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=21000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:22.220558+00:00",
+          "sha256": "fd84b73a9a479a798e965bca4aca7cdd425b070bd3f45e54b0f2fccac1a5cb53",
+          "bytes": 559318
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_024000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=24000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:22.909972+00:00",
+          "sha256": "849b6c3f2c0bbe777ca7eec9e2e21450519735091887f90c5b9735554e8d8946",
+          "bytes": 561842
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_027000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=27000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:23.884486+00:00",
+          "sha256": "1953c8cb97c40c5f038a1f4ce28f7419f6480fe5cb4e7cb56686bc1eb3cd8867",
+          "bytes": 562402
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_030000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=30000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:24.993583+00:00",
+          "sha256": "7f6e5ecf5c64aac875262d357f2924b641c5b43665319359994cb05b14b059b7",
+          "bytes": 562500
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_033000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=33000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:25.736293+00:00",
+          "sha256": "b2734b07f85937d082f3d0a81db4a4f15fb2142d83f4741aad8444fff8b3a52a",
+          "bytes": 564196
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_036000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=36000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:26.440520+00:00",
+          "sha256": "8767a9856b8240ea474967a1773182db86b89359e7d1c4b6a79da76609b2becd",
+          "bytes": 562862
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_039000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=39000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:27.234105+00:00",
+          "sha256": "176b494c2c541e0395ae27e5fe6d153862683637e4d1c04c0484239f19a8d52e",
+          "bytes": 563946
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_042000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=42000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:27.791791+00:00",
+          "sha256": "399b555b27a576fb45feadd80e2b9e4047f6e22649af6aebc74c2c480f9a75d5",
+          "bytes": 560644
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_045000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=45000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:28.564167+00:00",
+          "sha256": "d4bc685dfbe1fb7c83ffca3bde123688bd40c3d95d78ff8634bbb21b8581a450",
+          "bytes": 562118
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_048000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=48000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:29.950856+00:00",
+          "sha256": "7039997c7e1ef135e661cc4442b276f7fc71e10f13843c3b7248512fc64adc2f",
+          "bytes": 563086
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_051000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=51000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:30.644044+00:00",
+          "sha256": "c38764d027f2d6d3eded5959e11299fdbf5cb1ab438beee870890ba454cdc607",
+          "bytes": 562564
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_054000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=54000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:31.405082+00:00",
+          "sha256": "dbcef14f61faf775b0e863a2d3cc7cbe5290eaa8b8aee34ef54e821445393abd",
+          "bytes": 562268
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_057000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=57000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:32.086207+00:00",
+          "sha256": "94922be655d547e6d5976a0f9e9b94c43bf355e237a1c2f8d7ceb1b7dcb5ee75",
+          "bytes": 495910
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_060000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=60000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:32.790389+00:00",
+          "sha256": "aea6446f8a3bad5cea9dfd08e238409bd2afcd824de12639d4c49a09b968b8e0",
+          "bytes": 446606
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_063000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=63000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:33.492754+00:00",
+          "sha256": "2e1a6a8376444014a2f9620686d0a0a29ed69c94c33815a0d8500be574624a4a",
+          "bytes": 435537
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_066000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=66000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:34.199256+00:00",
+          "sha256": "1c47734cd4ddeaea4a110c2c020afdfa9dec722e92dbb08ba28b52da40c3b073",
+          "bytes": 435574
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_069000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=69000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:34.873826+00:00",
+          "sha256": "615b144cc8ec513ef92e1453d165561e7eb3e4bf7480d1c98b15f44e19d8d80c",
+          "bytes": 435526
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_072000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=72000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:35.522233+00:00",
+          "sha256": "db6183476d40ff592e87fea5410cb16e1350aa734979708dfba67db8255d9162",
+          "bytes": 435518
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_075000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=75000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:36.252877+00:00",
+          "sha256": "edc823fabfa3ea22c82ddbe08e39e2640efcafd3aed2889084da9c96df19e244",
+          "bytes": 435545
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_078000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=78000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:36.475930+00:00",
+          "sha256": "10f50a687093a180ec5c05348afcfdf3555a42715f7b42e1d42b5676af6b6bd9",
+          "bytes": 435526
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_081000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=81000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:37.227909+00:00",
+          "sha256": "13f96b00ca4cce95188e4d287214b1372471f9e97a642d0d87d2484934656cd2",
+          "bytes": 435537
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_084000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=84000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:37.434610+00:00",
+          "sha256": "e7cd046718638755875edfb3f2165e6b7e3b1ae2bcae2272346dc7d1e498e320",
+          "bytes": 435559
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_087000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=87000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:38.176979+00:00",
+          "sha256": "b02ad51a22214b5fa466098ed7501b53edab93be5756341634a0cfefbdd599c2",
+          "bytes": 435567
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_090000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=90000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:39.034118+00:00",
+          "sha256": "2f458ad6408171e1d89993c45969cb8a0a5a07b991429425d190b79592de8695",
+          "bytes": 435548
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_093000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=93000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:39.807231+00:00",
+          "sha256": "5f7c1e38f1eecdc4d03ee920ff793af7431d9bafc81a451c5b875f5d4b5d45ab",
+          "bytes": 435518
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_096000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=96000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:40.492531+00:00",
+          "sha256": "994146e4f56aaa91d409eb35b769dfc5b9847122f1cdfa706fc3a68a1f6f090f",
+          "bytes": 435556
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_099000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=99000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:41.230233+00:00",
+          "sha256": "d04052d0e3c8723fcc614271e108b96fc5d6b6780e1cb5086afd8ca17a76eaa6",
+          "bytes": 437538
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_102000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=102000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:41.905525+00:00",
+          "sha256": "cc169e741d57412e4cfc7c9d691ed96560145ed213e94c4595db9ccfe6490025",
+          "bytes": 438548
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_105000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=105000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:43.891739+00:00",
+          "sha256": "3ca754c745a97e51580cb6768909f6eacb10d4abbfa8ec647eaf5d45f0307dc8",
+          "bytes": 438608
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_108000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=108000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:44.655173+00:00",
+          "sha256": "9c852b4999589ee210b8b008a9105d17ee882298ea8896e5d885fd045f41a429",
+          "bytes": 438548
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_111000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=111000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:45.376173+00:00",
+          "sha256": "e0f79a1de53117b13adc2b2fe9f89187caf616bfd5e2ec89becf62cde6d94d84",
+          "bytes": 438529
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_114000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=114000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:46.108725+00:00",
+          "sha256": "f1cb99eaf483124fef9d9704f7105fc0912bfee93032ab143f700fd508da4616",
+          "bytes": 438548
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_117000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=117000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:47.094545+00:00",
+          "sha256": "9634d9aaa11cb7c088af3c22a5b502dfc7a51bd8010aabb457b5330bd7cfa0b6",
+          "bytes": 438518
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_120000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=120000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:47.795847+00:00",
+          "sha256": "e9e7f7f7d0ebd3cb1aa4edf00fba347d6519dfd28f6cbac17bf90b6703b112ad",
+          "bytes": 438518
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_123000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=123000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:48.455834+00:00",
+          "sha256": "0b4d27f2ba8acf2a37a8996780dd91323018d7a309a6862244640a4dd0136c9b",
+          "bytes": 438537
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_126000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=126000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:49.135919+00:00",
+          "sha256": "6989fe9fdbdd32bf6767aa0ff18fed587ad8b6ba50bca6cda4698ff3dffd91ac",
+          "bytes": 438537
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_129000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=129000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:49.796575+00:00",
+          "sha256": "99cc977c43ccf61cdb012d3cdb16f27227ec22d2453f56ae50935ea2b0740234",
+          "bytes": 438537
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_132000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=132000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:50.526890+00:00",
+          "sha256": "a3def1214915fb6027b7a05872c2faca0352d7aafba1df9b083c02404f295d54",
+          "bytes": 438526
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_135000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=135000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:51.219131+00:00",
+          "sha256": "9f4f5659773405d32ce59d901f3f3bdf2b9e0b1a117a5725799109a489889522",
+          "bytes": 438548
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_138000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=138000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:51.958213+00:00",
+          "sha256": "8be0016dc06b02a4f3192373f8733a25bf6335938900daecca6c86f2858dd83a",
+          "bytes": 438556
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_141000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=141000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:52.640274+00:00",
+          "sha256": "5bcf3acd2f42cb33a2cb013a085576fc733a53bbbd3cee6b3750d09949000875",
+          "bytes": 438526
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_144000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=144000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:53.389072+00:00",
+          "sha256": "7583408895371b60b8fe2e4ce0a6ee8edd1fdf74c68bddbd4b5e5ef6f6a88051",
+          "bytes": 438518
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_147000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=147000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:54.424205+00:00",
+          "sha256": "5e812487af303d166d1f8caba37dbf4fd8edafb49c72ef905a99d3e4399b4c7a",
+          "bytes": 438518
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_150000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=150000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:55.126852+00:00",
+          "sha256": "de45b8f49aac9e13d846ee712a0fb592bc04b9b0c75961fa28ad64f728dca57b",
+          "bytes": 438518
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_153000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=153000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:55.815045+00:00",
+          "sha256": "fb1097df93b3fa78b763e26608d01ff956c0f5950797765aee708ec606dd7c55",
+          "bytes": 438518
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_156000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=156000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:56.070216+00:00",
+          "sha256": "c84600efd333d18a780a78b50e83f5868369c0df2f202272c985eb53fe4b043e",
+          "bytes": 438518
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_159000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=159000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:56.793567+00:00",
+          "sha256": "7642cf0580566f917803ef57660c39935174f8bc52055e3d01eea1504a8ac980",
+          "bytes": 438510
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_162000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=162000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:58.145890+00:00",
+          "sha256": "5ad3a642c2a9add6cca7eccf49ee88d8c290981130c93ef956f4ab831faf453a",
+          "bytes": 438518
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_165000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=165000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:58.882356+00:00",
+          "sha256": "fce4973237c1ee6e4494deeedcef44c85afbaefbd9966d28736ca3baf4f97f82",
+          "bytes": 438968
+        },
+        {
+          "path": "raw/BuildingWorksHistory/page_168000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=168000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:59.882453+00:00",
+          "sha256": "e4bba3b3daff08f0d28c09edc7c08f1a12ef2264aa070cfe690c9813f0217adc",
+          "bytes": 6951
+        },
+        {
+          "path": "raw/BuildingWorksHistory/count_after.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?where=1%3D1&returnCountOnly=true&f=json",
+          "retrieved_utc": "2026-10-13T12:30:00.219180+00:00",
+          "sha256": "5febea6c1ee15b7c62e3db7cf1ba846aa091693350c511f394b9e684d48fd054",
+          "bytes": 16
+        }
+      ]
+    },
+    {
+      "table_id": 1002,
+      "name": "BuildingRelateOPStructure",
+      "count_before": 53349,
+      "count_after": 53349,
+      "retrieved_count": 53349,
+      "objectids_match": true,
+      "files": [
+        {
+          "path": "raw/BuildingRelateOPStructure/metadata.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002?f=json",
+          "retrieved_utc": "2026-10-13T12:29:14.299226+00:00",
+          "sha256": "4b367436fbb74a80d7ab92e5cecb3a9086a442ee7fb07ca1cb8fccdb418cf168",
+          "bytes": 3132
+        },
+        {
+          "path": "raw/BuildingRelateOPStructure/count_before.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002/query?where=1%3D1&returnCountOnly=true&f=json",
+          "retrieved_utc": "2026-10-13T12:29:14.632074+00:00",
+          "sha256": "3d5a8c92067636a8bd39c0469f77b5608396612843fe38f73235ba44a9666771",
+          "bytes": 15
+        },
+        {
+          "path": "raw/BuildingRelateOPStructure/ids.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002/query?where=1%3D1&returnIdsOnly=true&f=json",
+          "retrieved_utc": "2026-10-13T12:29:17.294579+00:00",
+          "sha256": "1816def5ab043c4a5d405e21975391b6ae7a27a673bb826a8e567f9fea11772a",
+          "bytes": 309034
+        },
+        {
+          "path": "raw/BuildingRelateOPStructure/page_000000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=0&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:17.959912+00:00",
+          "sha256": "1be4da66c138dfe983a5f1fc0ac47094a766d90198717c3e86161b5dc7fa80ac",
+          "bytes": 301951
+        },
+        {
+          "path": "raw/BuildingRelateOPStructure/page_003000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=3000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:18.933153+00:00",
+          "sha256": "7f7774350c1075ee56c6c8e020b3faac0e7b1f84a07b3748a2170e4cf96a229e",
+          "bytes": 302467
+        },
+        {
+          "path": "raw/BuildingRelateOPStructure/page_006000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=6000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:19.732803+00:00",
+          "sha256": "639722c108bcae0db1b13f3ef72b0ec1bea5b1830ebae13a6a01003f620f5b20",
+          "bytes": 302165
+        },
+        {
+          "path": "raw/BuildingRelateOPStructure/page_009000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=9000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:19.913061+00:00",
+          "sha256": "b1ddba67a12fa493a6eefe59bb7322400a12d9c7fac51eefcb6c0c86631e57b5",
+          "bytes": 303333
+        },
+        {
+          "path": "raw/BuildingRelateOPStructure/page_012000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=12000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:20.548043+00:00",
+          "sha256": "9ce1fbd5d6699388de58863de8c850c891a032dfc3e9c04cf67b933675a05d6e",
+          "bytes": 304061
+        },
+        {
+          "path": "raw/BuildingRelateOPStructure/page_015000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=15000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:21.729962+00:00",
+          "sha256": "b5d46a203ddd9b7f83228553b396d476b01a04be8ccfadb80f684ee7d6467483",
+          "bytes": 303877
+        },
+        {
+          "path": "raw/BuildingRelateOPStructure/page_018000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=18000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:22.411012+00:00",
+          "sha256": "6dd216a07fac6155ebdf721280356ed31875c7f0ab3eb1b752dab61c2aa558cf",
+          "bytes": 304709
+        },
+        {
+          "path": "raw/BuildingRelateOPStructure/page_021000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=21000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:22.600625+00:00",
+          "sha256": "c85ac38636b49614acbdc9574d32b546d49aedc546a96da39ba6d14521c584c1",
+          "bytes": 305195
+        },
+        {
+          "path": "raw/BuildingRelateOPStructure/page_024000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=24000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:22.775731+00:00",
+          "sha256": "f1207da0cd4be834cfb9962b2d1359b915c7bfa29fbeb9e9b683e4b1551706d9",
+          "bytes": 305347
+        },
+        {
+          "path": "raw/BuildingRelateOPStructure/page_027000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=27000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:23.524993+00:00",
+          "sha256": "aeb1bb2ebd3cdab16c1514a4836c9df2a8a5b4bf80397a9e122bf93869d01251",
+          "bytes": 305716
+        },
+        {
+          "path": "raw/BuildingRelateOPStructure/page_030000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=30000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:24.477352+00:00",
+          "sha256": "6b988d48deed3c2b6f37e05c33a1f420f0a74a417bbed853635e22e71b84ffab",
+          "bytes": 305660
+        },
+        {
+          "path": "raw/BuildingRelateOPStructure/page_033000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=33000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:25.392802+00:00",
+          "sha256": "096dbfe7d14551ecb29c6c2fc4acd83357085f266fce17e8859f4b9d4a7de891",
+          "bytes": 305097
+        },
+        {
+          "path": "raw/BuildingRelateOPStructure/page_036000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=36000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:25.692645+00:00",
+          "sha256": "17aba6820ab3e2f5c32fa17b3e1c698609a2a5cf68750a39f5aeab71ce110d04",
+          "bytes": 305056
+        },
+        {
+          "path": "raw/BuildingRelateOPStructure/page_039000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=39000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:26.608815+00:00",
+          "sha256": "7a4948646402e28f9daeb1e143060b94d41cafec79ff1533b8eb3a498cfb4a7f",
+          "bytes": 305001
+        },
+        {
+          "path": "raw/BuildingRelateOPStructure/page_042000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=42000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:27.343342+00:00",
+          "sha256": "367895ff96161e38b0a94c5fef746343759a5580db8625032196d79ec9a7b46e",
+          "bytes": 305304
+        },
+        {
+          "path": "raw/BuildingRelateOPStructure/page_045000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=45000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:28.057227+00:00",
+          "sha256": "e8e78e143279faa8dafc80d0bf1c64b3143a29f71ba640b5d36d8f5982a1e3ae",
+          "bytes": 305985
+        },
+        {
+          "path": "raw/BuildingRelateOPStructure/page_048000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=48000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:28.736308+00:00",
+          "sha256": "fa59c7ea9d571ac91b8181eeeef63676c7d50543e7425167263ac0642487fed0",
+          "bytes": 306225
+        },
+        {
+          "path": "raw/BuildingRelateOPStructure/page_051000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=51000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:29.397907+00:00",
+          "sha256": "f86dff22e42593408c72698e2e612abe9d0537c6f40ebc9546bbe290b1a34ad2",
+          "bytes": 239843
+        },
+        {
+          "path": "raw/BuildingRelateOPStructure/count_after.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002/query?where=1%3D1&returnCountOnly=true&f=json",
+          "retrieved_utc": "2026-10-13T12:29:29.712341+00:00",
+          "sha256": "3d5a8c92067636a8bd39c0469f77b5608396612843fe38f73235ba44a9666771",
+          "bytes": 15
+        }
+      ]
+    },
+    {
+      "table_id": 1003,
+      "name": "OPStructure",
+      "count_before": 54505,
+      "count_after": 54505,
+      "retrieved_count": 54505,
+      "objectids_match": true,
+      "files": [
+        {
+          "path": "raw/OPStructure/metadata.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003?f=json",
+          "retrieved_utc": "2026-10-13T12:29:14.200784+00:00",
+          "sha256": "cec2b79ba90c80843ac68f287f74ca312a39bce8b9a6b8a971de62986dfdda3f",
+          "bytes": 4220
+        },
+        {
+          "path": "raw/OPStructure/count_before.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003/query?where=1%3D1&returnCountOnly=true&f=json",
+          "retrieved_utc": "2026-10-13T12:29:14.665005+00:00",
+          "sha256": "309b7acf7e743e44a7f2fe745dc2966778da5cee8e22a63603ab8c2a31152475",
+          "bytes": 15
+        },
+        {
+          "path": "raw/OPStructure/ids.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003/query?where=1%3D1&returnIdsOnly=true&f=json",
+          "retrieved_utc": "2026-10-13T12:29:15.365718+00:00",
+          "sha256": "23cdad6ab5d3b80710accdd0a0e10ff9dfab9f312a55b9b38fce88691aa46e69",
+          "bytes": 315970
+        },
+        {
+          "path": "raw/OPStructure/page_000000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=0&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:16.076353+00:00",
+          "sha256": "59532c40712a51ed3d5bfe0bd5a0fd33020667a1e42fe98c1fea7844ae1944ac",
+          "bytes": 607326
+        },
+        {
+          "path": "raw/OPStructure/page_003000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=3000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:16.761825+00:00",
+          "sha256": "a29047458e3b8c301b6baf7a1ff3ade3a07cd2ce379ea4e5cf5a4307ccb65691",
+          "bytes": 658524
+        },
+        {
+          "path": "raw/OPStructure/page_006000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=6000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:17.530964+00:00",
+          "sha256": "9e14d8d1dce9359d5fd12d753208cbcf3e8541a4bc80e05d1e6d38d2b6cacb49",
+          "bytes": 664047
+        },
+        {
+          "path": "raw/OPStructure/page_009000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=9000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:18.567998+00:00",
+          "sha256": "5ecb72767df2ca8a6cfd38ad066e9e48b06cb591c63263c98928990913cbc0de",
+          "bytes": 608973
+        },
+        {
+          "path": "raw/OPStructure/page_012000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=12000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:19.317981+00:00",
+          "sha256": "507135ae58358eaa4416f4e7fbefecca0134a1f056d1361382d53202825779be",
+          "bytes": 715915
+        },
+        {
+          "path": "raw/OPStructure/page_015000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=15000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:19.543596+00:00",
+          "sha256": "6b46b5a8f985077f59536173cd0bb07198feaffb7599f9776a44158ffb11eaf5",
+          "bytes": 605534
+        },
+        {
+          "path": "raw/OPStructure/page_018000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=18000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:20.273400+00:00",
+          "sha256": "d9b36c6a0c991c6bfe2ebab11a54a31029c29e0d1dfdf21113291b2cf30df1a3",
+          "bytes": 722764
+        },
+        {
+          "path": "raw/OPStructure/page_021000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=21000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:23.406148+00:00",
+          "sha256": "5d99a86ee91a379b53acbc6063c17f603e89aedad9efb26776441e3d9ef9977f",
+          "bytes": 602985
+        },
+        {
+          "path": "raw/OPStructure/page_024000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=24000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:24.180412+00:00",
+          "sha256": "6b06eeb1c06ae6f76cc0190121e9f2f6e5fcc29a89668714dda64d3d87f6807b",
+          "bytes": 704680
+        },
+        {
+          "path": "raw/OPStructure/page_027000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=27000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:25.200321+00:00",
+          "sha256": "80f804cdeaf280245f09d5e1eea9e5f0cc243c7ccd2b4fcac1feb6cba34ceba7",
+          "bytes": 620086
+        },
+        {
+          "path": "raw/OPStructure/page_030000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=30000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:26.078392+00:00",
+          "sha256": "7b97f4af956336a789fdaff2864d9ea446860dd83a7a841c946da3c341fb2c20",
+          "bytes": 639520
+        },
+        {
+          "path": "raw/OPStructure/page_033000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=33000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:26.440474+00:00",
+          "sha256": "8db7f9130d168c07db14cf1c340b2f3ce4d84002aedc87b843640863689ec3e8",
+          "bytes": 684920
+        },
+        {
+          "path": "raw/OPStructure/page_036000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=36000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:27.149852+00:00",
+          "sha256": "03321d3b5a8ed57072ed589a1929dc89ff0c2cbf3c88c44bc45f41f42fec6969",
+          "bytes": 606969
+        },
+        {
+          "path": "raw/OPStructure/page_039000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=39000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:28.016742+00:00",
+          "sha256": "1506fd291be5de085bc099cc1f3e5dd91c0d17ba556c6ebc2c3713a6316ed3d8",
+          "bytes": 721645
+        },
+        {
+          "path": "raw/OPStructure/page_042000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=42000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:29.096815+00:00",
+          "sha256": "df5d89a00573e2e79b9c2d0aac9223ef24e1be6688b917dacfae07ccc25a169c",
+          "bytes": 605184
+        },
+        {
+          "path": "raw/OPStructure/page_045000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=45000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:30.406141+00:00",
+          "sha256": "6d828abb5b244117429a39df558e33006328cdbb6864b54da305b0ac312bec21",
+          "bytes": 726517
+        },
+        {
+          "path": "raw/OPStructure/page_048000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=48000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:31.262159+00:00",
+          "sha256": "41a9d757c619ea79be66d146d66ed058e8c7aaa62ab5c777aa40830ad7ae2db1",
+          "bytes": 602360
+        },
+        {
+          "path": "raw/OPStructure/page_051000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=51000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:31.995963+00:00",
+          "sha256": "19a51d2c97f1bfa2496682f1307d7058d982ffcddcf1f688f16eb01171242dfd",
+          "bytes": 687502
+        },
+        {
+          "path": "raw/OPStructure/page_054000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=54000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:32.165994+00:00",
+          "sha256": "be115e6970a6437cfe2cae350595bdf2c5bb8da9aabe829692456776b081af52",
+          "bytes": 129372
+        },
+        {
+          "path": "raw/OPStructure/count_after.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003/query?where=1%3D1&returnCountOnly=true&f=json",
+          "retrieved_utc": "2026-10-13T12:29:32.487460+00:00",
+          "sha256": "309b7acf7e743e44a7f2fe745dc2966778da5cee8e22a63603ab8c2a31152475",
+          "bytes": 15
+        }
+      ]
+    },
+    {
+      "table_id": 1004,
+      "name": "OP",
+      "count_before": 24469,
+      "count_after": 24469,
+      "retrieved_count": 24469,
+      "objectids_match": true,
+      "files": [
+        {
+          "path": "raw/OP/metadata.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004?f=json",
+          "retrieved_utc": "2026-10-13T12:29:14.395820+00:00",
+          "sha256": "b70fdf0044987b3d20699703ddc0122f9724a182c55620b351a721096d9c4287",
+          "bytes": 3394
+        },
+        {
+          "path": "raw/OP/count_before.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004/query?where=1%3D1&returnCountOnly=true&f=json",
+          "retrieved_utc": "2026-10-13T12:29:14.718669+00:00",
+          "sha256": "7acc1fdbd8c144d952a8a13585f21de9b8da008e7bfd452a62be1305d9bb1a29",
+          "bytes": 15
+        },
+        {
+          "path": "raw/OP/ids.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004/query?where=1%3D1&returnIdsOnly=true&f=json",
+          "retrieved_utc": "2026-10-13T12:29:15.368133+00:00",
+          "sha256": "1b242aa526822c698d565c23f50bd449d5d596bb7519069a51a0aa04f83288ee",
+          "bytes": 135754
+        },
+        {
+          "path": "raw/OP/page_000000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=0&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:15.996871+00:00",
+          "sha256": "7103de86c4632840daf24222f26ad86febc7b2307a3c51e5ba036a64f03c9b27",
+          "bytes": 375919
+        },
+        {
+          "path": "raw/OP/page_003000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=3000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:16.727428+00:00",
+          "sha256": "698201b37d2f30f93ae6259894d4bc2e3652f4acacb01c0c5662f4a5b9a2bd05",
+          "bytes": 376303
+        },
+        {
+          "path": "raw/OP/page_006000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=6000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:17.376189+00:00",
+          "sha256": "5b4777f465ca58ec48f3b31ea2664bc76afa4c63daf5fe1b766cffb59531b6f2",
+          "bytes": 378024
+        },
+        {
+          "path": "raw/OP/page_009000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=9000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:18.056151+00:00",
+          "sha256": "21a0d19c5289cb9d87f79b3de7399d1cc88af806335c68b4175ab30587be2abe",
+          "bytes": 380176
+        },
+        {
+          "path": "raw/OP/page_012000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=12000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:18.698550+00:00",
+          "sha256": "a6496c94bc19049003d0b04bb0fd1942d8f0400d2057bd4a098129cf8c2953a4",
+          "bytes": 381428
+        },
+        {
+          "path": "raw/OP/page_015000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=15000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:19.346996+00:00",
+          "sha256": "862b5052b3586a61ac626fbaa0716a14206dcd1c2d70ef856883f34a1220ecd4",
+          "bytes": 380004
+        },
+        {
+          "path": "raw/OP/page_018000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=18000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:20.019798+00:00",
+          "sha256": "6d7b2303dff9c9065a9614596d374dca7a050b0690e32f8b7f43defa82a7ac18",
+          "bytes": 380363
+        },
+        {
+          "path": "raw/OP/page_021000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=21000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:21.390510+00:00",
+          "sha256": "da9679cc61c7b0f2a914dabca55608da15ee0b1ae4eb986135c081c684905db9",
+          "bytes": 380478
+        },
+        {
+          "path": "raw/OP/page_024000.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID+ASC&resultOffset=24000&resultRecordCount=3000&f=json",
+          "retrieved_utc": "2026-10-13T12:29:21.527935+00:00",
+          "sha256": "5b5790bbe0a9ab9388dfaad7f9de4391ca37bef66ca6824ccc1a7d0d1aac7621",
+          "bytes": 61233
+        },
+        {
+          "path": "raw/OP/count_after.json",
+          "url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004/query?where=1%3D1&returnCountOnly=true&f=json",
+          "retrieved_utc": "2026-10-13T12:29:21.862095+00:00",
+          "sha256": "7acc1fdbd8c144d952a8a13585f21de9b8da008e7bfd452a62be1305d9bb1a29",
+          "bytes": 15
+        }
+      ]
+    }
+  ]
+}

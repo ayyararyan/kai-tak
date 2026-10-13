@@ -1,0 +1,2447 @@
+[
+  {
+    "file": "11-NE-11A_1989-10/audit_contact_sheet.jpg",
+    "bytes": 293056,
+    "sha256": "f4abfa119f0375952bc406fae6ee3881cf20da899898a5f391e81f144a4d81e6"
+  },
+  {
+    "file": "11-NE-11A_1989-10/map_regions.geojson",
+    "bytes": 6818064,
+    "sha256": "d3001aabc4b40dba42e7233ffa0806416beca28a3bad6a782a77022382c90aaf"
+  },
+  {
+    "file": "11-NE-11A_1989-10/ranked_candidates.csv",
+    "bytes": 247953,
+    "sha256": "4194375dc8230bddd353b7bf2d4e9eb5d4ac45297d2e19a876238ce328f7d0c0"
+  },
+  {
+    "file": "11-NE-11A_1989-10/ranked_candidates.geojson",
+    "bytes": 864314,
+    "sha256": "985513842342b8773d28baca2cb575390b297af7c2974c6618bdd56f7059627f"
+  },
+  {
+    "file": "11-NE-11A_1989-10/summary.json",
+    "bytes": 1622,
+    "sha256": "39ac81859847a758fba289a86fe506cfd0f2e905fd7f83fd38bbb02381362168"
+  },
+  {
+    "file": "11-NE-11A_1994-07/audit_contact_sheet.jpg",
+    "bytes": 321664,
+    "sha256": "6861f2a49b0578139c5cfd1d5e7e284484899aaf49783f86d55a73417757dc39"
+  },
+  {
+    "file": "11-NE-11A_1994-07/map_regions.geojson",
+    "bytes": 11366629,
+    "sha256": "4b31b199a903407c972be68faee554d905aa657c18437bef702782ca7442989f"
+  },
+  {
+    "file": "11-NE-11A_1994-07/ranked_candidates.csv",
+    "bytes": 245785,
+    "sha256": "1422c017c1b3ab99923e42f7bb3d38c713d8d62de1654e296a419e50222ca300"
+  },
+  {
+    "file": "11-NE-11A_1994-07/ranked_candidates.geojson",
+    "bytes": 862050,
+    "sha256": "5ac17ef16292517bed87ab1bd9a853707eaff44730602d2ab33ef5294e133147"
+  },
+  {
+    "file": "11-NE-11A_1994-07/summary.json",
+    "bytes": 1624,
+    "sha256": "54625f640ba70c29e8e569755e0b55d272874cb47a0c4e2a28fdf4e265a40f70"
+  },
+  {
+    "file": "11-NE-11B_1989-12/audit_contact_sheet.jpg",
+    "bytes": 342466,
+    "sha256": "dc6bfc5ad253874e453debcc66b19aec48e918f8fe1c715bb3724f7cca04cfc1"
+  },
+  {
+    "file": "11-NE-11B_1989-12/map_regions.geojson",
+    "bytes": 3443171,
+    "sha256": "95fa4248031dd646cfe8383ff2f47cff460cdd0b420b4a833e09694b07a64b0b"
+  },
+  {
+    "file": "11-NE-11B_1989-12/ranked_candidates.csv",
+    "bytes": 97064,
+    "sha256": "0d44630a9fb8a032a8eb7e1e18aa6f0893bc67ead3c6680563b3449e41598014"
+  },
+  {
+    "file": "11-NE-11B_1989-12/ranked_candidates.geojson",
+    "bytes": 526791,
+    "sha256": "5dbc093968074faef01bd6c0c624d6088227dcc69dae116e529dc1ae44e33904"
+  },
+  {
+    "file": "11-NE-11B_1989-12/summary.json",
+    "bytes": 1622,
+    "sha256": "e9bb38ebbc59db6a5af989597984e3fc69c3721a94f46b01a510368fc804d70a"
+  },
+  {
+    "file": "11-NE-11C_1990-01/audit_contact_sheet.jpg",
+    "bytes": 320486,
+    "sha256": "cbbe995b220b580638720d167b44577285d133030f5e2ffbbe92c8b0eaee6733"
+  },
+  {
+    "file": "11-NE-11C_1990-01/map_regions.geojson",
+    "bytes": 3097100,
+    "sha256": "a13bff9941226a05e64389e1ff72a8a6b48cebc4ba866e450f266c5467f1a6d0"
+  },
+  {
+    "file": "11-NE-11C_1990-01/ranked_candidates.csv",
+    "bytes": 96129,
+    "sha256": "51a3133d1b8636e228eac140b5e43d2bedbb3fe798930997f3ee4abbb8c09e20"
+  },
+  {
+    "file": "11-NE-11C_1990-01/ranked_candidates.geojson",
+    "bytes": 461290,
+    "sha256": "42f3fc688f9e78c7e1b883b394e723646ec560d407f6da4e327359cbcb60b235"
+  },
+  {
+    "file": "11-NE-11C_1990-01/summary.json",
+    "bytes": 1620,
+    "sha256": "df7baf0d10b4adc544055e770eae17562ecb733acd1f53799efa6a56c9bb2635"
+  },
+  {
+    "file": "11-NE-11D_1989-12/audit_contact_sheet.jpg",
+    "bytes": 272878,
+    "sha256": "02e5db1f3277d846c7dbf27f78868c03424dcaa017d39f7e7b6b517e2af1957e"
+  },
+  {
+    "file": "11-NE-11D_1989-12/map_regions.geojson",
+    "bytes": 2023295,
+    "sha256": "38dd7d955e6f8218d1d008eb8ddb0bddf32827bb4057fb48a0e887e22bad2f8f"
+  },
+  {
+    "file": "11-NE-11D_1989-12/ranked_candidates.csv",
+    "bytes": 69005,
+    "sha256": "f20dc28a16ce39207b5c9c9e1641653545793346e5496ed991599f57a7883ad6"
+  },
+  {
+    "file": "11-NE-11D_1989-12/ranked_candidates.geojson",
+    "bytes": 409277,
+    "sha256": "05350d9eced22866c23dc224b174f525373226c73448fc0e02e81d1127a37edf"
+  },
+  {
+    "file": "11-NE-11D_1989-12/summary.json",
+    "bytes": 1621,
+    "sha256": "ec1bdfb98d1d5fbf4e2326c7b6369399ec7cc7b8d36ba0506d2ca3c9f09ca4c8"
+  },
+  {
+    "file": "11-NE-12A_1991-09/audit_contact_sheet.jpg",
+    "bytes": 351446,
+    "sha256": "b2ed16688f96b2dd04400515aa918c6b68b67d507e944c1c398cc5fdf7e60da0"
+  },
+  {
+    "file": "11-NE-12A_1991-09/map_regions.geojson",
+    "bytes": 9349611,
+    "sha256": "c78a3839575bc379c12c20d6a0ee12d42dad8426ffbbe11f73eacd86cf813e79"
+  },
+  {
+    "file": "11-NE-12A_1991-09/ranked_candidates.csv",
+    "bytes": 94385,
+    "sha256": "33659e6618ab799bdd531d9790321ad139bda45863d749dd58a9c6abf63eb8a2"
+  },
+  {
+    "file": "11-NE-12A_1991-09/ranked_candidates.geojson",
+    "bytes": 497916,
+    "sha256": "9245ecc6bb265b285251ea930951cfb7fbc9d1464210edf7ec25ca1f6600d0fc"
+  },
+  {
+    "file": "11-NE-12A_1991-09/summary.json",
+    "bytes": 1587,
+    "sha256": "3255bc5561f0812a06c2f75ab839f8d24c6d05652f128bb84fe7d9c76babafc5"
+  },
+  {
+    "file": "11-NE-12B_1990-02/audit_contact_sheet.jpg",
+    "bytes": 359864,
+    "sha256": "68621bf2cfd91ae6108d9ff5e0b25d532b3f698916b1774a2ee324add01ca9e9"
+  },
+  {
+    "file": "11-NE-12B_1990-02/map_regions.geojson",
+    "bytes": 16390909,
+    "sha256": "31214604e6b8fc74281006c8534bcdf4f370bcfc532a5f47ca0676a47a339797"
+  },
+  {
+    "file": "11-NE-12B_1990-02/ranked_candidates.csv",
+    "bytes": 83870,
+    "sha256": "83dbd7a39d9ed619d13e3dc6508bb9f8e28f73c63f722b2efa2a0cf17d484bfa"
+  },
+  {
+    "file": "11-NE-12B_1990-02/ranked_candidates.geojson",
+    "bytes": 542799,
+    "sha256": "9370039f3ea8aca1f32bb77b60a164e630351edc1fdb330fb184ab6dd236c8e9"
+  },
+  {
+    "file": "11-NE-12B_1990-02/summary.json",
+    "bytes": 1622,
+    "sha256": "f4399fa2b34fffd018b3485f05e73f05b519004717b4bc1f44f39f0e21aa46cb"
+  },
+  {
+    "file": "11-NE-12C_1991-09/audit_contact_sheet.jpg",
+    "bytes": 347513,
+    "sha256": "45a96e9edc7713d863116f4f32043af5abe51dc1f53a8825a4c77c3def28ddaf"
+  },
+  {
+    "file": "11-NE-12C_1991-09/map_regions.geojson",
+    "bytes": 6097709,
+    "sha256": "359d50b528542f24460a8724a96f50bc47292fe5003b8a21f0be6bc7f1f3a62b"
+  },
+  {
+    "file": "11-NE-12C_1991-09/ranked_candidates.csv",
+    "bytes": 75430,
+    "sha256": "af96b97704752d475b0b7bd6db52f9489b1044db190703092d1301b9b20cc69e"
+  },
+  {
+    "file": "11-NE-12C_1991-09/ranked_candidates.geojson",
+    "bytes": 348327,
+    "sha256": "2aa691b976e3bbf61d7d3c03b5a574f7ded8574d1a7ffbdcf5c5caefd319254a"
+  },
+  {
+    "file": "11-NE-12C_1991-09/summary.json",
+    "bytes": 1623,
+    "sha256": "0f0d32607059b805c2d9e0cc9f9bf25dece10a53927efe68feb61d49e92c109a"
+  },
+  {
+    "file": "11-NE-12D_1990-02/audit_contact_sheet.jpg",
+    "bytes": 418088,
+    "sha256": "4ab466ed59e3dd5ae867679dbcac0e87a8f0a7fba28227aa0b7abedcf242a115"
+  },
+  {
+    "file": "11-NE-12D_1990-02/map_regions.geojson",
+    "bytes": 16168734,
+    "sha256": "197b8956a50557a0e03890022a50b0ca7e775d8d301b8313ed84032d43806da9"
+  },
+  {
+    "file": "11-NE-12D_1990-02/ranked_candidates.csv",
+    "bytes": 121482,
+    "sha256": "f60aeb0b80943ec5f259d75fac6de95f85cf5d840eb4c03ac97d106ea5d5de62"
+  },
+  {
+    "file": "11-NE-12D_1990-02/ranked_candidates.geojson",
+    "bytes": 592501,
+    "sha256": "7cb6bb378ea2025f0760ec1c8e14cc4bf8842a2d56eca612f9dd20e1febe9a5c"
+  },
+  {
+    "file": "11-NE-12D_1990-02/summary.json",
+    "bytes": 1585,
+    "sha256": "246a1401803ff9d5559910acf9d41e63f10fd8ba1f6bbca445965c385fe1b416"
+  },
+  {
+    "file": "11-NE-13A_1990-05/audit_contact_sheet.jpg",
+    "bytes": 395479,
+    "sha256": "702845fd10539d2685ee57827f8bbbaa8c9e7ba19ca07db819beaa2b9507edd0"
+  },
+  {
+    "file": "11-NE-13A_1990-05/map_regions.geojson",
+    "bytes": 16289970,
+    "sha256": "16c7b8355976c3dc5469eea6b942f2219fd26c59fc948ab11e95863935fcee6f"
+  },
+  {
+    "file": "11-NE-13A_1990-05/ranked_candidates.csv",
+    "bytes": 35903,
+    "sha256": "600af31ef1fe5e6d8138ef6c7cc4e72a4cc02dcddb305ed3cee5ab1a878a61dd"
+  },
+  {
+    "file": "11-NE-13A_1990-05/ranked_candidates.geojson",
+    "bytes": 226341,
+    "sha256": "482a06405fc3b6dc8e6ceada1b4547a9313b7444a223b05381ff9b4e0aaa4603"
+  },
+  {
+    "file": "11-NE-13A_1990-05/summary.json",
+    "bytes": 1584,
+    "sha256": "b83a86a2576b1d25720f7a268b51be0ec40d4c7b00b2fc8dc90cffe9118b8010"
+  },
+  {
+    "file": "11-NE-13C_1990-05/audit_contact_sheet.jpg",
+    "bytes": 389837,
+    "sha256": "766e16faf8382de39d9254632eb467ad451585b6e65ed6f69b0db3e19645dd77"
+  },
+  {
+    "file": "11-NE-13C_1990-05/map_regions.geojson",
+    "bytes": 23334837,
+    "sha256": "c648ab487c581567facaa01eb1cb484767403d338fb7a3d07354950935f549bd"
+  },
+  {
+    "file": "11-NE-13C_1990-05/ranked_candidates.csv",
+    "bytes": 31726,
+    "sha256": "edbd5ec2cf001506a53e46e6290620089621d1063c2ffac80f3f29974c91e7ed"
+  },
+  {
+    "file": "11-NE-13C_1990-05/ranked_candidates.geojson",
+    "bytes": 112268,
+    "sha256": "ce0693c24fbf352e181e639ec4c5c73b8883e4b2c79db01892198ff125dedc30"
+  },
+  {
+    "file": "11-NE-13C_1990-05/summary.json",
+    "bytes": 1620,
+    "sha256": "adbd779bc5163e4dc0a74699de705c5d3147b23ca96a2651e10c7e2744192c30"
+  },
+  {
+    "file": "11-NE-16A_1989-12/audit_contact_sheet.jpg",
+    "bytes": 449120,
+    "sha256": "03ec349128949e8c07f82fc45c144a8f19b2ce757c8008f238f062227e094284"
+  },
+  {
+    "file": "11-NE-16A_1989-12/map_regions.geojson",
+    "bytes": 11724733,
+    "sha256": "d09c755ea234685fbacf9370d34cb908493d9207e9819fe8aed0321905cb0810"
+  },
+  {
+    "file": "11-NE-16A_1989-12/ranked_candidates.csv",
+    "bytes": 391189,
+    "sha256": "f5043343406f5e7637dc0670fac662ac750fb520fea94f619881db2c822446d7"
+  },
+  {
+    "file": "11-NE-16A_1989-12/ranked_candidates.geojson",
+    "bytes": 1377547,
+    "sha256": "b5527ed5368fc1e92aa7d668d0fc32bca7856cae0363e991f186f0b309b74c5e"
+  },
+  {
+    "file": "11-NE-16A_1989-12/summary.json",
+    "bytes": 1623,
+    "sha256": "eea65b5050f9fb190ce9473792e0cec3f53f9c47e077caa832de7e41e34f75c0"
+  },
+  {
+    "file": "11-NE-16B_1989-12/audit_contact_sheet.jpg",
+    "bytes": 330876,
+    "sha256": "843ddedb3dcf5aa6a034e3c0cdff49c55ef040608669b2b1050e49cb005a5da4"
+  },
+  {
+    "file": "11-NE-16B_1989-12/map_regions.geojson",
+    "bytes": 1851703,
+    "sha256": "0478fe0a4f5e3fbbe4b744771a9f92d491f3de5094bc34a19fa5601a47c331bd"
+  },
+  {
+    "file": "11-NE-16B_1989-12/ranked_candidates.csv",
+    "bytes": 15301,
+    "sha256": "022062d1c9ed129ecc1639b141285044f929e8c4c34630fd4bad127d4d669b72"
+  },
+  {
+    "file": "11-NE-16B_1989-12/ranked_candidates.geojson",
+    "bytes": 114478,
+    "sha256": "3fd142081afb59942a814dc9796104dfe6093aab2b011b3ca3f6e2621ee95949"
+  },
+  {
+    "file": "11-NE-16B_1989-12/summary.json",
+    "bytes": 1563,
+    "sha256": "2d9e34070b21d4fcd85fa88698a3a3d672a4abbb37cae9f621dc1980f65c48f1"
+  },
+  {
+    "file": "11-NE-16C_1989-12/audit_contact_sheet.jpg",
+    "bytes": 521933,
+    "sha256": "ee541a72d2981e4976fa5ec592aefc0020e5dbb9dca3b4f5102cd84429e9b6dc"
+  },
+  {
+    "file": "11-NE-16C_1989-12/map_regions.geojson",
+    "bytes": 7030099,
+    "sha256": "becd830196921aed17098672ae5b4587d01f3e3cf0dc6fe4b12099ed2db42282"
+  },
+  {
+    "file": "11-NE-16C_1989-12/ranked_candidates.csv",
+    "bytes": 185393,
+    "sha256": "b9485279e01f0734b319178ef738f44009c8b60eb58c411b6bd1c114e1d9eb94"
+  },
+  {
+    "file": "11-NE-16C_1989-12/ranked_candidates.geojson",
+    "bytes": 657814,
+    "sha256": "325b562469edef5fe45544576cddff3f9399b7929353c1ce7c53cc17a65de340"
+  },
+  {
+    "file": "11-NE-16C_1989-12/summary.json",
+    "bytes": 1580,
+    "sha256": "67ef0fcb0c4c04d0929e08252b338c4a41c885c46022f596666ce84af5e19782"
+  },
+  {
+    "file": "11-NE-16D_1986-07/audit_contact_sheet.jpg",
+    "bytes": 320245,
+    "sha256": "500c9ec6e97f761f4cd7505d6acbb55d956c806d1b86fbce960f0fb8d5b3ce41"
+  },
+  {
+    "file": "11-NE-16D_1986-07/map_regions.geojson",
+    "bytes": 732368,
+    "sha256": "2e09fcd849c109415c6a92ef2faeb055b21664d68cd7055e8584c70e04fd24a6"
+  },
+  {
+    "file": "11-NE-16D_1986-07/ranked_candidates.csv",
+    "bytes": 9124,
+    "sha256": "3b67e34f2ecc286e5d520423d41b2932b28d1ab7746e6fce23a3b607049f4464"
+  },
+  {
+    "file": "11-NE-16D_1986-07/ranked_candidates.geojson",
+    "bytes": 48923,
+    "sha256": "6bbad3f2cdebcff48f36ed06ebd3a44bcb89ba6152c454a7e27f48760c2121e0"
+  },
+  {
+    "file": "11-NE-16D_1986-07/summary.json",
+    "bytes": 1531,
+    "sha256": "323350fd879b4d07d27ecdc4a403b194d47f4c8b7216b510cc5405eee5c49afe"
+  },
+  {
+    "file": "11-NE-17A_1990-03/audit_contact_sheet.jpg",
+    "bytes": 365730,
+    "sha256": "5a431965904cb07f76e268a851fd615fd48f96212888974811f70c08390519d7"
+  },
+  {
+    "file": "11-NE-17A_1990-03/map_regions.geojson",
+    "bytes": 2553973,
+    "sha256": "f2d37951cb2982f2f76306a67cd87b5a3e471f87fdfd6a6a0270c142f691a7a3"
+  },
+  {
+    "file": "11-NE-17A_1990-03/ranked_candidates.csv",
+    "bytes": 63555,
+    "sha256": "62deffbf9235344974d1a7130c0690e69e187210bff1e3b2b93c72c3162c8ba6"
+  },
+  {
+    "file": "11-NE-17A_1990-03/ranked_candidates.geojson",
+    "bytes": 258261,
+    "sha256": "f0cdbead32a3406f263beac7c6ffcf0f1f4ffc081093f9334b3581d757315a40"
+  },
+  {
+    "file": "11-NE-17A_1990-03/summary.json",
+    "bytes": 1584,
+    "sha256": "c810564a54be31ec3ec0a455e71e3d053869cb8b3b31dcf27bbc249c7cd79eb7"
+  },
+  {
+    "file": "11-NE-17B_1993-07/audit_contact_sheet.jpg",
+    "bytes": 432887,
+    "sha256": "7a93fddd214cc1d05d758a8cf5578832b5b2030c445a4314086a464c69b89d9d"
+  },
+  {
+    "file": "11-NE-17B_1993-07/map_regions.geojson",
+    "bytes": 14306966,
+    "sha256": "54bfe5a30e936b73996a79d47e3781b080746acfbd6d4bc9ae4df4f4e3fb6164"
+  },
+  {
+    "file": "11-NE-17B_1993-07/ranked_candidates.csv",
+    "bytes": 123804,
+    "sha256": "a465e75e5189c9b989d43ca8979a8f6f1755d7be1ba7317dbd88bcc514ff252a"
+  },
+  {
+    "file": "11-NE-17B_1993-07/ranked_candidates.geojson",
+    "bytes": 628704,
+    "sha256": "5718a8f6a85df777f60bd0d74f7bd3d7d0aa1d6f1d2e1128ee52ad322913898c"
+  },
+  {
+    "file": "11-NE-17B_1993-07/summary.json",
+    "bytes": 1585,
+    "sha256": "cecd228dd71ce323973d512026304508b0f25c9339c06d81fc6fb2ddd1de3f6a"
+  },
+  {
+    "file": "11-NE-17C_1993-07/audit_contact_sheet.jpg",
+    "bytes": 260383,
+    "sha256": "77771f74d60a35bc1dbee56a9db0a94fa27ec4e5968d3bcfcd8eea915734b28b"
+  },
+  {
+    "file": "11-NE-17C_1993-07/map_regions.geojson",
+    "bytes": 1657131,
+    "sha256": "f4f353a8b5eb9298dfc0117c3b332c81adc4a7d5c4b8718e0615af02042fb29f"
+  },
+  {
+    "file": "11-NE-17C_1993-07/ranked_candidates.csv",
+    "bytes": 44408,
+    "sha256": "6789d01eb93575e32f37e33a3b0ba250dd35ee3ce986751620e33ff91b82923f"
+  },
+  {
+    "file": "11-NE-17C_1993-07/ranked_candidates.geojson",
+    "bytes": 277087,
+    "sha256": "fbdf96bb97498f224d9a5325df0a4391382c704f3f8ee8bf18f32a439b07332b"
+  },
+  {
+    "file": "11-NE-17C_1993-07/summary.json",
+    "bytes": 1571,
+    "sha256": "7478abeee21efd77cfee8429f8c48694cdb77a00b2be5080b63f8027a4b702b4"
+  },
+  {
+    "file": "11-NE-17D_1993-04/audit_contact_sheet.jpg",
+    "bytes": 478748,
+    "sha256": "faa3923c04eb6e08df6df9d8a66d7208f55e4ca24b357d56be3db84fd4bcea6b"
+  },
+  {
+    "file": "11-NE-17D_1993-04/map_regions.geojson",
+    "bytes": 6154704,
+    "sha256": "5a37c66bf7e456c7234405de2a8a6287b4a82d695feba703e8f1c0619bd4a1d8"
+  },
+  {
+    "file": "11-NE-17D_1993-04/ranked_candidates.csv",
+    "bytes": 94317,
+    "sha256": "999eef349aef6da0bf6a9a3f8bdb4097edef2a8b58e3fa5ad4635e352f7edc2a"
+  },
+  {
+    "file": "11-NE-17D_1993-04/ranked_candidates.geojson",
+    "bytes": 366567,
+    "sha256": "d304b85ab4dfd6f24915f4315ab0dd7625790e103eb826757d259196b7b1b869"
+  },
+  {
+    "file": "11-NE-17D_1993-04/summary.json",
+    "bytes": 1587,
+    "sha256": "b69c4470396ead4d6e4941f82eb25dd167bbc38bf1be009299811b5dc1653955"
+  },
+  {
+    "file": "11-NE-18A_1990-06/audit_contact_sheet.jpg",
+    "bytes": 421369,
+    "sha256": "11077ff9e413cae59322b05b79254d5447abaf976de2064ed4ec6d7dec2db1b8"
+  },
+  {
+    "file": "11-NE-18A_1990-06/map_regions.geojson",
+    "bytes": 9483097,
+    "sha256": "fd88a133a98f6800284af5ce321f0354456f2ad7339608f1951455516fdc58d3"
+  },
+  {
+    "file": "11-NE-18A_1990-06/ranked_candidates.csv",
+    "bytes": 96675,
+    "sha256": "e68bf8d1716be909d0fb5582a701372c150f808006b602823eeb65f978283937"
+  },
+  {
+    "file": "11-NE-18A_1990-06/ranked_candidates.geojson",
+    "bytes": 456664,
+    "sha256": "0664f122abde15065263c7e195aa96b30fb2c0da1222c0e02b76e80b649431f2"
+  },
+  {
+    "file": "11-NE-18A_1990-06/summary.json",
+    "bytes": 1614,
+    "sha256": "cd7e5271522ef24a2d972065eeb7cc65bb12aa67f75194a51e42855aa6fe8ce8"
+  },
+  {
+    "file": "11-NE-18C_1990-04/audit_contact_sheet.jpg",
+    "bytes": 546331,
+    "sha256": "8539b3fb37f685db0729529cbaffcba107a63141f751d76ccee185abb0a69298"
+  },
+  {
+    "file": "11-NE-18C_1990-04/map_regions.geojson",
+    "bytes": 16206083,
+    "sha256": "e9a4caa7ad8f1984d4838390e3eb4b506a78dcb83c3c165a1045f9c559332d62"
+  },
+  {
+    "file": "11-NE-18C_1990-04/ranked_candidates.csv",
+    "bytes": 263744,
+    "sha256": "416a3738f5e8e5e90f92c2045e95b9b3cb05bf9a1d1958e8ac7f9a56daa8bfbf"
+  },
+  {
+    "file": "11-NE-18C_1990-04/ranked_candidates.geojson",
+    "bytes": 1028228,
+    "sha256": "fe0e076aa36b48f7d9333e0ce1e73391d212f9db35b7ecb2ce3b82ebebd17b3f"
+  },
+  {
+    "file": "11-NE-18C_1990-04/summary.json",
+    "bytes": 1589,
+    "sha256": "677d2caaea59cfcb91004d8e115a812295f51f66137333073198b1032a0925ab"
+  },
+  {
+    "file": "11-NE-1A_1990-01/audit_contact_sheet.jpg",
+    "bytes": 509493,
+    "sha256": "4d1ec9710dabae238fb197722b677d43542f4b78b52cdf3a7b0c97ba6252e49a"
+  },
+  {
+    "file": "11-NE-1A_1990-01/map_regions.geojson",
+    "bytes": 43912761,
+    "sha256": "cb8ff46a80741a67cff46f099ff7a9637d36c0b36e5d4d144ebc82875885d133"
+  },
+  {
+    "file": "11-NE-1A_1990-01/ranked_candidates.csv",
+    "bytes": 8756,
+    "sha256": "82ede4955c5ef9f226232da6b8add82ddaa0b9de6901a9d3472de0d67204a170"
+  },
+  {
+    "file": "11-NE-1A_1990-01/ranked_candidates.geojson",
+    "bytes": 32926,
+    "sha256": "0e2a82e9a935dcdd7aa137d20a6c8b7441b07f6875b0f90809529806121c81d8"
+  },
+  {
+    "file": "11-NE-1A_1990-01/summary.json",
+    "bytes": 1531,
+    "sha256": "ef7b1fe6eae905a980af5c32adff9b60473ec64c523732e842a7511ecdf68f80"
+  },
+  {
+    "file": "11-NE-1B_1990-02/audit_contact_sheet.jpg",
+    "bytes": 321894,
+    "sha256": "320231e47fd59a3dbaf2308ff2b10cde8e6b2d517d325454952209886e622e68"
+  },
+  {
+    "file": "11-NE-1B_1990-02/map_regions.geojson",
+    "bytes": 26555444,
+    "sha256": "ae7739d0e04e66ab19c28a3b71bd079b3100ffe728553c117ae2b8b76e0be48f"
+  },
+  {
+    "file": "11-NE-1B_1990-02/ranked_candidates.csv",
+    "bytes": 58023,
+    "sha256": "3d6e8dcbc3299d41371cb7d5b1a0a7c6622d80675a72a9d56e6cd80debfaf2c4"
+  },
+  {
+    "file": "11-NE-1B_1990-02/ranked_candidates.geojson",
+    "bytes": 295111,
+    "sha256": "7d22990ecae11937e6639c031d8647852c36b6a8ca53d96fc45aaa79d61226b5"
+  },
+  {
+    "file": "11-NE-1B_1990-02/summary.json",
+    "bytes": 1611,
+    "sha256": "3020605409c0909cca7cc108174cc0a9752b47cfaeea14a7d9673cb6cce8c2db"
+  },
+  {
+    "file": "11-NE-1C_1990-01/audit_contact_sheet.jpg",
+    "bytes": 428769,
+    "sha256": "18429c745cc7325b37ee028ccca5849051d7f6200de36e446b5a0593fb67e74e"
+  },
+  {
+    "file": "11-NE-1C_1990-01/map_regions.geojson",
+    "bytes": 14495656,
+    "sha256": "cf722d6000cc97b57c0e72bd22ef2ea6671ec97c69f8db2957513935533b8193"
+  },
+  {
+    "file": "11-NE-1C_1990-01/ranked_candidates.csv",
+    "bytes": 54991,
+    "sha256": "2082f25bc45efc2d0be8f40792e78ecc76989c4525118c3c057cff4a80d5a5b4"
+  },
+  {
+    "file": "11-NE-1C_1990-01/ranked_candidates.geojson",
+    "bytes": 226218,
+    "sha256": "3008937a0cada594ed3457c53e75dafaa29c4a2b794118185b18a20c8de72a44"
+  },
+  {
+    "file": "11-NE-1C_1990-01/summary.json",
+    "bytes": 1621,
+    "sha256": "644fe92cbe954423dbb01eb3f7008bd5574cf094bccae68337a31285df4aca8a"
+  },
+  {
+    "file": "11-NE-1D_1990-01/audit_contact_sheet.jpg",
+    "bytes": 322205,
+    "sha256": "82f2acd4a2930de68ad848b734faee0f2348cbc16fda56334bb6191324665e10"
+  },
+  {
+    "file": "11-NE-1D_1990-01/map_regions.geojson",
+    "bytes": 6132471,
+    "sha256": "d5243ed5fe6a260c10facd061047f39aa2c869fbc01584872365ceff9b2e0e23"
+  },
+  {
+    "file": "11-NE-1D_1990-01/ranked_candidates.csv",
+    "bytes": 218379,
+    "sha256": "c220446930b97b84bda340f336090a34d9893d8440f1e2b8da0923f7ce256f20"
+  },
+  {
+    "file": "11-NE-1D_1990-01/ranked_candidates.geojson",
+    "bytes": 935640,
+    "sha256": "be09404bd0513e380b5d04a24a1eb075b293853c021d904e790cd839a3635ae5"
+  },
+  {
+    "file": "11-NE-1D_1990-01/summary.json",
+    "bytes": 1624,
+    "sha256": "9411722ea56ea0bed2c3548e8042bf48786fef0d995f385773be2115945c1e19"
+  },
+  {
+    "file": "11-NE-21A_1989-12/audit_contact_sheet.jpg",
+    "bytes": 337760,
+    "sha256": "a310caaa30388c4b05302af6da25ad3980a7f0504885deba4f1ec47bbce6012a"
+  },
+  {
+    "file": "11-NE-21A_1989-12/map_regions.geojson",
+    "bytes": 3045986,
+    "sha256": "484886934b509efc555d1ea6feaf26c0cfc64f011dacdba2cd74ce62142589d3"
+  },
+  {
+    "file": "11-NE-21A_1989-12/ranked_candidates.csv",
+    "bytes": 73449,
+    "sha256": "015d0d1c8407512fc37dcd79f0f7c818bca35bf5ca7a9e372027151c74663c78"
+  },
+  {
+    "file": "11-NE-21A_1989-12/ranked_candidates.geojson",
+    "bytes": 458367,
+    "sha256": "9f7e4f441a2ddf3ea86c5cd31e9cc989d9ce450d3479812ada17348f724ce5ed"
+  },
+  {
+    "file": "11-NE-21A_1989-12/summary.json",
+    "bytes": 1613,
+    "sha256": "604b9f579346bd8fe1b1c741dd95c5e383b8ed426cae5fd5a63619f7f65161c5"
+  },
+  {
+    "file": "11-NE-21C_1993-10/audit_contact_sheet.jpg",
+    "bytes": 486737,
+    "sha256": "917d7f0c9f156aa8c20bb78c6b61e15592aff82603b9342e7c156b0eaf98e4ee"
+  },
+  {
+    "file": "11-NE-21C_1993-10/map_regions.geojson",
+    "bytes": 7746926,
+    "sha256": "deecaf16737e31cf10d9e35bd29b7911a109f884fc02e99de848d0ab08ffc4b1"
+  },
+  {
+    "file": "11-NE-21C_1993-10/ranked_candidates.csv",
+    "bytes": 79118,
+    "sha256": "bfe5f56f69d6d854d2dfb2e0eab43ccb5f7b644219cf423da0120e415e65ec34"
+  },
+  {
+    "file": "11-NE-21C_1993-10/ranked_candidates.geojson",
+    "bytes": 562943,
+    "sha256": "c1ff2b83b9ade86599bc954115e6ec16c1bd5a5c33600b71742232ab8f2e9e26"
+  },
+  {
+    "file": "11-NE-21C_1993-10/summary.json",
+    "bytes": 1576,
+    "sha256": "9ac320c087b5f8cf9a8ac3593b4ccd891ea07bd9d6b74d0c58666c1ad6d61ac7"
+  },
+  {
+    "file": "11-NE-22A_1993-08/audit_contact_sheet.jpg",
+    "bytes": 287999,
+    "sha256": "667c19b473d55a3f3b9cb867a3d42cfae1a5e3a211988da29fd7f3144aa3cfaa"
+  },
+  {
+    "file": "11-NE-22A_1993-08/map_regions.geojson",
+    "bytes": 297816,
+    "sha256": "e2ef1319b6242fb55cfc37bb8355b0fe2b2f0cb37c8dc30b14974f01d7aea522"
+  },
+  {
+    "file": "11-NE-22A_1993-08/ranked_candidates.csv",
+    "bytes": 13741,
+    "sha256": "1c6457bc18402db1542d0005f5bf03ce0de59c2fa310b1e297657818a3b27281"
+  },
+  {
+    "file": "11-NE-22A_1993-08/ranked_candidates.geojson",
+    "bytes": 136266,
+    "sha256": "2ae30ae7c2ef4ae2e470064da0022e6a135f66659a8db872e1c59956d0189e00"
+  },
+  {
+    "file": "11-NE-22A_1993-08/summary.json",
+    "bytes": 1533,
+    "sha256": "2e101b78833a631b08d3fab7eacdedecfd29b3b68f71df07ba041748d747b054"
+  },
+  {
+    "file": "11-NE-22B_1993-08/audit_contact_sheet.jpg",
+    "bytes": 250910,
+    "sha256": "3b588af3cc493814dead24536cbe781037f552217cc65dcd359546f67effcb14"
+  },
+  {
+    "file": "11-NE-22B_1993-08/map_regions.geojson",
+    "bytes": 164062,
+    "sha256": "ec9a406e18c6655547ee2ee8430e58fe45bd4d2bc7d30deab5d33d661e269005"
+  },
+  {
+    "file": "11-NE-22B_1993-08/ranked_candidates.csv",
+    "bytes": 71099,
+    "sha256": "caf3c2d52c0cb831c6d8e2b7cb967816a480b5c18845696f76cdfd39b2f03044"
+  },
+  {
+    "file": "11-NE-22B_1993-08/ranked_candidates.geojson",
+    "bytes": 248452,
+    "sha256": "60b8190a3f792ef4811330b3c1efb35d7899ef97285c2eaebc43553fc0c83232"
+  },
+  {
+    "file": "11-NE-22B_1993-08/summary.json",
+    "bytes": 1576,
+    "sha256": "c7395d842265659675daee108c19876a6510f6e7b890e97245d7554cd5ad4fab"
+  },
+  {
+    "file": "11-NE-22D_1993-08/audit_contact_sheet.jpg",
+    "bytes": 251743,
+    "sha256": "9071b32052f02ccb123427047d9844df57a2f14dd9c91b24363c870c69509dae"
+  },
+  {
+    "file": "11-NE-22D_1993-08/map_regions.geojson",
+    "bytes": 985983,
+    "sha256": "c01f900bc157f068cd60456ab2f93586bc9790edc1d2287941ec6ba16d9b4f05"
+  },
+  {
+    "file": "11-NE-22D_1993-08/ranked_candidates.csv",
+    "bytes": 47800,
+    "sha256": "1cf1513121f31a7c02977e6b3363a1e0daadeded79b1a92e3e5c8df9e133afa3"
+  },
+  {
+    "file": "11-NE-22D_1993-08/ranked_candidates.geojson",
+    "bytes": 182093,
+    "sha256": "bda1b745c65f4645f6dc3ae39ba6b9a2d801dceb68c73d95ad664aaa73252b91"
+  },
+  {
+    "file": "11-NE-22D_1993-08/summary.json",
+    "bytes": 1500,
+    "sha256": "833e8e070f923a7ad1d0167a030e582d1cdc828041a7090bf335ef6ee602268d"
+  },
+  {
+    "file": "11-NE-23A_1991-09/audit_contact_sheet.jpg",
+    "bytes": 532611,
+    "sha256": "0b95fdeba26d4436027226beeb8805c8c9fa6f042a0d66c934424e3d04e6cda4"
+  },
+  {
+    "file": "11-NE-23A_1991-09/map_regions.geojson",
+    "bytes": 11242871,
+    "sha256": "b1f6ecef9ac4ef325750de870c17f6b36de0bee4129950e475b01c1de546e1e4"
+  },
+  {
+    "file": "11-NE-23A_1991-09/ranked_candidates.csv",
+    "bytes": 129832,
+    "sha256": "a4dd8c9304fbba8166b6b7707c3c87eeb322e735c8f261cf7f44cf40b7501d39"
+  },
+  {
+    "file": "11-NE-23A_1991-09/ranked_candidates.geojson",
+    "bytes": 448015,
+    "sha256": "53b14d6c38304729f3eac4b123ad2bc82ebd51e1265a3c42d8548238876f01bf"
+  },
+  {
+    "file": "11-NE-23A_1991-09/summary.json",
+    "bytes": 1625,
+    "sha256": "a9f62a1ea874f3b4b45fa5e76e48a0d3a426a449d1730b8c3729b5af54df9ea6"
+  },
+  {
+    "file": "11-NE-23C_1991-09/audit_contact_sheet.jpg",
+    "bytes": 376019,
+    "sha256": "9c6110617974a7c041ae620814e82356a70c0f17ea247dea407a10cf6b22115c"
+  },
+  {
+    "file": "11-NE-23C_1991-09/map_regions.geojson",
+    "bytes": 2495937,
+    "sha256": "2c65b398d9c9d9839fd28f4750a836076f692df4d1638f8772ef5da6d18f33b5"
+  },
+  {
+    "file": "11-NE-23C_1991-09/ranked_candidates.csv",
+    "bytes": 6132,
+    "sha256": "e53be8afd08dd3f42537b2e708d3847f9ae79235fb87a74c0d9aa9ac2abb3df3"
+  },
+  {
+    "file": "11-NE-23C_1991-09/ranked_candidates.geojson",
+    "bytes": 24608,
+    "sha256": "4009949c161ffc6d708f021bc544f9ed70d1f8aa9a154e84f4cdf7a4ad256e33"
+  },
+  {
+    "file": "11-NE-23C_1991-09/summary.json",
+    "bytes": 1564,
+    "sha256": "c02f1435eb4e82d8669c48f172cf0483e886f68f0464091354544e63893e5c17"
+  },
+  {
+    "file": "11-NE-2A_1991-10/audit_contact_sheet.jpg",
+    "bytes": 277370,
+    "sha256": "5cce0388e12434003bc6fa817405a6124f0eb7025ff3eaa5697c9aee20899bf9"
+  },
+  {
+    "file": "11-NE-2A_1991-10/map_regions.geojson",
+    "bytes": 31764041,
+    "sha256": "73eeec27d11baa5075bb8b4e92eda48cf1b99512b1e8af1d8136d1ab3218391c"
+  },
+  {
+    "file": "11-NE-2A_1991-10/ranked_candidates.csv",
+    "bytes": 21958,
+    "sha256": "7baae6aab43c593c3021e7bcaa649db4f556dbaa160f79bfaa3901ca1c69102c"
+  },
+  {
+    "file": "11-NE-2A_1991-10/ranked_candidates.geojson",
+    "bytes": 68793,
+    "sha256": "19c601539d48252318da9756e36a7b1c51b102783b9b2f4ac9496efadd3425ca"
+  },
+  {
+    "file": "11-NE-2A_1991-10/summary.json",
+    "bytes": 1534,
+    "sha256": "0d58a0a16370aa5360a3143a97f3f2ff3c8bfd25d2ca8e0d7310b1eacd786739"
+  },
+  {
+    "file": "11-NE-2B_1990-02/audit_contact_sheet.jpg",
+    "bytes": 30494,
+    "sha256": "38b15bc935990a2752cf7dd070a7e1d419ace040fdcf2acb9efb4b54aa7bc9b8"
+  },
+  {
+    "file": "11-NE-2B_1990-02/map_regions.geojson",
+    "bytes": 36191740,
+    "sha256": "8c842d91a19a57e1c8f1d99631a7809c5d146bf46b53f3a9c7ca2363a30ca778"
+  },
+  {
+    "file": "11-NE-2B_1990-02/ranked_candidates.csv",
+    "bytes": 1132,
+    "sha256": "2ced1c1dda3a238ffbf244381a3a035b227f1dd82d4f160716c659da1f473a0a"
+  },
+  {
+    "file": "11-NE-2B_1990-02/ranked_candidates.geojson",
+    "bytes": 1594,
+    "sha256": "6f502fac2f747a5d9234e59ed212e8204f87b223e22aa48b61e23531621cec97"
+  },
+  {
+    "file": "11-NE-2B_1990-02/summary.json",
+    "bytes": 1456,
+    "sha256": "4e9bb99a160e330a0586d5a59a50d9ae3c78adcc644b216c3248b5fdded45dc9"
+  },
+  {
+    "file": "11-NE-2C_1991-10/audit_contact_sheet.jpg",
+    "bytes": 375303,
+    "sha256": "96f924f265466fc4f6d5b42019cf944d3d6546f6b0195fdc8136f4869570fbd7"
+  },
+  {
+    "file": "11-NE-2C_1991-10/map_regions.geojson",
+    "bytes": 12400233,
+    "sha256": "b22e53b6329a24a6f52c070a4b064c2b9fb50dd98a51a67fa88413dbde9db113"
+  },
+  {
+    "file": "11-NE-2C_1991-10/ranked_candidates.csv",
+    "bytes": 65239,
+    "sha256": "24b18e36e6a01f441c06f37a3e300c2b265d8389fa3ab6fdd94ce6af78e91fb9"
+  },
+  {
+    "file": "11-NE-2C_1991-10/ranked_candidates.geojson",
+    "bytes": 442344,
+    "sha256": "c72886470a4f95ddc29c2e07fb0dc2d55db06dcc847143e3bf93f149157dafa6"
+  },
+  {
+    "file": "11-NE-2C_1991-10/summary.json",
+    "bytes": 1620,
+    "sha256": "ebf490b0420db235639340b917f8e5d0b75e1df56ca826169e03cfc153eb0e0b"
+  },
+  {
+    "file": "11-NE-2D_1990-02/audit_contact_sheet.jpg",
+    "bytes": 92297,
+    "sha256": "9ce07e4446c3accbfa7c712d5a4ea3221bbf24246d498d3bb336764eace3fadf"
+  },
+  {
+    "file": "11-NE-2D_1990-02/map_regions.geojson",
+    "bytes": 30791981,
+    "sha256": "13e841ef324ef66bfd20ab38a3d493c04cc9d45bfd576d6481a32c8e244aea58"
+  },
+  {
+    "file": "11-NE-2D_1990-02/ranked_candidates.csv",
+    "bytes": 2623,
+    "sha256": "3e4f59fa925e4269f9a8b87bd368fcf21f11add3ff1f3270cd5290a01c37a6ad"
+  },
+  {
+    "file": "11-NE-2D_1990-02/ranked_candidates.geojson",
+    "bytes": 5991,
+    "sha256": "463d9a5dded87005c3fa76f911746cd49c05a7c0f5a8c579ef45a2c36eac7900"
+  },
+  {
+    "file": "11-NE-2D_1990-02/summary.json",
+    "bytes": 1456,
+    "sha256": "67b83b5473201bb7ace7a772bbe957d29e83882ead59ef4d1fa4ec371e323ffb"
+  },
+  {
+    "file": "11-NE-3A_1984-10/audit_contact_sheet.jpg",
+    "bytes": 11478,
+    "sha256": "1d92813bce03aa2eb543649e90501796666b801b425fcf7571882c3532f0098c"
+  },
+  {
+    "file": "11-NE-3A_1984-10/map_regions.geojson",
+    "bytes": 39782993,
+    "sha256": "d301730eab97e26687913e5b0921f2afc114c0cad185e61967083578f03c4b3d"
+  },
+  {
+    "file": "11-NE-3A_1984-10/ranked_candidates.csv",
+    "bytes": 14,
+    "sha256": "afc13dd41e754fbd1f009bd986e2efd348a2ff0008d25a03359a2e98750793d7"
+  },
+  {
+    "file": "11-NE-3A_1984-10/ranked_candidates.geojson",
+    "bytes": 42,
+    "sha256": "ed778c73ea51338d6576fb5992b189f2b94d9f3d5e199f46c1af520d6b0b3e6c"
+  },
+  {
+    "file": "11-NE-3A_1984-10/summary.json",
+    "bytes": 1426,
+    "sha256": "8d1c87dd50ce2d42e248f1e93a7f89b4bf1f80decc050870fb4d4319aeb82e29"
+  },
+  {
+    "file": "11-NE-3C_1991-08/audit_contact_sheet.jpg",
+    "bytes": 11478,
+    "sha256": "1d92813bce03aa2eb543649e90501796666b801b425fcf7571882c3532f0098c"
+  },
+  {
+    "file": "11-NE-3C_1991-08/map_regions.geojson",
+    "bytes": 28840467,
+    "sha256": "51346009594f9695627014ce2f8dfbc6d2e087a446f40123ab24c647136d47db"
+  },
+  {
+    "file": "11-NE-3C_1991-08/ranked_candidates.csv",
+    "bytes": 14,
+    "sha256": "afc13dd41e754fbd1f009bd986e2efd348a2ff0008d25a03359a2e98750793d7"
+  },
+  {
+    "file": "11-NE-3C_1991-08/ranked_candidates.geojson",
+    "bytes": 42,
+    "sha256": "ed778c73ea51338d6576fb5992b189f2b94d9f3d5e199f46c1af520d6b0b3e6c"
+  },
+  {
+    "file": "11-NE-3C_1991-08/summary.json",
+    "bytes": 1423,
+    "sha256": "f2f6cc90985568f822f8916eaedaaf21c38624cfdae3ea1a7dc435edb1cfb2b1"
+  },
+  {
+    "file": "11-NE-6A_1991-09/audit_contact_sheet.jpg",
+    "bytes": 353999,
+    "sha256": "717feb7afce744bed4aa1e15c0d73e0a8fcc2ddb54fa71bd6476f8c6896b6edd"
+  },
+  {
+    "file": "11-NE-6A_1991-09/map_regions.geojson",
+    "bytes": 6723822,
+    "sha256": "846c38626479e4b77b62494e76d4a9599212f90a785b38faf83b29b04949e064"
+  },
+  {
+    "file": "11-NE-6A_1991-09/ranked_candidates.csv",
+    "bytes": 115391,
+    "sha256": "fb1a6af771a22bc170bef9331c29dbdd2c12120a2066958c3be4314cfdd0db8c"
+  },
+  {
+    "file": "11-NE-6A_1991-09/ranked_candidates.geojson",
+    "bytes": 516891,
+    "sha256": "faef5dc273982e5b4e927366ebb611eca0961ed4411fa2b0c9989e57584e854c"
+  },
+  {
+    "file": "11-NE-6A_1991-09/summary.json",
+    "bytes": 1623,
+    "sha256": "754987feb396f322ff1b6195a19bc5fa824ce0838744df1fd954509de4cfe815"
+  },
+  {
+    "file": "11-NE-6B_1991-09/audit_contact_sheet.jpg",
+    "bytes": 415404,
+    "sha256": "b2c6d9e2a66bbd6081c4b6fd2d714f7c5d8cf8b7a3d34cccf66c6490017b3ab6"
+  },
+  {
+    "file": "11-NE-6B_1991-09/map_regions.geojson",
+    "bytes": 9225127,
+    "sha256": "45df244b1f5a48791cdfe7722f7ba83ed425a0a0a212bd489581b6a7b851d74c"
+  },
+  {
+    "file": "11-NE-6B_1991-09/ranked_candidates.csv",
+    "bytes": 132635,
+    "sha256": "8290bc3f3ac1660d11022df67388239379dd1bb84c0ef4751e7d5f37b466ec80"
+  },
+  {
+    "file": "11-NE-6B_1991-09/ranked_candidates.geojson",
+    "bytes": 632747,
+    "sha256": "a3b552b9e58ef59f5f098e2b9740b7e46264eb964f52ffc88528e5dc76c9bb18"
+  },
+  {
+    "file": "11-NE-6B_1991-09/summary.json",
+    "bytes": 1618,
+    "sha256": "9fae9cc889a6dfe2822c235ec9270438cbbe4dc38e7f9ebefccb656c313973ec"
+  },
+  {
+    "file": "11-NE-6C_1991-09/audit_contact_sheet.jpg",
+    "bytes": 405781,
+    "sha256": "ebfe8bacdbcca29cc2b1cbe5d5498cb2d6474a5b2e0a6f1cbd5890b9fa56fdcf"
+  },
+  {
+    "file": "11-NE-6C_1991-09/map_regions.geojson",
+    "bytes": 10971249,
+    "sha256": "14c7b1af6555b662cdf16aa01d18a91eb098a2910d4ccad6372a89c2b6b99b63"
+  },
+  {
+    "file": "11-NE-6C_1991-09/ranked_candidates.csv",
+    "bytes": 107597,
+    "sha256": "e286e15a81fca9dab9a30bb2c4b1fca31d22116f1638d0bb218b9889d0ece64e"
+  },
+  {
+    "file": "11-NE-6C_1991-09/ranked_candidates.geojson",
+    "bytes": 453315,
+    "sha256": "1453d7b87bd4d4c32ab24c712089919b0dac1ff3c56594488cc1d4de8acfe248"
+  },
+  {
+    "file": "11-NE-6C_1991-09/summary.json",
+    "bytes": 1584,
+    "sha256": "33f332e03d4563bd5ba2d98cd649d9c0c2ac6f4090ffcf1f7c0f34c2158c0089"
+  },
+  {
+    "file": "11-NE-6D_1991-09/audit_contact_sheet.jpg",
+    "bytes": 504980,
+    "sha256": "dc0ee998fe2139040488f231f2e2a8fb928264d909e7316a20294013e3219b65"
+  },
+  {
+    "file": "11-NE-6D_1991-09/map_regions.geojson",
+    "bytes": 14659751,
+    "sha256": "be02a3fac7e9a59b67f765432519ac3befec7442686ad8873e99b44ed3cbb139"
+  },
+  {
+    "file": "11-NE-6D_1991-09/ranked_candidates.csv",
+    "bytes": 152249,
+    "sha256": "2be420f8574545dfb67fd62c57ce7771b7691206741758a2b3fd9dba0d38cc87"
+  },
+  {
+    "file": "11-NE-6D_1991-09/ranked_candidates.geojson",
+    "bytes": 660909,
+    "sha256": "2cf48e6a3d563cfd263fca353146fb9031db2d9405180c303c09102923927b69"
+  },
+  {
+    "file": "11-NE-6D_1991-09/summary.json",
+    "bytes": 1624,
+    "sha256": "c0505fa445ff27f9bb52153829e88d544583cdfc7f7b022e6b939d4e22feba48"
+  },
+  {
+    "file": "11-NE-7A_1991-09/audit_contact_sheet.jpg",
+    "bytes": 357310,
+    "sha256": "a4e4cd0f7c89f0f54cce9ca6dcbb46a3ac5f064905ce282528f90b9a258c5328"
+  },
+  {
+    "file": "11-NE-7A_1991-09/map_regions.geojson",
+    "bytes": 8192509,
+    "sha256": "3881609fba32c9d3c67dae2bb7f0c58bc148d048274a5f047e065e66aa91f70a"
+  },
+  {
+    "file": "11-NE-7A_1991-09/ranked_candidates.csv",
+    "bytes": 84705,
+    "sha256": "c48d4ebb5b7b7123e9bb59e05fe410eaa30ce101284c2963d37466de24afd472"
+  },
+  {
+    "file": "11-NE-7A_1991-09/ranked_candidates.geojson",
+    "bytes": 370941,
+    "sha256": "7014e404e08391294aac482689af691d4f410ab0570d845c5d49afdb48dc8292"
+  },
+  {
+    "file": "11-NE-7A_1991-09/summary.json",
+    "bytes": 1583,
+    "sha256": "6bd95ba5007ad87bef8d5cce4754318061c1b368f3d7c25a30ad4f5511cb2000"
+  },
+  {
+    "file": "11-NE-7B_1990-12/audit_contact_sheet.jpg",
+    "bytes": 456569,
+    "sha256": "fa260e19e58f6942dd318cf6e87394ee440ccd148578aab72f944189a103de0f"
+  },
+  {
+    "file": "11-NE-7B_1990-12/map_regions.geojson",
+    "bytes": 23658302,
+    "sha256": "063970df73e72bd812b187fbd2d1c95c9a1b637711844bc434646231387d8fc4"
+  },
+  {
+    "file": "11-NE-7B_1990-12/ranked_candidates.csv",
+    "bytes": 16021,
+    "sha256": "468a92b1c1e03594488e3c852d6e1005cbcc9d97f570df02e105b2b3f78adff7"
+  },
+  {
+    "file": "11-NE-7B_1990-12/ranked_candidates.geojson",
+    "bytes": 79086,
+    "sha256": "d8d7f53c6d971a2dd9fb54a4ccb8a80a10734a8fc15496f3977a485a9ad2c23c"
+  },
+  {
+    "file": "11-NE-7B_1990-12/summary.json",
+    "bytes": 1583,
+    "sha256": "ce54c5db4f3c131fe7baaf4a46fed2fb4e2a76253cf1f972d45a6e2c66390ced"
+  },
+  {
+    "file": "11-NE-7C_1993-07/audit_contact_sheet.jpg",
+    "bytes": 590811,
+    "sha256": "94f4dcff83a2980b74e0415120c14352330319343a31605f7db13abdb6f101bd"
+  },
+  {
+    "file": "11-NE-7C_1993-07/map_regions.geojson",
+    "bytes": 16612559,
+    "sha256": "16fbaf5e8cb67fe65875685c552850090a0f3a9d57bd9857b2de36903990722f"
+  },
+  {
+    "file": "11-NE-7C_1993-07/ranked_candidates.csv",
+    "bytes": 175401,
+    "sha256": "f71f0624de5b0250e90ad7652a29f1bb1d2529af657172f7d98f41921897584c"
+  },
+  {
+    "file": "11-NE-7C_1993-07/ranked_candidates.geojson",
+    "bytes": 654668,
+    "sha256": "bd3cec0748a152deaf9d3337067af67efd349f0a756c1738b1170df0cf338c4a"
+  },
+  {
+    "file": "11-NE-7C_1993-07/summary.json",
+    "bytes": 1586,
+    "sha256": "d97b51d00a4a3a703750df98a404de5b45ca0c9da073e008b9c359421abae950"
+  },
+  {
+    "file": "11-NE-7D_1990-02/audit_contact_sheet.jpg",
+    "bytes": 405212,
+    "sha256": "ae08e0a794c4cacbcaa157227a1c423c76c4b18b4b9ba3b7728a3969d48c2d3c"
+  },
+  {
+    "file": "11-NE-7D_1990-02/map_regions.geojson",
+    "bytes": 8284111,
+    "sha256": "f9d88a096dc6f38338f81d49cffc26fcf214bfeccce0bc603daf72be3db3c81d"
+  },
+  {
+    "file": "11-NE-7D_1990-02/ranked_candidates.csv",
+    "bytes": 62938,
+    "sha256": "4b5d56d0ac55f2cc7357321af026b85fdf9a1b0eb57a655c42e6bdec472b1dba"
+  },
+  {
+    "file": "11-NE-7D_1990-02/ranked_candidates.geojson",
+    "bytes": 303511,
+    "sha256": "09de51c5a9157eaa7fa9436583f37edb76066bee294e4a33db401f1b8eb3afa1"
+  },
+  {
+    "file": "11-NE-7D_1990-02/summary.json",
+    "bytes": 1615,
+    "sha256": "9b931d3dc277db813428d73439ea001bf0e9b4533e9eee95c84364dbeb16a6da"
+  },
+  {
+    "file": "11-NE-8A_1991-08/audit_contact_sheet.jpg",
+    "bytes": 176615,
+    "sha256": "04fada2efaf53c0a2fca90d2834320702076bb313ec646f22b08fab10fc7537b"
+  },
+  {
+    "file": "11-NE-8A_1991-08/map_regions.geojson",
+    "bytes": 35156497,
+    "sha256": "3aedc42e4b1931f7850738ca9d31cee0cd036b9def0c0ed71d5f8f031a7905a4"
+  },
+  {
+    "file": "11-NE-8A_1991-08/ranked_candidates.csv",
+    "bytes": 3763,
+    "sha256": "8246369db4e23461f15b1d740b75e0eda663420ec13d519378d9145e554e9341"
+  },
+  {
+    "file": "11-NE-8A_1991-08/ranked_candidates.geojson",
+    "bytes": 9873,
+    "sha256": "73e3886cc64df5ab2463baad261d3503517d16fbb88118c5647380903c33ba95"
+  },
+  {
+    "file": "11-NE-8A_1991-08/summary.json",
+    "bytes": 1503,
+    "sha256": "86c7f91a23b47a766418835dc3fcf422f60856048871f27603146c2199228537"
+  },
+  {
+    "file": "11-NE-8C_1990-05/audit_contact_sheet.jpg",
+    "bytes": 352574,
+    "sha256": "474d450c394d00661392babf4047c9258d89288985a16c639faf662b061e7169"
+  },
+  {
+    "file": "11-NE-8C_1990-05/map_regions.geojson",
+    "bytes": 36398109,
+    "sha256": "2cf6ab567b04e6f447c085db90e887f0b9a512fc1a6cc423b890ab79fc23deb3"
+  },
+  {
+    "file": "11-NE-8C_1990-05/ranked_candidates.csv",
+    "bytes": 27301,
+    "sha256": "f6d5dedf1446a4b61eddadd09a8b8818a570f05a590c734be6f5a28b6f33c6a4"
+  },
+  {
+    "file": "11-NE-8C_1990-05/ranked_candidates.geojson",
+    "bytes": 120775,
+    "sha256": "0551c7651af404249b6256bcf5b272caecebd17922550d2f350630e9d46774da"
+  },
+  {
+    "file": "11-NE-8C_1990-05/summary.json",
+    "bytes": 1583,
+    "sha256": "af4eb77c0d4e8df076be6255a4e4b62a4d4b787d85206781fc90de53cfe5bd30"
+  },
+  {
+    "file": "11-NW-10A_1990-02/audit_contact_sheet.jpg",
+    "bytes": 387689,
+    "sha256": "f5be9c8f4494524b70dfa21f716cd84d2eb815db67409d0c26aa795a6eb466ff"
+  },
+  {
+    "file": "11-NW-10A_1990-02/map_regions.geojson",
+    "bytes": 14650633,
+    "sha256": "b8cd2062e3d43ba257d7b89cd7af65a1349fdabdae5bcc8525aafbee422324d0"
+  },
+  {
+    "file": "11-NW-10A_1990-02/ranked_candidates.csv",
+    "bytes": 168408,
+    "sha256": "920c29449c49dd384859102a499d49ffd239fbd50d99197877a94f120ca248b1"
+  },
+  {
+    "file": "11-NW-10A_1990-02/ranked_candidates.geojson",
+    "bytes": 791213,
+    "sha256": "5df054b5cf821311cc0d6cbe372a50a258b837795c5261b6e6a32ec60fc06df3"
+  },
+  {
+    "file": "11-NW-10A_1990-02/summary.json",
+    "bytes": 1626,
+    "sha256": "20bfbac66693e3c6fa1474e15da1d14d1e8cb27c0c5032b43764246da55e84c3"
+  },
+  {
+    "file": "11-NW-10B_1989-12/audit_contact_sheet.jpg",
+    "bytes": 394755,
+    "sha256": "e5050da47f454606c733473048738068c4cc42433dc72ab2a4a3a7f3d4ccc3a8"
+  },
+  {
+    "file": "11-NW-10B_1989-12/map_regions.geojson",
+    "bytes": 11016026,
+    "sha256": "3714d042da38ed982c133b6b2b4a465ce1f1ee670e4c5e291d5a6c3dd2aa204d"
+  },
+  {
+    "file": "11-NW-10B_1989-12/ranked_candidates.csv",
+    "bytes": 110387,
+    "sha256": "aca536c7c3e11b7b93b280f088d68ba119c6e60af2e282dfd3e63d5acd521c42"
+  },
+  {
+    "file": "11-NW-10B_1989-12/ranked_candidates.geojson",
+    "bytes": 489705,
+    "sha256": "27478fd6e47ba4e720607ee30a7b5c07c3f319fce4a471392ab172854c063e2b"
+  },
+  {
+    "file": "11-NW-10B_1989-12/summary.json",
+    "bytes": 1584,
+    "sha256": "03706bcaafdb772414437e381a0524639bb1b930cb5079884a54a0bdcc358b45"
+  },
+  {
+    "file": "11-NW-10C_1989-12/audit_contact_sheet.jpg",
+    "bytes": 320589,
+    "sha256": "94148f2bb7d77c26ef3f8a1ed326eb8dbc5895c6146281b1370b26e9239a18ac"
+  },
+  {
+    "file": "11-NW-10C_1989-12/map_regions.geojson",
+    "bytes": 9653746,
+    "sha256": "23ebffaaabf2e1da88ba005d69893c4ee06eb21ecd2f024dbc21b677398e3f23"
+  },
+  {
+    "file": "11-NW-10C_1989-12/ranked_candidates.csv",
+    "bytes": 305968,
+    "sha256": "6d6ea23e2b8ad23168ac1574550e7590e151f75b2da45474e0bade7963aa30c1"
+  },
+  {
+    "file": "11-NW-10C_1989-12/ranked_candidates.geojson",
+    "bytes": 1097686,
+    "sha256": "68362bbc7b2841f09bf903ccfdf37fce2099e992e70c5b1bdd1dd54fe0a0f1ea"
+  },
+  {
+    "file": "11-NW-10C_1989-12/summary.json",
+    "bytes": 1620,
+    "sha256": "d8f719a5c3f43db778d34422e852bbc17f2518f8b96799e2491bbde4d1aac3d0"
+  },
+  {
+    "file": "11-NW-10D_1989-11/audit_contact_sheet.jpg",
+    "bytes": 415106,
+    "sha256": "9312534cd4192579adedc89226927a3f140a409f7501057658ae4d771ae5ccdd"
+  },
+  {
+    "file": "11-NW-10D_1989-11/map_regions.geojson",
+    "bytes": 10297438,
+    "sha256": "d51e01df475763f1aa820fd580217a54be474c7cc05e1062ee94c8d4eeb8c258"
+  },
+  {
+    "file": "11-NW-10D_1989-11/ranked_candidates.csv",
+    "bytes": 87413,
+    "sha256": "cfdc4a7641d882559aa1dcb61f296fd57180c4924cda9fb86dd35e51f037e6b6"
+  },
+  {
+    "file": "11-NW-10D_1989-11/ranked_candidates.geojson",
+    "bytes": 444114,
+    "sha256": "7096f1d3d48e565b48d1e74c4e3cc7f78473a9807b6b702f129b5a3a2002fa04"
+  },
+  {
+    "file": "11-NW-10D_1989-11/summary.json",
+    "bytes": 1587,
+    "sha256": "cd45b7f3d94849958890759e2a46507d15f2c3787f780a39ed48c03123c7dd42"
+  },
+  {
+    "file": "11-NW-14A_1990-10/audit_contact_sheet.jpg",
+    "bytes": 533697,
+    "sha256": "80c44bbf5fa74cecbb065b8a9b874e6b4b580f124b36afc0fa509be4cdbdf732"
+  },
+  {
+    "file": "11-NW-14A_1990-10/map_regions.geojson",
+    "bytes": 24767824,
+    "sha256": "06c52473e4faababfd70a35836976fddcdeb6132d8eb6f0a767fe5abd9a5cf19"
+  },
+  {
+    "file": "11-NW-14A_1990-10/ranked_candidates.csv",
+    "bytes": 645686,
+    "sha256": "84993bc4ce5d3de03593fc4d84168ada9a067ebabef28eafacd3434b654c93fc"
+  },
+  {
+    "file": "11-NW-14A_1990-10/ranked_candidates.geojson",
+    "bytes": 2185343,
+    "sha256": "9f7a1330d8e4c75b8bd5a7f92d7243000454940d508328cdce700877a1f2e47c"
+  },
+  {
+    "file": "11-NW-14A_1990-10/summary.json",
+    "bytes": 1628,
+    "sha256": "f688f99fcca0df2c7ec2843fdee003835cd9b13cec3cf6f67e8f7a8885e60432"
+  },
+  {
+    "file": "11-NW-14B_1990-01/audit_contact_sheet.jpg",
+    "bytes": 396837,
+    "sha256": "88f3b54c1b253a1cd90c2b99de5e546e632954ce70486400d79527e61f0271e3"
+  },
+  {
+    "file": "11-NW-14B_1990-01/map_regions.geojson",
+    "bytes": 10362202,
+    "sha256": "8acc9c28e60ab3ac3b274a51a963829568bf1c3011d134e176978d7a6ade9dcb"
+  },
+  {
+    "file": "11-NW-14B_1990-01/ranked_candidates.csv",
+    "bytes": 187937,
+    "sha256": "56f1e191a97573c39d05d721448bfa93de0a458fbe3288dd232a813223e41738"
+  },
+  {
+    "file": "11-NW-14B_1990-01/ranked_candidates.geojson",
+    "bytes": 817891,
+    "sha256": "90562e1304b92f7fe16782d153e71f5db2cce1dab044a4fe2c293c4132be1f11"
+  },
+  {
+    "file": "11-NW-14B_1990-01/summary.json",
+    "bytes": 1618,
+    "sha256": "ee47873f41aa254c9b1c61b8f035452f117fc9175a4c696f8d1fbabf48b62922"
+  },
+  {
+    "file": "11-NW-14C_1990-09/audit_contact_sheet.jpg",
+    "bytes": 378621,
+    "sha256": "12677349a0a4fbba91369505958f894843bcf2262792890d3d6dcd9b85f7aa82"
+  },
+  {
+    "file": "11-NW-14C_1990-09/map_regions.geojson",
+    "bytes": 22713258,
+    "sha256": "309bf4e838a91f5cdf13dca307e27e9ee94fffaae9c5c9b00a7c720755045bd6"
+  },
+  {
+    "file": "11-NW-14C_1990-09/ranked_candidates.csv",
+    "bytes": 572741,
+    "sha256": "5466e7fcbd979888e454e52f1b0cee4044db9289c3f589fa8b9ef1a38e6cf197"
+  },
+  {
+    "file": "11-NW-14C_1990-09/ranked_candidates.geojson",
+    "bytes": 1953172,
+    "sha256": "15223242b186bcf68d88bc1e5dc0f8a2eb060304d72eaa1c9ae41151e5eed128"
+  },
+  {
+    "file": "11-NW-14C_1990-09/summary.json",
+    "bytes": 1629,
+    "sha256": "f2aa7449a7dc48545148ff620fc8d3a58d9602e9f9cd816d199bb180f3cf73ea"
+  },
+  {
+    "file": "11-NW-14D_1989-10/audit_contact_sheet.jpg",
+    "bytes": 403356,
+    "sha256": "8cd941b8634f2df88b9dbd524320e349ce479ea4d193035ebd26c347c2e106b2"
+  },
+  {
+    "file": "11-NW-14D_1989-10/map_regions.geojson",
+    "bytes": 11877894,
+    "sha256": "5838ed90fff6fbaff2ceb9a1a68bdf6a6d2b2f16fb6553b55ea4f351867241aa"
+  },
+  {
+    "file": "11-NW-14D_1989-10/ranked_candidates.csv",
+    "bytes": 343586,
+    "sha256": "8abd4b0db740a1c777da7f1711fceda414db35bb00153f0b0c0f42b2f0c4af10"
+  },
+  {
+    "file": "11-NW-14D_1989-10/ranked_candidates.geojson",
+    "bytes": 1224300,
+    "sha256": "8b44c9ff774f9605539c6939e7a2599b682b15f0ed188e09d1461450e03ba9b3"
+  },
+  {
+    "file": "11-NW-14D_1989-10/summary.json",
+    "bytes": 1589,
+    "sha256": "6433f7c79a0180246d3bf5e2e001485661bf9400116d4bb2dc7d1bb4611abde8"
+  },
+  {
+    "file": "11-NW-15A_1989-11/audit_contact_sheet.jpg",
+    "bytes": 347530,
+    "sha256": "bfbb4d503f7bdb87bddc3a7d02b0fb460273d1e38ecbb7bb370726996a075a9f"
+  },
+  {
+    "file": "11-NW-15A_1989-11/map_regions.geojson",
+    "bytes": 10586397,
+    "sha256": "3b1bd49c22bcb18605a502f6678de436a4e89d7b9eb909fef2d1e410aaf346c9"
+  },
+  {
+    "file": "11-NW-15A_1989-11/ranked_candidates.csv",
+    "bytes": 328415,
+    "sha256": "d7e1a411f4ae92c348276983780e4c90e6992373d91eb927f7b2df4d4099045b"
+  },
+  {
+    "file": "11-NW-15A_1989-11/ranked_candidates.geojson",
+    "bytes": 1275041,
+    "sha256": "73fc19df791342bfcc05c06e3b4d6d14a32e451575d48beb06945416aba8676e"
+  },
+  {
+    "file": "11-NW-15A_1989-11/summary.json",
+    "bytes": 1628,
+    "sha256": "7d16af1b8dd30c092834fc1f50442c04f598bb0689ec6a553fe59f225fd12f4c"
+  },
+  {
+    "file": "11-NW-15B_1989-11/audit_contact_sheet.jpg",
+    "bytes": 315865,
+    "sha256": "ca133e7fbacd87fe4361847d1b6d94554f3bc0b105cb6af03464b64e8a486aed"
+  },
+  {
+    "file": "11-NW-15B_1989-11/map_regions.geojson",
+    "bytes": 8512581,
+    "sha256": "ec896fe3d8923dac7a9f012ae2f81e0fce2424685421f4b40a2dfd76ca920173"
+  },
+  {
+    "file": "11-NW-15B_1989-11/ranked_candidates.csv",
+    "bytes": 295799,
+    "sha256": "9b981902c8185e40b96cc9a461cd1db68052132720ebfa2ee11ec657dafeae71"
+  },
+  {
+    "file": "11-NW-15B_1989-11/ranked_candidates.geojson",
+    "bytes": 1063945,
+    "sha256": "0d644f175d0728e1dd9a8ae8fe2c1151a34f0b829254a94d419589251867a39e"
+  },
+  {
+    "file": "11-NW-15B_1989-11/summary.json",
+    "bytes": 1586,
+    "sha256": "ee0df8e150f5b23dc9db79307e2689ee869c26d4b3aa6f2711d1f91cd1d84a3f"
+  },
+  {
+    "file": "11-NW-15C_1989-11/audit_contact_sheet.jpg",
+    "bytes": 371450,
+    "sha256": "f5df708520a8c3502ed9a5ee212674a0ef195427ff3b92eef378ca1474cf624b"
+  },
+  {
+    "file": "11-NW-15C_1989-11/map_regions.geojson",
+    "bytes": 12800951,
+    "sha256": "504b2a54b028f2811a45623d430d8079672ead334494294cbc98d87e63c5b3ee"
+  },
+  {
+    "file": "11-NW-15C_1989-11/ranked_candidates.csv",
+    "bytes": 268016,
+    "sha256": "404810773306c99c2e9f157f4fbc6a3a9a62060439721b06efd2d6071cefaee1"
+  },
+  {
+    "file": "11-NW-15C_1989-11/ranked_candidates.geojson",
+    "bytes": 997404,
+    "sha256": "51c870ba0ac048484a00486c656acc2b58344d482b18255db5dc44366595a76a"
+  },
+  {
+    "file": "11-NW-15C_1989-11/summary.json",
+    "bytes": 1620,
+    "sha256": "b9dee3c5db1eaa6942dceed5c9e451aea17f669ecae0af0500ce975e304d7d6b"
+  },
+  {
+    "file": "11-NW-15D_1989-11/audit_contact_sheet.jpg",
+    "bytes": 459661,
+    "sha256": "abd1ce5f89ec0c5547e212e78bd1a0aea9672b987cfa7b3a9895020459b3271d"
+  },
+  {
+    "file": "11-NW-15D_1989-11/map_regions.geojson",
+    "bytes": 11263729,
+    "sha256": "e958516490b54c7ce5dac183527d84e655856ec1e6df45f9fa03f6b42c737388"
+  },
+  {
+    "file": "11-NW-15D_1989-11/ranked_candidates.csv",
+    "bytes": 223884,
+    "sha256": "c03d4ced0e8f466facbbce585dc4894d0b2d38ae36506ff3804b3f35e0468e29"
+  },
+  {
+    "file": "11-NW-15D_1989-11/ranked_candidates.geojson",
+    "bytes": 878784,
+    "sha256": "049f91a5f2b18feeb7688bd44cce262eeaa797e249585851d46c28f6fc7bc099"
+  },
+  {
+    "file": "11-NW-15D_1989-11/summary.json",
+    "bytes": 1614,
+    "sha256": "eaa998efabd56b72a0c55ef525b665ef3919100ca4f1c017fde7a0ef54e664d9"
+  },
+  {
+    "file": "11-NW-19A_1990-09/audit_contact_sheet.jpg",
+    "bytes": 376913,
+    "sha256": "5ed582a0d816d7569d0d120ba6b9454e50847081fdef704f327796b173619a39"
+  },
+  {
+    "file": "11-NW-19A_1990-09/map_regions.geojson",
+    "bytes": 8699157,
+    "sha256": "f395fb7717660ebe51b894d68a5e567f5be069deb6e9af1f7f95e13c7648cec8"
+  },
+  {
+    "file": "11-NW-19A_1990-09/ranked_candidates.csv",
+    "bytes": 289227,
+    "sha256": "d3bcfc0d8ef08e0dfaa91ed743f4f5dba990379efedf3726dd9eb15c96f451cd"
+  },
+  {
+    "file": "11-NW-19A_1990-09/ranked_candidates.geojson",
+    "bytes": 1081229,
+    "sha256": "b2a9f33b44952a8cbebc4433c580a829da4d3da834ab8750a6a8feb0c90259d1"
+  },
+  {
+    "file": "11-NW-19A_1990-09/summary.json",
+    "bytes": 1626,
+    "sha256": "7fdc9143866b232be42833a7a241462e2eb2e43ca0109616543c8338154ac7b4"
+  },
+  {
+    "file": "11-NW-19B_1990-10/audit_contact_sheet.jpg",
+    "bytes": 399316,
+    "sha256": "8a4898c5619d86c45bfd9410aff5ed283ddc6e6241b479a76c44f4273853e688"
+  },
+  {
+    "file": "11-NW-19B_1990-10/map_regions.geojson",
+    "bytes": 16269666,
+    "sha256": "556cdb3f8d13b79517f95f41f72dc7413aabadfc34b963f8b13c8ae3ee9cbfa9"
+  },
+  {
+    "file": "11-NW-19B_1990-10/ranked_candidates.csv",
+    "bytes": 520474,
+    "sha256": "c97430011f0ffa0d03019d6aa88c06fd05c7861eab88671d165d4e9dd13004fb"
+  },
+  {
+    "file": "11-NW-19B_1990-10/ranked_candidates.geojson",
+    "bytes": 1833539,
+    "sha256": "622d69a925f9203e352c69a05aff3e11a67a6ab720869bc4a36d4431b3f95143"
+  },
+  {
+    "file": "11-NW-19B_1990-10/summary.json",
+    "bytes": 1626,
+    "sha256": "0a597b7bd348a1b84b83d9e7636dc292d5d66998e4da3412b74c01c4b4c4b566"
+  },
+  {
+    "file": "11-NW-19C_1989-09/audit_contact_sheet.jpg",
+    "bytes": 281127,
+    "sha256": "64bdf588378ce3e472d3e983a7ce0e37ad2f063902a8556746c219cd0e336d91"
+  },
+  {
+    "file": "11-NW-19C_1989-09/map_regions.geojson",
+    "bytes": 580721,
+    "sha256": "6e55d8db63e87ee835d71bbe0d0223f559275c845b48bc0638cf03eab3ca91b9"
+  },
+  {
+    "file": "11-NW-19C_1989-09/ranked_candidates.csv",
+    "bytes": 78753,
+    "sha256": "8dc874f4a5a67b584b8ec61ca3b97ef99782d08dc2b6c0f9b4bc29ac5e528449"
+  },
+  {
+    "file": "11-NW-19C_1989-09/ranked_candidates.geojson",
+    "bytes": 614075,
+    "sha256": "b6ab8455526997feed7a6a0b520b0631273817ba9157a80acaaaeb87f5d7a032"
+  },
+  {
+    "file": "11-NW-19C_1989-09/summary.json",
+    "bytes": 1582,
+    "sha256": "478048e7a2b4b5c993618b6b15405fdf4d8e6a1ea8c1ebf5c11f6b9663377378"
+  },
+  {
+    "file": "11-NW-19D_1989-10/audit_contact_sheet.jpg",
+    "bytes": 394933,
+    "sha256": "93b209fa14abafb2ed7d562140ad32684ad6e041d007359ff5aed6dd8647bebb"
+  },
+  {
+    "file": "11-NW-19D_1989-10/map_regions.geojson",
+    "bytes": 17198506,
+    "sha256": "d9e8d915312e36f29e616e44218179b6d67f1f953dea99edef26c63aa24c85f2"
+  },
+  {
+    "file": "11-NW-19D_1989-10/ranked_candidates.csv",
+    "bytes": 531648,
+    "sha256": "64621445ff95bae8c13608b872c35522839c46e1b5c6a109fa68f7ac67d0358b"
+  },
+  {
+    "file": "11-NW-19D_1989-10/ranked_candidates.geojson",
+    "bytes": 1789284,
+    "sha256": "da5046c424981475b2e6a0d07b5eddb8f9264a4952983dfce2f980ed72c01c65"
+  },
+  {
+    "file": "11-NW-19D_1989-10/summary.json",
+    "bytes": 1627,
+    "sha256": "f08fb4439a10dc2cbdb308676439c40a5442dac82ae9661ae1296b42b2dd3b20"
+  },
+  {
+    "file": "11-NW-20A_1989-11/audit_contact_sheet.jpg",
+    "bytes": 544792,
+    "sha256": "078d844b309dafd934d394d21948dc113caf73f698e83108b30b3b0a434befbe"
+  },
+  {
+    "file": "11-NW-20A_1989-11/map_regions.geojson",
+    "bytes": 18891944,
+    "sha256": "eadfa2d22c8fc0a81dc3880a96df059eec7bde390c987373ef659d3dd86b441f"
+  },
+  {
+    "file": "11-NW-20A_1989-11/ranked_candidates.csv",
+    "bytes": 240858,
+    "sha256": "299dc2c19bc2ad84e91a82ebd6b595b03334ad7f65caec12dd9ed1c3ea56ad25"
+  },
+  {
+    "file": "11-NW-20A_1989-11/ranked_candidates.geojson",
+    "bytes": 941400,
+    "sha256": "71d1da95d5b11608153637a4ff45159dcfe7b7d87dc4cc1baffee2c34cbc64e4"
+  },
+  {
+    "file": "11-NW-20A_1989-11/summary.json",
+    "bytes": 1624,
+    "sha256": "01ba18f4d15859033bf39c5e458e1b985533dc1dccb5b7b315f671789179d4b1"
+  },
+  {
+    "file": "11-NW-20B_1989-11/audit_contact_sheet.jpg",
+    "bytes": 396232,
+    "sha256": "2d63e0726b2b107408cfa5f7303fbe8f16434d79697ee95772f19f184486dd80"
+  },
+  {
+    "file": "11-NW-20B_1989-11/map_regions.geojson",
+    "bytes": 15828840,
+    "sha256": "3c260a613b82cf493ca2479226d8feb828cefd263a7f6d2fefa1af7ad94e84fe"
+  },
+  {
+    "file": "11-NW-20B_1989-11/ranked_candidates.csv",
+    "bytes": 334433,
+    "sha256": "60e9709cc6aba7675d4660f8a3a282c17fb5e2d61518a8ec8dabf6c1044ee6f9"
+  },
+  {
+    "file": "11-NW-20B_1989-11/ranked_candidates.geojson",
+    "bytes": 1222923,
+    "sha256": "f724ec4bde882d132899aa307a3e6833ddab0289b706ac8e7e5c1560279ddf5b"
+  },
+  {
+    "file": "11-NW-20B_1989-11/summary.json",
+    "bytes": 1625,
+    "sha256": "71d235b82c344d22e34094d464c37a6a20f76447d36303004c1b3cb3e3730e49"
+  },
+  {
+    "file": "11-NW-20C_1989-10/audit_contact_sheet.jpg",
+    "bytes": 347398,
+    "sha256": "25ef85d58907a11867feabec809f390a117d1e93bcd080308b008c328fdbf32f"
+  },
+  {
+    "file": "11-NW-20C_1989-10/map_regions.geojson",
+    "bytes": 8519063,
+    "sha256": "74454baa0ab68814e0d54fd755dacd5990c93d270fb57be8e3f1224a71a56d02"
+  },
+  {
+    "file": "11-NW-20C_1989-10/ranked_candidates.csv",
+    "bytes": 153762,
+    "sha256": "6f33a28b129d0eea40ee052e889394c687d1789104aed5ab4a33f271771e3172"
+  },
+  {
+    "file": "11-NW-20C_1989-10/ranked_candidates.geojson",
+    "bytes": 689519,
+    "sha256": "1a8f76442e76fc12c60ef82e6527305b165690292c44be3a16a0eed759dcbbbc"
+  },
+  {
+    "file": "11-NW-20C_1989-10/summary.json",
+    "bytes": 1588,
+    "sha256": "6d1937a0cf583cd97f2356558a45702f7b776b0a8d9dd773aebf12cad5db5d1b"
+  },
+  {
+    "file": "11-NW-20D_1989-10/audit_contact_sheet.jpg",
+    "bytes": 426429,
+    "sha256": "344a49bb47db06b7c90ebd3b76a21c64a7680306a3623f4057f3ac390d5e6eb3"
+  },
+  {
+    "file": "11-NW-20D_1989-10/map_regions.geojson",
+    "bytes": 9620935,
+    "sha256": "ef8e17b0b90c467983295e5e912f4605948877056030c3d64158333c57c52afe"
+  },
+  {
+    "file": "11-NW-20D_1989-10/ranked_candidates.csv",
+    "bytes": 211035,
+    "sha256": "45813ffc33ac5889d35fca498ac1a00609fe7173bf18123780128530810b98b4"
+  },
+  {
+    "file": "11-NW-20D_1989-10/ranked_candidates.geojson",
+    "bytes": 829950,
+    "sha256": "492cd011d6e88b5f4feff2a63d699138b3f3cb4173a2d7f00236de4c3ef8e128"
+  },
+  {
+    "file": "11-NW-20D_1989-10/summary.json",
+    "bytes": 1588,
+    "sha256": "d8879b7ba159987272aed8fc275304b171171bb95e935b9cac7252ba366abb48"
+  },
+  {
+    "file": "11-NW-24A_1989-09/audit_contact_sheet.jpg",
+    "bytes": 378053,
+    "sha256": "9872470781fe03dc2cdbfc4fc227451f2c9c2b72cb8161a3f3cdacf422e7f866"
+  },
+  {
+    "file": "11-NW-24A_1989-09/map_regions.geojson",
+    "bytes": 1867641,
+    "sha256": "baeeb4cc1853f0f6db277c08b7eb3d83d90ada1bb49b46bdc1d545804c03d44c"
+  },
+  {
+    "file": "11-NW-24A_1989-09/ranked_candidates.csv",
+    "bytes": 48633,
+    "sha256": "dc24c0e745021339d1b40f9c65ee4f3a1dcaefca91602b42ba7575b3f0453056"
+  },
+  {
+    "file": "11-NW-24A_1989-09/ranked_candidates.geojson",
+    "bytes": 219711,
+    "sha256": "cc46a3d04373b4894037d94c074f5b5c174be3ba99a7944cd25bb3f24be0c3dc"
+  },
+  {
+    "file": "11-NW-24A_1989-09/summary.json",
+    "bytes": 1582,
+    "sha256": "e953bd12435e292a6cb5e01f7dc75c6918374bf16d10e8c57180e44e75e9c288"
+  },
+  {
+    "file": "11-NW-24B_1989-10/audit_contact_sheet.jpg",
+    "bytes": 386207,
+    "sha256": "62c4d1f228cacaad6efe7151fa872079d184d978a8f557efa6dd6d468cbb154c"
+  },
+  {
+    "file": "11-NW-24B_1989-10/map_regions.geojson",
+    "bytes": 15696685,
+    "sha256": "cb314326736e007e05807b0fa56849c98d268a2626c9e3c29d33a7417f53273e"
+  },
+  {
+    "file": "11-NW-24B_1989-10/ranked_candidates.csv",
+    "bytes": 460010,
+    "sha256": "31ef74e0074bcfb812c419a3928f89bcb0ffab1d863e7f8ec7fe3908ba99dea3"
+  },
+  {
+    "file": "11-NW-24B_1989-10/ranked_candidates.geojson",
+    "bytes": 1645272,
+    "sha256": "2bb96d0960822d62726cdd9e77ac8ea47c3cc48971c786a66a4a02cf54c6d358"
+  },
+  {
+    "file": "11-NW-24B_1989-10/summary.json",
+    "bytes": 1620,
+    "sha256": "9b37f250398bfc6a06d1a1b3bb782c6a5cf93bcb6806a9e13eb5b0571fb23024"
+  },
+  {
+    "file": "11-NW-24C_1990-09/audit_contact_sheet.jpg",
+    "bytes": 280496,
+    "sha256": "9bec55ac9d02e666905bc3643bafa4f9a015afeb91a8843ce65de852f2069bf7"
+  },
+  {
+    "file": "11-NW-24C_1990-09/map_regions.geojson",
+    "bytes": 1073815,
+    "sha256": "17cda98fbc993dee83d0b3a86ad92ea7f2968a8c177c4ff9234554e32773a051"
+  },
+  {
+    "file": "11-NW-24C_1990-09/ranked_candidates.csv",
+    "bytes": 68184,
+    "sha256": "43dcc2dd106957f46d88414ca65eddc2ecf29ec05543e3b78f789764f829fccd"
+  },
+  {
+    "file": "11-NW-24C_1990-09/ranked_candidates.geojson",
+    "bytes": 366712,
+    "sha256": "dd96bb1543394bf8d3a54175b3e27df18a5801888a31ab6d1ed6d408c88023b1"
+  },
+  {
+    "file": "11-NW-24C_1990-09/summary.json",
+    "bytes": 1540,
+    "sha256": "b6ce9c2683757b85bb80a74460278c2accff080def9ad1b2fde5c11b1853f618"
+  },
+  {
+    "file": "11-NW-24D_1993-04/audit_contact_sheet.jpg",
+    "bytes": 364765,
+    "sha256": "9a5760cc4eb3c1ae1e3942d780ed70dc1607d42ba6f2331eff613fd94ff17d1c"
+  },
+  {
+    "file": "11-NW-24D_1993-04/map_regions.geojson",
+    "bytes": 9765210,
+    "sha256": "6fdc6a38ac1e4c2911dfe851974605940c19aafc8313142c09c29effb38efd75"
+  },
+  {
+    "file": "11-NW-24D_1993-04/ranked_candidates.csv",
+    "bytes": 384004,
+    "sha256": "31acfb5e2b86c706eaf849df2a4a9b81f868492ced07ca14aeaea1d2a8cd069d"
+  },
+  {
+    "file": "11-NW-24D_1993-04/ranked_candidates.geojson",
+    "bytes": 1522881,
+    "sha256": "7698a4e6d6a44b00dbd4a21b226c969357f0bb75f78dbe65b01a5b0d1401d70e"
+  },
+  {
+    "file": "11-NW-24D_1993-04/summary.json",
+    "bytes": 1578,
+    "sha256": "b67ec09bc5a2753bdf70eb34cfa3f1548f77efd8105d288a600b86f21022e1db"
+  },
+  {
+    "file": "11-NW-25A_1989-10/audit_contact_sheet.jpg",
+    "bytes": 407568,
+    "sha256": "81a0b39ebb7ac44122b013759f020938469d66a32001b4b29f342f99d9d81ee9"
+  },
+  {
+    "file": "11-NW-25A_1989-10/map_regions.geojson",
+    "bytes": 12950508,
+    "sha256": "05590a89797ef3eabe278b7d95449cf25d8eccf3adb3f8a9b2dffa30581e422a"
+  },
+  {
+    "file": "11-NW-25A_1989-10/ranked_candidates.csv",
+    "bytes": 98823,
+    "sha256": "00b2e7208962cbbde56f0dd9f6203d152edc70ba54d451e04c0fcad96c164818"
+  },
+  {
+    "file": "11-NW-25A_1989-10/ranked_candidates.geojson",
+    "bytes": 486636,
+    "sha256": "bd112d05450fcc5e299c1506796609725d0e738d61c846ca11042be00ed97aca"
+  },
+  {
+    "file": "11-NW-25A_1989-10/summary.json",
+    "bytes": 1616,
+    "sha256": "022dc34f3212e1920bcec5712f91b73cda37b8a73b5d18cdc493d96434aeced7"
+  },
+  {
+    "file": "11-NW-25B_1989-10/audit_contact_sheet.jpg",
+    "bytes": 435980,
+    "sha256": "8fc8e3c5be39c10706b1e48a1bd880628d5e155b9e510124d203d7a2860bd767"
+  },
+  {
+    "file": "11-NW-25B_1989-10/map_regions.geojson",
+    "bytes": 20517153,
+    "sha256": "3babc638d582590cbd926691717f557e5acdaadd8210c46a72ad133557c65900"
+  },
+  {
+    "file": "11-NW-25B_1989-10/ranked_candidates.csv",
+    "bytes": 306127,
+    "sha256": "7ac042539682753bf3ab8690363f973a193f2fbef3285434a669f3352c75d980"
+  },
+  {
+    "file": "11-NW-25B_1989-10/ranked_candidates.geojson",
+    "bytes": 1154923,
+    "sha256": "7bab97037cc4f6fa8600942bcb18dd0aa05ff2d6a1bfca470bd6f715cb8a1767"
+  },
+  {
+    "file": "11-NW-25B_1989-10/summary.json",
+    "bytes": 1624,
+    "sha256": "2670741c248c298aac975720e9e3e304b7cbbaf499a1d6755e176fbf2bb1ed95"
+  },
+  {
+    "file": "11-NW-25C_1993-09/audit_contact_sheet.jpg",
+    "bytes": 354946,
+    "sha256": "92b4cad008db880d2247dbf483e6b6ab3319595cd0a9ac7beadb0eec7d99b148"
+  },
+  {
+    "file": "11-NW-25C_1993-09/map_regions.geojson",
+    "bytes": 7935474,
+    "sha256": "95b06268fa9830ce311aa76ad96c26d105e041ff1fe89f19ff5a1d994f57ad67"
+  },
+  {
+    "file": "11-NW-25C_1993-09/ranked_candidates.csv",
+    "bytes": 193625,
+    "sha256": "d452c218f04d9f6247bfaf6f03e035868a8a8ff59710c77e8a01936c1143a11a"
+  },
+  {
+    "file": "11-NW-25C_1993-09/ranked_candidates.geojson",
+    "bytes": 1235953,
+    "sha256": "08e960fd8cb8bf1ab29f6d82b95f8fcbbffc1739b871bcbb506b40476e314080"
+  },
+  {
+    "file": "11-NW-25C_1993-09/summary.json",
+    "bytes": 1626,
+    "sha256": "79402b8493098f45afe41752434b924f91b92505e7edcd53414af5ed416a7bdb"
+  },
+  {
+    "file": "11-NW-25D_1993-10/audit_contact_sheet.jpg",
+    "bytes": 418055,
+    "sha256": "f05fd197460765ed083d7c0a3ed9ff325df8a2368b5c31ecfff7799a2122e648"
+  },
+  {
+    "file": "11-NW-25D_1993-10/map_regions.geojson",
+    "bytes": 5809154,
+    "sha256": "18ad4e99c2593eaa2bde531aec2acbfea88398c3d6cce49d16be596dd930b6a2"
+  },
+  {
+    "file": "11-NW-25D_1993-10/ranked_candidates.csv",
+    "bytes": 122179,
+    "sha256": "ecf3ddc7b5f83893bfaf2f92ba083d7225a2c71441e221e819c83d96968898f1"
+  },
+  {
+    "file": "11-NW-25D_1993-10/ranked_candidates.geojson",
+    "bytes": 791784,
+    "sha256": "cb00d92f215bf27f56978015a5649cf6ade4da7f425e23cbabdfe835e43d28ae"
+  },
+  {
+    "file": "11-NW-25D_1993-10/summary.json",
+    "bytes": 1623,
+    "sha256": "65f31a5edecf648defd1d90ddd5310f4e30bbb359ceabacfcd4955e874e3ce4f"
+  },
+  {
+    "file": "11-NW-4A_1985-06/audit_contact_sheet.jpg",
+    "bytes": 11478,
+    "sha256": "1d92813bce03aa2eb543649e90501796666b801b425fcf7571882c3532f0098c"
+  },
+  {
+    "file": "11-NW-4A_1985-06/map_regions.geojson",
+    "bytes": 8732889,
+    "sha256": "6de9257401a9ec1704201475abf7c0acb26eba371f5ac1d3e2681ad243223fd6"
+  },
+  {
+    "file": "11-NW-4A_1985-06/ranked_candidates.csv",
+    "bytes": 14,
+    "sha256": "afc13dd41e754fbd1f009bd986e2efd348a2ff0008d25a03359a2e98750793d7"
+  },
+  {
+    "file": "11-NW-4A_1985-06/ranked_candidates.geojson",
+    "bytes": 42,
+    "sha256": "ed778c73ea51338d6576fb5992b189f2b94d9f3d5e199f46c1af520d6b0b3e6c"
+  },
+  {
+    "file": "11-NW-4A_1985-06/summary.json",
+    "bytes": 1419,
+    "sha256": "d009ec420b6921ced56f11d81144d780dbccd7ea3b2974a01fcd7399024c9ca8"
+  },
+  {
+    "file": "11-NW-4B_1985-06/audit_contact_sheet.jpg",
+    "bytes": 137400,
+    "sha256": "645d7ecc3db98b55edf23df67e1bdbac22ab33b1f554cf8cd8a597366f178d0a"
+  },
+  {
+    "file": "11-NW-4B_1985-06/map_regions.geojson",
+    "bytes": 37366526,
+    "sha256": "9534c7e9dd381326bf6b3f3a5d9e6cb8999a6cc9a5f862c987ef9949487f6008"
+  },
+  {
+    "file": "11-NW-4B_1985-06/ranked_candidates.csv",
+    "bytes": 3684,
+    "sha256": "d2fdffcb8500d5ff0c114543ed4dee172dc53e98a3ce011a421c06b2454116af"
+  },
+  {
+    "file": "11-NW-4B_1985-06/ranked_candidates.geojson",
+    "bytes": 10375,
+    "sha256": "a2b55713ba14dd2deefbaddb581c0782b09f913221da509d439f75e613f6d22c"
+  },
+  {
+    "file": "11-NW-4B_1985-06/summary.json",
+    "bytes": 1523,
+    "sha256": "9db143ee3a80f1a163fa5fdc6b241e21a5ba35a9a88eae108b7ea66f6b63a6f9"
+  },
+  {
+    "file": "11-NW-4C_1989-11/audit_contact_sheet.jpg",
+    "bytes": 371428,
+    "sha256": "97f0657c0d14c4b54f74bd96cdb00ecf11a2b53456ef6e7fe355938e62a3fbf1"
+  },
+  {
+    "file": "11-NW-4C_1989-11/map_regions.geojson",
+    "bytes": 23167783,
+    "sha256": "a267c7dad8690054677c32591f3da8c5a65977c703f0bed399fe31045635eea4"
+  },
+  {
+    "file": "11-NW-4C_1989-11/ranked_candidates.csv",
+    "bytes": 28766,
+    "sha256": "015b3942942e27fe903753a585a4e7034b446c162315f86fd70e436b1ea01a61"
+  },
+  {
+    "file": "11-NW-4C_1989-11/ranked_candidates.geojson",
+    "bytes": 274540,
+    "sha256": "307837331f7ee0d389c98bda73f2a4e95972c581afb57a1b794356f894ef336f"
+  },
+  {
+    "file": "11-NW-4C_1989-11/summary.json",
+    "bytes": 1536,
+    "sha256": "b7c3117e176b686d1f21afda2c36bada9e3d71ea76b3b53a6d2557b0f7b42a32"
+  },
+  {
+    "file": "11-NW-4D_1989-11/audit_contact_sheet.jpg",
+    "bytes": 346458,
+    "sha256": "8c5000f8ac28c6438a91c1546ea8148f28f5cbf7e8c7e34643d950d58cb8d145"
+  },
+  {
+    "file": "11-NW-4D_1989-11/map_regions.geojson",
+    "bytes": 37852640,
+    "sha256": "13025a68afcb64e1b3ba556e294fe2eeb5d2dd734a1f9fc016d652e2cd8522b1"
+  },
+  {
+    "file": "11-NW-4D_1989-11/ranked_candidates.csv",
+    "bytes": 10655,
+    "sha256": "3194dcfc3576bd83541ea92c395ee647adfda79c645f988173e88e981a46b2b6"
+  },
+  {
+    "file": "11-NW-4D_1989-11/ranked_candidates.geojson",
+    "bytes": 37963,
+    "sha256": "f19d2600846bafdeeec1b6ecb188bf40296d8e0b975f37d5674a7b1af041a514"
+  },
+  {
+    "file": "11-NW-4D_1989-11/summary.json",
+    "bytes": 1542,
+    "sha256": "1d0c32ae0bedb33ceacff3f15b8bfe26af071f962c0c0ece40a89309fe49e55f"
+  },
+  {
+    "file": "11-NW-5A_1985-03/audit_contact_sheet.jpg",
+    "bytes": 11478,
+    "sha256": "1d92813bce03aa2eb543649e90501796666b801b425fcf7571882c3532f0098c"
+  },
+  {
+    "file": "11-NW-5A_1985-03/map_regions.geojson",
+    "bytes": 37293470,
+    "sha256": "5e8d4950a7ba1bc30614040526f696c8f33b8a811838d48df1fdc7bd6eefab9e"
+  },
+  {
+    "file": "11-NW-5A_1985-03/ranked_candidates.csv",
+    "bytes": 14,
+    "sha256": "afc13dd41e754fbd1f009bd986e2efd348a2ff0008d25a03359a2e98750793d7"
+  },
+  {
+    "file": "11-NW-5A_1985-03/ranked_candidates.geojson",
+    "bytes": 42,
+    "sha256": "ed778c73ea51338d6576fb5992b189f2b94d9f3d5e199f46c1af520d6b0b3e6c"
+  },
+  {
+    "file": "11-NW-5A_1985-03/summary.json",
+    "bytes": 1417,
+    "sha256": "85b564004dd8fbff71de4f58fead5c768d077822b95f865c84228897939883ba"
+  },
+  {
+    "file": "11-NW-5B_1985-03/audit_contact_sheet.jpg",
+    "bytes": 27553,
+    "sha256": "f9128c0610e14edabf20a658b701c93a3d820c0ebd6bebd6eb201a9b438b85dd"
+  },
+  {
+    "file": "11-NW-5B_1985-03/map_regions.geojson",
+    "bytes": 39429203,
+    "sha256": "d4473f299633755d6467b6704504e52f93ad8c26a51fa50ebf3b6db52300d0c1"
+  },
+  {
+    "file": "11-NW-5B_1985-03/ranked_candidates.csv",
+    "bytes": 1144,
+    "sha256": "7c821e8caa823c7651eecab9871d6853a656b2a21bded15dc7ce1ff94fed508e"
+  },
+  {
+    "file": "11-NW-5B_1985-03/ranked_candidates.geojson",
+    "bytes": 1568,
+    "sha256": "7ed158e3d7f4f5ba36b186fbaba1fb8123a2decbf29f44054bd06fd3751c933a"
+  },
+  {
+    "file": "11-NW-5B_1985-03/summary.json",
+    "bytes": 1460,
+    "sha256": "1465743e00634ffdbfc31a2d00cf7135ffea24cbc74834ae3f2d6048a909d916"
+  },
+  {
+    "file": "11-NW-5C_1989-11/audit_contact_sheet.jpg",
+    "bytes": 304097,
+    "sha256": "4c6b207093291c0e459ecb0f6023e02af57db476beacc048d6558f51bdbdd8eb"
+  },
+  {
+    "file": "11-NW-5C_1989-11/map_regions.geojson",
+    "bytes": 31694981,
+    "sha256": "8b97d74f2e833aa53e6adf4c9f097afcb2e8f7285e04cf892a57853d548e48af"
+  },
+  {
+    "file": "11-NW-5C_1989-11/ranked_candidates.csv",
+    "bytes": 8679,
+    "sha256": "0617bd2b15f09ffeb9f9cc94486660a33f721f1ce9306e59c92cc8cbd60d3763"
+  },
+  {
+    "file": "11-NW-5C_1989-11/ranked_candidates.geojson",
+    "bytes": 36853,
+    "sha256": "64c07eef792fbaf52b5346c120e1bd1fe0a83ad04061d19e5647bda6dba68a2d"
+  },
+  {
+    "file": "11-NW-5C_1989-11/summary.json",
+    "bytes": 1617,
+    "sha256": "155d578c3b0fd9f8924ce4e79f05978b136ad0eed9cadf7a03af1a155dcb6aaa"
+  },
+  {
+    "file": "11-NW-5D_1989-12/audit_contact_sheet.jpg",
+    "bytes": 342783,
+    "sha256": "0890f0dceb50dda6c8646cbc0bb0253862d0a7e505cb73c69ac568cf916c1bfe"
+  },
+  {
+    "file": "11-NW-5D_1989-12/map_regions.geojson",
+    "bytes": 19767908,
+    "sha256": "3b9cee7341626f34cba6abc60f6fdb487d28a349cc85b4c1b59acc789398e780"
+  },
+  {
+    "file": "11-NW-5D_1989-12/ranked_candidates.csv",
+    "bytes": 27156,
+    "sha256": "f04a79e16002cb66dfbc9a21faeba94e31026033d3867b619159e8749e13b185"
+  },
+  {
+    "file": "11-NW-5D_1989-12/ranked_candidates.geojson",
+    "bytes": 132713,
+    "sha256": "cb6dead0b2b3463f4f227d64814f328a00bf7a6e013e44d00e006ca108f3a6a1"
+  },
+  {
+    "file": "11-NW-5D_1989-12/summary.json",
+    "bytes": 1618,
+    "sha256": "8a2cfecb1b334e1e5991a5a0878c0f1949c4d9d0d26977b5d6bffd92237c669d"
+  },
+  {
+    "file": "11-NW-9A_1989-11/audit_contact_sheet.jpg",
+    "bytes": 391475,
+    "sha256": "35c52e3de39eb55304deeb3e762302ab183421a2b8319974e30c6aed8b4eb5ff"
+  },
+  {
+    "file": "11-NW-9A_1989-11/map_regions.geojson",
+    "bytes": 16287724,
+    "sha256": "69f10d89bc915b6d5991758627ce141235b49ff5cfaf81877b70cea098b2e206"
+  },
+  {
+    "file": "11-NW-9A_1989-11/ranked_candidates.csv",
+    "bytes": 50770,
+    "sha256": "a2df61028fd2dbb5709401caa314cfd9d7fb331b74cd7be5284ce91b6da2a28c"
+  },
+  {
+    "file": "11-NW-9A_1989-11/ranked_candidates.geojson",
+    "bytes": 256494,
+    "sha256": "536294694d0650f711cc14851726176d34936638f66a5df43dbebebf698b6609"
+  },
+  {
+    "file": "11-NW-9A_1989-11/summary.json",
+    "bytes": 1585,
+    "sha256": "7bc8fe0c18f8e439ec7335cb7a119e441d93ff80950f546d6a8175e88e42b4ce"
+  },
+  {
+    "file": "11-NW-9B_1990-06/audit_contact_sheet.jpg",
+    "bytes": 385596,
+    "sha256": "6159e770f6ab70d48e31acc7df3d2129e5090a010fbd779bc0575e041bf397fd"
+  },
+  {
+    "file": "11-NW-9B_1990-06/map_regions.geojson",
+    "bytes": 5290307,
+    "sha256": "4408f2cdafb568cf8c7ac30113128f095768d9aca9e702cd7a6e3fc19c3acad8"
+  },
+  {
+    "file": "11-NW-9B_1990-06/ranked_candidates.csv",
+    "bytes": 80629,
+    "sha256": "036b74489bd0b471413f18d09345b8355e4f1430d0f9afcacd0ced8900d6d079"
+  },
+  {
+    "file": "11-NW-9B_1990-06/ranked_candidates.geojson",
+    "bytes": 397567,
+    "sha256": "c212e293012f1d87f868ca2f1d2ceb23fe76e9a3b9788828e5bfa374fbb9d81a"
+  },
+  {
+    "file": "11-NW-9B_1990-06/summary.json",
+    "bytes": 1585,
+    "sha256": "5064c4e18c4f10dfaedf5a6f0cce6060c488e5171a0ca848ce493d93d0c5e109"
+  },
+  {
+    "file": "11-NW-9C_1989-12/audit_contact_sheet.jpg",
+    "bytes": 491237,
+    "sha256": "06d1957a2a7eb467de00e901b666ba4e3f2a91e53546ffe5b4ff169f465af837"
+  },
+  {
+    "file": "11-NW-9C_1989-12/map_regions.geojson",
+    "bytes": 18300811,
+    "sha256": "8c84825a020349d875d8f55c0dff65af34e04ebd3630b972e7efb59828be7280"
+  },
+  {
+    "file": "11-NW-9C_1989-12/ranked_candidates.csv",
+    "bytes": 169040,
+    "sha256": "8e5290fe9c222797387432990e59646d6bc05a121c09d17721581867ad65645a"
+  },
+  {
+    "file": "11-NW-9C_1989-12/ranked_candidates.geojson",
+    "bytes": 751492,
+    "sha256": "24cd1ea99b668cc1fb7c6431e8afaf16434371b7c462802810c9ac0b2da54b76"
+  },
+  {
+    "file": "11-NW-9C_1989-12/summary.json",
+    "bytes": 1624,
+    "sha256": "3321f6258e094317f3c622089bcb9b751a7de5a2d10a28e3531a4bc6550f02bd"
+  },
+  {
+    "file": "11-NW-9D_1990-06/audit_contact_sheet.jpg",
+    "bytes": 477731,
+    "sha256": "584353d054bde43a82f338edcad8320f1f32ff779b56c5b669d32deac798138b"
+  },
+  {
+    "file": "11-NW-9D_1990-06/map_regions.geojson",
+    "bytes": 12006415,
+    "sha256": "e2d7359b10c3aa49aa1c5d7eb6af2ef4b832d579ec43f207b8c29755dd472a37"
+  },
+  {
+    "file": "11-NW-9D_1990-06/ranked_candidates.csv",
+    "bytes": 113381,
+    "sha256": "899c86f6276254ebc1b2739dac4a20b207e036f8285c89784f52e1b80db1470e"
+  },
+  {
+    "file": "11-NW-9D_1990-06/ranked_candidates.geojson",
+    "bytes": 582374,
+    "sha256": "d6ed0fd3e50e666425319133a7d6319a7bc612eb8821e68c7015587b90eb62f1"
+  },
+  {
+    "file": "11-NW-9D_1990-06/summary.json",
+    "bytes": 1623,
+    "sha256": "9fe9336cd0e725c4b8e9bd58e913b47c3fce6efc16e30dda3c7728f04ab73c8c"
+  },
+  {
+    "file": "11-SE-1A_1991-01/audit_contact_sheet.jpg",
+    "bytes": 40391,
+    "sha256": "970a4a69b9c79c08bb3c94fbd23e5fb7af965fb0f93124990685275dec899ba7"
+  },
+  {
+    "file": "11-SE-1A_1991-01/map_regions.geojson",
+    "bytes": 27707,
+    "sha256": "37eff4b4873b1baf5bc36627b66e393b095b4dd82a732b087cccce223d3fbc3f"
+  },
+  {
+    "file": "11-SE-1A_1991-01/ranked_candidates.csv",
+    "bytes": 1146,
+    "sha256": "9068399c3966cf55dcabe5e2dffe651ff191869a77f3d192f2b479e6e4644d19"
+  },
+  {
+    "file": "11-SE-1A_1991-01/ranked_candidates.geojson",
+    "bytes": 4313,
+    "sha256": "4ce9261c0acfe17a229d72bab8d00f35cd85b8116a96d47d1f2aff0f01373d30"
+  },
+  {
+    "file": "11-SE-1A_1991-01/summary.json",
+    "bytes": 1460,
+    "sha256": "7a22d656ee684ecaa4e9080e66cb293970091b9ecfdaff0f935afde5173dd98e"
+  },
+  {
+    "file": "11-SE-3A_1993-08/audit_contact_sheet.jpg",
+    "bytes": 11478,
+    "sha256": "1d92813bce03aa2eb543649e90501796666b801b425fcf7571882c3532f0098c"
+  },
+  {
+    "file": "11-SE-3A_1993-08/map_regions.geojson",
+    "bytes": 42,
+    "sha256": "ed778c73ea51338d6576fb5992b189f2b94d9f3d5e199f46c1af520d6b0b3e6c"
+  },
+  {
+    "file": "11-SE-3A_1993-08/ranked_candidates.csv",
+    "bytes": 14,
+    "sha256": "afc13dd41e754fbd1f009bd986e2efd348a2ff0008d25a03359a2e98750793d7"
+  },
+  {
+    "file": "11-SE-3A_1993-08/ranked_candidates.geojson",
+    "bytes": 42,
+    "sha256": "ed778c73ea51338d6576fb5992b189f2b94d9f3d5e199f46c1af520d6b0b3e6c"
+  },
+  {
+    "file": "11-SE-3A_1993-08/summary.json",
+    "bytes": 1416,
+    "sha256": "b5cb93802c95498079b7787f673f834ba3d0d421f4f3818a7f6499d5fe30e5f8"
+  },
+  {
+    "file": "11-SW-4A_1989-06/audit_contact_sheet.jpg",
+    "bytes": 211104,
+    "sha256": "e071ad6bceba431891445bc8b2494864208c87e8f0ecf2b5f6295da04772023a"
+  },
+  {
+    "file": "11-SW-4A_1989-06/map_regions.geojson",
+    "bytes": 246163,
+    "sha256": "bdb487bea0233895a565f95cdf7e13ccfc92dc28db4b08c5a45de823b4b0c77c"
+  },
+  {
+    "file": "11-SW-4A_1989-06/ranked_candidates.csv",
+    "bytes": 6317,
+    "sha256": "c7e07df7906190fbb63a2309ec6644acf9c584fc091ca50eecd47513b9ed2bbd"
+  },
+  {
+    "file": "11-SW-4A_1989-06/ranked_candidates.geojson",
+    "bytes": 43620,
+    "sha256": "bc56b4565d97975d368e0d7ccd3068a53519943229421d1c444f301e1f7a37b3"
+  },
+  {
+    "file": "11-SW-4A_1989-06/summary.json",
+    "bytes": 1534,
+    "sha256": "1b6834cb647d5205bdc71426205c3982aa539b346112e49373ee9e06cee90642"
+  },
+  {
+    "file": "11-SW-4B_1993-01/audit_contact_sheet.jpg",
+    "bytes": 443365,
+    "sha256": "d3ed7a01ce0cb20b6f9cab0fd1942d8613f154ebc9d69f359770ec1c9b13e1ca"
+  },
+  {
+    "file": "11-SW-4B_1993-01/map_regions.geojson",
+    "bytes": 9705557,
+    "sha256": "177c012da983984dcd20fbb36b4ae245b877a2571bf3a64b3729397b8faf3192"
+  },
+  {
+    "file": "11-SW-4B_1993-01/ranked_candidates.csv",
+    "bytes": 249987,
+    "sha256": "1553dcc59cd31d5575cc54627eb8706353a36aadbddbbcb0e2d062f689475bcc"
+  },
+  {
+    "file": "11-SW-4B_1993-01/ranked_candidates.geojson",
+    "bytes": 1102992,
+    "sha256": "941432512591894900bdde69b068e4bcd8d7d729ff64fd33d622e1e86240b9e4"
+  },
+  {
+    "file": "11-SW-4B_1993-01/summary.json",
+    "bytes": 1587,
+    "sha256": "36c907d63ebeb5db21057e33b81622a91b41b37377d7d9f16c7237b9f459d3ae"
+  },
+  {
+    "file": "11-SW-5A_1993-09/audit_contact_sheet.jpg",
+    "bytes": 475189,
+    "sha256": "529e6fb38914e78ca784086bfad4e6291b4dba813c73639be0b16440a3c5962e"
+  },
+  {
+    "file": "11-SW-5A_1993-09/map_regions.geojson",
+    "bytes": 5896593,
+    "sha256": "4e1a758399c2c97b39981f1d493bfc1cd08940fd2c879551d7576309d3d4c7ec"
+  },
+  {
+    "file": "11-SW-5A_1993-09/ranked_candidates.csv",
+    "bytes": 162094,
+    "sha256": "1c6c181bae82d260529b519fba4ea612ec8d3714aa4c07d96e4c3656ac3374a2"
+  },
+  {
+    "file": "11-SW-5A_1993-09/ranked_candidates.geojson",
+    "bytes": 643337,
+    "sha256": "e863ade74bf02ad5a9bb45638b1b79993295ee0444b13359ee87ba7eefc140c9"
+  },
+  {
+    "file": "11-SW-5A_1993-09/summary.json",
+    "bytes": 1622,
+    "sha256": "7aa657f41fef9bcec2e74110286e441ed233394631d7f28868bbed7de32b4caa"
+  },
+  {
+    "file": "11-SW-5B_1993-10/audit_contact_sheet.jpg",
+    "bytes": 272887,
+    "sha256": "99f26f32d7e5f0028eec74a10c8458379d4151a1ab47dad1c722c4c56671e67d"
+  },
+  {
+    "file": "11-SW-5B_1993-10/map_regions.geojson",
+    "bytes": 533345,
+    "sha256": "99ccac9a18ed68bc38771c4edabcfd4b10a2fb866d0082fb3a4194846985a1d9"
+  },
+  {
+    "file": "11-SW-5B_1993-10/ranked_candidates.csv",
+    "bytes": 14547,
+    "sha256": "efd62bc65c361d938d124debbc2b0b3e041ddd50f4efff47ee7ef9ec041d4cc5"
+  },
+  {
+    "file": "11-SW-5B_1993-10/ranked_candidates.geojson",
+    "bytes": 154282,
+    "sha256": "ef7b322aed8712148cec388086e737183be292d411f1c65fe3f338dad6785db7"
+  },
+  {
+    "file": "11-SW-5B_1993-10/summary.json",
+    "bytes": 1577,
+    "sha256": "1b8e3ed0952a3b5998a8bf7eeb11f1b48504bbedb2b76aa957072419b40e2164"
+  },
+  {
+    "file": "README.md",
+    "bytes": 8414,
+    "sha256": "20acb09df445ec5e1eeb8a0e2fde59622839ff1b8bf7471431cbb63248b8fbef"
+  },
+  {
+    "file": "REVIEW_REPAIRS.md",
+    "bytes": 4618,
+    "sha256": "3665f0644191d4458f7890cbe5fa12b5a50320e97f743604afb60a3a082dfe6a"
+  },
+  {
+    "file": "VISUAL_AUDIT.md",
+    "bytes": 2298,
+    "sha256": "ba65913c3e860a6f6c932a14e9fb545b7e5aa506e8b94448a219bbd7865a24b8"
+  },
+  {
+    "file": "all_candidates.csv",
+    "bytes": 12671813,
+    "sha256": "03d2ee86a0600de95b17d2ed575a396ba349c0e4a9fb72fc1acbb7ebf1fcf404"
+  },
+  {
+    "file": "changed_classifications.csv",
+    "bytes": 35670,
+    "sha256": "392ecbbc9839af3abdb1aec29821ecee58b29ec6ae44a0c88c158784809accd3"
+  },
+  {
+    "file": "compare_invalidated.py",
+    "bytes": 1953,
+    "sha256": "f58c1c6a6f0e21f1257712b0e9f74957c42d9376fa44b20ba830018a680076d5"
+  },
+  {
+    "file": "extract_candidates.py",
+    "bytes": 13883,
+    "sha256": "bcad1ae409b8fb66fe6ef4bb6266e4a888412050055760fba721be92cd405c22"
+  },
+  {
+    "file": "index.html",
+    "bytes": 17147,
+    "sha256": "974dcb9c91821b92b81fbb954c2ca390c9b774c193774960be1c34b08bfbe53c"
+  },
+  {
+    "file": "invalidated_archive_integrity.json",
+    "bytes": 513,
+    "sha256": "4b89e062a5b00b46a3587d3eaf57935abeba39392883cea6ed5384675fab37cb"
+  },
+  {
+    "file": "invalidated_frozen_archive_manifest.json",
+    "bytes": 84136,
+    "sha256": "e634edc94f934509c4c83a22a57106eafc4f2fe5195f801cb37e1a322d18d0a6"
+  },
+  {
+    "file": "regression_results.json",
+    "bytes": 1897,
+    "sha256": "a0c48d35b21743a332047a7cc80423c6d8bcd1f416f2640d7439fcfb66ca431b"
+  },
+  {
+    "file": "repair_export_topology.py",
+    "bytes": 2275,
+    "sha256": "18aab78c59d96662f99b3bbe890b773f5ba833c845a306c581d7c6d62eba9df2"
+  },
+  {
+    "file": "review_repair_comparison.json",
+    "bytes": 2957,
+    "sha256": "4b740ca7fe470785b72f31fe0c877d799621bc2719c7bb63f38b37fe692f1210"
+  },
+  {
+    "file": "review_work_units.geojson",
+    "bytes": 784320,
+    "sha256": "f82246cbed1bb1b9074e108ba69648114d25b8040b256551e04065a9e58daddf"
+  },
+  {
+    "file": "run_summary.json",
+    "bytes": 166416,
+    "sha256": "dc6376969f8e2cafbee174322484ffaffcbbb1b186458ac33606a978a3d3e207"
+  },
+  {
+    "file": "test_candidate_repairs.py",
+    "bytes": 4587,
+    "sha256": "33f90bf4be354452f069e53a8ea36016d69f47e21789841a358741f4ec003d55"
+  },
+  {
+    "file": "topology_repairs.json",
+    "bytes": 167,
+    "sha256": "d40d0ab8f3c7b3023f91f43d9e54e99d756cbd3b49119c4caf3a8dfdb1f612ab"
+  },
+  {
+    "file": "validate_and_summarize.py",
+    "bytes": 7911,
+    "sha256": "6dd2c1dc908ed8418b992d4afa1d0798814e7a9596991cac8a15d6e55eb08b27"
+  },
+  {
+    "file": "validation.json",
+    "bytes": 79524,
+    "sha256": "579dae016999d004bd02592a4caab271371a01eae66eb30ad76911a708e9768a"
+  }
+]

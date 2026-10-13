@@ -1,0 +1,20 @@
+{
+  "Building_FSDT_v1.1.pdf": {
+    "source_url": "https://static.csdi.gov.hk/csdi-webpage/download/common/b3eead8b2d2f167fcf05009502dfc628a77a3ab76a22a52cfbaa405a65cde6e6",
+    "origin": "../../../../geospatial/metadata/building_supplement1",
+    "edition": "January 2026 v1.1",
+    "defining_pages": [
+      10,
+      11,
+      12,
+      13,
+      20,
+      21
+    ]
+  },
+  "BD_new_building_works.html": {
+    "source_url": "https://www.bd.gov.hk/en/building-works/new-building-works/index.html",
+    "retrieved_utc": "2026-10-13T12:33:46.905121+00:00",
+    "sha256": "7082cf6a45cb550cfe019fb15cffc2510414969ae12d71a2cceb2202c8ad38d1"
+  }
+}

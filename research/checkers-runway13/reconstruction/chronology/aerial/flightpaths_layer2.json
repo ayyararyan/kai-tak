@@ -1,0 +1,272 @@
+{
+ "currentVersion": 10.51,
+ "id": 2,
+ "name": "APIX_POLY",
+ "type": "Feature Layer",
+ "description": "",
+ "geometryType": "esriGeometryPolygon",
+ "sourceSpatialReference": {
+  "wkid": 102140,
+  "latestWkid": 2326
+ },
+ "copyrightText": "",
+ "parentLayer": null,
+ "subLayers": [],
+ "minScale": 0,
+ "maxScale": 0,
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "esriSFS",
+    "style": "esriSFSSolid",
+    "color": [
+     0,
+     0,
+     0,
+     0
+    ],
+    "outline": {
+     "type": "esriSLS",
+     "style": "esriSLSSolid",
+     "color": [
+      110,
+      110,
+      110,
+      255
+     ],
+     "width": 0.4
+    }
+   },
+   "label": "",
+   "description": ""
+  },
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "defaultVisibility": false,
+ "extent": {
+  "xmin": 192980.00050000008,
+  "ymin": 794762.3129999992,
+  "xmax": 873905.375,
+  "ymax": 2476472.8356999997,
+  "spatialReference": {
+   "wkid": 102140,
+   "latestWkid": 2326
+  }
+ },
+ "hasAttachments": false,
+ "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+ "displayField": "PHOTONO",
+ "typeIdField": null,
+ "subtypeFieldName": null,
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "domain": null
+  },
+  {
+   "name": "Shape",
+   "type": "esriFieldTypeGeometry",
+   "alias": "Shape",
+   "domain": null
+  },
+  {
+   "name": "PHOTONO",
+   "type": "esriFieldTypeString",
+   "alias": "PHOTONO",
+   "length": 13,
+   "domain": null
+  },
+  {
+   "name": "FLYING_HT",
+   "type": "esriFieldTypeInteger",
+   "alias": "FLYING_HT",
+   "domain": null
+  },
+  {
+   "name": "DATEFLIGHT",
+   "type": "esriFieldTypeDate",
+   "alias": "DATEFLIGHT",
+   "length": 8,
+   "domain": null
+  },
+  {
+   "name": "FLENGTH",
+   "type": "esriFieldTypeString",
+   "alias": "FLENGTH",
+   "length": 10,
+   "domain": null
+  },
+  {
+   "name": "LOCATION",
+   "type": "esriFieldTypeString",
+   "alias": "LOCATION",
+   "length": 40,
+   "domain": null
+  },
+  {
+   "name": "OBLIQUE",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "OBLIQUE",
+   "domain": null
+  },
+  {
+   "name": "LENS",
+   "type": "esriFieldTypeString",
+   "alias": "LENS",
+   "length": 30,
+   "domain": null
+  },
+  {
+   "name": "ANGLE",
+   "type": "esriFieldTypeDouble",
+   "alias": "ANGLE",
+   "domain": null
+  },
+  {
+   "name": "X",
+   "type": "esriFieldTypeDouble",
+   "alias": "X",
+   "domain": null
+  },
+  {
+   "name": "Y",
+   "type": "esriFieldTypeDouble",
+   "alias": "Y",
+   "domain": null
+  },
+  {
+   "name": "PHOTOSCALE",
+   "type": "esriFieldTypeDouble",
+   "alias": "PHOTOSCALE",
+   "domain": null
+  },
+  {
+   "name": "FILENO",
+   "type": "esriFieldTypeString",
+   "alias": "FILENO",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "YEARFLIGHT",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "YEARFLIGHT",
+   "domain": null
+  },
+  {
+   "name": "TYPE",
+   "type": "esriFieldTypeString",
+   "alias": "TYPE",
+   "length": 2,
+   "domain": null
+  },
+  {
+   "name": "FLID",
+   "type": "esriFieldTypeInteger",
+   "alias": "FLID",
+   "domain": null
+  },
+  {
+   "name": "RESTRICTED",
+   "type": "esriFieldTypeInteger",
+   "alias": "RESTRICTED",
+   "domain": null
+  },
+  {
+   "name": "FILENO_R",
+   "type": "esriFieldTypeString",
+   "alias": "FILENO_R",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "RAF",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "RAF",
+   "domain": null
+  },
+  {
+   "name": "TIF_FILENO",
+   "type": "esriFieldTypeString",
+   "alias": "TIF_FILENO",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "SORTIE",
+   "type": "esriFieldTypeString",
+   "alias": "SORTIE",
+   "length": 40,
+   "domain": null
+  },
+  {
+   "name": "AP_AVAIL",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "AP_AVAIL",
+   "domain": null
+  },
+  {
+   "name": "AP_AVAIL_GIH",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "AP_AVAIL_GIH",
+   "domain": null
+  },
+  {
+   "name": "Shape_Length",
+   "type": "esriFieldTypeDouble",
+   "alias": "SHAPE_Length",
+   "domain": null
+  },
+  {
+   "name": "Shape_Area",
+   "type": "esriFieldTypeDouble",
+   "alias": "SHAPE_Area",
+   "domain": null
+  }
+ ],
+ "indexes": [
+  {
+   "name": "FDO_OBJECTID",
+   "fields": "OBJECTID",
+   "isAscending": true,
+   "isUnique": true,
+   "description": ""
+  },
+  {
+   "name": "FDO_Shape",
+   "fields": "Shape",
+   "isAscending": true,
+   "isUnique": false,
+   "description": ""
+  }
+ ],
+ "subtypes": [],
+ "relationships": [],
+ "canModifyLayer": true,
+ "canScaleSymbols": false,
+ "hasLabels": false,
+ "capabilities": "Map,Query,Data",
+ "maxRecordCount": 1000,
+ "supportsStatistics": true,
+ "supportsAdvancedQueries": true,
+ "supportedQueryFormats": "JSON, AMF, geoJSON",
+ "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+ "useStandardizedQueries": true,
+ "advancedQueryCapabilities": {
+  "useStandardizedQueries": true,
+  "supportsStatistics": true,
+  "supportsOrderBy": true,
+  "supportsDistinct": true,
+  "supportsPagination": true,
+  "supportsTrueCurve": true,
+  "supportsReturningQueryExtent": true,
+  "supportsQueryWithDistance": true,
+  "supportsSqlExpression": false
+ },
+ "supportsDatumTransformation": true,
+ "dateFieldsTimeReference": null
+}

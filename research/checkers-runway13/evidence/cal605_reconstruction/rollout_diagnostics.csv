@@ -1,0 +1,11 @@
+remaining_m,interpolated_speed_kt,elapsed_from_R2300_straight_track_s,required_no_delay_decel_g,note
+2300,160.3059523809524,0.0,0.1507640352986565,linear interpolation of digitized graph; R2300 origin is narrative approximate; not synchronized DFDR time
+1365,137.36716666666666,12.272035448585727,0.1865346521940782,linear interpolation of digitized graph; R2300 origin is narrative approximate; not synchronized DFDR time
+1080,133.13171428571428,16.355546795175925,0.22144485018713647,linear interpolation of digitized graph; R2300 origin is narrative approximate; not synchronized DFDR time
+880,127.8457142857143,19.337798357440494,0.2506201396595797,linear interpolation of digitized graph; R2300 origin is narrative approximate; not synchronized DFDR time
+800,125.71428571428571,20.56442103823462,0.266566499652746,linear interpolation of digitized graph; R2300 origin is narrative approximate; not synchronized DFDR time
+750,123.895,21.34306001423116,0.2761675127401665,linear interpolation of digitized graph; R2300 origin is narrative approximate; not synchronized DFDR time
+350,87.025,28.603231253243102,0.29197543320752706,linear interpolation of digitized graph; R2300 origin is narrative approximate; not synchronized DFDR time
+120,51.708190476190474,35.008798664811806,0.30065174284503005,linear interpolation of digitized graph; R2300 origin is narrative approximate; not synchronized DFDR time
+70,40.11899999999997,37.13855504360164,0.3102619020232461,linear interpolation of digitized graph; R2300 origin is narrative approximate; not synchronized DFDR time
+15,29.127058823529392,40.28592126138001,0.7631823160556513,linear interpolation of digitized graph; R2300 origin is narrative approximate; not synchronized DFDR time

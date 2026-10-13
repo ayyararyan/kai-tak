@@ -1,0 +1,71 @@
+{
+  "utc": "2026-10-13T10:50:59.489637+00:00",
+  "status": "passed",
+  "evidence": "synthetic numerical corroboration, not certified arithmetic",
+  "seed": 20261013,
+  "random_constructed_cases": 80,
+  "deterministic_examples": [
+    {
+      "label": "47_degree_synthetic_gate",
+      "category": "synthetic",
+      "delta_deg": 47,
+      "X_m": 2500,
+      "y0_m": 1000,
+      "H_m": 124.76,
+      "horizontal_speed_m_s": 70,
+      "radius_interval_m": [
+        157.2318935519539,
+        3144.6378710390777
+      ],
+      "minimum_time_radius_m": 3144.6378710390777,
+      "minimum_bank_radius_m": 3144.6378710390777,
+      "minimum_bank_deg": 9.037361998668256,
+      "bank_at_largest_radius_deg": 9.037361998668256,
+      "minimum_bank_descent_deg": 2.569838121025039,
+      "cubic_root_length_m": 328.51438987319347
+    },
+    {
+      "label": "steep_170_degree_counterexample",
+      "category": "synthetic",
+      "delta_deg": 170,
+      "X_m": 173.64817766693028,
+      "y0_m": 1984.8077530122082,
+      "H_m": 2000,
+      "horizontal_speed_m_s": 70,
+      "radius_interval_m": [
+        50.0,
+        1000.0
+      ],
+      "minimum_time_radius_m": 1000.0,
+      "minimum_bank_radius_m": 952.241736228642,
+      "minimum_bank_deg": 30.50485349692888,
+      "bank_at_largest_radius_deg": 31.07219774396119,
+      "minimum_bank_descent_deg": 27.04792893967368,
+      "cubic_root_length_m": 3917.1170128479093
+    }
+  ],
+  "domain_rejections": 4,
+  "checks": [
+    "quadrature endpoint",
+    "length identity",
+    "zero-straight boundaries",
+    "outside-family rejection",
+    "level bank/time monotonicity",
+    "altitude identity",
+    "lift/yaw identity",
+    "cubic identity",
+    "dense family optimum comparison",
+    "fixed-gamma radius uniqueness",
+    "bounded slope radius interval",
+    "zero-altitude branch"
+  ],
+  "worst_residuals": {
+    "endpoint_m": 1.0444066747753026e-10,
+    "length_m": 7.275957614183426e-12,
+    "altitude_m": 1.7053025658242404e-13,
+    "yaw_rad_s": 8.881784197001252e-16,
+    "normalized_cubic": 7.356564021220022e-16
+  },
+  "historical_validation": false,
+  "full_landing_optimality": false
+}

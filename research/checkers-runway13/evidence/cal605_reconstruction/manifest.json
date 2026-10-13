@@ -1,0 +1,12 @@
+{
+  "source_sha256": {
+    "data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+    "data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605.txt": "949a93a8e12f562057c97e31c91c9a464a57a6519bdbca24fffad480a66b98c9",
+    "research/checkers-runway13/model/config.json": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693",
+    "research/checkers-runway13/model/trajectory.py": "9b557ce07c7e8f177b0b3cfac1765c1c9aec4997e28b52d3185ad533f7cf3f6a",
+    "research/checkers-runway13/approximation/reference_outcomes.json": "23a2e3c01c35a95d7d933cf87351a86c6e0eef2d69e821421cb60b60d9242c51",
+    "research/checkers-runway13/evidence/cal605_reconstruction/source_pages/rollout.png": "f3d574195006e65fd26a7568fd401741fa6a57c9987012bf7760f1b62c3c24c5",
+    "research/checkers-runway13/evidence/cal605_reconstruction/trace_anchors.json": "76703aa4a1199f0a9f20f007b979b047bf17ea2888692328684afbe73e9834e4"
+  },
+  "scope": "sources and read-only frozen comparator; hashes not physical validation"
+}

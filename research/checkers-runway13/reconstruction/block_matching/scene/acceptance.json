@@ -1,0 +1,16 @@
+{
+  "verified_utc": "2026-10-13T13:29:52.033146+00:00",
+  "python_semantic_tests_passed": 11,
+  "node_trace_logic_test_passed": true,
+  "node_test_is_browser_verification": false,
+  "static_preview_generated_and_visually_inspected": true,
+  "static_preview_sha256": "0870e9cf95185b3b907880c2fde63842095d052a82412ff198d65ef310cdf553",
+  "scene_sha256": "734ca0e43995571686de9a43cc7b0522a1cf55d1c97d868f66fb2ed7ca1e34e8",
+  "html_sha256": "74089d5c20c3abd7faf8476c0af35e8a84969f956aeaab98ebe521e9cce9bfc5",
+  "browser_interaction_verified": false,
+  "browser_blocker": "Parent attempted file and localhost navigation through OpenClaw; navigation policy blocked both. No bypass attempted.",
+  "corrected_dense_points": 171307,
+  "observed_mesh_faces": 225371,
+  "observed_mesh_vertices": 155891,
+  "full_historical_reconstruction_complete": false
+}

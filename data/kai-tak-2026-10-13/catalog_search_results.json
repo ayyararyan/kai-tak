@@ -1,0 +1,529 @@
+{
+  "generated_at": "2026-10-13T08:30:34+00:00",
+  "query": "Kai Tak flight recorder dataset data open data",
+  "profile": "general",
+  "region": null,
+  "brief": {},
+  "source_count": 3,
+  "statuses": [
+    {
+      "source": "zenodo",
+      "name": "Zenodo",
+      "status": "ok",
+      "adapter": "zenodo"
+    },
+    {
+      "source": "figshare",
+      "name": "Figshare",
+      "status": "fallback",
+      "adapter": "figshare"
+    },
+    {
+      "source": "huggingface",
+      "name": "Hugging Face Datasets",
+      "status": "fallback",
+      "adapter": "huggingface"
+    }
+  ],
+  "results": [
+    {
+      "source": "huggingface",
+      "source_name": "Hugging Face Datasets",
+      "title": "Search Hugging Face Datasets for: Kai Tak flight recorder dataset data open data",
+      "id": null,
+      "url": "https://huggingface.co/datasets?search=Kai+Tak+flight+recorder+dataset+data+open+data",
+      "description": "Best for ML/NLP/multimodal datasets. Some datasets are gated.",
+      "license": null,
+      "formats": [],
+      "tags": [
+        "ml",
+        "nlp",
+        "multimodal",
+        "audio",
+        "vision"
+      ],
+      "access": "api/cli/browser",
+      "size": null,
+      "updated": null,
+      "confirmed": false,
+      "score": 0.71,
+      "reasons": [
+        "matched query terms: flight, kai, recorder, tak",
+        "acquisition path available",
+        "fallback discovery link; verify manually"
+      ],
+      "downloads": {
+        "commands": [
+          "Use huggingface-cli download <repo-id> --repo-type dataset after selecting a repository."
+        ]
+      },
+      "raw": {}
+    },
+    {
+      "source": "figshare",
+      "source_name": "Figshare",
+      "title": "Search Figshare for: Kai Tak flight recorder dataset data open data",
+      "id": null,
+      "url": "https://figshare.com/search?q=Kai+Tak+flight+recorder+dataset+data+open+data",
+      "description": "Scientific datasets, articles, figures, and supplementary files.",
+      "license": null,
+      "formats": [],
+      "tags": [
+        "science",
+        "doi",
+        "research"
+      ],
+      "access": "api/browser/doi",
+      "size": null,
+      "updated": null,
+      "confirmed": false,
+      "score": 0.65,
+      "reasons": [
+        "matched query terms: flight, kai, recorder, tak",
+        "fallback discovery link; verify manually"
+      ],
+      "downloads": {},
+      "raw": {}
+    },
+    {
+      "source": "zenodo",
+      "source_name": "Zenodo",
+      "title": "MoMA Collection - Automatic Update",
+      "id": "16563050",
+      "url": "https://doi.org/10.5281/zenodo.16563050",
+      "description": "Temporary Description",
+      "license": "cc-zero",
+      "formats": [
+        "ZIP"
+      ],
+      "tags": [],
+      "access": "api/browser/doi",
+      "size": null,
+      "updated": "2025-07-29T08:56:33.417132+00:00",
+      "confirmed": true,
+      "score": 0.5,
+      "reasons": [
+        "confirmed through API/CLI",
+        "license metadata present",
+        "format/resource metadata present",
+        "acquisition path available"
+      ],
+      "downloads": {
+        "urls": [
+          "https://zenodo.org/api/records/16563050/files/collection-v2025-07-29.zip/content"
+        ],
+        "doi": "10.5281/zenodo.16563050"
+      },
+      "raw": {
+        "id": 16563050,
+        "metadata": {
+          "title": "MoMA Collection - Automatic Update",
+          "doi": "10.5281/zenodo.16563050",
+          "publication_date": "2025-07-29",
+          "description": "Temporary Description",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Robot, Open Data",
+              "affiliation": "The Museum of Modern Art (MoMA)"
+            }
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "https://github.com/MuseumofModernArt/collection/tree/v2025-07-29",
+              "relation": "isSupplementTo",
+              "scheme": "url"
+            },
+            {
+              "identifier": "10.5281/zenodo.16309758",
+              "relation": "isNewVersionOf",
+              "scheme": "doi"
+            }
+          ],
+          "resource_type": {
+            "title": "Dataset",
+            "type": "dataset"
+          },
+          "license": {
+            "id": "cc-zero"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "16563049"
+                }
+              }
+            ]
+          }
+        },
+        "files": [
+          {
+            "id": "5defbc86-53d7-4cd6-8a21-db79139afcc5",
+            "key": "collection-v2025-07-29.zip",
+            "size": 22823441,
+            "checksum": "md5:565f1d1e1578a89769d2fa5dbaa75e9e",
+            "links": {
+              "self": "https://zenodo.org/api/records/16563050/files/collection-v2025-07-29.zip/content"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "source": "zenodo",
+      "source_name": "Zenodo",
+      "title": "MoMA Collection - Automatic Monthly Update",
+      "id": "3633497",
+      "url": "https://doi.org/10.5281/zenodo.3633497",
+      "description": "Temporary Description",
+      "license": "cc-zero",
+      "formats": [
+        "ZIP"
+      ],
+      "tags": [],
+      "access": "api/browser/doi",
+      "size": null,
+      "updated": "2020-02-01T07:20:46.853624+00:00",
+      "confirmed": true,
+      "score": 0.5,
+      "reasons": [
+        "confirmed through API/CLI",
+        "license metadata present",
+        "format/resource metadata present",
+        "acquisition path available"
+      ],
+      "downloads": {
+        "urls": [
+          "https://zenodo.org/api/records/3633497/files/collection-v1.51.zip/content"
+        ],
+        "doi": "10.5281/zenodo.3633497"
+      },
+      "raw": {
+        "id": 3633497,
+        "metadata": {
+          "title": "MoMA Collection - Automatic Monthly Update",
+          "doi": "10.5281/zenodo.3633497",
+          "publication_date": "2020-02-01",
+          "description": "Temporary Description",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Robot, Open Data",
+              "affiliation": "The Museum of Modern Art (MoMA)"
+            }
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "https://github.com/MuseumofModernArt/collection/tree/v1.51",
+              "relation": "isSupplementTo",
+              "scheme": "url"
+            },
+            {
+              "identifier": "10.5281/zenodo.3596224",
+              "relation": "isNewVersionOf",
+              "scheme": "doi"
+            }
+          ],
+          "resource_type": {
+            "title": "Dataset",
+            "type": "dataset"
+          },
+          "license": {
+            "id": "cc-zero"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "3633496"
+                }
+              }
+            ]
+          }
+        },
+        "files": [
+          {
+            "id": "d8725868-52f3-4fb5-9a7c-efe05dbce999",
+            "key": "collection-v1.51.zip",
+            "size": 20490424,
+            "checksum": "md5:800058a79e966d5ebdfa2738740d2968",
+            "links": {
+              "self": "https://zenodo.org/api/records/3633497/files/collection-v1.51.zip/content"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "source": "zenodo",
+      "source_name": "Zenodo",
+      "title": "MoMA Collection - Automatic Update",
+      "id": "18310106",
+      "url": "https://doi.org/10.5281/zenodo.18310106",
+      "description": "Temporary Description",
+      "license": "cc-zero",
+      "formats": [
+        "ZIP"
+      ],
+      "tags": [],
+      "access": "api/browser/doi",
+      "size": null,
+      "updated": "2026-01-20T08:54:37.250008+00:00",
+      "confirmed": true,
+      "score": 0.5,
+      "reasons": [
+        "confirmed through API/CLI",
+        "license metadata present",
+        "format/resource metadata present",
+        "acquisition path available"
+      ],
+      "downloads": {
+        "urls": [
+          "https://zenodo.org/api/records/18310106/files/collection-v2026-01-20.zip/content"
+        ],
+        "doi": "10.5281/zenodo.18310106"
+      },
+      "raw": {
+        "id": 18310106,
+        "metadata": {
+          "title": "MoMA Collection - Automatic Update",
+          "doi": "10.5281/zenodo.18310106",
+          "publication_date": "2026-01-20",
+          "description": "Temporary Description",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Robot, Open Data",
+              "affiliation": "The Museum of Modern Art (MoMA)"
+            }
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "https://github.com/MuseumofModernArt/collection/tree/v2026-01-20",
+              "relation": "isSupplementTo",
+              "scheme": "url"
+            },
+            {
+              "identifier": "10.5281/zenodo.18229355",
+              "relation": "isNewVersionOf",
+              "scheme": "doi"
+            }
+          ],
+          "resource_type": {
+            "title": "Dataset",
+            "type": "dataset"
+          },
+          "license": {
+            "id": "cc-zero"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "18310105"
+                }
+              }
+            ]
+          }
+        },
+        "files": [
+          {
+            "id": "edeb9f7f-17ea-4f24-9645-7d5dc1f5dc79",
+            "key": "collection-v2026-01-20.zip",
+            "size": 22948897,
+            "checksum": "md5:e738be3236061aa0715557ff82b2ba88",
+            "links": {
+              "self": "https://zenodo.org/api/records/18310106/files/collection-v2026-01-20.zip/content"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "source": "zenodo",
+      "source_name": "Zenodo",
+      "title": "MoMA Collection - Automatic Monthly Update",
+      "id": "3357242",
+      "url": "https://doi.org/10.5281/zenodo.3357242",
+      "description": "Temporary Description",
+      "license": "cc-zero",
+      "formats": [
+        "ZIP"
+      ],
+      "tags": [],
+      "access": "api/browser/doi",
+      "size": null,
+      "updated": "2020-01-24T19:24:30.555084+00:00",
+      "confirmed": true,
+      "score": 0.5,
+      "reasons": [
+        "confirmed through API/CLI",
+        "license metadata present",
+        "format/resource metadata present",
+        "acquisition path available"
+      ],
+      "downloads": {
+        "urls": [
+          "https://zenodo.org/api/records/3357242/files/collection-v1.45.zip/content"
+        ],
+        "doi": "10.5281/zenodo.3357242"
+      },
+      "raw": {
+        "id": 3357242,
+        "metadata": {
+          "title": "MoMA Collection - Automatic Monthly Update",
+          "doi": "10.5281/zenodo.3357242",
+          "publication_date": "2019-08-01",
+          "description": "Temporary Description",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Robot, Open Data",
+              "affiliation": "The Museum of Modern Art (MoMA)"
+            }
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "https://github.com/MuseumofModernArt/collection/tree/v1.45",
+              "relation": "isSupplementTo",
+              "scheme": "url"
+            },
+            {
+              "identifier": "10.5281/zenodo.3264029",
+              "relation": "isNewVersionOf",
+              "scheme": "doi"
+            }
+          ],
+          "resource_type": {
+            "title": "Dataset",
+            "type": "dataset"
+          },
+          "license": {
+            "id": "cc-zero"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "3357241"
+                }
+              }
+            ]
+          }
+        },
+        "files": [
+          {
+            "id": "1063020d-9303-433c-bd9c-da5174c0e696",
+            "key": "collection-v1.45.zip",
+            "size": 20334030,
+            "checksum": "md5:bde4d960945033af0cc4b4815198b21b",
+            "links": {
+              "self": "https://zenodo.org/api/records/3357242/files/collection-v1.45.zip/content"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "source": "zenodo",
+      "source_name": "Zenodo",
+      "title": "MoMA Collection - Automatic Update",
+      "id": "17404420",
+      "url": "https://doi.org/10.5281/zenodo.17404420",
+      "description": "Temporary Description",
+      "license": "cc-zero",
+      "formats": [
+        "ZIP"
+      ],
+      "tags": [],
+      "access": "api/browser/doi",
+      "size": null,
+      "updated": "2025-10-21T09:03:04.736494+00:00",
+      "confirmed": true,
+      "score": 0.5,
+      "reasons": [
+        "confirmed through API/CLI",
+        "license metadata present",
+        "format/resource metadata present",
+        "acquisition path available"
+      ],
+      "downloads": {
+        "urls": [
+          "https://zenodo.org/api/records/17404420/files/collection-v2025-10-21.zip/content"
+        ],
+        "doi": "10.5281/zenodo.17404420"
+      },
+      "raw": {
+        "id": 17404420,
+        "metadata": {
+          "title": "MoMA Collection - Automatic Update",
+          "doi": "10.5281/zenodo.17404420",
+          "publication_date": "2025-10-21",
+          "description": "Temporary Description",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Robot, Open Data",
+              "affiliation": "The Museum of Modern Art (MoMA)"
+            }
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "https://github.com/MuseumofModernArt/collection/tree/v2025-10-21",
+              "relation": "isSupplementTo",
+              "scheme": "url"
+            },
+            {
+              "identifier": "10.5281/zenodo.17349692",
+              "relation": "isNewVersionOf",
+              "scheme": "doi"
+            }
+          ],
+          "resource_type": {
+            "title": "Dataset",
+            "type": "dataset"
+          },
+          "license": {
+            "id": "cc-zero"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 0,
+                "is_last": true,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "17404419"
+                }
+              }
+            ]
+          }
+        },
+        "files": [
+          {
+            "id": "e0217d68-80ac-4ca2-ad79-9565990415a0",
+            "key": "collection-v2025-10-21.zip",
+            "size": 22869965,
+            "checksum": "md5:72b6812c8f2c8236c74a189345216b60",
+            "links": {
+              "self": "https://zenodo.org/api/records/17404420/files/collection-v2025-10-21.zip/content"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

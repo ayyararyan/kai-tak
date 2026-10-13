@@ -1,0 +1,32 @@
+{
+  "comparisons": {
+    "1993-11-04": {
+      "objects_compared": 342195,
+      "changed_existing_field_counts": {},
+      "examples": [],
+      "summary_count_fields_unchanged": true,
+      "summary_count_differences": {}
+    },
+    "1985-01-01": {
+      "objects_compared": 342195,
+      "changed_existing_field_counts": {},
+      "examples": [],
+      "summary_count_fields_unchanged": true,
+      "summary_count_differences": {}
+    }
+  },
+  "retained_feature_count": 342195,
+  "source_date_values_changed": false,
+  "model_meaning_changed": false,
+  "raw_missing_keys": {
+    "1002.BuildingStructureID": 0,
+    "1003.BuildingStructureID": 0,
+    "1003.OPNo": 0,
+    "1004.OPNo": 0
+  },
+  "current_geometry_status_counts": {
+    "invalid": 83,
+    "valid": 342112
+  },
+  "multiple_current_csuid_status_groups": 0
+}

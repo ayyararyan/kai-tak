@@ -1,0 +1,2407 @@
+{
+  "source_pdf": "data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+  "source_pdf_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+  "source_raster": "research/checkers-runway13/evidence/cal605_reconstruction/source_pages/view_dfdr-154.png",
+  "source_raster_sha256": "a6b41ba0f2718e8f8f74741e8e6d034bb35559fbe701497863a32d2fec4a874a",
+  "raster_dimensions": [
+    1800,
+    1228
+  ],
+  "source_figure": "Appendix11 Figure4 printed A11-5 PDFpage154",
+  "time_axis": {
+    "pixel0": 566,
+    "value0": 0,
+    "pixel1": 1573,
+    "value1": 70,
+    "calibration_halfwidth_px": 3,
+    "anchor_halfwidth_px": 3,
+    "unit": "seconds from arbitrary datum B"
+  },
+  "variables": {
+    "groundspeed_kt": {
+      "unit": "kt",
+      "y0": 1156,
+      "v0": 0,
+      "y1": 647,
+      "v1": 250,
+      "dy": 8,
+      "color": "#168c94",
+      "points": [
+        [
+          568,
+          891
+        ],
+        [
+          603,
+          883
+        ],
+        [
+          638,
+          875
+        ],
+        [
+          674,
+          863
+        ],
+        [
+          712,
+          850
+        ],
+        [
+          748,
+          839
+        ],
+        [
+          784,
+          834
+        ],
+        [
+          820,
+          830
+        ],
+        [
+          856,
+          826
+        ],
+        [
+          892,
+          825
+        ],
+        [
+          928,
+          823
+        ],
+        [
+          964,
+          827
+        ],
+        [
+          1000,
+          837
+        ],
+        [
+          1012,
+          841
+        ],
+        [
+          1036,
+          850
+        ],
+        [
+          1072,
+          858
+        ],
+        [
+          1108,
+          865
+        ],
+        [
+          1144,
+          873
+        ],
+        [
+          1180,
+          882
+        ],
+        [
+          1216,
+          889
+        ],
+        [
+          1252,
+          897
+        ],
+        [
+          1288,
+          910
+        ],
+        [
+          1324,
+          933
+        ],
+        [
+          1360,
+          962
+        ],
+        [
+          1396,
+          990
+        ],
+        [
+          1432,
+          1018
+        ],
+        [
+          1468,
+          1044
+        ],
+        [
+          1504,
+          1066
+        ],
+        [
+          1540,
+          1084
+        ],
+        [
+          1572,
+          1099
+        ]
+      ]
+    },
+    "calibrated_airspeed_kt": {
+      "unit": "kt",
+      "y0": 1156,
+      "v0": 0,
+      "y1": 647,
+      "v1": 250,
+      "dy": 8,
+      "color": "#ba852d",
+      "points": [
+        [
+          568,
+          855
+        ],
+        [
+          603,
+          858
+        ],
+        [
+          638,
+          863
+        ],
+        [
+          674,
+          852
+        ],
+        [
+          712,
+          838
+        ],
+        [
+          748,
+          811
+        ],
+        [
+          784,
+          825
+        ],
+        [
+          820,
+          814
+        ],
+        [
+          856,
+          814
+        ],
+        [
+          892,
+          811
+        ],
+        [
+          928,
+          814
+        ],
+        [
+          964,
+          820
+        ],
+        [
+          1000,
+          811
+        ],
+        [
+          1012,
+          827
+        ],
+        [
+          1036,
+          814
+        ],
+        [
+          1072,
+          842
+        ],
+        [
+          1108,
+          852
+        ],
+        [
+          1144,
+          857
+        ],
+        [
+          1180,
+          871
+        ],
+        [
+          1216,
+          843
+        ],
+        [
+          1252,
+          874
+        ],
+        [
+          1288,
+          886
+        ],
+        [
+          1324,
+          889
+        ],
+        [
+          1360,
+          941
+        ],
+        [
+          1396,
+          972
+        ],
+        [
+          1432,
+          1010
+        ],
+        [
+          1468,
+          1036
+        ],
+        [
+          1504,
+          1041
+        ],
+        [
+          1540,
+          1060
+        ],
+        [
+          1572,
+          1053
+        ]
+      ]
+    },
+    "heading_degM": {
+      "unit": "degree magnetic",
+      "y0": 1105,
+      "v0": 50,
+      "y1": 902,
+      "v1": 150,
+      "dy": 4,
+      "color": "#8d5596",
+      "points": [
+        [
+          568,
+          995
+        ],
+        [
+          603,
+          979
+        ],
+        [
+          638,
+          968
+        ],
+        [
+          674,
+          963
+        ],
+        [
+          712,
+          967
+        ],
+        [
+          748,
+          951
+        ],
+        [
+          784,
+          940
+        ],
+        [
+          820,
+          953
+        ],
+        [
+          856,
+          945
+        ],
+        [
+          892,
+          950
+        ],
+        [
+          928,
+          946
+        ],
+        [
+          964,
+          940
+        ],
+        [
+          1000,
+          940
+        ],
+        [
+          1012,
+          942
+        ],
+        [
+          1036,
+          946
+        ],
+        [
+          1072,
+          940
+        ],
+        [
+          1108,
+          939
+        ],
+        [
+          1144,
+          932
+        ],
+        [
+          1180,
+          933
+        ],
+        [
+          1216,
+          935
+        ],
+        [
+          1252,
+          942
+        ],
+        [
+          1288,
+          948
+        ],
+        [
+          1324,
+          947
+        ],
+        [
+          1360,
+          936
+        ],
+        [
+          1396,
+          942
+        ],
+        [
+          1432,
+          934
+        ],
+        [
+          1468,
+          930
+        ],
+        [
+          1504,
+          955
+        ],
+        [
+          1540,
+          985
+        ],
+        [
+          1572,
+          1009
+        ]
+      ]
+    },
+    "radio_altitude_ft": {
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "y0": 1055,
+      "v0": 0,
+      "y1": 136,
+      "v1": 180,
+      "dy": 5,
+      "color": "#3b5d72",
+      "points": [
+        [
+          584,
+          185
+        ],
+        [
+          600,
+          245
+        ],
+        [
+          612,
+          287
+        ],
+        [
+          625,
+          166
+        ],
+        [
+          638,
+          136
+        ],
+        [
+          655,
+          390
+        ],
+        [
+          669,
+          382
+        ],
+        [
+          683,
+          421
+        ],
+        [
+          697,
+          431
+        ],
+        [
+          714,
+          573
+        ],
+        [
+          727,
+          362
+        ],
+        [
+          741,
+          452
+        ],
+        [
+          754,
+          412
+        ],
+        [
+          770,
+          448
+        ],
+        [
+          788,
+          483
+        ],
+        [
+          806,
+          522
+        ],
+        [
+          825,
+          578
+        ],
+        [
+          843,
+          647
+        ],
+        [
+          862,
+          710
+        ],
+        [
+          881,
+          778
+        ],
+        [
+          900,
+          869
+        ],
+        [
+          920,
+          932
+        ],
+        [
+          941,
+          974
+        ],
+        [
+          961,
+          1008
+        ],
+        [
+          982,
+          1057
+        ],
+        [
+          1002,
+          1074
+        ],
+        [
+          1017,
+          1083
+        ],
+        [
+          1031,
+          1084
+        ],
+        [
+          1047,
+          1094
+        ],
+        [
+          1119,
+          1094
+        ],
+        [
+          1250,
+          1094
+        ],
+        [
+          1450,
+          1094
+        ],
+        [
+          1548,
+          1093
+        ]
+      ]
+    }
+  },
+  "vertical_calibration_halfwidth_px": 3,
+  "uncertainty": "Declared pixel sensitivity; no coverage probability, raw DFDR accuracy, source-chart distortion guarantee, or clock synchronization. Linear interpolation is a representation of these coarse anchors, not recovered recorder samples.",
+  "anchors": [
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-00",
+      "x_px": 568,
+      "y_px": 891,
+      "time_datum_B_s": 0.139,
+      "time_lo_s": -0.28,
+      "time_hi_s": 0.556,
+      "value": 130.157,
+      "reading_lo": 124.754,
+      "reading_hi": 135.56,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-01",
+      "x_px": 603,
+      "y_px": 883,
+      "time_datum_B_s": 2.572,
+      "time_lo_s": 2.155,
+      "time_hi_s": 2.989,
+      "value": 134.086,
+      "reading_lo": 128.684,
+      "reading_hi": 139.489,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-02",
+      "x_px": 638,
+      "y_px": 875,
+      "time_datum_B_s": 5.005,
+      "time_lo_s": 4.588,
+      "time_hi_s": 5.422,
+      "value": 138.016,
+      "reading_lo": 132.613,
+      "reading_hi": 143.418,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-03",
+      "x_px": 674,
+      "y_px": 863,
+      "time_datum_B_s": 7.507,
+      "time_lo_s": 7.09,
+      "time_hi_s": 7.925,
+      "value": 143.91,
+      "reading_lo": 138.507,
+      "reading_hi": 149.312,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-04",
+      "x_px": 712,
+      "y_px": 850,
+      "time_datum_B_s": 10.149,
+      "time_lo_s": 9.732,
+      "time_hi_s": 10.566,
+      "value": 150.295,
+      "reading_lo": 144.892,
+      "reading_hi": 155.697,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-05",
+      "x_px": 748,
+      "y_px": 839,
+      "time_datum_B_s": 12.651,
+      "time_lo_s": 12.234,
+      "time_hi_s": 13.069,
+      "value": 155.697,
+      "reading_lo": 150.295,
+      "reading_hi": 161.1,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-06",
+      "x_px": 784,
+      "y_px": 834,
+      "time_datum_B_s": 15.154,
+      "time_lo_s": 14.737,
+      "time_hi_s": 15.571,
+      "value": 158.153,
+      "reading_lo": 152.75,
+      "reading_hi": 163.556,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-07",
+      "x_px": 820,
+      "y_px": 830,
+      "time_datum_B_s": 17.656,
+      "time_lo_s": 17.239,
+      "time_hi_s": 18.073,
+      "value": 160.118,
+      "reading_lo": 154.715,
+      "reading_hi": 165.521,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-08",
+      "x_px": 856,
+      "y_px": 826,
+      "time_datum_B_s": 20.159,
+      "time_lo_s": 19.742,
+      "time_hi_s": 20.576,
+      "value": 162.083,
+      "reading_lo": 156.68,
+      "reading_hi": 167.485,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-09",
+      "x_px": 892,
+      "y_px": 825,
+      "time_datum_B_s": 22.661,
+      "time_lo_s": 22.244,
+      "time_hi_s": 23.078,
+      "value": 162.574,
+      "reading_lo": 157.171,
+      "reading_hi": 167.976,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-10",
+      "x_px": 928,
+      "y_px": 823,
+      "time_datum_B_s": 25.164,
+      "time_lo_s": 24.747,
+      "time_hi_s": 25.581,
+      "value": 163.556,
+      "reading_lo": 158.153,
+      "reading_hi": 168.959,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-11",
+      "x_px": 964,
+      "y_px": 827,
+      "time_datum_B_s": 27.666,
+      "time_lo_s": 27.249,
+      "time_hi_s": 28.083,
+      "value": 161.591,
+      "reading_lo": 156.189,
+      "reading_hi": 166.994,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-12",
+      "x_px": 1000,
+      "y_px": 837,
+      "time_datum_B_s": 30.169,
+      "time_lo_s": 29.752,
+      "time_hi_s": 30.586,
+      "value": 156.68,
+      "reading_lo": 151.277,
+      "reading_hi": 162.083,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-13",
+      "x_px": 1012,
+      "y_px": 841,
+      "time_datum_B_s": 31.003,
+      "time_lo_s": 30.586,
+      "time_hi_s": 31.42,
+      "value": 154.715,
+      "reading_lo": 149.312,
+      "reading_hi": 160.118,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-14",
+      "x_px": 1036,
+      "y_px": 850,
+      "time_datum_B_s": 32.671,
+      "time_lo_s": 32.254,
+      "time_hi_s": 33.088,
+      "value": 150.295,
+      "reading_lo": 144.892,
+      "reading_hi": 155.697,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-15",
+      "x_px": 1072,
+      "y_px": 858,
+      "time_datum_B_s": 35.174,
+      "time_lo_s": 34.757,
+      "time_hi_s": 35.591,
+      "value": 146.365,
+      "reading_lo": 140.963,
+      "reading_hi": 151.768,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-16",
+      "x_px": 1108,
+      "y_px": 865,
+      "time_datum_B_s": 37.676,
+      "time_lo_s": 37.259,
+      "time_hi_s": 38.093,
+      "value": 142.927,
+      "reading_lo": 137.525,
+      "reading_hi": 148.33,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-17",
+      "x_px": 1144,
+      "y_px": 873,
+      "time_datum_B_s": 40.179,
+      "time_lo_s": 39.762,
+      "time_hi_s": 40.596,
+      "value": 138.998,
+      "reading_lo": 133.595,
+      "reading_hi": 144.401,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-18",
+      "x_px": 1180,
+      "y_px": 882,
+      "time_datum_B_s": 42.681,
+      "time_lo_s": 42.264,
+      "time_hi_s": 43.098,
+      "value": 134.578,
+      "reading_lo": 129.175,
+      "reading_hi": 139.98,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-19",
+      "x_px": 1216,
+      "y_px": 889,
+      "time_datum_B_s": 45.184,
+      "time_lo_s": 44.767,
+      "time_hi_s": 45.601,
+      "value": 131.139,
+      "reading_lo": 125.737,
+      "reading_hi": 136.542,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-20",
+      "x_px": 1252,
+      "y_px": 897,
+      "time_datum_B_s": 47.686,
+      "time_lo_s": 47.269,
+      "time_hi_s": 48.103,
+      "value": 127.21,
+      "reading_lo": 121.807,
+      "reading_hi": 132.613,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-21",
+      "x_px": 1288,
+      "y_px": 910,
+      "time_datum_B_s": 50.189,
+      "time_lo_s": 49.772,
+      "time_hi_s": 50.606,
+      "value": 120.825,
+      "reading_lo": 115.422,
+      "reading_hi": 126.228,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-22",
+      "x_px": 1324,
+      "y_px": 933,
+      "time_datum_B_s": 52.691,
+      "time_lo_s": 52.274,
+      "time_hi_s": 53.108,
+      "value": 109.528,
+      "reading_lo": 104.126,
+      "reading_hi": 114.931,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-23",
+      "x_px": 1360,
+      "y_px": 962,
+      "time_datum_B_s": 55.194,
+      "time_lo_s": 54.777,
+      "time_hi_s": 55.611,
+      "value": 95.285,
+      "reading_lo": 89.882,
+      "reading_hi": 100.688,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-24",
+      "x_px": 1396,
+      "y_px": 990,
+      "time_datum_B_s": 57.696,
+      "time_lo_s": 57.279,
+      "time_hi_s": 58.113,
+      "value": 81.532,
+      "reading_lo": 76.13,
+      "reading_hi": 86.935,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-25",
+      "x_px": 1432,
+      "y_px": 1018,
+      "time_datum_B_s": 60.199,
+      "time_lo_s": 59.782,
+      "time_hi_s": 60.616,
+      "value": 67.78,
+      "reading_lo": 62.377,
+      "reading_hi": 73.183,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-26",
+      "x_px": 1468,
+      "y_px": 1044,
+      "time_datum_B_s": 62.701,
+      "time_lo_s": 62.284,
+      "time_hi_s": 63.118,
+      "value": 55.01,
+      "reading_lo": 49.607,
+      "reading_hi": 60.413,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-27",
+      "x_px": 1504,
+      "y_px": 1066,
+      "time_datum_B_s": 65.204,
+      "time_lo_s": 64.786,
+      "time_hi_s": 65.621,
+      "value": 44.204,
+      "reading_lo": 38.802,
+      "reading_hi": 49.607,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-28",
+      "x_px": 1540,
+      "y_px": 1084,
+      "time_datum_B_s": 67.706,
+      "time_lo_s": 67.289,
+      "time_hi_s": 68.123,
+      "value": 35.363,
+      "reading_lo": 29.961,
+      "reading_hi": 40.766,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "groundspeed_kt",
+      "anchor_id": "groundspeed_kt-29",
+      "x_px": 1572,
+      "y_px": 1099,
+      "time_datum_B_s": 69.93,
+      "time_lo_s": 69.513,
+      "time_hi_s": 70.35,
+      "value": 27.996,
+      "reading_lo": 22.593,
+      "reading_hi": 33.399,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-00",
+      "x_px": 568,
+      "y_px": 855,
+      "time_datum_B_s": 0.139,
+      "time_lo_s": -0.28,
+      "time_hi_s": 0.556,
+      "value": 147.839,
+      "reading_lo": 142.436,
+      "reading_hi": 153.242,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-01",
+      "x_px": 603,
+      "y_px": 858,
+      "time_datum_B_s": 2.572,
+      "time_lo_s": 2.155,
+      "time_hi_s": 2.989,
+      "value": 146.365,
+      "reading_lo": 140.963,
+      "reading_hi": 151.768,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-02",
+      "x_px": 638,
+      "y_px": 863,
+      "time_datum_B_s": 5.005,
+      "time_lo_s": 4.588,
+      "time_hi_s": 5.422,
+      "value": 143.91,
+      "reading_lo": 138.507,
+      "reading_hi": 149.312,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-03",
+      "x_px": 674,
+      "y_px": 852,
+      "time_datum_B_s": 7.507,
+      "time_lo_s": 7.09,
+      "time_hi_s": 7.925,
+      "value": 149.312,
+      "reading_lo": 143.91,
+      "reading_hi": 154.715,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-04",
+      "x_px": 712,
+      "y_px": 838,
+      "time_datum_B_s": 10.149,
+      "time_lo_s": 9.732,
+      "time_hi_s": 10.566,
+      "value": 156.189,
+      "reading_lo": 150.786,
+      "reading_hi": 161.591,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-05",
+      "x_px": 748,
+      "y_px": 811,
+      "time_datum_B_s": 12.651,
+      "time_lo_s": 12.234,
+      "time_hi_s": 13.069,
+      "value": 169.45,
+      "reading_lo": 164.047,
+      "reading_hi": 174.853,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-06",
+      "x_px": 784,
+      "y_px": 825,
+      "time_datum_B_s": 15.154,
+      "time_lo_s": 14.737,
+      "time_hi_s": 15.571,
+      "value": 162.574,
+      "reading_lo": 157.171,
+      "reading_hi": 167.976,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-07",
+      "x_px": 820,
+      "y_px": 814,
+      "time_datum_B_s": 17.656,
+      "time_lo_s": 17.239,
+      "time_hi_s": 18.073,
+      "value": 167.976,
+      "reading_lo": 162.574,
+      "reading_hi": 173.379,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-08",
+      "x_px": 856,
+      "y_px": 814,
+      "time_datum_B_s": 20.159,
+      "time_lo_s": 19.742,
+      "time_hi_s": 20.576,
+      "value": 167.976,
+      "reading_lo": 162.574,
+      "reading_hi": 173.379,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-09",
+      "x_px": 892,
+      "y_px": 811,
+      "time_datum_B_s": 22.661,
+      "time_lo_s": 22.244,
+      "time_hi_s": 23.078,
+      "value": 169.45,
+      "reading_lo": 164.047,
+      "reading_hi": 174.853,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-10",
+      "x_px": 928,
+      "y_px": 814,
+      "time_datum_B_s": 25.164,
+      "time_lo_s": 24.747,
+      "time_hi_s": 25.581,
+      "value": 167.976,
+      "reading_lo": 162.574,
+      "reading_hi": 173.379,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-11",
+      "x_px": 964,
+      "y_px": 820,
+      "time_datum_B_s": 27.666,
+      "time_lo_s": 27.249,
+      "time_hi_s": 28.083,
+      "value": 165.029,
+      "reading_lo": 159.627,
+      "reading_hi": 170.432,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-12",
+      "x_px": 1000,
+      "y_px": 811,
+      "time_datum_B_s": 30.169,
+      "time_lo_s": 29.752,
+      "time_hi_s": 30.586,
+      "value": 169.45,
+      "reading_lo": 164.047,
+      "reading_hi": 174.853,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-13",
+      "x_px": 1012,
+      "y_px": 827,
+      "time_datum_B_s": 31.003,
+      "time_lo_s": 30.586,
+      "time_hi_s": 31.42,
+      "value": 161.591,
+      "reading_lo": 156.189,
+      "reading_hi": 166.994,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-14",
+      "x_px": 1036,
+      "y_px": 814,
+      "time_datum_B_s": 32.671,
+      "time_lo_s": 32.254,
+      "time_hi_s": 33.088,
+      "value": 167.976,
+      "reading_lo": 162.574,
+      "reading_hi": 173.379,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-15",
+      "x_px": 1072,
+      "y_px": 842,
+      "time_datum_B_s": 35.174,
+      "time_lo_s": 34.757,
+      "time_hi_s": 35.591,
+      "value": 154.224,
+      "reading_lo": 148.821,
+      "reading_hi": 159.627,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-16",
+      "x_px": 1108,
+      "y_px": 852,
+      "time_datum_B_s": 37.676,
+      "time_lo_s": 37.259,
+      "time_hi_s": 38.093,
+      "value": 149.312,
+      "reading_lo": 143.91,
+      "reading_hi": 154.715,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-17",
+      "x_px": 1144,
+      "y_px": 857,
+      "time_datum_B_s": 40.179,
+      "time_lo_s": 39.762,
+      "time_hi_s": 40.596,
+      "value": 146.857,
+      "reading_lo": 141.454,
+      "reading_hi": 152.259,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-18",
+      "x_px": 1180,
+      "y_px": 871,
+      "time_datum_B_s": 42.681,
+      "time_lo_s": 42.264,
+      "time_hi_s": 43.098,
+      "value": 139.98,
+      "reading_lo": 134.578,
+      "reading_hi": 145.383,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-19",
+      "x_px": 1216,
+      "y_px": 843,
+      "time_datum_B_s": 45.184,
+      "time_lo_s": 44.767,
+      "time_hi_s": 45.601,
+      "value": 153.733,
+      "reading_lo": 148.33,
+      "reading_hi": 159.136,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-20",
+      "x_px": 1252,
+      "y_px": 874,
+      "time_datum_B_s": 47.686,
+      "time_lo_s": 47.269,
+      "time_hi_s": 48.103,
+      "value": 138.507,
+      "reading_lo": 133.104,
+      "reading_hi": 143.91,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-21",
+      "x_px": 1288,
+      "y_px": 886,
+      "time_datum_B_s": 50.189,
+      "time_lo_s": 49.772,
+      "time_hi_s": 50.606,
+      "value": 132.613,
+      "reading_lo": 127.21,
+      "reading_hi": 138.016,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-22",
+      "x_px": 1324,
+      "y_px": 889,
+      "time_datum_B_s": 52.691,
+      "time_lo_s": 52.274,
+      "time_hi_s": 53.108,
+      "value": 131.139,
+      "reading_lo": 125.737,
+      "reading_hi": 136.542,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-23",
+      "x_px": 1360,
+      "y_px": 941,
+      "time_datum_B_s": 55.194,
+      "time_lo_s": 54.777,
+      "time_hi_s": 55.611,
+      "value": 105.599,
+      "reading_lo": 100.196,
+      "reading_hi": 111.002,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-24",
+      "x_px": 1396,
+      "y_px": 972,
+      "time_datum_B_s": 57.696,
+      "time_lo_s": 57.279,
+      "time_hi_s": 58.113,
+      "value": 90.373,
+      "reading_lo": 84.971,
+      "reading_hi": 95.776,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-25",
+      "x_px": 1432,
+      "y_px": 1010,
+      "time_datum_B_s": 60.199,
+      "time_lo_s": 59.782,
+      "time_hi_s": 60.616,
+      "value": 71.709,
+      "reading_lo": 66.306,
+      "reading_hi": 77.112,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-26",
+      "x_px": 1468,
+      "y_px": 1036,
+      "time_datum_B_s": 62.701,
+      "time_lo_s": 62.284,
+      "time_hi_s": 63.118,
+      "value": 58.939,
+      "reading_lo": 53.536,
+      "reading_hi": 64.342,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-27",
+      "x_px": 1504,
+      "y_px": 1041,
+      "time_datum_B_s": 65.204,
+      "time_lo_s": 64.786,
+      "time_hi_s": 65.621,
+      "value": 56.483,
+      "reading_lo": 51.081,
+      "reading_hi": 61.886,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-28",
+      "x_px": 1540,
+      "y_px": 1060,
+      "time_datum_B_s": 67.706,
+      "time_lo_s": 67.289,
+      "time_hi_s": 68.123,
+      "value": 47.151,
+      "reading_lo": 41.749,
+      "reading_hi": 52.554,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "calibrated_airspeed_kt",
+      "anchor_id": "calibrated_airspeed_kt-29",
+      "x_px": 1572,
+      "y_px": 1053,
+      "time_datum_B_s": 69.93,
+      "time_lo_s": 69.513,
+      "time_hi_s": 70.35,
+      "value": 50.589,
+      "reading_lo": 45.187,
+      "reading_hi": 55.992,
+      "unit": "kt",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-00",
+      "x_px": 568,
+      "y_px": 995,
+      "time_datum_B_s": 0.139,
+      "time_lo_s": -0.28,
+      "time_hi_s": 0.556,
+      "value": 104.187,
+      "reading_lo": 100.739,
+      "reading_hi": 107.635,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-01",
+      "x_px": 603,
+      "y_px": 979,
+      "time_datum_B_s": 2.572,
+      "time_lo_s": 2.155,
+      "time_hi_s": 2.989,
+      "value": 112.069,
+      "reading_lo": 108.621,
+      "reading_hi": 115.517,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-02",
+      "x_px": 638,
+      "y_px": 968,
+      "time_datum_B_s": 5.005,
+      "time_lo_s": 4.588,
+      "time_hi_s": 5.422,
+      "value": 117.488,
+      "reading_lo": 114.039,
+      "reading_hi": 120.936,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-03",
+      "x_px": 674,
+      "y_px": 963,
+      "time_datum_B_s": 7.507,
+      "time_lo_s": 7.09,
+      "time_hi_s": 7.925,
+      "value": 119.951,
+      "reading_lo": 116.502,
+      "reading_hi": 123.399,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-04",
+      "x_px": 712,
+      "y_px": 967,
+      "time_datum_B_s": 10.149,
+      "time_lo_s": 9.732,
+      "time_hi_s": 10.566,
+      "value": 117.98,
+      "reading_lo": 114.532,
+      "reading_hi": 121.429,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-05",
+      "x_px": 748,
+      "y_px": 951,
+      "time_datum_B_s": 12.651,
+      "time_lo_s": 12.234,
+      "time_hi_s": 13.069,
+      "value": 125.862,
+      "reading_lo": 122.414,
+      "reading_hi": 129.31,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-06",
+      "x_px": 784,
+      "y_px": 940,
+      "time_datum_B_s": 15.154,
+      "time_lo_s": 14.737,
+      "time_hi_s": 15.571,
+      "value": 131.281,
+      "reading_lo": 127.833,
+      "reading_hi": 134.729,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-07",
+      "x_px": 820,
+      "y_px": 953,
+      "time_datum_B_s": 17.656,
+      "time_lo_s": 17.239,
+      "time_hi_s": 18.073,
+      "value": 124.877,
+      "reading_lo": 121.429,
+      "reading_hi": 128.325,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-08",
+      "x_px": 856,
+      "y_px": 945,
+      "time_datum_B_s": 20.159,
+      "time_lo_s": 19.742,
+      "time_hi_s": 20.576,
+      "value": 128.818,
+      "reading_lo": 125.369,
+      "reading_hi": 132.266,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-09",
+      "x_px": 892,
+      "y_px": 950,
+      "time_datum_B_s": 22.661,
+      "time_lo_s": 22.244,
+      "time_hi_s": 23.078,
+      "value": 126.355,
+      "reading_lo": 122.906,
+      "reading_hi": 129.803,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-10",
+      "x_px": 928,
+      "y_px": 946,
+      "time_datum_B_s": 25.164,
+      "time_lo_s": 24.747,
+      "time_hi_s": 25.581,
+      "value": 128.325,
+      "reading_lo": 124.877,
+      "reading_hi": 131.773,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-11",
+      "x_px": 964,
+      "y_px": 940,
+      "time_datum_B_s": 27.666,
+      "time_lo_s": 27.249,
+      "time_hi_s": 28.083,
+      "value": 131.281,
+      "reading_lo": 127.833,
+      "reading_hi": 134.729,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-12",
+      "x_px": 1000,
+      "y_px": 940,
+      "time_datum_B_s": 30.169,
+      "time_lo_s": 29.752,
+      "time_hi_s": 30.586,
+      "value": 131.281,
+      "reading_lo": 127.833,
+      "reading_hi": 134.729,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-13",
+      "x_px": 1012,
+      "y_px": 942,
+      "time_datum_B_s": 31.003,
+      "time_lo_s": 30.586,
+      "time_hi_s": 31.42,
+      "value": 130.296,
+      "reading_lo": 126.847,
+      "reading_hi": 133.744,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-14",
+      "x_px": 1036,
+      "y_px": 946,
+      "time_datum_B_s": 32.671,
+      "time_lo_s": 32.254,
+      "time_hi_s": 33.088,
+      "value": 128.325,
+      "reading_lo": 124.877,
+      "reading_hi": 131.773,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-15",
+      "x_px": 1072,
+      "y_px": 940,
+      "time_datum_B_s": 35.174,
+      "time_lo_s": 34.757,
+      "time_hi_s": 35.591,
+      "value": 131.281,
+      "reading_lo": 127.833,
+      "reading_hi": 134.729,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-16",
+      "x_px": 1108,
+      "y_px": 939,
+      "time_datum_B_s": 37.676,
+      "time_lo_s": 37.259,
+      "time_hi_s": 38.093,
+      "value": 131.773,
+      "reading_lo": 128.325,
+      "reading_hi": 135.222,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-17",
+      "x_px": 1144,
+      "y_px": 932,
+      "time_datum_B_s": 40.179,
+      "time_lo_s": 39.762,
+      "time_hi_s": 40.596,
+      "value": 135.222,
+      "reading_lo": 131.773,
+      "reading_hi": 138.67,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-18",
+      "x_px": 1180,
+      "y_px": 933,
+      "time_datum_B_s": 42.681,
+      "time_lo_s": 42.264,
+      "time_hi_s": 43.098,
+      "value": 134.729,
+      "reading_lo": 131.281,
+      "reading_hi": 138.177,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-19",
+      "x_px": 1216,
+      "y_px": 935,
+      "time_datum_B_s": 45.184,
+      "time_lo_s": 44.767,
+      "time_hi_s": 45.601,
+      "value": 133.744,
+      "reading_lo": 130.296,
+      "reading_hi": 137.192,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-20",
+      "x_px": 1252,
+      "y_px": 942,
+      "time_datum_B_s": 47.686,
+      "time_lo_s": 47.269,
+      "time_hi_s": 48.103,
+      "value": 130.296,
+      "reading_lo": 126.847,
+      "reading_hi": 133.744,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-21",
+      "x_px": 1288,
+      "y_px": 948,
+      "time_datum_B_s": 50.189,
+      "time_lo_s": 49.772,
+      "time_hi_s": 50.606,
+      "value": 127.34,
+      "reading_lo": 123.892,
+      "reading_hi": 130.788,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-22",
+      "x_px": 1324,
+      "y_px": 947,
+      "time_datum_B_s": 52.691,
+      "time_lo_s": 52.274,
+      "time_hi_s": 53.108,
+      "value": 127.833,
+      "reading_lo": 124.384,
+      "reading_hi": 131.281,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-23",
+      "x_px": 1360,
+      "y_px": 936,
+      "time_datum_B_s": 55.194,
+      "time_lo_s": 54.777,
+      "time_hi_s": 55.611,
+      "value": 133.251,
+      "reading_lo": 129.803,
+      "reading_hi": 136.7,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-24",
+      "x_px": 1396,
+      "y_px": 942,
+      "time_datum_B_s": 57.696,
+      "time_lo_s": 57.279,
+      "time_hi_s": 58.113,
+      "value": 130.296,
+      "reading_lo": 126.847,
+      "reading_hi": 133.744,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-25",
+      "x_px": 1432,
+      "y_px": 934,
+      "time_datum_B_s": 60.199,
+      "time_lo_s": 59.782,
+      "time_hi_s": 60.616,
+      "value": 134.236,
+      "reading_lo": 130.788,
+      "reading_hi": 137.685,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-26",
+      "x_px": 1468,
+      "y_px": 930,
+      "time_datum_B_s": 62.701,
+      "time_lo_s": 62.284,
+      "time_hi_s": 63.118,
+      "value": 136.207,
+      "reading_lo": 132.759,
+      "reading_hi": 139.655,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-27",
+      "x_px": 1504,
+      "y_px": 955,
+      "time_datum_B_s": 65.204,
+      "time_lo_s": 64.786,
+      "time_hi_s": 65.621,
+      "value": 123.892,
+      "reading_lo": 120.443,
+      "reading_hi": 127.34,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-28",
+      "x_px": 1540,
+      "y_px": 985,
+      "time_datum_B_s": 67.706,
+      "time_lo_s": 67.289,
+      "time_hi_s": 68.123,
+      "value": 109.113,
+      "reading_lo": 105.665,
+      "reading_hi": 112.562,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "heading_degM",
+      "anchor_id": "heading_degM-29",
+      "x_px": 1572,
+      "y_px": 1009,
+      "time_datum_B_s": 69.93,
+      "time_lo_s": 69.513,
+      "time_hi_s": 70.35,
+      "value": 97.291,
+      "reading_lo": 93.842,
+      "reading_hi": 100.739,
+      "unit": "degree magnetic",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-00",
+      "x_px": 584,
+      "y_px": 185,
+      "time_datum_B_s": 1.251,
+      "time_lo_s": 0.834,
+      "time_hi_s": 1.668,
+      "value": 170.403,
+      "reading_lo": 168.836,
+      "reading_hi": 171.97,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-01",
+      "x_px": 600,
+      "y_px": 245,
+      "time_datum_B_s": 2.363,
+      "time_lo_s": 1.946,
+      "time_hi_s": 2.781,
+      "value": 158.651,
+      "reading_lo": 157.084,
+      "reading_hi": 160.218,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-02",
+      "x_px": 612,
+      "y_px": 287,
+      "time_datum_B_s": 3.198,
+      "time_lo_s": 2.781,
+      "time_hi_s": 3.615,
+      "value": 150.424,
+      "reading_lo": 148.857,
+      "reading_hi": 151.991,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-03",
+      "x_px": 625,
+      "y_px": 166,
+      "time_datum_B_s": 4.101,
+      "time_lo_s": 3.684,
+      "time_hi_s": 4.518,
+      "value": 174.124,
+      "reading_lo": 172.557,
+      "reading_hi": 175.691,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-04",
+      "x_px": 638,
+      "y_px": 136,
+      "time_datum_B_s": 5.005,
+      "time_lo_s": 4.588,
+      "time_hi_s": 5.422,
+      "value": 180.0,
+      "reading_lo": 178.433,
+      "reading_hi": 181.577,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-05",
+      "x_px": 655,
+      "y_px": 390,
+      "time_datum_B_s": 6.187,
+      "time_lo_s": 5.77,
+      "time_hi_s": 6.604,
+      "value": 130.25,
+      "reading_lo": 128.683,
+      "reading_hi": 131.817,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-06",
+      "x_px": 669,
+      "y_px": 382,
+      "time_datum_B_s": 7.16,
+      "time_lo_s": 6.743,
+      "time_hi_s": 7.577,
+      "value": 131.817,
+      "reading_lo": 130.25,
+      "reading_hi": 133.384,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-07",
+      "x_px": 683,
+      "y_px": 421,
+      "time_datum_B_s": 8.133,
+      "time_lo_s": 7.716,
+      "time_hi_s": 8.55,
+      "value": 124.178,
+      "reading_lo": 122.612,
+      "reading_hi": 125.745,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-08",
+      "x_px": 697,
+      "y_px": 431,
+      "time_datum_B_s": 9.106,
+      "time_lo_s": 8.689,
+      "time_hi_s": 9.523,
+      "value": 122.22,
+      "reading_lo": 120.653,
+      "reading_hi": 123.787,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-09",
+      "x_px": 714,
+      "y_px": 573,
+      "time_datum_B_s": 10.288,
+      "time_lo_s": 9.871,
+      "time_hi_s": 10.705,
+      "value": 94.407,
+      "reading_lo": 92.84,
+      "reading_hi": 95.974,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-10",
+      "x_px": 727,
+      "y_px": 362,
+      "time_datum_B_s": 11.192,
+      "time_lo_s": 10.775,
+      "time_hi_s": 11.609,
+      "value": 135.734,
+      "reading_lo": 134.168,
+      "reading_hi": 137.301,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-11",
+      "x_px": 741,
+      "y_px": 452,
+      "time_datum_B_s": 12.165,
+      "time_lo_s": 11.748,
+      "time_hi_s": 12.582,
+      "value": 118.107,
+      "reading_lo": 116.54,
+      "reading_hi": 119.674,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-12",
+      "x_px": 754,
+      "y_px": 412,
+      "time_datum_B_s": 13.069,
+      "time_lo_s": 12.651,
+      "time_hi_s": 13.486,
+      "value": 125.941,
+      "reading_lo": 124.374,
+      "reading_hi": 127.508,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-13",
+      "x_px": 770,
+      "y_px": 448,
+      "time_datum_B_s": 14.181,
+      "time_lo_s": 13.764,
+      "time_hi_s": 14.598,
+      "value": 118.89,
+      "reading_lo": 117.323,
+      "reading_hi": 120.457,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-14",
+      "x_px": 788,
+      "y_px": 483,
+      "time_datum_B_s": 15.432,
+      "time_lo_s": 15.015,
+      "time_hi_s": 15.849,
+      "value": 112.035,
+      "reading_lo": 110.468,
+      "reading_hi": 113.602,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-15",
+      "x_px": 806,
+      "y_px": 522,
+      "time_datum_B_s": 16.683,
+      "time_lo_s": 16.266,
+      "time_hi_s": 17.1,
+      "value": 104.396,
+      "reading_lo": 102.829,
+      "reading_hi": 105.963,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-16",
+      "x_px": 825,
+      "y_px": 578,
+      "time_datum_B_s": 18.004,
+      "time_lo_s": 17.587,
+      "time_hi_s": 18.421,
+      "value": 93.428,
+      "reading_lo": 91.861,
+      "reading_hi": 94.995,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-17",
+      "x_px": 843,
+      "y_px": 647,
+      "time_datum_B_s": 19.255,
+      "time_lo_s": 18.838,
+      "time_hi_s": 19.672,
+      "value": 79.913,
+      "reading_lo": 78.346,
+      "reading_hi": 81.48,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-18",
+      "x_px": 862,
+      "y_px": 710,
+      "time_datum_B_s": 20.576,
+      "time_lo_s": 20.159,
+      "time_hi_s": 20.993,
+      "value": 67.573,
+      "reading_lo": 66.007,
+      "reading_hi": 69.14,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-19",
+      "x_px": 881,
+      "y_px": 778,
+      "time_datum_B_s": 21.897,
+      "time_lo_s": 21.48,
+      "time_hi_s": 22.314,
+      "value": 54.255,
+      "reading_lo": 52.688,
+      "reading_hi": 55.822,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-20",
+      "x_px": 900,
+      "y_px": 869,
+      "time_datum_B_s": 23.217,
+      "time_lo_s": 22.8,
+      "time_hi_s": 23.635,
+      "value": 36.431,
+      "reading_lo": 34.864,
+      "reading_hi": 37.998,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-21",
+      "x_px": 920,
+      "y_px": 932,
+      "time_datum_B_s": 24.608,
+      "time_lo_s": 24.191,
+      "time_hi_s": 25.025,
+      "value": 24.091,
+      "reading_lo": 22.524,
+      "reading_hi": 25.658,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-22",
+      "x_px": 941,
+      "y_px": 974,
+      "time_datum_B_s": 26.068,
+      "time_lo_s": 25.65,
+      "time_hi_s": 26.485,
+      "value": 15.865,
+      "reading_lo": 14.298,
+      "reading_hi": 17.432,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-23",
+      "x_px": 961,
+      "y_px": 1008,
+      "time_datum_B_s": 27.458,
+      "time_lo_s": 27.041,
+      "time_hi_s": 27.875,
+      "value": 9.206,
+      "reading_lo": 7.639,
+      "reading_hi": 10.773,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-24",
+      "x_px": 982,
+      "y_px": 1057,
+      "time_datum_B_s": 28.918,
+      "time_lo_s": 28.5,
+      "time_hi_s": 29.335,
+      "value": -0.392,
+      "reading_lo": -1.972,
+      "reading_hi": 1.175,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-25",
+      "x_px": 1002,
+      "y_px": 1074,
+      "time_datum_B_s": 30.308,
+      "time_lo_s": 29.891,
+      "time_hi_s": 30.725,
+      "value": -3.721,
+      "reading_lo": -5.323,
+      "reading_hi": -2.141,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-26",
+      "x_px": 1017,
+      "y_px": 1083,
+      "time_datum_B_s": 31.351,
+      "time_lo_s": 30.933,
+      "time_hi_s": 31.768,
+      "value": -5.484,
+      "reading_lo": -7.097,
+      "reading_hi": -3.892,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-27",
+      "x_px": 1031,
+      "y_px": 1084,
+      "time_datum_B_s": 32.324,
+      "time_lo_s": 31.907,
+      "time_hi_s": 32.741,
+      "value": -5.68,
+      "reading_lo": -7.295,
+      "reading_hi": -4.086,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-28",
+      "x_px": 1047,
+      "y_px": 1094,
+      "time_datum_B_s": 33.436,
+      "time_lo_s": 33.019,
+      "time_hi_s": 33.853,
+      "value": -7.639,
+      "reading_lo": -9.266,
+      "reading_hi": -6.032,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-29",
+      "x_px": 1119,
+      "y_px": 1094,
+      "time_datum_B_s": 38.441,
+      "time_lo_s": 38.024,
+      "time_hi_s": 38.858,
+      "value": -7.639,
+      "reading_lo": -9.266,
+      "reading_hi": -6.032,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-30",
+      "x_px": 1250,
+      "y_px": 1094,
+      "time_datum_B_s": 47.547,
+      "time_lo_s": 47.13,
+      "time_hi_s": 47.964,
+      "value": -7.639,
+      "reading_lo": -9.266,
+      "reading_hi": -6.032,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-31",
+      "x_px": 1450,
+      "y_px": 1094,
+      "time_datum_B_s": 61.45,
+      "time_lo_s": 61.033,
+      "time_hi_s": 61.867,
+      "value": -7.639,
+      "reading_lo": -9.266,
+      "reading_hi": -6.032,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    },
+    {
+      "variable": "radio_altitude_ft",
+      "anchor_id": "radio_altitude_ft-32",
+      "x_px": 1548,
+      "y_px": 1093,
+      "time_datum_B_s": 68.262,
+      "time_lo_s": 67.845,
+      "time_hi_s": 68.679,
+      "value": -7.443,
+      "reading_lo": -9.069,
+      "reading_hi": -5.838,
+      "unit": "ft radio height; not AMSL or geometric clearance",
+      "construction": "manual pixel anchor; bounded raster reading sensitivity only",
+      "source": "CAD Report1/95 PDF page154 Appendix11 Fig4"
+    }
+  ]
+}

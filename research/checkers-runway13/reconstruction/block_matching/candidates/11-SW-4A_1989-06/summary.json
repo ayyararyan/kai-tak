@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "coverage_method": "actual_source_index_polygon_projected_not_geographic_bbox",
+  "coverage_bounds_epsg2326": [
+    834500.0002859827,
+    817399.999693497,
+    835250.00028533,
+    817999.9996939388
+  ],
+  "key": "11-SW-4A_1989-06",
+  "source": "reconstruction/chronology/sheets/maps/1980_1990_2473_11-SW-4A_1989-06-01.zip",
+  "source_sha256": "9db4756e6e943c2c94e6f90525e9e756e594a47c434390f74a04f59fdd4c0069",
+  "tfw_member": "HP1C-11SW04A-198906B.tfw",
+  "affine": [
+    0.2499696057347218,
+    0.0,
+    834454.9858397812,
+    0.0,
+    -0.2499416970735755,
+    818054.0586602901
+  ],
+  "crs": "EPSG:2326 assigned from official survey grid; independent checks in parent registration report",
+  "sampling_resolution_m": [
+    0.2499696057347218,
+    0.2499416970735755
+  ],
+  "candidates": 11,
+  "counts": {
+    "strong_content_candidate_unverified": 5,
+    "edge_clipped_review": 3,
+    "low_support_rejected_by_screen": 3
+  },
+  "map_regions": 10,
+  "map_regions_without_candidate": 4,
+  "verified_historical_buildings": 0,
+  "limitations": [
+    "No visual identity acceptance performed by this extractor",
+    "Ink includes text, road and grid lines",
+    "Candidate rank is heuristic, not calibrated probability",
+    "Current feature universe misses vanished structures; closed map regions remain unclassified",
+    "No height transfer and no historical volume produced",
+    "Date is edition month, not object survey date",
+    "No registration adjustment estimated; world file used verbatim"
+  ]
+}

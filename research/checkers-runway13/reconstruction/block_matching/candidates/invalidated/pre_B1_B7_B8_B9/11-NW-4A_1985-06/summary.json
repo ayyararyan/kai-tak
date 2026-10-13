@@ -1,0 +1,33 @@
+{
+  "key": "11-NW-4A_1985-06",
+  "source": "reconstruction/chronology/sheets/maps/1980_1990_1666_11-NW-4A_1985-06-01.zip",
+  "source_sha256": "37f0232e3421f7f385d43e17649598f539d1645808d9d8faf3ccdced27f18ee1",
+  "tfw_member": "HP1C-11NW04A-198506.tfw",
+  "affine": [
+    0.24996326498261903,
+    0.0,
+    834456.5791294714,
+    0.0,
+    -0.2499223539536821,
+    824046.5988031152
+  ],
+  "crs": "EPSG:2326 assigned from official survey grid; independent checks in parent registration report",
+  "sampling_resolution_m": [
+    0.24996326498261903,
+    0.2499223539536821
+  ],
+  "candidates": 0,
+  "counts": {},
+  "map_regions": 28,
+  "map_regions_without_candidate": 28,
+  "verified_historical_buildings": 0,
+  "limitations": [
+    "No visual identity acceptance performed by this extractor",
+    "Ink includes text, road and grid lines",
+    "Candidate rank is heuristic, not calibrated probability",
+    "Current feature universe misses vanished structures; closed map regions remain unclassified",
+    "No height transfer and no historical volume produced",
+    "Date is edition month, not object survey date",
+    "No registration adjustment estimated; world file used verbatim"
+  ]
+}

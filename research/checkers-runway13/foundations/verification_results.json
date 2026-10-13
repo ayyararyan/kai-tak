@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "heading_change_deg": 47,
+      "speed_m_s": 70,
+      "bank_cap_deg": 25,
+      "roll_rate_deg_s": 5,
+      "peak_bank_deg": 25.0,
+      "hold_s": 7.721784866307404,
+      "minimum_heading_time_s": 17.721784866307402,
+      "instantaneous_bank_time_s": 12.556830793038419,
+      "quadrature_error_rad": 1.1102230246251565e-16
+    },
+    {
+      "heading_change_deg": 5,
+      "speed_m_s": 70,
+      "bank_cap_deg": 25,
+      "roll_rate_deg_s": 5,
+      "peak_bank_deg": 13.298100418102981,
+      "hold_s": 0.0,
+      "minimum_heading_time_s": 5.319240167241193,
+      "instantaneous_bank_time_s": 1.3358330630891935,
+      "quadrature_error_rad": 1.3877787807814457e-17
+    },
+    {
+      "heading_change_deg": 47,
+      "speed_m_s": 70,
+      "bank_cap_deg": 25,
+      "roll_rate_deg_s": 2,
+      "peak_bank_deg": 25.0,
+      "hold_s": 0.469215976210882,
+      "minimum_heading_time_s": 25.469215976210883,
+      "instantaneous_bank_time_s": 12.556830793038419,
+      "quadrature_error_rad": 2.220446049250313e-16
+    },
+    {
+      "heading_change_deg": 47,
+      "speed_m_s": 70,
+      "bank_cap_deg": 25,
+      "roll_rate_deg_s": 1000,
+      "peak_bank_deg": 25.0,
+      "hold_s": 12.532655563404765,
+      "minimum_heading_time_s": 12.582655563404765,
+      "instantaneous_bank_time_s": 12.556830793038419,
+      "quadrature_error_rad": 1.1102230246251565e-16
+    },
+    {
+      "heading_change_deg": 0,
+      "speed_m_s": 70,
+      "bank_cap_deg": 25,
+      "roll_rate_deg_s": 5,
+      "peak_bank_deg": 0.0,
+      "hold_s": 0.0,
+      "minimum_heading_time_s": 0.0,
+      "instantaneous_bank_time_s": 0.0,
+      "quadrature_error_rad": 0.0
+    },
+    {
+      "heading_change_deg": 90,
+      "speed_m_s": 90,
+      "bank_cap_deg": 30,
+      "roll_rate_deg_s": 3,
+      "peak_bank_deg": 29.999999999999996,
+      "hold_s": 15.452621999532791,
+      "minimum_heading_time_s": 35.45262199953279,
+      "instantaneous_bank_time_s": 24.96906835378233,
+      "quadrature_error_rad": 0.0
+    }
+  ],
+  "checks": [
+    "heading quadrature",
+    "shorter-time exclusion",
+    "instantaneous-bank lower bound",
+    "branch continuity",
+    "steady-descent yaw identity"
+  ],
+  "scope": "Synthetic mathematical checks only; no empirical/aircraft safety validation"
+}

@@ -1,0 +1,332 @@
+{
+  "checks_passed": [
+    "BuildingWorksHistory: source counts, IDs, DB rows, original response hashes match",
+    "BuildingRelateOPStructure: source counts, IDs, DB rows, original response hashes match",
+    "OPStructure: source counts, IDs, DB rows, original response hashes match",
+    "OP: source counts, IDs, DB rows, original response hashes match",
+    "Every works row and every resolvable permit relationship preserved; all current polygons unique by CSUID",
+    "Both dated feature exports reconcile exactly; zero fabricated image checks or exact-target presence labels"
+  ],
+  "source_files_hashed": 119,
+  "works_duplicate_natural_key_groups_preserved": 2204,
+  "works_duplicate_extra_rows_preserved": 2204,
+  "csuid_with_both_works_and_relational_OP_dates": 52552,
+  "csuid_with_disagreeing_OP_source_dates": 52202,
+  "csuid_with_completion_date_corroborated_by_relational_OP_date": 52492,
+  "works_OP_year_counts": {
+    "2020": 12258,
+    "2019": 40294
+  },
+  "op_date_timezone_from_source": "China Standard Time (UTC+08:00); epoch timestamp normalized to Hong Kong calendar date",
+  "non_day_events": [
+    {
+      "event_id": "works:59549",
+      "building_csuid": "4177520393T20050430",
+      "kind": "completion",
+      "provider": "HD",
+      "date_raw": "\"00/01/2001\"",
+      "date_min": null,
+      "date_max": null,
+      "date_precision": "invalid_zero_day",
+      "source_table": 1000,
+      "source_objectid": 59549,
+      "relation_objectid": null,
+      "opstructure_objectid": null,
+      "building_structure_id": null,
+      "op_no": null,
+      "source_url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?objectIds=59549&outFields=*&f=pjson",
+      "works_type": "Completion Date"
+    },
+    {
+      "event_id": "works:61528",
+      "building_csuid": "4177520393T20050430",
+      "kind": "completion",
+      "provider": "HD",
+      "date_raw": "\"00/01/2001\"",
+      "date_min": null,
+      "date_max": null,
+      "date_precision": "invalid_zero_day",
+      "source_table": 1000,
+      "source_objectid": 61528,
+      "relation_objectid": null,
+      "opstructure_objectid": null,
+      "building_structure_id": null,
+      "op_no": null,
+      "source_url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?objectIds=61528&outFields=*&f=pjson",
+      "works_type": "Completion Date"
+    },
+    {
+      "event_id": "works:167975",
+      "building_csuid": "3340721270T20180123",
+      "kind": "completion",
+      "provider": "ArchSD",
+      "date_raw": "\"2021\"",
+      "date_min": "2021-01-01",
+      "date_max": "2021-12-31",
+      "date_precision": "year",
+      "source_table": 1000,
+      "source_objectid": 167975,
+      "relation_objectid": null,
+      "opstructure_objectid": null,
+      "building_structure_id": null,
+      "op_no": null,
+      "source_url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?objectIds=167975&outFields=*&f=pjson",
+      "works_type": "Completion Date"
+    },
+    {
+      "event_id": "works:168031",
+      "building_csuid": "3872221650P20180716",
+      "kind": "completion",
+      "provider": "ArchSD",
+      "date_raw": "\"2021\"",
+      "date_min": "2021-01-01",
+      "date_max": "2021-12-31",
+      "date_precision": "year",
+      "source_table": 1000,
+      "source_objectid": 168031,
+      "relation_objectid": null,
+      "opstructure_objectid": null,
+      "building_structure_id": null,
+      "op_no": null,
+      "source_url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?objectIds=168031&outFields=*&f=pjson",
+      "works_type": "Completion Date"
+    },
+    {
+      "event_id": "op:9743:36209:5620",
+      "building_csuid": "3285916081T20050430",
+      "kind": "occupation_permit",
+      "provider": "BD",
+      "date_raw": "null",
+      "date_min": null,
+      "date_max": null,
+      "date_precision": "missing",
+      "source_table": 1004,
+      "source_objectid": 5620,
+      "relation_objectid": 9743,
+      "opstructure_objectid": 36209,
+      "building_structure_id": "983592",
+      "op_no": "PWPARK35",
+      "source_url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004/query?objectIds=5620&outFields=*&f=pjson",
+      "works_type": null
+    },
+    {
+      "event_id": "op:17137:23401:18007",
+      "building_csuid": "3562213763T20050430",
+      "kind": "occupation_permit",
+      "provider": "BD",
+      "date_raw": "null",
+      "date_min": null,
+      "date_max": null,
+      "date_precision": "missing",
+      "source_table": 1004,
+      "source_objectid": 18007,
+      "relation_objectid": 17137,
+      "opstructure_objectid": 23401,
+      "building_structure_id": "1326433",
+      "op_no": "PWMOUN24",
+      "source_url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004/query?objectIds=18007&outFields=*&f=pjson",
+      "works_type": null
+    },
+    {
+      "event_id": "op:19696:50491:2992",
+      "building_csuid": "3649721182T20050430",
+      "kind": "occupation_permit",
+      "provider": "BD",
+      "date_raw": "null",
+      "date_min": null,
+      "date_max": null,
+      "date_precision": "missing",
+      "source_table": 1004,
+      "source_objectid": 2992,
+      "relation_objectid": 19696,
+      "opstructure_objectid": 50491,
+      "building_structure_id": "1186494",
+      "op_no": "PWDERB2",
+      "source_url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004/query?objectIds=2992&outFields=*&f=pjson",
+      "works_type": null
+    },
+    {
+      "event_id": "op:21225:46685:8629",
+      "building_csuid": "3708415315T20050430",
+      "kind": "occupation_permit",
+      "provider": "BD",
+      "date_raw": "null",
+      "date_min": null,
+      "date_max": null,
+      "date_precision": "missing",
+      "source_table": 1004,
+      "source_objectid": 8629,
+      "relation_objectid": 21225,
+      "opstructure_objectid": 46685,
+      "building_structure_id": "5319006",
+      "op_no": "PWLEIG66",
+      "source_url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004/query?objectIds=8629&outFields=*&f=pjson",
+      "works_type": null
+    },
+    {
+      "event_id": "op:52934:39541:6006",
+      "building_csuid": "3096514764T20050430",
+      "kind": "occupation_permit",
+      "provider": "BD",
+      "date_raw": "null",
+      "date_min": null,
+      "date_max": null,
+      "date_precision": "missing",
+      "source_table": 1004,
+      "source_objectid": 6006,
+      "relation_objectid": 52934,
+      "opstructure_objectid": 39541,
+      "building_structure_id": "5293863",
+      "op_no": "PWSAND9",
+      "source_url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004/query?objectIds=6006&outFields=*&f=pjson",
+      "works_type": null
+    }
+  ],
+  "anomaly_examples": [
+    {
+      "building_csuid": "0293512749T20050430",
+      "works_OP_dates": [
+        "2020-02-23"
+      ],
+      "linked_OP_dates": [
+        "2012-02-23"
+      ],
+      "completion_dates": [
+        "2012-02-23"
+      ]
+    },
+    {
+      "building_csuid": "0295112758T20050430",
+      "works_OP_dates": [
+        "2020-02-23"
+      ],
+      "linked_OP_dates": [
+        "2012-02-23"
+      ],
+      "completion_dates": [
+        "2012-02-23"
+      ]
+    },
+    {
+      "building_csuid": "0296312752T20050430",
+      "works_OP_dates": [
+        "2020-02-23"
+      ],
+      "linked_OP_dates": [
+        "2012-02-23"
+      ],
+      "completion_dates": [
+        "2012-02-23"
+      ]
+    },
+    {
+      "building_csuid": "0377812876T20050430",
+      "works_OP_dates": [
+        "2019-09-11"
+      ],
+      "linked_OP_dates": [
+        "1963-09-11"
+      ],
+      "completion_dates": [
+        "1963-09-11"
+      ]
+    },
+    {
+      "building_csuid": "0473610757T20050430",
+      "works_OP_dates": [
+        "2019-07-19"
+      ],
+      "linked_OP_dates": [
+        "1965-07-19"
+      ],
+      "completion_dates": [
+        "1965-07-19"
+      ]
+    },
+    {
+      "building_csuid": "0533412135T20050430",
+      "works_OP_dates": [
+        "2019-01-06"
+      ],
+      "linked_OP_dates": [
+        "1987-01-06"
+      ],
+      "completion_dates": [
+        "1987-01-06"
+      ]
+    },
+    {
+      "building_csuid": "0536512118T20050430",
+      "works_OP_dates": [
+        "2019-02-08"
+      ],
+      "linked_OP_dates": [
+        "1967-02-08"
+      ],
+      "completion_dates": [
+        "1967-02-08"
+      ]
+    },
+    {
+      "building_csuid": "0603411362T20050430",
+      "works_OP_dates": [
+        "2019-11-17"
+      ],
+      "linked_OP_dates": [
+        "1992-11-17"
+      ],
+      "completion_dates": [
+        "1992-11-17"
+      ]
+    },
+    {
+      "building_csuid": "0605111401T20050430",
+      "works_OP_dates": [
+        "2019-11-17"
+      ],
+      "linked_OP_dates": [
+        "1992-11-17"
+      ],
+      "completion_dates": [
+        "1992-11-17"
+      ]
+    },
+    {
+      "building_csuid": "0605711379T20050430",
+      "works_OP_dates": [
+        "2019-11-17"
+      ],
+      "linked_OP_dates": [
+        "1992-11-17"
+      ],
+      "completion_dates": [
+        "1992-11-17"
+      ]
+    },
+    {
+      "building_csuid": "0606411392T20050430",
+      "works_OP_dates": [
+        "2019-11-17"
+      ],
+      "linked_OP_dates": [
+        "1992-11-17"
+      ],
+      "completion_dates": [
+        "1992-11-17"
+      ]
+    },
+    {
+      "building_csuid": "0607711441T20050430",
+      "works_OP_dates": [
+        "2019-11-17"
+      ],
+      "linked_OP_dates": [
+        "1992-11-17"
+      ],
+      "completion_dates": [
+        "1992-11-17"
+      ]
+    }
+  ],
+  "database_integrity": "ok"
+}

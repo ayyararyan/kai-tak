@@ -1,0 +1,15 @@
+{
+  "trial_eta": "[0.0399999999999999999999999999999999999999999713, 0.0400000000000000000000000000000000000000006888]",
+  "processed_boxes": 4831,
+  "excluded_boxes": 2416,
+  "unexcluded_frontier_boxes": 0,
+  "complete_exclusion": false,
+  "result": "invalidated_do_not_use",
+  "scope": "necessary flare constraints over full parameter box; no assumption of a local optimum",
+  "seconds": 35.76360845891759,
+  "frontier": [],
+  "invalidated": true,
+  "complete_exclusion_usable": false,
+  "invalidation_reason": "mpmath iv.atan2 at y=0 and x straddling zero returned pi only, falsely excluding a box containing the certified feasible witness. Global bounds withdrawn; rerun with safe branch hull and ancestor negative control.",
+  "invalidated_complete_exclusion": true
+}

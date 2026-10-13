@@ -1,0 +1,29 @@
+{
+  "verified_utc": "2026-10-13T13:29:02.990192+00:00",
+  "tests_passed": 6,
+  "tests_run": 6,
+  "overlay_visual_review": [
+    "Figure4 completed",
+    "Figure1 completed",
+    "Figure2 completed; final direction anchor corrected before regeneration"
+  ],
+  "source_coverage": "Selected final-turn Figure1/2 and final72-second Figure4; not full three-minute raw DFDR",
+  "artifacts_sha256": {
+    "trace_anchors.json": "bee1d8a2ab1cda570b86e13753c9e70373c112041e51fee2acaa136a3fcd19b1",
+    "flight_anchor_readings.csv": "227a93849e990a1983d285547528c3e8e9400b8ed64ff203085526fc6be20232",
+    "flight_traces.csv": "8add07847483687bd04d7450d0eed7c78f6db66dd0476c48eda531c31282d34d",
+    "flight_events.csv": "7559ae43fd5f271697190e4b498e7a71456fd1035d6e1955529d818bb3860c91",
+    "flight_summary.json": "9d98e8ad5144ae367903c1c59c7e436cc602d1b7894049d11c47bf19244b4135",
+    "approach_anchors.json": "9ab418b1d80ef72a89061c474faa9e69803554e40138859e17a2a7e994aa5779",
+    "approach_anchor_readings.csv": "09318fd9a5da4a263afa016aeec4ba1e3be6d4c8a232d4376bb329355685c85f",
+    "source_anchor_overlay.png": "79fecdc03ccf201244bf81e106c42516a62b3bdb7165c214243eee328bdbe986",
+    "figure1_anchor_overlay.png": "08178377a2ab0ffcf5d404851af3e675de9b54dfa24ad7979bfefbff37ec837d",
+    "figure2_anchor_overlay.png": "a7079d3800247b38d913170c6d5902ee2315e4d80ca34a8a360e4ebd19ffe6eb",
+    "final_approach_rollout.png": "667d997e0d1ec3b1ab957484f4f4971ba2015b6ad71b08e2a1d09a6dc437ff68",
+    "approach_wind_samples.png": "c44f54c24e734f6167b31b48637c343bb9ef78be221decd75300308d877e60f2",
+    "README.md": "33342a2c0103aba4578639314e72d5f0a3bd406c43af080acca8359c9aed7178",
+    "build_flight.py": "1ab14a4e9e57dc3ecbfd271f8410a9560aaeed94088f690f420e64c42e77686e",
+    "build_approach.py": "a145cd5f1d8a8d0c20160157835fd3fe9138e689e487239961faf095d2df6b4d",
+    "test_flight.py": "1195d43badb39f9a97bc98997daa45c4c64efd9f9c082bb11a15fa971cedebb4"
+  }
+}

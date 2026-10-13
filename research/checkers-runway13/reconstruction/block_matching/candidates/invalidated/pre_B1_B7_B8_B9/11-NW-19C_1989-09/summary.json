@@ -1,0 +1,38 @@
+{
+  "key": "11-NW-19C_1989-09",
+  "source": "reconstruction/chronology/sheets/maps/1980_1990_1468_11-NW-19C_1989-09-01.zip",
+  "source_sha256": "059df12495aff415cf85902909852c97bfdb307a5debb97b3cbe6b932f827d38",
+  "tfw_member": "HP1C-11NW19C-198909.tfw",
+  "affine": [
+    0.2499665527863136,
+    0.0,
+    834454.9644692758,
+    0.0,
+    -0.24998234688469997,
+    819854.0042155917
+  ],
+  "crs": "EPSG:2326 assigned from official survey grid; independent checks in parent registration report",
+  "sampling_resolution_m": [
+    0.2499665527863136,
+    0.24998234688469997
+  ],
+  "candidates": 150,
+  "counts": {
+    "strong_content_candidate_unverified": 4,
+    "edge_clipped_review": 30,
+    "ambiguous_content_candidate": 5,
+    "low_support_rejected_by_screen": 111
+  },
+  "map_regions": 41,
+  "map_regions_without_candidate": 25,
+  "verified_historical_buildings": 0,
+  "limitations": [
+    "No visual identity acceptance performed by this extractor",
+    "Ink includes text, road and grid lines",
+    "Candidate rank is heuristic, not calibrated probability",
+    "Current feature universe misses vanished structures; closed map regions remain unclassified",
+    "No height transfer and no historical volume produced",
+    "Date is edition month, not object survey date",
+    "No registration adjustment estimated; world file used verbatim"
+  ]
+}

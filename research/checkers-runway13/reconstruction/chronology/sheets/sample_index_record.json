@@ -1,0 +1,40 @@
+{
+  "type": "Feature",
+  "id": 1409,
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          114.18155292684482,
+          22.328033271281466
+        ],
+        [
+          114.18155274449612,
+          22.322614918556944
+        ],
+        [
+          114.18883238785432,
+          22.32261454308458
+        ],
+        [
+          114.18883285130086,
+          22.328032895725332
+        ],
+        [
+          114.18155292684482,
+          22.328033271281466
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "OBJECTID": 1409,
+    "SHEETNO": "11-NW-15D",
+    "EDITION_DATE": 783619200000,
+    "EDITION": 11,
+    "GeoTiff": "https://open.hkmapservice.gov.hk/OpenData/directDownload?productName=HP1C&sheetName=11-NW-15D&hkmsItemId=134266&editionDate=1994&productFormat=TIFF",
+    "Shape__Length": 2700,
+    "Shape__Area": 450000
+  }
+}

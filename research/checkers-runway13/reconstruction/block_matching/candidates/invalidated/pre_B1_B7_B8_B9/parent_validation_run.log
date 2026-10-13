@@ -1,0 +1,24 @@
+{
+  "verified_utc": "2026-10-13T13:15:30.515559+00:00",
+  "status": "passed",
+  "checks_passed": 848,
+  "checks_total": 848,
+  "sheet_editions": 94,
+  "distinct_sheet_locations": 93,
+  "candidate_rows": 23835,
+  "unique_modern_templates": 22073,
+  "counts": {
+    "strong_content_candidate_unverified": 10957,
+    "edge_clipped_review": 2652,
+    "ambiguous_content_candidate": 7211,
+    "low_support_rejected_by_screen": 3015
+  },
+  "map_regions": 37771,
+  "map_regions_without_candidate": 26963,
+  "nonempty_review_work_units": 1342,
+  "repaired_template_rows": [
+    "11-NE-11B_1989-12__3859421449P20250122",
+    "11-NE-12D_1990-02__4025120781T20071212"
+  ],
+  "verified_historical_buildings": 0
+}

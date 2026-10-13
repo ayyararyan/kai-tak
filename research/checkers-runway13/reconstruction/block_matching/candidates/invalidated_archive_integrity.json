@@ -1,0 +1,12 @@
+{
+  "checks": 509,
+  "passed": 508,
+  "failed": [
+    "parent_validation_run.log"
+  ],
+  "archive": "invalidated/pre_B1_B7_B8_B9",
+  "interpretation": "Preserved historical package integrity; does not validate its superseded algorithms.",
+  "mismatch_explanation": {
+    "parent_validation_run.log": "Original manifest recorded the redirected parent log while it was still zero bytes; preserved completed log is701 bytes. All508 other original manifest entries match. Current manifest excludes log streams."
+  }
+}

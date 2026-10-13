@@ -1,0 +1,54 @@
+{
+  "invalidated_utc": "2026-10-13T13:26:32.621827+00:00",
+  "reason": "Bilinear right disparity interpolation mixed invalid sentinel samples with valid contributors before validity gate; affected dense points and derived mesh unusable as accepted outputs. Sparse unchanged.",
+  "files": [
+    {
+      "name": "observed_surface_mesh_report.json",
+      "sha256": "a7b992433f5af3c8a96cb4ee753513f8fc1b95176a8c4dc11c3a8b2659742b4f"
+    },
+    {
+      "name": "observed_surface_mesh.glb",
+      "sha256": "3154839945bbd547a78280232ab7dc5f99d93c9446e481820a75abda5ee6b278"
+    },
+    {
+      "name": "dense_stereo_evidence.png",
+      "sha256": "7bb65f45f6b1ccfc6df056d3a87c3456285fa630bc154690805c68ea7792bbca"
+    },
+    {
+      "name": "dense_stereo_report.json",
+      "sha256": "d0a34456168079ae9a0784519382e00cb15b516225c33284c7babd4c84bdcc2f"
+    },
+    {
+      "name": "dense_stereo_points.csv",
+      "sha256": "c287de3c3b6f5dca1703d0ed473b950cf168d3ce61072c6610fc11e7cef774a0"
+    },
+    {
+      "name": "stereo_verification.json",
+      "sha256": "6aca7b270d51db411068fcf056344a3a1651b63b61191d012248ad72a746d08b"
+    },
+    {
+      "name": "dense_rectified_pair.jpg",
+      "sha256": "188204e20a05f4455716455bc06407735441090416ba63eb32bc4c0eedc37f81"
+    },
+    {
+      "name": "observed_mesh_verification.json",
+      "sha256": "386cda1993dc6ffc411b36b9d02b83f44439b3f6383b0704ecb4bafa0ea644eb"
+    },
+    {
+      "name": "dense_pixel_qc.npz",
+      "sha256": "26abc38e677cdd62d18158a7422b89b48e6f183543d2e7efd08924c1b3d67671"
+    },
+    {
+      "name": "dense_stereo_points.ply",
+      "sha256": "985ac91fa503524ca85c1aab0688f7ff6a2b7de758edb160e2735ae91e626935"
+    },
+    {
+      "name": "observed_surface_faces.csv",
+      "sha256": "b9b8e71cc3f9b594235ce9bf06a48d9222c71b4c89f355f8ae30c1fd4aa0cc04"
+    },
+    {
+      "name": "observed_surface_mesh.ply",
+      "sha256": "517b24ae22989be3d892f357c9ce78ba66206d2762c149eb7894b52d93265b5b"
+    }
+  ]
+}

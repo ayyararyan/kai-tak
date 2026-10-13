@@ -1,0 +1,85 @@
+{
+  "created_utc": "2026-10-13T13:06:57.626676+00:00",
+  "observed_catalogue_flying_height_ft": 4000,
+  "observed_film_label_number": 152.12,
+  "nominal_film_number_unit_interpretation": "likely mm focal length, not independently calibrated",
+  "camera_height_above_ground_identified": false,
+  "principal_point_identified": false,
+  "local_ground_affine_area_scale_m_per_original_pixel": 0.651638672367292,
+  "formula_assumptions": [
+    "central perspective",
+    "vertical camera",
+    "flat ground and correctly known camera height H above that ground",
+    "known principal point",
+    "roof and ground point on same vertical building edge",
+    "lens and scan distortion corrected"
+  ],
+  "exact_relation": "d = h R/(H-h); h = H d/(R+d), where R is true ground radial distance and d is ground-plane-scaled roof relief displacement",
+  "derivatives": {
+    "dh_dd": "H R/(R+d)^2",
+    "dh_dR": "-H d/(R+d)^2",
+    "dh_dH": "d/(R+d)"
+  },
+  "low_height_first_order": "delta_h \u2248 (H/R) delta_d; uncertainty diverges toward nadir",
+  "sensitivity_scenarios": [
+    {
+      "camera_height_AGL_scenario_m": 1219.2,
+      "ground_radial_distance_scenario_m": 100.0,
+      "relative_base_roof_ground_pick_error_scenario_m": 0.651638672367292,
+      "first_order_height_error_scenario_m": 7.944778693502024,
+      "interpretation": "sensitivity_only_not_uncertainty_bound"
+    },
+    {
+      "camera_height_AGL_scenario_m": 1219.2,
+      "ground_radial_distance_scenario_m": 100.0,
+      "relative_base_roof_ground_pick_error_scenario_m": 4.242640687119286,
+      "first_order_height_error_scenario_m": 51.72627525735833,
+      "interpretation": "sensitivity_only_not_uncertainty_bound"
+    },
+    {
+      "camera_height_AGL_scenario_m": 1219.2,
+      "ground_radial_distance_scenario_m": 250.0,
+      "relative_base_roof_ground_pick_error_scenario_m": 0.651638672367292,
+      "first_order_height_error_scenario_m": 3.17791147740081,
+      "interpretation": "sensitivity_only_not_uncertainty_bound"
+    },
+    {
+      "camera_height_AGL_scenario_m": 1219.2,
+      "ground_radial_distance_scenario_m": 250.0,
+      "relative_base_roof_ground_pick_error_scenario_m": 4.242640687119286,
+      "first_order_height_error_scenario_m": 20.690510102943332,
+      "interpretation": "sensitivity_only_not_uncertainty_bound"
+    },
+    {
+      "camera_height_AGL_scenario_m": 1219.2,
+      "ground_radial_distance_scenario_m": 500.0,
+      "relative_base_roof_ground_pick_error_scenario_m": 0.651638672367292,
+      "first_order_height_error_scenario_m": 1.588955738700405,
+      "interpretation": "sensitivity_only_not_uncertainty_bound"
+    },
+    {
+      "camera_height_AGL_scenario_m": 1219.2,
+      "ground_radial_distance_scenario_m": 500.0,
+      "relative_base_roof_ground_pick_error_scenario_m": 4.242640687119286,
+      "first_order_height_error_scenario_m": 10.345255051471666,
+      "interpretation": "sensitivity_only_not_uncertainty_bound"
+    },
+    {
+      "camera_height_AGL_scenario_m": 1219.2,
+      "ground_radial_distance_scenario_m": 750.0,
+      "relative_base_roof_ground_pick_error_scenario_m": 0.651638672367292,
+      "first_order_height_error_scenario_m": 1.05930382580027,
+      "interpretation": "sensitivity_only_not_uncertainty_bound"
+    },
+    {
+      "camera_height_AGL_scenario_m": 1219.2,
+      "ground_radial_distance_scenario_m": 750.0,
+      "relative_base_roof_ground_pick_error_scenario_m": 4.242640687119286,
+      "first_order_height_error_scenario_m": 6.896836700981112,
+      "interpretation": "sensitivity_only_not_uncertainty_bound"
+    }
+  ],
+  "actual_roof_base_pairs_measured": 0,
+  "actual_building_heights_estimated": 0,
+  "height_bounds": null
+}

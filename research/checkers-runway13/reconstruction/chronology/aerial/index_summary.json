@@ -1,0 +1,31 @@
+{
+  "frame_count": 14927,
+  "unique_frame_count": 14927,
+  "capture_dates": 316,
+  "year_counts": {
+    "1985": 1257,
+    "1986": 1126,
+    "1987": 979,
+    "1988": 982,
+    "1989": 1164,
+    "1990": 1037,
+    "1991": 1081,
+    "1992": 1091,
+    "1993": 1277,
+    "1994": 1081,
+    "1995": 982,
+    "1996": 876,
+    "1997": 1083,
+    "1998": 911
+  },
+  "bbox_wgs84": [
+    114.1,
+    22.27,
+    114.25,
+    22.4
+  ],
+  "restricted_counts": {
+    "0": 14927
+  },
+  "classification_note": "Presence in index is source coverage, not historical building classification."
+}

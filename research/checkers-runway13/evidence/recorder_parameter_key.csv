@@ -1,0 +1,27 @@
+graph_label,parameter,positive_sense,source,status
+BODYAOA,angle of attack,nose up,CAD Appendix11 PDF150,label only; no numeric series recovered
+ALTITUDE,barometric altitude,,CAD Appendix11 PDF150,label only; no numeric series recovered
+CAS,computed airspeed,,CAD Appendix11 PDF150,label only; no numeric series recovered
+WHEEL,control wheel roll angle,wheel right,CAD Appendix11 PDF150,label only; no numeric series recovered
+COLUMN,control column pitch input,column forward,CAD Appendix11 PDF150,label only; no numeric series recovered
+DRIFT,drift angle,right,CAD Appendix11 PDF150,label only; no numeric series recovered
+WIND SPEED,FMC wind speed,,CAD Appendix11 PDF150,label only; no numeric series recovered
+WINDDIR,FMC wind direction,,CAD Appendix11 PDF150,label only; no numeric series recovered
+GLID DEV,glideslope deviation,fly down,CAD Appendix11 PDF150,label only; no numeric series recovered
+G'SLOPE,GPWS glideslope alert,,CAD Appendix11 PDF150,label only; no numeric series recovered
+W'SHEAR,GPWS windshear caution,,CAD Appendix11 PDF150,label only; no numeric series recovered
+HEADING,heading,,CAD Appendix11 PDF150,label only; no numeric series recovered
+LATERAL G,lateral acceleration,right,CAD Appendix11 PDF150,label only; no numeric series recovered
+LOC DEV,localiser deviation,fly right,CAD Appendix11 PDF150,label only; no numeric series recovered
+LONGITUDINAL G,longitudinal acceleration,forwards,CAD Appendix11 PDF150,label only; no numeric series recovered
+MMARKER,middle marker,,CAD Appendix11 PDF150,label only; no numeric series recovered
+N1,engine N1,,CAD Appendix11 PDF150,label only; no numeric series recovered
+NORMAL G,normal acceleration,upwards,CAD Appendix11 PDF150,label only; no numeric series recovered
+PITCH,pitch angle,nose up,CAD Appendix11 PDF150,label only; no numeric series recovered
+RADIO ALTITUDE,radio altitude,,CAD Appendix11 PDF150,label only; no numeric series recovered
+ROLL,roll angle,right wing down,CAD Appendix11 PDF150,label only; no numeric series recovered
+RUD PEDAL,rudder pedal position,left rudder,CAD Appendix11 PDF150,label only; no numeric series recovered
+SPDBRK LEVER,speedbrake lever position,,CAD Appendix11 PDF150,label only; no numeric series recovered
+REVERSE DEPLOYED,thrust reverser deployed,,CAD Appendix11 PDF150,label only; no numeric series recovered
+REVERSE IN TRANSIT,thrust reverser in transit,,CAD Appendix11 PDF150,label only; no numeric series recovered
+IN VERT SP,vertical speed,upwards,CAD Appendix11 PDF150,label only; no numeric series recovered

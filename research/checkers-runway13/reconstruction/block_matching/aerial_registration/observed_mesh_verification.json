@@ -1,0 +1,33 @@
+{
+  "verified_utc": "2026-10-13T13:29:46.451946+00:00",
+  "checks": {
+    "bound_inputs_unchanged": true,
+    "ply_counts_match": true,
+    "mesh_positions_finite": true,
+    "triangle_indices_valid": true,
+    "perface_provenance_count": true,
+    "all_face_point_ids_match": true,
+    "every_face_all16_pixels_supported": true,
+    "every_face_edge_threshold": true,
+    "every_face_depth_jump_threshold": true,
+    "every_face_disparity_threshold": true,
+    "every_face_quad_planarity_threshold": true,
+    "boundary_edges_preserved_no_watertight_claim": true,
+    "no_nonmanifold_edges": true,
+    "glb_container_valid": true,
+    "glb_axis_origin_positions_match_ply": true,
+    "glb_colors_match_observed_source": true,
+    "glb_faces_match_ply": true,
+    "glb_normals_finite_unit": true,
+    "glb_crs_and_relative_height_explicit": true,
+    "fixture_continuous_face_accepted": true,
+    "fixture_long_edge_rejected": true,
+    "fixture_depth_jump_rejected": true,
+    "fixture_disparity_jump_rejected": true,
+    "fixture_degenerate_face_rejected": true
+  },
+  "all_passed": true,
+  "mesh_watertight": false,
+  "complete_city_mesh": false,
+  "source_reconstruction_accuracy_calibrated": false
+}

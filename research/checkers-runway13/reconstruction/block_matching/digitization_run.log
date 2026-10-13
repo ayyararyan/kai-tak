@@ -1,0 +1,478 @@
+[
+  {
+    "seed_e": 837781.6440070143,
+    "seed_n": 821577.9312304434,
+    "interior_holes_removed": 45,
+    "area_m2": 769.7419862267282,
+    "geometry_valid": true,
+    "id": "shing_tung",
+    "source_id": "1980_1990:678",
+    "name": "Shing Tung House"
+  },
+  {
+    "seed_e": 837799.8188954628,
+    "seed_n": 821508.9100385386,
+    "interior_holes_removed": 41,
+    "area_m2": 774.9077783653646,
+    "geometry_valid": true,
+    "id": "mau_tung",
+    "source_id": "1980_1990:678",
+    "name": "Mau Tung House"
+  },
+  {
+    "seed_e": 837885.1398995678,
+    "seed_n": 821542.6649280103,
+    "interior_holes_removed": 82,
+    "area_m2": 1207.182511093725,
+    "geometry_valid": true,
+    "id": "on_tung",
+    "source_id": "1980_1990:678",
+    "name": "On Tung House"
+  },
+  {
+    "seed_e": 837968.441471623,
+    "seed_n": 821513.9480817433,
+    "interior_holes_removed": 54,
+    "area_m2": 1033.7583762510105,
+    "geometry_valid": true,
+    "id": "hong_tung",
+    "source_id": "1980_1990:678",
+    "name": "Hong Tung House"
+  },
+  {
+    "seed_e": 837878.0718873934,
+    "seed_n": 821583.9768822892,
+    "interior_holes_removed": 20,
+    "area_m2": 897.9128469586119,
+    "geometry_valid": true,
+    "id": "market_podium",
+    "source_id": "1980_1990:678",
+    "name": "Cooked food centre and market"
+  },
+  {
+    "seed_e": 837895.7419178294,
+    "seed_n": 821443.9192811975,
+    "interior_holes_removed": 39,
+    "area_m2": 1959.7908971535696,
+    "geometry_valid": true,
+    "id": "block22",
+    "source_id": "1980_1990:678",
+    "name": "Tung Tau Block 22"
+  },
+  {
+    "seed_e": 837993.6843722458,
+    "seed_n": 821464.0714540165,
+    "interior_holes_removed": 106,
+    "area_m2": 3403.8986078276025,
+    "geometry_valid": true,
+    "id": "block23",
+    "source_id": "1980_1990:678",
+    "name": "Tung Tau Block 23"
+  },
+  {
+    "seed_e": 838142.6174859203,
+    "seed_n": 821431.8279775062,
+    "interior_holes_removed": 120,
+    "area_m2": 1858.1424443190933,
+    "geometry_valid": true,
+    "id": "lee_school",
+    "source_id": "1980_1990:678",
+    "name": "Lee Kau Yan Memorial School"
+  },
+  {
+    "seed_e": 838137.5689057958,
+    "seed_n": 821537.6268848056,
+    "interior_holes_removed": 53,
+    "area_m2": 2618.332000442293,
+    "geometry_valid": true,
+    "id": "ng_wah",
+    "source_id": "1980_1990:678",
+    "name": "Ng Wah College"
+  },
+  {
+    "seed_e": 837930.5771206889,
+    "seed_n": 821215.1921197027,
+    "interior_holes_removed": 45,
+    "area_m2": 1727.8444927053745,
+    "geometry_valid": true,
+    "id": "regal",
+    "source_id": "1980_1990:678",
+    "name": "Regal Airport Hotel"
+  },
+  {
+    "seed_e": 837923.004250502,
+    "seed_n": 821250.4584221358,
+    "interior_holes_removed": 23,
+    "area_m2": 706.0383414032608,
+    "geometry_valid": true,
+    "id": "po_sing",
+    "source_id": "1980_1990:678",
+    "name": "Po Sing Court"
+  },
+  {
+    "seed_e": 837519.1178405372,
+    "seed_n": 821172.3687524624,
+    "interior_holes_removed": 107,
+    "area_m2": 4318.454187826915,
+    "geometry_valid": true,
+    "id": "city_market",
+    "source_id": "1980_1990:678",
+    "name": "Kowloon City Market"
+  },
+  {
+    "seed_e": 837638.2643314768,
+    "seed_n": 821258.0154869428,
+    "interior_holes_removed": 7,
+    "area_m2": 807.9984559021331,
+    "geometry_valid": true,
+    "id": "lok_sin_school",
+    "source_id": "1980_1990:678",
+    "name": "Lok Sin Tong Primary School"
+  },
+  {
+    "seed_e": 837633.2157513523,
+    "seed_n": 821211.6654894593,
+    "interior_holes_removed": 0,
+    "area_m2": 18.458162253557038,
+    "geometry_valid": true,
+    "id": "clinic",
+    "source_id": "1980_1990:678",
+    "name": "Clinic"
+  },
+  {
+    "seed_e": 837519.1178405372,
+    "seed_n": 821240.3823357263,
+    "interior_holes_removed": 14,
+    "area_m2": 283.6588666134945,
+    "geometry_valid": true,
+    "id": "maternity",
+    "source_id": "1980_1990:678",
+    "name": "Maternity Home"
+  },
+  {
+    "seed_e": 837521.6421305995,
+    "seed_n": 821257.0078783019,
+    "interior_holes_removed": 22,
+    "area_m2": 391.5093866298825,
+    "geometry_valid": true,
+    "id": "dispensary",
+    "source_id": "1980_1990:678",
+    "name": "Lee Kee Memorial Dispensary"
+  },
+  {
+    "seed_e": 837781.6440070143,
+    "seed_n": 821577.9312304434,
+    "interior_holes_removed": 40,
+    "area_m2": 765.6250113809061,
+    "geometry_valid": true,
+    "id": "shing_tung",
+    "source_id": "1980_1990:679",
+    "name": "Shing Tung House"
+  },
+  {
+    "seed_e": 837799.8188954628,
+    "seed_n": 821508.9100385386,
+    "interior_holes_removed": 43,
+    "area_m2": 762.390933340427,
+    "geometry_valid": true,
+    "id": "mau_tung",
+    "source_id": "1980_1990:679",
+    "name": "Mau Tung House"
+  },
+  {
+    "seed_e": 837885.1398995678,
+    "seed_n": 821542.6649280103,
+    "interior_holes_removed": 86,
+    "area_m2": 1192.343641776793,
+    "geometry_valid": true,
+    "id": "on_tung",
+    "source_id": "1980_1990:679",
+    "name": "On Tung House"
+  },
+  {
+    "seed_e": 837968.441471623,
+    "seed_n": 821513.9480817433,
+    "interior_holes_removed": 56,
+    "area_m2": 1022.7185920685806,
+    "geometry_valid": true,
+    "id": "hong_tung",
+    "source_id": "1980_1990:679",
+    "name": "Hong Tung House"
+  },
+  {
+    "seed_e": 837878.0718873934,
+    "seed_n": 821583.9768822892,
+    "interior_holes_removed": 16,
+    "area_m2": 886.7467022592931,
+    "geometry_valid": true,
+    "id": "market_podium",
+    "source_id": "1980_1990:679",
+    "name": "Cooked food centre and market"
+  },
+  {
+    "seed_e": 837895.7419178294,
+    "seed_n": 821443.9192811975,
+    "interior_holes_removed": 44,
+    "area_m2": 1970.1706577479972,
+    "geometry_valid": true,
+    "id": "block22",
+    "source_id": "1980_1990:679",
+    "name": "Tung Tau Block 22"
+  },
+  {
+    "seed_e": 837993.6843722458,
+    "seed_n": 821464.0714540165,
+    "interior_holes_removed": 126,
+    "area_m2": 3382.056640734674,
+    "geometry_valid": true,
+    "id": "block23",
+    "source_id": "1980_1990:679",
+    "name": "Tung Tau Block 23"
+  },
+  {
+    "seed_e": 838142.6174859203,
+    "seed_n": 821431.8279775062,
+    "interior_holes_removed": 126,
+    "area_m2": 1838.3858834688406,
+    "geometry_valid": true,
+    "id": "lee_school",
+    "source_id": "1980_1990:679",
+    "name": "Lee Kau Yan Memorial School"
+  },
+  {
+    "seed_e": 838137.5689057958,
+    "seed_n": 821537.6268848056,
+    "interior_holes_removed": 55,
+    "area_m2": 2603.9562123727246,
+    "geometry_valid": true,
+    "id": "ng_wah",
+    "source_id": "1980_1990:679",
+    "name": "Ng Wah College"
+  },
+  {
+    "seed_e": 837930.5771206889,
+    "seed_n": 821215.1921197027,
+    "interior_holes_removed": 65,
+    "area_m2": 1731.989402998272,
+    "geometry_valid": true,
+    "id": "regal",
+    "source_id": "1980_1990:679",
+    "name": "Regal Airport Hotel"
+  },
+  {
+    "seed_e": 837923.004250502,
+    "seed_n": 821250.4584221358,
+    "interior_holes_removed": 24,
+    "area_m2": 706.0601682350975,
+    "geometry_valid": true,
+    "id": "po_sing",
+    "source_id": "1980_1990:679",
+    "name": "Po Sing Court"
+  },
+  {
+    "seed_e": 837519.1178405372,
+    "seed_n": 821172.3687524624,
+    "interior_holes_removed": 105,
+    "area_m2": 4320.611085913306,
+    "geometry_valid": true,
+    "id": "city_market",
+    "source_id": "1980_1990:679",
+    "name": "Kowloon City Market"
+  },
+  {
+    "seed_e": 837638.2643314768,
+    "seed_n": 821258.0154869428,
+    "interior_holes_removed": 21,
+    "area_m2": 809.0194643193639,
+    "geometry_valid": true,
+    "id": "lok_sin_school",
+    "source_id": "1980_1990:679",
+    "name": "Lok Sin Tong Primary School"
+  },
+  {
+    "seed_e": 837633.2157513523,
+    "seed_n": 821211.6654894593,
+    "interior_holes_removed": 0,
+    "area_m2": 17.34996939322182,
+    "geometry_valid": true,
+    "id": "clinic",
+    "source_id": "1980_1990:679",
+    "name": "Clinic"
+  },
+  {
+    "seed_e": 837519.1178405372,
+    "seed_n": 821240.3823357263,
+    "interior_holes_removed": 13,
+    "area_m2": 276.45899001730663,
+    "geometry_valid": true,
+    "id": "maternity",
+    "source_id": "1980_1990:679",
+    "name": "Maternity Home"
+  },
+  {
+    "seed_e": 837521.6421305995,
+    "seed_n": 821257.0078783019,
+    "interior_holes_removed": 22,
+    "area_m2": 386.1442310148635,
+    "geometry_valid": true,
+    "id": "dispensary",
+    "source_id": "1980_1990:679",
+    "name": "Lee Kee Memorial Dispensary"
+  },
+  {
+    "seed_e": 837781.6440070143,
+    "seed_n": 821577.9312304434,
+    "interior_holes_removed": 42,
+    "area_m2": 756.5525650514717,
+    "geometry_valid": true,
+    "id": "shing_tung",
+    "source_id": "1980_1990:680",
+    "name": "Shing Tung House"
+  },
+  {
+    "seed_e": 837799.8188954628,
+    "seed_n": 821508.9100385386,
+    "interior_holes_removed": 42,
+    "area_m2": 760.192766344802,
+    "geometry_valid": true,
+    "id": "mau_tung",
+    "source_id": "1980_1990:680",
+    "name": "Mau Tung House"
+  },
+  {
+    "seed_e": 837885.1398995678,
+    "seed_n": 821542.6649280103,
+    "interior_holes_removed": 85,
+    "area_m2": 1168.7077166998877,
+    "geometry_valid": true,
+    "id": "on_tung",
+    "source_id": "1980_1990:680",
+    "name": "On Tung House"
+  },
+  {
+    "seed_e": 837968.441471623,
+    "seed_n": 821513.9480817433,
+    "interior_holes_removed": 54,
+    "area_m2": 1013.2336258160062,
+    "geometry_valid": true,
+    "id": "hong_tung",
+    "source_id": "1980_1990:680",
+    "name": "Hong Tung House"
+  },
+  {
+    "seed_e": 837878.0718873934,
+    "seed_n": 821583.9768822892,
+    "interior_holes_removed": 20,
+    "area_m2": 884.8032621390898,
+    "geometry_valid": true,
+    "id": "market_podium",
+    "source_id": "1980_1990:680",
+    "name": "Cooked food centre and market"
+  },
+  {
+    "seed_e": 837895.7419178294,
+    "seed_n": 821443.9192811975,
+    "interior_holes_removed": 42,
+    "area_m2": 1953.0148637176076,
+    "geometry_valid": true,
+    "id": "block22",
+    "source_id": "1980_1990:680",
+    "name": "Tung Tau Block 22"
+  },
+  {
+    "seed_e": 837993.6843722458,
+    "seed_n": 821464.0714540165,
+    "interior_holes_removed": 115,
+    "area_m2": 3334.994631328481,
+    "geometry_valid": true,
+    "id": "block23",
+    "source_id": "1980_1990:680",
+    "name": "Tung Tau Block 23"
+  },
+  {
+    "seed_e": 838142.6174859203,
+    "seed_n": 821431.8279775062,
+    "interior_holes_removed": 121,
+    "area_m2": 1846.667867120737,
+    "geometry_valid": true,
+    "id": "lee_school",
+    "source_id": "1980_1990:680",
+    "name": "Lee Kau Yan Memorial School"
+  },
+  {
+    "seed_e": 838137.5689057958,
+    "seed_n": 821537.6268848056,
+    "interior_holes_removed": 49,
+    "area_m2": 2570.1852148455946,
+    "geometry_valid": true,
+    "id": "ng_wah",
+    "source_id": "1980_1990:680",
+    "name": "Ng Wah College"
+  },
+  {
+    "seed_e": 837930.5771206889,
+    "seed_n": 821215.1921197027,
+    "interior_holes_removed": 57,
+    "area_m2": 1716.9329677863252,
+    "geometry_valid": true,
+    "id": "regal",
+    "source_id": "1980_1990:680",
+    "name": "Regal Airport Hotel"
+  },
+  {
+    "seed_e": 837923.004250502,
+    "seed_n": 821250.4584221358,
+    "interior_holes_removed": 25,
+    "area_m2": 697.2079100496537,
+    "geometry_valid": true,
+    "id": "po_sing",
+    "source_id": "1980_1990:680",
+    "name": "Po Sing Court"
+  },
+  {
+    "seed_e": 837519.1178405372,
+    "seed_n": 821172.3687524624,
+    "interior_holes_removed": 100,
+    "area_m2": 4313.9666200770425,
+    "geometry_valid": true,
+    "id": "city_market",
+    "source_id": "1980_1990:680",
+    "name": "Kowloon City Market"
+  },
+  {
+    "seed_e": 837638.2643314768,
+    "seed_n": 821258.0154869428,
+    "interior_holes_removed": 18,
+    "area_m2": 801.47702350734,
+    "geometry_valid": true,
+    "id": "lok_sin_school",
+    "source_id": "1980_1990:680",
+    "name": "Lok Sin Tong Primary School"
+  },
+  {
+    "error": "seed_on_ink_or_outside",
+    "id": "clinic",
+    "source_id": "1980_1990:680",
+    "name": "Clinic"
+  },
+  {
+    "seed_e": 837519.1178405372,
+    "seed_n": 821240.3823357263,
+    "interior_holes_removed": 10,
+    "area_m2": 277.9520224020931,
+    "geometry_valid": true,
+    "id": "maternity",
+    "source_id": "1980_1990:680",
+    "name": "Maternity Home"
+  },
+  {
+    "seed_e": 837521.6421305995,
+    "seed_n": 821257.0078783019,
+    "interior_holes_removed": 18,
+    "area_m2": 384.392758090157,
+    "geometry_valid": true,
+    "id": "dispensary",
+    "source_id": "1980_1990:680",
+    "name": "Lee Kee Memorial Dispensary"
+  }
+]

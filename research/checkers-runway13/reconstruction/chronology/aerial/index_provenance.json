@@ -1,0 +1,17 @@
+{
+  "retrieved_utc": "2026-10-13T12:29:03.439976+00:00",
+  "public_source": "https://api.hkmapservice.gov.hk/oss/services/OneStop/FlightPaths/MapServer/2/query",
+  "parameters": {
+    "where": "YEARFLIGHT >= 1985 AND YEARFLIGHT <= 1998",
+    "geometry": "114.10,22.27,114.25,22.40",
+    "geometryType": "esriGeometryEnvelope",
+    "inSR": 4326,
+    "spatialRel": "esriSpatialRelIntersects"
+  },
+  "count": 14927,
+  "geometry_crs": "EPSG:4326",
+  "source_native_crs": "EPSG:2326",
+  "scope": "index polygons intersecting bbox; some centres outside bbox",
+  "index_not_imagery": true,
+  "browser_public_application": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA"
+}

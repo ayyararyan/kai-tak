@@ -1,0 +1,189 @@
+{
+  "verified_at_utc": "2026-10-13T12:20:57.005555+00:00",
+  "provider": "Lands Department, HKSAR Government, DATA.GOV.HK/CSDI",
+  "scope": "Acquisition and GIS preparation only; no model integration; mixed epochs",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6664,
+      "sha256": "1ac992bf7838fa3476067ec43c9682bcda2d62d5c9eeb04180f291060d7a7788"
+    },
+    {
+      "path": "derived/Hong_Kong_DTM_5m_HK1980.tif",
+      "bytes": 19395893,
+      "sha256": "8ff5231ab90893963c7015614e169472687adec2f9a6dd5bd66d250a49f3570f"
+    },
+    {
+      "path": "derived/Kowloon_KaiTak_DTM_5m_HK1980.tif",
+      "bytes": 4328178,
+      "sha256": "7f040a7bbc639aa068c19ea994e3f1b58e35097abf88ebe9033c2eff9b998bdb"
+    },
+    {
+      "path": "derived/Kowloon_KaiTak_buildings_20260921.geojson",
+      "bytes": 71966641,
+      "sha256": "b764e11af1b1a3b225756e142251977508b357f4542e728444a03d28152f1a57"
+    },
+    {
+      "path": "metadata/building_layer.json",
+      "bytes": 9116,
+      "sha256": "7f69cf36443b84538b2fd2ef64c79692b6b9b4215eafafabe543a7f63dcb5135",
+      "source_url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/0?f=pjson"
+    },
+    {
+      "path": "metadata/building_metadata.html",
+      "bytes": 49129,
+      "sha256": "6b06227359221c0046c8b448fa54a085c4394e198e073f3b0cc1184beea372f2",
+      "source_url": "https://portal.csdi.gov.hk/csdi-webpage/metadata/landsd_rcd_1637211194312_35158/html"
+    },
+    {
+      "path": "metadata/building_metadata.txt",
+      "bytes": 25368,
+      "sha256": "da546dbc1c2c4d557030eef72761ea7a36adf4775293a2eed000b6936ba527a9"
+    },
+    {
+      "path": "metadata/building_quality_flags.json",
+      "bytes": 1497,
+      "sha256": "04a46fa0cd48a977b0185c0ae59f26ea6408143fb2c666fcd200a8a5e5c63a06"
+    },
+    {
+      "path": "metadata/building_service.json",
+      "bytes": 3804,
+      "sha256": "ab61f38994b7ce972c87846dc976a048acf5c2fa9452689ab92b4894bc528565",
+      "source_url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer?f=pjson"
+    },
+    {
+      "path": "metadata/building_service_count.json",
+      "bytes": 16,
+      "sha256": "b361807b1f2f882d1f0a3c2161b7edf120bb2efc2fab353d17ffe7b974adf8be"
+    },
+    {
+      "path": "metadata/building_supplement1",
+      "bytes": 799255,
+      "sha256": "117bca6e971fdbea2b366a653ba9ddc87ef8304fc72af0062f11d39d068476b1",
+      "source_url": "https://static.csdi.gov.hk/csdi-webpage/download/common/b3eead8b2d2f167fcf05009502dfc628a77a3ab76a22a52cfbaa405a65cde6e6"
+    },
+    {
+      "path": "metadata/building_supplement1.txt",
+      "bytes": 59437,
+      "sha256": "9a3ae164893411ab017ce892f6baa0a70b979adadb656a3ce222891b835323a8"
+    },
+    {
+      "path": "metadata/building_supplement2",
+      "bytes": 1237938,
+      "sha256": "b1d959b609a1f7a1ffa23b6ad17f4532fdebaa9ce8118e465c2ed96bbbb3e677",
+      "source_url": "https://static.csdi.gov.hk/csdi-webpage/download/common/6ba0d3022dc2fa5644d20139c56913ea3bf3c18602b15cf952e7f32a029bdac8"
+    },
+    {
+      "path": "metadata/building_supplement2.txt",
+      "bytes": 49434,
+      "sha256": "371c8d01a6907f124f0cc4f0e41736fbf70f693e7eb0b4778f3ed4e31b3b4236"
+    },
+    {
+      "path": "metadata/building_supplement3",
+      "bytes": 1197287,
+      "sha256": "65346179019dc37a4665c07f8ddb99bf575045cc74a5157a5f63b8034672ce2b",
+      "source_url": "https://static.csdi.gov.hk/csdi-webpage/download/common/73918cfc315886f9d2e0a64891fb6b9363db38b34c23ba16ba8a682ac5bc41bc"
+    },
+    {
+      "path": "metadata/building_supplement3.txt",
+      "bytes": 48866,
+      "sha256": "d9f39f4e44eae66150bb217f12bbcd7af1a4a054295eeaecdfa81e7bd361524b"
+    },
+    {
+      "path": "metadata/csdi_terms.html",
+      "bytes": 21273,
+      "sha256": "53594dd98d9fc2177b0f53db04d80eda999b3c0cfca318ba5ef92e123c6dae0a",
+      "source_url": "https://portal.csdi.gov.hk/csdi-webpage/doc/TNC"
+    },
+    {
+      "path": "metadata/datagov_terms.html",
+      "bytes": 39948,
+      "sha256": "c901a8f56c42a4cbcb2502c10d3623309529500e38f5d6c247aab68c6149dde0",
+      "source_url": "https://data.gov.hk/en/terms-and-conditions"
+    },
+    {
+      "path": "metadata/dtm_catalog.html",
+      "bytes": 76170,
+      "sha256": "b88391db475ba9a48b788e1d6c09d4cda4585667f8ddc7d3b0645a675b7ad61b",
+      "source_url": "https://data.gov.hk/en-data/dataset/hk-landsd-openmap-5m-grid-dtm/resource/620c4f4f-eac4-472f-9074-dffa2ad596fd"
+    },
+    {
+      "path": "metadata/dtm_features.html",
+      "bytes": 42812,
+      "sha256": "b2f9a34a96c452c12eb015f14e43b690c3682bd403301968e3b2edd4102e29de",
+      "source_url": "https://www.landsd.gov.hk/en/spatial-data/open-data/kf_dtm.html"
+    },
+    {
+      "path": "metadata/dtm_http_headers.txt",
+      "bytes": 487,
+      "sha256": "52597a13c6e596d902c290cc3477ba1c322dfe261c5f7f26d86d6f367e4c09fe"
+    },
+    {
+      "path": "metadata/ib1000_kaitak_tiles.json",
+      "bytes": 37333,
+      "sha256": "9f921810bc7042df12365d622d61bcce74fd81c2fcad042536449fc4762600ea"
+    },
+    {
+      "path": "metadata/ib1000_metadata.html",
+      "bytes": 31880,
+      "sha256": "125d102e71d21bdee65baa1c3697e35d8eff53b73df1a58e57263d5114c4487a",
+      "source_url": "https://portal.csdi.gov.hk/csdi-webpage/metadata/landsd_rcd_1637223748322_25497/html"
+    },
+    {
+      "path": "metadata/ib1000_service.json",
+      "bytes": 3555,
+      "sha256": "246049b00bd2d84448ad5ec79d9bd8107197e30b0c35fb28ba7c84de95f425ff",
+      "source_url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637223748322_25497/FeatureServer?f=pjson"
+    },
+    {
+      "path": "metadata/ib1000_tileindex_layer.json",
+      "bytes": 7331,
+      "sha256": "5c169c245a46021d2e1122e0f03e896cd744b9fe0f68fabdf48c0c107c306d93"
+    },
+    {
+      "path": "metadata/open_data.html",
+      "bytes": 62000,
+      "sha256": "71e5117008b77498e8aef8bcdea91356d6facb016cde38f1cd7fc860f3492229",
+      "source_url": "https://www.landsd.gov.hk/en/spatial-data/open-data.html"
+    },
+    {
+      "path": "metadata/shoreline_item.json",
+      "bytes": 4679,
+      "sha256": "cc20f4c72ba1e106d2e691a955f6e8e556facd678a74ababd8f48b9ac3aeb523",
+      "source_url": "https://www.arcgis.com/sharing/rest/content/items/861bcf04a2b54cf29af510277fb995cd?f=json"
+    },
+    {
+      "path": "metadata/source_urls.json",
+      "bytes": 1662,
+      "sha256": "adad45f83360485787c9c5d0c7ded1866ff35b606291f154fba5f9dd2996b6e9"
+    },
+    {
+      "path": "metadata/validation.json",
+      "bytes": 1172,
+      "sha256": "600d36414ae9412a4ba10be4503b4f578730b8987a0594a4c4234040e79154e5"
+    },
+    {
+      "path": "prepare_and_verify.py",
+      "bytes": 4433,
+      "sha256": "dd80a392f899499207aeda9033e2b5ee783ab0938ec7afd1b52c658044519850"
+    },
+    {
+      "path": "raw/Building_20260921.geojson",
+      "bytes": 397075244,
+      "sha256": "dcb873553b47f70797f2d28c5933d3ecf7a2478d39a9ba6c58db7a66fec8d8d4",
+      "source_url": "https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=landsd_rcd_1637211194312_35158&format=geojson&layer_name=Building"
+    },
+    {
+      "path": "raw/Whole_HK_DTM_5m.zip",
+      "bytes": 28706079,
+      "sha256": "785718f462ae6de3c9e1fed2bf9fe5affe1c1d739c0a969fd62cf3680b4b33ab",
+      "source_url": "https://www.landsd.gov.hk/landsd_psi_data/SMO/data/Whole_HK_DTM_5m.zip"
+    },
+    {
+      "path": "requirements.lock",
+      "bytes": 162,
+      "sha256": "721ef6b152baa289d6c1fe752341cd6a8d59d8c2b74eb60e7b7457138d9d6a70"
+    }
+  ],
+  "total_bytes_excluding_environment": 525294743
+}

@@ -1,0 +1,19 @@
+event_id,event,time_from_touchdown_s,time_qualifier,runway_remaining_m,groundspeed_kt,radio_height_ft,barometric_altitude_ft,source_pdf_page,source_reference,category,uncertainty_note
+N01,middle_marker,,,,131,,670,38,section1.11.4,report_stated,GS rose from128 to131kt while CAS rose151 to179kt over6s; not exact time sample
+N02,red_windshear_warning,-32,approximately,,129,,,38;75,section1.11.4 and2.4,report_stated,1500ft/min instantaneous descent; wind clock alignment unknown
+N03,touchdown,0,origin_approximate,2300,160,,,39;63,section1.11.4 and2.2.5,report_stated,480m beyond displaced threshold; rounded source values not identical runway reference conventions
+N04,forward_thrust_increase,2.5,approximately,,,,,39,section1.11.4,report_stated,Thrust parameters rise; narrative describes autobrake disarm and spoiler retraction
+N05,roll_restored,12,approximately,1365,139,,,40;64,sections1.11.4 and2.2.6,report_stated,Time and position combined from two report passages; correspondence approximate
+N06,autobrakes_call,16,approximately,1080,133,,,65,section2.2.7,report_stated,Time derived12+4; deceleration reported less0.1g
+N07,sir_reverse_call,17,approximately,,130,,,40,section1.11.4,report_stated,Call separate from lever selection
+N08,reverse_selected,18,approximately,880,129,,,65,section2.2.7,report_stated,Appendix13 has rounded900m and130kt for reverse call; not substituted
+N09,strong_deceleration,20,approximately,750,,,,40;65,sections1.11.4 and2.2.7,report_stated,Time and position from separate passages; graph interpolation speed is separate
+A01,appendix13_touchdown,0,approximately,2250,160,,,159,Appendix13 column1,report_table,Table says2250m not narrative2300m; retained separately
+A02,appendix13_roll_handover,,,1800,148,,,159,Appendix13,report_table,No exact time in this column
+A03,appendix13_no_autobrakes,,,1080,133,,,159,Appendix13,report_table,No exact time in this column
+A04,appendix13_reverse_call,,,900,130,,,159,Appendix13,report_table,No exact time in this column
+A05,appendix13_braking_checkpoint,20,approximately,800,127,,,159,Appendix13,report_table,Table states manual brakes deployed spoilers selected reverse
+A06,appendix13_late_checkpoint,27,approximately,350,89,,,159,Appendix13,report_table,Read directly from table; coarse published values
+A07,appendix13_departure,39,approximately,0,30,,,159,Appendix13,report_table,Overrunning runway at30kt; not a complete stop
+N10,nosewheel_sliding,,,120,60,,,65,section2.2.7,report_stated,Runway-coordinate vs path distance diverges in turn
+N11,reverse_spoilers_cancelled,,,70,48,,,40;65,sections1.11.4 and2.2.7,report_stated,Paired two narrative passages; not synchronized exact samples

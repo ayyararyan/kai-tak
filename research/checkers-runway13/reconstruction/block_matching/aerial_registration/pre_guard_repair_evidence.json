@@ -1,0 +1,24 @@
+{
+  "roof_point_estimates": [
+    {
+      "track_id": 26,
+      "observed_object": "municipal market north roof feature",
+      "height_above_reference_plane_m": 10.769431630259533,
+      "reprojection_rms_px": 2.6495457800574425,
+      "ground_base_elevation_at_building_identified": false,
+      "statistical_or_hard_error_bounds": null
+    },
+    {
+      "track_id": 1135,
+      "observed_object": "municipal market south rooftop service structure",
+      "height_above_reference_plane_m": 19.195490912459263,
+      "reprojection_rms_px": 2.414063516608818,
+      "ground_base_elevation_at_building_identified": false,
+      "statistical_or_hard_error_bounds": null
+    }
+  ],
+  "metric_baseline_m": 486.3904870846161,
+  "holdout_rmse_m": 5.754265551984461,
+  "sparse_ply_sha256": "214b0cb7ceb91cd62d639bb568375fd7b75af8fad43f142dd36407e80994cd73",
+  "dense_ply_sha256": "985ac91fa503524ca85c1aab0688f7ff6a2b7de758edb160e2735ae91e626935"
+}

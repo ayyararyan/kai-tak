@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.25,
+              22.27
+            ],
+            [
+              114.25,
+              22.4
+            ],
+            [
+              114.1,
+              22.4
+            ],
+            [
+              114.1,
+              22.27
+            ],
+            [
+              114.25,
+              22.27
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "mask_semantics": "historical_geometry_and_clearance_not_certified",
+        "target_date_example": "1993-11-04",
+        "unknown_historical_presence": true,
+        "unknown_historical_height_intervals": true,
+        "unknown_surface_completeness": true,
+        "not_obstacle_occupancy_mask": true,
+        "reason": "Whole-area historical 3D completeness remains unresolved; reviewed 2D faces do not establish roof height or complete obstacle coverage.",
+        "historical_height_unknown": true,
+        "complete_historical_3d": false,
+        "physical_occupancy": null
+      }
+    }
+  ]
+}

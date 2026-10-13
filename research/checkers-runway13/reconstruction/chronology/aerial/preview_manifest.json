@@ -1,0 +1,848 @@
+[
+  {
+    "frame_id": "A02686",
+    "capture_date": "1985-10-04",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A02686",
+    "path": "previews/A02686.jpg",
+    "bytes": 205286,
+    "sha256": "162443bd98c884a09739a2b7e6299785fa9fdbf09175e265a492aedaf20d792f",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:35.579874+00:00",
+    "product_id": "A02686",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A07352",
+    "capture_date": "1986-11-21",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A07352",
+    "path": "previews/A07352.jpg",
+    "bytes": 256669,
+    "sha256": "d9f1f2b72a96c9f787d3fbe8cd2b667ad59d4e03a0f7c4eeabc0645aeacb4cd2",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:35.657713+00:00",
+    "product_id": "A07352",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A10967",
+    "capture_date": "1987-12-10",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A10967",
+    "path": "previews/A10967.jpg",
+    "bytes": 284534,
+    "sha256": "c3894e35fe69c97de5f180f2be4742b07fe28cd59347eabfcd9e0c7d40d56e96",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:35.265463+00:00",
+    "product_id": "A10967",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A15183",
+    "capture_date": "1988-11-03",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A15183",
+    "path": "previews/A15183.jpg",
+    "bytes": 257046,
+    "sha256": "c33a12279c228e693f969c9aa5db59aebeb978d8bdaf248fa9120dccaa848516",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:38.227264+00:00",
+    "product_id": "A15183",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A19369",
+    "capture_date": "1989-11-20",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A19369",
+    "path": "previews/A19369.jpg",
+    "bytes": 238980,
+    "sha256": "d3633c7f251379e07d1bb002987ec71fdb95e0ce1ed27ba8dd2489a2f7a44237",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:38.579231+00:00",
+    "product_id": "A19369",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A23632",
+    "capture_date": "1990-11-13",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A23632",
+    "path": "previews/A23632.jpg",
+    "bytes": 253480,
+    "sha256": "0f72ef8b33695772fa1db49d44937fa3973381a86338dcb64af22fe843ce9e17",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:38.503379+00:00",
+    "product_id": "A23632",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A28854",
+    "capture_date": "1991-10-29",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A28854",
+    "path": "previews/A28854.jpg",
+    "bytes": 259358,
+    "sha256": "7269bf17bb0934c5aa5b6bc6af757915896befb024ac92b25c57c25a0fe27ed3",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:41.493068+00:00",
+    "product_id": "A28854",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A33224",
+    "capture_date": "1992-11-11",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A33224",
+    "path": "previews/A33224.jpg",
+    "bytes": 280600,
+    "sha256": "4e62f47ed3e3c23bd02f6a91c32ca95e962ee213026e48b5cb0ab925d8b674ce",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:41.305680+00:00",
+    "product_id": "A33224",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "CN4581",
+    "status": "downloaded_preview_not_full_resolution",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=CN04581",
+    "product_id": "CN04581",
+    "capture_date": "1993-10-08",
+    "path": "previews/CN4581.jpg",
+    "bytes": 245083,
+    "sha256": "0b7d33ce24699ecef7e3dc9c57032041f0a0ca5480b8a90c11b9259ee8dac7ed",
+    "retrieved_utc": "2026-10-13T12:36:18.258845+00:00",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "CN4582",
+    "status": "downloaded_preview_not_full_resolution",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=CN04582",
+    "product_id": "CN04582",
+    "capture_date": "1993-10-08",
+    "path": "previews/CN4582.jpg",
+    "bytes": 254869,
+    "sha256": "da8852e4dc81e6c9a45d940522e985f0cb86236a03e8200892b5c098b383768e",
+    "retrieved_utc": "2026-10-13T12:36:17.658700+00:00",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "CN4580",
+    "status": "downloaded_preview_not_full_resolution",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=CN04580",
+    "product_id": "CN04580",
+    "capture_date": "1993-10-08",
+    "path": "previews/CN4580.jpg",
+    "bytes": 228168,
+    "sha256": "2de75acdffbd75481db92558e2aca68b7b357b581b9d11ee9950086c435be9a6",
+    "retrieved_utc": "2026-10-13T12:36:21.967470+00:00",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "CN8230",
+    "status": "downloaded_preview_not_full_resolution",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=CN08230",
+    "product_id": "CN08230",
+    "capture_date": "1994-10-25",
+    "path": "previews/CN8230.jpg",
+    "bytes": 197928,
+    "sha256": "c95c996e7a3078e364422cc4970b7add800c48df1ae14b266c7dd8036cc72837",
+    "retrieved_utc": "2026-10-13T12:36:21.103373+00:00",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "CN12272",
+    "capture_date": "1995-11-23",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=CN12272",
+    "path": "previews/CN12272.jpg",
+    "bytes": 227743,
+    "sha256": "7e7cac48729e6dc67cdc368dda7e59d4b1924bbbfa7ff9e5bff4ce5396c5b618",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:43.963893+00:00",
+    "product_id": "CN12272",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "CN15587",
+    "capture_date": "1996-11-18",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=CN15587",
+    "path": "previews/CN15587.jpg",
+    "bytes": 210373,
+    "sha256": "84268d19371b927f213bac281723cd758c3c36d1b7dbb2162f1b021df200506a",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:43.911008+00:00",
+    "product_id": "CN15587",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "CN19000",
+    "capture_date": "1997-11-01",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=CN19000",
+    "path": "previews/CN19000.jpg",
+    "bytes": 187895,
+    "sha256": "62b28877c9ac53aae5a1cf377b920c8df009f5d555dee26a9cf4aec581328409",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:43.916716+00:00",
+    "product_id": "CN19000",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "CN21247",
+    "capture_date": "1998-10-31",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=CN21247",
+    "path": "previews/CN21247.jpg",
+    "bytes": 193640,
+    "sha256": "ebc2a9ff533ce9d2daabfbc11286b77c8e9afb6b677cd35d51808fb2e040eccb",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:46.767241+00:00",
+    "product_id": "CN21247",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A03144",
+    "capture_date": "1985-10-24",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A03144",
+    "path": "previews/A03144.jpg",
+    "bytes": 280836,
+    "sha256": "0777afa2753a8e56c94e186ffb60403194f909c3e793ece5851847429c4bccf8",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:47.407948+00:00",
+    "product_id": "A03144",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "CN1077",
+    "status": "downloaded_preview_not_full_resolution",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=CN01077",
+    "product_id": "CN01077",
+    "capture_date": "1986-11-07",
+    "path": "previews/CN1077.jpg",
+    "bytes": 291905,
+    "sha256": "1348477a4d07cb5a04b2471b3b1e795879753d3ccfc4c3a21f7a95ca20679a70",
+    "retrieved_utc": "2026-10-13T12:36:24.508636+00:00",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A10933",
+    "capture_date": "1987-12-10",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A10933",
+    "path": "previews/A10933.jpg",
+    "bytes": 272371,
+    "sha256": "47e14beb351cefdea3e8abfcacbd40b5e4e46c06065c80d116509d050bf684c3",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:48.527068+00:00",
+    "product_id": "A10933",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A19257",
+    "capture_date": "1989-11-13",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A19257",
+    "path": "previews/A19257.jpg",
+    "bytes": 224855,
+    "sha256": "4b442a5d0bfbfc419647ec26a3faf47563aa4b1ba30a983ca8667b4e6de89235",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:49.944399+00:00",
+    "product_id": "A19257",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A33041",
+    "capture_date": "1992-11-11",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A33041",
+    "path": "previews/A33041.jpg",
+    "bytes": 247335,
+    "sha256": "8966a8b7197dd7002804bf8ecd6ae16852edbcc79edcf008722e5049e2953d91",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:49.732978+00:00",
+    "product_id": "A33041",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A36144",
+    "capture_date": "1993-11-02",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A36144",
+    "path": "previews/A36144.jpg",
+    "bytes": 234793,
+    "sha256": "d74153c820a894396e41e3ddede084dca5b0d2bd75d2011ae5b4365e1afee358",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:50.944690+00:00",
+    "product_id": "A36144",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A36142",
+    "capture_date": "1993-11-02",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A36142",
+    "path": "previews/A36142.jpg",
+    "bytes": 276172,
+    "sha256": "6f1c40f8aad4d7ff5707913a7cd5ebb560c3f5535bce58474a3b48ca90abeffd",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:51.977657+00:00",
+    "product_id": "A36142",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A36141",
+    "capture_date": "1993-11-02",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A36141",
+    "path": "previews/A36141.jpg",
+    "bytes": 292800,
+    "sha256": "a539e589727cfe685770031c8d8da081218d4178d76b5840f86dd338665c7add",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:52.195036+00:00",
+    "product_id": "A36141",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "CN21282",
+    "capture_date": "1998-10-31",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=CN21282",
+    "path": "previews/CN21282.jpg",
+    "bytes": 179284,
+    "sha256": "254ed41a30a496931c9ee1cf00e37777d22fdd345e7bd9f2b83742ec58d60588",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:53.710841+00:00",
+    "product_id": "CN21282",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A02663",
+    "capture_date": "1985-10-04",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A02663",
+    "path": "previews/A02663.jpg",
+    "bytes": 204098,
+    "sha256": "fde0c30c5e898c52726450a48c79bc00f7319f74f6c43a9c837b4f8d406492b2",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:54.876521+00:00",
+    "product_id": "A02663",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "CN1074",
+    "status": "downloaded_preview_not_full_resolution",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=CN01074",
+    "product_id": "CN01074",
+    "capture_date": "1986-11-07",
+    "path": "previews/CN1074.jpg",
+    "bytes": 256965,
+    "sha256": "1e81521f1f2e16e85b06c6966c925cd416516c5663441c5057d0c0fb284def76",
+    "retrieved_utc": "2026-10-13T12:36:24.847624+00:00",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A10880",
+    "capture_date": "1987-12-05",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A10880",
+    "path": "previews/A10880.jpg",
+    "bytes": 293643,
+    "sha256": "ea62b47e94bea61ddf7475e5709bccfaf35c6165cb8a6af1c66dc727209cffa0",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:55.516132+00:00",
+    "product_id": "A10880",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A18951",
+    "capture_date": "1989-11-06",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A18951",
+    "path": "previews/A18951.jpg",
+    "bytes": 206475,
+    "sha256": "56e3bd3a68c2d8a4b59dff019fad06c625bcf3c84d0cac476f8245b4415325de",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:56.362043+00:00",
+    "product_id": "A18951",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A23653",
+    "capture_date": "1990-11-13",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A23653",
+    "path": "previews/A23653.jpg",
+    "bytes": 236115,
+    "sha256": "77b98253662b80254c33de1907c982a8532731282d35d061a321594d8c6d7bed",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:57.546153+00:00",
+    "product_id": "A23653",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A36145",
+    "capture_date": "1993-11-02",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A36145",
+    "path": "previews/A36145.jpg",
+    "bytes": 240336,
+    "sha256": "a66e0497d0e83ebb971ee9292153a8bdea78b522fccf9d93397c452cc56b9127",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:58.301595+00:00",
+    "product_id": "A36145",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A36146",
+    "capture_date": "1993-11-02",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A36146",
+    "path": "previews/A36146.jpg",
+    "bytes": 251678,
+    "sha256": "2a8896d15c97568f16513eb6c04cddc43b1f4b70a9118e791e9f0b01c9a33a1f",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:31:59.300116+00:00",
+    "product_id": "A36146",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "CN12226",
+    "capture_date": "1995-11-23",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=CN12226",
+    "path": "previews/CN12226.jpg",
+    "bytes": 181422,
+    "sha256": "513957f1905779e46c3de70ce638a8dad6de34f2cb995d6dbb2ce9cd5417b915",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:32:00.758670+00:00",
+    "product_id": "CN12226",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "CN15732",
+    "capture_date": "1996-11-18",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=CN15732",
+    "path": "previews/CN15732.jpg",
+    "bytes": 199257,
+    "sha256": "4dbd2c34931e3c481ee138900d98e02a8cbfd13575f5bedbec2ea7db0c15bce7",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:32:00.710106+00:00",
+    "product_id": "CN15732",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "CN887",
+    "status": "downloaded_preview_not_full_resolution",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=CN00887",
+    "product_id": "CN00887",
+    "capture_date": "1985-10-05",
+    "path": "previews/CN887.jpg",
+    "bytes": 234618,
+    "sha256": "297eef68e46a391b8a207207bcb9c7c8e906961aceca3e236669d1d214d071cf",
+    "retrieved_utc": "2026-10-13T12:36:27.364679+00:00",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "CN1071",
+    "status": "downloaded_preview_not_full_resolution",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=CN01071",
+    "product_id": "CN01071",
+    "capture_date": "1986-11-07",
+    "path": "previews/CN1071.jpg",
+    "bytes": 258768,
+    "sha256": "97b273e441f5ea6ccf04976f9255486e6601389e69b8c1730a06d2c838ea6883",
+    "retrieved_utc": "2026-10-13T12:36:28.058113+00:00",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A10990",
+    "capture_date": "1987-12-10",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A10990",
+    "path": "previews/A10990.jpg",
+    "bytes": 230193,
+    "sha256": "b2355a76fdb5a6b8bf7085abc5863352e2baf454c087188b3ab9dfd38ead369c",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:32:02.876377+00:00",
+    "product_id": "A10990",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A15215",
+    "capture_date": "1988-11-03",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A15215",
+    "path": "previews/A15215.jpg",
+    "bytes": 225796,
+    "sha256": "7952f800828a66b61431b1ed8433f24c63ccd7edaf7cbbc4bb87d44dbecfb6d2",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:32:04.054412+00:00",
+    "product_id": "A15215",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A18947",
+    "capture_date": "1989-11-06",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A18947",
+    "path": "previews/A18947.jpg",
+    "bytes": 176211,
+    "sha256": "dce60dc410525a5104ba3728c398dc15074c1ea31439ba54ae93a82265fc1d2d",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:32:02.984890+00:00",
+    "product_id": "A18947",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A23695",
+    "capture_date": "1990-11-13",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A23695",
+    "path": "previews/A23695.jpg",
+    "bytes": 184384,
+    "sha256": "0e75b9c2b469a522ee095ccbc77850819f099668dd46dc005dd7e82e641bdaad",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:32:05.636513+00:00",
+    "product_id": "A23695",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A28904",
+    "capture_date": "1991-10-29",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A28904",
+    "path": "previews/A28904.jpg",
+    "bytes": 208434,
+    "sha256": "fc05115ee877434e272c1d651c3085ba392d43ac7f84727b06f0184342dd19b1",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:32:05.387631+00:00",
+    "product_id": "A28904",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A36171",
+    "capture_date": "1993-11-02",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A36171",
+    "path": "previews/A36171.jpg",
+    "bytes": 226777,
+    "sha256": "a22fbc744f508198a04fb55fe6257343c6fad7cd7a28040da27e6ae6ab708b8e",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:32:06.227177+00:00",
+    "product_id": "A36171",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "A36172",
+    "capture_date": "1993-11-02",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=A36172",
+    "path": "previews/A36172.jpg",
+    "bytes": 194086,
+    "sha256": "9b3c795c529f5aa057ff3d90eb2475924a180c54c3b53b2317f938619ee8d6ac",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:32:07.754810+00:00",
+    "product_id": "A36172",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "CN4589",
+    "status": "downloaded_preview_not_full_resolution",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=CN04589",
+    "product_id": "CN04589",
+    "capture_date": "1993-10-08",
+    "path": "previews/CN4589.jpg",
+    "bytes": 204021,
+    "sha256": "35203b5f46c062337d0a969a8a336b2e490400de39802d22436899a3ad9d694c",
+    "retrieved_utc": "2026-10-13T12:36:30.100745+00:00",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "CN15613",
+    "capture_date": "1996-11-18",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=CN15613",
+    "path": "previews/CN15613.jpg",
+    "bytes": 202106,
+    "sha256": "a46e2e68e375663d0a62153caa4d8bae5defe3524118ba4347f6b8a977f2b7f3",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:32:08.675044+00:00",
+    "product_id": "CN15613",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "CN18609",
+    "capture_date": "1997-10-31",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=CN18609",
+    "path": "previews/CN18609.jpg",
+    "bytes": 146439,
+    "sha256": "f303d7b53b633ca0231a203ca1d3d0a4a0157725e34fd6e0f09f2ca83fa62e2f",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:32:08.341033+00:00",
+    "product_id": "CN18609",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  },
+  {
+    "frame_id": "CN22163",
+    "capture_date": "1998-10-31",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search/getPreviewFile?itemId=DAP&sheetNo=CN22163",
+    "path": "previews/CN22163.jpg",
+    "bytes": 164646,
+    "sha256": "9947efee9c14e2ab4ec7138d059bd57f1f31487ea1e0af255668e1423149ee94",
+    "status": "downloaded_preview_not_full_resolution",
+    "retrieved_utc": "2026-10-13T12:32:09.888076+00:00",
+    "product_id": "CN22163",
+    "width": 1080,
+    "height": 1080,
+    "image_mode": "RGB",
+    "dpi": [
+      300.0,
+      300.0
+    ]
+  }
+]

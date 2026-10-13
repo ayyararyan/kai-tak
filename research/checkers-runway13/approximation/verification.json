@@ -1,0 +1,72 @@
+{
+  "verified_at_utc": "2026-10-13T12:39:09.861687+00:00",
+  "python": "3.12.13",
+  "test_command": "../.venv/bin/python -m pytest test_explicit_reference.py -q",
+  "test_result": {
+    "exit_code": 0,
+    "passed": 30,
+    "failed": 0,
+    "observed_stdout": "30 passed in 0.94s"
+  },
+  "independent_evaluator": "model/trajectory.py curves() endpoint linear solve and rollout(); export uses analytical explicit coefficient map",
+  "comparison": {
+    "points_per_phase": 103,
+    "phases": 2,
+    "derivative_orders": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "max_absolute_component_error": {
+      "position_m": 1.8189894035458565e-12,
+      "velocity_mps": 1.9539925233402755e-13,
+      "acceleration_mps2": 2.4868995751603428e-14,
+      "jerk_mps3": 9.769962616701378e-15
+    },
+    "tolerance_absolute": 2e-08,
+    "tolerance_relative": 1e-10
+  },
+  "scalar_envelope_verification": {
+    "synthetic_test_corners": 128,
+    "exact_fraction_checks": true,
+    "nominal_point_box": true,
+    "invented_model_uncertainty": false
+  },
+  "negative_tests": [
+    "invalid/nonfinite/reversed inputs",
+    "zero braking/speed/runway",
+    "missing/extra interval keys",
+    "overflow",
+    "extrapolation",
+    "other condition/scene",
+    "five individually modified source/config/witness files",
+    "missing source"
+  ],
+  "artifact_sha256": {
+    "explicit_reference.py": "b6e90f05d26f4d555ae1d064cad1d8583a7e11f02ec33d0d1871e535bb8f256a",
+    "test_explicit_reference.py": "0be83cc35aadcfc580dedabbfb0e99d53d3992115bb58270ddb8774db3432d73",
+    "reference_formula.json": "95311d6d1857fc6330532dcce52cc58f03e20b489c3249a0da6cf3f14cea0c76",
+    "reference_outcomes.json": "23a2e3c01c35a95d7d933cf87351a86c6e0eef2d69e821421cb60b60d9242c51"
+  },
+  "unchanged_source_sha256": {
+    "model/config.json": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693",
+    "model/trajectory.py": "9b557ce07c7e8f177b0b3cfac1765c1c9aec4997e28b52d3185ad533f7cf3f6a",
+    "analytical/verify_full_landing_analysis.py": "fbe4067189ab78a6f1f6d4c4e8a4ac7d639dbe10c43c550d1bb37ba794202f90",
+    "analytical/coupled/certify_candidate.py": "028eb9c2b39041793ff8d8973abd9e92682325e628ea9da375dc1361b963777f",
+    "analytical/coupled/continuous_certificate_refined.json": "774f34ad182a5015eeed799c910cde01eb6b297c1b4e6c4a119582b0d83db973"
+  },
+  "correctness": "tested and reference export dry-run verified",
+  "bounded_component_coverage": {
+    "FORM-01": "implemented",
+    "OUT-01": "implemented",
+    "UNC-01": "implemented",
+    "VAL-01": "implemented"
+  },
+  "full_specification_status": "incomplete; terrain integration, conditional policy, near-optimality and calibrated prediction intervals unresolved",
+  "scope": "fixed synthetic witness only; no new feasibility certificate; float consistency not physical uncertainty; no operational guidance",
+  "setup_issues_resolved": [
+    "Initial test-file write used incorrect relative path; corrected before recorded 30-test run.",
+    "Metrics helper initially imported model before reference initialized project path; corrected ordering before this verified record."
+  ]
+}

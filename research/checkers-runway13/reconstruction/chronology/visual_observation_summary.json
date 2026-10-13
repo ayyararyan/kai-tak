@@ -1,0 +1,8 @@
+{
+  "observations": 52,
+  "distinct_named_objects_or_sites": 17,
+  "map_sheets_visually_inspected": 3,
+  "full_aerial_frames_parent_inspected": 3,
+  "not_a_building_census": true,
+  "manual_source_interpretation_not_automatic_detection": true
+}

@@ -1,0 +1,51 @@
+{
+  "aoi_wgs84": [
+    114.1,
+    22.27,
+    114.25,
+    22.4
+  ],
+  "interpretation": "Data acquisition only; mixed epochs; no flight feasibility certification",
+  "terrain": {
+    "shape": [
+      9601,
+      12751
+    ],
+    "bounds": [
+      799997.5,
+      799997.5,
+      863752.5,
+      848002.5
+    ],
+    "crs": "EPSG:2326",
+    "nodata": -9999.0,
+    "valid_cells": 122422351,
+    "total_cells": 122422351,
+    "min_height_m": -26.0,
+    "max_height_m": 958.0,
+    "subset_shape": [
+      2880,
+      3092
+    ],
+    "all_cells_equal_to_source": true
+  },
+  "buildings": {
+    "counts": {
+      "features": 342195,
+      "BaseHeight_missing": 106249,
+      "TopHeight_missing": 104847,
+      "subset_BaseHeight_missing": 10233,
+      "subset_TopHeight_missing": 10026,
+      "invalid_geometry": 83
+    },
+    "bounds_wgs84": [
+      113.8408754438,
+      22.1568647375,
+      114.4368372796,
+      22.5613021784
+    ],
+    "subset_features": 69915,
+    "subset_rule": "Intersects AOI rectangle; entire geometries retained, no clipping or height imputation",
+    "height_datum": "HKPD; TopHeight and BaseHeight are elevations, not height above local ground"
+  }
+}

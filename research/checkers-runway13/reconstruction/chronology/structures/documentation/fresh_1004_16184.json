@@ -1,0 +1,50 @@
+{
+ "objectIdFieldName": "OBJECTID",
+ "globalIdFieldName": "",
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "alias": "OBJECTID",
+   "type": "esriFieldTypeOID"
+  },
+  {
+   "name": "OPNo",
+   "alias": "OPNo",
+   "type": "esriFieldTypeString",
+   "length": 15
+  },
+  {
+   "name": "OPDate",
+   "alias": "OPDate",
+   "type": "esriFieldTypeDate",
+   "length": 8
+  },
+  {
+   "name": "DomesticGFA",
+   "alias": "DomesticGFA",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "name": "NonDomesticGFA",
+   "alias": "NonDomesticGFA",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "name": "GFA",
+   "alias": "GFA",
+   "type": "esriFieldTypeDouble"
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "OBJECTID": 16184,
+    "OPNo": "NT6/69",
+    "OPDate": -28886400000,
+    "DomesticGFA": null,
+    "NonDomesticGFA": null,
+    "GFA": 0
+   }
+  }
+ ]
+}

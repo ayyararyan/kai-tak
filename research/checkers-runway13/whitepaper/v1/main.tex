@@ -1,0 +1,75 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=25mm,headheight=15pt]{geometry}
+\usepackage{fontspec}
+\setmainfont{texgyretermes}[Extension=.otf,UprightFont=*-regular,BoldFont=*-bold,ItalicFont=*-italic,BoldItalicFont=*-bolditalic]
+\usepackage{unicode-math}
+\setmathfont{texgyretermes-math.otf}
+\usepackage{graphicx,booktabs,tabularx,longtable,array,amsmath,amsthm}
+\usepackage{xcolor,enumitem,microtype,fancyhdr,caption,float}
+\usepackage[hidelinks,unicode]{hyperref}
+\definecolor{slate}{HTML}{354B55}
+\definecolor{sage}{HTML}{687767}
+\definecolor{copper}{HTML}{A46542}
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\color{slate}}{\thesection}{0.7em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{0.7em}{}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 1pt minus 1pt}
+\linespread{1.10}
+\setlist{nosep,leftmargin=1.5em}
+\captionsetup{font=small,labelfont=bf,justification=raggedright,singlelinecheck=false}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small\color{slate}Checkers with Runway 13}
+\fancyhead[R]{\small\color{slate}Working white paper · v1}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+\newcommand{\R}{\mathbb R}
+\newcommand{\status}[1]{\par\smallskip\noindent\textbf{Evidence status.} #1\par\smallskip}
+\newtheorem{proposition}{Proposition}
+\hypersetup{pdftitle={Checkers with Runway 13: Reconstructing Kai Tak's Approach},pdfauthor={Aryan Ayyar},pdfsubject={Working white paper, version 1, 13 October 2026}}
+\begin{document}
+\begin{titlepage}
+\vspace*{18mm}
+{\large\color{sage}RESEARCH WHITE PAPER · FIRST WORKING DRAFT\par}
+\vspace{12mm}
+{\fontsize{34}{39}\selectfont\bfseries\color{slate}Checkers with\\Runway 13\par}
+\vspace{8mm}
+{\Large Reconstructing Kai Tak's Approach:\\Geometry, Landing Constraints and Uncertainty\par}
+\vspace{15mm}
+{\large Aryan Ayyar\par}
+{13 October 2026 · Version 1\par}
+\vspace{12mm}
+\begin{minipage}{0.92\textwidth}
+\textbf{The question.} How did the geometry of Kai Tak's approach, aircraft capabilities and operating conditions jointly determine the room available to turn, descend, touch down and stop?
+
+\textbf{This version.} A documented historical evidence base, a conditional local 3D reconstruction, an explicit synthetic landing trajectory, restricted mathematical bounds and a reproducible weather diagnostic. Historical trajectory validation and an improved terrain-aware approach remain open.
+\end{minipage}
+\vfill
+{\small Working research document for author review. Not peer reviewed. No operational flight procedure or claim of historical superiority is established. No institutional endorsement is implied.\par}
+\end{titlepage}
+
+\section*{Executive summary}
+\addcontentsline{toc}{section}{Executive summary}
+Kai Tak's Runway 13 presents a problem in coupled constraints. The approach must deliver an aircraft to the runway with the right position, direction, height and speed, while leaving enough distance to complete the landing. A turn that is geometrically possible may demand too much bank or thrust. A trajectory that reaches the threshold may leave an unacceptable touchdown or stopping condition. Understanding the approach therefore requires both a dated reconstruction of the setting and a model that continues beyond runway alignment.
+
+This paper develops the first components of that study. The historical reference is Hong Kong Civil Aviation Department Aircraft Accident Report 1/95, concerning CAL605 on 4 November 1993. Its procedure and runway information establish a 47-degree difference between the reported magnetic localiser and runway directions, and a landing distance available of 2,786 metres. The report also preserves selected flight-recorder plots and weather information. Those records are valuable, but they neither describe a representative sample of normal landings nor identify a uniquely optimal historical flight path.
+
+The reconstruction combines official historical survey sheets, aerial photographs and explicitly dated modern geospatial products. A local stereo reconstruction from two photographs taken on 2 November 1993 yields 171,356 filtered surface points. The vertical coordinate is relative to an estimated local park/road plane, not an aviation elevation datum. Only 3,781 points lie within the local map-control hull. This is useful measured historical geometry with uneven support, not yet a complete obstacle surface.
+
+The mathematical component constructs an explicit approach, flare and ground-stop trajectory in a stipulated point-mass scenario. Turning, descent, speed and force demands are checked together. A retained computer-assisted certificate supports a minimum normalized constraint margin of at least 0.0397 for one exact-decimal candidate. In that scenario the aircraft touches down about 313.49 metres beyond the usable threshold and stops at 2,531.32 metres, leaving 254.68 metres. These are model calculations with zero nominal wind and no historical obstacles. Their decimal precision does not describe real-aircraft accuracy.
+
+A separate necessary bound puts the best score in the same finite trajectory family below 0.1559772. The gap is too wide to support a claim of near-optimality. Existence of a best member of that family is established separately from locating it. The paper also derives exact conditional ranges for stopping distance over a supplied parameter box; no physical parameter box or calibrated prediction interval is supplied in this version.
+
+Historical weather adds an important diagnostic. The retained routine station reports immediately bracketing the accident period record a mean wind of 10.8 metres per second. In a specified quality-filtered subset of 1993 routine observations, 99.10 percent of records have a lower mean wind speed. This places the selected accident case near the high-wind end of that observed subset. It is descriptive context, not an accident probability or a distribution of winds encountered by aircraft.
+
+The present contribution is a reproducible research foundation with explicit restricted results. The next substantive finding must come from confronting the model with reconstructed flight evidence and integrating defensible historical geometry. A completed comparison will hold aircraft, information, weather assumptions, operating constraints and objective fixed. Until then, this paper does not claim that the historical approach was inferior or that a safer operational alternative has been found.
+
+\clearpage
+\tableofcontents
+\clearpage
+\input{manuscript.tex}
+\clearpage
+\input{appendices.tex}
+\clearpage
+\input{references.tex}
+\end{document}

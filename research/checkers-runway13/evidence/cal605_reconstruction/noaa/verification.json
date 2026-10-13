@@ -1,0 +1,214 @@
+{
+  "created_utc": "2026-10-13T13:28:44.646182+00:00",
+  "source_path": "./research/checkers-runway13/evidence/weather_feasibility_2026-10-13/NOAA_450070-99999-1993.gz",
+  "source_sha256": "617c7db4f19c3aaacef91ae8a688c0aab196cdfc7ddfba72857c8e70056d66e0",
+  "source_sha256_expected": "617c7db4f19c3aaacef91ae8a688c0aab196cdfc7ddfba72857c8e70056d66e0",
+  "source_identity_verified_before_output": true,
+  "source_identity_rule": {
+    "year": 1993,
+    "usaf": "450070",
+    "wban": "99999",
+    "latitude_raw": "+22333",
+    "longitude_raw": "+114183",
+    "elevation_raw": "+0024",
+    "call_sign_raw": "VHHH "
+  },
+  "documentation_url": "https://www.ncei.noaa.gov/pub/data/noaa/isd-format-document.pdf",
+  "documentation_sha256": "1be604b08b5f7c2429e6aef178ff8893019c234bc7bc51bfb7ec1e16a6682f04",
+  "record_count": 8549,
+  "nov4_count": 24,
+  "date_min": "1993-01-01T00:00:00Z",
+  "date_max": "1993-12-31T23:00:00Z",
+  "observed_dates_count": 365,
+  "report_types": {
+    "FM-15": 8543,
+    "FM-16": 6
+  },
+  "source_flags": {
+    "4": 8549
+  },
+  "wind_types": {
+    "V": 122,
+    "N": 8376,
+    "C": 41,
+    "9": 10
+  },
+  "duplicate_raw_records": 0,
+  "duplicate_timestamp_extra_rows": 0,
+  "duplicate_timestamps": {},
+  "missing_calendar_hour_count": 215,
+  "off_hour_records": 4,
+  "metadata_tuples": [
+    [
+      "450070",
+      "99999",
+      "+22333",
+      "+114183",
+      "+0024",
+      "VHHH "
+    ]
+  ],
+  "quality_rule": "Strict analysis acceptance requires present numeric value and quality 1 or 5 (all QC checks passed). Values with other codes retained but not accepted; no imputation. This is flag filtering, not independent meteorological or station-history validation.",
+  "field_qc": {
+    "wind_direction_deg": {
+      "missing": 173,
+      "strict_qc_accepted": 8376,
+      "quality_codes": {
+        "1": 8539,
+        "9": 10
+      }
+    },
+    "wind_speed_mps": {
+      "missing": 19,
+      "strict_qc_accepted": 8530,
+      "quality_codes": {
+        "1": 8530,
+        "9": 19
+      }
+    },
+    "ceiling_m": {
+      "missing": 880,
+      "strict_qc_accepted": 7669,
+      "quality_codes": {
+        "1": 8514,
+        "9": 35
+      }
+    },
+    "visibility_m": {
+      "missing": 43,
+      "strict_qc_accepted": 8506,
+      "quality_codes": {
+        "1": 8506,
+        "9": 43
+      }
+    },
+    "temperature_c": {
+      "missing": 68,
+      "strict_qc_accepted": 8481,
+      "quality_codes": {
+        "1": 8481,
+        "9": 68
+      }
+    },
+    "dewpoint_c": {
+      "missing": 74,
+      "strict_qc_accepted": 8475,
+      "quality_codes": {
+        "1": 8475,
+        "9": 74
+      }
+    },
+    "sea_level_pressure_hpa": {
+      "missing": 8549,
+      "strict_qc_accepted": 0,
+      "quality_codes": {
+        "9": 8549
+      }
+    },
+    "gust_mps": {
+      "missing": 8030,
+      "strict_qc_accepted": 519,
+      "quality_codes": {
+        "None": 8030,
+        "1": 519
+      }
+    },
+    "altimeter_setting_hpa": {
+      "missing": 111,
+      "strict_qc_accepted": 8438,
+      "quality_codes": {
+        "1": 8438,
+        "None": 111
+      }
+    },
+    "station_pressure_hpa": {
+      "missing": 8549,
+      "strict_qc_accepted": 0,
+      "quality_codes": {
+        "9": 8438,
+        "None": 111
+      }
+    }
+  },
+  "gust_group_count": 519,
+  "partial_weather_row_count": 19,
+  "nov4_partial_weather_rows": [
+    "1993-11-04T10:00:00Z"
+  ],
+  "rank_subset_rule": "FM-15, source flag 4, exact hour, normal wind type N, strict speed QC, non-partial weather row. All 1993; observed records only; missing hours are not imputed. Also report same UTC hour subset.",
+  "rank_subset_count": 8360,
+  "event_comparisons": [
+    {
+      "datetime_utc": "1993-11-04T03:00:00Z",
+      "noaa_direction_deg": 70.0,
+      "noaa_speed_kt": 20.99352051835853,
+      "noaa_gust_kt": 34.01727861771058,
+      "cad_appendix5_direction_deg": 70,
+      "cad_appendix5_mean_speed_kt": 21,
+      "difference_speed_kt": -0.006479481641470386,
+      "scope": "consistency only; same reporting stream may feed both sources; clocks/instruments not independently established",
+      "all_year_normal_routine_rank": {
+        "n": 8360,
+        "threshold_mps": 10.8,
+        "below": 8285,
+        "equal": 17,
+        "above": 58,
+        "percent_below": 99.10287081339713,
+        "percent_at_or_below": 99.30622009569377,
+        "meaning": "empirical record rank in declared observed subset; no probability interpretation"
+      },
+      "same_clock_hour_normal_routine_rank": {
+        "n": 348,
+        "threshold_mps": 10.8,
+        "below": 343,
+        "equal": 3,
+        "above": 2,
+        "percent_below": 98.5632183908046,
+        "percent_at_or_below": 99.42528735632183,
+        "meaning": "empirical record rank in declared observed subset; no probability interpretation"
+      }
+    },
+    {
+      "datetime_utc": "1993-11-04T04:00:00Z",
+      "noaa_direction_deg": 70.0,
+      "noaa_speed_kt": 20.99352051835853,
+      "noaa_gust_kt": 40.043196544276455,
+      "cad_appendix5_direction_deg": 70,
+      "cad_appendix5_mean_speed_kt": 21,
+      "difference_speed_kt": -0.006479481641470386,
+      "scope": "consistency only; same reporting stream may feed both sources; clocks/instruments not independently established",
+      "all_year_normal_routine_rank": {
+        "n": 8360,
+        "threshold_mps": 10.8,
+        "below": 8285,
+        "equal": 17,
+        "above": 58,
+        "percent_below": 99.10287081339713,
+        "percent_at_or_below": 99.30622009569377,
+        "meaning": "empirical record rank in declared observed subset; no probability interpretation"
+      },
+      "same_clock_hour_normal_routine_rank": {
+        "n": 355,
+        "threshold_mps": 10.8,
+        "below": 351,
+        "equal": 1,
+        "above": 3,
+        "percent_below": 98.87323943661971,
+        "percent_at_or_below": 99.15492957746478,
+        "meaning": "empirical record rank in declared observed subset; no probability interpretation"
+      }
+    }
+  ],
+  "limitations": [
+    "station/anemometer history not reconciled",
+    "NOAA reported surface gusts are not aircraft gust encounters",
+    "gust absence is missing not zero",
+    "remarks are retained, never decoded as current observations",
+    "hourly observations do not reconstruct 03:35 aircraft-local wind",
+    "rank is descriptive, not accident probability, return period, or population quantile with a CI"
+  ],
+  "output_sha256": {
+    "observations_1993.csv": "104b2fc2e2e7cdf3ebb2cda338dfebac948a76f95630595242ececf0ce14ef4c",
+    "observations_1993-11-04.csv": "ee619b6c154678b69b197e0ad5205704255d28682f5904aefe08f84093abc01b"
+  }
+}

@@ -1,0 +1,1 @@
+Pre-review implementation and summaries retained for audit only. Superseded by ../chronology.py. This version lacks null-key join guards, status aggregation, interval-aware conflicts, post-demolition permit checks, canonical query normalization and missing-geometry handling. Do not use as the active pipeline. Live snapshot impact is documented in ../review_repair_impact.json.

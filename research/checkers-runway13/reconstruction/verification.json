@@ -1,0 +1,13 @@
+{
+  "retrieval_attempt_records": 29,
+  "successful_http200_downloads": 27,
+  "failed_attempts": 2,
+  "http200_error_pages_excluded": 2,
+  "downloaded_pdf_count": 2,
+  "png_preview_count": 2,
+  "derived_pdf_text_count": 2,
+  "artifact_files": 29,
+  "all_retrieval_hashes_rechecked": true,
+  "full_1993_terrain_built": false,
+  "raw_normal_flight_records_acquired": 0
+}

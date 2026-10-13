@@ -1,0 +1,3 @@
+opencv-python-headless==5.0.0.93
+numpy==2.5.4
+# OpenCV is installed only in this lane/python_deps; NumPy comes from existing geospatial venv.

@@ -1,0 +1,367 @@
+{
+  "repaired_regions": 36,
+  "max_absolute_area_change_m2": 1.2649733172054312e-06,
+  "repairs": [
+    {
+      "sheet_epoch": "11-NE-11A_1989-10",
+      "region_id": 1351,
+      "reason": "Self-intersection[114.190073782163 22.3298381811268]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 11.87105418719712,
+      "area_after_hk_grid_m2": 11.87105418687705,
+      "area_change_m2": -3.2006930439365533e-10,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NE-11A_1994-07",
+      "region_id": 2135,
+      "reason": "Self-intersection[114.191692337384 22.3292966975175]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 69.19087484248656,
+      "area_after_hk_grid_m2": 69.19087483250613,
+      "area_change_m2": -9.980439585888234e-09,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NE-12B_1990-02",
+      "region_id": 1143,
+      "reason": "Self-intersection[114.217722673716 22.3314935865253]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 89.27373686130862,
+      "area_after_hk_grid_m2": 89.27373685950518,
+      "area_change_m2": -1.8034427284874255e-09,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NE-12B_1990-02",
+      "region_id": 1638,
+      "reason": "Self-intersection[114.215613881162 22.3306342142167]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 116.63685561684747,
+      "area_after_hk_grid_m2": 116.63685561654175,
+      "area_change_m2": -3.057181174881407e-10,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NE-12B_1990-02",
+      "region_id": 1725,
+      "reason": "Self-intersection[114.213158321859 22.3304722841566]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 771.5399930558397,
+      "area_after_hk_grid_m2": 771.5399930547029,
+      "area_change_m2": -1.1367546903784387e-09,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NE-13C_1990-05",
+      "region_id": 976,
+      "reason": "Self-intersection[114.221686841647 22.3263116846848]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 27.08103375201716,
+      "area_after_hk_grid_m2": 27.08103286249435,
+      "area_change_m2": -8.895228091887475e-07,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NE-16B_1989-12",
+      "region_id": 312,
+      "reason": "Self-intersection[114.200713510461 22.3196752816746]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 20.239397424543935,
+      "area_after_hk_grid_m2": 20.239397160003044,
+      "area_change_m2": -2.645408905266322e-07,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NE-16B_1989-12",
+      "region_id": 400,
+      "reason": "Self-intersection[114.201889828137 22.3186232819635]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 18.615248246350262,
+      "area_after_hk_grid_m2": 18.615246981376945,
+      "area_change_m2": -1.2649733172054312e-06,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NE-16C_1989-12",
+      "region_id": 1113,
+      "reason": "Self-intersection[114.190148495266 22.3155205474169]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 34.486132223742814,
+      "area_after_hk_grid_m2": 34.48613222361186,
+      "area_change_m2": -1.3095302620058646e-10,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NE-16D_1986-07",
+      "region_id": 67,
+      "reason": "Self-intersection[114.20151218178 22.3158810101678]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 20.989895036394596,
+      "area_after_hk_grid_m2": 20.989894778478476,
+      "area_change_m2": -2.5791612046077717e-07,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NE-17B_1993-07",
+      "region_id": 2434,
+      "reason": "Self-intersection[114.216256712429 22.3176238628844]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 4178.629843847054,
+      "area_after_hk_grid_m2": 4178.629843555229,
+      "area_change_m2": -2.918250174843706e-07,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NE-17C_1993-07",
+      "region_id": 313,
+      "reason": "Self-intersection[114.208112254434 22.3130521169627]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 20.053619265965807,
+      "area_after_hk_grid_m2": 20.05361841840434,
+      "area_change_m2": -8.475614663439046e-07,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NE-18A_1990-06",
+      "region_id": 707,
+      "reason": "Self-intersection[114.219715475791 22.3213142462612]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 77.89783752277316,
+      "area_after_hk_grid_m2": 77.89783744867894,
+      "area_change_m2": -7.409421698412189e-08,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NE-1A_1990-01",
+      "region_id": 1235,
+      "reason": "Self-intersection[114.193072368131 22.3540217509959]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 801.6647469120755,
+      "area_after_hk_grid_m2": 801.664746889721,
+      "area_change_m2": -2.2354583961714525e-08,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NE-1B_1990-02",
+      "region_id": 833,
+      "reason": "Self-intersection[114.197356111525 22.354443206561]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 46.99491089950211,
+      "area_after_hk_grid_m2": 46.994910897741505,
+      "area_change_m2": -1.760604106948449e-09,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NE-22A_1993-08",
+      "region_id": 166,
+      "reason": "Self-intersection[114.209469139636 22.3087433995002]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 46.161762958416375,
+      "area_after_hk_grid_m2": 46.16176245812822,
+      "area_change_m2": -5.002881522386815e-07,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NE-2B_1990-02",
+      "region_id": 1004,
+      "reason": "Self-intersection[114.213690428145 22.3515092668026]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 737.2588484624782,
+      "area_after_hk_grid_m2": 737.2588484622605,
+      "area_change_m2": -2.177102942368947e-10,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NE-2B_1990-02",
+      "region_id": 1220,
+      "reason": "Self-intersection[114.212654292815 22.3515094992855]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 194.17658385641005,
+      "area_after_hk_grid_m2": 194.17658385642474,
+      "area_change_m2": 1.4694023775518872e-11,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NE-2B_1990-02",
+      "region_id": 1838,
+      "reason": "Self-intersection[114.214733470171 22.3501300668283]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 55.43886702684759,
+      "area_after_hk_grid_m2": 55.43886696056981,
+      "area_change_m2": -6.627777793255518e-08,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NE-3A_1984-10",
+      "region_id": 842,
+      "reason": "Self-intersection[114.224754113884 22.3535248286336]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 145.64521933510042,
+      "area_after_hk_grid_m2": 145.64521933495502,
+      "area_change_m2": -1.454054654459469e-10,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NE-3A_1984-10",
+      "region_id": 1945,
+      "reason": "Self-intersection[114.221653685733 22.3500769796873]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 270.92135184119644,
+      "area_after_hk_grid_m2": 270.9213517185558,
+      "area_change_m2": -1.2264064253031393e-07,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NE-8A_1991-08",
+      "region_id": 2416,
+      "reason": "Self-intersection[114.223361621199 22.3403328596178]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 72.11344309968713,
+      "area_after_hk_grid_m2": 72.1134430915235,
+      "area_change_m2": -8.163638653968519e-09,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NE-8C_1990-05",
+      "region_id": 4087,
+      "reason": "Self-intersection[114.218449536386 22.3347247875197]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 75.02995216346947,
+      "area_after_hk_grid_m2": 75.02995212263126,
+      "area_change_m2": -4.0838216364136315e-08,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NW-10D_1989-11",
+      "region_id": 641,
+      "reason": "Self-intersection[114.186294139805 22.3379709256076]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 13.901940051956988,
+      "area_after_hk_grid_m2": 13.901940038163968,
+      "area_change_m2": -1.3793020059438277e-08,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NW-10D_1989-11",
+      "region_id": 2153,
+      "reason": "Self-intersection[114.182469421385 22.3361474869389]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 11.371474540380607,
+      "area_after_hk_grid_m2": 11.371474540846775,
+      "area_change_m2": 4.661675490069683e-10,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NW-14A_1990-10",
+      "region_id": 4419,
+      "reason": "Self-intersection[114.159938061554 22.3293712047351]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 55.41320066503178,
+      "area_after_hk_grid_m2": 55.413200663722016,
+      "area_change_m2": -1.3097647411086655e-09,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NW-14A_1990-10",
+      "region_id": 5918,
+      "reason": "Self-intersection[114.160675763823 22.3282630643411]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 216.93612095379507,
+      "area_after_hk_grid_m2": 216.9361209489944,
+      "area_change_m2": -4.8006825181801105e-09,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NW-14C_1990-09",
+      "region_id": 2231,
+      "reason": "Self-intersection[114.164002777009 22.3262192123337]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 58.08464347778532,
+      "area_after_hk_grid_m2": 58.0846434416313,
+      "area_change_m2": -3.6154020222056715e-08,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NW-15D_1989-11",
+      "region_id": 1510,
+      "reason": "Self-intersection[114.186891029228 22.3259206225216]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 234.4177736304254,
+      "area_after_hk_grid_m2": 234.41777363092038,
+      "area_change_m2": 4.949924914399162e-10,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NW-19A_1990-09",
+      "region_id": 616,
+      "reason": "Self-intersection[114.164823135063 22.3218494464522]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 61.865044549506116,
+      "area_after_hk_grid_m2": 61.8650445521546,
+      "area_change_m2": 2.648484098699555e-09,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NW-4C_1989-11",
+      "region_id": 1637,
+      "reason": "Self-intersection[114.166282526284 22.3449008620443]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 36.044467438384075,
+      "area_after_hk_grid_m2": 36.04446743633305,
+      "area_change_m2": -2.0510242393356748e-09,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NW-4D_1989-11",
+      "region_id": 390,
+      "reason": "Self-intersection[114.167711193694 22.3490607690589]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 20.425955329091067,
+      "area_after_hk_grid_m2": 20.425955341701346,
+      "area_change_m2": 1.2610279043201444e-08,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NW-4D_1989-11",
+      "region_id": 1975,
+      "reason": "Self-intersection[114.169781047909 22.3465737492145]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 20.894440557517115,
+      "area_after_hk_grid_m2": 20.894440559609688,
+      "area_change_m2": 2.0925732258092467e-09,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NW-5A_1985-03",
+      "region_id": 424,
+      "reason": "Self-intersection[114.181242674964 22.3543872790031]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 33.58549703391304,
+      "area_after_hk_grid_m2": 33.58549662453128,
+      "area_change_m2": -4.093817622674578e-07,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NW-5C_1989-11",
+      "region_id": 98,
+      "reason": "Self-intersection[114.180306375121 22.3494557548739]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 56.626019129122646,
+      "area_after_hk_grid_m2": 56.626018799597325,
+      "area_change_m2": -3.2952532080798846e-07,
+      "output_geometry_type": "MultiPolygon"
+    },
+    {
+      "sheet_epoch": "11-NW-9D_1990-06",
+      "region_id": 800,
+      "reason": "Self-intersection[114.17362939206 22.3378497831262]",
+      "method": "GEOS make_valid on derived EPSG:4326 contour; original preserved",
+      "area_before_hk_grid_m2": 17.520378463708486,
+      "area_after_hk_grid_m2": 17.520378462108226,
+      "area_change_m2": -1.600259480483146e-09,
+      "output_geometry_type": "MultiPolygon"
+    }
+  ],
+  "script_sha256": "6d6a1f9de5eb755b11140bca76b2c5c56c824ce013880b5e956cf63529b9a18d"
+}

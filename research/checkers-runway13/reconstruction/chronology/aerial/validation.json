@@ -1,0 +1,677 @@
+{
+  "checked_utc": "2026-10-13T12:38:44.559979+00:00",
+  "index_features": 14927,
+  "csv_rows": 14927,
+  "unique_frame_ids": 14927,
+  "index_service_count": 14927,
+  "image_checks": [
+    {
+      "file": "previews/A02686.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A07352.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A10967.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A15183.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A19369.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A23632.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A28854.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A33224.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/CN4581.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/CN4582.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/CN4580.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/CN8230.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/CN12272.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/CN15587.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/CN19000.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/CN21247.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A03144.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/CN1077.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A10933.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A19257.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A33041.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A36144.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A36142.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A36141.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/CN21282.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A02663.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/CN1074.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A10880.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A18951.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A23653.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A36145.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A36146.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/CN12226.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/CN15732.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/CN887.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/CN1071.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A10990.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A15215.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A18947.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A23695.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A28904.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A36171.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/A36172.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/CN4589.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/CN15613.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/CN18609.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "previews/CN22163.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "file": "fullframes/A02663.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A02686.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A03144.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A07352.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A10880.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A10933.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A10967.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A10990.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A15183.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A15215.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A18947.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A18951.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A19257.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A19369.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A23632.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A23653.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A23695.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A28854.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A28904.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A33041.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A33224.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A36141.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A36142.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A36143.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A36144.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A36145.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A36146.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A36171.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/A36172.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/CN1071.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/CN1074.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/CN1077.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/CN12226.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/CN12272.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/CN15587.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/CN15613.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/CN15732.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/CN18609.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/CN19000.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/CN21247.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/CN21282.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/CN22163.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/CN4580.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/CN4581.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/CN4582.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/CN4589.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/CN8230.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "file": "fullframes/CN887.jpg",
+      "sha256_ok": true,
+      "jpeg_decode_ok": true,
+      "width": 3000,
+      "height": 3000
+    }
+  ],
+  "all_images_hash_and_decode_passed": true,
+  "georeferenced_photos": 0,
+  "per_building_classification_complete": false
+}

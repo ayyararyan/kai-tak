@@ -1,0 +1,17 @@
+{
+  "checked_utc": "2026-10-13",
+  "checks": {
+    "source_hashes_match": true,
+    "all_residuals_recomputed": true,
+    "fit6_holdout4": true,
+    "affine_invertible": true,
+    "raster_crs_2326": true,
+    "explicit_mask_both_supported_unsupported": true,
+    "not_fullframe_or_height_claim": true,
+    "mask_count_matches": true
+  },
+  "all_passed": true,
+  "completion": "local_registration_diagnostic_only",
+  "absolute_accuracy_validated": false,
+  "historical_3d_complete": false
+}

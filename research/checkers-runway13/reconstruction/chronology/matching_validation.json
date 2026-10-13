@@ -1,0 +1,14 @@
+{
+  "target_date": "1993-11-04",
+  "current_aoi_features": 69915,
+  "unique_csuid": 69915,
+  "has_both_bracketing_sheet_months": 69851,
+  "has_any_downloaded_bracketing_sheet": 22006,
+  "has_1993_aerial_before": 69915,
+  "has_1993_aerial_after": 69915,
+  "sheet_frame_overlap_pairs": 16968,
+  "downloaded_sheets_paired": 227,
+  "frame_count_1993": 1277,
+  "unresolved_input_or_overlap_issues": 0,
+  "semantics": "Source coverage candidates, not visual confirmation, footprint identity, height measurement or historical clearance."
+}

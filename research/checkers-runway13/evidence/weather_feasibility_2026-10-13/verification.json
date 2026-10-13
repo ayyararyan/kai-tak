@@ -1,0 +1,23 @@
+{
+  "url": "https://www.ncei.noaa.gov/pub/data/noaa/1993/450070-99999-1993.gz",
+  "retrieved_utc": "2026-10-13T13:07:52.417537+00:00",
+  "bytes": 127633,
+  "sha256": "617c7db4f19c3aaacef91ae8a688c0aab196cdfc7ddfba72857c8e70056d66e0",
+  "rows": 8549,
+  "date_min": "19930101",
+  "date_max": "19931231",
+  "lat_lon_elevation_codes": [
+    [
+      "+22333",
+      "+114183",
+      "+0024"
+    ]
+  ],
+  "nov4_rows": 24,
+  "nov4_examples": [
+    "0122450070999991993110400004+22333+114183FM-15+0024VHHH V0200701N00871024001CN0050001N1+02401+02101999999",
+    "0152450070999991993110401004+22333+114183FM-15+0024VHHH V0200701N01031024001CN0048001N1+02301+02101999999",
+    "0152450070999991993110402004+22333+114183FM-15+0024VHHH V0200701N01131024001CN0060001N1+02401+02101999999"
+  ],
+  "verification_scope": "Gzip decompresses; fixed-width record header inspected. Station/date geolocation and quality flags not reconciled. Not along-flight winds."
+}

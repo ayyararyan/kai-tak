@@ -1,0 +1,114 @@
+{
+  "schema": "kai_tak.documentary_scene_evidence.v1",
+  "generated_utc": "2026-10-13T12:50:18.114241+00:00",
+  "status": "verified_source_and_documentary_package_historical_scene_incomplete",
+  "clearance_certified": false,
+  "solver_or_model_config_changed": false,
+  "coverage": {
+    "local_bbox_wgs84": [
+      114.1,
+      22.27,
+      114.25,
+      22.4
+    ],
+    "map_core_bbox_wgs84": [
+      114.16,
+      22.3,
+      114.22,
+      22.35
+    ],
+    "documentary_classification": "whole Hong Kong current footprint universe",
+    "aerial_index_years": [
+      1985,
+      1998
+    ]
+  },
+  "dates": {
+    "example_query": "1993-11-04",
+    "queryable_documentary_dates": "ISO date, conditional on available evidence; no continuous historical observation",
+    "current_building_release": "2026-09-21",
+    "terrain_photography": "2014\u20132015",
+    "map_dates": "edition months, not object survey dates",
+    "aerial_dates": "capture calendar dates; retained per frame"
+  },
+  "coordinate_systems": {
+    "index_and_current_building_geojson": "EPSG:4326; longitude,latitude",
+    "terrain_raster": "EPSG:2326; HK1980 Grid metres",
+    "historical_sheet_grid": "EPSG:2326 from source metadata; not always embedded in TIFF",
+    "vertical_datum": "HKPD metres for modern terrain/BaseHeight/TopHeight",
+    "aviation_datum_reconciliation": null,
+    "photo_registration": "none; aerial coverage index is not ground control"
+  },
+  "uncertainty": {
+    "terrain_stated_accuracy": {
+      "plus_minus_m": 5,
+      "coverage_statement": "90% confidence, source specification",
+      "worst_case_bound": false
+    },
+    "terrain_hard_height_intervals": null,
+    "historical_obstacle_height_intervals": null,
+    "historical_footprints_verified": 0,
+    "whole_aoi_historical_clearance": "unknown",
+    "current_top_height_missing_local": 10026,
+    "current_base_height_missing_local": 10233,
+    "source_heights": "approximate absolute HKPD elevations, not AGL; never add TopHeight to DTM",
+    "unknown_is_zero_or_absent": false,
+    "land_water_mask": null,
+    "terrain_may_include": "vegetation, bridges and elevated roads; not complete obstacle surface"
+  },
+  "artifacts": {
+    "local_features": {
+      "path_relative_to_handoff": "structures/aoi_features_1993-11-04.csv",
+      "bytes": 21367759,
+      "sha256": "4922f3166e278827612f83a9fc8908a86cae2fc15602adc491c28a35a7ade0b7"
+    },
+    "whole_features": {
+      "path_relative_to_handoff": "structures/current_features_1993-11-04.csv",
+      "bytes": 94064832,
+      "sha256": "e326558046559a2482e7b44b4650ef49272770669ee14b6af6999f3164f1006d"
+    },
+    "events": {
+      "path_relative_to_handoff": "structures/events.csv",
+      "bytes": 63670231,
+      "sha256": "285c078ed1eaf5994a46b9c519b6f7550797c8c055ee81e9fd041e68b343a634"
+    },
+    "source_matches": {
+      "path_relative_to_handoff": "structure_source_matches_1993-11-04.csv",
+      "bytes": 21840241,
+      "sha256": "d4e6dfa46860231bdeacc83b0bcfb3e00d77425a5af1e2a75056618412b492df"
+    },
+    "sheet_photo_pairs": {
+      "path_relative_to_handoff": "sheet_photo_pairs_1993.csv",
+      "bytes": 2276941,
+      "sha256": "98f584b7f9d159faff2c95a0cfc0112172d129fe29b119d46cf3ad01360b4b7a"
+    },
+    "visual_observations": {
+      "path_relative_to_handoff": "historical_visual_observations.csv",
+      "bytes": 19878,
+      "sha256": "65c7355ff0946c426d613da9384724992106d22c79b2890d7b6ad7163898401a"
+    },
+    "uncertainty_mask": {
+      "path_relative_to_handoff": "historical_uncertainty_mask.geojson",
+      "bytes": 896,
+      "sha256": "6b9e674738f26bf8cd9a0ca94665e00f6ad01e5ed59805e06c58986d05ff7583"
+    },
+    "local_terrain": {
+      "path_relative_to_handoff": "../../geospatial/derived/Kowloon_KaiTak_DTM_5m_HK1980.tif",
+      "bytes": 4328178,
+      "sha256": "7f040a7bbc639aa068c19ea994e3f1b58e35097abf88ebe9033c2eff9b998bdb"
+    },
+    "local_current_buildings": {
+      "path_relative_to_handoff": "../../geospatial/derived/Kowloon_KaiTak_buildings_20260921.geojson",
+      "bytes": 71966641,
+      "sha256": "b764e11af1b1a3b225756e142251977508b357f4542e728444a03d28152f1a57"
+    }
+  },
+  "downstream_rules": [
+    "Do not infer exact-date survival or unchanged geometry from completed-by-date evidence.",
+    "Do not treat later completion as prior absence.",
+    "Keep source conflicts and date intervals.",
+    "No hard clearance interval can be derived from the DTM 90% accuracy statement alone.",
+    "Historical full-scene validity is unknown everywhere in this AOI; the mask is epistemic, not physical occupancy.",
+    "Do not use this package to certify aircraft swept-volume clearance; registration, historic obstacle geometry, height bounds and datum/tracking margins remain missing."
+  ]
+}

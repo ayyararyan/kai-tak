@@ -1,0 +1,982 @@
+{
+  "source_sha256": {
+    "__init__.py": "6b65156957acd5c13a616a594a95d8da429b1bd513c1c31ccad3f1609a7a8006",
+    "solve.py": "3e88c0913c7d44007ca4a33d50a806f0d1a2d01c043c86bbff6ab2dd170baa62",
+    "test_model.py": "e10285f5d0702b1d7f13cf8446a2f9d78742b12e3c5894b3fd5c2f4efb695786",
+    "test_review_solver.py": "c730c734a50c734ca20fa2139ad26e71cb1533764a5a34748869e27aec79a80c",
+    "test_review_trajectory.py": "b116ae6250105cc889a1bb57e1f7c4efedb33605773181665442df50ae2013f6",
+    "trajectory.py": "d5a148fb9047d98cbed6fd03702b2250f6acf2e4b2a1e628eb280e77d96dc53f"
+  },
+  "schema_version": 1,
+  "utc": "2026-10-13T10:33:50.953471+00:00",
+  "status": "sampled_scenario_feasible",
+  "category": "scenario-based",
+  "aircraft_calibration": "unavailable",
+  "historical_comparison": "not performed",
+  "optimization": {
+    "primary": {
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully",
+      "iterations": 13,
+      "eta_variable": 0.027167658454243057,
+      "decisions": [
+        35.999994306711194,
+        6.460921234128295,
+        496.7543007860928,
+        75.10682055422684,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.043442996862096545,
+        0.15335154979239593
+      ],
+      "min_solver_constraint": -6.703665400564773e-14
+    },
+    "secondary": {
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully",
+      "iterations": 56,
+      "eta_variable": 0.027067658454242218,
+      "decisions": [
+        37.402851914832254,
+        5.069508747414663,
+        394.98488995092436,
+        77.00672742337633,
+        15.391838009641887,
+        -21.059565370922712,
+        24.863385133260305,
+        7.0168625825244915,
+        48.62949099418352,
+        -1.2976089277953464,
+        -0.019354301020898787,
+        0.05819997631316159
+      ],
+      "min_solver_constraint": -7.187386102947002e-12
+    },
+    "selected": "secondary",
+    "collocation_per_phase": 241,
+    "interpretation": "local optimization within declared polynomial family; no global optimum or infeasibility proof",
+    "eta_retention_tolerance": 0.0001
+  },
+  "optimization_complete": false,
+  "baseline": {
+    "category": "scenario-based",
+    "evidence": "sampled nominal diagnostics, not continuous certificate",
+    "eta": -2.578702835739525,
+    "margin_minima": {
+      "eas_lower": 0.31933347962135555,
+      "eas_upper": 0.549848301730897,
+      "cl_lower": 0.4033072474493156,
+      "cl_upper": 0.5296010247623725,
+      "load_lower": 0.5460996204712613,
+      "load_upper": 0.35154959374334555,
+      "thrust_lower": -0.10702548336621333,
+      "thrust_upper": 0.43144838960176185,
+      "bank": 0.3846697510241607,
+      "roll_rate": 0.5215536786961001,
+      "thrust_slew": -2.578702835739525,
+      "descent": 0.48333333333333306,
+      "approach_sink": 0.46353225085192107,
+      "corridor": 0.9964287746291198,
+      "touchdown_x_lower": 0.6,
+      "touchdown_x_upper": 0.4,
+      "touchdown_sink_lower": 0.46666666666666706,
+      "touchdown_sink_upper": 0.5333333333333329,
+      "touchdown_lateral": 1.0,
+      "touchdown_track": 1.0,
+      "touchdown_bank": 1.0,
+      "stop_reserve": -0.01263245153593023
+    },
+    "hard_minima": {
+      "ground_height": 1.7763568394002505e-17,
+      "positive_forward_groundspeed": 0.5404478632138376,
+      "positive_lift_up": 0.9641729675958097
+    },
+    "violations": {
+      "thrust_lower": -0.10702548336621333,
+      "thrust_slew": -2.578702835739525,
+      "stop_reserve": -0.01263245153593023
+    },
+    "sampled_feasible": false,
+    "effort": 23.429497454003826,
+    "stop_x_m": 2669.299142248712,
+    "reserve_remaining_m": 116.70085775128791,
+    "max_bank_deg": 15.383256224395982,
+    "max_roll_deg_s": 2.392231606519499,
+    "eas_range_kt": [
+      147.77333918485422,
+      153.00606793076412
+    ],
+    "thrust_range_n": [
+      -74917.83835634933,
+      397986.1272787667
+    ],
+    "touchdown_x_m": 500.0,
+    "flight_duration_s": 42.5
+  },
+  "candidate": {
+    "category": "scenario-based",
+    "evidence": "sampled nominal diagnostics, not continuous certificate",
+    "eta": 0.02705285355874687,
+    "margin_minima": {
+      "eas_lower": 0.027066457307073223,
+      "eas_upper": 0.5499066073326546,
+      "cl_lower": 0.4044680240172415,
+      "cl_upper": 0.5129366507017032,
+      "load_lower": 0.48502584553456934,
+      "load_upper": 0.28765625411959045,
+      "thrust_lower": 0.11034082002278475,
+      "thrust_upper": 0.6268809233627285,
+      "bank": 0.4687620168962575,
+      "roll_rate": 0.2832462312207824,
+      "thrust_slew": 0.027064328339869492,
+      "descent": 0.02705285355874687,
+      "approach_sink": 0.04569474415325081,
+      "corridor": 0.8724789198565264,
+      "touchdown_x_lower": 0.3899697799018487,
+      "touchdown_x_upper": 0.6100302200981513,
+      "touchdown_sink_lower": 0.4666666666666641,
+      "touchdown_sink_upper": 0.5333333333333359,
+      "touchdown_lateral": 1.0,
+      "touchdown_track": 1.0,
+      "touchdown_bank": 1.0,
+      "stop_reserve": 0.027067658454257588
+    },
+    "hard_minima": {
+      "ground_height": 8.881784197001253e-17,
+      "positive_forward_groundspeed": 0.5404478632138376,
+      "positive_lift_up": 0.9732553088166431
+    },
+    "violations": {},
+    "sampled_feasible": true,
+    "effort": 9.432228390564806,
+    "stop_x_m": 2564.649652314577,
+    "reserve_remaining_m": 221.350347685423,
+    "max_bank_deg": 13.280949577593564,
+    "max_roll_deg_s": 3.5837688438960877,
+    "eas_range_kt": [
+      136.08265829228293,
+      153.00373570669382
+    ],
+    "thrust_range_n": [
+      77238.57401594933,
+      261183.35364609
+    ],
+    "touchdown_x_m": 394.98488995092436,
+    "flight_duration_s": 42.47236066224692
+  },
+  "baseline_replay": {
+    "passed": true,
+    "terminal_constraints_passed": true,
+    "stop_constraint_passed": false,
+    "path_constraints_passed": false,
+    "constraint_status": "violated",
+    "replay_constraint_summary": {
+      "category": "scenario-based",
+      "evidence": "sampled nominal diagnostics, not continuous certificate",
+      "eta": -2.5787028357387918,
+      "margin_minima": {
+        "eas_lower": 0.31933347856206706,
+        "eas_upper": 0.5498483017308977,
+        "cl_lower": 0.4033072474493158,
+        "cl_upper": 0.5296010247623725,
+        "load_lower": 0.546099620471307,
+        "load_upper": 0.3515495945089035,
+        "thrust_lower": -0.10702548336621341,
+        "thrust_upper": 0.4314483896017619,
+        "bank": 0.3846697510241607,
+        "roll_rate": 0.5215536786960748,
+        "thrust_slew": -2.5787028357387918,
+        "descent": 0.4833333333333334,
+        "approach_sink": 0.46353225085192107,
+        "corridor": 0.996428774629122,
+        "touchdown_x_lower": 0.5999999997100532,
+        "touchdown_x_upper": 0.4000000002899468,
+        "touchdown_sink_lower": 0.4666666852536809,
+        "touchdown_sink_upper": 0.5333333147463192,
+        "touchdown_lateral": 0.9999999954610026,
+        "touchdown_track": 0.9999999986995872,
+        "touchdown_bank": 1.0,
+        "stop_reserve": -0.012632451212497387
+      },
+      "hard_minima": {
+        "ground_height": 1.895766960877711e-05,
+        "positive_forward_groundspeed": 0.5404478632138376,
+        "positive_lift_up": 0.9641729675958097
+      },
+      "violations": {
+        "thrust_lower": -0.10702548336621341,
+        "thrust_slew": -2.5787028357387918,
+        "stop_reserve": -0.012632451212497387
+      },
+      "sampled_feasible": false,
+      "effort": 23.42949745400378,
+      "stop_x_m": 2669.299141396143,
+      "reserve_remaining_m": 116.70085860385689,
+      "max_bank_deg": 15.383256224395982,
+      "max_roll_deg_s": 2.3922316065196263,
+      "eas_range_kt": [
+        147.77333914248268,
+        153.0060679307641
+      ],
+      "thrust_range_n": [
+        -74917.83835634938,
+        397986.12727876665
+      ],
+      "touchdown_x_m": 499.9999998550266,
+      "flight_duration_s": 42.5
+    },
+    "boundary_unresolved": {},
+    "terminal_boundary_unresolved": {},
+    "terminal_constraint_status": "passed",
+    "contact_height_residual_m": -6.748434836639783e-08,
+    "constraint_evidence": "integrated-state airborne samples; phasewise one-sided rates; exact straight rollout obstacle clearance; no continuous-flight certificate",
+    "integration_success": true,
+    "max_position_error_m": 1.615131147810673e-07,
+    "max_velocity_error_mps": 3.096884773162241e-08,
+    "touchdown_xyz_m": [
+      499.9999998550266,
+      2.2694986778910827e-08,
+      -6.748434836639783e-08
+    ],
+    "touchdown_velocity_mps": [
+      76.99999998697966,
+      3.4952587701463753e-09,
+      -0.7000000278805213
+    ],
+    "stop_x_m": 2669.299141396143,
+    "stop_error_m": 8.525689736416098e-07,
+    "tolerances": {
+      "position_m": 0.05,
+      "velocity_mps": 0.005,
+      "stop_m": 0.1
+    },
+    "control_semantics": "nominal time-indexed CL, bank and thrust; not feedback",
+    "ground_contact": "inelastic removal of vertical velocity; deceleration begins after fixed delay"
+  },
+  "candidate_replay": {
+    "passed": true,
+    "terminal_constraints_passed": true,
+    "stop_constraint_passed": true,
+    "path_constraints_passed": true,
+    "constraint_status": "passed",
+    "replay_constraint_summary": {
+      "category": "scenario-based",
+      "evidence": "sampled nominal diagnostics, not continuous certificate",
+      "eta": 0.027052853560313173,
+      "margin_minima": {
+        "eas_lower": 0.02706645730741144,
+        "eas_upper": 0.5499066073325778,
+        "cl_lower": 0.4044680240172415,
+        "cl_upper": 0.5129366507017032,
+        "load_lower": 0.4850258455347877,
+        "load_upper": 0.28765625419265567,
+        "thrust_lower": 0.11034082002278475,
+        "thrust_upper": 0.6268809233627284,
+        "bank": 0.4687620168962575,
+        "roll_rate": 0.2832462312207824,
+        "thrust_slew": 0.027064328338546217,
+        "descent": 0.027052853560313173,
+        "approach_sink": 0.04569474415481645,
+        "corridor": 0.8724789198565919,
+        "touchdown_x_lower": 0.38996977987707837,
+        "touchdown_x_upper": 0.6100302201229216,
+        "touchdown_sink_lower": 0.466666668202589,
+        "touchdown_sink_upper": 0.533333331797411,
+        "touchdown_lateral": 0.9999999952282447,
+        "touchdown_track": 0.9999999982789741,
+        "touchdown_bank": 1.0,
+        "stop_reserve": 0.027067658496509415
+      },
+      "hard_minima": {
+        "ground_height": 1.478606551849955e-05,
+        "positive_forward_groundspeed": 0.5404478632138376,
+        "positive_lift_up": 0.9732553088166431
+      },
+      "violations": {},
+      "sampled_feasible": true,
+      "effort": 9.432228390564822,
+      "stop_x_m": 2564.649652203201,
+      "reserve_remaining_m": 221.35034779679881,
+      "max_bank_deg": 13.280949577593564,
+      "max_roll_deg_s": 3.5837688438960877,
+      "eas_range_kt": [
+        136.08265829229646,
+        153.0037357066969
+      ],
+      "thrust_range_n": [
+        77238.57401594933,
+        261183.35364609014
+      ],
+      "touchdown_x_m": 394.9848899385392,
+      "flight_duration_s": 42.47236066224692
+    },
+    "boundary_unresolved": {},
+    "terminal_boundary_unresolved": {},
+    "terminal_constraint_status": "passed",
+    "contact_height_residual_m": -3.674375064627311e-09,
+    "constraint_evidence": "integrated-state airborne samples; phasewise one-sided rates; exact straight rollout obstacle clearance; no continuous-flight certificate",
+    "integration_success": true,
+    "max_position_error_m": 2.7131797993516856e-08,
+    "max_velocity_error_mps": 5.558201594066261e-09,
+    "touchdown_xyz_m": [
+      394.9848899385392,
+      2.3858776823969627e-08,
+      -3.674375064627311e-09
+    ],
+    "touchdown_velocity_mps": [
+      77.00672742155497,
+      4.6261896391351245e-09,
+      -0.7000000023038835
+    ],
+    "stop_x_m": 2564.649652203201,
+    "stop_error_m": 1.1137581168441102e-07,
+    "tolerances": {
+      "position_m": 0.05,
+      "velocity_mps": 0.005,
+      "stop_m": 0.1
+    },
+    "control_semantics": "nominal time-indexed CL, bank and thrust; not feedback",
+    "ground_contact": "inelastic removal of vertical velocity; deceleration begins after fixed delay"
+  },
+  "dense_grid_per_phase": 2401,
+  "mesh_check": {
+    "optimization_grid_eta": 0.027067658447054832,
+    "primary_dense_eta": 0.02715692212893195,
+    "secondary_retains_primary_dense_eta": false,
+    "dense_grid_eta": 0.02705285355874687,
+    "difference": -1.4804888307962116e-05
+  },
+  "sensitivity": [
+    {
+      "case": "steady_crosswind_plus5",
+      "parameter": "wind_mps",
+      "value": [
+        0.0,
+        5.0,
+        0.0
+      ],
+      "summary": {
+        "category": "scenario-based",
+        "evidence": "sampled nominal diagnostics, not continuous certificate",
+        "eta": 0.027067658454257588,
+        "margin_minima": {
+          "eas_lower": 0.1176894964381134,
+          "eas_upper": 0.37054172797042073,
+          "cl_lower": 0.3705703975065851,
+          "cl_upper": 0.5223653274409304,
+          "load_lower": 0.4845085739097471,
+          "load_upper": 0.28764348811566387,
+          "thrust_lower": 0.11113779684399903,
+          "thrust_upper": 0.6266205784934902,
+          "bank": 0.4756595065651249,
+          "roll_rate": 0.2877555718530844,
+          "thrust_slew": 0.027922831202647047,
+          "descent": 0.03774248990298268,
+          "approach_sink": 0.04569474415325081,
+          "corridor": 0.8724789198565264,
+          "touchdown_x_lower": 0.3899697799018487,
+          "touchdown_x_upper": 0.6100302200981513,
+          "touchdown_sink_lower": 0.4666666666666641,
+          "touchdown_sink_upper": 0.5333333333333359,
+          "touchdown_lateral": 1.0,
+          "touchdown_track": 1.0,
+          "touchdown_bank": 1.0,
+          "stop_reserve": 0.027067658454257588
+        },
+        "hard_minima": {
+          "ground_height": 8.881784197001253e-17,
+          "positive_forward_groundspeed": 0.5404478632138376,
+          "positive_lift_up": 0.9739422833333968
+        },
+        "violations": {},
+        "sampled_feasible": true,
+        "effort": 9.399857270182581,
+        "stop_x_m": 2564.649652314577,
+        "reserve_remaining_m": 221.350347685423,
+        "max_bank_deg": 13.108512335871877,
+        "max_roll_deg_s": 3.561222140734578,
+        "eas_range_kt": [
+          139.70757985752454,
+          160.17833088118317
+        ],
+        "thrust_range_n": [
+          77796.45779079932,
+          261365.5950545569
+        ],
+        "touchdown_x_m": 394.98488995092436,
+        "flight_duration_s": 42.47236066224692
+      },
+      "replay": {
+        "passed": true,
+        "terminal_constraints_passed": true,
+        "stop_constraint_passed": true,
+        "path_constraints_passed": true,
+        "constraint_status": "passed",
+        "replay_constraint_summary": {
+          "category": "scenario-based",
+          "evidence": "sampled nominal diagnostics, not continuous certificate",
+          "eta": 0.027067658510768228,
+          "margin_minima": {
+            "eas_lower": 0.1176894964384239,
+            "eas_upper": 0.3705417279702061,
+            "cl_lower": 0.3705703975065851,
+            "cl_upper": 0.5223653274409304,
+            "load_lower": 0.48450857390993646,
+            "load_upper": 0.28764348823080116,
+            "thrust_lower": 0.11113779684399895,
+            "thrust_upper": 0.6266205784934902,
+            "bank": 0.475659506565125,
+            "roll_rate": 0.2877555718531024,
+            "thrust_slew": 0.02792283120275707,
+            "descent": 0.037742489904451504,
+            "approach_sink": 0.04569474415464214,
+            "corridor": 0.8724789198565766,
+            "touchdown_x_lower": 0.3899697798669514,
+            "touchdown_x_upper": 0.6100302201330486,
+            "touchdown_sink_lower": 0.4666666691707005,
+            "touchdown_sink_upper": 0.5333333308292995,
+            "touchdown_lateral": 0.9999999931518802,
+            "touchdown_track": 0.9999999975478615,
+            "touchdown_bank": 1.0,
+            "stop_reserve": 0.027067658510768228
+          },
+          "hard_minima": {
+            "ground_height": 1.4786037181825155e-05,
+            "positive_forward_groundspeed": 0.5404478632138376,
+            "positive_lift_up": 0.9739422833333968
+          },
+          "violations": {},
+          "sampled_feasible": true,
+          "effort": 9.399857270182578,
+          "stop_x_m": 2564.649652165615,
+          "reserve_remaining_m": 221.35034783438505,
+          "max_bank_deg": 13.108512335871875,
+          "max_roll_deg_s": 3.5612221407344875,
+          "eas_range_kt": [
+            139.70757985753696,
+            160.17833088119175
+          ],
+          "thrust_range_n": [
+            77796.45779079926,
+            261365.5950545569
+          ],
+          "touchdown_x_m": 394.9848899334757,
+          "flight_duration_s": 42.47236066224692
+        },
+        "boundary_unresolved": {},
+        "terminal_boundary_unresolved": {},
+        "terminal_constraint_status": "passed",
+        "contact_height_residual_m": -6.510524210023849e-09,
+        "constraint_evidence": "integrated-state airborne samples; phasewise one-sided rates; exact straight rollout obstacle clearance; no continuous-flight certificate",
+        "integration_success": true,
+        "max_position_error_m": 3.897770223294553e-08,
+        "max_velocity_error_mps": 7.9909052077313e-09,
+        "touchdown_xyz_m": [
+          394.9848899334757,
+          3.4240599281062304e-08,
+          -6.510524210023849e-09
+        ],
+        "touchdown_velocity_mps": [
+          77.0067274209566,
+          6.591451050906591e-09,
+          -0.7000000037560508
+        ],
+        "stop_x_m": 2564.649652165615,
+        "stop_error_m": 1.4896204447722994e-07,
+        "tolerances": {
+          "position_m": 0.05,
+          "velocity_mps": 0.005,
+          "stop_m": 0.1
+        },
+        "control_semantics": "nominal time-indexed CL, bank and thrust; not feedback",
+        "ground_contact": "inelastic removal of vertical velocity; deceleration begins after fixed delay"
+      },
+      "provenance": {
+        "value": [
+          0.0,
+          5.0,
+          0.0
+        ],
+        "unit": "m/s runway-frame",
+        "category": "scenario-based",
+        "source": "Sensitivity steady_crosswind_plus5: perturbation of executed nominal wind_mps; not an observed or unit-converted historical value"
+      },
+      "interpretation": "exact nominal ground path and timing, inverse controls conditioned on wind; airspeed/air-gamma endpoint equalities may change; not common-policy robustness"
+    },
+    {
+      "case": "steady_crosswind_minus5",
+      "parameter": "wind_mps",
+      "value": [
+        0.0,
+        -5.0,
+        0.0
+      ],
+      "summary": {
+        "category": "scenario-based",
+        "evidence": "sampled nominal diagnostics, not continuous certificate",
+        "eta": -0.05504918132679108,
+        "margin_minima": {
+          "eas_lower": -0.05504918132679108,
+          "eas_upper": 0.5422657642066909,
+          "cl_lower": 0.4028479573370207,
+          "cl_upper": 0.47856918501184637,
+          "load_lower": 0.485379058378572,
+          "load_upper": 0.28764348811566387,
+          "thrust_lower": 0.11113779684399903,
+          "thrust_upper": 0.6266205784934902,
+          "bank": 0.4628031136411753,
+          "roll_rate": 0.27969205068515,
+          "thrust_slew": 0.027922831202647047,
+          "descent": 0.02036021991948278,
+          "approach_sink": 0.04569474415325081,
+          "corridor": 0.8724789198565264,
+          "touchdown_x_lower": 0.3899697799018487,
+          "touchdown_x_upper": 0.6100302200981513,
+          "touchdown_sink_lower": 0.4666666666666641,
+          "touchdown_sink_upper": 0.5333333333333359,
+          "touchdown_lateral": 1.0,
+          "touchdown_track": 1.0,
+          "touchdown_bank": 1.0,
+          "stop_reserve": 0.027067658454257588
+        },
+        "hard_minima": {
+          "ground_height": 8.881784197001253e-17,
+          "positive_forward_groundspeed": 0.5404478632138376,
+          "positive_lift_up": 0.9726547174900467
+        },
+        "violations": {
+          "eas_lower": -0.05504918132679108
+        },
+        "sampled_feasible": false,
+        "effort": 9.464298356514606,
+        "stop_x_m": 2564.649652314577,
+        "reserve_remaining_m": 221.350347685423,
+        "max_bank_deg": 13.429922158970616,
+        "max_roll_deg_s": 3.6015397465742502,
+        "eas_range_kt": [
+          132.79803274692836,
+          153.30936943173236
+        ],
+        "thrust_range_n": [
+          77796.45779079932,
+          261365.5950545569
+        ],
+        "touchdown_x_m": 394.98488995092436,
+        "flight_duration_s": 42.47236066224692
+      },
+      "replay": {
+        "passed": true,
+        "terminal_constraints_passed": true,
+        "stop_constraint_passed": true,
+        "path_constraints_passed": false,
+        "constraint_status": "violated",
+        "replay_constraint_summary": {
+          "category": "scenario-based",
+          "evidence": "sampled nominal diagnostics, not continuous certificate",
+          "eta": -0.05504918132645642,
+          "margin_minima": {
+            "eas_lower": -0.05504918132645642,
+            "eas_upper": 0.542265764067615,
+            "cl_lower": 0.4028479573370206,
+            "cl_upper": 0.4785691850118463,
+            "load_lower": 0.4853790583788286,
+            "load_upper": 0.28764348803438294,
+            "thrust_lower": 0.11113779684399903,
+            "thrust_upper": 0.6266205784934902,
+            "bank": 0.46280311364117543,
+            "roll_rate": 0.2796920506851175,
+            "thrust_slew": 0.027922831205099974,
+            "descent": 0.020360219921163325,
+            "approach_sink": 0.04569474415500341,
+            "corridor": 0.8724789198566077,
+            "touchdown_x_lower": 0.3899697799324299,
+            "touchdown_x_upper": 0.6100302200675701,
+            "touchdown_sink_lower": 0.466666665095452,
+            "touchdown_sink_upper": 0.533333334904548,
+            "touchdown_lateral": 0.999999994321673,
+            "touchdown_track": 0.9999999979188237,
+            "touchdown_bank": 1.0,
+            "stop_reserve": 0.027067658399093596
+          },
+          "hard_minima": {
+            "ground_height": 1.4786134966140556e-05,
+            "positive_forward_groundspeed": 0.5404478632138376,
+            "positive_lift_up": 0.9726547174900467
+          },
+          "violations": {
+            "eas_lower": -0.05504918132645642
+          },
+          "sampled_feasible": false,
+          "effort": 9.4642983565146,
+          "stop_x_m": 2564.6496524599893,
+          "reserve_remaining_m": 221.35034754001072,
+          "max_bank_deg": 13.429922158970614,
+          "max_roll_deg_s": 3.6015397465744123,
+          "eas_range_kt": [
+            132.79803274694174,
+            153.3093694372954
+          ],
+          "thrust_range_n": [
+            77796.45779079932,
+            261365.5950545569
+          ],
+          "touchdown_x_m": 394.98488996621495,
+          "flight_duration_s": 42.47236066224692
+        },
+        "boundary_unresolved": {},
+        "terminal_boundary_unresolved": {},
+        "terminal_constraint_status": "passed",
+        "contact_height_residual_m": 3.280263536492578e-09,
+        "constraint_evidence": "integrated-state airborne samples; phasewise one-sided rates; exact straight rollout obstacle clearance; no continuous-flight certificate",
+        "integration_success": true,
+        "max_position_error_m": 3.2413690325148885e-08,
+        "max_velocity_error_mps": 6.668734599943042e-09,
+        "touchdown_xyz_m": [
+          394.98488996621495,
+          -2.839163504417641e-08,
+          3.280263536492578e-09
+        ],
+        "touchdown_velocity_mps": [
+          77.00672742577049,
+          -5.59428911366666e-09,
+          -0.699999997643178
+        ],
+        "stop_x_m": 2564.6496524599893,
+        "stop_error_m": 1.454122866562102e-07,
+        "tolerances": {
+          "position_m": 0.05,
+          "velocity_mps": 0.005,
+          "stop_m": 0.1
+        },
+        "control_semantics": "nominal time-indexed CL, bank and thrust; not feedback",
+        "ground_contact": "inelastic removal of vertical velocity; deceleration begins after fixed delay"
+      },
+      "provenance": {
+        "value": [
+          0.0,
+          -5.0,
+          0.0
+        ],
+        "unit": "m/s runway-frame",
+        "category": "scenario-based",
+        "source": "Sensitivity steady_crosswind_minus5: perturbation of executed nominal wind_mps; not an observed or unit-converted historical value"
+      },
+      "interpretation": "exact nominal ground path and timing, inverse controls conditioned on wind; airspeed/air-gamma endpoint equalities may change; not common-policy robustness"
+    },
+    {
+      "case": "mass_plus5percent",
+      "parameter": "mass_kg",
+      "value": 250384.757250243,
+      "summary": {
+        "category": "scenario-based",
+        "evidence": "sampled nominal diagnostics, not continuous certificate",
+        "eta": 0.008250645094898923,
+        "margin_minima": {
+          "eas_lower": 0.027066457307073223,
+          "eas_upper": 0.5499066073326546,
+          "cl_lower": 0.4246914252181035,
+          "cl_upper": 0.48858348323678835,
+          "load_lower": 0.4850258455345695,
+          "load_upper": 0.28765625411959017,
+          "thrust_lower": 0.11466937011885099,
+          "thrust_upper": 0.6100708694931701,
+          "bank": 0.4687620168962575,
+          "roll_rate": 0.28324623122078363,
+          "thrust_slew": 0.008250645094898923,
+          "descent": 0.02705285355874687,
+          "approach_sink": 0.04569474415325081,
+          "corridor": 0.8724789198565264,
+          "touchdown_x_lower": 0.3899697799018487,
+          "touchdown_x_upper": 0.6100302200981513,
+          "touchdown_sink_lower": 0.4666666666666641,
+          "touchdown_sink_upper": 0.5333333333333359,
+          "touchdown_lateral": 1.0,
+          "touchdown_track": 1.0,
+          "touchdown_bank": 1.0,
+          "stop_reserve": 0.027067658454257588
+        },
+        "hard_minima": {
+          "ground_height": 8.881784197001253e-17,
+          "positive_forward_groundspeed": 0.5404478632138376,
+          "positive_lift_up": 0.9732553088166431
+        },
+        "violations": {},
+        "sampled_feasible": true,
+        "effort": 9.597882046763784,
+        "stop_x_m": 2564.649652314577,
+        "reserve_remaining_m": 221.350347685423,
+        "max_bank_deg": 13.280949577593564,
+        "max_roll_deg_s": 3.5837688438960815,
+        "eas_range_kt": [
+          136.08265829228293,
+          153.00373570669382
+        ],
+        "thrust_range_n": [
+          80268.5590831957,
+          272950.39135478094
+        ],
+        "touchdown_x_m": 394.98488995092436,
+        "flight_duration_s": 42.47236066224692
+      },
+      "replay": {
+        "passed": true,
+        "terminal_constraints_passed": true,
+        "stop_constraint_passed": true,
+        "path_constraints_passed": true,
+        "constraint_status": "passed",
+        "replay_constraint_summary": {
+          "category": "scenario-based",
+          "evidence": "sampled nominal diagnostics, not continuous certificate",
+          "eta": 0.008250645094369125,
+          "margin_minima": {
+            "eas_lower": 0.02706645730741499,
+            "eas_upper": 0.5499066073325778,
+            "cl_lower": 0.42469142521810344,
+            "cl_upper": 0.48858348323678835,
+            "load_lower": 0.48502584553478967,
+            "load_upper": 0.2876562541925955,
+            "thrust_lower": 0.11466937011885103,
+            "thrust_upper": 0.61007086949317,
+            "bank": 0.4687620168962574,
+            "roll_rate": 0.28324623122079307,
+            "thrust_slew": 0.008250645094369125,
+            "descent": 0.027052853560315726,
+            "approach_sink": 0.04569474415481867,
+            "corridor": 0.8724789198565934,
+            "touchdown_x_lower": 0.3899697798770968,
+            "touchdown_x_upper": 0.6100302201229032,
+            "touchdown_sink_lower": 0.46666666820146613,
+            "touchdown_sink_upper": 0.5333333317985339,
+            "touchdown_lateral": 0.9999999952336143,
+            "touchdown_track": 0.9999999982809279,
+            "touchdown_bank": 1.0,
+            "stop_reserve": 0.027067658496473704
+          },
+          "hard_minima": {
+            "ground_height": 1.478606552450499e-05,
+            "positive_forward_groundspeed": 0.5404478632138376,
+            "positive_lift_up": 0.9732553088166431
+          },
+          "violations": {},
+          "sampled_feasible": true,
+          "effort": 9.59788204676379,
+          "stop_x_m": 2564.6496522032953,
+          "reserve_remaining_m": 221.35034779670468,
+          "max_bank_deg": 13.280949577593566,
+          "max_roll_deg_s": 3.5837688438960345,
+          "eas_range_kt": [
+            136.0826582922966,
+            153.0037357066969
+          ],
+          "thrust_range_n": [
+            80268.55908319572,
+            272950.391354781
+          ],
+          "touchdown_x_m": 394.9848899385484,
+          "flight_duration_s": 42.47236066224692
+        },
+        "boundary_unresolved": {},
+        "terminal_boundary_unresolved": {},
+        "terminal_constraint_status": "passed",
+        "contact_height_residual_m": -3.6737734972203118e-09,
+        "constraint_evidence": "integrated-state airborne samples; phasewise one-sided rates; exact straight rollout obstacle clearance; no continuous-flight certificate",
+        "integration_success": true,
+        "max_position_error_m": 2.710390408511798e-08,
+        "max_velocity_error_mps": 5.5518576305598105e-09,
+        "touchdown_xyz_m": [
+          394.9848899385484,
+          2.3831928629788082e-08,
+          -3.6737734972203118e-09
+        ],
+        "touchdown_velocity_mps": [
+          77.00672742155655,
+          4.620937911321158e-09,
+          -0.7000000023021992
+        ],
+        "stop_x_m": 2564.6496522032953,
+        "stop_error_m": 1.1128167898277752e-07,
+        "tolerances": {
+          "position_m": 0.05,
+          "velocity_mps": 0.005,
+          "stop_m": 0.1
+        },
+        "control_semantics": "nominal time-indexed CL, bank and thrust; not feedback",
+        "ground_contact": "inelastic removal of vertical velocity; deceleration begins after fixed delay"
+      },
+      "provenance": {
+        "value": 250384.757250243,
+        "unit": "kg",
+        "category": "scenario-based",
+        "source": "Sensitivity mass_plus5percent: perturbation of executed nominal mass_kg; not an observed or unit-converted historical value"
+      },
+      "interpretation": "fixed trajectory decisions; conditional inverse-force diagnostic"
+    },
+    {
+      "case": "braking_minus10percent",
+      "parameter": "brake_deceleration_mps2",
+      "value": 1.32389775,
+      "summary": {
+        "category": "scenario-based",
+        "evidence": "sampled nominal diagnostics, not continuous certificate",
+        "eta": -0.0578948819064273,
+        "margin_minima": {
+          "eas_lower": 0.027066457307073223,
+          "eas_upper": 0.5499066073326546,
+          "cl_lower": 0.4044680240172415,
+          "cl_upper": 0.5129366507017032,
+          "load_lower": 0.48502584553456934,
+          "load_upper": 0.28765625411959045,
+          "thrust_lower": 0.11034082002278475,
+          "thrust_upper": 0.6268809233627285,
+          "bank": 0.4687620168962575,
+          "roll_rate": 0.2832462312207824,
+          "thrust_slew": 0.027064328339869492,
+          "descent": 0.02705285355874687,
+          "approach_sink": 0.04569474415325081,
+          "corridor": 0.8724789198565264,
+          "touchdown_x_lower": 0.3899697799018487,
+          "touchdown_x_upper": 0.6100302200981513,
+          "touchdown_sink_lower": 0.4666666666666641,
+          "touchdown_sink_upper": 0.5333333333333359,
+          "touchdown_lateral": 1.0,
+          "touchdown_track": 1.0,
+          "touchdown_bank": 1.0,
+          "stop_reserve": -0.0578948819064273
+        },
+        "hard_minima": {
+          "ground_height": 8.881784197001253e-17,
+          "positive_forward_groundspeed": 0.5404478632138376,
+          "positive_lift_up": 0.9732553088166431
+        },
+        "violations": {
+          "stop_reserve": -0.0578948819064273
+        },
+        "sampled_feasible": false,
+        "effort": 9.432228390564806,
+        "stop_x_m": 2788.6109087053424,
+        "reserve_remaining_m": -2.6109087053423536,
+        "max_bank_deg": 13.280949577593564,
+        "max_roll_deg_s": 3.5837688438960877,
+        "eas_range_kt": [
+          136.08265829228293,
+          153.00373570669382
+        ],
+        "thrust_range_n": [
+          77238.57401594933,
+          261183.35364609
+        ],
+        "touchdown_x_m": 394.98488995092436,
+        "flight_duration_s": 42.47236066224692
+      },
+      "replay": {
+        "passed": true,
+        "terminal_constraints_passed": true,
+        "stop_constraint_passed": false,
+        "path_constraints_passed": false,
+        "constraint_status": "violated",
+        "replay_constraint_summary": {
+          "category": "scenario-based",
+          "evidence": "sampled nominal diagnostics, not continuous certificate",
+          "eta": -0.057894881860156754,
+          "margin_minima": {
+            "eas_lower": 0.02706645730741144,
+            "eas_upper": 0.5499066073325778,
+            "cl_lower": 0.4044680240172415,
+            "cl_upper": 0.5129366507017032,
+            "load_lower": 0.4850258455347877,
+            "load_upper": 0.28765625419265567,
+            "thrust_lower": 0.11034082002278475,
+            "thrust_upper": 0.6268809233627284,
+            "bank": 0.4687620168962575,
+            "roll_rate": 0.2832462312207824,
+            "thrust_slew": 0.027064328338546217,
+            "descent": 0.027052853560313173,
+            "approach_sink": 0.04569474415481645,
+            "corridor": 0.8724789198565919,
+            "touchdown_x_lower": 0.38996977987707837,
+            "touchdown_x_upper": 0.6100302201229216,
+            "touchdown_sink_lower": 0.466666668202589,
+            "touchdown_sink_upper": 0.533333331797411,
+            "touchdown_lateral": 0.9999999952282447,
+            "touchdown_track": 0.9999999982789741,
+            "touchdown_bank": 1.0,
+            "stop_reserve": -0.057894881860156754
+          },
+          "hard_minima": {
+            "ground_height": 1.478606551849955e-05,
+            "positive_forward_groundspeed": 0.5404478632138376,
+            "positive_lift_up": 0.9732553088166431
+          },
+          "violations": {
+            "stop_reserve": -0.057894881860156754
+          },
+          "sampled_feasible": false,
+          "effort": 9.432228390564822,
+          "stop_x_m": 2788.610908583373,
+          "reserve_remaining_m": -2.6109085833732024,
+          "max_bank_deg": 13.280949577593564,
+          "max_roll_deg_s": 3.5837688438960877,
+          "eas_range_kt": [
+            136.08265829229646,
+            153.0037357066969
+          ],
+          "thrust_range_n": [
+            77238.57401594933,
+            261183.35364609014
+          ],
+          "touchdown_x_m": 394.9848899385392,
+          "flight_duration_s": 42.47236066224692
+        },
+        "boundary_unresolved": {},
+        "terminal_boundary_unresolved": {},
+        "terminal_constraint_status": "passed",
+        "contact_height_residual_m": -3.674375064627311e-09,
+        "constraint_evidence": "integrated-state airborne samples; phasewise one-sided rates; exact straight rollout obstacle clearance; no continuous-flight certificate",
+        "integration_success": true,
+        "max_position_error_m": 2.7131797993516856e-08,
+        "max_velocity_error_mps": 5.558201594066261e-09,
+        "touchdown_xyz_m": [
+          394.9848899385392,
+          2.3858776823969627e-08,
+          -3.674375064627311e-09
+        ],
+        "touchdown_velocity_mps": [
+          77.00672742155497,
+          4.6261896391351245e-09,
+          -0.7000000023038835
+        ],
+        "stop_x_m": 2788.610908583373,
+        "stop_error_m": 1.219691512233112e-07,
+        "tolerances": {
+          "position_m": 0.05,
+          "velocity_mps": 0.005,
+          "stop_m": 0.1
+        },
+        "control_semantics": "nominal time-indexed CL, bank and thrust; not feedback",
+        "ground_contact": "inelastic removal of vertical velocity; deceleration begins after fixed delay"
+      },
+      "provenance": {
+        "value": 1.32389775,
+        "unit": "m/s2",
+        "category": "scenario-based",
+        "source": "Sensitivity braking_minus10percent: perturbation of executed nominal brake_deceleration_mps2; not an observed or unit-converted historical value"
+      },
+      "interpretation": "fixed trajectory decisions; conditional inverse-force diagnostic"
+    }
+  ],
+  "nominal_objective_delta": 2.605755689298272,
+  "improvement_interpretation": "Difference from an infeasible unoptimized synthetic seed, not an admissible historical comparator; no historical or globally optimal claim",
+  "constraints": "Sampled and replay-checked; finite grids are not continuous-time proof",
+  "runtime": {
+    "python": "3.12.13 (main, Jun 23 2026, 15:44:24) [Clang 22.1.3 ]",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "platform": "macOS-26.5.2-arm64-arm-64bit"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "baseline.csv": {
+    "sha256": "807940f8272e34f78499d2d8d55fde23e92198a0a6b1be9f4aea0676952626b3",
+    "bytes": 1457043
+  },
+  "candidate.csv": {
+    "sha256": "94d319fe7bbff66e8e8a9f42def9b114214c026ec1e45f8476224d2a40a30a22",
+    "bytes": 1488672
+  },
+  "optimization_replay.json": {
+    "sha256": "b99646b25a52369801ecb26c7798fccfbc4af358aa3a7fa8f43ef94af8009f7d",
+    "bytes": 37416
+  },
+  "parameter_provenance.json": {
+    "sha256": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693",
+    "bytes": 9059
+  },
+  "trajectory.png": {
+    "sha256": "b74f16b755bf58594e29959866b676ddd40e01f7c0bb29adc59b73770cd361ee",
+    "bytes": 228117
+  }
+}

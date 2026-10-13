@@ -1,0 +1,42 @@
+{
+  "verified_utc": "2026-10-13T13:21:35.919739+00:00",
+  "checks": {
+    "source_hashes_match": true,
+    "pinned_labels_validate": true,
+    "sparse_transform_hash_match": true,
+    "dense_inherits_accepted_transform": true,
+    "dense_inherits_pinned_labels": true,
+    "all_ground_fit_points_pass_gates": true,
+    "all_named_roof_heights_are_gated": true,
+    "relative_vertical_no_hkpd_claim": true,
+    "height_uncertainty_not_fabricated": true,
+    "sparse_csv_ply_count_match": true,
+    "sparse_finite_positions": true,
+    "sparse_reprojection_filter": true,
+    "sparse_1000_point_retriangulation_matches": true,
+    "dense_csv_ply_count_match": true,
+    "dense_finite_positions": true,
+    "dense_reprojection_filter": true,
+    "dense_1000_point_retriangulation_matches": true,
+    "dense_lr_filter": true,
+    "dense_texture_filter": true,
+    "dense_qc_mask_count": true,
+    "dense_qc_bits_reproduce_acceptance": true,
+    "guardrail_tests_pass": true
+  },
+  "all_passed": true,
+  "guardrail_tests_run": 19,
+  "numeric_detail": {
+    "sparse_retriangulation_max_abs_error_m": 0.0,
+    "dense_retriangulation_max_abs_error_m": 0.0
+  },
+  "review_repair_geometry_changes": {
+    "sparse_ply_identical_to_pre_guard_repair": true,
+    "dense_ply_identical_to_pre_guard_repair": true,
+    "roof_heights_unchanged": true,
+    "metric_baseline_unchanged": true,
+    "map_holdout_rmse_unchanged": true
+  },
+  "full_historical_scene_complete": false,
+  "independent_height_accuracy_calibrated": false
+}

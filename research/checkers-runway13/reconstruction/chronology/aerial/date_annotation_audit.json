@@ -1,0 +1,13 @@
+{
+  "frame_id": "A36143",
+  "index_DATEFLIGHT_epoch_ms": 752198400000,
+  "index_utc": "1993-11-02T00:00:00+00:00",
+  "index_hong_kong": "1993-11-02T08:00:00+08:00",
+  "product_FLIGHT_DATE": "1993-11-02",
+  "image_handwritten_date_transcription": "2.11.93",
+  "image_rotated_stamp_date_transcription": "2.11.93",
+  "inspection_resolution": "original 3000x3000; downsampled digit could appear ambiguous",
+  "verification": "Parent independently inspected annotation crop; acquisition agent independently inspected original image. Both read 2, not 3.",
+  "conflict": false,
+  "checked_on": "2026-10-13"
+}

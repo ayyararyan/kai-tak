@@ -1,0 +1,471 @@
+{
+  "generated_utc": "2026-10-13T12:51:56.602771+00:00",
+  "scope": "Root delivery and child manifests; map archives hashed in sheets/map_downloads.json, images in aerial manifests, structure records in structures/manifest.json. Private queue/session probe state excluded.",
+  "files": [
+    {
+      "path": "HANDOFF.json",
+      "bytes": 4757,
+      "sha256": "f8deecf9c45d622e3b4fd6bcef7b4245a7e736d4364b02dec8a8004be96f7a34"
+    },
+    {
+      "path": "MODEL_REQUIREMENTS_TRACEABILITY.md",
+      "bytes": 2514,
+      "sha256": "5718e8ed1db3a3b0a5f92d40d9d01ecd11916dbb93b6ca396e6ca37b8ee2f22d"
+    },
+    {
+      "path": "REPORT.md",
+      "bytes": 10016,
+      "sha256": "6a06f484eeeb20e9b6ff35d0fcb12c74efc4d96a80fc08c480ae54405c7aa11d"
+    },
+    {
+      "path": "SPEC.md",
+      "bytes": 7480,
+      "sha256": "c21742b1a2b6a9b8f246034b82ccd9a537533e97b214b80d6cb2fcf559b23e97"
+    },
+    {
+      "path": "a36143_annotation_check.png",
+      "bytes": 90933,
+      "sha256": "75178fec7f4239b4170e931328dfa1d8b43b14bd326b53e8e50485a83988aa42"
+    },
+    {
+      "path": "aerial/README.md",
+      "bytes": 6828,
+      "sha256": "0a1641172ccbf4e746850c32f62907eebd68a8d7061ac0160814af37e171b764"
+    },
+    {
+      "path": "aerial/SHA256SUMS",
+      "bytes": 15078,
+      "sha256": "d5ab68e910491a0eaff4250896046b11b51975c4b605701e94fa72b73626448a"
+    },
+    {
+      "path": "aerial/VISUAL_OBSERVATIONS.md",
+      "bytes": 4062,
+      "sha256": "7086f0c8c96d7faf9affd2acfdb4880d0531f8d5ea0339b38106a0a8b4906d81"
+    },
+    {
+      "path": "aerial/aerial_footprints_1985_1998.geojson",
+      "bytes": 13719460,
+      "sha256": "a5f535e6f562fa61de51ff6a9a248fd18c7cd84a976a71dd733f61bc299d2478"
+    },
+    {
+      "path": "aerial/frame_catalogue.csv",
+      "bytes": 5576955,
+      "sha256": "d2f9a4e717bb6c9bb5f2649435d2e9a040f936ba25ff8a109ae07a13b08dcc22"
+    },
+    {
+      "path": "aerial/fullframe_manifest.json",
+      "bytes": 43488,
+      "sha256": "c8f5dbaeec03c4096af7a29f6de0b9300dc0c114b1c892d5210199556a805a99"
+    },
+    {
+      "path": "aerial/gallery.html",
+      "bytes": 21286,
+      "sha256": "49bf8f36fb3279531d2338280634da4f3040bdadf00696ebfffb227ab972b171"
+    },
+    {
+      "path": "aerial/preview_manifest.json",
+      "bytes": 26754,
+      "sha256": "a75916b0e26d2ad8fd7f470be5ffab4e7003f05cb5ad7a4ca4ee5d1a31b21ab8"
+    },
+    {
+      "path": "aerial/validation.json",
+      "bytes": 14390,
+      "sha256": "9efa1c115c620a7dcf0f28016d70ad48532079f56d1bf8d30b80f747b136087c"
+    },
+    {
+      "path": "coverage.png",
+      "bytes": 1354454,
+      "sha256": "983ea2786ff51aad083315cc1e3fa09222df2090e7710acf7318f6b2385b5d47"
+    },
+    {
+      "path": "historical_uncertainty_mask.geojson",
+      "bytes": 896,
+      "sha256": "6b9e674738f26bf8cd9a0ca94665e00f6ad01e5ed59805e06c58986d05ff7583"
+    },
+    {
+      "path": "historical_visual_observations.csv",
+      "bytes": 19878,
+      "sha256": "65c7355ff0946c426d613da9384724992106d22c79b2890d7b6ad7163898401a"
+    },
+    {
+      "path": "match_sources.py",
+      "bytes": 7576,
+      "sha256": "867dc1e6225a783f921a2d724d2fd58c7ac78c0460c1e6688a157ca60eaedc11"
+    },
+    {
+      "path": "matching_issues.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "matching_validation.json",
+      "bytes": 532,
+      "sha256": "db74c30e39f1aeb73a122fd4a2330051264b909ba6d62cf762556c46101ce293"
+    },
+    {
+      "path": "prepare_handoff.py",
+      "bytes": 3882,
+      "sha256": "993d87d3ff5e7832782ed841dd0d9b1eec904511276c8a30824c42e9c644ffb8"
+    },
+    {
+      "path": "record_visual_observations.py",
+      "bytes": 6073,
+      "sha256": "48fc83cd95a490e30fca7603dba316d5590e706b8a777b4b71bf09a23872ac38"
+    },
+    {
+      "path": "render_report.py",
+      "bytes": 3863,
+      "sha256": "2842ec2b0d59abfd42448713fa95d480f1218dab18573b82231df263de9e0212"
+    },
+    {
+      "path": "requirements.lock",
+      "bytes": 321,
+      "sha256": "3310313f4577aa36e4a1b31cf74ab0a32a405be5e82e3044168c7da5bf29b507"
+    },
+    {
+      "path": "reviews/DECISIONS.md",
+      "bytes": 3408,
+      "sha256": "2178b8bd5880141d8c5b7a6fd0a184a6741609d0701d649049365f2f2e96ee10"
+    },
+    {
+      "path": "sheet_photo_pairs_1993.csv",
+      "bytes": 2276941,
+      "sha256": "98f584b7f9d159faff2c95a0cfc0112172d129fe29b119d46cf3ad01360b4b7a"
+    },
+    {
+      "path": "sheets/acquire_indexes.py",
+      "bytes": 4136,
+      "sha256": "81f957609da92ac11a1febbebe12af9146200da3721e5f9148cd8f923fbb1669"
+    },
+    {
+      "path": "sheets/acquire_sheets.py",
+      "bytes": 4078,
+      "sha256": "7a9eb3ebd5375c4acfce4b43dacec56b8fd161f460b37d05bf1ceffee3020b95"
+    },
+    {
+      "path": "sheets/all_hk_sheet_index.csv",
+      "bytes": 19814868,
+      "sha256": "c3f56b0c9e967be18bd91333b0b8bae47ba1f5f402ea1dd5c5d7cd3886e474c8"
+    },
+    {
+      "path": "sheets/aoi_sheet_index.geojson",
+      "bytes": 14073159,
+      "sha256": "878014d1a4421e47273e67e8495a8f4caa862376d28cd9f0dc3b4c0f84e016be"
+    },
+    {
+      "path": "sheets/index_validation.json",
+      "bytes": 2110,
+      "sha256": "a99102eb3b8c5f821f47e4d0c9abe73d985fec92727307e45eb5629d42deedc7"
+    },
+    {
+      "path": "sheets/map_downloads.json",
+      "bytes": 277179,
+      "sha256": "9497d7563068847b754b70703a963c38852064f3cf889cb9f645c2600d4d29a2"
+    },
+    {
+      "path": "sheets/previews/1980_1990_1290_11-NW-10D_1982-12-01.png",
+      "bytes": 809346,
+      "sha256": "dba63b48430fc357c2eb9cf53b0d17e3b585db4f83e13cc77cdb66bed54c4dc2"
+    },
+    {
+      "path": "sheets/previews/1980_1990_1291_11-NW-10D_1987-07-01.png",
+      "bytes": 1016344,
+      "sha256": "3cda7dc7f99c5bb77516858d3c9bb437f28bf19ce6c419fb7f311d2a824e4ddb"
+    },
+    {
+      "path": "sheets/previews/1980_1990_1292_11-NW-10D_1989-11-01.png",
+      "bytes": 1068475,
+      "sha256": "fb690f5f99528fed85b2d537b35c843df4ac3b13a9b7e7fb52ccba0cf2ff0469"
+    },
+    {
+      "path": "sheets/previews/1980_1990_1293_11-NW-10D_1995-06-01.png",
+      "bytes": 921519,
+      "sha256": "18211d29e219d8e0cb3f91593dd02aa7a376bfa4de6ae282c9a1cff84b8a7ac5"
+    },
+    {
+      "path": "sheets/previews/1980_1990_1294_11-NW-10D_1997-04-01.png",
+      "bytes": 1287703,
+      "sha256": "74aa2396cc38d2f64f67349546bed84a94414a45bccb3ea9058a1329cd517c84"
+    },
+    {
+      "path": "sheets/previews/1980_1990_1295_11-NW-10D_1999-10-01.png",
+      "bytes": 1002752,
+      "sha256": "d931d6d44b63b4d047991b6cb9e39c1d8e029c144ef3f002e4ebe9c33eb3aaad"
+    },
+    {
+      "path": "sheets/previews/1980_1990_1391_11-NW-15B_1980-10-01.png",
+      "bytes": 904958,
+      "sha256": "53b2e294e1a96bdb1a3f462f981a42c009fdedc5cabb3c05d4f287fcb1645eaf"
+    },
+    {
+      "path": "sheets/previews/1980_1990_1392_11-NW-15B_1985-02-01.png",
+      "bytes": 891010,
+      "sha256": "e09fe84dcaf4a5832bed75aae4bd1899743deac2426ff22762898b8402793258"
+    },
+    {
+      "path": "sheets/previews/1980_1990_1393_11-NW-15B_1988-06-01.png",
+      "bytes": 903109,
+      "sha256": "9d36edb17d802219c5a88a757a06667ecdf18008501d26e78fdd046894e2beca"
+    },
+    {
+      "path": "sheets/previews/1980_1990_1394_11-NW-15B_1989-11-01.png",
+      "bytes": 864356,
+      "sha256": "af63953dce5dd2f3581a74d59dc1755501c6155348cb55c00a6fb34a08d2192e"
+    },
+    {
+      "path": "sheets/previews/1980_1990_1395_11-NW-15B_1994-03-01.png",
+      "bytes": 829523,
+      "sha256": "522cfd04945436f3ec308b00b9f42cbca40ae65f96342eee730e4c43f2d042cf"
+    },
+    {
+      "path": "sheets/previews/1980_1990_1396_11-NW-15B_1997-05-01.png",
+      "bytes": 919784,
+      "sha256": "4458a1ef5cc0a3451fa943968adbf721cd3ca97f6594344d87807538d9d3f9b9"
+    },
+    {
+      "path": "sheets/previews/1980_1990_675_11-NE-11A_1980-11-01.png",
+      "bytes": 1233566,
+      "sha256": "9a8a38130c3db9c185a8c393e4aa91a956a0187bdd2c0731eaaa002538ad6c75"
+    },
+    {
+      "path": "sheets/previews/1980_1990_676_11-NE-11A_1984-11-01.png",
+      "bytes": 905766,
+      "sha256": "d5c3947e1edad5fde7076aa0cefde39161bbfddc24a2aca3173cf6d04f1f8bee"
+    },
+    {
+      "path": "sheets/previews/1980_1990_677_11-NE-11A_1987-05-01.png",
+      "bytes": 985413,
+      "sha256": "628ef6d3556d0c84039d2d24d520c86703677ecc582280d2ea6a19a4f30f2c7b"
+    },
+    {
+      "path": "sheets/previews/1980_1990_678_11-NE-11A_1989-10-01.png",
+      "bytes": 783988,
+      "sha256": "1deb9276c3fe66ae1d2429b74e010e962f84f9b9791fb74b3ed343d1feed81a7"
+    },
+    {
+      "path": "sheets/previews/1980_1990_679_11-NE-11A_1994-07-01.png",
+      "bytes": 803413,
+      "sha256": "f2007c8b8ef945093b2f0d8f86fbebde0c00969070efea9527f1c318a305ed47"
+    },
+    {
+      "path": "sheets/previews/1980_1990_680_11-NE-11A_1997-04-01.png",
+      "bytes": 868352,
+      "sha256": "1307e0ce2955373e818e28bb2edef26aa33980335f5ddd6d22d0532127ac9839"
+    },
+    {
+      "path": "sheets/previews/1980_1990_681_11-NE-11A_1997-08-01.png",
+      "bytes": 876161,
+      "sha256": "1ae9eea22a9ba1b46ebc7e4431f40b8477da87e68f12ba24d11916c871c61c86"
+    },
+    {
+      "path": "sheets/previews/1980_1990_682_11-NE-11A_1999-04-01.png",
+      "bytes": 878207,
+      "sha256": "04f090355571a466a232fbbf486807465715292a2b525ddeb6ca4355de1b4d40"
+    },
+    {
+      "path": "sheets/previews/1980_1990_683_11-NE-11A_1999-07-01.png",
+      "bytes": 836021,
+      "sha256": "d061f9c1223ab93b4c31bb753973785322329ba4d17eff2307fb6f87ca489d27"
+    },
+    {
+      "path": "sheets/previews/1980_1990_692_11-NE-11C_1981-01-01.png",
+      "bytes": 1184414,
+      "sha256": "52c2faf60a3f8e9630c964c35187f1adca91de7475c24b7c9157d43121b72a58"
+    },
+    {
+      "path": "sheets/previews/1980_1990_693_11-NE-11C_1984-08-01.png",
+      "bytes": 551896,
+      "sha256": "e55a0f285ad8ca3f1c499a19a710604ccf2cad35405df860f2e43505defae4c3"
+    },
+    {
+      "path": "sheets/previews/1980_1990_694_11-NE-11C_1987-06-01.png",
+      "bytes": 596534,
+      "sha256": "74667c74a65650abe4740d7268437c136a163b07f6272478827ecab5ddbc81d6"
+    },
+    {
+      "path": "sheets/previews/1980_1990_695_11-NE-11C_1990-01-01.png",
+      "bytes": 578366,
+      "sha256": "3d7a93057e810b3cc1f7a21903cae0f9e780d31b5a19932bcd0b2b8c2717ee00"
+    },
+    {
+      "path": "sheets/previews/1980_1990_696_11-NE-11C_1994-10-01.png",
+      "bytes": 523328,
+      "sha256": "d810121e8c708dde203c4e84eab245ff0abe164950a2c326aa20b4b5ac710870"
+    },
+    {
+      "path": "sheets/previews/1980_1990_697_11-NE-11C_1997-06-01.png",
+      "bytes": 549949,
+      "sha256": "4868f6030357315bc9a4c83157996474bcc5d557b1c6f4d12a83cfd44898ed00"
+    },
+    {
+      "path": "sheets/previews/1980_1990_698_11-NE-11C_1999-04-01.png",
+      "bytes": 569211,
+      "sha256": "d13d9631d11d19a48b0b5222a32997064fda25ca70551ce1f7672d34d4ef46fb"
+    },
+    {
+      "path": "sheets/previews/1980_1990_818_11-NE-16A_1980-08-01.png",
+      "bytes": 813904,
+      "sha256": "4e9cb95546c8b692a43bda50b0769097f0d8bd616f55cab8bbec7ec6a15c3172"
+    },
+    {
+      "path": "sheets/previews/1980_1990_819_11-NE-16A_1986-08-01.png",
+      "bytes": 847707,
+      "sha256": "adcd0fd2780adc22e8510a3391d185ac5ce7243f6bfd378f1831c1f5a967e7a5"
+    },
+    {
+      "path": "sheets/previews/1980_1990_820_11-NE-16A_1988-10-01.png",
+      "bytes": 915453,
+      "sha256": "e0d681bb8a3296e61acbaff8f1c3d073e9c9db223c1494a56d546b2005b8b0dd"
+    },
+    {
+      "path": "sheets/previews/1980_1990_821_11-NE-16A_1989-12-01.png",
+      "bytes": 867485,
+      "sha256": "ec42c0001ed37b4cc058818eb40eb25c78bda2d01df8a520971022d7364ffbfc"
+    },
+    {
+      "path": "sheets/previews/1980_1990_822_11-NE-16A_1993-12-01.png",
+      "bytes": 790140,
+      "sha256": "3dfd28c88e681be872b74b311c166aa1b1a603651faadceb95b4876bb6c4fac5"
+    },
+    {
+      "path": "sheets/previews/1980_1990_823_11-NE-16A_1997-06-01.png",
+      "bytes": 853305,
+      "sha256": "b0ecd1c873918967777d42ca8c7be2dd61011e805eead494e2d950ef38e21355"
+    },
+    {
+      "path": "sheets/previews/1980_1990_824_11-NE-16A_1998-04-01.png",
+      "bytes": 875453,
+      "sha256": "af95d24f2698788ba74025a23852672d935f6151851268874aac277b56190183"
+    },
+    {
+      "path": "sheets/previews/1980_1990_825_11-NE-16A_1999-04-01.png",
+      "bytes": 853815,
+      "sha256": "f6726658d2eefd00ae260d0af197246e5ebf0351793ad03d995980fc1d6eda1d"
+    },
+    {
+      "path": "sheets/previews/1980_1990_826_11-NE-16A_1999-12-01.png",
+      "bytes": 775235,
+      "sha256": "8e5b4dfbf89655607844ccb7ca6fb4d88229b9d07ed769399dbedf7bd988b65c"
+    },
+    {
+      "path": "sheets/previews/1980_1990_827_11-NE-16B_1981-06-01.png",
+      "bytes": 302937,
+      "sha256": "06799625de95db232f4ecf85f09d80f13c828c69ce0293bdafdf594b60aca6c7"
+    },
+    {
+      "path": "sheets/previews/1980_1990_828_11-NE-16B_1981-08-01.png",
+      "bytes": 249619,
+      "sha256": "af61b8bf9ae94f848b0e16c746a9c686c4f00cf7e51880f953d61e21de52671e"
+    },
+    {
+      "path": "sheets/previews/1980_1990_829_11-NE-16B_1988-01-01.png",
+      "bytes": 261934,
+      "sha256": "278fabd1145d34640c7ca230a30de89f7e15166e9d121d609e59a50a17821ba5"
+    },
+    {
+      "path": "sheets/previews/1980_1990_830_11-NE-16B_1989-12-01.png",
+      "bytes": 327500,
+      "sha256": "6ea7fcad2610cb1b0aeeb0c4861f6eec524288b20b8372da54cc4e0f44ad98c5"
+    },
+    {
+      "path": "sheets/previews/1980_1990_831_11-NE-16B_1994-03-01.png",
+      "bytes": 310115,
+      "sha256": "cbac46710043eddd3671388e6e59cfb22b5aa31806460a5faa27e236afd4dea3"
+    },
+    {
+      "path": "sheets/previews/1980_1990_832_11-NE-16B_1997-12-01.png",
+      "bytes": 320822,
+      "sha256": "8aa767b48afe724e6b79ce8e7078cb05c583d6456140996dbc142624bffba11a"
+    },
+    {
+      "path": "sheets/previews/1980_1990_833_11-NE-16B_1999-04-01.png",
+      "bytes": 300105,
+      "sha256": "e95327ccd16f0cda89cff7a680725b1ce37d50030aaf6898b5dd34a19e82d322"
+    },
+    {
+      "path": "sheets/previews/1980_1990_834_11-NE-16B_1999-06-01.png",
+      "bytes": 224328,
+      "sha256": "b1e9349e35b6164a8bed36f8cdc13b664099feace747da89544c97e4edc24ad8"
+    },
+    {
+      "path": "sheets/previews/1980_1990_861_11-NE-17C_1980-03-01.png",
+      "bytes": 319400,
+      "sha256": "aab9fc2d756d134de315d8c3e6e06c4a3d22b3b9fc82a3808bf99320233fb548"
+    },
+    {
+      "path": "sheets/previews/1980_1990_862_11-NE-17C_1984-06-01.png",
+      "bytes": 357625,
+      "sha256": "598de92716176fab2ca1066b41918d6940e45b1b0fb6e2bdb5ae66040d0232bf"
+    },
+    {
+      "path": "sheets/previews/1980_1990_863_11-NE-17C_1988-01-01.png",
+      "bytes": 351272,
+      "sha256": "5b47a18f0c0eaf0f8b4572fe1c020371d0280b20c9423ea68c337441476e9890"
+    },
+    {
+      "path": "sheets/previews/1980_1990_864_11-NE-17C_1990-03-01.png",
+      "bytes": 390859,
+      "sha256": "3a1b49157f760d9ea69ad7dd1be48cb1cc14434cdb61ee90e8580f8d5ebee32f"
+    },
+    {
+      "path": "sheets/previews/1980_1990_865_11-NE-17C_1993-07-01.png",
+      "bytes": 321287,
+      "sha256": "788d680f080aa7dc1db05b026b2bb599d4ebc43714a19cdfa684d879090b336e"
+    },
+    {
+      "path": "sheets/previews/1980_1990_866_11-NE-17C_1999-03-01.png",
+      "bytes": 370956,
+      "sha256": "b6b999a27808d92bf645da9ad5dc4a0afea56d2eca03b20a55582fa081e5ec3a"
+    },
+    {
+      "path": "sheets/previews/index.json",
+      "bytes": 19384,
+      "sha256": "9a9ba78088118da09f18b6f78580d792b8dbbacd775ff614e2c441af538626eb"
+    },
+    {
+      "path": "sheets/render_previews.py",
+      "bytes": 1439,
+      "sha256": "c70b6c864e2d0a3dadafa99c3a1bf9e5871237e65baa9b0bcdec0514ef98f010"
+    },
+    {
+      "path": "sheets/selected_sheets.json",
+      "bytes": 128567,
+      "sha256": "116db174e6b384064a1bf4dca7973260cf88ca5bc0177682623081ede3e5dd74"
+    },
+    {
+      "path": "source_comparison.png",
+      "bytes": 3531754,
+      "sha256": "3a32471d2149f7f937fe7bff13f383f95acb4930fe01bd7491ff5e523e8a15be"
+    },
+    {
+      "path": "structure_source_matches_1993-11-04.csv",
+      "bytes": 21840241,
+      "sha256": "d4e6dfa46860231bdeacc83b0bcfb3e00d77425a5af1e2a75056618412b492df"
+    },
+    {
+      "path": "structures/manifest.json",
+      "bytes": 29061,
+      "sha256": "0a10c033f8dd9fdd0f399b7d4047eccf8752698f1325de343be4e2a6a1434da4"
+    },
+    {
+      "path": "test_matching.py",
+      "bytes": 2903,
+      "sha256": "1c000d45f5a0e6d3f315430fe33332aa3a29e5daa0dd3026c840241504b4589f"
+    },
+    {
+      "path": "validate_delivery.py",
+      "bytes": 4445,
+      "sha256": "c317f25843744a3b023d82a5902b6a4dbf1e138adc9c943ed5625614b859d96c"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 37916,
+      "sha256": "709b120eaa7b74f2ae78d5b7a891543287ee97cbd300050ba30567df56ed253f"
+    },
+    {
+      "path": "visual_observation_summary.json",
+      "bytes": 244,
+      "sha256": "40c4f276c57711681a0a894a02838d98ec915b1cef22fabfffa50fdf49513601"
+    }
+  ]
+}

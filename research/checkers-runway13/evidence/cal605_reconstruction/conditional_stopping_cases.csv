@@ -1,0 +1,5 @@
+case,touchdown_x_m,touchdown_speed_kt,delay_s,deceleration_g,remaining_m,category
+synthetic_reference,313.4921811580115,151.40226666055483,2,0.15,254.67888237990246,conditional fixed-braking formula; not a historical simulation
+later_touchdown_only,480,151.40226666055483,2,0.15,88.17106353791405,conditional fixed-braking formula; not a historical simulation
+higher_speed_only,313.4921811580115,160.0,2,0.15,4.986029371800214,conditional fixed-braking formula; not a historical simulation
+historical_touchdown_inputs,480,160.0,2,0.15,-161.5217894701882,conditional fixed-braking formula; not a historical simulation

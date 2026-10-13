@@ -1,0 +1,16 @@
+{
+  "dtm_features.html": "https://www.landsd.gov.hk/en/spatial-data/open-data/kf_dtm.html",
+  "dtm_catalog.html": "https://data.gov.hk/en-data/dataset/hk-landsd-openmap-5m-grid-dtm/resource/620c4f4f-eac4-472f-9074-dffa2ad596fd",
+  "open_data.html": "https://www.landsd.gov.hk/en/spatial-data/open-data.html",
+  "datagov_terms.html": "https://data.gov.hk/en/terms-and-conditions",
+  "ib1000_metadata.html": "https://portal.csdi.gov.hk/csdi-webpage/metadata/landsd_rcd_1637223748322_25497/html",
+  "building_service.json": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer?f=pjson",
+  "building_supplement1": "https://static.csdi.gov.hk/csdi-webpage/download/common/b3eead8b2d2f167fcf05009502dfc628a77a3ab76a22a52cfbaa405a65cde6e6",
+  "building_supplement2": "https://static.csdi.gov.hk/csdi-webpage/download/common/6ba0d3022dc2fa5644d20139c56913ea3bf3c18602b15cf952e7f32a029bdac8",
+  "building_supplement3": "https://static.csdi.gov.hk/csdi-webpage/download/common/73918cfc315886f9d2e0a64891fb6b9363db38b34c23ba16ba8a682ac5bc41bc",
+  "building_metadata.html": "https://portal.csdi.gov.hk/csdi-webpage/metadata/landsd_rcd_1637211194312_35158/html",
+  "csdi_terms.html": "https://portal.csdi.gov.hk/csdi-webpage/doc/TNC",
+  "building_layer.json": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/0?f=pjson",
+  "ib1000_service.json": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637223748322_25497/FeatureServer?f=pjson",
+  "shoreline_item.json": "https://www.arcgis.com/sharing/rest/content/items/861bcf04a2b54cf29af510277fb995cd?f=json"
+}

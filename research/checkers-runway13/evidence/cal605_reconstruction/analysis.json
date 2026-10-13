@@ -1,0 +1,164 @@
+{
+  "status": "exploratory historical benchmark; no operational certificate",
+  "explicit_reconstruction": {
+    "segments": 34,
+    "formula_file": "explicit_rollout.json",
+    "scope": "analytic reconstruction of digitized speed-distance graph under stated interpolation; not an optimal landing formula"
+  },
+  "fixed_formula": [
+    {
+      "case": "synthetic_reference",
+      "touchdown_x_m": 313.4921811580115,
+      "touchdown_speed_kt": 151.40226666055483,
+      "delay_s": 2,
+      "deceleration_g": 0.15,
+      "remaining_m": 254.67888237990246,
+      "category": "conditional fixed-braking formula; not a historical simulation"
+    },
+    {
+      "case": "later_touchdown_only",
+      "touchdown_x_m": 480,
+      "touchdown_speed_kt": 151.40226666055483,
+      "delay_s": 2,
+      "deceleration_g": 0.15,
+      "remaining_m": 88.17106353791405,
+      "category": "conditional fixed-braking formula; not a historical simulation"
+    },
+    {
+      "case": "higher_speed_only",
+      "touchdown_x_m": 313.4921811580115,
+      "touchdown_speed_kt": 160.0,
+      "delay_s": 2,
+      "deceleration_g": 0.15,
+      "remaining_m": 4.986029371800214,
+      "category": "conditional fixed-braking formula; not a historical simulation"
+    },
+    {
+      "case": "historical_touchdown_inputs",
+      "touchdown_x_m": 480,
+      "touchdown_speed_kt": 160.0,
+      "delay_s": 2,
+      "deceleration_g": 0.15,
+      "remaining_m": -161.5217894701882,
+      "category": "conditional fixed-braking formula; not a historical simulation"
+    }
+  ],
+  "historical_input_delay_sensitivity": [
+    {
+      "delay_s": 0,
+      "remaining_m": 3.1004327520340667
+    },
+    {
+      "delay_s": 1,
+      "remaining_m": -79.21067835907706
+    },
+    {
+      "delay_s": 2,
+      "remaining_m": -161.5217894701882
+    },
+    {
+      "delay_s": 5,
+      "remaining_m": -408.4551228035216
+    },
+    {
+      "delay_s": 10,
+      "remaining_m": -820.0106783590772
+    },
+    {
+      "delay_s": 20,
+      "remaining_m": -1643.1217894701883
+    }
+  ],
+  "decomposition_m": {
+    "later_touchdown": 166.50781884198852,
+    "higher_speed_at_fixed_delay": 249.69285300810253
+  },
+  "report_landmark_stopping_frontier": [
+    {
+      "event": "touchdown",
+      "remaining_m": 2300,
+      "speed_kt": 160,
+      "required_decel_no_delay_g": 0.15018910221182388,
+      "required_decel_with_2s_delay_g": 0.1617675985401883,
+      "max_delay_at_0p3g_s": 13.953768827462408,
+      "source": "CAD narrative \u00a7\u00a72.2.5\u20132.2.7"
+    },
+    {
+      "event": "roll_restored",
+      "remaining_m": 1365,
+      "speed_kt": 139,
+      "required_decel_no_delay_g": 0.1909955466122852,
+      "required_decel_with_2s_delay_g": 0.21334880514317547,
+      "max_delay_at_0p3g_s": 6.935892546617961,
+      "source": "CAD narrative \u00a7\u00a72.2.5\u20132.2.7"
+    },
+    {
+      "event": "autobrake_call",
+      "remaining_m": 1080,
+      "speed_kt": 133,
+      "required_decel_no_delay_g": 0.22100689260551906,
+      "required_decel_with_2s_delay_g": 0.2530726561746056,
+      "max_delay_at_0p3g_s": 4.156249175175274,
+      "source": "CAD narrative \u00a7\u00a72.2.5\u20132.2.7"
+    },
+    {
+      "event": "reverse_selected",
+      "remaining_m": 880,
+      "speed_kt": 129,
+      "required_decel_no_delay_g": 0.25516613790775977,
+      "required_decel_with_2s_delay_g": 0.3004873736858828,
+      "max_delay_at_0p3g_s": 1.981706697532342,
+      "source": "CAD narrative \u00a7\u00a72.2.5\u20132.2.7"
+    }
+  ],
+  "report_autobrake_distances": [
+    {
+      "setting": 2,
+      "reported_rollout_m": 2350,
+      "remaining_using_2300m_m": -50
+    },
+    {
+      "setting": 3,
+      "reported_rollout_m": 2100,
+      "remaining_using_2300m_m": 200
+    },
+    {
+      "setting": 4,
+      "reported_rollout_m": 1720,
+      "remaining_using_2300m_m": 580
+    }
+  ],
+  "late_phase": {
+    "appendix13_20s_checkpoint": {
+      "runway_remaining_m": 800,
+      "speed_kt": 127,
+      "runway_consumed_fraction_relative_narrative2300": 0.6521739130434783,
+      "kinetic_energy_fraction_constant_mass": 0.6300390625,
+      "source_pdf_page": 159,
+      "scope": "source-stated rounded checkpoint; constant-mass energy ratio, not full mechanics"
+    },
+    "remaining_2300_to_750_fraction_consumed": 0.6739130434782609,
+    "speed_at_750_kt": 123.895,
+    "apparent_no_delay_required_g": 0.2761675127401665
+  },
+  "uncertainty": {
+    "type": "pixel-reading sensitivity bounds only",
+    "coverage_probability": null,
+    "calibration_pixel_error": 2,
+    "manual_x_pixel_error": 3,
+    "manual_y_pixel_error": 6,
+    "figure_band": "vertical speed sensitivity only; horizontal bounds are in rollout_trace.csv",
+    "physical_sensor_error": null,
+    "plot_position_integration_error": null,
+    "clock_offset_to_wind": null,
+    "explanation": "Axis/raster intervals are not calibrated physical error bars or CIs. Derived stop counterfactuals use rounded source point values without invented physical ranges."
+  },
+  "comparison_limits": [
+    "Historical and synthetic entry/controls/environment differ; no like-for-like path superiority claim.",
+    "Ground distance in Figure5 is derived, not independent raw GPS; reference point/datum uncertainty unquantified.",
+    "Final yaw means runway-coordinate distance differs from along-path distance; no late-turn exact dynamics inference.",
+    "Source narrative touchdown ~2300m remaining differs from plotted air/ground transition ~2210m; preserve both, do not force-align.",
+    "Report Appendix13 rounds some events (e.g. reverse at900m) differently from narrative (880m).",
+    "Constant braking formula is diagnostic; actual autobrake/spoiler/reverse/braking state changes are not represented."
+  ]
+}

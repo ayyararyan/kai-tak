@@ -1,0 +1,956 @@
+Simplified Data Specifications for
+
+BUILDING FSDT
+
+
+
+
+                                     Version 1.1
+                                     January 2026
+Foreword
+
+
+To promote better sharing and accessibility of spatial data among the community of stakeholders in
+Hong Kong Special Administrative Region (“HKSAR”), the Government acknowledged its
+commitment to establishing Common Spatial Data Infrastructure (“CSDI”). The main objective is to
+provide Bureaux/Departments (“B/Ds”) and public and private organisations with an information
+infrastructure to share spatial data, support various smart city applications, and support Smart City
+development.
+
+In March 2017, the Development Bureau (“DEVB”) commissioned a consultancy study on the overall
+strategy for implementing the CSDI. With its implementation, the CSDI would benefit the Government
+and society in the long run, with convenient and easy access to high-quality and up-to-date spatial
+information. The CSDI will help to:
+       Facilitate and support the development of a dynamic and flexible geospatial environment that
+        will provide standardised interfaces for accessing and disseminating common spatial
+        information;
+       Facilitate information sharing across different B/Ds and eventually other stakeholders;
+       Encourage the adoption of common standards to ensure quality, compatibility and
+        interoperability amongst different systems; and
+       Make available a wide range of spatial data and analyses to enable potential applications.
+
+
+
+
+                                                                                          Page 1 of 25
+Contents
+
+
+1.   Introduction..................................................................................................................................... 3
+     1.1. General Overview................................................................................................................ 3
+     1.2. Glossary and Definitions ..................................................................................................... 3
+     1.3. Acronyms and Abbreviations .............................................................................................. 3
+2.   Framework Spatial Data Definitions .............................................................................................. 5
+     2.1. Overview ............................................................................................................................. 5
+     2.2. Scope & Definitions ............................................................................................................ 5
+3.   Framework Spatial Data Content & Structure ................................................................................ 7
+     3.1. Datasets under Sub-themes ................................................................................................. 7
+     3.2. Physical Data Model ........................................................................................................... 9
+     3.3. Entity Description.............................................................................................................. 10
+        3.3.1.             Building Outline - Building............................................................................................................... 10
+        3.3.2.             Building Shell – 3D Visualisation Map (Individualised Models) (Grid Index) ................................ 15
+        3.3.3.             Building Shell – 3D Visualisation Map (Tile-based Models) (Grid Index) ...................................... 15
+        3.3.4.             Building Shell – 3D Visualisation Map (Non-textured Models) (Grid Index) .................................. 16
+        3.3.5.             Floor – Floor ..................................................................................................................................... 17
+        3.3.6.             Room – Room ................................................................................................................................... 18
+     3.4.      Unique Identifiers .............................................................................................................. 20
+     3.5.      Geographical Coverage ..................................................................................................... 23
+     3.6.      Units of Measurement ....................................................................................................... 23
+     3.7.      Spatial Resolution/Scale .................................................................................................... 23
+     3.8.      Spatial Representation Type .............................................................................................. 23
+     3.9.      Spatial Reference System .................................................................................................. 24
+     3.10.     Relationships and Dependencies with Other FSDTs......................................................... 24
+
+
+
+
+                                                                                                                                                          Page 2 of 25
+1. Introduction
+
+1.1. General Overview
+The Simplified Data Specifications for Building (“the/this document”) provide information about the
+datasets in the Building Framework Spatial Data Theme (“FSDT”).
+
+
+
+
+1.2. Glossary and Definitions
+This section provides a glossary of terms and definitions, listed alphabetically, as applicable to this
+document.
+
+
+       Feature: Abstraction of real-world phenomena. A feature may occur as a type or an instance.
+       Feature Attribute: Characteristic of a feature. A feature attribute has a name, a data type, and
+        a value domain associated to it.
+       Polygon: Topological 2-dimensional geometric primitive, representing an areal feature.
+
+
+
+
+1.3. Acronyms and Abbreviations
+This section lists the expanded description of all acronyms (words formed from the initial letters of a
+phrase) and abbreviations (the shortened form of a word or phrase) used in this document in alphabetical
+order.
+
+ Acronym/Abbreviation Description
+ API                         Application Programming Interface
+ BD                          Buildings Department
+ B/D                         Bureau/Department
+ BCIS                        Building Condition Information System
+ CSDI                        Common Spatial Data Infrastructure
+ CSU                         Common Spatial Unit
+ CSUID                       Common Spatial Unit Identifier
+ DAM                         Data Alignment Measures
+ DEVB                        Development Bureau
+
+
+                                                                                           Page 3 of 25
+FBX                 Filmbox
+FSDT                Framework Spatial Data Theme
+glTF                Graphics Library Transmission Format
+HKPD                Hong Kong Principal Datum
+HKSAR               Hong Kong Special Administrative Region
+KML                 Keyhole Markup Language
+LandsD              Lands Department
+MAX                 Autodesk 3ds Max
+OmniClass™ / OCCS   OmniClass Construction Classification System
+OSGB                OpenSceneGraph Binary
+SI                  International System of Units
+the/this document   Simplified Data Specifications for Building
+URL                 Uniform Resource Locator
+UUID                Universally Unique Identifier
+
+
+
+
+                                                                   Page 4 of 25
+2. Framework Spatial Data
+Definitions
+
+2.1. Overview
+The Building FSDT covers building structures that enclose spaces including residential, commercial,
+industrial, infrastructure, government, institution or community purposes.
+
+
+
+2.2. Scope & Definitions
+This document for Building covers the following sub-themes:
+        Building Outline: Building outlines are features delineating the outline of structures that are
+         visible above-ground. Based on existing definitions from DAM Building Common Spatial Unit
+         (“CSU”), building outlines are classified as either Tower or Podium. Towers are defined as all
+         permanent buildings, open side and temporary structures of a reasonable size as stipulated in
+         the latest 1:1000 Basic Mapping Specifications prepared by Lands Department (“LandsD”),
+         while podium is defined as containment with facilities for a designated purpose (e.g. shops, car
+         park etc.) above ground. Usually, podium together with the tower would form the integral
+         building structure.
+         To align with Smart City and other strategic innovation initiatives, underground building
+         structure1 which include any underground storey of a tower/podium below the ground storey
+         with an exit route is also scoped to be covered. The underground extent shall be delineated by
+         the maximum extent of all floors, modelled as one or more level, that exist below ground, as
+         demarcated in building plans.
+        Building Shell: The building shell is based on all the enclosures that represent the exterior of
+         the entire building structure, both above the ground and below. It includes all sub-parts of a
+         building, such as parts of a building that have different roof heights or multiple towers on a
+         single podium.
+        Floor: Floors represent the different levels, or stories, within a building. Floors are inclusive of
+         units, common areas, stairwells, and other spaces comprising the entire area of a single level,
+         or storey.
+
+
+
+1
+  The definition, spatial delineation and examples of underground structure in the Building Outline sub-theme will
+be further reviewed upon the readiness of data from B/Ds. The limitations and improvements regarding the
+inclusion of underground structures would be documented in Final Report of the Feasibility and Technical Study
+on Framework Spatial Data Standards for the Development of Common Spatial Data Infrastructure (CSDI) for
+Lands Department.
+
+
+
+                                                                                                    Page 5 of 25
+          Unit2: Unit, in relation to a building, means premises of the building falling within either or
+           both of the following descriptions-
+                a)    premises that are demarcated or shown as a separate unit (however described) in the
+                      approved building plan of the building (whether domestic or non-domestic);
+                b)    premises that the owner of which is entitled to its exclusive possession, as opposed to
+                      the owners or occupiers of other parts of the building.
+          Room: Room means any portion of a building which has been physically bounded and
+           separated from other spaces, usually by walls or doors.
+
+
+
+
+2
+    The definition of Unit may be subject to further review upon the availability of data from B/Ds.
+
+                                                                                                       Page 6 of 25
+3. Framework Spatial Data
+Content & Structure
+
+3.1. Datasets under Sub-themes
+There are five sub-themes within the Building FSDT, namely Building Outline, Building Shell, Floor,
+Unit, and Room.
+
+Building Outline sub-theme covers the following dataset(s):
+       Building: A polygon showing the building outline of permanent buildings, including tower and
+        podium, temporary structures or open-sided structures. Attributes include the building types,
+        building names, building height etc.
+
+Building Shell sub-theme covers the following dataset(s):
+       3D Visualisation Map (Individualised models): The 3D Visualisation Map (Individualised
+        models) are a set of digital data of 3D models featuring geometry models and texture maps to
+        represent the geometrical shape, appearance and position of different types of ground objects,
+        including building, infrastructure, vegetation, site, waterbody, terrain and generic (others).
+       3D Visualisation Map (Tile-based models): The 3D Visualisation Map (Tile-based models) are
+        based on the mesh model made from the oblique aerial images.
+       3D Visualisation Map (Non-textured models): The 3D Visualisation Map (Non-textured
+        Models) is a set of digital data of 3D models featuring geometric models to represent the
+        geometrical shape and position of building, infrastructure and terrain.
+
+
+Floor sub-theme would cover the following dataset(s):
+       Floor 3 : A polygon showing the floor inside the building or structure. Floors represent the
+        different levels, or stories, within a building. Floors are inclusive of units, common areas,
+        stairwells, and other spaces comprising the entire area of a single level, or storey.
+
+
+Unit sub-theme does not contain any dataset4.
+
+
+Room sub-theme would cover the following dataset(s):
+
+3
+  When dataset(s) become available under this sub-theme, the specification would be further reviewed to
+incorporate the data specifications of the available dataset(s).
+4
+  Although Unit sub-theme does not contain any dataset so far, such “Unit” sub-theme must be kept to fit for the
+operational needs of different B/Ds and to avoid unsurmountable effort of data conversion or data matching.
+Should Unit data be available in future (if any), the specification would be further reviewed to incorporate the
+Unit specifications.
+
+                                                                                                  Page 7 of 25
+   Room: A polygon showing the room inside the building or structure. Room means any portion
+    of a building which has been physically bounded and separated from other spaces, usually by
+    walls or doors.
+
+
+
+
+                                                                                  Page 8 of 25
+3.2. Physical Data Model
+This section describes the physical data model for each sub-theme within the Building FSDT.
+
+
+
+
+                        Figure 3-1 Physical Data Model of Building FSDT
+
+
+
+
+                                                                                       Page 9 of 25
+3.3. Entity Description
+This section provides a detailed description of each physical entity illustrated in the physical data model
+in Section 3.2.
+
+
+
+3.3.1. Building Outline - Building
+
+3.3.1.1.         Building
+Entity type: Feature Layer
+
+     Field Name           Data Type                        Description                       Allow Null
+                          and Length                                                           Value
+                                                                                               (Y/N)
+ GeoRefNo                String, 10      Geo-reference No. of the label point of the             N
+                                         building polygon
+ DateCreate              Date            Date on which the building polygon is first              N
+                                         created
+ BuildingBlockType       String, 20      Type of the building polygon (e.g. “Tower”,              N
+                                         “Podium”, “Open-sided Structure”,
+                                         “Temporary Structure”)
+ BuildingCSUID           String, 19      Building Common Spatial Unit (CSU)                       N
+                                         Identifier
+                                         (e.g. “3012425857T20050430”)
+ BuildingID              Long, 10        Building ID from LandsD’s iB1000                         N
+                                         Topographic Map (e.g. “1108234442”)
+ Status                  String, 10      Status of Building Structure (e.g. “Proposed”,           N
+                                         “Active” or “Demolished”)
+                                         -    Proposed – Status that describes the
+                                              buildings which are under
+                                              design/construction; or the buildings of
+                                              which the construction is completed but
+                                              the geometry of respective building
+                                              polygons are yet updated.
+                                         -    Active - Status that describes the
+                                              buildings which are substantially
+                                              completed and the geometry of the
+                                              respective building polygons is available
+                                              either from land survey or from other
+                                              verified source.
+                                         -   Demolished – Status that describes the
+                                             buildings already demolished from
+                                             Ground.
+ BuildingNameEN          String, 195     Building Name (English) (e.g. “CHAU WAN                  Y
+                                         BUILDING”)
+ BuildingNameTC          String, 100     Building Name (Traditional Chinese) (e.g. “              Y
+                                         秋雲大廈”)
+
+
+                                                                                            Page 10 of 25
+       Field Name          Data Type                         Description                       Allow Null
+                           and Length                                                            Value
+                                                                                                 (Y/N)
+    BaseHeight            Double (8,2)     Approximate Level of the base of Building               Y
+                                           Structure above Hong Kong Principal Datum
+                                           (in metres) (e.g. “4.3”)
+    TopHeight             Double (8,2)     Approximate Elevation of the top of Building              Y
+                                           Structure above Hong Kong Principal Datum
+                                           (in metres) (e.g. “42.2”)
+    Storeys               Short, 3         Number of storeys of the building (e.g. “8”)              Y
+    StoreysInBasement     Short, 3         Number of storeys in the basement (e.g. “8”)              Y
+    DateStamp             Date             Date when the record is last created/modified             N
+                                           (i.e. when new data value(s) from Data
+                                           Owner(s) is imported into the Building
+                                           dataset)
+
+
+3.3.1.2.         BuildingWorksHistory
+Entity type: Data Table
+
+      Field Name        Data Type                           Description                        Allow Null
+                        and Length                                                               Value
+                                                                                                 (Y/N)
+    BuildingCSUID       String, 19       Building Common Spatial Unit (CSU) Identifier             N
+                                         (e.g. “3012425857T20050430”)
+    DataProviderID      String, 6        Data Provider                                               N
+    WorksType           String, 80       Works Type                                                  N
+    WorksDate           String, 10       Date on which the Works was Carried out                     N
+
+
+
+3.3.1.3.         BuildingName
+Entity type: Data Table
+      Field Name        Data Type                            Description                       Allow Null
+                        and Length                                                               Value
+                                                                                                 (Y/N)
+    BuildingCSUID         String, 19       Building Common Spatial Unit (CSU)                      N
+                                           Identifier
+                                           (e.g. “3012425857T20050430”)
+    BuildingNameID        Long, 10         Identifier of the Building Name from Data                 N
+                                           Provider (e.g. “1109618882”)
+    BuildingNameEN5       String, 195      Building Name (English) (e.g. “CHAU WAN                   Y
+                                           BUILDING”)
+
+
+5
+  In Hong Kong, RVD is responsible for the allocation of building numbers throughout Hong Kong and for
+ensuring the display of correct building numbers, under the Buildings Ordinance (Cap. 123). To avoid confusion
+to the B/Ds and/or public, only one 2D address record would be provided for each spatial object, and RVD
+addresses with official building numbers assigned under Cap. 123, if available, must prevail over LandsD
+surveyed addresses and/or other addresses.
+
+                                                                                               Page 11 of 25
+     Field Name           Data Type                       Description                    Allow Null
+                          and Length                                                       Value
+                                                                                           (Y/N)
+ BuildingNameTC5          String, 100     Building Name (Traditional Chinese) (e.g. “        Y
+                                          秋雲大廈”)
+ NameStatus               String, 20      Building Name Status (e.g. “Default”, “Other        N
+                                          name (alias)”, “Proposed” or “Renamed”)
+ DataProviderID           String, 6       Data Provider                                       N
+
+
+
+3.3.1.4.        BuildingRelateOPStructure
+Entity type: Data Table
+
+     Field Name           Data Type                       Description                    Allow Null
+                          and Length                                                       Value
+                                                                                           (Y/N)
+ BuildingCSUID            String, 19      Building Common Spatial Unit (CSU)                 N
+                                          Identifier
+                                          (e.g. “3012425857T20050430”)
+ BuildingStructureID      Long, 9         Building Structure Identifier                       N
+                                          (e.g. “15281298”)
+
+
+
+
+3.3.1.5.        OPStructure
+Entity type: Data Table
+
+       Field Name             Data Type                     Description                  Allow Null
+                              and Length                                                   Value
+                                                                                           (Y/N)
+ BuildingStructureID         Long, 9         Building Structure Identifier                   N
+                                             (e.g. “15281298”)
+ OPNo                        String, 15      Occupation Permit Number (e.g.                   Y
+                                             “NT10/2009(OP)”)
+ Storeys                     Short, 3        Number of storeys in podium and above            Y
+                                             basement. (e.g. “8”) This means the
+                                             number of above-basement storeys in the
+                                             podium itself for podium blocks, and
+                                             means number of above-basement storeys
+                                             in the podium below for tower blocks.
+ StoreysInBasement           Short, 3        Number of storeys in basement/lower              Y
+                                             ground. (e.g. “4”) This counts only the
+                                             storeys covered by the concerned
+                                             Building CSU.
+                                             For example, the basement storeys are
+                                             counted into the podium block only but
+                                             not to the towers sitting above.
+
+
+
+                                                                                         Page 12 of 25
+       Field Name         Data Type                     Description                   Allow Null
+                          and Length                                                    Value
+                                                                                        (Y/N)
+ TopHeight                Double (8,2)   Elevation of building above principal            Y
+                                         datum in metres. Top level of a building
+                                         is measured to the mean height of the roof
+                                         over the highest usable floor space in the
+                                         building. (e.g. “52.3”)
+ StoreyRemarks            String, 200    Textual description to clarify number of          Y
+                                         storeys of the building
+ OPBlockType              String, 6      Building block type as recorded by                N
+                                         Building Department (BD) (e.g. “Tower”
+                                         and “Podium”)
+ OPBuildingType           String, 500    Types of building as of OP (e.g.                  Y
+                                         “Industrial”, “Commercial”)
+
+
+
+
+3.3.1.6.        OP
+Entity type: Data Table
+
+       Field Name         Data Type                     Description                   Allow Null
+                          and Length                                                    Value
+                                                                                        (Y/N)
+ OPNo                     String, 15     Occupation Permit Number (e.g.                   N
+                                         “NT10/2009(OP)”)
+ OPDate                   Date           Issue Date of Occupation Permit                   Y
+ GFA                      Double         Gross Floor Area (in sq. metres) The sum          Y
+                          (10,2)         of Domestic GFA and Non-domestic
+                                         GFA (e.g. “990.39”)
+ DomesticGFA              Double         Domestic Gross Floor Area as stated on            Y
+                          (10,2)         Building Plan covered by Occupation
+                                         Permit (e.g. “178600”)
+ NonDomesticGFA           Double         Non-domestic Gross Floor Area as stated           Y
+                          (10,2)         on Building Plan covered by Occupation
+                                         Permit (e.g. “2482.3”)
+
+
+
+
+                                                                                      Page 13 of 25
+3.3.1.7.        BuildingLotNoInfo
+Entity type: Data Table
+
+       Field Name         Data Type                  Description                    Allow Null
+                          and Length                                                  Value
+                                                                                      (Y/N)
+ BuildingStructureID      Long, 9      Building Structure Identifier (e.g.              N
+                                       “15281298”)
+ DDSDType                 String, 5    DD/SD Type (English) (e.g. “DD”, “SD”)            Y
+ DDSDNo                   String, 4    DD/SD Number (e.g. “1”, “2”)                      Y
+ LotType                  String, 15   Lot Type Abbreviation (English)                   N
+                                       (e.g. “LOT”, “CLL”, “IL”, “KIL”)
+ LotNo                    String, 13   Lot Number (including both numeric and            N
+                                       alphabetical part, e.g. “123”, “328”,
+                                       “20A”)
+ Section1                 String, 4    The first section letter (e.g. “A”, “B”,          Y
+                                       “AA”, “C-F”) appeared in a lot
+                                       designation.
+                                       Special values for non-section letters are
+                                       enclosed in brackets, where:
+                                       (PE) = PRAYA EXTENSION TO
+                                       (PR) = PRAYA EXCLAMATION TO
+                                       (RP) = THE REMAINING PORTION OF
+                                       (RC) = THE RECLAMATION TO
+ SubSection1              String, 4    The first subsection number (e.g. “1”,            Y
+                                       “2”) appeared in a lot designation
+ Section2                 String, 4    The second section letter (e.g. “A”, “B”)         Y
+                                       appeared in a lot designation.
+ SubSection2              String, 3    The second subsection number (e.g. “1”,           Y
+                                       “2”) appeared in a lot designation.
+ Section3                 String, 4    The third section letter (e.g. “A”, “B”)          Y
+                                       appeared in a lot designation.
+ SubSection3              String, 3    The third subsection number (e.g. “1”,            Y
+                                       “2”) appeared in a lot designation.
+ Section4                 String, 4    The fourth section letter (e.g. “A”, “B”)         Y
+                                       appeared in a lot designation.
+ ExtPortion               Short, 3     Extended portion, where                           Y
+                                       1 = and the first extension thereto
+                                       2 = and the second extension thereto
+                                       3 = and the third extension thereto
+                                       4 = and the fourth extension thereto
+                                       5 = and the fifth extension thereto
+                                       6 = and the sixth extension thereto
+                                       7 = and the seventh extension thereto
+                                       8 = and the eighth extension thereto
+                                       9 = and the extension thereto
+ MiscNo                   Short, 4     Miscellaneous Number of Lot                       Y
+                                       Designation (as in LR’s LRS/IRIS)
+
+
+
+
+                                                                                    Page 14 of 25
+3.3.2. Building Shell – 3D Visualisation Map (Individualised Models)
+(Grid Index)
+
+3.3.2.1.        Individualised_models
+Entity type: Feature Layer
+
+         Field Name          Data Type                 Description        Allow Null
+                             and Length                                     Value
+                                                                            (Y/N)
+ SHEETNO                  String,9         iB1000 Sheet No                    N
+ URL_3D_Visualisation_Map String, 25       URL of 3D Visualisation Map        N
+ Download_API             String, 35       URL of Download Application        N
+                                           Programming Interface (API)
+ REVISIONDATE                Date          Revision Date                       N
+
+ Format_FBX                  String, 120   Path of FBX File                    N
+ Format_glTF                 String, 120   Path of glTF File                   N
+ Format_MAX                  String, 120   Path of MAX File                    N
+
+
+
+
+3.3.3. Building Shell – 3D Visualisation Map (Tile-based Models)
+(Grid Index)
+
+3.3.3.1.        Tile_based_models
+Entity type: Feature Layer
+
+         Field Name          Data Type                 Description        Allow Null
+                             and Length                                     Value
+                                                                            (Y/N)
+ SHEETNO                     String, 9     iB1000 Sheet No                    N
+ URL_3D_Visualisation_Map    String, 25    URL of 3D Visualisation Map        N
+ Download_API                String, 35    URL of Download API                N
+ REVISIONDATE                Date          Revision Date                      N
+
+ Format_OBJ                  String, 120   Path of OBJ File                    N
+ Format_OSGB                 String, 120   Path of OSGB File                   N
+ Format_3D_Tiles             String, 120   Path of Cesium 3D Tiles File        N
+
+
+
+
+                                                                          Page 15 of 25
+3.3.4. Building Shell – 3D Visualisation Map (Non-textured Models)
+(Grid Index)
+
+3.3.4.1.        Non_textured_models
+Entity type: Feature Layer
+
+         Field Name          Data Type                Description         Allow Null
+                             and Length                                     Value
+                                                                            (Y/N)
+ SHEETNO                     String, 9     iB1000 Sheet No                    N
+ URL_3D_Visualisation_Map    String, 25    URL of 3D Visualisation Map        N
+ Download_API                String, 35    URL of Download API                N
+ REVISIONDATE                Date          Revision Date                      N
+
+ Format_FBX                  String, 120   Path of FBX File                   N
+ Format_glTF                 String, 120   Path of glTF File                  N
+ Format_MAX                  String, 120   Path of MAX File                   N
+
+
+
+
+                                                                         Page 16 of 25
+3.3.5. Floor – Floor
+
+3.3.5.1.        Floor
+Entity type: Feature Layer
+
+           Field Name        Data Type                   Description                      Allow
+                                and                                                        Null
+                              Length                                                      Value
+                                                                                          (Y/N)
+ FloorID                     String, 36    The FloorID must be a globally unique,           N
+                                           RFC4122 compliant version 4
+                                           Universally Unique Identifier (UUID).
+                                           It is a computer-generated unique
+                                           identifier for floor feature.
+ FloorPolyID                 String, 28    Floor Polygon Identity Number.                   N
+ ModelID3DSD                 String, 18    3D Spatial Data Identity Number of the           N
+                                           building at which the floor located.
+                                           Remarks: If the Floor Polygon located
+                                           with more than one ModelID3DSD 3D
+                                           building models, select the one with its
+                                           BuildingCSUID with the largest area of
+                                           the building polygon.
+ BuildingCSUID               String, 19    Building Common Spatial Unit                     N
+                                           Identifier (CSUID) established under
+                                           the Data Alignment Measures (DAM).
+                                           Remarks: If the Floor Polygon located
+                                           with more than one BuildingCSUID
+                                           building      polygons,       select the
+                                           BuildingCSUID with the largest area of
+                                           the building polygon.
+ BuildingCSUIDCount          Short, 1      Indicate if the Floor Polygon is located         N
+                                           with more than one BuildingCSUID
+                                           building polygons.
+
+                                           1 = Intersect with one BuildingCSUID
+                                           building polygon
+                                           2 = Intersect with two BuildingCSUID
+                                           building polygons
+                                           …
+ FloorSubtype                Short, 2      Floor type.                                      Y
+ EnglishDisplayFloorName     String, 150   Annotation of the floor level (English)          Y
+                                           (E.g. G/F, 1/F, B/2...)
+ ChineseDisplayFloorName     String, 150   The annotation of the floor level                Y
+                                           (Chinese) (E.g. 地面, 一樓, 地下二層
+                                           ...).
+ FloorSubdivision            String, 2     The divided polygons with different              Y
+                                           levels but under the same floor. (E.g. 00
+                                           = Floor X main part, 01 = Floor X
+                                           subdivision part 1,…).
+
+
+
+                                                                                       Page 17 of 25
+          Field Name              Data Type                     Description                     Allow
+                                     and                                                         Null
+                                   Length                                                       Value
+                                                                                                (Y/N)
+ BaseLevel                        Double          Reduced level of the Floor Polygon. (in         Y
+                                  (3,2)           Metres above the Hong Kong Principal
+                                                  Datum (HKPD)).
+ CreationDate                     Date            Creation date of the Floor Polygon.             Y
+ Creation_by                      Short, 2        The organisation that created the Floor         Y
+                                                  Polygon.
+ LastAmendmentDate                Date            Latest amendment date of the Floor              Y
+                                                  Polygon.
+ LastAmendment_by                 Short, 2        The organisation that amended the               Y
+                                                  Floor Polygon.
+ BuildingPlanNo                   String, 150     Drawing number of the corresponding             Y
+                                                  building plan.
+ BuildingPlanNoDate               Date            Date of the drawing number of the               Y
+                                                  corresponding building plan.
+ BuildingPlanSource               Short, 2        Indicate from which the organization            Y
+                                                  the building plan is.
+ Restricted                       String, 1       Indicate whether the Floor Polygon is           Y
+                                                  restricted to access or not
+                                                  Y=Yes
+                                                  N=No
+
+
+
+3.3.6. Room – Room
+
+ 3.3.6.1.       Room
+Entity type: Feature Layer
+
+       Field Name            Data Type                        Description                       Allow
+                             and Length                                                          Null
+                                                                                                Value
+                                                                                                (Y/N)
+ RoomID                      String, 36         The RoomID must be a globally unique,             N
+                                                RFC4122 compliant version 4 UUID. It is
+                                                a computer-generated unique identifier for
+                                                room features.
+ RoomPolyID                  String, 32         Room Polygon Identity Number.                     N
+ FloorPolyID                 String, 28         Floor Polygon Identity Number to which            N
+                                                the unit belongs.
+ TrueModelID3DSD             String, 18         Room polygon located exactly on the               Y
+                                                corresponding 3D Spatial Data Identity
+                                                Number.
+ TrueBuildingCSUID           String, 19         Room polygon located exactly on the               Y
+                                                corresponding Building CSUID.
+ RoomSubtype                 String, 5          Room Type.                                        Y
+ OmniClassNumber             String, 11         Unique number assigned to an entry under          Y
+                                                the classification system for the
+
+                                                                                             Page 18 of 25
+      Field Name       Data Type                    Description                         Allow
+                       and Length                                                        Null
+                                                                                        Value
+                                                                                        (Y/N)
+                                     construction      industry      called    the
+                                     OmniClass Construction Classification
+                                     System (known as OmniClass™ or
+                                     “OCCS”) issued by The OmniClass
+                                     Construction       Classification     System
+                                     (OCCS) Development Committee
+                                     (http://www.omniclass.org)
+RoomNumberName        String, 150    Annotation of the room number or shop                Y
+                                     number.
+                                     (E.g. 201, 201A, 202B...)
+EnglishDisplayName    String, 150    Name of the room stated on building plans            Y
+                                     in English.
+                                     (E.g. Meeting Room, Elevator...)
+ChineseDisplayName    String, 150    Name of the room stated on building plans            Y
+                                     in Chinese.
+                                     (E.g. 會議室, 電梯 ...)
+BaseLevel             Double (3,2)   The bottom level of the Room Polygon.                Y
+                                     (metres above the Hong Kong Principal
+                                     Datum (HKPD)).
+CreationDate          Date           The creation date of the Room Polygon.               Y
+Creation_by           Short, 2       The organisation that created the Room               Y
+                                     Polygon.
+LastAmendmentDate     Date           The latest amendment date of the Room                Y
+                                     Polygon.
+LastAmendment_by      Short, 2       The organisation that amended the Room               Y
+                                     Polygon.
+FieldCheckingDate     Date           The latest onsite field checking date.               Y
+FieldCheckingMethod   Short, 2       The method applied for validation and                Y
+                                     amendment.
+Restricted            String, 1      Indicate whether the Room Polygon is                 Y
+                                     restricted or not
+                                     Y=Yes
+                                     N=No
+
+
+
+
+                                                                                     Page 19 of 25
+3.4. Unique Identifiers
+The following table describes the unique identifier for each entity in the Building FSDT.
+
+        Data Layer              Unique Identifier                      Description
+ Building                      BuildingCSUID          A unique identifier maintained by LandsD,
+                                                      which consists of 19 characters and 3 segments,
+                                                      for example, “3644815271T20030415”. The
+                                                      following describes the content of each
+                                                      segment:
+                                                           “3644815271”: Geo-reference No
+                                                           “T”: Polygon Type (T means Tower and
+                                                            P means Podium)
+                                                         20030415: Record Creation Date
+ BuildingWorksHistory          BuildingCSUID,         BuildingCSUID and WorksType together form
+                               DataProviderID,        a composite identifier maintained by LandsD,
+                               WorksType,             for          example,           BuildingCSUID
+                               WorksDate              “3644815271T20030415” with WorksType
+                                                      “Issue date for the Certificate of Exemption in
+                                                      respect of Site Formation Works” is unique in
+                                                      the data layer.
+
+ BuildingName                  BuildingNameID,        BuildingNameID and DataProviderID together
+                               DataProviderID         form a composite identifier, for example,
+                                                      BuildingNameID      “1109618882”        with
+                                                      DataProviderID “LandsD” is unique in the data
+                                                      layer.
+
+ BuildingRelateOPStructure BuildingCSUID,             BuildingCSUID and BuildingStructureID
+                           BuildingStructureID        together form a composite identifier, for
+                                                      example,                   BuildingCSUID
+                                                      “0312012825T20080107”                 with
+                                                      BuildingStructureID “5246756” is unique in
+                                                      the data layer.
+
+ OPStructure                   BuildingStructureID    A unique identifier maintained by BD with
+                                                      reference to the concerned Building Block ID
+                                                      as in BD’s Building Condition Information
+                                                      System (“BCIS”), for example: “11967336”.
+
+ OP                            OPNo                   A unique identifier maintained by BD for
+                                                      Occupation    Permit,      for   example:
+                                                      “K21/94(RU)”.
+
+ BuildingLotNoInfo             BuildingStructureID    A unique identifier maintained by BD with
+                                                      reference to the concerned Building Block ID
+                                                      as in BD’s Building Condition Information
+                                                      System (“BCIS”), for example: “11967336”.
+
+
+
+
+                                                                                            Page 20 of 25
+       Data Layer        Unique Identifier                    Description
+Individualised_models   SHEETNO              A unique identifier maintained by LandsD
+                                             which based on the iB1000 map sheet index,
+Tile_based_models                            consists of four segments, for example, “10-
+                        SHEETNO              NE-14C”. The
+                                             following describes the content of each
+                                             segment:
+                                                 “10”: One to two digit(s), no padding
+                                                  zero
+Non_textured_models     SHEETNO
+                                                 “NE”: Two letters denoting the four
+                                                  quadrants that the grid lines in, for
+                                                  example, NW for Northwest, NE for
+                                                  Northeast, SW for Southwest and SE for
+                                                  Southeast
+                                                 “14”: One to two digit(s), no padding
+                                                  zero
+                                                 “C”: One letter between A-D, denoting
+                                                  the subdivided grid number
+
+Floor                   FloorID              A system generated global unique RFC4122
+                                             compliant version 4 UUID maintained by
+                                             LandsD.
+                                             The ID should be formatted as:
+                                             XXXXXXXX-XXXX-XXXX-XXXX-
+                                             XXXXXXXXXXXX
+
+                        FloorPolyID          A unique Floor Polygon Identity Number
+                                             maintained by LandsD, which consists of 28
+                                             characters and 5 segments, for example,
+                                             “F1111199999T2000043002100102”.        The
+                                             following describes the content of each
+                                             segment:
+                                                 “F”: Polygon Type, 1 character, F = Floor
+                                                  Polygon
+                                                 “1111199999T20000430”:
+                                                  BuildingCSUID, 19 characters
+                                                 “02”: Subtype of the Floor Polygon, 2
+                                                  characters. It is the subtype of the Floor
+                                                  Polygon to define each floor from the
+                                                  building plan. Refer to 3D Indoor Maps
+                                                  Specifications provided in the CSDI
+                                                  Portal for the code values.
+                                                 “1001”: Floor Number, 4 characters. It
+                                                  represents the floor level on each floor.
+                                                  Floor Number as an indicator of +ve / -ve
+                                                  sign of Ordinal:
+                                                 0 = +ve, 1 = -ve
+
+
+                                                                               Page 21 of 25
+       Data Layer   Unique Identifier                   Description
+                                             001: 3 digits of the Ordinal (Z Value)
+
+                                             Examples:
+                                             1002 = Basement 2
+                                             1001 = Lower Ground / Basement
+                                             0000 = Ground Floor
+                                             0001 = Level 1
+                                             0002 = Level 2
+                                             …
+
+                                             For the skipped floors like 4F, 14F…, the
+                                             floor numbers will be assigned in
+                                             ascending order. E.g. the 5F will be 0004
+                                             when 4F is not available. Split floors
+                                             should have separate floor numbers.
+
+                                            “02”: Subdivision, 2 characters. For flat
+                                             roof, upper roof, basement, mezzanine of
+                                             building and MTR entrance/exit only,
+                                             floor subdivision applies to the separated
+                                             parts within the same floor. The
+                                             separated parts within the same floor are
+                                             represented as:
+                                             00 = Floor X main part
+                                             01 = Floor X subdivision part 1
+                                             02 = Floor X subdivision part 2
+                                             …
+
+Room                RoomID              A system generated global unique RFC4122
+                                        compliant version 4 Universally Unique
+                                        Identifier (UUID) maintained by LandsD.
+                                        The ID should be formatted as:
+                                        XXXXXXXX-XXXX-XXXX-XXXX-
+                                        XXXXXXXXXXXX
+                    RoomPolyID          A unique Room Polygon Identity Number
+                                        maintained by LandsD, which consists of 32
+                                        characters and 3 segments, for example,
+                                        “U1111199999T20000430021001020001”.
+                                        The following describes the content of each
+                                        segment:
+                                            “U”: Polygon Type, 1 character
+                                            “1111199999T2000043002100102”:
+                                             FloorPolyID, 27 characters.
+                                            “0001”: Room Number, 4 characters. It
+                                             represents the unique number assigned
+                                             sequentially to each room of the
+                                             corresponding    floor,   (i.e.   0001,
+                                             0002,…,9999). Thereafter, every new
+                                             room on the same floor was allocated the
+
+
+                                                                          Page 22 of 25
+         Data Layer              Unique Identifier                         Description
+                                                               next number sequentially, irrespective of
+                                                               its location.
+
+
+
+3.5. Geographical Coverage
+The dataset(s) specified in this document covers the entire territories of HKSAR.
+
+
+
+
+3.6. Units of Measurement
+The units of measurement used in all datasets under Building FSDT refer to the International System
+of Units (“SI”).
+
+
+
+
+3.7. Spatial Resolution/Scale
+The spatial resolution(s) or scale(s) of the data specified in this document is/are:
+    Building: The Building entity is maintained at a scale of 1: 1000 to show the approximate location
+     of the Buildings.
+    3D Visualisation Map (Individualised models), 3D Visualisation Map (Tile-based models) and
+     3D Visualisation Map (Non-textured models): The dataset is maintained with a horizontal
+     accuracy of +/- 0.3m and vertical accuracy of +/- 0.5m to show the approximate location of the
+     mesh models.
+    3D Visualisation Map (Individualised models) (Grid Index), 3D Visualisation Map (Tile-based
+     models) (Grid Index) and 3D Visualisation Map (Non-textured-models): The datasets are
+     maintained at a scale of 1: 1000 to show the location of the grids.
+    Floor and Room: The datasets are maintained with horizontal and vertical accuracy of +/- 1.0 m
+     to show the approximate location of the Floors and Rooms.
+
+
+
+
+3.8. Spatial Representation Type
+The spatial representation type(s) of the data specified in this document is/are:
+    The Building entity is represented as polygons to represent the geographical location of the entity.
+    The 3D Visualisation Map (Individualised models), 3D Visualisation Map (Tile-based models)
+
+
+                                                                                           Page 23 of 25
+     and 3D Visualisation Map (Non-textured-models) dataset are represented as mesh models to
+     represent the geographical location of the entity.
+    The grid indexes of the 3D Visualisation Map (Individualised models), 3D Visualisation Map
+     (Tile-based models) and 3D Visualisation Map (Non-textured-models) are represented as
+     polygons with standard dimension to represent the geographical location of the entity.
+    The Floor and Room entities are represented as polygons to represent the geographical location of
+     the entity.
+
+
+
+
+3.9. Spatial Reference System
+The spatial data covered in this document are geo-referenced or projected to one of the Coordinate
+Reference Systems as specified in the Simplified Data Specifications for Coordinate Reference System
+of the CSDI.
+
+
+
+
+3.10. Relationships and Dependencies with Other FSDTs
+The Building FSDT is related to the Address FSDT. The relationship between the Building entity in
+this FSDT and the BuildingCSU entity in Address FSDT is identified, where the BuildingCSUID are
+found in both FSDTs, as illustrated in below Figure 3-2
+
+
+
+
+                Figure 3-2 - The relationship between Building and Address FSDTs
+
+
+
+
+                                                                                        Page 24 of 25
+The English version shall prevail in case of any discrepancy or inconsistency between the
+                      English version and its Chinese translation.
+
+
+
+
+                                                                                 Page 25 of 25
+

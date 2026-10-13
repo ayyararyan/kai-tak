@@ -1,0 +1,140 @@
+[
+  {
+    "building_csuid": "0621112353T20050430",
+    "event_id": "works:62779",
+    "raw_record": {
+      "OBJECTID": 62779,
+      "BuildingCSUID": "0621112353T20050430",
+      "DataProviderID": "BD",
+      "WorksType": "Completion Date",
+      "WorksDate": "01/02/1969"
+    },
+    "parsed_date_min": "1969-02-01",
+    "source_url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?objectIds=62779&outFields=%2A&f=pjson",
+    "file": "documentation/fresh_1000_62779.json",
+    "sha256": "ad0ee7b9b2318d966bdfafa8a0bb0f5e91ec188d14297c0cc8caab0d7d2c0ecf",
+    "retrieved_utc": "2026-10-13T12:36:05.276987+00:00",
+    "raw_equals_acquisition_snapshot": true
+  },
+  {
+    "building_csuid": "0621112353T20050430",
+    "event_id": "works:62780",
+    "raw_record": {
+      "OBJECTID": 62780,
+      "BuildingCSUID": "0621112353T20050430",
+      "DataProviderID": "BD",
+      "WorksType": "OP Date",
+      "WorksDate": "01/02/2019"
+    },
+    "parsed_date_min": "2019-02-01",
+    "source_url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?objectIds=62780&outFields=%2A&f=pjson",
+    "file": "documentation/fresh_1000_62780.json",
+    "sha256": "002caf798994e3c12cab5415b3aa7d2d9e1ad27514abd5ca2d01183d55a65f3a",
+    "retrieved_utc": "2026-10-13T12:36:05.776456+00:00",
+    "raw_equals_acquisition_snapshot": true
+  },
+  {
+    "building_csuid": "0621112353T20050430",
+    "event_id": "op:4:32580:16184",
+    "raw_record": {
+      "OBJECTID": 16184,
+      "OPNo": "NT6/69",
+      "OPDate": -28886400000,
+      "DomesticGFA": null,
+      "NonDomesticGFA": null,
+      "GFA": 0
+    },
+    "parsed_date_min": "1969-02-01",
+    "source_url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004/query?objectIds=16184&outFields=%2A&f=pjson",
+    "file": "documentation/fresh_1004_16184.json",
+    "sha256": "b468b261166f0209aca5fc0efb083260e4ceb1c6acbcd2ebfe2b1c13696b45fd",
+    "retrieved_utc": "2026-10-13T12:36:06.286388+00:00",
+    "raw_equals_acquisition_snapshot": true
+  },
+  {
+    "building_csuid": "3792721212T20050430",
+    "event_id": "works:113305",
+    "raw_record": {
+      "OBJECTID": 113305,
+      "BuildingCSUID": "3792721212T20050430",
+      "DataProviderID": "BD",
+      "WorksType": "Completion Date",
+      "WorksDate": "18/05/1982"
+    },
+    "parsed_date_min": "1982-05-18",
+    "source_url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?objectIds=113305&outFields=%2A&f=pjson",
+    "file": "documentation/fresh_1000_113305.json",
+    "sha256": "bc5f2a2af5b4cb7a744b179d09a764801f6b564849a3d2f9bb87ca168f58da3f",
+    "retrieved_utc": "2026-10-13T12:36:06.853440+00:00",
+    "raw_equals_acquisition_snapshot": true
+  },
+  {
+    "building_csuid": "3792721212T20050430",
+    "event_id": "works:113306",
+    "raw_record": {
+      "OBJECTID": 113306,
+      "BuildingCSUID": "3792721212T20050430",
+      "DataProviderID": "BD",
+      "WorksType": "OP Date",
+      "WorksDate": "18/05/2019"
+    },
+    "parsed_date_min": "2019-05-18",
+    "source_url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?objectIds=113306&outFields=%2A&f=pjson",
+    "file": "documentation/fresh_1000_113306.json",
+    "sha256": "63cf4a68a836a7bb8eb7daca448230748cb05d0aebb63e3358f2ae894d12b9f9",
+    "retrieved_utc": "2026-10-13T12:36:07.498185+00:00",
+    "raw_equals_acquisition_snapshot": true
+  },
+  {
+    "building_csuid": "3792721212T20050430",
+    "event_id": "op:25530:31187:21190",
+    "raw_record": {
+      "OBJECTID": 21190,
+      "OPNo": "K23/82",
+      "OPDate": 390499200000,
+      "DomesticGFA": null,
+      "NonDomesticGFA": null,
+      "GFA": 0
+    },
+    "parsed_date_min": "1982-05-18",
+    "source_url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004/query?objectIds=21190&outFields=%2A&f=pjson",
+    "file": "documentation/fresh_1004_21190.json",
+    "sha256": "1702f5fc453beb1ac085248a005e67e8b05e7ce6e0cf9907c5a4387d37b3578e",
+    "retrieved_utc": "2026-10-13T12:36:08.049885+00:00",
+    "raw_equals_acquisition_snapshot": true
+  },
+  {
+    "building_csuid": "3738621565T20091214",
+    "event_id": "works:59275",
+    "raw_record": {
+      "OBJECTID": 59275,
+      "BuildingCSUID": "3738621565T20091214",
+      "DataProviderID": "HD",
+      "WorksType": "Completion Date",
+      "WorksDate": "28/04/2010"
+    },
+    "parsed_date_min": "2010-04-28",
+    "source_url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?objectIds=59275&outFields=%2A&f=pjson",
+    "file": "documentation/fresh_1000_59275.json",
+    "sha256": "2ca562df6954858f03368cdb54287af77ecef2ef2c34826435541c5baf4bc847",
+    "retrieved_utc": "2026-10-13T12:36:08.650967+00:00",
+    "raw_equals_acquisition_snapshot": true
+  },
+  {
+    "building_csuid": "3738621565T20091214",
+    "event_id": "works:61254",
+    "raw_record": {
+      "OBJECTID": 61254,
+      "BuildingCSUID": "3738621565T20091214",
+      "DataProviderID": "HD",
+      "WorksType": "Completion Date",
+      "WorksDate": "28/04/2010"
+    },
+    "parsed_date_min": "2010-04-28",
+    "source_url": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000/query?objectIds=61254&outFields=%2A&f=pjson",
+    "file": "documentation/fresh_1000_61254.json",
+    "sha256": "b82a65a89479172459d0418a9b4cf01511ed1c7b1f601a813f9d84eb53f2a1ee",
+    "retrieved_utc": "2026-10-13T12:36:09.023653+00:00",
+    "raw_equals_acquisition_snapshot": true
+  }
+]

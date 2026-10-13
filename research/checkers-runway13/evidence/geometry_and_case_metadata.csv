@@ -1,0 +1,13 @@
+quantity,value,unit,evidence_class,source,limitation
+igs_course,88,deg magnetic,observed published specification,CAD §1.8.1 PDF32,1993; do not mix magnetic with true heading
+runway13_direction,135,deg magnetic,observed published specification,CAD §1.10 PDF34,"47deg course offset, not necessarily heading change in wind"
+igs_glidepath,3.1,deg,observed published specification,CAD §1.8.1 PDF32,instrument segment; not universal visual segment descent
+middle_marker_distance,1.7,NM from touchdown,observed published specification,CAD §1.8.1 PDF33,distance convention must be retained
+runway_elevation,15,ft amsl,observed published specification,CAD §1.10 PDF33,not radio height
+runway_length,3331.5,m,observed published specification,CAD §1.10 PDF34,not landing distance available
+runway_width,61,m,observed published specification,CAD §1.10 PDF34,
+landing_distance_available,2786,m,observed published specification,CAD §1.10 PDF34,displaced threshold relevant
+estimated_landing_weight,525718,lb,estimated in source,CAD §1.6 PDF18,source gives approximate239.0tonnes
+touchdown_distance,480,m beyond displaced threshold,estimated in source,CAD §2.6.5 PDF92,approximately; not cause of accident
+touchdown_groundspeed,160,kt,reported recorder measurement,CAD §2.6.5 PDF92,do not replace CAS or TAS
+recorder_parameters,269,count,observed published metadata,CAD §1.11.1 PDF36,89variable+180discrete; not all published

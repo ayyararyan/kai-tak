@@ -1,0 +1,1 @@
+Invalidated for review findings B7 coverage-truncated region proof, B8 geographic bounding-box mask, B9 pixel-centre contour erosion; B1 palette robustness latent, current227 originals grayscale. Preserved for comparison, not current accepted output.

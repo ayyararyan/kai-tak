@@ -1,0 +1,43 @@
+{
+  "schema_version": 2,
+  "coverage_method": "actual_source_index_polygon_projected_not_geographic_bbox",
+  "coverage_bounds_epsg2326": [
+    836750.0002878776,
+    823399.999692982,
+    837500.0002872259,
+    823999.9996934237
+  ],
+  "key": "11-NW-5B_1985-03",
+  "source": "reconstruction/chronology/sheets/maps/1980_1990_1685_11-NW-5B_1985-03-01.zip",
+  "source_sha256": "086ce29e78b0f10c2f4c013613a0f9ec984da1cdadcee71f713382d41938337d",
+  "tfw_member": "HP1C-11NW05B-198503.tfw",
+  "affine": [
+    0.2499491855754835,
+    0.0,
+    836704.9910064792,
+    0.0,
+    -0.24992540096341218,
+    824044.1663593962
+  ],
+  "crs": "EPSG:2326 assigned from official survey grid; independent checks in parent registration report",
+  "sampling_resolution_m": [
+    0.2499491855754835,
+    0.24992540096341218
+  ],
+  "candidates": 1,
+  "counts": {
+    "ambiguous_content_candidate": 1
+  },
+  "map_regions": 886,
+  "map_regions_without_candidate": 886,
+  "verified_historical_buildings": 0,
+  "limitations": [
+    "No visual identity acceptance performed by this extractor",
+    "Ink includes text, road and grid lines",
+    "Candidate rank is heuristic, not calibrated probability",
+    "Current feature universe misses vanished structures; closed map regions remain unclassified",
+    "No height transfer and no historical volume produced",
+    "Date is edition month, not object survey date",
+    "No registration adjustment estimated; world file used verbatim"
+  ]
+}

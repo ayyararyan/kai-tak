@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-13",
+  "tests_passed": 11,
+  "tests_total": 11,
+  "numeric_artifacts_reproduced_identically": [
+    "wind_records.csv",
+    "wind_extrema.csv",
+    "wind_extraction.json",
+    "within_sensor_differences.csv",
+    "across_sensor_variability.csv",
+    "summary.json"
+  ],
+  "visual_review": {
+    "pages": [
+      137,
+      138,
+      139
+    ],
+    "reviewer": "wind transcription agent; parent independent review remains separate",
+    "abc_numeric_cells_reviewed": 450,
+    "source_anomalies_retained": 2,
+    "figure_inspected": true
+  },
+  "scope": "Wind-only component; no flight-time alignment or instrument CI supplied.",
+  "independent_review_repair": {
+    "issue": "Parsed nulls crashed downstream after partial output replacement",
+    "tests": [
+      "speed null",
+      "direction null",
+      "sparse all-missing",
+      "plots for all three null fixtures",
+      "malformed-input preserves prior outputs"
+    ],
+    "original_artifacts_confirmed_byte_identical": [
+      "manual_readings.txt",
+      "manual_extrema.txt",
+      "wind_records.csv",
+      "wind_extrema.csv",
+      "within_sensor_differences.csv"
+    ],
+    "numerical_findings_changed": false,
+    "all_derivation_and_serialization_before_replace": true,
+    "atomic_directory_swap_claimed": false
+  }
+}

@@ -1,0 +1,30 @@
+test_accepted_roof_is_not_zeroed (test_stereo_guardrails.StereoGuardrailTests.test_accepted_roof_is_not_zeroed) ... ok
+test_behind_camera_plane_rejected (test_stereo_guardrails.StereoGuardrailTests.test_behind_camera_plane_rejected) ... ok
+test_both_axes_nonzero_weight_contributors_required (test_stereo_guardrails.StereoGuardrailTests.test_both_axes_nonzero_weight_contributors_required) ... ok
+test_changed_frame_refused (test_stereo_guardrails.StereoGuardrailTests.test_changed_frame_refused) ... ok
+test_changed_track_archive_refused (test_stereo_guardrails.StereoGuardrailTests.test_changed_track_archive_refused) ... ok
+test_collinear_plane_rejected (test_stereo_guardrails.StereoGuardrailTests.test_collinear_plane_rejected) ... ok
+test_duplicate_correspondence_refused (test_stereo_guardrails.StereoGuardrailTests.test_duplicate_correspondence_refused) ... ok
+test_exact_last_pixel_has_no_outside_contributors (test_stereo_guardrails.StereoGuardrailTests.test_exact_last_pixel_has_no_outside_contributors) ... ok
+test_fractional_out_of_bounds_contributor_rejected (test_stereo_guardrails.StereoGuardrailTests.test_fractional_out_of_bounds_contributor_rejected) ... ok
+test_high_reprojection_rejected (test_stereo_guardrails.StereoGuardrailTests.test_high_reprojection_rejected) ... ok
+test_integer_sample_ignores_zero_weight_invalid_neighbor (test_stereo_guardrails.StereoGuardrailTests.test_integer_sample_ignores_zero_weight_invalid_neighbor) ... ok
+test_invalid_roof_never_reports_height (test_stereo_guardrails.StereoGuardrailTests.test_invalid_roof_never_reports_height) ... ok
+test_invalid_sentinel_blend_cannot_pass_lr_gate (test_stereo_guardrails.StereoGuardrailTests.test_invalid_sentinel_blend_cannot_pass_lr_gate) ... ok
+test_negative_depth_rejected (test_stereo_guardrails.StereoGuardrailTests.test_negative_depth_rejected) ... ok
+test_nonfinite_point_rejected (test_stereo_guardrails.StereoGuardrailTests.test_nonfinite_point_rejected) ... ok
+test_nonfinite_remap_rejected (test_stereo_guardrails.StereoGuardrailTests.test_nonfinite_remap_rejected) ... ok
+test_parallel_ray_rejected (test_stereo_guardrails.StereoGuardrailTests.test_parallel_ray_rejected) ... ok
+test_pinned_labels_validate (test_stereo_guardrails.StereoGuardrailTests.test_pinned_labels_validate) ... ok
+test_plane_intersection_valid (test_stereo_guardrails.StereoGuardrailTests.test_plane_intersection_valid) ... ok
+test_rejected_ground_cannot_define_plane (test_stereo_guardrails.StereoGuardrailTests.test_rejected_ground_cannot_define_plane) ... ok
+test_row_reassignment_refused (test_stereo_guardrails.StereoGuardrailTests.test_row_reassignment_refused) ... ok
+test_similarity_collinear_rejected (test_stereo_guardrails.StereoGuardrailTests.test_similarity_collinear_rejected) ... ok
+test_similarity_scale_recovered (test_stereo_guardrails.StereoGuardrailTests.test_similarity_scale_recovered) ... ok
+test_valid_geometry (test_stereo_guardrails.StereoGuardrailTests.test_valid_geometry) ... ok
+test_valid_plane_and_holdout_not_fitted (test_stereo_guardrails.StereoGuardrailTests.test_valid_plane_and_holdout_not_fitted) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.016s
+
+OK

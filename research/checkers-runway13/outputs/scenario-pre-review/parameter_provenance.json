@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "aircraft": {
+    "type": "Boeing 747-409B / 747-400",
+    "engines": "four PW4056",
+    "flaps_deg": 30,
+    "gear": "down",
+    "category": "observed",
+    "source": "Hong Kong CAD Aircraft Accident Report 1/95 CAL605, evidence/EVIDENCE_REPORT.md source inventory; not a performance calibration"
+  },
+  "wind_type": "constant",
+  "parameters": {
+    "mass_lb": {
+      "value": 525718,
+      "unit": "lb",
+      "category": "observed",
+      "source": "Hong Kong CAD Aircraft Accident Report 1/95 CAL605, evidence/EVIDENCE_REPORT.md source inventory; not a performance calibration"
+    },
+    "vref_kt": {
+      "value": 141,
+      "unit": "kt CAS",
+      "category": "observed",
+      "source": "Hong Kong CAD Aircraft Accident Report 1/95 CAL605, evidence/EVIDENCE_REPORT.md source inventory; not a performance calibration"
+    },
+    "case_target_kt": {
+      "value": 153,
+      "unit": "kt CAS",
+      "category": "observed",
+      "source": "Hong Kong CAD Aircraft Accident Report 1/95 CAL605, evidence/EVIDENCE_REPORT.md source inventory; not a performance calibration"
+    },
+    "mass_kg": {
+      "value": 238461.67357166,
+      "unit": "kg",
+      "category": "deterministically derived",
+      "source": "mass_lb \u00d7 exact 0.45359237 kg/lb"
+    },
+    "initial_eas_kt": {
+      "value": 153,
+      "unit": "kt EAS",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "start_xyz_m": {
+      "value": [
+        -2500,
+        1000,
+        140
+      ],
+      "unit": "m",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "initial_track_deg": {
+      "value": -47,
+      "unit": "degrees runway-relative",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "threshold_height_m": {
+      "value": 15.24,
+      "unit": "m",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "threshold_gamma_deg": {
+      "value": -3.1,
+      "unit": "degrees air-relative",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "touchdown_sink_mps": {
+      "value": 0.7,
+      "unit": "m/s",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "touchdown_x_min_m": {
+      "value": 200,
+      "unit": "m",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "touchdown_x_max_m": {
+      "value": 700,
+      "unit": "m",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "touchdown_y_tol_m": {
+      "value": 5,
+      "unit": "m",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "touchdown_track_tol_deg": {
+      "value": 2,
+      "unit": "degrees",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "touchdown_bank_tol_deg": {
+      "value": 3,
+      "unit": "degrees",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "touchdown_sink_max_mps": {
+      "value": 1.5,
+      "unit": "m/s",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "reserve_m": {
+      "value": 150,
+      "unit": "m",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "bank_limit_deg": {
+      "value": 25,
+      "unit": "degrees",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "roll_limit_deg_s": {
+      "value": 5,
+      "unit": "degrees/s",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "cl_min": {
+      "value": 0,
+      "unit": "dimensionless",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "cl_max": {
+      "value": 2.8,
+      "unit": "dimensionless",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "load_min_g": {
+      "value": 0.5,
+      "unit": "g",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "load_max_g": {
+      "value": 1.4,
+      "unit": "g",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "eas_min_kt": {
+      "value": 135,
+      "unit": "kt EAS",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "eas_max_kt": {
+      "value": 175,
+      "unit": "kt EAS",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "descent_limit_deg": {
+      "value": 6,
+      "unit": "degrees",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "approach_sink_max_mps": {
+      "value": 8,
+      "unit": "m/s",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "thrust_max_n": {
+      "value": 700000,
+      "unit": "N",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "thrust_slew_n_s": {
+      "value": 100000,
+      "unit": "N/s",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "rho0_kg_m3": {
+      "value": 1.225,
+      "unit": "kg/m3",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "density_scale_m": {
+      "value": 8500,
+      "unit": "m",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "wing_area_m2": {
+      "value": 541.2,
+      "unit": "m2",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "cd0": {
+      "value": 0.08,
+      "unit": "dimensionless",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "induced_factor": {
+      "value": 0.045,
+      "unit": "dimensionless",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "brake_delay_s": {
+      "value": 2,
+      "unit": "s",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "brake_deceleration_mps2": {
+      "value": 1.4709975,
+      "unit": "m/s2",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "corridor_halfwidth_m": {
+      "value": 400,
+      "unit": "m",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "wind_mps": {
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "unit": "m/s runway-frame",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "lda_m": {
+      "value": 2786,
+      "unit": "m",
+      "category": "observed",
+      "source": "Hong Kong CAD Aircraft Accident Report 1/95 CAL605, evidence/EVIDENCE_REPORT.md source inventory; not a performance calibration; historical LDA used as fixed scenario stop bound"
+    }
+  },
+  "obstacles": [],
+  "obstacle_evidence": "Synthetic empty obstacle set; no historical terrain clearance established",
+  "speed_conversion": "Approximate low-altitude CAS by EAS, then convert EAS to TAS at model density; not a measured calibration",
+  "historical_inputs": {
+    "terrain": "unavailable",
+    "navigation_corridor": "unavailable",
+    "aircraft_envelope_calibration": "unavailable",
+    "normal_flight_records": "unavailable"
+  },
+  "slack_definition": "Minimum normalized operating-inequality margin; bound intervals normalize by full span, symmetric limits by cap. Structural equalities and z=0 contact excluded; altitude >=0 remains hard. Corridor = 3D nearest distance to dense unoptimized reference."
+}

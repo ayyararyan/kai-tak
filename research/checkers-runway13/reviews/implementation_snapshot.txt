@@ -1,0 +1,1006 @@
+### NEW FILE model/__init__.py
+"""Scenario-only constrained Runway 13 trajectory research model."""
+
+### NEW FILE model/solve.py
+"""Local lexicographic search; run with python -m model.solve from project root."""
+import argparse
+import copy
+import csv
+import hashlib
+import json
+from pathlib import Path
+import platform
+import sys
+from datetime import datetime, timezone
+import numpy as np
+import scipy
+from scipy.optimize import minimize
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from .trajectory import (BASE_Q, BOUNDS, Evaluator, HistoricalUnavailable, load_config,
+                         replay, summary, validate_config)
+
+SCALE=np.array([40,7,500,77,100,100,100,100,20,20,20,5],float)
+
+
+def margins(e,eta):
+    _,m,h,_,_=e
+    return np.concatenate([*(v-eta for v in m.values()),*h.values()])
+
+
+def optimize(cfg,n=121,maxiter=180):
+    ev=Evaluator(cfg)
+    cache={}
+    def get(x):
+        key=np.asarray(x[:-1]).tobytes()
+        if key not in cache:
+            cache.clear()
+            cache[key]=ev.evaluate(x[:-1]*SCALE,n)
+        return cache[key]
+    bounds=[(a/s,b/s) for (a,b),s in zip(BOUNDS,SCALE)]+[(-10,.49)]
+    x0=np.r_[BASE_Q/SCALE,min(summary(ev.evaluate(BASE_Q,n))['eta']-.01,0)]
+    primary=minimize(lambda x:-x[-1],x0,method='SLSQP',bounds=bounds,
+        constraints=[{'type':'ineq','fun':lambda x:margins(get(x),x[-1])}],
+        options={'maxiter':maxiter,'ftol':1e-9})
+    eta=float(primary.x[-1])
+    secondary=minimize(lambda x:get(x)[-1]/50,primary.x,method='SLSQP',bounds=bounds,
+        constraints=[{'type':'ineq','fun':lambda x:margins(get(x),x[-1])},
+                     {'type':'ineq','fun':lambda x:x[-1]-(eta-1e-4)}],
+        options={'maxiter':maxiter,'ftol':1e-9})
+    selected=secondary if secondary.success and np.min(margins(get(secondary.x),secondary.x[-1]))>=-1e-6 else primary
+    def record(r):
+        return dict(success=bool(r.success),status=int(r.status),message=str(r.message),
+                    iterations=int(r.nit),eta_variable=float(r.x[-1]),decisions=(r.x[:-1]*SCALE).tolist(),
+                    min_solver_constraint=float(np.min(margins(get(r.x),r.x[-1]))))
+    return selected.x[:-1]*SCALE,dict(primary=record(primary),secondary=record(secondary),
+        selected='secondary' if selected is secondary else 'primary',collocation_per_phase=n,
+        interpretation='local optimization within declared polynomial family; no global optimum or infeasibility proof',
+        eta_retention_tolerance=1e-4)
+
+
+def save_csv(path,e):
+    d,_,_,ro,_=e
+    names=['time_s','phase','x_m','y_m','z_m','vx_mps','vy_mps','vz_mps','tas_mps','eas_kt','air_heading_rad','track_rad','gamma_rad','bank_rad','roll_rad_s','cl','load_g','thrust_n','thrust_slew_n_s']
+    with path.open('w',newline='') as f:
+        wr=csv.writer(f);wr.writerow(names)
+        for i,t in enumerate(d['time_s']):
+            wr.writerow([t,'approach' if d['phase'][i]==0 else 'flare',*d['pos'][i],*d['vel'][i],
+                *(d[k][i] for k in names[8:])])
+        # Ground state does not have an aerodynamic flight control interpretation.
+        for i,t in enumerate(ro['time_s'][1:],1):
+            wr.writerow([t,'rollout',ro['x_m'][i],0,0,ro['speed_mps'][i],0,0]+['']*(len(names)-8))
+
+
+def plot(path,base,cand,cfg):
+    fig,axs=plt.subplots(2,2,figsize=(12,8))
+    for e,label,col in ((base,'Unoptimized synthetic reference','#8a7660'),(cand,'Local candidate','#48665b')):
+        d=e[0]; ro=e[3]
+        axs[0,0].plot(d['pos'][:,0],d['pos'][:,1],color=col,label=label)
+        axs[0,1].plot(d['pos'][:,0],d['pos'][:,2],color=col)
+        axs[1,0].plot(d['time_s'],np.rad2deg(d['bank_rad']),color=col)
+        axs[1,1].plot(d['time_s'],d['eas_kt'],color=col)
+        axs[0,0].plot(ro['x_m'],np.zeros_like(ro['x_m']),color=col,alpha=.4)
+        axs[0,0].scatter(ro['stop_x_m'],0,color=col,marker='x')
+    p=validate_config(cfg)
+    axs[0,0].plot([0,p['lda_m']],[0,0],color='black',lw=5,alpha=.2)
+    axs[0,0].axvline(p['lda_m']-p['reserve_m'],color='gray',ls=':')
+    axs[0,0].set(xlabel='x from displaced threshold (m)',ylabel='y right of runway (m)',title='Ground track and stop (×)')
+    axs[0,0].axis('equal');axs[0,0].legend(fontsize=8)
+    axs[0,1].set(xlabel='x from threshold (m)',ylabel='Height above runway (m)',title='Continuous approach and flare')
+    axs[1,0].axhline(p['bank_limit_deg'],ls=':',color='gray');axs[1,0].axhline(-p['bank_limit_deg'],ls=':',color='gray')
+    axs[1,0].set(xlabel='Flight time (s)',ylabel='Bank, positive right (deg)')
+    axs[1,1].axhline(p['eas_min_kt'],ls=':',color='gray');axs[1,1].axhline(p['eas_max_kt'],ls=':',color='gray')
+    axs[1,1].set(xlabel='Flight time (s)',ylabel='Equivalent airspeed (kt)')
+    fig.suptitle('Runway 13 — uncalibrated scenario, not historical paths or flight guidance')
+    for ax in axs.flat:ax.grid(alpha=.15)
+    fig.tight_layout();fig.savefig(path,dpi=180);plt.close(fig)
+
+
+def run(cfg,out,n=121,maxiter=180):
+    out=Path(out);out.mkdir(parents=True,exist_ok=True)
+    q,opt=optimize(cfg,n,maxiter)
+    ev=Evaluator(cfg)
+    base=ev.evaluate(BASE_Q,1201);cand=ev.evaluate(q,1201)
+    bs,cs=summary(base),summary(cand)
+    br,cr=replay(base,cfg),replay(cand,cfg)
+    selected_success=opt[opt['selected']]['success']
+    status='sampled_scenario_feasible' if selected_success and cs['sampled_feasible'] and cr['passed'] and cr['terminal_constraints_passed'] and cr['stop_constraint_passed'] else 'unresolved'
+    sensitivity=[]
+    for label,field,val in [('steady_crosswind_plus5','wind_mps',[0,5,0]),('steady_crosswind_minus5','wind_mps',[0,-5,0]),('mass_plus5percent','mass_kg',ev.p['mass_kg']*1.05),('braking_minus10percent','brake_deceleration_mps2',ev.p['brake_deceleration_mps2']*.9)]:
+        modified=copy.deepcopy(cfg);modified['parameters'][field]['value']=val
+        se=Evaluator(modified)
+        # Freeze the same nominal spatial corridor even when wind changes endpoint air/ground mapping.
+        se.reference_tree=ev.reference_tree
+        fixed=tuple(cand[0][k] for k in ('time_s','pos','vel','acc','phase'))
+        result=se.evaluate(q,1201,kinematics_override=fixed)
+        sensitivity.append(dict(case=label,parameter=field,value=val,summary=summary(result),replay=replay(result,modified),
+            interpretation='exact nominal ground path and timing, inverse controls conditioned on wind; airspeed/air-gamma endpoint equalities may change; not common-policy robustness' if field=='wind_mps' else 'fixed trajectory decisions; conditional inverse-force diagnostic'))
+    source_root=Path(__file__).parent
+    source_hashes={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(source_root.glob('*.py'))}
+    report=dict(source_sha256=source_hashes,schema_version=1,utc=datetime.now(timezone.utc).isoformat(),status=status,
+        category='scenario-based',aircraft_calibration='unavailable',historical_comparison='not performed',
+        optimization=opt,baseline=bs,candidate=cs,baseline_replay=br,candidate_replay=cr,
+        dense_grid_per_phase=1201,mesh_check={'optimization_grid_eta':summary(ev.evaluate(q,n))['eta'],
+            'dense_grid_eta':cs['eta'],'difference':cs['eta']-summary(ev.evaluate(q,n))['eta']},
+        sensitivity=sensitivity,nominal_objective_delta=cs['eta']-bs['eta'],
+        improvement_interpretation='Difference from unoptimized synthetic reference only; no historical or globally optimal claim',
+        constraints='Sampled and replay-checked; finite grids are not continuous-time proof',
+        runtime={'python':sys.version,'numpy':np.__version__,'scipy':scipy.__version__,'platform':platform.platform()})
+    (out/'optimization_replay.json').write_text(json.dumps(report,indent=2)+'\n')
+    (out/'parameter_provenance.json').write_text(json.dumps(cfg,indent=2)+'\n')
+    save_csv(out/'baseline.csv',base);save_csv(out/'candidate.csv',cand)
+    plot(out/'trajectory.png',base,cand,cfg)
+    manifest={f.name:{'sha256':hashlib.sha256(f.read_bytes()).hexdigest(),'bytes':f.stat().st_size}
+              for f in sorted(out.iterdir()) if f.is_file() and f.name!='manifest.json'}
+    (out/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
+    return report
+
+
+def main():
+    ap=argparse.ArgumentParser(description=__doc__)
+    ap.add_argument('--config',type=Path,default=Path(__file__).with_name('config.json'))
+    ap.add_argument('--out',type=Path,default=Path('outputs/scenario'))
+    ap.add_argument('--mode',choices=['scenario','historical'],default='scenario')
+    ap.add_argument('--samples',type=int,default=121)
+    ap.add_argument('--maxiter',type=int,default=180)
+    args=ap.parse_args()
+    cfg=load_config(args.config)
+    try:validate_config(cfg,args.mode)
+    except HistoricalUnavailable as exc:
+        args.out.mkdir(parents=True,exist_ok=True)
+        (args.out/'historical_blocked.json').write_text(json.dumps({'status':'blocked','reason':str(exc)},indent=2)+'\n')
+        print(str(exc));return 2
+    report=run(cfg,args.out,args.samples,args.maxiter)
+    print(json.dumps({k:report[k] for k in ('status','candidate','candidate_replay','mesh_check')},indent=2))
+    return 0
+
+if __name__=='__main__':raise SystemExit(main())
+
+### NEW FILE model/test_model.py
+"""Physics, boundary and fail-closed tests; no historical safety assertions."""
+import copy
+import numpy as np
+import pytest
+from .trajectory import (BASE_Q,G,KT,LB,Evaluator,HistoricalUnavailable,curves,density,
+    endpoint_velocity,flight_basis,inverse,kinematics,load_config,replay,rollout,summary,validate_config)
+
+@pytest.fixture
+def cfg():return load_config()
+
+
+def test_exact_mass_conversion(cfg):
+    p=validate_config(cfg)
+    assert p['mass_kg']==525718*LB
+    assert KT==1852/3600
+
+
+def test_straight_level_force_balance(cfg):
+    p=validate_config(cfg)
+    pos=np.array([[0,0,100.]])
+    vel=np.array([[80.,0,0]])
+    d=inverse(pos,vel,np.zeros((1,3)),p)
+    assert d['bank_rad'][0]==0
+    assert d['load_g'][0]==pytest.approx(1)
+    assert d['lift_n'][0]==pytest.approx(p['mass_kg']*G)
+    assert d['thrust_n'][0]==pytest.approx(d['drag_n'][0])
+
+
+def test_turn_force_balance_and_bank_sign(cfg):
+    p=validate_config(cfg)
+    pos=np.array([[0.,0.,100.]])
+    vel=np.array([[80.,0,0]])
+    acc=np.array([[.4,2.,-.1]])
+    d=inverse(pos,vel,acc,p)
+    assert d['bank_rad'][0]>0 # right bank produces positive y acceleration
+    phi=d['bank_rad'][0];L=d['lift_n'][0];T=d['thrust_n'][0];D=d['drag_n'][0]
+    reconstructed=np.array([T-D,L*np.sin(phi),L*np.cos(phi)-p['mass_kg']*G])/p['mass_kg']
+    np.testing.assert_allclose(reconstructed,acc[0],atol=1e-12)
+
+
+def test_wind_air_heading_differs_from_track(cfg):
+    cfg['parameters']['wind_mps']['value']=[0,8,0]
+    p=validate_config(cfg)
+    vel=endpoint_velocity(153,100,-47,-3.1,p)
+    V,psi,gamma,*_=flight_basis(vel-np.array(p['wind_mps']))
+    assert np.rad2deg(np.arctan2(vel[1],vel[0]))==pytest.approx(-47)
+    assert np.rad2deg(psi)!=pytest.approx(-47)
+    assert np.rad2deg(gamma)==pytest.approx(-3.1)
+    assert V*np.sqrt(density(100,p)/p['rho0_kg_m3'])/KT==pytest.approx(153)
+
+
+def test_continuous_flare_and_fixed_endpoints(cfg):
+    a,f=curves(BASE_Q,cfg)
+    for j in range(3):
+        for order in range(3):
+            assert a[j].deriv(order)(1)/BASE_Q[0]**order==pytest.approx(f[j].deriv(order)(0)/BASE_Q[1]**order,abs=1e-10)
+    assert f[0](1)==pytest.approx(BASE_Q[2])
+    assert f[1](1)==pytest.approx(0)
+    assert f[2](1)==pytest.approx(0,abs=1e-10)
+    assert f[2].deriv()(1)/BASE_Q[1]==pytest.approx(-.7)
+    d=Evaluator(cfg).evaluate(BASE_Q,501)[0]
+    np.testing.assert_allclose(d['bank_rad'][[0,500,-1]],0,atol=1e-10)
+
+
+def test_stopping_distance_delay_and_braking(cfg):
+    p=validate_config(cfg);r=rollout(BASE_Q,p)
+    expected=BASE_Q[2]+BASE_Q[3]*2+BASE_Q[3]**2/(2*.15*G)
+    assert r['stop_x_m']==pytest.approx(expected)
+    assert r['speed_mps'][-1]==pytest.approx(0,abs=1e-10)
+    i=np.flatnonzero(np.isclose(r['time_s']-BASE_Q[0]-BASE_Q[1],2))[0]
+    assert r['speed_mps'][i]==pytest.approx(BASE_Q[3])
+    assert r['x_m'][i]==pytest.approx(BASE_Q[2]+2*BASE_Q[3])
+
+
+@pytest.mark.parametrize('key,value',[('mass_kg',0),('mass_kg',float('nan')),('initial_eas_kt',0),('eas_min_kt',180),('load_max_g',.2),('brake_deceleration_mps2',0),('wind_mps',[0,0]),('wind_mps',[0,float('inf'),0]),('thrust_max_n',-1)])
+def test_invalid_configuration_rejected(cfg,key,value):
+    cfg['parameters'][key]['value']=value
+    with pytest.raises(ValueError):validate_config(cfg)
+
+
+def test_nonconstant_wind_rejected(cfg):
+    cfg['wind_type']='time-varying'
+    with pytest.raises(ValueError,match='constant'):validate_config(cfg)
+
+
+def test_historical_flags_cannot_bypass_gate(cfg):
+    cfg['historical_inputs']={k:True for k in cfg['historical_inputs']}
+    with pytest.raises(HistoricalUnavailable,match='BLOCKED'):validate_config(cfg,'historical')
+
+
+@pytest.mark.parametrize('index,value',[(0,0),(1,-2),(3,0),(4,float('inf'))])
+def test_invalid_trajectory_rejected(cfg,index,value):
+    q=BASE_Q.copy();q[index]=value
+    with pytest.raises(ValueError):kinematics(q,cfg)
+
+
+def test_zero_air_velocity_rejected(cfg):
+    with pytest.raises(ValueError,match='airspeed'):inverse(np.zeros((1,3)),np.zeros((1,3)),np.zeros((1,3)),validate_config(cfg))
+
+
+def test_tight_bank_thrust_and_stop_expose_violations(cfg):
+    cfg['parameters']['bank_limit_deg']['value']=1
+    cfg['parameters']['thrust_max_n']['value']=1000
+    s=summary(Evaluator(cfg).evaluate(BASE_Q,501))
+    assert 'bank' in s['violations']
+    assert 'thrust_upper' in s['violations']
+    assert 'stop_reserve' in s['violations']
+    assert not s['sampled_feasible']
+
+
+def test_obstacle_intersection_exposed(cfg):
+    cfg['obstacles']=[{'x_m':-2500,'y_m':1000,'radius_m':100,'height_m':200,'clearance_m':10}]
+    s=summary(Evaluator(cfg).evaluate(BASE_Q))
+    assert s['violations']['obstacle_0']<0
+
+
+def test_dense_forward_replay(cfg):
+    r=replay(Evaluator(cfg).evaluate(BASE_Q,1201),cfg)
+    assert r['integration_success']
+    assert r['passed'],r
+
+
+def test_force_controls_replay_not_auto_accept(cfg):
+    e=Evaluator(cfg).evaluate(BASE_Q,501)
+    # Corrupt the supplied controls only: independent replay must detect mismatch.
+    e[0]['thrust_n']+=200000
+    r=replay(e,cfg)
+    assert not r['passed']
+    assert r['max_position_error_m']>1
+
+
+def test_rollout_obstacle_exposed(cfg):
+    cfg['obstacles']=[{'x_m':1800,'y_m':0,'radius_m':100,'height_m':2,'clearance_m':1}]
+    s=summary(Evaluator(cfg).evaluate(BASE_Q))
+    assert s['violations']['obstacle_0']<0
+
+### NEW FILE model/trajectory.py
+"""Smooth trajectories, inverse forces, constraints and independent Newton replay.
+SI internally; x forward from threshold, y right, z above runway. This is not
+flight guidance, a calibrated 747 simulator or a continuous-time certificate.
+"""
+from pathlib import Path
+import copy
+import json
+import numpy as np
+from numpy.polynomial import Polynomial as P
+from scipy.integrate import solve_ivp
+from scipy.interpolate import CubicSpline
+from scipy.spatial import cKDTree
+
+G = 9.80665
+KT = 1852 / 3600
+LB = 0.45359237
+
+
+class HistoricalUnavailable(ValueError):
+    pass
+
+
+def load_config(path=None):
+    path = Path(path or Path(__file__).with_name('config.json'))
+    cfg = json.loads(path.read_text())
+    validate_config(cfg)
+    return cfg
+
+
+def values(cfg):
+    return {key: entry['value'] for key, entry in cfg['parameters'].items()}
+
+
+def validate_config(cfg, mode='scenario'):
+    if mode == 'historical':
+        raise HistoricalUnavailable('BLOCKED: calibrated aircraft envelope, historical terrain/obstacles and navigation corridor input adapter unavailable; flags cannot waive these requirements.')
+    if mode != 'scenario':
+        raise ValueError('mode must be scenario or historical')
+    p = values(cfg)
+    for key, entry in cfg['parameters'].items():
+        if not all(k in entry for k in ('value', 'unit', 'category', 'source')):
+            raise ValueError(f'provenance missing: {key}')
+        try:
+            if not np.all(np.isfinite(np.asarray(entry['value'], dtype=float))):
+                raise ValueError(f'nonfinite parameter: {key}')
+        except TypeError as exc:
+            raise ValueError(f'invalid parameter {key}') from exc
+    if cfg.get('wind_type') != 'constant' or np.shape(p['wind_mps']) != (3,):
+        raise ValueError('only constant 3-vector wind supported; wind acceleration is not implemented')
+    for key in ('touchdown_y_tol_m','touchdown_track_tol_deg','touchdown_bank_tol_deg','approach_sink_max_mps','threshold_height_m','mass_kg','wing_area_m2','rho0_kg_m3','density_scale_m','bank_limit_deg','roll_limit_deg_s','cl_max','thrust_max_n','thrust_slew_n_s','brake_deceleration_mps2','corridor_halfwidth_m','lda_m','eas_min_kt','eas_max_kt','touchdown_sink_max_mps'):
+        if p[key] <= 0:
+            raise ValueError(f'{key} must be positive')
+    if not 0 < p['eas_min_kt'] < p['initial_eas_kt'] < p['eas_max_kt']:
+        raise ValueError('initial speed must be within positive EAS envelope')
+    if not 0 <= p['cl_min'] < p['cl_max'] or not 0 < p['load_min_g'] < p['load_max_g']:
+        raise ValueError('invalid lift/load envelope')
+    if p['brake_delay_s'] < 0 or not 0 <= p['reserve_m'] < p['lda_m']:
+        raise ValueError('invalid stopping geometry')
+    if p['touchdown_x_max_m'] <= p['touchdown_x_min_m'] or p['touchdown_x_min_m'] <= 0:
+        raise ValueError('invalid touchdown interval')
+    if p['cd0'] < 0 or p['induced_factor'] < 0 or p['descent_limit_deg'] <= 0:
+        raise ValueError('invalid drag/descent envelope')
+    if np.shape(p['start_xyz_m']) != (3,) or p['start_xyz_m'][2] <= 0:
+        raise ValueError('invalid start position')
+    if not 0 < p['bank_limit_deg'] < 90 or not -p['descent_limit_deg'] <= p['threshold_gamma_deg'] < 0:
+        raise ValueError('invalid angular envelope')
+    if not 0 <= p['touchdown_sink_mps'] <= p['touchdown_sink_max_mps']:
+        raise ValueError('invalid touchdown sink')
+    for ob in cfg.get('obstacles', []):
+        required = ('x_m','y_m','radius_m','height_m','clearance_m')
+        if any(k not in ob or not np.isfinite(ob[k]) for k in required):
+            raise ValueError('invalid cylindrical obstacle')
+        if any(ob[k] < 0 for k in ('radius_m','height_m','clearance_m')):
+            raise ValueError('negative obstacle dimension')
+    return p
+
+
+def density(z, p):
+    return p['rho0_kg_m3'] * np.exp(-np.asarray(z) / p['density_scale_m'])
+
+
+def endpoint_velocity(eas_kt, z, track_deg, gamma_deg, p):
+    """Fix EAS and air gamma plus ground track under declared steady wind."""
+    w = np.array(p['wind_mps'], dtype=float)
+    tas = eas_kt * KT * np.sqrt(p['rho0_kg_m3'] / density(z, p))
+    gam, tr = np.deg2rad([gamma_deg, track_deg])
+    d = np.array([np.cos(tr), np.sin(tr)])
+    wd = np.dot(w[:2], d)
+    disc = (tas * np.cos(gam))**2 - np.dot(w[:2], w[:2]) + wd**2
+    if disc <= 0:
+        raise ValueError('wind prevents prescribed ground-track endpoint')
+    groundspeed = wd + np.sqrt(disc)
+    if groundspeed <= 0:
+        raise ValueError('nonpositive endpoint groundspeed')
+    return np.r_[groundspeed*d, tas*np.sin(gam)+w[2]]
+
+
+def quintic(p0, p1, v0, v1, a0, a1, duration):
+    if not np.isfinite(duration) or duration <= 0:
+        raise ValueError('flight duration must be positive finite')
+    c = np.zeros((6, 3))
+    c[0], c[1], c[2] = p0, np.asarray(v0)*duration, np.asarray(a0)*duration**2/2
+    c[3:] = np.linalg.solve(np.array([[1,1,1],[3,4,5],[6,12,20]],float),
+        np.array([np.asarray(p1)-c[:3].sum(axis=0), np.asarray(v1)*duration-c[1]-2*c[2], np.asarray(a1)*duration**2-2*c[2]]))
+    return [P(c[:,j]) for j in range(3)]
+
+
+# q=[approach seconds, flare seconds, touchdown x, touchdown vx,
+#    approach x/y/z even and odd endpoint-null bump amplitudes, flare x/z bumps].
+BASE_Q = np.array([36., 6.5, 500., 77., 0.,0.,0.,0.,0.,0.,0.,0.])
+BOUNDS = [(30,55),(4,12),(200,700),(69,88)] + [(-400,400),(-400,400),(-400,400),(-400,400),(-50,50),(-50,50),(-50,50),(-10,10)]
+BUMP = P([0,0,0,1,-3,3,-1])*64  # peak 1, first two derivatives vanish at endpoints
+ODD = BUMP * P([-1,2])
+
+
+def curves(q, cfg):
+    p = validate_config(cfg)
+    q = np.asarray(q, dtype=float)
+    if q.shape != (12,) or not np.all(np.isfinite(q)) or q[0] <= 0 or q[1] <= 0 or q[3] <= 0:
+        raise ValueError('invalid trajectory decision vector')
+    start = np.array(p['start_xyz_m'])
+    gate = np.array([0.,0.,p['threshold_height_m']])
+    v0 = endpoint_velocity(p['initial_eas_kt'],start[2],p['initial_track_deg'],p['threshold_gamma_deg'],p)
+    vg = endpoint_velocity(p['initial_eas_kt'],gate[2],0,p['threshold_gamma_deg'],p)
+    vend = np.array([q[3],0.,-p['touchdown_sink_mps']])
+    a = quintic(start,gate,v0,vg,np.zeros(3),np.zeros(3),q[0])
+    f = quintic(gate,np.array([q[2],0.,0.]),vg,vend,np.zeros(3),np.zeros(3),q[1])
+    for j in range(3):
+        a[j] += q[4+2*j]*BUMP + q[5+2*j]*ODD
+    f[0] += q[10]*BUMP
+    f[2] += q[11]*BUMP
+    return a,f
+
+
+def kinematics(q,cfg,n=121):
+    if n < 5:
+        raise ValueError('at least five samples per segment required')
+    a,f = curves(q,cfg)
+    arrays = []
+    for i,(polys,T) in enumerate(zip((a,f),q[:2])):
+        s = np.linspace(0,1,n)
+        # keep threshold only once, preserving C2 connection
+        if i:
+            s = s[1:]
+        pos = np.column_stack([v(s) for v in polys])
+        vel = np.column_stack([v.deriv()(s)/T for v in polys])
+        acc = np.column_stack([v.deriv(2)(s)/T**2 for v in polys])
+        arrays.append((s*T+(q[0] if i else 0),pos,vel,acc,np.full(len(s),i)))
+    return tuple(np.concatenate([x[j] for x in arrays]) for j in range(5))
+
+
+def flight_basis(velocity_air):
+    V = np.linalg.norm(velocity_air,axis=-1)
+    if np.any(V <= 1e-8) or not np.all(np.isfinite(V)):
+        raise ValueError('airspeed must be positive finite')
+    tangent = velocity_air/V[...,None]
+    psi = np.arctan2(velocity_air[...,1],velocity_air[...,0])
+    gamma = np.arctan2(velocity_air[...,2],np.linalg.norm(velocity_air[...,:2],axis=-1))
+    right = np.stack([-np.sin(psi),np.cos(psi),np.zeros_like(psi)],axis=-1)
+    up = np.stack([-np.sin(gamma)*np.cos(psi),-np.sin(gamma)*np.sin(psi),np.cos(gamma)],axis=-1)
+    return V,psi,gamma,tangent,right,up
+
+
+def inverse(pos,vel,acc,p):
+    V,psi,gamma,et,er,eu = flight_basis(vel-np.array(p['wind_mps']))
+    force = p['mass_kg']*(acc+np.array([0.,0.,G]))
+    Lu = np.sum(force*eu,axis=-1)
+    Lr = np.sum(force*er,axis=-1)
+    lift = np.hypot(Lu,Lr)
+    bank = np.arctan2(Lr,Lu)
+    dyn = .5*density(pos[:,2],p)*V**2*p['wing_area_m2']
+    cl = lift/dyn
+    drag = dyn*(p['cd0']+p['induced_factor']*cl**2)
+    thrust = drag + np.sum(force*et,axis=-1)
+    return dict(tas_mps=V,eas_kt=V*np.sqrt(density(pos[:,2],p)/p['rho0_kg_m3'])/KT,
+        air_heading_rad=psi,gamma_rad=gamma,bank_rad=bank,cl=cl,thrust_n=thrust,
+        drag_n=drag,load_g=lift/(p['mass_kg']*G),lift_n=lift)
+
+
+def rollout(q,p,n=101):
+    if q[3] <= 0 or p['brake_deceleration_mps2'] <= 0 or p['brake_delay_s'] < 0:
+        raise ValueError('invalid rollout inputs')
+    delay,dec,v = p['brake_delay_s'],p['brake_deceleration_mps2'],q[3]
+    time = np.unique(np.r_[np.linspace(0,delay+v/dec,n),delay])
+    braking = np.maximum(time-delay,0)
+    velocity = np.maximum(v-dec*braking,0)
+    x = q[2]+v*np.minimum(time,delay)+v*braking-.5*dec*braking**2
+    return dict(time_s=time+q[0]+q[1],x_m=x,speed_mps=velocity,
+                stop_x_m=float(x[-1]),reserve_remaining_m=float(p['lda_m']-x[-1]))
+
+
+class Evaluator:
+    def __init__(self,cfg):
+        self.cfg=copy.deepcopy(cfg)
+        self.p=validate_config(cfg)
+        _,xyz,*_ = kinematics(BASE_Q,cfg,1001)
+        self.reference_tree=cKDTree(xyz)
+
+    def evaluate(self,q,n=121,kinematics_override=None):
+        p=self.p
+        t,pos,vel,acc,phase=kinematics(q,self.cfg,n) if kinematics_override is None else kinematics_override
+        d=inverse(pos,vel,acc,p)
+        d.update(time_s=t,pos=pos,vel=vel,acc=acc,phase=phase)
+        d['roll_rad_s']=CubicSpline(t,np.unwrap(d['bank_rad'])).derivative()(t)
+        d['thrust_slew_n_s']=CubicSpline(t,d['thrust_n']).derivative()(t)
+        d['track_rad']=np.arctan2(vel[:,1],vel[:,0])
+        d['corridor_distance_m']=self.reference_tree.query(pos)[0]
+        ro=rollout(q,p)
+        m={}
+        def band(name,x,lo,hi):
+            m[name+'_lower']=(np.asarray(x)-lo)/(hi-lo)
+            m[name+'_upper']=(hi-np.asarray(x))/(hi-lo)
+        band('eas',d['eas_kt'],p['eas_min_kt'],p['eas_max_kt'])
+        band('cl',d['cl'],p['cl_min'],p['cl_max'])
+        band('load',d['load_g'],p['load_min_g'],p['load_max_g'])
+        band('thrust',d['thrust_n'],0,p['thrust_max_n'])
+        m['bank']=1-np.abs(d['bank_rad'])/np.deg2rad(p['bank_limit_deg'])
+        m['roll_rate']=1-np.abs(d['roll_rad_s'])/np.deg2rad(p['roll_limit_deg_s'])
+        m['thrust_slew']=1-np.abs(d['thrust_slew_n_s'])/p['thrust_slew_n_s']
+        m['descent']=1+d['gamma_rad']/np.deg2rad(p['descent_limit_deg'])
+        m['approach_sink']=1+vel[phase==0,2]/p['approach_sink_max_mps']
+        m['corridor']=1-d['corridor_distance_m']/p['corridor_halfwidth_m']
+        band('touchdown_x',q[2],p['touchdown_x_min_m'],p['touchdown_x_max_m'])
+        band('touchdown_sink',-vel[-1,2],0,p['touchdown_sink_max_mps'])
+        m['touchdown_lateral']=np.array([1-abs(pos[-1,1])/p['touchdown_y_tol_m']])
+        m['touchdown_track']=np.array([1-abs(d['track_rad'][-1])/np.deg2rad(p['touchdown_track_tol_deg'])])
+        m['touchdown_bank']=np.array([1-abs(d['bank_rad'][-1])/np.deg2rad(p['touchdown_bank_tol_deg'])])
+        m['stop_reserve']=np.array([(p['lda_m']-p['reserve_m']-ro['stop_x_m'])/(p['lda_m']-p['reserve_m'])])
+        obstacle_positions=np.vstack([pos,np.column_stack([ro['x_m'],np.zeros_like(ro['x_m']),np.zeros_like(ro['x_m'])])])
+        for i,ob in enumerate(self.cfg.get('obstacles',[])):
+            radial=np.linalg.norm(obstacle_positions[:,:2]-[ob['x_m'],ob['y_m']],axis=1)-ob['radius_m']-ob['clearance_m']
+            above=obstacle_positions[:,2]-ob['height_m']-ob['clearance_m']
+            m[f'obstacle_{i}']=np.maximum(radial,above)/p['corridor_halfwidth_m']
+        m={k:np.atleast_1d(v) for k,v in m.items()}
+        # Hard-only constraints: structural contact has exactly zero clearance.
+        hard={'ground_height':pos[:,2]/100, 'positive_forward_groundspeed':vel[:,0]/100,
+              'positive_lift_up':np.cos(d['bank_rad'])}
+        effort=float(np.trapezoid((d['bank_rad']/np.deg2rad(p['bank_limit_deg']))**2+
+            (d['roll_rad_s']/np.deg2rad(p['roll_limit_deg_s']))**2+
+            (d['thrust_slew_n_s']/p['thrust_slew_n_s'])**2,t))
+        return d,m,hard,ro,effort
+
+
+def summary(evaluated):
+    d,m,h,ro,eff=evaluated
+    mins={k:float(np.min(v)) for k,v in m.items()}
+    hard={k:float(np.min(v)) for k,v in h.items()}
+    return dict(category='scenario-based',evidence='sampled nominal diagnostics, not continuous certificate',
+        eta=min(mins.values()),margin_minima=mins,hard_minima=hard,
+        violations={k:v for k,v in (mins|hard).items() if v < -1e-6},
+        sampled_feasible=min([*mins.values(),*hard.values()])>=-1e-6,
+        effort=eff,stop_x_m=ro['stop_x_m'],reserve_remaining_m=ro['reserve_remaining_m'],
+        max_bank_deg=float(np.rad2deg(np.abs(d['bank_rad']).max())),
+        max_roll_deg_s=float(np.rad2deg(np.abs(d['roll_rad_s']).max())),
+        eas_range_kt=[float(d['eas_kt'].min()),float(d['eas_kt'].max())],
+        thrust_range_n=[float(d['thrust_n'].min()),float(d['thrust_n'].max())],
+        touchdown_x_m=float(d['pos'][-1,0]),flight_duration_s=float(d['time_s'][-1]))
+
+
+def replay(evaluated,cfg):
+    """Integrate forces independently of the reference polynomial acceleration.
+    Controls are time-indexed bank, CL and thrust, held to their interpolated
+    values. Orientation and drag are recomputed from the integrated air velocity.
+    Ground impact impulse removes residual vertical velocity at touchdown.
+    """
+    d,_,_,ro,_=evaluated
+    p=validate_config(cfg)
+    t=d['time_s']
+    control=CubicSpline(t,np.column_stack([d['bank_rad'],d['cl'],d['thrust_n']]))
+    def rhs(time,state):
+        pos,vel=state[:3],state[3:]
+        V,_,_,et,er,eu=flight_basis(vel-np.array(p['wind_mps']))
+        phi,cl,T=control(time)
+        dyn=.5*density(pos[2],p)*V**2*p['wing_area_m2']
+        L=dyn*cl
+        D=dyn*(p['cd0']+p['induced_factor']*cl**2)
+        acc=((T-D)*et+L*(np.cos(phi)*eu+np.sin(phi)*er))/p['mass_kg']-[0,0,G]
+        return np.r_[vel,acc]
+    sol=solve_ivp(rhs,(t[0],t[-1]),np.r_[d['pos'][0],d['vel'][0]],t_eval=t,
+                  rtol=2e-10,atol=1e-10,max_step=.1)
+    if not sol.success or sol.y.shape[1] != len(t):
+        return dict(passed=False,integration_success=False,message=sol.message)
+    pos,vel=sol.y[:3].T,sol.y[3:].T
+    errp=float(np.linalg.norm(pos-d['pos'],axis=1).max())
+    errv=float(np.linalg.norm(vel-d['vel'],axis=1).max())
+    # Independently integrate the fixed ground rule after the touchdown impulse.
+    delay=p['brake_delay_s']; dec=p['brake_deceleration_mps2']; vx=vel[-1,0]
+    coast_end=pos[-1,0]+vx*delay
+    ground=solve_ivp(lambda t,s:[s[1],-dec],(0,max(vx,0)/dec),[coast_end,vx],rtol=1e-11,atol=1e-11)
+    stop_error=float(abs(ground.y[0,-1]-ro['stop_x_m']))
+    touchdown_ok=bool(abs(pos[-1,1]) <= p['touchdown_y_tol_m'] and abs(pos[-1,2]) < .05
+        and p['touchdown_x_min_m'] <= pos[-1,0] <= p['touchdown_x_max_m']
+        and 0 <= -vel[-1,2] <= p['touchdown_sink_max_mps']
+        and abs(np.rad2deg(np.arctan2(vel[-1,1],vel[-1,0]))) <= p['touchdown_track_tol_deg'])
+    stop_ok=bool(ground.y[0,-1] <= p['lda_m']-p['reserve_m'])
+    return dict(passed=bool(errp<.05 and errv<.005 and stop_error<.1),
+        terminal_constraints_passed=touchdown_ok,stop_constraint_passed=stop_ok,
+        integration_success=True,max_position_error_m=errp,max_velocity_error_mps=errv,
+        touchdown_xyz_m=pos[-1].tolist(),touchdown_velocity_mps=vel[-1].tolist(),
+        stop_x_m=float(ground.y[0,-1]),stop_error_m=stop_error,
+        tolerances={'position_m':.05,'velocity_mps':.005,'stop_m':.1},
+        control_semantics='nominal time-indexed CL, bank and thrust; not feedback',
+        ground_contact='inelastic removal of vertical velocity; deceleration begins after fixed delay')
+
+### NEW FILE model/config.json
+{
+  "schema_version": 1,
+  "aircraft": {
+    "type": "Boeing 747-409B / 747-400",
+    "engines": "four PW4056",
+    "flaps_deg": 30,
+    "gear": "down",
+    "category": "observed",
+    "source": "Hong Kong CAD Aircraft Accident Report 1/95 CAL605, evidence/EVIDENCE_REPORT.md source inventory; not a performance calibration"
+  },
+  "wind_type": "constant",
+  "parameters": {
+    "mass_lb": {
+      "value": 525718,
+      "unit": "lb",
+      "category": "observed",
+      "source": "Hong Kong CAD Aircraft Accident Report 1/95 CAL605, evidence/EVIDENCE_REPORT.md source inventory; not a performance calibration"
+    },
+    "vref_kt": {
+      "value": 141,
+      "unit": "kt CAS",
+      "category": "observed",
+      "source": "Hong Kong CAD Aircraft Accident Report 1/95 CAL605, evidence/EVIDENCE_REPORT.md source inventory; not a performance calibration"
+    },
+    "case_target_kt": {
+      "value": 153,
+      "unit": "kt CAS",
+      "category": "observed",
+      "source": "Hong Kong CAD Aircraft Accident Report 1/95 CAL605, evidence/EVIDENCE_REPORT.md source inventory; not a performance calibration"
+    },
+    "mass_kg": {
+      "value": 238461.67357166,
+      "unit": "kg",
+      "category": "deterministically derived",
+      "source": "mass_lb \u00d7 exact 0.45359237 kg/lb"
+    },
+    "initial_eas_kt": {
+      "value": 153,
+      "unit": "kt EAS",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "start_xyz_m": {
+      "value": [
+        -2500,
+        1000,
+        140
+      ],
+      "unit": "m",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "initial_track_deg": {
+      "value": -47,
+      "unit": "degrees runway-relative",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "threshold_height_m": {
+      "value": 15.24,
+      "unit": "m",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "threshold_gamma_deg": {
+      "value": -3.1,
+      "unit": "degrees air-relative",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "touchdown_sink_mps": {
+      "value": 0.7,
+      "unit": "m/s",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "touchdown_x_min_m": {
+      "value": 200,
+      "unit": "m",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "touchdown_x_max_m": {
+      "value": 700,
+      "unit": "m",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "touchdown_y_tol_m": {
+      "value": 5,
+      "unit": "m",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "touchdown_track_tol_deg": {
+      "value": 2,
+      "unit": "degrees",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "touchdown_bank_tol_deg": {
+      "value": 3,
+      "unit": "degrees",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "touchdown_sink_max_mps": {
+      "value": 1.5,
+      "unit": "m/s",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "reserve_m": {
+      "value": 150,
+      "unit": "m",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "bank_limit_deg": {
+      "value": 25,
+      "unit": "degrees",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "roll_limit_deg_s": {
+      "value": 5,
+      "unit": "degrees/s",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "cl_min": {
+      "value": 0,
+      "unit": "dimensionless",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "cl_max": {
+      "value": 2.8,
+      "unit": "dimensionless",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "load_min_g": {
+      "value": 0.5,
+      "unit": "g",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "load_max_g": {
+      "value": 1.4,
+      "unit": "g",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "eas_min_kt": {
+      "value": 135,
+      "unit": "kt EAS",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "eas_max_kt": {
+      "value": 175,
+      "unit": "kt EAS",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "descent_limit_deg": {
+      "value": 6,
+      "unit": "degrees",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "approach_sink_max_mps": {
+      "value": 8,
+      "unit": "m/s",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "thrust_max_n": {
+      "value": 700000,
+      "unit": "N",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "thrust_slew_n_s": {
+      "value": 100000,
+      "unit": "N/s",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "rho0_kg_m3": {
+      "value": 1.225,
+      "unit": "kg/m3",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "density_scale_m": {
+      "value": 8500,
+      "unit": "m",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "wing_area_m2": {
+      "value": 541.2,
+      "unit": "m2",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "cd0": {
+      "value": 0.08,
+      "unit": "dimensionless",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "induced_factor": {
+      "value": 0.045,
+      "unit": "dimensionless",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "brake_delay_s": {
+      "value": 2,
+      "unit": "s",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "brake_deceleration_mps2": {
+      "value": 1.4709975,
+      "unit": "m/s2",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "corridor_halfwidth_m": {
+      "value": 400,
+      "unit": "m",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "wind_mps": {
+      "value": [
+        0,
+        0,
+        0
+      ],
+      "unit": "m/s runway-frame",
+      "category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice"
+    },
+    "lda_m": {
+      "value": 2786,
+      "unit": "m",
+      "category": "observed",
+      "source": "Hong Kong CAD Aircraft Accident Report 1/95 CAL605, evidence/EVIDENCE_REPORT.md source inventory; not a performance calibration; historical LDA used as fixed scenario stop bound"
+    }
+  },
+  "obstacles": [],
+  "obstacle_evidence": "Synthetic empty obstacle set; no historical terrain clearance established",
+  "speed_conversion": "Approximate low-altitude CAS by EAS, then convert EAS to TAS at model density; not a measured calibration",
+  "historical_inputs": {
+    "terrain": "unavailable",
+    "navigation_corridor": "unavailable",
+    "aircraft_envelope_calibration": "unavailable",
+    "normal_flight_records": "unavailable"
+  },
+  "slack_definition": "Minimum normalized operating-inequality margin; bound intervals normalize by full span, symmetric limits by cap. Structural equalities and z=0 contact excluded; altitude >=0 remains hard. Corridor = 3D nearest distance to dense unoptimized reference."
+}
+
+### NEW FILE README.md
+# Checkers with Runway 13
+
+Executable **scenario research model**, specification: `MODEL_IMPLEMENTATION_SPEC.md`.
+Aircraft selection is tied to the historical 747-409B case, but aerodynamic limits,
+terrain, start point, corridor and braking are uncalibrated declared scenarios.
+No output is flight guidance, a historical reconstruction, a safety certificate,
+or a demonstration that a historical approach was suboptimal.
+
+## Reproduce
+
+From this directory:
+
+```sh
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.lock
+.venv/bin/python -m pytest model/test_model.py -q
+.venv/bin/python -m model.solve --out outputs/scenario
+.venv/bin/python -m model.solve --mode historical --out outputs/historical
+```
+
+The last command intentionally exits **2** and writes a blocked JSON record.
+Historical-input flags cannot bypass the gate. Calibrated historical aircraft,
+terrain/obstacles and navigation-corridor ingestion remain unavailable.
+
+A custom configuration may be supplied with `--config path.json`. Only constant
+runway-frame wind vectors are accepted; time-varying gusts are rejected because
+wind acceleration has not been modeled. Every scalar/vector parameter carries
+units, source and observed/derived/scenario category in `model/config.json`.
+
+## Fixed model and numerical method
+
+The runway-relative frame has x along runway, y right, z up. Air velocity equals
+ground velocity minus the declared steady wind. For airspeed V, air heading psi
+and flight-path angle gamma, the orthonormal basis is tangent e_t, right e_r,
+and upward normal e_u. With required acceleration a and gravity g:
+
+```
+F = m (a + g e_z)
+L_u = F dot e_u; L_r = F dot e_r
+L = hypot(L_u,L_r); bank = atan2(L_r,L_u)
+qS = 0.5 rho V² S
+CL = L/qS; D = qS (CD0 + k CL²)
+T = D + F dot e_t
+```
+
+Density is `rho0 exp(-z/8500)`. Rate constraints are derivatives of interpolated
+bank/thrust, checked again on a 10-times-denser grid. The geometry is a quintic
+Hermite approach and quintic Hermite flare, with endpoint-null polynomial shape
+terms. Position, velocity and acceleration join continuously at the threshold;
+there is no bank/thrust reset at this join. Initial/final accelerations are zero.
+The initial EAS and air gamma are fixed with ground track −47°; threshold ground
+track is 0°. Wind can separate air heading from ground track.
+
+The optimizer changes two phase durations, touchdown distance and forward speed,
+six approach-shape and two flare-shape coefficients. Exact decision order/bounds
+are documented in `model/trajectory.py`. SLSQP first maximizes minimum normalized
+operating-inequality slack eta, then minimizes integrated squared normalized bank,
+roll-rate and thrust-rate demand while retaining first-stage eta within 1e−4.
+It is a **local finite-parameter, finite-grid search**, not a global optimum or
+analytic feasibility proof. Search failure is `unresolved`, never infeasible.
+
+For finite intervals, lower/upper margins are distance to each bound divided by
+interval width; symmetric magnitude limits use `1-abs(value)/limit`. Stop slack
+is excess distance beyond the 150 m required reserve divided by usable LDA.
+Imposed endpoint equalities and inevitable zero altitude at ground contact are
+excluded from eta; nonnegative height and positive forward ground speed remain
+hard constraints. These scaling choices are part of the declared proxy objective.
+
+The nominal 400 m corridor is a 3D nearest-distance tube around a fixed dense
+unoptimized reference, unchanged for the candidate and sensitivities. Optional
+obstacles are vertical cylinders with keys `x_m,y_m,radius_m,height_m,clearance_m`.
+The default empty list establishes **no historical clearance**. Obstacle margins
+use the union of going outside an expanded cylinder or above its expanded top.
+
+At touchdown the point-mass gear-reference vertical velocity is removed by an
+inelastic contact impulse. Ground motion is straight: constant speed for 2 s,
+then fixed 0.15g deceleration until stop. Ground steering, braking physics,
+load transfer and gear dynamics are not inferred from this lumped rule.
+
+## Independent verification
+
+`solve_ivp` integrates Newton's law from the initial position/velocity, using only
+time-indexed bank, CL and thrust interpolated from the inverse solution. It
+recomputes airspeed, force directions, lift and drag from its own integrated state;
+it does not call the reference acceleration as its RHS. It then independently
+integrates the delayed-braking stop. Replay matching tolerances are 0.05 m maximum
+position error, 0.005 m/s velocity error and 0.1 m stop error. Terminal and stop
+constraint pass/fail are recorded separately from replay fidelity.
+
+Correct replay of an infeasible baseline is expected: replay fidelity proves
+consistency, not feasibility. A candidate is labeled `sampled_scenario_feasible`
+only after optimizer success, dense hard/operating constraint checks, replay
+fidelity, touchdown checks and stop-reserve checks. Neither replay nor dense
+sampling is a continuous-time certificate.
+
+Sensitivity records include ±5 m/s steady crosswinds, +5% mass, and 10% less
+braking. Wind cases hold the exact nominal ground curve and timing fixed and
+recompute inverse controls conditional on known wind. This can change air-relative
+endpoint speed/gamma: those cases are diagnostics, not re-solutions of the fixed
+nominal boundary problem. They do not use one common feedback policy and **are
+not robust gust-tolerance certificates**.
+
+## Outputs
+
+Each run directory contains:
+
+- `baseline.csv`, `candidate.csv`: approach, flare and rollout with SI/unit-bearing
+  column names; aerodynamic controls are blank during rollout, not false zeroes.
+- `optimization_replay.json`: both optimizer stages, all margin minima/violations,
+  denser-grid changes, forward replay, sensitivity, runtime and source hashes.
+- `parameter_provenance.json`: complete executed parameter/source/category sheet.
+- `trajectory.png`: standalone track, height, bank and EAS plot.
+- `manifest.json`: sizes and SHA-256 checksums for delivered run artifacts.
+
+The baseline is a synthetic unoptimized polynomial, **not a historical path**.
+An improvement in its objective does not fulfill the historical-comparison aim.
+The broader project still needs normal-flight observations, calibrated historical
+obstacles/performance, go-around viability and robust feedback-policy analysis.
+
+### NEW FILE requirements.lock
+Pygments==2.21.0
+contourpy==1.4.0
+cycler==0.12.1
+fonttools==4.66.1
+iniconfig==2.3.1
+kiwisolver==1.5.1
+matplotlib==3.11.2
+numpy==2.5.4
+packaging==26.3
+pillow==12.3.0
+pluggy==1.6.0
+pyparsing==3.3.3
+pytest==9.1.1
+python-dateutil==2.9.0.post0
+scipy==1.18.1
+six==1.17.0

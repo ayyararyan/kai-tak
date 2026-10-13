@@ -1,0 +1,170 @@
+{
+  "image": "source_pages/rollout.png",
+  "image_sha256": "f3d574195006e65fd26a7568fd401741fa6a57c9987012bf7760f1b62c3c24c5",
+  "source_pdf_page": 155,
+  "source_figure": 5,
+  "render": "pdftoppm -scale-to 2400 then PIL rotate90CCW and resize width1800",
+  "x_axis": {
+    "pixel_0": 212,
+    "value_0": -2800,
+    "pixel_1": 1331,
+    "value_1": 0,
+    "unit": "m relative to runway end"
+  },
+  "y_axis": {
+    "pixel_0": 995,
+    "value_0": 0,
+    "pixel_1": 245,
+    "value_1": 200,
+    "unit": "kt groundspeed"
+  },
+  "method": "Manual visual centreline anchors. No automatic line identification. Six-pixel y reading tolerance includes thickness/visual selection; two-pixel calibration tolerance, three-pixel x tolerance. These are declared digitization sensitivity choices, not validated physical uncertainty.",
+  "groundspeed_xy": [
+    [
+      282,
+      382
+    ],
+    [
+      332,
+      384
+    ],
+    [
+      373,
+      389
+    ],
+    [
+      413,
+      394
+    ],
+    [
+      452,
+      399
+    ],
+    [
+      492,
+      410
+    ],
+    [
+      532,
+      423
+    ],
+    [
+      573,
+      436
+    ],
+    [
+      613,
+      445
+    ],
+    [
+      652,
+      453
+    ],
+    [
+      693,
+      461
+    ],
+    [
+      733,
+      470
+    ],
+    [
+      773,
+      478
+    ],
+    [
+      813,
+      484
+    ],
+    [
+      853,
+      485
+    ],
+    [
+      893,
+      494
+    ],
+    [
+      933,
+      505
+    ],
+    [
+      973,
+      514
+    ],
+    [
+      1013,
+      524
+    ],
+    [
+      1033,
+      531
+    ],
+    [
+      1053,
+      542
+    ],
+    [
+      1073,
+      554
+    ],
+    [
+      1093,
+      569
+    ],
+    [
+      1113,
+      587
+    ],
+    [
+      1133,
+      605
+    ],
+    [
+      1153,
+      623
+    ],
+    [
+      1173,
+      646
+    ],
+    [
+      1193,
+      671
+    ],
+    [
+      1213,
+      697
+    ],
+    [
+      1233,
+      721
+    ],
+    [
+      1253,
+      744
+    ],
+    [
+      1273,
+      779
+    ],
+    [
+      1293,
+      823
+    ],
+    [
+      1313,
+      866
+    ],
+    [
+      1330,
+      894
+    ]
+  ],
+  "reading_sensitivity_pixels": {
+    "calibration": 2,
+    "x": 3,
+    "y": 6
+  },
+  "primary_pdf_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a"
+}

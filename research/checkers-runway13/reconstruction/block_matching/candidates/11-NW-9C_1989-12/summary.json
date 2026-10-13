@@ -1,0 +1,47 @@
+{
+  "schema_version": 2,
+  "coverage_method": "actual_source_index_polygon_projected_not_geographic_bbox",
+  "coverage_bounds_epsg2326": [
+    834500.0002898409,
+    821599.9996916618,
+    835250.0002891871,
+    822199.9996921011
+  ],
+  "key": "11-NW-9C_1989-12",
+  "source": "reconstruction/chronology/sheets/maps/1980_1990_1799_11-NW-9C_1989-12-01.zip",
+  "source_sha256": "8882234b09ab6edce26a7fddbe6644469856b387cc2fe45b8a622e75c33afe1c",
+  "tfw_member": "HP1C-11NW09C-198912.tfw",
+  "affine": [
+    0.24995342311440472,
+    0.0,
+    834455.0889587958,
+    0.0,
+    -0.24998734805579997,
+    822252.884834375
+  ],
+  "crs": "EPSG:2326 assigned from official survey grid; independent checks in parent registration report",
+  "sampling_resolution_m": [
+    0.24995342311440472,
+    0.24998734805579997
+  ],
+  "candidates": 310,
+  "counts": {
+    "strong_content_candidate_unverified": 110,
+    "edge_clipped_review": 47,
+    "ambiguous_content_candidate": 125,
+    "ambiguous_region_truncated": 8,
+    "low_support_rejected_by_screen": 20
+  },
+  "map_regions": 836,
+  "map_regions_without_candidate": 682,
+  "verified_historical_buildings": 0,
+  "limitations": [
+    "No visual identity acceptance performed by this extractor",
+    "Ink includes text, road and grid lines",
+    "Candidate rank is heuristic, not calibrated probability",
+    "Current feature universe misses vanished structures; closed map regions remain unclassified",
+    "No height transfer and no historical volume produced",
+    "Date is edition month, not object survey date",
+    "No registration adjustment estimated; world file used verbatim"
+  ]
+}

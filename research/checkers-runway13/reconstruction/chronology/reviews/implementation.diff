@@ -1,0 +1,518 @@
+--- /dev/null
++++ match_sources.py
+@@ -0,0 +1,65 @@
++"""Spatial source coverage matching, never historical object identity matching."""
++from pathlib import Path
++import csv,datetime,json,collections,calendar
++import numpy as np
++from shapely.geometry import shape,box
++from shapely import STRtree
++from shapely.ops import transform
++from pyproj import Transformer
++ROOT=Path(__file__).resolve().parent
++TARGET=datetime.date(1993,11,4)
++
++def month_bounds(s):
++ d=datetime.date.fromisoformat(s[:10]);return d.replace(day=1),d.replace(day=calendar.monthrange(d.year,d.month)[1])
++
++def main():
++ all_sheets=json.loads((ROOT/'sheets/aoi_sheet_index.geojson').read_text())['features']
++ sheets=[f for f in all_sheets if f['properties']['family']=='1980_1990']
++ downloads=json.loads((ROOT/'sheets/map_downloads.json').read_text())
++ downloaded={d['source_id'] for d in downloads if d['status']=='validated_zip'}
++ frames=json.loads((ROOT/'aerial/aerial_footprints_1985_1998.geojson').read_text())['features']
++ frames=[f for f in frames if f['properties']['YEARFLIGHT']==1993]
++ sg=[shape(f['geometry']) for f in sheets];fg=[shape(f['geometry']) for f in frames]
++ st=STRtree(sg);ft=STRtree(fg)
++ frame_dates=[datetime.datetime.fromtimestamp(f['properties']['DATEFLIGHT']/1000,datetime.timezone.utc).date() for f in frames]
++ sheet_bounds=[month_bounds(f['properties']['edition_date']) for f in sheets]
++ rows=[]
++ src=ROOT/'structures/aoi_features_1993-11-04.csv'
++ from shapely.geometry import Point
++ for i,b in enumerate(csv.DictReader(src.open())):
++  pt=Point(float(b['lon']),float(b['lat']));si=st.query(pt,predicate='intersects');fi=ft.query(pt,predicate='intersects')
++  before=[int(j) for j in si if sheet_bounds[int(j)][1]<=TARGET];after=[int(j) for j in si if sheet_bounds[int(j)][0]>TARGET];same=[int(j) for j in si if sheet_bounds[int(j)][0]<=TARGET<sheet_bounds[int(j)][1]]
++  pre=max(before,key=lambda j:sheet_bounds[j][1]) if before else None;post=min(after,key=lambda j:sheet_bounds[j][0]) if after else None
++  fp=[int(j) for j in fi if frame_dates[int(j)]<=TARGET];fa=[int(j) for j in fi if frame_dates[int(j)]>TARGET]
++  fpre=min(fp,key=lambda j:(abs((TARGET-frame_dates[j]).days),fg[j].area,frames[j]['properties']['PHOTONO'])) if fp else None
++  fpost=min(fa,key=lambda j:(abs((TARGET-frame_dates[j]).days),fg[j].area,frames[j]['properties']['PHOTONO'])) if fa else None
++  r={k:b[k] for k in ['objectid','building_csuid','name_en','lon','lat','status','completion_or_permit_by_target','has_date_conflict']}
++  r['target_date']=str(TARGET)
++  for label,j in [('sheet_before',pre),('sheet_after',post)]:
++   p=sheets[j]['properties'] if j is not None else {}
++   r[label+'_id']=p.get('source_id','');r[label+'_edition_month']=p.get('edition_date','')[:7];r[label+'_downloaded']=int(p.get('source_id') in downloaded)
++  r['same_month_sheet_ids']='|'.join(sheets[j]['properties']['source_id'] for j in same)
++  for label,j in [('aerial_before',fpre),('aerial_after',fpost)]:
++   r[label+'_frame']=frames[j]['properties']['PHOTONO'] if j is not None else '';r[label+'_capture_date']=str(frame_dates[j]) if j is not None else ''
++  r['coverage_match_method']='current_footprint_representative_point_in_index_polygon';r['content_match_status']='not_visually_verified';r['historical_geometry_status']='unresolved'
++  rows.append(r)
++ with (ROOT/'structure_source_matches_1993-11-04.csv').open('w') as out:
++  w=csv.DictWriter(out,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
++ # Exact index-polygon overlap for downloaded-sheet / 1993-frame pairs.
++ project=Transformer.from_crs(4326,2326,always_xy=True).transform
++ fgp=[transform(project,g) for g in fg];pairs=[]
++ for f,g in zip(sheets,sg):
++  p=f['properties']
++  if p['source_id'] not in downloaded:continue
++  gp=transform(project,g)
++  for j in ft.query(g,predicate='intersects'):
++   j=int(j);area=gp.intersection(fgp[j]).area
++   if area<=0:continue
++   lo,hi=month_bounds(p['edition_date']);fd=frame_dates[j]
++   gap=(lo-fd).days if fd<lo else (fd-hi).days if fd>hi else 0
++   pairs.append({'sheet_id':p['source_id'],'sheet':p['sheet'],'edition_month':p['edition_date'][:7],'frame':frames[j]['properties']['PHOTONO'],'capture_date':str(fd),'overlap_m2':round(area,1),'fraction_sheet_covered':round(area/gp.area,5),'fraction_frame_covered':round(area/fgp[j].area,5),'days_from_edition_month':gap,'match_kind':'index_polygon_overlap_only'})
++ with (ROOT/'sheet_photo_pairs_1993.csv').open('w') as out:
++  w=csv.DictWriter(out,fieldnames=list(pairs[0]));w.writeheader();w.writerows(pairs)
++ summary={'target_date':str(TARGET),'current_aoi_features':len(rows),'unique_csuid':len({r['building_csuid'] for r in rows}),'has_both_bracketing_sheet_months':sum(bool(r['sheet_before_id'] and r['sheet_after_id']) for r in rows),'has_any_downloaded_bracketing_sheet':sum(bool(r['sheet_before_downloaded'] or r['sheet_after_downloaded']) for r in rows),'has_1993_aerial_before':sum(bool(r['aerial_before_frame']) for r in rows),'has_1993_aerial_after':sum(bool(r['aerial_after_frame']) for r in rows),'sheet_frame_overlap_pairs':len(pairs),'downloaded_sheets_paired':len(set(r['sheet_id'] for r in pairs)),'frame_count_1993':len(frames),'semantics':'Source coverage candidates, not visual confirmation, footprint identity, height measurement or historical clearance.'}
++ (ROOT/'matching_validation.json').write_text(json.dumps(summary,indent=2));print(json.dumps(summary,indent=2))
++if __name__=='__main__':main()
+--- /dev/null
++++ record_visual_observations.py
+@@ -0,0 +1,29 @@
++"""Encode explicitly inspected map observations; no automatic image recognition."""
++from pathlib import Path
++import csv,json
++ROOT=Path(__file__).resolve().parent
++# These named forms were visually read on the three full-sheet previews, not inferred from modern dates.
++COMMON=[('Shing Tung House','shing_tung_house'),('Mau Tung House','mau_tung_house'),('On Tung House','on_tung_house'),('Hong Tung House','hong_tung_house'),('Ng Wah College','ng_wah_college'),('Lee Kau Yan Memorial School','lee_kau_yan_memorial_school'),('Regal Airport Hotel','regal_airport_hotel'),('Po Sing Court','po_sing_court'),('Tung Fung House','tung_fung_house'),('Tak Fung House','tak_fung_house'),('Lam Kee Memorial Dispensary','lam_kee_memorial_dispensary'),('Kowloon City Market','kowloon_city_market'),('Airport Terminal Building','kai_tak_terminal'),('Multi-storey Car Park','kai_tak_multistorey_carpark')]
++SOURCES=[('1980_1990:678','1989-10','1980_1990_678_11-NE-11A_1989-10-01.png'),('1980_1990:679','1994-07','1980_1990_679_11-NE-11A_1994-07-01.png'),('1980_1990:680','1997-04','1980_1990_680_11-NE-11A_1997-04-01.png')]
++rows=[]
++for sid,month,img in SOURCES:
++ for name,key in COMMON:
++  rows.append(dict(historical_object_id='hist:'+key,name_on_source=name,source_id=sid,source_epoch=month,date_precision='edition_month',evidence_type='visually_inspected_official_survey_sheet',classification='named_structure_depicted',observation='Label and building outline visible on sheet; not a day-specific occupancy or survey assertion.',source_asset='sheets/previews/'+img,geometry_status='not_digitized',height_status='not_measured',modern_identity_join='not_certified',target_1993_status='requires_temporal_corroboration'))
++# Same-site change evidence; footprints and within-interval dates not identified.
++for sid,month,img,state,note in [
++ ('1980_1990:678','1989-10',SOURCES[0][2],'construction_in_progress_depicted','Plot subsequently labelled Chung Tung House is marked C I P Oct 1989; no completed named block depicted there.'),
++ ('1980_1990:679','1994-07',SOURCES[1][2],'named_structure_depicted','Chung Tung House name and footprint visible in the corresponding plot.'),
++ ('1980_1990:680','1997-04',SOURCES[2][2],'named_structure_depicted','Chung Tung House name and footprint remain depicted.'),
++]:
++ rows.append(dict(historical_object_id='hist:chung_tung_house_site',name_on_source='Chung Tung House site',source_id=sid,source_epoch=month,date_precision='edition_month',evidence_type='visually_inspected_official_survey_sheet',classification=state,observation=note,source_asset='sheets/previews/'+img,geometry_status='not_digitized',height_status='not_measured',modern_identity_join='not_certified',target_1993_status='construction_completion_transition_unresolved'))
++for sid,month,img,state,note in [
++ ('1980_1990:678','1989-10',SOURCES[0][2],'map_interior_omission','Kowloon Walled City labelled but interior building outlines omitted; this is not empty-ground evidence.'),
++ ('1980_1990:679','1994-07',SOURCES[1][2],'map_interior_omission','Former site interior largely blank on partial-revision sheet; image alone does not date demolition or prove all structures absent.'),
++ ('1980_1990:680','1997-04',SOURCES[2][2],'park_layout_depicted','Kowloon Walled City Park labelled, with paths, ponds and structures mapped.'),
++ ('HKMS:A36143','1993-11-02','', 'demolition_stage_site_observed','Parent inspected full 3000px frame: site mostly exposed/cleared ground with isolated residual structures; intact dense compound not present. Does not establish per-building clearance. Handwritten capture date independently read as 2.11.93.'),
++]:
++ rows.append(dict(historical_object_id='hist:kowloon_walled_city_site',name_on_source='Kowloon Walled City site',source_id=sid,source_epoch=month,date_precision='day' if sid.startswith('HKMS') else 'edition_month',evidence_type='visually_inspected_aerial_photo' if sid.startswith('HKMS') else 'visually_inspected_official_survey_sheet',classification=state,observation=note,source_asset='aerial/A36143_l0_download_result' if sid.startswith('HKMS') else 'sheets/previews/'+img,geometry_status='site_only_not_individual_buildings',height_status='not_measured',modern_identity_join='historical_site_not_current_building_id',target_1993_status='demolition_stage_near_reference_date'))
++with (ROOT/'historical_visual_observations.csv').open('w') as f:
++ w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
++(ROOT/'visual_observation_summary.json').write_text(json.dumps({'observations':len(rows),'distinct_named_objects_or_sites':len(set(r['historical_object_id'] for r in rows)),'map_sheets_visually_inspected':3,'full_aerial_frames_parent_inspected':1,'not_a_building_census':True,'manual_source_interpretation_not_automatic_detection':True},indent=2))
++print(len(rows),'observations',len(set(r['historical_object_id'] for r in rows)),'objects/sites')
+--- /dev/null
++++ sheets/acquire_indexes.py
+@@ -0,0 +1,56 @@
++"""Acquire official survey-sheet indexes, preserve raw pages and derive AOI matches."""
++from pathlib import Path
++import concurrent.futures,csv,datetime,hashlib,json,subprocess,urllib.parse
++from zoneinfo import ZoneInfo
++from shapely.geometry import shape,box,mapping
++ROOT=Path(__file__).resolve().parent
++RAW=ROOT/'raw';RAW.mkdir(exist_ok=True)
++SERVICES=[('old600','landsd_rcd_1631584892859_72892',0),('t600','landsd_rcd_1631584892859_72892',1),('t1200','landsd_rcd_1639990901210_47291',0),('1960_1970','landsd_rcd_1640047202071_61921',0),('1980_1990','landsd_rcd_1640047456225_68329',0),('2000s','landsd_rcd_1671592436814_1059',0)]
++AOI=box(114.10,22.27,114.25,22.40)
++CORE=box(114.16,22.30,114.22,22.35)
++
++def get(url,path):
++ if not path.exists():
++  p=path.with_suffix(path.suffix+'.part')
++  r=subprocess.run(['curl','-f','-sSL','--retry','2','--connect-timeout','15','--max-time','90',url,'-o',str(p)],capture_output=True,text=True)
++  if r.returncode:raise RuntimeError(r.stderr)
++  d=json.loads(p.read_text())
++  if 'error' in d:raise RuntimeError(d)
++  p.replace(path)
++ d=json.loads(path.read_text())
++ if 'error' in d:raise RuntimeError(d)
++ path.with_suffix(path.suffix+'.source.json').write_text(json.dumps({'url':url,'retrieved_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'sha256':hashlib.sha256(path.read_bytes()).hexdigest()},indent=2)) if not path.with_suffix(path.suffix+'.source.json').exists() else None
++ return d
++
++def acquire(s):
++ name,ds,layer=s
++ base=f'https://portal.csdi.gov.hk/server/rest/services/common/{ds}/FeatureServer/{layer}'
++ meta=get(base+'?f=json',RAW/f'{name}_metadata.json')
++ count=get(base+'/query?f=json&where=1%3D1&returnCountOnly=true',RAW/f'{name}_count.json')['count']
++ fs=[]
++ for offset in range(0,count,2000):
++  q={'f':'geojson','where':'1=1','outFields':'*','returnGeometry':'true','outSR':4326,'orderByFields':'OBJECTID','resultOffset':offset,'resultRecordCount':2000}
++  page=get(base+'/query?'+urllib.parse.urlencode(q),RAW/f'{name}_{offset:06d}.geojson')
++  fs.extend(page['features'])
++ assert len(fs)==count,(name,count,len(fs))
++ assert len({f['properties']['OBJECTID'] for f in fs})==count
++ rows=[];selected=[]
++ for f in fs:
++  p=f['properties'];g=shape(f['geometry'])
++  dt=p.get('EDITION_DATE');iso=datetime.datetime.fromtimestamp(dt/1000,ZoneInfo('Asia/Hong_Kong')).date().isoformat() if isinstance(dt,(int,float)) else str(dt or '')
++  row={'source_id':f"{name}:{p['OBJECTID']}",'family':name,'objectid':p['OBJECTID'],'sheet':p.get('SHEETNO'),'edition_date':iso,'edition':p.get('EDITION'),'download_url':p.get('GeoTiff'),'in_aoi':g.intersects(AOI),'in_core':g.intersects(CORE),'minlon':g.bounds[0],'minlat':g.bounds[1],'maxlon':g.bounds[2],'maxlat':g.bounds[3]}
++  rows.append(row)
++  if row['in_aoi']:selected.append({'type':'Feature','properties':row,'geometry':f['geometry']})
++ print(name,'complete',count,'aoi',len(selected),flush=True)
++ return rows,selected,{'family':name,'source_count':count,'downloaded_count':len(fs),'aoi_count':len(selected),'metadata_fields':[v['name'] for v in meta['fields']]}
++
++if __name__=='__main__':
++ results=[]
++ with concurrent.futures.ThreadPoolExecutor(max_workers=3) as ex:
++  for out in ex.map(acquire,SERVICES):results.append(out)
++ rows=[r for a,_,_ in results for r in a];features=[f for _,a,_ in results for f in a]
++ with (ROOT/'all_hk_sheet_index.csv').open('w') as f:
++  w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
++ (ROOT/'aoi_sheet_index.geojson').write_text(json.dumps({'type':'FeatureCollection','features':features}))
++ (ROOT/'index_validation.json').write_text(json.dumps({'sources':[a for _,_,a in results],'total':len(rows),'aoi':len(features),'aoi_bbox':[114.10,22.27,114.25,22.40],'core_bbox':[114.16,22.30,114.22,22.35],'date_semantics':'edition date, Asia/Hong_Kong; not per-object survey date'},indent=2))
++ print('DONE',len(rows),len(features),flush=True)
+--- /dev/null
++++ sheets/acquire_sheets.py
+@@ -0,0 +1,56 @@
++"""Acquire source rasters for historical approach core; selected pre/post-date editions."""
++from pathlib import Path
++import collections,concurrent.futures,csv,datetime,hashlib,json,subprocess,zipfile,os,time
++ROOT=Path(__file__).resolve().parent
++TARGET='1993-11-04'
++RAW=ROOT/'maps';RAW.mkdir(exist_ok=True)
++KEY={'11-NW-10D','11-NE-11A','11-NE-16B','11-NE-17C','11-NW-15B','11-NE-11C','11-NE-16A'}
++
++def select():
++ fs=json.loads((ROOT/'aoi_sheet_index.geojson').read_text())['features'];by=collections.defaultdict(list)
++ for f in fs:
++  p=f['properties']
++  if p['in_core'] and p['family']=='1980_1990':by[p['sheet']].append(p)
++ selected={}
++ for sheet,rows in by.items():
++  before=sorted([p for p in rows if p['edition_date']<=TARGET],key=lambda p:p['edition_date'])
++  after=sorted([p for p in rows if p['edition_date']>TARGET],key=lambda p:p['edition_date'])
++  for p in before[-1:]+after[:1]:selected[p['source_id']]=dict(p,selection='core_before_after_reference_date')
++  if sheet in KEY:
++   for p in rows:selected[p['source_id']]=dict(p,selection='key_site_time_series')
++ return sorted(selected.values(),key=lambda p:(p['sheet'] not in KEY,p['sheet'],p['edition_date']))
++
++def acquire(p):
++ stem=p['source_id'].replace(':','_')+'_'+p['sheet']+'_'+p['edition_date'];dest=RAW/(stem+'.zip');receipt=RAW/(stem+'.json')
++ if receipt.exists():
++  d=json.loads(receipt.read_text())
++  if d.get('status')=='validated_zip':return d
++ previous=json.loads(receipt.read_text()) if receipt.exists() else None
++ if previous:time.sleep(1)
++ d=dict(p,retrieved_utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),file=str(dest.relative_to(ROOT)))
++ try:
++  if not dest.exists():
++   part=dest.with_suffix('.zip.part')
++   r=subprocess.run(['curl','-f','-sSL','--connect-timeout','15','--max-time','100','--retry','1',p['download_url'],'-o',str(part)],capture_output=True,text=True)
++   if r.returncode:raise RuntimeError(r.stderr[-600:])
++   if not zipfile.is_zipfile(part):raise RuntimeError('Response is not ZIP: '+part.read_bytes()[:100].decode(errors='replace'))
++   part.replace(dest)
++  with zipfile.ZipFile(dest) as z:
++   bad=z.testzip()
++   if bad:raise RuntimeError('ZIP CRC failure '+bad)
++   d['members']=[{'name':i.filename,'bytes':i.file_size} for i in z.infolist()]
++   if not any(i.filename.lower().endswith(('.tif','.tiff')) for i in z.infolist()):raise RuntimeError('No TIFF member')
++  d.update(status='validated_zip',bytes=dest.stat().st_size,sha256=hashlib.sha256(dest.read_bytes()).hexdigest())
++ except Exception as e:d.update(status='failed',error=str(e))
++ if previous:d['previous_attempts']=previous.get('previous_attempts',[])+[{k:v for k,v in previous.items() if k!='previous_attempts'}]
++ receipt.write_text(json.dumps(d,indent=2));return d
++
++if __name__=='__main__':
++ sel=select();(ROOT/'selected_sheets.json').write_text(json.dumps(sel,indent=2));print('SELECTED',len(sel),len(set(p['sheet'] for p in sel)),flush=True)
++ results=[]
++ with concurrent.futures.ThreadPoolExecutor(max_workers=int(os.environ.get("SHEET_WORKERS","4"))) as ex:
++  for i,r in enumerate(ex.map(acquire,sel),1):
++   results.append(r)
++   if i%10==0:print('PROGRESS',i,len(sel),collections.Counter(r['status'] for r in results),flush=True)
++ (ROOT/'map_downloads.json').write_text(json.dumps(results,indent=2))
++ print('DONE',len(results),collections.Counter(r['status'] for r in results),sum(r.get('bytes',0) for r in results),flush=True)
+--- /dev/null
++++ structures/acquire.py
+@@ -0,0 +1,40 @@
++"""Complete read-only official CSDI table snapshots; ID and count validation."""
++import concurrent.futures, datetime, hashlib, json, pathlib, time, urllib.parse, urllib.request
++ROOT=pathlib.Path(__file__).resolve().parent
++BASE='https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer'
++TABLES={1000:'BuildingWorksHistory',1002:'BuildingRelateOPStructure',1003:'OPStructure',1004:'OP'}
++def request(url):
++    for n in range(4):
++        try:
++            raw=urllib.request.urlopen(url,timeout=90).read(); obj=json.loads(raw)
++            if 'error' in obj: raise ValueError(obj)
++            return raw,obj
++        except Exception:
++            if n==3: raise
++            time.sleep(2**n)
++def get(path,params,out):
++    url=BASE+path+'?'+urllib.parse.urlencode(params);raw,obj=request(url)
++    out.parent.mkdir(parents=True,exist_ok=True);out.write_bytes(raw)
++    return obj,{'path':str(out.relative_to(ROOT)),'url':url,'retrieved_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'sha256':hashlib.sha256(raw).hexdigest(),'bytes':len(raw)}
++def table(tid):
++    name=TABLES[tid];folder=ROOT/'raw'/name;files=[]
++    def fetch(path,params,filename):
++        obj,entry=get(path,params,folder/filename);files.append(entry);return obj
++    meta=fetch('/'+str(tid),{'f':'json'},'metadata.json')
++    q='/'+str(tid)+'/query'
++    before=fetch(q,{'where':'1=1','returnCountOnly':'true','f':'json'},'count_before.json')['count']
++    ids=fetch(q,{'where':'1=1','returnIdsOnly':'true','f':'json'},'ids.json')['objectIds']
++    assert len(ids)==len(set(ids))==before
++    rows=[];oid=meta['objectIdField'];limit=meta['maxRecordCount']
++    for offset in range(0,before,limit):
++        data=fetch(q,{'where':'1=1','outFields':'*','returnGeometry':'false','orderByFields':oid+' ASC','resultOffset':offset,'resultRecordCount':limit,'f':'json'},f'page_{offset:06d}.json')
++        rows += [r['attributes'] for r in data['features']]
++    after=fetch(q,{'where':'1=1','returnCountOnly':'true','f':'json'},'count_after.json')['count']
++    assert len(rows)==after==before and set(r[oid] for r in rows)==set(ids)
++    assert len(set(r[oid] for r in rows))==len(rows)
++    (ROOT/(name+'.json')).write_text(json.dumps(rows,ensure_ascii=False))
++    print(name,len(rows),'count/ID validation passed',flush=True)
++    return {'table_id':tid,'name':name,'count_before':before,'count_after':after,'retrieved_count':len(rows),'objectids_match':True,'files':files}
++if __name__=='__main__':
++    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool: results=list(pool.map(table,TABLES))
++    (ROOT/'acquisition_manifest.json').write_text(json.dumps({'provider':'Lands Department, HKSAR Government, CSDI','tables':results},indent=2))
+--- /dev/null
++++ structures/chronology.py
+@@ -0,0 +1,200 @@
++"""Conservative documentary chronology. No historical visual verification or geometry inference."""
++from __future__ import annotations
++import argparse, calendar, collections, csv, datetime as dt, hashlib, json, pathlib, re, sqlite3
++ROOT=pathlib.Path(__file__).resolve().parent
++GEO=ROOT.parents[2]/'geospatial'
++BASE='https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer'
++HK=dt.timezone(dt.timedelta(hours=8))
++
++def date_interval(value, epoch=False):
++    if value is None or str(value).strip()=='': return None,None,'missing'
++    if epoch:
++        try:
++            s=dt.datetime.fromtimestamp(float(value)/1000,HK).date().isoformat();return s,s,'day'
++        except (ValueError,OverflowError,TypeError): return None,None,'invalid'
++    v=str(value).strip()
++    if re.fullmatch(r'\d{4}',v):
++        try: y=int(v); return dt.date(y,1,1).isoformat(),dt.date(y,12,31).isoformat(),'year'
++        except ValueError: return None,None,'invalid'
++    m=re.fullmatch(r'(\d{1,2})/(\d{1,2})/(\d{4})',v)
++    if m:
++        d,mo,y=map(int,m.groups())
++        try:
++            # Zero day is not silently repaired. No confirmed publisher partial-date convention.
++            if d==0: return None,None,'invalid_zero_day'
++            s=dt.date(y,mo,d).isoformat();return s,s,'day'
++        except ValueError: return None,None,'invalid'
++    return None,None,'unparsed'
++
++def classify(events,target, current_status=None):
++    """completed_by is an evidence predicate, never proof of survival/exact geometry at target."""
++    valid=[e for e in events if e['date_min'] is not None]
++    direct=[e for e in valid if e['kind']=='completion']
++    permits=[e for e in valid if e['kind']=='occupation_permit']
++    demos=[e for e in valid if e['kind']=='demolition_completion']
++    before=lambda e:e['date_max']<=target
++    done_direct=[e for e in direct if before(e)]
++    done_permits=[e for e in permits if before(e)]
++    done_demos=[e for e in demos if before(e)]
++    conflicts=[]
++    wops={e['date_min'] for e in permits if e['source_table']==1000}
++    rops={e['date_min'] for e in permits if e['source_table']==1004}
++    if wops and rops and wops != rops: conflicts.append('works_OP_dates_disagree_with_linked_OP_table')
++    byprovider=collections.defaultdict(set)
++    for e in direct:byprovider[e['provider']].add((e['date_min'],e['date_max']))
++    if any(len(s)>1 for s in byprovider.values()): conflicts.append('multiple_completion_dates_same_provider')
++    if len({(e['date_min'],e['date_max']) for e in direct})>1: conflicts.append('multiple_completion_dates')
++    if current_status=='Active' and demos: conflicts.append('demolition_record_linked_to_active_snapshot')
++    if demos and direct and any(c['date_min']>d['date_max'] for c in direct for d in demos):conflicts.append('completion_after_demolition_identity_needs_review')
++    # Different issue and completion dates are not inherently contradictory.
++    if direct and permits and any(p['date_max']<min(c['date_min'] for c in direct) for p in permits):conflicts.append('permit_predates_all_recorded_completion_dates')
++    support=bool(done_direct or done_permits)
++    qualifying_relational_permits=[e for e in done_permits if e['source_table']==1004]
++    matching_dates=sorted({e['date_min'] for e in done_direct if e['date_min']==e['date_max']} &
++                          {e['date_min'] for e in qualifying_relational_permits})
++    if done_demos:
++        status='demolition_completed_by_target_evidence_conflict' if conflicts else 'demolition_completed_by_target'
++    elif done_direct:
++        status='documented_completion_by_target'
++    elif done_permits:
++        status='documented_permit_by_target_linked_scope'
++    elif any(e['date_min']<=target<=e['date_max'] for e in direct+permits):
++        status='completion_or_permit_date_interval_straddles_target'
++    elif direct or permits:
++        status='later_completion_or_permit_only_presence_unresolved'
++    elif events:
++        status='documentary_records_only_presence_unresolved'
++    else:
++        status='no_documentary_chronology_presence_unresolved'
++    if support and not done_demos and conflicts:status+='_with_evidence_conflict'
++    if done_demos:
++        presence='demolition_document_supported_absence_by_target' if not conflicts else 'conflicting_evidence_presence_unresolved'
++    else:presence='presence_at_target_unverified'
++    return {'status':status,'completion_or_permit_by_target':int(support),'direct_completion_by_target':int(bool(done_direct)),
++            'permit_by_target':int(bool(done_permits)),'demolition_completed_by_target':int(bool(done_demos)),
++            'presence_status':presence,'conflict_flags':';'.join(conflicts),'has_date_conflict':int(bool(conflicts)),
++            'works_op_date_conflict':int('works_OP_dates_disagree_with_linked_OP_table' in conflicts),
++            'completion_matches_relational_permit_by_target':int(bool(matching_dates)),
++            'matching_completion_permit_dates':';'.join(matching_dates),
++            'qualifying_completion_providers':';'.join(sorted({e['provider'] for e in done_direct})),
++            'qualifying_direct_completion_event_ids':';'.join(e.get('event_id','') for e in done_direct),
++            'qualifying_relational_permit_event_ids':';'.join(e.get('event_id','') for e in qualifying_relational_permits),
++            'earliest_completion_or_permit_bound':min((e['date_max'] for e in direct+permits),default=None),
++            'latest_demolition_bound':max((e['date_max'] for e in demos),default=None),
++            'evidence_event_count':len(events),'undated_event_count':sum(e['date_min'] is None for e in events)}
++
++def load(name):return json.loads((ROOT/(name+'.json')).read_text())
++def sha(path):
++    h=hashlib.sha256()
++    with path.open('rb') as f:
++        while b:=f.read(2**20):h.update(b)
++    return h.hexdigest()
++def create_database():
++    import ijson
++    from shapely.geometry import shape
++    db=ROOT/'chronology.sqlite';tmp=ROOT/'chronology.building.sqlite'
++    if tmp.exists(): tmp.unlink()
++    con=sqlite3.connect(tmp)
++    con.executescript('''
++    CREATE TABLE features (objectid INTEGER PRIMARY KEY,building_csuid TEXT,name_en TEXT,name_tc TEXT,current_status TEXT,block_type TEXT,in_aoi INTEGER,lon REAL,lat REAL,base_height REAL,top_height REAL,date_create TEXT,date_stamp TEXT,geometry_valid INTEGER);
++    CREATE TABLE objects (building_csuid TEXT PRIMARY KEY,current_feature_count INTEGER,in_aoi INTEGER);
++    CREATE TABLE events (event_id TEXT PRIMARY KEY,building_csuid TEXT,kind TEXT,provider TEXT,date_raw TEXT,date_min TEXT,date_max TEXT,date_precision TEXT,source_table INTEGER,source_objectid INTEGER,relation_objectid INTEGER,opstructure_objectid INTEGER,building_structure_id TEXT,op_no TEXT,source_url TEXT,works_type TEXT);
++    CREATE TABLE raw_records (table_id INTEGER,objectid INTEGER,payload TEXT,PRIMARY KEY(table_id,objectid));
++    CREATE TABLE join_issues (building_csuid TEXT,issue TEXT,detail TEXT);
++    ''')
++    with (GEO/'derived/Kowloon_KaiTak_buildings_20260921.geojson').open('rb') as f:
++        aoi={int(r['properties']['OBJECTID']) for r in ijson.items(f,'features.item')}
++    current_counts=collections.Counter();current_aoi=collections.Counter();feat_batch=[]
++    with (GEO/'raw/Building_20260921.geojson').open('rb') as f:
++        for feat in ijson.items(f,'features.item',use_float=True):
++            p=feat['properties'];s=shape(feat['geometry']);point=s.representative_point();cs=p['BuildingCSUID'];inside=int(p['OBJECTID'] in aoi)
++            current_counts[cs]+=1;current_aoi[cs]+=inside
++            feat_batch.append((p['OBJECTID'],cs,p['BuildingNameEN'],p['BuildingNameTC'],p['Status'],p['BuildingBlockType'],inside,point.x,point.y,p['BaseHeight'],p['TopHeight'],p['DateCreate'],p['DateStamp'],int(s.is_valid)))
++            if len(feat_batch)>=5000:con.executemany('INSERT INTO features VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)',feat_batch);feat_batch=[]
++    con.executemany('INSERT INTO features VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)',feat_batch)
++    works,rel,structures,ops=[load(n) for n in ['BuildingWorksHistory','BuildingRelateOPStructure','OPStructure','OP']]
++    for tid,rows in [(1000,works),(1002,rel),(1003,structures),(1004,ops)]:
++        con.executemany('INSERT INTO raw_records VALUES (?,?,?)',((tid,r['OBJECTID'],json.dumps(r,ensure_ascii=False)) for r in rows))
++    all_ids=set(current_counts)|{r['BuildingCSUID'] for r in works+rel}
++    con.executemany('INSERT INTO objects VALUES (?,?,?)',((cs,current_counts[cs],int(bool(current_aoi[cs])) if current_counts[cs] else None) for cs in sorted(all_ids)))
++    ev=[]
++    def add(eid,cs,kind,provider,date,table,oid,wt=None,link=None,st=None,op=None):
++        lo,hi,prec=date_interval(date,epoch=table==1004)
++        ev.append((eid,cs,kind,provider,json.dumps(date),lo,hi,prec,table,oid,link['OBJECTID'] if link else None,st['OBJECTID'] if st else None,str(st['BuildingStructureID']) if st else None,op['OPNo'] if op else None,f'{BASE}/{table}/query?objectIds={oid}&outFields=*&f=pjson',wt))
++    for r in works:
++        kind={'Completion Date':'completion','OP Date':'occupation_permit','Demolition Completion Date':'demolition_completion'}.get(r['WorksType'],'administrative_certificate')
++        add(f'works:{r["OBJECTID"]}',r['BuildingCSUID'],kind,r['DataProviderID'],r['WorksDate'],1000,r['OBJECTID'],wt=r['WorksType'])
++    sm=collections.defaultdict(list);om=collections.defaultdict(list);rm=collections.defaultdict(list)
++    for r in structures:sm[r['BuildingStructureID']].append(r)
++    for r in ops:om[r['OPNo']].append(r)
++    def issue(cs,kind,detail):con.execute('INSERT INTO join_issues VALUES (?,?,?)',(cs,kind,json.dumps(detail)))
++    for l in rel:
++        cs=l['BuildingCSUID'];rm[cs].append(l)
++        if not sm[l['BuildingStructureID']]:issue(cs,'missing_opstructure',l)
++        for s in sm[l['BuildingStructureID']]:
++            if not s['OPNo'] or not om[s['OPNo']]:issue(cs,'missing_or_null_permit_record',s)
++            for o in om[s['OPNo']]:
++                add(f'op:{l["OBJECTID"]}:{s["OBJECTID"]}:{o["OBJECTID"]}',cs,'occupation_permit','BD',o['OPDate'],1004,o['OBJECTID'],link=l,st=s,op=o)
++    for cs,rr in rm.items():
++        if len(rr)>1:issue(cs,'multiple_structure_links_retained',{'rows':len(rr),'structure_ids':[r['BuildingStructureID'] for r in rr]})
++    for cs,n in current_counts.items():
++        if n>1:issue(cs,'multiple_current_features_for_csuid',{'count':n})
++    con.executemany('INSERT INTO events VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)',ev)
++    con.executescript('CREATE INDEX events_cs ON events(building_csuid); CREATE INDEX features_cs ON features(building_csuid); CREATE INDEX issue_cs ON join_issues(building_csuid);')
++    con.commit();assert con.execute('PRAGMA integrity_check').fetchone()[0]=='ok';con.close();tmp.replace(db)
++    inputs={str(p.relative_to(ROOT.parent.parent.parent)):sha(p) for p in [GEO/'raw/Building_20260921.geojson',GEO/'derived/Kowloon_KaiTak_buildings_20260921.geojson']}
++    (ROOT/'input_hashes.json').write_text(json.dumps(inputs,indent=2))
++
++def query(target):
++    dt.date.fromisoformat(target)
++    con=sqlite3.connect(ROOT/'chronology.sqlite');con.row_factory=sqlite3.Row
++    events=collections.defaultdict(list)
++    for r in con.execute('SELECT * FROM events'):events[r['building_csuid']].append(dict(r))
++    statuses={r['building_csuid']:r['current_status'] for r in con.execute('SELECT building_csuid,current_status FROM features')}
++    multiplicity={r['building_csuid']:r['n'] for r in con.execute('SELECT building_csuid,COUNT(*) n FROM join_issues GROUP BY building_csuid')}
++    results={}
++    for o in con.execute('SELECT * FROM objects'):
++        cs=o['building_csuid'];r=classify(events[cs],target,statuses.get(cs));r.update({'building_csuid':cs,'target_date':target,'current_feature_count':o['current_feature_count'],'in_aoi':o['in_aoi'],'join_issue_count':multiplicity.get(cs,0),'historical_geometry_status':'unverified','visual_verification_count':0});results[cs]=r
++    fields=list(next(iter(results.values())))
++    out=ROOT/f'objects_{target}.csv'
++    with out.open('w',newline='') as f:
++        w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows(results.values())
++    ff=['objectid','building_csuid','name_en','name_tc','current_status','block_type','in_aoi','lon','lat','base_height','top_height','date_create','date_stamp','geometry_valid']
++    extras=[x for x in fields if x not in ff]
++    counts=collections.Counter();aoi_counts=collections.Counter();metrics=collections.Counter();aoi_metrics=collections.Counter()
++    whole=ROOT/f'current_features_{target}.csv';local=ROOT/f'aoi_features_{target}.csv'
++    with whole.open('w',newline='') as f,local.open('w',newline='') as g:
++        w=csv.DictWriter(f,fieldnames=ff+extras);v=csv.DictWriter(g,fieldnames=ff+extras);w.writeheader();v.writeheader()
++        for feat in con.execute('SELECT * FROM features ORDER BY objectid'):
++            r=dict(feat);r.update({k:results[r['building_csuid']][k] for k in extras});w.writerow(r);counts[r['status']]+=1
++            if r['in_aoi']:v.writerow(r);aoi_counts[r['status']]+=1
++            for key in ['completion_or_permit_by_target','direct_completion_by_target','permit_by_target','demolition_completed_by_target','has_date_conflict']:
++                metrics[key]+=r[key]
++                if r['in_aoi']:aoi_metrics[key]+=r[key]
++            if r['evidence_event_count']:metrics['with_any_event']+=1;aoi_metrics['with_any_event']+=r['in_aoi']
++    # Full event provenance exports include every duplicate works row and every permit join path.
++    with (ROOT/'events.csv').open('w',newline='') as f:
++        cursor=con.execute('SELECT * FROM events ORDER BY event_id');w=csv.writer(f);w.writerow([d[0] for d in cursor.description]);w.writerows(cursor)
++    with (ROOT/'join_issues.csv').open('w',newline='') as f:
++        cursor=con.execute('SELECT * FROM join_issues ORDER BY building_csuid');w=csv.writer(f);w.writerow([d[0] for d in cursor.description]);w.writerows(cursor)
++    examples=[]
++    for feat in con.execute("SELECT * FROM features WHERE in_aoi=1 AND name_en IS NOT NULL AND (name_en LIKE '%Mei Tung%' OR name_en LIKE '%Mei Po%' OR name_en LIKE '%Mei Yan%' OR name_en LIKE '%Mei Tak%' OR name_en LIKE '%Regal%' OR name_en LIKE '%Walled%') ORDER BY objectid"):
++        cs=feat['building_csuid'];examples.append({'current_feature':dict(feat),'classification':results[cs],'events':events[cs]})
++    (ROOT/f'examples_{target}.json').write_text(json.dumps(examples,indent=2,ensure_ascii=False))
++    summary={'target_date':target,'query_generated_utc':dt.datetime.now(dt.timezone.utc).isoformat(),'all_current_features':sum(counts.values()),'aoi_current_features':sum(aoi_counts.values()),'all_objects_including_unlocated_documentary_ids':len(results),'documentary_ids_without_current_geometry':sum(r['current_feature_count']==0 for r in results.values()),'whole_status_counts':dict(counts),'aoi_status_counts':dict(aoi_counts),'whole_feature_metrics':dict(metrics),'aoi_feature_metrics':dict(aoi_metrics),'event_count':sum(map(len,events.values())),'unique_csuid_with_events':len([k for k,v in events.items() if v]),'date_precision_counts':dict(con.execute('SELECT date_precision,COUNT(*) FROM events GROUP BY date_precision').fetchall()),'works_types':dict(con.execute('SELECT works_type,COUNT(*) FROM events WHERE source_table=1000 GROUP BY works_type').fetchall()),'join_issue_counts':dict(con.execute('SELECT issue,COUNT(*) FROM join_issues GROUP BY issue').fetchall()),'visual_verifications':0,'historical_geometry_verifications':0,'exact_target_presence_not_inferred_from_completed_by':True}
++    (ROOT/f'summary_{target}.json').write_text(json.dumps(summary,indent=2))
++    print(json.dumps(summary,indent=2));con.close()
++
++def manifest():
++    files=[]
++    for p in sorted(ROOT.rglob('*')):
++        if p.is_file() and p.name!='manifest.json' and '__pycache__' not in p.parts:
++            files.append({'path':str(p.relative_to(ROOT)),'bytes':p.stat().st_size,'sha256':sha(p)})
++    (ROOT/'manifest.json').write_text(json.dumps({'generated_utc':dt.datetime.now(dt.timezone.utc).isoformat(),'files':files},indent=2))
++
++if __name__=='__main__':
++    p=argparse.ArgumentParser();p.add_argument('--build',action='store_true');p.add_argument('--date',default='1993-11-04');p.add_argument('--manifest-only',action='store_true');a=p.parse_args()
++    if a.manifest_only:manifest()
++    else:
++        if a.build:create_database()
++        query(a.date);manifest()
+--- /dev/null
++++ structures/test_chronology.py
+@@ -0,0 +1,51 @@
++import unittest
++from chronology import date_interval,classify
++
++def e(kind='completion',date='01/01/1980',table=1000,provider='BD'):
++    lo,hi,p=date_interval(date,epoch=table==1004)
++    return dict(kind=kind,date_min=lo,date_max=hi,source_table=table,provider=provider)
++
++class DateRules(unittest.TestCase):
++    def test_day_first(self):self.assertEqual(date_interval('04/11/1993'),('1993-11-04','1993-11-04','day'))
++    def test_unpadded_day(self):self.assertEqual(date_interval('28/3/2000')[0],'2000-03-28')
++    def test_year_interval(self):self.assertEqual(date_interval('2021'),('2021-01-01','2021-12-31','year'))
++    def test_zero_day_not_imputed(self):self.assertEqual(date_interval('00/01/2001'),(None,None,'invalid_zero_day'))
++    def test_invalid_leap_day(self):self.assertEqual(date_interval('29/02/1993')[2],'invalid')
++    def test_null(self):self.assertEqual(date_interval(None)[2],'missing')
++    def test_hong_kong_epoch_timezone(self):self.assertEqual(date_interval(-28886400000,True)[0],'1969-02-01')
++
++class Semantics(unittest.TestCase):
++    def test_later_op_not_absence(self):
++        r=classify([e('occupation_permit','01/01/2019')],'1993-11-04');self.assertFalse(r['completion_or_permit_by_target']);self.assertEqual(r['presence_status'],'presence_at_target_unverified')
++    def test_completed_not_survival(self):
++        r=classify([e()],'1993-11-04');self.assertTrue(r['direct_completion_by_target']);self.assertEqual(r['presence_status'],'presence_at_target_unverified')
++    def test_boundary_inclusive(self):self.assertTrue(classify([e(date='04/11/1993')],'1993-11-04')['direct_completion_by_target'])
++    def test_partial_year_straddles(self):self.assertIn('straddles',classify([e(date='1993')],'1993-11-04')['status'])
++    def test_partial_year_after_end(self):self.assertTrue(classify([e(date='1993')],'1993-12-31')['direct_completion_by_target'])
++    def test_duplicate_events_retained(self):
++        r=classify([e(),e()],'1993-11-04');self.assertEqual(r['evidence_event_count'],2);self.assertEqual(r['conflict_flags'],'')
++    def test_divergent_completion_preserved(self):self.assertIn('multiple_completion_dates',classify([e(),e(date='01/01/2000')],'1993-11-04')['conflict_flags'])
++    def test_admin_does_not_certify_completion(self):self.assertFalse(classify([e('administrative_certificate')],'1993-11-04')['completion_or_permit_by_target'])
++    def test_null_retained(self):self.assertEqual(classify([e(date=None)],'1993-11-04')['undated_event_count'],1)
++    def test_op_source_conflict_retained(self):
++        r=classify([e('occupation_permit','01/02/2019'),e('occupation_permit',-28886400000,1004)],'1993-11-04');self.assertTrue(r['has_date_conflict']);self.assertTrue(r['permit_by_target'])
++    def test_demolition_absence_only_supported(self):self.assertEqual(classify([e('demolition_completion')],'1993-11-04')['presence_status'],'demolition_document_supported_absence_by_target')
++    def test_active_demolition_conflict(self):self.assertEqual(classify([e('demolition_completion')],'1993-11-04','Active')['presence_status'],'conflicting_evidence_presence_unresolved')
++    def test_future_demolition_not_target_absence(self):self.assertEqual(classify([e('demolition_completion','01/01/2020')],'1993-11-04')['presence_status'],'presence_at_target_unverified')
++    def test_unrecorded_not_absent(self):self.assertEqual(classify([],'1993-11-04')['status'],'no_documentary_chronology_presence_unresolved')
++    def test_corroboration_survives_conflicting_works_op(self):
++        r=classify([e('completion','01/02/1969'),e('occupation_permit','01/02/2019'),e('occupation_permit',-28886400000,1004)],'1993-11-04')
++        self.assertEqual(r['matching_completion_permit_dates'],'1969-02-01')
++        self.assertTrue(r['works_op_date_conflict']);self.assertTrue(r['completion_matches_relational_permit_by_target'])
++    def test_fresh_raw_source_anomaly_not_parser(self):
++        import json,pathlib
++        records=json.loads((pathlib.Path(__file__).parent/'documentation/fresh_anomaly_crosscheck.json').read_text())
++        sample=[r for r in records if r['building_csuid']=='0621112353T20050430']
++        self.assertEqual(len(sample),3)
++        works=[r for r in sample if r['raw_record'].get('WorksType')=='OP Date'][0]
++        self.assertEqual(works['raw_record']['WorksDate'],'01/02/2019')
++        self.assertEqual(date_interval(works['raw_record']['WorksDate'])[0],'2019-02-01')
++        permit=[r for r in sample if 'OPDate' in r['raw_record']][0]
++        self.assertEqual(date_interval(permit['raw_record']['OPDate'],True)[0],'1969-02-01')
++
++if __name__=='__main__':unittest.main()

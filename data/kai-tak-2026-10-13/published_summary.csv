@@ -1,0 +1,8 @@
+statistic,value,unit,qualification,source,type
+approaches_in_illustrated_sample,1079,count,Kai Tak-only sample not established,https://theairlinepilots.com/forumarchive/flightsafety/foqaflightdataanalysis.php,published_aggregate_not_raw_flight_data
+approaches_above_30_deg,18,count,Exceedance count reported in same discussion,https://theairlinepilots.com/forumarchive/flightsafety/foqaflightdataanalysis.php,published_aggregate_not_raw_flight_data
+approaches_above_35_deg,0,count,Do not interpret as a population safety bound,https://theairlinepilots.com/forumarchive/flightsafety/foqaflightdataanalysis.php,published_aggregate_not_raw_flight_data
+main_distribution_peak,3,degrees,Maximum bank below 500 ft,https://theairlinepilots.com/forumarchive/flightsafety/foqaflightdataanalysis.php,published_aggregate_not_raw_flight_data
+secondary_distribution_peak,20,degrees,Maximum bank below 500 ft,https://theairlinepilots.com/forumarchive/flightsafety/foqaflightdataanalysis.php,published_aggregate_not_raw_flight_data
+altitude_filter,500,ft,Maximum bank below this height,https://theairlinepilots.com/forumarchive/flightsafety/foqaflightdataanalysis.php,published_aggregate_not_raw_flight_data
+kai_tak_attribution_threshold,11,degrees,All bank angles above threshold attributed to runway 13,https://theairlinepilots.com/forumarchive/flightsafety/foqaflightdataanalysis.php,published_aggregate_not_raw_flight_data

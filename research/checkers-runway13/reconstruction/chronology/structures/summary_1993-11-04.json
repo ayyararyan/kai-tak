@@ -1,0 +1,66 @@
+{
+  "target_date": "1993-11-04",
+  "query_generated_utc": "2026-10-13T12:46:52.442330+00:00",
+  "all_current_features": 342195,
+  "aoi_current_features": 69915,
+  "all_objects_including_unlocated_documentary_ids": 342195,
+  "documentary_ids_without_current_geometry": 0,
+  "whole_status_counts": {
+    "no_documentary_chronology_presence_unresolved": 270813,
+    "documentary_records_only_presence_unresolved": 16254,
+    "documented_completion_by_target_with_evidence_conflict": 34357,
+    "documented_completion_by_target": 957,
+    "later_completion_or_permit_only_presence_unresolved": 19588,
+    "documented_permit_by_target_linked_scope": 225,
+    "documented_permit_by_target_linked_scope_with_evidence_conflict": 1
+  },
+  "aoi_status_counts": {
+    "documented_completion_by_target_with_evidence_conflict": 21054,
+    "later_completion_or_permit_only_presence_unresolved": 6562,
+    "no_documentary_chronology_presence_unresolved": 40833,
+    "documentary_records_only_presence_unresolved": 774,
+    "documented_permit_by_target_linked_scope": 170,
+    "documented_completion_by_target": 521,
+    "documented_permit_by_target_linked_scope_with_evidence_conflict": 1
+  },
+  "whole_feature_metrics": {
+    "completion_or_permit_by_target": 35540,
+    "direct_completion_by_target": 35314,
+    "permit_by_target": 34621,
+    "demolition_completed_by_target": 0,
+    "has_date_conflict": 52239,
+    "with_any_event": 71382
+  },
+  "aoi_feature_metrics": {
+    "with_any_event": 29082,
+    "completion_or_permit_by_target": 21746,
+    "direct_completion_by_target": 21575,
+    "permit_by_target": 21238,
+    "demolition_completed_by_target": 0,
+    "has_date_conflict": 26743
+  },
+  "event_count": 221383,
+  "unique_csuid_with_events": 71382,
+  "date_precision_counts": {
+    "day": 221374,
+    "invalid_zero_day": 2,
+    "missing": 5,
+    "year": 2
+  },
+  "works_types": {
+    "Certificate of Compliance": 11710,
+    "Certificate of Exemption in respect of Building Works": 16134,
+    "Certificate of Exemption in respect of Drainage Works": 15712,
+    "Certificate of Exemption in respect of Site Formation Works": 14808,
+    "Completion Date": 57092,
+    "Demolition Completion Date": 34,
+    "OP Date": 52552
+  },
+  "join_issue_counts": {
+    "missing_or_null_permit_record": 8,
+    "multiple_structure_links_retained": 314
+  },
+  "visual_verifications": 0,
+  "historical_geometry_verifications": 0,
+  "exact_target_presence_not_inferred_from_completed_by": true
+}

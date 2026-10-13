@@ -1,0 +1,46 @@
+{
+ "objectIdFieldName": "OBJECTID",
+ "globalIdFieldName": "",
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "alias": "OBJECTID",
+   "type": "esriFieldTypeOID"
+  },
+  {
+   "name": "BuildingCSUID",
+   "alias": "BuildingCSUID",
+   "type": "esriFieldTypeString",
+   "length": 19
+  },
+  {
+   "name": "DataProviderID",
+   "alias": "DataProviderID",
+   "type": "esriFieldTypeString",
+   "length": 6
+  },
+  {
+   "name": "WorksType",
+   "alias": "WorksType",
+   "type": "esriFieldTypeString",
+   "length": 80
+  },
+  {
+   "name": "WorksDate",
+   "alias": "WorksDate",
+   "type": "esriFieldTypeString",
+   "length": 10
+  }
+ ],
+ "features": [
+  {
+   "attributes": {
+    "OBJECTID": 59275,
+    "BuildingCSUID": "3738621565T20091214",
+    "DataProviderID": "HD",
+    "WorksType": "Completion Date",
+    "WorksDate": "28/04/2010"
+   }
+  }
+ ]
+}

@@ -1,0 +1,290 @@
+[
+  {
+    "id": "lands_aerial",
+    "url": "https://www.landsd.gov.hk/en/survey-mapping/mapping/aerial-photo.html",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "lands_mapping",
+    "url": "https://www.landsd.gov.hk/en/survey-mapping/mapping.html",
+    "final_url": "https://www.landsd.gov.hk/en/survey-mapping/mapping.html",
+    "status": 200,
+    "bytes": 42491,
+    "sha256": "f1ede802e70cc13913b2fddf6444fcbeb5d95c703e4fc02f1cb5f3b38b938fbb",
+    "file": "research/checkers-runway13/reconstruction/downloads/lands_mapping.html",
+    "retrieved_utc": "2026-10-13T10:47:19.230845+00:00"
+  },
+  {
+    "id": "hkmaps",
+    "url": "https://www.hkmaps.hk/",
+    "final_url": "https://www.hkmaps.hk/",
+    "status": 200,
+    "bytes": 11588,
+    "sha256": "da85baf5b14d0ee3951898939bddc3e3e17b942d9688e7abaa9b3d3669ac6fa6",
+    "file": "research/checkers-runway13/reconstruction/downloads/hkmaps.html",
+    "retrieved_utc": "2026-10-13T10:47:19.120767+00:00"
+  },
+  {
+    "id": "mapservice",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+  },
+  {
+    "id": "lands_geodetic",
+    "url": "https://www.geodetic.gov.hk/en/hk80.htm",
+    "final_url": "https://www.geodetic.gov.hk/en/hk80.htm",
+    "status": 200,
+    "bytes": 3960,
+    "sha256": "6f41473858e204bd2556eacce6c08fddcf4b3822c79adea8f99227f717f3eb1e",
+    "file": "research/checkers-runway13/reconstruction/downloads/lands_geodetic.html",
+    "retrieved_utc": "2026-10-13T10:47:19.023703+00:00"
+  },
+  {
+    "id": "cad_reports",
+    "url": "https://www.cad.gov.hk/english/reports.html",
+    "final_url": "https://www.cad.gov.hk/english/reports.html",
+    "status": 200,
+    "bytes": 77996,
+    "sha256": "4b9aba47e70dfea2f30c620fc3a1752071c11c61972fb7292d808d844314c368",
+    "file": "research/checkers-runway13/reconstruction/downloads/cad_reports.html",
+    "retrieved_utc": "2026-10-13T10:47:19.500749+00:00"
+  },
+  {
+    "id": "lands_aerial_products",
+    "url": "https://www.landsd.gov.hk/en/survey-mapping/mapping/aerial-photo-photogrammetric-products.html",
+    "final_url": "https://www.landsd.gov.hk/en/survey-mapping/mapping/aerial-photo-photogrammetric-products.html",
+    "status": 200,
+    "bytes": 41927,
+    "sha256": "c46df2acd72eff86e2482e1a0bc3314c1e811baf669666676adf33e31eef7512",
+    "file": "./research/checkers-runway13/reconstruction/downloads/lands_aerial_products.html",
+    "retrieved_utc": "2026-10-13T10:47:41.425274+00:00"
+  },
+  {
+    "id": "lands_topo",
+    "url": "https://www.landsd.gov.hk/en/survey-mapping/mapping/multi-scale-topographic-mapping.html",
+    "final_url": "https://www.landsd.gov.hk/en/survey-mapping/mapping/multi-scale-topographic-mapping.html",
+    "status": 200,
+    "bytes": 42025,
+    "sha256": "0b7e9204965c09b55a05a338f136d2ce644b9cbc2590263d8c226f9d2406edcb",
+    "file": "./research/checkers-runway13/reconstruction/downloads/lands_topo.html",
+    "retrieved_utc": "2026-10-13T10:47:41.434203+00:00"
+  },
+  {
+    "id": "geodetic_control",
+    "url": "https://www.landsd.gov.hk/en/survey-mapping/positioning-infrastructure/geodetic-survey-control-network.html",
+    "final_url": "https://www.landsd.gov.hk/en/survey-mapping/positioning-infrastructure/geodetic-survey-control-network.html",
+    "status": 200,
+    "bytes": 44143,
+    "sha256": "a8e4f9674b04af609c1f460f77875aae7bdf5f9a69a80f8dadc75ffcabdb3970",
+    "file": "./research/checkers-runway13/reconstruction/downloads/geodetic_control.html",
+    "retrieved_utc": "2026-10-13T10:47:41.521065+00:00"
+  },
+  {
+    "id": "hkmaps_details",
+    "url": "https://www.hkmaps.hk/details.html",
+    "final_url": "https://www.hkmaps.hk/details.html",
+    "status": 200,
+    "bytes": 5800,
+    "sha256": "126631cfa92f2c471b219d1052af4a6929c33075017d87650b7298823987f5c3",
+    "file": "./research/checkers-runway13/reconstruction/downloads/hkmaps_details.html",
+    "retrieved_utc": "2026-10-13T10:47:41.308203+00:00"
+  },
+  {
+    "id": "hkmaps_viewer",
+    "url": "https://www.hkmaps.hk/viewer.html",
+    "final_url": "https://www.hkmaps.hk/viewer.html",
+    "status": 200,
+    "bytes": 5387,
+    "sha256": "8ddb7dc468b469fb1ad1798d26bf3dbfea1cb61e4e3411916ea939d69e2a0746",
+    "file": "./research/checkers-runway13/reconstruction/downloads/hkmaps_viewer.html",
+    "retrieved_utc": "2026-10-13T10:47:41.304020+00:00"
+  },
+  {
+    "id": "lands_aerial_archive",
+    "url": "https://www.landsd.gov.hk/en/survey-mapping/mapping/aerial-photo-photogrammetric-products/aerial-photo.html",
+    "final_url": "https://www.landsd.gov.hk/en/survey-mapping/mapping/aerial-photo-photogrammetric-products/aerial-photo.html",
+    "status": 200,
+    "bytes": 45412,
+    "sha256": "51161e7f0a964052cbd6a81e031e242123d28b28fb84257e8fdd394596f2d266",
+    "file": "./research/checkers-runway13/reconstruction/downloads/lands_aerial_archive.html",
+    "retrieved_utc": "2026-10-13T10:47:49.008734+00:00"
+  },
+  {
+    "id": "lands_digital_aerial",
+    "url": "https://www.landsd.gov.hk/en/survey-mapping/mapping/aerial-photo-photogrammetric-products/digital-aerial-photo.html",
+    "final_url": "https://www.landsd.gov.hk/en/survey-mapping/mapping/aerial-photo-photogrammetric-products/digital-aerial-photo.html",
+    "status": 200,
+    "bytes": 60735,
+    "sha256": "47762741522b4b7f7d54030a1645581909aecf5d508d1133e727d4905b67baf3",
+    "file": "./research/checkers-runway13/reconstruction/downloads/lands_digital_aerial.html",
+    "retrieved_utc": "2026-10-13T10:47:49.032473+00:00"
+  },
+  {
+    "id": "lands_paper_maps",
+    "url": "https://www.landsd.gov.hk/en/survey-mapping/mapping/multi-scale-topographic-mapping/paper-map.html",
+    "final_url": "https://www.landsd.gov.hk/en/survey-mapping/mapping/multi-scale-topographic-mapping/paper-map.html",
+    "status": 200,
+    "bytes": 53104,
+    "sha256": "1d57ce7fee2b7502470e617f354743160ba28b69cc71c3a2934f49d2afda752d",
+    "file": "./research/checkers-runway13/reconstruction/downloads/lands_paper_maps.html",
+    "retrieved_utc": "2026-10-13T10:47:48.983495+00:00"
+  },
+  {
+    "id": "hkmaps_viewer_js",
+    "url": "https://www.hkmaps.hk/js/tmmain.js",
+    "final_url": "https://www.hkmaps.hk/js/tmmain.js",
+    "status": 200,
+    "bytes": 20155,
+    "sha256": "7824e5d8dca25af65a873329d2c56d9f0475ffb145c390105ed9d131eb537401",
+    "file": "./research/checkers-runway13/reconstruction/downloads/hkmaps_viewer_js.html",
+    "retrieved_utc": "2026-10-13T10:47:48.919798+00:00"
+  },
+  {
+    "id": "geodetic_home",
+    "url": "https://www.geodetic.gov.hk/en/index.htm",
+    "final_url": "https://www.geodetic.gov.hk/en/index.htm",
+    "status": 200,
+    "bytes": 18668,
+    "sha256": "777a8a82fd9525e70afd056e4925c0751dcae37d4366b1513c73573eee145d9f",
+    "file": "./research/checkers-runway13/reconstruction/downloads/geodetic_home.html",
+    "retrieved_utc": "2026-10-13T10:47:49.055719+00:00"
+  },
+  {
+    "id": "lands_free_aerial",
+    "url": "https://www.landsd.gov.hk/en/resources/mapping-information/downloadable-aerial-photographs.html",
+    "final_url": "https://www.landsd.gov.hk/en/resources/mapping-information/downloadable-aerial-photographs.html",
+    "status": 200,
+    "bytes": 60002,
+    "sha256": "de7bb44f8b6d4f7a4b11d683f8c61ab9a969d6b3f64e37fd625728f8165b057e",
+    "file": "./research/checkers-runway13/reconstruction/downloads/lands_free_aerial.html",
+    "retrieved_utc": "2026-10-13T10:47:56.618120+00:00"
+  },
+  {
+    "id": "hkmaps_metadata",
+    "url": "https://www.hkmaps.hk/mapdata.xml",
+    "final_url": "https://www.hkmaps.hk/mapdata.xml",
+    "status": 200,
+    "bytes": 115169,
+    "sha256": "7e8ab9bb02918ddaf98074d2ea7aa637480de851b413ee969fdf2d9f7a37cb4a",
+    "file": "./research/checkers-runway13/reconstruction/downloads/hkmaps_metadata.html",
+    "retrieved_utc": "2026-10-13T10:47:56.693611+00:00"
+  },
+  {
+    "id": "geodetic_grid",
+    "url": "https://www.geodetic.gov.hk/en/grid/grid.htm",
+    "final_url": "https://www.geodetic.gov.hk/en/grid/grid.htm",
+    "status": 200,
+    "bytes": 3960,
+    "sha256": "6f41473858e204bd2556eacce6c08fddcf4b3822c79adea8f99227f717f3eb1e",
+    "file": "./research/checkers-runway13/reconstruction/downloads/geodetic_grid.html",
+    "retrieved_utc": "2026-10-13T10:47:56.560236+00:00"
+  },
+  {
+    "id": "geodetic_datum_index",
+    "url": "https://www.geodetic.gov.hk/en/gi/grid_index.htm",
+    "final_url": "https://www.geodetic.gov.hk/en/gi/grid_index.htm",
+    "status": 200,
+    "bytes": 1882,
+    "sha256": "30f1e775317c139a8b1f75d50e3c4ea6cbbb72ff12ffcb051803d7c08b867813",
+    "file": "./research/checkers-runway13/reconstruction/downloads/geodetic_datum_index.html",
+    "retrieved_utc": "2026-10-13T10:48:16.917283+00:00"
+  },
+  {
+    "id": "official_historical_maps",
+    "url": "https://data.gov.hk/en-data/dataset/hk-landsd-openmap-historical-maps",
+    "final_url": "https://data.gov.hk/en-data/dataset/hk-landsd-openmap-historical-maps",
+    "status": 200,
+    "bytes": 135317,
+    "sha256": "9b807b280179758e086d8017ba3e4af4d72e0d777284674e3ec98b0179948821",
+    "file": "./research/checkers-runway13/reconstruction/downloads/official_historical_maps.html",
+    "retrieved_utc": "2026-10-13T10:48:17.649227+00:00"
+  },
+  {
+    "id": "hkmaps_tile_1993",
+    "url": "https://www.hkmaps.hk/maps/1993/16/53555/28595.png",
+    "status": 200,
+    "bytes": 52932,
+    "sha256": "ddab2084c92b1fb37329505641904f3121eb5042b57c4229311ffc8595441dd0",
+    "file": "research/checkers-runway13/reconstruction/downloads/lead_1993_16_53555_28595.png",
+    "retrieved_utc": "2026-10-13T10:48:29.593927+00:00",
+    "png_signature": true,
+    "z": 16,
+    "x": 53555,
+    "y": 28595,
+    "role": "Secondary delivery; primary provenance not yet verified; exploratory preview only"
+  },
+  {
+    "id": "hkmaps_tile_1993.1",
+    "url": "https://www.hkmaps.hk/maps/1993.1/16/53555/28595.png",
+    "status": 200,
+    "bytes": 25031,
+    "sha256": "6e0ea8c8dae47761a6c38acdf911dd6bccd91fad8f7ddbc0f1a80e785f53f4e5",
+    "file": "research/checkers-runway13/reconstruction/downloads/lead_1993.1_16_53555_28595.png",
+    "retrieved_utc": "2026-10-13T10:48:29.539967+00:00",
+    "png_signature": true,
+    "z": 16,
+    "x": 53555,
+    "y": 28595,
+    "role": "Secondary delivery; primary provenance not yet verified; exploratory preview only"
+  },
+  {
+    "id": "geodetic_refs",
+    "url": "https://www.geodetic.gov.hk/en/gi/refdoc.htm",
+    "final_url": "https://www.geodetic.gov.hk/en/gi/refdoc.htm",
+    "status": 200,
+    "bytes": 3465,
+    "sha256": "27a918a4ac674800a19efd7e751b23aa544cd1cdeba53ca73479d0c13ea36710",
+    "file": "./research/checkers-runway13/reconstruction/downloads/geodetic_refs.html",
+    "retrieved_utc": "2026-10-13T10:48:46.058919+00:00"
+  },
+  {
+    "id": "geodetic_height",
+    "url": "https://www.geodetic.gov.hk/en/gi/height_transf.htm",
+    "final_url": "https://www.geodetic.gov.hk/en/gi/height_transf.htm",
+    "status": 200,
+    "bytes": 3243,
+    "sha256": "4dbcd253b62114c998c6ad7ce5e1cb09a3e70e54729a7e1597357f86ab7a7ef0",
+    "file": "./research/checkers-runway13/reconstruction/downloads/geodetic_height.html",
+    "retrieved_utc": "2026-10-13T10:48:46.067177+00:00"
+  },
+  {
+    "id": "geodetic_explanatory_notes",
+    "url": "https://www.geodetic.gov.hk/common/data/pdf/explanatorynotes.pdf",
+    "final_url": "https://www.geodetic.gov.hk/common/data/pdf/explanatorynotes.pdf",
+    "status": 200,
+    "bytes": 629335,
+    "sha256": "ebd993c44f5d4a9584393faf09129d35dec86bbdf434907b2e9cf3afe65c4a6b",
+    "file": "./research/checkers-runway13/reconstruction/downloads/geodetic_explanatory_notes.pdf",
+    "retrieved_utc": "2026-10-13T10:49:14.213913+00:00"
+  },
+  {
+    "id": "geodetic_transform_parameters",
+    "url": "https://www.geodetic.gov.hk/common/data/parameter/7P_ITRF96_HK80_V1.pdf",
+    "final_url": "https://www.geodetic.gov.hk/common/data/parameter/7P_ITRF96_HK80_V1.pdf",
+    "status": 200,
+    "bytes": 158557,
+    "sha256": "6e63f8803c1a0d1ae8306db30bc76e2daff67e79099cf0fc93278f1b1a2d19fd",
+    "file": "./research/checkers-runway13/reconstruction/downloads/geodetic_transform_parameters.pdf",
+    "retrieved_utc": "2026-10-13T10:49:13.699280+00:00"
+  },
+  {
+    "id": "hkms_search",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+    "status": 200,
+    "bytes": 290307,
+    "sha256": "4c1855eecfb834220481a7ca1529b860634ca343d0032141fc434df05878689f",
+    "file": "research/checkers-runway13/reconstruction/downloads/hkms_search.html",
+    "retrieved_utc": "2026-10-13T10:52:02.252140+00:00",
+    "retrieved_utc_note": "Manifest inclusion time; retrieved 10:48\u201310:49 UTC using curl with normal TLS validation"
+  },
+  {
+    "id": "hkms_app",
+    "url": "https://www.hkmapservice.gov.hk/OneStopSystem/resources/js/oss/app.js",
+    "status": 200,
+    "bytes": 2245,
+    "sha256": "6d48026df245b3ed9173ace4c3a430c68f11c5015e8becc364bb1a53cab7f137",
+    "file": "research/checkers-runway13/reconstruction/downloads/hkms_app.js",
+    "retrieved_utc": "2026-10-13T10:52:02.252140+00:00",
+    "retrieved_utc_note": "Manifest inclusion time; retrieved 10:48\u201310:49 UTC using curl with normal TLS validation"
+  }
+]

@@ -1,0 +1,274 @@
+variable,time_datum_B_s,value,reading_lo,reading_hi,unit,construction,uncertainty
+groundspeed_kt,1,131.547,125.471,137.625,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,2,133.162,127.086,139.239,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,3,134.777,128.702,140.854,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,4,136.393,130.317,142.468,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,5,138.008,131.932,144.389,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,6,140.36,133.974,146.744,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,7,142.716,136.329,149.1,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,8,145.101,138.688,151.511,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,9,147.518,141.106,153.928,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,10,149.935,143.524,156.276,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,11,152.132,145.829,158.435,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,12,154.291,147.987,160.595,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,13,156.039,150.146,161.852,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,14,157.021,151.209,162.833,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,15,158.002,152.19,163.763,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,16,158.817,153.087,164.548,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,17,159.603,153.872,165.333,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,18,160.388,154.658,166.118,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,19,161.173,155.443,166.903,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,20,161.958,156.228,167.536,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,21,162.248,156.763,167.732,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,22,162.444,156.959,167.928,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,23,162.707,157.156,168.273,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,24,163.099,157.533,168.666,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,25,163.492,157.925,168.959,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,26,162.899,157.169,168.63,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,27,162.114,156.384,167.845,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,28,160.936,154.715,167.059,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,29,158.974,152.753,165.195,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,30,157.012,150.693,163.233,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,31,154.722,148.215,161.108,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,32,152.073,145.565,158.581,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,33,149.778,143.721,155.93,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,34,148.208,142.151,154.265,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,35,146.638,140.629,152.696,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,36,145.23,139.255,151.206,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,37,143.856,137.881,149.832,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,38,142.418,136.362,148.458,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,39,140.849,134.791,146.906,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,40,139.279,133.175,145.337,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,41,137.548,131.408,143.687,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,42,135.781,129.641,141.92,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,43,134.14,128.164,140.153,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,44,132.766,126.791,138.741,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,45,131.392,125.371,137.368,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,46,129.858,123.8,135.915,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,47,128.287,122.23,134.345,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,48,126.409,119.942,132.775,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,49,123.858,117.391,130.325,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,50,121.307,114.393,127.774,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,51,117.163,109.878,124.449,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,52,112.648,105.363,119.934,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,53,107.77,99.995,115.419,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,54,102.079,94.304,109.855,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,55,96.389,88.656,104.165,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,56,90.855,83.16,98.55,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,57,85.358,77.663,93.053,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,58,79.862,72.168,87.556,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,59,74.368,66.674,82.062,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,60,68.873,61.264,76.567,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,61,63.692,56.16,71.223,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,62,58.588,51.057,66.119,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,63,53.719,46.515,61.015,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,64,49.402,42.196,56.605,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,65,45.085,38.046,52.288,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,66,41.391,34.514,48.268,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,67,37.858,30.982,44.734,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,68,34.389,27.605,41.201,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+groundspeed_kt,69,31.077,24.293,37.865,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,1,147.317,141.662,152.973,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,2,146.712,141.057,152.367,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,3,145.933,140.11,151.757,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,4,144.924,139.101,150.747,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,5,143.915,138.507,150.202,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,6,146.058,139.755,152.361,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,7,148.217,141.913,154.521,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,8,150.595,144.105,157.083,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,9,153.198,146.709,159.686,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,10,155.801,149.312,163.012,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,11,160.699,153.085,168.312,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,12,166.0,158.383,173.613,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,13,168.491,161.943,174.853,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,14,165.744,159.196,172.294,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,15,162.997,157.171,169.545,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,16,164.401,158.097,170.703,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,17,166.56,160.257,172.863,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,18,167.976,162.416,173.379,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,19,167.976,162.574,173.379,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,20,167.976,162.574,173.531,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,21,168.471,162.824,174.12,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,22,169.061,163.412,174.709,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,23,169.25,163.602,174.853,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,24,168.661,163.014,174.31,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,25,168.073,162.276,173.721,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,26,166.991,161.098,172.885,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,27,165.813,159.92,171.708,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,28,165.619,159.627,171.758,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,29,167.385,161.246,173.525,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,30,169.151,161.71,174.853,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,31,161.619,156.189,170.952,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,32,165.407,158.409,172.407,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,33,166.168,158.475,173.379,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,34,160.674,152.98,168.368,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,35,155.18,148.344,162.874,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,36,152.602,146.381,158.824,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,37,150.639,144.418,156.861,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,38,148.994,143.183,154.898,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,39,148.013,142.202,153.825,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,40,147.033,140.8,152.844,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,41,144.6,138.052,151.149,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,42,141.852,135.304,148.401,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,43,141.733,134.578,149.427,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,44,147.227,139.534,154.922,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,45,152.722,145.028,159.136,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,46,148.767,140.827,156.708,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,47,142.682,134.741,150.622,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,48,137.768,131.383,144.537,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,49,135.413,129.028,141.798,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,50,133.058,127.076,139.443,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,51,132.135,126.487,137.784,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,52,131.546,125.898,137.195,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,53,127.986,118.329,136.606,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,54,117.782,108.125,127.44,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,55,107.579,98.839,117.236,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,56,100.694,92.754,108.635,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,57,94.609,86.669,102.549,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,58,88.106,79.594,96.464,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,59,80.65,72.137,89.162,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,60,73.193,65.193,81.705,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,61,67.621,60.089,75.152,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,62,62.517,54.986,70.048,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,63,58.646,52.833,64.944,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,64,57.664,51.852,63.477,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,65,56.683,50.283,62.495,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,66,53.514,46.555,60.472,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,67,49.784,42.826,56.743,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,68,47.605,41.749,53.653,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+calibrated_airspeed_kt,69,49.151,43.103,55.199,kt,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,1,106.976,102.177,111.778,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,2,110.216,105.417,115.015,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,3,113.022,108.645,117.399,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,4,115.25,110.872,119.626,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,5,117.477,113.099,121.342,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,6,118.467,114.608,122.326,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,7,119.452,115.592,123.31,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,8,119.583,115.823,123.343,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,9,118.837,115.078,122.597,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,10,118.091,114.532,122.273,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,11,120.661,115.899,125.423,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,12,123.811,119.048,128.573,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,13,126.618,122.197,130.968,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,14,128.783,124.43,133.133,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,15,130.948,126.596,134.729,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,16,129.116,124.6,133.631,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,17,126.556,122.041,131.071,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,18,125.419,121.429,129.523,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,19,126.993,122.888,131.098,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,20,128.568,124.462,132.266,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,21,127.99,124.131,131.849,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,22,127.006,123.146,130.864,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,23,126.622,122.906,130.398,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,24,127.409,123.632,131.185,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,25,128.196,124.419,132.072,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,26,129.313,125.372,133.253,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,27,130.494,126.553,134.435,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,28,131.281,127.735,134.729,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,29,131.281,127.833,134.729,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,30,131.281,127.54,134.729,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,31,130.3,126.358,134.24,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,32,129.118,125.177,133.059,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,33,128.714,124.877,132.654,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,34,129.895,125.954,133.835,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,35,131.076,127.135,134.777,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,36,131.443,127.913,134.974,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,37,131.64,128.11,135.171,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,38,132.219,128.307,136.243,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,39,133.597,129.574,137.62,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,40,134.975,130.952,138.67,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,41,135.06,131.53,138.59,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,42,134.863,131.333,138.393,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,43,134.603,130.991,138.196,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,44,134.21,130.598,137.822,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,45,133.816,129.975,137.429,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,46,132.619,128.596,136.642,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,47,131.241,127.218,135.264,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,48,129.925,125.984,133.886,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,49,128.744,124.803,132.685,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,50,127.563,123.892,131.504,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,51,127.5,123.969,131.03,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,52,127.697,124.166,131.227,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,53,128.502,124.363,132.853,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,54,130.666,126.315,135.018,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,55,132.831,128.48,136.7,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,56,132.299,128.358,136.24,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,57,131.118,127.177,135.059,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,58,130.775,126.847,134.879,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,59,132.349,128.244,136.454,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,60,133.923,129.818,137.857,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,61,134.867,131.091,138.644,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,62,135.655,131.878,139.431,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,63,134.736,129.235,139.655,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,64,129.816,124.312,135.315,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,65,124.896,119.18,130.395,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,66,119.19,113.275,125.101,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,67,113.283,107.371,119.195,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,68,107.55,101.885,113.288,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+heading_degM,69,102.235,96.569,107.906,degree magnetic,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,2,162.487,156.552,168.464,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,3,152.375,148.857,158.058,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,4,171.473,158.962,177.748,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,5,179.968,161.092,181.577,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,6,138.121,128.683,157.244,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,7,131.559,128.233,133.384,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,8,125.222,122.04,130.063,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,9,122.433,113.335,124.839,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,10,101.184,92.84,112.563,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,11,126.957,106.326,137.301,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,12,121.096,116.54,130.218,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,13,125.343,120.162,127.508,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,14,120.038,116.03,124.249,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,15,114.402,110.55,118.254,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,16,108.567,104.453,112.68,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,17,101.764,96.735,106.574,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,18,93.461,87.399,98.49,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,19,82.668,76.833,88.74,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,20,72.954,67.492,78.416,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,21,63.298,57.528,69.069,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,22,52.864,45.666,58.988,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,23,39.361,33.09,46.566,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,24,29.485,24.218,34.758,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,25,21.882,17.963,25.88,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,26,16.248,12.622,20.165,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,27,11.4,7.835,14.965,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,28,5.643,1.322,9.951,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,29,-0.588,-3.177,3.377,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,30,-2.983,-5.509,-0.411,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,31,-4.891,-7.111,-2.603,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,32,-5.615,-7.46,-3.938,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,33,-6.871,-9.232,-4.539,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,34,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,35,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,36,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,37,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,38,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,39,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,40,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,41,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,42,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,43,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,44,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,45,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,46,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,47,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,48,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,49,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,50,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,51,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,52,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,53,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,54,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,55,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,56,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,57,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,58,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,59,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,60,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,61,-7.639,-9.266,-6.032,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,62,-7.623,-9.262,-6.004,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,63,-7.594,-9.233,-5.976,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,64,-7.566,-9.204,-5.948,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,65,-7.537,-9.175,-5.919,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,66,-7.508,-9.146,-5.891,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI
+radio_altitude_ft,67,-7.479,-9.118,-5.862,ft radio height; not AMSL or geometric clearance,"piecewise-linear interpolation of coarse manual anchors, not independent observation",pixel sensitivity only; not CI/PI

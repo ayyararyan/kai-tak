@@ -1,0 +1,42 @@
+{
+  "release_tag": "snapshot-2026-10-13",
+  "created_utc": "2026-10-13T13:34:39.396559+00:00",
+  "assets": [
+    {
+      "name": "kai-tak-chronology-data-2026-10-13.tar.gz",
+      "delivery": "chronology-data",
+      "bytes": 829668609,
+      "sha256": "d1a3cfee7764904865e94d78bda46ed2c6f302245af478a81937d245215b6d15",
+      "files": 846,
+      "unpacked_bytes": 1534482400,
+      "url": "https://github.com/ayyararyan/kai-tak/releases/download/snapshot-2026-10-13/kai-tak-chronology-data-2026-10-13.tar.gz"
+    },
+    {
+      "name": "kai-tak-geospatial-data-2026-10-13.tar.gz",
+      "delivery": "geospatial-data",
+      "bytes": 143369563,
+      "sha256": "68bc39b735e72e802ab90238b395f0ad3f0932a396dccaedb5f8ee62e8d69d58",
+      "files": 5,
+      "unpacked_bytes": 521472035,
+      "url": "https://github.com/ayyararyan/kai-tak/releases/download/snapshot-2026-10-13/kai-tak-geospatial-data-2026-10-13.tar.gz"
+    },
+    {
+      "name": "kai-tak-reconstruction-data-2026-10-13.tar.gz",
+      "delivery": "reconstruction-data",
+      "bytes": 683568302,
+      "sha256": "f4b7a8bd4e83400e1938c8f01a98f1fdf495f94ab5dc28b6f8dcebf522987e20",
+      "files": 380,
+      "unpacked_bytes": 1801105321,
+      "url": "https://github.com/ayyararyan/kai-tak/releases/download/snapshot-2026-10-13/kai-tak-reconstruction-data-2026-10-13.tar.gz"
+    },
+    {
+      "name": "kai-tak-supporting-data-2026-10-13.tar.gz",
+      "delivery": "supporting-data",
+      "bytes": 1592278,
+      "sha256": "6ec3021b838a7ed3e7913933a1b13c23a0b26b6b3936e87d4a2b1ada2d7f59e8",
+      "files": 2,
+      "unpacked_bytes": 8503662,
+      "url": "https://github.com/ayyararyan/kai-tak/releases/download/snapshot-2026-10-13/kai-tak-supporting-data-2026-10-13.tar.gz"
+    }
+  ]
+}

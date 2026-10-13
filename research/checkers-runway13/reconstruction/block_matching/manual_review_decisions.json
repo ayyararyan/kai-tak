@@ -1,0 +1,299 @@
+{
+  "reviewer": "parent direct image inspection",
+  "overlays_inspected": [
+    "1989-10",
+    "1994-07",
+    "1997-04"
+  ],
+  "decisions": [
+    {
+      "id": "shing_tung",
+      "source": "1980_1990:678",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "mau_tung",
+      "source": "1980_1990:678",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "on_tung",
+      "source": "1980_1990:678",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "hong_tung",
+      "source": "1980_1990:678",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "market_podium",
+      "source": "1980_1990:678",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh. Mapped market face adjoining On Tung complex; distinct cartographic face, not necessarily an independent building."
+    },
+    {
+      "id": "block22",
+      "source": "1980_1990:678",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "block23",
+      "source": "1980_1990:678",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "lee_school",
+      "source": "1980_1990:678",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "ng_wah",
+      "source": "1980_1990:678",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh. Combined mapped school form, not a modern one-to-one structure identity."
+    },
+    {
+      "id": "regal",
+      "source": "1980_1990:678",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "po_sing",
+      "source": "1980_1990:678",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "city_market",
+      "source": "1980_1990:678",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "lok_sin_school",
+      "source": "1980_1990:678",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh. Partial mapped face; north portion gains crossed/dashed symbol in 1994/1997, interpretation unresolved. Do not infer unchanged physical state."
+    },
+    {
+      "id": "clinic",
+      "source": "1980_1990:678",
+      "decision": "reject",
+      "reason": "seed selected a small adjoining map subdivision, not the labelled clinic outline"
+    },
+    {
+      "id": "maternity",
+      "source": "1980_1990:678",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "dispensary",
+      "source": "1980_1990:678",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "shing_tung",
+      "source": "1980_1990:679",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "mau_tung",
+      "source": "1980_1990:679",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "on_tung",
+      "source": "1980_1990:679",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "hong_tung",
+      "source": "1980_1990:679",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "market_podium",
+      "source": "1980_1990:679",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh. Mapped market face adjoining On Tung complex; distinct cartographic face, not necessarily an independent building."
+    },
+    {
+      "id": "block22",
+      "source": "1980_1990:679",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "block23",
+      "source": "1980_1990:679",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "lee_school",
+      "source": "1980_1990:679",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "ng_wah",
+      "source": "1980_1990:679",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh. Combined mapped school form, not a modern one-to-one structure identity."
+    },
+    {
+      "id": "regal",
+      "source": "1980_1990:679",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "po_sing",
+      "source": "1980_1990:679",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "city_market",
+      "source": "1980_1990:679",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "lok_sin_school",
+      "source": "1980_1990:679",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh. Partial mapped face; north portion gains crossed/dashed symbol in 1994/1997, interpretation unresolved. Do not infer unchanged physical state."
+    },
+    {
+      "id": "clinic",
+      "source": "1980_1990:679",
+      "decision": "reject",
+      "reason": "seed selected a small adjoining map subdivision, not the labelled clinic outline"
+    },
+    {
+      "id": "maternity",
+      "source": "1980_1990:679",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "dispensary",
+      "source": "1980_1990:679",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "shing_tung",
+      "source": "1980_1990:680",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "mau_tung",
+      "source": "1980_1990:680",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "on_tung",
+      "source": "1980_1990:680",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "hong_tung",
+      "source": "1980_1990:680",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "market_podium",
+      "source": "1980_1990:680",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh. Mapped market face adjoining On Tung complex; distinct cartographic face, not necessarily an independent building."
+    },
+    {
+      "id": "block22",
+      "source": "1980_1990:680",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "block23",
+      "source": "1980_1990:680",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "lee_school",
+      "source": "1980_1990:680",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "ng_wah",
+      "source": "1980_1990:680",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh. Combined mapped school form, not a modern one-to-one structure identity."
+    },
+    {
+      "id": "regal",
+      "source": "1980_1990:680",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "po_sing",
+      "source": "1980_1990:680",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "city_market",
+      "source": "1980_1990:680",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "lok_sin_school",
+      "source": "1980_1990:680",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh. Partial mapped face; north portion gains crossed/dashed symbol in 1994/1997, interpretation unresolved. Do not infer unchanged physical state."
+    },
+    {
+      "id": "maternity",
+      "source": "1980_1990:680",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    },
+    {
+      "id": "dispensary",
+      "source": "1980_1990:680",
+      "decision": "accept_depicted_face",
+      "note": "Parent visually inspected extracted exterior against the registered source overlay; agreement as a depicted building face, not a surveyed historical roof mesh."
+    }
+  ],
+  "prior_seed_corrections": [
+    "Dispensary seed initially traced its compound: rejected and re-picked inside actual labelled building.",
+    "Block 23 seed initially fell outside the E-shaped building: rejected and re-picked inside western spine.",
+    "Clinic subface rejected and not included in accepted layer."
+  ],
+  "count_accepted_source_faces": 45,
+  "count_named_forms": 15
+}

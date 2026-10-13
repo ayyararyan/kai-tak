@@ -1,0 +1,22 @@
+{
+  "checks_passed": [
+    "BuildingWorksHistory: source counts, IDs, DB rows, original response hashes match",
+    "BuildingRelateOPStructure: source counts, IDs, DB rows, original response hashes match",
+    "OPStructure: source counts, IDs, DB rows, original response hashes match",
+    "OP: source counts, IDs, DB rows, original response hashes match",
+    "Every works row and every resolvable permit relationship preserved; all current polygons unique by CSUID",
+    "Both dated feature exports reconcile exactly; zero fabricated image checks or exact-target presence labels"
+  ],
+  "source_files_hashed": 119,
+  "works_duplicate_natural_key_groups_preserved": 2204,
+  "works_duplicate_extra_rows_preserved": 2204,
+  "csuid_with_both_works_and_relational_OP_dates": 52552,
+  "csuid_with_disagreeing_OP_source_dates": 52202,
+  "csuid_with_completion_date_corroborated_by_relational_OP_date": 52492,
+  "works_OP_year_counts": {
+    "2020": 12258,
+    "2019": 40294
+  },
+  "op_date_timezone_from_source": "China Standard Time (UTC+08:00); epoch timestamp normalized to Hong Kong calendar date",
+  "database_integrity": "ok"
+}

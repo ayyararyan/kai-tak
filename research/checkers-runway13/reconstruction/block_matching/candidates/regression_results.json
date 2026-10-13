@@ -1,0 +1,9 @@
+{
+  "tests_run": 10,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "test_script_sha256": "33f90bf4be354452f069e53a8ea36016d69f47e21789841a358741f4ec003d55",
+  "extractor_sha256": "bcad1ae409b8fb66fe6ef4bb6266e4a888412050055760fba721be92cd405c22",
+  "output": "test_actual_index_core_edges (test_candidate_repairs.CandidateRegressions.test_actual_index_core_edges) ... ok\ntest_coverage_cut_cannot_be_strong_even_if_template_inside (test_candidate_repairs.CandidateRegressions.test_coverage_cut_cannot_be_strong_even_if_template_inside) ... ok\ntest_genuinely_enclosed_component_remains_strong_candidate (test_candidate_repairs.CandidateRegressions.test_genuinely_enclosed_component_remains_strong_candidate) ... ok\ntest_grayscale_averages_brightness (test_candidate_repairs.CandidateRegressions.test_grayscale_averages_brightness) ... ok\ntest_holes_and_diagonal_components_preserve_pixel_area (test_candidate_repairs.CandidateRegressions.test_holes_and_diagonal_components_preserve_pixel_area) ... ok\ntest_nodata_is_rejected_not_treated_as_clear_or_ink (test_candidate_repairs.CandidateRegressions.test_nodata_is_rejected_not_treated_as_clear_or_ink) ... ok\ntest_palette_is_rejected_before_averaging_indices (test_candidate_repairs.CandidateRegressions.test_palette_is_rejected_before_averaging_indices) ... ok\ntest_pixel_cell_area_and_bounds_no_half_pixel_erosion (test_candidate_repairs.CandidateRegressions.test_pixel_cell_area_and_bounds_no_half_pixel_erosion) ... ok\ntest_single_pixel_wide_component_is_not_dropped (test_candidate_repairs.CandidateRegressions.test_single_pixel_wide_component_is_not_dropped) ... ok\ntest_tampered_archive_rejected_before_zip_decoding (test_candidate_repairs.CandidateRegressions.test_tampered_archive_rejected_before_zip_decoding) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.114s\n\nOK\n"
+}

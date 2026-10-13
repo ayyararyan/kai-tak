@@ -1,0 +1,38 @@
+{
+  "key": "11-NE-6B_1991-09",
+  "source": "reconstruction/chronology/sheets/maps/1980_1990_1169_11-NE-6B_1991-09-01.zip",
+  "source_sha256": "0522b3841178b30eb426cc0af379c97fde7d2444f562c1c631b187ad440e4b63",
+  "tfw_member": "HP1C-11NE06B-199109.tfw",
+  "affine": [
+    0.2499826763053853,
+    0.0,
+    838206.3629989572,
+    0.0,
+    -0.24992334535351549,
+    822853.2129865579
+  ],
+  "crs": "EPSG:2326 assigned from official survey grid; independent checks in parent registration report",
+  "sampling_resolution_m": [
+    0.2499826763053853,
+    0.24992334535351549
+  ],
+  "candidates": 250,
+  "counts": {
+    "strong_content_candidate_unverified": 74,
+    "edge_clipped_review": 40,
+    "ambiguous_content_candidate": 89,
+    "low_support_rejected_by_screen": 47
+  },
+  "map_regions": 364,
+  "map_regions_without_candidate": 289,
+  "verified_historical_buildings": 0,
+  "limitations": [
+    "No visual identity acceptance performed by this extractor",
+    "Ink includes text, road and grid lines",
+    "Candidate rank is heuristic, not calibrated probability",
+    "Current feature universe misses vanished structures; closed map regions remain unclassified",
+    "No height transfer and no historical volume produced",
+    "Date is edition month, not object survey date",
+    "No registration adjustment estimated; world file used verbatim"
+  ]
+}

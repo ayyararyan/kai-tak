@@ -1,0 +1,30 @@
+[
+  {
+    "name": "wu_chen_2024.pdf",
+    "url": "https://arxiv.org/pdf/2412.04797",
+    "bytes": 1792347,
+    "sha256": "687cb949341d9102261948acb182ea8eb2053e42220ce4ca8542b8e3965db985"
+  },
+  {
+    "name": "kim_et_al_2024.pdf",
+    "url": "https://arxiv.org/pdf/2405.16680",
+    "bytes": 1190023,
+    "sha256": "a66ccd6305d4b11c38f718044f06f16d2633c5fa09a18140076fa192524ac37d"
+  },
+  {
+    "name": "fastrack_2021.pdf",
+    "url": "https://arxiv.org/pdf/2102.07039",
+    "bytes": 3978153,
+    "sha256": "022cca0f10746554cddfeb82a7adcfd02dcc05ae55b29d226796c1d9b8924439"
+  },
+  {
+    "name": "bakolas_landing_2011.pdf",
+    "url": "https://dcsl.gatech.edu/papers/aiaa11.pdf",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "bakolas_curvature_2009.pdf",
+    "url": "https://dcsl.gatech.edu/papers/acc09.pdf",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "verified_at_utc": "2026-10-13T12:42:03.984554+00:00",
+  "parent_test_command": "../.venv/bin/python -m pytest test_explicit_reference.py -q",
+  "parent_test_observed": "30 passed in 0.89s",
+  "sha256_checks": {
+    "explicit_reference.py": true,
+    "test_explicit_reference.py": true,
+    "reference_formula.json": true,
+    "reference_outcomes.json": true,
+    "../model/config.json": true,
+    "../model/trajectory.py": true,
+    "../analytical/verify_full_landing_analysis.py": true,
+    "../analytical/coupled/certify_candidate.py": true,
+    "../analytical/coupled/continuous_certificate_refined.json": true
+  },
+  "specification_complete": false,
+  "note": "Independent parent rerun and artifact/source hash check; not an independent physical validation or new certificate."
+}

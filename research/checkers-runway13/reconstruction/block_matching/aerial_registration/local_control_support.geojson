@@ -1,0 +1,51 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              114.18927614939132,
+              22.32886862379042
+            ],
+            [
+              114.19148235425357,
+              22.328801171419965
+            ],
+            [
+              114.19152330267706,
+              22.33048707086536
+            ],
+            [
+              114.19097061755848,
+              22.330554387972136
+            ],
+            [
+              114.18986976661675,
+              22.33058811424489
+            ],
+            [
+              114.1893080152828,
+              22.330604975449663
+            ],
+            [
+              114.18927614939132,
+              22.32886862379042
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "status": "local_affine_diagnostic_only",
+        "historical_roof_height_valid": false,
+        "planimetric_error_calibrated": false,
+        "frame_id": "A36143",
+        "capture_date": "1993-11-02",
+        "holdout_rmse_m": 2.4182661110731636
+      }
+    }
+  ]
+}

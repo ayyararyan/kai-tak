@@ -1,0 +1,128 @@
+{
+  "stereo_tracks_npz_sha256": "55af21bc665c3b95a26b9a6b1557751498844e97904377734862963f13d91081",
+  "frame_sha256": {
+    "A36142": "42da43eebfa6eae39597ea16d917f900986d80f7c069b909ebbe3563fc074767",
+    "A36143": "e8439e24ffd7acbbaf7b5247b2fddbd7a52fd079e3c986481771efe204eaf289"
+  },
+  "inspection_evidence": "stereo_surface_pair_inspection.jpg",
+  "policy": "Do not regenerate or reassign labels automatically; changed tracks require fresh visual inspection.",
+  "labels": [
+    {
+      "fundamental_inlier_row": 788,
+      "role": "ground_fit",
+      "observed_surface": "park paved-path intersection",
+      "frame42_xy": [
+        2392.594970703125,
+        1472.9564208984375
+      ],
+      "frame43_xy": [
+        2393.859375,
+        733.63037109375
+      ]
+    },
+    {
+      "fundamental_inlier_row": 1030,
+      "role": "ground_fit",
+      "observed_surface": "park court-adjacent paved path junction",
+      "frame42_xy": [
+        2363.055419921875,
+        1847.031494140625
+      ],
+      "frame43_xy": [
+        2359.3564453125,
+        1111.2760009765625
+      ]
+    },
+    {
+      "fundamental_inlier_row": 74,
+      "role": "ground_fit",
+      "observed_surface": "paved path beside cleared Walled City site",
+      "frame42_xy": [
+        2444.137451171875,
+        1573.99755859375
+      ],
+      "frame43_xy": [
+        2443.279052734375,
+        836.0535278320312
+      ]
+    },
+    {
+      "fundamental_inlier_row": 1187,
+      "role": "ground_fit",
+      "observed_surface": "park boundary paved path",
+      "frame42_xy": [
+        2477.02001953125,
+        1710.744873046875
+      ],
+      "frame43_xy": [
+        2473.79541015625,
+        973.69287109375
+      ]
+    },
+    {
+      "fundamental_inlier_row": 708,
+      "role": "ground_holdout",
+      "observed_surface": "Carpenter Road visible ground point",
+      "frame42_xy": [
+        2353.08935546875,
+        1676.8984375
+      ],
+      "frame43_xy": [
+        2352.1357421875,
+        939.5806884765625
+      ]
+    },
+    {
+      "fundamental_inlier_row": 26,
+      "role": "roof_observed",
+      "observed_surface": "municipal market north roof feature",
+      "frame42_xy": [
+        2311.028564453125,
+        1480.55224609375
+      ],
+      "frame43_xy": [
+        2313.1005859375,
+        734.2769165039062
+      ]
+    },
+    {
+      "fundamental_inlier_row": 1135,
+      "role": "roof_observed",
+      "observed_surface": "municipal market south rooftop service structure",
+      "frame42_xy": [
+        2159.4619140625,
+        1485.6849365234375
+      ],
+      "frame43_xy": [
+        2162.846923828125,
+        733.55224609375
+      ]
+    },
+    {
+      "fundamental_inlier_row": 72,
+      "role": "surface_diagnostic",
+      "observed_surface": "cleared site surface, not guaranteed reference-plane height",
+      "frame42_xy": [
+        2479.402587890625,
+        1590.423583984375
+      ],
+      "frame43_xy": [
+        2478.449462890625,
+        852.8112182617188
+      ]
+    },
+    {
+      "fundamental_inlier_row": 124,
+      "role": "surface_diagnostic",
+      "observed_surface": "court-edge visible surface, possible boundary height",
+      "frame42_xy": [
+        2437.652099609375,
+        1805.731201171875
+      ],
+      "frame43_xy": [
+        2433.01904296875,
+        1070.2923583984375
+      ]
+    }
+  ]
+}

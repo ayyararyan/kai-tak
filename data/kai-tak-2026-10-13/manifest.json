@@ -1,0 +1,73 @@
+{
+  "retrieved_on": "2026-10-13",
+  "raw_BA_dataset_acquired": false,
+  "raw_CAL605_dataset_acquired": false,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4063,
+      "sha256": "a4f54a9cdd445a702f4567dbee3d4305aafee09c0a83a1934663465f71f6f44f",
+      "source_url": null
+    },
+    {
+      "path": "REQUEST_DRAFTS.md",
+      "bytes": 4129,
+      "sha256": "02388a49bf0c4e0234301e9b6964f1af70d1393359e3d5bf995836ed37d0815d",
+      "source_url": null
+    },
+    {
+      "path": "catalog_search_results.json",
+      "bytes": 15423,
+      "sha256": "da3bd74c84be03bc774f34d1a77da17ac68238a3006de5a0248c22fe6e56e8ac",
+      "source_url": null
+    },
+    {
+      "path": "extracts/CAL605_DFDR_and_trajectory.pdf",
+      "bytes": 1369800,
+      "sha256": "723083043137cc23e5abaf7f696b08fd93aee7d1d8a6ef86a1fbbd5434d3a1d0",
+      "source_url": "https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf"
+    },
+    {
+      "path": "extracts/controls-153.png",
+      "bytes": 845553,
+      "sha256": "84b0b298ba8bfea94be6ef49a2332759f66a2cfedbc7d42729429968eef80b8f",
+      "source_url": "https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf"
+    },
+    {
+      "path": "extracts/controls-154.png",
+      "bytes": 669886,
+      "sha256": "498fb778497c6c32806e1caff363cdaf70bb2e15c39fe959a18be1ea1ca67bb4",
+      "source_url": "https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf"
+    },
+    {
+      "path": "extracts/dfdr_figure1.png",
+      "bytes": 838590,
+      "sha256": "cf814973aaed2877f844eb536a7f05b8865ea818a0def29f892b50ee37a46ae9",
+      "source_url": "https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf"
+    },
+    {
+      "path": "extracts/dfdr_figure2.png",
+      "bytes": 783156,
+      "sha256": "a9762473e58a23f6ddb454c2f7488564cb181ff8430d978cb0c6df188d7e7d3e",
+      "source_url": "https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf"
+    },
+    {
+      "path": "published_summary.csv",
+      "bytes": 1420,
+      "sha256": "842a23de07308e980954c0ed6324569a4eb8f1c53b9eef84fb37f0e4608b7e13",
+      "source_url": null
+    },
+    {
+      "path": "sources/CAD_1-95_CAL605.txt",
+      "bytes": 406554,
+      "sha256": "949a93a8e12f562057c97e31c91c9a464a57a6519bdbca24fffad480a66b98c9",
+      "source_url": "https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf"
+    },
+    {
+      "path": "sources/CAD_1-95_CAL605_wayback.pdf",
+      "bytes": 7653178,
+      "sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+      "source_url": "https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf"
+    }
+  ]
+}

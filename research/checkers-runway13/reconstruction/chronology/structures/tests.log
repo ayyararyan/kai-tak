@@ -1,0 +1,44 @@
+test_day_first (test_chronology.DateRules.test_day_first) ... ok
+test_hong_kong_epoch_timezone (test_chronology.DateRules.test_hong_kong_epoch_timezone) ... ok
+test_invalid_leap_day (test_chronology.DateRules.test_invalid_leap_day) ... ok
+test_null (test_chronology.DateRules.test_null) ... ok
+test_unpadded_day (test_chronology.DateRules.test_unpadded_day) ... ok
+test_year_interval (test_chronology.DateRules.test_year_interval) ... ok
+test_zero_day_not_imputed (test_chronology.DateRules.test_zero_day_not_imputed) ... ok
+test_missing_permit_keys_do_not_join (test_chronology.JoinRules.test_missing_permit_keys_do_not_join) ... ok
+test_missing_structure_keys_do_not_join (test_chronology.JoinRules.test_missing_structure_keys_do_not_join) ... ok
+test_populated_duplicate_paths_retained (test_chronology.JoinRules.test_populated_duplicate_paths_retained) ... ok
+test_empty_geometry (test_chronology.MissingGeometry.test_empty_geometry) ... ok
+test_null_geometry (test_chronology.MissingGeometry.test_null_geometry) ... ok
+test_unreadable_geometry (test_chronology.MissingGeometry.test_unreadable_geometry) ... ok
+test_incomplete_rows_and_status_multiplicity_survive_end_to_end (test_chronology.PipelineRegression.test_incomplete_rows_and_status_multiplicity_survive_end_to_end) ... ok
+test_active_demolition_conflict (test_chronology.Semantics.test_active_demolition_conflict) ... ok
+test_admin_does_not_certify_completion (test_chronology.Semantics.test_admin_does_not_certify_completion) ... ok
+test_boundary_inclusive (test_chronology.Semantics.test_boundary_inclusive) ... ok
+test_compact_date_normalized_before_comparison (test_chronology.Semantics.test_compact_date_normalized_before_comparison) ... ok
+test_compatible_interval_not_exact_date_corroboration (test_chronology.Semantics.test_compatible_interval_not_exact_date_corroboration) ... ok
+test_completed_not_survival (test_chronology.Semantics.test_completed_not_survival) ... ok
+test_completion_disjoint_year_and_day_conflict (test_chronology.Semantics.test_completion_disjoint_year_and_day_conflict) ... ok
+test_completion_year_and_day_compatible (test_chronology.Semantics.test_completion_year_and_day_compatible) ... ok
+test_corroboration_survives_conflicting_works_op (test_chronology.Semantics.test_corroboration_survives_conflicting_works_op) ... ok
+test_current_statuses_aggregate_without_last_row_wins (test_chronology.Semantics.test_current_statuses_aggregate_without_last_row_wins) ... ok
+test_demolition_absence_only_supported (test_chronology.Semantics.test_demolition_absence_only_supported) ... ok
+test_divergent_completion_preserved (test_chronology.Semantics.test_divergent_completion_preserved) ... ok
+test_duplicate_events_retained (test_chronology.Semantics.test_duplicate_events_retained) ... ok
+test_fresh_raw_source_anomaly_not_parser (test_chronology.Semantics.test_fresh_raw_source_anomaly_not_parser) ... ok
+test_future_demolition_not_target_absence (test_chronology.Semantics.test_future_demolition_not_target_absence) ... ok
+test_later_op_not_absence (test_chronology.Semantics.test_later_op_not_absence) ... ok
+test_null_retained (test_chronology.Semantics.test_null_retained) ... ok
+test_op_full_bounds_compatible (test_chronology.Semantics.test_op_full_bounds_compatible) ... ok
+test_op_full_bounds_disjoint (test_chronology.Semantics.test_op_full_bounds_disjoint) ... ok
+test_op_source_conflict_retained (test_chronology.Semantics.test_op_source_conflict_retained) ... ok
+test_overlap_demolition_permit_not_clean_absence (test_chronology.Semantics.test_overlap_demolition_permit_not_clean_absence) ... ok
+test_partial_year_after_end (test_chronology.Semantics.test_partial_year_after_end) ... ok
+test_partial_year_straddles (test_chronology.Semantics.test_partial_year_straddles) ... ok
+test_post_demolition_permit_not_clean_absence (test_chronology.Semantics.test_post_demolition_permit_not_clean_absence) ... ok
+test_unrecorded_not_absent (test_chronology.Semantics.test_unrecorded_not_absent) ... ok
+
+----------------------------------------------------------------------
+Ran 39 tests in 0.070s
+
+OK

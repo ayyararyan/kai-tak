@@ -1,0 +1,3418 @@
+{
+  "verified_utc": "2026-10-13T13:15:30.515559+00:00",
+  "status": "passed",
+  "checks_passed": 848,
+  "checks_total": 848,
+  "sheet_editions": 94,
+  "distinct_sheet_locations": 93,
+  "candidate_rows": 23835,
+  "unique_modern_templates": 22073,
+  "counts": {
+    "strong_content_candidate_unverified": 10957,
+    "edge_clipped_review": 2652,
+    "ambiguous_content_candidate": 7211,
+    "low_support_rejected_by_screen": 3015
+  },
+  "map_regions": 37771,
+  "map_regions_without_candidate": 26963,
+  "nonempty_review_work_units": 1342,
+  "repaired_template_rows": [
+    "11-NE-11B_1989-12__3859421449P20250122",
+    "11-NE-12D_1990-02__4025120781T20071212"
+  ],
+  "verified_historical_buildings": 0,
+  "checks": [
+    {
+      "check": "11-NE-11A_1989-10_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11A_1989-10_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11A_1989-10_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11A_1989-10_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11A_1989-10_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11A_1989-10_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11A_1989-10_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11A_1989-10_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11A_1989-10_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11A_1994-07_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11A_1994-07_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11A_1994-07_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11A_1994-07_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11A_1994-07_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11A_1994-07_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11A_1994-07_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11A_1994-07_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11A_1994-07_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11B_1989-12_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11B_1989-12_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11B_1989-12_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11B_1989-12_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11B_1989-12_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11B_1989-12_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11B_1989-12_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11B_1989-12_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11B_1989-12_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11C_1990-01_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11C_1990-01_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11C_1990-01_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11C_1990-01_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11C_1990-01_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11C_1990-01_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11C_1990-01_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11C_1990-01_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11C_1990-01_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11D_1989-12_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11D_1989-12_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11D_1989-12_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11D_1989-12_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11D_1989-12_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11D_1989-12_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11D_1989-12_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11D_1989-12_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-11D_1989-12_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12A_1991-09_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12A_1991-09_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12A_1991-09_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12A_1991-09_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12A_1991-09_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12A_1991-09_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12A_1991-09_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12A_1991-09_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12A_1991-09_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12B_1990-02_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12B_1990-02_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12B_1990-02_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12B_1990-02_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12B_1990-02_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12B_1990-02_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12B_1990-02_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12B_1990-02_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12B_1990-02_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12C_1991-09_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12C_1991-09_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12C_1991-09_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12C_1991-09_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12C_1991-09_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12C_1991-09_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12C_1991-09_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12C_1991-09_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12C_1991-09_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12D_1990-02_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12D_1990-02_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12D_1990-02_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12D_1990-02_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12D_1990-02_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12D_1990-02_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12D_1990-02_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12D_1990-02_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-12D_1990-02_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-13A_1990-05_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-13A_1990-05_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-13A_1990-05_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-13A_1990-05_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-13A_1990-05_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-13A_1990-05_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-13A_1990-05_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-13A_1990-05_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-13A_1990-05_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-13C_1990-05_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-13C_1990-05_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-13C_1990-05_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-13C_1990-05_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-13C_1990-05_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-13C_1990-05_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-13C_1990-05_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-13C_1990-05_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-13C_1990-05_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16A_1989-12_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16A_1989-12_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16A_1989-12_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16A_1989-12_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16A_1989-12_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16A_1989-12_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16A_1989-12_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16A_1989-12_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16A_1989-12_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16B_1989-12_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16B_1989-12_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16B_1989-12_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16B_1989-12_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16B_1989-12_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16B_1989-12_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16B_1989-12_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16B_1989-12_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16B_1989-12_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16C_1989-12_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16C_1989-12_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16C_1989-12_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16C_1989-12_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16C_1989-12_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16C_1989-12_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16C_1989-12_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16C_1989-12_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16C_1989-12_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16D_1986-07_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16D_1986-07_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16D_1986-07_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16D_1986-07_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16D_1986-07_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16D_1986-07_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16D_1986-07_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16D_1986-07_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-16D_1986-07_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17A_1990-03_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17A_1990-03_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17A_1990-03_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17A_1990-03_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17A_1990-03_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17A_1990-03_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17A_1990-03_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17A_1990-03_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17A_1990-03_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17B_1993-07_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17B_1993-07_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17B_1993-07_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17B_1993-07_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17B_1993-07_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17B_1993-07_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17B_1993-07_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17B_1993-07_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17B_1993-07_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17C_1993-07_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17C_1993-07_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17C_1993-07_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17C_1993-07_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17C_1993-07_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17C_1993-07_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17C_1993-07_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17C_1993-07_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17C_1993-07_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17D_1993-04_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17D_1993-04_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17D_1993-04_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17D_1993-04_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17D_1993-04_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17D_1993-04_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17D_1993-04_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17D_1993-04_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-17D_1993-04_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-18A_1990-06_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-18A_1990-06_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-18A_1990-06_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-18A_1990-06_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-18A_1990-06_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-18A_1990-06_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-18A_1990-06_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-18A_1990-06_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-18A_1990-06_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-18C_1990-04_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-18C_1990-04_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-18C_1990-04_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-18C_1990-04_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-18C_1990-04_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-18C_1990-04_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-18C_1990-04_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-18C_1990-04_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-18C_1990-04_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1A_1990-01_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1A_1990-01_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1A_1990-01_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1A_1990-01_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1A_1990-01_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1A_1990-01_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1A_1990-01_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1A_1990-01_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1A_1990-01_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1B_1990-02_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1B_1990-02_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1B_1990-02_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1B_1990-02_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1B_1990-02_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1B_1990-02_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1B_1990-02_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1B_1990-02_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1B_1990-02_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1C_1990-01_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1C_1990-01_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1C_1990-01_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1C_1990-01_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1C_1990-01_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1C_1990-01_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1C_1990-01_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1C_1990-01_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1C_1990-01_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1D_1990-01_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1D_1990-01_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1D_1990-01_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1D_1990-01_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1D_1990-01_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1D_1990-01_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1D_1990-01_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1D_1990-01_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-1D_1990-01_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-21A_1989-12_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-21A_1989-12_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-21A_1989-12_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-21A_1989-12_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-21A_1989-12_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-21A_1989-12_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-21A_1989-12_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-21A_1989-12_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-21A_1989-12_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-21C_1993-10_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-21C_1993-10_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-21C_1993-10_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-21C_1993-10_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-21C_1993-10_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-21C_1993-10_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-21C_1993-10_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-21C_1993-10_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-21C_1993-10_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22A_1993-08_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22A_1993-08_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22A_1993-08_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22A_1993-08_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22A_1993-08_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22A_1993-08_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22A_1993-08_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22A_1993-08_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22A_1993-08_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22B_1993-08_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22B_1993-08_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22B_1993-08_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22B_1993-08_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22B_1993-08_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22B_1993-08_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22B_1993-08_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22B_1993-08_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22B_1993-08_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22D_1993-08_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22D_1993-08_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22D_1993-08_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22D_1993-08_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22D_1993-08_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22D_1993-08_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22D_1993-08_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22D_1993-08_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-22D_1993-08_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-23A_1991-09_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-23A_1991-09_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-23A_1991-09_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-23A_1991-09_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-23A_1991-09_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-23A_1991-09_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-23A_1991-09_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-23A_1991-09_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-23A_1991-09_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-23C_1991-09_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-23C_1991-09_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-23C_1991-09_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-23C_1991-09_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-23C_1991-09_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-23C_1991-09_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-23C_1991-09_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-23C_1991-09_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-23C_1991-09_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2A_1991-10_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2A_1991-10_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2A_1991-10_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2A_1991-10_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2A_1991-10_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2A_1991-10_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2A_1991-10_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2A_1991-10_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2A_1991-10_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2B_1990-02_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2B_1990-02_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2B_1990-02_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2B_1990-02_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2B_1990-02_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2B_1990-02_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2B_1990-02_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2B_1990-02_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2B_1990-02_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2C_1991-10_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2C_1991-10_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2C_1991-10_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2C_1991-10_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2C_1991-10_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2C_1991-10_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2C_1991-10_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2C_1991-10_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2C_1991-10_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2D_1990-02_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2D_1990-02_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2D_1990-02_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2D_1990-02_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2D_1990-02_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2D_1990-02_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2D_1990-02_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2D_1990-02_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-2D_1990-02_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-3A_1984-10_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-3A_1984-10_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-3A_1984-10_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-3A_1984-10_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-3A_1984-10_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-3A_1984-10_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-3A_1984-10_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-3A_1984-10_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-3A_1984-10_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-3C_1991-08_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-3C_1991-08_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-3C_1991-08_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-3C_1991-08_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-3C_1991-08_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-3C_1991-08_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-3C_1991-08_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-3C_1991-08_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-3C_1991-08_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6A_1991-09_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6A_1991-09_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6A_1991-09_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6A_1991-09_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6A_1991-09_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6A_1991-09_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6A_1991-09_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6A_1991-09_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6A_1991-09_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6B_1991-09_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6B_1991-09_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6B_1991-09_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6B_1991-09_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6B_1991-09_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6B_1991-09_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6B_1991-09_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6B_1991-09_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6B_1991-09_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6C_1991-09_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6C_1991-09_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6C_1991-09_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6C_1991-09_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6C_1991-09_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6C_1991-09_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6C_1991-09_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6C_1991-09_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6C_1991-09_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6D_1991-09_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6D_1991-09_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6D_1991-09_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6D_1991-09_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6D_1991-09_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6D_1991-09_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6D_1991-09_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6D_1991-09_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-6D_1991-09_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7A_1991-09_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7A_1991-09_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7A_1991-09_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7A_1991-09_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7A_1991-09_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7A_1991-09_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7A_1991-09_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7A_1991-09_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7A_1991-09_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7B_1990-12_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7B_1990-12_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7B_1990-12_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7B_1990-12_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7B_1990-12_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7B_1990-12_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7B_1990-12_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7B_1990-12_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7B_1990-12_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7C_1993-07_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7C_1993-07_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7C_1993-07_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7C_1993-07_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7C_1993-07_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7C_1993-07_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7C_1993-07_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7C_1993-07_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7C_1993-07_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7D_1990-02_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7D_1990-02_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7D_1990-02_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7D_1990-02_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7D_1990-02_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7D_1990-02_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7D_1990-02_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7D_1990-02_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-7D_1990-02_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-8A_1991-08_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-8A_1991-08_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-8A_1991-08_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-8A_1991-08_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-8A_1991-08_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-8A_1991-08_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-8A_1991-08_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-8A_1991-08_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-8A_1991-08_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NE-8C_1990-05_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NE-8C_1990-05_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NE-8C_1990-05_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NE-8C_1990-05_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NE-8C_1990-05_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NE-8C_1990-05_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NE-8C_1990-05_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NE-8C_1990-05_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NE-8C_1990-05_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10A_1990-02_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10A_1990-02_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10A_1990-02_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10A_1990-02_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10A_1990-02_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10A_1990-02_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10A_1990-02_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10A_1990-02_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10A_1990-02_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10B_1989-12_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10B_1989-12_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10B_1989-12_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10B_1989-12_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10B_1989-12_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10B_1989-12_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10B_1989-12_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10B_1989-12_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10B_1989-12_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10C_1989-12_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10C_1989-12_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10C_1989-12_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10C_1989-12_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10C_1989-12_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10C_1989-12_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10C_1989-12_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10C_1989-12_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10C_1989-12_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10D_1989-11_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10D_1989-11_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10D_1989-11_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10D_1989-11_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10D_1989-11_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10D_1989-11_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10D_1989-11_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10D_1989-11_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-10D_1989-11_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14A_1990-10_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14A_1990-10_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14A_1990-10_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14A_1990-10_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14A_1990-10_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14A_1990-10_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14A_1990-10_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14A_1990-10_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14A_1990-10_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14B_1990-01_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14B_1990-01_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14B_1990-01_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14B_1990-01_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14B_1990-01_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14B_1990-01_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14B_1990-01_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14B_1990-01_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14B_1990-01_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14C_1990-09_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14C_1990-09_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14C_1990-09_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14C_1990-09_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14C_1990-09_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14C_1990-09_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14C_1990-09_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14C_1990-09_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14C_1990-09_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14D_1989-10_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14D_1989-10_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14D_1989-10_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14D_1989-10_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14D_1989-10_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14D_1989-10_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14D_1989-10_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14D_1989-10_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-14D_1989-10_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15A_1989-11_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15A_1989-11_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15A_1989-11_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15A_1989-11_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15A_1989-11_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15A_1989-11_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15A_1989-11_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15A_1989-11_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15A_1989-11_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15B_1989-11_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15B_1989-11_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15B_1989-11_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15B_1989-11_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15B_1989-11_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15B_1989-11_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15B_1989-11_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15B_1989-11_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15B_1989-11_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15C_1989-11_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15C_1989-11_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15C_1989-11_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15C_1989-11_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15C_1989-11_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15C_1989-11_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15C_1989-11_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15C_1989-11_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15C_1989-11_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15D_1989-11_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15D_1989-11_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15D_1989-11_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15D_1989-11_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15D_1989-11_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15D_1989-11_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15D_1989-11_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15D_1989-11_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-15D_1989-11_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19A_1990-09_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19A_1990-09_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19A_1990-09_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19A_1990-09_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19A_1990-09_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19A_1990-09_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19A_1990-09_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19A_1990-09_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19A_1990-09_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19B_1990-10_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19B_1990-10_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19B_1990-10_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19B_1990-10_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19B_1990-10_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19B_1990-10_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19B_1990-10_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19B_1990-10_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19B_1990-10_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19C_1989-09_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19C_1989-09_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19C_1989-09_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19C_1989-09_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19C_1989-09_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19C_1989-09_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19C_1989-09_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19C_1989-09_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19C_1989-09_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19D_1989-10_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19D_1989-10_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19D_1989-10_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19D_1989-10_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19D_1989-10_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19D_1989-10_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19D_1989-10_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19D_1989-10_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-19D_1989-10_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20A_1989-11_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20A_1989-11_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20A_1989-11_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20A_1989-11_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20A_1989-11_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20A_1989-11_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20A_1989-11_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20A_1989-11_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20A_1989-11_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20B_1989-11_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20B_1989-11_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20B_1989-11_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20B_1989-11_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20B_1989-11_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20B_1989-11_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20B_1989-11_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20B_1989-11_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20B_1989-11_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20C_1989-10_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20C_1989-10_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20C_1989-10_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20C_1989-10_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20C_1989-10_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20C_1989-10_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20C_1989-10_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20C_1989-10_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20C_1989-10_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20D_1989-10_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20D_1989-10_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20D_1989-10_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20D_1989-10_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20D_1989-10_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20D_1989-10_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20D_1989-10_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20D_1989-10_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-20D_1989-10_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24A_1989-09_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24A_1989-09_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24A_1989-09_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24A_1989-09_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24A_1989-09_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24A_1989-09_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24A_1989-09_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24A_1989-09_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24A_1989-09_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24B_1989-10_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24B_1989-10_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24B_1989-10_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24B_1989-10_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24B_1989-10_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24B_1989-10_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24B_1989-10_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24B_1989-10_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24B_1989-10_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24C_1990-09_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24C_1990-09_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24C_1990-09_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24C_1990-09_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24C_1990-09_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24C_1990-09_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24C_1990-09_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24C_1990-09_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24C_1990-09_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24D_1993-04_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24D_1993-04_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24D_1993-04_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24D_1993-04_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24D_1993-04_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24D_1993-04_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24D_1993-04_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24D_1993-04_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-24D_1993-04_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25A_1989-10_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25A_1989-10_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25A_1989-10_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25A_1989-10_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25A_1989-10_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25A_1989-10_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25A_1989-10_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25A_1989-10_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25A_1989-10_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25B_1989-10_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25B_1989-10_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25B_1989-10_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25B_1989-10_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25B_1989-10_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25B_1989-10_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25B_1989-10_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25B_1989-10_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25B_1989-10_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25C_1993-09_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25C_1993-09_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25C_1993-09_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25C_1993-09_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25C_1993-09_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25C_1993-09_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25C_1993-09_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25C_1993-09_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25C_1993-09_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25D_1993-10_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25D_1993-10_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25D_1993-10_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25D_1993-10_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25D_1993-10_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25D_1993-10_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25D_1993-10_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25D_1993-10_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-25D_1993-10_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4A_1985-06_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4A_1985-06_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4A_1985-06_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4A_1985-06_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4A_1985-06_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4A_1985-06_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4A_1985-06_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4A_1985-06_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4A_1985-06_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4B_1985-06_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4B_1985-06_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4B_1985-06_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4B_1985-06_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4B_1985-06_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4B_1985-06_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4B_1985-06_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4B_1985-06_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4B_1985-06_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4C_1989-11_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4C_1989-11_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4C_1989-11_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4C_1989-11_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4C_1989-11_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4C_1989-11_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4C_1989-11_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4C_1989-11_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4C_1989-11_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4D_1989-11_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4D_1989-11_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4D_1989-11_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4D_1989-11_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4D_1989-11_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4D_1989-11_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4D_1989-11_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4D_1989-11_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-4D_1989-11_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5A_1985-03_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5A_1985-03_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5A_1985-03_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5A_1985-03_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5A_1985-03_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5A_1985-03_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5A_1985-03_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5A_1985-03_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5A_1985-03_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5B_1985-03_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5B_1985-03_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5B_1985-03_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5B_1985-03_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5B_1985-03_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5B_1985-03_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5B_1985-03_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5B_1985-03_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5B_1985-03_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5C_1989-11_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5C_1989-11_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5C_1989-11_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5C_1989-11_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5C_1989-11_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5C_1989-11_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5C_1989-11_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5C_1989-11_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5C_1989-11_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5D_1989-12_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5D_1989-12_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5D_1989-12_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5D_1989-12_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5D_1989-12_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5D_1989-12_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5D_1989-12_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5D_1989-12_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-5D_1989-12_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9A_1989-11_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9A_1989-11_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9A_1989-11_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9A_1989-11_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9A_1989-11_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9A_1989-11_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9A_1989-11_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9A_1989-11_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9A_1989-11_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9B_1990-06_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9B_1990-06_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9B_1990-06_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9B_1990-06_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9B_1990-06_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9B_1990-06_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9B_1990-06_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9B_1990-06_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9B_1990-06_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9C_1989-12_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9C_1989-12_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9C_1989-12_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9C_1989-12_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9C_1989-12_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9C_1989-12_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9C_1989-12_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9C_1989-12_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9C_1989-12_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9D_1990-06_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9D_1990-06_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9D_1990-06_counts",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9D_1990-06_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9D_1990-06_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9D_1990-06_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9D_1990-06_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9D_1990-06_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-NW-9D_1990-06_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-SE-1A_1991-01_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-SE-1A_1991-01_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-SE-1A_1991-01_counts",
+      "pass": true
+    },
+    {
+      "check": "11-SE-1A_1991-01_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-SE-1A_1991-01_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-SE-1A_1991-01_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-SE-1A_1991-01_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-SE-1A_1991-01_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-SE-1A_1991-01_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-SE-3A_1993-08_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-SE-3A_1993-08_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-SE-3A_1993-08_counts",
+      "pass": true
+    },
+    {
+      "check": "11-SE-3A_1993-08_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-SE-3A_1993-08_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-SE-3A_1993-08_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-SE-3A_1993-08_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-SE-3A_1993-08_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-SE-3A_1993-08_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-SW-4A_1989-06_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-SW-4A_1989-06_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-SW-4A_1989-06_counts",
+      "pass": true
+    },
+    {
+      "check": "11-SW-4A_1989-06_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-SW-4A_1989-06_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-SW-4A_1989-06_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-SW-4A_1989-06_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-SW-4A_1989-06_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-SW-4A_1989-06_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-SW-4B_1993-01_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-SW-4B_1993-01_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-SW-4B_1993-01_counts",
+      "pass": true
+    },
+    {
+      "check": "11-SW-4B_1993-01_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-SW-4B_1993-01_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-SW-4B_1993-01_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-SW-4B_1993-01_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-SW-4B_1993-01_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-SW-4B_1993-01_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-SW-5A_1993-09_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-SW-5A_1993-09_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-SW-5A_1993-09_counts",
+      "pass": true
+    },
+    {
+      "check": "11-SW-5A_1993-09_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-SW-5A_1993-09_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-SW-5A_1993-09_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-SW-5A_1993-09_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-SW-5A_1993-09_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-SW-5A_1993-09_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "11-SW-5B_1993-10_source_hash",
+      "pass": true
+    },
+    {
+      "check": "11-SW-5B_1993-10_all_queried_templates_preserved",
+      "pass": true
+    },
+    {
+      "check": "11-SW-5B_1993-10_counts",
+      "pass": true
+    },
+    {
+      "check": "11-SW-5B_1993-10_ranks",
+      "pass": true
+    },
+    {
+      "check": "11-SW-5B_1993-10_null_historical_claims",
+      "pass": true
+    },
+    {
+      "check": "11-SW-5B_1993-10_valid_geometry",
+      "pass": true
+    },
+    {
+      "check": "11-SW-5B_1993-10_finite_metrics",
+      "pass": true
+    },
+    {
+      "check": "11-SW-5B_1993-10_strong_rule",
+      "pass": true
+    },
+    {
+      "check": "11-SW-5B_1993-10_regions_explicit",
+      "pass": true
+    },
+    {
+      "check": "script_hash",
+      "pass": true
+    },
+    {
+      "check": "aggregate_count",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "historical_faces": 45,
+  "named_forms": 15,
+  "source_epochs": [
+    "1989-10",
+    "1994-07",
+    "1997-04"
+  ],
+  "historic_physical_volumes": 0,
+  "historic_nonnull_heights": 0,
+  "road_cells": 4,
+  "modern_components": 464,
+  "modern_omitted_components": 10,
+  "stereo_available": true,
+  "dense_available": true,
+  "dense_source_points": 171356,
+  "dense_preview_points": 57119,
+  "offline_plotly_bundled": true,
+  "browser_interaction_verified": false,
+  "scene_sha256": "fcaa2f9ecd3cfa14b82bd4fcf1f9aede098a12396b2206f342dc841c505d1437"
+}

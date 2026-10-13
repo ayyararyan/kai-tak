@@ -1,0 +1,89 @@
+{
+  "utc": "2026-10-13T11:43:09.977570+00:00",
+  "status": "passed",
+  "evidence": "synthetic quadrature vs independent RK4; no interval certification",
+  "random_cases": 30,
+  "seed": 20261013,
+  "domain_rejections": 5,
+  "worst_residuals": {
+    "ode_position_m": 1.454589213218943e-10,
+    "ode_heading_rad": 3.4493262613327836e-14,
+    "altitude_m": 2.376054908381775e-11,
+    "matched_position_m": 1.4524355599997003e-10,
+    "altitude_root_bank_rad": 4.390932062392494e-14
+  },
+  "examples": [
+    {
+      "category": "synthetic",
+      "U_m_s": 76.61993389895709,
+      "gamma_deg": -1.16020491308953,
+      "delta_deg": 128.07235221730423,
+      "p_deg_s": 11.022503120925732,
+      "X_m": 1104.1316202228531,
+      "y0_m": 1489.3225749983535,
+      "H_m": 51.642698528665086,
+      "bank_deg": 35.0,
+      "geometric_minimum_bank_deg": 35.0,
+      "altitude_matched_bank_deg": 35.0,
+      "initial_straight_m": 0.0,
+      "final_straight_m": 378.9041465340822
+    },
+    {
+      "category": "synthetic",
+      "U_m_s": 64.89853216240537,
+      "gamma_deg": -3.709674762690687,
+      "delta_deg": 88.20597967115121,
+      "p_deg_s": 10.10360770622257,
+      "X_m": 922.0226775359987,
+      "y0_m": 1488.609934745933,
+      "H_m": 134.0538280987413,
+      "bank_deg": 30.36149679725418,
+      "geometric_minimum_bank_deg": 28.150541480034466,
+      "altitude_matched_bank_deg": 30.36149679725414,
+      "initial_straight_m": 672.869042081347,
+      "final_straight_m": 58.92581950853287
+    },
+    {
+      "category": "synthetic",
+      "U_m_s": 53.2740971681915,
+      "gamma_deg": -4.3602567124726885,
+      "delta_deg": 120.33011539158653,
+      "p_deg_s": 2.149348578448872,
+      "X_m": 1349.3707547946253,
+      "y0_m": 1902.387297868091,
+      "H_m": 238.8618730465684,
+      "bank_deg": 14.873192241044855,
+      "geometric_minimum_bank_deg": 14.06187386723656,
+      "altitude_matched_bank_deg": 14.873192241044855,
+      "initial_straight_m": 103.13988447740485,
+      "final_straight_m": 361.4619045818504
+    }
+  ],
+  "instantaneous_roll_position_errors_m": [
+    0.22874595720758184,
+    0.02287446485708186,
+    0.0022874451771936755,
+    0.00022874450472056126
+  ],
+  "frozen_constant_slope_obstruction": {
+    "required_length_m": 2303.6273933188995,
+    "endpoint_distance_m": 2692.582403567252,
+    "deficit_m": 388.95501024835266,
+    "constant_TAS_terminal_to_initial_EAS_ratio": 1.0073658186919816,
+    "claim": "constant-slope/TAS restricted family incompatible, not v1 infeasible"
+  },
+  "checks": [
+    "turn quadrature/RK4",
+    "position matching",
+    "altitude fixed-state root",
+    "monotone W and D",
+    "geometric feasible interval boundary",
+    "triangular zero hold",
+    "invalid domain",
+    "instantaneous-roll limit",
+    "constant-slope chord obstruction",
+    "equal-EAS incompatibility"
+  ],
+  "whole_landing_solution": false,
+  "full_aircraft_envelope_verified": false
+}

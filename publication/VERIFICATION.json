@@ -1,0 +1,21 @@
+{
+  "verified_utc": "2026-10-13T13:36:46.848199+00:00",
+  "core_model_tests": {
+    "passed": 52,
+    "failed": 0
+  },
+  "explicit_reference_tests": {
+    "passed": 30,
+    "failed": 0
+  },
+  "verification_interpreter": "Python 3.12.13, existing research environment; tests executed against public snapshot paths",
+  "git_source_hashes_verified": 1143,
+  "structured_metadata_files_scanned": 807,
+  "credential_pattern_findings": 0,
+  "structured_sensitive_key_findings": 0,
+  "archives_checked": 4,
+  "archive_members_hash_verified": 1233,
+  "archive_verification": "scripts/fetch_data.py --verify-only against local release archives; complete member sets and SHA256 values checked",
+  "source_model_changed_for_publication": false,
+  "scope": "Publication integrity and core model tests only. Not a fresh full scientific audit of all reconstruction lanes or an operational aviation certificate."
+}

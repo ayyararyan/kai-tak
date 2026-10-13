@@ -1,0 +1,199 @@
+{
+  "snapshot_utc": "2026-10-13T13:24:59.023422+00:00",
+  "scope": "Draft v1; source snapshot, not new scientific validation. Active unfinished CAL605 analysis excluded.",
+  "files": [
+    {
+      "source": "PROJECT_STATE.md",
+      "snapshot": "evidence/PROJECT_STATE.md",
+      "sha256": "0103c70223c79195807764c7b494772417fdfa21b00c48631b7c2a9ecf19d1a4",
+      "bytes": 29708
+    },
+    {
+      "source": "MODEL_IMPLEMENTATION_SPEC.md",
+      "snapshot": "evidence/MODEL_IMPLEMENTATION_SPEC.md",
+      "sha256": "3d8a9ce242783e357317beca0470044c00d4f62c74084cd1ffa70472815a8ceb",
+      "bytes": 8304
+    },
+    {
+      "source": "MODEL_EQUATIONS.md",
+      "snapshot": "evidence/MODEL_EQUATIONS.md",
+      "sha256": "8c749d4b22505c91f1e0b6e9a72f17966c53d5d3565f0573aabe0851d0a1beac",
+      "bytes": 5646
+    },
+    {
+      "source": "MODEL_VALIDATION_REPORT.md",
+      "snapshot": "evidence/MODEL_VALIDATION_REPORT.md",
+      "sha256": "5ac1fa68810cec397d013875d534350bbf8f28d08eb0ed1d49912d253030e426",
+      "bytes": 5853
+    },
+    {
+      "source": "model/config.json",
+      "snapshot": "evidence/model/config.json",
+      "sha256": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693",
+      "bytes": 9059
+    },
+    {
+      "source": "approximation/SPEC.md",
+      "snapshot": "evidence/approximation/SPEC.md",
+      "sha256": "586cdc4cd0b69d20126a5c97e19cb39937426ff9ec58498cb45412df96a83165",
+      "bytes": 7969
+    },
+    {
+      "source": "approximation/STATUS.md",
+      "snapshot": "evidence/approximation/STATUS.md",
+      "sha256": "f2b29c4a61c9027aaf2ef2beb87718e0a2df088a9735dba0136df2786db23c52",
+      "bytes": 4905
+    },
+    {
+      "source": "approximation/reference_formula.json",
+      "snapshot": "evidence/approximation/reference_formula.json",
+      "sha256": "95311d6d1857fc6330532dcce52cc58f03e20b489c3249a0da6cf3f14cea0c76",
+      "bytes": 4544
+    },
+    {
+      "source": "approximation/reference_outcomes.json",
+      "snapshot": "evidence/approximation/reference_outcomes.json",
+      "sha256": "23a2e3c01c35a95d7d933cf87351a86c6e0eef2d69e821421cb60b60d9242c51",
+      "bytes": 2715
+    },
+    {
+      "source": "approximation/CLOSED_FORM_AND_BOUNDS.md",
+      "snapshot": "evidence/approximation/CLOSED_FORM_AND_BOUNDS.md",
+      "sha256": "c9905b322a0f674e48a8f3461642648496a94ff57f6cb77eda7416af6bd16c3c",
+      "bytes": 9984
+    },
+    {
+      "source": "approximation/parent_verification.json",
+      "snapshot": "evidence/approximation/parent_verification.json",
+      "sha256": "614bea92909e525f847dff84307cd65b91d7bba0375176ebec15accc35994922",
+      "bytes": 789
+    },
+    {
+      "source": "analytical/coupled/RESULTS.md",
+      "snapshot": "evidence/analytical/coupled/RESULTS.md",
+      "sha256": "386695fa71afc900113f123e7204966a64dfd43eb2db0faed4fb3577c30554fa",
+      "bytes": 10443
+    },
+    {
+      "source": "analytical/coupled/continuous_certificate_refined.json",
+      "snapshot": "evidence/analytical/coupled/continuous_certificate_refined.json",
+      "sha256": "774f34ad182a5015eeed799c910cde01eb6b297c1b4e6c4a119582b0d83db973",
+      "bytes": 202790
+    },
+    {
+      "source": "reconstruction/chronology/REPORT.md",
+      "snapshot": "evidence/reconstruction/chronology/REPORT.md",
+      "sha256": "6a06f484eeeb20e9b6ff35d0fcb12c74efc4d96a80fc08c480ae54405c7aa11d",
+      "bytes": 10016
+    },
+    {
+      "source": "reconstruction/chronology/HANDOFF.json",
+      "snapshot": "evidence/reconstruction/chronology/HANDOFF.json",
+      "sha256": "f8deecf9c45d622e3b4fd6bcef7b4245a7e736d4364b02dec8a8004be96f7a34",
+      "bytes": 4757
+    },
+    {
+      "source": "reconstruction/block_matching/registration_report.md",
+      "snapshot": "evidence/reconstruction/block_matching/registration_report.md",
+      "sha256": "c751bd91f98a4bcbdb78743d34be9ce97846fe35cca3c582e8abda15c8fcbb87",
+      "bytes": 6233
+    },
+    {
+      "source": "reconstruction/block_matching/aerial_registration/README.md",
+      "snapshot": "evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "sha256": "85d9ebdbf81c23fed693b2d9e71d458c89a8ffc127a4c8cc7cf0c972d1f55af1",
+      "bytes": 8709
+    },
+    {
+      "source": "reconstruction/block_matching/aerial_registration/stereo_verification.json",
+      "snapshot": "evidence/reconstruction/block_matching/aerial_registration/stereo_verification.json",
+      "sha256": "6aca7b270d51db411068fcf056344a3a1651b63b61191d012248ad72a746d08b",
+      "bytes": 1512
+    },
+    {
+      "source": "reconstruction/block_matching/aerial_registration/sparse_stereo_report.json",
+      "snapshot": "evidence/reconstruction/block_matching/aerial_registration/sparse_stereo_report.json",
+      "sha256": "17c70dac3685c3f04eb9d01026aaf3c74ed32313e70755bb854f9afc58377bc9",
+      "bytes": 9195
+    },
+    {
+      "source": "reconstruction/block_matching/aerial_registration/dense_stereo_report.json",
+      "snapshot": "evidence/reconstruction/block_matching/aerial_registration/dense_stereo_report.json",
+      "sha256": "d0a34456168079ae9a0784519382e00cb15b516225c33284c7babd4c84bdcc2f",
+      "bytes": 4014
+    },
+    {
+      "source": "reconstruction/block_matching/scene/validation.json",
+      "snapshot": "evidence/reconstruction/block_matching/scene/validation.json",
+      "sha256": "d4189df73786b0765aa1518ec2f60ced3ce928520e9055999d4efd5605dee2fa",
+      "bytes": 551
+    },
+    {
+      "source": "geospatial/README.md",
+      "snapshot": "evidence/geospatial/README.md",
+      "sha256": "1ac992bf7838fa3476067ec43c9682bcda2d62d5c9eeb04180f291060d7a7788",
+      "bytes": 6664
+    },
+    {
+      "source": "evidence/EVIDENCE_REPORT.md",
+      "snapshot": "evidence/evidence/EVIDENCE_REPORT.md",
+      "sha256": "601cc3b9c93fb1315c01a393b0b5236eb92700b834ce449a0a2531d551319b64",
+      "bytes": 10403
+    },
+    {
+      "source": "evidence/cal605_reconstruction/noaa/README.md",
+      "snapshot": "evidence/evidence/cal605_reconstruction/noaa/README.md",
+      "sha256": "460a3704fc5d27a49628c386b412535428f861f68f7bc5a290623a7687d1378c",
+      "bytes": 7746
+    },
+    {
+      "source": "evidence/cal605_reconstruction/noaa/verification.json",
+      "snapshot": "evidence/evidence/cal605_reconstruction/noaa/verification.json",
+      "sha256": "12c7e0aadc85b4e9ba920cc176227d31e7607b5d7432fa8f045cb80c9deae67c",
+      "bytes": 6307
+    },
+    {
+      "source": "evidence/cal605_reconstruction/noaa/acceptance_verification.json",
+      "snapshot": "evidence/evidence/cal605_reconstruction/noaa/acceptance_verification.json",
+      "sha256": "1ac30387f2b91bf53e7d91acaffa0520004a1d008f64b02147aac36cc6974e46",
+      "bytes": 925
+    },
+    {
+      "source": "literature/LITERATURE_AND_COMPARISON.md",
+      "snapshot": "evidence/literature/LITERATURE_AND_COMPARISON.md",
+      "sha256": "b167fb01d96631a749fde1cbb4a894ee257b14f0f5e0cc3520a984f26100431a",
+      "bytes": 12772
+    },
+    {
+      "source": "literature/APPROXIMATE_LANDING_NOVELTY_2026-10-13.md",
+      "snapshot": "evidence/literature/APPROXIMATE_LANDING_NOVELTY_2026-10-13.md",
+      "sha256": "ef06c27cc45b30f97ad3bc09198ff7b3a3794b8a3a9ad4233d1c872a39e9e31f",
+      "bytes": 5672
+    },
+    {
+      "source": "evidence/cal605_reconstruction/noaa/observations_1993.csv",
+      "sha256": "104b2fc2e2e7cdf3ebb2cda338dfebac948a76f95630595242ececf0ce14ef4c",
+      "bytes": 6187296,
+      "derived": "evidence/weather_plot_data.csv"
+    },
+    {
+      "source": "reconstruction/block_matching/aerial_registration/dense_stereo_points.csv",
+      "sha256": "c287de3c3b6f5dca1703d0ed473b950cf168d3ce61072c6610fc11e7cef774a0",
+      "bytes": 33980899,
+      "derived": "evidence/stereo_plot_data.csv",
+      "full_points": 171356,
+      "inside_control_hull": 3781,
+      "sampling": "every fifth source row, beginning at zero"
+    },
+    {
+      "snapshot": "evidence/weather_plot_data.csv",
+      "sha256": "7de32c29acf8f3729884a002ff133252ad6cab1b7a2da486b104ccc9d85a704d",
+      "bytes": 460625
+    },
+    {
+      "snapshot": "evidence/stereo_plot_data.csv",
+      "sha256": "bf778a6abaf88c310aa790021d9049fefe55a54d53a6339b0fc9447889cc46c1",
+      "bytes": 2316366
+    }
+  ]
+}

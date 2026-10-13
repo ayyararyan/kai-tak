@@ -1,0 +1,179 @@
+{
+  "source_pdf": "data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+  "source_pdf_sha256": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+  "source_notes_pdf_page_1_based": 137,
+  "record_pdf_pages_1_based": [
+    138,
+    139
+  ],
+  "method": "Human-model visual transcription from Poppler-rendered primary PDF pages, checked against machine text; machine text is not authority.",
+  "render_command": "pdftoppm -f 137 -l 139 -scale-to 3000 -png <source.pdf> source_pages/wind",
+  "field_semantics": {
+    "A": "maximum 1-second speed and its associated direction in 5-second period",
+    "B": "preceding 2-minute arithmetic mean speed; mean direction per Attachment II",
+    "C": "preceding 10-minute arithmetic mean speed; mean direction per Attachment II"
+  },
+  "sensor_names": {
+    "SE": "Southeast",
+    "NW": "Northwest",
+    "MID": "Mid-runway",
+    "LYM": "Lei Yue Mun",
+    "YYC": "Yau Yat Chuen"
+  },
+  "time_semantics": "Printout labels UTC. Offset to DFDR/ATC clock not identified here. All time comparisons remain within wind-system clock.",
+  "selection_semantics": "Notes say significant windshear activates 30-second printouts, otherwise updated every 10 minutes. Preserve 15 actual printed records, not a complete evenly spaced time series.",
+  "direction_semantics": "Degrees as printed, 360 preserved. No true/magnetic conversion or runway-component inference made here.",
+  "uncertainty": {
+    "display_resolution_observed": {
+      "speed_kt": 1,
+      "direction_degrees": 10
+    },
+    "rounding_rule": "Unknown; display increments alone do not establish rounding error bounds.",
+    "physical_instrument_error": "Unidentified from these pages; not set equal to display precision.",
+    "ambiguous_cells": "Null if unreadable. 0 of 450 A/B/C numerical cells are null; source-level anomalies flagged separately.",
+    "confidence_intervals": "None estimated. No 95% statistical or physical error bounds claimed."
+  },
+  "not_extracted": [
+    "D direction extrema",
+    "F crosswind extrema",
+    "G trackwind extrema",
+    "printed shear flags"
+  ],
+  "anchors": [
+    {
+      "wind_clock_time": "03:30:00",
+      "pdf_page_1_based": 138,
+      "printed_page": "A7-2",
+      "record_block_1_based": 1,
+      "manual_normalized_abc_line": "03:30:00 080/20,080/22,070/22 060/20,060/17,060/17 100/22,040/21,040/23 070/34,060/31,050/33 050/30,050/24,040/23",
+      "machine_text_aid_not_authority": "SE AOB0/ 20 B080/ 22 C070/ 22 D030-X30 B 12- 38 PR 38 L 38 OT 28 H 28   LYM AO7O/ 34 B060/ 31 C050/ 33\nNW A06Q/ 20 B060/ 17 C060/ 17 D030-110 E 09- 33 FR 33 L 33 GT 19 K 19   YYC A050/ 30 BOSO/ 24 C040/ 23\nMID A100/ 22 B040/ 21 C040/ 23      SHEAR     31A/13D SINKING        13A/31D STNKING         QNH XXXX",
+      "visual_evidence": "source_pages/wind-138.png"
+    },
+    {
+      "wind_clock_time": "03:31:00",
+      "pdf_page_1_based": 138,
+      "printed_page": "A7-2",
+      "record_block_1_based": 2,
+      "manual_normalized_abc_line": "03:31:00 090/20,080/22,070/22 050/21,060/18,060/17 050/27,040/22,040/23 050/40,060/32,050/33 040/23,040/24,040/23",
+      "machine_text_aid_not_authority": "SE A090/ 20 B080/ 22 C070/ 22 D030-130 E 12- 38 FR 38 L 3B QT 20 H 28   LYM AOSQ/ 40 S060/ 32 C050/ 33\nNW A050/ 21 B06O/ 18 C06O/ 17 D030-110 E 09- 33 FR 33 L 33 GT 19 H 19   YYC A040/ 23 B040/ 24 C040/ 23\nMID A050/ 27 B040/ 22 C040/ 23      SHEAR     31A/13D SINKING        13A/31D SIG SINKING -09 QNH XXXX",
+      "visual_evidence": "source_pages/wind-138.png"
+    },
+    {
+      "wind_clock_time": "03:31:30",
+      "pdf_page_1_based": 138,
+      "printed_page": "A7-2",
+      "record_block_1_based": 3,
+      "manual_normalized_abc_line": "03:31:30 070/23,080/22,070/22 050/20,060/19,060/17 050/22,040/22,040/23 060/35,060/32,050/33 040/21,040/24,040/23",
+      "machine_text_aid_not_authority": "SE AO70/ 23 B080/ 22 C070/ 22 D030-130 E 12- 38 PR 38 L 38 GT 28 H 28   LYM A060/ $b B060/ 32 COSO/ 33\nNW A050/ 20 B060/ 19 C060/ 17 DO30-U0 E 09- 33 FR 33 L 33 GT 19 H 19    YYC A040/ 21 B040/ 24 C040/ 23\nMID A050/ 22 B040/ 22 C040/ 23      SHEAR     31A/13D SINKING        13A/31D SIG SINKING 11 QNH XXXX",
+      "visual_evidence": "source_pages/wind-138.png"
+    },
+    {
+      "wind_clock_time": "03:32:00",
+      "pdf_page_1_based": 138,
+      "printed_page": "A7-2",
+      "record_block_1_based": 4,
+      "manual_normalized_abc_line": "03:32:00 090/30,080/23,070/23 030/25,050/20,060/18 030/22,040/21,040/22 060/30,060/32,050/32 040/38,040/24,050/23",
+      "machine_text_aid_not_authority": "SE AO90/ 30 B080/ 23 C070/ 23 D030-130 E 12- 38 FR 38 L 38 GT 28 H 28   LYM A060/ 30 8060/ 32 0050/ 32\nNW AO30/ 25 B050/ 20 C060/ 18 D010-110 E 09- 37 FR 33 L 33 GH 21 T 21   YYC A040/ 38 B040/ 24 C050/ 23\nMID A030/ 22 B040/ 21 C040/ 22      SHEAR     31A/13D SINKING        13A/31D SXC3 SINKING -10 QNH XXXX",
+      "visual_evidence": "source_pages/wind-138.png"
+    },
+    {
+      "wind_clock_time": "03:32:30",
+      "pdf_page_1_based": 138,
+      "printed_page": "A7-2",
+      "record_block_1_based": 5,
+      "manual_normalized_abc_line": "03:32:30 080/28,080/25,070/23 060/19,050/19,060/18 040/26,040/21,040/22 060/31,060/31,050/32 030/30,040/24,050/23",
+      "machine_text_aid_not_authority": "SE A080/ 28 B080/ 25 C070/ 23 D030-130 E 12- 38 FR 3$ L 38 GT 28 H 28   LYM AOSQ/ 31 BG6G/ 31 COSO/ 32\nNW A060/ 19 B050/ 19 C060/ 18 D010-110 E 09- 37 FR 33 L 33 GH 21 T 21   YYC A030/ 30 0040/ 24 C050/ 23\nMID A040/ 26 B040/ 21 C040/ 22      SHEAR     31A/13D SINKING        13A/11D SIC SINKING 09 QNH XXXX",
+      "visual_evidence": "source_pages/wind-138.png"
+    },
+    {
+      "wind_clock_time": "03:33:00",
+      "pdf_page_1_based": 138,
+      "printed_page": "A7-2",
+      "record_block_1_based": 6,
+      "manual_normalized_abc_line": "03:33:00 060/29,070/25,070/23 070/22,050/20,060/18 050/28,040/22,040/22 060/29,060/30,050/32 040/16,040/23,050/23",
+      "machine_text_aid_not_authority": "SE A060/ 29 B070/ 25 C070/ 23 D030-130 E 12- 38 FR 38 L 38 GT 28 H 28   LYM A060/ 29 B06Q/ 30 COSO/ 32\nNW A070/ 22 B050/ 20 C060/ 18 D010-110 E 09- 37 FR 33 L 33 GH 21 T 21   YYC A040/ 16 B040/ 23 COSO/ 23\nMID A050/ 28 B040/ 22 C040/ 22      SHEAR     31A/13D SINKING        13A/31D SIG SINKING -08 QNH XXXX",
+      "visual_evidence": "source_pages/wind-138.png"
+    },
+    {
+      "wind_clock_time": "03:34:00",
+      "pdf_page_1_based": 138,
+      "printed_page": "A7-2",
+      "record_block_1_based": 7,
+      "manual_normalized_abc_line": "03:34:00 050/36,070/25,070/23 070/27,060/21,060/19 050/29,050/25,050/22 060/28,060/28,060/31 060/35,040/24,050/23",
+      "machine_text_aid_not_authority": "SE A050/ 36 BO70/ 25 C070/ 23 D030-110 E 12- 39 FR 30 L 38 GT 28 H 28   LYM A060/ 28 B060/ 28 C060/ 31\nNW A070/ 27 B060/ 21 C060/ 19 D010-110 E 09- 37 FR 35 L 35 GH 21 T 21   YYC A060/ 35 B040/ 24 COSO/ 23\nMID AOSO/ 29 B050/ 25 C050/ 22      SHEAR     31A/13D NO SHEAR       13A/31D SIG SINKING -09 QNH XXXX",
+      "visual_evidence": "source_pages/wind-138.png"
+    },
+    {
+      "wind_clock_time": "03:34:30",
+      "pdf_page_1_based": 138,
+      "printed_page": "A7-2",
+      "record_block_1_based": 8,
+      "manual_normalized_abc_line": "03:34:30 050/30,060/24,070/23 050/28,060/22,060/19 050/23,050/25,050/22 060/31,060/29,060/31 110/23,060/24,050/23",
+      "machine_text_aid_not_authority": "SE AOSO/ 30 B060/ 24 C070/ 23 D030-110 E 12- 39 FR 38 L 38 GT 28 H 28   LYM AQ60/ 31 B060/ 29 COSO/ 31\nNW A050/ 28 B060/ 22 C060/ 19 D010-110 S 09- 37 FR 35 L 35 GH 21 T 21   YYC A110/ 23 B060/ 24 COSO/ 23\nMID A050/ 23 B050/ 25 COSO/ 22      SHEAR    31A/13D NO SHEAR        13A/31D SIG SINKING -12 QNH XXXX",
+      "visual_evidence": "source_pages/wind-138.png"
+    },
+    {
+      "wind_clock_time": "03:35:00",
+      "pdf_page_1_based": 138,
+      "printed_page": "A7-2",
+      "record_block_1_based": 9,
+      "manual_normalized_abc_line": "03:35:00 070/23,060/23,070/23 060/21,070/22,060/19 070/24,060/24,050/22 050/34,060/30,060/31 050/29,060/24,050/23",
+      "machine_text_aid_not_authority": "SE A070/ 23 B060/ 23 C070/ 23 D030-110 E 12- 39 FR 38 L 38 GT 28 H 28   LYM A050/ 34 B0\u00ab\u00bb0/ 30 C060/ 31\nNW A0\u20ac0/ 21 B070/ 22 CO60/ 19 D010-11Q E 09- 37 FR 35 L 35 GH 21 T 21   YYC AOSO/ 29 B060/ 24 COSO/ 23\nMID A070/ 24 B060/ 24 COSO/ 22      SHEAR     31A/13D NO SHEAR       13A/31D SIG SINKING -08 QNH XXXX",
+      "visual_evidence": "source_pages/wind-138.png"
+    },
+    {
+      "wind_clock_time": "03:35:30",
+      "pdf_page_1_based": 138,
+      "printed_page": "A7-2",
+      "record_block_1_based": 10,
+      "manual_normalized_abc_line": "03:35:30 070/21,070/23,070/23 060/37,060/23,060/19 040/19,060/23,050/22 360/32,060/31,060/31 060/33,060/25,050/23",
+      "machine_text_aid_not_authority": "SE A070/ 21 B070/ 23 CO70/ 23 D030-110 E 12- 39 FR 38 L 38 GT 28 H 28   LYM A360/ 32 B060/ 31 C060/ 31\nNW A060/ 37 B060/ 23 CO$0/ 19 D010-110 E 09- 37 FR 35 L 35 GH 21 T 21   YYC A060/ 33 B0\u20ac0/ 25 COSO/ 23\nMID A040/ 19 B060/ 23 C050/ 22      SHEAR     3XA/13D SINKING        13A/31D SIG SINKING -08 QNH XXXX",
+      "visual_evidence": "source_pages/wind-138.png"
+    },
+    {
+      "wind_clock_time": "03:37:30",
+      "pdf_page_1_based": 138,
+      "printed_page": "A7-2",
+      "record_block_1_based": 11,
+      "manual_normalized_abc_line": "03:37:30 060/28,060/20,070/23 070/21,070/18,060/19 060/25,050/24,050/22 020/39,050/33,060/31 060/20,050/24,050/24",
+      "machine_text_aid_not_authority": "SE A060/ 28 B060/ 20 C070/ 23 D330-110 fi 07- 39 FR 38 L 38 GT 22 H 22   LYM A020/ 39 B050/ 33 C060/ 31\n NW A070/ 21 B070/ 18 C060/ 19 D010-110 E 09- 44 FR 41 L 41 GH 21 T 21    YYC A060/ 20 B050/ 24 COSO/ 24\n MID A060/ 25 B050/ 24 COSO/ 22      SHEAR      31A/13D SINKING        13A/3XD SIG SINKING -11 QNH XXXX",
+      "visual_evidence": "source_pages/wind-138.png"
+    },
+    {
+      "wind_clock_time": "03:38:00",
+      "pdf_page_1_based": 138,
+      "printed_page": "A7-2",
+      "record_block_1_based": 12,
+      "manual_normalized_abc_line": "03:38:00 070/33,060/23,070/23 050/12,060/17,060/17 060/24,060/25,050/22 070/37,050/34,060/31 050/24,060/25,050/24",
+      "machine_text_aid_not_authority": "SE A070/ 33 B060/ 23 C070/ 23 D330-110 E 04- 39 FR 38 L 38 GT 22 H 22    LYM A070/ 37 BOSO/ 34 C06O/ 31\n m   AOSO/ 12 B060/ 17 C060/ 17 D010-110 E 09- 44 FR 41 L 41 GH 21 T 21   YYC AOSO/ 24 B060/ 25 COSO/ 24\n MID A060/ 24 B060/ 25 C050/ 22       SHEAR     31A/13D SINKING        13A/31D SIG SINKING -12 QNH XXXX",
+      "visual_evidence": "source_pages/wind-138.png"
+    },
+    {
+      "wind_clock_time": "03:38:30",
+      "pdf_page_1_based": 139,
+      "printed_page": "A7-3",
+      "record_block_1_based": 1,
+      "manual_normalized_abc_line": "03:38:30 040/23,070/25,070/23 060/13,060/15,060/19 040/18,060/23,050/22 060/35,050/35,060/31 050/37,050/25,050/24",
+      "machine_text_aid_not_authority": "SE A040/ 23 B070/ 2S C070/ 23 D330-110 E 04- 39 FR 3d L 38 GT 22 H 22   LYM A060/ 35 B050/ 35 C060/ 31\nNW A060/ 13 B060/ 15 C060/ 19 D010-110 E 09- 44 FR 41 L 41 GH 21 T 21   YYC A0S0/ 37 B050/ 25 COSO/ 24\nMID A040/ 18 B060/ 23 COSO/ 22      SHEAR     31A/13D LIFTING        13A/31D SIG SINKING -09 QNH XXXX",
+      "visual_evidence": "source_pages/wind-139.png"
+    },
+    {
+      "wind_clock_time": "03:39:00",
+      "pdf_page_1_based": 139,
+      "printed_page": "A7-3",
+      "record_block_1_based": 2,
+      "manual_normalized_abc_line": "03:39:00 060/33,060/27,070/23 030/11,060/14,060/19 060/27,050/23,050/22 060/33,050/35,060/31 040/29,060/25,050/24",
+      "machine_text_aid_not_authority": "SE A060/ 33 B060/ 2V C070/ 23 D330-110 E 04- 39 FR 38 L 38 GT 22 H 22   LYM A060/ 33 B050/ 35 C060/ 31\nNW A030/ 11 B060/ 14 COSO/ 19 D010-110 E 09- 44 FR 41 L 41 GH 21 T 21   YYC A040/ 29 B060/ 25 COSO/ 24\nMID A060/ 27 BOSO/ 23 C050/22       SHEAR     31A/13D SINKING        13A/31D SIG SINKING -10 QNH XXXX",
+      "visual_evidence": "source_pages/wind-139.png"
+    },
+    {
+      "wind_clock_time": "03:40:00",
+      "pdf_page_1_based": 139,
+      "printed_page": "A7-3",
+      "record_block_1_based": 3,
+      "manual_normalized_abc_line": "03:40:00 060/22,060/25,070/24 040/17,060/12,060/18 040/28,050/22,050/23 040/38,050/33,060/32 050/30,050/25,050/24",
+      "machine_text_aid_not_authority": "SB AO60/ 22 B06O/ 25 C070/ 24 D330-110 E 04- 39 FR 38 L 38 GT 22 H 22    LYM A040/ 38 B050/ 33 C060/ 32\nNW AO40/ 17 B06O/ 12 COSO/ Id D010-110 E 08- 44 FR 41 L 41 GH 21 T 21   YYC A050/ 30 B050/ 25 C050/ 24\nMID AO40/ 28 BOSO/ 22 C050/ 23      SHEAR     31A/13D SINKING        13A/3ID SIG SINKING -12 QNH XXXX",
+      "visual_evidence": "source_pages/wind-139.png"
+    }
+  ]
+}

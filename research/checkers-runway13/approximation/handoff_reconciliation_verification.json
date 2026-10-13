@@ -1,0 +1,50 @@
+{
+  "verified_at_utc": "2026-10-13T13:01:43.301535+00:00",
+  "handoff_sha256": "f8deecf9c45d622e3b4fd6bcef7b4245a7e736d4364b02dec8a8004be96f7a34",
+  "handoff_artifacts": {
+    "local_features": {
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    "whole_features": {
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    "events": {
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    "source_matches": {
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    "sheet_photo_pairs": {
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    "visual_observations": {
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    "uncertainty_mask": {
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    "local_terrain": {
+      "size_matches": true,
+      "sha256_matches": true
+    },
+    "local_current_buildings": {
+      "size_matches": true,
+      "sha256_matches": true
+    }
+  },
+  "test_command": "research/checkers-runway13/.venv/bin/python -m pytest research/checkers-runway13/approximation/test_explicit_reference.py -q",
+  "observed_test_output": "30 passed in 1.07s",
+  "fresh_formula_matches_export": true,
+  "fresh_outcomes_match_export": true,
+  "report_sha256": "c9905b322a0f674e48a8f3461642648496a94ff57f6cb77eda7416af6bd16c3c",
+  "historical_clearance_certified": false,
+  "calibrated_prediction_intervals_available": false,
+  "new_optimization_or_global_certificate": false
+}
