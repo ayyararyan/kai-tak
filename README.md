@@ -59,13 +59,20 @@ The broader evidence collection includes **227 survey-map archives across 93 she
 
 The famous turn is a useful entry point into the mathematics. In an ideal coordinated, level turn, a **15° bank** at **78 m/s** yields a radius of approximately **2.32 km**. Sustaining the turn for about **24.35 seconds** accumulates **47°** of heading change. Bank angle and the total change in direction are different quantities.
 
+```math
+R=\frac{V^2}{g\tan\phi},\qquad
+\dot\psi=\frac{g\tan\phi}{V}.
+```
+
+Here $V$ is airspeed, $\phi$ is bank angle, $\psi$ is heading and $g$ is gravitational acceleration. These are ideal air-relative turn relations; wind changes the ground track.
+
 The landing problem continues after alignment. Under the white paper's illustrative constant-deceleration ground law,
 
-\[
-\text{stopping station}=x_D+u d+\frac{u^2}{2a},
-\]
+```math
+x_{\mathrm{stop}}=x_D+u d+\frac{u^2}{2a}.
+```
 
-where \(x_D\) is touchdown position, \(u\) is touchdown ground speed, \(d\) is braking delay and \(a\) is deceleration.
+Here $x_D$ is touchdown position, $u$ is touchdown ground speed, $d$ is braking delay and $a$ is deceleration.
 
 The V5 paper constructs and continuously verifies **two separate synthetic landings**:
 
@@ -80,12 +87,45 @@ Both use a 2,786 m landing-distance allowance and the paper's declared reduced m
 
 ### Latest result: certified local optimality
 
-Newer calculations go beyond the two V5 examples. Under the later, explicitly assumed **A1 geometry and aircraft model**, the project establishes:
+Newer calculations go beyond the two V5 examples. Under the later, explicitly assumed **A1 geometry and aircraft model**, at its declared constant baseline wind, the objective is to maximize the landing's weakest normalized operating margin:
 
-- A **strict local primary optimum in five flare variables**, based on a validated nine-equation root and positive active-constraint multipliers.
-- A connected **non-strict local primary optimum** within the defined **12-parameter trajectory family**, with whole-time feasibility checks.
-- A certified local primary value near **η = 0.1523607643**, and a still-open global-family bracket of **[0.15236076430186170190, 0.181970215]**.
-- A certified primary-objective loss no greater than **10⁻⁴** for the delivered secondary path relative to that proved *local* primary optimum.
+```math
+\begin{aligned}
+\eta(q)&=\min_{\alpha\in\mathcal I}m_\alpha(q),\\
+\eta^\star_{\mathrm{family}}&=\max_{q\in\mathcal F}\eta(q).
+\end{aligned}
+```
+
+The vector $q$ contains the **12 trajectory parameters**. The index set $\mathcal I$ covers every normalized operating and terminal margin, including all airborne times and the final stop. The feasible family $\mathcal F$ also enforces the declared parameter bounds and hard geometry constraints. Obstacle clearance is a hard requirement, not a weighted term that can be traded against better flight performance.
+
+**Why the local optimum is proved.** An outward-rounded interval calculation isolates an exact root of nine active equations. At that root, six active margin gradients in the **five flare variables** form a positive simplex:
+
+```math
+\begin{aligned}
+G^{\mathsf T}\lambda&=0, & \sum_{i=1}^{6}\lambda_i&=1,\\
+\lambda_i&>0, & \mathrm{rank}(G)&=5.
+\end{aligned}
+```
+
+Here row $i$ of $G$ is the gradient of active margin $g_i$ at its certified active time. These conditions put zero strictly inside the gradient simplex: every nonzero flare direction worsens at least one active margin. Together with the whole-time feasibility proof, this establishes a **strict local primary optimum in five flare variables** and a connected **non-strict local primary optimum in the full 12-parameter family**. It is a sufficient local argument, not merely a numerical stationarity test.
+
+**What the certificate establishes, and what remains open:**
+
+```math
+\begin{aligned}
+\eta^\star_{\mathrm{local}}&\approx0.1523607643,\\
+\eta^\star_{\mathrm{family}}&\geq0.15236076430186170190,\\
+\eta^\star_{\mathrm{family}}&\leq0.181970215.
+\end{aligned}
+```
+
+The local value and the global-family upper bound do **not** match, so global optimality remains open. For the delivered secondary trajectory $q_{\mathrm{sec}}$, continuous verification also proves
+
+```math
+\eta(q_{\mathrm{sec}})\geq\eta^\star_{\mathrm{local}}-10^{-4}.
+```
+
+This is certified retention of the primary margin relative to the proved **local** optimum; it does not establish secondary-effort optimality.
 
 The root's exact mathematical object is its interval certificate, not its rounded printed value. The later A1 model is distinct from V5's earlier synthetic geometry; the figures and numerical values above should not be interpreted as the same trajectory.
 
