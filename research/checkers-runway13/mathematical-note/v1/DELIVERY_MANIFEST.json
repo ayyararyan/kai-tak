@@ -3,33 +3,33 @@
   "author": "Aryan Ayyar",
   "version": 1,
   "date": "2026-10-14",
-  "verified_utc": "2026-10-13T19:22:03.179129+00:00",
-  "status": "published to GitHub branch mathematical-note/v1; public readback verified",
+  "verified_utc": "2026-10-13T19:35:37.846559+00:00",
+  "status": "grayscale revision built and checked; branch push and checked main merge authorized",
   "source_repository": "https://github.com/ayyararyan/kai-tak",
   "source_commit": "78a9ce1c627f917c94306af5529d5e9ebeb743e8",
   "latest_scientific_scope_check": "qa/upstream-freshness.json",
   "branch": "mathematical-note/v1",
-  "local_changes_committed": true,
-  "pushed": true,
+  "local_changes_committed": false,
+  "pushed": false,
   "release_created_or_modified": false,
   "assets": [
     {
       "path": "certified-local-optimality-v1.pdf",
-      "bytes": 477910,
-      "sha256": "24965a9e628ce7f845870b0774e77d07911021e5a366dd8bf8fc033982dfda28"
+      "bytes": 476868,
+      "sha256": "10ac658ffa41e7fad5cd7da3a4be5e2ad013a0b9b27ac2d37100a45171d6c98f"
     },
     {
       "path": "certified-local-optimality-v1-sources.zip",
-      "bytes": 23493938,
-      "sha256": "b23b7c33b6535b2e342feeaf09f704369efeaf6f3ba74258d36a76e04eed6cd8"
+      "bytes": 23447405,
+      "sha256": "a0d84f7e12525f986c41e9a06545020cf0258e8f1fd0a4329a5341fdba62b84c"
     },
     {
       "path": "PACKAGE_MANIFEST.json",
-      "bytes": 135929,
-      "sha256": "d599383673f24be04e1481cd76861f9d74b1b431bda0958d28a16f453e0f1038"
+      "bytes": 136428,
+      "sha256": "26ae68cc6c0cd250c3d318a7d0614d0c8f5d4e8a04be3a8eeb0e0ef23797844a"
     }
   ],
-  "source_archive_members": 638,
+  "source_archive_members": 641,
   "zip_crc_check_passed": true,
   "every_member_matches_working_file": true,
   "two_package_runs_byte_identical": true,
@@ -74,8 +74,32 @@
     "scientific_or_build_inputs_changed": 0,
     "details": "../../../../publication/mathematical-note-v1-publication/inventory.json"
   },
-  "publication_artifact_commit": "73f4e5fb63d3947d123a8a479f00e362f8d33bbf",
   "publication_verified_utc": "2026-10-13T19:23:55.671515+00:00",
   "publication_verification": "../../../../publication/mathematical-note-v1-publication/verification.json",
-  "main_merged": false
+  "main_merged": false,
+  "previous_public_assets": [
+    {
+      "path": "certified-local-optimality-v1.pdf",
+      "bytes": 477910,
+      "sha256": "24965a9e628ce7f845870b0774e77d07911021e5a366dd8bf8fc033982dfda28"
+    },
+    {
+      "path": "certified-local-optimality-v1-sources.zip",
+      "bytes": 23493938,
+      "sha256": "b23b7c33b6535b2e342feeaf09f704369efeaf6f3ba74258d36a76e04eed6cd8"
+    },
+    {
+      "path": "PACKAGE_MANIFEST.json",
+      "bytes": 135929,
+      "sha256": "d599383673f24be04e1481cd76861f9d74b1b431bda0958d28a16f453e0f1038"
+    }
+  ],
+  "previous_publication_artifact_commit": "73f4e5fb63d3947d123a8a479f00e362f8d33bbf",
+  "rendering_revision": "grayscale-only",
+  "source_archive_note": "Current grayscale package; older colour artifacts are preserved in Git history and local author archive.",
+  "scientific_verification_carried_forward_without_rerun": true,
+  "manuscript_and_scientific_inputs_unchanged": true,
+  "grayscale_visual_check": "qa/grayscale-visual-review.md",
+  "grayscale_preservation_check": "qa/grayscale-independent-checks.json",
+  "grayscale_clean_build_check": "qa/grayscale-clean-build.json"
 }

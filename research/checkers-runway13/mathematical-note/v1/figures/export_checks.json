@@ -1,13 +1,44 @@
 {
   "status": "pass",
+  "revision": "author-requested grayscale-only",
+  "checked_utc": "2026-10-13T19:31:34.974832+00:00",
   "figures_checked": 6,
   "exports_reproduced": 18,
-  "final_corrections": {
-    "certificate": "root vector \u03b6",
-    "bracket": "one-sided retention ray; no upper endpoint asserted"
+  "all_colors_grayscale": true,
+  "palette": {
+    "INK": {
+      "original": "#263D45",
+      "grayscale": "#393939"
+    },
+    "SLATE": {
+      "original": "#63777D",
+      "grayscale": "#737373"
+    },
+    "COPPER": {
+      "original": "#A65F3D",
+      "grayscale": "#6C6C6C"
+    },
+    "SAGE": {
+      "original": "#72816A",
+      "grayscale": "#7C7C7C"
+    },
+    "PALE": {
+      "original": "#F3F1EA",
+      "grayscale": "#F1F1F1"
+    },
+    "LIGHT": {
+      "original": "#DCE2DD",
+      "grayscale": "#E0E0E0"
+    },
+    "GRID": {
+      "original": "#D5DBD8",
+      "grayscale": "#DADADA"
+    },
+    "BLUE": {
+      "original": "#477D8F",
+      "grayscale": "#737373"
+    }
   },
-  "final_repair_exports_reproduced": 6,
-  "other_figure_exports_unchanged": 12,
   "records": [
     {
       "name": "landing",
@@ -23,7 +54,9 @@
         "DQERZA+STIXGeneral-Regular",
         "GBRJKT+ArialMT"
       ],
-      "exports_reproduced": true
+      "exports_reproduced": true,
+      "png_equal_rgb_channels": true,
+      "svg_fill_stroke_grayscale": true
     },
     {
       "name": "active",
@@ -39,7 +72,9 @@
         "CXKTUE+STIXGeneral-Italic",
         "EOVKEC+STIXGeneral-Regular"
       ],
-      "exports_reproduced": true
+      "exports_reproduced": true,
+      "png_equal_rgb_channels": true,
+      "svg_fill_stroke_grayscale": true
     },
     {
       "name": "certificate",
@@ -55,7 +90,9 @@
         "ERQITU+Arial-BoldMT",
         "FKIHEC+STIXGeneral-Italic"
       ],
-      "exports_reproduced": true
+      "exports_reproduced": true,
+      "png_equal_rgb_channels": true,
+      "svg_fill_stroke_grayscale": true
     },
     {
       "name": "continuous",
@@ -71,7 +108,9 @@
         "GCZQBI+Arial-BoldMT",
         "SCTNCP+STIXGeneral-Regular"
       ],
-      "exports_reproduced": true
+      "exports_reproduced": true,
+      "png_equal_rgb_channels": true,
+      "svg_fill_stroke_grayscale": true
     },
     {
       "name": "bracket",
@@ -88,7 +127,9 @@
         "GGLZTF+STIXGeneral-Regular",
         "HJPTCK+Arial-BoldMT"
       ],
-      "exports_reproduced": true
+      "exports_reproduced": true,
+      "png_equal_rgb_channels": true,
+      "svg_fill_stroke_grayscale": true
     },
     {
       "name": "conditions",
@@ -102,7 +143,9 @@
         "CWPHNI+ArialMT",
         "RBWYGY+Arial-BoldMT"
       ],
-      "exports_reproduced": true
+      "exports_reproduced": true,
+      "png_equal_rgb_channels": true,
+      "svg_fill_stroke_grayscale": true
     }
   ]
 }

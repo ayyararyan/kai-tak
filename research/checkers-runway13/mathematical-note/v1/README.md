@@ -4,6 +4,8 @@ Aryan Ayyar · Independent mathematical research note · Version 1 · 14 October
 
 This is a standalone companion to *Checkers with Runway 13*, V5. The exact A1 local root, strict five-variable max-min sufficiency, whole-time feasible connection and non-strict twelve-parameter transfer are proved in the manuscript. The global family bracket remains unmatched. This is a conditional mathematical model, not a historical or operational aircraft certificate.
 
+**Grayscale revision, 14 October 2026:** all six figures now use grayscale, as requested by the author. Figure data, geometry, labels, dimensions and manuscript text are unchanged. Preservation and visual checks are recorded in `qa/grayscale-independent-checks.json` and `qa/grayscale-visual-review.md`; older production receipts identify the earlier colour edition by its hash.
+
 ## Read
 
 - `certified-local-optimality-v1.pdf`: finished manuscript.

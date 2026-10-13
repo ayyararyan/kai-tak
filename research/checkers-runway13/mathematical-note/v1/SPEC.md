@@ -22,3 +22,9 @@ Local branch mathematical-note/v1. No push, publication, release modification or
 - M15: clean extraction build, references/numbers/fonts/page geometry/export checks and visual review of every page.
 
 Acceptance: all required outputs produced and checked, mathematical gaps repaired with evidence or theorem claims reduced transparently. Scientific correctness, package completeness and publication authorization are separate.
+
+## Author-authorized presentation amendment — 14 October 2026
+
+“Make figures in grayscale (keep them same though) and then compile and push to Github.” M11 now uses a grayscale conversion of the eight existing palette colours; all figure data, geometry, labels, line styles and dimensions remain unchanged. V5 typography and manuscript content remain fixed. Compilation, package refresh and push to the existing mathematical-note branch are explicitly authorized; no new optimization, main merge or release change is included.
+
+Follow-up authorization: “Merge with main also only after checking things.” Validate the integration against current main and preserve its existing README and unrelated work before pushing the merge. This authorizes the merge, not a GitHub release or scientific change.

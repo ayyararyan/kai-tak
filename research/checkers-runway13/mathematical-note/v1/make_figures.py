@@ -4,7 +4,7 @@
 python make_figures.py                 # no repository imports or optimization
 python make_figures.py --refresh-data  # read bundled frozen proof/evaluator sources
 
-V5 palette, Arial/STIX labels, open axes and vector-first export are retained.
+Grayscale V5 palette; Arial/STIX labels, open axes and vector-first export retained.
 No installable font is copied or bundled. Numerical curves are illustrations,
 not certificates. All proof values and accepted cells are exported unchanged.
 """
@@ -30,14 +30,16 @@ P = Path(__file__).resolve().parent
 FIG = P / "figures"
 DATA = P / "inputs/figure_data.json"
 WIDTH = 373.2 / 72.27  # exact manuscript text measure, expressed in inches
-INK = "#263D45"
-SLATE = "#63777D"
-COPPER = "#A65F3D"
-SAGE = "#72816A"
-PALE = "#F3F1EA"
-LIGHT = "#DCE2DD"
-GRID = "#D5DBD8"
-BLUE = "#477D8F"
+# Author-requested grayscale: round(0.2126 R + 0.7152 G + 0.0722 B)
+# for each original V5 RGB colour. Geometry, labels, data and alpha are unchanged.
+INK = "#393939"
+SLATE = "#737373"
+COPPER = "#6C6C6C"
+SAGE = "#7C7C7C"
+PALE = "#F1F1F1"
+LIGHT = "#E0E0E0"
+GRID = "#DADADA"
+BLUE = "#737373"
 
 
 def sha(path):
@@ -394,7 +396,9 @@ def main():
     selected_font=configure()
     records=[f(d)for f in [landing,active,certificate,continuous,bracket,conditions]]
     manifest={"figure_count":6,"formats":["pdf","svg","png"],
-              "font_family":selected_font,"v5_palette_preserved":True,
+              "font_family":selected_font,"v5_palette_preserved":False,
+              "grayscale":True,
+              "palette_conversion":"round(0.2126 R + 0.7152 G + 0.0722 B), equal RGB channels",
               "fixed_text_width_tex_pt":373.2,"records":records}
     (FIG/"manifest.json").write_text(json.dumps(manifest,indent=2)+"\n")
     print("Generated six figures in PDF, SVG and PNG from portable inputs/figure_data.json.")

@@ -22,3 +22,11 @@ Independent bare Git fetch matched all 3,612 tracked path/mode/blob entries. Una
 The PDF is byte-identical to the reviewed version. Nine build/failure logs had 462 machine-specific path occurrences replaced by portable placeholders in a separate publication copy; scientific and build inputs are unchanged. Public ZIP SHA-256: `b23b7c33b6535b2e342feeaf09f704369efeaf6f3ba74258d36a76e04eed6cd8`. The original author package is preserved; the sealed source ZIP retains its prepublication status documents. Current status is this ledger and the GitHub publication receipts. No scientific rerun was needed for log-only transformations; 47 content-consistency checks and an independent public-copy audit passed.
 
 Publication task complete for the requested branch push. A merge to main or creation of a versioned GitHub release is a separate action, not performed here.
+
+## 2026-10-14 — authorized grayscale-only revision
+
+Aryan requested: “make figures in grayscale (keep them same though) and then compile and push to Github.” Scope: change only the eight figure palette constants to grayscale; retain all data, paths, coordinates, labels, styles, dimensions and manuscript content. Regenerate the six figures in all three formats, compile, verify preservation, refresh the source package and push to the existing `mathematical-note/v1` branch. No scientific change, main merge or release mutation is included.
+
+Follow-up instruction authorizes merging to main after checks. Prepare an isolated integration against current main, preserve its author-maintained README and unrelated content, pass relevant repository/integration checks, then push the merge. Existing releases remain untouched.
+
+Grayscale acceptance completed: all six figures and six affected manuscript pages individually inspected; all 36 page texts/positions preserved and the other 30 pages pixel-identical. Figure geometry is unchanged after normalizing palette values and generated SVG reference IDs. All 18 exports reproduce byte-identically; a clean extraction rebuild matches all 36 pages and 18 exports. The eight palette values are the only plotting changes. Scientific data, LaTeX and proof sources are unchanged; prior mathematical verification is carried forward without a redundant proof rerun.
