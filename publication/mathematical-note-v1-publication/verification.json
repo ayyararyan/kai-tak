@@ -1,0 +1,34 @@
+{
+  "checked_utc": "2026-10-13T19:23:55.671515+00:00",
+  "repository": "ayyararyan/kai-tak",
+  "branch": "mathematical-note/v1",
+  "artifact_commit": "73f4e5fb63d3947d123a8a479f00e362f8d33bbf",
+  "remote_commit": "73f4e5fb63d3947d123a8a479f00e362f8d33bbf",
+  "independent_bare_fetch_commit": "73f4e5fb63d3947d123a8a479f00e362f8d33bbf",
+  "all_tracked_path_mode_blob_entries_equal": true,
+  "tree_entries_verified": 3612,
+  "assets": [
+    {
+      "path": "research/checkers-runway13/mathematical-note/v1/certified-local-optimality-v1.pdf",
+      "url": "https://raw.githubusercontent.com/ayyararyan/kai-tak/73f4e5fb63d3947d123a8a479f00e362f8d33bbf/research/checkers-runway13/mathematical-note/v1/certified-local-optimality-v1.pdf",
+      "bytes": 477910,
+      "sha256": "24965a9e628ce7f845870b0774e77d07911021e5a366dd8bf8fc033982dfda28",
+      "matches_local": true,
+      "route": "unauthenticated public HTTP"
+    },
+    {
+      "path": "research/checkers-runway13/mathematical-note/v1/certified-local-optimality-v1-sources.zip",
+      "url": "https://raw.githubusercontent.com/ayyararyan/kai-tak/73f4e5fb63d3947d123a8a479f00e362f8d33bbf/research/checkers-runway13/mathematical-note/v1/certified-local-optimality-v1-sources.zip",
+      "bytes": 23493938,
+      "sha256": "b23b7c33b6535b2e342feeaf09f704369efeaf6f3ba74258d36a76e04eed6cd8",
+      "matches_local": true,
+      "route": "unauthenticated public HTTP",
+      "members_verified": 638
+    }
+  ],
+  "existing_release_metadata_unchanged": true,
+  "existing_release_count": 5,
+  "main_or_release_mutation_performed": false,
+  "scientific_tests_rerun_for_publication": false,
+  "reason": "No mathematical, code or build-input bytes changed; 47 source-consistency checks rerun on public copy. Nine path-normalized logs only."
+}

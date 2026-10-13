@@ -169,11 +169,11 @@
     },
     {
       "path": "research/checkers-runway13/mathematical-note/v1/README.md",
-      "bytes": 4825,
+      "bytes": 5143,
       "original_sha256": "993fad5cf8bde7a2e183567ef97a26876c645f5f4321e084609b5dd080d5e1c9",
-      "public_sha256": "993fad5cf8bde7a2e183567ef97a26876c645f5f4321e084609b5dd080d5e1c9",
+      "public_sha256": "e2729806eb972356d6c8f51ace7f332cbf0fbeeba822ce6d74d5c3ac5bf86e6e",
       "lane": "Git",
-      "normalized": false
+      "normalized": true
     },
     {
       "path": "research/checkers-runway13/mathematical-note/v1/RELEASE_NOTES.md",
@@ -233,11 +233,11 @@
     },
     {
       "path": "research/checkers-runway13/mathematical-note/v1/STATE.md",
-      "bytes": 1964,
+      "bytes": 3500,
       "original_sha256": "21b667c08554cb442c225de60052e6ac08840c6bae883e89b05f70b593d0670c",
-      "public_sha256": "21b667c08554cb442c225de60052e6ac08840c6bae883e89b05f70b593d0670c",
+      "public_sha256": "ab08d18f0f63d4e18a12b49bc64dfffad8aea2dd585cef8d7d605173654293c8",
       "lane": "Git",
-      "normalized": false
+      "normalized": true
     },
     {
       "path": "research/checkers-runway13/mathematical-note/v1/abstract.tex",
@@ -5201,9 +5201,9 @@
     },
     {
       "path": "research/checkers-runway13/mathematical-note/v1/DELIVERY_MANIFEST.json",
-      "bytes": 2690,
+      "bytes": 2974,
       "original_sha256": "48ad40b6a117a16a26f2339a8d6caf8cf897af1cae781157f9040aa01f3555aa",
-      "public_sha256": "7250350c04bf429f69fdbb055c5fb895e61014596a0924870cdef1720ce2fff1",
+      "public_sha256": "198ed0c498ac1b1a05900c415ad73d36ed384139c0d8f4e063523acb339878bd",
       "lane": "Git",
       "normalized": true
     },
@@ -5215,5 +5215,7 @@
       "lane": "Git",
       "normalized": true
     }
-  ]
+  ],
+  "artifact_commit": "73f4e5fb63d3947d123a8a479f00e362f8d33bbf",
+  "post_artifact_commit_updates": "README.md, STATE.md and DELIVERY_MANIFEST.json now record the verified authorized push. This metadata update does not rebuild or alter the approved PDF, public ZIP or mathematical inputs."
 }

@@ -4,13 +4,13 @@
   "version": 1,
   "date": "2026-10-14",
   "verified_utc": "2026-10-13T19:22:03.179129+00:00",
-  "status": "author authorized GitHub branch publication; prepared for push",
+  "status": "published to GitHub branch mathematical-note/v1; public readback verified",
   "source_repository": "https://github.com/ayyararyan/kai-tak",
   "source_commit": "78a9ce1c627f917c94306af5529d5e9ebeb743e8",
   "latest_scientific_scope_check": "qa/upstream-freshness.json",
   "branch": "mathematical-note/v1",
-  "local_changes_committed": false,
-  "pushed": false,
+  "local_changes_committed": true,
+  "pushed": true,
   "release_created_or_modified": false,
   "assets": [
     {
@@ -73,5 +73,9 @@
     "local_path_occurrences": 462,
     "scientific_or_build_inputs_changed": 0,
     "details": "../../../../publication/mathematical-note-v1-publication/inventory.json"
-  }
+  },
+  "publication_artifact_commit": "73f4e5fb63d3947d123a8a479f00e362f8d33bbf",
+  "publication_verified_utc": "2026-10-13T19:23:55.671515+00:00",
+  "publication_verification": "../../../../publication/mathematical-note-v1-publication/verification.json",
+  "main_merged": false
 }
