@@ -4,7 +4,7 @@
   "version": 1,
   "date": "2026-10-14",
   "verified_utc": "2026-10-13T19:35:37.846559+00:00",
-  "status": "grayscale revision published and public-download verified; checked main integration in progress",
+  "status": "grayscale revision published; local integration and independent review passed; hosted pre-main check pending",
   "source_repository": "https://github.com/ayyararyan/kai-tak",
   "source_commit": "78a9ce1c627f917c94306af5529d5e9ebeb743e8",
   "latest_scientific_scope_check": "qa/upstream-freshness.json",
@@ -107,5 +107,6 @@
   "post_package_document_updates": [
     "README.md",
     "STATE.md"
-  ]
+  ],
+  "main_integration_checks": "../../../../publication/mathematical-note-v1-publication/grayscale-integration-checks.json"
 }

@@ -121,5 +121,7 @@
   "raw_fast_receipt_sha256": "b7b5ae24f805e65b90a0c58476f86ddd7c7ebadc495c4d0b377fadeacdab62c4",
   "scientific_proof_rerun": false,
   "reason": "Scientific source and manuscript input bytes preserved; the existing theorem/certificate evidence remains applicable. New tests exercise maintenance integration only.",
-  "hosted_ci": "Pending: local evidence is not hosted acceptance."
+  "hosted_ci": "Pending: local evidence is not hosted acceptance.",
+  "independent_review": "grayscale-main-independent-review.md",
+  "independent_review_verdict": "No actionable defects; independent 63 checker tests, navigation, status, links and preservation checks passed."
 }
