@@ -1,0 +1,63 @@
+{
+  "mean": {
+    "excluded": true,
+    "eta_upper_real_decimal": "0.181970215",
+    "cells": 4096,
+    "residual_lower_display_m": 0.9678323903412959,
+    "C_display": 2.1631504015156198,
+    "ramp": true,
+    "scope": "frozen polynomial family only",
+    "eta_zero_exclusion": {
+      "excluded": false,
+      "eta": "0",
+      "first_unresolved_cell": 0,
+      "cells": 2048
+    }
+  },
+  "tailwind5": {
+    "excluded": true,
+    "eta_upper_real_decimal": "0.060058594",
+    "cells": 4096,
+    "residual_lower_display_m": 1.6172200642594097,
+    "C_display": 3.056720911575383,
+    "ramp": true,
+    "scope": "frozen polynomial family only",
+    "eta_zero_exclusion": {
+      "excluded": false,
+      "eta": "0",
+      "first_unresolved_cell": 0,
+      "cells": 2048
+    }
+  },
+  "calm": {
+    "excluded": true,
+    "eta_upper_real_decimal": "0.095800781",
+    "cells": 4096,
+    "residual_lower_display_m": 1.5665171793153188,
+    "C_display": 2.8157321978717733,
+    "ramp": true,
+    "scope": "frozen polynomial family only",
+    "eta_zero_exclusion": {
+      "excluded": false,
+      "eta": "0",
+      "first_unresolved_cell": 0,
+      "cells": 2048
+    }
+  },
+  "_provenance": {
+    "source_sha256": {
+      "integrated/assumption_solution/conditional_model.py": "425b724b43e2fb09a2716705265acbe16bc97958bc183f733084148507af7318",
+      "integrated/assumption_solution/forces.py": "4cb5b04b9290ce841fbdcc887bc7c5e53f3dc012d8813b313e07ba832579ad1b",
+      "integrated/assumption_solution/certify.py": "db6a73e4c90742b8bda6b2a9b8c125172c929c5d8fc7c0a4030c6546a214b9a7",
+      "integrated/assumption_solution/scene.json": "12ba41558c5d54b3281816aa847e1c6d7598d8f02e54b484defe5357ece592ff",
+      "integrated/assumption_solution/reference_cloud.npy": "56af991fe0ca8a15abb452e3fc3f9c692d4fe2f2fc615ba5e9db0e259a076027",
+      "counterfactual/continuous.py": "c220e280115238c7f42779236a1bf41fe29e786cc58d6c6830d3fc35f7db8a8c",
+      "model/config.json": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693",
+      "model/trajectory.py": "9b557ce07c7e8f177b0b3cfac1765c1c9aec4997e28b52d3185ad533f7cf3f6a",
+      "integrated/assumption_solution/regularity.json": "2ccbc6c11aa7109ad6d9274f50105dfedb74488cefd57ea006930c6dfb63b83b",
+      "integrated/assumption_solution/refinement/strong_bound.py": "d1557ca18cfa22885671d84aacfb025702c78f71984f4e134675ff2ca0ce3bc3"
+    },
+    "interval_precision_decimal_digits": 40,
+    "parent_manifest_sha256": "d93e67874c377d82db8140b9f3d1061011e70230683ceb286539c17d8047e10f"
+  }
+}

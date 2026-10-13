@@ -1,0 +1,2 @@
+calm {'success': True, 'message': 'Optimization terminated successfully', 'eta': 0.03907064969526841, 'hard_min': 0.0002800000574136874, 'iterations': 2, 'effort': 9.46128296705825}
+urban55 {'success': True, 'message': 'Optimization terminated successfully', 'eta': 0.09948464069040075, 'hard_min': 0.0003866998575834142, 'iterations': 17, 'effort': 17.103169549584347}

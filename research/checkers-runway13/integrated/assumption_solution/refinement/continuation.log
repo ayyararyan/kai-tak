@@ -1,0 +1,16 @@
+tailwind2.5 {'success': True, 'eta': 0.011263025899166501, 'hard_min': 0.0009333353084191032, 'iterations': 7}
+tailwind3 {'success': True, 'eta': 0.005647537716750639, 'hard_min': 0.0009333353022462632, 'iterations': 7}
+tailwind3.5 {'success': True, 'eta': 1.698261057714312e-05, 'hard_min': 0.0009333352959988162, 'iterations': 8}
+tailwind4 {'success': True, 'eta': -0.005628633509448644, 'hard_min': 0.0009333352897797909, 'iterations': 9}
+tailwind4.5 {'success': True, 'eta': -0.011289305243461945, 'hard_min': 0.0009333352835110276, 'iterations': 18}
+tailwind5 {'success': False, 'eta': -0.016963379798829115, 'hard_min': 0.000949829662886259, 'iterations': 37}
+urban56 {'success': True, 'eta': 0.08562402252113044, 'hard_min': 0.000874302787995558, 'iterations': 70}
+urban57 {'success': True, 'eta': 0.04937158675798525, 'hard_min': 0.000874302787995558, 'iterations': 10}
+urban58 {'success': True, 'eta': 0.011976917526402064, 'hard_min': 0.000874302787995558, 'iterations': 10}
+urban59 {'success': True, 'eta': -0.025396347228659577, 'hard_min': 0.000874302787995558, 'iterations': 11}
+urban60 {'success': True, 'eta': -0.06295455758329327, 'hard_min': 0.000874302787995558, 'iterations': 10}
+urban61 {'success': True, 'eta': -0.09978832386692371, 'hard_min': 0.000874302787995558, 'iterations': 12}
+urban62 {'success': True, 'eta': -0.5082932698547965, 'hard_min': 0.000874302787995558, 'iterations': 51}
+urban63 {'success': True, 'eta': -0.332239163971934, 'hard_min': 0.000874302787995558, 'iterations': 67}
+urban64 {'success': True, 'eta': -0.7291450272859836, 'hard_min': 0.000874302787995558, 'iterations': 45}
+urban65 {'success': True, 'eta': -0.7805991501104217, 'hard_min': 0.000874302787995558, 'iterations': 10}

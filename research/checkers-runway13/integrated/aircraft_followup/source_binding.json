@@ -1,0 +1,18 @@
+{
+  "primary_sha256": {
+    "integrated/sources/boeing_747-400_Rev_F.pdf": "9dd5baf00f3b9e5fdaa0bdf25425e1e65c9c6ee440d5b5c547956f95ccacef08",
+    "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a"
+  },
+  "visually_inspected_images": [
+    "boeing_159.png",
+    "boeing_163.png",
+    "footprint_crop.png",
+    "cad_64.png",
+    "cad_133.png"
+  ],
+  "text_inspected_pages": [
+    "CAD printed11/13/14/15/56/57/91; Appendix16 post-salvage gear",
+    "Boeing7-5,7-9,4-13"
+  ],
+  "no_new_retrieval_after_user_correction": true
+}

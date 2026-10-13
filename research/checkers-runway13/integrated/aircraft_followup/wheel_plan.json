@@ -1,0 +1,133 @@
+{
+  "wheel_centres": [
+    {
+      "id": "nose_-1",
+      "gear": "nose",
+      "aft_m": 0.0,
+      "right_m": -0.4572,
+      "z_m": null
+    },
+    {
+      "id": "wing_-1_-1_-1",
+      "gear": "wing",
+      "aft_m": 23.3299,
+      "right_m": -6.0579,
+      "z_m": null
+    },
+    {
+      "id": "wing_-1_-1_1",
+      "gear": "wing",
+      "aft_m": 23.3299,
+      "right_m": -4.9403,
+      "z_m": null
+    },
+    {
+      "id": "wing_-1_1_-1",
+      "gear": "wing",
+      "aft_m": 24.8031,
+      "right_m": -6.0579,
+      "z_m": null
+    },
+    {
+      "id": "wing_-1_1_1",
+      "gear": "wing",
+      "aft_m": 24.8031,
+      "right_m": -4.9403,
+      "z_m": null
+    },
+    {
+      "id": "body_-1_-1_-1",
+      "gear": "body",
+      "aft_m": 26.403299999999998,
+      "right_m": -2.4764999999999997,
+      "z_m": null
+    },
+    {
+      "id": "body_-1_-1_1",
+      "gear": "body",
+      "aft_m": 26.403299999999998,
+      "right_m": -1.3589,
+      "z_m": null
+    },
+    {
+      "id": "body_-1_1_-1",
+      "gear": "body",
+      "aft_m": 27.8765,
+      "right_m": -2.4764999999999997,
+      "z_m": null
+    },
+    {
+      "id": "body_-1_1_1",
+      "gear": "body",
+      "aft_m": 27.8765,
+      "right_m": -1.3589,
+      "z_m": null
+    },
+    {
+      "id": "nose_1",
+      "gear": "nose",
+      "aft_m": 0.0,
+      "right_m": 0.4572,
+      "z_m": null
+    },
+    {
+      "id": "wing_1_-1_-1",
+      "gear": "wing",
+      "aft_m": 23.3299,
+      "right_m": 4.9403,
+      "z_m": null
+    },
+    {
+      "id": "wing_1_-1_1",
+      "gear": "wing",
+      "aft_m": 23.3299,
+      "right_m": 6.0579,
+      "z_m": null
+    },
+    {
+      "id": "wing_1_1_-1",
+      "gear": "wing",
+      "aft_m": 24.8031,
+      "right_m": 4.9403,
+      "z_m": null
+    },
+    {
+      "id": "wing_1_1_1",
+      "gear": "wing",
+      "aft_m": 24.8031,
+      "right_m": 6.0579,
+      "z_m": null
+    },
+    {
+      "id": "body_1_-1_-1",
+      "gear": "body",
+      "aft_m": 26.403299999999998,
+      "right_m": 1.3589,
+      "z_m": null
+    },
+    {
+      "id": "body_1_-1_1",
+      "gear": "body",
+      "aft_m": 26.403299999999998,
+      "right_m": 2.4764999999999997,
+      "z_m": null
+    },
+    {
+      "id": "body_1_1_-1",
+      "gear": "body",
+      "aft_m": 27.8765,
+      "right_m": 1.3589,
+      "z_m": null
+    },
+    {
+      "id": "body_1_1_1",
+      "gear": "body",
+      "aft_m": 27.8765,
+      "right_m": 2.4764999999999997,
+      "z_m": null
+    }
+  ],
+  "source": "Boeing D6-58326-1 RevF printed7-5/PDF159",
+  "category": "nominal planning dimensions; z/landingCG unknown",
+  "historical_clearance": false
+}

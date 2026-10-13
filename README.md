@@ -26,6 +26,16 @@ This independent project investigates that question through historical maps, dat
 
 It also asks where the available evidence **stops**: a mathematically feasible path inside a simplified model is not a verified historical flight path or an aviation-safety finding.
 
+## Latest mathematical results — assumption-conditional local certificate
+
+[**Read the new local-optimality report**](research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/REPORT.md) · [Derivation and proof](research/checkers-runway13/integrated/assumption_solution/refinement/local_certificate/DERIVATION.md) · [Conditions and refinement](research/checkers-runway13/integrated/assumption_solution/refinement/REPORT.md) · [Reproduce this snapshot](publication/scientific-results-20261013/README.md)
+
+A validated interval proof establishes a **strict local primary optimum in five flare variables** and a connected **non-strict local primary optimum in the 12-parameter trajectory family**. The exact implicit root is near η = 0.1523607643018617; the safe global-family bracket **[0.15236076430186170190, 0.181970215] remains unmatched**. Ten condition points have certified complete paths; this is not a complete condition-to-optimum formula or domain map.
+
+The rounded root path touches down **302.126459 m** past the threshold, stops at **2234.377025 m**, and leaves **551.622975 m**. It is distinct from the unchanged delivered secondary path, whose primary loss is certified ≤10⁻⁴ against this proved **local** primary optimum. Global primary/secondary optimality remains open. The 5 kt tailwind and 60/65 m urban cases are unresolved, not proved infeasible; **historical certification remains false**. These conditional results use explicit geometry and aircraft assumptions.
+
+This is a new, additive scientific layer. The frozen manuscripts, older synthetic examples, historical archive and visual atlas retain their own dates, evidence and claims.
+
 ## Start with the paper
 
 ### [Checkers with Runway 13 — Version 4 · RFS author format](research/checkers-runway13/whitepaper/v4/checkers-with-runway-13-white-paper-v4.pdf)

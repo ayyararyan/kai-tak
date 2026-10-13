@@ -1,0 +1,16 @@
+{
+  "derivative_abs_upper_exact": {
+    "H": "15/8",
+    "A": "1",
+    "B": "1",
+    "b": "288141339/83886080",
+    "o": "2"
+  },
+  "endpoint_vertical_abs_upper_assumed_bound": 5,
+  "approach_vertical_abs_upper_exact": "33792275107/1258291200",
+  "flare_vertical_abs_upper_exact": "719106075/33554432",
+  "approach_display": 26.855687385400135,
+  "flare_display": 21.431031078100204,
+  "both_below_135kt": true,
+  "scope": "all q in frozen12-parameterbox, constant horizontalwinds at selected endpoints; exact rational polynomial shape bounds"
+}

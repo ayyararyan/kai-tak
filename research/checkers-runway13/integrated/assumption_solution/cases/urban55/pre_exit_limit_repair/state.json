@@ -1,0 +1,18 @@
+{
+  "status": "completed_numerical_after_dense_repair",
+  "condition": {
+    "name": "urban55",
+    "urban": 55,
+    "roof_delta": 0,
+    "frame_dx": 0,
+    "frame_dy": 0,
+    "runway_level": 6,
+    "buffer": 5,
+    "wind_mps": [
+      -4.876589552990943,
+      9.64006667211232,
+      0
+    ]
+  },
+  "result_sha256": "3e6607d3102273989e17c3cde111ec8378ba657ef1f1dc2451e5629d77ffa817"
+}

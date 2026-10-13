@@ -1,0 +1,18 @@
+{
+  "status": "completed_numerical",
+  "condition": {
+    "name": "calm",
+    "urban": 25,
+    "roof_delta": 0,
+    "frame_dx": 0,
+    "frame_dy": 0,
+    "runway_level": 6,
+    "buffer": 5,
+    "wind_mps": [
+      0,
+      0,
+      0
+    ]
+  },
+  "result_sha256": "3228b68d5c40394b9318f2c766a6b6292d8a8ede6752eb320b60c87b04b62b8d"
+}

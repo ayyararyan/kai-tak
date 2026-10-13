@@ -1,0 +1,68 @@
+[
+  {
+    "certified": false,
+    "reason": "interval_unresolved_not_infeasibility",
+    "unresolved": [
+      0,
+      0.7974700927734375,
+      0.7974853515625,
+      16
+    ],
+    "processed": 217,
+    "source_sha256": {
+      "integrated/assumption_solution/refinement/box_certifier.py": "fe21c7e770e89960217693b67c43cc9c905e2108b8a5bed647e7c82a40441c43",
+      "integrated/assumption_solution/refinement/active_branch.py": "14145932bc1bf2bbce7efa042734d02187cbf47e339b8eea9353d75bd6d64f6c",
+      "integrated/assumption_solution/certify.py": "db6a73e4c90742b8bda6b2a9b8c125172c929c5d8fc7c0a4030c6546a214b9a7",
+      "counterfactual/continuous.py": "c220e280115238c7f42779236a1bf41fe29e786cc58d6c6830d3fc35f7db8a8c",
+      "integrated/assumption_solution/conditional_model.py": "425b724b43e2fb09a2716705265acbe16bc97958bc183f733084148507af7318",
+      "integrated/assumption_solution/forces.py": "4cb5b04b9290ce841fbdcc887bc7c5e53f3dc012d8813b313e07ba832579ad1b",
+      "integrated/assumption_solution/scene.json": "12ba41558c5d54b3281816aa847e1c6d7598d8f02e54b484defe5357ece592ff",
+      "integrated/assumption_solution/reference_cloud.npy": "56af991fe0ca8a15abb452e3fc3f9c692d4fe2f2fc615ba5e9db0e259a076027",
+      "model/config.json": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693"
+    }
+  },
+  {
+    "certified": false,
+    "reason": "interval_unresolved_not_infeasibility",
+    "unresolved": [
+      1,
+      0.0,
+      1.52587890625e-05,
+      16
+    ],
+    "processed": 80,
+    "source_sha256": {
+      "integrated/assumption_solution/refinement/box_certifier.py": "fe21c7e770e89960217693b67c43cc9c905e2108b8a5bed647e7c82a40441c43",
+      "integrated/assumption_solution/refinement/active_branch.py": "14145932bc1bf2bbce7efa042734d02187cbf47e339b8eea9353d75bd6d64f6c",
+      "integrated/assumption_solution/certify.py": "db6a73e4c90742b8bda6b2a9b8c125172c929c5d8fc7c0a4030c6546a214b9a7",
+      "counterfactual/continuous.py": "c220e280115238c7f42779236a1bf41fe29e786cc58d6c6830d3fc35f7db8a8c",
+      "integrated/assumption_solution/conditional_model.py": "425b724b43e2fb09a2716705265acbe16bc97958bc183f733084148507af7318",
+      "integrated/assumption_solution/forces.py": "4cb5b04b9290ce841fbdcc887bc7c5e53f3dc012d8813b313e07ba832579ad1b",
+      "integrated/assumption_solution/scene.json": "12ba41558c5d54b3281816aa847e1c6d7598d8f02e54b484defe5357ece592ff",
+      "integrated/assumption_solution/reference_cloud.npy": "56af991fe0ca8a15abb452e3fc3f9c692d4fe2f2fc615ba5e9db0e259a076027",
+      "model/config.json": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693"
+    }
+  },
+  {
+    "certified": false,
+    "reason": "interval_unresolved_not_infeasibility",
+    "unresolved": [
+      1,
+      0.0,
+      1.52587890625e-05,
+      16
+    ],
+    "processed": 76,
+    "source_sha256": {
+      "integrated/assumption_solution/refinement/box_certifier.py": "fe21c7e770e89960217693b67c43cc9c905e2108b8a5bed647e7c82a40441c43",
+      "integrated/assumption_solution/refinement/active_branch.py": "14145932bc1bf2bbce7efa042734d02187cbf47e339b8eea9353d75bd6d64f6c",
+      "integrated/assumption_solution/certify.py": "db6a73e4c90742b8bda6b2a9b8c125172c929c5d8fc7c0a4030c6546a214b9a7",
+      "counterfactual/continuous.py": "c220e280115238c7f42779236a1bf41fe29e786cc58d6c6830d3fc35f7db8a8c",
+      "integrated/assumption_solution/conditional_model.py": "425b724b43e2fb09a2716705265acbe16bc97958bc183f733084148507af7318",
+      "integrated/assumption_solution/forces.py": "4cb5b04b9290ce841fbdcc887bc7c5e53f3dc012d8813b313e07ba832579ad1b",
+      "integrated/assumption_solution/scene.json": "12ba41558c5d54b3281816aa847e1c6d7598d8f02e54b484defe5357ece592ff",
+      "integrated/assumption_solution/reference_cloud.npy": "56af991fe0ca8a15abb452e3fc3f9c692d4fe2f2fc615ba5e9db0e259a076027",
+      "model/config.json": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693"
+    }
+  }
+]

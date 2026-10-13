@@ -1742,3 +1742,8 @@ python_deps/
 .archive-receipts/
 /research/checkers-runway13/integrated/authorized_enquiries_20261013/
 /research/checkers-runway13/integrated/**/authorized_enquiries_*/
+
+# Scientific snapshot: private correspondence and runtime remain local
+/research/checkers-runway13/integrated/**/*_ENQUIRY_DRAFT.md
+/research/checkers-runway13/integrated/aircraft_followup/sources/
+/.venv-scientific/

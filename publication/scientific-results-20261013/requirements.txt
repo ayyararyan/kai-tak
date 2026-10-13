@@ -1,0 +1,4 @@
+-r ../../research/checkers-runway13/requirements.lock
+mpmath==1.3.0
+pyproj==3.8.0
+shapely==2.2.0

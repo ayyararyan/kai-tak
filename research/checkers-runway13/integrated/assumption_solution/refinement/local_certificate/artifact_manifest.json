@@ -1,0 +1,84 @@
+{
+  "created_utc": "2026-10-13T18:10:28.962334+00:00",
+  "scope": "local_certificate additive only; excludes itself and runtime caches",
+  "refinement_manifest_sha256": "ad2ecd821ea9afb8fee12c170097213827a6305694d71aa701a0648cb1ad0013",
+  "parent_manifest_sha256": "d93e67874c377d82db8140b9f3d1061011e70230683ceb286539c17d8047e10f",
+  "files": {
+    "DERIVATION.md": {
+      "bytes": 10555,
+      "sha256": "7b74e37514f4c59f34762fb54d70d93f0c33aaaccc833eff0db10ae4e1143ca2"
+    },
+    "README.md": {
+      "bytes": 3076,
+      "sha256": "60c0d04f30f868b215d223fdc1b7626435cd6f2c78fc4bd92eef1c252ff4b180"
+    },
+    "REPORT.md": {
+      "bytes": 3429,
+      "sha256": "b64bf0b81981a861d86d59d3b194e77ae0bc82ffc9daefdbb6a84281c2556eb9"
+    },
+    "TRACEABILITY.md": {
+      "bytes": 1790,
+      "sha256": "7d15327b586619d1ee9581a2437227c2ab257f423ea75a0793225871890eb9a9"
+    },
+    "certificate.json": {
+      "bytes": 55883,
+      "sha256": "21fc4bfc4013e0177d4675b0aaf407fb275d6d7b0a5c575d1ecc2986c882af9b"
+    },
+    "geospatial_tests.log": {
+      "bytes": 115,
+      "sha256": "2c0ee25cd4d247593ba76eb2894a2b93f3445a82180ff505ee79f126aeeed0b5"
+    },
+    "interval_root.py": {
+      "bytes": 8161,
+      "sha256": "081fc7ec1775bc23d6bf4976c1511cd07a195bbcf316120f4b3b847fbbf11d68"
+    },
+    "preserved_snapshot.json": {
+      "bytes": 100424,
+      "sha256": "39bfd61c8bea3d439ccdda5cdf1c9630351e0ca2a397eec1b9b328020f393e9f"
+    },
+    "retention_replay.json": {
+      "bytes": 186756,
+      "sha256": "84b6b721ff9e118c524019359fea5b9d7b2da2d3e18f641fed09ce0446f200f7"
+    },
+    "retention_replay.log": {
+      "bytes": 421,
+      "sha256": "53d15b423f355405992caacc9bddb5ea2320b4b1300f4ce8ebde2fb3688eacde"
+    },
+    "retention_replay.py": {
+      "bytes": 1256,
+      "sha256": "4bc55ed3ab9083a53f7fe9302b26de761d4c8baf185fe21ad65c05e60c386191"
+    },
+    "root_attempts.json": {
+      "bytes": 14294,
+      "sha256": "b32dee5e8cee5aead3fa2cbaf2a590582f6731ec9bf9141c3b2e318114ad0bfe"
+    },
+    "test_local_certificate.py": {
+      "bytes": 4522,
+      "sha256": "1d8fadd878da40a07ada1f7c6fac2cc4bfeca5c0fc184df7877373c50ad5002e"
+    },
+    "tests.log": {
+      "bytes": 181,
+      "sha256": "c7a7f3b4fca70a4fc80355848c77caa93a7c22c37ea294418dc361a8604cfbd8"
+    },
+    "tests_initial_failure.log": {
+      "bytes": 4926,
+      "sha256": "f6c136aa729122c15caa9ca7b497fe9269a47d05a08776a6e930300e55fe2131"
+    },
+    "validate.log": {
+      "bytes": 1965,
+      "sha256": "95420ccadd381b80d21c6c7b4def44b6bf9a7c44b0cf7fd51072a03d41d46926"
+    },
+    "validate.py": {
+      "bytes": 5833,
+      "sha256": "25edcaddbd28359f7382e35ccb03e0859a4843433ff30c236c559c69c3734104"
+    },
+    "verification.json": {
+      "bytes": 1748,
+      "sha256": "78b5650a90f17a0fa3002a971069704377e799fa7faa358e43d6dcbb7dbccc0f"
+    },
+    "verify.py": {
+      "bytes": 4984,
+      "sha256": "1b3cdc21073d37bf8895259ff61f2f7f2e23cec51e7e8e26411267fd497aaf0c"
+    }
+  }
+}

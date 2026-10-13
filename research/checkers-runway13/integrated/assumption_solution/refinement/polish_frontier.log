@@ -1,0 +1,2 @@
+{'success': True, 'message': 'Optimization terminated successfully', 'iterations': 31, 'eta': 0.011923331514310909, 'effort': 21.468482705695912, 'hard_min': 0.0003345736206948712, 'mesh': 1201, 'secondary': True}
+accepted continuous secondary

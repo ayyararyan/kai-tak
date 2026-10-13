@@ -1,0 +1,18 @@
+{
+  "status": "completed_numerical_exact_exit_constraint",
+  "condition": {
+    "name": "urban55",
+    "urban": 55,
+    "roof_delta": 0,
+    "frame_dx": 0,
+    "frame_dy": 0,
+    "runway_level": 6,
+    "buffer": 5,
+    "wind_mps": [
+      -4.876589552990943,
+      9.64006667211232,
+      0
+    ]
+  },
+  "result_sha256": "b1725ca80944a486feea9b2bc1c8d2c9eb0e2a984c51c6e78127a1643d63c156"
+}

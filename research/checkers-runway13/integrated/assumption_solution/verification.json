@@ -1,0 +1,20 @@
+{
+  "verified_utc": "2026-10-13T17:32:20.427128+00:00",
+  "prior_artifacts_unchanged": 397,
+  "frozen_inputs_unchanged": 13,
+  "tests_passed": 64,
+  "continuous_conditional_landings": 8,
+  "fixed_gate_excluded_conditions": 1,
+  "unresolved_conditions": 3,
+  "closed_time_cells_verified": 2094,
+  "proof_source_files_checked": 11,
+  "max_independent_replay_position_error_m": 1.0592945330274899e-11,
+  "max_independent_replay_velocity_error_mps": 3.0249223308509192e-12,
+  "source_unknowns_preserved": true,
+  "historical_certified": false,
+  "full_condition_to_global_optimum": false,
+  "global_secondary_proof": false,
+  "physical_prediction_intervals": null,
+  "causal_feedback_policy": false,
+  "errors": []
+}
