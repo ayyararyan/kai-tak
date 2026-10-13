@@ -1,0 +1,366 @@
+{
+  "parameters": [
+    {
+      "parameter": "mass_lb",
+      "frozen_value": 525718,
+      "unit": "lb",
+      "frozen_category": "estimated in source",
+      "source": "Hong Kong CAD Aircraft Accident Report 1/95 CAL605, evidence/EVIDENCE_REPORT.md source inventory; not a performance calibration; reported estimated landing weight, not an exact direct mass measurement",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "vref_kt",
+      "frozen_value": 141,
+      "unit": "kt CAS",
+      "frozen_category": "observed",
+      "source": "Hong Kong CAD Aircraft Accident Report 1/95 CAL605, evidence/EVIDENCE_REPORT.md source inventory; not a performance calibration",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "case_target_kt",
+      "frozen_value": 153,
+      "unit": "kt CAS",
+      "frozen_category": "observed",
+      "source": "Hong Kong CAD Aircraft Accident Report 1/95 CAL605, evidence/EVIDENCE_REPORT.md source inventory; not a performance calibration",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "mass_kg",
+      "frozen_value": 238461.67357166,
+      "unit": "kg",
+      "frozen_category": "deterministically derived",
+      "source": "Exact conversion of source-estimated mass_lb by 0.45359237 kg/lb; does not remove mass-estimation uncertainty",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "initial_eas_kt",
+      "frozen_value": 153,
+      "unit": "kt EAS",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "start_xyz_m",
+      "frozen_value": [
+        -2500,
+        1000,
+        140
+      ],
+      "unit": "m",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "initial_track_deg",
+      "frozen_value": -47,
+      "unit": "degrees runway-relative",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "threshold_height_m",
+      "frozen_value": 15.24,
+      "unit": "m",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "threshold_gamma_deg",
+      "frozen_value": -3.1,
+      "unit": "degrees air-relative",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "touchdown_sink_mps",
+      "frozen_value": 0.7,
+      "unit": "m/s",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "touchdown_x_min_m",
+      "frozen_value": 200,
+      "unit": "m",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "touchdown_x_max_m",
+      "frozen_value": 700,
+      "unit": "m",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "touchdown_y_tol_m",
+      "frozen_value": 5,
+      "unit": "m",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "touchdown_track_tol_deg",
+      "frozen_value": 2,
+      "unit": "degrees",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "touchdown_bank_tol_deg",
+      "frozen_value": 3,
+      "unit": "degrees",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "touchdown_sink_max_mps",
+      "frozen_value": 1.5,
+      "unit": "m/s",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "reserve_m",
+      "frozen_value": 150,
+      "unit": "m",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "bank_limit_deg",
+      "frozen_value": 25,
+      "unit": "degrees",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "roll_limit_deg_s",
+      "frozen_value": 5,
+      "unit": "degrees/s",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "cl_min",
+      "frozen_value": 0,
+      "unit": "dimensionless",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "cl_max",
+      "frozen_value": 2.8,
+      "unit": "dimensionless",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "load_min_g",
+      "frozen_value": 0.5,
+      "unit": "g",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "load_max_g",
+      "frozen_value": 1.4,
+      "unit": "g",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "eas_min_kt",
+      "frozen_value": 135,
+      "unit": "kt EAS",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "eas_max_kt",
+      "frozen_value": 175,
+      "unit": "kt EAS",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "descent_limit_deg",
+      "frozen_value": 6,
+      "unit": "degrees",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "approach_sink_max_mps",
+      "frozen_value": 8,
+      "unit": "m/s",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "thrust_max_n",
+      "frozen_value": 700000,
+      "unit": "N",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "thrust_slew_n_s",
+      "frozen_value": 100000,
+      "unit": "N/s",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "rho0_kg_m3",
+      "frozen_value": 1.225,
+      "unit": "kg/m3",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "density_scale_m",
+      "frozen_value": 8500,
+      "unit": "m",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "wing_area_m2",
+      "frozen_value": 541.2,
+      "unit": "m2",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "cd0",
+      "frozen_value": 0.08,
+      "unit": "dimensionless",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "induced_factor",
+      "frozen_value": 0.045,
+      "unit": "dimensionless",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "brake_delay_s",
+      "frozen_value": 2,
+      "unit": "s",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "brake_deceleration_mps2",
+      "frozen_value": 1.4709975,
+      "unit": "m/s2",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "corridor_halfwidth_m",
+      "frozen_value": 400,
+      "unit": "m",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "wind_mps",
+      "frozen_value": [
+        0,
+        0,
+        0
+      ],
+      "unit": "m/s runway-frame",
+      "frozen_category": "scenario-based",
+      "source": "MODEL_IMPLEMENTATION_SPEC.md v1; uncalibrated research choice",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    },
+    {
+      "parameter": "lda_m",
+      "frozen_value": 2786,
+      "unit": "m",
+      "frozen_category": "observed",
+      "source": "Hong Kong CAD Aircraft Accident Report 1/95 CAL605, evidence/EVIDENCE_REPORT.md source inventory; not a performance calibration; historical LDA used as fixed scenario stop bound",
+      "integrated_calibration_status": "frozen source/scenario distinction preserved; no new parameterfit",
+      "changed": false
+    }
+  ],
+  "new_calibrated_aerodynamic_or_actuator_parameters": 0,
+  "pose_reference_and_contact_calibrated": false,
+  "frozen_ground_law_unchanged": true
+}

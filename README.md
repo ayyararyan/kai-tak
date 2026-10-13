@@ -16,9 +16,20 @@ The manuscript has seven reproducible figures, explicit coefficients, technical 
 
 ## What is here
 
+### Latest update: historical integration and survey evidence
+
+The [integration report](research/checkers-runway13/integrated/REPORT.md) adds a source-bound scene with **88 features**, whole-aircraft clearance primitives, registration diagnostics and a complete physical-calibration audit. The [endpoint follow-up](research/checkers-runway13/integrated/followup/REPORT.md) explains the runway-end mismatch and identifies Lands Department survey **115-93 A / folder 404 Part II**, photographed on 5 November 1993. The public aerial-index check covers **5,637 records from 1993**; absence from that index does not establish absence from archival holdings.
+
+**Historical clearance and the condition-dependent closed-form optimum remain incomplete.** The 61 m pavement-extension interpretation is a hypothesis, not an accepted correction or extra landing distance. V2 remains the latest completed manuscript; unfinished v3 work is not part of this snapshot.
+
+The [settled archival report](research/checkers-runway13/integrated/records_followup/REPORT.md) identifies **14 specific records**, including pre-accident runway photographs and radar/light layouts. Its [relative-height assessment](research/checkers-runway13/integrated/records_followup/RELATIVE_HEIGHT.md) states exactly what a common datum can cancel and what evidence is still missing.
+
+[New source-acquisition catalogue](publication/integration_source_inventory.json) · [Publication/reproduction checks](publication/INTEGRATION_UPDATE.md) · [New imagery release](https://github.com/ayyararyan/kai-tak/releases/tag/integration-2026-10-13)
+
 | Research area | Starting point |
 |---|---|
 | Project decisions, chronology and unresolved requirements | [Project state](research/checkers-runway13/PROJECT_STATE.md) |
+| Historical integration, source-bound geometry and exact remaining dependencies | [Integration report](research/checkers-runway13/integrated/REPORT.md), [endpoint/survey follow-up](research/checkers-runway13/integrated/followup/REPORT.md) |
 | Wind-conditioned complete landing, figure and certificate | [Calculated landing](research/checkers-runway13/counterfactual/REPORT.md) |
 | Executable nominal landing model and reproduction instructions | [Model README](research/checkers-runway13/README.md) |
 | Explicit approach, flare and stopping formulas | [Closed form and bounds](research/checkers-runway13/approximation/CLOSED_FORM_AND_BOUNDS.md) |
@@ -58,7 +69,7 @@ The model README describes the scenario solver. Historical-mode refusal is inten
 
 ## Download the larger datasets and outputs
 
-Code, reports, source inventories and compact outputs are in Git. Bulky open-data sources, imagery, registered geometry, meshes and intermediate numerical exports are attached to the [updated research release](https://github.com/ayyararyan/kai-tak/releases/tag/update-2026-10-13) and the unchanged [initial data release](https://github.com/ayyararyan/kai-tak/releases/tag/snapshot-2026-10-13). The manifest selects the current archive for each data group.
+Code, reports, source inventories and compact outputs are in Git. Bulky open-data sources, imagery, registered geometry, meshes and intermediate numerical exports are attached to the [integration release](https://github.com/ayyararyan/kai-tak/releases/tag/integration-2026-10-13), [earlier update](https://github.com/ayyararyan/kai-tak/releases/tag/update-2026-10-13) and [initial data release](https://github.com/ayyararyan/kai-tak/releases/tag/snapshot-2026-10-13). The manifest selects the current archive for each of five data groups.
 
 ```sh
 python3 scripts/fetch_data.py

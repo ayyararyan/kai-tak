@@ -1,0 +1,132 @@
+{
+  "status": "diagnostic_only_endpoint_semantics_unresolved",
+  "original_artifacts_preserved": true,
+  "source_sha256": {
+    "integrated/geometry/runway_crosscheck.json": "28c10ad0e9d020b69889e79d225e0d0c36402eb95dedd81c07fd33c77b311434",
+    "integrated/geometry/mapped_runway_axis_check.json": "230864360ee250fa073150114524b82e2506619d0fb0d6062e14a2c299b3dc20",
+    "integrated/geometry/runway_registration_diagnostic.json": "bcef2a83e92867bb3f226bccce6e3e0dee002306139dfe92139f43b8a76dde1a",
+    "integrated/geometry/south_registration_diagnostic.json": "0c4a626620aff73912184c2714a0930a8d51961199ac331d593b84616d39653b",
+    "../../data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf": "f7cb59925ab0ac5fe06216f7d011050183c7131130517ede997bf2152795c87a",
+    "integrated/sources/appendix9_followup.png": "ebfd18e2c40212cc9b6518afd4217346aa9aced871a693f4603663de0c3d988e",
+    "integrated/followup/appendix14_controlblock.png": "ffefdab0b958550341f6031611d9c77949f90e97552398a6ffdf6fccf7928775"
+  },
+  "lda_m": 2786,
+  "fitted_endpoint_distance_m": 2863.2762183390105,
+  "minimum_disagreement_over_all_bearings_m": 77.27621833901048,
+  "minimum_disagreement_proof": "Reverse triangle inequality: min over unit u ||n-(s-Lu)|| = abs(||s-n||-L). This is exact for supplied fitted points, not ground truth.",
+  "uncorrected_mapped_axis": {
+    "back_projected_EN_m": [
+      838328.3954448821,
+      820261.9282588651
+    ],
+    "difference_EN_m": [
+      -50.402765353559516,
+      59.032838727813214
+    ],
+    "along_m": -77.26658070754564,
+    "right_m": 7.429018058553886,
+    "norm_m": 77.6229012827399,
+    "extra_pavement_m": 0.0,
+    "accepted_historical_registration": false,
+    "physical_error_bound_m": null
+  },
+  "concrete_extension_hypothesis": {
+    "primary_paved_concrete_length_m": 152,
+    "primary_declared_runway_last_concrete_length_m": 91,
+    "conditional_difference_m": 61,
+    "basis": "CAD1/95 Appendix9 southeast concrete label152m; section1.10.1 printed27 last91m of runway concrete; strip3392.5 versus runway3331.5 also differs61m.",
+    "missing_link": "The scan does not explicitly identify a surveyed61m declared-end-to-selected-pavement-end vector. Same concrete section and endpoint interpretation require confirmation.",
+    "category": "source-backed hypothesis; not observed surveyed offset",
+    "mapped_axis_result": {
+      "back_projected_EN_m": [
+        838284.5283050393,
+        820304.3154508224
+      ],
+      "difference_EN_m": [
+        -6.535625510732643,
+        16.64564677060116
+      ],
+      "along_m": -16.26658070748276,
+      "right_m": 7.429018058607338,
+      "norm_m": 17.882727902313007,
+      "extra_pavement_m": 61,
+      "accepted_historical_registration": false,
+      "physical_error_bound_m": null
+    },
+    "short_axis_result": {
+      "back_projected_EN_m": [
+        838271.4884328312,
+        820290.7306733138
+      ],
+      "difference_EN_m": [
+        6.504246697295457,
+        30.23042427911423
+      ],
+      "along_m": -16.15481537206663,
+      "right_m": 26.36675401882033,
+      "norm_m": 30.922221414292636,
+      "extra_pavement_m": 61,
+      "accepted_historical_registration": false,
+      "physical_error_bound_m": null
+    },
+    "minimum_disagreement_over_all_bearings_m": 16.276218339010484
+  },
+  "north_fit_leave_one_out": [
+    {
+      "omitted": "A_north",
+      "threshold_EN_m": [
+        838270.4932458646,
+        820314.4183776671
+      ],
+      "mismatch_with_uncorrected_south_m": 78.15290924143731,
+      "heldout_RMS_m": 16.03597132311493
+    },
+    {
+      "omitted": "B_east",
+      "threshold_EN_m": [
+        838277.6458540028,
+        820320.4243522696
+      ],
+      "mismatch_with_uncorrected_south_m": 77.44232639844007,
+      "heldout_RMS_m": 12.311807092963939
+    },
+    {
+      "omitted": "C_north",
+      "threshold_EN_m": [
+        838275.7795038639,
+        820321.4324283747
+      ],
+      "mismatch_with_uncorrected_south_m": 79.43036848869085,
+      "heldout_RMS_m": 13.69181074325826
+    },
+    {
+      "omitted": "D_north",
+      "threshold_EN_m": [
+        838286.8010932833,
+        820324.6012484597
+      ],
+      "mismatch_with_uncorrected_south_m": 75.21963646306561,
+      "heldout_RMS_m": 13.95277722200085
+    },
+    {
+      "omitted": "seawall_corner",
+      "threshold_EN_m": [
+        838305.4946895444,
+        820476.7825311959
+      ],
+      "mismatch_with_uncorrected_south_m": 216.0712913226029,
+      "heldout_RMS_m": 111.5818345129863
+    }
+  ],
+  "accepted_threshold_EN_m": null,
+  "physical_ground_accuracy_m": null,
+  "aviation_to_HKPD_offset_m": null,
+  "historical_clearance_ready": false,
+  "cautions": [
+    "No change to2786mLDA or frozen braking/objective.",
+    "A reduced residual does not validate the endpoint hypothesis or the camera fits.",
+    "Do not choose an offset equal to the measured residual merely to close the gap.",
+    "Cross-check is not two surveyed thresholds; it combines distinct image fits and an unverified endpoint semantic link.",
+    "Leave-one-out instability identifies weak control geometry, not a probabilistic confidence interval."
+  ]
+}

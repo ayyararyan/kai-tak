@@ -1,0 +1,177 @@
+{
+  "endpoint": "https://api.hkmapservice.gov.hk/oss/services/OneStop/FlightPaths/MapServer/2/query",
+  "parameters": {
+    "where": "PHOTONO = 'A72998'",
+    "outFields": "*",
+    "returnGeometry": "false"
+  },
+  "retrieved_utc": "2026-10-13T16:03:13.814851+00:00",
+  "response": {
+    "displayFieldName": "PHOTONO",
+    "fieldAliases": {
+      "OBJECTID": "OBJECTID",
+      "PHOTONO": "PHOTONO",
+      "FLYING_HT": "FLYING_HT",
+      "DATEFLIGHT": "DATEFLIGHT",
+      "FLENGTH": "FLENGTH",
+      "LOCATION": "LOCATION",
+      "OBLIQUE": "OBLIQUE",
+      "LENS": "LENS",
+      "ANGLE": "ANGLE",
+      "X": "X",
+      "Y": "Y",
+      "PHOTOSCALE": "PHOTOSCALE",
+      "FILENO": "FILENO",
+      "YEARFLIGHT": "YEARFLIGHT",
+      "TYPE": "TYPE",
+      "FLID": "FLID",
+      "RESTRICTED": "RESTRICTED",
+      "FILENO_R": "FILENO_R",
+      "RAF": "RAF",
+      "TIF_FILENO": "TIF_FILENO",
+      "SORTIE": "SORTIE",
+      "AP_AVAIL": "AP_AVAIL",
+      "AP_AVAIL_GIH": "AP_AVAIL_GIH",
+      "Shape_Length": "SHAPE_Length",
+      "Shape_Area": "SHAPE_Area"
+    },
+    "fields": [
+      {
+        "name": "OBJECTID",
+        "type": "esriFieldTypeOID",
+        "alias": "OBJECTID"
+      },
+      {
+        "name": "PHOTONO",
+        "type": "esriFieldTypeString",
+        "alias": "PHOTONO",
+        "length": 13
+      },
+      {
+        "name": "FLYING_HT",
+        "type": "esriFieldTypeInteger",
+        "alias": "FLYING_HT"
+      },
+      {
+        "name": "DATEFLIGHT",
+        "type": "esriFieldTypeDate",
+        "alias": "DATEFLIGHT",
+        "length": 8
+      },
+      {
+        "name": "FLENGTH",
+        "type": "esriFieldTypeString",
+        "alias": "FLENGTH",
+        "length": 10
+      },
+      {
+        "name": "LOCATION",
+        "type": "esriFieldTypeString",
+        "alias": "LOCATION",
+        "length": 40
+      },
+      {
+        "name": "OBLIQUE",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "OBLIQUE"
+      },
+      {
+        "name": "LENS",
+        "type": "esriFieldTypeString",
+        "alias": "LENS",
+        "length": 30
+      },
+      {
+        "name": "ANGLE",
+        "type": "esriFieldTypeDouble",
+        "alias": "ANGLE"
+      },
+      {
+        "name": "X",
+        "type": "esriFieldTypeDouble",
+        "alias": "X"
+      },
+      {
+        "name": "Y",
+        "type": "esriFieldTypeDouble",
+        "alias": "Y"
+      },
+      {
+        "name": "PHOTOSCALE",
+        "type": "esriFieldTypeDouble",
+        "alias": "PHOTOSCALE"
+      },
+      {
+        "name": "FILENO",
+        "type": "esriFieldTypeString",
+        "alias": "FILENO",
+        "length": 50
+      },
+      {
+        "name": "YEARFLIGHT",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "YEARFLIGHT"
+      },
+      {
+        "name": "TYPE",
+        "type": "esriFieldTypeString",
+        "alias": "TYPE",
+        "length": 2
+      },
+      {
+        "name": "FLID",
+        "type": "esriFieldTypeInteger",
+        "alias": "FLID"
+      },
+      {
+        "name": "RESTRICTED",
+        "type": "esriFieldTypeInteger",
+        "alias": "RESTRICTED"
+      },
+      {
+        "name": "FILENO_R",
+        "type": "esriFieldTypeString",
+        "alias": "FILENO_R",
+        "length": 50
+      },
+      {
+        "name": "RAF",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "RAF"
+      },
+      {
+        "name": "TIF_FILENO",
+        "type": "esriFieldTypeString",
+        "alias": "TIF_FILENO",
+        "length": 50
+      },
+      {
+        "name": "SORTIE",
+        "type": "esriFieldTypeString",
+        "alias": "SORTIE",
+        "length": 40
+      },
+      {
+        "name": "AP_AVAIL",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "AP_AVAIL"
+      },
+      {
+        "name": "AP_AVAIL_GIH",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "AP_AVAIL_GIH"
+      },
+      {
+        "name": "Shape_Length",
+        "type": "esriFieldTypeDouble",
+        "alias": "SHAPE_Length"
+      },
+      {
+        "name": "Shape_Area",
+        "type": "esriFieldTypeDouble",
+        "alias": "SHAPE_Area"
+      }
+    ],
+    "features": []
+  }
+}

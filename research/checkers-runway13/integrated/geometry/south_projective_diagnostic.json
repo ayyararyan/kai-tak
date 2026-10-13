@@ -1,0 +1,44 @@
+{
+  "method": "projective ground-plane diagnostic",
+  "matrix_normalized": [
+    [
+      -0.04096319725473126,
+      -0.7088645794553171,
+      -0.007148457623956606
+    ],
+    [
+      -0.7080103795747009,
+      0.042091046829847795,
+      0.00874072520720154
+    ],
+    [
+      -0.06053742857677118,
+      0.018419452380383915,
+      1.0
+    ]
+  ],
+  "photo_center": [
+    2310.0,
+    1196.25
+  ],
+  "map_center": [
+    840065.375,
+    818634.6875
+  ],
+  "normalizing_scale": 1000,
+  "fit_RMS_m": 2.8739642031355674,
+  "holdout_RMS_m": 9.056592771789743,
+  "residuals_m": [
+    3.7293727712947713,
+    3.4351899978749083,
+    13.890974350543436,
+    2.0641139555050816,
+    6.131703855445908,
+    3.0379153006159707,
+    3.93810326474013,
+    1.4491734957282316
+  ],
+  "accepted_historical_registration": false,
+  "source_split": "south_control_picks.json; same fit/holdout split as affine diagnostic",
+  "physical_error_bound_m": null
+}

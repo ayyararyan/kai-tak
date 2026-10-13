@@ -1,0 +1,23 @@
+{
+  "verified_utc": "2026-10-13T16:30:30.308408+00:00",
+  "prior_package_checked": 208,
+  "prior_package_mismatches": [],
+  "frozen_inputs_checked": 13,
+  "source_retrieval_hashes_checked": 50,
+  "catalogue_detail_records_checked": 14,
+  "existing_tests_passed": 43,
+  "exact_rational_prerequisite_checks": 8,
+  "historical_geometry_added": 0,
+  "historical_clearance_ready": false,
+  "closed_form_optimum": null,
+  "requirements": {
+    "total": 16,
+    "implemented": 1,
+    "partial": 10,
+    "blocked": 5
+  },
+  "outreach_sent": false,
+  "publication_performed": false,
+  "review": "owner verification, no independent reviewer",
+  "errors": []
+}

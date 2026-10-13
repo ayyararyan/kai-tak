@@ -1,0 +1,44 @@
+{
+  "method": "projective ground-plane diagnostic on same declared split; no holdout points used in fit",
+  "matrix_normalized": [
+    [
+      -0.06119368971457497,
+      0.729813617626068,
+      -0.0007732639443371399
+    ],
+    [
+      0.5006414540552674,
+      -0.21598131256320902,
+      0.028737737698230605
+    ],
+    [
+      0.4025994618861552,
+      0.6228638390100328,
+      1.0
+    ]
+  ],
+  "photo_center": [
+    1118.5702828048247,
+    1553.692041856951
+  ],
+  "map_center": [
+    838140.4166666666,
+    820489.7222222222
+  ],
+  "normalizing_scale": 1000,
+  "fit_RMS_m": 3.548991202950332,
+  "holdout_RMS_m": 32.45210744052879,
+  "residuals_m": [
+    3.2831042512931674,
+    35.395026007813904,
+    5.0556403330836135,
+    31.025302614516647,
+    3.2062246730144435,
+    38.39627695800273,
+    4.044406830419702,
+    22.86713267278365,
+    0.036288110188475386
+  ],
+  "accepted_historical_registration": false,
+  "reason": "manual correspondence/ground-control and physical accuracy not established"
+}

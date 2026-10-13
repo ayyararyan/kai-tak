@@ -1,7 +1,7 @@
 {
-  "release_tag": "update-2026-10-13",
-  "created_utc": "2026-10-13T14:19:38.636886+00:00",
-  "note": "Unchanged chronology/geospatial archives remain on the initial release; updated groups are complete replacements, not overlays.",
+  "release_tag": "integration-2026-10-13",
+  "created_utc": "2026-10-13T16:30:29.868192+00:00",
+  "note": "New independent integrated-data group. Existing four archive groups remain unchanged at their original releases; this manifest selects all five.",
   "assets": [
     {
       "name": "kai-tak-chronology-data-2026-10-13.tar.gz",
@@ -38,6 +38,15 @@
       "files": 11,
       "unpacked_bytes": 31848198,
       "url": "https://github.com/ayyararyan/kai-tak/releases/download/update-2026-10-13/kai-tak-supporting-data-update-2026-10-13.tar.gz"
+    },
+    {
+      "name": "kai-tak-integrated-data-2026-10-13.tar.gz",
+      "delivery": "integrated-data",
+      "bytes": 14188648,
+      "sha256": "db21d94e76d0e97c852b45e2d28e9ebf4842fefd3274ac86ac254cc74e821e65",
+      "files": 5,
+      "unpacked_bytes": 14310861,
+      "url": "https://github.com/ayyararyan/kai-tak/releases/download/integration-2026-10-13/kai-tak-integrated-data-2026-10-13.tar.gz"
     }
   ]
 }

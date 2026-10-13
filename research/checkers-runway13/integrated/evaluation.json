@@ -1,0 +1,67 @@
+{
+  "requested_goal": "historical condition-dependent closed-form optimal full landing",
+  "overall": "INCOMPLETE",
+  "stage": "historical integration blocked",
+  "frozen_files_checked": 13,
+  "frozen_files_changed": [],
+  "blockers": [
+    {
+      "id": "horizontal_registration",
+      "status": "unresolved"
+    },
+    {
+      "id": "common_vertical_datum",
+      "status": "unresolved"
+    },
+    {
+      "id": "target_date_surface_coverage",
+      "status": "unresolved"
+    },
+    {
+      "id": "obstacle_top_hard_bounds",
+      "status": "unresolved"
+    },
+    {
+      "id": "whole_aircraft_inflight_envelope",
+      "status": "unresolved"
+    },
+    {
+      "id": "CG_gear_reference_and_attitude",
+      "status": "unresolved"
+    },
+    {
+      "id": "tracking_uncertainty_bound",
+      "status": "unresolved"
+    },
+    {
+      "id": "aircraft_actuator_calibration",
+      "status": "unresolved"
+    },
+    {
+      "id": "calibrated_fixed_braking_applicability",
+      "status": "unresolved"
+    },
+    {
+      "id": "go_around_and_causal_feedback",
+      "status": "unresolved"
+    },
+    {
+      "id": "registration_values_not_accepted"
+    },
+    {
+      "id": "static_drawing_not_inflight_bound"
+    },
+    {
+      "id": "full_historical_integration_not_implemented",
+      "status": "acceptance_not_established"
+    }
+  ],
+  "candidate": "counterfactual/formula.json",
+  "candidate_historical_clearance": null,
+  "limiting_historical_feature": null,
+  "reason_no_limiting_feature": "No accepted common frame, absolute obstacle top bounds or body-pose/reference history; no physical clearance number calculated.",
+  "downstream_optimality": "not_started_under_required_sequence",
+  "closed_form_optimum": null,
+  "global_proof": null,
+  "historical_condition_cells_certified": 0
+}

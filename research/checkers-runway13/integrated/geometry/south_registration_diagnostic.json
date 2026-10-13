@@ -1,0 +1,211 @@
+{
+  "method": "6parameter affine to source-mapped seawall at near-contemporary editions",
+  "photo": "A36172 1993-11-02",
+  "source_pixel_xy1_to_EN": [
+    [
+      -0.0356956594129473,
+      -0.7079775872393346
+    ],
+    [
+      -0.6924375906345507,
+      0.03634264135453011
+    ],
+    [
+      840977.5289090411,
+      820225.4084557132
+    ]
+  ],
+  "fit_RMS_m": 8.319533953798805,
+  "holdout_RMS_m": 8.531354187120256,
+  "physical_error_bound_m": null,
+  "accepted_historical_registration": false,
+  "controls": [
+    {
+      "id": "SEtip",
+      "map_uv": [
+        846,
+        1030
+      ],
+      "photo_uv": [
+        846,
+        1128
+      ],
+      "role": "fit",
+      "feature": "southernmost rounded outer seawall apex",
+      "photo_original_xy": [
+        2820.0,
+        885.0
+      ],
+      "map_EN": [
+        840269.0,
+        818255.0
+      ],
+      "residual_m": 7.830015654432505
+    },
+    {
+      "id": "NEtip",
+      "map_uv": [
+        955,
+        916
+      ],
+      "photo_uv": [
+        935,
+        1030
+      ],
+      "role": "fit",
+      "feature": "easternmost outer seawall tangent at runway end",
+      "photo_original_xy": [
+        2575.0,
+        662.5
+      ],
+      "map_EN": [
+        840432.5,
+        818426.0
+      ],
+      "residual_m": 5.644741204801119
+    },
+    {
+      "id": "E_inset",
+      "map_uv": [
+        815,
+        765
+      ],
+      "photo_uv": [
+        811,
+        906
+      ],
+      "role": "holdout",
+      "feature": "shoreline bend at inward neck north of end",
+      "photo_original_xy": [
+        2265.0,
+        972.5
+      ],
+      "map_EN": [
+        840222.5,
+        818652.5
+      ],
+      "residual_m": 4.747402626213977
+    },
+    {
+      "id": "E_jetty",
+      "map_uv": [
+        670,
+        541
+      ],
+      "photo_uv": [
+        678,
+        726
+      ],
+      "role": "fit",
+      "feature": "northmost corner at east jetty shoulder",
+      "photo_original_xy": [
+        1815.0,
+        1305.0
+      ],
+      "map_EN": [
+        840005.0,
+        818988.5
+      ],
+      "residual_m": 4.160333576015943
+    },
+    {
+      "id": "E_return",
+      "map_uv": [
+        648,
+        580
+      ],
+      "photo_uv": [
+        659,
+        763
+      ],
+      "role": "holdout",
+      "feature": "inner corner south of jetty",
+      "photo_original_xy": [
+        1907.5,
+        1352.5
+      ],
+      "map_EN": [
+        839972.0,
+        818930.0
+      ],
+      "residual_m": 5.976234101994983
+    },
+    {
+      "id": "W_kink1",
+      "map_uv": [
+        707,
+        918
+      ],
+      "photo_uv": [
+        731,
+        1047
+      ],
+      "role": "fit",
+      "feature": "western outer seawall change of direction",
+      "photo_original_xy": [
+        2617.5,
+        1172.5
+      ],
+      "map_EN": [
+        840060.5,
+        818423.0
+      ],
+      "residual_m": 14.246818608144787
+    },
+    {
+      "id": "W_kink2",
+      "map_uv": [
+        729,
+        927
+      ],
+      "photo_uv": [
+        749,
+        1054
+      ],
+      "role": "holdout",
+      "feature": "next western seawall change of direction",
+      "photo_original_xy": [
+        2635.0,
+        1127.5
+      ],
+      "map_EN": [
+        840093.5,
+        818409.5
+      ],
+      "residual_m": 12.653015729898222
+    },
+    {
+      "id": "W_north",
+      "map_uv": [
+        312,
+        538
+      ],
+      "photo_uv": [
+        363,
+        738
+      ],
+      "role": "fit",
+      "feature": "western seawall change of direction north of end",
+      "photo_original_xy": [
+        1845.0,
+        2092.5
+      ],
+      "map_EN": [
+        839468.0,
+        818993.0
+      ],
+      "residual_m": 5.711458807267379
+    }
+  ],
+  "limitations": [
+    "Outer edge versus mapline width and water/tidal boundary uncertain",
+    "Near-contemporary date does not prove unchangedgeometry",
+    "Seawall controls do not validate roof heights or verticaldatum",
+    "No physicalworstcasebounds; no thresholdlocation yet"
+  ],
+  "source_sha256": {
+    "integrated/geometry/south_control_picks.json": "29c17a0556a157ba99de473eb09716ca6c8da0f47792c16bae6a97948c040420",
+    "integrated/geometry/south_map_sources.json": "e6a2b657aa132a34d2cf6c99a595dea49e94b7da75ea3768ac5aad9071389d2e",
+    "reconstruction/chronology/aerial/fullframes/A36172.jpg": "83346679a7ec9d1af0dced9b97e986ffe37c064427ac93a621d558994df4a43c"
+  }
+}

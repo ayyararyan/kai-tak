@@ -1,0 +1,10 @@
+{"status":"manually interpreted same-surface map/aerial points, physical error uncalibrated","photo":"reconstruction/chronology/aerial/fullframes/A36172.jpg","photo_date":"1993-11-02","map_preview_display_size":[1000,1200],"map_actual_size":[1500,1800],"photo_CW_preview_display_size":[1200,1200],"source_photo_size":[3000,3000],"map_transform_display_to_EN":[1.5,0,839000,0,-1.5,819800],"points":[
+{"id":"SEtip","map_uv":[846,1030],"photo_uv":[846,1128],"role":"fit","feature":"southernmost rounded outer seawall apex"},
+{"id":"NEtip","map_uv":[955,916],"photo_uv":[935,1030],"role":"fit","feature":"easternmost outer seawall tangent at runway end"},
+{"id":"E_inset","map_uv":[815,765],"photo_uv":[811,906],"role":"holdout","feature":"shoreline bend at inward neck north of end"},
+{"id":"E_jetty","map_uv":[670,541],"photo_uv":[678,726],"role":"fit","feature":"northmost corner at east jetty shoulder"},
+{"id":"E_return","map_uv":[648,580],"photo_uv":[659,763],"role":"holdout","feature":"inner corner south of jetty"},
+{"id":"W_kink1","map_uv":[707,918],"photo_uv":[731,1047],"role":"fit","feature":"western outer seawall change of direction"},
+{"id":"W_kink2","map_uv":[729,927],"photo_uv":[749,1054],"role":"holdout","feature":"next western seawall change of direction"},
+{"id":"W_north","map_uv":[312,538],"photo_uv":[363,738],"role":"fit","feature":"western seawall change of direction north of end"}
+],"physical_error_bound_m":null,"source_edition_dates":"1993-04/07/08 sheets recorded in south_map_sources.json"}

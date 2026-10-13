@@ -1,0 +1,26 @@
+{
+  "source_sha256": "08073a6bf01bb11184c5ea1ff4265802ddd66b97d5b516a29cfc1ca6215e8e21",
+  "inspected_original_contact": "integrated/sources/hill_additional_spots_original.png",
+  "accepted_spot_readings": {
+    "0": 58.2,
+    "1": 59.4,
+    "3": 73.5,
+    "5": 35.7,
+    "6": 31.4,
+    "7": 38.4,
+    "8": 31.4,
+    "10": 31.7
+  },
+  "excluded_unresolved_readings": {
+    "2": "lastdigitambiguous; no numeric value exported",
+    "4": "final digit intersects contour; top remains null",
+    "9": "middle digit ambiguous; no numeric value exported"
+  },
+  "contour_labels_read": [
+    60,
+    80
+  ],
+  "contour_geometry_scope": "two partial traces; no contourclosure or terraininterpolation",
+  "new_complete_historical_volumes": 0,
+  "new_hard_upper_height_bounds": 0
+}

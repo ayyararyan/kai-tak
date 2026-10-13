@@ -1,0 +1,76 @@
+{
+  "status": "crosscheck_failure_diagnostic_not_accepted_registration",
+  "north_pick": {
+    "image": "RW13_threshold_detail.png",
+    "pixel_xy": [
+      378.0,
+      403.0
+    ],
+    "meaning": "visually interpreted threshold bar centre",
+    "original_A36143_pixel_xy": [
+      844.3183807429677,
+      1733.8193608585025
+    ],
+    "derived_EN_m": [
+      838277.9926795285,
+      820320.961097593
+    ]
+  },
+  "south_picks": {
+    "image": "A36172_runway_end_detail.png",
+    "end_pixel_xy": [
+      716,
+      747
+    ],
+    "axis_upstream_pixel_xy": [
+      207,
+      319
+    ],
+    "end_original_A36172_pixel_xy": [
+      2723.5,
+      792.0
+    ],
+    "upstream_original_A36172_pixel_xy": [
+      2509.5,
+      1046.5
+    ],
+    "end_EN_m": [
+      840331.9012088474,
+      818326.0148688196
+    ],
+    "axis_grid_bearing_deg": 133.63805596888577,
+    "upstream_point_to_end_m": 232.94640707482878
+  },
+  "back_projection": {
+    "assumed_distance_m": 2786,
+    "basis": "CAD Report1/95 LDA; physical endpoint interpretation not independently validated",
+    "threshold_EN_m": [
+      838315.6349657913,
+      820248.6345496489
+    ]
+  },
+  "threshold_difference_EN_m": [
+    -37.642286262707785,
+    72.32654794410337
+  ],
+  "threshold_disagreement_m": 81.53570538478417,
+  "uncertainty": {
+    "physical_hard_bound_m": null,
+    "northern_holdout_RMS_m": 12.948860397671865,
+    "southern_holdout_RMS_m": 8.531354187120256
+  },
+  "limitations": [
+    "Two local camera fits are not a jointly controlled orthophoto network.",
+    "Short southern direction baseline magnifies angular error over2786m.",
+    "Map edition differences, affine perspective error, edge semantics and manual picks remain unresolved.",
+    "Disagreement is evidence against acceptance, not a calibrated probability interval.",
+    "No averaged threshold or borrowed chart bearing is accepted."
+  ],
+  "source_sha256": {
+    "integrated/geometry/RW13_threshold_detail.png": "c09211f4c59d98acb4ecc598edfa71ca7f018eaae44635214413b6a4311bc573",
+    "integrated/geometry/A36172_runway_end_detail.png": "4cc17425c06aa751829b99ee8fc16af7965b39a161f46136825543fb756d5247",
+    "integrated/geometry/runway_registration_diagnostic.json": "bcef2a83e92867bb3f226bccce6e3e0dee002306139dfe92139f43b8a76dde1a",
+    "integrated/geometry/south_registration_diagnostic.json": "0c4a626620aff73912184c2714a0930a8d51961199ac331d593b84616d39653b",
+    "integrated/check_runway_registration.py": "44b05e99b4e49a24cf102d0d377abaf3db151a026ea776ae7a2935282f3598a1"
+  }
+}
