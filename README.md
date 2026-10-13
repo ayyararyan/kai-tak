@@ -1,4 +1,4 @@
-# kai-tak
+# Checkers with Runway 13
 
 ![Black-and-white illustration of a Cathay Pacific Boeing 747 approaching Kai Tak over Kowloon, with mountains behind the city.](assets/kai-tak-approach-black-and-white.png)
 
