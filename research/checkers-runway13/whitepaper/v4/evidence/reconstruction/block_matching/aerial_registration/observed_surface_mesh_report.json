@@ -1,0 +1,57 @@
+{
+  "generated_utc": "2026-10-13T13:27:16.318833+00:00",
+  "status": "partial_observed_surface_mesh",
+  "method": "two fixed triangles per complete accepted rectified-grid 3px cell; no unconstrained Delaunay, extrusion, hole filling or unseen faces",
+  "surface_identity_note": "continuity-filtered image observations, not semantic proof of one named object per face",
+  "thresholds_engineering_choices_not_error_bounds": {
+    "max_3d_edge_m": 8.0,
+    "max_relative_z_difference_m": 3.0,
+    "max_disparity_range_rectified_px": 1.0,
+    "max_quad_planarity_deviation_m": 1.5,
+    "required_valid_intervening_pixels_per_cell": 16,
+    "source_grid_step_pixels": 3
+  },
+  "counts": {
+    "dense_input_points": 171307,
+    "four_corner_cells": 131690,
+    "cells_all16_pixels_valid": 124476,
+    "candidate_triangles": 248952,
+    "accepted_faces": 225371,
+    "retained_mesh_vertices": 155891,
+    "boundary_edges": 86061,
+    "nonmanifold_edges": 0
+  },
+  "watertight": false,
+  "source_colors": "original A36143 greyscale pixel RGB; no generated textures",
+  "horizontal_crs": "EPSG:2326 diagnostic",
+  "vertical_reference": "same relative park-road plane as dense cloud, NOT HKPD",
+  "gltf_axis_origin": {
+    "horizontal_crs": "EPSG:2326",
+    "origin_easting_m": 837600.0,
+    "origin_northing_m": 821200.0,
+    "axis_mapping": "glTF(x,y,z)=(easting-origin_easting,relative_height,-(northing-origin_northing))",
+    "vertical_reference": "fitted local park-road plane; NOT HKPD",
+    "source_epoch": "1993-11-02",
+    "surface_status": "partial observed correspondence patches; no unseen faces/closed solids",
+    "face_provenance": "observed_surface_faces.csv",
+    "face_order_matches_csv": true
+  },
+  "face_metrics": {
+    "max_3d_edge_m": 6.864049742045489,
+    "max_relative_z_difference_m": 2.6050303759043345,
+    "max_disparity_range_rectified_px": 1.0,
+    "max_quad_planarity_deviation_m": 1.4999651859214291,
+    "sum_observed_triangle_area_m2": 992054.6075563706
+  },
+  "input_sha256": {
+    "dense_stereo_points.csv": "634aa4f28a4d7e80014c48eae199ce829a72d0b5461aaf7e7beeb9a1c8a0dba9",
+    "dense_pixel_qc.npz": "e1eb12e50a5879408a4fcfeabd381760f3f5c6cb16296af8b9f9a196db553c2f",
+    "dense_stereo_report.json": "28ddf7ddff1f4a75e756a6beb3842ed8d6c8fd7e68d211a9e162cf94b72a6374"
+  },
+  "limitations": [
+    "nominal-calibration and local-control limitations inherited from sparse/dense reports",
+    "occluded/textureless/rejected regions deliberately unmeshed",
+    "continuity thresholds do not prove all matches are correct",
+    "surfaces are not watertight buildings or complete ground/obstacle geometry"
+  ]
+}

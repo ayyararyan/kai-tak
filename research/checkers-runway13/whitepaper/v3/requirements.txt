@@ -1,0 +1,7 @@
+numpy==2.5.4
+matplotlib==3.11.2
+pymupdf==1.28.2
+Pillow==12.3.0
+scipy==1.18.1
+mpmath==1.3.0
+pytest==9.1.1

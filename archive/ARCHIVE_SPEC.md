@@ -64,3 +64,7 @@ Use JSON Schema and compact Dataset-style records; no gratuitous STAC conversion
 ## Verification
 
 Run metadata validation, integrity/security unit tests, deterministic rebuild comparison, local HTTP download into a clean checkout, full member hash/size validation, existing scientific fixture checks and isolated NOAA producer replay. Test conflicting destinations and interruption cleanup. Compare baseline evidence hashes and tag identities after work. Record machine-readable outcomes and exact incomplete requirements.
+
+## Publication authorization — 2026-10-13
+
+Aryan: “Let’s publish it now.” Publish the reviewed permitted-data subset and archive navigation on GitHub, preserving documented unresolved rights/lineage. This authorizes push/release, not a new license selection or Zenodo deposition. Preserve later accepted main artifacts, exclude private authorised-enquiry directories, verify the remote tree and bytes.

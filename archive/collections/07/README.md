@@ -1,6 +1,6 @@
 # 07 — Mathematical Models and Results
 
-Ayyar, Aryan (2026). Mathematical Models and Results. The Kai Tak Historical Research Archive, candidate v1.0.0, collection 07. **Unpublished candidate; no DOI assigned.**
+Ayyar, Aryan (2026). Mathematical Models and Results. The Kai Tak Historical Research Archive, v1.0.0, collection 07. **Published permitted-data release; no DOI assigned.**
 
 433 catalogued artifacts; 0 verified-permitted files selected for the new data bundle. Other entries remain available as source references, existing Git research or explicitly restricted dependencies.
 
@@ -17,7 +17,7 @@ Ayyar, Aryan (2026). Mathematical Models and Results. The Kai Tak Historical Res
 - CRS / vertical datum: not applicable or unresolved / not applicable or unresolved.
 - Limitations: Synthetic entry/corridor and uncalibrated aircraft/braking; Historical mode must fail closed; Search failure not infeasibility proof
 - Source links: [source 1](https://github.com/ayyararyan/kai-tak), [source 2](https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.
 
 ## Restricted mathematical derivations and checks
 
@@ -30,7 +30,7 @@ Ayyar, Aryan (2026). Mathematical Models and Results. The Kai Tak Historical Res
 - CRS / vertical datum: not applicable or unresolved / not applicable or unresolved.
 - Limitations: Theorems apply only to explicit restricted domains; No unrestricted full landing optimum
 - Source links: [source 1](https://github.com/ayyararyan/kai-tak)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.
 
 ## Calm-air continuous-family feasibility certificate
 
@@ -43,7 +43,7 @@ Ayyar, Aryan (2026). Mathematical Models and Results. The Kai Tak Historical Res
 - CRS / vertical datum: not applicable or unresolved / not applicable or unresolved.
 - Limitations: Not global optimum; Invalidated global bounds .10/.05/.04/.03972 must not be used; IEEE/numerical physical accuracy not implied by real-decimal certificate
 - Source links: [source 1](https://github.com/ayyararyan/kai-tak)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.
 
 ## Wind-conditioned full landing reference
 
@@ -56,7 +56,7 @@ Ayyar, Aryan (2026). Mathematical Models and Results. The Kai Tak Historical Res
 - CRS / vertical datum: not applicable or unresolved / not applicable or unresolved.
 - Limitations: No causal accident-prevention or historical-clearance claim; Uniform wind not aircraft gust history; Loose optimality gap not near-optimality; Symlink-backed bundle paths require safe explicit dereference in release preparation
 - Source links: [source 1](https://github.com/ayyararyan/kai-tak), [source 2](https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf), [source 3](https://www.ncei.noaa.gov/pub/data/noaa/1993/450070-99999-1993.gz)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.
 
 ## Mathematical Models and Results — supporting and unclassified artifacts
 
@@ -69,4 +69,4 @@ Ayyar, Aryan (2026). Mathematical Models and Results. The Kai Tak Historical Res
 - CRS / vertical datum: not applicable or unresolved / not applicable or unresolved.
 - Limitations: Directory classification is navigational, not a verified source or transformation chain.
 - Source links: Not established; see unresolved source record.
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.

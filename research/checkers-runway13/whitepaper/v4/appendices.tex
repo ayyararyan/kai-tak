@@ -1,0 +1,150 @@
+\appendix
+\section{Dynamics and exact control rates}\label{app:dynamics}
+Let $\mathbf r=(x,y,h)$, $\mathbf v=\dot{\mathbf r}-\mathbf w$, $V=\|\mathbf v\|$, $\gamma=\arcsin(v_h/V)$ and $\psi=\operatorname{atan2}(v_y,v_x)$ for constant wind. Define the orthonormal frame
+\begin{align}
+\mathbf e_V&=(\cos\gamma\cos\psi,\cos\gamma\sin\psi,\sin\gamma),\\
+\mathbf e_\gamma&=(-\sin\gamma\cos\psi,-\sin\gamma\sin\psi,\cos\gamma),\\
+\mathbf e_\psi&=(-\sin\psi,\cos\psi,0),\qquad \mathbf f=\ddot{\mathbf r}+(0,0,g).
+\end{align}
+Writing $\ell_\gamma=\mathbf f\cdot\mathbf e_\gamma$ and $\ell_\psi=\mathbf f\cdot\mathbf e_\psi$, inverse dynamics gives
+\begin{align}
+\mathcal L&=m\sqrt{\ell_\gamma^2+\ell_\psi^2}, &\phi&=\operatorname{atan2}(\ell_\psi,\ell_\gamma),\\
+Q&=\tfrac12\rho V^2S_w, & C_L&=\mathcal L/Q,\\
+D&=Q(C_{D0}+k_D C_L^2), &\mathcal T&=m\mathbf f\cdot\mathbf e_V+D,\\
+\rho&=\rho_0e^{-h/H_\rho}, &V_{\rm EAS}&=V\sqrt{\rho/\rho_0}.
+\end{align}
+Here $S_w$ is wing area. For the time derivatives used in the checker,
+\begin{align}
+\dot\ell_i&=\dddot{\mathbf r}\cdot\mathbf e_i+\mathbf f\cdot\dot{\mathbf e}_i,
+&\dot\phi&=\frac{\ell_\gamma\dot\ell_\psi-\ell_\psi\dot\ell_\gamma}{\ell_\gamma^2+\ell_\psi^2},\\
+\dot Q&=Q(-\dot h/H_\rho+2\dot V/V),
+&\dot C_L&=\dot{\mathcal L}/Q-C_L\dot Q/Q,\\
+\dot D&=\dot Q(C_{D0}+k_DC_L^2)+2Qk_DC_L\dot C_L,
+&\dot{\mathcal T}&=m(\dddot{\mathbf r}\cdot\mathbf e_V+\mathbf f\cdot\dot{\mathbf e}_V)+\dot D.
+\end{align}
+The frame derivatives follow by differentiating the displayed trigonometric vectors. Positive speed, horizontal airspeed and lift are required; the certificate checks the nonsingular branch. Bank-angle rate is not generally body-axis roll rate.
+
+Forward replay integrates
+\begin{align}
+\dot{\mathbf r}&=V\mathbf e_V+\mathbf w,&\dot V&=(\mathcal T-D)/m-g\sin\gamma,\\
+\dot\gamma&=(\mathcal L\cos\phi/m-g\cos\gamma)/V,&
+\dot\psi&=\mathcal L\sin\phi/(mV\cos\gamma).
+\end{align}
+A replay that recomputes lift from the replayed state and $C_L$ command checks force consistency. It remains numerical corroboration, not continuous-time proof or physical calibration. If wind varies along the motion, air-relative acceleration also involves $-d\mathbf w/dt$; the constant-wind equations cannot be extended by changing only the position equation.
+
+\textbf{Frozen constants.} $m=238461.67357166$ kg is the exact conversion of an estimated 525,718 lb, not an exact measured mass; $g=9.80665$ m/s$^2$, $\rho_0=1.225$ kg/m$^3$, $H_\rho=8500$ m, $S_w=541.2$ m$^2$, $C_{D0}=0.08$, $k_D=0.045$. Low-altitude CAS is approximated by EAS for the 153 kt boundary speed. These choices do not establish a calibrated aircraft envelope.
+\par\medskip
+\section{Explicit polynomial construction}\label{app:polynomial}
+For a phase of duration $T>0$, put $s=(t-t_0)/T\in[0,1]$. Given endpoint positions $p_0,p_1$, velocities $v_0,v_1$ and accelerations $a_0,a_1$, construct the vector-valued quintic
+\begin{align}
+c_0&=p_0,&c_1&=Tv_0,&c_2&=T^2a_0/2,\\
+A&=p_1-c_0-c_1-c_2,&B&=Tv_1-c_1-2c_2,&C&=T^2a_1-2c_2,\\
+c_3&=10A-4B+C/2,&c_4&=-15A+7B-C,&c_5&=6A-3B+C/2.
+\end{align}
+Then $P(s)=\sum_{k=0}^{5}c_ks^k$ satisfies the six endpoint conditions by substitution and differentiation. To change the interior while preserving those conditions, use
+\[
+B_0(s)=64s^3(1-s)^3,\qquad B_1(s)=(2s-1)B_0(s).
+\]
+Each function and its first two derivatives vanish at both endpoints. Coordinate-specific multiples produce the degree-at-most-seven approach and degree-at-most-six flare. Time derivative order $j$ is $T^{-j}d^j/ds^j$; omitting these duration factors would change the dynamics.
+
+\subsection*{The restricted parameter family}
+The original box has $T_A\in[30,55]$ s, $T_F\in[4,12]$ s, $x_D\in[200,700]$ m and $u\in[69,88]$ m/s. Four horizontal approach amplitudes lie in $[-400,400]$ m and two vertical amplitudes in $[-50,50]$ m. Flare amplitudes lie in $[-50,50]$ m horizontally and $[-10,10]$ m vertically. These twelve bounded parameters define the family; they are not all possible flight controls.
+
+The entry is $(-2500,1000,140)$ m and the threshold state $(0,0,15.24)$ m. Entry/threshold EAS is 153 kt and air flight-path angle $-3.1^\circ$. The selected initial ground track is $-47^\circ$; threshold track is zero. Touchdown is $(x_D,0,0)$ with ground velocity $(u,0,-0.7)$ m/s. Endpoint accelerations are zero; approach and flare meet in position, velocity and acceleration. Contact then resets the vertical component under a separate ground rule.
+
+For a horizontal ground-track unit vector $\mathbf d=(\cos\chi,\sin\chi)$ and horizontal airspeed $H=V\cos\gamma$, endpoint forward ground speed solves $\|u_g\mathbf d-\mathbf w_{xy}\|^2=H^2$:
+\[
+u_g=\mathbf d\cdot\mathbf w_{xy}+\sqrt{H^2-\|\mathbf w_{xy}\|^2+(\mathbf d\cdot\mathbf w_{xy})^2}.
+\]
+The positive branch requires a nonnegative radicand. Thus equal EAS, flight-path angle and ground track across wind scenarios do not imply equal ground velocity.
+
+The coefficients printed in Appendix~\ref{app:coefficients} are rounded evaluation copies. Machine-readable exports preserve full floating precision. The rigorous margin claims instead bind exact real-decimal parameter vectors and reconstruct the endpoint expressions with interval arithmetic; they do not certify arbitrarily rounded coefficient tables.
+\par\medskip
+\section{Attainment and the calm-family bound}\label{app:bounds}
+The retained computer-assisted regularity lemma establishes $|v_h|<14$ m/s throughout both phases over the full parameter box. Here $v_h$ means vertical velocity. On the nonnegative-height feasible domain, EAS $\geq135$ kt implies total airspeed at least $135\kappa$ m/s, where $\kappa=1852/3600$. The vertical bound then keeps horizontal speed above 68 m/s. Positive minimum load keeps lift nonzero, and the bank bound retains a positive-up lift projection.
+
+\begin{proposition}[Restricted calm-family attainment]
+In the frozen zero-wind polynomial family, the primary maximum is attained. The specified continuous secondary effort has a minimum on the set retaining that optimum within $10^{-4}$.
+\end{proposition}
+\begin{proof}
+The certified candidate makes the set with $\eta\geq0.0397$ nonempty. Restrict $q$ to its compact parameter box and $\eta$ to a closed bounded interval containing the valid bounds. Along a convergent feasible sequence, polynomial states and derivatives through jerk converge uniformly, since durations stay positive. The regularity bounds exclude singularities at the limit, so inverse forces, rates and margins are continuous there. Distance to the fixed finite corridor cloud is continuous. Every time-indexed inequality and endpoint equality passes to the limit. The feasible set is therefore compact, and projection onto $\eta$ attains its maximum. Continuous effort also attains a minimum on the nonempty closed retained-primary subset.
+\end{proof}
+The proof identifies neither optimizer. It does not extend automatically to other winds, historical obstacles or unrestricted controls.
+
+At touchdown the normalized EAS floor implies
+\[
+u_{\min}(\eta)=\sqrt{[\kappa(135+40\eta)]^2-0.7^2}\leq u.
+\]
+In the zero-wind flare, lateral motion is zero, forward velocity is positive, and $|v_h|<14$. Hence $v_x\geq\sqrt{[\kappa(135+40\eta)]^2-14^2}$. Since $T_F\geq4$ s, integrating from threshold supplies a lower bound on $x_D$. Combining it with $S\leq2636(1-\eta)$ gives
+\begin{multline}
+4\sqrt{[\kappa(135+40\eta)]^2-14^2}+2u_{\min}(\eta)
++\frac{u_{\min}(\eta)^2}{2(1.4709975)}\\
+\leq2636(1-\eta).
+\end{multline}
+The left side minus the right side increases strictly for $\eta\geq0$. Outward-rounded evaluation brackets its unique nonnegative root between 0.1559771 and 0.1559772. Therefore $\eta^*_{\rm calm}<0.1559772$. This necessary bound relaxes airborne restrictions and need not be attainable.
+
+The corrected checker uses a full angle hull when interval \texttt{atan2} crosses its problematic branch and never uses a lower corridor-margin enclosure as an exclusion upper bound. Earlier invalidated exclusions cannot sharpen the retained bracket. Source: \texttt{analytical/coupled/RESULTS.md}, proof code and frozen verification records.
+\par\medskip
+\section{Wind convention and separate upper bound}\label{app:windbound}
+Let wind speed be $W$, its meteorological \emph{from} bearing $\beta$, and runway true bearing $\alpha$. In forward/right/up axes,
+\[
+w_x=-W\cos(\beta-\alpha),\qquad w_y=-W\sin(\beta-\alpha),\qquad w_h=0.
+\]
+Use $W=21(1852/3600)$ m/s, $\beta=70^\circ$, and the scenario convention $\alpha=135^\circ-1^\circ50'=799/6$ degrees. The source chart's 1990 variation is not a surveyed 1993 runway axis. The report's rounded 21 kt is the frozen input; NOAA's 10.8 m/s is not silently substituted.
+
+The wind-case upper bound follows from only three necessary restrictions. Normalized touchdown position requires $x_D\geq200+500\eta$; the original parameter box gives $u\geq69$ m/s; normalized stopping margin requires
+\[
+x_D+2u+\frac{u^2}{2a}\leq2636(1-\eta),\qquad a=1.4709975\ \mathrm{m/s^2}.
+\]
+Since the ground-travel expression increases with nonnegative $u$,
+\begin{align}
+200+500\eta+138+\frac{4761}{2a}&\leq2636(1-\eta),\\
+\eta&\leq\frac{2636-200-138-4761/(2a)}{3136}
+=\frac{66656817}{307536544}.
+\end{align}
+The exact rational upper bound minus the exact decimal lower certificate is
+\[
+\frac{1584555818464679384939}{24026292500000000000000}
+\approx0.0659509085084467.
+\]
+A relaxation can give a valid upper bound even when no feasible flight realizes its limiting touchdown speed and position together. This is why the bound is necessary, not a candidate or an optimum. The sharper-looking calm bound uses a zero-wind airspeed/forward-speed relation and cannot simply be reused.
+
+\subsection*{Certificate scope and reproducibility}
+The wind checker encloses inverse dynamics, exact rates and hard inequalities over both phases; the ground rule is evaluated separately. The source binds the model configuration, original corridor cloud, candidate, calculator and checker by hashes. The calm and wind certificates cover 2,502 and 376 accepted closed intervals, respectively. Certification decisions compare outward-rounded intervals, not their displayed floating summaries.
+
+The companion \texttt{verify\_\allowbreak certificates.py} re-evaluates both fixed witnesses using frozen original proof code and writes new receipts without rerunning optimization or overwriting source certificates. The manuscript builder independently checks source identity, time-cover completeness, polynomial/CSV agreement and scalar arithmetic. These complementary checks establish reproducible computer-assisted evidence for the specified mathematical objects, not an independent peer review or validated aircraft performance.
+\par\medskip
+\section{Numerical evaluation coefficients}\label{app:coefficients}
+For each coordinate, $r_i(t)=\sum_k c_{ik}s^k$, $s=(t-t_0)/T$. All coefficients below have units of metres and are rounded to nine decimal places. Do not extrapolate outside a phase. For exact figure reproduction use the JSON exports; for certification use the source-bound real-decimal parameter construction. Approach starts at $t_0=0$; flare starts at $t_0=T_A$.
+\input{coefficients.tex}
+\section{Ground motion, bounds and reproduction}\label{app:ground}
+With $q_g=t-t_D$, ground motion after the stipulated contact transition is
+\[
+x(t)=\begin{cases}
+x_D+uq_g,&0\leq q_g\leq d,\\
+x_D+ud+u(q_g-d)-\tfrac12a(q_g-d)^2,&d\leq q_g\leq d+u/a.
+\end{cases}
+\]
+It remains constant afterwards. Lateral and vertical ground coordinates are zero. The model does not resolve landing-gear impact or braking-system modes. Integrating speed gives equation~\eqref{eq:stop}; the full-stop time is $T_A+T_F+d+u/a$. Because stopping station increases with $x_D,u,d$ and decreases with $a$, the extrema in equation~\eqref{eq:box} follow directly. Likewise a joint box gives
+\[
+t_{\rm stop}\in[A_-+F_-+d_-+u_-/a_+,\ A_++F_++d_++u_+/a_-].
+\]
+No physical box has been calibrated here; these are conditional algebraic results.
+
+\subsection*{Reproduction map}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{.35\textwidth}>{\raggedright\arraybackslash}X@{}}\toprule
+File or directory & Role\\\midrule
+\texttt{main.tex}, \texttt{sections/} & Editable narrative and layout; this appendix contains derivations.\\
+\texttt{references.bib} & Bibliographic records and primary-source links.\\
+\texttt{make\_figures.py} & Sixteen original scientific figure composites from frozen inputs.\\
+\texttt{inputs/}, \texttt{evidence/} & Dated permitted imagery, derived observations, coefficients, proof code and source reports.\\
+\texttt{build.py} & Hash checks, numerical checks, figures, compilation, text/font/layout checks and page rendering.\\
+\texttt{verify\_\allowbreak certificates.py} & Fresh continuous-time checks of both fixed witnesses.\\
+\texttt{CLAIMS\_\allowbreak AND\_\allowbreak EVIDENCE.csv} & Claim categories, exact source paths, limitations and verification routes.\\
+\texttt{VERIFICATION.md}, \texttt{qa/} & What was checked, actual results, visual inspection record and remaining scientific gaps.\\\bottomrule
+\end{tabularx}
+\medskip
+
+The build README distinguishes a manuscript rebuild from proof verification and historical-data acquisition. The compact package reproduces the displayed numerical results and fixed-witness checks. It does not recreate every earlier source acquisition, stereo reconstruction or optimization search from scratch; the wider repository preserves their code and larger-data manifests.
+
+All important statements are assigned an evidence category: source-reported, digitized approximation, reconstructed geometry, model assumption, numerical construction, computer-assisted certificate, theorem within a stated domain, or unresolved. The finished document does not imply the full historical research programme is complete. Version 2 and all frozen model inputs remain preserved.

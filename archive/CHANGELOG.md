@@ -18,3 +18,7 @@
 - `integration-2026-10-13`: independent integrated-data asset; requires the selected earlier assets for the five-group snapshot.
 
 All three remain unchanged. GitHub reported immutable=false on audit; a release name alone is not an enforced preservation guarantee.
+
+## 2026-10-13 — v1.0.0 publication
+
+Explicit publication authorization received. Data-member sets/hashes unchanged from reviewed candidate. Added public download URLs and release date; preserved newer main papers, added archive navigation and explicit private-enquiry exclusions. No new original-work license or DOI. Full provenance/reuse limitations remain.

@@ -1,0 +1,26 @@
+{
+  "historical_faces": 45,
+  "named_forms": 15,
+  "source_epochs": [
+    "1989-10",
+    "1994-07",
+    "1997-04"
+  ],
+  "historic_physical_volumes": 0,
+  "historic_nonnull_heights": 0,
+  "road_cells": 4,
+  "modern_components": 464,
+  "modern_omitted_components": 10,
+  "stereo_available": true,
+  "dense_available": true,
+  "dense_source_points": 171307,
+  "dense_preview_points": 57103,
+  "observed_mesh_faces": 225371,
+  "observed_mesh_vertices": 155891,
+  "sparse_omitted_rows": 0,
+  "modern_courtyard_components": 1,
+  "offline_plotly_bundled": true,
+  "browser_interaction_verified": false,
+  "browser_verification_blocker": "Parent attempted file and localhost navigation via OpenClaw; navigation policy blocked both. No bypass attempted.",
+  "scene_sha256": "734ca0e43995571686de9a43cc7b0522a1cf55d1c97d868f66fb2ed7ca1e34e8"
+}

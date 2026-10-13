@@ -1,0 +1,50 @@
+\parthead{IV}{Can we construct a complete landing?}\label{part:4}
+The research model begins at a stipulated point $(-2500,1000,140)$ m: 2.5 km before the usable threshold, 1 km to its right, and 140 m above runway level. The inbound ground track is $47^\circ$ left of runway direction. This entry is synthetic, not the recovered position of CAL605 or a surveyed middle-marker coordinate.
+
+\fig{09_complete_calm}{.94}{The calm-air reference through approach, flare and full stop. Top: three-dimensional view with deliberately exaggerated height; bottom: equal-scale horizontal plan. Coordinates are forward/right/up relative to the usable threshold. Dark slate is approach, copper flare, and sage ground travel. Source: frozen calm coefficients and the exact ground law. The grey runway line gives the 2,786 m LDA, not a geographically registered airport map. No terrain clearance is implied.}{fig:complete}
+
+The threshold is an intermediate target at 15.24 m height, with runway-aligned track and the chosen descent state. After a four-second flare the calm candidate touches down 313.49 m beyond it, then stops at 2,531.32 m. From entry to full stop takes 96.29 s. All phases belong to the same constructed reference.
+
+Its aircraft identity and estimated mass are anchored to the CAL605 report: a Boeing 747-409B, flaps 30, gear down, estimated 525,718 lb. The aerodynamic coefficients, force limits and braking are scenario assumptions. Naming the aircraft does not validate those assumptions as a Boeing performance model.
+\clearpage
+\subsection*{What the optimizer is actually trying to improve}
+The task is not simply ``land in the shortest distance.'' It is to maximize the smallest normalized margin across a specified collection of constraints. If $g_j(t;q)\geq0$ is a physical inequality, $s_j>0$ its chosen scale, and $q$ the trajectory parameters, the objective is
+\begin{equation}
+\max_{q,\eta}\eta\quad\text{such that}\quad
+\frac{g_j(t;q)}{s_j}\geq\eta\quad\text{for every relevant }t,j,
+\label{eq:objective}
+\end{equation}
+with structural equalities and additional hard constraints enforced separately. A secondary numerical stage reduces integrated squared normalized bank and rate demands while retaining the primary score within $10^{-4}$.
+
+Normalization makes unlike quantities comparable within this chosen objective. For example, the EAS floor contributes $(V_{\rm EAS,kt}-135)/40$; the bank margin is $1-|\phi|/25^\circ$; the stop-reserve margin is $(2636-S)/2636$. Changing a scale can change the optimizer. Thus $\eta$ is a declared model score, not a naturally defined measure of aviation safety.
+
+\begin{table}[H]\small
+\caption{Selected constraints in the frozen model. Except for the historically sourced LDA, these operating limits are stipulated research inputs, not approved aircraft limits. Full parameters and domains appear in Appendix~\ref{app:dynamics}.}
+\begin{tabularx}{\textwidth}{@{}p{.34\textwidth}X@{}}\toprule
+Demand & Scenario constraint\\\midrule
+Bank and bank-angle rate & $|\phi|\leq25^\circ$, $|\dot\phi|\leq5^\circ$/s\\
+Equivalent airspeed & 135--175 kt\\
+Lift and load factor & $0\leq C_L\leq2.8$; load factor 0.5--1.4\\
+Thrust and thrust slew & 0--700 kN; magnitude of slew $\leq100$ kN/s\\
+Descent and touchdown & Descent no steeper than $6^\circ$; touchdown sink target 0.7 m/s\\
+Lateral route & Within 400 m of a fixed synthetic reference cloud\\
+Runway outcome & Touchdown in 200--700 m; stop with at least 150 m remaining\\\bottomrule
+\end{tabularx}\end{table}
+
+Two endpoint-constrained polynomials describe the approach and flare. Twelve parameters control durations, touchdown state and interior shape. Algebraic inverse dynamics derives the required lift, bank and thrust from each curve; control-rate checks follow from its derivatives. This approach allows the shape, speed and descent to be solved together without concealing their force demands.
+
+A local optimizer can produce a candidate and improve its numerical score. It cannot, by its success flag, establish feasibility between sample times, global optimality, or a pilot's ability to track the motion. Those are distinct verification tasks. A fixed explicit reference is also not a rule that assigns the right trajectory to every possible entry state and weather condition.
+\clearpage
+\subsection*{Why checking every instant is a different achievement}
+Suppose a constraint is positive at every plotted time. It may still dip below zero between samples. A finite display or a forward numerical replay can reveal failures, but does not by itself prove the absence of all such dips.
+
+\fig{10_certificate}{1}{Actual adaptive subdivision used by the wind candidate's continuous-time certificate: accepted interval widths versus normalized phase time, on a base-two logarithmic vertical scale. Source: \texttt{continuous\_check.json}, 376 closed intervals over the two phases. Each interval is checked over its full extent. Smaller widths reflect numerical enclosure needs, not measured turbulence, tracking difficulty or physical uncertainty.}{fig:certificate}
+
+The project uses outward-rounded interval arithmetic. Instead of evaluating a state at one instant, the checker encloses its possible values over a closed time interval under the fixed source expressions. It derives force and rate enclosures, subdivides where necessary, checks both sides of the phase join, and separately checks endpoint identities and the exact stopping rule. The accepted intervals must cover both entire phases without gaps.
+
+The retained calm certificate establishes $\eta\geq0.0397$ over 2,502 intervals. The wind certificate establishes $\eta\geq0.1507934696816132$ over 376 intervals. Their different counts reflect different candidates and enclosures; they are not comparable measures of safety or proof strength. Both concern exact real-decimal candidate constructions and the specified reduced model.
+
+\insight{Insight 5: a smooth-looking line is weaker evidence than a covered interval}{Sampling answers ``what happened at these times?'' An interval enclosure can establish ``the constraint holds throughout this time span.'' Neither establishes that the underlying aircraft assumptions are physically correct.}
+
+The implementation uses mpmath interval arithmetic at 40 decimal digits, not a proof-assistant formalization. Small forward-replay residuals check numerical consistency with the same equations; they are not centimetre-scale predictions of an aircraft's actual path. Rounded printed coefficients are explanatory copies, not the exact object certified by the checker.
+\clearpage

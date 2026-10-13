@@ -1,0 +1,29 @@
+{
+  "snapshot_hashes": true,
+  "scalar_outcomes_recomputed": true,
+  "polynomial_endpoints": true,
+  "local_sensitivities": {
+    "dR_du_m_per_mps": -54.949141626562096,
+    "dR_dd_m_per_s": -77.88805495981877
+  },
+  "weather_counts_and_event_values": true,
+  "historical_conditional_stopping_recomputed": true,
+  "stereo_display_sample": {
+    "points": 34262,
+    "inside_hull_points": 748,
+    "subsampling": "every fifth source row"
+  },
+  "wind_case": {
+    "formula_csv_states_and_velocities_match": true,
+    "eas_recomputed_from_wind": true,
+    "certificate_source_bindings": true,
+    "closed_interval_cover": 376,
+    "exact_upper": "66656817/307536544",
+    "exact_gap": "1584555818464679384939/24026292500000000000000",
+    "stopping_and_time_recomputed": true,
+    "runway_remaining_m": 552.7691549830147,
+    "remainder_difference_m": 298.09027260311177,
+    "touchdown_component_m": 11.378129119734126,
+    "ground_travel_component_m": 286.71214348337753
+  }
+}

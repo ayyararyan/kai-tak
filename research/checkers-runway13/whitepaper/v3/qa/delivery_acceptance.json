@@ -1,0 +1,12 @@
+{
+  "verified_utc": "2026-10-13T16:55:50.937551+00:00",
+  "required_deliverables_present": 25,
+  "claim_sources_resolve": 51,
+  "bibliography_entries_cited": 14,
+  "printed_coefficient_rows_checked": 31,
+  "printed_phase_durations_checked": 4,
+  "final_document_receipts_bound_to_pdf": true,
+  "clean_rebuild_text_and_pixels_identical": true,
+  "both_scenario_certificates_pass_original_and_clean": true,
+  "pdf_sha256": "c517517899088cb72a82be5f76e73767846aab3925fd0d418a6f13cf14959ea3"
+}

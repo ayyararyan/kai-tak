@@ -1,0 +1,52 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=23mm,top=23mm,bottom=22mm,headheight=15pt]{geometry}
+\usepackage{fontspec}
+\setmainfont{texgyrepagella}[Extension=.otf,UprightFont=*-regular,BoldFont=*-bold,ItalicFont=*-italic,BoldItalicFont=*-bolditalic]
+\setsansfont{texgyreheros}[Extension=.otf,UprightFont=*-regular,BoldFont=*-bold,ItalicFont=*-italic,BoldItalicFont=*-bolditalic]
+\usepackage{unicode-math}\setmathfont{texgyrepagella-math.otf}
+\usepackage{graphicx,booktabs,tabularx,longtable,array,amsmath,amsthm}
+\usepackage{xcolor,enumitem,microtype,fancyhdr,caption,float,titlesec,xurl}
+\usepackage[hidelinks,unicode]{hyperref}
+\definecolor{ink}{HTML}{304750}\definecolor{sage}{HTML}{687C69}\definecolor{copper}{HTML}{AF6843}\definecolor{paper}{HTML}{F4F2EC}
+\titleformat{\section}{\Large\bfseries\color{ink}}{}{0pt}{}
+\titleformat{\subsection}{\large\bfseries\color{ink}}{}{0pt}{}
+\setlength{\parindent}{0pt}\setlength{\parskip}{6pt plus 1pt minus 1pt}
+\setlength{\emergencystretch}{3em}\linespread{1.07}
+\setlist{nosep,leftmargin=1.4em}
+\captionsetup{font=small,labelfont={bf,color=ink},justification=raggedright,singlelinecheck=false,skip=6pt}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small\sffamily\color{ink}Checkers with Runway 13}\fancyhead[R]{\small\sffamily\color{sage}RESEARCH WHITE PAPER · V3}\fancyfoot[C]{\small\thepage}\renewcommand{\headrulewidth}{.3pt}
+\newcommand{\parthead}[2]{\section{\texorpdfstring{\textcolor{copper}{\small\sffamily PART #1}\quad #2}{Part #1 — #2}}}
+\newcommand{\fig}[4]{\begin{figure}[H]\centering\includegraphics[width=#2\textwidth]{figures/#1.pdf}\caption{#3}\label{#4}\end{figure}}
+\newcommand{\insight}[2]{\par\smallskip\noindent\textcolor{copper}{\textbf{#1}}\quad #2\par\smallskip}
+\newcommand{\R}{\mathbb R}\newtheorem{proposition}{Proposition}
+\hypersetup{pdftitle={Checkers with Runway 13},pdfauthor={Aryan Ayyar},pdfsubject={Research white paper, Version 3; mathematical and historical investigation of Kai Tak}}
+\begin{document}\raggedbottom
+\hypersetup{pageanchor=false}
+\begin{titlepage}\thispagestyle{empty}
+{\sffamily\small\color{sage}INDEPENDENT RESEARCH WHITE PAPER\hfill VERSION 3 · 13 OCTOBER 2026\par}
+\vspace{14mm}
+{\fontsize{37}{42}\selectfont\bfseries\color{ink}Checkers with\\Runway 13\par}
+\vspace{6mm}{\large Aryan Ayyar\par}
+\vspace{8mm}
+\includegraphics[width=\textwidth,height=110mm,keepaspectratio]{figures/09_complete_calm.pdf}\par
+\vspace{5mm}
+{\Large\color{ink}How could a 747 turn over Kowloon,\\find the runway, and still have room to stop?\par}
+\vspace{5mm}
+A historical investigation and an explicit mathematical landing, with the boundary between the two kept visible.
+\vfill
+{\small Cover: the project's calm-air mathematical reference, not a recovered historical flight. Editable sources, figure inputs and verification accompany this edition. Independent working white paper; not peer reviewed or operational flight guidance. The author's foreword is marked for review.\par}
+\end{titlepage}
+\hypersetup{pageanchor=true}\setcounter{page}{2}
+\input{sections/foreword.tex}
+\input{sections/summary.tex}
+\input{sections/part1.tex}
+\input{sections/part2.tex}
+\input{sections/part3.tex}
+\input{sections/part4.tex}
+\input{sections/part5.tex}
+\input{sections/part6.tex}
+\input{sections/part7.tex}
+\input{sections/part8.tex}
+\input{appendices.tex}
+\clearpage\begingroup\small\bibliographystyle{unsrt}\bibliography{references}\endgroup
+\end{document}

@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
   "archive_version": "1.0.0",
-  "status": "candidate",
+  "status": "published",
   "title": "Kai Tak Historical Research Archive — Data Release v1.0.0",
   "source_commit": "128f7006e8c929a878bd80bdf84521a97c45ee30",
-  "release_date": null,
+  "release_date": "2026-10-13",
   "doi": null,
   "concept_doi": null,
   "complete_historical_archive": false,
@@ -15,7 +15,7 @@
       "sha256": "9e8782985920d2e9f1209329d19d5dfd89bc0b49205cf3751c77b919eb7f86f6",
       "files": 275,
       "unpacked_bytes": 653947852,
-      "url": null,
+      "url": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-01.tar.gz",
       "collection_id": "01",
       "manifest": "collections/01.json"
     },
@@ -25,7 +25,7 @@
       "sha256": "947d26b3005be47d72012786bd39809efb96fc1c852b2c77587cc2d088d063a9",
       "files": 133,
       "unpacked_bytes": 585395032,
-      "url": null,
+      "url": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-02.tar.gz",
       "collection_id": "02",
       "manifest": "collections/02.json"
     },
@@ -35,7 +35,7 @@
       "sha256": "cd43d6166701c6f032480499a9d05237f032cd02e71be955c3df26269b95b803",
       "files": 3,
       "unpacked_bytes": 52430150,
-      "url": null,
+      "url": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-03.tar.gz",
       "collection_id": "03",
       "manifest": "collections/03.json"
     },
@@ -45,7 +45,7 @@
       "sha256": "00f45fc60ae87dcbc2da31b73fa74ff7bf7da6fa230041c43b165b3d2b46a442",
       "files": 1,
       "unpacked_bytes": 127633,
-      "url": null,
+      "url": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-05.tar.gz",
       "collection_id": "05",
       "manifest": "collections/05.json"
     },
@@ -55,7 +55,7 @@
       "sha256": "94876e2dab67575f2558d7027482f76727c95fd3be2d08cffaf192d14e1489e9",
       "files": 6,
       "unpacked_bytes": 13882760,
-      "url": null,
+      "url": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-06.tar.gz",
       "collection_id": "06",
       "manifest": "collections/06.json"
     }
@@ -22867,5 +22867,9 @@
     "Restricted sources listed in catalogue; not bundled",
     "No original-work license grants activated"
   ],
-  "rights_notice": "Source-specific terms remain; no institutional endorsement; see archive/licensing/ATTRIBUTION.md"
+  "rights_notice": "Source-specific terms remain; no institutional endorsement; see archive/licensing/ATTRIBUTION.md",
+  "release_tag": "archive-v1.0.0",
+  "release_url": "https://github.com/ayyararyan/kai-tak/releases/tag/archive-v1.0.0",
+  "publication_authorized": true,
+  "scope": "Frozen permitted-data subset; full historical provenance/reuse remains incomplete. No new original-work license grant."
 }

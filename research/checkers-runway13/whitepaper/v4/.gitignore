@@ -1,0 +1,16 @@
+# V4 build scratch; never a publication payload.
+.venv/
+__pycache__/
+.pytest_cache/
+main.pdf
+main.aux
+main.bbl
+main.blg
+main.log
+main.out
+qa/*.log
+qa/paper-text.txt
+qa/paper-poppler.txt
+qa/pages/
+qa/page-pair-*.jpg
+check_pdf_v3_reference.py

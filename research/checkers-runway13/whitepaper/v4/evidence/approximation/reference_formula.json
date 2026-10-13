@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "scene_id": "synthetic-v1-empty-obstacles-fixed-certified-witness",
+  "scope": "fixed synthetic research witness; not conditional policy or operational guidance",
+  "source_sha256": {
+    "model/config.json": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693",
+    "model/trajectory.py": "9b557ce07c7e8f177b0b3cfac1765c1c9aec4997e28b52d3185ad533f7cf3f6a",
+    "analytical/verify_full_landing_analysis.py": "fbe4067189ab78a6f1f6d4c4e8a4ac7d639dbe10c43c550d1bb37ba794202f90",
+    "analytical/coupled/certify_candidate.py": "028eb9c2b39041793ff8d8973abd9e92682325e628ea9da375dc1361b963777f",
+    "analytical/coupled/continuous_certificate_refined.json": "774f34ad182a5015eeed799c910cde01eb6b297c1b4e6c4a119582b0d83db973"
+  },
+  "certificate_point_cloud_sha256": "37575749333a7b020502769879776114a8baa5c4b25763eb261d6ee015db3b3e",
+  "q_real_decimal": [
+    "37.337760643281456",
+    "4.000000000000006",
+    "313.4921811580115",
+    "77.88805495981877",
+    "15.172813624429024",
+    "-20.29817480384148",
+    "24.362541594286046",
+    "6.9090939409897345",
+    "47.38635799396797",
+    "-0.8615901296614769",
+    "-0.03970075168442478",
+    "-0.2013821922472532"
+  ],
+  "coordinate_frame": "x forward from displaced threshold, y right, z above runway; not georeferenced",
+  "time_origin": "scenario entry, before threshold; not beginning of entire real approach",
+  "airborne_formula": "r_i(s)=sum_{k=0}^7 c_ik*s^k; s=(t-t0)/T; derivative j = sum_{k=j}^7 c_ik*k!/(k-j)!*s^(k-j)/T^j",
+  "coefficient_order": "ascending powers in dimensionless s; each coefficient has unit metre",
+  "coefficient_evidence": "floating evaluation of exact Hermite/bump formula; not rounded-coefficient interval certification",
+  "phases": [
+    {
+      "name": "approach",
+      "start_s": 0.0,
+      "duration_s": 37.337760643281456,
+      "coefficients_xyz_m": [
+        [
+          -2500.0,
+          2017.9112956851186,
+          0.0,
+          3413.9292942790535,
+          -10204.99995335449,
+          14739.635372583049,
+          -10064.64238408444,
+          2598.1663748917094
+        ],
+        [
+          1000.0,
+          -2163.944933098086,
+          0.0,
+          4100.69024839948,
+          -4778.257389770894,
+          1189.8046753870922,
+          1536.071423529094,
+          -884.364024446686
+        ],
+        [
+          140.0,
+          -160.24403528424745,
+          0.0,
+          3438.0222407732413,
+          -9897.948219629578,
+          9803.845767246206,
+          -3418.7192897022915,
+          110.28353659666904
+        ]
+      ]
+    },
+    {
+      "name": "flare",
+      "start_s": 37.337760643281456,
+      "duration_s": 4.000000000000006,
+      "coefficients_xyz_m": [
+        [
+          0.0,
+          314.6612434330239,
+          0.0,
+          -1.7953764829343304,
+          3.3953132923579705,
+          -5.309847192239262,
+          2.540848107803186,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          15.24,
+          -17.041443787549866,
+          0.0,
+          -51.839797578524994,
+          111.33383061107367,
+          -70.581049548823,
+          12.888460303824205,
+          0.0
+        ]
+      ]
+    }
+  ],
+  "ground_formula": "tau=t-(Ta+Tf); x=xTD+u*tau for 0<=tau<=d; x=xTD+u*d+u*(tau-d)-a*(tau-d)^2/2 for d<=tau<=d+u/a; y=z=0",
+  "ground_contact": "inelastic removal of vertical velocity at touchdown; fixed constant-speed delay then constant deceleration",
+  "scalar_inputs": {
+    "touchdown_x_m": 313.4921811580115,
+    "touchdown_speed_mps": 77.88805495981877,
+    "brake_delay_s": 2,
+    "brake_deceleration_mps2": 1.4709975,
+    "runway_length_m": 2786,
+    "approach_s": 37.337760643281456,
+    "flare_s": 4.000000000000006
+  },
+  "scalar_formulas": {
+    "approach_s": "Ta",
+    "flare_s": "Tf",
+    "touchdown_time_s": "Ta+Tf",
+    "touchdown_x_m": "xTD",
+    "touchdown_speed_mps": "u",
+    "brake_delay_s": "d",
+    "braking_s": "u/a",
+    "ground_roll_s": "d+u/a",
+    "delay_distance_m": "u*d",
+    "braking_distance_m": "u^2/(2*a)",
+    "ground_roll_m": "u*d+u^2/(2*a)",
+    "total_runway_consumed_m": "xTD+u*d+u^2/(2*a)",
+    "runway_remaining_m": "L-xTD-u*d-u^2/(2*a)",
+    "entry_to_stop_s": "Ta+Tf+d+u/a",
+    "threshold_to_stop_s": "Tf+d+u/a"
+  },
+  "conditional_policy_status": "unresolved",
+  "historical_clearance_status": "blocked",
+  "near_optimality_status": "unresolved; prior 0.03972 bound withdrawn"
+}

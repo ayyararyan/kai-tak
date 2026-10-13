@@ -1,6 +1,6 @@
 # 02 — Historical Buildings and Urban Geography
 
-Ayyar, Aryan (2026). Historical Buildings and Urban Geography. The Kai Tak Historical Research Archive, candidate v1.0.0, collection 02. **Unpublished candidate; no DOI assigned.**
+Ayyar, Aryan (2026). Historical Buildings and Urban Geography. The Kai Tak Historical Research Archive, v1.0.0, collection 02. **Published permitted-data release; no DOI assigned.**
 
 358 catalogued artifacts; 133 verified-permitted files selected for the new data bundle. Other entries remain available as source references, existing Git research or explicitly restricted dependencies.
 
@@ -17,7 +17,7 @@ Ayyar, Aryan (2026). Historical Buildings and Urban Geography. The Kai Tak Histo
 - CRS / vertical datum: EPSG:4326 export / HKPD.
 - Limitations: TopHeight is absolute elevation above HKPD, not height to add to terrain; DateCreate denotes database polygon creation, not construction; Original invalid geometries/nulls retained
 - Source links: [source 1](https://portal.csdi.gov.hk/csdi-webpage/metadata/landsd_rcd_1637211194312_35158/html), [source 2](https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=landsd_rcd_1637211194312_35158&format=geojson&layer_name=Building)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 2 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 2 matched permitted files.
 
 ## Building documentary chronology source tables
 
@@ -30,7 +30,7 @@ Ayyar, Aryan (2026). Historical Buildings and Urban Geography. The Kai Tak Histo
 - CRS / vertical datum: not applicable or unresolved / not applicable or unresolved.
 - Limitations: 52,552 works OP-date entries in 2019/2020; 52,202 CSUIDs conflict with linked permit dates; No silent repair; both source values retained
 - Source links: [source 1](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000), [source 2](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002), [source 3](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003), [source 4](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 123 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 123 matched permitted files.
 
 ## Date-specific building documentary classifications
 
@@ -43,7 +43,7 @@ Ayyar, Aryan (2026). Historical Buildings and Urban Geography. The Kai Tak Histo
 - CRS / vertical datum: not applicable or unresolved / not applicable or unresolved.
 - Limitations: Completion evidence does not prove unchanged shape or target-date survival; Zero additional vanished identities; not a demolished-building census
 - Source links: [source 1](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000), [source 2](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002), [source 3](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003), [source 4](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004), [source 5](https://portal.csdi.gov.hk/csdi-webpage/metadata/landsd_rcd_1637211194312_35158/html), [source 6](https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=landsd_rcd_1637211194312_35158&format=geojson&layer_name=Building), [source 7](https://github.com/ayyararyan/kai-tak)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.
 
 ## Visually inspected historical mapped faces
 
@@ -56,7 +56,7 @@ Ayyar, Aryan (2026). Historical Buildings and Urban Geography. The Kai Tak Histo
 - CRS / vertical datum: EPSG:4326 exports and EPSG:2326 source grid / No heights identified.
 - Limitations: Faces may be aggregates/partial outlines, not whole buildings; Historical base/top elevations and volumes remain null; No presence certification on 1993-11-04
 - Source links: [source 1](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1631584892859_72892/FeatureServer), [source 2](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1639990901210_47291/FeatureServer), [source 3](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047202071_61921/FeatureServer), [source 4](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047456225_68329/FeatureServer), [source 5](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1671592436814_1059/FeatureServer), [source 6](https://github.com/ayyararyan/kai-tak)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.
 
 ## Historical map content matching queue
 
@@ -69,7 +69,7 @@ Ayyar, Aryan (2026). Historical Buildings and Urban Geography. The Kai Tak Histo
 - CRS / vertical datum: EPSG:2326 local matching / not applicable or unresolved.
 - Limitations: Every automated pair still requires identity interpretation; Map regions include text, roads and courtyards; not automatically vanished buildings
 - Source links: [source 1](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1631584892859_72892/FeatureServer), [source 2](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1639990901210_47291/FeatureServer), [source 3](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047202071_61921/FeatureServer), [source 4](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047456225_68329/FeatureServer), [source 5](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1671592436814_1059/FeatureServer), [source 6](https://portal.csdi.gov.hk/csdi-webpage/metadata/landsd_rcd_1637211194312_35158/html), [source 7](https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=landsd_rcd_1637211194312_35158&format=geojson&layer_name=Building), [source 8](https://github.com/ayyararyan/kai-tak)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.
 
 ## Dated historical source observations and obstacles
 
@@ -82,7 +82,7 @@ Ayyar, Aryan (2026). Historical Buildings and Urban Geography. The Kai Tak Histo
 - CRS / vertical datum: not applicable or unresolved / not applicable or unresolved.
 - Limitations: No complete historical obstacle envelope; Unknown is not empty/clear space
 - Source links: [source 1](https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf), [source 2](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1631584892859_72892/FeatureServer), [source 3](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1639990901210_47291/FeatureServer), [source 4](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047202071_61921/FeatureServer), [source 5](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047456225_68329/FeatureServer), [source 6](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1671592436814_1059/FeatureServer), [source 7](https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA), [source 8](https://github.com/ayyararyan/kai-tak)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.
 
 ## Historical Buildings and Urban Geography — supporting and unclassified artifacts
 
@@ -95,4 +95,4 @@ Ayyar, Aryan (2026). Historical Buildings and Urban Geography. The Kai Tak Histo
 - CRS / vertical datum: not applicable or unresolved / not applicable or unresolved.
 - Limitations: Directory classification is navigational, not a verified source or transformation chain.
 - Source links: Not established; see unresolved source record.
-- Reuse: source-specific; consult artifact decisions. New candidate includes 8 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 8 matched permitted files.

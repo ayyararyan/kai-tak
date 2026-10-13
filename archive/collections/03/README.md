@@ -1,6 +1,6 @@
 # 03 — Terrain and Geospatial Data
 
-Ayyar, Aryan (2026). Terrain and Geospatial Data. The Kai Tak Historical Research Archive, candidate v1.0.0, collection 03. **Unpublished candidate; no DOI assigned.**
+Ayyar, Aryan (2026). Terrain and Geospatial Data. The Kai Tak Historical Research Archive, v1.0.0, collection 03. **Published permitted-data release; no DOI assigned.**
 
 47 catalogued artifacts; 3 verified-permitted files selected for the new data bundle. Other entries remain available as source references, existing Git research or explicitly restricted dependencies.
 
@@ -17,7 +17,7 @@ Ayyar, Aryan (2026). Terrain and Geospatial Data. The Kai Tak Historical Researc
 - CRS / vertical datum: EPSG:2326 / HKPD.
 - Limitations: 2014–2015, not 1993 terrain; Includes some vegetation/bridges, not strict bare earth; ±5m at 90% is source specification, not hard clearance bound; Populated water cells are not a land mask
 - Source links: [source 1](https://www.landsd.gov.hk/en/spatial-data/open-data/kf_dtm.html), [source 2](https://www.landsd.gov.hk/landsd_psi_data/SMO/data/Whole_HK_DTM_5m.zip)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 3 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 3 matched permitted files.
 
 ## Coordinate/datum documentation and diagnostics
 
@@ -30,7 +30,7 @@ Ayyar, Aryan (2026). Terrain and Geospatial Data. The Kai Tak Historical Researc
 - CRS / vertical datum: EPSG:2326 / geographic / runway-relative distinctions / HKPD versus historical aviation AMSL unresolved.
 - Limitations: Numerical transform checks do not validate historical runway placement; 77.62–81.54 m discrepancy concerns direct threshold vs pavement-end back-projection, not two surveyed thresholds; 61 m endpoint offset is an unaccepted hypothesis
 - Source links: [source 1](https://www.geodetic.gov.hk/common/data/parameter/7P_ITRF96_HK80_V1.pdf), [source 2](https://www.ais.gov.hk/eaip_20261001/2026-10-01-000000/html/eAIP/VH-GEN-2.1-en-US.html), [source 3](https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf), [source 4](https://github.com/ayyararyan/kai-tak)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.
 
 ## Terrain and Geospatial Data — supporting and unclassified artifacts
 
@@ -43,4 +43,4 @@ Ayyar, Aryan (2026). Terrain and Geospatial Data. The Kai Tak Historical Researc
 - CRS / vertical datum: not applicable or unresolved / not applicable or unresolved.
 - Limitations: Directory classification is navigational, not a verified source or transformation chain.
 - Source links: Not established; see unresolved source record.
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.

@@ -85,6 +85,17 @@ class MetadataTests(unittest.TestCase):
         report = archive_validate.validate(self.root)
         self.assertEqual(report['errors'], [])
 
+    def test_published_release_requires_real_identity_and_urls(self):
+        self.mutate('releases/v1.0.0/manifest.json', lambda x: x.update(status='published'))
+        self.fails('published-release-identity')
+        def publish(x):
+            x.update(release_tag='archive-v1.0.0', release_url='https://github.com/ayyararyan/kai-tak/releases/tag/archive-v1.0.0', release_date='2026-10-13', publication_authorized=True)
+            x['assets'][0]['url']='https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/'+x['assets'][0]['name']
+        self.mutate('releases/v1.0.0/manifest.json', publish)
+        self.assertEqual(archive_validate.validate(self.root)['errors'], [])
+        self.mutate('releases/v1.0.0/manifest.json', lambda x: x['assets'][0].update(url='https://wrong.invalid/data'))
+        self.fails('published-asset-urls')
+
     def test_wrong_master_manifest_path(self):
         self.mutate('releases/v1.0.0/manifest.json', lambda x: x['assets'][0].update(manifest='collections/03.json'))
         self.fails('asset-collection-binding:05')

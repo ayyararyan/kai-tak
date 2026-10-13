@@ -4,11 +4,13 @@
   "versions": [
     {
       "version": "1.0.0",
-      "status": "unpublished-candidate",
-      "publication_date": null,
+      "status": "published",
+      "publication_date": "2026-10-13",
       "doi": null,
       "manifest": "v1.0.0/manifest.json",
-      "changes": "Initial additive catalogue, rights/provenance audit, safe fetch tools, five permitted-data bundles and preserved known discrepancies."
+      "changes": "Initial additive catalogue, rights/provenance audit, safe fetch tools, five permitted-data bundles and preserved known discrepancies.",
+      "release_url": "https://github.com/ayyararyan/kai-tak/releases/tag/archive-v1.0.0",
+      "release_tag": "archive-v1.0.0"
     }
   ],
   "historical_tags_are_separate": [

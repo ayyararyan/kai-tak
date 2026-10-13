@@ -1,6 +1,6 @@
 # 08 — Research Figures and Visualizations
 
-Ayyar, Aryan (2026). Research Figures and Visualizations. The Kai Tak Historical Research Archive, candidate v1.0.0, collection 08. **Unpublished candidate; no DOI assigned.**
+Ayyar, Aryan (2026). Research Figures and Visualizations. The Kai Tak Historical Research Archive, v1.0.0, collection 08. **Published permitted-data release; no DOI assigned.**
 
 25 catalogued artifacts; 0 verified-permitted files selected for the new data bundle. Other entries remain available as source references, existing Git research or explicitly restricted dependencies.
 
@@ -17,7 +17,7 @@ Ayyar, Aryan (2026). Research Figures and Visualizations. The Kai Tak Historical
 - CRS / vertical datum: not applicable or unresolved / not applicable or unresolved.
 - Limitations: Authored plot rights separate from underlying data/embedded source imagery; PDF timestamp metadata can vary on rebuild
 - Source links: [source 1](https://github.com/ayyararyan/kai-tak)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.
 
 ## Offline reconstruction viewers
 
@@ -30,7 +30,7 @@ Ayyar, Aryan (2026). Research Figures and Visualizations. The Kai Tak Historical
 - CRS / vertical datum: not applicable or unresolved / not applicable or unresolved.
 - Limitations: Embedded maps/photos inherit underlying source restrictions; Browser interaction previously unverified; Do not combine relative-plane historical and HKPD modern heights
 - Source links: [source 1](https://github.com/ayyararyan/kai-tak), [source 2](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1631584892859_72892/FeatureServer), [source 3](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1639990901210_47291/FeatureServer), [source 4](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047202071_61921/FeatureServer), [source 5](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047456225_68329/FeatureServer), [source 6](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1671592436814_1059/FeatureServer), [source 7](https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA), [source 8](https://portal.csdi.gov.hk/csdi-webpage/metadata/landsd_rcd_1637211194312_35158/html), [source 9](https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=landsd_rcd_1637211194312_35158&format=geojson&layer_name=Building)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.
 
 ## Research Figures and Visualizations — supporting and unclassified artifacts
 
@@ -43,4 +43,4 @@ Ayyar, Aryan (2026). Research Figures and Visualizations. The Kai Tak Historical
 - CRS / vertical datum: not applicable or unresolved / not applicable or unresolved.
 - Limitations: Directory classification is navigational, not a verified source or transformation chain.
 - Source links: Not established; see unresolved source record.
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.

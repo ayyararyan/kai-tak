@@ -1,0 +1,67 @@
+\parthead{III}{The mathematics of the impossible-looking turn}\label{part:3}
+\subsection*{A large change of direction need not mean a large bank}
+In a steady, coordinated, level turn in still air, lift $\mathcal L$ must support weight and provide centripetal acceleration. If $\phi$ is bank angle, $V$ airspeed and $R$ turn radius,
+\begin{equation}
+\mathcal L\cos\phi=mg,\qquad \mathcal L\sin\phi=\frac{mV^2}{R}
+\quad\Longrightarrow\quad R=\frac{V^2}{g\tan\phi}.
+\label{eq:turn}
+\end{equation}
+Mass cancels from this ideal geometric relation. It has not disappeared from the lift, stall, structural or thrust requirements of the aircraft.
+
+\fig{05_turn_physics}{1}{Radius and time to change direction by $47^\circ$, computed from equation~\eqref{eq:turn}, $t=R\Delta\psi/V$, and $g=9.80665$ m/s$^2$. Speeds 70, 78 and 85 m/s are illustrative true airspeeds. Constant-speed, level, coordinated turns; instantaneous entry into bank is not modelled. These curves are explanatory benchmarks, not Kai Tak flight reconstructions.}{fig:turn}
+
+At 78 m/s and $15^\circ$ bank, the ideal radius is 2,315 m. A $47^\circ$ change takes 24.35 s and 1,899 m of arc. The associated load factor is $1/\cos15^\circ=1.0353$. The example explains how a visually substantial direction change can accumulate under a moderate bank, provided enough space and time are available. It does not show that this particular arc fits the historical approach.
+
+\insight{Insight 2: direction change is accumulated}{The wings need not bank by the desired final change of heading. Bank produces a turn rate, $\dot\psi=g\tan\phi/V$; integrating that rate produces the heading change. Roll-in and roll-out consume additional time and alter the geometry.}
+
+The real research candidate allows speed, descent and bank to vary together. The simple formula is a way into that coupled problem, not a substitute for it.
+\par\medskip
+\subsection*{The air and the ground do not agree on velocity}
+An aircraft responds aerodynamically to its motion through air. A runway measures the aircraft's motion over the ground. For constant wind velocity $\mathbf w$,
+\begin{equation}
+\underbrace{\dot{\mathbf r}}_{\text{ground velocity}}
+=\underbrace{V\mathbf e_V}_{\text{air velocity}}+\underbrace{\mathbf w}_{\text{wind velocity}}.
+\label{eq:wind}
+\end{equation}
+The direction of $\dot{\mathbf r}$ is ground track; the horizontal direction of $\mathbf e_V$ is air heading. In a crosswind, maintaining a runway-aligned track can require a heading offset. A ground-track change of $47^\circ$ does not prescribe the same air-heading change in every wind.
+
+\fig{06_wind_vectors}{1}{Left: horizontal velocity triangle at the wind candidate's touchdown. Forward/right axes are runway-relative; the right axis increases down the panel. Right: projection of the same steady wind onto changing track directions, from $-47^\circ$ to runway alignment. Source: frozen wind input and endpoint state. Wind is \emph{from} $070^\circ$ true at 21 kt; assumed runway bearing is $133^\circ10'$ true. The plot describes constant wind, not recovered gusts.}{fig:wind}
+
+Using the chart convention $135^\circ$ magnetic minus $1^\circ50'$ west variation gives a true runway bearing of $133^\circ10'$. Meteorological wind bearings state where wind comes \emph{from}, so a minus sign is required when forming its velocity vector. In forward/right/up coordinates, the stipulated wind is approximately $(-4.877,9.640,0)$ m/s.
+
+At the $-47^\circ$ entry track its along-track component is $-10.376$ m/s and its right-cross-track component 3.008 m/s. At runway alignment those components become $-4.877$ and 9.640 m/s. The atmosphere has not changed in this calculation; the aircraft's direction has.
+
+\insight{Insight 3: a steady wind can become a different problem during the turn}{Rotating the track rotates the headwind/crosswind decomposition. Direction matters alongside speed. This geometric result does not quantify a pilot's control workload or gust response, which requires additional dynamics and information assumptions.}
+\par\medskip
+\subsection*{Turning is only one use of the available motion}
+The aircraft must also descend, change speed and settle onto the runway. In a simple straight, still-air descent, vertical speed is $V\sin\gamma$, where $\gamma$ is the flight-path angle. At 78 m/s and $-3.1^\circ$, this is about $-4.22$ m/s. Continuing that sink rate to the ground would not satisfy this model's $-0.7$ m/s touchdown target; the flare must change the vertical motion.
+
+\fig{07_calm_profiles}{.85}{The calm-air witness evaluated from its frozen approach and flare polynomials. Height is above the model runway; positive vertical speed denotes climb. The dotted line is threshold crossing, after 37.34 s. Horizontal ground speed is shown in knots. Source: \texttt{reference\_formula.json}; no historical trace is fitted and no smoothing is applied to hide the brief rise.}{fig:calmprofiles}
+
+In still air, the mechanical energy $E=\tfrac12mV^2+mgh$ satisfies $\dot E=(\mathcal T-D)V$ in the coordinated point-mass model: thrust adds energy, drag removes it, and descent exchanges height for speed unless that energy is dissipated. Lift turns the velocity without doing work along it. The flare must therefore manage vertical motion without ignoring speed and thrust.
+
+A smooth position curve is not automatically a feasible aircraft motion. Its first derivative is velocity; its second is acceleration. Those accelerations determine required lift and thrust. Their changes can demand rapid bank-angle motion or thrust changes, so the third derivative, jerk, matters too. A path with a neat shape can fail through an excessive rate requirement.
+
+The model joins its approach and flare with continuous position, velocity and acceleration. It checks one-sided control rates at the join rather than averaging a discontinuity away. At touchdown, it explicitly changes to a ground-contact rule; it does not pretend that the airborne vertical dynamics continue unchanged through the runway.
+
+There is also an instructive feature in Figure~\ref{fig:calmprofiles}: altitude briefly rises. The frozen model restricts steep descent but does not require monotonic descent. Removing the rise because it looks unconventional would change the scientific problem. The same limitation is disclosed for the wind candidate. Neither is presented as a standard piloting procedure.
+\par\medskip
+\subsection*{The last calculation is a quadratic}
+Let $x_D$ be touchdown distance beyond the usable threshold, $u$ forward ground speed, $d$ a delay before braking and $a>0$ constant deceleration thereafter. The stipulated full-stop station is
+\begin{equation}
+S=x_D+\underbrace{ud}_{\text{delay travel}}+\underbrace{\frac{u^2}{2a}}_{\text{braking travel}},\qquad R=L-S.
+\label{eq:stop}
+\end{equation}
+Here $R$ is runway remaining and $L=2786$ m. The model fixes $d=2$ s, $a=0.15g=1.4709975$ m/s$^2$, and requires $R\geq150$ m. These are illustrative braking assumptions, not certified wet-runway performance.
+
+\fig{08_stopping}{1}{Left: calm-witness runway allocation, independently recalculated from the frozen scalar inputs. Right: latest touchdown compatible with 150 m reserve under equation~\eqref{eq:stop}; the shaded region satisfies this scalar inequality only, within the displayed range. The star is the calm witness. Airborne feasibility, tire/runway physics and historical braking states are not established by this plot.}{fig:stopping}
+
+\insight{Insight 4: ten per cent more speed means twenty-one per cent more braking distance}{With $a$ fixed, $(1.1u)^2/u^2=1.21$. Delay travel grows only linearly. The speed increase must still be feasible in the airborne model; this is a conditional sensitivity, not an instruction to alter approach speed.}
+
+At the calm witness, $u=77.888$ m/s: delay consumes 155.78 m and braking 2,062.05 m. The local derivatives make the coupling tangible:
+\begin{equation}
+\frac{\partial R}{\partial u}=-d-\frac{u}{a}\approx-54.95\ \frac{\mathrm m}{\mathrm{m/s}},
+\qquad \frac{\partial R}{\partial d}=-u\approx-77.89\ \frac{\mathrm m}{\mathrm s}.
+\end{equation}
+An additional second of delay costs roughly 78 m at fixed touchdown speed. Reaching the threshold is therefore not a complete answer to the landing problem. The terminal speed and position are commitments about how the remaining runway will be used.
+\par\medskip

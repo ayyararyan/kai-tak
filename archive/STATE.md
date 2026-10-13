@@ -1,3 +1,11 @@
+# Current publication state
+
+Latest explicit instruction: **“Let’s publish it now”**, 2026-10-13. GitHub archive publication is authorized; no new original-work license choice is inferred. Publisher owns staging and release uploads from the isolated archive worktree. Current main 7c47f76 is merged preserving accepted v3/v4 research bytes; only README/archive navigation, privacy ignore rules and publication metadata are reconciled. Private authorised enquiries remain excluded. Five data bundles retain the reviewed hashes and 418-member set. Public tag: `archive-v1.0.0`. DOI/Zenodo and new license grants remain unperformed.
+
+Current operational stage: local freeze, draft upload, immutable publication, then remote readback/restore. Do not claim completion before verification. The preparation ledger below is historical; the latest section overrides its old authorization state.
+
+---
+
 # Archive task state
 
 Canonical specification: ARCHIVE_SPEC.md; full normative request: requirements/AUTHORIZED_REQUEST.md.

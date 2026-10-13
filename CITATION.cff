@@ -2,7 +2,7 @@ cff-version: 1.2.0
 type: dataset
 message: >-
   Cite the exact archive version and collection/dataset identifier. Version 1.0.0
-  is an unpublished candidate; no DOI has been registered. The white paper is
+  is the published permitted-data release; no DOI has been registered. The white paper is
   a separate research publication.
 title: The Kai Tak Historical Research Archive
 version: 1.0.0
@@ -12,7 +12,7 @@ authors:
 abstract: >-
   Historical Geography, Aviation Evidence, Flight Dynamics and Mathematical
   Reconstructions of Hong Kong's Kai Tak Airport. Source-specific rights and
-  explicit scientific limitations apply. Candidate metadata do not grant licenses.
+  explicit scientific limitations apply. Metadata do not grant new licenses.
 repository-code: https://github.com/ayyararyan/kai-tak
 url: https://github.com/ayyararyan/kai-tak
 keywords:
@@ -22,3 +22,4 @@ keywords:
   - aviation history
   - flight dynamics
   - research data
+date-released: 2026-10-13

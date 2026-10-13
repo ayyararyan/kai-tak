@@ -1,6 +1,6 @@
 # Archive versions and schema
 
-Series: **Kai Tak Historical Research Archive — Data Release v1.0.0**. Current status: unpublished candidate. Schema: 1.0.0. It is independent of paper v1/v2, model v1, historical capture dates and prior snapshot/integration tags.
+Series: **Kai Tak Historical Research Archive — Data Release v1.0.0**. Current status: published permitted-data release. Schema: 1.0.0. It is independent of paper v1/v2, model v1, historical capture dates and prior snapshot/integration tags.
 
 - **Major:** backward-incompatible metadata/restoration-path changes or removal/redefinition of dataset identities.
 - **Minor:** additional collections/datasets or source revisions, preserving prior IDs and compatible schema; material scientific corrections should be at least a minor release.

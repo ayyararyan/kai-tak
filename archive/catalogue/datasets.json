@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "archive_version": "1.0.0",
-  "status": "candidate",
+  "status": "published",
   "datasets": [
     {
       "id": "kt-survey-index",
@@ -165,7 +165,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Historical survey-sheet index. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-survey-index. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Historical survey-sheet index. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-survey-index. No DOI assigned.",
       "rights_ids": [
         "rights.hk.old-survey-sheets"
       ],
@@ -178,7 +178,7 @@
       "creator": [
         "Lands Department, Government of HKSAR"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-01.tar.gz",
       "formats": [
         ".csv",
         ".geojson",
@@ -482,7 +482,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Acquired historical survey maps. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-survey-rasters. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Acquired historical survey maps. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-survey-rasters. No DOI assigned.",
       "rights_ids": [
         "rights.hk.old-survey-sheets"
       ],
@@ -495,7 +495,7 @@
       "creator": [
         "Lands Department, Government of HKSAR"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-01.tar.gz",
       "formats": [
         ".json",
         ".zip"
@@ -611,7 +611,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Historical aerial frame index. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-aerial-index. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Historical aerial frame index. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-aerial-index. No DOI assigned.",
       "rights_ids": [
         "rights.hk.hkms-index-preview"
       ],
@@ -624,7 +624,7 @@
       "creator": [
         "Lands Department, Government of HKSAR"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-01.tar.gz",
       "formats": [
         ".csv",
         ".json"
@@ -747,7 +747,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Acquired DAP-L0 full frames. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-aerial-fullframes. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Acquired DAP-L0 full frames. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-aerial-fullframes. No DOI assigned.",
       "rights_ids": [
         "rights.hk.dap-l0"
       ],
@@ -760,7 +760,7 @@
       "creator": [
         "Lands Department, Government of HKSAR"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-01.tar.gz",
       "formats": [
         ".jpg",
         ".json"
@@ -884,7 +884,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Additional aerial previews. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-aerial-previews. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Additional aerial previews. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-aerial-previews. No DOI assigned.",
       "rights_ids": [
         "rights.hk.hkms-index-preview"
       ],
@@ -897,7 +897,7 @@
       "creator": [
         "Lands Department, Government of HKSAR"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-01.tar.gz",
       "formats": [
         ".jpg",
         ".json"
@@ -983,7 +983,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Modern building footprints and local subset. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-modern-buildings. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Modern building footprints and local subset. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-modern-buildings. No DOI assigned.",
       "rights_ids": [
         "rights.hk.csdi-building"
       ],
@@ -996,7 +996,7 @@
       "creator": [
         "Lands Department, Government of HKSAR"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-02.tar.gz",
       "formats": [
         ".geojson"
       ],
@@ -1198,7 +1198,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Building documentary chronology source tables. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-building-chronology-source. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Building documentary chronology source tables. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-building-chronology-source. No DOI assigned.",
       "rights_ids": [
         "rights.hk.csdi-building"
       ],
@@ -1211,7 +1211,7 @@
       "creator": [
         "Lands Department / Buildings Department, Government of HKSAR"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-02.tar.gz",
       "formats": [
         ".json"
       ],
@@ -1313,7 +1313,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Date-specific building documentary classifications. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-building-date-classification. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Date-specific building documentary classifications. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-building-date-classification. No DOI assigned.",
       "rights_ids": [
         "rights.hk.csdi-building",
         "rights.original"
@@ -1329,7 +1329,7 @@
         "Lands Department, Government of HKSAR",
         "Aryan Ayyar"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-02.tar.gz",
       "formats": [
         ".csv",
         ".json",
@@ -1423,7 +1423,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Visually inspected historical mapped faces. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-historical-map-faces. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Visually inspected historical mapped faces. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-historical-map-faces. No DOI assigned.",
       "rights_ids": [
         "rights.hk.old-survey-sheets",
         "rights.original"
@@ -1438,7 +1438,7 @@
         "Lands Department, Government of HKSAR",
         "Aryan Ayyar"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-02.tar.gz",
       "formats": [
         ".geojson",
         ".json"
@@ -1728,7 +1728,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Historical map content matching queue. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-map-matching-candidates. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Historical map content matching queue. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-map-matching-candidates. No DOI assigned.",
       "rights_ids": [
         "rights.hk.csdi-building",
         "rights.hk.old-survey-sheets",
@@ -1745,7 +1745,7 @@
         "Lands Department, Government of HKSAR",
         "Aryan Ayyar"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-02.tar.gz",
       "formats": [
         ".csv",
         ".json"
@@ -1842,7 +1842,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Dated historical source observations and obstacles. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-historical-observations. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Dated historical source observations and obstacles. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-historical-observations. No DOI assigned.",
       "rights_ids": [
         "rights.cad.report-1-95",
         "rights.hk.dap-l0",
@@ -1861,7 +1861,7 @@
         "Lands Department, Government of HKSAR",
         "Aryan Ayyar"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-02.tar.gz",
       "formats": [
         ".csv",
         ".geojson",
@@ -1952,7 +1952,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). 5m DTM original and lossless raster derivatives. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-dtm5-original. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). 5m DTM original and lossless raster derivatives. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-dtm5-original. No DOI assigned.",
       "rights_ids": [
         "rights.hk.dtm5m"
       ],
@@ -1965,7 +1965,7 @@
       "creator": [
         "Lands Department, Government of HKSAR"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-03.tar.gz",
       "formats": [
         ".tif",
         ".zip"
@@ -2063,7 +2063,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Coordinate/datum documentation and diagnostics. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-geodetic-frame. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Coordinate/datum documentation and diagnostics. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-geodetic-frame. No DOI assigned.",
       "rights_ids": [
         "rights.cad.ais",
         "rights.cad.report-1-95",
@@ -2082,7 +2082,7 @@
         "Civil Aviation Department, Government of Hong Kong",
         "Aryan Ayyar"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-03.tar.gz",
       "formats": [
         ".html",
         ".json",
@@ -2175,7 +2175,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). CAD accident report source and extracted evidence. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-cad-report. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). CAD accident report source and extracted evidence. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-cad-report. No DOI assigned.",
       "rights_ids": [
         "rights.cad.report-1-95"
       ],
@@ -2188,7 +2188,7 @@
       "creator": [
         "Civil Aviation Department, Government of Hong Kong"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "Catalogue-only: source links and explicit rights/dependency exceptions; no collection bundle",
       "formats": [
         ".pdf",
         ".png",
@@ -2276,7 +2276,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). CAL605 flight chart digitizations. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-flight-digitizations. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). CAL605 flight chart digitizations. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-flight-digitizations. No DOI assigned.",
       "rights_ids": [
         "rights.cad.report-1-95",
         "rights.original"
@@ -2291,7 +2291,7 @@
         "Civil Aviation Department, Government of Hong Kong",
         "Aryan Ayyar"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "Catalogue-only: source links and explicit rights/dependency exceptions; no collection bundle",
       "formats": [
         ".csv",
         ".json"
@@ -2374,7 +2374,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). CAL605 rollout reconstruction. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-rollout-reconstruction. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). CAL605 rollout reconstruction. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-rollout-reconstruction. No DOI assigned.",
       "rights_ids": [
         "rights.cad.report-1-95",
         "rights.original"
@@ -2389,7 +2389,7 @@
         "Civil Aviation Department, Government of Hong Kong",
         "Aryan Ayyar"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "Catalogue-only: source links and explicit rights/dependency exceptions; no collection bundle",
       "formats": [
         ".csv",
         ".json"
@@ -2494,7 +2494,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Integrated runway, procedure and airframe prerequisites. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-integrated-aviation-geometry. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Integrated runway, procedure and airframe prerequisites. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-integrated-aviation-geometry. No DOI assigned.",
       "rights_ids": [
         "rights.boeing.manual-drawing",
         "rights.cad.report-1-95",
@@ -2513,7 +2513,7 @@
         "Lands Department, Government of HKSAR",
         "Aryan Ayyar"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "Catalogue-only: source links and explicit rights/dependency exceptions; no collection bundle",
       "formats": [
         ".geojson",
         ".json"
@@ -2591,7 +2591,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). NOAA 1993 historic Kai Tak observations. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-noaa-raw. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). NOAA 1993 historic Kai Tak observations. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-noaa-raw. No DOI assigned.",
       "rights_ids": [
         "rights.noaa.isd"
       ],
@@ -2604,7 +2604,7 @@
       "creator": [
         "NOAA/NCEI"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-05.tar.gz",
       "formats": [
         ".gz"
       ],
@@ -2688,7 +2688,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Decoded NOAA weather and quality-control tables. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-noaa-decoded. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Decoded NOAA weather and quality-control tables. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-noaa-decoded. No DOI assigned.",
       "rights_ids": [
         "rights.noaa.isd",
         "rights.original",
@@ -2705,7 +2705,7 @@
         "NOAA/NCEI",
         "Aryan Ayyar"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-05.tar.gz",
       "formats": [
         ".csv",
         ".json"
@@ -2796,7 +2796,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). CAL605 five-sensor wind printout transcription. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-wind-printout. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). CAL605 five-sensor wind printout transcription. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-wind-printout. No DOI assigned.",
       "rights_ids": [
         "rights.cad.report-1-95",
         "rights.original"
@@ -2811,7 +2811,7 @@
         "Civil Aviation Department, Government of Hong Kong",
         "Aryan Ayyar"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-05.tar.gz",
       "formats": [
         ".csv",
         ".json",
@@ -2912,7 +2912,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). A36142/A36143 historical stereo points. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-stereo-points. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). A36142/A36143 historical stereo points. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-stereo-points. No DOI assigned.",
       "rights_ids": [
         "rights.hk.dap-l0",
         "rights.hk.old-survey-sheets",
@@ -2929,7 +2929,7 @@
         "Lands Department, Government of HKSAR",
         "Aryan Ayyar"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-06.tar.gz",
       "formats": [
         ".csv",
         ".json",
@@ -3019,7 +3019,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Observed historical surface mesh. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-stereo-mesh. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Observed historical surface mesh. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-stereo-mesh. No DOI assigned.",
       "rights_ids": [
         "rights.hk.dap-l0",
         "rights.original"
@@ -3034,7 +3034,7 @@
         "Lands Department, Government of HKSAR",
         "Aryan Ayyar"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-06.tar.gz",
       "formats": [
         ".csv",
         ".glb",
@@ -3633,7 +3633,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Invalidated reconstruction evidence. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-invalidated-reconstructions. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Invalidated reconstruction evidence. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-invalidated-reconstructions. No DOI assigned.",
       "rights_ids": [
         "rights.hk.dap-l0",
         "rights.original"
@@ -3648,7 +3648,7 @@
         "Aryan Ayyar",
         "Lands Department, Government of HKSAR"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-06.tar.gz",
       "formats": [
         ".csv",
         ".geojson",
@@ -3760,7 +3760,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Declared synthetic landing model and scenario outputs. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-synthetic-model. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Declared synthetic landing model and scenario outputs. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-synthetic-model. No DOI assigned.",
       "rights_ids": [
         "rights.cad.report-1-95",
         "rights.original"
@@ -3775,7 +3775,7 @@
         "Aryan Ayyar",
         "Civil Aviation Department, Government of Hong Kong"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "Catalogue-only: source links and explicit rights/dependency exceptions; no collection bundle",
       "formats": [
         ".csv",
         ".json",
@@ -3879,7 +3879,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Restricted mathematical derivations and checks. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-restricted-analytical-results. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Restricted mathematical derivations and checks. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-restricted-analytical-results. No DOI assigned.",
       "rights_ids": [
         "rights.original"
       ],
@@ -3892,7 +3892,7 @@
       "creator": [
         "Aryan Ayyar"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "Catalogue-only: source links and explicit rights/dependency exceptions; no collection bundle",
       "formats": [
         ".json",
         ".md",
@@ -3994,7 +3994,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Calm-air continuous-family feasibility certificate. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-calm-air-certificate. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Calm-air continuous-family feasibility certificate. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-calm-air-certificate. No DOI assigned.",
       "rights_ids": [
         "rights.original"
       ],
@@ -4007,7 +4007,7 @@
       "creator": [
         "Aryan Ayyar"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "Catalogue-only: source links and explicit rights/dependency exceptions; no collection bundle",
       "formats": [
         ".csv",
         ".json",
@@ -4122,7 +4122,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Wind-conditioned full landing reference. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-wind-counterfactual. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Wind-conditioned full landing reference. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-wind-counterfactual. No DOI assigned.",
       "rights_ids": [
         "rights.cad.report-1-95",
         "rights.noaa.isd",
@@ -4139,7 +4139,7 @@
         "Civil Aviation Department, Government of Hong Kong",
         "NOAA/NCEI"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "Catalogue-only: source links and explicit rights/dependency exceptions; no collection bundle",
       "formats": [
         ".csv",
         ".json",
@@ -4248,7 +4248,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Authored scientific figures and plot inputs. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-scientific-figures. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Authored scientific figures and plot inputs. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-scientific-figures. No DOI assigned.",
       "rights_ids": [
         "rights.original"
       ],
@@ -4261,7 +4261,7 @@
       "creator": [
         "Aryan Ayyar"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "Catalogue-only: source links and explicit rights/dependency exceptions; no collection bundle",
       "formats": [
         ".csv",
         ".pdf",
@@ -4346,7 +4346,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Offline reconstruction viewers. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-reconstruction-viewers. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Offline reconstruction viewers. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-reconstruction-viewers. No DOI assigned.",
       "rights_ids": [
         "rights.hk.csdi-building",
         "rights.hk.dap-l0",
@@ -4365,7 +4365,7 @@
         "Lands Department, Government of HKSAR",
         "Lands Department, Government of HKSAR"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "Catalogue-only: source links and explicit rights/dependency exceptions; no collection bundle",
       "formats": [
         ".html"
       ],
@@ -4727,7 +4727,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Checkers with Runway 13 white papers. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-whitepapers. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Checkers with Runway 13 white papers. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-whitepapers. No DOI assigned.",
       "rights_ids": [
         "rights.original"
       ],
@@ -4740,7 +4740,7 @@
       "creator": [
         "Aryan Ayyar"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "Catalogue-only: source links and explicit rights/dependency exceptions; no collection bundle",
       "formats": [
         ".aux",
         ".csv",
@@ -4821,7 +4821,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Literature and source reference matrix. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-literature. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Literature and source reference matrix. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-literature. No DOI assigned.",
       "rights_ids": [
         "rights.original",
         "rights.unresolved"
@@ -4836,7 +4836,7 @@
         "Authors listed in SOURCE_MATRIX.csv",
         "Aryan Ayyar"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "Catalogue-only: source links and explicit rights/dependency exceptions; no collection bundle",
       "formats": [
         ".csv",
         ".json",
@@ -4925,7 +4925,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). Independent archival source leads. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-archival-finding-records. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). Independent archival source leads. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-archival-finding-records. No DOI assigned.",
       "rights_ids": [
         "rights.cad.report-1-95",
         "rights.grs.records",
@@ -4942,7 +4942,7 @@
         "Civil Aviation Department, Government of Hong Kong",
         "Aryan Ayyar"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "Catalogue-only: source links and explicit rights/dependency exceptions; no collection bundle",
       "formats": [
         ".json",
         ".md"
@@ -5029,7 +5029,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). All-Hong-Kong 1993 aerial index search. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-aerial-index-all-hk-1993. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). All-Hong-Kong 1993 aerial index search. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-aerial-index-all-hk-1993. No DOI assigned.",
       "rights_ids": [
         "rights.hk.hkms-index-preview"
       ],
@@ -5042,7 +5042,7 @@
       "creator": [
         "Lands Department, Government of HKSAR"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-01.tar.gz",
       "formats": [
         ".json"
       ],
@@ -5148,7 +5148,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). White-paper v1 frozen evidence snapshot. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-whitepaper-v1-frozen-evidence. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). White-paper v1 frozen evidence snapshot. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-whitepaper-v1-frozen-evidence. No DOI assigned.",
       "rights_ids": [
         "rights.original"
       ],
@@ -5161,7 +5161,7 @@
       "creator": [
         "Aryan Ayyar"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "Catalogue-only: source links and explicit rights/dependency exceptions; no collection bundle",
       "formats": [
         ".json",
         ".md"
@@ -5295,7 +5295,7 @@
       "related_publications": [
         "Checkers with Runway 13, v2 (frozen manuscript; no archive version equivalence)"
       ],
-      "citation": "Ayyar, Aryan (2026). White-paper v2 frozen evidence snapshot. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-whitepaper-v2-frozen-evidence. No DOI assigned.",
+      "citation": "Ayyar, Aryan (2026). White-paper v2 frozen evidence snapshot. The Kai Tak Historical Research Archive, v1.0.0, dataset kt-whitepaper-v2-frozen-evidence. No DOI assigned.",
       "rights_ids": [
         "rights.original"
       ],
@@ -5308,7 +5308,7 @@
       "creator": [
         "Aryan Ayyar"
       ],
-      "download": "Candidate collection manifest; publication URL not assigned",
+      "download": "Catalogue-only: source links and explicit rights/dependency exceptions; no collection bundle",
       "formats": [
         ".csv",
         ".json",
@@ -5740,8 +5740,8 @@
       "related_publications": [
         "Checkers with Runway 13"
       ],
-      "citation": "Ayyar, Aryan (2026). Collection 01, candidate v1.0.0.",
-      "download": "Metadata only unless artifact explicitly included.",
+      "citation": "Ayyar, Aryan (2026). Collection 01, v1.0.0.",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-01.tar.gz",
       "formats": [
         ".csv",
         ".diff",
@@ -5909,8 +5909,8 @@
       "related_publications": [
         "Checkers with Runway 13"
       ],
-      "citation": "Ayyar, Aryan (2026). Collection 02, candidate v1.0.0.",
-      "download": "Metadata only unless artifact explicitly included.",
+      "citation": "Ayyar, Aryan (2026). Collection 02, v1.0.0.",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-02.tar.gz",
       "formats": [
         ".html",
         ".json",
@@ -6000,8 +6000,8 @@
       "related_publications": [
         "Checkers with Runway 13"
       ],
-      "citation": "Ayyar, Aryan (2026). Collection 03, candidate v1.0.0.",
-      "download": "Metadata only unless artifact explicitly included.",
+      "citation": "Ayyar, Aryan (2026). Collection 03, v1.0.0.",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-03.tar.gz",
       "formats": [
         ".html",
         ".json",
@@ -6133,8 +6133,8 @@
       "related_publications": [
         "Checkers with Runway 13"
       ],
-      "citation": "Ayyar, Aryan (2026). Collection 04, candidate v1.0.0.",
-      "download": "Metadata only unless artifact explicitly included.",
+      "citation": "Ayyar, Aryan (2026). Collection 04, v1.0.0.",
+      "download": "Catalogue-only: source links and explicit rights/dependency exceptions; no collection bundle",
       "formats": [
         ".csv",
         ".html",
@@ -6218,8 +6218,8 @@
       "related_publications": [
         "Checkers with Runway 13"
       ],
-      "citation": "Ayyar, Aryan (2026). Collection 05, candidate v1.0.0.",
-      "download": "Metadata only unless artifact explicitly included.",
+      "citation": "Ayyar, Aryan (2026). Collection 05, v1.0.0.",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-05.tar.gz",
       "formats": [
         ".json",
         ".md",
@@ -6836,8 +6836,8 @@
       "related_publications": [
         "Checkers with Runway 13"
       ],
-      "citation": "Ayyar, Aryan (2026). Collection 06, candidate v1.0.0.",
-      "download": "Metadata only unless artifact explicitly included.",
+      "citation": "Ayyar, Aryan (2026). Collection 06, v1.0.0.",
+      "download": "https://github.com/ayyararyan/kai-tak/releases/download/archive-v1.0.0/kai-tak-archive-v1.0.0-collection-06.tar.gz",
       "formats": [
         ".csv",
         ".geojson",
@@ -7262,8 +7262,8 @@
       "related_publications": [
         "Checkers with Runway 13"
       ],
-      "citation": "Ayyar, Aryan (2026). Collection 07, candidate v1.0.0.",
-      "download": "Metadata only unless artifact explicitly included.",
+      "citation": "Ayyar, Aryan (2026). Collection 07, v1.0.0.",
+      "download": "Catalogue-only: source links and explicit rights/dependency exceptions; no collection bundle",
       "formats": [
         ".csv",
         ".dxf",
@@ -7329,8 +7329,8 @@
       "related_publications": [
         "Checkers with Runway 13"
       ],
-      "citation": "Ayyar, Aryan (2026). Collection 08, candidate v1.0.0.",
-      "download": "Metadata only unless artifact explicitly included.",
+      "citation": "Ayyar, Aryan (2026). Collection 08, v1.0.0.",
+      "download": "Catalogue-only: source links and explicit rights/dependency exceptions; no collection bundle",
       "formats": [
         ".png"
       ],
@@ -7433,8 +7433,8 @@
       "related_publications": [
         "Checkers with Runway 13"
       ],
-      "citation": "Ayyar, Aryan (2026). Collection 09, candidate v1.0.0.",
-      "download": "Metadata only unless artifact explicitly included.",
+      "citation": "Ayyar, Aryan (2026). Collection 09, v1.0.0.",
+      "download": "Catalogue-only: source links and explicit rights/dependency exceptions; no collection bundle",
       "formats": [
         ".json",
         ".md",

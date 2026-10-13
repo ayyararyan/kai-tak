@@ -1,0 +1,26 @@
+{
+  "touchdown_flag_datum_B_s": 31.002979145978152,
+  "touchdown_flag_reading_range_s": [
+    30.585898709036744,
+    31.420059582919563
+  ],
+  "last_pre_terminal_speed_anchor_datum_B_s": 69.9304865938431,
+  "last_pre_terminal_speed_anchor_kt": 27.996,
+  "flag_to_last_speed_anchor_s": 38.92750744786495,
+  "last_anchor_is_runway_end": false,
+  "distance_integral_flag_to_last_anchor_m": 2083.0410157533333,
+  "distance_sensitivity_range_m": [
+    1856.3119414992916,
+    2309.7766697518196
+  ],
+  "distance_bound_scope": "Conservative independent anchor-box + max-slope horizontal shifts and endpoint buffer for piecewise-linear digitization ONLY; no chart transcription bias, raw DFDR physical error, or unknown curvature between anchors covered. NOT historical physical worst-case bounds.",
+  "anchor_count": 123,
+  "interpolated_row_count": 273,
+  "omissions": [
+    "No precise UTC sync",
+    "No raw DFDR calibration errors",
+    "No continuous-time curve accuracy guarantee between coarse anchors",
+    "No AMSL from radio height",
+    "Whole-approach extraction limited to Figure1/2 A80\u2013145sec in separate approach artifacts; not full three-minute coverage"
+  ]
+}

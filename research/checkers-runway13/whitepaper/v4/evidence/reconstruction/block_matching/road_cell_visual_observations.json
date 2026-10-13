@@ -1,0 +1,214 @@
+{
+  "reviewed_utc": "2026-10-13T13:39:57.248840+00:00",
+  "review_method": "Parent directly inspected all four paired-date map overlays using view_image; qualitative source observations only",
+  "full_block_contents_verified": false,
+  "accepted_historical_footprint_count_added": 0,
+  "observations": [
+    {
+      "observation_id": "RC_VIS_01",
+      "cell_id": "KC_ROAD_CONTROL_01",
+      "local_template_numbers": [
+        45
+      ],
+      "template_ids": [
+        "3759721178P20050713"
+      ],
+      "template_names_are_modern_not_historical": [
+        "MAN FAT HOUSE"
+      ],
+      "source_months": [
+        "1989-10",
+        "1994-07"
+      ],
+      "observed_map_content": "CIP annotation in October 1989; Man Fat House label in July 1994 at the same mapped location.",
+      "interpretation_limit": "construction_annotation_to_named_map_form; no exact completion or 1993 presence inferred",
+      "overlay_path": "candidates/road_cells/KC_ROAD_CONTROL_01/two_date_overlay.png",
+      "overlay_sha256": "a26ce81c24a3c93525bbb197df14472343f79f9371245d8a669829f71b8479d8",
+      "row_table_sha256": "de900c4d0d6763610e96b2c3e7ebb7d6812fc8f945a1dfcd9f1987f3d9643f5a",
+      "historical_physical_geometry_accepted": false,
+      "historical_presence_1993": null,
+      "historical_elevation_m": null
+    },
+    {
+      "observation_id": "RC_VIS_02",
+      "cell_id": "KC_ROAD_CONTROL_01",
+      "local_template_numbers": [
+        35,
+        41
+      ],
+      "template_ids": [
+        "3759121235P20060311",
+        "3759221236T20050430"
+      ],
+      "template_names_are_modern_not_historical": [
+        "FOOK CHI BUILDING",
+        "Fook Chi Building"
+      ],
+      "source_months": [
+        "1989-10",
+        "1994-07"
+      ],
+      "observed_map_content": "July 1994 map has WIP / Jan 1994 annotation in the northeastern central compound.",
+      "interpretation_limit": "work_in_progress_annotation; contemporary roof/volume unresolved",
+      "overlay_path": "candidates/road_cells/KC_ROAD_CONTROL_01/two_date_overlay.png",
+      "overlay_sha256": "a26ce81c24a3c93525bbb197df14472343f79f9371245d8a669829f71b8479d8",
+      "row_table_sha256": "de900c4d0d6763610e96b2c3e7ebb7d6812fc8f945a1dfcd9f1987f3d9643f5a",
+      "historical_physical_geometry_accepted": false,
+      "historical_presence_1993": null,
+      "historical_elevation_m": null
+    },
+    {
+      "observation_id": "RC_VIS_03",
+      "cell_id": "KC_ROAD_CONTROL_02",
+      "local_template_numbers": [
+        20
+      ],
+      "template_ids": [
+        "3762921263T20071206"
+      ],
+      "template_names_are_modern_not_historical": [
+        "LOK SIN TONG PRIMARY SCHOOL"
+      ],
+      "source_months": [
+        "1989-10",
+        "1994-07"
+      ],
+      "observed_map_content": "A crossed symbol appears in the northwestern school compound on July 1994 map; October 1989 depiction lacks this crossing.",
+      "interpretation_limit": "cartographic_symbol_change; physical interpretation unresolved",
+      "overlay_path": "candidates/road_cells/KC_ROAD_CONTROL_02/two_date_overlay.png",
+      "overlay_sha256": "80f3839115e28e42620212503577809612ec52c22d3b7d366c3f7a22d171ab0c",
+      "row_table_sha256": "ce62dacfaa1865cd8c4ca3fe9ded3524dfe1e3ab06f3e0de9ad7dcd1d159c9af",
+      "historical_physical_geometry_accepted": false,
+      "historical_presence_1993": null,
+      "historical_elevation_m": null
+    },
+    {
+      "observation_id": "RC_VIS_04",
+      "cell_id": "KC_ROAD_CONTROL_02",
+      "local_template_numbers": [
+        32
+      ],
+      "template_ids": [
+        "3764421172T20050430"
+      ],
+      "template_names_are_modern_not_historical": [
+        "Po Man Court"
+      ],
+      "source_months": [
+        "1989-10",
+        "1994-07"
+      ],
+      "observed_map_content": "Po Mon Court label appears in July 1994 at a location depicted without that name on October 1989 map.",
+      "interpretation_limit": "label_change; absence of earlier name is not absence of building",
+      "overlay_path": "candidates/road_cells/KC_ROAD_CONTROL_02/two_date_overlay.png",
+      "overlay_sha256": "80f3839115e28e42620212503577809612ec52c22d3b7d366c3f7a22d171ab0c",
+      "row_table_sha256": "ce62dacfaa1865cd8c4ca3fe9ded3524dfe1e3ab06f3e0de9ad7dcd1d159c9af",
+      "historical_physical_geometry_accepted": false,
+      "historical_presence_1993": null,
+      "historical_elevation_m": null
+    },
+    {
+      "observation_id": "RC_VIS_05",
+      "cell_id": "KC_ROAD_CONTROL_03",
+      "local_template_numbers": [
+        8
+      ],
+      "template_ids": [
+        "3767821232T20050430"
+      ],
+      "template_names_are_modern_not_historical": [
+        "The Kowloon City Christian's Church Cornerstone Education Centre"
+      ],
+      "source_months": [
+        "1989-10",
+        "1994-07"
+      ],
+      "observed_map_content": "Caritas College name and broadly corresponding compound form depicted on both editions.",
+      "interpretation_limit": "cross_edition_depiction_consistency; no exact daily survival or roof-height claim",
+      "overlay_path": "candidates/road_cells/KC_ROAD_CONTROL_03/two_date_overlay.png",
+      "overlay_sha256": "2f9bdb27cc77b6941b2adfaeeb3a92620a3268c2f5c88c7daaa4e510e2d7f99f",
+      "row_table_sha256": "c38b3dfca265083b428278d9b0433b3198d8cff4a5969d5694727e9d6574d2d6",
+      "historical_physical_geometry_accepted": false,
+      "historical_presence_1993": null,
+      "historical_elevation_m": null
+    },
+    {
+      "observation_id": "RC_VIS_06",
+      "cell_id": "KC_ROAD_CONTROL_03",
+      "local_template_numbers": [
+        13
+      ],
+      "template_ids": [
+        "3768021173T20050430"
+      ],
+      "template_names_are_modern_not_historical": [
+        "Telephone Exchange And Post Office"
+      ],
+      "source_months": [
+        "1989-10",
+        "1994-07"
+      ],
+      "observed_map_content": "Telephone Exchange / Post Office labels and broadly corresponding form depicted on both editions.",
+      "interpretation_limit": "cross_edition_depiction_consistency; not a measured 1993 volume",
+      "overlay_path": "candidates/road_cells/KC_ROAD_CONTROL_03/two_date_overlay.png",
+      "overlay_sha256": "2f9bdb27cc77b6941b2adfaeeb3a92620a3268c2f5c88c7daaa4e510e2d7f99f",
+      "row_table_sha256": "c38b3dfca265083b428278d9b0433b3198d8cff4a5969d5694727e9d6574d2d6",
+      "historical_physical_geometry_accepted": false,
+      "historical_presence_1993": null,
+      "historical_elevation_m": null
+    },
+    {
+      "observation_id": "RC_VIS_07",
+      "cell_id": "KC_ROAD_CONTROL_04",
+      "local_template_numbers": [
+        5,
+        32
+      ],
+      "template_ids": [
+        "3773521108T20050430",
+        "3775621109T20050430"
+      ],
+      "template_names_are_modern_not_historical": [
+        "Goldview Court",
+        "Bel Shine Center"
+      ],
+      "source_months": [
+        "1989-10",
+        "1994-07"
+      ],
+      "observed_map_content": "Southern compounds carry WIP / May 1994 annotation in July 1994; October 1989 shows different internal form/marking.",
+      "interpretation_limit": "changed_or_construction_site_depiction; no interpolation to November1993",
+      "overlay_path": "candidates/road_cells/KC_ROAD_CONTROL_04/two_date_overlay.png",
+      "overlay_sha256": "206a9e3658fdf51e37dd520eb0020d53830d44230b8e846e025eed25a657192b",
+      "row_table_sha256": "ec825bbd037818afd091f883c0cd2d0a57f67b25fcc3e7573af10664f85f294c",
+      "historical_physical_geometry_accepted": false,
+      "historical_presence_1993": null,
+      "historical_elevation_m": null
+    },
+    {
+      "observation_id": "RC_VIS_08",
+      "cell_id": "KC_ROAD_CONTROL_04",
+      "local_template_numbers": [
+        6
+      ],
+      "template_ids": [
+        "3773521129T20050430"
+      ],
+      "template_names_are_modern_not_historical": [
+        "Cheong Wong Building"
+      ],
+      "source_months": [
+        "1989-10",
+        "1994-07"
+      ],
+      "observed_map_content": "CIP / Oct 1989 annotation appears in southwestern compound on October 1989; July 1994 lacks that text.",
+      "interpretation_limit": "annotation_difference; removal of text alone does not establish completion",
+      "overlay_path": "candidates/road_cells/KC_ROAD_CONTROL_04/two_date_overlay.png",
+      "overlay_sha256": "206a9e3658fdf51e37dd520eb0020d53830d44230b8e846e025eed25a657192b",
+      "row_table_sha256": "ec825bbd037818afd091f883c0cd2d0a57f67b25fcc3e7573af10664f85f294c",
+      "historical_physical_geometry_accepted": false,
+      "historical_presence_1993": null,
+      "historical_elevation_m": null
+    }
+  ]
+}

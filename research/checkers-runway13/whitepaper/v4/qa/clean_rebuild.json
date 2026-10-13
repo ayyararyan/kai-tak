@@ -1,0 +1,205 @@
+{
+  "verified_utc": "2026-10-13T17:22:14.682610+00:00",
+  "fresh_source_ZIP_extraction": true,
+  "fresh_python_environment": true,
+  "commands": [
+    "python3 -m venv .venv",
+    ".venv/bin/python -m pip install -r requirements.txt",
+    "XELATEX=<installed-executable> .venv/bin/python build.py --figures"
+  ],
+  "scientific_figures_regenerated_identically": 16,
+  "104_input_hashes_passed": true,
+  "calm_regularity_and_upper_bound_fresh_match": true,
+  "scalar_checks_passed": true,
+  "pages": 35,
+  "page_results": [
+    {
+      "page": 1,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 2,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 3,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 4,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 5,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 6,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 7,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 8,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 9,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 10,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 11,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 12,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 13,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 14,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 15,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 16,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 17,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 18,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 19,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 20,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 21,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 22,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 23,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 24,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 25,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 26,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 27,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 28,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 29,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 30,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 31,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 32,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 33,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 34,
+      "text_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 35,
+      "text_identical": true,
+      "pixels_identical": true
+    }
+  ],
+  "Poppler_text_identical": true,
+  "accepted_pdf_sha256": "4bc4f1e1240b2e9677fd2518a67078c6c82385e5822510b069ff5172226920da",
+  "rebuilt_pdf_sha256": "8753898f3cc51c16918a20e02c7671adeed52a0156b46e2fddebbd5cc7aad981",
+  "byte_identical": false,
+  "PDF_note": "Byte differences may reflect native TeX PDF metadata; all page text and rendered pixels compared exactly.",
+  "platform": "macOS, Python 3.14.6, XeLaTeX/BibTeX TeX Live 2026, Poppler 26.07.0",
+  "not_performed": [
+    "89-test original model suite",
+    "fixed-witness certificate rerun",
+    "optimization",
+    "source acquisition",
+    "new independent scientific review"
+  ]
+}

@@ -67,10 +67,10 @@
     "Exact source commit: local Git bundle is private preservation only; mixed-rights source history is not a proposed Zenodo upload"
   ],
   "not_submission_ready_reasons": [
-    "Publication authorization absent",
-    "Original-work license grants not approved",
-    "Metadata/source snapshot review not complete",
+    "Zenodo deposition not separately authorized or performed",
+    "Original-work grants not approved",
     "Full historical source dependency/provenance closure not achieved"
   ],
-  "existing_zenodo_record_verified": false
+  "existing_zenodo_record_verified": false,
+  "github_release_url": "https://github.com/ayyararyan/kai-tak/releases/tag/archive-v1.0.0"
 }

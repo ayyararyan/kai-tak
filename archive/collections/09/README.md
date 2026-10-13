@@ -1,6 +1,6 @@
 # 09 — Documentation and Research Publications
 
-Ayyar, Aryan (2026). Documentation and Research Publications. The Kai Tak Historical Research Archive, candidate v1.0.0, collection 09. **Unpublished candidate; no DOI assigned.**
+Ayyar, Aryan (2026). Documentation and Research Publications. The Kai Tak Historical Research Archive, v1.0.0, collection 09. **Published permitted-data release; no DOI assigned.**
 
 312 catalogued artifacts; 0 verified-permitted files selected for the new data bundle. Other entries remain available as source references, existing Git research or explicitly restricted dependencies.
 
@@ -17,7 +17,7 @@ Ayyar, Aryan (2026). Documentation and Research Publications. The Kai Tak Histor
 - CRS / vertical datum: not applicable or unresolved / not applicable or unresolved.
 - Limitations: Working research paper, not peer reviewed; Document rebuild is not complete source acquisition or interval solver replay; Frozen evidence may intentionally differ from later live ledger
 - Source links: [source 1](https://github.com/ayyararyan/kai-tak)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.
 
 ## Literature and source reference matrix
 
@@ -30,7 +30,7 @@ Ayyar, Aryan (2026). Documentation and Research Publications. The Kai Tak Histor
 - CRS / vertical datum: not applicable or unresolved / not applicable or unresolved.
 - Limitations: Scholarly PDFs remain separately rights-restricted; metadata links do not confer redistribution
 - Source links: [source 1](https://github.com/ayyararyan/kai-tak)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.
 
 ## Independent archival source leads
 
@@ -43,7 +43,7 @@ Ayyar, Aryan (2026). Documentation and Research Publications. The Kai Tak Histor
 - CRS / vertical datum: not applicable or unresolved / not applicable or unresolved.
 - Limitations: Catalogue identification is not acquired drawing/photo content; Post-accident 5 Nov survey not pre-accident presence proof; Unsent enquiries excluded from public bytes
 - Source links: [source 1](https://search.grs.gov.hk/), [source 2](https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf), [source 3](https://github.com/ayyararyan/kai-tak)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.
 
 ## White-paper v1 frozen evidence snapshot
 
@@ -56,7 +56,7 @@ Ayyar, Aryan (2026). Documentation and Research Publications. The Kai Tak Histor
 - CRS / vertical datum: not applicable or unresolved / not applicable or unresolved.
 - Limitations: Not current live ledger; Frozen imports may require wider project layout; Report prose normalization does not alter pinned numeric evidence
 - Source links: [source 1](https://github.com/ayyararyan/kai-tak)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.
 
 ## White-paper v2 frozen evidence snapshot
 
@@ -69,7 +69,7 @@ Ayyar, Aryan (2026). Documentation and Research Publications. The Kai Tak Histor
 - CRS / vertical datum: not applicable or unresolved / not applicable or unresolved.
 - Limitations: Not current live ledger; Frozen imports may require wider project layout; Report prose normalization does not alter pinned numeric evidence
 - Source links: [source 1](https://github.com/ayyararyan/kai-tak)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.
 
 ## Documentation and Research Publications — supporting and unclassified artifacts
 
@@ -82,4 +82,4 @@ Ayyar, Aryan (2026). Documentation and Research Publications. The Kai Tak Histor
 - CRS / vertical datum: not applicable or unresolved / not applicable or unresolved.
 - Limitations: Directory classification is navigational, not a verified source or transformation chain.
 - Source links: Not established; see unresolved source record.
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.

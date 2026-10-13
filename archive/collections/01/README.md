@@ -1,6 +1,6 @@
 # 01 — Historical Maps and Aerial Photography
 
-Ayyar, Aryan (2026). Historical Maps and Aerial Photography. The Kai Tak Historical Research Archive, candidate v1.0.0, collection 01. **Unpublished candidate; no DOI assigned.**
+Ayyar, Aryan (2026). Historical Maps and Aerial Photography. The Kai Tak Historical Research Archive, v1.0.0, collection 01. **Published permitted-data release; no DOI assigned.**
 
 846 catalogued artifacts; 275 verified-permitted files selected for the new data bundle. Other entries remain available as source references, existing Git research or explicitly restricted dependencies.
 
@@ -17,7 +17,7 @@ Ayyar, Aryan (2026). Historical Maps and Aerial Photography. The Kai Tak Histori
 - CRS / vertical datum: EPSG:4326 export; native varies by historical series / not applicable or unresolved.
 - Limitations: Index polygons are not map raster acquisition; Edition month is not per-object survey date
 - Source links: [source 1](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1631584892859_72892/FeatureServer), [source 2](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1639990901210_47291/FeatureServer), [source 3](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047202071_61921/FeatureServer), [source 4](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047456225_68329/FeatureServer), [source 5](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1671592436814_1059/FeatureServer)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.
 
 ## Acquired historical survey maps
 
@@ -30,7 +30,7 @@ Ayyar, Aryan (2026). Historical Maps and Aerial Photography. The Kai Tak Histori
 - CRS / vertical datum: HK1980/printed grid; individually verify source registration / not applicable or unresolved.
 - Limitations: TFW/geotag availability does not itself validate historical georeferencing
 - Source links: [source 1](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1631584892859_72892/FeatureServer), [source 2](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1639990901210_47291/FeatureServer), [source 3](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047202071_61921/FeatureServer), [source 4](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047456225_68329/FeatureServer), [source 5](https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1671592436814_1059/FeatureServer)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 227 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 227 matched permitted files.
 
 ## Historical aerial frame index
 
@@ -43,7 +43,7 @@ Ayyar, Aryan (2026). Historical Maps and Aerial Photography. The Kai Tak Histori
 - CRS / vertical datum: EPSG:4326 / not applicable or unresolved.
 - Limitations: These are frame index records, not 14,927 photographs; Index polygon corners are not ground control
 - Source links: [source 1](https://api.hkmapservice.gov.hk/oss/services/OneStop/FlightPaths/MapServer/2/query), [source 2](https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.
 
 ## Acquired DAP-L0 full frames
 
@@ -56,7 +56,7 @@ Ayyar, Aryan (2026). Historical Maps and Aerial Photography. The Kai Tak Histori
 - CRS / vertical datum: not applicable or unresolved / not applicable or unresolved.
 - Limitations: Not calibrated high-resolution photogrammetric film scans; Not complete Hong Kong photographic coverage
 - Source links: [source 1](https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 48 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 48 matched permitted files.
 
 ## Additional aerial previews
 
@@ -69,7 +69,7 @@ Ayyar, Aryan (2026). Historical Maps and Aerial Photography. The Kai Tak Histori
 - CRS / vertical datum: not applicable or unresolved / not applicable or unresolved.
 - Limitations: Preview rights can differ from DAP-L0 channel; classify separately; Not additional calibrated photographs
 - Source links: [source 1](https://api.hkmapservice.gov.hk/oss/services/OneStop/FlightPaths/MapServer/2/query), [source 2](https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.
 
 ## All-Hong-Kong 1993 aerial index search
 
@@ -82,7 +82,7 @@ Ayyar, Aryan (2026). Historical Maps and Aerial Photography. The Kai Tak Histori
 - CRS / vertical datum: Declared in retained query response; inspect response spatialReference / not applicable or unresolved.
 - Limitations: Not the 1,277 local-AOI 1993 index records; Not acquired imagery; No November 5/plate match in bounded public layer is not proof of destruction or custodian absence
 - Source links: [source 1](https://api.hkmapservice.gov.hk/oss/services/OneStop/FlightPaths/MapServer/2/query), [source 2](https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA)
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.
 
 ## Historical Maps and Aerial Photography — supporting and unclassified artifacts
 
@@ -95,4 +95,4 @@ Ayyar, Aryan (2026). Historical Maps and Aerial Photography. The Kai Tak Histori
 - CRS / vertical datum: not applicable or unresolved / not applicable or unresolved.
 - Limitations: Directory classification is navigational, not a verified source or transformation chain.
 - Source links: Not established; see unresolved source record.
-- Reuse: source-specific; consult artifact decisions. New candidate includes 0 matched permitted files.
+- Reuse: source-specific; consult artifact decisions. This release includes 0 matched permitted files.

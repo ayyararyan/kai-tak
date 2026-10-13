@@ -1,0 +1,13 @@
+{
+  "parent_independent_replay_passed": true,
+  "manifest_hashes_verified": 41,
+  "counts": {
+    "templates": 404,
+    "regions": 531,
+    "across_date": 202,
+    "region_pairs": 397
+  },
+  "all_935_assigned_geometries_valid_and_recomputed_areas_within_0_01m2": true,
+  "all_8_visual_observations_hash_bound": true,
+  "browser_interaction_verified": false
+}

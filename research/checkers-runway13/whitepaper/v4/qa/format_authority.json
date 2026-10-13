@@ -1,0 +1,13 @@
+{
+  "reference_url": "https://www.aryanayyar.com/queue-priority-adverse-selection-exposure.pdf?v=rfs-20260909",
+  "reference_sha256": "547ff86c0b33276e6c50eb4544ea0dd8ab2627941fc13c2b52673bff67f42785",
+  "reference_pages": 36,
+  "template_files": {
+    "RFS.cls": "eeee1e58bcc34e9edb64c32162187836f5cc54da9f9ca7651073b954688eddf2",
+    "rfs.bst": "5a1bdf7baa70add87e9c24073b03de7b12f64a70526aa4c37e6fc89136dfeed4",
+    "crop.sty": "c6759bb8261ca2ce85982f87b1f7a7142f84cc0782cf480a525a914abc49e424",
+    "crop.cfg": "af36c5069ca200b440f1c4a8a820020287eb544aa3b29a4bb00e915469733a2f"
+  },
+  "Times_collection_sha256": "20e3dc89912f4b37f2c29add764855164efafb4c66ca32551d9eb52c7411c7c7",
+  "fonts_redistributed": false
+}

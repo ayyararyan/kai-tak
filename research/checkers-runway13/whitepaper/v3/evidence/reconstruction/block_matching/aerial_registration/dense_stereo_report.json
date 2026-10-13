@@ -1,0 +1,106 @@
+{
+  "status": "dense_conditional_image_based_pointcloud_not_mesh",
+  "runtime_s": 4.6544530391693115,
+  "source_frames": [
+    "A36142",
+    "A36143"
+  ],
+  "source_epoch": "1993-11-02",
+  "same_reference_as": "sparse_stereo_report.json",
+  "output_resolution_rectified_px": 2000,
+  "rectification": "uncalibrated fundamental-matrix homographies from measured sparse matches; triangulation in original nominal cameras",
+  "rectified_sparse_vertical_rmse_px": 0.3406556212815603,
+  "min_disparity": -48,
+  "num_disparities": 80,
+  "counts": {
+    "rectified_pixels": 4000000,
+    "valid_image_overlap": 2200950,
+    "lr_texture_valid_correspondences": 1541432,
+    "subsampled_for_triangulation": 171307,
+    "positive_finite_reprojection_accepted": 171307,
+    "exported_within_map_control_hull": 3780
+  },
+  "filters": {
+    "left_right_max_rectified_px": 0.75,
+    "local_7x7_grayscale_variance_min": 36,
+    "original_camera_reprojection_rms_max_px": 5,
+    "export_subsample_stride_each_axis": 3,
+    "automatic_surface_labels": false,
+    "height_clipping": false
+  },
+  "dense_vs_sparse_surface_checks": [
+    {
+      "sparse_track_id": 708,
+      "dense_source43_radius_px": 8,
+      "dense_count": 9,
+      "sparse_z_m": -0.02801001937223191,
+      "dense_z_m_quantiles": [
+        -0.13709202558438846,
+        0.06560756069711715,
+        1.163271034577474
+      ],
+      "median_dense_minus_sparse_z_m": 0.09361758006934906,
+      "caveat": "same image pair/calibration; local neighborhood may contain distinct edges/levels, not independent height truth"
+    },
+    {
+      "sparse_track_id": 26,
+      "dense_source43_radius_px": 8,
+      "dense_count": 8,
+      "sparse_z_m": 10.769431630259533,
+      "dense_z_m_quantiles": [
+        10.265777656778255,
+        10.528124966730047,
+        11.05634205435922
+      ],
+      "median_dense_minus_sparse_z_m": -0.24130666352948538,
+      "caveat": "same image pair/calibration; local neighborhood may contain distinct edges/levels, not independent height truth"
+    },
+    {
+      "sparse_track_id": 1135,
+      "dense_source43_radius_px": 8,
+      "dense_count": 10,
+      "sparse_z_m": 19.195490912459263,
+      "dense_z_m_quantiles": [
+        18.884880323107836,
+        19.21736537272693,
+        19.359739874713274
+      ],
+      "median_dense_minus_sparse_z_m": 0.021874460267667928,
+      "caveat": "same image pair/calibration; local neighborhood may contain distinct edges/levels, not independent height truth"
+    }
+  ],
+  "pointcloud_scope": "unclassified observed image surfaces incl.roofs,ground,trees and possible correspondence errors; no solid buildings or all-obstacle completeness",
+  "crs_horizontal": "EPSG:2326 diagnostic via local control transform",
+  "vertical_reference": "relative fitted park-road plane, no HKPD datum",
+  "source_calibration_report": "sparse_stereo_report.json",
+  "qc_bits": {
+    "1": "inside usable frame42",
+    "2": "matched coordinate inside usable frame43",
+    "4": "left disparity valid",
+    "8": "left-right consistency<=.75px",
+    "16": "local texture variance>=36",
+    "32": "every nonzero-weight right interpolation contributor in bounds, valid disparity, usable source image"
+  },
+  "rejected_pixels_are": "failed_correspondence_or_unknown_not_absence",
+  "requires_more_work": [
+    "independent height calibration",
+    "ground/roof interpretation",
+    "occlusion/mismatch correction",
+    "additional views",
+    "dense parameter and rectification sensitivity"
+  ],
+  "sentinel_interpolation_repair": {
+    "previous_accepted_pixels_with_invalid_disparity_support": 69,
+    "previous_export_samples_with_invalid_disparity_support": 6,
+    "previous_accepted_pixels_with_invalid_any_right_support": 484,
+    "old_outputs_preserved": "invalidated_dense_lr_blend/",
+    "sparse_unchanged": true
+  },
+  "accepted_sparse_transform_sha256": "7234e5f534456a2cef78618bc63bdc72ad7da5a0a268694f7be02e754f2cdac7",
+  "accepted_manual_labels_sha256": "254dca4fc0dd95088e7a0f9e6af8846a83c49cb90827e0e265439a08662da7c1",
+  "source_sha256": {
+    "chronology/aerial/fullframes/A36142.jpg": "42da43eebfa6eae39597ea16d917f900986d80f7c069b909ebbe3563fc074767",
+    "chronology/aerial/fullframes/A36143.jpg": "e8439e24ffd7acbbaf7b5247b2fddbd7a52fd079e3c986481771efe204eaf289",
+    "chronology/sheets/maps/1980_1990_678_11-NE-11A_1989-10-01.zip": "21179cf9bc022c497eb12c9b8b16725e9beefb7012648720e29feb2963c56713"
+  }
+}

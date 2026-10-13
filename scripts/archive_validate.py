@@ -110,7 +110,7 @@ def validate(root=ROOT, data_root=None):
             bundled.append(x)
             check(x['publication_decision'] == 'Redistribution permitted' and x['sha256'] and
                   x['provenance_status'] in ('source-and-checksum-bound', 'pinned-source-and-output-hashes', 'producer-reassembly-byte-identical') and not x['symlink'], 'inclusion-policy:' + label)
-            check(not re.search(r'(?i)(queue_state|enquiry_draft|request_drafts|\.venv|__pycache__|/v3/|session|token)', x['path']), 'private-path-policy:' + label)
+            check(not re.search(r'(?i)(queue_state|authorized_enquiries|enquiry_draft|request_drafts|\.venv|__pycache__|/v3/|session|token)', x['path']), 'private-path-policy:' + label)
             check(bool(x.get('source_url') or x['derived_from'] or x.get('acquisition_id')), 'permitted-source-chain:' + label)
         elif x['provenance_status'] in ('dataset-level-only', 'authorship-proposed-exact-upstream-review-pending'):
             warnings.append({'category': 'provenance', 'artifact_id': label, 'status': x['provenance_status']})
@@ -198,7 +198,14 @@ def validate(root=ROOT, data_root=None):
         check(len(proposed) == len(expected_checksums) and {x['name']: (x['sha256'], x['bytes']) for x in proposed} == {x['name']: (x['sha256'], x['bytes']) for x in master['assets']}, 'preservation-files-binding')
     except (OSError, ValueError, KeyError, TypeError) as exc:
         check(False, 'release-dependent-metadata', str(exc))
-    check(master['status'] == 'candidate' and master.get('doi') is None and master.get('concept_doi') is None, 'unpublished-no-fabricated-doi')
+    check(master.get('doi') is None and master.get('concept_doi') is None, 'no-fabricated-doi')
+    if master['status'] == 'published':
+        tag = 'archive-v' + master['archive_version']
+        base = 'https://github.com/ayyararyan/kai-tak/releases/'
+        check(master.get('release_tag') == tag and master.get('release_url') == base + 'tag/' + tag
+              and bool(re.fullmatch(r'\d{4}-\d{2}-\d{2}', master.get('release_date') or ''))
+              and master.get('publication_authorized') is True, 'published-release-identity')
+        check(all(x.get('url') == base + 'download/' + tag + '/' + x['name'] for x in master['assets']), 'published-asset-urls')
     try:
         for u in load(a / 'catalogue/publication_usage.json')['usages']:
             p = root / u['text_path']

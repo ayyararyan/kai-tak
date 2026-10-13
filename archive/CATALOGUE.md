@@ -2,7 +2,7 @@
 
 ## Collection catalogue
 
-**Candidate v1.0.0, unpublished.** Counts distinguish artifacts from observations. Catalogue completeness and scientific completeness are separate.
+**Data Release v1.0.0 — published permitted-data subset.** Counts distinguish artifacts from observations. Catalogue completeness and scientific completeness are separate.
 
 | Collection | Catalogued artifacts | Permitted bundle files |
 |---|---:|---:|

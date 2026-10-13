@@ -10,24 +10,24 @@ cd kai-tak
 python3 scripts/fetch_data.py --list
 ```
 
-**The archive branch has not been pushed.** Until author-approved publication, a public clone contains only the older research snapshot. The commands below apply to the locally prepared archive checkout, or to a future explicitly published archive commit. No currently public v1.0.0 URL is claimed.
+**[Data Release v1.0.0](https://github.com/ayyararyan/kai-tak/releases/tag/archive-v1.0.0)** supplies the verified permitted-data bundles. New open licenses are not implied; consult source-specific rights.
 
 ```sh
 # One collection; no other data required for the weather replay
 python3 scripts/fetch_data.py --release v1.0.0 --collection 05 \
-  --archive-dir /absolute/path/to/prepared/bundles --offline --report /new/path/weather-integrity.json
+  --report /new/path/weather-integrity.json
 
 # All permitted-data collections, preserving the original research paths
 python3 scripts/fetch_data.py --release v1.0.0 \
-  --archive-dir /absolute/path/to/prepared/bundles --offline --report /new/path/integrity.json
+  --report /new/path/integrity.json
 
 # Check archive/member hashes without extracting or creating the destination
 python3 scripts/fetch_data.py --release v1.0.0 --collection 01 --verify-only \
-  --archive-dir /absolute/path/to/prepared/bundles --offline
+  --archive-dir /absolute/path/to/cache
 
 # Restore into a separate empty directory
 python3 scripts/fetch_data.py --release v1.0.0 --collection 03 \
-  --archive-dir /absolute/path/to/prepared/bundles --offline --destination /new/path/restored
+  --destination /new/path/restored
 ```
 
 Repeat `--collection` for several IDs. IDs with no permitted byte bundle return `catalogue-only` and a reason. All five bundles are independent **complete snapshots of their selected member sets**, not incremental patches. They do not contain every item described by their collection catalogue. The master manifest enumerates exceptions per artifact. A successful restore means the selected bytes are correct, not that missing historical research inputs have been acquired.
@@ -45,4 +45,4 @@ Legacy defaults select five data groups across three existing releases: initial 
 
 Downloads are hashed before cache promotion. Every member is checked for expected path, type, size and hash before restore. Absolute/traversal/Windows-reserved/control-character paths, duplicate and case/Unicode-colliding paths, links, device files and unexpected members are refused. Destination/cache symlink ancestors and conflicting files are refused. Verified staging and no-clobber promotion prevent unverified target files. An interrupted restore can leave already verified files; rerun safely. A successful receipt appears only after all selected bundles finish.
 
-A report destination must be new; reports are not silently overwritten. File-set integrity is distinct from historical accuracy, scientific verification and rights status. URL availability is verified separately from byte integrity. New candidate URLs are deliberately null until publication is authorized.
+A report destination must be new; reports are not silently overwritten. File-set integrity is distinct from historical accuracy, scientific verification and rights status. URL availability is verified separately from byte integrity. The frozen manifest records public release URLs; `--offline --archive-dir /path/to/verified/cache` restores without network access.

@@ -1,3 +1,5 @@
+> Publication authorized 2026-10-13. The reviewed permitted-data subset may be published despite documented catalogue-wide gaps. New license grants and Zenodo deposition are not authorized by this publication step. Earlier unchecked items below remain a historical readiness checklist; unresolved sources remain excluded.
+
 # Public release review checklist
 
 ## Already authorized locally

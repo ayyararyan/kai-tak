@@ -1,0 +1,140 @@
+[
+  {
+    "figure": "01_historical_airport",
+    "inputs": [
+      "inputs/A36143.jpg",
+      "inputs/A36143_product.json"
+    ],
+    "meaning": "Historical photograph; scanned orientation, not a route reconstruction",
+    "pdf_sha256": "df8b6bd092535d40bc18a92912233abaac8680f1b34ebb16e94f6de5e59b2f60"
+  },
+  {
+    "figure": "02_approach_geometry",
+    "inputs": [
+      "CAD Report 1/95 \u00a71.8.1, \u00a71.10, Appendix 1"
+    ],
+    "meaning": "Magnetic bearing difference and procedure sequence; schematic, not to scale",
+    "pdf_sha256": "dc5cdbae7a86e34432142178d1edbe1c43c160abf92c7c224fb461ef6752262d"
+  },
+  {
+    "figure": "03_dated_maps",
+    "inputs": [
+      "inputs/11-NE-11A_1989-10_core.png",
+      "inputs/11-NE-11A_1994-07_core.png",
+      "inputs/historical_faces.geojson"
+    ],
+    "meaning": "Same local grid, different map editions; locator labels do not prove 1993 presence",
+    "pdf_sha256": "e47c6c5d145d3aec7c326b43ebc9ee546d2288e28242b047e6d5e2126a9a9fc1"
+  },
+  {
+    "figure": "04_reconstruction",
+    "inputs": [
+      "evidence/stereo_plot_data.csv",
+      "evidence/reconstruction/block_matching/HANDOFF.json"
+    ],
+    "meaning": "Every-fifth-point display; conditional local plane, not HKPD or complete roofs",
+    "pdf_sha256": "079842069bbf68f30ba2b8423ef284ef81a4867d3e6df42551ba83a80364c483"
+  },
+  {
+    "figure": "05_turn_physics",
+    "inputs": [
+      "Equations R=V\u00b2/(g tan phi), t=delta R/V; illustrative level coordinated turn"
+    ],
+    "meaning": "Constant-speed, still-air level-turn benchmark, not a reconstructed flight",
+    "pdf_sha256": "684a7a4856a39c0069b6e54a12f740d4c6acf98cc19d0b1355ebe813e2f83db4"
+  },
+  {
+    "figure": "06_wind_vectors",
+    "inputs": [
+      "evidence/counterfactual/inputs.json",
+      "evidence/counterfactual/result.json"
+    ],
+    "meaning": "070\u00b0 true / 21 kt constant wind; runway true-bearing convention 133\u00b010\u2032",
+    "pdf_sha256": "abca900b7169ea3f04f63643b12071473f5a1d5bab6eff6d5b66917261083518"
+  },
+  {
+    "figure": "07_calm_profiles",
+    "inputs": [
+      "evidence/approximation/reference_formula.json"
+    ],
+    "meaning": "Exact polynomial evaluation; height above runway, positive vertical speed is climb",
+    "pdf_sha256": "216784dbfe6f19fcb5fe0481bc53a01c7ca817358964a19e824048413e942de6"
+  },
+  {
+    "figure": "08_stopping",
+    "inputs": [
+      "evidence/approximation/reference_formula.json"
+    ],
+    "meaning": "Fixed 2 s delay, 0.15g braking and 2,786 m LDA; scalar condition only",
+    "pdf_sha256": "05e02b020d0c287b4a23a048d88017626ff37afbdfc156f3e0803bfbebf5d2ed"
+  },
+  {
+    "figure": "09_complete_calm",
+    "inputs": [
+      "evidence/approximation/reference_formula.json"
+    ],
+    "meaning": "Synthetic runway-relative geometry without historical terrain",
+    "pdf_sha256": "64b8a9688c22ea123b3ffed7137afc32130551c18e6a311598180c59f3153851"
+  },
+  {
+    "figure": "10_certificate",
+    "inputs": [
+      "evidence/counterfactual/continuous_check.json"
+    ],
+    "meaning": "Actual accepted wind-certificate subdivisions, not sampled aircraft tracking error",
+    "pdf_sha256": "d93a563cd1602cd92ba35115c2c66936deda127df53e27a27467c2f4e082de86"
+  },
+  {
+    "figure": "11_wind_profiles",
+    "inputs": [
+      "evidence/counterfactual/path_controls.csv",
+      "evidence/model/config.json"
+    ],
+    "meaning": "Wind-conditioned candidate: sampled display; continuous validity comes from separate certificate",
+    "pdf_sha256": "6bb7a2d347772dd3716b64e831dda8eb3502a7d3cee5bc10118ac498ac65c77c"
+  },
+  {
+    "figure": "12_scenario_comparison",
+    "inputs": [
+      "evidence/approximation/reference_outcomes.json",
+      "evidence/counterfactual/result.json"
+    ],
+    "meaning": "Two problems, not a causal treatment/control comparison; bounds are not confidence intervals",
+    "pdf_sha256": "5d946621278d54356e9127a10670ef6d91f7fb65e25a2308a2426fcc43dcea0f"
+  },
+  {
+    "figure": "13_recorder",
+    "inputs": [
+      "evidence/evidence/cal605_reconstruction/flight/flight_anchor_readings.csv"
+    ],
+    "meaning": "Manual readings of CAD Appendix 11 Fig. 4; bars are raster-reading sensitivity, not physical confidence intervals",
+    "pdf_sha256": "11fa402e3b2dd95b802b6e6b2c9a0f1ae0209575b8c5cb9fa2ceec195805950c"
+  },
+  {
+    "figure": "14_weather",
+    "inputs": [
+      "evidence/evidence/cal605_reconstruction/wind/wind_records.csv",
+      "evidence/weather_plot_data.csv"
+    ],
+    "meaning": "Event-triggered ground sensors and routine annual station subset; clocks not synchronized",
+    "pdf_sha256": "508e7691f57d0879d80ff9c9ef500748bd69d7335f63f92d4d703bcb41fd213a"
+  },
+  {
+    "figure": "15_rollout",
+    "inputs": [
+      "evidence/evidence/cal605_reconstruction/analysis.json"
+    ],
+    "meaning": "Derived necessary deceleration from four narrative landmarks; not actual measured braking",
+    "pdf_sha256": "e8ad5c3d60f1e2ebe54ce61acc24c4f1794fdf3124e40e894ea7809a0c5708cd"
+  },
+  {
+    "figure": "16_evidence_synthesis",
+    "inputs": [
+      "SPEC.md",
+      "evidence/reconstruction/obstacles/readiness.json",
+      "evidence/counterfactual/result.json"
+    ],
+    "meaning": "Evidence categories; arrows denote dependencies, not proof of the historical landing",
+    "pdf_sha256": "39e249d454cc443eadfe6a6e013211f3673906f60ba21e3d1df88b65c329e496"
+  }
+]

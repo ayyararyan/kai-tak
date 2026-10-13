@@ -1,3 +1,11 @@
+# Publication update — 2026-10-13
+
+Aryan explicitly authorized publication of the reviewed archive. **[Data Release v1.0.0](https://github.com/ayyararyan/kai-tak/releases/tag/archive-v1.0.0) publishes the 418-file permitted-data subset with its limitations intact.** Original-work license drafts remain inactive, and no Zenodo deposition or DOI is claimed. Current main's accepted v3/v4 packages have been merged unchanged; they do not redefine the original data-catalogue boundary. Private enquiries and private source-history backups are excluded. Remote delivery verification is recorded separately after upload.
+
+The following report is the retained **pre-publication acceptance audit**. Its prior authorization/URL/concurrent-main blockers describe that checkpoint, not the current publication authorization. Its unresolved provenance, rights and scientific limitations still apply.
+
+---
+
 # Publication readiness — v1.0.0 candidate
 
 **Verdict: local permitted-data candidate implemented and verified; full archive acceptance remains incomplete. Nothing was pushed, released, deposited or newly licensed.**

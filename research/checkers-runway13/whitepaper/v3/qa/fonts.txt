@@ -1,0 +1,51 @@
+name                                 type              encoding         emb sub uni object ID
+------------------------------------ ----------------- ---------------- --- --- --- ---------
+IHAIZV+TeXGyreHeros-Regular-Identity-H CID Type 0C       Identity-H       yes yes yes      4  0
+BZIVMZ+TeXGyrePagella-Bold-Identity-H CID Type 0C       Identity-H       yes yes yes      6  0
+IXFAWU+TeXGyrePagella-Regular-Identity-H CID Type 0C       Identity-H       yes yes yes      8  0
+ENZUBO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     11  0
+BFTOSB+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     19  0
+HCZANY+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     26  0
+GXDUII+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     33  0
+TQTHRL+TeXGyrePagella-Italic-Identity-H CID Type 0C       Identity-H       yes yes yes     49  0
+YEUUOC+TeXGyrePagellaMath-Regular-Identity-H CID Type 0C       Identity-H       yes yes yes     54  0
+AKHCZK+TeXGyreHeros-Bold-Identity-H  CID Type 0C       Identity-H       yes yes yes     68  0
+BEMIOJ+DejaVuSans                    CID TrueType      Identity-H       yes yes yes     71  0
+DRDGAF+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     91  0
+RZBWVK+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes     98  0
+EPDLED+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    105  0
+EKJKAO+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    112  0
+HATQTR+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes    135  0
+BPAUKD+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    142  0
+GXDUII+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    149  0
+BBQKZJ+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes    170  0
+ECHKFO+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    177  0
+DSRLVY+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    184  0
+VDVGTR+LMMono10-Regular-Identity-H   CID Type 0C       Identity-H       yes yes yes    211  0
+CYLPXO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes    217  0
+EAZLVI+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    224  0
+TEIZIS+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes    241  0
+BWCMXP+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    248  0
+GXDUII+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    255  0
+DVDQKM+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes    271  0
+EQAFMY+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    278  0
+GXDUII+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    285  0
+GFIQKO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes    302  0
+BFTPRT+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    309  0
+FVGBBX+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes    333  0
+JDWBMZ+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    340  0
+GGEQPZ+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    347  0
+EAJCZG+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    364  0
+GXDUII+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    371  0
+HLEIWJ+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    387  0
+FMUMEB+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    394  0
+CPGTTS+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    416  0
+NZNSOC+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes    437  0
+HHOYUP+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes    444  0
+CSALIF+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    451  0
+CPUQYB+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    458  0
+ELVDOO+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes    478  0
+EELFAR+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    485  0
+SSDLDS+DejaVuSans-Bold               CID TrueType      Identity-H       yes yes yes    512  0
+EYPUJX+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    519  0
+BKBTQT+DejaVuSans                    CID TrueType      Identity-H       yes yes yes    526  0
