@@ -339,3 +339,22 @@ Persistent visible session: `agent:main:dashboard:af75ba69-9410-44e9-8d9e-0a78b7
 ## Settled obstacle publication follow-up prepared — 13 October 2026
 
 Obstacle owner supplied the explicit settled notice. Final code and data already match the published snapshot; final REPORT.md, SPEC.md, reviews/DECISIONS.md, parent_verification.json and this ledger are prepared for a follow-up commit. Public-copy obstacle suite freshly passes all27tests; publisher independently matches the parent code/output hashes and all four saved exports to a fresh in-memory build using original local inputs. All four data archive digests/member sets were checked; the excluded obstacle review scratch is absent from every archive, so no archive replacement is needed. Public-tree scratch removal preserves the live original and earlier Git history. Third-party exclusions and scientific limitations are unchanged. Remote follow-up publication receipt will be appended after push verification.
+
+
+## White paper Version 3 — active local manuscript task
+
+13 October 2026. Aryan requests the complete illustrated Version 3, exact title *Checkers with Runway 13*, in this Git repository. Task specification: `whitepaper/v3/SPEC.md`. Preserve v2, frozen model and evidence; no push/publication/outreach authorized for v3. Baseline checkout 0798c76. Audit confirms calm/wind certificates remain separate; settled obstacle evidence adds 24 dated spot readings at 12 sites, not full obstacle volumes. Current step: evidence freeze and original figure/manuscript production, followed by full numerical/document/visual/rebuild verification. No new independent peer review implied.
+
+
+## White paper Version 3 — complete local delivery, 13 October 2026
+
+Completed the requested publication package under `whitepaper/v3/`, preserving the exact title *Checkers with Runway 13*. Final manuscript:33 pages, eight narrative parts,16 original scientific figure composites, seven explanatory insights, six mathematical appendices,14 references and a471-word first-person foreword explicitly for Aryan's review. Editable LaTeX/bibliography, reproducible figure inputs/scripts,51-claim evidence ledger, rights/citation audit, build README, verification report, change log, abstract, executive summary and source ZIP accompany the PDF.
+
+Verification:89 original model/counterfactual tests and89 portable-package tests pass. Fresh fixed-witness certificates reproduce2502 calm intervals at eta>=0.0397 and376 wind intervals at eta>=0.1507934696816132; both pass again from a clean folder. Fresh calm regularity/upper-bound computation exactly reproduces the retained0.1559772 bound; exact wind bound and scalar outcomes checked. All104 frozen V3 inputs and inherited67-file evidence subset match hashes. All33 pages rendered and visually inspected; final clean rebuild has identical page text and pixels (PDF bytes are not identical). Printed31 coefficient rows and4 durations checked. PDF SHA256 `c517517899088cb72a82be5f76e73767846aab3925fd0d418a6f13cf14959ea3`.
+
+All1517 pre-task tracked files compared: only this authorized ledger append differs; Version2 and original models/evidence remain unchanged. The A36143 catalogue/scan-label date conflict is explicitly disclosed, not resolved by assumption. Manuscript completion does not establish historical clearance, physical calibration, robust feedback, near-optimality, or accident prevention. No optimization/photogrammetry reacquisition or new independent peer review claimed. No commit, push, publication, outreach or peer-machine sync performed. Author review of foreword remains; publication requires separate authorization. Final details and archive verification: `whitepaper/v3/VERIFICATION.md`, `qa/delivery_acceptance.json`, `DELIVERY_MANIFEST.json`.
+
+
+## Version 3 GitHub push — explicitly authorized, 13 October 2026
+
+Aryan requests: "Pls push to GitHub this version". Publish the accepted 33-page V3 PDF and exact199-member source package to ayyararyan/kai-tak main, with editable files and root README entry links; preserve V2 and unrelated work. This supersedes the prior no-push restriction for this accepted version. Source selection/attribution unchanged, no manuscript rebuild or scientific change; no outreach or automatic future sync. Publication result will be appended after remote verification.

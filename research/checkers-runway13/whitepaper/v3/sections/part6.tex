@@ -1,0 +1,54 @@
+\parthead{VI}{What did the historical evidence reveal?}\label{part:6}
+\subsection*{CAL605: the landing did not end at touchdown}
+On 4 November 1993, China Airlines flight CAL605, Boeing 747-409B B-165, overran Runway 13 and entered the sea. The airport was affected by a tropical cyclone, strong gusty easterly wind, rain and a wet runway. The aircraft encountered windshear during the visual turn. The official investigation supplies an unusually rich historical record, but also a warning against attributing an accident to the most visually dramatic part of the approach \cite{cad}.
+
+The report judged the touchdown controllable and found that its parameters were not causal in the accident \cite[§2.6.5]{cad}. That conclusion governs the interpretation here. A mathematical curve with more runway remaining is not evidence that the accident would have been prevented by a different approach.
+
+The report's major causal findings concerned the landing rollout and its operational context. In summary, the commander inadvertently advanced the thrust levers instead of selecting reverse; his instructions and limited communication diminished the co-pilot's monitoring of rollout and autobrake operation; the co-pilot lacked the requisite skill and experience for controlling the rollout in the strong gusty crosswind; and the airline's manual lacked a clearly defined crosswind-landing technique \cite[Synopsis; §3]{cad}. The paper does not replace these findings with a new causal account.
+
+\subsection*{A constant brake is not a braking system}
+The report describes a sequence involving forward thrust, autobrake disarming, spoiler retraction and delayed reverse thrust, followed later by stronger deceleration. Those are discrete system and crew-action states. The scalar law $S=x_D+ud+u^2/(2a)$ contains only one delay and one deceleration. It cannot represent that sequence merely by using a more precise touchdown coordinate.
+
+This matters for scientific interpretation. If a simplified model does not stop under the reported touchdown inputs, that diagnoses the selected model and assumptions. It does not contradict the report's finding that a normal landing roll remained possible at touchdown. Conversely, a model that stops cannot establish that its assumed braking would have occurred during the actual flight.
+
+\subsection*{What is observed, and what is reconstructed?}
+The report describes a flight recorder with 269 parameters, but publishes selected plots rather than raw numerical time series. Thrust-lever angle was not recorded. Cockpit wheel, column and pedal positions must not be treated automatically as aerodynamic control-surface deflections. Appendix 12's track was reconstructed by acceleration integration; it is not an independent GPS-quality measurement.
+
+The project therefore retains source-reported events, manual plot readings, reading sensitivity and simulated trajectories in separate files. Their differences are informative. Forcing them into a single seamless-looking flight would conceal the evidence problem the case helps reveal.
+\clearpage
+\subsection*{Reading the published flight record without inventing precision}
+\fig{13_recorder}{.98}{Selected manual anchors from CAD Report 1/95, Appendix 11, Figure 4 (retained PDF page 154). CAS and ground speed are different recorded quantities; radio altitude is not height above a level runway throughout the approach. Heading uses magnetic degrees. Bars represent raster-reading sensitivity from the extraction procedure, not sensor accuracy or physical confidence intervals. Connecting lines guide the eye between anchors. Datum B belongs to the published flight plot, not the ground-weather clock.}{fig:recorder}
+
+The settled benchmark contains 190 selected approach/final-phase pixel anchors and 35 speed--distance anchors. Figure~\ref{fig:recorder} displays the final-phase subset directly, not a resampled interpolation relabelled as independent observations. Thick traces, overlapping lines, axis calibration and clock conventions limit how much can be recovered from the published images.
+
+There are also distinct approximate touchdown-distance conventions. The narrative uses about 2,300 m remaining; Appendix 13 gives about 2,250 m; the digitized Figure 5 ground-flag transition lies around 2,210 m. The threshold-consistent combination $2786-480$ gives 2,306 m. These values are retained with their source conventions, not averaged into an artificially precise ``best'' touchdown location.
+
+A valid comparison must say which source supplies each quantity and whether a second trace is genuinely independent. Agreement between an integrated track and the accelerations used to generate it is a consistency check, not independent positional validation. Approximate digitization is useful precisely when its limitations remain visible.
+\clearpage
+\subsection*{There was no single measured wind along the flight}
+\fig{14_weather}{1}{Left: A-field printout readings from the northwest (NW) and Lei Yue Mun (LYM) sensors, plotted on the wind system's own clock. A is the maximum one-second speed within a five-second window; event-triggered printing omits other peaks. Right: the declared 8,360-row routine subset of NOAA ISD station 450070--99999 in 1993. The dashed line is 10.8 m/s. Sources: CAD Appendix 7 transcription; NOAA/NCEI archive and format documentation \cite{noaa,isd}. Neither panel recovers aircraft-local wind or supplies an accident probability.}{fig:weather}
+
+The printout contains 15 irregular timestamps, five sensors and three A/B/C fields: 225 direction--speed pairs. B and C are overlapping two- and ten-minute averages. At wind-clock 03:35:30, NW reports 37 kt in A, 23 kt in B and 19 kt in C. At 03:38:00, NW and Lei Yue Mun report 12 and 37 kt in A. These are spatial and aggregation differences, not measurements of the wind gradient experienced by the aircraft.
+
+The NOAA archive contains 8,549 rows for the station-year, including 24 on 4 November. A declared quality/format subset contains 8,360 routine records. The 03:00 and 04:00 UTC observations both give $070^\circ$ true and 10.8 m/s, consistent with the report's rounded 21 kt mean. Their gust fields are 17.5 and 20.6 m/s. The two sources may share originating observations; agreement is not necessarily independent corroboration.
+
+At 10.8 m/s, 8,285 selected annual observations are lower, 17 tie and 58 are higher. This locates the event mean within that observed archive subset. Serial dependence, incomplete temporal coverage and selection rules prevent interpreting the rank as a return period or landing-risk probability.
+
+The wind-system clock offset to the flight/ATC timeline is unidentified. No exact gust-to-flight-event alignment is imposed. Filling the gaps with an interpolated wind field would add assumptions, not retrieve missing historical measurements.
+\clearpage
+\subsection*{Slowing down can still make the situation worse}
+If the aircraft has ground speed $v$, runway remaining $R$ and an additional delay $\tau$, the constant deceleration needed to stop at the end is
+\begin{equation}
+a_{\rm req}=\frac{v^2}{2(R-v\tau)},\qquad R>v\tau.
+\label{eq:required}
+\end{equation}
+The remaining distance can deteriorate faster than the benefit from falling speed.
+
+\fig{15_rollout}{1}{Four report-stated rollout landmarks evaluated through equation~\eqref{eq:required}. Speed falls from 160 to 129 kt while the zero-additional-delay stopping requirement rises from about $0.150g$ to $0.255g$. At the last landmark, another two seconds raises the requirement to about $0.300g$. Source: CAD Report 1/95, sections 2.2.5--2.2.7, and the project's derived analysis. Lines connect narrative landmarks; they are not measured continuous deceleration.}{fig:rollout}
+
+\insight{Insight 6: less speed does not necessarily mean more stopping margin}{For $\tau=0$, $a_{\rm req}\propto v^2/R$. A drop in $v$ is helpful, but not if $R$ is disappearing faster in the relevant proportion. The calculation quantifies a constraint, not the aircraft's actual applied brake force.}
+
+Substituting the report's rounded 480 m touchdown station and 160 kt ground speed into the fixed two-second/$0.15g$ law yields $R=-161.52$ m. Relative to the calm witness, the later touchdown accounts for 166.51 m of lost remainder and the speed change for 249.69 m, conditional on the same assumed braking. This negative remainder is an extrapolated formula outcome, not a reconstruction of the aircraft's movement into the water.
+
+The report's causal account remains the proper explanation of CAL605. The useful model lesson is narrower: a complete landing calculation must represent the ground phase, and a historical accident model may need braking-system states that a constant-deceleration benchmark intentionally lacks.
+\clearpage

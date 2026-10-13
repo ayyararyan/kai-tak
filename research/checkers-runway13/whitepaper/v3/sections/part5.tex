@@ -1,0 +1,27 @@
+\parthead{V}{What happens when wind changes?}\label{part:5}
+The second candidate holds the report's mean wind from $070^\circ$ true at 21 knots spatially uniform and constant. It retains the original synthetic entry position, reference corridor, aircraft assumptions, objective and braking. It is newly optimized for those conditions, not the calm path with a wind vector pasted onto its output.
+
+\fig{11_wind_profiles}{.98}{Wind-conditioned airborne path and control profiles from the source-bound CSV. Dotted lines mark threshold crossing; dashed lines show selected physical scenario limits. The positive feasibility score requires tighter normalized margins than merely touching those limits. Thrust is in kN and thrust slew in kN/s. The displayed samples illustrate the motion; the separate interval proof supplies continuous-time verification. No gust field or actual control-surface history is inferred.}{fig:windprofiles}
+
+Threshold crossing occurs after 41.223 s and touchdown after 45.365 s, 302.114 m beyond the threshold. Touchdown ground speed is 140.909 kt, whereas equivalent airspeed is 151.558 kt. After the fixed delay and braking, the aircraft model stops at 96.644 s and 2,233.231 m: 552.769 m of runway remain. Airspeed, not ground speed, enters the aerodynamic forces; forward ground speed enters this braking law.
+
+The early shallow rise is retained. The optimized trajectory obeys the declared model, which does not require monotonic descent. Its appearance is not a basis for relabelling it as an operationally approved approach.
+\clearpage
+\subsection*{A difference between scenarios is not a causal estimate}
+\fig{12_scenario_comparison}{.86}{Separate calm and steady-wind results. Top: equal-scale ground-path comparison in the synthetic runway frame. Middle: runway allocation uses the same 2 s/$0.15g$ ground law. Lower panel: filled dots are achieved certificate lower bounds; open endpoints mark necessary optimum upper bounds (strict for calm, non-strict for wind). These are deterministic objective brackets, not statistical uncertainty intervals. Source: frozen scenario outcomes and bounds. The feasible sets differ with wind.}{fig:comparison}
+
+The wind case leaves 298.09 m more runway: approximately 11.38 m comes from its earlier touchdown and 286.71 m from less ground travel. This is an algebraic decomposition of two outcomes. Both the wind and the optimized airborne path changed; the decomposition does not isolate an intervention on wind alone.
+
+For the calm family, the surviving bracket is
+\[
+0.0397\leq\eta^*_{\rm calm}<0.1559772.
+\]
+For the separately defined wind family,
+\[
+0.1507934696816132\leq\eta^*_{\rm wind}
+\leq\frac{66656817}{307536544}\approx0.2167443782.
+\]
+The wind gap is at most about 0.06595091 in this normalized objective. A tighter-looking bracket is not automatically a useful near-optimality result; no accepted closeness criterion is met by assertion.
+
+The optimizer seeks model margin, not minimum runway use. It may exchange distance for other demands. A controlled sensitivity would have to specify what is held fixed: reference path, endpoint airspeed, initial ground state, or a common causal control policy. Different choices answer different questions. No historical baseline satisfying equivalent conditions has yet been established.
+\clearpage

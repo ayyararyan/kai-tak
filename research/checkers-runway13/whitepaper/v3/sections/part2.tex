@@ -1,0 +1,46 @@
+\parthead{II}{Reconstructing a lost airport}\label{part:2}
+A modern satellite image answers a modern question. For a landing in 1993, a building erected later is an anachronism; a demolished building missing from today's database may be the very obstacle that mattered. Reconstructing Kai Tak starts by attaching dates and coordinate meanings to evidence, before constructing a city from it \cite{maps,photos}.
+
+\fig{03_dated_maps}{1}{Two editions of survey sheet 11-NE-11A, October 1989 and July 1994, in the same Hong Kong 1980 Grid rectangle. North is up; axes are metre offsets and the bar is 100 m. Numbered labels locate named map forms, not accepted unchanged 1993 buildings. Registered raster spacing is 0.25 m, not measured positional accuracy. Source: Lands Department, HKSAR Government; CSDI Portal and DATA.GOV.HK, Old Survey Sheets. Government intellectual-property ownership retained; supplied as-is, without endorsement.}{fig:maps}
+
+The project acquired 227 valid survey-map archives across 93 core sheet locations and 48 full aerial frames. These are substantial source holdings, but counts do not measure coverage of every obstacle. Map editions may carry forward old information. A photograph observes visible surfaces at one moment; it does not show what lies behind a roof or inside an occlusion.
+
+The paired maps make change inspectable. Four road-cell comparisons contain 404 dated assignments of 202 current templates, alongside 531 dated map-region assignments and 397 cross-date overlaps. These are matching candidates, not 935 verified historical buildings. A geometrical overlap cannot establish that a building retained its height or identity between editions.
+
+Documentary building chronology is a third source, useful for testing proposed identities and presence dates. It does not turn a current footprint into a historical roof. This distinction matters especially for structures removed or altered around the selected period.
+
+\textbf{Working epoch.} The landing case is 4 November 1993. The stereo pair uses the catalogue's 2 November date; the A36143 scan-label discrepancy in Figure~\ref{fig:airport} remains unresolved. Neither date resolves all intervening changes or authenticates a complete city model.
+\clearpage
+\subsection*{What two photographs can recover}
+Stereo reconstruction uses displacement between corresponding image features to infer relative three-dimensional structure. The camera geometry and metric scale must also be determined. Here, frames A36142 and A36143 provide overlapping views; image matches are anchored to manually interpreted ground features and survey-road controls. Camera and scan assumptions remain part of the reconstruction.
+
+\fig{04_reconstruction}{1}{Historical stereo reconstruction, shown as every fifth retained point. Left: grey points extend beyond the map-control hull; copper points lie inside it. Right: conditional surface elevation above a fitted local park/road plane, with colour clipped outside the indicated range. Neither vertical coordinate is HKPD or height above each building's own ground. Diagnostic HK1980 positions; gaps remain gaps. Derived from Lands Department A36142/A36143 open-data photographs and survey controls; Government/CSDI/DATA.GOV.HK attribution and ownership retained.}{fig:reconstruction}
+
+The settled reconstruction retains 1,318 sparse matches and 171,307 filtered dense points; 3,780 dense points lie inside the map-control hull, about 2.21\%. The distinction is easily missed in a convincing rendering. Many points can be reconstructed outside the small region in which control geometry directly supports the alignment. A held-out horizontal control discrepancy of 5.754 m RMS is a diagnostic of that fit, not a vertical roof-error guarantee.
+
+A conservative mesh connects 155,891 vertices into 225,371 triangles. Its 86,061 boundary edges reflect an open, non-watertight surface. Connecting points does not discover hidden building walls or fill an occlusion with evidence. The retained geometry includes a prior 49-point interpolation-support correction; the invalidated predecessor is not used.
+
+\insight{Insight 1: a dense image can contain sparse knowledge}{The fraction $3780/171307\approx0.0221$ measures local control support, not the fraction of the city proved accurate. More triangles can improve visual continuity without improving surveyed clearance. This is a property of the evidence, not a verdict against photogrammetry.}
+\clearpage
+\subsection*{The latest obstacle evidence: useful, still incomplete}
+Version 3 adds the repository's settled obstacle handoff. It contains 24 approximate mapped surface-elevation readings at 12 sites on sheet 11-NW-10D, from the November 1989 and June 1995 editions. The printed legends identify metre elevations above Hong Kong Principal Datum (HKPD) and describe the spot readings as approximate. Repeated values may be carried-forward cartography, not independent surveys.
+
+\begin{table}[H]\small
+\caption{Different geometric evidence answers different questions. Source: settled reconstruction and obstacle reports; modern product documentation \cite{dtm,buildings}.}
+\begin{tabularx}{\textwidth}{@{}p{.24\textwidth}p{.24\textwidth}X@{}}\toprule
+Evidence & What is available & What does not follow\\\midrule
+Dated map faces & 45 reviewed dated forms for 15 named forms & Not 45 distinct buildings; historical tops remain unknown.\\
+Mapped spot elevations & 24 readings at 12 sites & No bound on intervening terrain, roofs, antennas or vegetation.\\
+Stereo points & Relative-plane surfaces & No absolute vertical datum or complete obstacle volume.\\
+Modern 5 m DTM & 2014--2015 source photography; 2019 revision & Not a 1993 terrain/obstacle census; product accuracy is not a worst-case bound.\\
+Modern buildings & September 2026 snapshot & Historical presence and unchanged height cannot be inferred.\\\bottomrule
+\end{tabularx}\end{table}
+
+A roof elevation above HKPD is not a building height to add to a terrain elevation. Both may already use the same vertical origin. Conversely, the accident report's runway elevation of 15 ft AMSL, or 4.572 m in its stated reference, cannot be reconciled with HKPD merely by assuming that all notions of ``sea level'' coincide. The project has not accepted that transformation.
+
+The latest inventory therefore records zero complete obstacle volumes, zero physical obstacle upper bounds, and \texttt{historical\_clearance\_ready=false}. These are explicit scientific outcomes. An unknown-coverage polygon remains in the exported geometry so that an unmeasured region cannot quietly become empty airspace.
+
+Even perfect building heights would not complete the clearance problem. A point-mass trajectory has no wingspan, tail or landing gear. A real aircraft sweeps a volume through space, and its actual path differs from the reference. To certify clearance, that volume and a justified tracking allowance must avoid appropriately bounded historical obstacles along the whole motion.
+
+The reconstruction is already valuable as an inspectable historical resource. Its present contribution is to locate evidence, expose dating and datum problems, and make future corrections possible. It is not yet an input capable of certifying the two landing scenarios that follow.
+\clearpage

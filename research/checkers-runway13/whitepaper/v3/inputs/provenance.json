@@ -1,0 +1,51 @@
+[
+  {
+    "source_path": "reconstruction/chronology/aerial/fullframes/A36143.jpg",
+    "snapshot": "inputs/A36143.jpg",
+    "sha256": "e8439e24ffd7acbbaf7b5247b2fddbd7a52fd079e3c986481771efe204eaf289",
+    "provider": "Lands Department, HKSAR Government; CSDI Portal; DATA.GOV.HK",
+    "rights": "Open-data reproduction with attribution; original intellectual-property ownership retained; no endorsement; supplied as-is."
+  },
+  {
+    "source_path": "reconstruction/chronology/aerial/A36143_product.json",
+    "snapshot": "inputs/A36143_product.json",
+    "sha256": "f7f3a2bd73ed0d92c4ed0dcbcf800ba26212988f69dafc5ed258001e0ae5f65a",
+    "provider": "Lands Department, HKSAR Government; CSDI Portal; DATA.GOV.HK",
+    "rights": "Open-data reproduction with attribution; original intellectual-property ownership retained; no endorsement; supplied as-is."
+  },
+  {
+    "source_path": "reconstruction/block_matching/registered/11-NE-11A_1989-10_core.png",
+    "snapshot": "inputs/11-NE-11A_1989-10_core.png",
+    "sha256": "7daf2f8720a78b8ded383ae4f0ec811fa18eda1140c1e0248802d94c3b984259",
+    "provider": "Lands Department, HKSAR Government; CSDI Portal; DATA.GOV.HK",
+    "rights": "Open-data reproduction with attribution; original intellectual-property ownership retained; no endorsement; supplied as-is."
+  },
+  {
+    "source_path": "reconstruction/block_matching/registered/11-NE-11A_1994-07_core.png",
+    "snapshot": "inputs/11-NE-11A_1994-07_core.png",
+    "sha256": "ff47e9e448d5ec708e3fcc2978312eff62e712aff88433a36884c47539f22805",
+    "provider": "Lands Department, HKSAR Government; CSDI Portal; DATA.GOV.HK",
+    "rights": "Open-data reproduction with attribution; original intellectual-property ownership retained; no endorsement; supplied as-is."
+  },
+  {
+    "source_path": "reconstruction/block_matching/registered/11-NE-11A_1989-10_core.json",
+    "snapshot": "inputs/11-NE-11A_1989-10_core.json",
+    "sha256": "cdd4b3142c28f7d41fee4a0f0bfb63adb3fd0164da9a333c6abd3295f24de022",
+    "provider": "Lands Department, HKSAR Government; CSDI Portal; DATA.GOV.HK",
+    "rights": "Open-data reproduction with attribution; original intellectual-property ownership retained; no endorsement; supplied as-is."
+  },
+  {
+    "source_path": "reconstruction/block_matching/registered/11-NE-11A_1994-07_core.json",
+    "snapshot": "inputs/11-NE-11A_1994-07_core.json",
+    "sha256": "413996dbe93645f01065eaaad230e8f0c1238ec32861e74cf985dfe273644fee",
+    "provider": "Lands Department, HKSAR Government; CSDI Portal; DATA.GOV.HK",
+    "rights": "Open-data reproduction with attribution; original intellectual-property ownership retained; no endorsement; supplied as-is."
+  },
+  {
+    "source_path": "reconstruction/block_matching/historical_faces.geojson",
+    "snapshot": "inputs/historical_faces.geojson",
+    "sha256": "f866def637ad2c3495e9a9463a6abfc1b04cbf600b8b52b6ed5ee503bd749ef7",
+    "provider": "Lands Department, HKSAR Government; CSDI Portal; DATA.GOV.HK",
+    "rights": "Open-data reproduction with attribution; original intellectual-property ownership retained; no endorsement; supplied as-is."
+  }
+]

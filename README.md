@@ -6,6 +6,14 @@ Historical reconstruction and mathematical study of the Kai Tak Runway 13 approa
 
 **Work in progress.** This repository is a snapshot of research assembled on 13 October 2026. It is not an operational flight procedure, a validated aircraft simulator, or a claim that the historical approach was globally optimal or suboptimal.
 
+## White paper · version 3
+
+**[Read Checkers with Runway 13 — 33-page PDF](research/checkers-runway13/whitepaper/v3/checkers-with-runway-13-white-paper-v3.pdf)** · [Editable source ZIP](research/checkers-runway13/whitepaper/v3/checkers-with-runway-13-white-paper-v3-sources.zip) · [Build instructions](research/checkers-runway13/whitepaper/v3/README.md) · [Verification report](research/checkers-runway13/whitepaper/v3/VERIFICATION.md)
+
+Version 3 develops the investigation through eight narrative parts, 16 scientific figures and seven worked insights, with mathematical appendices and a 51-claim evidence ledger. It connects dated imagery and maps, turn mechanics, complete calm/wind landings, the CAL605 record and the limits of historical reconstruction. The exact title, frozen models, separate certificates and corrected bounds are preserved. All 33 pages were visually inspected; 89 model/counterfactual tests passed and a clean rebuild matched the page text and rendered pixels. The first-person foreword remains explicitly marked for author review.
+
+The manuscript does not establish historical obstacle clearance, calibrated aircraft performance, near-optimality or operational safety. [Publication record](research/checkers-runway13/whitepaper/v3/PUBLICATION.md). Version 2 remains available below.
+
 ## White paper · version 2
 
 **[Read the 30-page PDF](research/checkers-runway13/whitepaper/v2/checkers-with-runway-13-white-paper-v2.pdf)** · [Editable source ZIP](research/checkers-runway13/whitepaper/checkers-with-runway-13-white-paper-v2-source.zip) · [Build instructions and evidence](research/checkers-runway13/whitepaper/v2/README.md)
@@ -27,7 +35,7 @@ The manuscript has seven reproducible figures, explicit coefficients, technical 
 | Registered sheets, block matching and 3D research | [Block-matching specification](research/checkers-runway13/reconstruction/block_matching/SPEC.md), [scene](research/checkers-runway13/reconstruction/block_matching/scene/README.md) |
 | Actual CAL605 recorder/weather reconstruction | [Evidence specification](research/checkers-runway13/evidence/cal605_reconstruction/SPEC.md), [weather decoding](research/checkers-runway13/evidence/cal605_reconstruction/noaa/README.md) |
 | Prior literature and contribution assessment | [Literature](research/checkers-runway13/literature/LITERATURE_AND_COMPARISON.md) |
-| Latest white paper: v2 | [PDF, editable sources and verification](research/checkers-runway13/whitepaper/v2/) |
+| Latest white paper: v3 | [PDF, editable sources and verification](research/checkers-runway13/whitepaper/v3/) |
 
 The original `research/checkers-runway13/` and `data/kai-tak-2026-10-13/` layout is retained so relative paths in the research scripts continue to resolve.
 
