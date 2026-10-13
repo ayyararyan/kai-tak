@@ -1,6 +1,6 @@
 {
   "revision": "v5-grayscale-20261014",
-  "status": "locally_verified_publication_pending",
+  "status": "live_verified",
   "repository": "https://github.com/ayyararyan/kai-tak",
   "branch": "main",
   "baseline_commit": "bdcbcdb71065797d65c38a37348cb80ea6e1a4d3",
@@ -26,8 +26,41 @@
     "clean_rebuild_exact_figure_exports": 60,
     "science_checks": 287,
     "figure_semantic_checks": 74,
-    "independent_visual_review": "passed; all 15 changed pages; screen renders only"
+    "independent_visual_review": "passed; all 15 changed pages; screen renders only",
+    "repository_tests_passed": 143,
+    "repository_subtests_passed": 43,
+    "protected_baseline_files_checked": 2967,
+    "exact_authorized_successors": 86,
+    "incoming_main_preserved": "6943e717f9c76182661da50765a98b45253d9cc5",
+    "integration_review": "Independent reviewer confirmed every incoming checker function/declaration and status entry preserved; exact V5 additions only."
   },
   "historical_color_receipt": "publication/v5_verification.json",
-  "source_package_note": "Frozen artifact-acceptance snapshot. This repository-level live publication receipt is outside the ZIP to avoid circular hashes."
+  "source_package_note": "Frozen artifact-acceptance snapshot. This repository-level live publication receipt is outside the ZIP to avoid circular hashes.",
+  "verified_utc": "2026-10-13T19:49:44.938408+00:00",
+  "artifact_commit": "91d6b6691aaebb22049fabf8ba672649e12dc12a",
+  "git_readback": {
+    "verified_utc": "2026-10-13T19:49:25.192840+00:00",
+    "artifact_commit": "91d6b6691aaebb22049fabf8ba672649e12dc12a",
+    "remote_commit": "91d6b6691aaebb22049fabf8ba672649e12dc12a",
+    "independent_bare_commit": "91d6b6691aaebb22049fabf8ba672649e12dc12a",
+    "tree_entries_matched": 3703,
+    "method": "Independent network shallow filtered bare clone; exact comparison of every tracked path, mode and Git object. Public HTTP separately verifies PDF and ZIP bytes."
+  },
+  "public_http_downloads": [
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/checkers-with-runway-13-white-paper-v5.pdf",
+      "url": "https://raw.githubusercontent.com/ayyararyan/kai-tak/main/research/checkers-runway13/whitepaper/v5/checkers-with-runway-13-white-paper-v5.pdf?v=91d6b66",
+      "http_status": 200,
+      "bytes": 1317117,
+      "sha256": "28aadfa72b1a62c3ae19bbd9e453c7683861bd8496a62384a088cb72cfce53fe"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/checkers-with-runway-13-white-paper-v5-sources.zip",
+      "url": "https://raw.githubusercontent.com/ayyararyan/kai-tak/main/research/checkers-runway13/whitepaper/v5/checkers-with-runway-13-white-paper-v5-sources.zip?v=91d6b66",
+      "http_status": 200,
+      "bytes": 44476420,
+      "sha256": "a150aefab38d7e4fc91bc792f764fbc73dc4e93140cc919ff8a05a24b4fc5d29"
+    }
+  ],
+  "public_zip_members_verified": 286
 }
