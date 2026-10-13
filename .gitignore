@@ -1620,3 +1620,7 @@ python_deps/
 /research/checkers-runway13/integrated/sources/runway_plan_variation_read.png
 /research/checkers-runway13/integrated/tests.log
 /research/checkers-runway13/whitepaper/v3/
+
+# Archive validation environments and local restore receipts
+.venv-archive/
+.archive-receipts/

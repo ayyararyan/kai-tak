@@ -1,0 +1,57 @@
+[
+  {
+    "path": "research/checkers-runway13/evidence/cal605_reconstruction/noaa/observations_1993.csv",
+    "size": 6187296,
+    "sha256": "104b2fc2e2e7cdf3ebb2cda338dfebac948a76f95630595242ececf0ce14ef4c"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-10D_1989-11_core.png",
+    "size": 3400764,
+    "sha256": "eff531728f784c4d442ebe75000cb8777b403a133502fc5466da44d33a4c397d"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-10D_1989-11_core.tif",
+    "size": 2906295,
+    "sha256": "9ad622eb84621e350d2e9c99eabccd6f4c7b8be3b16e82d1bf3709673f984dce"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-10D_1995-06_core.png",
+    "size": 2866356,
+    "sha256": "0e1fdc3513bfc46a9e145eac294487ce97fe25bae0ac57af4b9eca470674226f"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-10D_1995-06_core.tif",
+    "size": 2443375,
+    "sha256": "755300ec9a754e6bfecfcade7c31b2d4172a070bf8c9d78fa7ea52752329f00e"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-15B_1989-11_core.png",
+    "size": 2744231,
+    "sha256": "bb3916721ee42c0abc3f439eb928ecf942a9b1c5adba200069ac9d8d929f2d1a"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-15B_1989-11_core.tif",
+    "size": 2261633,
+    "sha256": "701e9e2a73f5d31d8e7b089cb4d29149148d663f8510e2bb4c5c09d8a77ddd6f"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-15B_1994-03_core.png",
+    "size": 2532149,
+    "sha256": "d53a73665cf09bd29a660bf723da37adc6644daee7189afc87c8d368a64673ef"
+  },
+  {
+    "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-15B_1994-03_core.tif",
+    "size": 2078001,
+    "sha256": "692df70603773ab7b684fe2b3941b871d721beefb09001d601a82c0f4f906dcc"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/checkers-with-runway-13-white-paper-v1-source.zip",
+    "size": 2112428,
+    "sha256": "67672d78c6c9f3fafa670fbb70be6c632413c7188afaf9697f63d49344323e4c"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v1/evidence/stereo_plot_data.csv",
+    "size": 2315670,
+    "sha256": "020e06d1ca36ce849f6935ca63ad7f9281d07d3c0724b246ee844076f0fb8b9b"
+  }
+]

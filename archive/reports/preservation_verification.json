@@ -1,0 +1,64 @@
+{
+  "checked_utc": "2026-10-13T17:12:40.915176+00:00",
+  "status": "baseline-preserved-with-concurrent-source-drift",
+  "evidence_files_hashed_by_location": {
+    "remote-checkout": 1663,
+    "local-checkout": 1534,
+    "research-workspace": 3227,
+    "data-workspace": 22
+  },
+  "historical_tags_unchanged": true,
+  "original_checkout_status_unchanged": false,
+  "source_mutation_performed": false,
+  "scope": "Meaningful public-safe initial inventory; runtime/cache/private entries omitted from this distributable receipt. Original private inventory retained separately.",
+  "baseline_evidence_unchanged": true,
+  "concurrent_drift": [
+    {
+      "location": "local-checkout",
+      "path": ".gitignore",
+      "reason": "Missing or checksum changed since initial audit"
+    },
+    {
+      "location": "local-checkout",
+      "path": "DATA_SOURCES.md",
+      "reason": "Missing or checksum changed since initial audit"
+    },
+    {
+      "location": "local-checkout",
+      "path": "README.md",
+      "reason": "Missing or checksum changed since initial audit"
+    },
+    {
+      "location": "local-checkout",
+      "path": "assets/kai-tak-approach.png",
+      "reason": "Missing or checksum changed since initial audit"
+    },
+    {
+      "location": "local-checkout",
+      "path": "publication/release_SHA256SUMS",
+      "reason": "Missing or checksum changed since initial audit"
+    },
+    {
+      "location": "local-checkout",
+      "path": "publication/release_assets.json",
+      "reason": "Missing or checksum changed since initial audit"
+    },
+    {
+      "location": "local-checkout",
+      "path": "publication/snapshot_manifest.json",
+      "reason": "Missing or checksum changed since initial audit"
+    },
+    {
+      "location": "local-checkout",
+      "path": "research/checkers-runway13/PROJECT_STATE.md",
+      "reason": "Missing or checksum changed since initial audit"
+    },
+    {
+      "location": "research-workspace",
+      "path": "research/checkers-runway13/PROJECT_STATE.md",
+      "reason": "Missing or checksum changed since initial audit"
+    }
+  ],
+  "original_checkout_head": "e4aa7d8218e7611a3ef186c8fa4262823080c457",
+  "interpretation": "Pinned archive worktree research/publication/data bytes and historical tags are unchanged. Original checkout and source project ledger changed during this task in separate work. No reset, rebase or source normalization performed. Full-current-main incorporation requires a new audit, not silently relabeling this fixed candidate."
+}

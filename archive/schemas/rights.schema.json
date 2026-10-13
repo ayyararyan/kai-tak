@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ayyararyan/kai-tak/archive/schemas/rights.schema.json",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "records"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "publication_decision",
+          "scope",
+          "verification_date",
+          "official_terms_urls",
+          "required_attribution",
+          "rights_basis",
+          "derivative_conditions",
+          "outstanding_questions",
+          "selection_rule"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "publication_decision": {
+            "enum": [
+              "Redistribution permitted",
+              "Original authored material",
+              "Link-only",
+              "Permission required",
+              "Rights unresolved",
+              "Excluded"
+            ]
+          },
+          "scope": {
+            "type": "string"
+          },
+          "verification_date": {
+            "type": "string",
+            "pattern": "^20[0-9]{2}-[0-9]{2}-[0-9]{2}$"
+          },
+          "official_terms_urls": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "required_attribution": {
+            "type": "string"
+          },
+          "rights_basis": {
+            "type": "string"
+          },
+          "derivative_conditions": {
+            "type": "string"
+          },
+          "outstanding_questions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "selection_rule": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

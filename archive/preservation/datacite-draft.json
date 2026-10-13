@@ -1,0 +1,47 @@
+{
+  "status": "Draft field mapping, not a DOI registration payload",
+  "attributes": {
+    "creators": [
+      {
+        "name": "Ayyar, Aryan",
+        "nameType": "Personal",
+        "givenName": "Aryan",
+        "familyName": "Ayyar"
+      }
+    ],
+    "titles": [
+      {
+        "title": "The Kai Tak Historical Research Archive — Data Release v1.0.0"
+      }
+    ],
+    "publisher": "Aryan Ayyar",
+    "publicationYear": 2026,
+    "types": {
+      "resourceTypeGeneral": "Dataset"
+    },
+    "version": "1.0.0",
+    "descriptions": [
+      {
+        "description": "Historical Geography, Aviation Evidence, Flight Dynamics and Mathematical Reconstructions of Hong Kong’s Kai Tak Airport. Unpublished archive candidate; source-specific rights and limitations.",
+        "descriptionType": "Abstract"
+      }
+    ],
+    "subjects": [
+      {
+        "subject": "Kai Tak Airport"
+      },
+      {
+        "subject": "Historical geography"
+      },
+      {
+        "subject": "Aviation history"
+      }
+    ]
+  },
+  "required_after_approval": [
+    "registered DOI",
+    "actual publication date",
+    "rights records for exact deposited file set",
+    "verified concept/version relations"
+  ]
+}

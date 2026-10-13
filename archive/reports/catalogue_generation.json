@@ -1,0 +1,27 @@
+{
+  "artifacts": 3268,
+  "datasets": 44,
+  "sources": 16,
+  "permitted_files": 418,
+  "permitted_bytes": 1305783427,
+  "exceptions": 2850,
+  "provenance_status_counts": {
+    "dataset-level-only": 2482,
+    "authorship-proposed-exact-upstream-review-pending": 257,
+    "embedded-input-hashes-verified": 2,
+    "producer-replay-semantic-identical": 3,
+    "producer-replay-byte-identical": 2,
+    "source-and-checksum-bound": 400,
+    "pinned-source-and-output-hashes": 14,
+    "producer-reassembly-byte-identical": 4,
+    "frozen-snapshot-hash-bound": 104
+  },
+  "rights_counts": {
+    "Rights unresolved": 2525,
+    "Original authored material": 308,
+    "Permission required": 17,
+    "Redistribution permitted": 418
+  },
+  "supplemental_lineage_edges": 714,
+  "virtual_member_and_version_nodes": 464
+}

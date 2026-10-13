@@ -1,0 +1,10 @@
+{
+  "checked_utc": "2026-10-13T17:18:54.993590+00:00",
+  "status": "passed-pattern-scan",
+  "text_files_scanned": 269,
+  "permitted_files_reviewed": 418,
+  "nested_zip_members_inspected": 455,
+  "findings": [],
+  "scope": "New metadata/code and exact permitted source members; nested ZIP names/text inspected. Private/runtime files excluded from public inventory and bundle allowlist. Binary image semantics and arbitrary encoded secrets are not proven absent by a pattern scan.",
+  "matched_values_emitted": false
+}

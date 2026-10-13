@@ -1,0 +1,1313 @@
+{
+  "policy": "Report only; no deletion or consolidation.",
+  "groups": [
+    {
+      "sha256": "020e06d1ca36ce849f6935ca63ad7f9281d07d3c0724b246ee844076f0fb8b9b",
+      "paths": [
+        "research/checkers-runway13/whitepaper/v1/evidence/stereo_plot_data.csv",
+        "research/checkers-runway13/whitepaper/v2/evidence/stereo_plot_data.csv"
+      ]
+    },
+    {
+      "sha256": "02e5db1f3277d846c7dbf27f78868c03424dcaa017d39f7e7b6b517e2af1957e",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-11D_1989-12/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-11D_1989-12/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "03ec349128949e8c07f82fc45c144a8f19b2ce757c8008f238f062227e094284",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-16A_1989-12/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-16A_1989-12/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "04fada2efaf53c0a2fca90d2834320702076bb313ec646f22b08fab10fc7537b",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-8A_1991-08/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-8A_1991-08/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "078d844b309dafd934d394d21948dc113caf73f698e83108b30b3b0a434befbe",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-20A_1989-11/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-20A_1989-11/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "0890f0dceb50dda6c8646cbc0bb0253862d0a7e505cb73c69ac568cf916c1bfe",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-5D_1989-12/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-5D_1989-12/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "0b95fdeba26d4436027226beeb8805c8c9fa6f042a0d66c934424e3d04e6cda4",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-23A_1991-09/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-23A_1991-09/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "0fc56dcd02145905494701f98ab96c229bc8ae4a75386602eba4dd7246e8b855",
+      "paths": [
+        "research/checkers-runway13/whitepaper/v1/checkers-with-runway-13-white-paper-v1.pdf",
+        "research/checkers-runway13/whitepaper/v1/main.pdf"
+      ]
+    },
+    {
+      "sha256": "117bca6e971fdbea2b366a653ba9ddc87ef8304fc72af0062f11d39d068476b1",
+      "paths": [
+        "research/checkers-runway13/geospatial/metadata/building_supplement1",
+        "research/checkers-runway13/reconstruction/chronology/structures/documentation/Building_FSDT_v1.1.pdf"
+      ]
+    },
+    {
+      "sha256": "12677349a0a4fbba91369505958f894843bcf2262792890d3d6dcd9b85f7aa82",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-14C_1990-09/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-14C_1990-09/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "17c70dac3685c3f04eb9d01026aaf3c74ed32313e70755bb854f9afc58377bc9",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/aerial_registration/guarded_sparse_run.log",
+        "research/checkers-runway13/reconstruction/block_matching/aerial_registration/sparse_stereo_report.json",
+        "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/sparse_stereo_report.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/sparse_stereo_report.json"
+      ]
+    },
+    {
+      "sha256": "18429c745cc7325b37ee028ccca5849051d7f6200de36e446b5a0593fb67e74e",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-1C_1990-01/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-1C_1990-01/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "188204e20a05f4455716455bc06407735441090416ba63eb32bc4c0eedc37f81",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/aerial_registration/dense_rectified_pair.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/aerial_registration/invalidated_dense_lr_blend/dense_rectified_pair.jpg"
+      ]
+    },
+    {
+      "sha256": "18aab78c59d96662f99b3bbe890b773f5ba833c845a306c581d7c6d62eba9df2",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/repair_export_topology.py",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/repair_export_topology.py"
+      ]
+    },
+    {
+      "sha256": "18add497b2e88914395fab97877805cb0cb4201fe09355cb78b1abc6954f3893",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/REPORT.md",
+        "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/REPORT.md"
+      ]
+    },
+    {
+      "sha256": "1aa46915a083962a3cc7a60065ceaba113d69ed9effb27f83cd8e67c98b470ec",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/aerial_registration/stereo_verification.json",
+        "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/stereo_verification.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/stereo_verification.json"
+      ]
+    },
+    {
+      "sha256": "1ac992bf7838fa3476067ec43c9682bcda2d62d5c9eeb04180f291060d7a7788",
+      "paths": [
+        "research/checkers-runway13/geospatial/README.md",
+        "research/checkers-runway13/whitepaper/v1/evidence/geospatial/README.md",
+        "research/checkers-runway13/whitepaper/v2/evidence/geospatial/README.md"
+      ]
+    },
+    {
+      "sha256": "1d92813bce03aa2eb543649e90501796666b801b425fcf7571882c3532f0098c",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-3A_1984-10/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-3C_1991-08/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-4A_1985-06/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-5A_1985-03/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-SE-3A_1993-08/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-3A_1984-10/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-3C_1991-08/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-4A_1985-06/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-5A_1985-03/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-SE-3A_1993-08/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "1fa8704467f7fb469131d2207067ea29c7755e3787f80368f554f30d6b04a653",
+      "paths": [
+        "research/checkers-runway13/counterfactual/reviews/acceptance.md",
+        "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/reviews/acceptance.md"
+      ]
+    },
+    {
+      "sha256": "211d6d509869919396632dbac1397d080dca9f54c4605f748d939be175b09837",
+      "paths": [
+        "research/checkers-runway13/whitepaper/v1/figures/synthetic_trajectory.pdf",
+        "research/checkers-runway13/whitepaper/v2/figures/synthetic_trajectory.pdf"
+      ]
+    },
+    {
+      "sha256": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693",
+      "paths": [
+        "research/checkers-runway13/model/config.json",
+        "research/checkers-runway13/outputs/scenario-longer/parameter_provenance.json",
+        "research/checkers-runway13/outputs/scenario-refined/parameter_provenance.json",
+        "research/checkers-runway13/outputs/scenario/parameter_provenance.json",
+        "research/checkers-runway13/outputs/search_failure/parameter_provenance.json",
+        "research/checkers-runway13/whitepaper/v1/evidence/model/config.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/model/config.json"
+      ]
+    },
+    {
+      "sha256": "2375724bc41568b3b89d15f593d314f0e60d60caa539b22e4fb9b979ff5458c2",
+      "paths": [
+        "research/checkers-runway13/counterfactual/reviews/parent_final_verification.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/reviews/parent_final_verification.json"
+      ]
+    },
+    {
+      "sha256": "23a2e3c01c35a95d7d933cf87351a86c6e0eef2d69e821421cb60b60d9242c51",
+      "paths": [
+        "research/checkers-runway13/approximation/reference_outcomes.json",
+        "research/checkers-runway13/whitepaper/v1/evidence/approximation/reference_outcomes.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/approximation/reference_outcomes.json"
+      ]
+    },
+    {
+      "sha256": "25ef85d58907a11867feabec809f390a117d1e93bcd080308b008c328fdbf32f",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-20C_1989-10/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-20C_1989-10/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "28ddf7ddff1f4a75e756a6beb3842ed8d6c8fd7e68d211a9e162cf94b72a6374",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/aerial_registration/dense_stereo_report.json",
+        "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/dense_stereo_report.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/dense_stereo_report.json"
+      ]
+    },
+    {
+      "sha256": "2bb2c74851ac1d0f0b9bb91125eab70bdb1ce58da16ff1ddad7b042385801257",
+      "paths": [
+        "research/checkers-runway13/evidence/cal605_reconstruction/flight/README.md",
+        "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/flight/README.md",
+        "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/flight/README.md"
+      ]
+    },
+    {
+      "sha256": "309b7acf7e743e44a7f2fe745dc2966778da5cee8e22a63603ab8c2a31152475",
+      "paths": [
+        "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/count_after.json",
+        "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/count_before.json"
+      ]
+    },
+    {
+      "sha256": "30dab99db968f3d9ea3308d6d22f294b78b0ff73d47a2de682c38c51d13e36dd",
+      "paths": [
+        "research/checkers-runway13/counterfactual/deliver.py",
+        "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/deliver.py"
+      ]
+    },
+    {
+      "sha256": "320231e47fd59a3dbaf2308ff2b10cde8e6b2d517d325454952209886e622e68",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-1B_1990-02/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-1B_1990-02/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "32e41a87b5e7b59139bff586f54e14f61d26a4e6a8087eff5f1f4558c472b20a",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/scene/readable/verification.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/scene/readable/verification.json"
+      ]
+    },
+    {
+      "sha256": "3631409dfc2fef2c0b8e6bf40d77143358b0bc6ced7c30261c620ce58f228f36",
+      "paths": [
+        "research/checkers-runway13/counterfactual/continuous_check.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/continuous_check.json"
+      ]
+    },
+    {
+      "sha256": "3756d4a88c11bfae4fbd7764e17b1a07f5c72e2abbe75fe2f92c93764bcd7493",
+      "paths": [
+        "research/checkers-runway13/counterfactual/search_state.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/search_state.json"
+      ]
+    },
+    {
+      "sha256": "386695fa71afc900113f123e7204966a64dfd43eb2db0faed4fb3577c30554fa",
+      "paths": [
+        "research/checkers-runway13/analytical/coupled/RESULTS.md",
+        "research/checkers-runway13/whitepaper/v1/evidence/analytical/coupled/RESULTS.md",
+        "research/checkers-runway13/whitepaper/v2/evidence/analytical/coupled/RESULTS.md"
+      ]
+    },
+    {
+      "sha256": "386cf32393b0bc2c3c92f44c7dd71cca054a7bb8842a3d355c7ec09e003ab918",
+      "paths": [
+        "research/checkers-runway13/whitepaper/v1/figures/historical_support.png",
+        "research/checkers-runway13/whitepaper/v2/figures/historical_support.png"
+      ]
+    },
+    {
+      "sha256": "38b15bc935990a2752cf7dd070a7e1d419ace040fdcf2acb9efb4b54aa7bc9b8",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-2B_1990-02/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-2B_1990-02/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "3b588af3cc493814dead24536cbe781037f552217cc65dcd359546f67effcb14",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-22B_1993-08/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-22B_1993-08/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "3d5a8c92067636a8bd39c0469f77b5608396612843fe38f73235ba44a9666771",
+      "paths": [
+        "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingRelateOPStructure/count_after.json",
+        "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingRelateOPStructure/count_before.json"
+      ]
+    },
+    {
+      "sha256": "3d8a9ce242783e357317beca0470044c00d4f62c74084cd1ffa70472815a8ceb",
+      "paths": [
+        "research/checkers-runway13/MODEL_IMPLEMENTATION_SPEC.md",
+        "research/checkers-runway13/whitepaper/v1/evidence/MODEL_IMPLEMENTATION_SPEC.md",
+        "research/checkers-runway13/whitepaper/v2/evidence/MODEL_IMPLEMENTATION_SPEC.md"
+      ]
+    },
+    {
+      "sha256": "3e1f7409db0c27b1b4c493bb98f1185636d4ca48534682ef6a0b3d0ce7670a7a",
+      "paths": [
+        "research/checkers-runway13/approximation/STATUS.md",
+        "research/checkers-runway13/whitepaper/v1/evidence/approximation/STATUS.md"
+      ]
+    },
+    {
+      "sha256": "45a96e9edc7713d863116f4f32043af5abe51dc1f53a8825a4c77c3def28ddaf",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-12C_1991-09/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-12C_1991-09/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "474d450c394d00661392babf4047c9258d89288985a16c639faf662b061e7169",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-8C_1990-05/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-8C_1990-05/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "47762741522b4b7f7d54030a1645581909aecf5d508d1133e727d4905b67baf3",
+      "paths": [
+        "research/checkers-runway13/reconstruction/chronology/aerial/dap_product_description.html",
+        "research/checkers-runway13/reconstruction/downloads/lands_digital_aerial.html"
+      ]
+    },
+    {
+      "sha256": "49296dd026b3f0702fb672264c2c5524221a38acbf60631b6b8581e6c0b7bfe8",
+      "paths": [
+        "research/checkers-runway13/counterfactual/bundles/delivery-5c16a9f41155458d8e3304389e854d5f/result.json",
+        "research/checkers-runway13/counterfactual/result.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/result.json"
+      ]
+    },
+    {
+      "sha256": "4ab466ed59e3dd5ae867679dbcac0e87a8f0a7fba28227aa0b7abedcf242a115",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-12D_1990-02/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-12D_1990-02/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "4b0a300dae6402b0bd785e206132b95b61ea3374e524e8c5dc6a5b9f6c417d3c",
+      "paths": [
+        "research/checkers-runway13/counterfactual/bundles/delivery-5c16a9f41155458d8e3304389e854d5f/landing.pdf",
+        "research/checkers-runway13/counterfactual/landing.pdf"
+      ]
+    },
+    {
+      "sha256": "4c6b207093291c0e459ecb0f6023e02af57db476beacc048d6558f51bdbdd8eb",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-5C_1989-11/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-5C_1989-11/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "4cedc557b9ed80c8e52d61f14bff6aacf5b69fdc1046f692fc3b53aa264a13e6",
+      "paths": [
+        "research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/search_checkpoint.json",
+        "research/checkers-runway13/counterfactual/search_checkpoint.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/search_checkpoint.json"
+      ]
+    },
+    {
+      "sha256": "4d1ec9710dabae238fb197722b677d43542f4b78b52cdf3a7b0c97ba6252e49a",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-1A_1990-01/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-1A_1990-01/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "paths": [
+        "research/checkers-runway13/reconstruction/chronology/aerial/CN4581_product.json",
+        "research/checkers-runway13/reconstruction/chronology/matching_issues.json"
+      ]
+    },
+    {
+      "sha256": "500c9ec6e97f761f4cd7505d6acbb55d956c806d1b86fbce960f0fb8d5b3ce41",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-16D_1986-07/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-16D_1986-07/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "51161e7f0a964052cbd6a81e031e242123d28b28fb84257e8fdd394596f2d266",
+      "paths": [
+        "research/checkers-runway13/integrated/records_followup/sources/lands_aerial.html",
+        "research/checkers-runway13/reconstruction/downloads/lands_aerial_archive.html"
+      ]
+    },
+    {
+      "sha256": "5412ec94318b1d30c53ad0eea3205cd3b81f9daa943c277e10f68afe83e372e2",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/digitization_candidates_hk1980.geojson",
+        "research/checkers-runway13/reconstruction/block_matching/reviews/pre_fix_geometry/digitization_candidates_hk1980.geojson"
+      ]
+    },
+    {
+      "sha256": "565cc5e51ac617aaaf7f4f51264b778777a0818f0fdf7c52443bcaea7d31bc53",
+      "paths": [
+        "research/checkers-runway13/reconstruction/chronology/structures/review_repair_baseline/validation.json",
+        "research/checkers-runway13/reconstruction/chronology/structures/validation.json"
+      ]
+    },
+    {
+      "sha256": "584353d054bde43a82f338edcad8320f1f32ff779b56c5b669d32deac798138b",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-9D_1990-06/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-9D_1990-06/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "586cdc4cd0b69d20126a5c97e19cb39937426ff9ec58498cb45412df96a83165",
+      "paths": [
+        "research/checkers-runway13/approximation/SPEC.md",
+        "research/checkers-runway13/whitepaper/v1/evidence/approximation/SPEC.md",
+        "research/checkers-runway13/whitepaper/v2/evidence/approximation/SPEC.md"
+      ]
+    },
+    {
+      "sha256": "5ac1fa68810cec397d013875d534350bbf8f28d08eb0ed1d49912d253030e426",
+      "paths": [
+        "research/checkers-runway13/MODEL_VALIDATION_REPORT.md",
+        "research/checkers-runway13/whitepaper/v1/evidence/MODEL_VALIDATION_REPORT.md",
+        "research/checkers-runway13/whitepaper/v2/evidence/MODEL_VALIDATION_REPORT.md"
+      ]
+    },
+    {
+      "sha256": "5b2cb57cbcee39c0de12193f3e85ea20e18f8f3a67b2f02b8226884b27bab816",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/road_cell_parent_verification.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/road_cell_parent_verification.json"
+      ]
+    },
+    {
+      "sha256": "5e498fee46936c4a53a908ec255d34b83c4894af223aff10bfbd8610605f088b",
+      "paths": [
+        "research/checkers-runway13/counterfactual/inputs.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/inputs.json"
+      ]
+    },
+    {
+      "sha256": "5e6c2446a3ac7c223748eec8465afe1c12efbe63c3de0f56aeb4899d3cf29706",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/road_cell_visual_observations.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/road_cell_visual_observations.json"
+      ]
+    },
+    {
+      "sha256": "5febea6c1ee15b7c62e3db7cf1ba846aa091693350c511f394b9e684d48fd054",
+      "paths": [
+        "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/count_after.json",
+        "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/count_before.json"
+      ]
+    },
+    {
+      "sha256": "601cc3b9c93fb1315c01a393b0b5236eb92700b834ce449a0a2531d551319b64",
+      "paths": [
+        "research/checkers-runway13/evidence/EVIDENCE_REPORT.md",
+        "research/checkers-runway13/whitepaper/v1/evidence/evidence/EVIDENCE_REPORT.md",
+        "research/checkers-runway13/whitepaper/v2/evidence/evidence/EVIDENCE_REPORT.md"
+      ]
+    },
+    {
+      "sha256": "614bea92909e525f847dff84307cd65b91d7bba0375176ebec15accc35994922",
+      "paths": [
+        "research/checkers-runway13/approximation/parent_verification.json",
+        "research/checkers-runway13/whitepaper/v1/evidence/approximation/parent_verification.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/approximation/parent_verification.json"
+      ]
+    },
+    {
+      "sha256": "6159e770f6ab70d48e31acc7df3d2129e5090a010fbd779bc0575e041bf397fd",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-9B_1990-06/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-9B_1990-06/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "645d7ecc3db98b55edf23df67e1bdbac22ab33b1f554cf8cd8a597366f178d0a",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-4B_1985-06/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-4B_1985-06/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "64bdf588378ce3e472d3e983a7ce0e37ad2f063902a8556746c219cd0e336d91",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-19C_1989-09/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-19C_1989-09/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "64c308501364f3d9d095cebfe4612cd927d4174c96d1baf0f9279cccf549dd81",
+      "paths": [
+        "research/checkers-runway13/evidence/cal605_reconstruction/noaa/README.md",
+        "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/noaa/README.md",
+        "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/noaa/README.md"
+      ]
+    },
+    {
+      "sha256": "6606d883e9495bcbf2394f08d876891820f49cecd1b104231ac09dc0062ab7db",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/digitization_attempts.json",
+        "research/checkers-runway13/reconstruction/block_matching/reviews/pre_fix_geometry/digitization_attempts.json"
+      ]
+    },
+    {
+      "sha256": "66589ebeae8ff8d64fafa91499a7ab4df91be215a931929d16b4a3967e5ebed7",
+      "paths": [
+        "research/checkers-runway13/counterfactual/test_counterfactual.py",
+        "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/test_counterfactual.py"
+      ]
+    },
+    {
+      "sha256": "667c19b473d55a3f3b9cb867a3d42cfae1a5e3a211988da29fd7f3144aa3cfaa",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-22A_1993-08/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-22A_1993-08/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "685c9a1733f8faa6bd40247c73a4101fbb8d9fa59ece5080f9de431957d96686",
+      "paths": [
+        "research/checkers-runway13/outputs/scenario-longer/candidate.csv",
+        "research/checkers-runway13/outputs/scenario/candidate.csv"
+      ]
+    },
+    {
+      "sha256": "6861f2a49b0578139c5cfd1d5e7e284484899aaf49783f86d55a73417757dc39",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-11A_1994-07/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-11A_1994-07/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "68621bf2cfd91ae6108d9ff5e0b25d532b3f698916b1774a2ee324add01ca9e9",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-12B_1990-02/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-12B_1990-02/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "6a06f484eeeb20e9b6ff35d0fcb12c74efc4d96a80fc08c480ae54405c7aa11d",
+      "paths": [
+        "research/checkers-runway13/reconstruction/chronology/REPORT.md",
+        "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/REPORT.md",
+        "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/REPORT.md"
+      ]
+    },
+    {
+      "sha256": "6f41473858e204bd2556eacce6c08fddcf4b3822c79adea8f99227f717f3eb1e",
+      "paths": [
+        "research/checkers-runway13/reconstruction/downloads/geodetic_grid.html",
+        "research/checkers-runway13/reconstruction/downloads/lands_geodetic.html"
+      ]
+    },
+    {
+      "sha256": "71759acd364284d6c38b0135698fa30c296a213d55da08ab6861ff9980855f3f",
+      "paths": [
+        "research/checkers-runway13/whitepaper/v1/figures/weather_context.pdf",
+        "research/checkers-runway13/whitepaper/v2/figures/weather_context.pdf"
+      ]
+    },
+    {
+      "sha256": "717feb7afce744bed4aa1e15c0d73e0a8fcc2ddb54fa71bd6476f8c6896b6edd",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-6A_1991-09/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-6A_1991-09/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "75f302320f18dbedccd4b232be6124e72d5392161f420767e6d1c504dc3bf682",
+      "paths": [
+        "research/checkers-runway13/whitepaper/v1/figures/stopping_boundary.pdf",
+        "research/checkers-runway13/whitepaper/v2/figures/stopping_boundary.pdf"
+      ]
+    },
+    {
+      "sha256": "774f34ad182a5015eeed799c910cde01eb6b297c1b4e6c4a119582b0d83db973",
+      "paths": [
+        "research/checkers-runway13/analytical/coupled/continuous_certificate_refined.json",
+        "research/checkers-runway13/whitepaper/v1/evidence/analytical/coupled/continuous_certificate_refined.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/analytical/coupled/continuous_certificate_refined.json"
+      ]
+    },
+    {
+      "sha256": "77771f74d60a35bc1dbee56a9db0a94fa27ec4e5968d3bcfcd8eea915734b28b",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-17C_1993-07/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-17C_1993-07/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "7a93fddd214cc1d05d758a8cf5578832b5b2030c445a4314086a464c69b89d9d",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-17B_1993-07/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-17B_1993-07/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "7acc1fdbd8c144d952a8a13585f21de9b8da008e7bfd452a62be1305d9bb1a29",
+      "paths": [
+        "research/checkers-runway13/reconstruction/chronology/structures/raw/OP/count_after.json",
+        "research/checkers-runway13/reconstruction/chronology/structures/raw/OP/count_before.json"
+      ]
+    },
+    {
+      "sha256": "7de32c29acf8f3729884a002ff133252ad6cab1b7a2da486b104ccc9d85a704d",
+      "paths": [
+        "research/checkers-runway13/whitepaper/v1/evidence/weather_plot_data.csv",
+        "research/checkers-runway13/whitepaper/v2/evidence/weather_plot_data.csv"
+      ]
+    },
+    {
+      "sha256": "7e957b6c8cd42493f6809a49b7be917c147a1e147ecadeef98a64762259b2c42",
+      "paths": [
+        "research/checkers-runway13/evidence/cal605_reconstruction/analysis.json",
+        "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/analysis.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/analysis.json"
+      ]
+    },
+    {
+      "sha256": "7ef27fc02ccdac883402a4f7b530873ca2cec90ae218bd82b38073106a2257db",
+      "paths": [
+        "research/checkers-runway13/evidence/cal605_reconstruction/wind/README.md",
+        "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/wind/README.md",
+        "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/wind/README.md"
+      ]
+    },
+    {
+      "sha256": "80c44bbf5fa74cecbb065b8a9b874e6b4b580f124b36afc0fa509be4cdbdf732",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-14A_1990-10/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-14A_1990-10/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "8160e7d752354d6fcc28c7cb81776eb70763d0e0c4c2e7c22a8065c6c1199709",
+      "paths": [
+        "research/checkers-runway13/whitepaper/v1/figures/historical_support.pdf",
+        "research/checkers-runway13/whitepaper/v2/figures/historical_support.pdf"
+      ]
+    },
+    {
+      "sha256": "81a0b39ebb7ac44122b013759f020938469d66a32001b4b29f342f99d9d81ee9",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-25A_1989-10/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-25A_1989-10/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "81ce130e3b3f2402dc8eaa64eae306fe27d6d5a227b818704b878e5667ad64ee",
+      "paths": [
+        "research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/result.json",
+        "research/checkers-runway13/counterfactual/bundles/legacy-949fdca5d37144af8c9b5ed30368a8a1/result.json"
+      ]
+    },
+    {
+      "sha256": "88901fe034cebdac04b6332a6c0e3f111017990aebdc6977e72a3eb18628ccd6",
+      "paths": [
+        "research/checkers-runway13/whitepaper/v1/figures/synthetic_trajectory.png",
+        "research/checkers-runway13/whitepaper/v2/figures/synthetic_trajectory.png"
+      ]
+    },
+    {
+      "sha256": "88f3b54c1b253a1cd90c2b99de5e546e632954ce70486400d79527e61f0271e3",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-14B_1990-01/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-14B_1990-01/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a",
+      "paths": [
+        "research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/formula.json",
+        "research/checkers-runway13/counterfactual/bundles/delivery-363a34a8137840349f2606ba2cdef553/formula.json",
+        "research/checkers-runway13/counterfactual/bundles/delivery-5c16a9f41155458d8e3304389e854d5f/formula.json",
+        "research/checkers-runway13/counterfactual/bundles/delivery-6e6cbd5b0af743df91b72a5926209e82/formula.json",
+        "research/checkers-runway13/counterfactual/bundles/delivery-7bfe87003e5c4dc093c356928fd7e8ca/formula.json",
+        "research/checkers-runway13/counterfactual/bundles/delivery-d0f7a74fb3ed4479af628b450956b2dd/formula.json",
+        "research/checkers-runway13/counterfactual/bundles/legacy-949fdca5d37144af8c9b5ed30368a8a1/formula.json",
+        "research/checkers-runway13/counterfactual/formula.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/formula.json"
+      ]
+    },
+    {
+      "sha256": "89ff5543e114082e88b7d5ea17aa3c728dfd9b2ea767ba2972fe84684e4c1d47",
+      "paths": [
+        "research/checkers-runway13/whitepaper/v1/figures/historical_stopping.pdf",
+        "research/checkers-runway13/whitepaper/v2/figures/historical_stopping.pdf"
+      ]
+    },
+    {
+      "sha256": "8a4898c5619d86c45bfd9410aff5ed283ddc6e6241b479a76c44f4273853e688",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-19B_1990-10/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-19B_1990-10/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "8c5000f8ac28c6438a91c1546ea8148f28f5cbf7e8c7e34643d950d58cb8d145",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-4D_1989-11/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-4D_1989-11/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "8c749d4b22505c91f1e0b6e9a72f17966c53d5d3565f0573aabe0851d0a1beac",
+      "paths": [
+        "research/checkers-runway13/MODEL_EQUATIONS.md",
+        "research/checkers-runway13/whitepaper/v1/evidence/MODEL_EQUATIONS.md",
+        "research/checkers-runway13/whitepaper/v2/evidence/MODEL_EQUATIONS.md"
+      ]
+    },
+    {
+      "sha256": "8cd941b8634f2df88b9dbd524320e349ce479ea4d193035ebd26c347c2e106b2",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-14D_1989-10/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-14D_1989-10/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "8e34a0d30d4658bdb40304d738fa6ed0acd6d0a412504294fcd0e843d70d496a",
+      "paths": [
+        "research/checkers-runway13/evidence/cal605_reconstruction/noaa/verification.json",
+        "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/noaa/verification.json"
+      ]
+    },
+    {
+      "sha256": "8f01b9abb6b0f40ca40d25b871e8102a4509504a9b2805d440c85ef4aa52f95e",
+      "paths": [
+        "research/checkers-runway13/counterfactual/delivery_manifest.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/delivery_manifest.json"
+      ]
+    },
+    {
+      "sha256": "8fc8e3c5be39c10706b1e48a1bd880628d5e155b9e510124d203d7a2860bd767",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-25B_1989-10/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-25B_1989-10/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "9071b32052f02ccb123427047d9844df57a2f14dd9c91b24363c870c69509dae",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-22D_1993-08/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-22D_1993-08/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "917d7f0c9f156aa8c20bb78c6b61e15592aff82603b9342e7c156b0eaf98e4ee",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-21C_1993-10/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-21C_1993-10/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "92b4cad008db880d2247dbf483e6b6ab3319595cd0a9ac7beadb0eec7d99b148",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-25C_1993-09/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-25C_1993-09/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "9312534cd4192579adedc89226927a3f140a409f7501057658ae4d771ae5ccdd",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-10D_1989-11/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-10D_1989-11/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "94148f2bb7d77c26ef3f8a1ed326eb8dbc5895c6146281b1370b26e9239a18ac",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-10C_1989-12/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-10C_1989-12/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "94f4dcff83a2980b74e0415120c14352330319343a31605f7db13abdb6f101bd",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-7C_1993-07/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-7C_1993-07/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "95311d6d1857fc6330532dcce52cc58f03e20b489c3249a0da6cf3f14cea0c76",
+      "paths": [
+        "research/checkers-runway13/approximation/reference_formula.json",
+        "research/checkers-runway13/whitepaper/v1/evidence/approximation/reference_formula.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/approximation/reference_formula.json"
+      ]
+    },
+    {
+      "sha256": "96f924f265466fc4f6d5b42019cf944d3d6546f6b0195fdc8136f4869570fbd7",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-2C_1991-10/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-2C_1991-10/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "97b90320527b2c0fed869636b8a5288cb0fe56617cdd48eeaa7aff7db14f4e4b",
+      "paths": [
+        "research/checkers-runway13/whitepaper/v1/figures/stopping_boundary.png",
+        "research/checkers-runway13/whitepaper/v2/figures/stopping_boundary.png"
+      ]
+    },
+    {
+      "sha256": "97f0657c0d14c4b54f74bd96cdb00ecf11a2b53456ef6e7fe355938e62a3fbf1",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-4C_1989-11/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-4C_1989-11/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "9872470781fe03dc2cdbfc4fc227451f2c9c2b72cb8161a3f3cdacf422e7f866",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-24A_1989-09/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-24A_1989-09/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "99f26f32d7e5f0028eec74a10c8458379d4151a1ab47dad1c722c4c56671e67d",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-SW-5B_1993-10/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-SW-5B_1993-10/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "9a22ee599829be5de129883483d89cd8c5ca88ee8606cfe33a146bce7c052264",
+      "paths": [
+        "research/checkers-runway13/counterfactual/verification.json",
+        "research/checkers-runway13/counterfactual/verification.log",
+        "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/verification.json"
+      ]
+    },
+    {
+      "sha256": "9a3ae164893411ab017ce892f6baa0a70b979adadb656a3ce222891b835323a8",
+      "paths": [
+        "research/checkers-runway13/geospatial/metadata/building_supplement1.txt",
+        "research/checkers-runway13/reconstruction/chronology/structures/documentation/Building_FSDT_v1.1.txt"
+      ]
+    },
+    {
+      "sha256": "9c6110617974a7c041ae620814e82356a70c0f17ea247dea407a10cf6b22115c",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-23C_1991-09/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-23C_1991-09/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "9ce07e4446c3accbfa7c712d5a4ea3221bbf24246d498d3bb336764eace3fadf",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-2D_1990-02/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-2D_1990-02/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "9d8b40c750caea97f45f894f314e47f4ae934d577f4a5014c8a35b4f04defe64",
+      "paths": [
+        "research/checkers-runway13/counterfactual/selected.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/selected.json"
+      ]
+    },
+    {
+      "sha256": "9d98e8ad5144ae367903c1c59c7e436cc602d1b7894049d11c47bf19244b4135",
+      "paths": [
+        "research/checkers-runway13/evidence/cal605_reconstruction/flight/flight_summary.json",
+        "research/checkers-runway13/evidence/cal605_reconstruction/reviews/regenerate_flight_build_flight.py.log"
+      ]
+    },
+    {
+      "sha256": "9f22ab99f964c030608afa44283fe6e92f03f11d30938eb0c0a3a9d5068b9c62",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/HANDOFF.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/HANDOFF.json"
+      ]
+    },
+    {
+      "sha256": "9f5d9410b58e530cdf40873454d78208aba1d370d03255b2dcb26810b8c66b4d",
+      "paths": [
+        "research/checkers-runway13/counterfactual/reviews/DISPOSITION.md",
+        "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/reviews/DISPOSITION.md"
+      ]
+    },
+    {
+      "sha256": "a310caaa30388c4b05302af6da25ad3980a7f0504885deba4f1ec47bbce6012a",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-21A_1989-12/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-21A_1989-12/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "a4e4cd0f7c89f0f54cce9ca6dcbb46a3ac5f064905ce282528f90b9a258c5328",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-7A_1991-09/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-7A_1991-09/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "a50c3ae569ce52d7c47a21bbe905f18fc4be233f4b311c5c225b08fe9ea42cc7",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/aerial_registration/observed_mesh_verification.json",
+        "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/observed_mesh_verification.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/observed_mesh_verification.json"
+      ]
+    },
+    {
+      "sha256": "a6de1e92665ed9b7d8773843174f2600d148acf932834e52a3a94527bee6f2fc",
+      "paths": [
+        "research/checkers-runway13/whitepaper/v2/checkers-with-runway-13-white-paper-v2.pdf",
+        "research/checkers-runway13/whitepaper/v2/main.pdf"
+      ]
+    },
+    {
+      "sha256": "a71c1fb374c34a0cdcd3d26271bad58e910e29740362df3710f6e73ae26912d7",
+      "paths": [
+        "research/checkers-runway13/counterfactual/delivery.log",
+        "research/checkers-runway13/counterfactual/regeneration_1.log",
+        "research/checkers-runway13/counterfactual/regeneration_2.log"
+      ]
+    },
+    {
+      "sha256": "aa42d0e9812ac35d9dc3f2823beb8e535b82597c0dee5dd0cee9c5487579697f",
+      "paths": [
+        "research/checkers-runway13/counterfactual/SPEC.md",
+        "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/SPEC.md"
+      ]
+    },
+    {
+      "sha256": "ab34f82f8fbaca0a515608b0ae3f44539263d5162e2fa088557618df7f2a7a0c",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/scene/validation.json",
+        "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/scene/validation.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/scene/validation.json"
+      ]
+    },
+    {
+      "sha256": "ababd2644f766efb29a79eb02d4a73ffd09893f74190c1e5f464e75627c3bb2e",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/historical_faces_hk1980.geojson",
+        "research/checkers-runway13/reconstruction/block_matching/reviews/pre_fix_geometry/historical_faces_hk1980.geojson"
+      ]
+    },
+    {
+      "sha256": "abd1ce5f89ec0c5547e212e78bd1a0aea9672b987cfa7b3a9895020459b3271d",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-15D_1989-11/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-15D_1989-11/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "ae08e0a794c4cacbcaa157227a1c423c76c4b18b4b9ba3b7728a3969d48c2d3c",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-7D_1990-02/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-7D_1990-02/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "ae7aa69c6ed42263bc6e060fb92133aaeed8e39f9909bdea48d99dc27986b394",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json",
+        "research/checkers-runway13/reconstruction/block_matching/aerial_registration/repaired_mesh_run.log",
+        "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json"
+      ]
+    },
+    {
+      "sha256": "afc13dd41e754fbd1f009bd986e2efd348a2ff0008d25a03359a2e98750793d7",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-3A_1984-10/ranked_candidates.csv",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-3C_1991-08/ranked_candidates.csv",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-4A_1985-06/ranked_candidates.csv",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-5A_1985-03/ranked_candidates.csv",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-SE-3A_1993-08/ranked_candidates.csv",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-3A_1984-10/ranked_candidates.csv",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-3C_1991-08/ranked_candidates.csv",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-4A_1985-06/ranked_candidates.csv",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-5A_1985-03/ranked_candidates.csv",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-SE-3A_1993-08/ranked_candidates.csv"
+      ]
+    },
+    {
+      "sha256": "b167fb01d96631a749fde1cbb4a894ee257b14f0f5e0cc3520a984f26100431a",
+      "paths": [
+        "research/checkers-runway13/literature/LITERATURE_AND_COMPARISON.md",
+        "research/checkers-runway13/whitepaper/v1/evidence/literature/LITERATURE_AND_COMPARISON.md",
+        "research/checkers-runway13/whitepaper/v2/evidence/literature/LITERATURE_AND_COMPARISON.md"
+      ]
+    },
+    {
+      "sha256": "b2c6d9e2a66bbd6081c4b6fd2d714f7c5d8cf8b7a3d34cccf66c6490017b3ab6",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-6B_1991-09/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-6B_1991-09/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "b8e3a0fd8e9717b724316f9bdcdad140cb2f14c71ae3bb9b800b5d43bb9c5c5d",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/validation.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/validation.json"
+      ]
+    },
+    {
+      "sha256": "be7499bb1cce23c3a8dff9b55be5c3434519245327225db2588bc3f581a6a887",
+      "paths": [
+        "research/checkers-runway13/whitepaper/v1/references.tex",
+        "research/checkers-runway13/whitepaper/v2/references.tex"
+      ]
+    },
+    {
+      "sha256": "bf93850ae01b3d5539b42e51af7f56238e73cebfae6536910f30793165892681",
+      "paths": [
+        "research/checkers-runway13/evidence/cal605_reconstruction/verification.json",
+        "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/verification.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/verification.json"
+      ]
+    },
+    {
+      "sha256": "bfbb4d503f7bdb87bddc3a7d02b0fb460273d1e38ecbb7bb370726996a075a9f",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-15A_1989-11/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-15A_1989-11/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "c220e280115238c7f42779236a1bf41fe29e786cc58d6c6830d3fc35f7db8a8c",
+      "paths": [
+        "research/checkers-runway13/counterfactual/continuous.py",
+        "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/continuous.py"
+      ]
+    },
+    {
+      "sha256": "c676fb0d5462201c3d1231c69bd0128fdfbc7a9966b0b1f93729571ebc31c9b2",
+      "paths": [
+        "research/checkers-runway13/evidence/cal605_reconstruction/reviews/regenerate_wind_reconstruct_wind.py.log",
+        "research/checkers-runway13/evidence/cal605_reconstruction/wind/summary.json"
+      ]
+    },
+    {
+      "sha256": "c6d92372417f56a8b017f8da56c0ed9d59d03eabf14efcc8fc9004137e2855e1",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/aerial_registration/README.md",
+        "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/README.md",
+        "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/README.md"
+      ]
+    },
+    {
+      "sha256": "c751bd91f98a4bcbdb78743d34be9ce97846fe35cca3c582e8abda15c8fcbb87",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/registration_report.md",
+        "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/registration_report.md",
+        "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/registration_report.md"
+      ]
+    },
+    {
+      "sha256": "c9905b322a0f674e48a8f3461642648496a94ff57f6cb77eda7416af6bd16c3c",
+      "paths": [
+        "research/checkers-runway13/approximation/CLOSED_FORM_AND_BOUNDS.md",
+        "research/checkers-runway13/whitepaper/v1/evidence/approximation/CLOSED_FORM_AND_BOUNDS.md",
+        "research/checkers-runway13/whitepaper/v2/evidence/approximation/CLOSED_FORM_AND_BOUNDS.md"
+      ]
+    },
+    {
+      "sha256": "c9b77777356cd93cf14f97d57289bab489e109525c4056abf44111afb29be605",
+      "paths": [
+        "research/checkers-runway13/counterfactual/calculate.py",
+        "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/calculate.py"
+      ]
+    },
+    {
+      "sha256": "ca133e7fbacd87fe4361847d1b6d94554f3bc0b105cb6af03464b64e8a486aed",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-15B_1989-11/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-15B_1989-11/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "cb2008b106fb87323919e6a6482dfcf46f0c40dc42482b72424aa30dd50c0940",
+      "paths": [
+        "research/checkers-runway13/whitepaper/v1/requirements.txt",
+        "research/checkers-runway13/whitepaper/v2/requirements.txt"
+      ]
+    },
+    {
+      "sha256": "cbbe995b220b580638720d167b44577285d133030f5e2ffbbe92c8b0eaee6733",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-11C_1990-01/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-11C_1990-01/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "cbdb190f7659b0e19d4a66b4339b091c3675cd261af8ef024fbfb4512ef67cca",
+      "paths": [
+        "research/checkers-runway13/whitepaper/v1/figures/historical_stopping.png",
+        "research/checkers-runway13/whitepaper/v2/figures/historical_stopping.png"
+      ]
+    },
+    {
+      "sha256": "cf3250dafc6c559bb82b1d2a2073b008a69de16ca79bdd0a48aa1ca10b8279cb",
+      "paths": [
+        "research/checkers-runway13/evidence/cal605_reconstruction/clock_alignment.json",
+        "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/clock_alignment.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/clock_alignment.json"
+      ]
+    },
+    {
+      "sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640",
+      "paths": [
+        "research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/path_controls.csv",
+        "research/checkers-runway13/counterfactual/bundles/delivery-363a34a8137840349f2606ba2cdef553/path_controls.csv",
+        "research/checkers-runway13/counterfactual/bundles/delivery-5c16a9f41155458d8e3304389e854d5f/path_controls.csv",
+        "research/checkers-runway13/counterfactual/bundles/delivery-6e6cbd5b0af743df91b72a5926209e82/path_controls.csv",
+        "research/checkers-runway13/counterfactual/bundles/delivery-7bfe87003e5c4dc093c356928fd7e8ca/path_controls.csv",
+        "research/checkers-runway13/counterfactual/bundles/delivery-d0f7a74fb3ed4479af628b450956b2dd/path_controls.csv",
+        "research/checkers-runway13/counterfactual/bundles/legacy-949fdca5d37144af8c9b5ed30368a8a1/path_controls.csv",
+        "research/checkers-runway13/counterfactual/path_controls.csv",
+        "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/path_controls.csv"
+      ]
+    },
+    {
+      "sha256": "d7df7768b51f2f8c172c0cd2c1a7f1f49962cb8a0ffb5744f55222ce7f3d0477",
+      "paths": [
+        "research/checkers-runway13/counterfactual/SCOPE_AUDIT.md",
+        "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/SCOPE_AUDIT.md"
+      ]
+    },
+    {
+      "sha256": "db4ba3d890a36c27267e889576bc6b881fac70f5dbda327fdb1cdb24bccca5fa",
+      "paths": [
+        "research/checkers-runway13/evidence/cal605_reconstruction/delivery_manifest.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/delivery_manifest.json"
+      ]
+    },
+    {
+      "sha256": "dc6bfc5ad253874e453debcc66b19aec48e918f8fe1c715bb3724f7cca04cfc1",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-11B_1989-12/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-11B_1989-12/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "deb41f43c3473b0ce6e7f786cdd5f12f730c71a0c03c12abb672810da306539c",
+      "paths": [
+        "research/checkers-runway13/counterfactual/REPORT.md",
+        "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/REPORT.md"
+      ]
+    },
+    {
+      "sha256": "e0c664c9bde562d0ed21c3037af22676d217870d9dda72c623d46bc335e365af",
+      "paths": [
+        "research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/landing.png",
+        "research/checkers-runway13/counterfactual/bundles/delivery-363a34a8137840349f2606ba2cdef553/landing.png",
+        "research/checkers-runway13/counterfactual/bundles/delivery-5c16a9f41155458d8e3304389e854d5f/landing.png",
+        "research/checkers-runway13/counterfactual/bundles/delivery-6e6cbd5b0af743df91b72a5926209e82/landing.png",
+        "research/checkers-runway13/counterfactual/bundles/delivery-7bfe87003e5c4dc093c356928fd7e8ca/landing.png",
+        "research/checkers-runway13/counterfactual/bundles/delivery-d0f7a74fb3ed4479af628b450956b2dd/landing.png",
+        "research/checkers-runway13/counterfactual/bundles/legacy-949fdca5d37144af8c9b5ed30368a8a1/landing.png",
+        "research/checkers-runway13/counterfactual/landing.png"
+      ]
+    },
+    {
+      "sha256": "e3675cf3a42000ed7caed90660f036dce22c9e68440435cd717544bdd5e9c083",
+      "paths": [
+        "research/checkers-runway13/counterfactual/reviews/parent_certificate_check.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/reviews/parent_certificate_check.json"
+      ]
+    },
+    {
+      "sha256": "e5050da47f454606c733473048738068c4cc42433dc72ab2a4a3a7f3d4ccc3a8",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-10B_1989-12/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-10B_1989-12/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "e69588933ddb87b7625b96ab29849a855bf6eb6c6c11cb64f914191c00720358",
+      "paths": [
+        "research/checkers-runway13/outputs/scenario-longer/baseline.csv",
+        "research/checkers-runway13/outputs/scenario/baseline.csv",
+        "research/checkers-runway13/outputs/search_failure/baseline.csv"
+      ]
+    },
+    {
+      "sha256": "e77e7a92442b44662204b9fd460d977b132f1caca82a327e69f35b279dae43dc",
+      "paths": [
+        "research/checkers-runway13/counterfactual/archive/fc0833a6e2ba486ba7d8c9a2844bce52/landing.pdf",
+        "research/checkers-runway13/counterfactual/bundles/legacy-949fdca5d37144af8c9b5ed30368a8a1/landing.pdf"
+      ]
+    },
+    {
+      "sha256": "e8439e24ffd7acbbaf7b5247b2fddbd7a52fd079e3c986481771efe204eaf289",
+      "paths": [
+        "research/checkers-runway13/reconstruction/chronology/aerial/A36143_l0_download_result",
+        "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A36143.jpg"
+      ]
+    },
+    {
+      "sha256": "e8987c4b96b953aa5075e6defd3214b645cd1b360ce01f875866e228b6394214",
+      "paths": [
+        "research/checkers-runway13/whitepaper/v1/figures/weather_context.png",
+        "research/checkers-runway13/whitepaper/v2/figures/weather_context.png"
+      ]
+    },
+    {
+      "sha256": "e99ccee20cda1ef54a34a4631ce3d0240be1404d7e502f7042f71bc88826a082",
+      "paths": [
+        "research/checkers-runway13/counterfactual/verify_delivery.py",
+        "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/verify_delivery.py"
+      ]
+    },
+    {
+      "sha256": "ea22be6e2488bf4d322a2775a172f4ef4c2dad879c2bf6e431fb5c7fdabd3df0",
+      "paths": [
+        "research/checkers-runway13/evidence/cal605_reconstruction/REPORT.md",
+        "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/REPORT.md"
+      ]
+    },
+    {
+      "sha256": "ed778c73ea51338d6576fb5992b189f2b94d9f3d5e199f46c1af520d6b0b3e6c",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-3A_1984-10/ranked_candidates.geojson",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-3C_1991-08/ranked_candidates.geojson",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-4A_1985-06/ranked_candidates.geojson",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-5A_1985-03/ranked_candidates.geojson",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-SE-3A_1993-08/map_regions.geojson",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-SE-3A_1993-08/ranked_candidates.geojson",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-3A_1984-10/ranked_candidates.geojson",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-3C_1991-08/ranked_candidates.geojson",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-4A_1985-06/ranked_candidates.geojson",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-5A_1985-03/ranked_candidates.geojson",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-SE-1A_1991-01/map_regions.geojson",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-SE-3A_1993-08/map_regions.geojson",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-SE-3A_1993-08/ranked_candidates.geojson"
+      ]
+    },
+    {
+      "sha256": "ee541a72d2981e4976fa5ec592aefc0020e5dbb9dca3b4f5102cd84429e9b6dc",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-16C_1989-12/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-16C_1989-12/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "ef06c27cc45b30f97ad3bc09198ff7b3a3794b8a3a9ad4233d1c872a39e9e31f",
+      "paths": [
+        "research/checkers-runway13/literature/APPROXIMATE_LANDING_NOVELTY_2026-10-13.md",
+        "research/checkers-runway13/whitepaper/v1/evidence/literature/APPROXIMATE_LANDING_NOVELTY_2026-10-13.md",
+        "research/checkers-runway13/whitepaper/v2/evidence/literature/APPROXIMATE_LANDING_NOVELTY_2026-10-13.md"
+      ]
+    },
+    {
+      "sha256": "f355c8b694c59dd235799740eccb7e0427ddd2f2f1b940b5779450acdeea782e",
+      "paths": [
+        "research/checkers-runway13/outputs/scenario-longer/trajectory.png",
+        "research/checkers-runway13/outputs/scenario/trajectory.png"
+      ]
+    },
+    {
+      "sha256": "f4abfa119f0375952bc406fae6ee3881cf20da899898a5f391e81f144a4d81e6",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-11A_1989-10/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-11A_1989-10/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "f5be9c8f4494524b70dfa21f716cd84d2eb815db67409d0c26aa795a6eb466ff",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-10A_1990-02/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-10A_1990-02/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "f5df708520a8c3502ed9a5ee212674a0ef195427ff3b92eef378ca1474cf624b",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-15C_1989-11/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-15C_1989-11/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "f6a6f0bab428784570eb6f1e8ceada99ecb769c466cd21f6551dc1e1c8271471",
+      "paths": [
+        "research/checkers-runway13/evidence/cal605_reconstruction/noaa/acceptance_verification.json",
+        "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/noaa/acceptance_verification.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/noaa/acceptance_verification.json"
+      ]
+    },
+    {
+      "sha256": "f8deecf9c45d622e3b4fd6bcef7b4245a7e736d4364b02dec8a8004be96f7a34",
+      "paths": [
+        "research/checkers-runway13/reconstruction/chronology/HANDOFF.json",
+        "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/HANDOFF.json",
+        "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/HANDOFF.json"
+      ]
+    },
+    {
+      "sha256": "f9128c0610e14edabf20a658b701c93a3d820c0ebd6bebd6eb201a9b438b85dd",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NW-5B_1985-03/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NW-5B_1985-03/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "fa260e19e58f6942dd318cf6e87394ee440ccd148578aab72f944189a103de0f",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-7B_1990-12/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-7B_1990-12/audit_contact_sheet.jpg"
+      ]
+    },
+    {
+      "sha256": "faa3923c04eb6e08df6df9d8a66d7208f55e4ca24b357d56be3db84fd4bcea6b",
+      "paths": [
+        "research/checkers-runway13/reconstruction/block_matching/candidates/11-NE-17D_1993-04/audit_contact_sheet.jpg",
+        "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/11-NE-17D_1993-04/audit_contact_sheet.jpg"
+      ]
+    }
+  ]
+}

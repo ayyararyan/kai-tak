@@ -1,0 +1,195 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ayyararyan/kai-tak/archive/schemas/datasets.schema.json",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "archive_version",
+    "datasets"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "archive_version": {
+      "const": "1.0.0"
+    },
+    "datasets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "collection_id",
+          "title",
+          "description",
+          "scientific_purpose",
+          "source_ids",
+          "artifact_ids",
+          "represented_epoch",
+          "observation_date",
+          "acquisition_date",
+          "publication_date",
+          "source_revision_date",
+          "horizontal_crs",
+          "vertical_datum",
+          "processing_level",
+          "scientific_verification_status",
+          "rights_ids",
+          "required_attribution",
+          "citation",
+          "limitations",
+          "producer_scripts",
+          "derived_from",
+          "file_count",
+          "total_bytes",
+          "permitted_bundle_files",
+          "formats",
+          "provenance_completeness"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "collection_id": {
+            "type": "string",
+            "enum": [
+              "01",
+              "02",
+              "03",
+              "04",
+              "05",
+              "06",
+              "07",
+              "08",
+              "09"
+            ]
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "scientific_purpose": {
+            "type": "string"
+          },
+          "source_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "artifact_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "represented_epoch": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "observation_date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "acquisition_date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "publication_date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_revision_date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "horizontal_crs": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "vertical_datum": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "processing_level": {
+            "type": "string"
+          },
+          "scientific_verification_status": {
+            "type": "string"
+          },
+          "rights_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "required_attribution": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "citation": {
+            "type": "string"
+          },
+          "limitations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "producer_scripts": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "derived_from": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "file_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "total_bytes": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "permitted_bundle_files": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "formats": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "provenance_completeness": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

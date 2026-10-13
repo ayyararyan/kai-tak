@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ayyararyan/kai-tak/archive/schemas/sources.schema.json",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "sources"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "creator",
+          "urls",
+          "rights_id",
+          "rights_status",
+          "landing_page_url",
+          "publication_date",
+          "observation_date",
+          "revision_date",
+          "acquisition_date",
+          "source_version",
+          "required_attribution"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "creator": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "urls": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "rights_id": {
+            "type": "string"
+          },
+          "rights_status": {
+            "enum": [
+              "Redistribution permitted",
+              "Original authored material",
+              "Link-only",
+              "Permission required",
+              "Rights unresolved",
+              "Excluded"
+            ]
+          },
+          "landing_page_url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "publication_date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "observation_date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "revision_date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "acquisition_date": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source_version": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "required_attribution": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

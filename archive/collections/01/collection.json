@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0.0",
+  "id": "01",
+  "title": "Historical Maps and Aerial Photography",
+  "dataset_ids": [
+    "kt-survey-index",
+    "kt-survey-rasters",
+    "kt-aerial-index",
+    "kt-aerial-fullframes",
+    "kt-aerial-previews",
+    "kt-aerial-index-all-hk-1993",
+    "kt-support-01"
+  ],
+  "citation": "Ayyar, Aryan (2026). Historical Maps and Aerial Photography. The Kai Tak Historical Research Archive, candidate v1.0.0, collection 01.",
+  "file_count": 846,
+  "permitted_bundle_files": 275,
+  "release_manifest": "../../releases/v1.0.0/collections/01.json"
+}

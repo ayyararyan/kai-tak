@@ -1,0 +1,27 @@
+[
+  {
+    "path": "research/checkers-runway13/geospatial/derived/Hong_Kong_DTM_5m_HK1980.tif",
+    "size": 19395893,
+    "sha256": "8ff5231ab90893963c7015614e169472687adec2f9a6dd5bd66d250a49f3570f"
+  },
+  {
+    "path": "research/checkers-runway13/geospatial/derived/Kowloon_KaiTak_DTM_5m_HK1980.tif",
+    "size": 4328178,
+    "sha256": "7f040a7bbc639aa068c19ea994e3f1b58e35097abf88ebe9033c2eff9b998bdb"
+  },
+  {
+    "path": "research/checkers-runway13/geospatial/derived/Kowloon_KaiTak_buildings_20260921.geojson",
+    "size": 71966641,
+    "sha256": "b764e11af1b1a3b225756e142251977508b357f4542e728444a03d28152f1a57"
+  },
+  {
+    "path": "research/checkers-runway13/geospatial/raw/Building_20260921.geojson",
+    "size": 397075244,
+    "sha256": "dcb873553b47f70797f2d28c5933d3ecf7a2478d39a9ba6c58db7a66fec8d8d4"
+  },
+  {
+    "path": "research/checkers-runway13/geospatial/raw/Whole_HK_DTM_5m.zip",
+    "size": 28706079,
+    "sha256": "785718f462ae6de3c9e1fed2bf9fe5affe1c1d739c0a969fd62cf3680b4b33ab"
+  }
+]

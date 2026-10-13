@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "id": "04",
+  "title": "Aviation and Flight Evidence",
+  "dataset_ids": [
+    "kt-cad-report",
+    "kt-flight-digitizations",
+    "kt-rollout-reconstruction",
+    "kt-integrated-aviation-geometry",
+    "kt-support-04"
+  ],
+  "citation": "Ayyar, Aryan (2026). Aviation and Flight Evidence. The Kai Tak Historical Research Archive, candidate v1.0.0, collection 04.",
+  "file_count": 114,
+  "permitted_bundle_files": 0,
+  "release_manifest": "../../releases/v1.0.0/collections/04.json"
+}

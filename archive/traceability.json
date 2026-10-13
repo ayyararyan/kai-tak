@@ -1,0 +1,447 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Full authorized request; no reduction",
+  "overall_status": "INCOMPLETE \u2014 provenance/rights closure and publication approval outstanding",
+  "requirements": [
+    {
+      "id": "AUD-01",
+      "request_section": 1,
+      "requirement": "Audit before changes; preserve original evidence",
+      "status": "Implemented",
+      "evidence": "audit/INITIAL_AUDIT.md",
+      "notes": "Initial inventory predates archive layer edits."
+    },
+    {
+      "id": "AUD-02",
+      "request_section": 1,
+      "requirement": "Inspect full Git history, tags, contributors and dirty/untracked/ignored files",
+      "status": "Implemented",
+      "evidence": "audit/git_history.json; audit/coverage.json",
+      "notes": "Seven reachable commits, 34,645 local entries; runtime/private metadata omitted from public inventory."
+    },
+    {
+      "id": "AUD-03",
+      "request_section": 1,
+      "requirement": "Verify all existing remote releases and asset bytes",
+      "status": "Implemented",
+      "evidence": "audit/existing_release_verification.json; audit/release_member_reconciliation.json",
+      "notes": "12 downloads matched; seven tar member sets reconciled to tag-specific manifests."
+    },
+    {
+      "id": "AUD-04",
+      "request_section": 1,
+      "requirement": "15-field machine-readable source inventory",
+      "status": "Implemented",
+      "evidence": "audit/initial_inventory.json; catalogue/artifacts.json",
+      "notes": "Unknown fields explicit; mtime not acquisition date."
+    },
+    {
+      "id": "AUD-05",
+      "request_section": 1,
+      "requirement": "Duplicates, broken references, dependencies, missing files and inconsistent claims",
+      "status": "Implemented",
+      "evidence": "audit/DUPLICATES_AND_DEPENDENCIES.md; reports/lineage_verification.json",
+      "notes": "Three v1 frozen-evidence discrepancies preserved, no silent repair."
+    },
+    {
+      "id": "ORG-01",
+      "request_section": 2,
+      "requirement": "Stable nine-collection additive archive layer",
+      "status": "Implemented",
+      "evidence": "CATALOGUE.md; collections/",
+      "notes": "Original research paths retained."
+    },
+    {
+      "id": "ORG-02",
+      "request_section": 2,
+      "requirement": "Collection landing pages and machine metadata",
+      "status": "Implemented",
+      "evidence": "collections/01/README.md through collections/09/collection.json",
+      "notes": "All nine present; catalogue-only collections explicit."
+    },
+    {
+      "id": "ORG-03",
+      "request_section": 2,
+      "requirement": "Old-to-new mapping without unnecessary duplicate data",
+      "status": "Implemented",
+      "evidence": "audit/old_to_catalogue.csv",
+      "notes": "Navigation mapping, not filesystem relocation."
+    },
+    {
+      "id": "PROV-01",
+      "request_section": 3,
+      "requirement": "Stable dataset/source/artifact IDs and schema",
+      "status": "Implemented",
+      "evidence": "schemas/; catalogue/",
+      "notes": "SHA identifies bytes; stable ID identifies object/path."
+    },
+    {
+      "id": "PROV-02",
+      "request_section": 3,
+      "requirement": "Exact source URLs/identifiers/revisions/date/CRS/datum/rights fields",
+      "status": "Partially implemented",
+      "evidence": "catalogue/sources.json; catalogue/artifacts.json",
+      "notes": "Available exact acquisitions recovered; many inherited items lack documented metadata."
+    },
+    {
+      "id": "PROV-03",
+      "request_section": 3,
+      "requirement": "Every substantive item has complete source-to-transformation-to-result chain",
+      "status": "Partially implemented",
+      "evidence": "catalogue/provenance.json; reports/lineage_verification.json",
+      "notes": "2,739 dataset-level/authorship-proposed entries remain; unknown recipes are not invented."
+    },
+    {
+      "id": "PROV-04",
+      "request_section": 3,
+      "requirement": "Distinguish historical observations, publication, acquisition and revisions",
+      "status": "Implemented",
+      "evidence": "PROVENANCE.md; catalogue/artifacts.json",
+      "notes": "Verification dates separated; modern buildings and aerial indexes correctly qualified."
+    },
+    {
+      "id": "PROV-05",
+      "request_section": 3,
+      "requirement": "Result/figure/whitepaper use relationships",
+      "status": "Partially implemented",
+      "evidence": "catalogue/publication_usage.json",
+      "notes": "11 recovered dataset-to-publication uses; exhaustive figure claims not established."
+    },
+    {
+      "id": "RIGHTS-01",
+      "request_section": 4,
+      "requirement": "Official source/channel-specific terms investigation",
+      "status": "Implemented",
+      "evidence": "licensing/RIGHTS_AUDIT.md; licensing/rights_registry.json",
+      "notes": "22 investigated rights records plus generic unresolved decision; 25 URL attempts."
+    },
+    {
+      "id": "RIGHTS-02",
+      "request_section": 4,
+      "requirement": "Per-artifact six-way publication classification",
+      "status": "Implemented",
+      "evidence": "catalogue/artifacts.json",
+      "notes": "Physical access, validity and permission kept separate."
+    },
+    {
+      "id": "RIGHTS-03",
+      "request_section": 4,
+      "requirement": "All material has affirmative rights or explicit safe exclusion",
+      "status": "Implemented",
+      "evidence": "releases/v1.0.0/manifest.json",
+      "notes": "418 allowed bytes; 2,850 explicit exceptions; no blanket grant."
+    },
+    {
+      "id": "RIGHTS-04",
+      "request_section": 4,
+      "requirement": "Resolve every essential source right for a fully reusable archive",
+      "status": "Blocked",
+      "evidence": "licensing/rights_registry.json",
+      "notes": "CAD/AIS/Boeing and historical HKMS routes require permission or authoritative evidence."
+    },
+    {
+      "id": "RIGHTS-05",
+      "request_section": 4,
+      "requirement": "Attribution, ownership acknowledgments and no endorsement",
+      "status": "Implemented",
+      "evidence": "licensing/ATTRIBUTION.md",
+      "notes": "Source-specific disclaimers retained."
+    },
+    {
+      "id": "LIC-01",
+      "request_section": 5,
+      "requirement": "Review original authorship/contributions/dependencies and recommend scope",
+      "status": "Partially implemented",
+      "evidence": "licensing/proposed_scope.json; preservation/creators.json",
+      "notes": "Authorship proposed, not proven for every inherited item; supplied photo contributor unresolved."
+    },
+    {
+      "id": "LIC-02",
+      "request_section": 5,
+      "requirement": "Draft code/doc/data licenses without activating grant",
+      "status": "Implemented",
+      "evidence": "licensing/drafts/; licensing/README.md",
+      "notes": "MIT/CC BY recommended; Apache/CC0 evaluated as alternatives."
+    },
+    {
+      "id": "LIC-03",
+      "request_section": 5,
+      "requirement": "Author-approved final license grants",
+      "status": "Requires approval",
+      "evidence": "licensing/README.md",
+      "notes": "No new license activated; whitepaper grant separate."
+    },
+    {
+      "id": "REL-01",
+      "request_section": 6,
+      "requirement": "Independent semantic archive versioning and immutable-release policy",
+      "status": "Implemented",
+      "evidence": "VERSIONING.md; releases/version_history.json",
+      "notes": "Existing tags retained, no tag reuse."
+    },
+    {
+      "id": "REL-02",
+      "request_section": 6,
+      "requirement": "Deterministic independent collection bundles and master/checksums",
+      "status": "Implemented",
+      "evidence": "releases/v1.0.0/manifest.json; reports/deterministic_rebuild.json",
+      "notes": "Five permitted-data bundles outside Git."
+    },
+    {
+      "id": "REL-03",
+      "request_section": 6,
+      "requirement": "Complete snapshot vs increments and exact dependency boundary",
+      "status": "Implemented",
+      "evidence": "DOWNLOAD.md; preservation/README.md",
+      "notes": "New bundles complete per selected allowed member set; old integration asset alone incomplete."
+    },
+    {
+      "id": "REL-04",
+      "request_section": 6,
+      "requirement": "Change log covering corrections/procedures/licenses/claims/schema/known issues",
+      "status": "Implemented",
+      "evidence": "CHANGELOG.md; releases/v1.0.0/RELEASE_NOTES.md",
+      "notes": "Candidate only; initial failed verification retained."
+    },
+    {
+      "id": "CAT-01",
+      "request_section": 7,
+      "requirement": "Human Markdown and machine JSON/CSV catalogue",
+      "status": "Implemented",
+      "evidence": "CATALOGUE.md; catalogue/datasets.json; catalogue/datasets.csv",
+      "notes": "44 dataset entries, nine collections."
+    },
+    {
+      "id": "CAT-02",
+      "request_section": 7,
+      "requirement": "Dataset purpose/count/period/coverage/format/verification/rights/citation/limits",
+      "status": "Implemented",
+      "evidence": "catalogue/datasets.json",
+      "notes": "Nulls/qualified unknowns explicit; not invented completeness."
+    },
+    {
+      "id": "CAT-03",
+      "request_section": 7,
+      "requirement": "Practical interoperability standards",
+      "status": "Implemented",
+      "evidence": "preservation/schemaorg-datasets.jsonld; preservation/datacite-draft.json",
+      "notes": "No unnecessary STAC assertion for ungeoreferenced frames."
+    },
+    {
+      "id": "IO-01",
+      "request_section": 8,
+      "requirement": "Extend existing fetch tool with compatible old defaults",
+      "status": "Implemented",
+      "evidence": "../scripts/fetch_data.py; reports/legacy_restore.json",
+      "notes": "Actual five old assets / 1,254 members restored separately."
+    },
+    {
+      "id": "IO-02",
+      "request_section": 8,
+      "requirement": "List releases/collections, selected/all download, verify-only, local reports",
+      "status": "Implemented",
+      "evidence": "DOWNLOAD.md; ../tests/test_archive_io.py",
+      "notes": "Actual HTTP clean-restore test; public candidate URLs deliberately absent."
+    },
+    {
+      "id": "IO-03",
+      "request_section": 8,
+      "requirement": "Safe extraction, collisions/symlink/path controls, atomic/recoverable writes",
+      "status": "Implemented",
+      "evidence": "../scripts/archive_io.py; ../tests/test_archive_io.py",
+      "notes": "Fail closed; staged member checks, no conflicting overwrite."
+    },
+    {
+      "id": "IO-04",
+      "request_section": 8,
+      "requirement": "Publicly downloadable new release",
+      "status": "Requires approval",
+      "evidence": "PUBLICATION_CHECKLIST.md",
+      "notes": "Local bytes prepared; no upload/public URLs authorized."
+    },
+    {
+      "id": "SCI-01",
+      "request_section": 9,
+      "requirement": "Correct raw/numerical/synthetic/approximate/unvalidated/invalidated distinctions",
+      "status": "Implemented",
+      "evidence": "SCIENTIFIC_STATUS.md; catalogue/artifacts.json",
+      "notes": "Explicit invalidation flags audited; unresolved budget results not certificates."
+    },
+    {
+      "id": "SCI-02",
+      "request_section": 9,
+      "requirement": "Retain evidence, failures, inconsistencies and no safety/global-optimum overclaim",
+      "status": "Implemented",
+      "evidence": "SCIENTIFIC_STATUS.md; reports/lineage_verification.json",
+      "notes": "No source repairs or historical deletions."
+    },
+    {
+      "id": "SCI-03",
+      "request_section": 9,
+      "requirement": "Establish historical obstacle clearance or survey-grade photogrammetry",
+      "status": "Unidentified",
+      "evidence": "SCIENTIFIC_STATUS.md",
+      "notes": "Not an established result; not required to invent one."
+    },
+    {
+      "id": "CITE-01",
+      "request_section": 10,
+      "requirement": "CITATION.cff, individual citations and contributor records",
+      "status": "Implemented",
+      "evidence": "../CITATION.cff; CITATION.md; preservation/creators.json",
+      "notes": "Official CFF 1.2.0 schema passed; no DOI invented."
+    },
+    {
+      "id": "CITE-02",
+      "request_section": 10,
+      "requirement": "Concept/version long-term preservation metadata and exact-byte boundaries",
+      "status": "Implemented",
+      "evidence": "preservation/",
+      "notes": "Draft mappings, not an accepted external record."
+    },
+    {
+      "id": "CITE-03",
+      "request_section": 10,
+      "requirement": "External DOI reservation/deposition/publication",
+      "status": "Requires approval",
+      "evidence": "PUBLICATION_CHECKLIST.md",
+      "notes": "Explicitly unauthorized; no external action."
+    },
+    {
+      "id": "HOME-01",
+      "request_section": 11,
+      "requirement": "Concise welcoming homepage, download/reuse/citation/limits and whitepaper",
+      "status": "Implemented",
+      "evidence": "../README.md",
+      "notes": "Original paper title retained."
+    },
+    {
+      "id": "QA-01",
+      "request_section": 12,
+      "requirement": "Schema, stable IDs, source/rights/provenance links and version consistency",
+      "status": "Implemented",
+      "evidence": "../scripts/archive_validate.py; ../tests/test_archive_metadata.py",
+      "notes": "Negative regression fixtures as well as positive checks."
+    },
+    {
+      "id": "QA-02",
+      "request_section": 12,
+      "requirement": "Hashes, sizes, counts, collisions, policy, dependencies and backward paths",
+      "status": "Implemented",
+      "evidence": "../scripts/archive_io.py; reports/installed_validation.json",
+      "notes": "Actual bundle/restore receipts; no directory-based rights inference."
+    },
+    {
+      "id": "QA-03",
+      "request_section": 12,
+      "requirement": "Geospatial CRS/datum/epoch/missing/geometry checks",
+      "status": "Implemented",
+      "evidence": "../scripts/archive_geospatial.py; reports/geospatial_validation.json",
+      "notes": "Known 83 invalid geometries retained; no repair."
+    },
+    {
+      "id": "QA-04",
+      "request_section": 12,
+      "requirement": "Metadata-only and installed-data checks; deterministic archives",
+      "status": "Implemented",
+      "evidence": "REPRODUCIBILITY.md; reports/",
+      "notes": "Unknown historic facts remain warnings, not fabricated validations."
+    },
+    {
+      "id": "QA-05",
+      "request_section": 12,
+      "requirement": "Private/generated file scan and broken source route reporting",
+      "status": "Implemented",
+      "evidence": "reports/privacy_review.json; reports/source_link_availability.json",
+      "notes": "Pattern scan plus scoped inclusion review; not proof against arbitrary encoded secrets."
+    },
+    {
+      "id": "SAFE-01",
+      "request_section": 13,
+      "requirement": "Dedicated branch/worktree, preserve main/history/tags/original dirty files",
+      "status": "Implemented",
+      "evidence": "STATE.md; reports/preservation_verification.json",
+      "notes": "Pinned baseline evidence/tags unchanged; independent original-checkout drift documented, never overwritten."
+    },
+    {
+      "id": "SAFE-02",
+      "request_section": 13,
+      "requirement": "Exact reviewable local work before irreversible public action",
+      "status": "Implemented",
+      "evidence": "PUBLICATION_READINESS.md; PUBLICATION_CHECKLIST.md",
+      "notes": "Local source/support preservation; no external publication."
+    },
+    {
+      "id": "OUT-01",
+      "request_section": 14,
+      "requirement": "Deliverable A: audit/migration/rights/releases/mapping",
+      "status": "Implemented",
+      "evidence": "audit/; licensing/",
+      "notes": "Actual files, not merely proposed structure."
+    },
+    {
+      "id": "OUT-02",
+      "request_section": 14,
+      "requirement": "Deliverable B: homepage/collections/catalogues/provenance",
+      "status": "Implemented",
+      "evidence": "../README.md; catalogue/; collections/",
+      "notes": "Full lineage truth remains partial as PROV-03."
+    },
+    {
+      "id": "OUT-03",
+      "request_section": 14,
+      "requirement": "Deliverable C: rights matrix/drafts/restrictions/approval list",
+      "status": "Implemented",
+      "evidence": "licensing/",
+      "notes": "No grants made."
+    },
+    {
+      "id": "OUT-04",
+      "request_section": 14,
+      "requirement": "Deliverable D: v1 manifests/checksums/notes/available permitted bundles",
+      "status": "Implemented",
+      "evidence": "releases/v1.0.0/",
+      "notes": "Excluded/missing items explicit."
+    },
+    {
+      "id": "OUT-05",
+      "request_section": 14,
+      "requirement": "Deliverable E: working tools/tests/reproduction/reports",
+      "status": "Implemented",
+      "evidence": "../scripts/; ../tests/; REPRODUCIBILITY.md",
+      "notes": "Verified selected outputs, not full historical pipeline."
+    },
+    {
+      "id": "OUT-06",
+      "request_section": 14,
+      "requirement": "Deliverable F: citation/Zenodo drafts/checklist/publication summary",
+      "status": "Implemented",
+      "evidence": "preservation/; PUBLICATION_READINESS.md",
+      "notes": "Submission/deposition not performed."
+    },
+    {
+      "id": "OUT-07",
+      "request_section": 14,
+      "requirement": "Deliverable G: ten-point executive handoff",
+      "status": "Implemented",
+      "evidence": "PUBLICATION_READINESS.md",
+      "notes": "Correctness, completeness and readiness separated."
+    },
+    {
+      "id": "ACC-01",
+      "request_section": 15,
+      "requirement": "Independent discovery/verification/citation/reuse/trust",
+      "status": "Partially implemented",
+      "evidence": "PUBLICATION_READINESS.md",
+      "notes": "Discoverability and honest boundaries implemented; exact full provenance/rights closure incomplete."
+    },
+    {
+      "id": "ACC-02",
+      "request_section": 15,
+      "requirement": "Independent public download/reproduce/preserve complete archive",
+      "status": "Partially implemented",
+      "evidence": "reports/clean_restore.json; preservation/README.md",
+      "notes": "Permitted subset tested locally; public publication pending and full historical dependency closure blocked. Newer concurrent main/whitepaper changes require reconciliation before merge."
+    }
+  ]
+}

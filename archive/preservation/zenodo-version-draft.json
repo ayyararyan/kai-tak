@@ -1,0 +1,76 @@
+{
+  "status": "DRAFT-NOT-SUBMITTED",
+  "metadata": {
+    "title": "Kai Tak Historical Research Archive — Data Release v1.0.0",
+    "resource_type": {
+      "id": "dataset"
+    },
+    "creators": [
+      {
+        "person_or_org": {
+          "type": "personal",
+          "given_name": "Aryan",
+          "family_name": "Ayyar"
+        }
+      }
+    ],
+    "version": "1.0.0",
+    "description": "Independent archive of historical Kai Tak evidence and mathematical research. Source-specific permitted data only in bulk bundles; provenance gaps, restricted external dependencies and synthetic-model limitations are explicit. This is an unpublished candidate.",
+    "keywords": [
+      "Kai Tak",
+      "Hong Kong",
+      "aviation history",
+      "historical geography",
+      "flight dynamics"
+    ],
+    "rights": []
+  },
+  "doi": null,
+  "concept_doi": null,
+  "publication_date": null,
+  "author_approval_required": true,
+  "license_grants_pending": true,
+  "proposed_files": [
+    {
+      "name": "kai-tak-archive-v1.0.0-collection-01.tar.gz",
+      "sha256": "9e8782985920d2e9f1209329d19d5dfd89bc0b49205cf3751c77b919eb7f86f6",
+      "bytes": 653644559,
+      "treatment": "eligible-source-data; attach full source-specific conditions"
+    },
+    {
+      "name": "kai-tak-archive-v1.0.0-collection-02.tar.gz",
+      "sha256": "947d26b3005be47d72012786bd39809efb96fc1c852b2c77587cc2d088d063a9",
+      "bytes": 106528609,
+      "treatment": "eligible-source-data; attach full source-specific conditions"
+    },
+    {
+      "name": "kai-tak-archive-v1.0.0-collection-03.tar.gz",
+      "sha256": "cd43d6166701c6f032480499a9d05237f032cd02e71be955c3df26269b95b803",
+      "bytes": 51300217,
+      "treatment": "eligible-source-data; attach full source-specific conditions"
+    },
+    {
+      "name": "kai-tak-archive-v1.0.0-collection-05.tar.gz",
+      "sha256": "00f45fc60ae87dcbc2da31b73fa74ff7bf7da6fa230041c43b165b3d2b46a442",
+      "bytes": 127917,
+      "treatment": "eligible-source-data; attach full source-specific conditions"
+    },
+    {
+      "name": "kai-tak-archive-v1.0.0-collection-06.tar.gz",
+      "sha256": "94876e2dab67575f2558d7027482f76727c95fd3be2d08cffaf192d14e1489e9",
+      "bytes": 13152570,
+      "treatment": "eligible-source-data; attach full source-specific conditions"
+    }
+  ],
+  "additional_files_requiring_review": [
+    "kai-tak-archive-v1.0.0-review-support.tar.gz (original-work grants and attribution pending)",
+    "Exact source commit: local Git bundle is private preservation only; mixed-rights source history is not a proposed Zenodo upload"
+  ],
+  "not_submission_ready_reasons": [
+    "Publication authorization absent",
+    "Original-work license grants not approved",
+    "Metadata/source snapshot review not complete",
+    "Full historical source dependency/provenance closure not achieved"
+  ],
+  "existing_zenodo_record_verified": false
+}

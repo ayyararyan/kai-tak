@@ -1,0 +1,2482 @@
+{
+  "schema_version": "1.0.0",
+  "archive_version": "1.0.0",
+  "collection_id": "01",
+  "files": [
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A02663.jpg",
+      "bytes": 675336,
+      "sha256": "d9bd18170af81b77a6d75655f6e49af5d0d7dde53490b0aa1cc701f64eb3999f",
+      "artifact_id": "artifact-194a3b020a5bb0a49696",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A02686.jpg",
+      "bytes": 642742,
+      "sha256": "5f39fba6bcab2a089f74c821454b4fbb07bcc7ff448f4e4bfbcc149b44c660dd",
+      "artifact_id": "artifact-bca0fd0c78eec1ecff3d",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A03144.jpg",
+      "bytes": 929412,
+      "sha256": "1e10da24bb5fa08791783d21fbb3080e79bf46f55729667beb8052a5534db1c9",
+      "artifact_id": "artifact-6049aaefe2bae0ff4ee1",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A07352.jpg",
+      "bytes": 806010,
+      "sha256": "99c2e754fbfded2d3b852ac66337c491586b73d77ff8182d80e1d82bc41b8bfd",
+      "artifact_id": "artifact-377769a18c033c3f4b04",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A10880.jpg",
+      "bytes": 984959,
+      "sha256": "59fb1f194da7085935af99b0b43e2016a33f1e3466121c9c0d69b437f7ae2484",
+      "artifact_id": "artifact-d08aee2e77c3101e4073",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A10933.jpg",
+      "bytes": 890227,
+      "sha256": "2a0b055d0bb60c2fe3b1f0ec8902422633119f9161e8b5ba918f80b7d47f2e4a",
+      "artifact_id": "artifact-a14464bcd606da777875",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A10967.jpg",
+      "bytes": 896206,
+      "sha256": "98c29acd9278d0577a0d474b12497072814984c408d481e6e0ceb4defc8451f2",
+      "artifact_id": "artifact-c7e4f355a8b67f7af6a6",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A10990.jpg",
+      "bytes": 709155,
+      "sha256": "fd45056d5572e7c68dd19cb358e325c5dbadf8a3a276df966e5117ce10e45ef6",
+      "artifact_id": "artifact-a33e25b16ada5f75da2e",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A15183.jpg",
+      "bytes": 895074,
+      "sha256": "e65bbd606c2d46d871836b1a390f473e4ad313466fe9022a1468c391a150351f",
+      "artifact_id": "artifact-87dec8a56a501a230d9c",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A15215.jpg",
+      "bytes": 787379,
+      "sha256": "a527be6b96013a1d04003cd5a34e8c40022e18f6f37621704bac4658bfcf9476",
+      "artifact_id": "artifact-07c1c10a0cd8d6355c89",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A18947.jpg",
+      "bytes": 505905,
+      "sha256": "0ce1b47598740f72dc88953cb09bc2c126b02ba381d628d9b852675c329a961a",
+      "artifact_id": "artifact-9ef37739d320522eac42",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A18951.jpg",
+      "bytes": 613305,
+      "sha256": "0df9ace189cdabea293018ad9a07dca494e91d5a03545b03a25aec4bf3744869",
+      "artifact_id": "artifact-a8fcb423eb6244bcc358",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A19257.jpg",
+      "bytes": 796492,
+      "sha256": "108b09fde640f309d2afa41067e21963e4ab5d8dedf6b7dfc7055e053d6b4c8c",
+      "artifact_id": "artifact-b41b8e39612e98e083cf",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A19369.jpg",
+      "bytes": 798630,
+      "sha256": "6075ff86f8b402dedb3b42ee0edaa486bdb269f18212f1f16dd03dea9dc0d7d8",
+      "artifact_id": "artifact-e2864af849e2e828018b",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A23632.jpg",
+      "bytes": 787849,
+      "sha256": "25e76a634fd1d6f2a9e417baf47352fc0fa18fd43c3e3ba3cca522fa620b38df",
+      "artifact_id": "artifact-04adf23dab7e90abc50a",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A23653.jpg",
+      "bytes": 731112,
+      "sha256": "96197e2fb6879b2d6093df351ed18ec58d7f65d102fd8c90f6e69b04822a9937",
+      "artifact_id": "artifact-f4abff9a5b29480dde32",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A23695.jpg",
+      "bytes": 560872,
+      "sha256": "166fc42e1122b9044613c1c8335e85c9a478f195e7aff84b9043a52b6af46c50",
+      "artifact_id": "artifact-2d5c0b4a12eac3b6f48d",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A28854.jpg",
+      "bytes": 915208,
+      "sha256": "6c4a7b307a927dba664b2fa0961672437d41646a18dddeb40c2b6e33b76ab743",
+      "artifact_id": "artifact-0f6b4b769fa0945ad5ad",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A28904.jpg",
+      "bytes": 749661,
+      "sha256": "908dcadd6ddc732e7d7e13604332276627027f8403629b61343341c5d0a74afa",
+      "artifact_id": "artifact-89467331360fd97c7be5",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A33041.jpg",
+      "bytes": 845805,
+      "sha256": "61be262aaee569ccca8f2566fa49769ccc72f3d550263aff37c155b7dd015a5e",
+      "artifact_id": "artifact-ea05f18cb4fa809d475a",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A33224.jpg",
+      "bytes": 969570,
+      "sha256": "4c5f7dcdf106b899a7c80527080891cfa87b84f7a6109c96addb390285618e97",
+      "artifact_id": "artifact-dc368e27562dc773d359",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A36141.jpg",
+      "bytes": 940280,
+      "sha256": "226190c4ad0cd70b719f46d94a4c00250839d7aead5aaa083ffc32ce521ac4ae",
+      "artifact_id": "artifact-2995959df9d7be75dbe0",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A36142.jpg",
+      "bytes": 876169,
+      "sha256": "42da43eebfa6eae39597ea16d917f900986d80f7c069b909ebbe3563fc074767",
+      "artifact_id": "artifact-1e9556630c47b4aea323",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A36143.jpg",
+      "bytes": 818247,
+      "sha256": "e8439e24ffd7acbbaf7b5247b2fddbd7a52fd079e3c986481771efe204eaf289",
+      "artifact_id": "artifact-de45bc845121a2a037f1",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A36144.jpg",
+      "bytes": 724605,
+      "sha256": "e6136095c72dea230c62df3bbc18b270a67d88d9045e86d856237842c8a224b4",
+      "artifact_id": "artifact-26e32e4fc87331d621e7",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A36145.jpg",
+      "bytes": 739841,
+      "sha256": "6424fa5b0d83bf29d715a639cca0884fc53f6940068799cf1e087c7044ae9ce1",
+      "artifact_id": "artifact-43a0a20bc29d653fe791",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A36146.jpg",
+      "bytes": 793398,
+      "sha256": "f0dece594bb1c3b4f7c4ba19d701aea1c70de8150ceea6caaea48210c5f54604",
+      "artifact_id": "artifact-94ebec60cb3843a1b2c6",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A36171.jpg",
+      "bytes": 688054,
+      "sha256": "5291feae652135cb539cd689998f8935ec8569b40441de0b0451e38090af6fed",
+      "artifact_id": "artifact-a14e960023c2c7b50d09",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A36172.jpg",
+      "bytes": 583352,
+      "sha256": "83346679a7ec9d1af0dced9b97e986ffe37c064427ac93a621d558994df4a43c",
+      "artifact_id": "artifact-ea22f63f018fe7c8a340",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN1071.jpg",
+      "bytes": 895138,
+      "sha256": "ecda32fd5cda47ddd5bc3560ea5b28f247ce37f22e01354b084cda27c0fd7435",
+      "artifact_id": "artifact-404c9f1c4a52981ad585",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN1074.jpg",
+      "bytes": 859015,
+      "sha256": "b3b5fb2dd519ad7032f4000567d7cab010c4e11a5092a28bd0e4393b08f8dd31",
+      "artifact_id": "artifact-02bbaaa173d68c7aba3d",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN1077.jpg",
+      "bytes": 995015,
+      "sha256": "652e68dff5376c7eacaf97d04abc5f0d5c342d1ace7064314dcd708faf661fe3",
+      "artifact_id": "artifact-3c43745026fc19e50d07",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN12226.jpg",
+      "bytes": 578597,
+      "sha256": "884ba6fe9980ef41782441af269463d47a967b9575668921b78d31f2e4574d07",
+      "artifact_id": "artifact-c12fed9e24d32fb546fe",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN12272.jpg",
+      "bytes": 721814,
+      "sha256": "062cea30183981f864a604c5cc3987aea902d892f0f29f73bafdba59217da4dd",
+      "artifact_id": "artifact-1fa18ba61de713b00a81",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN15587.jpg",
+      "bytes": 631174,
+      "sha256": "2266024f6bd9035c1a28540f3faa0aebdaae3a69deff0082b3c064dc636f0fe7",
+      "artifact_id": "artifact-8040e1c1e6a4593008e7",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN15613.jpg",
+      "bytes": 629232,
+      "sha256": "990256c37ac9640c27b0f56d9fd0e7fab4eac8929820745349ee538fa419ac6a",
+      "artifact_id": "artifact-9f1b18b965a1c3cc107e",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN15732.jpg",
+      "bytes": 610162,
+      "sha256": "836327965905d0527e00b0c0a39d538a5fc18b05a2b032f1d380626f888cd113",
+      "artifact_id": "artifact-40efd676b7329b1cdb4c",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN18609.jpg",
+      "bytes": 441419,
+      "sha256": "96e6ba41fe23b6f56ad401fc18514ed39e589052747f5a86dfa2d7a5aa65d9ea",
+      "artifact_id": "artifact-3646ea12c3e49cabdfc0",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN19000.jpg",
+      "bytes": 564564,
+      "sha256": "79b742e77ba135ba8d6d0847da56a88ab77a12186abccd88aaa9e37782167049",
+      "artifact_id": "artifact-dbb01dcbd995dd03c010",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN21247.jpg",
+      "bytes": 565861,
+      "sha256": "651a69f0f834dc4d609f510322b095b3da18fcb2ecb452a6ae4bf7e8cfc1e786",
+      "artifact_id": "artifact-92ba340915d0817042f5",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN21282.jpg",
+      "bytes": 531622,
+      "sha256": "ec5045998f2cf3e63395336f2313d5d76be88aa4894af181a502a169a3c1a3ee",
+      "artifact_id": "artifact-db5627d6aa4e425cb4b8",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN22163.jpg",
+      "bytes": 496498,
+      "sha256": "7259856f8e17968daa2e3aaa6860e028c3561f9b4ec1f0839517566b663bd072",
+      "artifact_id": "artifact-4e9bb17cb6cc5a8bf963",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN4580.jpg",
+      "bytes": 678846,
+      "sha256": "e8664c4b90fcb022e7886f38e6e27c2e7b0cb99b5b383cbbf47525e583070cb5",
+      "artifact_id": "artifact-fdb9534d021f8c15837e",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN4581.jpg",
+      "bytes": 761048,
+      "sha256": "4510ec691117b2929e1f6da51a49905ec8a7bf992faf220d845910fd74760a83",
+      "artifact_id": "artifact-c418b3f23849c092a2e2",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN4582.jpg",
+      "bytes": 805151,
+      "sha256": "cb5483dbd0456a25b7f7951093cd35c58e266e9936b6064f15819e1b753aed4b",
+      "artifact_id": "artifact-104bcae9b540b79b01b5",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN4589.jpg",
+      "bytes": 688412,
+      "sha256": "67a0c8b715686b7f3a342307454cae7fa134cf17c0dfbc8a5babb097d1f24fec",
+      "artifact_id": "artifact-7351d92b056403152ff5",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN8230.jpg",
+      "bytes": 673810,
+      "sha256": "2ea6aa30e819a7237e355b562154a93af027a527b7c6dcd7851b87487977d624",
+      "artifact_id": "artifact-3aff17ebdd1b330333d7",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN887.jpg",
+      "bytes": 896475,
+      "sha256": "adc6bb0b2728aeada6655b8d0f37cd51ea29a77f268deb0d90002b649c688a18",
+      "artifact_id": "artifact-178eebe0280020c2f9d5",
+      "dataset_id": "kt-aerial-fullframes",
+      "rights_id": "rights.hk.dap-l0",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1000_11-NE-21C_1997-05-01.zip",
+      "bytes": 1804295,
+      "sha256": "c24075e65da2896c51da28d31ae79bd9f021888fdd06b1c7d5eddfb85e9b44e8",
+      "artifact_id": "artifact-7b1df72c9915ae1bb197",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1002_11-NE-22A_1993-08-01.zip",
+      "bytes": 840696,
+      "sha256": "8184de272cc541a2be195204e6ba388933d0da81da7a82bb221ff58b593fe871",
+      "artifact_id": "artifact-f3656e2e64976c8cf490",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1003_11-NE-22A_1999-04-01.zip",
+      "bytes": 871555,
+      "sha256": "cca9099f169b9eda2d2e0cc874e42d31507ba1e07a634e8cce9dc48952167225",
+      "artifact_id": "artifact-9ae5ad8e068d75d70e94",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1007_11-NE-22B_1993-08-01.zip",
+      "bytes": 1006301,
+      "sha256": "cda1476d6043eb9a1a9dded05a7fe1ae49fc5bd73013f105ccc9275fde153127",
+      "artifact_id": "artifact-4bd41059e50626246389",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1008_11-NE-22B_1999-04-01.zip",
+      "bytes": 960300,
+      "sha256": "223f6a2ba3f5c2c5bab5af8179ec0bbdb1b440ca0076952b77f3a3f1884a2656",
+      "artifact_id": "artifact-f4cc743dacd41aaa0cde",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1011_11-NE-22D_1993-08-01.zip",
+      "bytes": 891104,
+      "sha256": "a99b907877b80d729bb00e78a965041a3ea5d93ecd689ccd12dde1de38e1a92f",
+      "artifact_id": "artifact-f212ff342c22649d6d23",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1012_11-NE-22D_1999-04-01.zip",
+      "bytes": 858595,
+      "sha256": "b9fd000a3e896c23896d8d976342f3719bcc987e786cc4135feb118f4665f0d9",
+      "artifact_id": "artifact-41e7a94c7ac7b6700051",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1017_11-NE-23A_1991-09-01.zip",
+      "bytes": 2409121,
+      "sha256": "e0c32ae2f24fc43d22f4ff1076614f1b355ce776981c29c6f921fdafd5a35794",
+      "artifact_id": "artifact-ac3ce68ea4cd10021026",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1018_11-NE-23A_1994-08-01.zip",
+      "bytes": 2106663,
+      "sha256": "629406fc711f0cf660763fbb95981edbfc47c56f55f68381304146298c261c26",
+      "artifact_id": "artifact-4ad0db98e5e7eb7da7bc",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1029_11-NE-23C_1991-09-01.zip",
+      "bytes": 989504,
+      "sha256": "300ef4396faf78fe4eb6036ad921847ef67e0aea448ab8441e378bb855902b0f",
+      "artifact_id": "artifact-999b0a8ed98ad883e9f2",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1030_11-NE-23C_1994-05-01.zip",
+      "bytes": 799136,
+      "sha256": "f7cd402ff6603d78b4b8459409d55d2bdb4de2fdaace2450c7abe04ad22f1943",
+      "artifact_id": "artifact-667d49ce9438e3564104",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1086_11-NE-2A_1991-10-01.zip",
+      "bytes": 4437630,
+      "sha256": "37742d5db814d11ecdeaaea1afbdf4f444323ebd4b2966cbf895f4e9ae225229",
+      "artifact_id": "artifact-0155bc51c949911d86be",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1087_11-NE-2A_1994-11-01.zip",
+      "bytes": 4343560,
+      "sha256": "f72309c11f89c4f33226127e083148b75706c8d1f4bb3ea2a24b63468bbe2178",
+      "artifact_id": "artifact-14b5c70c13b3b8988c04",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1092_11-NE-2B_1990-02-01.zip",
+      "bytes": 4074680,
+      "sha256": "9408573498b75717a8a948b40d8b584284a44a0576fc52265838c1196f349677",
+      "artifact_id": "artifact-fe7e3bcf6564ee723c2d",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1093_11-NE-2B_1994-05-01.zip",
+      "bytes": 3925603,
+      "sha256": "57deb58e6225ca942ffa75abc026deaae795f6f26d7f68509f0f4def8f2064a1",
+      "artifact_id": "artifact-e7e8c8da626e1da87c9e",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1098_11-NE-2C_1991-10-01.zip",
+      "bytes": 2944652,
+      "sha256": "289c4bf0b3efd94ac3eafe1c52a8252bec9aa4cce61487e927828b7e9a2765c5",
+      "artifact_id": "artifact-3bb13cfe27cf4a82ba0f",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1099_11-NE-2C_1994-10-01.zip",
+      "bytes": 2693388,
+      "sha256": "1e7af98e50c763f24b354bba3b026f6f34a8e4cf90bc63e2a22bc5fd8b0ac6bd",
+      "artifact_id": "artifact-f30855e53725dff9995f",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1105_11-NE-2D_1990-02-01.zip",
+      "bytes": 3998279,
+      "sha256": "3f55d49c93d678053ac8a3ac095cfd0e0c160bd08a451b6079a960dc4950022b",
+      "artifact_id": "artifact-b3a2e008a1b0a0592739",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1106_11-NE-2D_1994-05-01.zip",
+      "bytes": 3945330,
+      "sha256": "67dacae17df2d8014b5cb056ec42c666a9d39fd318c1bcf1e67f37002adaebf8",
+      "artifact_id": "artifact-dce42b6522d764bb8439",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1110_11-NE-3A_1984-10-01.zip",
+      "bytes": 4217442,
+      "sha256": "99fac783f1e8785ca46c297daa50760ea498fc441fc863ecc4024cb914f8a861",
+      "artifact_id": "artifact-33e01b9c3f6eaf70fa65",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1115_11-NE-3C_1991-08-01.zip",
+      "bytes": 4504476,
+      "sha256": "7f50ec19757e2fea90c7ad9e346474b219655e9c04296cbee6b4c05b368b9ca8",
+      "artifact_id": "artifact-dad722a8cc5d00592c5b",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1116_11-NE-3C_1999-09-01.zip",
+      "bytes": 4210189,
+      "sha256": "9b5382b367943f1053219a0c27263da6d1990c2492a168a612c31c81a1cb15ac",
+      "artifact_id": "artifact-e6df61933b202825d6f5",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1162_11-NE-6A_1991-09-01.zip",
+      "bytes": 2526575,
+      "sha256": "05a6a76f119bafbad62c885a6f698dc2603771031b94ffa24f3fae09cfbcc860",
+      "artifact_id": "artifact-e259e3cef96b3d07282c",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1163_11-NE-6A_1994-05-01.zip",
+      "bytes": 2495110,
+      "sha256": "b949fcd26432b919f5d0dd215cf3f817985a79ce0705f845f3fd823bc5eee720",
+      "artifact_id": "artifact-a62810962ecf194de88d",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1169_11-NE-6B_1991-09-01.zip",
+      "bytes": 2652825,
+      "sha256": "0522b3841178b30eb426cc0af379c97fde7d2444f562c1c631b187ad440e4b63",
+      "artifact_id": "artifact-98f797ab891e35afbe1b",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1170_11-NE-6B_1995-01-01.zip",
+      "bytes": 2452502,
+      "sha256": "c88cde0eba7fb71e71356852c0df3183b0b29187cb7b4e25bce7151760a09277",
+      "artifact_id": "artifact-afb79f78c560202e558a",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1177_11-NE-6C_1991-09-01.zip",
+      "bytes": 3347045,
+      "sha256": "d9731633316b175690a3d3d7a7c53da99e4332e1ca6e7ab75543dd6633ccae4c",
+      "artifact_id": "artifact-aeea6ad92ce667b13266",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1178_11-NE-6C_1994-05-01.zip",
+      "bytes": 3072330,
+      "sha256": "a4575f7f1c270435d2af0e3d394ae24dd7170955a0292608af1d6bbe8aa9e0fb",
+      "artifact_id": "artifact-c7e088b8524cb8bbf7b2",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1183_11-NE-6D_1991-09-01.zip",
+      "bytes": 2975012,
+      "sha256": "c6666c797004ea60c24e658639882f2f458beed745f6f40c2ee5a8d9864633ae",
+      "artifact_id": "artifact-39b487c0bc909efd0db1",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1184_11-NE-6D_1994-01-01.zip",
+      "bytes": 2521688,
+      "sha256": "e2dac961eab6360cfc9c52b0c72db7d635f47066a516be6404e8ab9c707f5d85",
+      "artifact_id": "artifact-8aef9f8aba1045e00a02",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1191_11-NE-7A_1991-09-01.zip",
+      "bytes": 4042779,
+      "sha256": "8c05ddc42c88310fc058ac06a8efe324b74b6c3619aa8b3785e28d2f0eb88b5c",
+      "artifact_id": "artifact-956b1218b0bdf7048039",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1192_11-NE-7A_1995-01-01.zip",
+      "bytes": 2919041,
+      "sha256": "e42d390c4be88f4972dffe8e975dba94bc53fbab840a4c5bd83af9405a3a7b14",
+      "artifact_id": "artifact-69b544ac65303834ff8f",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1198_11-NE-7B_1990-12-01.zip",
+      "bytes": 4730306,
+      "sha256": "c8052f7ff625ab0b34e94c116459bb213b2db21b1efaf9954ecde4651c679873",
+      "artifact_id": "artifact-69e9ba3e1c87c1f5209f",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1199_11-NE-7B_1994-12-01.zip",
+      "bytes": 3803844,
+      "sha256": "c5edd3ea3d7e4bd08b260fcb1e432305c5ab9139f56261a4b450bcf5fee69962",
+      "artifact_id": "artifact-32d2f6cc355ace2d303b",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1206_11-NE-7C_1993-07-01.zip",
+      "bytes": 2903070,
+      "sha256": "86253f5fec14d36ea7912fa782bbd609bbda51d88bf99247276705f639c517da",
+      "artifact_id": "artifact-df9ac005f30e41d11ca2",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1207_11-NE-7C_1997-09-01.zip",
+      "bytes": 3010600,
+      "sha256": "9cb45bd19efd4c1dffd5dc7c4d414da0792f9661f08635c655184a0d644c3293",
+      "artifact_id": "artifact-c5143f4e7799e44e361d",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1213_11-NE-7D_1990-02-01.zip",
+      "bytes": 3272305,
+      "sha256": "9344edd5913f1868a19621bb1537bba0d744ef74c7070bc4294231af851a4709",
+      "artifact_id": "artifact-06f1a8148870e2515a26",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1214_11-NE-7D_1994-10-01.zip",
+      "bytes": 2912253,
+      "sha256": "57f6f318d7642a28fd05eef1782989093c0f2595dd870d8d0e02a2e515202ae8",
+      "artifact_id": "artifact-aec98380c9e4cd5622c8",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1220_11-NE-8A_1991-08-01.zip",
+      "bytes": 4680455,
+      "sha256": "47b33e4ca9ede5c53b1b9cfa7fb41bc25e85d4f86a2595d9d8e7e9f731bf2326",
+      "artifact_id": "artifact-e4112ac818afddc35814",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1221_11-NE-8A_1999-01-01.zip",
+      "bytes": 4620074,
+      "sha256": "3f71d6ee005f0da12ea415572d309be98cde596939c4e2ac7aff2ad8da61bc03",
+      "artifact_id": "artifact-3a8e1c41da2a69c76e30",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1232_11-NE-8C_1990-05-01.zip",
+      "bytes": 4333844,
+      "sha256": "ab3015bb316894ea45b539230a621ee7311b07504c421adaab6dcbd5089058b0",
+      "artifact_id": "artifact-602486eef0be6fe73b68",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1233_11-NE-8C_1994-03-01.zip",
+      "bytes": 3978116,
+      "sha256": "97cd1d5517f51f5e39f0b1200b8e86473a00731264bb4b441f2cc117d6b3bb2b",
+      "artifact_id": "artifact-41e21ab9d73f863e00b4",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1272_11-NW-10A_1990-02-01.zip",
+      "bytes": 3286768,
+      "sha256": "6d2312a99e088f773328ab1f2d98ff5aeee961a8c8206f373ff33c50f07c23cc",
+      "artifact_id": "artifact-29470f067a4002f93b05",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1273_11-NW-10A_1997-06-01.zip",
+      "bytes": 3485434,
+      "sha256": "44aa352d69a510b1ab0cdd57cbd83cc8bee9c9776f1503fa957c21c18fecf850",
+      "artifact_id": "artifact-2948a0785576392e5810",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1279_11-NW-10B_1989-12-01.zip",
+      "bytes": 2577647,
+      "sha256": "83fb8cc525138d0672aeaee765d671bc1416ef9e5feeb2e99b4249a09f05def5",
+      "artifact_id": "artifact-a2805ec91e4f2be5ae88",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1280_11-NW-10B_1995-06-01.zip",
+      "bytes": 2709814,
+      "sha256": "be5292afba1e77bac57e7b4e2c2379b512aa1717faf4115fa21f7d95e7566f52",
+      "artifact_id": "artifact-b4a1d6f19775bf79aaf6",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1285_11-NW-10C_1989-12-01.zip",
+      "bytes": 2875384,
+      "sha256": "23f8a288963bf9828eff1e9027bb66cadfdc657ca0f79fd44cccb367fd478192",
+      "artifact_id": "artifact-43de6fab3ecd457669a8",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1286_11-NW-10C_1995-04-01.zip",
+      "bytes": 2798933,
+      "sha256": "c1f640d4fe772fe41efbe30db5e65f0c1b00b5123beebb38cb07f9c045dc774a",
+      "artifact_id": "artifact-3648b9f77a5722ac37cf",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1290_11-NW-10D_1982-12-01.zip",
+      "bytes": 2557273,
+      "sha256": "cdebd92a2e771886f39b936cd6349bc0564fe25182c89da3578efe5f81403a3e",
+      "artifact_id": "artifact-2d024054db9f0b7b4dd1",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1291_11-NW-10D_1987-07-01.zip",
+      "bytes": 3222265,
+      "sha256": "ef85d82b49004ae3136b7255b043542179e9c49be5804bc7f3894730e21cfc25",
+      "artifact_id": "artifact-c49e46a7db84a2690ac9",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1292_11-NW-10D_1989-11-01.zip",
+      "bytes": 3286519,
+      "sha256": "08073a6bf01bb11184c5ea1ff4265802ddd66b97d5b516a29cfc1ca6215e8e21",
+      "artifact_id": "artifact-187ef88da3d9e9dae81f",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1293_11-NW-10D_1995-06-01.zip",
+      "bytes": 2830611,
+      "sha256": "11e52296ec8bd3d1e54e9c8b65c51c35eaba952669398f580651e084126021c3",
+      "artifact_id": "artifact-a67a097f4434428903dd",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1294_11-NW-10D_1997-04-01.zip",
+      "bytes": 4666710,
+      "sha256": "01d36a02876b960ca3bc76e8622d99d33f5a708838345133f963d3e81e24fd94",
+      "artifact_id": "artifact-b0d0057c9142e01caabc",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1295_11-NW-10D_1999-10-01.zip",
+      "bytes": 3090668,
+      "sha256": "a8d5c9eb1c0dde041ebc31567e212106d85cd1ac35515f88cd68034ea8d83388",
+      "artifact_id": "artifact-90c3efcbcd72f13b0bc8",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1363_11-NW-14A_1990-10-01.zip",
+      "bytes": 3685181,
+      "sha256": "d75ba23b7daccbdc439719f34689dbc8af8a3f1d613a7d126ec401555d9e0e3f",
+      "artifact_id": "artifact-f80596ab7dbf2d9f9d82",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1364_11-NW-14A_1997-04-01.zip",
+      "bytes": 3652920,
+      "sha256": "816f6885002cc75f6d5065eca471533ab26d2571af22f5457fa5871c45b39b9c",
+      "artifact_id": "artifact-680cefd66f5fda9d47dc",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1368_11-NW-14B_1990-01-01.zip",
+      "bytes": 3244890,
+      "sha256": "7a45e4b08ab12a5f1c8aeea843c81e93ca7adec27122873073201ad0c42184ee",
+      "artifact_id": "artifact-4976cad3d101a1956fe3",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1369_11-NW-14B_1995-01-01.zip",
+      "bytes": 3136633,
+      "sha256": "00376eb9700798939cca6c86bc7e53b57208adc2d3296b02ee786d23ab2c9f35",
+      "artifact_id": "artifact-b550a9988c0419f1ee15",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1374_11-NW-14C_1990-09-01.zip",
+      "bytes": 3190939,
+      "sha256": "9b2db4015e1181e9df2ab519c584782847a85b82131813a37e762786a91ff7ab",
+      "artifact_id": "artifact-37b5f55ed79f3f5e79fb",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1375_11-NW-14C_1997-05-01.zip",
+      "bytes": 3244014,
+      "sha256": "a4954514d12816cefcea57ba510fd599008620b467aa56e2b05ad93dbad7fb95",
+      "artifact_id": "artifact-f40d8f5e2a0a79db01c3",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1380_11-NW-14D_1989-10-01.zip",
+      "bytes": 2996768,
+      "sha256": "eac8e1b2a93cdfc086a13e674848e7d599679d9a679fc1263a9fe782210aec21",
+      "artifact_id": "artifact-c38b6023c425e43dd83b",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1381_11-NW-14D_1995-02-01.zip",
+      "bytes": 2758133,
+      "sha256": "01c11a03d633532a3843a3912c58e170edb7ff70e9bd5873eeca30acd2688abc",
+      "artifact_id": "artifact-0d07632744ff5a82d470",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1388_11-NW-15A_1989-11-01.zip",
+      "bytes": 3151175,
+      "sha256": "90be6cf0b68e5d5ec35d0fef07b467c8fe6d61c8c2d215193e494c0fbab2c0af",
+      "artifact_id": "artifact-2ab66dc4c621be775823",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1389_11-NW-15A_1996-09-01.zip",
+      "bytes": 2904183,
+      "sha256": "0aebb9aab504e66bfe7696c64151a054063ae63c1426c90d9413c09695d161c1",
+      "artifact_id": "artifact-8afa8a8d454bf01f62ce",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1391_11-NW-15B_1980-10-01.zip",
+      "bytes": 2952772,
+      "sha256": "8b787148afefa3976e1403eabb0dda385198c170feb1eec8d3c5fbe1e239680b",
+      "artifact_id": "artifact-69be152274001a4042da",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1392_11-NW-15B_1985-02-01.zip",
+      "bytes": 2867051,
+      "sha256": "327f8bdaa5439850238147f2f1133413423f9423b3c696a8822460d9e1d85137",
+      "artifact_id": "artifact-1067f391df1f4932125b",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1393_11-NW-15B_1988-06-01.zip",
+      "bytes": 2931098,
+      "sha256": "214dcb1a90779db448889915fbf8bf7b1c782c9d454b34e09edd305bab0f5e9d",
+      "artifact_id": "artifact-dc6a41d4e5a8b7c05fe2",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1394_11-NW-15B_1989-11-01.zip",
+      "bytes": 2733417,
+      "sha256": "fd51bcdbcda791527e3148e6b4c912874ede458a0e68b8f6e8dd2faffd651630",
+      "artifact_id": "artifact-7a4514f58ed0dfbf1c75",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1395_11-NW-15B_1994-03-01.zip",
+      "bytes": 2630008,
+      "sha256": "59777a762f902632912de9889541049b97840ac77ac1caedb617edc5fea77ba6",
+      "artifact_id": "artifact-3b7f0042bd2beebeed5b",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1396_11-NW-15B_1997-05-01.zip",
+      "bytes": 2769399,
+      "sha256": "83a4d856397d4f9a47d630f9873dbbf4465edf93bdbcabe907f028cc3050218a",
+      "artifact_id": "artifact-103f018224113ead2eb0",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1400_11-NW-15C_1989-11-01.zip",
+      "bytes": 3028680,
+      "sha256": "b37c8ffbcfda3c259b95cf924ab9a8acb04f8b7b81ecc501a241610c203cc01f",
+      "artifact_id": "artifact-b2cb441645208a13a9cd",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1401_11-NW-15C_1994-10-01.zip",
+      "bytes": 2843197,
+      "sha256": "f2ab02c7c4b398bb4813a27db95b45880778a39cdeb5ebc08d9e7f4008c7f5a8",
+      "artifact_id": "artifact-ef48715be8759be0e2fc",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1408_11-NW-15D_1989-11-01.zip",
+      "bytes": 2842459,
+      "sha256": "d86ab2fda0b1bbc6217567a60cd5cac2a69b3d6ea7ab9706437adb15c8727d79",
+      "artifact_id": "artifact-6e81e4a54757efabcf4e",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1409_11-NW-15D_1994-11-01.zip",
+      "bytes": 2822129,
+      "sha256": "c50164dda76b90c20d28eba2bea348264d76fee9b8d41d5f7ee99e210136ef81",
+      "artifact_id": "artifact-a0c40452623b7a3006c5",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1455_11-NW-19A_1990-09-01.zip",
+      "bytes": 3060113,
+      "sha256": "cb9e80fe05b171dabe8e881993e3b4a996d364e77aac4fb49b8b4eaa81d761f1",
+      "artifact_id": "artifact-079af93fcfff2800a6c8",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1456_11-NW-19A_1994-03-01.zip",
+      "bytes": 2403212,
+      "sha256": "e161e74d4f0feca78e0d9566ba9492433e1ab196e958759a6e378a71e80e7d6d",
+      "artifact_id": "artifact-b39a6e4e0eeade9ac60d",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1463_11-NW-19B_1990-10-01.zip",
+      "bytes": 3373839,
+      "sha256": "4ca91df25ed4d6b9900788118af8796a3f0be53928659794d8978a66ad407096",
+      "artifact_id": "artifact-18c77683ae2082a809fa",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1464_11-NW-19B_1993-12-01.zip",
+      "bytes": 3317335,
+      "sha256": "0e3532dfcbd51b9aa9c655f6a15fb7325775653463bb1ac2b0929e426e832b56",
+      "artifact_id": "artifact-dc903a6dedda0acdca77",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1468_11-NW-19C_1989-09-01.zip",
+      "bytes": 1115712,
+      "sha256": "059df12495aff415cf85902909852c97bfdb307a5debb97b3cbe6b932f827d38",
+      "artifact_id": "artifact-471af935f30dba45c3df",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1469_11-NW-19C_1994-03-01.zip",
+      "bytes": 888924,
+      "sha256": "263ade4aae69ad88f7ddd6ce617080ea80ab1993f32c2611ac803343f3c406c3",
+      "artifact_id": "artifact-8bfbdc42ef74266f53f0",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1476_11-NW-19D_1989-10-01.zip",
+      "bytes": 3630563,
+      "sha256": "41376bf130fa71e66c3cd8e96e1fea50cafadcaab459658d811bfa56721af5dd",
+      "artifact_id": "artifact-aadac53b5be3104649e7",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1477_11-NW-19D_1993-12-01.zip",
+      "bytes": 3610921,
+      "sha256": "768496f8a526156d54040975a6b37cd6b7867fab055808a1005dcf69b865d354",
+      "artifact_id": "artifact-34b862e85d14e22b304c",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1521_11-NW-20A_1989-11-01.zip",
+      "bytes": 3115544,
+      "sha256": "5a11f57807cb422f66b96848507a9abce9e85b06885a8898ab89624866054f71",
+      "artifact_id": "artifact-ce0851777ecd7c628316",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1522_11-NW-20A_1994-01-01.zip",
+      "bytes": 2970862,
+      "sha256": "62bf214c43d2efc954bed9aff5e1d51359e829bc945c179a4d0ac66c1f8924cf",
+      "artifact_id": "artifact-f79d18c109e24999c150",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1527_11-NW-20B_1989-11-01.zip",
+      "bytes": 3149644,
+      "sha256": "313518b2d6aadb616dad60f308f647b6978a2225d37b180162ceeb7a81f76d46",
+      "artifact_id": "artifact-bbdf4eb2a0c9c6edf77a",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1528_11-NW-20B_1993-12-01.zip",
+      "bytes": 2926187,
+      "sha256": "c89df2673dbb721bdb57f33cd91086c95b78ff311eed6a059511f46dcfcb6ab0",
+      "artifact_id": "artifact-d576d6fef5ae9294bda7",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1535_11-NW-20C_1989-10-01.zip",
+      "bytes": 2846025,
+      "sha256": "381348802fb94e781f6ca660afa072472a0b700837c70d0e5333fd8125d1e88b",
+      "artifact_id": "artifact-b97fceaa789e7a85617c",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1536_11-NW-20C_1994-02-01.zip",
+      "bytes": 2769656,
+      "sha256": "7495c0cd500c25d82ead0b7d8bf901f7ae656e32a76200ab88661dfea84be39d",
+      "artifact_id": "artifact-7deeded3886f27ce0c3f",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1543_11-NW-20D_1989-10-01.zip",
+      "bytes": 2958253,
+      "sha256": "eb13db41b500d772a716bb1324ffe2e0b4c16c8b7c7dce3967193890692ec5af",
+      "artifact_id": "artifact-167924e046585f61d0a4",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1544_11-NW-20D_1993-12-01.zip",
+      "bytes": 2868795,
+      "sha256": "cccfd6e610f2d8c47551dbec851ee2977ec558bef83cfb516a96efd583b55368",
+      "artifact_id": "artifact-050e7bb366eba4983cb7",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1557_11-NW-24A_1989-09-01.zip",
+      "bytes": 1083319,
+      "sha256": "c55a19cd2821893d8b4b282371a4513ad83e1b652309a33dd4cdd29d661b74f8",
+      "artifact_id": "artifact-6f56b8a0467b4522dc30",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1558_11-NW-24A_1994-03-01.zip",
+      "bytes": 1192929,
+      "sha256": "5384ee40931b443f9f788e2a2892a08a85fa5226bcea19de8dacfc806a0a56fc",
+      "artifact_id": "artifact-f54a18cf2edcf8a510a0",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1565_11-NW-24B_1989-10-01.zip",
+      "bytes": 3465034,
+      "sha256": "2830440c0073070f9e43632981f0d07ff26cb0d5d065fc453aa488c517201698",
+      "artifact_id": "artifact-ddcd84af4edd7a707998",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1566_11-NW-24B_1993-11-01.zip",
+      "bytes": 3030544,
+      "sha256": "cb46577efe2354f38c2935398e01a9e6d98793d9068cf916e1dc11a744ef5227",
+      "artifact_id": "artifact-407efa95a8aa531ec77b",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1567_11-NW-24B_1996-12-01.zip",
+      "bytes": 3204433,
+      "sha256": "185b375e573f82fb82871b326f9a3787e3688ccbf043c4be7aaae77c4d2ec137",
+      "artifact_id": "artifact-a3dcf3c8660b4e116a33",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1574_11-NW-24C_1990-09-01.zip",
+      "bytes": 910109,
+      "sha256": "6a070b0546a86953866d63aa965c13fa398fa7b7868aad4a5f5bfa84e3f392c4",
+      "artifact_id": "artifact-be3938a97ecc1bcde188",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1575_11-NW-24C_1996-12-01.zip",
+      "bytes": 1093857,
+      "sha256": "37f8aeb7a00ec8f232378397a80d8911d90210ae239e5c1864817481ec153e8a",
+      "artifact_id": "artifact-e53de50968301f106b22",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1585_11-NW-24D_1993-04-01.zip",
+      "bytes": 2858062,
+      "sha256": "2dfbb4179a556ead668c006318f97cd3415d895b71a265ef47fef842ff67c9d3",
+      "artifact_id": "artifact-9073b9d16a34313de751",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1586_11-NW-24D_1997-02-01.zip",
+      "bytes": 3024716,
+      "sha256": "f015b56a72dc7442f616acc558847a4436389bac12d3f2382136437c16fca3e8",
+      "artifact_id": "artifact-85db798b07f1e14686bf",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1591_11-NW-25A_1989-10-01.zip",
+      "bytes": 3262928,
+      "sha256": "cc2970d23d09a3b63f77b608eaa1e9d1212d1b88df4028987b6d6e838040b6c7",
+      "artifact_id": "artifact-ac31b634caa3bea1c652",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1592_11-NW-25A_1993-12-01.zip",
+      "bytes": 2633847,
+      "sha256": "64b3ae58d3a361b1b2154de6e0c4a808bdea8795c48d83eda46fca4545b43b52",
+      "artifact_id": "artifact-cbd0551f09e065a14da4",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1599_11-NW-25B_1989-10-01.zip",
+      "bytes": 3655581,
+      "sha256": "b4a6c48c253ba687da43a093aeb9de4126c1e2f608f79052ef96d94dfbf4d8cf",
+      "artifact_id": "artifact-77002fd37bf6342bc89c",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1600_11-NW-25B_1993-12-01.zip",
+      "bytes": 3253535,
+      "sha256": "af822c479e645fe6e013461a0c62d11d4fd3137224eb32aa8569e8c716bdb055",
+      "artifact_id": "artifact-ab21db2b622378fab3e5",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1607_11-NW-25C_1993-09-01.zip",
+      "bytes": 2598281,
+      "sha256": "22420a166a86fec75781546e8f8e87537924ba8a433ee506bfca9f2e9b0021ef",
+      "artifact_id": "artifact-a985394dce43bc9603b7",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1608_11-NW-25C_1997-02-01.zip",
+      "bytes": 2682833,
+      "sha256": "aa0da5e2d09f81607fb217f88fa69961fb4096c6812f5ee5a79454cc7173281c",
+      "artifact_id": "artifact-5cb43cff739f6008612e",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1614_11-NW-25D_1993-10-01.zip",
+      "bytes": 1877163,
+      "sha256": "0e714404cab9cbd37558e4f69db3876706d4fbd37c369e4413b2005a8b38fc73",
+      "artifact_id": "artifact-a55b137faf0755961ab4",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1615_11-NW-25D_1996-08-01.zip",
+      "bytes": 1948333,
+      "sha256": "18fc69ae0b20158415e3a0e3e5df966921ca3795f610d4216675a1d7fb4c124d",
+      "artifact_id": "artifact-d326afb06e9dc913a7c5",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1666_11-NW-4A_1985-06-01.zip",
+      "bytes": 3460189,
+      "sha256": "37f0232e3421f7f385d43e17649598f539d1645808d9d8faf3ccdced27f18ee1",
+      "artifact_id": "artifact-92a3fd5a8cc9cf143adc",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1667_11-NW-4A_1993-11-01.zip",
+      "bytes": 3756731,
+      "sha256": "dcb4374bda2c3bdf418820f7dc54388ad9dfd4f39cf4fa119130d7821a20b946",
+      "artifact_id": "artifact-dcfcbba95acca34f752c",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1668_11-NW-4A_1999-11-01.zip",
+      "bytes": 3520848,
+      "sha256": "c310011a24b573da3c53d3bd783ed38b482cd7d48706fcd113ff9661967f7846",
+      "artifact_id": "artifact-eb714019a24e746a8800",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1669_11-NW-4B_1985-06-01.zip",
+      "bytes": 3826847,
+      "sha256": "b42ac08e8d7b13b8f955ddca37905fb673c161be4d8b686c31485e1165dfa0a8",
+      "artifact_id": "artifact-a180f325452642adc103",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1670_11-NW-4B_1993-11-01.zip",
+      "bytes": 4146042,
+      "sha256": "c825abf1c67e4849d7f211e483202e3a83eb8226f78375732cf3098079b700be",
+      "artifact_id": "artifact-fb63f246e9576c4b1aab",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1671_11-NW-4B_1999-11-01.zip",
+      "bytes": 3928530,
+      "sha256": "4ea585f19cef21218df231a219ed9a041325c7ae242abc883f5f96a7acf20726",
+      "artifact_id": "artifact-c067ae7ffdb53b158b93",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1675_11-NW-4C_1989-11-01.zip",
+      "bytes": 3774116,
+      "sha256": "a164bcadfa61137eb14f75ce8f7cc74d939fa9737f40304f432251080d0dba51",
+      "artifact_id": "artifact-1fabd7b4481dc74a24f4",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1676_11-NW-4C_1997-07-01.zip",
+      "bytes": 3977454,
+      "sha256": "f07cffd71909df305e004d20a92520142321fc29cb932d519799879f22b37329",
+      "artifact_id": "artifact-6d24991e0a8c8d883af0",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1679_11-NW-4D_1989-11-01.zip",
+      "bytes": 4376299,
+      "sha256": "855e9867f5b6fa87450347056b268a91790399a709fe9a9890f8a517a1e5f70b",
+      "artifact_id": "artifact-246d52dc7507429e9cf0",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1680_11-NW-4D_1997-07-01.zip",
+      "bytes": 4312473,
+      "sha256": "17d534fdc78d94664d55f194d33a0d2908438985a95df6fb38b5d2083516f308",
+      "artifact_id": "artifact-5d2ffd851abf27e9bb0b",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1682_11-NW-5A_1985-03-01.zip",
+      "bytes": 4216658,
+      "sha256": "eba1a4ace60089a837270b8d5f150d473b5405e2e48734aa71fa9158f09d2ef9",
+      "artifact_id": "artifact-3122b0f0cc9fb903d1e2",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1683_11-NW-5A_1994-01-01.zip",
+      "bytes": 4324850,
+      "sha256": "b6cdf9021533417fb06b8a0fcdca63f75bbc552af72bee2869996e131db825bf",
+      "artifact_id": "artifact-72a75a3a78063d4b7f11",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1685_11-NW-5B_1985-03-01.zip",
+      "bytes": 4116336,
+      "sha256": "086ce29e78b0f10c2f4c013613a0f9ec984da1cdadcee71f713382d41938337d",
+      "artifact_id": "artifact-7ecfcd357818372a7d30",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1686_11-NW-5B_1994-01-01.zip",
+      "bytes": 4111044,
+      "sha256": "736863883b140a3ebd643ca81b93d0dc2120d4d7e4242d788787c80dbbb560f5",
+      "artifact_id": "artifact-ab97fd9e5ab1baca9b5b",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1689_11-NW-5C_1989-11-01.zip",
+      "bytes": 4398783,
+      "sha256": "a6342d1f6912d9e31a971a7f05ea68ca04cdeb6a2ba7fd4dfadbd93db77bd1c3",
+      "artifact_id": "artifact-dfe7e20dedcf40e12642",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1690_11-NW-5C_1999-04-01.zip",
+      "bytes": 4467721,
+      "sha256": "a43a43c5c41644fdfbcb7bab31ca058433e8b1a03eba03fe21b80a7ef74eb49e",
+      "artifact_id": "artifact-a55e63b9662f938e5e4d",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1696_11-NW-5D_1989-12-01.zip",
+      "bytes": 3685585,
+      "sha256": "0a05ecaba3d11863c023b1f57fb2febed586d2a897bc6b0b462dea12be8adf8d",
+      "artifact_id": "artifact-b3e75e03d8b97372025c",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1697_11-NW-5D_1997-07-01.zip",
+      "bytes": 3711967,
+      "sha256": "05ed3af1edf5868776d324198b101ec6871c81f458592390d78d05d7503f9506",
+      "artifact_id": "artifact-056aa6e3e176e034666c",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1786_11-NW-9A_1989-11-01.zip",
+      "bytes": 3612154,
+      "sha256": "5eba6a0fab29c992fac8918045d47433b5c8ba29c739a84210ee4228758f57f6",
+      "artifact_id": "artifact-0543037ff1b430263aca",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1787_11-NW-9A_1997-03-01.zip",
+      "bytes": 3413783,
+      "sha256": "948cae046c5fc18fe40d2ab27f87d5c3b6d5b382383f727f90f233447ec5b6c1",
+      "artifact_id": "artifact-5179cbb37c768a9dcde4",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1793_11-NW-9B_1990-06-01.zip",
+      "bytes": 3227020,
+      "sha256": "2e2dfebb7ca156c647804e559e06274dd64569e8fe9096dbab1bd6007b7657c7",
+      "artifact_id": "artifact-deb5e38f4917556081c8",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1794_11-NW-9B_1996-10-01.zip",
+      "bytes": 3409478,
+      "sha256": "c3eaf2427a45dac46e82089ef5d6dac8230d5eaa869d225ccd7d7887e1361a5d",
+      "artifact_id": "artifact-0b7920df365ecdfc7ae4",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1799_11-NW-9C_1989-12-01.zip",
+      "bytes": 3513688,
+      "sha256": "8882234b09ab6edce26a7fddbe6644469856b387cc2fe45b8a622e75c33afe1c",
+      "artifact_id": "artifact-8de20f29d83ca107c6c9",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1800_11-NW-9C_1997-04-01.zip",
+      "bytes": 3220707,
+      "sha256": "eac8411723357d1c63d88d39aa5fc586e9dc514838e46b707be0ca8b09451cb8",
+      "artifact_id": "artifact-1fdeb40ec9c4d30c5f2d",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1804_11-NW-9D_1990-06-01.zip",
+      "bytes": 3345909,
+      "sha256": "a6427b97bc7842f18ab074fb7ddea7e0e192808d5be15f2efd8c6b2266981f24",
+      "artifact_id": "artifact-8f99a4b2f18a7d91ea25",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1805_11-NW-9D_1996-11-01.zip",
+      "bytes": 3088238,
+      "sha256": "0a28b8c7ca019c8026c41ed1eb85c0203a820f1d4c02f18767583b79ce1f576f",
+      "artifact_id": "artifact-dae31b9e9c48224f0ee7",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1949_11-SE-1A_1991-01-01.zip",
+      "bytes": 691383,
+      "sha256": "80947979b7d790b34c797105a6b048282642bb943a6f37a29cd6fa0a9b4e5330",
+      "artifact_id": "artifact-1ac4e93a566812e35c9c",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_1950_11-SE-1A_1993-12-01.zip",
+      "bytes": 625828,
+      "sha256": "e54a8291e7667b64db94c2e87fba51c2d1844cffc5c4cbec57d5e73f7486b6c4",
+      "artifact_id": "artifact-6e0047a421106ceeb0e8",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_2062_11-SE-3A_1993-08-01.zip",
+      "bytes": 651859,
+      "sha256": "89e90709dad507e6a4f7fea7b2aaa9e78809e6ca86b13a69c5751a3161a3b36d",
+      "artifact_id": "artifact-a16be5e858bb3a90fd00",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_2063_11-SE-3A_1999-04-01.zip",
+      "bytes": 311890,
+      "sha256": "71ba07a826be4c06504886ccd43be048165a05817ad5112cb84e49afbef1f74b",
+      "artifact_id": "artifact-648d690a4d7cf3dd2f28",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_2473_11-SW-4A_1989-06-01.zip",
+      "bytes": 836046,
+      "sha256": "9db4756e6e943c2c94e6f90525e9e756e594a47c434390f74a04f59fdd4c0069",
+      "artifact_id": "artifact-c6f05fc009d3d5dba149",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_2474_11-SW-4A_1993-11-01.zip",
+      "bytes": 656343,
+      "sha256": "9328eb6077850cf761cef3c47c05cb1502d05874740b0a4638ae908e53f9f200",
+      "artifact_id": "artifact-ba27a7b9f5529a037773",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_2475_11-SW-4A_1996-05-01.zip",
+      "bytes": 729894,
+      "sha256": "2bc14ad9ffd829a79a49b3d87d58e3a0ae06cf6a88b0e55f514ace477b79594e",
+      "artifact_id": "artifact-3cd4ac3c360cff0f8acf",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_2483_11-SW-4B_1993-01-01.zip",
+      "bytes": 2541023,
+      "sha256": "ac4413c6786bc1ffcbabf4306889347783cc0b8c0abecf6c78c895086231de48",
+      "artifact_id": "artifact-82ddc48d8fc51258b6ff",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_2484_11-SW-4B_1997-01-01.zip",
+      "bytes": 2649253,
+      "sha256": "6d4469341e005e7fd3b7ee1574c70f67813114868b841b3800d201c806861dc0",
+      "artifact_id": "artifact-82f0dd74e4908e15bd63",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_2509_11-SW-5A_1993-09-01.zip",
+      "bytes": 2052085,
+      "sha256": "eb515b30a8cef41ce0c692710aedfbf11660ff431af836feda3f8def538d28d8",
+      "artifact_id": "artifact-8d6e0f8c1b0060c2b2c1",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_2510_11-SW-5A_1996-12-01.zip",
+      "bytes": 2173466,
+      "sha256": "a77b4aa4516a495e9345f2665854bf98d43c57d55389c69991a1ea1d755a8440",
+      "artifact_id": "artifact-25f06d5b771d668050a3",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_2517_11-SW-5B_1993-10-01.zip",
+      "bytes": 841310,
+      "sha256": "ecf78e1375ff76268de6b7ba5867aefb3c0866910531b4e1b8c52e5798e465f7",
+      "artifact_id": "artifact-51a0e81618f15e0b5b87",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_2518_11-SW-5B_1996-12-01.zip",
+      "bytes": 902961,
+      "sha256": "50c82f28d7c8094be706fcd01355b56843de940e0f675719ab3793ac92f0e8a0",
+      "artifact_id": "artifact-f0d70ecbeb2e31ee36aa",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_675_11-NE-11A_1980-11-01.zip",
+      "bytes": 4482337,
+      "sha256": "51cc8bc2e63a0a84e17e5e619033023dda4927c049846ecfdd3a48825841691d",
+      "artifact_id": "artifact-0fc19a620661018560e4",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_676_11-NE-11A_1984-11-01.zip",
+      "bytes": 2948166,
+      "sha256": "8332026cf8dc9b4038b456731d8f1567d7978e7046b329710e63142fdda52879",
+      "artifact_id": "artifact-066ad1c6bd0b2aaf65f9",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_677_11-NE-11A_1987-05-01.zip",
+      "bytes": 3242962,
+      "sha256": "c925dba8cb9ff95da862fa03ffa8a2b2bb44cb6df28ef7ef3c640a5054f873f7",
+      "artifact_id": "artifact-67b283318162a5cc8904",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_678_11-NE-11A_1989-10-01.zip",
+      "bytes": 2429202,
+      "sha256": "21179cf9bc022c497eb12c9b8b16725e9beefb7012648720e29feb2963c56713",
+      "artifact_id": "artifact-245afdd199ac2108dcc1",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_679_11-NE-11A_1994-07-01.zip",
+      "bytes": 2584652,
+      "sha256": "7cbc7ff4f3a8ef577d24fa4bdda3d9740cbae592e65e75b199ee21b15930fd16",
+      "artifact_id": "artifact-7539dd851f3e7b191b2d",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_680_11-NE-11A_1997-04-01.zip",
+      "bytes": 2798020,
+      "sha256": "50b22d2acdcdfc3f587a1c72c009308f2f90c88aaf6bf9b11d7a41f594d03bbb",
+      "artifact_id": "artifact-0f7baf3cac80b06ac365",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_681_11-NE-11A_1997-08-01.zip",
+      "bytes": 2808022,
+      "sha256": "36abebadbdde9660f2cf96bd96ed6d86d3f861ac58006b77fa0602938ce3c4db",
+      "artifact_id": "artifact-a9355138ed6632024c85",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_682_11-NE-11A_1999-04-01.zip",
+      "bytes": 2833767,
+      "sha256": "27180e75f24187ab9802b6ded6037cde1fa53e671ba2bca241f5331e4bc921c5",
+      "artifact_id": "artifact-7c5acc44c6277a0346fe",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_683_11-NE-11A_1999-07-01.zip",
+      "bytes": 2732407,
+      "sha256": "26408fcee448e8d655859afb897cccb23c9dcf16a01d755e49965826e9548a25",
+      "artifact_id": "artifact-caa4a4096a17b2a1b701",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_686_11-NE-11B_1989-12-01.zip",
+      "bytes": 3472376,
+      "sha256": "46d0d870085c8f9c536ae08a63ce0fde233e4f24dadf459c497eb31ac9cf1aa1",
+      "artifact_id": "artifact-eef713bdaaf5a5314d5a",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_687_11-NE-11B_1994-07-01.zip",
+      "bytes": 1489302,
+      "sha256": "2c0ac34ae6134cd02cf60c60e8c6fe4b4873a4144e18f6f534df55e5e4c529c7",
+      "artifact_id": "artifact-6d623a7572069c4fcae9",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_692_11-NE-11C_1981-01-01.zip",
+      "bytes": 3729788,
+      "sha256": "2e4631f585ae6d46ff7fcef1bea8ad9912206e1baf067e71fb55a21ab5ff83d0",
+      "artifact_id": "artifact-6d589bc46c7dda137ec8",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_693_11-NE-11C_1984-08-01.zip",
+      "bytes": 1940242,
+      "sha256": "439387bf5d6cfca60e52871e2bf9ddc372899f22c973a037b3db3488fb0e7e40",
+      "artifact_id": "artifact-4c3f9847d572c056399a",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_694_11-NE-11C_1987-06-01.zip",
+      "bytes": 2139963,
+      "sha256": "43c4c77c4ba69703b08495a15a442595325233e0b8d2db9d0a107d122a422e62",
+      "artifact_id": "artifact-154448c94c895bd285de",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_695_11-NE-11C_1990-01-01.zip",
+      "bytes": 1950252,
+      "sha256": "f35ed181bd50a66d74d924cf710e305d37f3c4e09f981c53bfaee1d528434196",
+      "artifact_id": "artifact-62d68c8aaf07a690966c",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_696_11-NE-11C_1994-10-01.zip",
+      "bytes": 1806578,
+      "sha256": "22723cd0ffea0d36b44f878b9b813eca447ee6b2d8b85acb23dcb03e65471b58",
+      "artifact_id": "artifact-4b4c92e5f2d65daa6f07",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_697_11-NE-11C_1997-06-01.zip",
+      "bytes": 1901020,
+      "sha256": "866231ec415609418ceec46fe33d8327d5553ccb11926ea22f7ccb0c669f9ab7",
+      "artifact_id": "artifact-4135ad1ee6e8c077df06",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_698_11-NE-11C_1999-04-01.zip",
+      "bytes": 1959393,
+      "sha256": "46641e9a2b15e8be59d141b9756e0139eb1faa54c74467d6c1525ce25c8854e2",
+      "artifact_id": "artifact-d9e4247edaf0c4013b9c",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_702_11-NE-11D_1989-12-01.zip",
+      "bytes": 1612712,
+      "sha256": "74ac45b7160411c511a98960cd97d89ba7957131470336786981254500aea2e4",
+      "artifact_id": "artifact-3b6d1eb2a2f52c1428b0",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_703_11-NE-11D_1994-03-01.zip",
+      "bytes": 1349181,
+      "sha256": "b4634a68c576d708dcaf5da9dd97f7d0f9c849fd89ddbccea888948b9944f4ef",
+      "artifact_id": "artifact-c419fc274dd80d44395f",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_711_11-NE-12A_1991-09-01.zip",
+      "bytes": 2792200,
+      "sha256": "f549877d65bf8fc1e257ec60ec923056d62ebd3efe08af39d59a1ea737991821",
+      "artifact_id": "artifact-f07bd40c09d36fd5f822",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_712_11-NE-12A_1994-07-01.zip",
+      "bytes": 2224580,
+      "sha256": "e99b1132184e8cd94f5b18e3c6626e9b4e5fd54bd674ab463e48f39e9a242ed2",
+      "artifact_id": "artifact-8c963af62cbf92639927",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_720_11-NE-12B_1990-02-01.zip",
+      "bytes": 3325864,
+      "sha256": "61a504f8db20770cf3b85066cf382c65e0990b811b1b9da3933286f969895c6b",
+      "artifact_id": "artifact-bec8bed231b647c0bcb3",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_721_11-NE-12B_1994-01-01.zip",
+      "bytes": 3617633,
+      "sha256": "bb7bcf2016e549f73bcaa7b21ce8324b25dda3e193fbbf185a584e522c440ca8",
+      "artifact_id": "artifact-634deb223c6f6d114556",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_727_11-NE-12C_1991-09-01.zip",
+      "bytes": 2191868,
+      "sha256": "1c2a5f082b1a0b633d6d0867ae3c50bb222892a52823cceb3417be05b1f1e308",
+      "artifact_id": "artifact-dae6ec960aa300536aef",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_728_11-NE-12C_1994-03-01.zip",
+      "bytes": 2242777,
+      "sha256": "e1a6c386524772b8b07bbbf8ae2cdaeda567f30764537a47fb7c3457a26252f0",
+      "artifact_id": "artifact-d98f3fc4918bba436d4e",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_736_11-NE-12D_1990-02-01.zip",
+      "bytes": 3350609,
+      "sha256": "6fb29546b3805630b7d3cc22b114f4d031446dd26b1e2a30e3b8b6198ffcbfbb",
+      "artifact_id": "artifact-6b79c9e18ce16fe9ebac",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_737_11-NE-12D_1994-01-01.zip",
+      "bytes": 3184090,
+      "sha256": "ed477af5f83c6a20496b43eabab9eb25be67f963af54d8bcd276137ef85d9ac9",
+      "artifact_id": "artifact-1eb858b3349557a02162",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_743_11-NE-13A_1990-05-01.zip",
+      "bytes": 3003143,
+      "sha256": "a3d0043710cf072bd9bbda358b344ee4b03cca01e302f1439e2d46ed265ddba0",
+      "artifact_id": "artifact-229203b9bbac7f82c58c",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_744_11-NE-13A_1994-01-01.zip",
+      "bytes": 3123149,
+      "sha256": "d1ee6b5266c879b382452c6a59b7c5dfb4b270d14fc8f356a1fbb2151071a0eb",
+      "artifact_id": "artifact-78285c451602d192eac3",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_757_11-NE-13C_1990-05-01.zip",
+      "bytes": 3980415,
+      "sha256": "2a6fb7b8ab0e9f258f1a6c46a55fc396db0c954adf68035f3c22baae11a44e05",
+      "artifact_id": "artifact-19c85d7b51318fd18fa9",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_758_11-NE-13C_1994-01-01.zip",
+      "bytes": 3863055,
+      "sha256": "dfe8e64d52c46d5940496edf8853ea653303d5c6f39a8f7f5199a5f9e566d1e1",
+      "artifact_id": "artifact-7fd3934f59f2859c3b7a",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_818_11-NE-16A_1980-08-01.zip",
+      "bytes": 2764740,
+      "sha256": "721ac9ba8618266098c0e2a5daa273089b2e618f6fbdebe42f156f37d0f934c6",
+      "artifact_id": "artifact-ea2b534fcc3135ff8a71",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_819_11-NE-16A_1986-08-01.zip",
+      "bytes": 2935687,
+      "sha256": "d6e5405457816c0bbbf114f30aed1cad7688a3e0983546fd59b3290447634295",
+      "artifact_id": "artifact-08c31d99f33dc832176b",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_820_11-NE-16A_1988-10-01.zip",
+      "bytes": 3122366,
+      "sha256": "0f787732bc30ce0cbeec55ee651cd2861049643bcbdfc02c78210e92c9502a17",
+      "artifact_id": "artifact-b34faade049431db0829",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_821_11-NE-16A_1989-12-01.zip",
+      "bytes": 2929365,
+      "sha256": "305f6c4339b375b968278f91c215a2075fe8e2603e4652961e36fec847064966",
+      "artifact_id": "artifact-6f5584133a8a5f940a0d",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_822_11-NE-16A_1993-12-01.zip",
+      "bytes": 2686312,
+      "sha256": "8029c0b5674338ff3bb8ba20695e85414eff0d65a847023a4a47f0ce37dc9171",
+      "artifact_id": "artifact-7a823eda6347fa380657",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_823_11-NE-16A_1997-06-01.zip",
+      "bytes": 2798631,
+      "sha256": "0d17a9504cb81c83284cf8c2d9a9641c9c1355cdd31a8e3fb4c585a6221d3ed2",
+      "artifact_id": "artifact-1e979362629be1b039d9",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_824_11-NE-16A_1998-04-01.zip",
+      "bytes": 2848545,
+      "sha256": "b8e0e5614d90a559c20dd5c18b67811840a5667c3209450a3ec2314f1d6628f0",
+      "artifact_id": "artifact-9c58eba490e22d1c1b94",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_825_11-NE-16A_1999-04-01.zip",
+      "bytes": 2814429,
+      "sha256": "a8028525d06b58327a6c1d1b68f30e41038e4e848a74a6559ac12e3500243486",
+      "artifact_id": "artifact-63cf9f0127c0388075a7",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_826_11-NE-16A_1999-12-01.zip",
+      "bytes": 2707777,
+      "sha256": "9346eb488e586107faa289786cd6bbc545ca0b1d33995c85a2a8470b9573bbab",
+      "artifact_id": "artifact-8f360cddde0e98772510",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_827_11-NE-16B_1981-06-01.zip",
+      "bytes": 1265246,
+      "sha256": "f5cdc832225be3a5dfad0f17cb777ce55b5d9d9bc79c8eca8dac8d81828495e2",
+      "artifact_id": "artifact-767d689789fe826d7141",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_828_11-NE-16B_1981-08-01.zip",
+      "bytes": 1068517,
+      "sha256": "1ccb48a0e1882bb16b5332efce640d1ef59622768ccf804b58ae16ef3adbf043",
+      "artifact_id": "artifact-a82436ae293237ced881",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_829_11-NE-16B_1988-01-01.zip",
+      "bytes": 1110336,
+      "sha256": "49579a4e66bf204d8c58684a59674a90daf943363bf5072370c4b51c318d724f",
+      "artifact_id": "artifact-627fab843a8713030b5a",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_830_11-NE-16B_1989-12-01.zip",
+      "bytes": 1206133,
+      "sha256": "210b26c8915f33018b5ebb120a40e132e4ab6d17c570296daa0baa0d0242d157",
+      "artifact_id": "artifact-35fc00265ef5d61cd517",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_831_11-NE-16B_1994-03-01.zip",
+      "bytes": 1156897,
+      "sha256": "5c768a0de557ec1d897df2e066d6906d9477a19f635ac0432ea87a67a83efc93",
+      "artifact_id": "artifact-37c6d611061e59bfa389",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_832_11-NE-16B_1997-12-01.zip",
+      "bytes": 1181854,
+      "sha256": "74e9b01caf9ea1563d40415010bd38ee60014f13a9d7e7158c8d1b6e98341eaf",
+      "artifact_id": "artifact-9444a090c718942ca800",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_833_11-NE-16B_1999-04-01.zip",
+      "bytes": 1142008,
+      "sha256": "ef2599aae887b52e1bdfb64429e8370828ece85408b2f76441aaae8b21321fb1",
+      "artifact_id": "artifact-28761911bac3485de1b8",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_834_11-NE-16B_1999-06-01.zip",
+      "bytes": 1001544,
+      "sha256": "5507416da64f8d7d25756c9fd4627aa5071f6a14cea3bbf979832a1d9e6f6a47",
+      "artifact_id": "artifact-1aa1b085c65c08593563",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_840_11-NE-16C_1989-12-01.zip",
+      "bytes": 1802179,
+      "sha256": "f499e279b186e9d8b2ab40564a04c8bebdf8eea34a92de1e49cafd6440acb9db",
+      "artifact_id": "artifact-96f94a6ca7439cb457fd",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_841_11-NE-16C_1993-12-01.zip",
+      "bytes": 1747562,
+      "sha256": "ee4e9142ed6c4fe6a48edaafde2fec9eedf26d88955da222acd00e6c72a2f12d",
+      "artifact_id": "artifact-d50f5f044c69185585fc",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_844_11-NE-16D_1986-07-01.zip",
+      "bytes": 795890,
+      "sha256": "a3c3099d9540088f7f9d216451d2ef6adc61bc9cdc4e37b0c301cc5e51fe52d1",
+      "artifact_id": "artifact-cd5598af157ae23f58f6",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_845_11-NE-16D_1994-01-01.zip",
+      "bytes": 824527,
+      "sha256": "8278312678555135d470903068b5875d2bfff129a09054a4eb7b1473af55e82d",
+      "artifact_id": "artifact-822ad438725e71f1038e",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_850_11-NE-17A_1990-03-01.zip",
+      "bytes": 1865397,
+      "sha256": "fb37d1d61431fe7429c7a4fa11ecfd19ea2a389303b100c544e46bf64f4d7fec",
+      "artifact_id": "artifact-b9b951fc923bdc049041",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_851_11-NE-17A_1994-09-01.zip",
+      "bytes": 1707233,
+      "sha256": "d4e7e0eefb829a2fceab1ab97747f313fad11a8d84a77c8b614463c526137e66",
+      "artifact_id": "artifact-f14b584b9e2b1c4088b3",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_859_11-NE-17B_1993-07-01.zip",
+      "bytes": 2970000,
+      "sha256": "f7683c50c068cbf1eb10d86f8cf148376aa283d80bee40bc0650ed249b15ce49",
+      "artifact_id": "artifact-3f6a2773584c5466794f",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_860_11-NE-17B_1998-03-01.zip",
+      "bytes": 3114596,
+      "sha256": "e5849146aa0e95790ce6e315fbfd86c1e75a1c08e6649c4bfaf78eec177e7a4b",
+      "artifact_id": "artifact-f79dfc1d3577b468f741",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_861_11-NE-17C_1980-03-01.zip",
+      "bytes": 1230027,
+      "sha256": "4c4666a1da6654256f94a6b05c4d9ae8c1d98cf582001f8b2d7cb51156f7f13c",
+      "artifact_id": "artifact-95c4ca2b05dfc43442cf",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_862_11-NE-17C_1984-06-01.zip",
+      "bytes": 1465515,
+      "sha256": "607e012da6b909bc367a9d373a6914fa943bd58cf6f3a85401c8fd167650be4b",
+      "artifact_id": "artifact-4630fcfbaf48e4f766e8",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_863_11-NE-17C_1988-01-01.zip",
+      "bytes": 1466255,
+      "sha256": "89d9d72d8313067b31c02f1a438cd82c37b36705626703e80e052d930bcebdcd",
+      "artifact_id": "artifact-5a4aea99fd6b21a2f5db",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_864_11-NE-17C_1990-03-01.zip",
+      "bytes": 1372807,
+      "sha256": "b8775d98ed9f3e77b467631b43f4b19070227464056ce17a5361a765e0a55a9c",
+      "artifact_id": "artifact-d1371d8b18269551afb9",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_865_11-NE-17C_1993-07-01.zip",
+      "bytes": 1167705,
+      "sha256": "a6f06e70e64aef9be7bf26096b1f4464d8735e75a30ac5fa0116e1429dba912c",
+      "artifact_id": "artifact-8c7fa0169cf16c7aea42",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_866_11-NE-17C_1999-03-01.zip",
+      "bytes": 1352560,
+      "sha256": "ac09f940d4769e2adf9cd9158881834d96a5a9804cd587c68d5bacef656eba7a",
+      "artifact_id": "artifact-ea94136e6765642536d0",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_871_11-NE-17D_1993-04-01.zip",
+      "bytes": 1914974,
+      "sha256": "d2cc51eda8b23c203e1172491fba1a0118635c15f1a5fa016d36c220a57083dd",
+      "artifact_id": "artifact-7114474e5ea9b969da48",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_872_11-NE-17D_1997-06-01.zip",
+      "bytes": 1899884,
+      "sha256": "c06ac967999673bfc8159c0ff77a3e3eb3253f96c8b39d320b70c99b994c9b83",
+      "artifact_id": "artifact-0f8cb5557188c56e65aa",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_877_11-NE-18A_1990-06-01.zip",
+      "bytes": 3072803,
+      "sha256": "3cfef28ade546aa356cf3e42bcb481e14587da2f5bf5e45cf48e10511dbddfef",
+      "artifact_id": "artifact-3ee90f9cd1351ab6459c",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_878_11-NE-18A_1993-12-01.zip",
+      "bytes": 2813130,
+      "sha256": "14dfcdc527e97058cd4383a39ba2fc877c2b1eb6d530adbb804326202e516ff0",
+      "artifact_id": "artifact-d9dd3241a6bc041ba75e",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_891_11-NE-18C_1990-04-01.zip",
+      "bytes": 2883807,
+      "sha256": "4fae4021887e06df759d6d0ec4c5d6fd0efdd5f62805b2492baf1ea0a496179d",
+      "artifact_id": "artifact-d6eb2f32a85945612b12",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_892_11-NE-18C_1994-01-01.zip",
+      "bytes": 2784206,
+      "sha256": "1b04a9067d77188be98b197aa911eb0215a72ab5d1de6a656522dfc4b6be85d0",
+      "artifact_id": "artifact-815a62f55880a523135f",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_928_11-NE-1A_1990-01-01.zip",
+      "bytes": 4575464,
+      "sha256": "55804af4872af9c396ddc9942690685af599fe77d06bc43a1204e370e84c5db7",
+      "artifact_id": "artifact-7571a32018147777d676",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_929_11-NE-1A_1995-01-01.zip",
+      "bytes": 4314450,
+      "sha256": "6ef804f1cd4ed16ee72b6c13fb22a628c4f523717ad67acc41ecfe0b01533dbf",
+      "artifact_id": "artifact-b3459cb4388fd4b7522c",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_934_11-NE-1B_1990-02-01.zip",
+      "bytes": 4089587,
+      "sha256": "9da221c61101fdf9feb35ec71677df5ee3ead73b38a2a7e49d4d7d93c3874245",
+      "artifact_id": "artifact-d779fa7d6cb3a92ca62c",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_935_11-NE-1B_1995-01-01.zip",
+      "bytes": 3736096,
+      "sha256": "f079c1a3a5f91f5126d3b96b2b7af036c9efec9bf43317995417f5361acad147",
+      "artifact_id": "artifact-164765f14eaf0263bbe1",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_940_11-NE-1C_1990-01-01.zip",
+      "bytes": 3388092,
+      "sha256": "8330e2aa121fdeebb3b3b20b3cd2841a0f2ce4c4a47ffdafd2afc7ac460bbc77",
+      "artifact_id": "artifact-e146cb25ec52bd447e39",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_941_11-NE-1C_1994-11-01.zip",
+      "bytes": 3253011,
+      "sha256": "3cacd775749aa5cfb30044464d392e0abb94feb168700e223ed3c2c835ca0173",
+      "artifact_id": "artifact-a193204efbb841b5e040",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_946_11-NE-1D_1990-01-01.zip",
+      "bytes": 2749699,
+      "sha256": "cb8746fac1bdfa40dfad965d36777ec74cfe757e3414bb8141a53c3aec68e286",
+      "artifact_id": "artifact-2fca363ade7b943eecea",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_947_11-NE-1D_1995-02-01.zip",
+      "bytes": 2427145,
+      "sha256": "6cbdac12abfd4d273935baba5f3ca24e405e18e341a92c4524f6ab80b57ec494",
+      "artifact_id": "artifact-fbad3353c54d41c5d3db",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_991_11-NE-21A_1989-12-01.zip",
+      "bytes": 1548785,
+      "sha256": "404351e90c9fb40184ff315154f51f2cd54cbccd8345dc6580e5e236472284d3",
+      "artifact_id": "artifact-7f985ad3af04969eb1a9",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_992_11-NE-21A_1993-11-01.zip",
+      "bytes": 1614994,
+      "sha256": "9e13baec3bf91fe7760c2a3fd261187ac0994779c879eee297cbc2771856bdcc",
+      "artifact_id": "artifact-3741b11492c3683be04f",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_993_11-NE-21A_1997-11-01.zip",
+      "bytes": 1523533,
+      "sha256": "fe17297e012abd3b9b0c76cd314b33ee0cf62296bf30dfa85899702d738495fd",
+      "artifact_id": "artifact-b5e303e1fc00be12c647",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/maps/1980_1990_999_11-NE-21C_1993-10-01.zip",
+      "bytes": 1703894,
+      "sha256": "a053fcef8856ca3ccd7d556ba65bdbe8a1795885c53d18d0cb6e85cc4e126f97",
+      "artifact_id": "artifact-bd5a6cb4d7cc9f39a960",
+      "dataset_id": "kt-survey-rasters",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    }
+  ]
+}

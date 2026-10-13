@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "id": "07",
+  "title": "Mathematical Models and Results",
+  "dataset_ids": [
+    "kt-synthetic-model",
+    "kt-restricted-analytical-results",
+    "kt-calm-air-certificate",
+    "kt-wind-counterfactual",
+    "kt-support-07"
+  ],
+  "citation": "Ayyar, Aryan (2026). Mathematical Models and Results. The Kai Tak Historical Research Archive, candidate v1.0.0, collection 07.",
+  "file_count": 433,
+  "permitted_bundle_files": 0,
+  "release_manifest": "../../releases/v1.0.0/collections/07.json"
+}

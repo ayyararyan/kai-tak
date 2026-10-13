@@ -1,0 +1,161 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ayyararyan/kai-tak/archive/schemas/release.schema.json",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "archive_version",
+    "status",
+    "source_commit",
+    "complete_historical_archive",
+    "assets",
+    "exceptions",
+    "dependencies",
+    "rights_notice"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "archive_version": {
+      "const": "1.0.0"
+    },
+    "status": {
+      "enum": [
+        "candidate",
+        "published"
+      ]
+    },
+    "source_commit": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{40}$"
+    },
+    "complete_historical_archive": {
+      "type": "boolean"
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "collection_id",
+          "bytes",
+          "sha256",
+          "files",
+          "unpacked_bytes",
+          "url",
+          "manifest"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "collection_id": {
+            "type": "string",
+            "enum": [
+              "01",
+              "02",
+              "03",
+              "04",
+              "05",
+              "06",
+              "07",
+              "08",
+              "09"
+            ]
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "files": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "unpacked_bytes": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "manifest": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "exceptions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "artifact_id",
+          "path",
+          "collection_id",
+          "decision",
+          "reason",
+          "reproducibility_required"
+        ],
+        "properties": {
+          "artifact_id": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          },
+          "collection_id": {
+            "type": "string",
+            "enum": [
+              "01",
+              "02",
+              "03",
+              "04",
+              "05",
+              "06",
+              "07",
+              "08",
+              "09"
+            ]
+          },
+          "decision": {
+            "enum": [
+              "Redistribution permitted",
+              "Original authored material",
+              "Link-only",
+              "Permission required",
+              "Rights unresolved",
+              "Excluded"
+            ]
+          },
+          "reason": {
+            "type": "string"
+          },
+          "reproducibility_required": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rights_notice": {
+      "type": "string"
+    }
+  }
+}

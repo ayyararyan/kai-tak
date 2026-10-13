@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0.0",
+  "status": "failed",
+  "scope": "Actual four candidate bundles via loopback HTTP into baseline checkout with proposed archive tooling; public URLs remain absent.",
+  "source_commit": "128f7006e8c929a878bd80bdf84521a97c45ee30",
+  "runs": [
+    {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "scripts/fetch_data.py",
+        "--release",
+        "v1.0.0",
+        "--archive-dir",
+        "<acceptance-work>/cache",
+        "--report",
+        "<acceptance-work>/restore.json"
+      ],
+      "returncode": 0,
+      "stdout": "ew candidate.\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-474cb4e8286f4099bf15\",\n      \"path\": \"research/checkers-runway13/whitepaper/v2/qa/portable_rebuild.json\",\n      \"collection_id\": \"09\",\n      \"decision\": \"Rights unresolved\",\n      \"reason\": \"Exact source/channel rights or item-level lineage not established; metadata only in new candidate.\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-e80dcb733eb017a70d7a\",\n      \"path\": \"research/checkers-runway13/whitepaper/v2/qa/pymupdf_text.txt\",\n      \"collection_id\": \"09\",\n      \"decision\": \"Rights unresolved\",\n      \"reason\": \"Exact source/channel rights or item-level lineage not established; metadata only in new candidate.\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-4475538bddf8066b4574\",\n      \"path\": \"research/checkers-runway13/whitepaper/v2/qa/rebuild_path.txt\",\n      \"collection_id\": \"09\",\n      \"decision\": \"Rights unresolved\",\n      \"reason\": \"Exact source/channel rights or item-level lineage not established; metadata only in new candidate.\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-7dab1be14be5a008202d\",\n      \"path\": \"research/checkers-runway13/whitepaper/v2/qa/source_handoff_checks.json\",\n      \"collection_id\": \"09\",\n      \"decision\": \"Rights unresolved\",\n      \"reason\": \"Exact source/channel rights or item-level lineage not established; metadata only in new candidate.\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-eb0f1eea0f36c096ffc9\",\n      \"path\": \"research/checkers-runway13/whitepaper/v2/qa/visual_review.json\",\n      \"collection_id\": \"09\",\n      \"decision\": \"Rights unresolved\",\n      \"reason\": \"Exact source/channel rights or item-level lineage not established; metadata only in new candidate.\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-26ea5273d9279bcd20d7\",\n      \"path\": \"research/checkers-runway13/whitepaper/v2/references.tex\",\n      \"collection_id\": \"09\",\n      \"decision\": \"Original authored material\",\n      \"reason\": \"Authored grant/publication scope requires approval\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-2556cf0da1642c250cc0\",\n      \"path\": \"research/checkers-runway13/whitepaper/v2/requirements.txt\",\n      \"collection_id\": \"09\",\n      \"decision\": \"Rights unresolved\",\n      \"reason\": \"Exact source/channel rights or item-level lineage not established; metadata only in new candidate.\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-c75d0082c65b7af1f642\",\n      \"path\": \"research/checkers-runway13/whitepaper/v2/wind_appendix.tex\",\n      \"collection_id\": \"09\",\n      \"decision\": \"Original authored material\",\n      \"reason\": \"Authored grant/publication scope requires approval\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-ca3d6346430e6adafc21\",\n      \"path\": \"research/checkers-runway13/whitepaper/v2/wind_coefficients.tex\",\n      \"collection_id\": \"09\",\n      \"decision\": \"Original authored material\",\n      \"reason\": \"Authored grant/publication scope requires approval\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-4749a4c3aec41d0759a7\",\n      \"path\": \"research/checkers-runway13/whitepaper/v2/wind_results.tex\",\n      \"collection_id\": \"09\",\n      \"decision\": \"Original authored material\",\n      \"reason\": \"Authored grant/publication scope requires approval\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-c1152824a95ec5270147\",\n      \"path\": \"scripts/fetch_data.py\",\n      \"collection_id\": \"07\",\n      \"decision\": \"Original authored material\",\n      \"reason\": \"Authored grant/publication scope requires approval\",\n      \"reproducibility_required\": null\n    },\n    {\n      \"collection_id\": \"04\",\n      \"category\": \"no-permitted-bundle\",\n      \"detail\": \"Catalogue only; no approved bundle is available for this collection.\"\n    },\n    {\n      \"collection_id\": \"06\",\n      \"category\": \"no-permitted-bundle\",\n      \"detail\": \"Catalogue only; no approved bundle is available for this collection.\"\n    },\n    {\n      \"collection_id\": \"07\",\n      \"category\": \"no-permitted-bundle\",\n      \"detail\": \"Catalogue only; no approved bundle is available for this collection.\"\n    },\n    {\n      \"collection_id\": \"08\",\n      \"category\": \"no-permitted-bundle\",\n      \"detail\": \"Catalogue only; no approved bundle is available for this collection.\"\n    },\n    {\n      \"collection_id\": \"09\",\n      \"category\": \"no-permitted-bundle\",\n      \"detail\": \"Catalogue only; no approved bundle is available for this collection.\"\n    }\n  ],\n  \"scientific_scope\": \"Byte integrity only; not historical accuracy, full research reproducibility or aviation safety.\",\n  \"release\": \"v1.0.0\",\n  \"archive_coverage\": \"exceptions-remain\",\n  \"finished_utc\": \"2026-10-13T16:53:19.155106+00:00\"\n}\n",
+      "stderr": "2873 missing/restricted/catalogue-only exceptions; inspect the integrity report or release manifest.\n"
+    },
+    {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "scripts/archive_reproduce.py",
+        "--report",
+        "<acceptance-work>/reproduction.json"
+      ],
+      "returncode": 2,
+      "stdout": "{\n  \"schema_version\": \"1.0.0\",\n  \"status\": \"failed\",\n  \"producer_exit\": 1,\n  \"tests_exit\": 0,\n  \"tests_output\": \"test_actual_event_fields_and_lengths (test_decode_noaa.DecoderTests.test_actual_event_fields_and_lengths) ... ok\\ntest_empty_source_identity_refused (test_decode_noaa.DecoderTests.test_empty_source_identity_refused) ... ok\\ntest_every_row_metadata_and_year_checked (test_decode_noaa.DecoderTests.test_every_row_metadata_and_year_checked) ... ok\\ntest_gust_not_parsed_from_remarks (test_decode_noaa.DecoderTests.test_gust_not_parsed_from_remarks) ... ok\\ntest_metadata_failure_precedes_output_mutation (test_decode_noaa.DecoderTests.test_metadata_failure_precedes_output_mutation) ... ok\\ntest_missing_sentinels_not_numeric_extremes (test_decode_noaa.DecoderTests.test_missing_sentinels_not_numeric_extremes) ... ok\\ntest_negative_temperature_and_scale (test_decode_noaa.DecoderTests.test_negative_temperature_and_scale) ... ok\\ntest_pinned_source_accepts_original (test_decode_noaa.DecoderTests.test_pinned_source_accepts_original) ... ok\\ntest_suspect_retained_but_not_accepted (test_decode_noaa.DecoderTests.test_suspect_retained_but_not_accepted) ... ok\\ntest_tampered_source_refused_without_output_mutation (test_decode_noaa.DecoderTests.test_tampered_source_refused_without_output_mutation) ... ok\\ntest_unknown_and_truncated_additional_fail (test_decode_noaa.DecoderTests.test_unknown_and_truncated_additional_fail) ... ok\\ntest_zero_is_not_missing (test_decode_noaa.DecoderTests.test_zero_is_not_missing) ... ok\\n\\n----------------------------------------------------------------------\\nRan 12 tests in 0.012s\\n\\nOK\\n\",\n  \"outputs\": [\n    {\n      \"path\": \"research/checkers-runway13/evidence/cal605_reconstruction/noaa/observations_1993.csv\",\n      \"sha256\": \"104b2fc2e2e7cdf3ebb2cda338dfebac948a76f95630595242ececf0ce14ef4c\",\n      \"expected_sha256\": \"104b2fc2e2e7cdf3ebb2cda338dfebac948a76f95630595242ececf0ce14ef4c\",\n      \"byte_identical\": true,\n      \"rows\": 8549\n    },\n    {\n      \"path\": \"research/checkers-runway13/evidence/cal605_reconstruction/noaa/observations_1993-11-04.csv\",\n      \"sha256\": \"ee619b6c154678b69b197e0ad5205704255d28682f5904aefe08f84093abc01b\",\n      \"expected_sha256\": \"ee619b6c154678b69b197e0ad5205704255d28682f5904aefe08f84093abc01b\",\n      \"byte_identical\": true,\n      \"rows\": 24\n    }\n  ],\n  \"scope\": \"Two named NOAA derived tables and decoder tests; not other research lanes or historical aircraft wind-field validation.\",\n  \"source_original_unchanged\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "scripts/fetch_data.py",
+        "--release",
+        "v1.0.0",
+        "--collection",
+        "05",
+        "--archive-dir",
+        "<acceptance-work>/cache",
+        "--offline",
+        "--verify-only",
+        "--destination",
+        "<acceptance-work>/must-not-exist"
+      ],
+      "returncode": 0,
+      "stdout": "n\": \"Rights unresolved\",\n      \"reason\": \"Exact source/channel rights or item-level lineage not established; metadata only in new candidate.\",\n      \"reproducibility_required\": null\n    },\n    {\n      \"artifact_id\": \"artifact-31e2f607e88fa58cb6e2\",\n      \"path\": \"research/checkers-runway13/evidence/cal605_reconstruction/wind/summary.json\",\n      \"collection_id\": \"05\",\n      \"decision\": \"Rights unresolved\",\n      \"reason\": \"Exact source/channel rights or item-level lineage not established; metadata only in new candidate.\",\n      \"reproducibility_required\": null\n    },\n    {\n      \"artifact_id\": \"artifact-128c20e6df6c41e62f2a\",\n      \"path\": \"research/checkers-runway13/evidence/cal605_reconstruction/wind/test_wind.py\",\n      \"collection_id\": \"05\",\n      \"decision\": \"Original authored material\",\n      \"reason\": \"Authored grant/publication scope requires approval\",\n      \"reproducibility_required\": null\n    },\n    {\n      \"artifact_id\": \"artifact-4b08c7646824dd4c7d90\",\n      \"path\": \"research/checkers-runway13/evidence/cal605_reconstruction/wind/verification.json\",\n      \"collection_id\": \"05\",\n      \"decision\": \"Rights unresolved\",\n      \"reason\": \"Exact source/channel rights or item-level lineage not established; metadata only in new candidate.\",\n      \"reproducibility_required\": null\n    },\n    {\n      \"artifact_id\": \"artifact-d626336d7375155555ac\",\n      \"path\": \"research/checkers-runway13/evidence/cal605_reconstruction/wind/verify_manifest.py\",\n      \"collection_id\": \"05\",\n      \"decision\": \"Original authored material\",\n      \"reason\": \"Authored grant/publication scope requires approval\",\n      \"reproducibility_required\": null\n    },\n    {\n      \"artifact_id\": \"artifact-2f041281bbb47110c4c7\",\n      \"path\": \"research/checkers-runway13/evidence/cal605_reconstruction/wind/wind_extraction.json\",\n      \"collection_id\": \"05\",\n      \"decision\": \"Rights unresolved\",\n      \"reason\": \"Exact source/channel rights or item-level lineage not established; metadata only in new candidate.\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-9bd8d671a6ae1dff5a35\",\n      \"path\": \"research/checkers-runway13/evidence/cal605_reconstruction/wind/wind_extrema.csv\",\n      \"collection_id\": \"05\",\n      \"decision\": \"Rights unresolved\",\n      \"reason\": \"Exact source/channel rights or item-level lineage not established; metadata only in new candidate.\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-f91eac7510f2a5d0cc66\",\n      \"path\": \"research/checkers-runway13/evidence/cal605_reconstruction/wind/wind_records.csv\",\n      \"collection_id\": \"05\",\n      \"decision\": \"Rights unresolved\",\n      \"reason\": \"Exact source/channel rights or item-level lineage not established; metadata only in new candidate.\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-e6520e13927141bafd83\",\n      \"path\": \"research/checkers-runway13/evidence/cal605_reconstruction/wind/wind_windows.pdf\",\n      \"collection_id\": \"05\",\n      \"decision\": \"Rights unresolved\",\n      \"reason\": \"Exact source/channel rights or item-level lineage not established; metadata only in new candidate.\",\n      \"reproducibility_required\": null\n    },\n    {\n      \"artifact_id\": \"artifact-60f160f1fcd5fbace863\",\n      \"path\": \"research/checkers-runway13/evidence/cal605_reconstruction/wind/wind_windows.png\",\n      \"collection_id\": \"05\",\n      \"decision\": \"Rights unresolved\",\n      \"reason\": \"Exact source/channel rights or item-level lineage not established; metadata only in new candidate.\",\n      \"reproducibility_required\": null\n    },\n    {\n      \"artifact_id\": \"artifact-03c3b34f32f0fad97c7a\",\n      \"path\": \"research/checkers-runway13/evidence/cal605_reconstruction/wind/within_sensor_differences.csv\",\n      \"collection_id\": \"05\",\n      \"decision\": \"Rights unresolved\",\n      \"reason\": \"Exact source/channel rights or item-level lineage not established; metadata only in new candidate.\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-89ed8d4a5183eb6526c1\",\n      \"path\": \"research/checkers-runway13/evidence/weather_feasibility_2026-10-13/README.md\",\n      \"collection_id\": \"05\",\n      \"decision\": \"Original authored material\",\n      \"reason\": \"Authored grant/publication scope requires approval\",\n      \"reproducibility_required\": null\n    },\n    {\n      \"artifact_id\": \"artifact-73000c027d43583d4184\",\n      \"path\": \"research/checkers-runway13/evidence/weather_feasibility_2026-10-13/verification.json\",\n      \"collection_id\": \"05\",\n      \"decision\": \"Rights unresolved\",\n      \"reason\": \"Exact source/channel rights or item-level lineage not established; metadata only in new candidate.\",\n      \"reproducibility_required\": null\n    }\n  ],\n  \"scientific_scope\": \"Byte integrity only; not historical accuracy, full research reproducibility or aviation safety.\",\n  \"release\": \"v1.0.0\",\n  \"archive_coverage\": \"exceptions-remain\",\n  \"finished_utc\": \"2026-10-13T16:53:19.897469+00:00\"\n}\n",
+      "stderr": "34 missing/restricted/catalogue-only exceptions; inspect the integrity report or release manifest.\n"
+    },
+    {
+      "command": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "scripts/fetch_data.py",
+        "--release",
+        "v1.0.0",
+        "--offline",
+        "--archive-dir",
+        "<acceptance-work>/cache"
+      ],
+      "returncode": 0,
+      "stdout": "ew candidate.\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-474cb4e8286f4099bf15\",\n      \"path\": \"research/checkers-runway13/whitepaper/v2/qa/portable_rebuild.json\",\n      \"collection_id\": \"09\",\n      \"decision\": \"Rights unresolved\",\n      \"reason\": \"Exact source/channel rights or item-level lineage not established; metadata only in new candidate.\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-e80dcb733eb017a70d7a\",\n      \"path\": \"research/checkers-runway13/whitepaper/v2/qa/pymupdf_text.txt\",\n      \"collection_id\": \"09\",\n      \"decision\": \"Rights unresolved\",\n      \"reason\": \"Exact source/channel rights or item-level lineage not established; metadata only in new candidate.\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-4475538bddf8066b4574\",\n      \"path\": \"research/checkers-runway13/whitepaper/v2/qa/rebuild_path.txt\",\n      \"collection_id\": \"09\",\n      \"decision\": \"Rights unresolved\",\n      \"reason\": \"Exact source/channel rights or item-level lineage not established; metadata only in new candidate.\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-7dab1be14be5a008202d\",\n      \"path\": \"research/checkers-runway13/whitepaper/v2/qa/source_handoff_checks.json\",\n      \"collection_id\": \"09\",\n      \"decision\": \"Rights unresolved\",\n      \"reason\": \"Exact source/channel rights or item-level lineage not established; metadata only in new candidate.\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-eb0f1eea0f36c096ffc9\",\n      \"path\": \"research/checkers-runway13/whitepaper/v2/qa/visual_review.json\",\n      \"collection_id\": \"09\",\n      \"decision\": \"Rights unresolved\",\n      \"reason\": \"Exact source/channel rights or item-level lineage not established; metadata only in new candidate.\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-26ea5273d9279bcd20d7\",\n      \"path\": \"research/checkers-runway13/whitepaper/v2/references.tex\",\n      \"collection_id\": \"09\",\n      \"decision\": \"Original authored material\",\n      \"reason\": \"Authored grant/publication scope requires approval\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-2556cf0da1642c250cc0\",\n      \"path\": \"research/checkers-runway13/whitepaper/v2/requirements.txt\",\n      \"collection_id\": \"09\",\n      \"decision\": \"Rights unresolved\",\n      \"reason\": \"Exact source/channel rights or item-level lineage not established; metadata only in new candidate.\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-c75d0082c65b7af1f642\",\n      \"path\": \"research/checkers-runway13/whitepaper/v2/wind_appendix.tex\",\n      \"collection_id\": \"09\",\n      \"decision\": \"Original authored material\",\n      \"reason\": \"Authored grant/publication scope requires approval\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-ca3d6346430e6adafc21\",\n      \"path\": \"research/checkers-runway13/whitepaper/v2/wind_coefficients.tex\",\n      \"collection_id\": \"09\",\n      \"decision\": \"Original authored material\",\n      \"reason\": \"Authored grant/publication scope requires approval\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-4749a4c3aec41d0759a7\",\n      \"path\": \"research/checkers-runway13/whitepaper/v2/wind_results.tex\",\n      \"collection_id\": \"09\",\n      \"decision\": \"Original authored material\",\n      \"reason\": \"Authored grant/publication scope requires approval\",\n      \"reproducibility_required\": true\n    },\n    {\n      \"artifact_id\": \"artifact-c1152824a95ec5270147\",\n      \"path\": \"scripts/fetch_data.py\",\n      \"collection_id\": \"07\",\n      \"decision\": \"Original authored material\",\n      \"reason\": \"Authored grant/publication scope requires approval\",\n      \"reproducibility_required\": null\n    },\n    {\n      \"collection_id\": \"04\",\n      \"category\": \"no-permitted-bundle\",\n      \"detail\": \"Catalogue only; no approved bundle is available for this collection.\"\n    },\n    {\n      \"collection_id\": \"06\",\n      \"category\": \"no-permitted-bundle\",\n      \"detail\": \"Catalogue only; no approved bundle is available for this collection.\"\n    },\n    {\n      \"collection_id\": \"07\",\n      \"category\": \"no-permitted-bundle\",\n      \"detail\": \"Catalogue only; no approved bundle is available for this collection.\"\n    },\n    {\n      \"collection_id\": \"08\",\n      \"category\": \"no-permitted-bundle\",\n      \"detail\": \"Catalogue only; no approved bundle is available for this collection.\"\n    },\n    {\n      \"collection_id\": \"09\",\n      \"category\": \"no-permitted-bundle\",\n      \"detail\": \"Catalogue only; no approved bundle is available for this collection.\"\n    }\n  ],\n  \"scientific_scope\": \"Byte integrity only; not historical accuracy, full research reproducibility or aviation safety.\",\n  \"release\": \"v1.0.0\",\n  \"archive_coverage\": \"exceptions-remain\",\n  \"finished_utc\": \"2026-10-13T16:53:27.392521+00:00\"\n}\n",
+      "stderr": "2873 missing/restricted/catalogue-only exceptions; inspect the integrity report or release manifest.\n"
+    }
+  ],
+  "verify_only_no_destination_mutation": true,
+  "public_download_verified": false,
+  "local_download_restore_verified": false,
+  "complete_historical_reproducibility": false,
+  "restored_assets": [
+    {
+      "name": "kai-tak-archive-v1.0.0-collection-01.tar.gz",
+      "sha256": "9e8782985920d2e9f1209329d19d5dfd89bc0b49205cf3751c77b919eb7f86f6",
+      "files": 275,
+      "status": "restored"
+    },
+    {
+      "name": "kai-tak-archive-v1.0.0-collection-02.tar.gz",
+      "sha256": "7a17b6acaafea03c7ec9bda384a7ab7918462a734557742a08a48d64579359dc",
+      "files": 121,
+      "status": "restored"
+    },
+    {
+      "name": "kai-tak-archive-v1.0.0-collection-03.tar.gz",
+      "sha256": "cd43d6166701c6f032480499a9d05237f032cd02e71be955c3df26269b95b803",
+      "files": 3,
+      "status": "restored"
+    },
+    {
+      "name": "kai-tak-archive-v1.0.0-collection-05.tar.gz",
+      "sha256": "00f45fc60ae87dcbc2da31b73fa74ff7bf7da6fa230041c43b165b3d2b46a442",
+      "files": 1,
+      "status": "restored"
+    }
+  ],
+  "reported_exception_count": 2873,
+  "reproduction": {
+    "schema_version": "1.0.0",
+    "status": "failed",
+    "producer_exit": 1,
+    "tests_exit": 0,
+    "tests_output": "test_actual_event_fields_and_lengths (test_decode_noaa.DecoderTests.test_actual_event_fields_and_lengths) ... ok\ntest_empty_source_identity_refused (test_decode_noaa.DecoderTests.test_empty_source_identity_refused) ... ok\ntest_every_row_metadata_and_year_checked (test_decode_noaa.DecoderTests.test_every_row_metadata_and_year_checked) ... ok\ntest_gust_not_parsed_from_remarks (test_decode_noaa.DecoderTests.test_gust_not_parsed_from_remarks) ... ok\ntest_metadata_failure_precedes_output_mutation (test_decode_noaa.DecoderTests.test_metadata_failure_precedes_output_mutation) ... ok\ntest_missing_sentinels_not_numeric_extremes (test_decode_noaa.DecoderTests.test_missing_sentinels_not_numeric_extremes) ... ok\ntest_negative_temperature_and_scale (test_decode_noaa.DecoderTests.test_negative_temperature_and_scale) ... ok\ntest_pinned_source_accepts_original (test_decode_noaa.DecoderTests.test_pinned_source_accepts_original) ... ok\ntest_suspect_retained_but_not_accepted (test_decode_noaa.DecoderTests.test_suspect_retained_but_not_accepted) ... ok\ntest_tampered_source_refused_without_output_mutation (test_decode_noaa.DecoderTests.test_tampered_source_refused_without_output_mutation) ... ok\ntest_unknown_and_truncated_additional_fail (test_decode_noaa.DecoderTests.test_unknown_and_truncated_additional_fail) ... ok\ntest_zero_is_not_missing (test_decode_noaa.DecoderTests.test_zero_is_not_missing) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.012s\n\nOK\n",
+    "outputs": [
+      {
+        "path": "research/checkers-runway13/evidence/cal605_reconstruction/noaa/observations_1993.csv",
+        "sha256": "104b2fc2e2e7cdf3ebb2cda338dfebac948a76f95630595242ececf0ce14ef4c",
+        "expected_sha256": "104b2fc2e2e7cdf3ebb2cda338dfebac948a76f95630595242ececf0ce14ef4c",
+        "byte_identical": true,
+        "rows": 8549
+      },
+      {
+        "path": "research/checkers-runway13/evidence/cal605_reconstruction/noaa/observations_1993-11-04.csv",
+        "sha256": "ee619b6c154678b69b197e0ad5205704255d28682f5904aefe08f84093abc01b",
+        "expected_sha256": "ee619b6c154678b69b197e0ad5205704255d28682f5904aefe08f84093abc01b",
+        "byte_identical": true,
+        "rows": 24
+      }
+    ],
+    "scope": "Two named NOAA derived tables and decoder tests; not other research lanes or historical aircraft wind-field validation.",
+    "source_original_unchanged": true
+  }
+}

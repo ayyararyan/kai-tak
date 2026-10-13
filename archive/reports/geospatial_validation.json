@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "status": "passed",
+  "checks": {
+    "features": true,
+    "BaseHeight_missing": true,
+    "TopHeight_missing": true,
+    "invalid_geometry": true,
+    "dtm_shape": true,
+    "dtm_bounds": true,
+    "dtm_crs": true,
+    "dtm_nodata": true,
+    "dtm_valid_cells": true,
+    "dtm_total_cells": true,
+    "dtm_min_height_m": true,
+    "dtm_max_height_m": true,
+    "building_wgs84_coverage": true
+  },
+  "buildings": {
+    "features": 342195,
+    "BaseHeight_missing": 106249,
+    "TopHeight_missing": 104847,
+    "invalid_geometry": 83
+  },
+  "building_bounds_wgs84": [
+    113.8408754438,
+    22.1568647375,
+    114.4368372796,
+    22.5613021784
+  ],
+  "terrain": {
+    "shape": [
+      9601,
+      12751
+    ],
+    "bounds": [
+      799997.5,
+      799997.5,
+      863752.5,
+      848002.5
+    ],
+    "crs": "EPSG:2326",
+    "nodata": -9999.0,
+    "valid_cells": 122422351,
+    "total_cells": 122422351,
+    "min_height_m": -26.0,
+    "max_height_m": 958.0
+  },
+  "observation_epoch": "DTM photography 2014\u20132015; building revision 2026-09-21, actual feature observation times unknown",
+  "vertical_datum": "HKPD; building BaseHeight/TopHeight are elevations, not AGL heights",
+  "historical_1993_validity": false,
+  "source_repair_performed": false,
+  "known_invalid_geometries_retained": 83,
+  "meaning": "Matches source QA counts, not survey calibration or historical accuracy."
+}

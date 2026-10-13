@@ -1,0 +1,541 @@
+{
+  "schema_version": "1.0.0",
+  "status": "draft-rights-audit-no-license-grant",
+  "verification_date": "2026-10-13",
+  "policy": "Default to metadata/source links when rights unresolved. Permission decision is separate from byte availability, scientific validity and author publication approval.",
+  "evidence_receipts": "verification_receipts.json",
+  "records": [
+    {
+      "id": "rights.hk.old-survey-sheets",
+      "title": "Lands Department Old Survey Sheets (open-data route)",
+      "publication_decision": "Redistribution permitted",
+      "scope": "Named DATA.GOV.HK Old Survey Sheets product and copies whose acquisition manifests establish the OpenData TIFF/world-file route.",
+      "verification_date": "2026-10-13",
+      "evidence_ids": [
+        "datagov_terms",
+        "csdi_terms",
+        "old_sheets_catalog",
+        "csdi_faq"
+      ],
+      "official_terms_urls": [
+        "https://data.gov.hk/en/terms-and-conditions",
+        "https://portal.csdi.gov.hk/csdi-webpage/doc/TNC",
+        "https://data.gov.hk/en-data/dataset/hk-landsd-openmap-old-survey-sheets",
+        "https://portal.csdi.gov.hk/csdi-webpage/info/FAQ"
+      ],
+      "required_attribution": "Lands Department, Government of the Hong Kong Special Administrative Region; DATA.GOV.HK and/or CSDI Portal. Government and relevant organisations retain intellectual-property ownership. Supplied as-is; no institutional endorsement.",
+      "rights_basis": "Current portal terms allow commercial/noncommercial distribution and reproduction with source, Government/relevant-organisation ownership acknowledgement and attribution, subject to full terms including indemnity. Old-sheet metadata links named HKMS downloads and CSDI indexes.",
+      "derivative_conditions": "Retain source rights and attribution; an authored transformation does not extinguish upstream rights. Do not attach an unrestricted license to mixed material. CSDI FAQ expressly contemplates own-design map rendering with attribution; link CSDI attribution to its terms.",
+      "representative_paths": [
+        "research/checkers-runway13/reconstruction/chronology/sheets/map_downloads.json"
+      ],
+      "outstanding_questions": [
+        "Check every included map against acquisition records, not simply its file extension."
+      ],
+      "selection_rule": "Source-level decision only. Match exact acquisition manifest/hash; representative paths are NOT recursive release allowlists."
+    },
+    {
+      "id": "rights.hk.dap-l0",
+      "title": "Lands Department Digital Aerial Photo DAP-L0",
+      "publication_decision": "Redistribution permitted",
+      "scope": "Compressed 300-dpi JPEG open-data photographs documented as DAP-L0; excludes paid high-resolution scans and unrelated preview endpoints.",
+      "verification_date": "2026-10-13",
+      "evidence_ids": [
+        "datagov_terms",
+        "csdi_terms",
+        "dap_catalog",
+        "csdi_faq"
+      ],
+      "official_terms_urls": [
+        "https://data.gov.hk/en/terms-and-conditions",
+        "https://portal.csdi.gov.hk/csdi-webpage/doc/TNC",
+        "https://data.gov.hk/en-data/dataset/hk-landsd-openmap-development-hkms-digital-aerial-photo",
+        "https://portal.csdi.gov.hk/csdi-webpage/info/FAQ"
+      ],
+      "required_attribution": "Lands Department, Government of the Hong Kong Special Administrative Region; DATA.GOV.HK and/or CSDI Portal. Government and relevant organisations retain intellectual-property ownership. Supplied as-is; no institutional endorsement.",
+      "rights_basis": "Specific official catalogue identifies 300-dpi JPEG DAP-L0 and its HKMS/CSDI delivery links; local fullframe manifest identifies OpenData acquisition and source hashes.",
+      "derivative_conditions": "Retain source rights and attribution; an authored transformation does not extinguish upstream rights. Do not attach an unrestricted license to mixed material. CSDI FAQ expressly contemplates own-design map rendering with attribution; link CSDI attribution to its terms.",
+      "representative_paths": [
+        "research/checkers-runway13/reconstruction/chronology/aerial/fullframe_manifest.json"
+      ],
+      "outstanding_questions": [
+        "Do not count indexed footprints as acquired frames.",
+        "Cross-check derivative crops/overlays against exact permitted parent frames."
+      ],
+      "selection_rule": "Source-level decision only. Match exact acquisition manifest/hash; representative paths are NOT recursive release allowlists."
+    },
+    {
+      "id": "rights.hk.dtm5m",
+      "title": "Lands Department 5m-grid Digital Terrain Model",
+      "publication_decision": "Redistribution permitted",
+      "scope": "Whole_HK_DTM_5m.zip in official DATA.GOV.HK product and traced format conversion/subsets.",
+      "verification_date": "2026-10-13",
+      "evidence_ids": [
+        "datagov_terms",
+        "dtm_catalog",
+        "dtm_features",
+        "csdi_faq"
+      ],
+      "official_terms_urls": [
+        "https://data.gov.hk/en/terms-and-conditions",
+        "https://data.gov.hk/en-data/dataset/hk-landsd-openmap-5m-grid-dtm",
+        "https://www.landsd.gov.hk/en/spatial-data/open-data/kf_dtm.html",
+        "https://portal.csdi.gov.hk/csdi-webpage/info/FAQ"
+      ],
+      "required_attribution": "Lands Department, Government of the Hong Kong Special Administrative Region; DATA.GOV.HK and/or CSDI Portal. Government and relevant organisations retain intellectual-property ownership. Supplied as-is; no institutional endorsement.",
+      "rights_basis": "Specific open-data catalogue and product page verified; acquisition record identifies exact official ZIP URL and hash.",
+      "derivative_conditions": "Retain source rights and attribution; an authored transformation does not extinguish upstream rights. Do not attach an unrestricted license to mixed material. CSDI FAQ expressly contemplates own-design map rendering with attribution; link CSDI attribution to its terms.",
+      "representative_paths": [
+        "research/checkers-runway13/geospatial/raw/Whole_HK_DTM_5m.zip",
+        "research/checkers-runway13/geospatial/derived/Hong_Kong_DTM_5m_HK1980.tif"
+      ],
+      "outstanding_questions": [
+        "Keep photography 2014–2015, publication 2017 and revision March 2019 distinct from HTTP/catalogue update dates."
+      ],
+      "selection_rule": "Source-level decision only. Match exact acquisition manifest/hash; representative paths are NOT recursive release allowlists."
+    },
+    {
+      "id": "rights.hk.csdi-building",
+      "title": "CSDI Building geometry and linked Structure/OP/OPStructure tables",
+      "publication_decision": "Redistribution permitted",
+      "scope": "Dataset landsd_rcd_1637211194312_35158 and its documented service tables and supplementary metadata; not BRAVO documents.",
+      "verification_date": "2026-10-13",
+      "evidence_ids": [
+        "csdi_terms",
+        "building_metadata",
+        "csdi_faq"
+      ],
+      "official_terms_urls": [
+        "https://portal.csdi.gov.hk/csdi-webpage/doc/TNC",
+        "https://portal.csdi.gov.hk/csdi-webpage/metadata/landsd_rcd_1637211194312_35158/html",
+        "https://portal.csdi.gov.hk/csdi-webpage/info/FAQ"
+      ],
+      "required_attribution": "Lands Department, Government of the Hong Kong Special Administrative Region; DATA.GOV.HK and/or CSDI Portal. Government and relevant organisations retain intellectual-property ownership. Supplied as-is; no institutional endorsement. Credit Buildings Department for its identified source contributions.",
+      "rights_basis": "Official CSDI dataset/service identity is established in acquisition manifests; current metadata examined, no additional redistribution restriction found there. CSDI terms apply to portal data and metadata.",
+      "derivative_conditions": "Retain source rights and attribution; an authored transformation does not extinguish upstream rights. Do not attach an unrestricted license to mixed material. CSDI FAQ expressly contemplates own-design map rendering with attribution; link CSDI attribution to its terms.",
+      "representative_paths": [
+        "research/checkers-runway13/geospatial/raw/Building_20260921.geojson",
+        "research/checkers-runway13/reconstruction/chronology/structures/acquisition_manifest.json"
+      ],
+      "outstanding_questions": [
+        "Record source contribution attribution per table; do not infer BRAVO plan reuse.",
+        "Modern 2026 snapshot is not complete 1993 building geometry."
+      ],
+      "selection_rule": "Source-level decision only. Match exact acquisition manifest/hash; representative paths are NOT recursive release allowlists."
+    },
+    {
+      "id": "rights.hk.csdi-ib1000",
+      "title": "CSDI iB1000 tile metadata",
+      "publication_decision": "Redistribution permitted",
+      "scope": "Portal-delivered metadata/index only; no claim that all referenced map tiles were acquired.",
+      "verification_date": "2026-10-13",
+      "evidence_ids": [
+        "csdi_terms",
+        "csdi_faq"
+      ],
+      "official_terms_urls": [
+        "https://portal.csdi.gov.hk/csdi-webpage/doc/TNC",
+        "https://portal.csdi.gov.hk/csdi-webpage/info/FAQ"
+      ],
+      "required_attribution": "Lands Department, Government of the Hong Kong Special Administrative Region; DATA.GOV.HK and/or CSDI Portal. Government and relevant organisations retain intellectual-property ownership. Supplied as-is; no institutional endorsement.",
+      "rights_basis": "CSDI terms expressly cover metadata; local source_urls identifies official portal dataset landsd_rcd_1637223748322_25497.",
+      "derivative_conditions": "Retain source rights and attribution; an authored transformation does not extinguish upstream rights. Do not attach an unrestricted license to mixed material. CSDI FAQ expressly contemplates own-design map rendering with attribution; link CSDI attribution to its terms.",
+      "representative_paths": [
+        "research/checkers-runway13/geospatial/metadata/ib1000_kaitak_tiles.json"
+      ],
+      "outstanding_questions": [],
+      "selection_rule": "Source-level decision only. Match exact acquisition manifest/hash; representative paths are NOT recursive release allowlists."
+    },
+    {
+      "id": "rights.hk.hkms-index-preview",
+      "title": "HKMS FlightPaths aerial index and productPreview images",
+      "publication_decision": "Rights unresolved",
+      "scope": "api.hkmapservice.gov.hk FlightPaths records and OneStopSystem getPreviewFile images; preserve metadata/source links pending channel-specific proof.",
+      "verification_date": "2026-10-13",
+      "evidence_ids": [
+        "dap_catalog",
+        "hkms_open_data",
+        "hkms_flightpaths",
+        "aerial_index_catalog",
+        "aerial_index_service"
+      ],
+      "official_terms_urls": [
+        "https://data.gov.hk/en-data/dataset/hk-landsd-openmap-development-hkms-digital-aerial-photo",
+        "https://www.hkmapservice.gov.hk/OpenData/",
+        "https://api.hkmapservice.gov.hk/oss/services/OneStop/FlightPaths/MapServer/2?f=pjson",
+        "https://data.gov.hk/en-data/dataset/hk-landsd-openmap-aerial-photo-flight-index",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1638157809075_22117/FeatureServer?f=json"
+      ],
+      "required_attribution": "Lands Department, Government of the Hong Kong Special Administrative Region; DATA.GOV.HK and/or CSDI Portal. Government and relevant organisations retain intellectual-property ownership. Supplied as-is; no institutional endorsement.",
+      "rights_basis": "Current DAP-L0 permission is product-specific. Local index uses a different API channel; live API returned 401 and local HKMS retrieval failed trusted TLS validation. A prior statement that OpenData links to CSDI is not fresh proof for every preview/index route. Additional check: an official open Aerial Photo Flight Index exists, but its current CSDI service layers cover 2016–2024, not the acquired 1985–1998/1993 HKMS historical index; this does not close the exact-product gap.",
+      "derivative_conditions": "Retain source rights and attribution; an authored transformation does not extinguish upstream rights. Do not attach an unrestricted license to mixed material.",
+      "representative_paths": [
+        "research/checkers-runway13/reconstruction/chronology/aerial/index_provenance.json",
+        "research/checkers-runway13/reconstruction/chronology/aerial/preview_manifest.json"
+      ],
+      "outstanding_questions": [
+        "Establish channel-specific rights or map each file to the identical permitted DAP-L0/CSDI product before packaging raw records/images."
+      ],
+      "selection_rule": "Source-level decision only. Match exact acquisition manifest/hash; representative paths are NOT recursive release allowlists."
+    },
+    {
+      "id": "rights.noaa.isd",
+      "title": "NOAA/NCEI Integrated Surface Dataset station-year observations",
+      "publication_decision": "Redistribution permitted",
+      "scope": "NOAA-compiled ISD observations and its documented station-year subset; no blanket assignment of CC0 to every NOAA-hosted object.",
+      "verification_date": "2026-10-13",
+      "evidence_ids": [
+        "noaa_isd",
+        "noaa_open_policy"
+      ],
+      "official_terms_urls": [
+        "https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00532/html",
+        "https://www.ncei.noaa.gov/sites/default/files/2023-12/NCEI%20PD-10-2-02%20-%20Open%20Data%20Policy%20Signed.pdf"
+      ],
+      "required_attribution": "NOAA National Centers for Environmental Information (2001), Global Surface Hourly; identify station/year subset, access date and source checksum. Retain NOAA/NCEI no-warranty and user-responsibility statements.",
+      "rights_basis": "Dataset-specific originator and use/access constraints inspected; recorded constraints call for citation and liability disclaimer, not restricted distribution. NCEI policy provides openly available NOAA-created data; external-provider exceptions remain dataset-specific.",
+      "derivative_conditions": "Retain source rights and attribution; an authored transformation does not extinguish upstream rights. Do not attach an unrestricted license to mixed material.",
+      "representative_paths": [],
+      "outstanding_questions": [
+        "The inspected C00532 record says superseded. Preserve acquired historical bytes and distinguish its record dates/coverage from actual 1993 station-year file.",
+        "No new CC0 declaration is made by this audit."
+      ],
+      "selection_rule": "Source-level decision only. Match exact acquisition manifest/hash; representative paths are NOT recursive release allowlists."
+    },
+    {
+      "id": "rights.cad.report-1-95",
+      "title": "CAD Report 1/95 CAL605 and scans/overlays",
+      "publication_decision": "Permission required",
+      "scope": "Full accident report, extracted text, report figures and source-image overlays, including HKU/Wayback copies.",
+      "verification_date": "2026-10-13",
+      "evidence_ids": [
+        "cad_terms"
+      ],
+      "official_terms_urls": [
+        "https://www.cad.gov.hk/english/important_notices.html"
+      ],
+      "required_attribution": "Civil Aviation Department, Hong Kong; Aircraft Accident Report 1/95; page/figure, publication and event dates.",
+      "rights_basis": "CAD permits personal/internal organisational use under conditions but expressly requires prior written authorisation for public reproduction/adaptation/distribution. An archive mirror does not grant broader rights.",
+      "derivative_conditions": "Keep factual observations distinguishable from scans and copied visual expression. Numerical readings remain approximate authored analysis; image-based derivatives require separate review, not automatic clearance.",
+      "representative_paths": [
+        "data/kai-tak-2026-10-13/sources/CAD_1-95_CAL605_wayback.pdf",
+        "research/checkers-runway13/reconstruction/obstacles/aviation_sources/manifest.json"
+      ],
+      "outstanding_questions": [
+        "Any item-specific historical report permission or statutory exception has not been established. Public release should link only to originals."
+      ],
+      "selection_rule": "Source-level decision only. Match exact acquisition manifest/hash; representative paths are NOT recursive release allowlists."
+    },
+    {
+      "id": "rights.cad.ais",
+      "title": "CAD/AIS aeronautical charts and eAIP",
+      "publication_decision": "Permission required",
+      "scope": "AIS chart/document bodies, historical approach-chart scans and current eAIP web captures.",
+      "verification_date": "2026-10-13",
+      "evidence_ids": [
+        "ais_terms",
+        "cad_terms"
+      ],
+      "official_terms_urls": [
+        "https://www.ais.gov.hk/",
+        "https://www.cad.gov.hk/english/important_notices.html"
+      ],
+      "required_attribution": "Hong Kong Civil Aviation Department / Aeronautical Information Services; exact issue/date.",
+      "rights_basis": "AIS copyright notice expressly requires prior written CAD authorisation for public reproduction/adaptation/distribution. A printed/downloaded copy is uncontrolled, not an endorsed operational publication.",
+      "derivative_conditions": "Retain source rights and attribution; an authored transformation does not extinguish upstream rights. Do not attach an unrestricted license to mixed material.",
+      "representative_paths": [
+        "research/checkers-runway13/integrated/primary_source_manifest.json"
+      ],
+      "outstanding_questions": [],
+      "selection_rule": "Source-level decision only. Match exact acquisition manifest/hash; representative paths are NOT recursive release allowlists."
+    },
+    {
+      "id": "rights.boeing.manual-drawing",
+      "title": "Boeing 747-400 airport-planning manual and DXF drawings",
+      "publication_decision": "Permission required",
+      "scope": "747-400_Rev_F.pdf, 7474.zip, DXF, manual-page scans and image derivatives.",
+      "verification_date": "2026-10-13",
+      "evidence_ids": [
+        "boeing_terms"
+      ],
+      "official_terms_urls": [
+        "https://www.boeing.com/terms-of-submission-and-privacy-policy/site-terms"
+      ],
+      "required_attribution": "The Boeing Company; exact document revision and cited page.",
+      "rights_basis": "Site terms restrict public network posting and modification without Boeing/rightsholder permission; personal informational download is not public archive permission.",
+      "derivative_conditions": "Do not redistribute scans/traces/redrawings of expressive drawings absent permission. Attribute factual dimension observations; separately audit any drawing-derived silhouette.",
+      "representative_paths": [
+        "research/checkers-runway13/integrated/primary_source_manifest.json"
+      ],
+      "outstanding_questions": [],
+      "selection_rule": "Source-level decision only. Match exact acquisition manifest/hash; representative paths are NOT recursive release allowlists."
+    },
+    {
+      "id": "rights.bd.bravo",
+      "title": "Buildings Department BRAVO plans and records",
+      "publication_decision": "Permission required",
+      "scope": "Specified BRAVO building documents, plans/maps, inspection copies; NOT CSDI building tables.",
+      "verification_date": "2026-10-13",
+      "evidence_ids": [
+        "bravo_terms"
+      ],
+      "official_terms_urls": [
+        "https://bravo.bd.gov.hk/noticeView"
+      ],
+      "required_attribution": "Buildings Department and identified third-party plan rightsholders.",
+      "rights_basis": "BRAVO limits use to declared purposes and requires prior written Government and relevant-owner authorization for other use. Reproduction/adaptation and map reuse are expressly restricted.",
+      "derivative_conditions": "Retain source rights and attribution; an authored transformation does not extinguish upstream rights. Do not attach an unrestricted license to mixed material.",
+      "representative_paths": [],
+      "outstanding_questions": [
+        "No BRAVO plan acquisition is established merely by catalogue access-route records."
+      ],
+      "selection_rule": "Source-level decision only. Match exact acquisition manifest/hash; representative paths are NOT recursive release allowlists."
+    },
+    {
+      "id": "rights.grs.records",
+      "title": "Government Records Service / PRO archival holdings",
+      "publication_decision": "Link-only",
+      "scope": "HKRS record catalogue references; underlying records not acquired solely by reading a catalogue.",
+      "verification_date": "2026-10-13",
+      "evidence_ids": [
+        "grs_reproduction"
+      ],
+      "official_terms_urls": [
+        "https://www.grs.gov.hk/en/use_and_reproduce_our_holdings.html"
+      ],
+      "required_attribution": "Public Records Office, Government Records Service; stable archival reference.",
+      "rights_basis": "Reproduction depends on copyright law, donor restrictions and record-specific conditions. Access or copy ordering does not establish public-redistribution rights.",
+      "derivative_conditions": "Retain source rights and attribution; an authored transformation does not extinguish upstream rights. Do not attach an unrestricted license to mixed material.",
+      "representative_paths": [
+        "research/checkers-runway13/integrated/records_followup/source_inventory.json"
+      ],
+      "outstanding_questions": [
+        "Inspect record-specific rights and actually obtain records before upgrading access or geometry claims."
+      ],
+      "selection_rule": "Source-level decision only. Match exact acquisition manifest/hash; representative paths are NOT recursive release allowlists."
+    },
+    {
+      "id": "rights.literature.wu",
+      "title": "Wu et al., arXiv:2412.04797",
+      "publication_decision": "Link-only",
+      "scope": "Specific paper PDF and source; reference/citation metadata may be catalogued.",
+      "verification_date": "2026-10-13",
+      "evidence_ids": [
+        "arxiv_license",
+        "arxiv_wu"
+      ],
+      "official_terms_urls": [
+        "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+        "https://arxiv.org/abs/2412.04797"
+      ],
+      "required_attribution": "Credit listed authors and exact paper/version.",
+      "rights_basis": "The inspected paper links to arXiv non-exclusive distribution license. This grants rights to arXiv, not a general public redistribution license.",
+      "derivative_conditions": "Retain source rights and attribution; an authored transformation does not extinguish upstream rights. Do not attach an unrestricted license to mixed material.",
+      "representative_paths": [
+        "research/checkers-runway13/literature/sources/wu_chen_2024.pdf"
+      ],
+      "outstanding_questions": [
+        "Versionless acquisition URL must be reconciled with acquired bytes before assigning an exact paper version."
+      ],
+      "selection_rule": "Source-level decision only. Match exact acquisition manifest/hash; representative paths are NOT recursive release allowlists."
+    },
+    {
+      "id": "rights.literature.kim",
+      "title": "Kim et al., arXiv:2405.16680",
+      "publication_decision": "Link-only",
+      "scope": "Specific paper PDF and source; reference/citation metadata may be catalogued.",
+      "verification_date": "2026-10-13",
+      "evidence_ids": [
+        "arxiv_license",
+        "arxiv_kim"
+      ],
+      "official_terms_urls": [
+        "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+        "https://arxiv.org/abs/2405.16680"
+      ],
+      "required_attribution": "Credit listed authors and exact paper/version.",
+      "rights_basis": "The inspected paper links to arXiv non-exclusive distribution license. This grants rights to arXiv, not a general public redistribution license.",
+      "derivative_conditions": "Retain source rights and attribution; an authored transformation does not extinguish upstream rights. Do not attach an unrestricted license to mixed material.",
+      "representative_paths": [
+        "research/checkers-runway13/literature/sources/kim_et_al_2024.pdf"
+      ],
+      "outstanding_questions": [
+        "Versionless acquisition URL must be reconciled with acquired bytes before assigning an exact paper version."
+      ],
+      "selection_rule": "Source-level decision only. Match exact acquisition manifest/hash; representative paths are NOT recursive release allowlists."
+    },
+    {
+      "id": "rights.literature.fastrack",
+      "title": "Chen et al., arXiv:2102.07039",
+      "publication_decision": "Link-only",
+      "scope": "Specific paper PDF and source; reference/citation metadata may be catalogued.",
+      "verification_date": "2026-10-13",
+      "evidence_ids": [
+        "arxiv_license",
+        "arxiv_fastrack"
+      ],
+      "official_terms_urls": [
+        "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+        "https://arxiv.org/abs/2102.07039"
+      ],
+      "required_attribution": "Credit listed authors and exact paper/version.",
+      "rights_basis": "The inspected paper links to arXiv non-exclusive distribution license. This grants rights to arXiv, not a general public redistribution license.",
+      "derivative_conditions": "Retain source rights and attribution; an authored transformation does not extinguish upstream rights. Do not attach an unrestricted license to mixed material.",
+      "representative_paths": [
+        "research/checkers-runway13/literature/sources/fastrack_2021.pdf"
+      ],
+      "outstanding_questions": [
+        "Versionless acquisition URL must be reconciled with acquired bytes before assigning an exact paper version."
+      ],
+      "selection_rule": "Source-level decision only. Match exact acquisition manifest/hash; representative paths are NOT recursive release allowlists."
+    },
+    {
+      "id": "rights.ivao.charts",
+      "title": "IVAO-hosted Kai Tak chart leads",
+      "publication_decision": "Rights unresolved",
+      "scope": "VHHX.pdf / VHHX_AD.pdf and derivatives.",
+      "verification_date": "2026-10-13",
+      "evidence_ids": [
+        "cad_terms"
+      ],
+      "official_terms_urls": [
+        "https://www.cad.gov.hk/english/important_notices.html"
+      ],
+      "required_attribution": "Identify chart publisher, issue, and IVAO retrieval link; do not imply IVAO owns all chart content.",
+      "rights_basis": "Acquisition inventory labels these discovery-only nonprimary. No item-specific open grant was verified. CAD restrictions cannot be overridden by a third-party mirror.",
+      "derivative_conditions": "Retain source rights and attribution; an authored transformation does not extinguish upstream rights. Do not attach an unrestricted license to mixed material.",
+      "representative_paths": [
+        "publication/integration_source_inventory.json"
+      ],
+      "outstanding_questions": [],
+      "selection_rule": "Source-level decision only. Match exact acquisition manifest/hash; representative paths are NOT recursive release allowlists."
+    },
+    {
+      "id": "rights.hk.hkmaps",
+      "title": "hkmaps.hk secondary map tiles",
+      "publication_decision": "Rights unresolved",
+      "scope": "Exploratory 1993 / 1993.1 preview tiles and secondary site captures.",
+      "verification_date": "2026-10-13",
+      "evidence_ids": [],
+      "official_terms_urls": [],
+      "required_attribution": "Identify hkmaps.hk and original map creator where known.",
+      "rights_basis": "Source inventory itself calls provenance unverified. No redistribution license has been verified. Retain metadata/source links, not raw tile copies.",
+      "derivative_conditions": "Retain source rights and attribution; an authored transformation does not extinguish upstream rights. Do not attach an unrestricted license to mixed material.",
+      "representative_paths": [
+        "research/checkers-runway13/reconstruction/source_inventory.csv"
+      ],
+      "outstanding_questions": [],
+      "selection_rule": "Source-level decision only. Match exact acquisition manifest/hash; representative paths are NOT recursive release allowlists."
+    },
+    {
+      "id": "rights.hk.geodetic-docs",
+      "title": "Lands geodetic and cartographic reference documents",
+      "publication_decision": "Rights unresolved",
+      "scope": "explanatorynotes.pdf, 7P_ITRF96_HK80_V1.pdf, cartographic specifications outside a proved open-data delivery lane.",
+      "verification_date": "2026-10-13",
+      "evidence_ids": [
+        "lands_general"
+      ],
+      "official_terms_urls": [
+        "https://www.landsd.gov.hk/en/important-notes.html"
+      ],
+      "required_attribution": "Lands Department, Government of HKSAR; document title and revision.",
+      "rights_basis": "General Lands website notice is not an open-data redistribution grant. Do not generalize CSDI/DATA.GOV.HK permission to all official PDFs.",
+      "derivative_conditions": "Retain source rights and attribution; an authored transformation does not extinguish upstream rights. Do not attach an unrestricted license to mixed material.",
+      "representative_paths": [
+        "research/checkers-runway13/reconstruction/obstacles/aviation_sources/manifest.json"
+      ],
+      "outstanding_questions": [],
+      "selection_rule": "Source-level decision only. Match exact acquisition manifest/hash; representative paths are NOT recursive release allowlists."
+    },
+    {
+      "id": "rights.hk.paid-photos",
+      "title": "Paid/high-resolution official maps and photographs",
+      "publication_decision": "Permission required",
+      "scope": "Paid map/photo products and full-resolution photogrammetric scans outside verified DAP-L0 open release.",
+      "verification_date": "2026-10-13",
+      "evidence_ids": [
+        "lands_paid_permission"
+      ],
+      "official_terms_urls": [
+        "https://www.landsd.gov.hk/doc/en/mapping/paper-map/PaperMapCopyright_eng.pdf"
+      ],
+      "required_attribution": "Lands Department and any specified rights holder.",
+      "rights_basis": "Separate official reproduction-permission process exists; DAP-L0 rights do not clear these products.",
+      "derivative_conditions": "Retain source rights and attribution; an authored transformation does not extinguish upstream rights. Do not attach an unrestricted license to mixed material.",
+      "representative_paths": [],
+      "outstanding_questions": [
+        "No paid scan may be included on the strength of a DAP-L0 record."
+      ],
+      "selection_rule": "Source-level decision only. Match exact acquisition manifest/hash; representative paths are NOT recursive release allowlists."
+    },
+    {
+      "id": "rights.esri.shoreline",
+      "title": "Esri China HK shoreline item",
+      "publication_decision": "Link-only",
+      "scope": "ArcGIS item 861bcf04a2b54cf29af510277fb995cd as a lead; no verified shoreline geometry acquired.",
+      "verification_date": "2026-10-13",
+      "evidence_ids": [],
+      "official_terms_urls": [],
+      "required_attribution": "Esri China (HK), GeoData Store, Lands Department where applicable.",
+      "rights_basis": "Local item licenseInfo points to GeoData Store terms; current channel and exact derived layer redistribution not freshly established.",
+      "derivative_conditions": "Retain source rights and attribution; an authored transformation does not extinguish upstream rights. Do not attach an unrestricted license to mixed material.",
+      "representative_paths": [
+        "research/checkers-runway13/geospatial/metadata/shoreline_item.json"
+      ],
+      "outstanding_questions": [],
+      "selection_rule": "Source-level decision only. Match exact acquisition manifest/hash; representative paths are NOT recursive release allowlists."
+    },
+    {
+      "id": "rights.original",
+      "title": "Original research code, text, figures and factual tables",
+      "publication_decision": "Original authored material",
+      "scope": "Only files independently verified as Aryan-authored and without copied third-party expression; source-derived products retain upstream conditions.",
+      "verification_date": "2026-10-13",
+      "evidence_ids": [],
+      "official_terms_urls": [],
+      "required_attribution": "Aryan Ayyar, The Kai Tak Historical Research Archive; Checkers with Runway 13 where appropriate.",
+      "rights_basis": "Existing NOTICE.md reserves rights and makes no open-source grant. New MIT/Apache/CC BY/CC0 grants remain unapproved. Authorship cannot be inferred solely from path or file extension.",
+      "derivative_conditions": "Recommend scoped MIT code, CC BY 4.0 authored narrative/figures and eligible original tables. Consider CC0 factual tables only after owner confirmation; mixed rights remain excluded from blanket grants.",
+      "representative_paths": [
+        "NOTICE.md"
+      ],
+      "outstanding_questions": [
+        "Confirm ownership/contributions and approve exact file-scoped grants; no license changes authorized."
+      ],
+      "selection_rule": "Source-level decision only. Match exact acquisition manifest/hash; representative paths are NOT recursive release allowlists."
+    },
+    {
+      "id": "rights.private",
+      "title": "Private operational files, credentials, correspondence and sessions",
+      "publication_decision": "Excluded",
+      "scope": "Tokens, cookies, headers with session data, unsent correspondence, confidential notes, machine-specific private metadata.",
+      "verification_date": "2026-10-13",
+      "evidence_ids": [],
+      "official_terms_urls": [],
+      "required_attribution": "Not applicable.",
+      "rights_basis": "Explicit user exclusion; remove only from proposed public artifacts, preserve original local evidence securely.",
+      "derivative_conditions": "Do not publish. Sanitization must record original/public hashes privately without exposing secrets.",
+      "representative_paths": [],
+      "outstanding_questions": [],
+      "selection_rule": "Source-level decision only. Match exact acquisition manifest/hash; representative paths are NOT recursive release allowlists."
+    },
+    {
+      "id": "rights.unresolved",
+      "title": "Unresolved or mixed item-specific rights",
+      "publication_decision": "Rights unresolved",
+      "scope": "No new byte redistribution until exact provenance and rights are resolved.",
+      "verification_date": "2026-10-13",
+      "evidence_ids": [],
+      "official_terms_urls": [],
+      "required_attribution": "Identify original creator and all upstream sources before reuse.",
+      "rights_basis": "Insufficient item-specific evidence; public visibility is not permission.",
+      "derivative_conditions": "Review upstream expression and contributions.",
+      "representative_paths": [],
+      "outstanding_questions": [
+        "Resolve item-specific provenance and authorship."
+      ],
+      "selection_rule": "Never auto-include."
+    }
+  ]
+}

@@ -1,86 +1,59 @@
-# kai-tak
+# The Kai Tak Historical Research Archive
 
-![Cathay Pacific Boeing 747 approaching Kai Tak over Kowloon, with mountains behind the city.](assets/kai-tak-approach.png)
+*Historical Geography, Aviation Evidence, Flight Dynamics and Mathematical Reconstructions of Hong Kong's Kai Tak Airport.*
 
-Historical reconstruction and mathematical study of the Kai Tak Runway 13 approach: dated Kowloon geometry, flight/weather evidence, constrained landing trajectories, and explicit approximations with verifiable bounds.
+An independent historical and mathematical investigation of Kai Tak's Runway 13 approach, researched by **Aryan Ayyar**. Explore dated maps and photographs, urban geography, aviation and weather evidence, three-dimensional reconstructions, mathematical models and research publications.
 
-**Work in progress.** This repository is a snapshot of research assembled on 13 October 2026. It is not an operational flight procedure, a validated aircraft simulator, or a claim that the historical approach was globally optimal or suboptimal.
+**Archive v1.0.0 is an unpublished local candidate.** Existing research releases remain available. The new catalogue and permitted-data bundles are prepared for review; no new open license or DOI has been issued.
 
-## White paper · version 2
+## Explore the collections
 
-**[Read the 30-page PDF](research/checkers-runway13/whitepaper/v2/checkers-with-runway-13-white-paper-v2.pdf)** · [Editable source ZIP](research/checkers-runway13/whitepaper/checkers-with-runway-13-white-paper-v2-source.zip) · [Build instructions and evidence](research/checkers-runway13/whitepaper/v2/README.md)
-
-Version 2 adds a complete landing under the declared steady 070° true / 21 kt mean-wind scenario: touchdown at **302.11 m**, stop at **2,233.23 m**, and **552.77 m** of runway remaining with unchanged 2-second / 0.15g braking. Its own interval certificate establishes normalized margin **≥0.1507934696816132**; a separate necessary upper bound is **0.2167443782**. This remains a synthetic-entry/corridor research result, not historical obstacle clearance, near-optimality, a physical prediction interval or flight guidance. The calm result below is a different scenario, not a superseded certificate.
-
-The manuscript has seven reproducible figures, explicit coefficients, technical derivations, a version-change ledger and frozen source evidence. It also includes the final blockwise reconstruction supplement. The rest of the repository and initial data release retain their separately dated snapshot status.
-
-## What is here
-
-### Latest update: historical integration and survey evidence
-
-The [integration report](research/checkers-runway13/integrated/REPORT.md) adds a source-bound scene with **88 features**, whole-aircraft clearance primitives, registration diagnostics and a complete physical-calibration audit. The [endpoint follow-up](research/checkers-runway13/integrated/followup/REPORT.md) explains the runway-end mismatch and identifies Lands Department survey **115-93 A / folder 404 Part II**, photographed on 5 November 1993. The public aerial-index check covers **5,637 records from 1993**; absence from that index does not establish absence from archival holdings.
-
-**Historical clearance and the condition-dependent closed-form optimum remain incomplete.** The 61 m pavement-extension interpretation is a hypothesis, not an accepted correction or extra landing distance. V2 remains the latest completed manuscript; unfinished v3 work is not part of this snapshot.
-
-The [settled archival report](research/checkers-runway13/integrated/records_followup/REPORT.md) identifies **14 specific records**, including pre-accident runway photographs and radar/light layouts. Its [relative-height assessment](research/checkers-runway13/integrated/records_followup/RELATIVE_HEIGHT.md) states exactly what a common datum can cancel and what evidence is still missing.
-
-[New source-acquisition catalogue](publication/integration_source_inventory.json) · [Publication/reproduction checks](publication/INTEGRATION_UPDATE.md) · [New imagery release](https://github.com/ayyararyan/kai-tak/releases/tag/integration-2026-10-13)
-
-| Research area | Starting point |
+| | Collection |
 |---|---|
-| Project decisions, chronology and unresolved requirements | [Project state](research/checkers-runway13/PROJECT_STATE.md) |
-| Historical integration, source-bound geometry and exact remaining dependencies | [Integration report](research/checkers-runway13/integrated/REPORT.md), [endpoint/survey follow-up](research/checkers-runway13/integrated/followup/REPORT.md) |
-| Wind-conditioned complete landing, figure and certificate | [Calculated landing](research/checkers-runway13/counterfactual/REPORT.md) |
-| Executable nominal landing model and reproduction instructions | [Model README](research/checkers-runway13/README.md) |
-| Explicit approach, flare and stopping formulas | [Closed form and bounds](research/checkers-runway13/approximation/CLOSED_FORM_AND_BOUNDS.md) |
-| Continuous-time feasibility witness and corrected optimality bounds | [Coupled analytical results](research/checkers-runway13/analytical/coupled/RESULTS.md) |
-| Historical maps, aerial photographs and building chronology | [Reconstruction report](research/checkers-runway13/reconstruction/chronology/REPORT.md) |
-| Registered sheets, block matching and 3D research | [Block-matching specification](research/checkers-runway13/reconstruction/block_matching/SPEC.md), [scene](research/checkers-runway13/reconstruction/block_matching/scene/README.md) |
-| Actual CAL605 recorder/weather reconstruction | [Evidence specification](research/checkers-runway13/evidence/cal605_reconstruction/SPEC.md), [weather decoding](research/checkers-runway13/evidence/cal605_reconstruction/noaa/README.md) |
-| Prior literature and contribution assessment | [Literature](research/checkers-runway13/literature/LITERATURE_AND_COMPARISON.md) |
-| Latest white paper: v2 | [PDF, editable sources and verification](research/checkers-runway13/whitepaper/v2/) |
+| 01 | [Historical Maps and Aerial Photography](archive/collections/01/README.md) |
+| 02 | [Historical Buildings and Urban Geography](archive/collections/02/README.md) |
+| 03 | [Terrain and Geospatial Data](archive/collections/03/README.md) |
+| 04 | [Aviation and Flight Evidence](archive/collections/04/README.md) |
+| 05 | [Weather and Meteorological Records](archive/collections/05/README.md) |
+| 06 | [Three-Dimensional Reconstruction](archive/collections/06/README.md) |
+| 07 | [Mathematical Models and Results](archive/collections/07/README.md) |
+| 08 | [Research Figures and Visualizations](archive/collections/08/README.md) |
+| 09 | [Documentation and Research Publications](archive/collections/09/README.md) |
 
-The original `research/checkers-runway13/` and `data/kai-tak-2026-10-13/` layout is retained so relative paths in the research scripts continue to resolve.
+[Full catalogue](archive/CATALOGUE.md) · [Machine-readable datasets](archive/catalogue/datasets.json) · [Sources and provenance](archive/PROVENANCE.md)
 
-## Current mathematical result
+## Read the research
 
-The new **steady-wind conditional case** constructs a complete turn, descent, flare and stop: touchdown **302 m past the threshold**, full stop after **96.6 s**, and **553 m of runway remaining**. It has its own continuous-time model-feasibility certificate. The synthetic entry/corridor, uniform 070° true / 21 kt wind and simplified aircraft/braking assumptions are explicit; this is not a historically validated or near-optimal landing. [Read the result and limitations](research/checkers-runway13/counterfactual/REPORT.md).
+**Checkers with Runway 13** retains its title. [White paper v2 (PDF)](research/checkers-runway13/whitepaper/v2/checkers-with-runway-13-white-paper-v2.pdf) · [Source and build instructions](research/checkers-runway13/whitepaper/v2/README.md). V1 is preserved; unfinished local v3 is excluded from this archive candidate.
 
-![Constructed wind-conditioned approach and stopping result](research/checkers-runway13/counterfactual/landing.png)
-
-The synthetic nominal model has an explicit complete landing with a computer-assisted continuous-time feasibility certificate. The verified finite-family normalized-margin bracket is **[0.0397, 0.1559772)**. The earlier claimed 0.03972 upper bound was withdrawn after checker defects and must not be used.
-
-This does **not** establish a near-global optimum, historical obstacle clearance, calibrated real-world prediction intervals, or robustness to unknown gusts. The fixed model uses scenario aircraft/braking assumptions. Source acquisition, historical geometry reconstruction and integration into the landing calculation have different completion states; the reports preserve those distinctions and invalidated runs.
-
-## Run the core checks
-
-Python 3.12 was used for the core publication checks. From the repository root:
+## Download and reproduce
 
 ```sh
-cd research/checkers-runway13
-python3 -m venv .venv
-.venv/bin/python -m pip install -r requirements.lock
-.venv/bin/python -m pip install mpmath==1.3.0
-.venv/bin/python -m pytest model -q
-(cd approximation && ../.venv/bin/python -m pytest test_explicit_reference.py -q)
+python3 scripts/fetch_data.py --list
+python3 scripts/fetch_data.py --release v1.0.0 --collection 05 --archive-dir /path/to/candidate/bundles --offline
+python3 scripts/archive_reproduce.py
 ```
 
-The model README describes the scenario solver. Historical-mode refusal is intentional until its required calibrated inputs are supplied. Geospatial work has a separate [dependency lock](research/checkers-runway13/geospatial/requirements.lock); do not treat the numerical-model environment as the complete reconstruction environment.
+The v1.0.0 command currently requires the locally prepared bundles; no public download URLs have been assigned. Without `--release`, the helper retains the existing five-group research-snapshot download. Both modes verify checksums and refuse conflicting overwrites.
 
-## Download the larger datasets and outputs
+[Download guide](archive/DOWNLOAD.md) · [Reproduction guide](archive/REPRODUCIBILITY.md) · [Release manifest and exceptions](archive/releases/v1.0.0/manifest.json)
 
-Code, reports, source inventories and compact outputs are in Git. Bulky open-data sources, imagery, registered geometry, meshes and intermediate numerical exports are attached to the [integration release](https://github.com/ayyararyan/kai-tak/releases/tag/integration-2026-10-13), [earlier update](https://github.com/ayyararyan/kai-tak/releases/tag/update-2026-10-13) and [initial data release](https://github.com/ayyararyan/kai-tak/releases/tag/snapshot-2026-10-13). The manifest selects the current archive for each of five data groups.
+## What is established—and what is not
 
-```sh
-python3 scripts/fetch_data.py
-```
+The holdings include **227 acquired map editions**, **48 full DAP-L0 photographs**, modern geospatial sources, historical source indexes, approximate recorder-chart readings and synthetic flight calculations. Index records are not acquired photographic frames; modern buildings are not a complete reconstruction of 1993.
 
-The helper verifies archive SHA-256 values and restores the original repository-relative paths. It does not overwrite conflicting local files. See [data provenance and exclusions](DATA_SOURCES.md), [publication manifest](publication/snapshot_manifest.json), and [release asset manifest](publication/release_assets.json).
+Byte integrity, mathematical validity and historical accuracy are different claims. The research has not established complete historical obstacle clearance, a globally optimal historical approach or operational aviation safety. Photogrammetric surfaces remain conditional reconstructions, not survey-grade geometry. Invalidated results are retained and labelled.
 
-The release contains unfinished and explicitly invalidated research artifacts as historical evidence. Their inclusion is not a claim that they are accepted results. Completed source-data acquisition is not the same as a clearance-certified historical scene.
+[Scientific status and limitations](archive/SCIENTIFIC_STATUS.md) · [Verification reports](archive/reports/) · [Publication readiness](archive/PUBLICATION_READINESS.md)
 
-## Attribution and rights
+## Reuse and cite
 
-Research by **Aryan Ayyar**, with AI-assisted implementation and review. Source data include the Lands Department and Buildings Department, Government of the Hong Kong Special Administrative Region; CSDI Portal; DATA.GOV.HK; NOAA/NCEI; and cited aviation publications. They retain their respective rights and terms. See [NOTICE](NOTICE.md).
+Reuse is **source-specific**. Hong Kong open-data products retain their conditions and attribution requirements. Restricted documents and unresolved material are catalogued, not automatically repackaged. Original-work license proposals remain drafts; the [existing NOTICE](NOTICE.md) still applies.
 
-No blanket open-source licence has been selected for the original research/code in this initial public snapshot. Public visibility does not relicense third-party material. Original aircraft accident-report scans and scholarly PDFs are linked and inventoried rather than republished where redistribution permission has not been established.
+[Rights and attribution](archive/licensing/README.md) · [Citation instructions](archive/CITATION.md) · [CITATION.cff](CITATION.cff) · [Preservation plan](archive/preservation/README.md)
+
+No source institution endorses this independent archive. This is research material, not flight guidance.
+
+## Snapshot boundary
+
+This unpublished data candidate is pinned to research commit `128f7006e8c929a878bd80bdf84521a97c45ee30`. Separate work advanced the original checkout during preparation; newer white-paper material is recorded in the [concurrent-work audit](archive/audit/concurrent_work.json), not silently incorporated into these manifests. See the [publication-readiness report](archive/PUBLICATION_READINESS.md) for tested scope and remaining blockers.

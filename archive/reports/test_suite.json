@@ -1,0 +1,27 @@
+{
+  "checked_utc": "2026-10-13T17:18:33.111302+00:00",
+  "status": "passed",
+  "tests": 58,
+  "command": "python -m unittest discover -s tests -v",
+  "python": "3.14.6",
+  "test_log_sha256": "b9fdb1405087807d926c2627773c07bae674fa7a44c144f4121dfa00880b51ad",
+  "source_hashes": {
+    "tests/test_archive_metadata.py": "1011f2e636e319a6421a6886e51e77864c09bb69cf8f27014d0c22cd7abd19af",
+    "tests/test_archive_io.py": "2ed205d9a092ad168446d52bd1dddaee2135bf286161daeaafe653e2bd514873",
+    "tests/test_archive_catalogue.py": "24dbfa8f12da9e23dbf98daa9e999a5133d477be38def4a7742f0f8dd305f725",
+    "scripts/archive_acceptance.py": "0d6c1910aa5efcbb0bf1d765fbd05983d8fc73268ca50985abef33b172953a2b",
+    "scripts/archive_privacy.py": "7bbf7c9a223609fa6d16678708e2943ce5f56c75118f41fb6ef66f108d65ac5e",
+    "scripts/archive_preservation.py": "ca74d3319babc49f14c0cb1edd01ea3094dfbfa35f3e0d7815b7a49733c3c058",
+    "scripts/archive_catalogue.py": "9f1d831e7c50467611aba893548d4def6dd3b09ca1954404c61026551412cfa3",
+    "scripts/archive_io.py": "f9c571f6554803279916863407aaad7c79bed7b2f61af52fca9a31201b290590",
+    "scripts/archive_build.py": "d7455d851f0bb7cefa5894e5e6bdb9b4df5b294f2108971974f5f6abd296d7e4",
+    "scripts/archive_reproduce.py": "0d2fe6198fcea45b361854d03f210206cb6c163ab43915db939a43a21f60e9a9",
+    "scripts/archive_prepare_metadata.py": "1b6807782869ad185f7639f973dbcf5899eb700766cd087bb0ccc9ee947cf9f9",
+    "scripts/archive_refine.py": "4257236d11484822f10782be0bb67c7af699b26d0c280a01d41bdcf74072cfdf",
+    "scripts/archive_package_review.py": "15fe4dadb85fcf8231367408bcd4e27df0b982fc55ab08249ead7f23e482d874",
+    "scripts/archive_geospatial.py": "952b11055d9c3c6db7c2aa9aa93e0fc3a4fc925f1fcc3cf710ef0c3a5961453c",
+    "scripts/archive_validate.py": "4586da31eb4334e66d86ebd79390fef98af5f4617648dcfef68f08e236a3c8ee",
+    "scripts/archive_source_links.py": "9da2ab63bb0d5be446fd6d019822293be11dad91a134d97b5542e9c5038e8522",
+    "scripts/fetch_data.py": "eb28f99b65c91e8e54cc3348f3743b25ac82771be2ecc9706cb85a7132f66b12"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "archive_version": "1.0.0",
+  "collection_id": "03",
+  "files": [
+    {
+      "path": "research/checkers-runway13/geospatial/derived/Hong_Kong_DTM_5m_HK1980.tif",
+      "bytes": 19395893,
+      "sha256": "8ff5231ab90893963c7015614e169472687adec2f9a6dd5bd66d250a49f3570f",
+      "artifact_id": "artifact-63368d76b8504b40ea54",
+      "dataset_id": "kt-dtm5-original",
+      "rights_id": "rights.hk.dtm5m",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/geospatial/derived/Kowloon_KaiTak_DTM_5m_HK1980.tif",
+      "bytes": 4328178,
+      "sha256": "7f040a7bbc639aa068c19ea994e3f1b58e35097abf88ebe9033c2eff9b998bdb",
+      "artifact_id": "artifact-4302a2009faeaae4a9ac",
+      "dataset_id": "kt-dtm5-original",
+      "rights_id": "rights.hk.dtm5m",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/geospatial/raw/Whole_HK_DTM_5m.zip",
+      "bytes": 28706079,
+      "sha256": "785718f462ae6de3c9e1fed2bf9fe5affe1c1d739c0a969fd62cf3680b4b33ab",
+      "artifact_id": "artifact-c3b30852926e9a3fbb77",
+      "dataset_id": "kt-dtm5-original",
+      "rights_id": "rights.hk.dtm5m",
+      "publication_decision": "Redistribution permitted"
+    }
+  ]
+}

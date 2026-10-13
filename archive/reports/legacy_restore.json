@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "started_utc": "2026-10-13T16:57:22.644546+00:00",
+  "operation": "restore",
+  "status": "restored",
+  "assets": [
+    {
+      "name": "kai-tak-chronology-data-2026-10-13.tar.gz",
+      "sha256": "d1a3cfee7764904865e94d78bda46ed2c6f302245af478a81937d245215b6d15",
+      "files": 846,
+      "status": "restored"
+    },
+    {
+      "name": "kai-tak-geospatial-data-2026-10-13.tar.gz",
+      "sha256": "68bc39b735e72e802ab90238b395f0ad3f0932a396dccaedb5f8ee62e8d69d58",
+      "files": 5,
+      "status": "restored"
+    },
+    {
+      "name": "kai-tak-reconstruction-data-update-2026-10-13.tar.gz",
+      "sha256": "4b7db79932aec5d543199355f29b3606ea64594ba3abad15ec4fda1e9b4f4dc6",
+      "files": 387,
+      "status": "restored"
+    },
+    {
+      "name": "kai-tak-supporting-data-update-2026-10-13.tar.gz",
+      "sha256": "6fb757fbc547e6fe54f7055553629afa1bcc28da0512b42b7b34e70c0f2a2da0",
+      "files": 11,
+      "status": "restored"
+    },
+    {
+      "name": "kai-tak-integrated-data-2026-10-13.tar.gz",
+      "sha256": "db21d94e76d0e97c852b45e2d28e9ebf4842fefd3274ac86ac254cc74e821e65",
+      "files": 5,
+      "status": "restored"
+    }
+  ],
+  "scientific_scope": "Byte integrity only; not historical accuracy, full research reproducibility or aviation safety.",
+  "release": "legacy:integration-2026-10-13",
+  "archive_coverage": "exceptions-remain",
+  "finished_utc": "2026-10-13T16:57:40.837375+00:00",
+  "exception_count": 352,
+  "scope": "Actual historical five-bundle default restored offline from all fully downloaded and verified remote assets. Preserving access does not grant new redistribution rights."
+}

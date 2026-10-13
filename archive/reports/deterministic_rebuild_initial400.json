@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "assets": [
+    {
+      "asset": "kai-tak-archive-v1.0.0-collection-01.tar.gz",
+      "first_build_sha256": "9e8782985920d2e9f1209329d19d5dfd89bc0b49205cf3751c77b919eb7f86f6",
+      "second_build_sha256": "9e8782985920d2e9f1209329d19d5dfd89bc0b49205cf3751c77b919eb7f86f6",
+      "byte_identical": true
+    },
+    {
+      "asset": "kai-tak-archive-v1.0.0-collection-02.tar.gz",
+      "first_build_sha256": "7a17b6acaafea03c7ec9bda384a7ab7918462a734557742a08a48d64579359dc",
+      "second_build_sha256": "7a17b6acaafea03c7ec9bda384a7ab7918462a734557742a08a48d64579359dc",
+      "byte_identical": true
+    },
+    {
+      "asset": "kai-tak-archive-v1.0.0-collection-03.tar.gz",
+      "first_build_sha256": "cd43d6166701c6f032480499a9d05237f032cd02e71be955c3df26269b95b803",
+      "second_build_sha256": "cd43d6166701c6f032480499a9d05237f032cd02e71be955c3df26269b95b803",
+      "byte_identical": true
+    },
+    {
+      "asset": "kai-tak-archive-v1.0.0-collection-05.tar.gz",
+      "first_build_sha256": "00f45fc60ae87dcbc2da31b73fa74ff7bf7da6fa230041c43b165b3d2b46a442",
+      "second_build_sha256": "00f45fc60ae87dcbc2da31b73fa74ff7bf7da6fa230041c43b165b3d2b46a442",
+      "byte_identical": true
+    }
+  ],
+  "method": "Two independent deterministic tar/gzip builds from same exact source bytes; local Python/runtime only."
+}

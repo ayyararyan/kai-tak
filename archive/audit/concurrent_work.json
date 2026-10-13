@@ -1,0 +1,1262 @@
+{
+  "checked_utc": "2026-10-13T17:13:30.314996+00:00",
+  "baseline": "128f7006e8c929a878bd80bdf84521a97c45ee30",
+  "original_checkout_head": "e4aa7d8218e7611a3ef186c8fa4262823080c457",
+  "commits_after_baseline": [
+    "e4aa7d8218e7611a3ef186c8fa4262823080c457 2026-10-13T22:36:57+05:30 Change project title to 'Checkers with Runway 13'",
+    "e6312d707dfe3cddc051dc2398505dae45c39035 2026-10-13T22:33:19+05:30 Give monochrome README artwork a fresh image URL",
+    "c7d350c13e753f287f0f3b21b4806eaf7a5674ab 2026-10-13T22:29:30+05:30 Merge remote-tracking branch 'origin/main'",
+    "1379e4266ffef44be5d40eabe6c51cf51a1d99a8 2026-10-13T22:29:06+05:30 Merge latest historical research and photograph while preserving version 3",
+    "fa3aa37364bf170eda9c73632a8a5eb572a5273d 2026-10-13T22:29:02+05:30 Replace README image with black-and-white Hong Kong illustration",
+    "8e7a59ee71e3706168f87dea72e020988cf52d2e 2026-10-13T22:28:46+05:30 Publish Checkers with Runway 13 white paper version 3"
+  ],
+  "changed_tracked_files": [
+    {
+      "path": ".gitignore",
+      "bytes": 167452,
+      "sha256": "47698b31c47cbc2ab8e44bf5ba4c4466e7838fcb709356e756ecfa879dd23217",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10981,
+      "sha256": "5e858724512b155223b1d5e58fcf567498df73b277c3d537aad7b9808e6a21a1",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "assets/kai-tak-approach-black-and-white.png",
+      "bytes": 3267027,
+      "sha256": "0e0f1cc6639e70a78ebaa60863fa77e0ba4b70d4d41ae6701a945928e7d30d94",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/PROJECT_STATE.md",
+      "bytes": 80887,
+      "sha256": "99ed529fc0cf511b809abea181f0f99f7989d75853c486e27f8a833e1c4819a6",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/CITATION_VERIFICATION.md",
+      "bytes": 4671,
+      "sha256": "3aa0e9a8a2d023ce2dc38d6ed7ccbcf057e650cd23699617ca1adcd0f366c49a",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/CLAIMS_AND_EVIDENCE.csv",
+      "bytes": 13418,
+      "sha256": "e968434dbcd9769f7624917a49f234dd66624c19a9dee70fbe147f619494b6af",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/DELIVERY_MANIFEST.json",
+      "bytes": 309,
+      "sha256": "ac59a5227dcd692b1226545c4533fca42dbd1cbe105eb2c91413ceded745cebb",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/INSIGHTS.md",
+      "bytes": 2541,
+      "sha256": "2e0f7950e50aba7bf12eae274d98756921f2bf816c9154c4769fb005378c26f6",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/PUBLICATION.md",
+      "bytes": 1505,
+      "sha256": "7c9e66385bfa6101beb6793628d67ac832bed4e4c1b5de529e82dcac7b83e2bb",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/PUBLICATION_INVENTORY.json",
+      "bytes": 50859,
+      "sha256": "1e2f9c268e0d9b3da31217e19f2d978541701dc96ea85510dfa6345e1afc638f",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/README.md",
+      "bytes": 4084,
+      "sha256": "30c4a3d0b3b8118add00c753739deed5e55698ec148a522534f9205aeff79917",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/REQUIREMENTS_TRACEABILITY.md",
+      "bytes": 2155,
+      "sha256": "68209010aee5907619987a401c3b89771694618d75eba1ae0a4e76ba10626b1d",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/RIGHTS_AND_PROVENANCE.md",
+      "bytes": 3740,
+      "sha256": "c1a0c092f14afaacd3488da87904d55af9c8120c0ac59d0ec6c77abc1dbd484c",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/SOURCE_MANIFEST.json",
+      "bytes": 16942,
+      "sha256": "b139f1bcaa50ec44a4d7f91b50a559dd671beb6817d6b08d16519e85dd06a27e",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/SPEC.md",
+      "bytes": 1952,
+      "sha256": "b29fbf87deaf8f5f71543f024612ba57fb04eedc7e4bb085c6d0415fb337c3ac",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/VERIFICATION.md",
+      "bytes": 8441,
+      "sha256": "bc35a73c8a5bfbef2ccb8a7ab5a86c8acb843ebaaea5793438d67453f36ff560",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/VERSION_CHANGES.md",
+      "bytes": 2088,
+      "sha256": "fba7bff58c4cbe47b31c4c122cc7231fb9570e09e7d1eb54c6ffd3a5219a80ef",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/abstract.md",
+      "bytes": 1414,
+      "sha256": "4c952e91d01124b5a847c5a4ca209a5e9253f30cdf8943029c36f02baa556067",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/appendices.tex",
+      "bytes": 13938,
+      "sha256": "5b6eff45cc396bedba88000fbc7edb34cc95e555112b982736c416b84f93a4a9",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/build.py",
+      "bytes": 1270,
+      "sha256": "42a0fb1092d0e53fc931146e714a3c0ecd77bffc51f211e4759d8774d44c3ade",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/check_pdf.py",
+      "bytes": 3648,
+      "sha256": "8dedbc8aed296c7866af6a4f4e4c25c7dc7499cbbcaf9a0f85ee14f74a52bd88",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/checkers-with-runway-13-white-paper-v3-sources.zip",
+      "bytes": 11722935,
+      "sha256": "b175febc3c5ff5515183604cb57994a4369eafd2b65a436029b97ab7490a8715",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/checkers-with-runway-13-white-paper-v3.pdf",
+      "bytes": 891782,
+      "sha256": "c517517899088cb72a82be5f76e73767846aab3925fd0d418a6f13cf14959ea3",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/coefficients.tex",
+      "bytes": 2454,
+      "sha256": "df2442c054da825a79641088724e2dc0cbbbd844c415efe4248b43c7ee94eea5",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/MODEL_EQUATIONS.md",
+      "bytes": 5646,
+      "sha256": "8c749d4b22505c91f1e0b6e9a72f17966c53d5d3565f0573aabe0851d0a1beac",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/MODEL_IMPLEMENTATION_SPEC.md",
+      "bytes": 8304,
+      "sha256": "3d8a9ce242783e357317beca0470044c00d4f62c74084cd1ffa70472815a8ceb",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/MODEL_VALIDATION_REPORT.md",
+      "bytes": 5853,
+      "sha256": "5ac1fa68810cec397d013875d534350bbf8f28d08eb0ed1d49912d253030e426",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/PROJECT_STATE.md",
+      "bytes": 47131,
+      "sha256": "16ba315669dba824283eb312927a91a231e0da416a9d3492a89c9f877cd11b5d",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/analytical/coupled/RESULTS.md",
+      "bytes": 10443,
+      "sha256": "386695fa71afc900113f123e7204966a64dfd43eb2db0faed4fb3577c30554fa",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/analytical/coupled/candidate_search.json",
+      "bytes": 6706,
+      "sha256": "b7b0df206960d708192f16f75b35c407dea165f0a79e9346c0b3897d196c171e",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/analytical/coupled/certify_candidate.py",
+      "bytes": 8593,
+      "sha256": "028eb9c2b39041793ff8d8973abd9e92682325e628ea9da375dc1361b963777f",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/analytical/coupled/continuous_certificate_refined.json",
+      "bytes": 202790,
+      "sha256": "774f34ad182a5015eeed799c910cde01eb6b297c1b4e6c4a119582b0d83db973",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/analytical/coupled/existence_and_bounds.py",
+      "bytes": 3063,
+      "sha256": "2134b6ce05a12b37d3edb731f4d91650926ee667be0a28999a7a2d5a9e52a3a9",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/analytical/coupled/existence_bounds.json",
+      "bytes": 851,
+      "sha256": "3c0887817a4bb387d6fd4a07f8fb5d12f1527d9f713a8a79b3cea73a2a5e9106",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/analytical/coupled/global_exclusion_attempt.py",
+      "bytes": 3625,
+      "sha256": "4c42e38a5e1b2ef2b83b0755e20a34769521b02debd0f5ab512fb715262d4190",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/analytical/coupled/solve_coupled.py",
+      "bytes": 5270,
+      "sha256": "618346126b42cad2b92fb2cf4019ec004db5866439790a41d4117af5d68510e9",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/analytical/coupled/verify_delivery.py",
+      "bytes": 5829,
+      "sha256": "5ca8236697bfb8ebf6cc256318213a05d2485e93cf44fc95b98e6885524eff92",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/analytical/verify_finite_roll_position.py",
+      "bytes": 8424,
+      "sha256": "8e96dacb1b8589025e8c8927eb1c40f9b92de3044f61624b736948caab08eec8",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/analytical/verify_full_landing_analysis.py",
+      "bytes": 10554,
+      "sha256": "fbe4067189ab78a6f1f6d4c4e8a4ac7d639dbe10c43c550d1bb37ba794202f90",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/analytical/verify_scs.py",
+      "bytes": 6886,
+      "sha256": "3437e4a364585b0397f4f7a21cc2595b503ce4f3629171608ad5078f4df30340",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/approximation/CLOSED_FORM_AND_BOUNDS.md",
+      "bytes": 9984,
+      "sha256": "c9905b322a0f674e48a8f3461642648496a94ff57f6cb77eda7416af6bd16c3c",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/approximation/SPEC.md",
+      "bytes": 7969,
+      "sha256": "586cdc4cd0b69d20126a5c97e19cb39937426ff9ec58498cb45412df96a83165",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/approximation/STATUS.md",
+      "bytes": 4895,
+      "sha256": "efe75955636f15e8a6b1635c9f10b9b3cabc0442199faa3565f0e590798debf7",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/approximation/explicit_reference.py",
+      "bytes": 14282,
+      "sha256": "b6e90f05d26f4d555ae1d064cad1d8583a7e11f02ec33d0d1871e535bb8f256a",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/approximation/parent_verification.json",
+      "bytes": 789,
+      "sha256": "614bea92909e525f847dff84307cd65b91d7bba0375176ebec15accc35994922",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/approximation/reference_formula.json",
+      "bytes": 4544,
+      "sha256": "95311d6d1857fc6330532dcce52cc58f03e20b489c3249a0da6cf3f14cea0c76",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/approximation/reference_outcomes.json",
+      "bytes": 2715,
+      "sha256": "23a2e3c01c35a95d7d933cf87351a86c6e0eef2d69e821421cb60b60d9242c51",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/approximation/test_explicit_reference.py",
+      "bytes": 7715,
+      "sha256": "0be83cc35aadcfc580dedabbfb0e99d53d3992115bb58270ddb8774db3432d73",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/REPORT.md",
+      "bytes": 9285,
+      "sha256": "deb41f43c3473b0ce6e7f786cdd5f12f730c71a0c03c12abb672810da306539c",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/SCOPE_AUDIT.md",
+      "bytes": 5346,
+      "sha256": "d7df7768b51f2f8c172c0cd2c1a7f1f49962cb8a0ffb5744f55222ce7f3d0477",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/SPEC.md",
+      "bytes": 8500,
+      "sha256": "aa42d0e9812ac35d9dc3f2823beb8e535b82597c0dee5dd0cee9c5487579697f",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/calculate.py",
+      "bytes": 10775,
+      "sha256": "c9b77777356cd93cf14f97d57289bab489e109525c4056abf44111afb29be605",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/continuous.py",
+      "bytes": 10472,
+      "sha256": "c220e280115238c7f42779236a1bf41fe29e786cc58d6c6830d3fc35f7db8a8c",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/continuous_check.json",
+      "bytes": 28062,
+      "sha256": "3631409dfc2fef2c0b8e6bf40d77143358b0bc6ced7c30261c620ce58f228f36",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/deliver.py",
+      "bytes": 11844,
+      "sha256": "30dab99db968f3d9ea3308d6d22f294b78b0ff73d47a2de682c38c51d13e36dd",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/delivery_manifest.json",
+      "bytes": 1941,
+      "sha256": "8f01b9abb6b0f40ca40d25b871e8102a4509504a9b2805d440c85ef4aa52f95e",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/formula.json",
+      "bytes": 2024,
+      "sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/inputs.json",
+      "bytes": 11586,
+      "sha256": "5e498fee46936c4a53a908ec255d34b83c4894af223aff10bfbd8610605f088b",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/path_controls.csv",
+      "bytes": 595676,
+      "sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/result.json",
+      "bytes": 8012,
+      "sha256": "49296dd026b3f0702fb672264c2c5524221a38acbf60631b6b8581e6c0b7bfe8",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/reviews/DISPOSITION.md",
+      "bytes": 1999,
+      "sha256": "9f5d9410b58e530cdf40873454d78208aba1d370d03255b2dcb26810b8c66b4d",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/reviews/acceptance.md",
+      "bytes": 4625,
+      "sha256": "1fa8704467f7fb469131d2207067ea29c7755e3787f80368f554f30d6b04a653",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/reviews/parent_certificate_check.json",
+      "bytes": 309,
+      "sha256": "e3675cf3a42000ed7caed90660f036dce22c9e68440435cd717544bdd5e9c083",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/reviews/parent_final_verification.json",
+      "bytes": 1037,
+      "sha256": "2375724bc41568b3b89d15f593d314f0e60d60caa539b22e4fb9b979ff5458c2",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/search_checkpoint.json",
+      "bytes": 10582,
+      "sha256": "4cedc557b9ed80c8e52d61f14bff6aacf5b69fdc1046f692fc3b53aa264a13e6",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/search_state.json",
+      "bytes": 165,
+      "sha256": "3756d4a88c11bfae4fbd7764e17b1a07f5c72e2abbe75fe2f92c93764bcd7493",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/selected.json",
+      "bytes": 5058,
+      "sha256": "9d8b40c750caea97f45f894f314e47f4ae934d577f4a5014c8a35b4f04defe64",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/test_counterfactual.py",
+      "bytes": 10151,
+      "sha256": "66589ebeae8ff8d64fafa91499a7ab4df91be215a931929d16b4a3967e5ebed7",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/verification.json",
+      "bytes": 949,
+      "sha256": "9a22ee599829be5de129883483d89cd8c5ca88ee8606cfe33a146bce7c052264",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/counterfactual/verify_delivery.py",
+      "bytes": 2542,
+      "sha256": "e99ccee20cda1ef54a34a4631ce3d0240be1404d7e502f7042f71bc88826a082",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/evidence/EVIDENCE_REPORT.md",
+      "bytes": 10403,
+      "sha256": "601cc3b9c93fb1315c01a393b0b5236eb92700b834ce449a0a2531d551319b64",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "bytes": 13397,
+      "sha256": "ea22be6e2488bf4d322a2775a172f4ef4c2dad879c2bf6e431fb5c7fdabd3df0",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/analysis.json",
+      "bytes": 5716,
+      "sha256": "7e957b6c8cd42493f6809a49b7be917c147a1e147ecadeef98a64762259b2c42",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/clock_alignment.json",
+      "bytes": 1292,
+      "sha256": "cf3250dafc6c559bb82b1d2a2073b008a69de16ca79bdd0a48aa1ca10b8279cb",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/delivery_manifest.json",
+      "bytes": 10129,
+      "sha256": "db4ba3d890a36c27267e889576bc6b881fac70f5dbda327fdb1cdb24bccca5fa",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/flight/README.md",
+      "bytes": 8874,
+      "sha256": "2bb2c74851ac1d0f0b9bb91125eab70bdb1ce58da16ff1ddad7b042385801257",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/flight/approach_anchor_readings.csv",
+      "bytes": 15188,
+      "sha256": "09318fd9a5da4a263afa016aeec4ba1e3be6d4c8a232d4376bb329355685c85f",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/flight/flight_anchor_readings.csv",
+      "bytes": 26298,
+      "sha256": "227a93849e990a1983d285547528c3e8e9400b8ed64ff203085526fc6be20232",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/flight/flight_summary.json",
+      "bytes": 1177,
+      "sha256": "9d98e8ad5144ae367903c1c59c7e436cc602d1b7894049d11c47bf19244b4135",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/noaa/README.md",
+      "bytes": 8995,
+      "sha256": "64c308501364f3d9d095cebfe4612cd927d4174c96d1baf0f9279cccf549dd81",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/noaa/acceptance_verification.json",
+      "bytes": 1029,
+      "sha256": "f6a6f0bab428784570eb6f1e8ceada99ecb769c466cd21f6551dc1e1c8271471",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/noaa/verification.json",
+      "bytes": 6607,
+      "sha256": "fca349e456c1eae543c71d5cdd956106f48063ea7f77747a8ba48bc5d51534fb",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/verification.json",
+      "bytes": 2411,
+      "sha256": "bf93850ae01b3d5539b42e51af7f56238e73cebfae6536910f30793165892681",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/wind/README.md",
+      "bytes": 7742,
+      "sha256": "7ef27fc02ccdac883402a4f7b530873ca2cec90ae218bd82b38073106a2257db",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/evidence/cal605_reconstruction/wind/wind_records.csv",
+      "bytes": 20709,
+      "sha256": "485c67054dd3acb7915557ee97f34d5fd0a85b940c2219417a06262f82625465",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/geospatial/README.md",
+      "bytes": 6664,
+      "sha256": "1ac992bf7838fa3476067ec43c9682bcda2d62d5c9eeb04180f291060d7a7788",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/literature/APPROXIMATE_LANDING_NOVELTY_2026-10-13.md",
+      "bytes": 5672,
+      "sha256": "ef06c27cc45b30f97ad3bc09198ff7b3a3794b8a3a9ad4233d1c872a39e9e31f",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/literature/LITERATURE_AND_COMPARISON.md",
+      "bytes": 12772,
+      "sha256": "b167fb01d96631a749fde1cbb4a894ee257b14f0f5e0cc3520a984f26100431a",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/model/__init__.py",
+      "bytes": 69,
+      "sha256": "6b65156957acd5c13a616a594a95d8da429b1bd513c1c31ccad3f1609a7a8006",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/model/config.json",
+      "bytes": 9059,
+      "sha256": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/model/solve.py",
+      "bytes": 10645,
+      "sha256": "2b93ae2341226f854cc0277b02a9b04e67c25ca569fa2ee0f82920ed860f6a15",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/model/test_model.py",
+      "bytes": 5304,
+      "sha256": "e10285f5d0702b1d7f13cf8446a2f9d78742b12e3c5894b3fd5c2f4efb695786",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/model/test_review_solver.py",
+      "bytes": 748,
+      "sha256": "c730c734a50c734ca20fa2139ad26e71cb1533764a5a34748869e27aec79a80c",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/model/test_review_trajectory.py",
+      "bytes": 4305,
+      "sha256": "b116ae6250105cc889a1bb57e1f7c4efedb33605773181665442df50ae2013f6",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/model/trajectory.py",
+      "bytes": 21372,
+      "sha256": "9b557ce07c7e8f177b0b3cfac1765c1c9aec4997e28b52d3185ad533f7cf3f6a",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/outputs/scenario/optimization_replay.json",
+      "bytes": 37914,
+      "sha256": "8829c708a7e0dd6262cab24547ff171ab5a73a78e9aea08a14428c62cd3eb1e0",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/HANDOFF.json",
+      "bytes": 8982,
+      "sha256": "9f22ab99f964c030608afa44283fe6e92f03f11d30938eb0c0a3a9d5068b9c62",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/REPORT.md",
+      "bytes": 11173,
+      "sha256": "18add497b2e88914395fab97877805cb0cb4201fe09355cb78b1abc6954f3893",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "bytes": 12241,
+      "sha256": "c6d92372417f56a8b017f8da56c0ed9d59d03eabf14efcc8fc9004137e2855e1",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/aerial_registration/dense_stereo_report.json",
+      "bytes": 4425,
+      "sha256": "28ddf7ddff1f4a75e756a6beb3842ed8d6c8fd7e68d211a9e162cf94b72a6374",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/aerial_registration/observed_mesh_verification.json",
+      "bytes": 1205,
+      "sha256": "a50c3ae569ce52d7c47a21bbe905f18fc4be233f4b311c5c225b08fe9ea42cc7",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json",
+      "bytes": 2635,
+      "sha256": "ae7aa69c6ed42263bc6e060fb92133aaeed8e39f9909bdea48d99dc27986b394",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/aerial_registration/sparse_stereo_report.json",
+      "bytes": 9195,
+      "sha256": "17c70dac3685c3f04eb9d01026aaf3c74ed32313e70755bb854f9afc58377bc9",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/aerial_registration/stereo_verification.json",
+      "bytes": 1819,
+      "sha256": "1aa46915a083962a3cc7a60065ceaba113d69ed9effb27f83cd8e67c98b470ec",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/registration_report.md",
+      "bytes": 6233,
+      "sha256": "c751bd91f98a4bcbdb78743d34be9ce97846fe35cca3c582e8abda15c8fcbb87",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/road_cell_parent_verification.json",
+      "bytes": 359,
+      "sha256": "5b2cb57cbcee39c0de12193f3e85ea20e18f8f3a67b2f02b8226884b27bab816",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/road_cell_visual_observations.json",
+      "bytes": 8585,
+      "sha256": "5e6c2446a3ac7c223748eec8465afe1c12efbe63c3de0f56aeb4899d3cf29706",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/scene/readable/verification.json",
+      "bytes": 645,
+      "sha256": "32e41a87b5e7b59139bff586f54e14f61d26a4e6a8087eff5f1f4558c472b20a",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/scene/validation.json",
+      "bytes": 835,
+      "sha256": "ab34f82f8fbaca0a515608b0ae3f44539263d5162e2fa088557618df7f2a7a0c",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/block_matching/validation.json",
+      "bytes": 2872,
+      "sha256": "b8e3a0fd8e9717b724316f9bdcdad140cb2f14c71ae3bb9b800b5d43bb9c5c5d",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/chronology/HANDOFF.json",
+      "bytes": 4757,
+      "sha256": "f8deecf9c45d622e3b4fd6bcef7b4245a7e736d4364b02dec8a8004be96f7a34",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/chronology/REPORT.md",
+      "bytes": 10016,
+      "sha256": "6a06f484eeeb20e9b6ff35d0fcb12c74efc4d96a80fc08c480ae54405c7aa11d",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/obstacles/REPORT.md",
+      "bytes": 7076,
+      "sha256": "aaf8eae2c1e911595b5d70898752bf41726dc7918fb74400c3283d8091cb8635",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/obstacles/observations.json",
+      "bytes": 27629,
+      "sha256": "af990de7bb002418f93dd349d0764b4aea33a285dd73eacaae23adb6f4eb376d",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/obstacles/obstacle_evidence.geojson",
+      "bytes": 85601,
+      "sha256": "ac3ab63f3c516b8dfa1e18c4be64082fccfd0986979df0619fcc5fe3effb2a30",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/obstacles/parent_verification.json",
+      "bytes": 2899,
+      "sha256": "a4c35fc6f64d07b1258651f1993baeb4d316989a82058f102f64e2fccc03d2ab",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/obstacles/readiness.json",
+      "bytes": 9456,
+      "sha256": "8ff9e652fa4ec809207cbadff0eee6e525ef17a740cf85d530879bdb698b519c",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/reconstruction/obstacles/unresolved_footprints.geojson",
+      "bytes": 337765,
+      "sha256": "b78d5754894cb75975c0a58cddcd1178dcc4ecc449444e5218b506993b091a85",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/stereo_plot_data.csv",
+      "bytes": 2315670,
+      "sha256": "020e06d1ca36ce849f6935ca63ad7f9281d07d3c0724b246ee844076f0fb8b9b",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence/weather_plot_data.csv",
+      "bytes": 460625,
+      "sha256": "7de32c29acf8f3729884a002ff133252ad6cab1b7a2da486b104ccc9d85a704d",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/evidence_manifest.json",
+      "bytes": 25657,
+      "sha256": "7284e264c33593c41cd15252c699c6c0d54c15fa4f14a0cf7cc1708cc23dfa36",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/executive-summary.md",
+      "bytes": 2387,
+      "sha256": "67392e60a9d919cab740f49ef0cd7a9d2601457b208d8bd3ed87ac3e9e750d40",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/01_historical_airport.pdf",
+      "bytes": 211873,
+      "sha256": "df8b6bd092535d40bc18a92912233abaac8680f1b34ebb16e94f6de5e59b2f60",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/01_historical_airport.png",
+      "bytes": 876541,
+      "sha256": "c5aac37e2d28c5c4f7fd29d5e68fa4f84a985b762ea8fd9beeefb5dce4d0dd99",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/02_approach_geometry.pdf",
+      "bytes": 30565,
+      "sha256": "dc5cdbae7a86e34432142178d1edbe1c43c160abf92c7c224fb461ef6752262d",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/02_approach_geometry.png",
+      "bytes": 60744,
+      "sha256": "51be3163e337c3999771dd07ce720ef54984f27cb91e14abd60ee075d524d138",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/03_dated_maps.pdf",
+      "bytes": 107125,
+      "sha256": "e47c6c5d145d3aec7c326b43ebc9ee546d2288e28242b047e6d5e2126a9a9fc1",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/03_dated_maps.png",
+      "bytes": 469373,
+      "sha256": "c76c5ae76e404f0b89c0fc3d5afe0c88732834842eb7d40291aa3ebd053878ff",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/04_reconstruction.pdf",
+      "bytes": 125780,
+      "sha256": "079842069bbf68f30ba2b8423ef284ef81a4867d3e6df42551ba83a80364c483",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/04_reconstruction.png",
+      "bytes": 420245,
+      "sha256": "908b3ca2a336e7707b412d46f1da5dcfa5a597cd3e30a54e29ba563f307bf975",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/05_turn_physics.pdf",
+      "bytes": 24726,
+      "sha256": "684a7a4856a39c0069b6e54a12f740d4c6acf98cc19d0b1355ebe813e2f83db4",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/05_turn_physics.png",
+      "bytes": 133219,
+      "sha256": "c057e99184abfd8a3b6bdd27728aadd60612f8c205ba080a84703fe27fed903e",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/06_wind_vectors.pdf",
+      "bytes": 25822,
+      "sha256": "abca900b7169ea3f04f63643b12071473f5a1d5bab6eff6d5b66917261083518",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/06_wind_vectors.png",
+      "bytes": 96432,
+      "sha256": "c7293d3ac9f47bfe53fce5b2cd707c676d4dc65671212f19ac2b8661b57f5167",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/07_calm_profiles.pdf",
+      "bytes": 26384,
+      "sha256": "216784dbfe6f19fcb5fe0481bc53a01c7ca817358964a19e824048413e942de6",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/07_calm_profiles.png",
+      "bytes": 102321,
+      "sha256": "0ed3c4e1a6ad37c6fe3779d46f6b69ab30a47a848334a45debdb43d6c4e6b6fa",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/08_stopping.pdf",
+      "bytes": 25778,
+      "sha256": "05e02b020d0c287b4a23a048d88017626ff37afbdfc156f3e0803bfbebf5d2ed",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/08_stopping.png",
+      "bytes": 85585,
+      "sha256": "569b819d4c3954afa792090e788aa6f277bde66f7e99a6db5f44685f12e13b2d",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/09_complete_calm.pdf",
+      "bytes": 30336,
+      "sha256": "64b8a9688c22ea123b3ffed7137afc32130551c18e6a311598180c59f3153851",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/09_complete_calm.png",
+      "bytes": 99365,
+      "sha256": "9ac847a8f1f8751e5a5210ca8def1deeabb837341a6af7ac3826d08dd4ae6121",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/10_certificate.pdf",
+      "bytes": 23572,
+      "sha256": "d93a563cd1602cd92ba35115c2c66936deda127df53e27a27467c2f4e082de86",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/10_certificate.png",
+      "bytes": 51115,
+      "sha256": "8af7bd0bf98e7352f6a7a5dfba0935cd799137d27ea1c18c411ab42d351922c4",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/11_wind_profiles.pdf",
+      "bytes": 22208,
+      "sha256": "6bb7a2d347772dd3716b64e831dda8eb3502a7d3cee5bc10118ac498ac65c77c",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/11_wind_profiles.png",
+      "bytes": 131618,
+      "sha256": "fd28f00018a3075e836fd65313e2d210e98bbd5ebe4a46bce6760dba7e5910b1",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/12_scenario_comparison.pdf",
+      "bytes": 21418,
+      "sha256": "5d946621278d54356e9127a10670ef6d91f7fb65e25a2308a2426fcc43dcea0f",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/12_scenario_comparison.png",
+      "bytes": 93738,
+      "sha256": "180dba541e73df3c463e90ec03e11e8eca98494be6c459022491672b4e30dd5b",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/13_recorder.pdf",
+      "bytes": 20354,
+      "sha256": "11fa402e3b2dd95b802b6e6b2c9a0f1ae0209575b8c5cb9fa2ceec195805950c",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/13_recorder.png",
+      "bytes": 130734,
+      "sha256": "f7e8a34f9e6483cc8e71b274e12b770b8833629f7b44fa61266e3ed80c0c89b2",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/14_weather.pdf",
+      "bytes": 33573,
+      "sha256": "508e7691f57d0879d80ff9c9ef500748bd69d7335f63f92d4d703bcb41fd213a",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/14_weather.png",
+      "bytes": 114505,
+      "sha256": "74c565a92d3140612021d71e33071677e6a241478836595e33412d3708c3e2a4",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/15_rollout.pdf",
+      "bytes": 22801,
+      "sha256": "e8ad5c3d60f1e2ebe54ce61acc24c4f1794fdf3124e40e894ea7809a0c5708cd",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/15_rollout.png",
+      "bytes": 109532,
+      "sha256": "ae741956fd02ac73da2447c2d1356b24e6b3834c71ad3137515450a92bfd95df",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/16_evidence_synthesis.pdf",
+      "bytes": 22966,
+      "sha256": "39e249d454cc443eadfe6a6e013211f3673906f60ba21e3d1df88b65c329e496",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/figures/16_evidence_synthesis.png",
+      "bytes": 65880,
+      "sha256": "4d09492d3d669e23eb65dc11676fb59d2e09cc79afa54cd1dcb0441ef5b67de1",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/inputs/11-NE-11A_1989-10_core.json",
+      "bytes": 842,
+      "sha256": "cdd4b3142c28f7d41fee4a0f0bfb63adb3fd0164da9a333c6abd3295f24de022",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/inputs/11-NE-11A_1989-10_core.png",
+      "bytes": 2397201,
+      "sha256": "7daf2f8720a78b8ded383ae4f0ec811fa18eda1140c1e0248802d94c3b984259",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/inputs/11-NE-11A_1994-07_core.json",
+      "bytes": 842,
+      "sha256": "413996dbe93645f01065eaaad230e8f0c1238ec32861e74cf985dfe273644fee",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/inputs/11-NE-11A_1994-07_core.png",
+      "bytes": 2437557,
+      "sha256": "ff47e9e448d5ec708e3fcc2978312eff62e712aff88433a36884c47539f22805",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/inputs/A36143.jpg",
+      "bytes": 818247,
+      "sha256": "e8439e24ffd7acbbaf7b5247b2fddbd7a52fd079e3c986481771efe204eaf289",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/inputs/A36143_product.json",
+      "bytes": 757,
+      "sha256": "f7f3a2bd73ed0d92c4ed0dcbcf800ba26212988f69dafc5ed258001e0ae5f65a",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/inputs/historical_faces.geojson",
+      "bytes": 312728,
+      "sha256": "f866def637ad2c3495e9a9463a6abfc1b04cbf600b8b52b6ed5ee503bd749ef7",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/inputs/provenance.json",
+      "bytes": 3118,
+      "sha256": "b52a0a10f9ed366c5a5ef90b44801392f309cdcf5cca95b3aeff4730879d07c4",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/main.tex",
+      "bytes": 3441,
+      "sha256": "2a61ecef26f94db3fa2f3e587d9c84ec03977560df25e84714804d78e8996d84",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/make_figures.py",
+      "bytes": 22306,
+      "sha256": "11f1e24d10b84ce2fa75c664bb28536127055c96f200182af21a729edba815fe",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/package_sources.py",
+      "bytes": 1743,
+      "sha256": "2bf6678e1925034e5df68bf0ade9da72b8910011d9250d3dc15a73e0ff1cebd1",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/clean_build.log",
+      "bytes": 467,
+      "sha256": "10005e14cebcf7ccf72b52799f400ee940c535b19d3bbc2f2cddf6caaccf7dcd",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/clean_calm_certificate.json",
+      "bytes": 233252,
+      "sha256": "7e729c6e9c0c84a56f8fa0c94370596f265aed2b56e3d1182f4abcb0d9cdd208",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/clean_certificates.log",
+      "bytes": 55,
+      "sha256": "f6a6a82796dbaebb8a3b07149cf9a8b4b29a18a389b978d9bc8e96dd24282c43",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/clean_environment_versions.txt",
+      "bytes": 295,
+      "sha256": "6c14b83232af9e9c6b9b2486e74cc682288c70136062aea3ba7dc7769375e103",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/clean_rebuild.json",
+      "bytes": 3586,
+      "sha256": "55bb9b20cd5789bf327ad751b1c54e26e6055646683e4f092f2a71037dcb9a97",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/clean_wind_certificate.json",
+      "bytes": 32525,
+      "sha256": "277af5399cd265eeb6364a048d107bcad19f8d2dc7c3d76ad67427f7e951ff3b",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/delivery_acceptance.json",
+      "bytes": 490,
+      "sha256": "9689b3f36d16147c69d1c18c65ad0a1f843bf7061ca4f786358f4a9c89087c2c",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/document_checks.json",
+      "bytes": 2835,
+      "sha256": "8656627f6932e439beabed10eedb9cc84ad34ef8fe97a28362eec02b0cd27915",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/figure_checks.json",
+      "bytes": 977,
+      "sha256": "1f300b33ab127b3728595a120e4e71a3a7dd7e7380b5c15e2d6bd0ed75fd17dc",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/figure_generation.log",
+      "bytes": 40,
+      "sha256": "a181294c01fb6399f7a06f73f0fe10481393a8cb0408f9ca0193a90228c2bfaf",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/figure_provenance.json",
+      "bytes": 5338,
+      "sha256": "065bdf9a756bdc8c92cffb899ba0111eeb9b168070516aa703a95122c86a651c",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/fonts.txt",
+      "bytes": 4812,
+      "sha256": "fda30f5f94304355d6081633287ac7109896409c100bad7320e43316532f52f4",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/fresh_calm_certificate.json",
+      "bytes": 233251,
+      "sha256": "a942c318b7100c221417f06848c06a58df8a2d1d24162866bb1df24201a40f45",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/fresh_existence_bounds.json",
+      "bytes": 851,
+      "sha256": "3c0887817a4bb387d6fd4a07f8fb5d12f1527d9f713a8a79b3cea73a2a5e9106",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/fresh_wind_certificate.json",
+      "bytes": 32524,
+      "sha256": "017ee974e3dc1282a145f3528cdcc223fbe5160dcac48cedb63e499cddade693",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/insight_calculations.json",
+      "bytes": 559,
+      "sha256": "9aa0a6fb9cca79ce856a42c910605446a6afe3af7742774b9a9798b58366ed2c",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/make_figures.log",
+      "bytes": 40,
+      "sha256": "a181294c01fb6399f7a06f73f0fe10481393a8cb0408f9ca0193a90228c2bfaf",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/model_counterfactual_tests.log",
+      "bytes": 179,
+      "sha256": "69e07ca16212c3d3945e2e7f0b5ebb9581a9da0365daf8074207db7873989318",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/portable_tests.log",
+      "bytes": 179,
+      "sha256": "fc1d195be84fa3ceef5800d3a09d3bcbf35c05988d9565c417d3479c4ed67305",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/preservation_check.json",
+      "bytes": 330,
+      "sha256": "6ded79abafa967be67a52d1c5072fa328bdf722cb243aae3ae87c8b2b108384e",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/v3_claim_checks.json",
+      "bytes": 275,
+      "sha256": "95b49465a0ed6d3f669a8e043c8b15e5adfc6974e1fff797859f4d0944b89483",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/verified_input_checks.log",
+      "bytes": 977,
+      "sha256": "1f300b33ab127b3728595a120e4e71a3a7dd7e7380b5c15e2d6bd0ed75fd17dc",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/verify_v2_inputs.log",
+      "bytes": 977,
+      "sha256": "1f300b33ab127b3728595a120e4e71a3a7dd7e7380b5c15e2d6bd0ed75fd17dc",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/verify_v3_claims.log",
+      "bytes": 90,
+      "sha256": "e0c0dd2c4f8fe0f0fe1759ac9363c40e217c7dbe18839696617a3777843663ec",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/visual_inspection.json",
+      "bytes": 1625,
+      "sha256": "4c3636df635270b973e7bf12959a3ba910b4b2b0c3f096eefb4b67e48f42ab88",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/qa/wind_certificate_rerun.log",
+      "bytes": 33,
+      "sha256": "480d19a76c14aa3054ee2da665030ad5e45545ed3fb3f9730c0b8cf41c814227",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/references.bib",
+      "bytes": 4395,
+      "sha256": "a3a6722fbe1be2a202c3593b887fd9c95c2f83e66889863c2246f6cb8c459b85",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/requirements.txt",
+      "bytes": 105,
+      "sha256": "598c89bf583b4b6a5f1a35561f0856f9b4b7d013a725860bee238800c5d99b8c",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/sections/foreword.tex",
+      "bytes": 3165,
+      "sha256": "759b4f9fba67561cf72a1a3946e3a5bc1a9e0726490ce45e6dddec19f796e1cb",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/sections/part1.tex",
+      "bytes": 4097,
+      "sha256": "d8dafe0e237b9be9b6de33313fcb1fccdbf0749c1a01a2bd7b8c6aea0a92c4a8",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/sections/part2.tex",
+      "bytes": 7291,
+      "sha256": "3b7377122a4ce6d16778c62c1d2e9537169f862c65b1bf22129d1cba61838c76",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/sections/part3.tex",
+      "bytes": 8369,
+      "sha256": "67aadd2d687b99468dd87a4926b7041df4072b4d80c118191b483009ac2ce821",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/sections/part4.tex",
+      "bytes": 6596,
+      "sha256": "bce16fa72633556468eb3b985630812ea7bfe9543acaad513cad9f158ade0187",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/sections/part5.tex",
+      "bytes": 3324,
+      "sha256": "3158ab724fa78feb8407e32edea63e6a6657191aab510395b927968c9ca48d61",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/sections/part6.tex",
+      "bytes": 8798,
+      "sha256": "fab4a7e95873454cd91e01b13ed3090db15b637871dabe85c4d46c95f86c9a59",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/sections/part7.tex",
+      "bytes": 5470,
+      "sha256": "03441a243e381d188aea0c2a54ee8b89f211a95b2abc82ab4a6ba9d03f2d8469",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/sections/part8.tex",
+      "bytes": 5685,
+      "sha256": "071ac79211baadb406070c7c295ddb2b92cca24e3f66eb1bdd0cab0fbd127e17",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/sections/summary.tex",
+      "bytes": 2803,
+      "sha256": "20bd14cbddb1f6c0a18ccb491dabfaf999ae7b2e15f9b57c1df4d441e9ae28d0",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/verify_certificates.py",
+      "bytes": 1581,
+      "sha256": "3d075c631b1828b3a802466ba5183aa1e8de76fe0a7fa15c58c2966c128369f8",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/verify_delivery.py",
+      "bytes": 3315,
+      "sha256": "276d9b182744b7b66a755d8496f8651d9879ea6c6f3658c57a6b2bcdcf7a2a8c",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/verify_v2_inputs.py",
+      "bytes": 15159,
+      "sha256": "6d417df3e53fda8f5db0e76b0eb6cddf4b3f480e740064cf284a810bb77750ff",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v3/verify_v3_claims.py",
+      "bytes": 1737,
+      "sha256": "1654a6d07632210ae6839e563ce4579498dda64637d6b1d64ab085f9d3193f5b",
+      "treatment": "concurrent-after-baseline; not in candidate manifests"
+    }
+  ],
+  "untracked_lanes_observed": [
+    "research/checkers-runway13/whitepaper/v4/"
+  ],
+  "private_untracked_contents_published": false,
+  "incorporated_in_candidate": false
+}

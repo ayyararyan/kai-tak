@@ -1,0 +1,2435 @@
+{
+  "status": "DRAFT-NOT-A-GRANT",
+  "files": [
+    {
+      "path": "DATA_SOURCES.md",
+      "sha256": "3f675f0933c274defecaca6e403e6a65091c4f9b59d8e424fcba49d86428ec78",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "NOTICE.md",
+      "sha256": "18a1fedb86cf153380806b75a21346d785525cdd03a683cbb141509a59efb286",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "README.md",
+      "sha256": "1b30d438cbae20b21ff45d35fd79a13e3080940cfe75ec014dcbb8252488244f",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "data/kai-tak-2026-10-13/HOBBY_PROJECT_BRIEF.md",
+      "sha256": "475207aade62c8942f9551d33cf993d100be2b049baef3693f93c45e5a08df64",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "data/kai-tak-2026-10-13/README.md",
+      "sha256": "a4f54a9cdd445a702f4567dbee3d4305aafee09c0a83a1934663465f71f6f44f",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "publication/INTEGRATION_UPDATE.md",
+      "sha256": "af230a0aae38dd5806079f265734af5b3e79561e0eaccd9148bac27e57af836e",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/ANALYTICAL_FINDINGS.md",
+      "sha256": "14d126988b8f22f1fa6c3d3f6522e5221ede6c66373cf2534e476a4aa55f565b",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/ANALYTICAL_RESEARCH_BRIEF.md",
+      "sha256": "a27b10a99cfb4c766d7bb36fd38bef5bdaae46aee3e235498d4210d250f96ec1",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/MODEL_CHANGELOG.md",
+      "sha256": "fa80dfce2b621829ea4f863d6006a3b906a7cf565d06f8e496fb5d1feceaadbb",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/MODEL_EQUATIONS.md",
+      "sha256": "8c749d4b22505c91f1e0b6e9a72f17966c53d5d3565f0573aabe0851d0a1beac",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/MODEL_IMPLEMENTATION_SPEC.md",
+      "sha256": "3d8a9ce242783e357317beca0470044c00d4f62c74084cd1ffa70472815a8ceb",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/MODEL_REQUIREMENTS_TRACEABILITY.md",
+      "sha256": "e7d7eb90f2e86102020832a713965943a2467d69c2dbaac52d7e6fb567cd67ad",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/MODEL_VALIDATION_REPORT.md",
+      "sha256": "5ac1fa68810cec397d013875d534350bbf8f28d08eb0ed1d49912d253030e426",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/PROJECT_SPEC_DRAFT.md",
+      "sha256": "469b59788efe05222c689d46240e3b722a1ecdc61dff291b31d6765911d5814b",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/PROJECT_STATE.md",
+      "sha256": "9b1d6dbc6ce94f9459ed51cb0db2943afa110ee814ac3c779e1018553f704350",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/README.md",
+      "sha256": "7a1ae818ccbc653ca5f9167e34618483061c1babb8be53e6c6740d4a41066172",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/analytical/ANALYTICAL_TRACTABILITY.md",
+      "sha256": "0fb20d675525ce311cdaff6a18ac9c84eadc5da476b1dc00931d04f3f85bb3b8",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/analytical/CONTINUATION_HANDOFF.md",
+      "sha256": "0b6b295d02b8401d4db5e1e4d26bcba97d09d19498cba4f11bc03e0dd2f5b41f",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/analytical/FINITE_ROLL_POSITION.md",
+      "sha256": "c4ea0da5e1cb736deb9fc95e19e8aa61dbe4c67e369d111aec3a5270c2262e8d",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/analytical/FINITE_ROLL_PROOF_REVIEW.md",
+      "sha256": "8d6aefb88b08666a9d838384955ced72cd9a41e8a995147c4d6e36f87baff7e8",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/analytical/FULL_LANDING_ANALYSIS.md",
+      "sha256": "a72faa227d0d97b61f971b2f11a2b3ee45f54c3c746c0407eb34ec18cded78f0",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/analytical/FULL_LANDING_PROOF_REVIEW.md",
+      "sha256": "750c1c666000226b1532c13780439ac4ac8519e56fb4dfd0e6a711f35078edee",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/analytical/INDEPENDENT_PROOF_REVIEW.md",
+      "sha256": "3d2ef8b529a1b1a1bfa7fc0d5c68e2ee208e2212e2c066035f8cd329cc2063cd",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/analytical/PARENT_SCOPE_CHECK.md",
+      "sha256": "bb33923c80dbfb028f9a7d5dbaaca3c84726cbe5b83ac42dd7a7f37b238c6dad",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/analytical/coupled/RESULTS.md",
+      "sha256": "386695fa71afc900113f123e7204966a64dfd43eb2db0faed4fb3577c30554fa",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/analytical/coupled/START_HERE.md",
+      "sha256": "e8277de6b0fc2658f1bd54808c63db51cb35d20acef7722382d83b8422a07ced",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/analytical/coupled/certify_candidate.py",
+      "sha256": "028eb9c2b39041793ff8d8973abd9e92682325e628ea9da375dc1361b963777f",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/analytical/coupled/existence_and_bounds.py",
+      "sha256": "2134b6ce05a12b37d3edb731f4d91650926ee667be0a28999a7a2d5a9e52a3a9",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/analytical/coupled/global_exclusion_attempt.py",
+      "sha256": "4c42e38a5e1b2ef2b83b0755e20a34769521b02debd0f5ab512fb715262d4190",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/analytical/coupled/solve_coupled.py",
+      "sha256": "618346126b42cad2b92fb2cf4019ec004db5866439790a41d4117af5d68510e9",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/analytical/coupled/verify_delivery.py",
+      "sha256": "5ca8236697bfb8ebf6cc256318213a05d2485e93cf44fc95b98e6885524eff92",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/analytical/finite_roll_position_results.json",
+      "sha256": "a613aea5d235479a16e56a7e1e4dc70e330a165177c29243f090eb02d39fb7b2",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/analytical/full_landing_analysis_results.json",
+      "sha256": "7a2aaa017501a0dbb0819430be166a1a8e6205a884c48fa5b269acbb81a439ab",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/analytical/verification_results.json",
+      "sha256": "14f8d9ed4bc20f2d469b20fa3843e1014f3f8c5a23360e61663286460372e90f",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/analytical/verify_finite_roll_position.py",
+      "sha256": "8e96dacb1b8589025e8c8927eb1c40f9b92de3044f61624b736948caab08eec8",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/analytical/verify_full_landing_analysis.py",
+      "sha256": "fbe4067189ab78a6f1f6d4c4e8a4ac7d639dbe10c43c550d1bb37ba794202f90",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/analytical/verify_scs.py",
+      "sha256": "3437e4a364585b0397f4f7a21cc2595b503ce4f3629171608ad5078f4df30340",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/approximation/APPROXIMATION_DESIGN.md",
+      "sha256": "ad8b86bd5e244f5ab8a549fb2da306de38d3182318ea864bd9009a34abd8164d",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/approximation/CLOSED_FORM_AND_BOUNDS.md",
+      "sha256": "c9905b322a0f674e48a8f3461642648496a94ff57f6cb77eda7416af6bd16c3c",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/approximation/SPEC.md",
+      "sha256": "586cdc4cd0b69d20126a5c97e19cb39937426ff9ec58498cb45412df96a83165",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/approximation/STATUS.md",
+      "sha256": "3e1f7409db0c27b1b4c493bb98f1185636d4ca48534682ef6a0b3d0ce7670a7a",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/approximation/explicit_reference.py",
+      "sha256": "b6e90f05d26f4d555ae1d064cad1d8583a7e11f02ec33d0d1871e535bb8f256a",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/approximation/scene_contract.md",
+      "sha256": "531d941775b5fcc296cec8414fec0e3309b180bfe4cf45bb70f2d7fdb76945ec",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/approximation/test_explicit_reference.py",
+      "sha256": "0be83cc35aadcfc580dedabbfb0e99d53d3992115bb58270ddb8774db3432d73",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/REPORT.md",
+      "sha256": "deb41f43c3473b0ce6e7f786cdd5f12f730c71a0c03c12abb672810da306539c",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/SCOPE_AUDIT.md",
+      "sha256": "d7df7768b51f2f8c172c0cd2c1a7f1f49962cb8a0ffb5744f55222ce7f3d0477",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/SPEC.md",
+      "sha256": "aa42d0e9812ac35d9dc3f2823beb8e535b82597c0dee5dd0cee9c5487579697f",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/calculate.py",
+      "sha256": "c9b77777356cd93cf14f97d57289bab489e109525c4056abf44111afb29be605",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/continuous.py",
+      "sha256": "c220e280115238c7f42779236a1bf41fe29e786cc58d6c6830d3fc35f7db8a8c",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/deliver.py",
+      "sha256": "30dab99db968f3d9ea3308d6d22f294b78b0ff73d47a2de682c38c51d13e36dd",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/reviews/DISPOSITION.md",
+      "sha256": "9f5d9410b58e530cdf40873454d78208aba1d370d03255b2dcb26810b8c66b4d",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/reviews/acceptance.md",
+      "sha256": "1fa8704467f7fb469131d2207067ea29c7755e3787f80368f554f30d6b04a653",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/reviews/blind.md",
+      "sha256": "29cdd8af4ecc456d607f300219245e358b2f1336a40d6fdf6d9453b9dfa04ca4",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/reviews/edge.md",
+      "sha256": "d889250041921468de874cf12c1f303c1ce461b0e3f105321429ae21d4560353",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/test_counterfactual.py",
+      "sha256": "66589ebeae8ff8d64fafa91499a7ab4df91be215a931929d16b4a3967e5ebed7",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/counterfactual/verify_delivery.py",
+      "sha256": "e99ccee20cda1ef54a34a4631ce3d0240be1404d7e502f7042f71bc88826a082",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/evidence/EVIDENCE_REPORT.md",
+      "sha256": "601cc3b9c93fb1315c01a393b0b5236eb92700b834ce449a0a2531d551319b64",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/REPORT.md",
+      "sha256": "ea22be6e2488bf4d322a2775a172f4ef4c2dad879c2bf6e431fb5c7fdabd3df0",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/SPEC.md",
+      "sha256": "5b7e4433a0d4a5a2b860ab8b41309dbe5372d4adb8d3782f00b97c71a1091006",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/flight/README.md",
+      "sha256": "2bb2c74851ac1d0f0b9bb91125eab70bdb1ce58da16ff1ddad7b042385801257",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/flight/build_approach.py",
+      "sha256": "63c7d84f4186def630c9d67703ce1a5ebbc01bc40c484f0b7257fdfd25ed27cc",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/flight/build_flight.py",
+      "sha256": "f21b1436819d81709354a03a38a889f7dfe3cd34c2857d812c7acf90a3d2ae30",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/flight/test_flight.py",
+      "sha256": "9e948fabb67a2749cc6590b41fbaa78ecdb3a1c8984064b3ac39bb7ce099670d",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/noaa/README.md",
+      "sha256": "64c308501364f3d9d095cebfe4612cd927d4174c96d1baf0f9279cccf549dd81",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/noaa/decode_noaa.py",
+      "sha256": "cd273d6ee666a9f5f9d9f467840e2d87d1ab8427b46b7525f56209cd6ab87401",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/noaa/test_decode_noaa.py",
+      "sha256": "73388fea6a38718aa952cb53dc18e65e424e17297622e7c00c30dd4fb4e95331",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/reconstruct.py",
+      "sha256": "37248eb744ad2bc91b5643fcf389c1de93bc8c44a536d4e617ce88b8e7ce4b94",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/reviews/REVIEW_DECISIONS.md",
+      "sha256": "61b52aa84c316f4f09325d4cc67f0057e43f4fd7d6746ba8190a91cc212987ea",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/reviews/acceptance_review.md",
+      "sha256": "a174db1d329bb174b397df66b1235efc29431b605f54085e89454d717fa6b68f",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/reviews/blind_review.md",
+      "sha256": "7d2338f9a76b2c9f916b4005895a96d9b939e1200e8a571925f434f1a38e2cd0",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/reviews/edge_review.md",
+      "sha256": "1097eb26a06913296be4705ed70e0789f06acd04b936435de1057b0d0dcda98c",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/test_reconstruction.py",
+      "sha256": "8df7ba93dd2fa7f9b82481b809ef94c801ca1489a9df206e1684c5b196421b6b",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/verify_delivery.py",
+      "sha256": "53a3f080b24a012ae0659f606a18b5671beba9ec8e654a3b5e209f9afee05385",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/wind/README.md",
+      "sha256": "7ef27fc02ccdac883402a4f7b530873ca2cec90ae218bd82b38073106a2257db",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/wind/plot_wind.py",
+      "sha256": "5e86b06995ecf863c50ae972bb60a8c20d01bca0a4ee204e70a3a08a17cb3904",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/wind/reconstruct_wind.py",
+      "sha256": "f2a2f55bce34929f3d3c16b16b6ed60486ef248b7a906f20092e12f4a59ebdab",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/wind/test_wind.py",
+      "sha256": "da27559676fed3b1dd22ec7bcc5a58eaa3c3b20203c80d64051d04b2300fd5b0",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/evidence/cal605_reconstruction/wind/verify_manifest.py",
+      "sha256": "34f4596de8addcc96284ef2e324ae54aa9c4a0a2e9e2e30fd93cc5a6c9349c49",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/evidence/weather_feasibility_2026-10-13/README.md",
+      "sha256": "f55428a6087d9d21d921ddd54d95efea64d71bb252e849bacdfebdddd725f374",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/foundations/MATHEMATICAL_FOUNDATIONS.md",
+      "sha256": "aef99da852bd31595fdb0b2647d8647d79951e9b9ee30efc174043640b35eab7",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/foundations/verify_finite_roll.py",
+      "sha256": "1e759fd357a6b4867ca617a8547a6737dddaa1f691953db4be0c8c1e2f7dfe7a",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/geospatial/README.md",
+      "sha256": "1ac992bf7838fa3476067ec43c9682bcda2d62d5c9eeb04180f291060d7a7788",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/geospatial/prepare_and_verify.py",
+      "sha256": "dd80a392f899499207aeda9033e2b5ee783ab0938ec7afd1b52c658044519850",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/PHYSICAL_CALIBRATION.md",
+      "sha256": "f027edae3996a1d626096638d40f4103630fa6949b6bb63a10ea20688c66b12c",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/README.md",
+      "sha256": "aa0cfd8295120ca65a217e6ecaecc0e4e4def56b299b00124ff24fc413e3bb76",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/REPORT.md",
+      "sha256": "700c671df04111242448c8a47234d81166edeedfa1516445798055d4a0841bae",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/SPEC.md",
+      "sha256": "9d807830f2225e4c19208e37272dcd24ebec085d6114d57d9fe39aa7dfa3a3e4",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/TRACEABILITY.md",
+      "sha256": "83127e38a18a24a54305b7fb2375da1636a74f75236635571f078ca990257fb2",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/build_airframe.py",
+      "sha256": "53b517fe3564cb6203a31ee9e700a2d340d45c5cd690d2d9c3f26e6fb110bf22",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/build_scene.py",
+      "sha256": "bf55b9278106a95efdfc76a145525d73b7102985b88a1655d11e117a104aaa24",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/build_source_ledger.py",
+      "sha256": "7c5eb25abc04d66621b9c1a8dd2d0a96467f104a03cf5f81a9f5ad27eabb8fdb",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/check_mapped_axis.py",
+      "sha256": "e35a8b3e015dae50aa0ca61abf87fa42608b0d127fa743127c3628862b220ffc",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/check_printed_grid.py",
+      "sha256": "b1b7a47c4379f17aae70bdaf4911846bcec6e3adbabd83d069c334e6c4232129",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/check_runway_registration.py",
+      "sha256": "44b05e99b4e49a24cf102d0d377abaf3db151a026ea776ae7a2935282f3598a1",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/clearance.py",
+      "sha256": "87ccd39c312914531fb962fa2d93116f8d08794f6a248a87eeedd0ec36d7104a",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/derivations/CLEARANCE_AND_REFERENCE.md",
+      "sha256": "d3f275ee86c5625fa5ac0f5b574d575f0d5a7849e18076095414af3c6d149d39",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/derivations/IDENTIFICATION_AND_SEQUENCE.md",
+      "sha256": "45c25d03ea3fb01538bbee2553037ddccdbec8bd5b4d9df11073ff19a7d29f02",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/derive_mapped_runway.py",
+      "sha256": "84b38e25592b0efd61a9c82b0fcd2068f1da475eb91c3be5f7794e27f1ab02ab",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/digitize_coast.py",
+      "sha256": "ae4df657109ba89b8e19a8a46b44b794e8f6281490ce2a00a7bcf04aef71fe5d",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/digitize_hill.py",
+      "sha256": "ace20561298a15b0609b84e37a2f48bf7929f3bd5e70837fb596707dbce20d1e",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/evaluate.py",
+      "sha256": "6da13e02db1673b7fc174d69d8681ca1ccc8c63f155033c575d5e4b6e556f6fd",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/extract_airframe.py",
+      "sha256": "bbef4578667209a3ce5523f4c122c59567b3b1f3989bf90cf563558a87a41cbd",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/followup/REPORT.md",
+      "sha256": "c6006cec52c3f77138657b5839ce62c851f55f6a096a9c013e2f4b0529d13468",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/followup/diagnose_threshold.py",
+      "sha256": "66cf46057c3d36d7891fa5f636d63a3d1c1bd9af5731e16de8e47f31334ff86d",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/followup/prior_checkpoint/README.md",
+      "sha256": "43a52ad552cba42f1eb717296c93ab2f0696540dd5d10164784ee1533193a8d6",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/followup/prior_checkpoint/REPORT.md",
+      "sha256": "48c14268afc265d3bdea69efbd9747ef6c4d192bce1a3a50d9a0b2b04b7de861",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/followup/prior_checkpoint/TRACEABILITY.md",
+      "sha256": "0e63050dd91b86d4b1b76293814486c3ab105dea4f981bb9a77d608c723b454c",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/followup/query_survey_archive.py",
+      "sha256": "15f0bad3993352d390d0246b79f99d5a979c2d7969cbe65a62e658cfade6698c",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/followup/test_diagnosis.py",
+      "sha256": "13500315aee373b3e73d86b6022ddb7b2893d7066d0942741bafbb3d6b7cd566",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/followup/verify_followup.py",
+      "sha256": "c0c20a70cca15ee443ac8080ba1cdbb90d4db49758922c9724b280d405f4ac2f",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/frames.py",
+      "sha256": "083ea658e56bf6803cfb1547c0fe9c7420dc43e7615668712ac533554cfa9f85",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/plot_evidence.py",
+      "sha256": "6cf4019b748e20a2b5bddf2e1bc92905f89d447f33e1cec16ff74478e243ca3b",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/prepare_maps.py",
+      "sha256": "66fbd16a387a6f3876f1cbf4f298f627dab207de54a7169ca4ba029c621e42e4",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/prepare_registration.py",
+      "sha256": "53b22dbda25e227b2dbe2ecd34c138930c751861d5e6d17aa1913576fc4beff3",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/prepare_south_registration.py",
+      "sha256": "1f2402e3e78ccb779a166783663b02df5d09735b8b9934208b42bc6dd2d5df93",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/records_followup/RELATIVE_HEIGHT.md",
+      "sha256": "e55f8d8e13cf63afdb3b6bbae16b5ba497a5b4d17683d6e4b52d46158536f136",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/records_followup/REPORT.md",
+      "sha256": "e750fdb07c1eaef1b8454914e9111640795679e483894176bd1555f8b534d2a9",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/records_followup/verify_records.py",
+      "sha256": "49b030a94515edbaa5f7139319b4e1aaba90fef0e1b9e209af76741fd2cb0393",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/register_runway.py",
+      "sha256": "c18636c0429631d3bca66aeff0aa5e299778e6d73d37c22d5860f1b8b8813b12",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/register_south.py",
+      "sha256": "77548f480462e1d1b293edc6a822831ae47f5b7c11fad6bc74c06026ea007a5f",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/test_frames_and_gate.py",
+      "sha256": "1f24256db25fbc5295f07c011bd802c6c5e2dee3347848402b0113e4898511a4",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/test_integrated.py",
+      "sha256": "1a7a6a88b9f56488a655af25e5c728f028c00d209ac1ec3061623f23102edaf6",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/test_source_geometry.py",
+      "sha256": "1ffa007345b790d5b22cdb66abf69be2740e6009643d553662ad63ba9de5b867",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/integrated/verify.py",
+      "sha256": "84d23724dbe3cc7afeeb828a91420076b349ec0df8fe581b1ce7a0f8a8964753",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/literature/APPROXIMATE_LANDING_NOVELTY_2026-10-13.md",
+      "sha256": "ef06c27cc45b30f97ad3bc09198ff7b3a3794b8a3a9ad4233d1c872a39e9e31f",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/literature/LITERATURE_AND_COMPARISON.md",
+      "sha256": "b167fb01d96631a749fde1cbb4a894ee257b14f0f5e0cc3520a984f26100431a",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/model/__init__.py",
+      "sha256": "6b65156957acd5c13a616a594a95d8da429b1bd513c1c31ccad3f1609a7a8006",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/model/solve.py",
+      "sha256": "2b93ae2341226f854cc0277b02a9b04e67c25ca569fa2ee0f82920ed860f6a15",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/model/test_model.py",
+      "sha256": "e10285f5d0702b1d7f13cf8446a2f9d78742b12e3c5894b3fd5c2f4efb695786",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/model/test_review_solver.py",
+      "sha256": "c730c734a50c734ca20fa2139ad26e71cb1533764a5a34748869e27aec79a80c",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/model/test_review_trajectory.py",
+      "sha256": "b116ae6250105cc889a1bb57e1f7c4efedb33605773181665442df50ae2013f6",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/model/trajectory.py",
+      "sha256": "9b557ce07c7e8f177b0b3cfac1765c1c9aec4997e28b52d3185ad533f7cf3f6a",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/APPROACH_CITY_INVENTORY.md",
+      "sha256": "197040ef3417337ec85a298d7e9f010e0d3d0a517c00ad2e20b29ce9339de0a4",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/SOURCE_REPORT.md",
+      "sha256": "509369af86e9315f33af7ac624c8cf414a51631a6de75da58042ff2a22702384",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/MODEL_REQUIREMENTS_TRACEABILITY.md",
+      "sha256": "d13a42d3ee32263cb3845c483fbe05a5c4ad431c4451ca610005437d0c41cd78",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/REPORT.md",
+      "sha256": "18add497b2e88914395fab97877805cb0cb4201fe09355cb78b1abc6954f3893",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/SPEC.md",
+      "sha256": "4c66de2cb65902c9e706856ff933bf73c9f08fa2c399d365786a259e9446ecdf",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/accept_geometry.py",
+      "sha256": "bff601460381ac376d6c21159522dbcf639cce8b91831e951a210f515d6d5a04",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/LOCAL_AFFINE_STAGE.md",
+      "sha256": "c3f0441587106e55abd72723681879828fb942a16afc8d6711acc1342c9aac5a",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/README.md",
+      "sha256": "c6d92372417f56a8b017f8da56c0ed9d59d03eabf14efcc8fc9004137e2855e1",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/build_observed_mesh.py",
+      "sha256": "ca7a3fd28a41728c22f91d5dffb5dadeb614f6f050587dd37dd5db771ff262a0",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/build_sparse_stereo.py",
+      "sha256": "625ac4d8cb5b5b5121c06b23a367074988483bedef78860764c050e4435d1736",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/dense_stereo.py",
+      "sha256": "dc6979a8a0f93bed8ef2b956f91497cc530a1122ce39f846e498279c183310fd",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/finalize_diagnostic.py",
+      "sha256": "05273369e3e9b667759d461c0986272b1f7a95048b76756cfbc48b7968dd3a15",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/height_feasibility.py",
+      "sha256": "1c9e394bcd1c9efff783d120bbab82268fd3989414ba8a539796fc202a94d899",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/measure_registration.py",
+      "sha256": "c237849d43b2900b1a028f6c04b6e78b8cd5f1ca1af0b44b43b5cc0ebe1edab6",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/render_stereo_evidence.py",
+      "sha256": "068b09f9b1b88768fefec15cf6c5cbe972bee65b5e2dcd5b352745d88c38db6d",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/stereo_guardrails.py",
+      "sha256": "1beea409e91902c3c70a05482dd63f6934a345bbe66a4b84c5d0861db1c4d7f3",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/stereo_probe.py",
+      "sha256": "b4ffddb9194af133880a2e64a679487723234a566fa345381bc470ab1921843e",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/test_stereo_guardrails.py",
+      "sha256": "3a3d7019df3e117784d7bd05f2f696ed7569a2d13abe93c9e1961433d5f75099",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/verify_observed_mesh.py",
+      "sha256": "0e8c499d349561531110f9c0fd13c2e6f28321f20d02a2d79e89b195216668a2",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/aerial_registration/verify_stereo.py",
+      "sha256": "910498a08831f37124ee18f631a7144f48ca866bfbe3708ee820d4fc35554c78",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/README.md",
+      "sha256": "20acb09df445ec5e1eeb8a0e2fde59622839ff1b8bf7471431cbb63248b8fbef",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/REVIEW_REPAIRS.md",
+      "sha256": "3665f0644191d4458f7890cbe5fa12b5a50320e97f743604afb60a3a082dfe6a",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/VISUAL_AUDIT.md",
+      "sha256": "ba65913c3e860a6f6c932a14e9fb545b7e5aa506e8b94448a219bbd7865a24b8",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/compare_invalidated.py",
+      "sha256": "f58c1c6a6f0e21f1257712b0e9f74957c42d9376fa44b20ba830018a680076d5",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/extract_candidates.py",
+      "sha256": "bcad1ae409b8fb66fe6ef4bb6266e4a888412050055760fba721be92cd405c22",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/INVALIDATED.md",
+      "sha256": "cf5d62299d8a1b31757e3cfc71d52c1d67cc2cd766f4df997a6dbfe60d816ed6",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/README.md",
+      "sha256": "a7f8e5f80cbe9ae6980ef1beb7eb31e19a8d50c7299f9911b4e5bb14052e92b5",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/VISUAL_AUDIT.md",
+      "sha256": "64c84e8cab731f83be23084f0e6cc9ed2730ed12910863ddc3cbf69c37dc80fe",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/extract_candidates.py",
+      "sha256": "045068110149219c62eace86c23b4960d7f7efd72a22b890cee32aea628db4f5",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/repair_export_topology.py",
+      "sha256": "18aab78c59d96662f99b3bbe890b773f5ba833c845a306c581d7c6d62eba9df2",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/invalidated/pre_B1_B7_B8_B9/validate_and_summarize.py",
+      "sha256": "cd44f254cf3a3041a4be4a6a91cb335e250f70b3316fe3f7f2a3326852a4ccf0",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/repair_export_topology.py",
+      "sha256": "18aab78c59d96662f99b3bbe890b773f5ba833c845a306c581d7c6d62eba9df2",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/README.md",
+      "sha256": "97c37071c5738c8d6e1f3bef1442ccd6e31db78eee07219303cdbb7bd164ebf0",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/road_cells/assign_road_cells.py",
+      "sha256": "23fba92f76bc49fdcc474464669a2440be39bf25f9a9349d529d2b049b988059",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/test_candidate_repairs.py",
+      "sha256": "33f90bf4be354452f069e53a8ea36016d69f47e21789841a358741f4ec003d55",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/candidates/validate_and_summarize.py",
+      "sha256": "6dd2c1dc908ed8418b992d4afa1d0798814e7a9596991cac8a15d6e55eb08b27",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/digitize.py",
+      "sha256": "964e20cce8a03779362fc9efb867842b2574cadbe2077c36d0cd63518c352d31",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/finalize_handoff.py",
+      "sha256": "32503caddf887d10705fe8957f8e7b8c00661a1ab195f26078a07ed9060d61d5",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/register_sheets.py",
+      "sha256": "ce2b9f57062250927696dcb3699d27798ce765d4d4c6ebaf97da54b94a1ed16b",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/registration_report.md",
+      "sha256": "c751bd91f98a4bcbdb78743d34be9ce97846fe35cca3c582e8abda15c8fcbb87",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/render_digitization.py",
+      "sha256": "051ff5970647dff7c85fcdc95acf0739cfecb6ba1a1540a837aa4e9dc6e5afc7",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/reviews/DECISIONS.md",
+      "sha256": "38feb5b3e8fe464667c500ef01cc73dcf01e2d920a1117e0e51ad9e1986aa5a1",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/reviews/acceptance.md",
+      "sha256": "f7586b265102f1ee6a727abd102a37c547941cccdba4afa101625d6e48c863af",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/reviews/blind.md",
+      "sha256": "14bbb1aa12a2c9ffe522b46ec2874c67f9a1b7c4396c9c745e5b39db319c3283",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/reviews/code_snapshot.md",
+      "sha256": "31924486c3e129d42913c95960569ee491b3b5b4bd7094cad5fce1293da9ac41",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/reviews/current_code_snapshot.md",
+      "sha256": "cc7c5b169e1a6bf5380420c6b80ffbeb976d1708f32114129c90efa68b3bb703",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/reviews/edge.md",
+      "sha256": "4c66f4b49ef16dd5ad5cc92f5511017ee95c58e663e6f3eec6875fb2d9525111",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/scene/README.md",
+      "sha256": "a1be4c2997327812a1b789f1e737342c329d8d35edc5479d974428908568809f",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/scene/build_scene.py",
+      "sha256": "0ed2a513e07a38597fef66ca205924142eda4dbf0baea9bd7d9caceedb20f606",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/scene/readable/render.py",
+      "sha256": "f0bb975ce9eb0bdf83dae35d8a7887ebe57fde5d303d36aba8d0e2847d48fd6b",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/scene/readable/spec-readable-reconstruction.md",
+      "sha256": "c9a9fefead3052397e6544aa8a8c53d3dd9748e289677511c861bb00c8a950ce",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/scene/render_snapshot.py",
+      "sha256": "7330822d999fa0485be4bded4aecb9cdfc616f082c5156c66272e14853b13136",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/scene/test_scene.py",
+      "sha256": "cf4e79e78313f293cf8a06c2891331681bb6a3e3efd707322f3a21156483de83",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/test_geometry.py",
+      "sha256": "cd28f287e2e96762830755ddb84895dfc8852b9002ee7ff87a17dd2795406b0e",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/test_registration.py",
+      "sha256": "148722a037fbd4d9f750b5a714606f46e877722fb8ce0c5dcf3b82da44d730a9",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/MODEL_REQUIREMENTS_TRACEABILITY.md",
+      "sha256": "5718e8ed1db3a3b0a5f92d40d9d01ecd11916dbb93b6ca396e6ca37b8ee2f22d",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/REPORT.md",
+      "sha256": "6a06f484eeeb20e9b6ff35d0fcb12c74efc4d96a80fc08c480ae54405c7aa11d",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/SPEC.md",
+      "sha256": "c21742b1a2b6a9b8f246034b82ccd9a537533e97b214b80d6cb2fcf559b23e97",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/README.md",
+      "sha256": "0a1641172ccbf4e746850c32f62907eebd68a8d7061ac0160814af37e171b764",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/VISUAL_OBSERVATIONS.md",
+      "sha256": "7086f0c8c96d7faf9affd2acfdb4880d0531f8d5ea0339b38106a0a8b4906d81",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/acquire_fullframes.py",
+      "sha256": "c6f320e7115d89b48ad315bfebc05329c33c244a3629b0fa52cdb7035627bcee",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/acquire_index.py",
+      "sha256": "78e0403b6c92bfdd27ce0c939150549f6ca9a8571ed1a4e62462b73475410c6a",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/acquire_previews.py",
+      "sha256": "7645ab2809e0940de097909fecf9d50f31cc0bd3237a90d7dad8f4bc9bd54e9e",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/acquire_selected_l0.py",
+      "sha256": "6217432823bb528c552abf420286b06b6e51cb142c297447f37e3e796c1b3139",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/complete_fullframe_probe.py",
+      "sha256": "74ce29ef84b401e00f8eca8675adb840471e06502911171b61dafb39b3f4aeb1",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/download_l0_probe.py",
+      "sha256": "14e4392a98abc4ff4a675545fde7ce49123461fd843ebf224f28534f92f79d87",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/validate.py",
+      "sha256": "3bef5546c818a808939913db4aa7c95882cfec6526c2c541119ffd0e2663f298",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/match_sources.py",
+      "sha256": "867dc1e6225a783f921a2d724d2fd58c7ac78c0460c1e6688a157ca60eaedc11",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/prepare_handoff.py",
+      "sha256": "993d87d3ff5e7832782ed841dd0d9b1eec904511276c8a30824c42e9c644ffb8",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/record_visual_observations.py",
+      "sha256": "48fc83cd95a490e30fca7603dba316d5590e706b8a777b4b71bf09a23872ac38",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/render_report.py",
+      "sha256": "2842ec2b0d59abfd42448713fa95d480f1218dab18573b82231df263de9e0212",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/reviews/DECISIONS.md",
+      "sha256": "2178b8bd5880141d8c5b7a6fd0a184a6741609d0701d649049365f2f2e96ee10",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/acquire_indexes.py",
+      "sha256": "81f957609da92ac11a1febbebe12af9146200da3721e5f9148cd8f923fbb1669",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/acquire_sheets.py",
+      "sha256": "7a9eb3ebd5375c4acfce4b43dacec56b8fd161f460b37d05bf1ceffee3020b95",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/sheets/render_previews.py",
+      "sha256": "c70b6c864e2d0a3dadafa99c3a1bf9e5871237e65baa9b0bcdec0514ef98f010",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/README.md",
+      "sha256": "cdb9c59201bb76f231ff33833e4cafb06684e4272a7ccea03ee15d3089f139af",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/acquire.py",
+      "sha256": "57567d7200665843cfe2285c138b220ac072de8a4d18e4b652e69d988cb2ba72",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/audit.py",
+      "sha256": "3391ea106dc6928962d59488e8212beb0dbd1052dc9b347ef9f5e6b9cbdbd7bc",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/chronology.py",
+      "sha256": "4af0d3890d8926f80da3c0c55d32b8d631b2dfd76b6a7f0317a0593c0759228e",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/review_impact.py",
+      "sha256": "9c7ebdf994b3c8dfa5dce090c4a3fff0267bf831b063ab46f1c68891aad3c933",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/review_repair_baseline/README.md",
+      "sha256": "0d591d7f7d6f7d4f2eb1eb0b8479bc9aee2ded7a9f42e90c10878bf856bd44df",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/review_repair_baseline/chronology.py",
+      "sha256": "edcb3712ccee7d2f4490477e022f0a4b38957bdaa9cfe648cf6946382b065e65",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/test_chronology.py",
+      "sha256": "ca583252c5d08a0b427aea241e3bc1b8d16aa0348cfd8dd2c9e02ab90f155ac1",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/test_matching.py",
+      "sha256": "1c000d45f5a0e6d3f315430fe33332aa3a29e5daa0dd3026c840241504b4589f",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/validate_delivery.py",
+      "sha256": "c317f25843744a3b023d82a5902b6a4dbf1e138adc9c943ed5625614b859d96c",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/fetch_sources.py",
+      "sha256": "6197fe840b60bf5e38c2119cab4acd47f63c2483629e22a3a00126e812125388",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/REPORT.md",
+      "sha256": "aaf8eae2c1e911595b5d70898752bf41726dc7918fb74400c3283d8091cb8635",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/SPEC.md",
+      "sha256": "8468db8be18fa4ef9ac66a9a327113d2a13c1b1fd1ead0b7285caa606ed3952c",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/aviation_sources/REPORT.md",
+      "sha256": "6c134df4cb5609fc0e599742c5d23b6b3e76ca6dcf6272568a0efcc945124d3c",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/build_obstacles.py",
+      "sha256": "55b542da35712292518c57790b1241b037fb38ef8f911c3b6d1790a78a99dcf1",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/extract_observations.py",
+      "sha256": "b28bb6a31bd5cad21e84c28a4c3266686404ea541e43ef9fc8a547e163dc6ae2",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/prepare_sources.py",
+      "sha256": "33ae69bfdfc9485e6f71cbfdf8dda308988fdec97c878d46d04460851d90d5e4",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/reviews/DECISIONS.md",
+      "sha256": "2bb44d202ecaf7c6218e72720bef37a1abce480fcd8ecf400a79dcbee7c16765",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/test_obstacles.py",
+      "sha256": "5ed7b98bdcfc332b0c1c44073c6b5a1fd265cb32b9c68b60ec3361eda5db2bcf",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reviews/REVIEW_DECISIONS.md",
+      "sha256": "a2b5b5ce449303630b2d6902b03a17efa238761bfeb0b49cea207f38fab0854b",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reviews/acceptance_review.md",
+      "sha256": "ca509ad1bae6861e98a384f76c7c4eff9f1db7ae2d8b9cee7ab0221cf03d52f9",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reviews/blind_review.md",
+      "sha256": "9bad33a17c92def8e9995d60c032a9e170a18486bbef49e9a09176af29aefecf",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reviews/build_package.py",
+      "sha256": "34f70d34c0c6a38f7acfd7fd00fcedd4d443602cbb2429e32d49522ded5d06cc",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reviews/edge_review.md",
+      "sha256": "f099c0c81b17e33b35374e61c8a55bd785335ba31b0dbe3b475bd6bd375e8b95",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/reviews/verify_artifacts.py",
+      "sha256": "ccca83bd704292fc015cb7786224fae2ced34f0ac63bfa985210c9bedc30ee93",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/CLAIMS_AND_GAPS.md",
+      "sha256": "84b8aabbcc6abeec46534a894535995345d554273766731ecbb73f78b8abd0bc",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/DELIVERY_RECORD.md",
+      "sha256": "0fe35ae50e1e46c5d5c28ebc3d267a2800c1127cb1c2519e68150a3ef686adfc",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/README.md",
+      "sha256": "e9c334749d5db87db52964f8b60d849689ad74a6435de8eac1d42d4cb906cc9e",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/appendices.tex",
+      "sha256": "833bb6ec05cdcfccee368c5b75fd9dfa242a5708cff4b9f925462c644c660260",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/build.py",
+      "sha256": "fcaf776a92764943f2bc2af6027bc1aaa27c5ad84e86b8ed57592253b1dec4bd",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/check_pdf.py",
+      "sha256": "3d4c00bf4b8ba6bfba252b0112a41c28fc330685eb7ee7a8c890176683931a3e",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/MODEL_EQUATIONS.md",
+      "sha256": "8c749d4b22505c91f1e0b6e9a72f17966c53d5d3565f0573aabe0851d0a1beac",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/MODEL_IMPLEMENTATION_SPEC.md",
+      "sha256": "3d8a9ce242783e357317beca0470044c00d4f62c74084cd1ffa70472815a8ceb",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/MODEL_VALIDATION_REPORT.md",
+      "sha256": "5ac1fa68810cec397d013875d534350bbf8f28d08eb0ed1d49912d253030e426",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/PROJECT_STATE.md",
+      "sha256": "ed1d5646f08190a70b7e4e945fb19ec98100e6fda3792b64d3425b31efaa777f",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/analytical/coupled/RESULTS.md",
+      "sha256": "386695fa71afc900113f123e7204966a64dfd43eb2db0faed4fb3577c30554fa",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/approximation/CLOSED_FORM_AND_BOUNDS.md",
+      "sha256": "c9905b322a0f674e48a8f3461642648496a94ff57f6cb77eda7416af6bd16c3c",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/approximation/SPEC.md",
+      "sha256": "586cdc4cd0b69d20126a5c97e19cb39937426ff9ec58498cb45412df96a83165",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/approximation/STATUS.md",
+      "sha256": "3e1f7409db0c27b1b4c493bb98f1185636d4ca48534682ef6a0b3d0ce7670a7a",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/EVIDENCE_REPORT.md",
+      "sha256": "601cc3b9c93fb1315c01a393b0b5236eb92700b834ce449a0a2531d551319b64",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "sha256": "dc026a9d7bb925109fa1a77014c2a388e79a25be55c56d9e2cf6b32c238781f3",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/flight/README.md",
+      "sha256": "2bb2c74851ac1d0f0b9bb91125eab70bdb1ce58da16ff1ddad7b042385801257",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/noaa/README.md",
+      "sha256": "64c308501364f3d9d095cebfe4612cd927d4174c96d1baf0f9279cccf549dd81",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/wind/README.md",
+      "sha256": "7ef27fc02ccdac883402a4f7b530873ca2cec90ae218bd82b38073106a2257db",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/geospatial/README.md",
+      "sha256": "1ac992bf7838fa3476067ec43c9682bcda2d62d5c9eeb04180f291060d7a7788",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/literature/APPROXIMATE_LANDING_NOVELTY_2026-10-13.md",
+      "sha256": "ef06c27cc45b30f97ad3bc09198ff7b3a3794b8a3a9ad4233d1c872a39e9e31f",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/literature/LITERATURE_AND_COMPARISON.md",
+      "sha256": "b167fb01d96631a749fde1cbb4a894ee257b14f0f5e0cc3520a984f26100431a",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/REPORT.md",
+      "sha256": "7777a06d303c56a49aba38827320b88d515f1bee52eaff67fdb125cc75a39ae6",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "sha256": "c6d92372417f56a8b017f8da56c0ed9d59d03eabf14efcc8fc9004137e2855e1",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/registration_report.md",
+      "sha256": "c751bd91f98a4bcbdb78743d34be9ce97846fe35cca3c582e8abda15c8fcbb87",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/REPORT.md",
+      "sha256": "6a06f484eeeb20e9b6ff35d0fcb12c74efc4d96a80fc08c480ae54405c7aa11d",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/main.tex",
+      "sha256": "2013b6b552003ad49e1be5824fdc642c8709c97f1f045a5107e01c47bc6201f6",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/make_figures.py",
+      "sha256": "2c44ff8ac7960f1a99420fe25ea72c6096ced1e54e08e347f3f1bec44eb9c9bf",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/manuscript.tex",
+      "sha256": "f28e4642a2f1a58ef216a8b1e1d919a0f51eea64d24e79075444d3a386baf9a1",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/references.tex",
+      "sha256": "be7499bb1cce23c3a8dff9b55be5c3434519245327225db2588bc3f581a6a887",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/CLAIMS_AND_GAPS.md",
+      "sha256": "63f9144fa5786be69ba7e13413bc2891852a86932d7c415b37ff6c8bb33ab0f1",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/DELIVERY_RECORD.md",
+      "sha256": "1b663b9ed1296f11aec39f7d11198accce133db49e663d6132c31dc500e0fcca",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/README.md",
+      "sha256": "a63af91fdba50d0c38d6e287c566d3ef9fe77b76c6204bedf34320aa65c8dae6",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/VERSION_CHANGES.md",
+      "sha256": "30c4815f0b4f68caefc436752556771ff00dc847b1baf0b67898ae478feaed28",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/appendices.tex",
+      "sha256": "7173abd6c3ba2dd1c49eec2b1fe66be449bf648d05b9c3179cb8e9f3d2bbf30b",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/build.py",
+      "sha256": "c1dc6caaa92ede1f799fd747e9b435a647c5272b2dc4cc25d39e57f7531765b4",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/check_pdf.py",
+      "sha256": "ea2a7143fa0c5c3c9370ad1d68f8bf9b67ff401de625963d906980380dc576df",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/MODEL_EQUATIONS.md",
+      "sha256": "8c749d4b22505c91f1e0b6e9a72f17966c53d5d3565f0573aabe0851d0a1beac",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/MODEL_IMPLEMENTATION_SPEC.md",
+      "sha256": "3d8a9ce242783e357317beca0470044c00d4f62c74084cd1ffa70472815a8ceb",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/MODEL_VALIDATION_REPORT.md",
+      "sha256": "5ac1fa68810cec397d013875d534350bbf8f28d08eb0ed1d49912d253030e426",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/PROJECT_STATE.md",
+      "sha256": "16ba315669dba824283eb312927a91a231e0da416a9d3492a89c9f877cd11b5d",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/analytical/coupled/RESULTS.md",
+      "sha256": "386695fa71afc900113f123e7204966a64dfd43eb2db0faed4fb3577c30554fa",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/approximation/CLOSED_FORM_AND_BOUNDS.md",
+      "sha256": "c9905b322a0f674e48a8f3461642648496a94ff57f6cb77eda7416af6bd16c3c",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/approximation/SPEC.md",
+      "sha256": "586cdc4cd0b69d20126a5c97e19cb39937426ff9ec58498cb45412df96a83165",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/approximation/STATUS.md",
+      "sha256": "efe75955636f15e8a6b1635c9f10b9b3cabc0442199faa3565f0e590798debf7",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/REPORT.md",
+      "sha256": "deb41f43c3473b0ce6e7f786cdd5f12f730c71a0c03c12abb672810da306539c",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/SCOPE_AUDIT.md",
+      "sha256": "d7df7768b51f2f8c172c0cd2c1a7f1f49962cb8a0ffb5744f55222ce7f3d0477",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/SPEC.md",
+      "sha256": "aa42d0e9812ac35d9dc3f2823beb8e535b82597c0dee5dd0cee9c5487579697f",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/calculate.py",
+      "sha256": "c9b77777356cd93cf14f97d57289bab489e109525c4056abf44111afb29be605",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/continuous.py",
+      "sha256": "c220e280115238c7f42779236a1bf41fe29e786cc58d6c6830d3fc35f7db8a8c",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/deliver.py",
+      "sha256": "30dab99db968f3d9ea3308d6d22f294b78b0ff73d47a2de682c38c51d13e36dd",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/reviews/DISPOSITION.md",
+      "sha256": "9f5d9410b58e530cdf40873454d78208aba1d370d03255b2dcb26810b8c66b4d",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/reviews/acceptance.md",
+      "sha256": "1fa8704467f7fb469131d2207067ea29c7755e3787f80368f554f30d6b04a653",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/test_counterfactual.py",
+      "sha256": "66589ebeae8ff8d64fafa91499a7ab4df91be215a931929d16b4a3967e5ebed7",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/verify_delivery.py",
+      "sha256": "e99ccee20cda1ef54a34a4631ce3d0240be1404d7e502f7042f71bc88826a082",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/EVIDENCE_REPORT.md",
+      "sha256": "601cc3b9c93fb1315c01a393b0b5236eb92700b834ce449a0a2531d551319b64",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "sha256": "ea22be6e2488bf4d322a2775a172f4ef4c2dad879c2bf6e431fb5c7fdabd3df0",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/flight/README.md",
+      "sha256": "2bb2c74851ac1d0f0b9bb91125eab70bdb1ce58da16ff1ddad7b042385801257",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/noaa/README.md",
+      "sha256": "64c308501364f3d9d095cebfe4612cd927d4174c96d1baf0f9279cccf549dd81",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/wind/README.md",
+      "sha256": "7ef27fc02ccdac883402a4f7b530873ca2cec90ae218bd82b38073106a2257db",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/geospatial/README.md",
+      "sha256": "1ac992bf7838fa3476067ec43c9682bcda2d62d5c9eeb04180f291060d7a7788",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/literature/APPROXIMATE_LANDING_NOVELTY_2026-10-13.md",
+      "sha256": "ef06c27cc45b30f97ad3bc09198ff7b3a3794b8a3a9ad4233d1c872a39e9e31f",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/literature/LITERATURE_AND_COMPARISON.md",
+      "sha256": "b167fb01d96631a749fde1cbb4a894ee257b14f0f5e0cc3520a984f26100431a",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/REPORT.md",
+      "sha256": "18add497b2e88914395fab97877805cb0cb4201fe09355cb78b1abc6954f3893",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "sha256": "c6d92372417f56a8b017f8da56c0ed9d59d03eabf14efcc8fc9004137e2855e1",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/registration_report.md",
+      "sha256": "c751bd91f98a4bcbdb78743d34be9ce97846fe35cca3c582e8abda15c8fcbb87",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/REPORT.md",
+      "sha256": "6a06f484eeeb20e9b6ff35d0fcb12c74efc4d96a80fc08c480ae54405c7aa11d",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/main.tex",
+      "sha256": "3e05072975d02edf3379d1f671ef0e78d8507385501408e92cba27a8cafc146d",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/make_figures.py",
+      "sha256": "59f0fbafaaf0a43c8cadefa8ac2e66443d7bf1b896a78ab94cbef7557a25c8b8",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/manuscript.tex",
+      "sha256": "6920475e16cd0f27c0d1b4593037ee11d88705cec2ed81eb1b96729d1561a5df",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/package.py",
+      "sha256": "2a16f726684c441bd11fd4c3be68342f6f1491a8fc29d8b2542822c73100519d",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/references.tex",
+      "sha256": "be7499bb1cce23c3a8dff9b55be5c3434519245327225db2588bc3f581a6a887",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/wind_appendix.tex",
+      "sha256": "a1d39462f28b3c3a67765251539a386b38892ae1e4d56b6bc53d75f118f4cea0",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/wind_coefficients.tex",
+      "sha256": "1d0e9dae9d705bcf3686263bbc8fbd1d8d691ac7cb940709ac367998e0f15d41",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v2/wind_results.tex",
+      "sha256": "acae6f7a437d01f6369e5b909fbe0a6508a22ce226b60915f16603d69a644852",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Proposed; copied portions, upstream restrictions and contributors require confirmation."
+    },
+    {
+      "path": "scripts/fetch_data.py",
+      "sha256": "eb28f99b65c91e8e54cc3348f3743b25ac82771be2ecc9706cb85a7132f66b12",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "9f9f145517b5d7f50d0ef8114d36375528f2935405fcd135f4c0cd5fe87af26c",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "archive/ARCHIVE_SPEC.md",
+      "sha256": "ae888c5f7f9dec891c4d9c2b6a42d7ee744aabe697fdc416d76c37d04c68cce9",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "archive/CATALOGUE.md",
+      "sha256": "90d94b6b827ede6ed88b5022b3c35130427891f10824c530e247b4afaa7637f8",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "archive/CHANGELOG.md",
+      "sha256": "9cb2bf55638f8daf22a13d04a8685f752ff77f97e4ebe99bd3a4e91b53976df6",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "archive/CITATION.md",
+      "sha256": "99ce64fceea9c9e551433769ca84603024dd7389eef304c3604c6ed934da56a5",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "archive/DOWNLOAD.md",
+      "sha256": "340eae1eddca917ce6e4394a8f354a1e5a6c9056b825db7e1d82752c20c4ae55",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "archive/PROVENANCE.md",
+      "sha256": "d381f0bd69d2c3a5e1641f5220bc05e73289c49766581c2d5ffb88c7f9281329",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "archive/PUBLICATION_CHECKLIST.md",
+      "sha256": "9905a919ca72209f746df75cdc8a4ed9eed81f65fc37d43cf0692535ec65a195",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "archive/PUBLICATION_READINESS.md",
+      "sha256": "275db12c384228d920e9322c9ff561e300573cdcb4af43f6286f1266831c828e",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "archive/REPRODUCIBILITY.md",
+      "sha256": "b25113b94d7e83d0d1653d5122e39861b99a1703a23898cc57ae4b895803f350",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "archive/SCIENTIFIC_STATUS.md",
+      "sha256": "fe825715913e4b172d660dff8ada08fe8d64e6b6d871386a2b6d5fc8bafb7ad8",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "archive/STATE.md",
+      "sha256": "76fdcb901a85b49a9df322a560adb0e48ac26fae2b622d1b26291c546b712015",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "archive/TRACEABILITY.md",
+      "sha256": "9d49e7bc68a2c7b60cb837425e4fba5cc3ba94ff0cad66a8b6a6af2c3305946a",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "archive/VERSIONING.md",
+      "sha256": "9ec5993ad72b310e0af84785d48d736ee049920f9e940b7c185dbed2aebf889e",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "archive/collections/01/README.md",
+      "sha256": "90cabbc344155b0c4c4c0e0deaccb9154651e52b15636d8b91a8906c76c5dcb0",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "archive/collections/02/README.md",
+      "sha256": "3aa79aa0b9ecc4a4da1fa97b0e3a50f28c2b49ec2e663013b9528d48c9b51230",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "archive/collections/03/README.md",
+      "sha256": "4f83d2b3482b79f04f8ec1781c80af937659adfac8299aa6a6631dfff7f74275",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "archive/collections/04/README.md",
+      "sha256": "4ef2de60ae0223bd8b51ae97945a02a85a296ab3632dceb555b19980d6b5e636",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "archive/collections/05/README.md",
+      "sha256": "0374e53f2a8648b1c3d87d208109b6044ac4c87b9200c15a8e674af2c7d1ec89",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "archive/collections/06/README.md",
+      "sha256": "d5b2046038e9c91820a7d0a1bff2d59c110eb4029d0e465882fb70d25781437a",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "archive/collections/07/README.md",
+      "sha256": "eb11395fde4738b9fc9a4bc7c226e9b353fcced44f40fb65c4ac4fb1cf9dc306",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "archive/collections/08/README.md",
+      "sha256": "8c66e5ed36754b7835b62e06830c52ddd18d1cf185151a59f7c87e115a601b04",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "archive/collections/09/README.md",
+      "sha256": "b065e0df18d04bc1a268756eca7e0fead9d09009652b5bad5c632562bed1aaeb",
+      "candidate_license": "CC-BY-4.0",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "scripts/archive_acceptance.py",
+      "sha256": "0d6c1910aa5efcbb0bf1d765fbd05983d8fc73268ca50985abef33b172953a2b",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "scripts/archive_build.py",
+      "sha256": "d7455d851f0bb7cefa5894e5e6bdb9b4df5b294f2108971974f5f6abd296d7e4",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "scripts/archive_catalogue.py",
+      "sha256": "9f1d831e7c50467611aba893548d4def6dd3b09ca1954404c61026551412cfa3",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "scripts/archive_geospatial.py",
+      "sha256": "952b11055d9c3c6db7c2aa9aa93e0fc3a4fc925f1fcc3cf710ef0c3a5961453c",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "scripts/archive_io.py",
+      "sha256": "f9c571f6554803279916863407aaad7c79bed7b2f61af52fca9a31201b290590",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "scripts/archive_package_review.py",
+      "sha256": "15fe4dadb85fcf8231367408bcd4e27df0b982fc55ab08249ead7f23e482d874",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "scripts/archive_prepare_metadata.py",
+      "sha256": "1b6807782869ad185f7639f973dbcf5899eb700766cd087bb0ccc9ee947cf9f9",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "scripts/archive_preservation.py",
+      "sha256": "ca74d3319babc49f14c0cb1edd01ea3094dfbfa35f3e0d7815b7a49733c3c058",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "scripts/archive_privacy.py",
+      "sha256": "7bbf7c9a223609fa6d16678708e2943ce5f56c75118f41fb6ef66f108d65ac5e",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "scripts/archive_refine.py",
+      "sha256": "4257236d11484822f10782be0bb67c7af699b26d0c280a01d41bdcf74072cfdf",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "scripts/archive_reproduce.py",
+      "sha256": "0d2fe6198fcea45b361854d03f210206cb6c163ab43915db939a43a21f60e9a9",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "scripts/archive_source_links.py",
+      "sha256": "9da2ab63bb0d5be446fd6d019822293be11dad91a134d97b5542e9c5038e8522",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "scripts/archive_validate.py",
+      "sha256": "4586da31eb4334e66d86ebd79390fef98af5f4617648dcfef68f08e236a3c8ee",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "tests/test_archive_catalogue.py",
+      "sha256": "24dbfa8f12da9e23dbf98daa9e999a5133d477be38def4a7742f0f8dd305f725",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "tests/test_archive_io.py",
+      "sha256": "2ed205d9a092ad168446d52bd1dddaee2135bf286161daeaafe653e2bd514873",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    },
+    {
+      "path": "tests/test_archive_metadata.py",
+      "sha256": "1011f2e636e319a6421a6886e51e77864c09bb69cf8f27014d0c22cd7abd19af",
+      "candidate_license": "MIT",
+      "approved": false,
+      "authorship": "Archive curation prepared for Aryan Ayyar; human approval required. No upstream work relicensed."
+    }
+  ],
+  "excluded": "All third-party expression, supplied photograph, mixed-rights figures and unknown authorship remain outside a new grant. Exact final source commit is also required before approval."
+}

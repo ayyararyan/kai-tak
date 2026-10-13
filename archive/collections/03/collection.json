@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "id": "03",
+  "title": "Terrain and Geospatial Data",
+  "dataset_ids": [
+    "kt-dtm5-original",
+    "kt-geodetic-frame",
+    "kt-support-03"
+  ],
+  "citation": "Ayyar, Aryan (2026). Terrain and Geospatial Data. The Kai Tak Historical Research Archive, candidate v1.0.0, collection 03.",
+  "file_count": 47,
+  "permitted_bundle_files": 3,
+  "release_manifest": "../../releases/v1.0.0/collections/03.json"
+}

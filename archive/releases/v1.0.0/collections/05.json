@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "archive_version": "1.0.0",
+  "collection_id": "05",
+  "files": [
+    {
+      "path": "research/checkers-runway13/evidence/weather_feasibility_2026-10-13/NOAA_450070-99999-1993.gz",
+      "bytes": 127633,
+      "sha256": "617c7db4f19c3aaacef91ae8a688c0aab196cdfc7ddfba72857c8e70056d66e0",
+      "artifact_id": "artifact-e27fa57169449af75f34",
+      "dataset_id": "kt-noaa-raw",
+      "rights_id": "rights.noaa.isd",
+      "publication_decision": "Redistribution permitted"
+    }
+  ]
+}

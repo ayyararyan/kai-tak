@@ -1,0 +1,41 @@
+{
+  "verified_utc": "2026-10-13T16:42:06.978905+00:00",
+  "scope": "isolated scratch copy; originals unchanged",
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "decode_noaa.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"record_count\": 8549,\n  \"nov4_count\": 24,\n  \"rank_subset_count\": 8360,\n  \"event_comparisons\": [\n    {\n      \"datetime_utc\": \"1993-11-04T03:00:00Z\",\n      \"noaa_direction_deg\": 70.0,\n      \"noaa_speed_kt\": 20.99352051835853,\n      \"noaa_gust_kt\": 34.01727861771058,\n      \"cad_appendix5_direction_deg\": 70,\n      \"cad_appendix5_mean_speed_kt\": 21,\n      \"difference_speed_kt\": -0.006479481641470386,\n      \"scope\": \"consistency only; same reporting stream may feed both sources; clocks/instruments not independently established\",\n      \"all_year_normal_routine_rank\": {\n        \"n\": 8360,\n        \"threshold_mps\": 10.8,\n        \"below\": 8285,\n        \"equal\": 17,\n        \"above\": 58,\n        \"percent_below\": 99.10287081339713,\n        \"percent_at_or_below\": 99.30622009569377,\n        \"meaning\": \"empirical record rank in declared observed subset; no probability interpretation\"\n      },\n      \"same_clock_hour_normal_routine_rank\": {\n        \"n\": 348,\n        \"threshold_mps\": 10.8,\n        \"below\": 343,\n        \"equal\": 3,\n        \"above\": 2,\n        \"percent_below\": 98.5632183908046,\n        \"percent_at_or_below\": 99.42528735632183,\n        \"meaning\": \"empirical record rank in declared observed subset; no probability interpretation\"\n      }\n    },\n    {\n      \"datetime_utc\": \"1993-11-04T04:00:00Z\",\n      \"noaa_direction_deg\": 70.0,\n      \"noaa_speed_kt\": 20.99352051835853,\n      \"noaa_gust_kt\": 40.043196544276455,\n      \"cad_appendix5_direction_deg\": 70,\n      \"cad_appendix5_mean_speed_kt\": 21,\n      \"difference_speed_kt\": -0.006479481641470386,\n      \"scope\": \"consistency only; same reporting stream may feed both sources; clocks/instruments not independently established\",\n      \"all_year_normal_routine_rank\": {\n        \"n\": 8360,\n        \"threshold_mps\": 10.8,\n        \"below\": 8285,\n        \"equal\": 17,\n        \"above\": 58,\n        \"percent_below\": 99.10287081339713,\n        \"percent_at_or_below\": 99.30622009569377,\n        \"meaning\": \"empirical record rank in declared observed subset; no probability interpretation\"\n      },\n      \"same_clock_hour_normal_routine_rank\": {\n        \"n\": 355,\n        \"threshold_mps\": 10.8,\n        \"below\": 351,\n        \"equal\": 1,\n        \"above\": 3,\n        \"percent_below\": 98.87323943661971,\n        \"percent_at_or_below\": 99.15492957746478,\n        \"meaning\": \"empirical record rank in declared observed subset; no probability interpretation\"\n      }\n    }\n  ]\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "-v",
+        "test_decode_noaa.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_actual_event_fields_and_lengths (test_decode_noaa.DecoderTests.test_actual_event_fields_and_lengths) ... ok\ntest_empty_source_identity_refused (test_decode_noaa.DecoderTests.test_empty_source_identity_refused) ... ok\ntest_every_row_metadata_and_year_checked (test_decode_noaa.DecoderTests.test_every_row_metadata_and_year_checked) ... ok\ntest_gust_not_parsed_from_remarks (test_decode_noaa.DecoderTests.test_gust_not_parsed_from_remarks) ... ok\ntest_metadata_failure_precedes_output_mutation (test_decode_noaa.DecoderTests.test_metadata_failure_precedes_output_mutation) ... ok\ntest_missing_sentinels_not_numeric_extremes (test_decode_noaa.DecoderTests.test_missing_sentinels_not_numeric_extremes) ... ok\ntest_negative_temperature_and_scale (test_decode_noaa.DecoderTests.test_negative_temperature_and_scale) ... ok\ntest_pinned_source_accepts_original (test_decode_noaa.DecoderTests.test_pinned_source_accepts_original) ... ok\ntest_suspect_retained_but_not_accepted (test_decode_noaa.DecoderTests.test_suspect_retained_but_not_accepted) ... ok\ntest_tampered_source_refused_without_output_mutation (test_decode_noaa.DecoderTests.test_tampered_source_refused_without_output_mutation) ... ok\ntest_unknown_and_truncated_additional_fail (test_decode_noaa.DecoderTests.test_unknown_and_truncated_additional_fail) ... ok\ntest_zero_is_not_missing (test_decode_noaa.DecoderTests.test_zero_is_not_missing) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.012s\n\nOK\n"
+    }
+  ],
+  "checks": [
+    {
+      "file": "observations_1993.csv",
+      "fresh_sha256": "104b2fc2e2e7cdf3ebb2cda338dfebac948a76f95630595242ececf0ce14ef4c",
+      "existing_sha256": "104b2fc2e2e7cdf3ebb2cda338dfebac948a76f95630595242ececf0ce14ef4c",
+      "byte_identical": true
+    },
+    {
+      "file": "observations_1993-11-04.csv",
+      "fresh_sha256": "ee619b6c154678b69b197e0ad5205704255d28682f5904aefe08f84093abc01b",
+      "existing_sha256": "ee619b6c154678b69b197e0ad5205704255d28682f5904aefe08f84093abc01b",
+      "byte_identical": true
+    }
+  ]
+}

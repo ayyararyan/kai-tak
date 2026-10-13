@@ -1,0 +1,1204 @@
+{
+  "schema_version": "1.0.0",
+  "archive_version": "1.0.0",
+  "collection_id": "02",
+  "files": [
+    {
+      "path": "research/checkers-runway13/geospatial/derived/Kowloon_KaiTak_buildings_20260921.geojson",
+      "bytes": 71966641,
+      "sha256": "b764e11af1b1a3b225756e142251977508b357f4542e728444a03d28152f1a57",
+      "artifact_id": "artifact-d477028d875ea3ed71f0",
+      "dataset_id": "kt-modern-buildings",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/geospatial/raw/Building_20260921.geojson",
+      "bytes": 397075244,
+      "sha256": "dcb873553b47f70797f2d28c5933d3ecf7a2478d39a9ba6c58db7a66fec8d8d4",
+      "artifact_id": "artifact-a2d24a7afc5da14acede",
+      "dataset_id": "kt-modern-buildings",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/BuildingRelateOPStructure.json",
+      "bytes": 4930508,
+      "sha256": "c9fbd90cf43cf1591e7bfd1e1b9ee8c3c5d2b60e790146c9e0c10da6d6a35f31",
+      "artifact_id": "artifact-68eb459be2a9fbcaace0",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/BuildingWorksHistory.json",
+      "bytes": 26047578,
+      "sha256": "d8427e28d6c134460e6278bbedc30466819ade481edc14854e02fce39a9dd204",
+      "artifact_id": "artifact-1a04f196e4b2735c28ad",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/OP.json",
+      "bytes": 2944490,
+      "sha256": "1fcf0e0a960e6da0a3191fa1937ef971fe5cdd60ce6b3f11ece3b4a372c53cee",
+      "artifact_id": "artifact-b2b01473b8ac817af911",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/OPStructure.json",
+      "bytes": 12014509,
+      "sha256": "d891c1ff44d6a422b212d680000c989e37dc7f0886b896a3750fa708b1beb0fc",
+      "artifact_id": "artifact-e7ecc29fa11c7b6468f4",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingRelateOPStructure/count_after.json",
+      "bytes": 15,
+      "sha256": "3d5a8c92067636a8bd39c0469f77b5608396612843fe38f73235ba44a9666771",
+      "artifact_id": "artifact-1698bc04147610675189",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingRelateOPStructure/count_before.json",
+      "bytes": 15,
+      "sha256": "3d5a8c92067636a8bd39c0469f77b5608396612843fe38f73235ba44a9666771",
+      "artifact_id": "artifact-26dcfe91008a52d10e8a",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingRelateOPStructure/ids.json",
+      "bytes": 309034,
+      "sha256": "1816def5ab043c4a5d405e21975391b6ae7a27a673bb826a8e567f9fea11772a",
+      "artifact_id": "artifact-7d5e1ead7fe5d02bb9e0",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingRelateOPStructure/metadata.json",
+      "bytes": 3132,
+      "sha256": "4b367436fbb74a80d7ab92e5cecb3a9086a442ee7fb07ca1cb8fccdb418cf168",
+      "artifact_id": "artifact-db5c2a3695d01ff97348",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingRelateOPStructure/page_000000.json",
+      "bytes": 301951,
+      "sha256": "1be4da66c138dfe983a5f1fc0ac47094a766d90198717c3e86161b5dc7fa80ac",
+      "artifact_id": "artifact-0ae38284b5726043898c",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingRelateOPStructure/page_003000.json",
+      "bytes": 302467,
+      "sha256": "7f7774350c1075ee56c6c8e020b3faac0e7b1f84a07b3748a2170e4cf96a229e",
+      "artifact_id": "artifact-fdfb6eff6b169e924aba",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingRelateOPStructure/page_006000.json",
+      "bytes": 302165,
+      "sha256": "639722c108bcae0db1b13f3ef72b0ec1bea5b1830ebae13a6a01003f620f5b20",
+      "artifact_id": "artifact-c778f6ecb4d1d38eb67e",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingRelateOPStructure/page_009000.json",
+      "bytes": 303333,
+      "sha256": "b1ddba67a12fa493a6eefe59bb7322400a12d9c7fac51eefcb6c0c86631e57b5",
+      "artifact_id": "artifact-0e1f4c67374952ec771c",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingRelateOPStructure/page_012000.json",
+      "bytes": 304061,
+      "sha256": "9ce1fbd5d6699388de58863de8c850c891a032dfc3e9c04cf67b933675a05d6e",
+      "artifact_id": "artifact-62dacb73a099498db1c5",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingRelateOPStructure/page_015000.json",
+      "bytes": 303877,
+      "sha256": "b5d46a203ddd9b7f83228553b396d476b01a04be8ccfadb80f684ee7d6467483",
+      "artifact_id": "artifact-a2e48b69f28949d0b70e",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingRelateOPStructure/page_018000.json",
+      "bytes": 304709,
+      "sha256": "6dd216a07fac6155ebdf721280356ed31875c7f0ab3eb1b752dab61c2aa558cf",
+      "artifact_id": "artifact-578f4090c2ce6388a981",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingRelateOPStructure/page_021000.json",
+      "bytes": 305195,
+      "sha256": "c85ac38636b49614acbdc9574d32b546d49aedc546a96da39ba6d14521c584c1",
+      "artifact_id": "artifact-902920ec8a68820ce72c",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingRelateOPStructure/page_024000.json",
+      "bytes": 305347,
+      "sha256": "f1207da0cd4be834cfb9962b2d1359b915c7bfa29fbeb9e9b683e4b1551706d9",
+      "artifact_id": "artifact-e985c68fa6e9979f6573",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingRelateOPStructure/page_027000.json",
+      "bytes": 305716,
+      "sha256": "aeb1bb2ebd3cdab16c1514a4836c9df2a8a5b4bf80397a9e122bf93869d01251",
+      "artifact_id": "artifact-d98b6976126cf2e31911",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingRelateOPStructure/page_030000.json",
+      "bytes": 305660,
+      "sha256": "6b988d48deed3c2b6f37e05c33a1f420f0a74a417bbed853635e22e71b84ffab",
+      "artifact_id": "artifact-7802b064636482f237e1",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingRelateOPStructure/page_033000.json",
+      "bytes": 305097,
+      "sha256": "096dbfe7d14551ecb29c6c2fc4acd83357085f266fce17e8859f4b9d4a7de891",
+      "artifact_id": "artifact-adf2c9f06dd2f48b9e6f",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingRelateOPStructure/page_036000.json",
+      "bytes": 305056,
+      "sha256": "17aba6820ab3e2f5c32fa17b3e1c698609a2a5cf68750a39f5aeab71ce110d04",
+      "artifact_id": "artifact-26e277a028f65f564f84",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingRelateOPStructure/page_039000.json",
+      "bytes": 305001,
+      "sha256": "7a4948646402e28f9daeb1e143060b94d41cafec79ff1533b8eb3a498cfb4a7f",
+      "artifact_id": "artifact-227afe5c6d2dcf357c94",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingRelateOPStructure/page_042000.json",
+      "bytes": 305304,
+      "sha256": "367895ff96161e38b0a94c5fef746343759a5580db8625032196d79ec9a7b46e",
+      "artifact_id": "artifact-57c56ea70bbb4ddfcb76",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingRelateOPStructure/page_045000.json",
+      "bytes": 305985,
+      "sha256": "e8e78e143279faa8dafc80d0bf1c64b3143a29f71ba640b5d36d8f5982a1e3ae",
+      "artifact_id": "artifact-f4a3642fcb3081d2a4c5",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingRelateOPStructure/page_048000.json",
+      "bytes": 306225,
+      "sha256": "fa59c7ea9d571ac91b8181eeeef63676c7d50543e7425167263ac0642487fed0",
+      "artifact_id": "artifact-a65675da3985bc7eae85",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingRelateOPStructure/page_051000.json",
+      "bytes": 239843,
+      "sha256": "f86dff22e42593408c72698e2e612abe9d0537c6f40ebc9546bbe290b1a34ad2",
+      "artifact_id": "artifact-3ff8a426a0fbf0b40904",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/count_after.json",
+      "bytes": 16,
+      "sha256": "5febea6c1ee15b7c62e3db7cf1ba846aa091693350c511f394b9e684d48fd054",
+      "artifact_id": "artifact-45442b52a39df95dbdcc",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/count_before.json",
+      "bytes": 16,
+      "sha256": "5febea6c1ee15b7c62e3db7cf1ba846aa091693350c511f394b9e684d48fd054",
+      "artifact_id": "artifact-f53ba373934a4ea0545a",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/ids.json",
+      "bytes": 1065235,
+      "sha256": "e752231f68a9a0da6bacd2b50bcf5fbfa2a5a2c313442fa2e9cc3a24505b2c69",
+      "artifact_id": "artifact-0e9b9ee7bae54d5381d7",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/metadata.json",
+      "bytes": 3369,
+      "sha256": "bde71fbd02d0a28672492b1c90b53ff4b1d96c22aab6e70afcac93338ab8826f",
+      "artifact_id": "artifact-368f9575c42f0987dec7",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_000000.json",
+      "bytes": 557836,
+      "sha256": "84735bfeb8b745d593df38c07d6e52f81059fe3d61e0d7226824f6c39f7ffdfe",
+      "artifact_id": "artifact-b569dce7ac6d73abbcc4",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_003000.json",
+      "bytes": 556892,
+      "sha256": "0ec09ee3a49061939ea6f3b24af331af4aeb43929d11ad18928aec464e55d848",
+      "artifact_id": "artifact-caa0a0b9670eaeddaf1c",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_006000.json",
+      "bytes": 557612,
+      "sha256": "2ad608a4d5e93f2db0f40cf3b9a3e742d6456973ac3ee11762fe9cbb4d252db3",
+      "artifact_id": "artifact-3a688d18f9d3266bb49a",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_009000.json",
+      "bytes": 558459,
+      "sha256": "c517173004b05c44220ed6555cca3d1effbaf04130e1723ac80e38a1ac85046d",
+      "artifact_id": "artifact-86e1b488e3c9bb8a52a1",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_012000.json",
+      "bytes": 559414,
+      "sha256": "5d94d39ae9e2ae029adfbed0027d629f230fba6aab97e74c5641b9db780433eb",
+      "artifact_id": "artifact-b49e1178617cb95abdcf",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_015000.json",
+      "bytes": 558126,
+      "sha256": "ec12a0c85bfbcc8ec72723c15c7aef1967c3078d7ceb5e83042ba4541e0b94ff",
+      "artifact_id": "artifact-c7fa416d314ce271fc5a",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_018000.json",
+      "bytes": 559514,
+      "sha256": "9ea20786a62e270da0a8247a2bb66f031e24811f34378de9ff45a2879d660ac1",
+      "artifact_id": "artifact-ba0c20e5fee453d70ffb",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_021000.json",
+      "bytes": 559318,
+      "sha256": "fd84b73a9a479a798e965bca4aca7cdd425b070bd3f45e54b0f2fccac1a5cb53",
+      "artifact_id": "artifact-10f61c8a49d9784b5556",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_024000.json",
+      "bytes": 561842,
+      "sha256": "849b6c3f2c0bbe777ca7eec9e2e21450519735091887f90c5b9735554e8d8946",
+      "artifact_id": "artifact-20d38357bdd2e780d26a",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_027000.json",
+      "bytes": 562402,
+      "sha256": "1953c8cb97c40c5f038a1f4ce28f7419f6480fe5cb4e7cb56686bc1eb3cd8867",
+      "artifact_id": "artifact-db3d0317a2fb16a0ad05",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_030000.json",
+      "bytes": 562500,
+      "sha256": "7f6e5ecf5c64aac875262d357f2924b641c5b43665319359994cb05b14b059b7",
+      "artifact_id": "artifact-ba3b1457ad42d0e7e921",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_033000.json",
+      "bytes": 564196,
+      "sha256": "b2734b07f85937d082f3d0a81db4a4f15fb2142d83f4741aad8444fff8b3a52a",
+      "artifact_id": "artifact-445f2be159a127e46ea3",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_036000.json",
+      "bytes": 562862,
+      "sha256": "8767a9856b8240ea474967a1773182db86b89359e7d1c4b6a79da76609b2becd",
+      "artifact_id": "artifact-8505bfd41ac24361d40b",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_039000.json",
+      "bytes": 563946,
+      "sha256": "176b494c2c541e0395ae27e5fe6d153862683637e4d1c04c0484239f19a8d52e",
+      "artifact_id": "artifact-e62cc97a52782c3dbc6a",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_042000.json",
+      "bytes": 560644,
+      "sha256": "399b555b27a576fb45feadd80e2b9e4047f6e22649af6aebc74c2c480f9a75d5",
+      "artifact_id": "artifact-eabb2095cdc93cf59857",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_045000.json",
+      "bytes": 562118,
+      "sha256": "d4bc685dfbe1fb7c83ffca3bde123688bd40c3d95d78ff8634bbb21b8581a450",
+      "artifact_id": "artifact-c561a8981fd52f876a23",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_048000.json",
+      "bytes": 563086,
+      "sha256": "7039997c7e1ef135e661cc4442b276f7fc71e10f13843c3b7248512fc64adc2f",
+      "artifact_id": "artifact-a50b54a00aa583e688ff",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_051000.json",
+      "bytes": 562564,
+      "sha256": "c38764d027f2d6d3eded5959e11299fdbf5cb1ab438beee870890ba454cdc607",
+      "artifact_id": "artifact-e01d7436390049c1225a",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_054000.json",
+      "bytes": 562268,
+      "sha256": "dbcef14f61faf775b0e863a2d3cc7cbe5290eaa8b8aee34ef54e821445393abd",
+      "artifact_id": "artifact-6b56adaf2d94596afe94",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_057000.json",
+      "bytes": 495910,
+      "sha256": "94922be655d547e6d5976a0f9e9b94c43bf355e237a1c2f8d7ceb1b7dcb5ee75",
+      "artifact_id": "artifact-f077252ae44b420fb0e4",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_060000.json",
+      "bytes": 446606,
+      "sha256": "aea6446f8a3bad5cea9dfd08e238409bd2afcd824de12639d4c49a09b968b8e0",
+      "artifact_id": "artifact-5e0dfe116066d4009287",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_063000.json",
+      "bytes": 435537,
+      "sha256": "2e1a6a8376444014a2f9620686d0a0a29ed69c94c33815a0d8500be574624a4a",
+      "artifact_id": "artifact-0e82dcb24d9f14ed18e9",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_066000.json",
+      "bytes": 435574,
+      "sha256": "1c47734cd4ddeaea4a110c2c020afdfa9dec722e92dbb08ba28b52da40c3b073",
+      "artifact_id": "artifact-6818b931f3eca8501307",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_069000.json",
+      "bytes": 435526,
+      "sha256": "615b144cc8ec513ef92e1453d165561e7eb3e4bf7480d1c98b15f44e19d8d80c",
+      "artifact_id": "artifact-884256b8af092eee8fde",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_072000.json",
+      "bytes": 435518,
+      "sha256": "db6183476d40ff592e87fea5410cb16e1350aa734979708dfba67db8255d9162",
+      "artifact_id": "artifact-1c7dea73e432c9c1b9be",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_075000.json",
+      "bytes": 435545,
+      "sha256": "edc823fabfa3ea22c82ddbe08e39e2640efcafd3aed2889084da9c96df19e244",
+      "artifact_id": "artifact-0b5e7b19da95fc4832ab",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_078000.json",
+      "bytes": 435526,
+      "sha256": "10f50a687093a180ec5c05348afcfdf3555a42715f7b42e1d42b5676af6b6bd9",
+      "artifact_id": "artifact-4f0b543850a09af0668d",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_081000.json",
+      "bytes": 435537,
+      "sha256": "13f96b00ca4cce95188e4d287214b1372471f9e97a642d0d87d2484934656cd2",
+      "artifact_id": "artifact-d6fa6843b1db107a5500",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_084000.json",
+      "bytes": 435559,
+      "sha256": "e7cd046718638755875edfb3f2165e6b7e3b1ae2bcae2272346dc7d1e498e320",
+      "artifact_id": "artifact-37f89f0d040c657e7bea",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_087000.json",
+      "bytes": 435567,
+      "sha256": "b02ad51a22214b5fa466098ed7501b53edab93be5756341634a0cfefbdd599c2",
+      "artifact_id": "artifact-88a93439e652225ef62f",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_090000.json",
+      "bytes": 435548,
+      "sha256": "2f458ad6408171e1d89993c45969cb8a0a5a07b991429425d190b79592de8695",
+      "artifact_id": "artifact-ff2fc709ad9be0477b88",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_093000.json",
+      "bytes": 435518,
+      "sha256": "5f7c1e38f1eecdc4d03ee920ff793af7431d9bafc81a451c5b875f5d4b5d45ab",
+      "artifact_id": "artifact-0b83ea1860a545094fe5",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_096000.json",
+      "bytes": 435556,
+      "sha256": "994146e4f56aaa91d409eb35b769dfc5b9847122f1cdfa706fc3a68a1f6f090f",
+      "artifact_id": "artifact-e52c9a2fd10a23719406",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_099000.json",
+      "bytes": 437538,
+      "sha256": "d04052d0e3c8723fcc614271e108b96fc5d6b6780e1cb5086afd8ca17a76eaa6",
+      "artifact_id": "artifact-0cbdbceaf580e402d3b0",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_102000.json",
+      "bytes": 438548,
+      "sha256": "cc169e741d57412e4cfc7c9d691ed96560145ed213e94c4595db9ccfe6490025",
+      "artifact_id": "artifact-bf538c0683bc203f9cc5",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_105000.json",
+      "bytes": 438608,
+      "sha256": "3ca754c745a97e51580cb6768909f6eacb10d4abbfa8ec647eaf5d45f0307dc8",
+      "artifact_id": "artifact-1751cfe0584651bdcc55",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_108000.json",
+      "bytes": 438548,
+      "sha256": "9c852b4999589ee210b8b008a9105d17ee882298ea8896e5d885fd045f41a429",
+      "artifact_id": "artifact-ecea9eefa2e205db8b00",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_111000.json",
+      "bytes": 438529,
+      "sha256": "e0f79a1de53117b13adc2b2fe9f89187caf616bfd5e2ec89becf62cde6d94d84",
+      "artifact_id": "artifact-c43f60a64bde09194dc6",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_114000.json",
+      "bytes": 438548,
+      "sha256": "f1cb99eaf483124fef9d9704f7105fc0912bfee93032ab143f700fd508da4616",
+      "artifact_id": "artifact-1f4f58f7a8504987684b",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_117000.json",
+      "bytes": 438518,
+      "sha256": "9634d9aaa11cb7c088af3c22a5b502dfc7a51bd8010aabb457b5330bd7cfa0b6",
+      "artifact_id": "artifact-0202836193227a0cc9d9",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_120000.json",
+      "bytes": 438518,
+      "sha256": "e9e7f7f7d0ebd3cb1aa4edf00fba347d6519dfd28f6cbac17bf90b6703b112ad",
+      "artifact_id": "artifact-5d45731743f3ee468b96",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_123000.json",
+      "bytes": 438537,
+      "sha256": "0b4d27f2ba8acf2a37a8996780dd91323018d7a309a6862244640a4dd0136c9b",
+      "artifact_id": "artifact-08490c130dfd840c5ab0",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_126000.json",
+      "bytes": 438537,
+      "sha256": "6989fe9fdbdd32bf6767aa0ff18fed587ad8b6ba50bca6cda4698ff3dffd91ac",
+      "artifact_id": "artifact-281274c42ae0d982b0ed",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_129000.json",
+      "bytes": 438537,
+      "sha256": "99cc977c43ccf61cdb012d3cdb16f27227ec22d2453f56ae50935ea2b0740234",
+      "artifact_id": "artifact-da044ff2969c89860e8d",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_132000.json",
+      "bytes": 438526,
+      "sha256": "a3def1214915fb6027b7a05872c2faca0352d7aafba1df9b083c02404f295d54",
+      "artifact_id": "artifact-d99b8dbba1c37a92d9a6",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_135000.json",
+      "bytes": 438548,
+      "sha256": "9f4f5659773405d32ce59d901f3f3bdf2b9e0b1a117a5725799109a489889522",
+      "artifact_id": "artifact-9b2097e5ceac3c51346c",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_138000.json",
+      "bytes": 438556,
+      "sha256": "8be0016dc06b02a4f3192373f8733a25bf6335938900daecca6c86f2858dd83a",
+      "artifact_id": "artifact-8738afcbc8e104cef83f",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_141000.json",
+      "bytes": 438526,
+      "sha256": "5bcf3acd2f42cb33a2cb013a085576fc733a53bbbd3cee6b3750d09949000875",
+      "artifact_id": "artifact-c519b34fb24a396efb9f",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_144000.json",
+      "bytes": 438518,
+      "sha256": "7583408895371b60b8fe2e4ce0a6ee8edd1fdf74c68bddbd4b5e5ef6f6a88051",
+      "artifact_id": "artifact-d6718d8f7cd003d38907",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_147000.json",
+      "bytes": 438518,
+      "sha256": "5e812487af303d166d1f8caba37dbf4fd8edafb49c72ef905a99d3e4399b4c7a",
+      "artifact_id": "artifact-c3b5842ae210e46732e2",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_150000.json",
+      "bytes": 438518,
+      "sha256": "de45b8f49aac9e13d846ee712a0fb592bc04b9b0c75961fa28ad64f728dca57b",
+      "artifact_id": "artifact-3132612ce7d652a0538c",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_153000.json",
+      "bytes": 438518,
+      "sha256": "fb1097df93b3fa78b763e26608d01ff956c0f5950797765aee708ec606dd7c55",
+      "artifact_id": "artifact-dd07be834c85bbdddb94",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_156000.json",
+      "bytes": 438518,
+      "sha256": "c84600efd333d18a780a78b50e83f5868369c0df2f202272c985eb53fe4b043e",
+      "artifact_id": "artifact-e454dc0c35a836ba39a2",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_159000.json",
+      "bytes": 438510,
+      "sha256": "7642cf0580566f917803ef57660c39935174f8bc52055e3d01eea1504a8ac980",
+      "artifact_id": "artifact-16bc943049bc13e78964",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_162000.json",
+      "bytes": 438518,
+      "sha256": "5ad3a642c2a9add6cca7eccf49ee88d8c290981130c93ef956f4ab831faf453a",
+      "artifact_id": "artifact-9d34d1f55591eef28972",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_165000.json",
+      "bytes": 438968,
+      "sha256": "fce4973237c1ee6e4494deeedcef44c85afbaefbd9966d28736ca3baf4f97f82",
+      "artifact_id": "artifact-1fa7f7e7c7928f3790b3",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/BuildingWorksHistory/page_168000.json",
+      "bytes": 6951,
+      "sha256": "e4bba3b3daff08f0d28c09edc7c08f1a12ef2264aa070cfe690c9813f0217adc",
+      "artifact_id": "artifact-15e6330248fc7b545263",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OP/count_after.json",
+      "bytes": 15,
+      "sha256": "7acc1fdbd8c144d952a8a13585f21de9b8da008e7bfd452a62be1305d9bb1a29",
+      "artifact_id": "artifact-c023b0c775681978b311",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OP/count_before.json",
+      "bytes": 15,
+      "sha256": "7acc1fdbd8c144d952a8a13585f21de9b8da008e7bfd452a62be1305d9bb1a29",
+      "artifact_id": "artifact-1ebf35344c490ecbf2db",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OP/ids.json",
+      "bytes": 135754,
+      "sha256": "1b242aa526822c698d565c23f50bd449d5d596bb7519069a51a0aa04f83288ee",
+      "artifact_id": "artifact-6e9658c18d4b275c361d",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OP/metadata.json",
+      "bytes": 3394,
+      "sha256": "b70fdf0044987b3d20699703ddc0122f9724a182c55620b351a721096d9c4287",
+      "artifact_id": "artifact-dd67c98299f569e0e2c9",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OP/page_000000.json",
+      "bytes": 375919,
+      "sha256": "7103de86c4632840daf24222f26ad86febc7b2307a3c51e5ba036a64f03c9b27",
+      "artifact_id": "artifact-b839bfff349930bf6d9b",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OP/page_003000.json",
+      "bytes": 376303,
+      "sha256": "698201b37d2f30f93ae6259894d4bc2e3652f4acacb01c0c5662f4a5b9a2bd05",
+      "artifact_id": "artifact-4ef0ff40d9c28fd1ed41",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OP/page_006000.json",
+      "bytes": 378024,
+      "sha256": "5b4777f465ca58ec48f3b31ea2664bc76afa4c63daf5fe1b766cffb59531b6f2",
+      "artifact_id": "artifact-02f0f7eb83f4daeebcb6",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OP/page_009000.json",
+      "bytes": 380176,
+      "sha256": "21a0d19c5289cb9d87f79b3de7399d1cc88af806335c68b4175ab30587be2abe",
+      "artifact_id": "artifact-24f2b5d018ea9e22389d",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OP/page_012000.json",
+      "bytes": 381428,
+      "sha256": "a6496c94bc19049003d0b04bb0fd1942d8f0400d2057bd4a098129cf8c2953a4",
+      "artifact_id": "artifact-5b62f9949061381f21f3",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OP/page_015000.json",
+      "bytes": 380004,
+      "sha256": "862b5052b3586a61ac626fbaa0716a14206dcd1c2d70ef856883f34a1220ecd4",
+      "artifact_id": "artifact-e5efd8c5c62820403a1c",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OP/page_018000.json",
+      "bytes": 380363,
+      "sha256": "6d7b2303dff9c9065a9614596d374dca7a050b0690e32f8b7f43defa82a7ac18",
+      "artifact_id": "artifact-13efd198f34b0609ddf8",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OP/page_021000.json",
+      "bytes": 380478,
+      "sha256": "da9679cc61c7b0f2a914dabca55608da15ee0b1ae4eb986135c081c684905db9",
+      "artifact_id": "artifact-b1210d2f3f5adde854c6",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OP/page_024000.json",
+      "bytes": 61233,
+      "sha256": "5b5790bbe0a9ab9388dfaad7f9de4391ca37bef66ca6824ccc1a7d0d1aac7621",
+      "artifact_id": "artifact-536c2a27ce600bb33cc9",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/count_after.json",
+      "bytes": 15,
+      "sha256": "309b7acf7e743e44a7f2fe745dc2966778da5cee8e22a63603ab8c2a31152475",
+      "artifact_id": "artifact-e15998d9c0f6bba14d95",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/count_before.json",
+      "bytes": 15,
+      "sha256": "309b7acf7e743e44a7f2fe745dc2966778da5cee8e22a63603ab8c2a31152475",
+      "artifact_id": "artifact-033db67716a32bf67c7d",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/ids.json",
+      "bytes": 315970,
+      "sha256": "23cdad6ab5d3b80710accdd0a0e10ff9dfab9f312a55b9b38fce88691aa46e69",
+      "artifact_id": "artifact-72e75616ba459b3f6357",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/metadata.json",
+      "bytes": 4220,
+      "sha256": "cec2b79ba90c80843ac68f287f74ca312a39bce8b9a6b8a971de62986dfdda3f",
+      "artifact_id": "artifact-d36b5b9db1368f8c7bdf",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/page_000000.json",
+      "bytes": 607326,
+      "sha256": "59532c40712a51ed3d5bfe0bd5a0fd33020667a1e42fe98c1fea7844ae1944ac",
+      "artifact_id": "artifact-8bfd058d5b03cc051acf",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/page_003000.json",
+      "bytes": 658524,
+      "sha256": "a29047458e3b8c301b6baf7a1ff3ade3a07cd2ce379ea4e5cf5a4307ccb65691",
+      "artifact_id": "artifact-8d5c19e2ab2a48a596cf",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/page_006000.json",
+      "bytes": 664047,
+      "sha256": "9e14d8d1dce9359d5fd12d753208cbcf3e8541a4bc80e05d1e6d38d2b6cacb49",
+      "artifact_id": "artifact-ca155d5249e777d6acde",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/page_009000.json",
+      "bytes": 608973,
+      "sha256": "5ecb72767df2ca8a6cfd38ad066e9e48b06cb591c63263c98928990913cbc0de",
+      "artifact_id": "artifact-36ed0a5d21bddf0fc4c7",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/page_012000.json",
+      "bytes": 715915,
+      "sha256": "507135ae58358eaa4416f4e7fbefecca0134a1f056d1361382d53202825779be",
+      "artifact_id": "artifact-1d281afd149ca1455997",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/page_015000.json",
+      "bytes": 605534,
+      "sha256": "6b46b5a8f985077f59536173cd0bb07198feaffb7599f9776a44158ffb11eaf5",
+      "artifact_id": "artifact-723894887ca69f063833",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/page_018000.json",
+      "bytes": 722764,
+      "sha256": "d9b36c6a0c991c6bfe2ebab11a54a31029c29e0d1dfdf21113291b2cf30df1a3",
+      "artifact_id": "artifact-a920b552ba66a36745ee",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/page_021000.json",
+      "bytes": 602985,
+      "sha256": "5d99a86ee91a379b53acbc6063c17f603e89aedad9efb26776441e3d9ef9977f",
+      "artifact_id": "artifact-9d32b7d28d0b9c904f9a",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/page_024000.json",
+      "bytes": 704680,
+      "sha256": "6b06eeb1c06ae6f76cc0190121e9f2f6e5fcc29a89668714dda64d3d87f6807b",
+      "artifact_id": "artifact-66d01ce056560f7fee87",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/page_027000.json",
+      "bytes": 620086,
+      "sha256": "80f804cdeaf280245f09d5e1eea9e5f0cc243c7ccd2b4fcac1feb6cba34ceba7",
+      "artifact_id": "artifact-f97166989c70ce3d703e",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/page_030000.json",
+      "bytes": 639520,
+      "sha256": "7b97f4af956336a789fdaff2864d9ea446860dd83a7a841c946da3c341fb2c20",
+      "artifact_id": "artifact-8abd97e2824ba0ca16f0",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/page_033000.json",
+      "bytes": 684920,
+      "sha256": "8db7f9130d168c07db14cf1c340b2f3ce4d84002aedc87b843640863689ec3e8",
+      "artifact_id": "artifact-8bb05e5da96898c679b5",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/page_036000.json",
+      "bytes": 606969,
+      "sha256": "03321d3b5a8ed57072ed589a1929dc89ff0c2cbf3c88c44bc45f41f42fec6969",
+      "artifact_id": "artifact-c39ee86783f473d1a632",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/page_039000.json",
+      "bytes": 721645,
+      "sha256": "1506fd291be5de085bc099cc1f3e5dd91c0d17ba556c6ebc2c3713a6316ed3d8",
+      "artifact_id": "artifact-8c02436b66e215f738d2",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/page_042000.json",
+      "bytes": 605184,
+      "sha256": "df5d89a00573e2e79b9c2d0aac9223ef24e1be6688b917dacfae07ccc25a169c",
+      "artifact_id": "artifact-1134699c7fb084daa871",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/page_045000.json",
+      "bytes": 726517,
+      "sha256": "6d828abb5b244117429a39df558e33006328cdbb6864b54da305b0ac312bec21",
+      "artifact_id": "artifact-3af3cbf95e12fada2d44",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/page_048000.json",
+      "bytes": 602360,
+      "sha256": "41a9d757c619ea79be66d146d66ed058e8c7aaa62ab5c777aa40830ad7ae2db1",
+      "artifact_id": "artifact-7d8cea9c1d50688b3666",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/page_051000.json",
+      "bytes": 687502,
+      "sha256": "19a51d2c97f1bfa2496682f1307d7058d982ffcddcf1f688f16eb01171242dfd",
+      "artifact_id": "artifact-88648494d3c4ccd91026",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/raw/OPStructure/page_054000.json",
+      "bytes": 129372,
+      "sha256": "be115e6970a6437cfe2cae350595bdf2c5bb8da9aabe829692456776b081af52",
+      "artifact_id": "artifact-d94b1d843ce20a3188b2",
+      "dataset_id": "kt-building-chronology-source",
+      "rights_id": "rights.hk.csdi-building",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-10D_1989-11_core.png",
+      "bytes": 3400764,
+      "sha256": "eff531728f784c4d442ebe75000cb8777b403a133502fc5466da44d33a4c397d",
+      "artifact_id": "artifact-114a3bb703b6599ff1aa",
+      "dataset_id": "kt-support-02",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-10D_1989-11_core.tif",
+      "bytes": 2906295,
+      "sha256": "9ad622eb84621e350d2e9c99eabccd6f4c7b8be3b16e82d1bf3709673f984dce",
+      "artifact_id": "artifact-ca350b8834bae80f1e43",
+      "dataset_id": "kt-support-02",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-10D_1995-06_core.png",
+      "bytes": 2866356,
+      "sha256": "0e1fdc3513bfc46a9e145eac294487ce97fe25bae0ac57af4b9eca470674226f",
+      "artifact_id": "artifact-eda19cf9e6894634c50a",
+      "dataset_id": "kt-support-02",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-10D_1995-06_core.tif",
+      "bytes": 2443375,
+      "sha256": "755300ec9a754e6bfecfcade7c31b2d4172a070bf8c9d78fa7ea52752329f00e",
+      "artifact_id": "artifact-475eb4d87a1ff371402f",
+      "dataset_id": "kt-support-02",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-15B_1989-11_core.png",
+      "bytes": 2744231,
+      "sha256": "bb3916721ee42c0abc3f439eb928ecf942a9b1c5adba200069ac9d8d929f2d1a",
+      "artifact_id": "artifact-83e76f5ee2415628360a",
+      "dataset_id": "kt-support-02",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-15B_1989-11_core.tif",
+      "bytes": 2261633,
+      "sha256": "701e9e2a73f5d31d8e7b089cb4d29149148d663f8510e2bb4c5c09d8a77ddd6f",
+      "artifact_id": "artifact-33f339335e7ad9b06cbe",
+      "dataset_id": "kt-support-02",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-15B_1994-03_core.png",
+      "bytes": 2532149,
+      "sha256": "d53a73665cf09bd29a660bf723da37adc6644daee7189afc87c8d368a64673ef",
+      "artifact_id": "artifact-1745ad994fac3dcb5896",
+      "dataset_id": "kt-support-02",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-15B_1994-03_core.tif",
+      "bytes": 2078001,
+      "sha256": "692df70603773ab7b684fe2b3941b871d721beefb09001d601a82c0f4f906dcc",
+      "artifact_id": "artifact-3305916f188e2975a644",
+      "dataset_id": "kt-support-02",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    }
+  ]
+}

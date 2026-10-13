@@ -1,0 +1,11 @@
+{
+  "status": "DRAFT-NOT-SUBMITTED",
+  "title": "The Kai Tak Historical Research Archive",
+  "resource_type": "dataset",
+  "concept_doi": null,
+  "creator": "Aryan Ayyar",
+  "description": "Historical Geography, Aviation Evidence, Flight Dynamics and Mathematical Reconstructions of Hong Kong’s Kai Tak Airport. Version series with scoped source rights and explicit limitations.",
+  "related_repository": "https://github.com/ayyararyan/kai-tak",
+  "version_relations": "Add version-specific identifiers after actual authorized deposit/registration; do not fabricate.",
+  "record_exists_verified": false
+}

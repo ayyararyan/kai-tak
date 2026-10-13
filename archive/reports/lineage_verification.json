@@ -1,0 +1,74 @@
+{
+  "verified_utc": "2026-10-13T16:57:21.994604+00:00",
+  "edge_count": 714,
+  "relation_counts": {
+    "extracted-from": 454,
+    "derived-from": 119,
+    "generated-by": 21,
+    "frozen-snapshot-of": 104,
+    "depends-on-exact-version": 16
+  },
+  "additional_node_count": 464,
+  "map_member_count": 454,
+  "map_member_catalogue_path_matches": 0,
+  "artifact_update_count": 175,
+  "gaps": [
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/PROJECT_STATE.md",
+      "reason": "snapshot differs from evidence manifest"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/approximation/STATUS.md",
+      "reason": "snapshot differs from evidence manifest"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/noaa/verification.json",
+      "reason": "snapshot differs from evidence manifest"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/REPORT.md",
+      "source_path": "research/checkers-runway13/reconstruction/block_matching/REPORT.md",
+      "reason": "v1 snapshot verified but original source hash absent and current source differs"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/HANDOFF.json",
+      "source_path": "research/checkers-runway13/reconstruction/block_matching/HANDOFF.json",
+      "reason": "v1 snapshot verified but original source hash absent and current source differs"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/validation.json",
+      "source_path": "research/checkers-runway13/reconstruction/block_matching/validation.json",
+      "reason": "v1 snapshot verified but original source hash absent and current source differs"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "source_path": "research/checkers-runway13/evidence/cal605_reconstruction/REPORT.md",
+      "reason": "v1 snapshot verified but original source hash absent and current source differs"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/delivery_manifest.json",
+      "source_path": "research/checkers-runway13/evidence/cal605_reconstruction/delivery_manifest.json",
+      "reason": "v1 snapshot verified but original source hash absent and current source differs"
+    },
+    {
+      "scope": "Many authored documents/scripts and static figures",
+      "reason": "Folder membership and co-listing in a checksum manifest do not prove authorship or parent inputs. Manual authorship approval and exact producer recipe inspection still needed."
+    },
+    {
+      "scope": "Registered/cropped rasters",
+      "reason": "Pinned input/output manifests establish reported lineage, not independent replay of registration or source-world accuracy; no new geometric validation claimed."
+    },
+    {
+      "scope": "historical source-version nodes",
+      "reason": "Source changed since frozen paper snapshot; expected old SHA remains valid provenance identity but unavailable exact bytes cannot be marked present merely from current same path."
+    },
+    {
+      "scope": "source-rights inheritance",
+      "reason": "New author-created code/doc/figures still lack approved original-work license. Exact upstream data permission does not authorize publication or an original-work grant."
+    },
+    {
+      "scope": "all 454 archive members",
+      "reason": "Virtual byte identities inside ZIPs; no standalone member artifacts found in current catalogue. Do not add fake on-disk existence."
+    }
+  ]
+}

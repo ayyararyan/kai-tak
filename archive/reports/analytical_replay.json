@@ -1,0 +1,39 @@
+{
+  "verified_utc": "2026-10-13T16:54:43.681084+00:00",
+  "mode": "Imported run() only; writes to evidence guarded by __main__ not invoked; bytecode disabled",
+  "runs": [
+    {
+      "producer": "analytical/verify_scs.py",
+      "output": "analytical/verification_results.json",
+      "status": "passed",
+      "comparison_ignores": [
+        "utc"
+      ],
+      "different_keys": [],
+      "producer_sha256": "3437e4a364585b0397f4f7a21cc2595b503ce4f3629171608ad5078f4df30340",
+      "saved_output_sha256": "14f8d9ed4bc20f2d469b20fa3843e1014f3f8c5a23360e61663286460372e90f"
+    },
+    {
+      "producer": "analytical/verify_finite_roll_position.py",
+      "output": "analytical/finite_roll_position_results.json",
+      "status": "passed",
+      "comparison_ignores": [
+        "utc"
+      ],
+      "different_keys": [],
+      "producer_sha256": "8e96dacb1b8589025e8c8927eb1c40f9b92de3044f61624b736948caab08eec8",
+      "saved_output_sha256": "a613aea5d235479a16e56a7e1e4dc70e330a165177c29243f090eb02d39fb7b2"
+    },
+    {
+      "producer": "analytical/verify_full_landing_analysis.py",
+      "output": "analytical/full_landing_analysis_results.json",
+      "status": "passed",
+      "comparison_ignores": [
+        "utc"
+      ],
+      "different_keys": [],
+      "producer_sha256": "fbe4067189ab78a6f1f6d4c4e8a4ac7d639dbe10c43c550d1bb37ba794202f90",
+      "saved_output_sha256": "7a2aaa017501a0dbb0819430be166a1a8e6205a884c48fa5b269acbb81a439ab"
+    }
+  ]
+}

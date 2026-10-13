@@ -1,0 +1,1204 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-survey-index",
+      "name": "Historical survey-sheet index",
+      "description": "Official edition and coverage catalogues",
+      "identifier": "kt-survey-index",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "Lands Department, Government of HKSAR"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1631584892859_72892/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1639990901210_47291/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047202071_61921/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047456225_68329/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1671592436814_1059/FeatureServer"
+      ],
+      "citation": "Ayyar, Aryan (2026). Historical survey-sheet index. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-survey-index. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-survey-rasters",
+      "name": "Acquired historical survey maps",
+      "description": "227 ZIP editions with TIFF/TFW members",
+      "identifier": "kt-survey-rasters",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "Lands Department, Government of HKSAR"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1631584892859_72892/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1639990901210_47291/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047202071_61921/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047456225_68329/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1671592436814_1059/FeatureServer"
+      ],
+      "citation": "Ayyar, Aryan (2026). Acquired historical survey maps. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-survey-rasters. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-aerial-index",
+      "name": "Historical aerial frame index",
+      "description": "Coverage polygons and frame/capture identifiers",
+      "identifier": "kt-aerial-index",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "Lands Department, Government of HKSAR"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://api.hkmapservice.gov.hk/oss/services/OneStop/FlightPaths/MapServer/2/query",
+        "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA"
+      ],
+      "citation": "Ayyar, Aryan (2026). Historical aerial frame index. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-aerial-index. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-aerial-fullframes",
+      "name": "Acquired DAP-L0 full frames",
+      "description": "Compressed full-frame JPEG historical aerial photographs",
+      "identifier": "kt-aerial-fullframes",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "Lands Department, Government of HKSAR"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA"
+      ],
+      "citation": "Ayyar, Aryan (2026). Acquired DAP-L0 full frames. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-aerial-fullframes. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-aerial-previews",
+      "name": "Additional aerial previews",
+      "description": "Limited lower-quality preview imagery distinct from full acquired frames",
+      "identifier": "kt-aerial-previews",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "Lands Department, Government of HKSAR"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://api.hkmapservice.gov.hk/oss/services/OneStop/FlightPaths/MapServer/2/query",
+        "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA"
+      ],
+      "citation": "Ayyar, Aryan (2026). Additional aerial previews. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-aerial-previews. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-modern-buildings",
+      "name": "Modern building footprints and local subset",
+      "description": "Source building polygons with approximate HKPD base/top elevations",
+      "identifier": "kt-modern-buildings",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "Lands Department, Government of HKSAR"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://portal.csdi.gov.hk/csdi-webpage/metadata/landsd_rcd_1637211194312_35158/html",
+        "https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=landsd_rcd_1637211194312_35158&format=geojson&layer_name=Building"
+      ],
+      "citation": "Ayyar, Aryan (2026). Modern building footprints and local subset. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-modern-buildings. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-building-chronology-source",
+      "name": "Building documentary chronology source tables",
+      "description": "Complete four-table current-source relationship graph",
+      "identifier": "kt-building-chronology-source",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "Lands Department / Buildings Department, Government of HKSAR"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004"
+      ],
+      "citation": "Ayyar, Aryan (2026). Building documentary chronology source tables. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-building-chronology-source. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-building-date-classification",
+      "name": "Date-specific building documentary classifications",
+      "description": "Queries retain event provenance and uncertainty",
+      "identifier": "kt-building-date-classification",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "Lands Department / Buildings Department, Government of HKSAR"
+        },
+        {
+          "@type": "Organization",
+          "name": "Lands Department, Government of HKSAR"
+        },
+        {
+          "@type": "Person",
+          "name": "Aryan Ayyar"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004",
+        "https://portal.csdi.gov.hk/csdi-webpage/metadata/landsd_rcd_1637211194312_35158/html",
+        "https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=landsd_rcd_1637211194312_35158&format=geojson&layer_name=Building",
+        "https://github.com/ayyararyan/kai-tak"
+      ],
+      "citation": "Ayyar, Aryan (2026). Date-specific building documentary classifications. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-building-date-classification. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-historical-map-faces",
+      "name": "Visually inspected historical mapped faces",
+      "description": "Hash-bound interpreted faces across three map editions",
+      "identifier": "kt-historical-map-faces",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "Lands Department, Government of HKSAR"
+        },
+        {
+          "@type": "Person",
+          "name": "Aryan Ayyar"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1631584892859_72892/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1639990901210_47291/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047202071_61921/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047456225_68329/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1671592436814_1059/FeatureServer",
+        "https://github.com/ayyararyan/kai-tak"
+      ],
+      "citation": "Ayyar, Aryan (2026). Visually inspected historical mapped faces. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-historical-map-faces. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-map-matching-candidates",
+      "name": "Historical map content matching queue",
+      "description": "Automated template/source-region correspondence candidates",
+      "identifier": "kt-map-matching-candidates",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "Lands Department, Government of HKSAR"
+        },
+        {
+          "@type": "Organization",
+          "name": "Lands Department, Government of HKSAR"
+        },
+        {
+          "@type": "Person",
+          "name": "Aryan Ayyar"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1631584892859_72892/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1639990901210_47291/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047202071_61921/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047456225_68329/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1671592436814_1059/FeatureServer",
+        "https://portal.csdi.gov.hk/csdi-webpage/metadata/landsd_rcd_1637211194312_35158/html",
+        "https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=landsd_rcd_1637211194312_35158&format=geojson&layer_name=Building",
+        "https://github.com/ayyararyan/kai-tak"
+      ],
+      "citation": "Ayyar, Aryan (2026). Historical map content matching queue. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-map-matching-candidates. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-historical-observations",
+      "name": "Dated historical source observations and obstacles",
+      "description": "Evidence-linked partial terrain/building observations",
+      "identifier": "kt-historical-observations",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "Civil Aviation Department, Government of Hong Kong"
+        },
+        {
+          "@type": "Organization",
+          "name": "Lands Department, Government of HKSAR"
+        },
+        {
+          "@type": "Organization",
+          "name": "Lands Department, Government of HKSAR"
+        },
+        {
+          "@type": "Person",
+          "name": "Aryan Ayyar"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1631584892859_72892/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1639990901210_47291/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047202071_61921/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047456225_68329/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1671592436814_1059/FeatureServer",
+        "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "https://github.com/ayyararyan/kai-tak"
+      ],
+      "citation": "Ayyar, Aryan (2026). Dated historical source observations and obstacles. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-historical-observations. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-dtm5-original",
+      "name": "5m DTM original and lossless raster derivatives",
+      "description": "Whole Hong Kong elevation raster and Kowloon subset",
+      "identifier": "kt-dtm5-original",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "Lands Department, Government of HKSAR"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://www.landsd.gov.hk/en/spatial-data/open-data/kf_dtm.html",
+        "https://www.landsd.gov.hk/landsd_psi_data/SMO/data/Whole_HK_DTM_5m.zip"
+      ],
+      "citation": "Ayyar, Aryan (2026). 5m DTM original and lossless raster derivatives. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-dtm5-original. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-geodetic-frame",
+      "name": "Coordinate/datum documentation and diagnostics",
+      "description": "Official transform and project registration gates",
+      "identifier": "kt-geodetic-frame",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "Survey and Mapping Office, Lands Department"
+        },
+        {
+          "@type": "Organization",
+          "name": "Hong Kong Civil Aviation Department"
+        },
+        {
+          "@type": "Organization",
+          "name": "Civil Aviation Department, Government of Hong Kong"
+        },
+        {
+          "@type": "Person",
+          "name": "Aryan Ayyar"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://www.geodetic.gov.hk/common/data/parameter/7P_ITRF96_HK80_V1.pdf",
+        "https://www.ais.gov.hk/eaip_20261001/2026-10-01-000000/html/eAIP/VH-GEN-2.1-en-US.html",
+        "https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf",
+        "https://github.com/ayyararyan/kai-tak"
+      ],
+      "citation": "Ayyar, Aryan (2026). Coordinate/datum documentation and diagnostics. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-geodetic-frame. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-cad-report",
+      "name": "CAD accident report source and extracted evidence",
+      "description": "Complete 226-page report retained privately plus extracts",
+      "identifier": "kt-cad-report",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "Civil Aviation Department, Government of Hong Kong"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf"
+      ],
+      "citation": "Ayyar, Aryan (2026). CAD accident report source and extracted evidence. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-cad-report. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-flight-digitizations",
+      "name": "CAL605 flight chart digitizations",
+      "description": "Manual pixel anchors and derived traces",
+      "identifier": "kt-flight-digitizations",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "Civil Aviation Department, Government of Hong Kong"
+        },
+        {
+          "@type": "Person",
+          "name": "Aryan Ayyar"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf",
+        "https://github.com/ayyararyan/kai-tak"
+      ],
+      "citation": "Ayyar, Aryan (2026). CAL605 flight chart digitizations. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-flight-digitizations. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-rollout-reconstruction",
+      "name": "CAL605 rollout reconstruction",
+      "description": "Source digitizations, events and conditional stopping calculations",
+      "identifier": "kt-rollout-reconstruction",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "Civil Aviation Department, Government of Hong Kong"
+        },
+        {
+          "@type": "Person",
+          "name": "Aryan Ayyar"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf",
+        "https://github.com/ayyararyan/kai-tak"
+      ],
+      "citation": "Ayyar, Aryan (2026). CAL605 rollout reconstruction. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-rollout-reconstruction. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-integrated-aviation-geometry",
+      "name": "Integrated runway, procedure and airframe prerequisites",
+      "description": "Source-bound incomplete geometry and physical calibration ledger",
+      "identifier": "kt-integrated-aviation-geometry",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "Civil Aviation Department, Government of Hong Kong"
+        },
+        {
+          "@type": "Organization",
+          "name": "Boeing"
+        },
+        {
+          "@type": "Organization",
+          "name": "Lands Department, Government of HKSAR"
+        },
+        {
+          "@type": "Person",
+          "name": "Aryan Ayyar"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf",
+        "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/747-400_Rev_F.pdf",
+        "https://www.boeing.com/content/dam/boeing/v2/airports/dwgs/7474.zip",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1631584892859_72892/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1639990901210_47291/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047202071_61921/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047456225_68329/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1671592436814_1059/FeatureServer",
+        "https://github.com/ayyararyan/kai-tak"
+      ],
+      "citation": "Ayyar, Aryan (2026). Integrated runway, procedure and airframe prerequisites. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-integrated-aviation-geometry. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-noaa-raw",
+      "name": "NOAA 1993 historic Kai Tak observations",
+      "description": "Retained unchanged compressed ISD archive",
+      "identifier": "kt-noaa-raw",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "NOAA/NCEI"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://www.ncei.noaa.gov/pub/data/noaa/1993/450070-99999-1993.gz"
+      ],
+      "citation": "Ayyar, Aryan (2026). NOAA 1993 historic Kai Tak observations. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-noaa-raw. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-noaa-decoded",
+      "name": "Decoded NOAA weather and quality-control tables",
+      "description": "Source-order records with raw fields, flags and missingness",
+      "identifier": "kt-noaa-decoded",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "NOAA/NCEI"
+        },
+        {
+          "@type": "Organization",
+          "name": "NOAA/NCEI"
+        },
+        {
+          "@type": "Person",
+          "name": "Aryan Ayyar"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://www.ncei.noaa.gov/pub/data/noaa/1993/450070-99999-1993.gz",
+        "https://www.ncei.noaa.gov/pub/data/noaa/isd-format-document.pdf",
+        "https://github.com/ayyararyan/kai-tak"
+      ],
+      "citation": "Ayyar, Aryan (2026). Decoded NOAA weather and quality-control tables. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-noaa-decoded. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-wind-printout",
+      "name": "CAL605 five-sensor wind printout transcription",
+      "description": "225 direction/speed pairs and source-preserving extrema",
+      "identifier": "kt-wind-printout",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "Civil Aviation Department, Government of Hong Kong"
+        },
+        {
+          "@type": "Person",
+          "name": "Aryan Ayyar"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf",
+        "https://github.com/ayyararyan/kai-tak"
+      ],
+      "citation": "Ayyar, Aryan (2026). CAL605 five-sensor wind printout transcription. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-wind-printout. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-stereo-points",
+      "name": "A36142/A36143 historical stereo points",
+      "description": "Sparse and dense conditional triangulated cloud with QC",
+      "identifier": "kt-stereo-points",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "Lands Department, Government of HKSAR"
+        },
+        {
+          "@type": "Organization",
+          "name": "Lands Department, Government of HKSAR"
+        },
+        {
+          "@type": "Person",
+          "name": "Aryan Ayyar"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1631584892859_72892/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1639990901210_47291/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047202071_61921/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047456225_68329/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1671592436814_1059/FeatureServer",
+        "https://github.com/ayyararyan/kai-tak"
+      ],
+      "citation": "Ayyar, Aryan (2026). A36142/A36143 historical stereo points. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-stereo-points. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-stereo-mesh",
+      "name": "Observed historical surface mesh",
+      "description": "Nonwatertight source-coloured triangulated patches",
+      "identifier": "kt-stereo-mesh",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "Lands Department, Government of HKSAR"
+        },
+        {
+          "@type": "Person",
+          "name": "Aryan Ayyar"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "https://github.com/ayyararyan/kai-tak"
+      ],
+      "citation": "Ayyar, Aryan (2026). Observed historical surface mesh. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-stereo-mesh. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-invalidated-reconstructions",
+      "name": "Invalidated reconstruction evidence",
+      "description": "Preserved pre-repair outputs with explicit invalidation records",
+      "identifier": "kt-invalidated-reconstructions",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Aryan Ayyar"
+        },
+        {
+          "@type": "Organization",
+          "name": "Lands Department, Government of HKSAR"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://github.com/ayyararyan/kai-tak",
+        "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA"
+      ],
+      "citation": "Ayyar, Aryan (2026). Invalidated reconstruction evidence. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-invalidated-reconstructions. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-synthetic-model",
+      "name": "Declared synthetic landing model and scenario outputs",
+      "description": "Point-mass approach/flare/rollout with replay diagnostics",
+      "identifier": "kt-synthetic-model",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Aryan Ayyar"
+        },
+        {
+          "@type": "Organization",
+          "name": "Civil Aviation Department, Government of Hong Kong"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://github.com/ayyararyan/kai-tak",
+        "https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf"
+      ],
+      "citation": "Ayyar, Aryan (2026). Declared synthetic landing model and scenario outputs. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-synthetic-model. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-restricted-analytical-results",
+      "name": "Restricted mathematical derivations and checks",
+      "description": "Straight-circle-straight, finite-roll and necessary bounds",
+      "identifier": "kt-restricted-analytical-results",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Aryan Ayyar"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://github.com/ayyararyan/kai-tak"
+      ],
+      "citation": "Ayyar, Aryan (2026). Restricted mathematical derivations and checks. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-restricted-analytical-results. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-calm-air-certificate",
+      "name": "Calm-air continuous-family feasibility certificate",
+      "description": "Computer-assisted fixed-witness interval certificate and incomplete global search",
+      "identifier": "kt-calm-air-certificate",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Aryan Ayyar"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://github.com/ayyararyan/kai-tak"
+      ],
+      "citation": "Ayyar, Aryan (2026). Calm-air continuous-family feasibility certificate. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-calm-air-certificate. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-wind-counterfactual",
+      "name": "Wind-conditioned full landing reference",
+      "description": "Fixed steady 070 true/21kt scenario plus interval certificate",
+      "identifier": "kt-wind-counterfactual",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Aryan Ayyar"
+        },
+        {
+          "@type": "Organization",
+          "name": "Civil Aviation Department, Government of Hong Kong"
+        },
+        {
+          "@type": "Organization",
+          "name": "NOAA/NCEI"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://github.com/ayyararyan/kai-tak",
+        "https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf",
+        "https://www.ncei.noaa.gov/pub/data/noaa/1993/450070-99999-1993.gz"
+      ],
+      "citation": "Ayyar, Aryan (2026). Wind-conditioned full landing reference. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-wind-counterfactual. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-scientific-figures",
+      "name": "Authored scientific figures and plot inputs",
+      "description": "White-paper figures and method-specific charts",
+      "identifier": "kt-scientific-figures",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Aryan Ayyar"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://github.com/ayyararyan/kai-tak"
+      ],
+      "citation": "Ayyar, Aryan (2026). Authored scientific figures and plot inputs. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-scientific-figures. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-reconstruction-viewers",
+      "name": "Offline reconstruction viewers",
+      "description": "HTML local comparative scenes and review workbenches",
+      "identifier": "kt-reconstruction-viewers",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Aryan Ayyar"
+        },
+        {
+          "@type": "Organization",
+          "name": "Lands Department, Government of HKSAR"
+        },
+        {
+          "@type": "Organization",
+          "name": "Lands Department, Government of HKSAR"
+        },
+        {
+          "@type": "Organization",
+          "name": "Lands Department, Government of HKSAR"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://github.com/ayyararyan/kai-tak",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1631584892859_72892/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1639990901210_47291/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047202071_61921/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047456225_68329/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1671592436814_1059/FeatureServer",
+        "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "https://portal.csdi.gov.hk/csdi-webpage/metadata/landsd_rcd_1637211194312_35158/html",
+        "https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=landsd_rcd_1637211194312_35158&format=geojson&layer_name=Building"
+      ],
+      "citation": "Ayyar, Aryan (2026). Offline reconstruction viewers. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-reconstruction-viewers. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-whitepapers",
+      "name": "Checkers with Runway 13 white papers",
+      "description": "Preserved versions 1 and 2, editable source and frozen evidence",
+      "identifier": "kt-whitepapers",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Aryan Ayyar"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://github.com/ayyararyan/kai-tak"
+      ],
+      "citation": "Ayyar, Aryan (2026). Checkers with Runway 13 white papers. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-whitepapers. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-literature",
+      "name": "Literature and source reference matrix",
+      "description": "Scientific comparison and cited-source metadata",
+      "identifier": "kt-literature",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "Authors listed in SOURCE_MATRIX.csv"
+        },
+        {
+          "@type": "Person",
+          "name": "Aryan Ayyar"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://github.com/ayyararyan/kai-tak"
+      ],
+      "citation": "Ayyar, Aryan (2026). Literature and source reference matrix. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-literature. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-archival-finding-records",
+      "name": "Independent archival source leads",
+      "description": "Identified GRS records and undeposited research requests",
+      "identifier": "kt-archival-finding-records",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "Government Records Service, Government of HKSAR"
+        },
+        {
+          "@type": "Organization",
+          "name": "Civil Aviation Department, Government of Hong Kong"
+        },
+        {
+          "@type": "Person",
+          "name": "Aryan Ayyar"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://search.grs.gov.hk/",
+        "https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf",
+        "https://github.com/ayyararyan/kai-tak"
+      ],
+      "citation": "Ayyar, Aryan (2026). Independent archival source leads. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-archival-finding-records. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-aerial-index-all-hk-1993",
+      "name": "All-Hong-Kong 1993 aerial index search",
+      "description": "Separate whole-territory query for special-survey record investigation",
+      "identifier": "kt-aerial-index-all-hk-1993",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "Lands Department, Government of HKSAR"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://api.hkmapservice.gov.hk/oss/services/OneStop/FlightPaths/MapServer/2/query",
+        "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA"
+      ],
+      "citation": "Ayyar, Aryan (2026). All-Hong-Kong 1993 aerial index search. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-aerial-index-all-hk-1993. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-whitepaper-v1-frozen-evidence",
+      "name": "White-paper v1 frozen evidence snapshot",
+      "description": "Version-pinned copies, kept distinct from current research source trees",
+      "identifier": "kt-whitepaper-v1-frozen-evidence",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Aryan Ayyar"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://github.com/ayyararyan/kai-tak"
+      ],
+      "citation": "Ayyar, Aryan (2026). White-paper v1 frozen evidence snapshot. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-whitepaper-v1-frozen-evidence. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-whitepaper-v2-frozen-evidence",
+      "name": "White-paper v2 frozen evidence snapshot",
+      "description": "Version-pinned copies, kept distinct from current research source trees",
+      "identifier": "kt-whitepaper-v2-frozen-evidence",
+      "version": "1.0.0-candidate",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Aryan Ayyar"
+        }
+      ],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [
+        "https://github.com/ayyararyan/kai-tak"
+      ],
+      "citation": "Ayyar, Aryan (2026). White-paper v2 frozen evidence snapshot. The Kai Tak Historical Research Archive, candidate v1.0.0, dataset kt-whitepaper-v2-frozen-evidence. No DOI assigned.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-support-01",
+      "name": "Historical Maps and Aerial Photography — supporting and unclassified artifacts",
+      "description": "Ancillary reports, scripts and outputs; consult file-level provenance gaps.",
+      "identifier": "kt-support-01",
+      "version": "1.0.0-candidate",
+      "creator": [],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [],
+      "citation": "Ayyar, Aryan (2026). Collection 01, candidate v1.0.0.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-support-02",
+      "name": "Historical Buildings and Urban Geography — supporting and unclassified artifacts",
+      "description": "Ancillary reports, scripts and outputs; consult file-level provenance gaps.",
+      "identifier": "kt-support-02",
+      "version": "1.0.0-candidate",
+      "creator": [],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [],
+      "citation": "Ayyar, Aryan (2026). Collection 02, candidate v1.0.0.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-support-03",
+      "name": "Terrain and Geospatial Data — supporting and unclassified artifacts",
+      "description": "Ancillary reports, scripts and outputs; consult file-level provenance gaps.",
+      "identifier": "kt-support-03",
+      "version": "1.0.0-candidate",
+      "creator": [],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [],
+      "citation": "Ayyar, Aryan (2026). Collection 03, candidate v1.0.0.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-support-04",
+      "name": "Aviation and Flight Evidence — supporting and unclassified artifacts",
+      "description": "Ancillary reports, scripts and outputs; consult file-level provenance gaps.",
+      "identifier": "kt-support-04",
+      "version": "1.0.0-candidate",
+      "creator": [],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [],
+      "citation": "Ayyar, Aryan (2026). Collection 04, candidate v1.0.0.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-support-05",
+      "name": "Weather and Meteorological Records — supporting and unclassified artifacts",
+      "description": "Ancillary reports, scripts and outputs; consult file-level provenance gaps.",
+      "identifier": "kt-support-05",
+      "version": "1.0.0-candidate",
+      "creator": [],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [],
+      "citation": "Ayyar, Aryan (2026). Collection 05, candidate v1.0.0.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-support-06",
+      "name": "Three-Dimensional Reconstruction — supporting and unclassified artifacts",
+      "description": "Ancillary reports, scripts and outputs; consult file-level provenance gaps.",
+      "identifier": "kt-support-06",
+      "version": "1.0.0-candidate",
+      "creator": [],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [],
+      "citation": "Ayyar, Aryan (2026). Collection 06, candidate v1.0.0.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-support-07",
+      "name": "Mathematical Models and Results — supporting and unclassified artifacts",
+      "description": "Ancillary reports, scripts and outputs; consult file-level provenance gaps.",
+      "identifier": "kt-support-07",
+      "version": "1.0.0-candidate",
+      "creator": [],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [],
+      "citation": "Ayyar, Aryan (2026). Collection 07, candidate v1.0.0.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-support-08",
+      "name": "Research Figures and Visualizations — supporting and unclassified artifacts",
+      "description": "Ancillary reports, scripts and outputs; consult file-level provenance gaps.",
+      "identifier": "kt-support-08",
+      "version": "1.0.0-candidate",
+      "creator": [],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [],
+      "citation": "Ayyar, Aryan (2026). Collection 08, candidate v1.0.0.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    },
+    {
+      "@type": "Dataset",
+      "@id": "urn:kai-tak:dataset:kt-support-09",
+      "name": "Documentation and Research Publications — supporting and unclassified artifacts",
+      "description": "Ancillary reports, scripts and outputs; consult file-level provenance gaps.",
+      "identifier": "kt-support-09",
+      "version": "1.0.0-candidate",
+      "creator": [],
+      "contributor": {
+        "@type": "Person",
+        "name": "Aryan Ayyar",
+        "description": "Archive researcher and curator; not necessarily original source creator"
+      },
+      "isBasedOn": [],
+      "citation": "Ayyar, Aryan (2026). Collection 09, candidate v1.0.0.",
+      "conditionsOfAccess": "Unpublished candidate; per-artifact/source rights apply. No blanket license."
+    }
+  ]
+}

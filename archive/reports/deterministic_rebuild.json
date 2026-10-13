@@ -1,0 +1,50 @@
+{
+  "checked_utc": "2026-10-13T17:14:35.914931+00:00",
+  "status": "passed",
+  "builds": 2,
+  "assets": [
+    {
+      "name": "kai-tak-archive-v1.0.0-collection-01.tar.gz",
+      "bytes": 653644559,
+      "sha256_first": "9e8782985920d2e9f1209329d19d5dfd89bc0b49205cf3751c77b919eb7f86f6",
+      "sha256_second": "9e8782985920d2e9f1209329d19d5dfd89bc0b49205cf3751c77b919eb7f86f6",
+      "identical": true,
+      "files": 275
+    },
+    {
+      "name": "kai-tak-archive-v1.0.0-collection-02.tar.gz",
+      "bytes": 106528609,
+      "sha256_first": "947d26b3005be47d72012786bd39809efb96fc1c852b2c77587cc2d088d063a9",
+      "sha256_second": "947d26b3005be47d72012786bd39809efb96fc1c852b2c77587cc2d088d063a9",
+      "identical": true,
+      "files": 133
+    },
+    {
+      "name": "kai-tak-archive-v1.0.0-collection-03.tar.gz",
+      "bytes": 51300217,
+      "sha256_first": "cd43d6166701c6f032480499a9d05237f032cd02e71be955c3df26269b95b803",
+      "sha256_second": "cd43d6166701c6f032480499a9d05237f032cd02e71be955c3df26269b95b803",
+      "identical": true,
+      "files": 3
+    },
+    {
+      "name": "kai-tak-archive-v1.0.0-collection-05.tar.gz",
+      "bytes": 127917,
+      "sha256_first": "00f45fc60ae87dcbc2da31b73fa74ff7bf7da6fa230041c43b165b3d2b46a442",
+      "sha256_second": "00f45fc60ae87dcbc2da31b73fa74ff7bf7da6fa230041c43b165b3d2b46a442",
+      "identical": true,
+      "files": 1
+    },
+    {
+      "name": "kai-tak-archive-v1.0.0-collection-06.tar.gz",
+      "bytes": 13152570,
+      "sha256_first": "94876e2dab67575f2558d7027482f76727c95fd3be2d08cffaf192d14e1489e9",
+      "sha256_second": "94876e2dab67575f2558d7027482f76727c95fd3be2d08cffaf192d14e1489e9",
+      "identical": true,
+      "files": 6
+    }
+  ],
+  "compressed_bytes": 824753872,
+  "member_files": 418,
+  "uncompressed_bytes": 1305783427
+}

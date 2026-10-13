@@ -1,0 +1,27 @@
+[
+  {
+    "path": "research/checkers-runway13/integrated/geometry/A36172_CW.png",
+    "size": 3926804,
+    "sha256": "8f41297ab8a310852249e0d369028de1c51b09a5f8551d779a10207c5542bdc6"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/geometry/A36172_CW_view_controls.png",
+    "size": 2066648,
+    "sha256": "7ea105e5c8beb7d0caa053d1eccf094ca3f1877ea823f229fd6b7381359418f5"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/geometry/aerial1993_contact.png",
+    "size": 2575326,
+    "sha256": "3c05764e3501d002c23a2a850a71c81bd06997b61d389515e0531f6101e2e0fd"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/geometry/runway_photo_diagnostic.png",
+    "size": 3547792,
+    "sha256": "d0afd514947994d16fd9d0c80fedc77186cce7520009aab0c0c0ad4aad67ef2b"
+  },
+  {
+    "path": "research/checkers-runway13/integrated/geometry/sheet_686.png",
+    "size": 2194291,
+    "sha256": "0f9bc8e8d2f5e6616f4e97ac9e3e541d5d707400c88b1d98b9d690904eb3bff2"
+  }
+]

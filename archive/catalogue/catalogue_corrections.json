@@ -1,0 +1,2795 @@
+{
+  "verified_utc": "2026-10-13T16:57:21.994604+00:00",
+  "dataset_and_global_corrections": [
+    {
+      "dataset_id": "kt-survey-rasters",
+      "remove_derived_from": [
+        "kt-survey-index"
+      ],
+      "add_relation": {
+        "relation": "selected-using-index",
+        "object": "kt-survey-index"
+      },
+      "reason": "Raster source already exists; index guided selection/acquisition, did not generate raster bytes"
+    },
+    {
+      "dataset_id": "kt-aerial-fullframes",
+      "remove_derived_from": [
+        "kt-aerial-index"
+      ],
+      "add_relation": {
+        "relation": "selected-using-index",
+        "object": "kt-aerial-index"
+      },
+      "reason": "Index guided acquisition, it did not mathematically produce photographic pixels"
+    },
+    {
+      "dataset_id": "kt-aerial-previews",
+      "remove_derived_from": [
+        "kt-aerial-index"
+      ],
+      "add_relation": {
+        "relation": "selected-using-index",
+        "object": "kt-aerial-index"
+      },
+      "reason": "Index discovery not pixel transformation"
+    },
+    {
+      "dataset_id": "kt-building-chronology-source",
+      "remove_derived_from": [
+        "kt-modern-buildings"
+      ],
+      "add_relation": {
+        "relation": "shares-source-service-with",
+        "object": "kt-modern-buildings"
+      },
+      "reason": "Source tables are independent service resources; polygon data do not generate them"
+    },
+    {
+      "scope": "all artifact creator fields",
+      "reason": "Upstream source creators are not necessarily creators of derived artifacts",
+      "action": "Preserve agencies in source_attribution; do not list CAD/NOAA as authors of research interval certificates. Artifact creator can be proposed Aryan with authorship review status."
+    },
+    {
+      "scope": "kt-survey-rasters members",
+      "reason": "Source edition day 01 is a month-precision encoding, not known exact publication day",
+      "action": "Use YYYY-MM plus date_precision=month and retain source_date_raw"
+    },
+    {
+      "scope": "whitepaper/v1/evidence and whitepaper/v2/evidence",
+      "reason": "build.py validates and consumes frozen evidence; not demonstrated to be its original copier/producer",
+      "action": "Use copied-from/frozen-snapshot-of edge from evidence_manifest, keep build.py as consumed-by validator; do not invent snapshot creation script"
+    }
+  ],
+  "artifact_updates": [
+    {
+      "artifact_id": "artifact-194a3b020a5bb0a49696",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A02663.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-bca0fd0c78eec1ecff3d",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A02686.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-6049aaefe2bae0ff4ee1",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A03144.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-377769a18c033c3f4b04",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A07352.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-d08aee2e77c3101e4073",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A10880.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-a14464bcd606da777875",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A10933.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-c7e4f355a8b67f7af6a6",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A10967.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-a33e25b16ada5f75da2e",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A10990.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-87dec8a56a501a230d9c",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A15183.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-07c1c10a0cd8d6355c89",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A15215.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-9ef37739d320522eac42",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A18947.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-a8fcb423eb6244bcc358",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A18951.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-b41b8e39612e98e083cf",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A19257.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-e2864af849e2e828018b",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A19369.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-04adf23dab7e90abc50a",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A23632.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-f4abff9a5b29480dde32",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A23653.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-2d5c0b4a12eac3b6f48d",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A23695.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-0f6b4b769fa0945ad5ad",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A28854.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-89467331360fd97c7be5",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A28904.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-ea05f18cb4fa809d475a",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A33041.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-dc368e27562dc773d359",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A33224.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-2995959df9d7be75dbe0",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A36141.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-1e9556630c47b4aea323",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A36142.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-de45bc845121a2a037f1",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A36143.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-26e32e4fc87331d621e7",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A36144.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-43a0a20bc29d653fe791",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A36145.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-94ebec60cb3843a1b2c6",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A36146.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-a14e960023c2c7b50d09",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A36171.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-ea22f63f018fe7c8a340",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/A36172.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-404c9f1c4a52981ad585",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN1071.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-02bbaaa173d68c7aba3d",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN1074.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-3c43745026fc19e50d07",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN1077.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-c12fed9e24d32fb546fe",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN12226.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-1fa18ba61de713b00a81",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN12272.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-8040e1c1e6a4593008e7",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN15587.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-9f1b18b965a1c3cc107e",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN15613.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-40efd676b7329b1cdb4c",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN15732.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-3646ea12c3e49cabdfc0",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN18609.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-dbb01dcbd995dd03c010",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN19000.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-92ba340915d0817042f5",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN21247.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-db5627d6aa4e425cb4b8",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN21282.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-4e9bb17cb6cc5a8bf963",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN22163.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-fdb9534d021f8c15837e",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN4580.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-c418b3f23849c092a2e2",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN4581.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-104bcae9b540b79b01b5",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN4582.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-7351d92b056403152ff5",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN4589.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-3aff17ebdd1b330333d7",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN8230.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-178eebe0280020c2f9d5",
+      "path": "research/checkers-runway13/reconstruction/chronology/aerial/fullframes/CN887.jpg",
+      "reason": "Stable source landing link exists in original frame manifest",
+      "fields": {
+        "source_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "source_landing_url": "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA",
+        "direct_download_url": null
+      }
+    },
+    {
+      "artifact_id": "artifact-1a04f196e4b2735c28ad",
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/BuildingWorksHistory.json",
+      "reason": "Exact source-page assembly reproduces retained bytes",
+      "fields": {
+        "processing_level": "transformed source table: JSON attributes concatenation",
+        "provenance_status": "producer-reassembly-byte-identical",
+        "source_ids": [
+          "src-hk-building-works"
+        ],
+        "rights_id": "rights.hk.csdi-building",
+        "publication_decision": "Redistribution permitted",
+        "rights_evidence": "archive/licensing/rights_registry.json#rights.hk.csdi-building",
+        "required_attribution": "Lands Department, Government of HKSAR; identified Buildings Department contributions; CSDI terms apply",
+        "derived_from": [
+          "artifact-b569dce7ac6d73abbcc4",
+          "artifact-caa0a0b9670eaeddaf1c",
+          "artifact-3a688d18f9d3266bb49a",
+          "artifact-86e1b488e3c9bb8a52a1",
+          "artifact-b49e1178617cb95abdcf",
+          "artifact-c7fa416d314ce271fc5a",
+          "artifact-ba0c20e5fee453d70ffb",
+          "artifact-10f61c8a49d9784b5556",
+          "artifact-20d38357bdd2e780d26a",
+          "artifact-db3d0317a2fb16a0ad05",
+          "artifact-ba3b1457ad42d0e7e921",
+          "artifact-445f2be159a127e46ea3",
+          "artifact-8505bfd41ac24361d40b",
+          "artifact-e62cc97a52782c3dbc6a",
+          "artifact-eabb2095cdc93cf59857",
+          "artifact-c561a8981fd52f876a23",
+          "artifact-a50b54a00aa583e688ff",
+          "artifact-e01d7436390049c1225a",
+          "artifact-6b56adaf2d94596afe94",
+          "artifact-f077252ae44b420fb0e4",
+          "artifact-5e0dfe116066d4009287",
+          "artifact-0e82dcb24d9f14ed18e9",
+          "artifact-6818b931f3eca8501307",
+          "artifact-884256b8af092eee8fde",
+          "artifact-1c7dea73e432c9c1b9be",
+          "artifact-0b5e7b19da95fc4832ab",
+          "artifact-4f0b543850a09af0668d",
+          "artifact-d6fa6843b1db107a5500",
+          "artifact-37f89f0d040c657e7bea",
+          "artifact-88a93439e652225ef62f",
+          "artifact-ff2fc709ad9be0477b88",
+          "artifact-0b83ea1860a545094fe5",
+          "artifact-e52c9a2fd10a23719406",
+          "artifact-0cbdbceaf580e402d3b0",
+          "artifact-bf538c0683bc203f9cc5",
+          "artifact-1751cfe0584651bdcc55",
+          "artifact-ecea9eefa2e205db8b00",
+          "artifact-c43f60a64bde09194dc6",
+          "artifact-1f4f58f7a8504987684b",
+          "artifact-0202836193227a0cc9d9",
+          "artifact-5d45731743f3ee468b96",
+          "artifact-08490c130dfd840c5ab0",
+          "artifact-281274c42ae0d982b0ed",
+          "artifact-da044ff2969c89860e8d",
+          "artifact-d99b8dbba1c37a92d9a6",
+          "artifact-9b2097e5ceac3c51346c",
+          "artifact-8738afcbc8e104cef83f",
+          "artifact-c519b34fb24a396efb9f",
+          "artifact-d6718d8f7cd003d38907",
+          "artifact-c3b5842ae210e46732e2",
+          "artifact-3132612ce7d652a0538c",
+          "artifact-dd07be834c85bbdddb94",
+          "artifact-e454dc0c35a836ba39a2",
+          "artifact-16bc943049bc13e78964",
+          "artifact-9d34d1f55591eef28972",
+          "artifact-1fa7f7e7c7928f3790b3",
+          "artifact-15e6330248fc7b545263"
+        ],
+        "record_count": 168042
+      }
+    },
+    {
+      "artifact_id": "artifact-68eb459be2a9fbcaace0",
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/BuildingRelateOPStructure.json",
+      "reason": "Exact source-page assembly reproduces retained bytes",
+      "fields": {
+        "processing_level": "transformed source table: JSON attributes concatenation",
+        "provenance_status": "producer-reassembly-byte-identical",
+        "source_ids": [
+          "src-hk-building-works"
+        ],
+        "rights_id": "rights.hk.csdi-building",
+        "publication_decision": "Redistribution permitted",
+        "rights_evidence": "archive/licensing/rights_registry.json#rights.hk.csdi-building",
+        "required_attribution": "Lands Department, Government of HKSAR; identified Buildings Department contributions; CSDI terms apply",
+        "derived_from": [
+          "artifact-0ae38284b5726043898c",
+          "artifact-fdfb6eff6b169e924aba",
+          "artifact-c778f6ecb4d1d38eb67e",
+          "artifact-0e1f4c67374952ec771c",
+          "artifact-62dacb73a099498db1c5",
+          "artifact-a2e48b69f28949d0b70e",
+          "artifact-578f4090c2ce6388a981",
+          "artifact-902920ec8a68820ce72c",
+          "artifact-e985c68fa6e9979f6573",
+          "artifact-d98b6976126cf2e31911",
+          "artifact-7802b064636482f237e1",
+          "artifact-adf2c9f06dd2f48b9e6f",
+          "artifact-26e277a028f65f564f84",
+          "artifact-227afe5c6d2dcf357c94",
+          "artifact-57c56ea70bbb4ddfcb76",
+          "artifact-f4a3642fcb3081d2a4c5",
+          "artifact-a65675da3985bc7eae85",
+          "artifact-3ff8a426a0fbf0b40904"
+        ],
+        "record_count": 53349
+      }
+    },
+    {
+      "artifact_id": "artifact-e7ecc29fa11c7b6468f4",
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/OPStructure.json",
+      "reason": "Exact source-page assembly reproduces retained bytes",
+      "fields": {
+        "processing_level": "transformed source table: JSON attributes concatenation",
+        "provenance_status": "producer-reassembly-byte-identical",
+        "source_ids": [
+          "src-hk-building-works"
+        ],
+        "rights_id": "rights.hk.csdi-building",
+        "publication_decision": "Redistribution permitted",
+        "rights_evidence": "archive/licensing/rights_registry.json#rights.hk.csdi-building",
+        "required_attribution": "Lands Department, Government of HKSAR; identified Buildings Department contributions; CSDI terms apply",
+        "derived_from": [
+          "artifact-8bfd058d5b03cc051acf",
+          "artifact-8d5c19e2ab2a48a596cf",
+          "artifact-ca155d5249e777d6acde",
+          "artifact-36ed0a5d21bddf0fc4c7",
+          "artifact-1d281afd149ca1455997",
+          "artifact-723894887ca69f063833",
+          "artifact-a920b552ba66a36745ee",
+          "artifact-9d32b7d28d0b9c904f9a",
+          "artifact-66d01ce056560f7fee87",
+          "artifact-f97166989c70ce3d703e",
+          "artifact-8abd97e2824ba0ca16f0",
+          "artifact-8bb05e5da96898c679b5",
+          "artifact-c39ee86783f473d1a632",
+          "artifact-8c02436b66e215f738d2",
+          "artifact-1134699c7fb084daa871",
+          "artifact-3af3cbf95e12fada2d44",
+          "artifact-7d8cea9c1d50688b3666",
+          "artifact-88648494d3c4ccd91026",
+          "artifact-d94b1d843ce20a3188b2"
+        ],
+        "record_count": 54505
+      }
+    },
+    {
+      "artifact_id": "artifact-b2b01473b8ac817af911",
+      "path": "research/checkers-runway13/reconstruction/chronology/structures/OP.json",
+      "reason": "Exact source-page assembly reproduces retained bytes",
+      "fields": {
+        "processing_level": "transformed source table: JSON attributes concatenation",
+        "provenance_status": "producer-reassembly-byte-identical",
+        "source_ids": [
+          "src-hk-building-works"
+        ],
+        "rights_id": "rights.hk.csdi-building",
+        "publication_decision": "Redistribution permitted",
+        "rights_evidence": "archive/licensing/rights_registry.json#rights.hk.csdi-building",
+        "required_attribution": "Lands Department, Government of HKSAR; identified Buildings Department contributions; CSDI terms apply",
+        "derived_from": [
+          "artifact-b839bfff349930bf6d9b",
+          "artifact-4ef0ff40d9c28fd1ed41",
+          "artifact-02f0f7eb83f4daeebcb6",
+          "artifact-24f2b5d018ea9e22389d",
+          "artifact-5b62f9949061381f21f3",
+          "artifact-e5efd8c5c62820403a1c",
+          "artifact-13efd198f34b0609ddf8",
+          "artifact-b1210d2f3f5adde854c6",
+          "artifact-536c2a27ce600bb33cc9"
+        ],
+        "record_count": 24469
+      }
+    },
+    {
+      "artifact_id": "artifact-d60f78f8c12a3ddebef1",
+      "path": "research/checkers-runway13/reconstruction/block_matching/registered/11-NE-11A_1994-07_core.tif",
+      "reason": "Exact core registration receipt binds permitted source ZIP and output hash",
+      "fields": {
+        "source_ids": [
+          "src-hk-historical-survey",
+          "src-aryan-research"
+        ],
+        "source_attribution": [
+          "Lands Department, Government of HKSAR"
+        ],
+        "creator": [
+          "Aryan Ayyar (transformation; authorship proposed)"
+        ],
+        "processing_level": "registered/resampled derivative",
+        "provenance_status": "pinned-source-and-output-hashes",
+        "rights_id": "rights.hk.old-survey-sheets",
+        "publication_decision": "Redistribution permitted",
+        "rights_evidence": "archive/licensing/rights_registry.json#rights.hk.old-survey-sheets",
+        "derived_from": [
+          "artifact-7539dd851f3e7b191b2d"
+        ],
+        "producer_scripts": [
+          "research/checkers-runway13/reconstruction/block_matching/register_sheets.py"
+        ],
+        "publication_date": "1994-07",
+        "publication_date_precision": "month",
+        "observation_date": null,
+        "horizontal_crs": "EPSG:2326",
+        "cartographic_ground_accuracy_m": null
+      }
+    },
+    {
+      "artifact_id": "artifact-24bffbbbdfd4743f320d",
+      "path": "research/checkers-runway13/reconstruction/block_matching/registered/11-NE-11A_1994-07_core.png",
+      "reason": "Exact core registration receipt binds permitted source ZIP and output hash",
+      "fields": {
+        "source_ids": [
+          "src-hk-historical-survey",
+          "src-aryan-research"
+        ],
+        "source_attribution": [
+          "Lands Department, Government of HKSAR"
+        ],
+        "creator": [
+          "Aryan Ayyar (transformation; authorship proposed)"
+        ],
+        "processing_level": "registered/resampled derivative",
+        "provenance_status": "pinned-source-and-output-hashes",
+        "rights_id": "rights.hk.old-survey-sheets",
+        "publication_decision": "Redistribution permitted",
+        "rights_evidence": "archive/licensing/rights_registry.json#rights.hk.old-survey-sheets",
+        "derived_from": [
+          "artifact-7539dd851f3e7b191b2d"
+        ],
+        "producer_scripts": [
+          "research/checkers-runway13/reconstruction/block_matching/register_sheets.py"
+        ],
+        "publication_date": "1994-07",
+        "publication_date_precision": "month",
+        "observation_date": null,
+        "horizontal_crs": "EPSG:2326",
+        "cartographic_ground_accuracy_m": null
+      }
+    },
+    {
+      "artifact_id": "artifact-e6aeb86a195778ac6a32",
+      "path": "research/checkers-runway13/reconstruction/block_matching/registered/11-NE-11A_1997-04_core.tif",
+      "reason": "Exact core registration receipt binds permitted source ZIP and output hash",
+      "fields": {
+        "source_ids": [
+          "src-hk-historical-survey",
+          "src-aryan-research"
+        ],
+        "source_attribution": [
+          "Lands Department, Government of HKSAR"
+        ],
+        "creator": [
+          "Aryan Ayyar (transformation; authorship proposed)"
+        ],
+        "processing_level": "registered/resampled derivative",
+        "provenance_status": "pinned-source-and-output-hashes",
+        "rights_id": "rights.hk.old-survey-sheets",
+        "publication_decision": "Redistribution permitted",
+        "rights_evidence": "archive/licensing/rights_registry.json#rights.hk.old-survey-sheets",
+        "derived_from": [
+          "artifact-0f7baf3cac80b06ac365"
+        ],
+        "producer_scripts": [
+          "research/checkers-runway13/reconstruction/block_matching/register_sheets.py"
+        ],
+        "publication_date": "1997-04",
+        "publication_date_precision": "month",
+        "observation_date": null,
+        "horizontal_crs": "EPSG:2326",
+        "cartographic_ground_accuracy_m": null
+      }
+    },
+    {
+      "artifact_id": "artifact-7357ebbdd3966da192e9",
+      "path": "research/checkers-runway13/reconstruction/block_matching/registered/11-NE-11A_1997-04_core.png",
+      "reason": "Exact core registration receipt binds permitted source ZIP and output hash",
+      "fields": {
+        "source_ids": [
+          "src-hk-historical-survey",
+          "src-aryan-research"
+        ],
+        "source_attribution": [
+          "Lands Department, Government of HKSAR"
+        ],
+        "creator": [
+          "Aryan Ayyar (transformation; authorship proposed)"
+        ],
+        "processing_level": "registered/resampled derivative",
+        "provenance_status": "pinned-source-and-output-hashes",
+        "rights_id": "rights.hk.old-survey-sheets",
+        "publication_decision": "Redistribution permitted",
+        "rights_evidence": "archive/licensing/rights_registry.json#rights.hk.old-survey-sheets",
+        "derived_from": [
+          "artifact-0f7baf3cac80b06ac365"
+        ],
+        "producer_scripts": [
+          "research/checkers-runway13/reconstruction/block_matching/register_sheets.py"
+        ],
+        "publication_date": "1997-04",
+        "publication_date_precision": "month",
+        "observation_date": null,
+        "horizontal_crs": "EPSG:2326",
+        "cartographic_ground_accuracy_m": null
+      }
+    },
+    {
+      "artifact_id": "artifact-486a17da531350b91a01",
+      "path": "research/checkers-runway13/reconstruction/block_matching/registered/11-NE-11A_1989-10_core.tif",
+      "reason": "Exact core registration receipt binds permitted source ZIP and output hash",
+      "fields": {
+        "source_ids": [
+          "src-hk-historical-survey",
+          "src-aryan-research"
+        ],
+        "source_attribution": [
+          "Lands Department, Government of HKSAR"
+        ],
+        "creator": [
+          "Aryan Ayyar (transformation; authorship proposed)"
+        ],
+        "processing_level": "registered/resampled derivative",
+        "provenance_status": "pinned-source-and-output-hashes",
+        "rights_id": "rights.hk.old-survey-sheets",
+        "publication_decision": "Redistribution permitted",
+        "rights_evidence": "archive/licensing/rights_registry.json#rights.hk.old-survey-sheets",
+        "derived_from": [
+          "artifact-245afdd199ac2108dcc1"
+        ],
+        "producer_scripts": [
+          "research/checkers-runway13/reconstruction/block_matching/register_sheets.py"
+        ],
+        "publication_date": "1989-10",
+        "publication_date_precision": "month",
+        "observation_date": null,
+        "horizontal_crs": "EPSG:2326",
+        "cartographic_ground_accuracy_m": null
+      }
+    },
+    {
+      "artifact_id": "artifact-16e426807b3a56cb33a8",
+      "path": "research/checkers-runway13/reconstruction/block_matching/registered/11-NE-11A_1989-10_core.png",
+      "reason": "Exact core registration receipt binds permitted source ZIP and output hash",
+      "fields": {
+        "source_ids": [
+          "src-hk-historical-survey",
+          "src-aryan-research"
+        ],
+        "source_attribution": [
+          "Lands Department, Government of HKSAR"
+        ],
+        "creator": [
+          "Aryan Ayyar (transformation; authorship proposed)"
+        ],
+        "processing_level": "registered/resampled derivative",
+        "provenance_status": "pinned-source-and-output-hashes",
+        "rights_id": "rights.hk.old-survey-sheets",
+        "publication_decision": "Redistribution permitted",
+        "rights_evidence": "archive/licensing/rights_registry.json#rights.hk.old-survey-sheets",
+        "derived_from": [
+          "artifact-245afdd199ac2108dcc1"
+        ],
+        "producer_scripts": [
+          "research/checkers-runway13/reconstruction/block_matching/register_sheets.py"
+        ],
+        "publication_date": "1989-10",
+        "publication_date_precision": "month",
+        "observation_date": null,
+        "horizontal_crs": "EPSG:2326",
+        "cartographic_ground_accuracy_m": null
+      }
+    },
+    {
+      "artifact_id": "artifact-475eb4d87a1ff371402f",
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-10D_1995-06_core.tif",
+      "reason": "Exact core registration receipt binds permitted source ZIP and output hash",
+      "fields": {
+        "source_ids": [
+          "src-hk-historical-survey",
+          "src-aryan-research"
+        ],
+        "source_attribution": [
+          "Lands Department, Government of HKSAR"
+        ],
+        "creator": [
+          "Aryan Ayyar (transformation; authorship proposed)"
+        ],
+        "processing_level": "registered/resampled derivative",
+        "provenance_status": "pinned-source-and-output-hashes",
+        "rights_id": "rights.hk.old-survey-sheets",
+        "publication_decision": "Redistribution permitted",
+        "rights_evidence": "archive/licensing/rights_registry.json#rights.hk.old-survey-sheets",
+        "derived_from": [
+          "artifact-a67a097f4434428903dd"
+        ],
+        "producer_scripts": [
+          "research/checkers-runway13/reconstruction/block_matching/register_sheets.py"
+        ],
+        "publication_date": "1995-06",
+        "publication_date_precision": "month",
+        "observation_date": null,
+        "horizontal_crs": "EPSG:2326",
+        "cartographic_ground_accuracy_m": null
+      }
+    },
+    {
+      "artifact_id": "artifact-eda19cf9e6894634c50a",
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-10D_1995-06_core.png",
+      "reason": "Exact core registration receipt binds permitted source ZIP and output hash",
+      "fields": {
+        "source_ids": [
+          "src-hk-historical-survey",
+          "src-aryan-research"
+        ],
+        "source_attribution": [
+          "Lands Department, Government of HKSAR"
+        ],
+        "creator": [
+          "Aryan Ayyar (transformation; authorship proposed)"
+        ],
+        "processing_level": "registered/resampled derivative",
+        "provenance_status": "pinned-source-and-output-hashes",
+        "rights_id": "rights.hk.old-survey-sheets",
+        "publication_decision": "Redistribution permitted",
+        "rights_evidence": "archive/licensing/rights_registry.json#rights.hk.old-survey-sheets",
+        "derived_from": [
+          "artifact-a67a097f4434428903dd"
+        ],
+        "producer_scripts": [
+          "research/checkers-runway13/reconstruction/block_matching/register_sheets.py"
+        ],
+        "publication_date": "1995-06",
+        "publication_date_precision": "month",
+        "observation_date": null,
+        "horizontal_crs": "EPSG:2326",
+        "cartographic_ground_accuracy_m": null
+      }
+    },
+    {
+      "artifact_id": "artifact-33f339335e7ad9b06cbe",
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-15B_1989-11_core.tif",
+      "reason": "Exact core registration receipt binds permitted source ZIP and output hash",
+      "fields": {
+        "source_ids": [
+          "src-hk-historical-survey",
+          "src-aryan-research"
+        ],
+        "source_attribution": [
+          "Lands Department, Government of HKSAR"
+        ],
+        "creator": [
+          "Aryan Ayyar (transformation; authorship proposed)"
+        ],
+        "processing_level": "registered/resampled derivative",
+        "provenance_status": "pinned-source-and-output-hashes",
+        "rights_id": "rights.hk.old-survey-sheets",
+        "publication_decision": "Redistribution permitted",
+        "rights_evidence": "archive/licensing/rights_registry.json#rights.hk.old-survey-sheets",
+        "derived_from": [
+          "artifact-7a4514f58ed0dfbf1c75"
+        ],
+        "producer_scripts": [
+          "research/checkers-runway13/reconstruction/block_matching/register_sheets.py"
+        ],
+        "publication_date": "1989-11",
+        "publication_date_precision": "month",
+        "observation_date": null,
+        "horizontal_crs": "EPSG:2326",
+        "cartographic_ground_accuracy_m": null
+      }
+    },
+    {
+      "artifact_id": "artifact-83e76f5ee2415628360a",
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-15B_1989-11_core.png",
+      "reason": "Exact core registration receipt binds permitted source ZIP and output hash",
+      "fields": {
+        "source_ids": [
+          "src-hk-historical-survey",
+          "src-aryan-research"
+        ],
+        "source_attribution": [
+          "Lands Department, Government of HKSAR"
+        ],
+        "creator": [
+          "Aryan Ayyar (transformation; authorship proposed)"
+        ],
+        "processing_level": "registered/resampled derivative",
+        "provenance_status": "pinned-source-and-output-hashes",
+        "rights_id": "rights.hk.old-survey-sheets",
+        "publication_decision": "Redistribution permitted",
+        "rights_evidence": "archive/licensing/rights_registry.json#rights.hk.old-survey-sheets",
+        "derived_from": [
+          "artifact-7a4514f58ed0dfbf1c75"
+        ],
+        "producer_scripts": [
+          "research/checkers-runway13/reconstruction/block_matching/register_sheets.py"
+        ],
+        "publication_date": "1989-11",
+        "publication_date_precision": "month",
+        "observation_date": null,
+        "horizontal_crs": "EPSG:2326",
+        "cartographic_ground_accuracy_m": null
+      }
+    },
+    {
+      "artifact_id": "artifact-ca350b8834bae80f1e43",
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-10D_1989-11_core.tif",
+      "reason": "Exact core registration receipt binds permitted source ZIP and output hash",
+      "fields": {
+        "source_ids": [
+          "src-hk-historical-survey",
+          "src-aryan-research"
+        ],
+        "source_attribution": [
+          "Lands Department, Government of HKSAR"
+        ],
+        "creator": [
+          "Aryan Ayyar (transformation; authorship proposed)"
+        ],
+        "processing_level": "registered/resampled derivative",
+        "provenance_status": "pinned-source-and-output-hashes",
+        "rights_id": "rights.hk.old-survey-sheets",
+        "publication_decision": "Redistribution permitted",
+        "rights_evidence": "archive/licensing/rights_registry.json#rights.hk.old-survey-sheets",
+        "derived_from": [
+          "artifact-187ef88da3d9e9dae81f"
+        ],
+        "producer_scripts": [
+          "research/checkers-runway13/reconstruction/block_matching/register_sheets.py"
+        ],
+        "publication_date": "1989-11",
+        "publication_date_precision": "month",
+        "observation_date": null,
+        "horizontal_crs": "EPSG:2326",
+        "cartographic_ground_accuracy_m": null
+      }
+    },
+    {
+      "artifact_id": "artifact-114a3bb703b6599ff1aa",
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-10D_1989-11_core.png",
+      "reason": "Exact core registration receipt binds permitted source ZIP and output hash",
+      "fields": {
+        "source_ids": [
+          "src-hk-historical-survey",
+          "src-aryan-research"
+        ],
+        "source_attribution": [
+          "Lands Department, Government of HKSAR"
+        ],
+        "creator": [
+          "Aryan Ayyar (transformation; authorship proposed)"
+        ],
+        "processing_level": "registered/resampled derivative",
+        "provenance_status": "pinned-source-and-output-hashes",
+        "rights_id": "rights.hk.old-survey-sheets",
+        "publication_decision": "Redistribution permitted",
+        "rights_evidence": "archive/licensing/rights_registry.json#rights.hk.old-survey-sheets",
+        "derived_from": [
+          "artifact-187ef88da3d9e9dae81f"
+        ],
+        "producer_scripts": [
+          "research/checkers-runway13/reconstruction/block_matching/register_sheets.py"
+        ],
+        "publication_date": "1989-11",
+        "publication_date_precision": "month",
+        "observation_date": null,
+        "horizontal_crs": "EPSG:2326",
+        "cartographic_ground_accuracy_m": null
+      }
+    },
+    {
+      "artifact_id": "artifact-3305916f188e2975a644",
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-15B_1994-03_core.tif",
+      "reason": "Exact core registration receipt binds permitted source ZIP and output hash",
+      "fields": {
+        "source_ids": [
+          "src-hk-historical-survey",
+          "src-aryan-research"
+        ],
+        "source_attribution": [
+          "Lands Department, Government of HKSAR"
+        ],
+        "creator": [
+          "Aryan Ayyar (transformation; authorship proposed)"
+        ],
+        "processing_level": "registered/resampled derivative",
+        "provenance_status": "pinned-source-and-output-hashes",
+        "rights_id": "rights.hk.old-survey-sheets",
+        "publication_decision": "Redistribution permitted",
+        "rights_evidence": "archive/licensing/rights_registry.json#rights.hk.old-survey-sheets",
+        "derived_from": [
+          "artifact-3b7f0042bd2beebeed5b"
+        ],
+        "producer_scripts": [
+          "research/checkers-runway13/reconstruction/block_matching/register_sheets.py"
+        ],
+        "publication_date": "1994-03",
+        "publication_date_precision": "month",
+        "observation_date": null,
+        "horizontal_crs": "EPSG:2326",
+        "cartographic_ground_accuracy_m": null
+      }
+    },
+    {
+      "artifact_id": "artifact-1745ad994fac3dcb5896",
+      "path": "research/checkers-runway13/reconstruction/obstacles/review/11-NW-15B_1994-03_core.png",
+      "reason": "Exact core registration receipt binds permitted source ZIP and output hash",
+      "fields": {
+        "source_ids": [
+          "src-hk-historical-survey",
+          "src-aryan-research"
+        ],
+        "source_attribution": [
+          "Lands Department, Government of HKSAR"
+        ],
+        "creator": [
+          "Aryan Ayyar (transformation; authorship proposed)"
+        ],
+        "processing_level": "registered/resampled derivative",
+        "provenance_status": "pinned-source-and-output-hashes",
+        "rights_id": "rights.hk.old-survey-sheets",
+        "publication_decision": "Redistribution permitted",
+        "rights_evidence": "archive/licensing/rights_registry.json#rights.hk.old-survey-sheets",
+        "derived_from": [
+          "artifact-3b7f0042bd2beebeed5b"
+        ],
+        "producer_scripts": [
+          "research/checkers-runway13/reconstruction/block_matching/register_sheets.py"
+        ],
+        "publication_date": "1994-03",
+        "publication_date_precision": "month",
+        "observation_date": null,
+        "horizontal_crs": "EPSG:2326",
+        "cartographic_ground_accuracy_m": null
+      }
+    },
+    {
+      "artifact_id": "artifact-38bab5dab2d8994c79ba",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/MODEL_IMPLEMENTATION_SPEC.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-16e46b8eeec375720779"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "3d8a9ce242783e357317beca0470044c00d4f62c74084cd1ffa70472815a8ceb",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-3ae5424862d294d492b0",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/MODEL_EQUATIONS.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-3b840f5968d6f1f92f64"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "8c749d4b22505c91f1e0b6e9a72f17966c53d5d3565f0573aabe0851d0a1beac",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-7eece522a3e5433ce4f0",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/MODEL_VALIDATION_REPORT.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-cf5d8d273bfb2bf17ba2"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "5ac1fa68810cec397d013875d534350bbf8f28d08eb0ed1d49912d253030e426",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-f2adeaa6c30ce16d9677",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/model/config.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-e96c8fa0fb97414260ce"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-3f6c1aa3f2a3aa745f19",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/approximation/SPEC.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-d77965c3d0b92cc5daeb"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "586cdc4cd0b69d20126a5c97e19cb39937426ff9ec58498cb45412df96a83165",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-5409c5ccff5cb9a86c51",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/approximation/reference_formula.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-6ad17b6d1b01de6f3390"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "95311d6d1857fc6330532dcce52cc58f03e20b489c3249a0da6cf3f14cea0c76",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-4c6cdd0adad968538299",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/approximation/reference_outcomes.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-d0a2bb97aeb3e8bfc9de"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "23a2e3c01c35a95d7d933cf87351a86c6e0eef2d69e821421cb60b60d9242c51",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-e5dc27ef7f1771c19aac",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/approximation/CLOSED_FORM_AND_BOUNDS.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-5f9af59f9c69a4a6f559"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "c9905b322a0f674e48a8f3461642648496a94ff57f6cb77eda7416af6bd16c3c",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-cbdeae09486412a4610a",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/approximation/parent_verification.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-b1ed115747666e7728aa"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "614bea92909e525f847dff84307cd65b91d7bba0375176ebec15accc35994922",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-a2cc00c7e5cfca81f822",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/analytical/coupled/RESULTS.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-d2ee6d208f455991e027"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "386695fa71afc900113f123e7204966a64dfd43eb2db0faed4fb3577c30554fa",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-81f24dbad00d5978d2f9",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/analytical/coupled/continuous_certificate_refined.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-9ca22e5b354b0b57b640"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "774f34ad182a5015eeed799c910cde01eb6b297c1b4e6c4a119582b0d83db973",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-b14d9cdbf16457916be6",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/REPORT.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-8bcce80701122fc57057"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "6a06f484eeeb20e9b6ff35d0fcb12c74efc4d96a80fc08c480ae54405c7aa11d",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-f6646271e17fdb186788",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/chronology/HANDOFF.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-6886df85cc2e457cae73"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "f8deecf9c45d622e3b4fd6bcef7b4245a7e736d4364b02dec8a8004be96f7a34",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-8cdcb679d1d927cb1a26",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/registration_report.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-24ed04d3edc0feb0ab10"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "c751bd91f98a4bcbdb78743d34be9ce97846fe35cca3c582e8abda15c8fcbb87",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-c17875f0be3df8932ad2",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-2947dd7fb135d3a4bd95"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "c6d92372417f56a8b017f8da56c0ed9d59d03eabf14efcc8fc9004137e2855e1",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-2e5fb8fa659e0d815e84",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/stereo_verification.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-eaf2d12f804aadf7f9d9"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "1aa46915a083962a3cc7a60065ceaba113d69ed9effb27f83cd8e67c98b470ec",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-963f2bece72755da2e5b",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/sparse_stereo_report.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-65a72c03f9ee83fd749c"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "17c70dac3685c3f04eb9d01026aaf3c74ed32313e70755bb854f9afc58377bc9",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-14ddccc143b03f68b59e",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/dense_stereo_report.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-9264ce5ac6dde13686a7"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "28ddf7ddff1f4a75e756a6beb3842ed8d6c8fd7e68d211a9e162cf94b72a6374",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-0490b11d50b03ead1b1c",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/scene/validation.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-38cd1df8d19f5bd42b05"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "ab34f82f8fbaca0a515608b0ae3f44539263d5162e2fa088557618df7f2a7a0c",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-36affe8d1880105e11e8",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/geospatial/README.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-bb951a7acc59c5d18e90"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "1ac992bf7838fa3476067ec43c9682bcda2d62d5c9eeb04180f291060d7a7788",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-3921a986803e056006cc",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/EVIDENCE_REPORT.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-c92b2600856a161f62c2"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "601cc3b9c93fb1315c01a393b0b5236eb92700b834ce449a0a2531d551319b64",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-6d23acffdbc8e21e755a",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/noaa/README.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-3f287e1f8e1ae5f52205"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "64c308501364f3d9d095cebfe4612cd927d4174c96d1baf0f9279cccf549dd81",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-a2bc159d428e8edd1f17",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/noaa/acceptance_verification.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-144573fa9cab7c26ccb4"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "f6a6f0bab428784570eb6f1e8ceada99ecb769c466cd21f6551dc1e1c8271471",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-a8b81bbbc2b0aed35eb1",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/literature/LITERATURE_AND_COMPARISON.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-24637b05704f804ffccb"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "b167fb01d96631a749fde1cbb4a894ee257b14f0f5e0cc3520a984f26100431a",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-57d5506211fe2d9e17e3",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/literature/APPROXIMATE_LANDING_NOVELTY_2026-10-13.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-26c1cac4edb971ce5047"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "ef06c27cc45b30f97ad3bc09198ff7b3a3794b8a3a9ad4233d1c872a39e9e31f",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-d2a0a8cdf165758eda85",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/REPORT.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "source-path-reference-71ba873e1c27b40dd1a5"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": null,
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-a8e403ea1763e6d2686b",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/HANDOFF.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "source-path-reference-15d20be5d94db79490ae"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": null,
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-fb5a91b7861733d0c51e",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/validation.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "source-path-reference-ad75a78cc1ed58479fa4"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": null,
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-9810facdc845f5abd630",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-32f888d0508209771f45"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "ae7aa69c6ed42263bc6e060fb92133aaeed8e39f9909bdea48d99dc27986b394",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-f41ca5569158d34ccea7",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/aerial_registration/observed_mesh_verification.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-a3ab4689b81c1b467553"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "a50c3ae569ce52d7c47a21bbe905f18fc4be233f4b311c5c225b08fe9ea42cc7",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-a9fa83574f1ab97c7f33",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "source-path-reference-81e69f84e98a5537b504"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": null,
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-33e04e814ee931475c37",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/verification.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-01f15358182b11a02b86"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "bf93850ae01b3d5539b42e51af7f56238e73cebfae6536910f30793165892681",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-37503130f8cca272c5ed",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/analysis.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-edcb0827c32697452489"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "7e957b6c8cd42493f6809a49b7be917c147a1e147ecadeef98a64762259b2c42",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-33bfb04df7de773d2b7e",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/delivery_manifest.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "source-path-reference-a2323ab472532adc24f0"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": null,
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-6e2eb1b8966b5abcc1cc",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/clock_alignment.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-5c147311e372f9171c81"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "cf3250dafc6c559bb82b1d2a2073b008a69de16ca79bdd0a48aa1ca10b8279cb",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-88e74d68c7ef6e0ba811",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/flight/README.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-d41beacab7b2007bc9fa"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "2bb2c74851ac1d0f0b9bb91125eab70bdb1ce58da16ff1ddad7b042385801257",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-6ab9c3054c71ac2bd55b",
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/wind/README.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-9e7c4f60f294f296282c"
+        ],
+        "generation_date": "2026-10-13T13:37:13.371553+00:00",
+        "source_sha256": "7ef27fc02ccdac883402a4f7b530873ca2cec90ae218bd82b38073106a2257db",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-6a29664c28630eb81e0e",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/PROJECT_STATE.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-version-fa85e0ac5abe504f85c2"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "df81045e5c5c1398d124c9ef14104a5cabd5f9970fd3bfbb991d1aca31950d87",
+        "snapshot_normalization": true
+      }
+    },
+    {
+      "artifact_id": "artifact-3face08c82e57c3f8983",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/MODEL_IMPLEMENTATION_SPEC.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-16e46b8eeec375720779"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "3d8a9ce242783e357317beca0470044c00d4f62c74084cd1ffa70472815a8ceb",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-b5da4c2f04bd276b6c06",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/MODEL_EQUATIONS.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-3b840f5968d6f1f92f64"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "8c749d4b22505c91f1e0b6e9a72f17966c53d5d3565f0573aabe0851d0a1beac",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-d9aac20bb1efecf466e7",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/MODEL_VALIDATION_REPORT.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-cf5d8d273bfb2bf17ba2"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "5ac1fa68810cec397d013875d534350bbf8f28d08eb0ed1d49912d253030e426",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-a79c71ed0a416f0e8cca",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/model/config.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-e96c8fa0fb97414260ce"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-dd133ba0766d11e6416f",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/approximation/SPEC.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-d77965c3d0b92cc5daeb"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "586cdc4cd0b69d20126a5c97e19cb39937426ff9ec58498cb45412df96a83165",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-45fcc01602691fafe691",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/approximation/STATUS.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-version-10ac6c032ae508381960"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "f2b29c4a61c9027aaf2ef2beb87718e0a2df088a9735dba0136df2786db23c52",
+        "snapshot_normalization": true
+      }
+    },
+    {
+      "artifact_id": "artifact-7cc195527e3b97ca93ee",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/approximation/reference_formula.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-6ad17b6d1b01de6f3390"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "95311d6d1857fc6330532dcce52cc58f03e20b489c3249a0da6cf3f14cea0c76",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-713c3b68eda5d2c2b462",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/approximation/reference_outcomes.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-d0a2bb97aeb3e8bfc9de"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "23a2e3c01c35a95d7d933cf87351a86c6e0eef2d69e821421cb60b60d9242c51",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-07855dc1da6aeb093011",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/approximation/CLOSED_FORM_AND_BOUNDS.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-5f9af59f9c69a4a6f559"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "c9905b322a0f674e48a8f3461642648496a94ff57f6cb77eda7416af6bd16c3c",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-1c771f2b86a9154860ce",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/approximation/parent_verification.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-b1ed115747666e7728aa"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "614bea92909e525f847dff84307cd65b91d7bba0375176ebec15accc35994922",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-7e6f2e15b26b11de420e",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/analytical/coupled/RESULTS.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-d2ee6d208f455991e027"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "386695fa71afc900113f123e7204966a64dfd43eb2db0faed4fb3577c30554fa",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-80ce0853fd7e76966c93",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/analytical/coupled/continuous_certificate_refined.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-9ca22e5b354b0b57b640"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "774f34ad182a5015eeed799c910cde01eb6b297c1b4e6c4a119582b0d83db973",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-122e47fd6a18fbe1b981",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/REPORT.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-8bcce80701122fc57057"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "6a06f484eeeb20e9b6ff35d0fcb12c74efc4d96a80fc08c480ae54405c7aa11d",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-520feb22c6e0adb1be81",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/chronology/HANDOFF.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-6886df85cc2e457cae73"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "f8deecf9c45d622e3b4fd6bcef7b4245a7e736d4364b02dec8a8004be96f7a34",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-02a4993f2cbe801e8a66",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/registration_report.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-24ed04d3edc0feb0ab10"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "c751bd91f98a4bcbdb78743d34be9ce97846fe35cca3c582e8abda15c8fcbb87",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-7886537026b8d9a4af81",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/README.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-2947dd7fb135d3a4bd95"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "c6d92372417f56a8b017f8da56c0ed9d59d03eabf14efcc8fc9004137e2855e1",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-1f731d0aeeda2172736a",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/stereo_verification.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-eaf2d12f804aadf7f9d9"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "1aa46915a083962a3cc7a60065ceaba113d69ed9effb27f83cd8e67c98b470ec",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-268b4df1ec83a6613e90",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/sparse_stereo_report.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-65a72c03f9ee83fd749c"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "17c70dac3685c3f04eb9d01026aaf3c74ed32313e70755bb854f9afc58377bc9",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-7201d4c8854a14faccd7",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/dense_stereo_report.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-9264ce5ac6dde13686a7"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "28ddf7ddff1f4a75e756a6beb3842ed8d6c8fd7e68d211a9e162cf94b72a6374",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-67086671911735614490",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/scene/validation.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-38cd1df8d19f5bd42b05"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "ab34f82f8fbaca0a515608b0ae3f44539263d5162e2fa088557618df7f2a7a0c",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-5899c970a3181879d45f",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/geospatial/README.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-bb951a7acc59c5d18e90"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "1ac992bf7838fa3476067ec43c9682bcda2d62d5c9eeb04180f291060d7a7788",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-7469beed064f2ea44e3d",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/EVIDENCE_REPORT.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-c92b2600856a161f62c2"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "601cc3b9c93fb1315c01a393b0b5236eb92700b834ce449a0a2531d551319b64",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-b15578199bebdc7ecc6b",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/noaa/README.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-3f287e1f8e1ae5f52205"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "64c308501364f3d9d095cebfe4612cd927d4174c96d1baf0f9279cccf549dd81",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-02daf7959d360a256b0c",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/noaa/verification.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-version-23adcf36c8e0e6110ac3"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "e9cea872418b2a97622be93551d4d27e61fda992fc2c62ae6e9d003bde58c883",
+        "snapshot_normalization": true
+      }
+    },
+    {
+      "artifact_id": "artifact-25877e00a41576009df5",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/noaa/acceptance_verification.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-144573fa9cab7c26ccb4"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "f6a6f0bab428784570eb6f1e8ceada99ecb769c466cd21f6551dc1e1c8271471",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-3ee74f5cef08411dc5a8",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/literature/LITERATURE_AND_COMPARISON.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-24637b05704f804ffccb"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "b167fb01d96631a749fde1cbb4a894ee257b14f0f5e0cc3520a984f26100431a",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-f9ec73b1fea4ec41365f",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/literature/APPROXIMATE_LANDING_NOVELTY_2026-10-13.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-26c1cac4edb971ce5047"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "ef06c27cc45b30f97ad3bc09198ff7b3a3794b8a3a9ad4233d1c872a39e9e31f",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-255e05c31b0f574395de",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/weather_plot_data.csv",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-version-592c26fb34b5be1d2239"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "7de32c29acf8f3729884a002ff133252ad6cab1b7a2da486b104ccc9d85a704d",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-dbc8150b00ecb24cbd17",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/stereo_plot_data.csv",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-version-d3cea758bd7f7a86b894"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "020e06d1ca36ce849f6935ca63ad7f9281d07d3c0724b246ee844076f0fb8b9b",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-667b70b3fa721e981f3f",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/REPORT.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-71ba873e1c27b40dd1a5"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "18add497b2e88914395fab97877805cb0cb4201fe09355cb78b1abc6954f3893",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-ceaac9bc1b249228204b",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/HANDOFF.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-15d20be5d94db79490ae"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "9f22ab99f964c030608afa44283fe6e92f03f11d30938eb0c0a3a9d5068b9c62",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-acc4b74034156e42ff76",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/validation.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-ad75a78cc1ed58479fa4"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "b8e3a0fd8e9717b724316f9bdcdad140cb2f14c71ae3bb9b800b5d43bb9c5c5d",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-b5071fd43e961e037e9b",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/observed_surface_mesh_report.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-32f888d0508209771f45"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "ae7aa69c6ed42263bc6e060fb92133aaeed8e39f9909bdea48d99dc27986b394",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-8fd95d5f50aed8073f95",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/aerial_registration/observed_mesh_verification.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-a3ab4689b81c1b467553"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "a50c3ae569ce52d7c47a21bbe905f18fc4be233f4b311c5c225b08fe9ea42cc7",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-3d193d518102092c492a",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-81e69f84e98a5537b504"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "ea22be6e2488bf4d322a2775a172f4ef4c2dad879c2bf6e431fb5c7fdabd3df0",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-3c31d618147698db424f",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/verification.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-01f15358182b11a02b86"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "bf93850ae01b3d5539b42e51af7f56238e73cebfae6536910f30793165892681",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-bdabc037bd24d8e833e3",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/analysis.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-edcb0827c32697452489"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "7e957b6c8cd42493f6809a49b7be917c147a1e147ecadeef98a64762259b2c42",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-10ee7fc31b64c7dfa436",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/delivery_manifest.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-a2323ab472532adc24f0"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "db4ba3d890a36c27267e889576bc6b881fac70f5dbda327fdb1cdb24bccca5fa",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-c04be28959db3c229146",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/clock_alignment.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-5c147311e372f9171c81"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "cf3250dafc6c559bb82b1d2a2073b008a69de16ca79bdd0a48aa1ca10b8279cb",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-ab1183171ad919f06158",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/flight/README.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-d41beacab7b2007bc9fa"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "2bb2c74851ac1d0f0b9bb91125eab70bdb1ce58da16ff1ddad7b042385801257",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-33207552eb504262e525",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/evidence/cal605_reconstruction/wind/README.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-9e7c4f60f294f296282c"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "7ef27fc02ccdac883402a4f7b530873ca2cec90ae218bd82b38073106a2257db",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-a7dbcd0f487ea6b27398",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/REPORT.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-8619b5a01441866b2d3f"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "deb41f43c3473b0ce6e7f786cdd5f12f730c71a0c03c12abb672810da306539c",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-132d5e0d9049c92e29c1",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/SPEC.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-6db0bf4a472b6c75ac71"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "aa42d0e9812ac35d9dc3f2823beb8e535b82597c0dee5dd0cee9c5487579697f",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-298220b3a172a9bc872c",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/SCOPE_AUDIT.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-15f12f8129383d360637"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "d7df7768b51f2f8c172c0cd2c1a7f1f49962cb8a0ffb5744f55222ce7f3d0477",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-d6e73b7bc9e720b3738d",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/result.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-08dbcd0eb3697c8ce2e3"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "49296dd026b3f0702fb672264c2c5524221a38acbf60631b6b8581e6c0b7bfe8",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-d5366e1592d9d6f3bb69",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/formula.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-7b5ebcbe7ed480993555"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "8901139804934615e3b0d2fe3c1cfb2c6b8f9a4bc3c5c77f1b6828c82930008a",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-d003569b2a752c5c9c64",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/path_controls.csv",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-b223671f7556d1ad6b27"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "d42229db01e630e361ddd7bd9ad69cd76ecd6564a9682e52ed71ecef64a81640",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-5bba735218e83d88b22d",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/inputs.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-a80a64146db2c2eca57e"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "5e498fee46936c4a53a908ec255d34b83c4894af223aff10bfbd8610605f088b",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-6eb544e2ad9079e62ec2",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/selected.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-be64689b1bedea031655"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "9d8b40c750caea97f45f894f314e47f4ae934d577f4a5014c8a35b4f04defe64",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-7c10d0495f19c9ba2fc7",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/search_state.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-6441649595cf0bd47ccd"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "3756d4a88c11bfae4fbd7764e17b1a07f5c72e2abbe75fe2f92c93764bcd7493",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-748161c689744048f626",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/search_checkpoint.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-d7eb13671f05ad18e0c4"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "4cedc557b9ed80c8e52d61f14bff6aacf5b69fdc1046f692fc3b53aa264a13e6",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-b41e87b60c531cddfa93",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/continuous_check.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-d3b24e5465a703b07b5c"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "3631409dfc2fef2c0b8e6bf40d77143358b0bc6ced7c30261c620ce58f228f36",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-b348b281b0faa244f898",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/verification.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-73f4c1319a897b3dd4d8"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "9a22ee599829be5de129883483d89cd8c5ca88ee8606cfe33a146bce7c052264",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-ca7e6e611cf2850de9f7",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/delivery_manifest.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-e369e28e4a51a57fee5f"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "8f01b9abb6b0f40ca40d25b871e8102a4509504a9b2805d440c85ef4aa52f95e",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-f96eabdfd09a3b6ad823",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/calculate.py",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-c6e11e72b5a17c2a2d5f"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "c9b77777356cd93cf14f97d57289bab489e109525c4056abf44111afb29be605",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-8adc19788a1c52a44264",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/continuous.py",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-6f67930cfd6ffa680df3"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "c220e280115238c7f42779236a1bf41fe29e786cc58d6c6830d3fc35f7db8a8c",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-cae2a19a71c1908e3991",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/deliver.py",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-00b9e439cf5717797096"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "30dab99db968f3d9ea3308d6d22f294b78b0ff73d47a2de682c38c51d13e36dd",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-64bb4fc537c12034728e",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/test_counterfactual.py",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-860849d1289bae19de39"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "66589ebeae8ff8d64fafa91499a7ab4df91be215a931929d16b4a3967e5ebed7",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-a34ceb77611940afa2a7",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/verify_delivery.py",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-8058550448439faf8987"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "e99ccee20cda1ef54a34a4631ce3d0240be1404d7e502f7042f71bc88826a082",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-c7f192f2e0f5d1c3fe70",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/reviews/DISPOSITION.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-4546b781343a12b15d57"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "9f5d9410b58e530cdf40873454d78208aba1d370d03255b2dcb26810b8c66b4d",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-3bad116f8b45f963abda",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/reviews/parent_final_verification.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-52e85ef1e0185d92a7a2"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "2375724bc41568b3b89d15f593d314f0e60d60caa539b22e4fb9b979ff5458c2",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-eaf8530ce586f00ff17d",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/reviews/parent_certificate_check.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-7f4ab6b84819c03a1e88"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "e3675cf3a42000ed7caed90660f036dce22c9e68440435cd717544bdd5e9c083",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-97e8f22b3e52cb37272c",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/counterfactual/reviews/acceptance.md",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-a265fbdc5ae6ab8bb710"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "1fa8704467f7fb469131d2207067ea29c7755e3787f80368f554f30d6b04a653",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-6710e013038a6ccebc28",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/road_cell_parent_verification.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-da0c3b4e9ad3b0540adf"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "5b2cb57cbcee39c0de12193f3e85ea20e18f8f3a67b2f02b8226884b27bab816",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-c4bd6661c5bad536592c",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/road_cell_visual_observations.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-393a469a34545a8d35f8"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "5e6c2446a3ac7c223748eec8465afe1c12efbe63c3de0f56aeb4899d3cf29706",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-f391f6ddae63e0581b88",
+      "path": "research/checkers-runway13/whitepaper/v2/evidence/reconstruction/block_matching/scene/readable/verification.json",
+      "reason": "Version-specific source/snapshot hash relation verified",
+      "fields": {
+        "provenance_status": "frozen-snapshot-hash-bound",
+        "derived_from": [
+          "artifact-7bab5d08c5a3ad5f5d65"
+        ],
+        "generation_date": "2026-10-13T14:10:28.638837+00:00",
+        "source_sha256": "32e41a87b5e7b59139bff586f54e14f61d26a4e6a8087eff5f1f4558c472b20a",
+        "snapshot_normalization": false
+      }
+    },
+    {
+      "artifact_id": "artifact-2e714b8072a93add0614",
+      "path": "research/checkers-runway13/analytical/verification_results.json",
+      "reason": "Fresh producer replay matches all non-timestamp fields",
+      "fields": {
+        "provenance_status": "producer-replay-semantic-identical",
+        "creator": [
+          "Aryan Ayyar (authorship proposed)"
+        ],
+        "source_ids": [
+          "src-aryan-research"
+        ],
+        "producer_scripts": [
+          "research/checkers-runway13/analytical/verify_scs.py"
+        ],
+        "generation_date": "2026-10-13T10:50:59.489637+00:00",
+        "rights_id": "rights.original",
+        "publication_decision": "Original authored material",
+        "license_grant_status": "author approval pending"
+      }
+    },
+    {
+      "artifact_id": "artifact-65df296265710f97d0b0",
+      "path": "research/checkers-runway13/analytical/finite_roll_position_results.json",
+      "reason": "Fresh producer replay matches all non-timestamp fields",
+      "fields": {
+        "provenance_status": "producer-replay-semantic-identical",
+        "creator": [
+          "Aryan Ayyar (authorship proposed)"
+        ],
+        "source_ids": [
+          "src-aryan-research"
+        ],
+        "producer_scripts": [
+          "research/checkers-runway13/analytical/verify_finite_roll_position.py"
+        ],
+        "generation_date": "2026-10-13T11:43:09.977570+00:00",
+        "rights_id": "rights.original",
+        "publication_decision": "Original authored material",
+        "license_grant_status": "author approval pending"
+      }
+    },
+    {
+      "artifact_id": "artifact-75804bf4a98a57fee718",
+      "path": "research/checkers-runway13/analytical/full_landing_analysis_results.json",
+      "reason": "Fresh producer replay matches all non-timestamp fields",
+      "fields": {
+        "provenance_status": "producer-replay-semantic-identical",
+        "creator": [
+          "Aryan Ayyar (authorship proposed)"
+        ],
+        "source_ids": [
+          "src-aryan-research"
+        ],
+        "producer_scripts": [
+          "research/checkers-runway13/analytical/verify_full_landing_analysis.py"
+        ],
+        "generation_date": "2026-10-13T11:43:45.374582+00:00",
+        "rights_id": "rights.original",
+        "publication_decision": "Original authored material",
+        "license_grant_status": "author approval pending"
+      }
+    },
+    {
+      "artifact_id": "artifact-9ca22e5b354b0b57b640",
+      "path": "research/checkers-runway13/analytical/coupled/continuous_certificate_refined.json",
+      "reason": "Embedded config/code/input hashes checked, not a fresh interval proof",
+      "fields": {
+        "provenance_status": "embedded-input-hashes-verified",
+        "creator": [
+          "Aryan Ayyar (authorship proposed)"
+        ],
+        "source_attribution": [
+          "Aryan Ayyar"
+        ]
+      }
+    },
+    {
+      "artifact_id": "artifact-d3b24e5465a703b07b5c",
+      "path": "research/checkers-runway13/counterfactual/continuous_check.json",
+      "reason": "Embedded config/code/input hashes checked, not a fresh interval proof",
+      "fields": {
+        "provenance_status": "embedded-input-hashes-verified",
+        "creator": [
+          "Aryan Ayyar (authorship proposed)"
+        ],
+        "source_attribution": [
+          "Aryan Ayyar",
+          "Civil Aviation Department, Government of Hong Kong",
+          "NOAA/NCEI"
+        ]
+      }
+    }
+  ],
+  "irrecoverable_or_unverified_gaps": [
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/PROJECT_STATE.md",
+      "reason": "snapshot differs from evidence manifest"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/approximation/STATUS.md",
+      "reason": "snapshot differs from evidence manifest"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/noaa/verification.json",
+      "reason": "snapshot differs from evidence manifest"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/REPORT.md",
+      "source_path": "research/checkers-runway13/reconstruction/block_matching/REPORT.md",
+      "reason": "v1 snapshot verified but original source hash absent and current source differs"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/HANDOFF.json",
+      "source_path": "research/checkers-runway13/reconstruction/block_matching/HANDOFF.json",
+      "reason": "v1 snapshot verified but original source hash absent and current source differs"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/reconstruction/block_matching/validation.json",
+      "source_path": "research/checkers-runway13/reconstruction/block_matching/validation.json",
+      "reason": "v1 snapshot verified but original source hash absent and current source differs"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/REPORT.md",
+      "source_path": "research/checkers-runway13/evidence/cal605_reconstruction/REPORT.md",
+      "reason": "v1 snapshot verified but original source hash absent and current source differs"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v1/evidence/evidence/cal605_reconstruction/delivery_manifest.json",
+      "source_path": "research/checkers-runway13/evidence/cal605_reconstruction/delivery_manifest.json",
+      "reason": "v1 snapshot verified but original source hash absent and current source differs"
+    },
+    {
+      "scope": "Many authored documents/scripts and static figures",
+      "reason": "Folder membership and co-listing in a checksum manifest do not prove authorship or parent inputs. Manual authorship approval and exact producer recipe inspection still needed."
+    },
+    {
+      "scope": "Registered/cropped rasters",
+      "reason": "Pinned input/output manifests establish reported lineage, not independent replay of registration or source-world accuracy; no new geometric validation claimed."
+    },
+    {
+      "scope": "historical source-version nodes",
+      "reason": "Source changed since frozen paper snapshot; expected old SHA remains valid provenance identity but unavailable exact bytes cannot be marked present merely from current same path."
+    },
+    {
+      "scope": "source-rights inheritance",
+      "reason": "New author-created code/doc/figures still lack approved original-work license. Exact upstream data permission does not authorize publication or an original-work grant."
+    },
+    {
+      "scope": "all 454 archive members",
+      "reason": "Virtual byte identities inside ZIPs; no standalone member artifacts found in current catalogue. Do not add fake on-disk existence."
+    }
+  ]
+}

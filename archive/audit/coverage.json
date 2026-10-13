@@ -1,0 +1,14 @@
+{
+  "local_entries_hashed": 34645,
+  "public_metadata_entries": 6457,
+  "private_or_runtime_entries_omitted": 28188,
+  "counts_by_location": {
+    "remote-checkout": 1669,
+    "local-checkout": 1764,
+    "research-workspace": 31189,
+    "data-workspace": 23
+  },
+  "symlink_count": 20,
+  "read_errors": 0,
+  "raw_private_inventory_retained_outside_git": true
+}

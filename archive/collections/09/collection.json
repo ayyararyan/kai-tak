@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "id": "09",
+  "title": "Documentation and Research Publications",
+  "dataset_ids": [
+    "kt-whitepapers",
+    "kt-literature",
+    "kt-archival-finding-records",
+    "kt-whitepaper-v1-frozen-evidence",
+    "kt-whitepaper-v2-frozen-evidence",
+    "kt-support-09"
+  ],
+  "citation": "Ayyar, Aryan (2026). Documentation and Research Publications. The Kai Tak Historical Research Archive, candidate v1.0.0, collection 09.",
+  "file_count": 312,
+  "permitted_bundle_files": 0,
+  "release_manifest": "../../releases/v1.0.0/collections/09.json"
+}

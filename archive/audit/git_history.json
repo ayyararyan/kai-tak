@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-10-13T16:41:26.872918+00:00",
+  "head": "128f7006e8c929a878bd80bdf84521a97c45ee30",
+  "history": [
+    "128f7006e8c929a878bd80bdf84521a97c45ee30 2026-10-13T22:04:29+05:30 Merge remote-tracking branch 'origin/main' into publication/integration-20261013",
+    "fe55a45f853a86a4066248053b9a38f4d9c5443a 2026-10-13T22:04:28+05:30 Publish historical integration and archival-source checkpoint",
+    "f427e7cb2e854cba5e1516708780e46b6f199b2d 2026-10-13T22:03:10+05:30 Replace Kai Tak README image with supplied photograph",
+    "0798c767d9f07e0ba4215003760621c703372a79 2026-10-13T19:57:09+05:30 Publish settled obstacle evidence handoff and exclude review scratch",
+    "6178eed1de49f66ac658acf5f5d26fa7e754b9ba 2026-10-13T19:50:33+05:30 Publish wind-conditioned landing, white paper v2 and reconstruction updates",
+    "c0bfc7abf2801716a90ffc6269a669b6f726097a 2026-10-13T19:12:59+05:30 Add Kai Tak approach illustration to root README",
+    "fd0c0d85b6c514fc7f919542192f18b747f4e092 2026-10-13T19:06:46+05:30 Publish initial Kai Tak research snapshot and versioned data manifests"
+  ],
+  "tags": [
+    "128f7006e8c929a878bd80bdf84521a97c45ee30 refs/tags/integration-2026-10-13",
+    "fd0c0d85b6c514fc7f919542192f18b747f4e092 refs/tags/snapshot-2026-10-13",
+    "6178eed1de49f66ac658acf5f5d26fa7e754b9ba refs/tags/update-2026-10-13"
+  ],
+  "contributors": [
+    "Aryan Ayyar (6 commits)",
+    "Induj1 (1 commit: supplied README photograph; rights unverified)"
+  ],
+  "local_dirty": [
+    " M research/checkers-runway13/PROJECT_STATE.md",
+    "?? research/checkers-runway13/whitepaper/v3/"
+  ]
+}

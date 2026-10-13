@@ -1,0 +1,234 @@
+{
+  "schema_version": "audit-provenance-1",
+  "sources": [
+    {
+      "id": "src-hk-historical-survey",
+      "title": "Historical survey map sheets and edition indices",
+      "creator": "Lands Department, Government of HKSAR",
+      "urls": [
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1631584892859_72892/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1639990901210_47291/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047202071_61921/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1640047456225_68329/FeatureServer",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1671592436814_1059/FeatureServer"
+      ],
+      "local_evidence": [
+        "research/checkers-runway13/reconstruction/chronology/sheets/map_downloads.json",
+        "research/checkers-runway13/reconstruction/chronology/sheets/raw/"
+      ],
+      "rights_status": "requires source-specific rights audit; availability is not permission",
+      "date_semantics": "Edition/publication date is not each object survey date"
+    },
+    {
+      "id": "src-hk-aerial-index",
+      "title": "HKMS aerial flight-path/frame index",
+      "creator": "Lands Department, Government of HKSAR",
+      "urls": [
+        "https://api.hkmapservice.gov.hk/oss/services/OneStop/FlightPaths/MapServer/2/query",
+        "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA"
+      ],
+      "local_evidence": [
+        "research/checkers-runway13/reconstruction/chronology/aerial/index_provenance.json"
+      ],
+      "rights_status": "requires source-specific rights audit; availability is not permission",
+      "observation_date": "1985–1998 selected AOI",
+      "crs": "EPSG:4326 export; EPSG:2326 native"
+    },
+    {
+      "id": "src-hk-dap-l0",
+      "title": "Digital Aerial Photo DAP-L0",
+      "creator": "Lands Department, Government of HKSAR",
+      "urls": [
+        "https://www.hkmapservice.gov.hk/OneStopSystem/map-search?product=OSSCatA"
+      ],
+      "local_evidence": [
+        "research/checkers-runway13/reconstruction/chronology/aerial/fullframe_manifest.json"
+      ],
+      "rights_status": "requires source-specific rights audit; availability is not permission",
+      "limitations": "300 dpi compressed 3000-pixel images, not paid full-resolution calibrated film scans"
+    },
+    {
+      "id": "src-hk-building-20260921",
+      "title": "Building polygons, revision 2026-09-21",
+      "creator": "Lands Department, Government of HKSAR",
+      "urls": [
+        "https://portal.csdi.gov.hk/csdi-webpage/metadata/landsd_rcd_1637211194312_35158/html",
+        "https://portal.csdi.gov.hk/csdi-webpage/file-api?dataset_id=landsd_rcd_1637211194312_35158&format=geojson&layer_name=Building"
+      ],
+      "local_evidence": [
+        "research/checkers-runway13/geospatial/manifest.json"
+      ],
+      "rights_status": "requires source-specific rights audit; availability is not permission",
+      "revision_date": "2026-09-21",
+      "observation_date": null,
+      "crs": "EPSG:4326 export; service HK1980",
+      "vertical_datum": "HKPD; BaseHeight and TopHeight are elevations"
+    },
+    {
+      "id": "src-hk-building-works",
+      "title": "Building works, structures and occupation-permit relationships",
+      "creator": "Lands Department / Buildings Department, Government of HKSAR",
+      "urls": [
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1000",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1002",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1003",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/FeatureServer/1004"
+      ],
+      "local_evidence": [
+        "research/checkers-runway13/reconstruction/chronology/structures/acquisition_manifest.json"
+      ],
+      "rights_status": "requires source-specific rights audit; availability is not permission",
+      "acquired_date": "2026-10-13",
+      "limitations": "Modern/current polygon universe; linked source dates conflict and remain preserved"
+    },
+    {
+      "id": "src-hk-dtm5",
+      "title": "Whole Hong Kong 5m Digital Terrain Model",
+      "creator": "Lands Department, Government of HKSAR",
+      "urls": [
+        "https://www.landsd.gov.hk/en/spatial-data/open-data/kf_dtm.html",
+        "https://www.landsd.gov.hk/landsd_psi_data/SMO/data/Whole_HK_DTM_5m.zip"
+      ],
+      "local_evidence": [
+        "research/checkers-runway13/geospatial/manifest.json"
+      ],
+      "rights_status": "requires source-specific rights audit; availability is not permission",
+      "capture_date": "2014–2015",
+      "publication_date": "2017",
+      "revision_date": "2019-03",
+      "catalogue_update_date": "2024-07",
+      "server_modification_date": "2023-09",
+      "crs": "EPSG:2326",
+      "vertical_datum": "HKPD"
+    },
+    {
+      "id": "src-cad-1-95",
+      "title": "Aircraft Accident Report 1/95: CAL605, B-165, Kai Tak, 4 November 1993",
+      "creator": "Civil Aviation Department, Government of Hong Kong",
+      "urls": [
+        "https://web.archive.org/web/20180517095657id_/http://ebook.lib.hku.hk/HKG/B35838838.pdf"
+      ],
+      "local_evidence": [
+        "data/kai-tak-2026-10-13/manifest.json"
+      ],
+      "rights_status": "requires source-specific rights audit; availability is not permission",
+      "publication_date": "1995",
+      "event_date": "1993-11-04",
+      "acquired_date": "2026-10-13",
+      "rights_status_note": "Original PDF and extracted source-page images were excluded from public snapshot; link-only pending rights verification"
+    },
+    {
+      "id": "src-noaa-isd450070-1993",
+      "title": "Integrated Surface Database station 450070/99999, 1993",
+      "creator": "NOAA/NCEI",
+      "urls": [
+        "https://www.ncei.noaa.gov/pub/data/noaa/1993/450070-99999-1993.gz"
+      ],
+      "local_evidence": [
+        "research/checkers-runway13/evidence/weather_feasibility_2026-10-13/NOAA_450070-99999-1993.gz"
+      ],
+      "rights_status": "requires source-specific rights audit; availability is not permission",
+      "observation_date": "1993-01-01/1993-12-31",
+      "acquired_date": "2026-10-13",
+      "coordinates": [
+        114.183,
+        22.333
+      ],
+      "reported_elevation_m": 24,
+      "limitations": "Historic VHHH call sign; station/anemometer siting and vertical datum not independently reconciled"
+    },
+    {
+      "id": "src-noaa-isd-format",
+      "title": "Integrated Surface Database format specification",
+      "creator": "NOAA/NCEI",
+      "urls": [
+        "https://www.ncei.noaa.gov/pub/data/noaa/isd-format-document.pdf"
+      ],
+      "local_evidence": [
+        "research/checkers-runway13/evidence/cal605_reconstruction/noaa/isd-format-document.pdf"
+      ],
+      "rights_status": "requires source-specific rights audit; availability is not permission"
+    },
+    {
+      "id": "src-hk-geodetic-transform",
+      "title": "ITRF96 to Hong Kong 1980 transform parameters",
+      "creator": "Survey and Mapping Office, Lands Department",
+      "urls": [
+        "https://www.geodetic.gov.hk/common/data/parameter/7P_ITRF96_HK80_V1.pdf"
+      ],
+      "local_evidence": [
+        "research/checkers-runway13/reconstruction/downloads/geodetic_transform_parameters.pdf"
+      ],
+      "rights_status": "requires source-specific rights audit; availability is not permission"
+    },
+    {
+      "id": "src-boeing-747400",
+      "title": "747-400 airport planning manual Rev F and 3-view DXF",
+      "creator": "Boeing",
+      "urls": [
+        "https://www.boeing.com/content/dam/boeing/v2/airports/acaps/747-400_Rev_F.pdf",
+        "https://www.boeing.com/content/dam/boeing/v2/airports/dwgs/7474.zip"
+      ],
+      "local_evidence": [
+        "research/checkers-runway13/integrated/primary_source_manifest.json"
+      ],
+      "rights_status": "requires source-specific rights audit; availability is not permission",
+      "limitations": "Static planning geometry, not calibrated in-flight aircraft envelope"
+    },
+    {
+      "id": "src-hk-aip20261001",
+      "title": "Hong Kong AIP GEN 2.1",
+      "creator": "Hong Kong Civil Aviation Department",
+      "urls": [
+        "https://www.ais.gov.hk/eaip_20261001/2026-10-01-000000/html/eAIP/VH-GEN-2.1-en-US.html"
+      ],
+      "local_evidence": [
+        "research/checkers-runway13/integrated/primary_source_manifest.json"
+      ],
+      "rights_status": "requires source-specific rights audit; availability is not permission",
+      "revision_date": "2026-10-01",
+      "limitations": "Current AIP does not establish the 1993 datum realization"
+    },
+    {
+      "id": "src-grs-catalogue",
+      "title": "Kai Tak archival finding records",
+      "creator": "Government Records Service, Government of HKSAR",
+      "urls": [
+        "https://search.grs.gov.hk/"
+      ],
+      "local_evidence": [
+        "research/checkers-runway13/integrated/records_followup/source_inventory.json",
+        "publication/integration_source_inventory.json"
+      ],
+      "rights_status": "requires source-specific rights audit; availability is not permission",
+      "limitations": "Catalogue metadata; underlying records/drawings not acquired"
+    },
+    {
+      "id": "src-aryan-research",
+      "title": "Checkers with Runway 13 original research",
+      "creator": "Aryan Ayyar",
+      "urls": [
+        "https://github.com/ayyararyan/kai-tak"
+      ],
+      "local_evidence": [
+        "research/checkers-runway13/MODEL_IMPLEMENTATION_SPEC.md",
+        "research/checkers-runway13/PROJECT_STATE.md"
+      ],
+      "rights_status": "requires source-specific rights audit; availability is not permission",
+      "creation_date": "2026-10-13",
+      "rights_status_note": "Authorship/contributions and third-party dependencies require review; candidate licenses unapproved"
+    },
+    {
+      "id": "src-scholarly-literature",
+      "title": "Flight dynamics and control literature",
+      "creator": "Authors listed in SOURCE_MATRIX.csv",
+      "urls": [],
+      "local_evidence": [
+        "research/checkers-runway13/literature/SOURCE_MATRIX.csv",
+        "research/checkers-runway13/literature/sources/manifest.json"
+      ],
+      "rights_status": "requires source-specific rights audit; availability is not permission",
+      "limitations": "Source-specific journal/preprint rights; no blanket redistribution inference"
+    }
+  ]
+}

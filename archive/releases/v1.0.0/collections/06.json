@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0.0",
+  "archive_version": "1.0.0",
+  "collection_id": "06",
+  "files": [
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/registered/11-NE-11A_1989-10_core.png",
+      "bytes": 2397201,
+      "sha256": "7daf2f8720a78b8ded383ae4f0ec811fa18eda1140c1e0248802d94c3b984259",
+      "artifact_id": "artifact-16e426807b3a56cb33a8",
+      "dataset_id": "kt-support-06",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/registered/11-NE-11A_1989-10_core.tif",
+      "bytes": 1966149,
+      "sha256": "411a1b10ffd9223d63125b05357cf64a8474c7f2d3379beb47cc9a51911bfddb",
+      "artifact_id": "artifact-486a17da531350b91a01",
+      "dataset_id": "kt-support-06",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/registered/11-NE-11A_1994-07_core.png",
+      "bytes": 2437557,
+      "sha256": "ff47e9e448d5ec708e3fcc2978312eff62e712aff88433a36884c47539f22805",
+      "artifact_id": "artifact-24bffbbbdfd4743f320d",
+      "dataset_id": "kt-support-06",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/registered/11-NE-11A_1994-07_core.tif",
+      "bytes": 2018111,
+      "sha256": "1dd0344aecaf98021cc96ec2ab307872c9b81f86add9c71bb2885413084303ae",
+      "artifact_id": "artifact-d60f78f8c12a3ddebef1",
+      "dataset_id": "kt-support-06",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/registered/11-NE-11A_1997-04_core.png",
+      "bytes": 2745013,
+      "sha256": "04e7fba1b11e21b9ca4af973b4f22b0c33cce5957d1fde180d992e2becb5e4e7",
+      "artifact_id": "artifact-7357ebbdd3966da192e9",
+      "dataset_id": "kt-support-06",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    },
+    {
+      "path": "research/checkers-runway13/reconstruction/block_matching/registered/11-NE-11A_1997-04_core.tif",
+      "bytes": 2318729,
+      "sha256": "51003c38603ad5df649ec6e843101e1c5952fbb0b9be19d04ffaa9229ca31b42",
+      "artifact_id": "artifact-e6aeb86a195778ac6a32",
+      "dataset_id": "kt-support-06",
+      "rights_id": "rights.hk.old-survey-sheets",
+      "publication_decision": "Redistribution permitted"
+    }
+  ]
+}

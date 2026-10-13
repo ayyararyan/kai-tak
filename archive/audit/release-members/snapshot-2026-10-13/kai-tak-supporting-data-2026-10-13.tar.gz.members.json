@@ -1,0 +1,12 @@
+[
+  {
+    "path": "research/checkers-runway13/evidence/cal605_reconstruction/noaa/observations_1993.csv",
+    "size": 6187296,
+    "sha256": "104b2fc2e2e7cdf3ebb2cda338dfebac948a76f95630595242ececf0ce14ef4c"
+  },
+  {
+    "path": "research/checkers-runway13/whitepaper/v1/evidence/stereo_plot_data.csv",
+    "size": 2316366,
+    "sha256": "bf778a6abaf88c310aa790021d9049fefe55a54d53a6339b0fc9447889cc46c1"
+  }
+]

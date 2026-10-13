@@ -1,0 +1,20 @@
+{
+  "creator": {
+    "name": "Aryan Ayyar",
+    "given_name": "Aryan",
+    "family_name": "Ayyar",
+    "orcid": null,
+    "affiliation": null,
+    "role": "Researcher and archive creator"
+  },
+  "contributors": [
+    {
+      "name": "Induj1",
+      "evidence": "Git commit f427e7cb2e854cba5e1516708780e46b6f199b2d",
+      "scope": "Supplied homepage photograph change; authorship and image rights unverified",
+      "research_authorship_inferred": false
+    }
+  ],
+  "assistance": "AI-assisted implementation and review; not a human coauthor claim.",
+  "institutions_are_source_creators_not_endorsers": true
+}

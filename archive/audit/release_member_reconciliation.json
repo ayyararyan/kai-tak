@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "assets": [
+    {
+      "tag": "snapshot-2026-10-13",
+      "asset": "kai-tak-chronology-data-2026-10-13.tar.gz",
+      "member_count": 846,
+      "expected_count": 846,
+      "missing": [],
+      "unexpected_or_mismatched": [],
+      "passed": true
+    },
+    {
+      "tag": "snapshot-2026-10-13",
+      "asset": "kai-tak-geospatial-data-2026-10-13.tar.gz",
+      "member_count": 5,
+      "expected_count": 5,
+      "missing": [],
+      "unexpected_or_mismatched": [],
+      "passed": true
+    },
+    {
+      "tag": "snapshot-2026-10-13",
+      "asset": "kai-tak-reconstruction-data-2026-10-13.tar.gz",
+      "member_count": 380,
+      "expected_count": 380,
+      "missing": [],
+      "unexpected_or_mismatched": [],
+      "passed": true
+    },
+    {
+      "tag": "snapshot-2026-10-13",
+      "asset": "kai-tak-supporting-data-2026-10-13.tar.gz",
+      "member_count": 2,
+      "expected_count": 2,
+      "missing": [],
+      "unexpected_or_mismatched": [],
+      "passed": true
+    },
+    {
+      "tag": "update-2026-10-13",
+      "asset": "kai-tak-reconstruction-data-update-2026-10-13.tar.gz",
+      "member_count": 387,
+      "expected_count": 387,
+      "missing": [],
+      "unexpected_or_mismatched": [],
+      "passed": true
+    },
+    {
+      "tag": "update-2026-10-13",
+      "asset": "kai-tak-supporting-data-update-2026-10-13.tar.gz",
+      "member_count": 11,
+      "expected_count": 11,
+      "missing": [],
+      "unexpected_or_mismatched": [],
+      "passed": true
+    },
+    {
+      "tag": "integration-2026-10-13",
+      "asset": "kai-tak-integrated-data-2026-10-13.tar.gz",
+      "member_count": 5,
+      "expected_count": 5,
+      "missing": [],
+      "unexpected_or_mismatched": [],
+      "passed": true
+    }
+  ]
+}

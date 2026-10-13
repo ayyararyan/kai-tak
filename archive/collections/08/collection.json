@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "id": "08",
+  "title": "Research Figures and Visualizations",
+  "dataset_ids": [
+    "kt-scientific-figures",
+    "kt-reconstruction-viewers",
+    "kt-support-08"
+  ],
+  "citation": "Ayyar, Aryan (2026). Research Figures and Visualizations. The Kai Tak Historical Research Archive, candidate v1.0.0, collection 08.",
+  "file_count": 25,
+  "permitted_bundle_files": 0,
+  "release_manifest": "../../releases/v1.0.0/collections/08.json"
+}
