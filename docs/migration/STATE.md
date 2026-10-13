@@ -55,3 +55,7 @@ cropped overview image. The merge now retains that newer README and
 `assets/kai-tak-overview-cropped.webp` exactly, as well as the runway diagram.
 The first checkpoint above remains historical; merge-preservation.json identifies
 the final protected input. Main was not overwritten by the earlier candidate.
+
+The final input advanced to `63af06b8c16e11d883bf92b176df7c5ac0eeaa6f` for the
+author’s headline-only edit. That README is preserved exactly. Hosted architecture
+checks passed at `7d604e7`; the final prose-only integration was rechecked locally.

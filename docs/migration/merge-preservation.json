@@ -1,13 +1,13 @@
 {
-  "main_before_merge": "58f643681d34d17acadd594485de85f3e8426f7c",
+  "main_before_merge": "63af06b8c16e11d883bf92b176df7c5ac0eeaa6f",
   "architecture_branch_tip": "fce4b541311b0898919403f7cb3c2cd4fd0e03a4",
-  "checked_utc": "2026-10-13T19:13:23.338039+00:00",
+  "checked_utc": "2026-10-13T19:17:09.855071+00:00",
   "user_instruction": "Check and merge with main; keep the README currently in main.",
   "preserved_files": [
     {
       "path": "README.md",
-      "sha256": "01895c9dd236879b6073df5cce2a7dc634412725a07e0be65a39a60d7a766a1e",
-      "bytes": 12037,
+      "sha256": "9e1d2e0c70657990d58c7262a81f77ed437f7b418897619d989e7897a91cd726",
+      "bytes": 11909,
       "identical_to_main": true
     },
     {
@@ -34,10 +34,15 @@
     "scientific_tests": "89 current model/counterfactual +30 explicit reference +117 published proof snapshot",
     "gate": "expected exit2 with INCOMPLETE and no changed frozen files",
     "independent_review": "Five targeted regressions passed; exact README/diagram equality independently verified; no remaining scoped findings.",
-    "final_fast_checked_utc": "2026-10-13T19:13:34.427447+00:00",
+    "final_fast_checked_utc": "2026-10-13T19:17:21.077920+00:00",
     "local_references_checked": 1803,
-    "json_files": 1118
+    "json_files": 1118,
+    "hosted_ci_commit": "7d604e7a241bfb5a90a05e503d6ee2db007a2ac1",
+    "hosted_ci_url": "https://github.com/ayyararyan/kai-tak/actions/runs/38453193070",
+    "hosted_ci": "all jobs passed; final additional upstream delta is README-only, rechecked locally"
   },
   "first_main_checkpoint": "a772db4a0198edfdba5cb3e4c351e3259a554ef8",
-  "concurrent_update": "Author added cropped overview at58f6436 during verification; merge input advanced, exact newer README and image retained. No main update occurred before reconciliation."
+  "concurrent_update": "Author added cropped overview at58f6436 during verification; merge input advanced, exact newer README and image retained. No main update occurred before reconciliation.",
+  "cropped_image_checkpoint": "58f643681d34d17acadd594485de85f3e8426f7c",
+  "latest_headline_update": "63af06b changed only author homepage headline and removed subtitle; retained exactly. Concurrency guard prevented earlier candidate replacing it."
 }
