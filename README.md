@@ -77,7 +77,7 @@ The V5 paper constructs and continuously verifies **two separate synthetic landi
 
 Both use a 2,786 m landing-distance allowance and the paper's declared reduced model and stopping law. They are **separately optimized examples**, not a controlled estimate of the effect of wind.
 
-<p align="center"><a href="research/checkers-runway13/whitepaper/v5/checkers-with-runway-13-white-paper-v5.pdf"><img src="research/checkers-runway13/whitepaper/v5/figures/05_runway.png" width="720" alt="Two common-scale runway allocations separating touchdown, two-second delay, braking distance and runway remaining"></a></p>
+<p align="center"><a href="assets/runway-allocation.svg"><img src="assets/runway-allocation.svg" width="900" alt="Precisely scaled distance allocation for two constructed landings: calm air leaves 254.68 m and steady wind leaves 552.77 m, showing touchdown, two-second delay, braking and a 150 m reserve marker"></a></p>
 
 ### Latest result: certified local optimality
 
