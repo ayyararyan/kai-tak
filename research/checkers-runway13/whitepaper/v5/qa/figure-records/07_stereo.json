@@ -47,9 +47,10 @@
     7.1,
     7.0
   ],
+  "color_mode": "grayscale",
   "screen_dpi": 190,
   "presentation_dpi": 600,
-  "pdf_sha256": "0d1ba5b9bd9e8b0514cd9672a623e853538c116677c36e5dbe0456a62b06fd6b",
+  "pdf_sha256": "100d737853f61c5048f595aedd289a980a8cc6719a8e1bea9c52b6e5ab07dda6",
   "mesh_vertices": 155891,
   "mesh_faces": 225371,
   "surface_operations": "Orthonormal true-scale projection; original triangle topology and pixel luminance; normal-based mild lighting only; no remeshing, gap filling, capping, extrusion or vertical exaggeration.",

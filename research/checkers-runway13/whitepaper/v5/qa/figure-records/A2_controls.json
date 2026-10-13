@@ -15,8 +15,9 @@
     7.1,
     7.7
   ],
+  "color_mode": "grayscale",
   "screen_dpi": 190,
   "presentation_dpi": 600,
-  "pdf_sha256": "8016670d3a0ce0789158ba0cf6e75bbbad268db82c815e0b0d630c0f0feb0c0f",
+  "pdf_sha256": "44f49cbd7719d183ff486ba4152b330fd25854c762a1f4a98e353a308cad4272",
   "bank_rate_frame": "moving flight-path bank-angle rate, not generally body-axis roll rate"
 }

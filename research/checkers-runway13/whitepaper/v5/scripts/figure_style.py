@@ -7,8 +7,10 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.patches import Polygon, FancyArrowPatch
 P=Path(__file__).resolve().parents[1]
-INK='#263D45'; SLATE='#63777D'; COPPER='#A65F3D'; SAGE='#72816A'
-PALE='#F3F1EA'; LIGHT='#DCE2DD'; GRID='#D5DBD8'; BLUE='#477D8F'
+# Neutral print palette. Keep the established semantic roles, layout and data;
+# distinct tones supplement the existing direct labels, dashes and markers.
+INK='#141414'; SLATE='#666666'; COPPER='#3C3C3C'; SAGE='#737373'
+PALE='#F1F1F1'; LIGHT='#DEDEDE'; GRID='#D8D8D8'; BLUE='#5A5A5A'
 plt.rcParams.update({'font.family':'Arial','font.size':12.5,'axes.labelsize':12,
  'xtick.labelsize':11,'ytick.labelsize':11,'text.color':INK,'axes.labelcolor':INK,
  'axes.edgecolor':SLATE,'axes.spines.top':False,'axes.spines.right':False,
@@ -47,6 +49,7 @@ def save(fig,name,inputs,meaning,**extra):
   if not f.is_file():raise FileNotFoundError('Missing declared figure input: '+s)
   paths.append({'path':s,'sha256':sha(f)})
  out={'figure':name,'inputs':paths,'meaning':meaning,'master_inches':list(fig.get_size_inches()),
+  'color_mode':'grayscale',
   'screen_dpi':190,'presentation_dpi':600,'pdf_sha256':sha(P/'figures'/f'{name}.pdf'),**extra}
  (P/'qa/figure-records'/f'{name}.json').write_text(json.dumps(out,indent=2)+'\n')
  plt.close(fig)

@@ -1,0 +1,612 @@
+{
+  "schema_version": 1,
+  "correction_id": "v5-grayscale-20261014",
+  "authorization": "The v5 whitepaper is awesome - just one change: the same figures can be made in grayscale and then recompile the pdf and update on Github main",
+  "scope": "grayscale-presentation-only",
+  "baseline_commit": "125ebac16dc52a86998e2f6c4893e116bfca67d8",
+  "predecessor_commit": "bdcbcdb71065797d65c38a37348cb80ea6e1a4d3",
+  "files": [
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/README.md",
+      "original_sha256": "638d3c195077c67e1ca3a9f0ac95c2bdd9b2243dbae2b06955d666dae0e0d9c8",
+      "original_git_blob": "a42f4cdc3fd43f2c4a8f88dc6a1c48ab0d57a2b6",
+      "sha256": "622c7e6b671dec6ae0bb538aa760d91797b0879ce8921a68b4289c0c8cc4f0e8",
+      "git_blob": "2949b08e1a137d72de8f33428fc8ddd669553407"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/STATE.md",
+      "original_sha256": "ea542a3eaa14e630a8a17576efcd944a05be6cf2f973b89c40abb160f5534264",
+      "original_git_blob": "f79ba6965f07c18d3af4c6c5d0cdbf79d5fb2e76",
+      "sha256": "0b2cc9d3afdb10a867c18a819580df1829cab9c56da794c3e61c1922e8ce1854",
+      "git_blob": "3f54afae8996003027c07e7cb12f7dfd2588c77e"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/checkers-with-runway-13-white-paper-v5-sources.zip",
+      "original_sha256": "6a7d44fb94de027a7394f0d6fa88874f4ce7bf7ee030a87696d3dbae4617724f",
+      "original_git_blob": "4dadae356104370343b2bfb70494c0cb6b5d77ff",
+      "sha256": "a150aefab38d7e4fc91bc792f764fbc73dc4e93140cc919ff8a05a24b4fc5d29",
+      "git_blob": "b9859839935dd73d9820e65c2a60e321f8415cef"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/checkers-with-runway-13-white-paper-v5.pdf",
+      "original_sha256": "328f848d805df1e5bac5fd6aff6f28363112bea3acd9a5fcb71c33ec16842939",
+      "original_git_blob": "72f3a935a557edf9f39bd6288b683e5eaa4da73b",
+      "sha256": "28aadfa72b1a62c3ae19bbd9e453c7683861bd8496a62384a088cb72cfce53fe",
+      "git_blob": "5cd19060746eded91dc8442ba81e57530a899c12"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/01_place.pdf",
+      "original_sha256": "e710a1dde795b2ae16a2e0cd5d225666a1c2b1f301b0cd83538765c680cb91ee",
+      "original_git_blob": "2984cb507e10cf22eab750fb4904f0f4aaf46803",
+      "sha256": "854b649262fcc888a72e68ecab032c97eb2eb4e7aa10965c5f2cf91faebc51a5",
+      "git_blob": "d069ee6640f57c980ea995ca9fb77628019c6153"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/01_place.png",
+      "original_sha256": "7f0511d5bf116bc93c57d8b8c9f8127050a2aba67049adbadf47436c74039a76",
+      "original_git_blob": "fd3dd3023d21f3d8636093dd603ed3a8ac7f8787",
+      "sha256": "907146605928b08f290f35671398dc34f9e7d1880bc004777cab2b9561929e14",
+      "git_blob": "b2a46f3a3c948c507fed3ca69d9d517a630bb459"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/01_place.svg",
+      "original_sha256": "82925d423975f46eb6d18ac327284869ab1b103bd9bbbdf800cedbc910b08f73",
+      "original_git_blob": "68de0356e37a96051c3835b06c02df943465a199",
+      "sha256": "93ce08f745c3aa2ab44468d60156eaf4d01ede60c5f9e596b2e2bf067a420d50",
+      "git_blob": "d8d4104d4c96c05047fb4ca887c55816ba9649b8"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/02_bearings.pdf",
+      "original_sha256": "76d01ce1ed2119ab9dd7cc165323aa7568a6f4f4fd23f85032c89c38f14d6bd2",
+      "original_git_blob": "3433b376896fe0c6a3f9addc857ccb50172ed186",
+      "sha256": "af875368051e57a1805430697b1ac2afe1e80a9339f065b735b19c43d3e13aec",
+      "git_blob": "cca9de7d964c434a2304fa7b871777addec18bbb"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/02_bearings.png",
+      "original_sha256": "759efb0ae2381ed7eeb67faa545ab29f4ee4924a5cdba554635178da93a1280e",
+      "original_git_blob": "6135f033bea554cc072ea93f15f77ba0276dc51b",
+      "sha256": "0a8ec08615d9f0da72b4729f458d8f9f40f6515e6a2d3840d465a0ee2b4e82f7",
+      "git_blob": "43b3147a9e59bcbbe46225006b930581c2889b8e"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/02_bearings.svg",
+      "original_sha256": "44dca8648cd735f23fcc5996d95b85f893654ac62a8853dd0729bf10b09aecc5",
+      "original_git_blob": "96484b205f41db87ed8bdd9482f59c6ebf29102f",
+      "sha256": "30e5c5c1edad6b71ad1f1cf00922c95fef1a3d6824a8dc767e3e64039952c5b2",
+      "git_blob": "9b250c73925e4833dbc002f16586afcc09484492"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/03_turn.pdf",
+      "original_sha256": "0a50fb46634e1b9bc77c4703679c35942e774b60cc3504ce47d5d9dca04a3e23",
+      "original_git_blob": "fa074889ba29aa92f565d84eada4cac5d5d282f0",
+      "sha256": "53685870a822112f1568f5fb33947dfbdb5f659c5e7a1e91e7e605e3718a7e1d",
+      "git_blob": "650e642d6ad124562dcf4c7be92da3c630055930"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/03_turn.png",
+      "original_sha256": "42045c4339d1af529de347c1da1953b9c9c98f218083d72a71142eca62f97c9e",
+      "original_git_blob": "d5a06dc852bd40423f6cc664f7c2e80b660a9468",
+      "sha256": "f5ef30ea58437a2b9d1360a707f9df2960f4be204b33fb906b981c57dcc947a9",
+      "git_blob": "59df720b31126b3bd4ee0c6f2cfd57dcc3a0b98a"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/03_turn.svg",
+      "original_sha256": "987722e76bf6123c8eb2db0efee75c7c0a8f313784033af16074460bdb2e13f2",
+      "original_git_blob": "e44a21dfca97438f7eba28f4d5cd610df67105ae",
+      "sha256": "83b4cfb21f69ab8e11c1ac582d2096e8689b5211e0ada8f2672cdac19485dc6c",
+      "git_blob": "a3e02a31c1911cf9aa447163943b30a67cb74f7c"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/04_landing.pdf",
+      "original_sha256": "aeab08d8c61527b0887e35308eb959160d36e813bcc3a71991a3a5ea4860f74a",
+      "original_git_blob": "0de38539e9ae91475c35dc8197555c91f997c17b",
+      "sha256": "b245dc2812609e75e9bef6cebc34da4b44eef0dde6420de3e067d375e7e39277",
+      "git_blob": "3bf4d7200b950c5ff9e325444e239d9030f5db3c"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/04_landing.png",
+      "original_sha256": "1608abebf093956f07473b233d87cf70f0ca838ab75a0c7ba27a94041f28bd9d",
+      "original_git_blob": "e8d4498af7f89971b46fa8be3cfc781219d4ca6f",
+      "sha256": "a03393fcf88a0771405509985ef9e5bb6127d6ee1fb67c261670ff46e15d82b2",
+      "git_blob": "5e103d457d1d17a4faec554e0c16f48276fce42d"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/04_landing.svg",
+      "original_sha256": "44cc796eebf2cc26f9e3f4254828674119de3a83cdf39d75bc9d223a3a225bc6",
+      "original_git_blob": "a73d2478a889bc57fcfc9f5a7bf29c5dc9175984",
+      "sha256": "8892f0445233c4e980fca39aa22c52b1f4fce893b84b3306d4cb8f2d7680e2b5",
+      "git_blob": "a2b40d09cc7b71a24f075128b0b68bd5b1228e8d"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/05_runway.pdf",
+      "original_sha256": "d28bbe089eed7b84b9048fe82fce228ef8874b751a40d7af5b617f941c172383",
+      "original_git_blob": "d4c1533a6e39ed4e6f4f2470a2d85faa973f5ff4",
+      "sha256": "885e8d88bddce155fa856fbf6713a97f24512f1478aa52f81611237c3840c5e4",
+      "git_blob": "a340939bb70b01a29cc04ac911f009329a93200c"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/05_runway.png",
+      "original_sha256": "5c0f2fa686478b8bae7b1e78332da2557c745ce1e79a1a6c6981a09ffd50b472",
+      "original_git_blob": "96ed8d9a9a199b664fe3b00ae8d479acae97b883",
+      "sha256": "b229224d6ebe4fbb51a7bf06773b3625d475a8905be5b97ac42d318089cf0d7b",
+      "git_blob": "c84a32b1643fb3e5e987782598b1b9336c8f12f6"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/05_runway.svg",
+      "original_sha256": "4de8fa0c09657516c94a7ce4599a5a069b484ad02f609b6a1c913b7a174b88b3",
+      "original_git_blob": "1cfb9d1f785a15b7de5eae557470da03f580e593",
+      "sha256": "943681b3576700afc5d7c47e9ab5ac70762922bee34c8a82fced251667e4d650",
+      "git_blob": "3c7c59a8f59bb08fc363b0f38581c85f8888c21f"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/06_maps.pdf",
+      "original_sha256": "7eb4353f6b6ec5e18b6a6249bdcaff8f393370550ed8c4670b638c9be185d419",
+      "original_git_blob": "c67b16239721d7181a7c7bf5f1874cc36e5328c6",
+      "sha256": "336ca76ffbd6f006846a347c1bd2398a843c102bc564a2095b6b632cbb11472c",
+      "git_blob": "27baa71fbda6fae6e42187d233a9ace50fa7d3ce"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/06_maps.png",
+      "original_sha256": "e2a9b74cea989d302490ed6eb1daaa5f1f2b8c3e396e97e7f608d1af358c53b6",
+      "original_git_blob": "e280257243445cfd0afcbce2a658d2e8190e0505",
+      "sha256": "b1c74b3bb1fe470d423257dd36224936a04ba15e0fb23e0450e814cd0b6c95e5",
+      "git_blob": "954228b1ad40bab353e42ce28f34748a12dcab74"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/06_maps.svg",
+      "original_sha256": "3a6581b77625c651e8a9138e267549a45aa6f72f0ab06f2cc7d92e555f6c9d77",
+      "original_git_blob": "85452597ce7c12568a73a422b0819698eead9281",
+      "sha256": "d4b68564b19177e773b6a0153bed7768dd0380eeb2670622be08f8945386bedd",
+      "git_blob": "28e4dfda10d0aef9220f13fd024c1ad763b17ed4"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/07_stereo.pdf",
+      "original_sha256": "0d1ba5b9bd9e8b0514cd9672a623e853538c116677c36e5dbe0456a62b06fd6b",
+      "original_git_blob": "fb726a245367f0c78b7f4d47d3937105269d3f43",
+      "sha256": "100d737853f61c5048f595aedd289a980a8cc6719a8e1bea9c52b6e5ab07dda6",
+      "git_blob": "dc537885c2d3c5bfdccf513d730d9f506d171f86"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/07_stereo.png",
+      "original_sha256": "7e12b0b2991207f26b1f7ac2230cea4a381b9d8c3d59fd8e8e9105aeb227cbef",
+      "original_git_blob": "37e1d53430850dd3c7480218a46c9e9c6b833f39",
+      "sha256": "cfbab34e443bbc91c2e62c66c871f446d92e0e89a8771e70732276b868c051a3",
+      "git_blob": "59c0b02f0ae4266ee266c694a8894f81e5a911c0"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/07_stereo.svg",
+      "original_sha256": "8e0af751af9f0353f902720a26de6a7ac8861c23c0914650d8dd844d825c7c88",
+      "original_git_blob": "d447620efd29beddd4d4747396ca1bb08ef64f53",
+      "sha256": "da27f4e8bb78eefa4cc5ced8e73a63f436a81910fa8738be3e73b43d06b6c99b",
+      "git_blob": "85687828c7c93d278ba42384af7d2fbf928833ac"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/08_wind.pdf",
+      "original_sha256": "286d6273b67128651e567d269db2e6e6f32ccf9f205787b22a11f4358c852247",
+      "original_git_blob": "ab68cab713cc0611ccf578a7fce1ee21f45daf1a",
+      "sha256": "cf67a95e62a9122c1d25dae01e698b583593d12437872949c9a7a08abb029a51",
+      "git_blob": "2f44ef33fa7bbb94f4291385f06309521244c211"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/08_wind.png",
+      "original_sha256": "5bb8512958d161ceab4ae6b1e7b1046013c4626722550db91efc471db8e998c2",
+      "original_git_blob": "d6b34a0bd0881a5234e4d4ecfbfc919ea545edae",
+      "sha256": "e2cfbe7e128565479c078851d772435e797e4ebbd53546fd157ed8dfe0799a06",
+      "git_blob": "d77ef34d7a12ade2ec174e28857b855d9b9d24c5"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/08_wind.svg",
+      "original_sha256": "0bb32fac63120b984df2197e693fb9e07cb44cd7cab61d93df19a5c5e641c37a",
+      "original_git_blob": "a38ada04b80f8f66bb0f62be691c3a63c443cbc9",
+      "sha256": "cbe2f8d4af89714448a23c081b1c9908fd524564a64690ff2748c79da1cb061b",
+      "git_blob": "223cbe05bad89381d649f98cfd1a077919b23af5"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/09_certificate.pdf",
+      "original_sha256": "84a82764c98ddfcf457b2cb9a2b0900e260b0fb2996502218d9794795b8cb675",
+      "original_git_blob": "69c143fc8395504d6319a25c5deaaecff0427f15",
+      "sha256": "d947ccbfee1156828fa94b1b16fd0a23541bf021cbefe492d7838a54ba3614dc",
+      "git_blob": "f8a136845aba1bbbb223aae7e24b39890aab83ae"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/09_certificate.png",
+      "original_sha256": "b7bcc0306c24e450de7583f7478777fa16552ac0e35ed2fb9985018bbf1f2254",
+      "original_git_blob": "3e213525afbd354e54a610231dfa0be4593898b2",
+      "sha256": "e24866e97db152f11f2f47c47efa3f9eb8efa0b7ae809cabacb2c69437ac1c23",
+      "git_blob": "2f0edcb318d6e715b8b5252d0aefa2d53d7fff5e"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/09_certificate.svg",
+      "original_sha256": "3cc17061275c1257f7b0faf4b9c74e7821f70cffa84c5bf4eb26d3cf90412e4f",
+      "original_git_blob": "d2e67bdbbc07c582ed266afb25e4fe1656eb7470",
+      "sha256": "afdd8277ef471644fbaa4d9cdd500fe0e85030904171c92a40dee8a412148214",
+      "git_blob": "679b3262412b7881d12ceaef5315d5fa792d5017"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/10_recorder.pdf",
+      "original_sha256": "c50f7ba9ab0e4ee5d79a2d3ffe6fe13d687c5594536df4a3c1e83aec7de8424a",
+      "original_git_blob": "3b88801e551beefb95eace822bcd65a399f57122",
+      "sha256": "60e5faf7f43599c6f950dac6fc44c24100f09bdc310fbc927eed723c80612991",
+      "git_blob": "df635412caeb975819dacc2ed6c147343ee9b815"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/10_recorder.png",
+      "original_sha256": "1c92c4cb7277398bcb79f48d171c0601dc3c5d3b7913201d8d9ca97f4c8dcd7e",
+      "original_git_blob": "f6ad11e7cf483a6eea9700535a4197af732c7c47",
+      "sha256": "b748fd4e9973c39538e0e36ca2d8690bb992b71ae37d4798b76580076958cc8d",
+      "git_blob": "4e76c211f7951b0a424f6edf0ec56b8b4b09da4a"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/10_recorder.svg",
+      "original_sha256": "16dc123b066b291606e5ef0466070069fef318d1d05a0aeca309b4fd0ceda803",
+      "original_git_blob": "c3ab3bf7a23a3417c0fb710d947077ee8d0fbfc3",
+      "sha256": "d30bcfb43984a64e5ecf4367da0ce3f7fc730267f454f25e4246907514d091db",
+      "git_blob": "c8694f6c1decdd6cc6daf92faa1bc67e1c2c4d3b"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/11_weather.pdf",
+      "original_sha256": "4078b76f5cf27d9b2277109c2bb7ad5af01342a5252f31b5062cb491a98d6b85",
+      "original_git_blob": "844548a0c48c86a76cf6ecbd8e79ef9650145b18",
+      "sha256": "c606e0a6cd4de4e9bc21ae7150a8867dc2152a33642da6484f8941696ac3e682",
+      "git_blob": "e629286323205b272aca963c9c29cb480e466fcc"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/11_weather.png",
+      "original_sha256": "f52510b3f45dfe47df64f10dcea8d8ac17cfcf1cb364d4dbea69b13d0d8dba57",
+      "original_git_blob": "d2f6d181202c5272ffffc6e2615912c7e4f4832d",
+      "sha256": "43aee661d8cc6d4de585e40d2c8cfc1c33aa4405c82c3cc4eb9d79f63e0dd7f6",
+      "git_blob": "37eee508fb85ca5789ed5ad320bcfeb1f3b7c157"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/11_weather.svg",
+      "original_sha256": "bf570a0224a22fe7dfc13fa1327c4132ee3c6b8a9d75beaac6230f148189a78a",
+      "original_git_blob": "d9c75470c656b9fc73b9245aaf8f144365f60a11",
+      "sha256": "c89ab4f14bd3518177930b990de0bafa5f1f4b10acb5082490797dc5145d3e94",
+      "git_blob": "46b65c884e228ebf06af2364f2facf76f80d4674"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/12_rollout.pdf",
+      "original_sha256": "83c642f1e53159bfa1c4fa758d12590eaf5cb06be67707f2ec6c894c50bcf7e0",
+      "original_git_blob": "e9a90b4cc3aa1e7e232f5a39e60bd7b67d7473a7",
+      "sha256": "e6c0b7a25be68dfc869c0f76fb74b2dae1f34c9d75f852c87030f0912372a57c",
+      "git_blob": "ef90a1dd21cf5d2188067faeccdc09e41b4385b2"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/12_rollout.png",
+      "original_sha256": "2178edaa174c0f0aefdb51d4347b183e84e7dcccb7247621ebb7d2e342f95ba6",
+      "original_git_blob": "0adf7c0adbafcf050637ceddb7705ad2285ceb39",
+      "sha256": "a0db97d05e84003e8e131517943868983f84cce06d1b59e7de0f5d3c3170cd2d",
+      "git_blob": "e60537019b90aec577c15ca3c2b57967baaa19ab"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/12_rollout.svg",
+      "original_sha256": "defb6326b4904824b6c51ca7caf163e6a26efa2278f989a8153b463fd8d107c5",
+      "original_git_blob": "045f67e9917903ddae4c826e07b67264a225f718",
+      "sha256": "0c0737be20646c539622465560be85f7142a3968dffb67f7df2654d4c91294c9",
+      "git_blob": "4b2352e17c7c409d838e73ad31c44cf65c5ebdf0"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/A1_paths.pdf",
+      "original_sha256": "82661cf0694e4129d144f35be16901abafa6e967ebd8a8b965e68c0dd579eee8",
+      "original_git_blob": "c4ca771fcfd5a852092b5718991c30cc4786341a",
+      "sha256": "0837fc34def99bb9df037b4d750af784349c9166b4e853522ffe6deebfb00c5a",
+      "git_blob": "dad51b4871ffbbf25cbd7d051b22f28d1a8a8372"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/A1_paths.png",
+      "original_sha256": "add7d358ae4ca0bfaa9a4e73be13873dfcb7bde7592f15c588483f737d4a264d",
+      "original_git_blob": "243e9360e98f414d3b8d738ff9b07ca1e41edca4",
+      "sha256": "1ada7753de9db341009eba9d4e715f8c1aca33e6d9238fd1eb7ef6c194e91a87",
+      "git_blob": "4c28ec2aaca1be7d630ca4330b3baee1f3cec3f0"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/A1_paths.svg",
+      "original_sha256": "4f62d8e8314b08569b7a8250b2263e3e082c5addf3c4294a6f0310bfc32fe608",
+      "original_git_blob": "f708ab168e50eeb93402df895e99a5e5cd77e9d3",
+      "sha256": "b143f26b3c9d1240209b7635c12b8123ebdec85ce491135d748091cbc8711622",
+      "git_blob": "920e7f7d0bcfd7cc1897dd35ca5cf131a321510d"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/A2_controls.pdf",
+      "original_sha256": "8016670d3a0ce0789158ba0cf6e75bbbad268db82c815e0b0d630c0f0feb0c0f",
+      "original_git_blob": "99b61469e39e45b6ff9fff0db86b2d11dd54afcc",
+      "sha256": "44f49cbd7719d183ff486ba4152b330fd25854c762a1f4a98e353a308cad4272",
+      "git_blob": "999a309ad9038a20ededc46078d012157055bc2b"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/A2_controls.png",
+      "original_sha256": "b9b87162e1a309c58cd152afb99083ac1eb5880451a9627ddca3ff0648c8cf5a",
+      "original_git_blob": "b785bb351c8435d07af476486a3b5aaf98ed4d50",
+      "sha256": "ebf31fd0077651150dff8b6b6ccd0ccb3edcd8e2339b2c3946dedfca555cf617",
+      "git_blob": "0ce78fd4b76b4273b0114ec2c72ad19636e03bee"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/A2_controls.svg",
+      "original_sha256": "a22b0a7311e86300d434e7843ff9f4505e36cfe851ba6362460593ba59537a80",
+      "original_git_blob": "a0831097267d9b91ffe030a625a0ebec93bd60c7",
+      "sha256": "a5be2d0899733a5d6af495664a2ee4c74270f78ae939e3f6f95cc6f5bba7683a",
+      "git_blob": "fe1d613797ed2c06f38eb25f6dc7987c1aa556b0"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/A3_weather_context.pdf",
+      "original_sha256": "6a3cdde669dfa0052e5376abfaa05417d8d567b1f849e742804cfcd71600e4b9",
+      "original_git_blob": "0bd459a34060aa795ffdcab1304a68140b7d66f1",
+      "sha256": "89a1440f4d7cd7309792072fd4fdf52cc79e6e9670e509f3d2a21a0de2db37f5",
+      "git_blob": "3a67e28067ba9c84bff92b5ecd9097ed0dd7a5bd"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/A3_weather_context.png",
+      "original_sha256": "dca241b33b99b4fa08f2482ecf603c9272830b0c714a3706912c8ed5c9aa5927",
+      "original_git_blob": "533177f15057076e1052d55768fc52e788c9628d",
+      "sha256": "a39cb886af6623b9c88ec36b0c17cca777c3d23e6c564e27c276f1f558913daf",
+      "git_blob": "944def1c29d53d10a1f51c3e0206a0594e3f3cb4"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/figures/A3_weather_context.svg",
+      "original_sha256": "7baa2759877dd6d812d790e54a9519f0276361be02a986a433621864e7e9706f",
+      "original_git_blob": "858ec01ad0f2c6646435740273a6dc78bfa62f97",
+      "sha256": "88208cfe5f1cee081537d68afde5f3661453fba15444caeeb65c10e047b5b4aa",
+      "git_blob": "4d34d4344054411711a0ab54f30f167f5d8001cd"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/presentation/01_place.png",
+      "original_sha256": "6e53a1e87813ad70f62c12e25ce2558fda35880dc2cf57d8b758a84794b80180",
+      "original_git_blob": "3d0595cc07ab238b63ec6da8da6e61e9ae2bc989",
+      "sha256": "c2762d151f5d0b10cd8b76a6208dab5e13e9d1c906066ea77ba2dab138743337",
+      "git_blob": "839dd749d25338ef4fac9b615f26a8812f160d1d"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/presentation/02_bearings.png",
+      "original_sha256": "ea902053bec0faf6b30a94fed7b3edebd347773ebbfb299d62adc2ea9abf91c6",
+      "original_git_blob": "e3304fbc27c6708bbac3a3d62aad5ab0cab05bd3",
+      "sha256": "939ee81f880cc92cff9cf37a558099494e31d53ccb097ea41adfb4eb84ad6d8a",
+      "git_blob": "05c3d39ec1a4c916abc646fa1984538f7963d08d"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/presentation/03_turn.png",
+      "original_sha256": "b5893cf8153e87b988ab1f94d890f255d7a8db13029393806b4a1d3adc51b3d2",
+      "original_git_blob": "35ed11fd365d0d7196504b66df855c798376e97b",
+      "sha256": "1aa813402cefe1e94e4ba08948619c429fa447832279a9affa6defdd69ae18f1",
+      "git_blob": "987164ba51af1ab3ddac6b2725878cd8bacb8894"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/presentation/04_landing.png",
+      "original_sha256": "9af4cabdfa980f104eec421f3560237a121b270999a10e6487702d8f0948e4d9",
+      "original_git_blob": "afd858090660b22c740011880f81d85476d56978",
+      "sha256": "d1c4dc74fedd3dbc3a4b55d97f086ebbbd774a04ab1f6f0248bb02e63cd0463d",
+      "git_blob": "9606bb1c1a1ad03e919c185925464db218448581"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/presentation/05_runway.png",
+      "original_sha256": "43569141a7a3b685bebba8afb87a01525e37773db8c5cc32a89fb30def571808",
+      "original_git_blob": "7e10108207f4d741c359d57f74c421873189936a",
+      "sha256": "35914b26617c12ff5f1314776d607234251b49ddc57aed4c9854a19fe9a922a1",
+      "git_blob": "aefebac4d280e5d2931b8da70f8c11ba66d8a677"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/presentation/06_maps.png",
+      "original_sha256": "89712fa1a10f221275495ad425eb6b1e491c2ced9881fa97e28b07c8c132c954",
+      "original_git_blob": "ec3fc866be470f747e758d6c5976ed1e3efb0e53",
+      "sha256": "8a200213f75e4e4f28e7538876fadebac503bd663e6aa40183e6ddb82a39c30e",
+      "git_blob": "ad6ff5b90ca58caf2f8798ee6e3797150d7bf5f9"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/presentation/07_stereo.png",
+      "original_sha256": "06e7ea4087633ad816fe7f4e446fa56a8c01ccc82d3c82e9ce386063bed5a126",
+      "original_git_blob": "2da921ca24ba86e91ba4207ea785e36dd360ec35",
+      "sha256": "5aa58b09f83b119bcb86a4cbd95784713b6715b31c522415d761c25e8f78c5e4",
+      "git_blob": "c98ca0ca63312c4f57bc5ad0a927cc3112bb1b17"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/presentation/08_wind.png",
+      "original_sha256": "87d94a5d52afa3ed4699c567c82214c87941d993ce6eb1ac7d252c29462395ba",
+      "original_git_blob": "06ffc7e5bc19a934d259bb52116451a1dc22e90d",
+      "sha256": "39e75a8253bc34624bd91bdc45b204b4f821ce675313f5783bdb23f6109b3264",
+      "git_blob": "d51122c87285c35e08ed3012e80a9029db59acc8"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/presentation/09_certificate.png",
+      "original_sha256": "c9a5a695e0e23fd6da56d2b11e6b93c28276859ae97f747fb413492ff34c1410",
+      "original_git_blob": "c5f4a60e73e395f44851f2fbef1d29f32aeb078e",
+      "sha256": "20bc23d7405026558acce2bcea63e3ba89ebd269fd7160b67fe9def7ca3fa474",
+      "git_blob": "5e3d0d72ed8dcace899be376edf3a48092be8c91"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/presentation/10_recorder.png",
+      "original_sha256": "2c69b0bd2fbf32ba7985d0d3ff33f1423f81b964908298880567d86de1148d87",
+      "original_git_blob": "19356438f5611ccc5c406acc76af83ed6fa2f5fa",
+      "sha256": "0336d75616b98f607b3ed0b558da2b41caab3eab1e051339979b0a5b49b7db32",
+      "git_blob": "e3879f83f9e3541b688b55bd81e739d66693281b"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/presentation/11_weather.png",
+      "original_sha256": "2a09fdfe52469e7c82db801a1927abf1e6003b266005636f913e520bbb75420b",
+      "original_git_blob": "ba7907973c825d220ed41f4cce60a0392c66e92f",
+      "sha256": "6a2cf1c46a6d5bf348badd0a7d5705ce8b11c7c654c8e401df1c33faa6eb24fc",
+      "git_blob": "ae5c8c2b76c846efa4b30acd056bfce7ed88e8a1"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/presentation/12_rollout.png",
+      "original_sha256": "a1f4a15a8de4ae3759f6b9cd39b687e884250a097f0128dfce831deb5bccd204",
+      "original_git_blob": "1ed9c79912883c3b1e0985e13ac3aa30c0b4f1f2",
+      "sha256": "8d587adceba858dcb77070d67045e6d337ffd8a977338eac4e8fcbe3f37fd7a5",
+      "git_blob": "022e52a55767e6e5373b4e6d9cbbb3167a880372"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/presentation/A1_paths.png",
+      "original_sha256": "50cef329f3ee871a4bb85b0091a5fed9eb81f7fd459aaa85fd46c33394c3032b",
+      "original_git_blob": "10e116e64a8d2413c153889398c541ba17f140ff",
+      "sha256": "fd252951e69960983077486788b39581debc66673fce09dbda2dde6a4bd923ed",
+      "git_blob": "06fcb717870abd7c265f90972ec4304ee16a12d3"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/presentation/A2_controls.png",
+      "original_sha256": "c27a1ec0c92b13cd65dfd0505dd47975b606ff84c977da75c640f401e6780d33",
+      "original_git_blob": "1bf67503a70115a1db03ca11478da8fbac964bbc",
+      "sha256": "673376e08b6c959112a87e08588a22e33827575f6c1093a9847be586192c0ad8",
+      "git_blob": "3d12ba90c62bc5b8f350dd0a6a90d32c4585acf3"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/presentation/A3_weather_context.png",
+      "original_sha256": "e56f3936a23111881ea300b0952e5b3a82b044989272ca6fd72330dbc70ac51f",
+      "original_git_blob": "fce98f1f2951b4c51e84f1c23beec26db6666e5a",
+      "sha256": "269f5ccca4c563bf43b94c24adad545819ae1ed149eddf84d107afbe3a39d000",
+      "git_blob": "ba8fcee64efa966c8b19dfc523d2f3e78d78705b"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/qa/document_checks.json",
+      "original_sha256": "d958ca2fedd6d2e91f24633b246ab311394afb2fffdb7876b1d6926d8ee76654",
+      "original_git_blob": "6691aa2635d96bf7613f18e8901bd91b4c654d74",
+      "sha256": "18163aaeba4347e53215be5f1a340337dafbaf6355816e6a077a3e1e9f106ad7",
+      "git_blob": "363eaffb399317ca551e755dfec46dc8e5e2852c"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/qa/figure-records/01_place.json",
+      "original_sha256": "34a7ae24965f3d5b021bfe43494d6621409514f3c1a61e7ae9cbf2cacbb11583",
+      "original_git_blob": "002014abe07dfc6805ce838d969843877141ac39",
+      "sha256": "974896f29a46ba0f1d6c5df3a044090dc3354eccb7cbef301bc4e91c4ae60a6b",
+      "git_blob": "08bceed98ecef4b3d9f8024249af70566330ed54"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/qa/figure-records/02_bearings.json",
+      "original_sha256": "6fd916c6f31b26b369dcea7bee773575014e4739d5ea63ddeb03c2339ad34324",
+      "original_git_blob": "6beb49ea84a6c2a1d0eee8b58cea8d9b263129cc",
+      "sha256": "34dc57a5253e4dce7ad4604c4d4261c031e298d0358200ca718eddd7a4c6d180",
+      "git_blob": "fc5feaf8188fd34d12f1e7d1506776a3d7e94439"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/qa/figure-records/03_turn.json",
+      "original_sha256": "d5ace17aa42113aa608d9b9a93084b7989ee6de6519ebfcac97d4cd27f3f22b7",
+      "original_git_blob": "5a1fb853a4fab026d38ec856fb64a3eee6bd0bf4",
+      "sha256": "fc1c8e6992481c3a577d1a28534267258b5ad4eb31d4ec0bc54f14034f820a94",
+      "git_blob": "9b7dc2819a1496a5bc3a3dde6e3896ce945f8889"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/qa/figure-records/04_landing.json",
+      "original_sha256": "7662784ccb0074f1c28fe5ec58477ae8a3ceb9bd8949707fa1e63e412ab4621e",
+      "original_git_blob": "b4a92d57a5e0040f16557dbfd3433bd941e009d9",
+      "sha256": "40734c1d1c14a76ebfdda431a1dd902ff68d5310d6bc7d8e722f336e3076f190",
+      "git_blob": "6e9c285ebad556d5f8398e9f704f2094f58562e9"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/qa/figure-records/05_runway.json",
+      "original_sha256": "99b4d40137b7253157da470babe7ae7a8c63837d3d11a1d392b0763928eb0ca1",
+      "original_git_blob": "cdf527dbfef5aa1ea172453079ad148e8245da98",
+      "sha256": "5889d77c2a110be6f6a7ab61fe5357d11edf89b81cd5d2b53050f3520e15b8a3",
+      "git_blob": "919746f9665a53c1095b56d194ce223fc7f1840b"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/qa/figure-records/06_maps.json",
+      "original_sha256": "45a2f31f36b13bd48fb5fc55d7d17828866028f7d1b88fa3d11ed7fe830e54d7",
+      "original_git_blob": "5e2781fcaed59d8ae981688e8714be7a03b0611a",
+      "sha256": "6c1ac9316c2e16918431ae4a6245b9ae0a5cace45cbee80e89654ed8cff925b7",
+      "git_blob": "548b8bf8a770ad4608cb20056b2b6c3530b46128"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/qa/figure-records/07_stereo.json",
+      "original_sha256": "3513da44f96e6e96d1ef916b4ff2c58fd3f59978261ccddcdec639607162cd1e",
+      "original_git_blob": "6392609c7b42ce587ccc955df9e7e4c4099199f2",
+      "sha256": "d6578ef73e3d326c7dc9e0a235a68c14bd7e8c1c5fe07fec7fd37c4cf8653d14",
+      "git_blob": "f9e934d0ba0190ed6c22329c6a1a0d8847bde203"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/qa/figure-records/08_wind.json",
+      "original_sha256": "c2bc3d7e68320fcae12049d2c84ff086e8fcd81de952ec179c85877a1244dc01",
+      "original_git_blob": "102779932f07be07dcc3b42106c63c229e41fd12",
+      "sha256": "99dee1ab0a9072b26d74b1a531fdeabc3415558dcd10a499b732287b14bb7ea0",
+      "git_blob": "dfd62d0398961640a69e4a36ff0de29f8108101f"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/qa/figure-records/09_certificate.json",
+      "original_sha256": "18bf8a936452b7fc6055b98c5791a1323c191bbb7aea2278477490df00fa2f6d",
+      "original_git_blob": "d2dc7cc4f7b09e4bb3087c9eff3d92628adeae33",
+      "sha256": "8e9925286a84d2a6fab4c2292142b99ca367e366afc655560dd8faa602b94776",
+      "git_blob": "e716ae08b4024c2e8b925511818eb4d7de1a7e2a"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/qa/figure-records/10_recorder.json",
+      "original_sha256": "2d240c19da9a72805d3f1c17d9ed70c21d68605fcfa2da8c40babab86182bff8",
+      "original_git_blob": "cacad693364e5fc849d1470fb936c227c9b1a106",
+      "sha256": "64b650aa7527fb3eba35ca72bda6fd2d75450bbb8ebdc22fa00d43bd46cc03ae",
+      "git_blob": "d4ad38fff365b452bbc4e3af206352ae23d95a17"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/qa/figure-records/11_weather.json",
+      "original_sha256": "bac7b692fa5ce54a4b47e614ca8dc7a96b0dea5332e7d22015b124ec552ca76f",
+      "original_git_blob": "0842a597d850f47293855608168d87db54cdbc66",
+      "sha256": "f5220ea6b8c89e2b7713de704a63c497dffdd277684cc0d880f53b0f5d4e216b",
+      "git_blob": "33118a1771e8ba2700d94ff4c66f1f479a56b98b"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/qa/figure-records/12_rollout.json",
+      "original_sha256": "3c38d24c02681a0ab753af13e06cedf6c9681a3f48228549dc8028c9c4579feb",
+      "original_git_blob": "45d4d1d7619bbf2ba9536d3dfc28b7e5cec5501d",
+      "sha256": "755741d77f81555ec8b0b7e238465a424f4e8a297ff80801f99f897bde2db47a",
+      "git_blob": "fd8206b7ed56d7be78727b3d03479f763c2f41cd"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/qa/figure-records/A1_paths.json",
+      "original_sha256": "cc53106dec757389a2e43bd2029004590a57a0e8115d99c295050eba9e239cf0",
+      "original_git_blob": "f37d5673d30d4798fbb97ca0cfd3d1a3b1bf9397",
+      "sha256": "1c5ab04a31a66811c18ec00ae73e97ff8a79473a48d04fa933cdcd582aa95913",
+      "git_blob": "c9c6c95b919e598f0f9894888cb6b7669b2bf1b9"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/qa/figure-records/A2_controls.json",
+      "original_sha256": "061960a642eea7f18ef525719368e16fb096bb675cd02054e30c9be484e17a08",
+      "original_git_blob": "17f5d8dedb4cb653e44bc1ab71c0ee3c3fd02649",
+      "sha256": "22cc8ac9cb5e6021eceee51af0de1448d7a4921d0b3bedb2d70908c734608d7f",
+      "git_blob": "9aeed26621fea06ecaeb27366a0be2d58af3c5db"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/qa/figure-records/A3_weather_context.json",
+      "original_sha256": "c497129fb3c462b45131eab8edfaaa3d30794ab021398120b8f091889fd4c3b5",
+      "original_git_blob": "471e459026b3df6285ca50d7acd10c03b56a1235",
+      "sha256": "1cd324dfb7c2b2d5fe7bbc307790e6908c36a9833e115c12b63ad91c31a480a9",
+      "git_blob": "9f7f7b145388b7b42afe053f78dd2c7314b40945"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/qa/figure_provenance.json",
+      "original_sha256": "4e46b2d680d7d7f2231b7996e8318af7ab7449f9e12a2a3bd5868816662f15bb",
+      "original_git_blob": "88419c069e923a600bbffae7d9498d0eb6c1c821",
+      "sha256": "f2fb9fee78d8a0120e02122b771ff6b2816d4b8dc7cc2c3061ffe1a974220e29",
+      "git_blob": "e89fea495c6f995e8520304b3dfd8c5870c617f2"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/qa/package_manifest.json",
+      "original_sha256": "31c2b35e2ea4259c155423947c30fa269bbc4164f99fcdde818f738f5a84d32c",
+      "original_git_blob": "c18599bb473711121cdfa5a71bb9a02d8c5219b9",
+      "sha256": "f3bd95262b82db7fdfa804fea80cff1331e79a198a7de6485fbbd883829fa525",
+      "git_blob": "257703fff0e8002a4765ac2a735117fdfc121ef8"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/qa/science_checks.json",
+      "original_sha256": "7ee0843d8cd3df5097f56367e7ac0189ce46e131e4b5dc80bab2c67523243edf",
+      "original_git_blob": "4f7b5b3bd64c37e89adad255b48ec334de3c5992",
+      "sha256": "57224cf1ed3d345dfe06f693b07b9ee062c19ae464a9d140fa338cda849bc6e7",
+      "git_blob": "4c0606cd80383f63b60da31a1808433f8fe8e354"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/qa/science_figure_semantics.json",
+      "original_sha256": "3e9a28bd94b82ca9f96a8c218f6563143bd18758f35462a079374e795064f8d4",
+      "original_git_blob": "1a8c87a1f4fda3895c577b21c4e5b289428a49b8",
+      "sha256": "e07500a26b58b4a223d16014eb775b87c6d0f93f7e320fbe6d75bb9f5fe2955c",
+      "git_blob": "f933436127a2f711b6573fb47b326dde136f0d68"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/scripts/figure_style.py",
+      "original_sha256": "c7b14ce3481d69c51e0162837d5282e6c4712a58b8eb9fb676d39057e60bdbf5",
+      "original_git_blob": "236027ae052740fbfc0675fb2ec3620e541040bf",
+      "sha256": "f331859ac5dfce6c224ab1942a63b4ce02dc513a5dd3a81c43e8ad7720c3e42c",
+      "git_blob": "ba232117f143382ba12d1f2756b8e287b53a8ae2"
+    },
+    {
+      "path": "research/checkers-runway13/whitepaper/v5/scripts/historical_figures.py",
+      "original_sha256": "5b94ddcb9220ce2071f67a13dc721a76c90dfe18889488b402b7319a00f5de29",
+      "original_git_blob": "8709990a27e65c355c0ed2234dae19564b806009",
+      "sha256": "3ef63ea02ce2b1074ae0ba1429eeaae553d6493ea598ddd9fc851d1cc2f60e49",
+      "git_blob": "24040146f21ebcbb50b4120b6f645edfe3458a00"
+    }
+  ]
+}

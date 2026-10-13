@@ -27,9 +27,10 @@
     7.1,
     6.15
   ],
+  "color_mode": "grayscale",
   "screen_dpi": 190,
   "presentation_dpi": 600,
-  "pdf_sha256": "7eb4353f6b6ec5e18b6a6249bdcaff8f393370550ed8c4670b638c9be185d419",
+  "pdf_sha256": "336ca76ffbd6f006846a347c1bd2398a843c102bc564a2095b6b632cbb11472c",
   "main_extent_EPSG2326": [
     837500,
     821000,

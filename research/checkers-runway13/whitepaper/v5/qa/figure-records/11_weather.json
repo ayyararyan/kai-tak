@@ -11,9 +11,10 @@
     7.1,
     4.35
   ],
+  "color_mode": "grayscale",
   "screen_dpi": 190,
   "presentation_dpi": 600,
-  "pdf_sha256": "4078b76f5cf27d9b2277109c2bb7ad5af01342a5252f31b5062cb491a98d6b85",
+  "pdf_sha256": "c606e0a6cd4de4e9bc21ae7150a8867dc2152a33642da6484f8941696ac3e682",
   "evidence_category": "source-transcribed ground-sensor printout",
   "plotted_series": {
     "NW": {

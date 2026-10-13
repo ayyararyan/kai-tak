@@ -10,9 +10,9 @@
       "status": "published",
       "pages": 38,
       "pdf": "research/checkers-runway13/whitepaper/v5/checkers-with-runway-13-white-paper-v5.pdf",
-      "pdf_sha256": "328f848d805df1e5bac5fd6aff6f28363112bea3acd9a5fcb71c33ec16842939",
+      "pdf_sha256": "28aadfa72b1a62c3ae19bbd9e453c7683861bd8496a62384a088cb72cfce53fe",
       "source_package": "research/checkers-runway13/whitepaper/v5/checkers-with-runway-13-white-paper-v5-sources.zip",
-      "source_sha256": "6a7d44fb94de027a7394f0d6fa88874f4ce7bf7ee030a87696d3dbae4617724f",
+      "source_sha256": "a150aefab38d7e4fc91bc792f764fbc73dc4e93140cc919ff8a05a24b4fc5d29",
       "guide": "research/checkers-runway13/whitepaper/v5/README.md"
     },
     {
@@ -92,7 +92,7 @@
     "nominal_and_steady_wind_certificates": "fixed-model feasibility only"
   },
   "receipts": {
-    "paper": "publication/v5_verification.json",
+    "paper": "publication/v5_grayscale_verification.json",
     "archive": "archive/reports/publication_verification.json",
     "atlas": "visual-atlas/v1/metadata/publication_receipt.json"
   },

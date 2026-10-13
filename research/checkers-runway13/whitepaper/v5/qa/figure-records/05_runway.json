@@ -15,9 +15,10 @@
     7.1,
     4.0
   ],
+  "color_mode": "grayscale",
   "screen_dpi": 190,
   "presentation_dpi": 600,
-  "pdf_sha256": "d28bbe089eed7b84b9048fe82fce228ef8874b751a40d7af5b617f941c172383",
+  "pdf_sha256": "885e8d88bddce155fa856fbf6713a97f24512f1478aa52f81611237c3840c5e4",
   "scale": {
     "same_horizontal_metres_for_both": true,
     "LDA_m": 2786.0,

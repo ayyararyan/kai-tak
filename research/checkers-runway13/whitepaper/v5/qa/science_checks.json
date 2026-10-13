@@ -1,8 +1,8 @@
 {
-  "verified_utc": "2026-10-13T18:11:11.626808+00:00",
+  "verified_utc": "2026-10-13T19:36:58.959925+00:00",
   "checker_sha256": "3b1b7e1452b39308c9c38624b3f786716c39efa21824272ba899a7a7aaf820fd",
   "python": "3.14.6 (main, Jun 10 2026, 10:03:53) [Clang 21.0.0 (clang-2100.0.123.102)]",
-  "checks_passed": 288,
+  "checks_passed": 287,
   "checks": [
     "baseline_51_claim_ids_retained",
     "active_claim_ids_unique",
@@ -290,8 +290,7 @@
     "historical_frontier_2_0",
     "historical_frontier_2_2",
     "historical_frontier_3_0",
-    "historical_frontier_3_2",
-    "fresh_original_calm_bound_matches_frozen"
+    "historical_frontier_3_2"
   ],
   "values": {
     "new_visual_inputs": {
@@ -379,7 +378,7 @@
       "scope": "Declared raster-reading sensitivity only; not exact physical touchdown or sensor uncertainty"
     }
   },
-  "fresh_calm_bound": true,
+  "fresh_calm_bound": false,
   "evidence_level": "tested; exported arithmetic recomputed from frozen inputs",
   "proof_scope": "Fresh all-time proof reruns are separate receipts; floating sampling here is not certification.",
   "optimization_rerun": false,

@@ -7,7 +7,7 @@ As of **14 October 2026**. Preservation baseline: `125ebac16dc52a86998e2f6c4893e
 
 | Product | Current public version | Authority |
 |---|---|---|
-| Checkers with Runway 13 | **v5**, 38-page edition | [Paper index](../papers/README.md), [publication receipt](../publication/v5_verification.json) |
+| Checkers with Runway 13 | **v5**, 38-page edition | [Paper index](../papers/README.md), [publication receipt](../publication/v5_grayscale_verification.json) |
 | Mathematical companion | **v1**, 36-page grayscale note; repository publication | [PDF](../research/checkers-runway13/mathematical-note/v1/certified-local-optimality-v1.pdf), [guide](../research/checkers-runway13/mathematical-note/v1/README.md), [publication evidence](../publication/mathematical-note-v1-publication/grayscale-branch-verification.json) |
 | Historical Research Archive | **v1.0.0**, 418 permitted files in 5 bundles | [Archive](../archive/README.md), [release receipt](../archive/reports/publication_verification.json) |
 | Visual Atlas | **v1**, 12 principal plates / 17 views | [Atlas](../visual-atlas/README.md), [delivery receipt](../visual-atlas/v1/metadata/publication_receipt.json) |

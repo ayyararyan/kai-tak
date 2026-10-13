@@ -27,13 +27,13 @@
     {
       "page": 3,
       "text_sha256": "636aca5acd64ca1347e01ce59ce3786cc62bba75bdd2c60ebc10d4b51679e1f5",
-      "pixel_sha256": "214ea4f488386b68efe8e5aa3f69747f9aea05b0bc958e5f1c3bc6e8baeaeb7d",
+      "pixel_sha256": "bc69324c0a0a90ed41989f8e3a1ea7738a12e784771c37558ca1409aa54ee8e0",
       "words": 282
     },
     {
       "page": 4,
       "text_sha256": "5cfa8f759fd88c9e9e56f291d030f2722356297b5ba4bc92f3b3dcdb3335c56d",
-      "pixel_sha256": "88e1fe1dbde5c0073ec2ecdda4bb72019b3cda5d90987a2bbba8f5c608fa469c",
+      "pixel_sha256": "6ee860fea2b9e19e97faea32e0c9c8124368aa1cb8b439095f93c2a991425444",
       "words": 350
     },
     {
@@ -45,7 +45,7 @@
     {
       "page": 6,
       "text_sha256": "b8a11ef52eef19ed13156d40e5ead35b2c4b0b7d39dc505161ee64e5b0703341",
-      "pixel_sha256": "c5ce77a07f07a3035cee55fee3fcb4c28456f6968b5cd8c8045760120dda3e4e",
+      "pixel_sha256": "91697245a372309c79948367ff05cdd56b039c9d3776140dfe8c61acdf938578",
       "words": 287
     },
     {
@@ -63,13 +63,13 @@
     {
       "page": 9,
       "text_sha256": "4597b90ab1b8b34d70cfb1379905e2ba571576d031691ace57be2d89e65702e9",
-      "pixel_sha256": "a92e15d86fbada4b3be6086e29ffea1e9cd256d120eef6f1f8ea843111b733f2",
+      "pixel_sha256": "b1e8851a1a673be8ec565146b76d51fbce8da8913a4d520238e8e26f4bfee529",
       "words": 310
     },
     {
       "page": 10,
       "text_sha256": "7d71bed2f3ffdfe79d584bcf371ec3b30edfc3171a5e32de7dd36085ea160123",
-      "pixel_sha256": "eff878c11e66ab897d75dcca2f08c42cbcf9a97dc825f5f3d4714df1dd8abf93",
+      "pixel_sha256": "f58a710040fef9c730a4857b9d28fc670597a4b2ad6ca1df1948a6fa19d73ab7",
       "words": 249
     },
     {
@@ -81,7 +81,7 @@
     {
       "page": 12,
       "text_sha256": "97d96f63b6b2351fb4d4514e62b544c7affd62a863f67aa9e2739c78a0fb3147",
-      "pixel_sha256": "14ea93d75ebc9602cd785819f6e6181b32c6e4b3ce8969d95ec3e108de82ce29",
+      "pixel_sha256": "d64dc27124fd0d7eb25a9d3d0161a353ad6cc5093281f2a60b319958d3832d43",
       "words": 248
     },
     {
@@ -93,19 +93,19 @@
     {
       "page": 14,
       "text_sha256": "5649bf9b2b9400a27e9d094888c42a49b301f916b35d890e0594c1be9d4ceba2",
-      "pixel_sha256": "49a74589722c7b53cb138362eece37ea7c169a664c42a0df26b4c5b8e3da81d6",
+      "pixel_sha256": "02fa9b54f376f566cd7861a59cb76ceca241bc6ec694d5766e9c6471b57ca407",
       "words": 309
     },
     {
       "page": 15,
       "text_sha256": "009a83282c938eb3c2f6dc541d5ead5e0ccc2ef02716aed7c542ccf4241e726f",
-      "pixel_sha256": "1055812940ce1429c6be59563f95bc8d1247c3888b9842dc8277092cd99a3253",
+      "pixel_sha256": "7aac2c5ac93f95791105011179044495309a32e0765a53b21537df7e25f3e7dd",
       "words": 355
     },
     {
       "page": 16,
       "text_sha256": "f9e312f71c5d3c55cda798df96ba300a38479831a66a2f48738472774f5e56b7",
-      "pixel_sha256": "e25bbdea8716caaccee8bcb0650b247f7db54192ca023c82e0c754876ec7b8a7",
+      "pixel_sha256": "f1bf82ad4862fd6e8452cc556e02b101d5931c850d7fdd8f75e9bda41a139c70",
       "words": 315
     },
     {
@@ -117,19 +117,19 @@
     {
       "page": 18,
       "text_sha256": "5360c9290dfaedd5dfec5e3a2f1ea7feb26f9e54cf7e95a78132ce898f792bba",
-      "pixel_sha256": "459e86cd227fc14958486066c778ea5002e570a136057ff3126621b62935a251",
+      "pixel_sha256": "63e2a8641e4093e1c5b67b894dee90c70267057386c40c7cd143a25982de4ba6",
       "words": 269
     },
     {
       "page": 19,
       "text_sha256": "ade4a1f3c175fe5c9f2193596052532b7c58791e9e8d193b588952d7a515a5a3",
-      "pixel_sha256": "6133fa021636b7b0b74f74868b44b22636c4a860ac0c51396dee9fd067a6aaa6",
+      "pixel_sha256": "542425568737d7e90d445d93565191ddcd7e4672062257beb7b142ef2b8cb15f",
       "words": 334
     },
     {
       "page": 20,
       "text_sha256": "561996c37486b9321d971f430a06c331c89ce2ffd41e9fd4bcffb8e45f18a4ed",
-      "pixel_sha256": "3943f91fcd4991606052ee2dce4b3a5dacb52d996a775ee7e7e645fa469013cc",
+      "pixel_sha256": "c0f3373d482b556ccc5e9a3d3171c34752c515dd6af2ea969b3497eb10ca415c",
       "words": 255
     },
     {
@@ -219,19 +219,19 @@
     {
       "page": 35,
       "text_sha256": "628e5c1e9c82533b0ab94d91ec678f4e3bc945f2191157e9c815ec563f2cdcd7",
-      "pixel_sha256": "4127a71ae8767820617bcbad4c53a4fca2606e5fee0cb8e8c7d3f89b95f4f799",
+      "pixel_sha256": "5b0059de02c79af7c9b3db02f03a9d63a5c2a9fadfa09a9e5414c421e7c852ad",
       "words": 111
     },
     {
       "page": 36,
       "text_sha256": "96086379d73f92a77e565654e4f10ab063f85a853b89de97fa5e4772fe5cd036",
-      "pixel_sha256": "d5b8e7e4a8abe6bf58344a8d068069bcd677e537d96d066513be94e1a960095e",
+      "pixel_sha256": "caf0cff3422118b13119fd36b679dc656cc67e0ff4213da0b0e752dfa2326940",
       "words": 102
     },
     {
       "page": 37,
       "text_sha256": "bc0dfa1635695ece9b93bb4ab0facbd8a67e15db84d0d449466c2777eb2414f2",
-      "pixel_sha256": "a798ef73a57e543b45c74213bc6e2e4bd5db3550e7149da21b8a4be4e6ae6ebf",
+      "pixel_sha256": "b5bf05e9f7a0341ac55671af008a8aa80cfbc87220432514c355df8bd2a346b2",
       "words": 87
     },
     {
@@ -241,6 +241,6 @@
       "words": 369
     }
   ],
-  "pdf_sha256": "328f848d805df1e5bac5fd6aff6f28363112bea3acd9a5fcb71c33ec16842939",
+  "pdf_sha256": "28aadfa72b1a62c3ae19bbd9e453c7683861bd8496a62384a088cb72cfce53fe",
   "visual_review": "Requires separate actual-page inspection, not inferred from these checks."
 }

@@ -28,3 +28,32 @@ All six authorized production stages complete. Final PDF:38 pages,15 redesigned 
 Verification:287standard/288fresh-bound science checks;74 independentfigure checks;89 regressiontests; bothoriginalfixed-witnesscertificates freshly reproduced.104frozen+11supplementalinputs preserved; all238V4files unchanged;26mathblocks andexactcoefficients retained. FreshPythonenvironment/sourceextraction rebuild reproduces38/38page texts/pixels and60/60figureexports. Finalpackage/manifest verification recorded in qa/delivery_acceptance.json and DELIVERY_MANIFEST.json.
 
 Currentcanonicalhandoff:VERIFICATION.md,REPRODUCIBILITY.md,EDITORIAL_ASSESSMENT.md,REQUIREMENTS_TRACEABILITY.md. No substantive production blocker; foreword approval and human specialist review remain explicitly outstanding boundaries, not hidden completed steps. No commit,push,publication,outreach orpeer-sync performed. V5 edition completion doesnot close the separate integrated historical-flight solution's gaps.
+
+## 14 October 2026 — authorized grayscale refresh
+
+Aryan requested only that V5's same figures be made grayscale, the PDF recompiled,
+and GitHub main updated. This supersedes the older local-only publication boundary
+for this specific refresh. Baseline public main is
+`bdcbcdb71065797d65c38a37348cb80ea6e1a4d3`; the original color PDF and source package
+remain retrievable at that commit. Scope: neutral figure palette and displayed
+raster copies, unchanged 15 figure designs/data/coordinates/crops, rebuilt 60
+exports and 38-page PDF, matching portable source package and dated verification.
+Preserve manuscript wording, all mathematics/calculations, source originals,
+previous editions, original publication receipts, author-maintained root README,
+archive/atlas and all unrelated work. No optimizer run or model change.
+
+Current artifact state: all 15 figures / 60 exports regenerated in grayscale;
+38-page PDF compiled with unchanged text, font positions and mathematics. Only the
+15 figure pages changed; the other 23 pages are pixel-identical. All 287 science
+and 74 figure-semantic checks pass; independent visual review has no must-fix
+findings. Clean source-package verification is recorded in
+`qa/grayscale_clean_build.json`; current PDF/export/package identities are in the
+QA manifests listed in `GRAYSCALE_REVISION.md`.
+
+Publication is authorized for `ayyararyan/kai-tak` main. Its live outcome is recorded
+in repository-level `publication/v5_grayscale_verification.json`, updated after
+remote Git and anonymous HTTP readback. That receipt is intentionally outside the
+portable source ZIP; this ledger is the frozen artifact-acceptance snapshot, not a
+claim that a future push has already succeeded. Historical color receipts remain
+unchanged. Parent owns integration and publication; independent review covered
+rendered pages and the narrowly scoped preservation-correction support.

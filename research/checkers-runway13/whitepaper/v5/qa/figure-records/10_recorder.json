@@ -15,9 +15,10 @@
     7.1,
     6.25
   ],
+  "color_mode": "grayscale",
   "screen_dpi": 190,
   "presentation_dpi": 600,
-  "pdf_sha256": "c50f7ba9ab0e4ee5d79a2d3ffe6fe13d687c5594536df4a3c1e83aec7de8424a",
+  "pdf_sha256": "60e5faf7f43599c6f950dac6fc44c24100f09bdc310fbc927eed723c80612991",
   "evidence_category": "manual digitization, not raw recorder data",
   "plotted_series": {
     "calibrated_airspeed_kt": {

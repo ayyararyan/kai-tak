@@ -15,9 +15,10 @@
     7.1,
     6.4
   ],
+  "color_mode": "grayscale",
   "screen_dpi": 190,
   "presentation_dpi": 600,
-  "pdf_sha256": "82661cf0694e4129d144f35be16901abafa6e967ebd8a8b965e68c0dd579eee8",
+  "pdf_sha256": "0837fc34def99bb9df037b4d750af784349c9166b4e853522ffe6deebfb00c5a",
   "vertical_exaggeration": 1,
   "paths_evaluated": 2
 }

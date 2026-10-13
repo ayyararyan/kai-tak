@@ -1,0 +1,252 @@
+{
+  "baseline_commit": "bdcbcdb71065797d65c38a37348cb80ea6e1a4d3",
+  "pages": 38,
+  "exact_page_text_font_position_matches": 38,
+  "poppler_text_identical": true,
+  "figure_semantic_records_identical": 15,
+  "original_color_mode": "color",
+  "current_figure_color_mode": "grayscale",
+  "changed_pages": [
+    3,
+    4,
+    6,
+    9,
+    10,
+    12,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    35,
+    36,
+    37
+  ],
+  "unchanged_pages": [
+    1,
+    2,
+    5,
+    7,
+    8,
+    11,
+    13,
+    17,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    38
+  ],
+  "page_checks": [
+    {
+      "page": 1,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 2,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 3,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": false
+    },
+    {
+      "page": 4,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": false
+    },
+    {
+      "page": 5,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 6,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": false
+    },
+    {
+      "page": 7,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 8,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 9,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": false
+    },
+    {
+      "page": 10,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": false
+    },
+    {
+      "page": 11,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 12,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": false
+    },
+    {
+      "page": 13,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 14,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": false
+    },
+    {
+      "page": 15,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": false
+    },
+    {
+      "page": 16,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": false
+    },
+    {
+      "page": 17,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 18,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": false
+    },
+    {
+      "page": 19,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": false
+    },
+    {
+      "page": 20,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": false
+    },
+    {
+      "page": 21,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 22,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 23,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 24,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 25,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 26,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 27,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 28,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 29,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 30,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 31,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 32,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 33,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 34,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": true
+    },
+    {
+      "page": 35,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": false
+    },
+    {
+      "page": 36,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": false
+    },
+    {
+      "page": 37,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": false
+    },
+    {
+      "page": 38,
+      "text_fonts_positions_identical": true,
+      "pixels_identical": true
+    }
+  ],
+  "baseline_pdf_sha256": "328f848d805df1e5bac5fd6aff6f28363112bea3acd9a5fcb71c33ec16842939",
+  "current_pdf_sha256": "28aadfa72b1a62c3ae19bbd9e453c7683861bd8496a62384a088cb72cfce53fe",
+  "record_bound_utc": "2026-10-13T19:45:04.485513+00:00",
+  "methods": [
+    "PyMuPDF per-page text spans: text, font, size, bbox and page geometry",
+    "Poppler pdftotext -layout exact extracted-text comparison",
+    "PyMuPDF default 72-dpi page rendering: exact RGB pixel equality",
+    "Figure provenance comparisons excluding only output PDF hash and new color_mode"
+  ]
+}

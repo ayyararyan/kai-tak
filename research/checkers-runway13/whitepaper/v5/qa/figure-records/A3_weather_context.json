@@ -11,9 +11,10 @@
     7.1,
     4.65
   ],
+  "color_mode": "grayscale",
   "screen_dpi": 190,
   "presentation_dpi": 600,
-  "pdf_sha256": "6a3cdde669dfa0052e5376abfaa05417d8d567b1f849e742804cfcd71600e4b9",
+  "pdf_sha256": "89a1440f4d7cd7309792072fd4fdf52cc79e6e9670e509f3d2a21a0de2db37f5",
   "evidence_category": "selected observed archive distribution, not return period or landing risk",
   "source_records": 8549,
   "selected_records": 8360,

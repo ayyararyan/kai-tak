@@ -33,6 +33,28 @@ FROZEN_LINK_SNAPSHOTS = {
         'source_commit': '78a9ce1c627f917c94306af5529d5e9ebeb743e8',
     },
 }
+V5_GRAYSCALE_MANIFEST = 'publication/v5-grayscale-20261014/correction-manifest.json'
+# Pinning the manifest itself prevents a later joint file/hash rewrite from reusing this authorization.
+V5_GRAYSCALE_MANIFEST_SHA256 = 'bae7bcc86f8346634eaeace9f70aaada01a16d0b89306eb37b7c59ae31aba408'
+V5_GRAYSCALE_PREDECESSOR = 'bdcbcdb71065797d65c38a37348cb80ea6e1a4d3'
+V5_GRAYSCALE_AUTHORIZATION = ('The v5 whitepaper is awesome - just one change: the same figures can be made '
+                              'in grayscale and then recompile the pdf and update on Github main')
+V5_ROOT = 'research/checkers-runway13/whitepaper/v5/'
+V5_FIGURES = ('01_place', '02_bearings', '03_turn', '04_landing', '05_runway', '06_maps',
+              '07_stereo', '08_wind', '09_certificate', '10_recorder', '11_weather',
+              '12_rollout', 'A1_paths', 'A2_controls', 'A3_weather_context')
+# This is one dated, explicitly authorized presentation correction, not a mutable
+# V5 subtree. Each actually changed file also needs exact old/new identities.
+V5_GRAYSCALE_PATHS = {V5_ROOT + name for name in (
+    'scripts/figure_style.py', 'scripts/historical_figures.py', 'scripts/mechanics_figures.py',
+    'scripts/evidence_figures.py', 'package_sources.py', 'README.md', 'SPEC.md', 'STATE.md',
+    'VERIFICATION.md', 'REPRODUCIBILITY.md', 'VERSION_CHANGES.md', 'FIGURE_REDESIGN.md',
+    'checkers-with-runway-13-white-paper-v5.pdf', 'checkers-with-runway-13-white-paper-v5-sources.zip',
+    'qa/document_checks.json', 'qa/science_checks.json', 'qa/science_figure_semantics.json',
+    'qa/figure_provenance.json', 'qa/package_manifest.json', 'qa/fonts.txt')}
+V5_GRAYSCALE_PATHS.update(V5_ROOT + path for name in V5_FIGURES for path in (
+    *(f'figures/{name}.{extension}' for extension in ('pdf', 'svg', 'png')),
+    f'presentation/{name}.png', f'qa/figure-records/{name}.json'))
 PRIVATE = re.compile(r'(^|/)(\.env(?:\..*)?|.*private-source-history.*|authorized_enquiries_[^/]*|REQUEST_DRAFTS\.md|.*ENQUIRY_DRAFT\.md|.*token.*\.json|id_(?:rsa|ed25519))($|/)', re.I)
 
 
@@ -389,6 +411,72 @@ def validate_exceptions(root, exceptions, baseline):
     return errors
 
 
+def v5_grayscale_correction(root, rows, original):
+    """Validate the exact successor; keep the historical SHA/Git baseline intact.
+
+    The manifest does not establish scientific or visual acceptance. It binds
+    the separately reviewed grayscale artifacts and cannot exempt evidence,
+    manuscript TeX, earlier editions, tags or arbitrary future revisions.
+    """
+    path = root / V5_GRAYSCALE_MANIFEST
+    if not path.exists() and not path.is_symlink():
+        return {}, []
+    errors, replacements = [], {}
+    if not safe_reference(root, V5_GRAYSCALE_MANIFEST) or path.is_symlink() or not path.is_file():
+        return {}, ['Invalid grayscale correction manifest file']
+    if sha(path) != V5_GRAYSCALE_MANIFEST_SHA256:
+        return {}, ['Grayscale correction manifest differs from its reviewed SHA-256 pin']
+    try:
+        data = read(root, V5_GRAYSCALE_MANIFEST)
+        fields = {'schema_version', 'correction_id', 'authorization', 'scope',
+                  'baseline_commit', 'predecessor_commit', 'files'}
+        if not isinstance(data, dict) or set(data) != fields or type(data['schema_version']) is not int or data['schema_version'] != 1:
+            return {}, ['Invalid grayscale correction manifest schema']
+        expected = {'correction_id': 'v5-grayscale-20261014',
+                    'authorization': V5_GRAYSCALE_AUTHORIZATION, 'scope': 'grayscale-presentation-only',
+                    'baseline_commit': BASELINE_COMMIT, 'predecessor_commit': V5_GRAYSCALE_PREDECESSOR}
+        if any(data[key] != value for key, value in expected.items()):
+            return {}, ['Grayscale correction identity/authorization changed']
+        if not isinstance(data['files'], list) or not data['files']:
+            return {}, ['Grayscale correction requires exact changed-file records']
+        predecessor = {}
+        for line in git(root, 'ls-tree', '-r', V5_GRAYSCALE_PREDECESSOR).splitlines():
+            metadata, name = line.split('\t', 1)
+            predecessor[name] = metadata.split()[2]
+        seen = set()
+        for record in data['files']:
+            required = {'path', 'original_sha256', 'original_git_blob', 'sha256', 'git_blob'}
+            if not isinstance(record, dict) or set(record) != required or not all(isinstance(v, str) for v in record.values()):
+                errors.append('Malformed grayscale changed-file record')
+                continue
+            name = record['path']
+            if name in seen or name not in V5_GRAYSCALE_PATHS or name not in rows:
+                errors.append('Duplicate or unauthorized grayscale path: ' + name)
+                continue
+            seen.add(name)
+            if not all(re.fullmatch('[a-f0-9]{64}', record[key]) for key in ('original_sha256', 'sha256')) or not all(re.fullmatch('[a-f0-9]{40}', record[key]) for key in ('original_git_blob', 'git_blob')):
+                errors.append('Invalid grayscale digest: ' + name)
+                continue
+            if record['original_git_blob'] != original.get(name) or predecessor.get(name) != original.get(name) or record['original_sha256'] != rows[name]['sha256']:
+                errors.append('Grayscale original identity disagrees with historical baseline: ' + name)
+                continue
+            old = subprocess.check_output(['git', '-C', str(root), 'cat-file', 'blob', original[name]])
+            if hashlib.sha256(old).hexdigest() != record['original_sha256']:
+                errors.append('Grayscale original SHA does not match retained Git bytes: ' + name)
+                continue
+            p = root / name
+            if record['sha256'] == record['original_sha256'] or record['git_blob'] == record['original_git_blob']:
+                errors.append('Grayscale record does not identify a changed successor: ' + name)
+            elif not safe_reference(root, name) or p.is_symlink() or not p.is_file() or sha(p) != record['sha256'] or git(root, 'hash-object', '--', name).strip() != record['git_blob']:
+                errors.append('Grayscale successor bytes do not match correction: ' + name)
+            else:
+                replacements[name] = record
+    except (OSError, ValueError, KeyError, subprocess.CalledProcessError) as exc:
+        errors.append('Grayscale correction could not verify preserved history: ' + str(exc))
+    # A malformed/partly valid manifest never partially relaxes preservation.
+    return ({} if errors else replacements), errors
+
+
 def preservation(root, require_tags=False, scope='migration'):
     baseline = read(root, 'docs/migration/baseline.json')
     errors, checked, unavailable = [], 0, []
@@ -404,6 +492,8 @@ def preservation(root, require_tags=False, scope='migration'):
             errors.append('Baseline path inventory does not match original commit')
     except subprocess.CalledProcessError:
         errors.append('Original commit unavailable: use full history (fetch-depth: 0)')
+    corrections, correction_errors = v5_grayscale_correction(root, rows, original)
+    errors.extend(correction_errors)
     def protected(path):
         return path not in MUTABLE_BASELINE and (scope == 'migration' or
             path.startswith(('archive/releases/v1.0.0/', 'visual-atlas/v1/', 'publication/')) or
@@ -413,13 +503,15 @@ def preservation(root, require_tags=False, scope='migration'):
             continue
         p = root / path
         checked += 1
-        if p.is_symlink() or not p.is_file() or sha(p) != record['sha256']:
+        expected_sha = corrections.get(path, record)['sha256']
+        if p.is_symlink() or not p.is_file() or sha(p) != expected_sha:
             errors.append('Protected bytes changed or missing: ' + path)
     # Independent Git blob comparison prevents an edited SHA baseline concealing edits.
     live = [p for p in rows if protected(p) and (root / p).is_file()]
     if live and original:
         blobs = git(root, 'hash-object', '--stdin-paths', input='\n'.join(live) + '\n').splitlines()
-        errors.extend('Original Git blob changed: ' + p for p, digest in zip(live, blobs) if original.get(p) != digest)
+        errors.extend('Original Git blob changed: ' + p for p, digest in zip(live, blobs)
+                      if corrections.get(p, {}).get('git_blob', original.get(p)) != digest)
     if baseline['tags'] != PRESERVED_TAGS:
         errors.append('Baseline tag identities changed')
     for tag, expected in PRESERVED_TAGS.items():
@@ -431,7 +523,8 @@ def preservation(root, require_tags=False, scope='migration'):
             unavailable.append(tag)
             if require_tags:
                 errors.append('Missing required release tag: ' + tag)
-    return {'scope': scope, 'protected_files_checked': checked, 'tags_unavailable': unavailable, 'errors': errors}
+    return {'scope': scope, 'protected_files_checked': checked, 'tags_unavailable': unavailable,
+            'exact_grayscale_successors_checked': len(corrections), 'errors': errors}
 
 
 def check_public_boundaries(root, paths, baseline_paths):

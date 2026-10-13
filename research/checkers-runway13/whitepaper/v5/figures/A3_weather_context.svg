@@ -41,38 +41,38 @@ z
    <g id="line2d_1">
     <path d="M 58.788 224.37917 
 L 462.636 224.37917 
-" clip-path="url(#pc809d27969)" style="fill: none; stroke: #d5dbd8; stroke-width: 0.55; stroke-linecap: square"/>
+" clip-path="url(#pc809d27969)" style="fill: none; stroke: #d8d8d8; stroke-width: 0.55; stroke-linecap: square"/>
    </g>
    <g id="line2d_2">
     <path d="M 58.788 183.318792 
 L 462.636 183.318792 
-" clip-path="url(#pc809d27969)" style="fill: none; stroke: #d5dbd8; stroke-width: 0.55; stroke-linecap: square"/>
+" clip-path="url(#pc809d27969)" style="fill: none; stroke: #d8d8d8; stroke-width: 0.55; stroke-linecap: square"/>
    </g>
    <g id="line2d_3">
     <path d="M 58.788 142.258415 
 L 462.636 142.258415 
-" clip-path="url(#pc809d27969)" style="fill: none; stroke: #d5dbd8; stroke-width: 0.55; stroke-linecap: square"/>
+" clip-path="url(#pc809d27969)" style="fill: none; stroke: #d8d8d8; stroke-width: 0.55; stroke-linecap: square"/>
    </g>
    <g id="line2d_4">
     <path d="M 58.788 101.198038 
 L 462.636 101.198038 
-" clip-path="url(#pc809d27969)" style="fill: none; stroke: #d5dbd8; stroke-width: 0.55; stroke-linecap: square"/>
+" clip-path="url(#pc809d27969)" style="fill: none; stroke: #d8d8d8; stroke-width: 0.55; stroke-linecap: square"/>
    </g>
    <g id="line2d_5">
     <path d="M 58.788 60.13766 
 L 462.636 60.13766 
-" clip-path="url(#pc809d27969)" style="fill: none; stroke: #d5dbd8; stroke-width: 0.55; stroke-linecap: square"/>
+" clip-path="url(#pc809d27969)" style="fill: none; stroke: #d8d8d8; stroke-width: 0.55; stroke-linecap: square"/>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_6">
       <defs>
-       <path id="m0758db635d" d="M 0 0 
+       <path id="m53f3a5d62a" d="M 0 0 
 L 0 3 
-" style="stroke: #63777d; stroke-width: 0.6"/>
+" style="stroke: #666666; stroke-width: 0.6"/>
       </defs>
       <g>
-       <use xlink:href="#m0758db635d" x="58.788" y="227.664" style="fill: #63777d; stroke: #63777d; stroke-width: 0.6"/>
+       <use xlink:href="#m53f3a5d62a" x="58.788" y="227.664" style="fill: #666666; stroke: #666666; stroke-width: 0.6"/>
       </g>
      </g>
      <g id="text_1">
@@ -82,7 +82,7 @@ L 0 3
     <g id="xtick_2">
      <g id="line2d_7">
       <g>
-       <use xlink:href="#m0758db635d" x="154.942286" y="227.664" style="fill: #63777d; stroke: #63777d; stroke-width: 0.6"/>
+       <use xlink:href="#m53f3a5d62a" x="154.942286" y="227.664" style="fill: #666666; stroke: #666666; stroke-width: 0.6"/>
       </g>
      </g>
      <g id="text_2">
@@ -92,7 +92,7 @@ L 0 3
     <g id="xtick_3">
      <g id="line2d_8">
       <g>
-       <use xlink:href="#m0758db635d" x="251.096571" y="227.664" style="fill: #63777d; stroke: #63777d; stroke-width: 0.6"/>
+       <use xlink:href="#m53f3a5d62a" x="251.096571" y="227.664" style="fill: #666666; stroke: #666666; stroke-width: 0.6"/>
       </g>
      </g>
      <g id="text_3">
@@ -102,7 +102,7 @@ L 0 3
     <g id="xtick_4">
      <g id="line2d_9">
       <g>
-       <use xlink:href="#m0758db635d" x="347.250857" y="227.664" style="fill: #63777d; stroke: #63777d; stroke-width: 0.6"/>
+       <use xlink:href="#m53f3a5d62a" x="347.250857" y="227.664" style="fill: #666666; stroke: #666666; stroke-width: 0.6"/>
       </g>
      </g>
      <g id="text_4">
@@ -112,7 +112,7 @@ L 0 3
     <g id="xtick_5">
      <g id="line2d_10">
       <g>
-       <use xlink:href="#m0758db635d" x="443.405143" y="227.664" style="fill: #63777d; stroke: #63777d; stroke-width: 0.6"/>
+       <use xlink:href="#m53f3a5d62a" x="443.405143" y="227.664" style="fill: #666666; stroke: #666666; stroke-width: 0.6"/>
       </g>
      </g>
      <g id="text_5">
@@ -120,7 +120,7 @@ L 0 3
      </g>
     </g>
     <g id="text_6">
-     <text style="font-size: 12px; font-family: 'Arial'; text-anchor: middle; fill: #263d45" x="260.712" y="262.162047" transform="rotate(-0 260.712 262.162047)">Station wind speed (m/s)</text>
+     <text style="font-size: 12px; font-family: 'Arial'; text-anchor: middle; fill: #141414" x="260.712" y="262.162047" transform="rotate(-0 260.712 262.162047)">Station wind speed (m/s)</text>
     </g>
    </g>
    <g id="matplotlib.axis_2">
@@ -245,21 +245,21 @@ L 424.174286 60.176953
 L 424.174286 60.157306 
 L 445.328229 60.157306 
 L 445.328229 60.13766 
-" clip-path="url(#pc809d27969)" style="fill: none; stroke: #263d45; stroke-width: 1.5; stroke-linecap: square"/>
+" clip-path="url(#pc809d27969)" style="fill: none; stroke: #141414; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_17">
     <path d="M 266.481257 227.664 
 L 266.481257 53.568 
-" clip-path="url(#pc809d27969)" style="fill: none; stroke-dasharray: 3,3; stroke-dashoffset: 0; stroke: #a65f3d"/>
+" clip-path="url(#pc809d27969)" style="fill: none; stroke-dasharray: 3,3; stroke-dashoffset: 0; stroke: #3c3c3c"/>
    </g>
    <g id="patch_3">
     <path d="M 58.788 227.664 
 L 462.636 227.664 
-" style="fill: none; stroke: #d5dbd8; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+" style="fill: none; stroke: #d8d8d8; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="PathCollection_1">
     <defs>
-     <path id="m24b22e592c" d="M 0 2.738613 
+     <path id="m8c0cfbfbf0" d="M 0 2.738613 
 C 0.726289 2.738613 1.422928 2.450055 1.936492 1.936492 
 C 2.450055 1.422928 2.738613 0.726289 2.738613 0 
 C 2.738613 -0.726289 2.450055 -1.422928 1.936492 -1.936492 
@@ -269,41 +269,41 @@ C -2.450055 -1.422928 -2.738613 -0.726289 -2.738613 0
 C -2.738613 0.726289 -2.450055 1.422928 -1.936492 1.936492 
 C -1.422928 2.450055 -0.726289 2.738613 0 2.738613 
 z
-" style="stroke: #a65f3d"/>
+" style="stroke: #3c3c3c"/>
     </defs>
     <g clip-path="url(#pc809d27969)">
-     <use xlink:href="#m24b22e592c" x="266.481257" y="61.277135" style="fill: #a65f3d; stroke: #a65f3d"/>
+     <use xlink:href="#m8c0cfbfbf0" x="266.481257" y="61.277135" style="fill: #3c3c3c; stroke: #3c3c3c"/>
     </g>
    </g>
    <g id="patch_4">
     <path d="M 298.8185 80.852918 
 Q 283.504494 71.587218 268.190489 62.321517 
-" style="fill: none; stroke: #a65f3d; stroke-width: 0.65; stroke-linecap: round"/>
+" style="fill: none; stroke: #3c3c3c; stroke-width: 0.65; stroke-linecap: round"/>
    </g>
    <g id="text_12">
-    <text style="font-size: 12.5px; font-family: 'Arial'; text-anchor: start; fill: #a65f3d" x="289.558286" y="92.985962" transform="rotate(-0 289.558286 92.985962)">10.8 m/s</text>
+    <text style="font-size: 12.5px; font-family: 'Arial'; text-anchor: start; fill: #3c3c3c" x="289.558286" y="92.985962" transform="rotate(-0 289.558286 92.985962)">10.8 m/s</text>
    </g>
    <g id="text_13">
-    <text style="font-size: 12.5px; font-family: 'Arial'; text-anchor: start; fill: #263d45" x="58.788" y="31.786581" transform="rotate(-0 58.788 31.786581)">Cumulative share of selected observations (%)</text>
+    <text style="font-size: 12.5px; font-family: 'Arial'; text-anchor: start; fill: #141414" x="58.788" y="31.786581" transform="rotate(-0 58.788 31.786581)">Cumulative share of selected observations (%)</text>
    </g>
   </g>
   <g id="text_14">
-   <text style="font-weight: 700; font-size: 17px; font-family: 'Arial'; text-anchor: start; fill: #263d45" x="61.344" y="304.668" transform="rotate(-0 61.344 304.668)">8,285</text>
+   <text style="font-weight: 700; font-size: 17px; font-family: 'Arial'; text-anchor: start; fill: #141414" x="61.344" y="304.668" transform="rotate(-0 61.344 304.668)">8,285</text>
   </g>
   <g id="text_15">
-   <text style="font-size: 12px; font-family: 'Arial'; text-anchor: start; fill: #263d45" x="61.344" y="323.082" transform="rotate(-0 61.344 323.082)">below 10.8 m/s</text>
+   <text style="font-size: 12px; font-family: 'Arial'; text-anchor: start; fill: #141414" x="61.344" y="323.082" transform="rotate(-0 61.344 323.082)">below 10.8 m/s</text>
   </g>
   <g id="text_16">
-   <text style="font-weight: 700; font-size: 17px; font-family: 'Arial'; text-anchor: start; fill: #63777d" x="224.928" y="304.668" transform="rotate(-0 224.928 304.668)">17</text>
+   <text style="font-weight: 700; font-size: 17px; font-family: 'Arial'; text-anchor: start; fill: #666666" x="224.928" y="304.668" transform="rotate(-0 224.928 304.668)">17</text>
   </g>
   <g id="text_17">
-   <text style="font-size: 12px; font-family: 'Arial'; text-anchor: start; fill: #63777d" x="224.928" y="323.082" transform="rotate(-0 224.928 323.082)">equal</text>
+   <text style="font-size: 12px; font-family: 'Arial'; text-anchor: start; fill: #666666" x="224.928" y="323.082" transform="rotate(-0 224.928 323.082)">equal</text>
   </g>
   <g id="text_18">
-   <text style="font-weight: 700; font-size: 17px; font-family: 'Arial'; text-anchor: start; fill: #a65f3d" x="347.616" y="304.668" transform="rotate(-0 347.616 304.668)">58</text>
+   <text style="font-weight: 700; font-size: 17px; font-family: 'Arial'; text-anchor: start; fill: #3c3c3c" x="347.616" y="304.668" transform="rotate(-0 347.616 304.668)">58</text>
   </g>
   <g id="text_19">
-   <text style="font-size: 12px; font-family: 'Arial'; text-anchor: start; fill: #a65f3d" x="347.616" y="323.082" transform="rotate(-0 347.616 323.082)">above</text>
+   <text style="font-size: 12px; font-family: 'Arial'; text-anchor: start; fill: #3c3c3c" x="347.616" y="323.082" transform="rotate(-0 347.616 323.082)">above</text>
   </g>
  </g>
  <defs>

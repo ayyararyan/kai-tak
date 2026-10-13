@@ -6,9 +6,10 @@
     7.1,
     3.7
   ],
+  "color_mode": "grayscale",
   "screen_dpi": 190,
   "presentation_dpi": 600,
-  "pdf_sha256": "84a82764c98ddfcf457b2cb9a2b0900e260b0fb2996502218d9794795b8cb675",
+  "pdf_sha256": "d947ccbfee1156828fa94b1b16fd0a23541bf021cbefe492d7838a54ba3614dc",
   "pedagogical_function": "f(t)=(t-0.5)^2-0.04, t in [0,1]",
   "not_landing_data": true,
   "exact_enclosures": [

@@ -28,9 +28,10 @@
       7.1,
       5.4
     ],
+    "color_mode": "grayscale",
     "screen_dpi": 190,
     "presentation_dpi": 600,
-    "pdf_sha256": "e710a1dde795b2ae16a2e0cd5d225666a1c2b1f301b0cd83538765c680cb91ee",
+    "pdf_sha256": "854b649262fcc888a72e68ecab032c97eb2eb4e7aa10965c5f2cf91faebc51a5",
     "image_operations": "Source crops only; no stitching, geometric registration, synthetic scenery or flight overlay.",
     "crop_pixels": {
       "A36143": [
@@ -80,9 +81,10 @@
       7.1,
       5.0
     ],
+    "color_mode": "grayscale",
     "screen_dpi": 190,
     "presentation_dpi": 600,
-    "pdf_sha256": "76d01ce1ed2119ab9dd7cc165323aa7568a6f4f4fd23f85032c89c38f14d6bd2",
+    "pdf_sha256": "af875368051e57a1805430697b1ac2afe1e80a9339f065b735b19c43d3e13aec",
     "geometry_status": "Diagrammatic geographic relations, not to scale. Map fragment, landmark, construction origin and runway symbol are not registered. Rays compare magnetic bearings; no historical route, beam position or turning point inferred.",
     "bearing_sources": "CAD Report 1/95 sections 1.8.1, 1.10 and Appendix 1; unchanged V4 factual bearing transcription",
     "bearing_values": {
@@ -105,9 +107,10 @@
       7.1,
       5.7
     ],
+    "color_mode": "grayscale",
     "screen_dpi": 190,
     "presentation_dpi": 600,
-    "pdf_sha256": "0a50fb46634e1b9bc77c4703679c35942e774b60cc3504ce47d5d9dca04a3e23",
+    "pdf_sha256": "53685870a822112f1568f5fb33947dfbdb5f659c5e7a1e91e7e605e3718a7e1d",
     "g_mps2": 9.80665,
     "speed_mps": 78,
     "bank_deg": 15,
@@ -129,9 +132,10 @@
       7.1,
       4.7
     ],
+    "color_mode": "grayscale",
     "screen_dpi": 190,
     "presentation_dpi": 600,
-    "pdf_sha256": "aeab08d8c61527b0887e35308eb959160d36e813bcc3a71991a3a5ea4860f74a",
+    "pdf_sha256": "b245dc2812609e75e9bef6cebc34da4b44eef0dde6420de3e067d375e7e39277",
     "coordinate_frame": "runway forward/right/up; metres; not geographically registered",
     "vertical_exaggeration": 1,
     "camera": {
@@ -163,9 +167,10 @@
       7.1,
       4.0
     ],
+    "color_mode": "grayscale",
     "screen_dpi": 190,
     "presentation_dpi": 600,
-    "pdf_sha256": "d28bbe089eed7b84b9048fe82fce228ef8874b751a40d7af5b617f941c172383",
+    "pdf_sha256": "885e8d88bddce155fa856fbf6713a97f24512f1478aa52f81611237c3840c5e4",
     "scale": {
       "same_horizontal_metres_for_both": true,
       "LDA_m": 2786.0,
@@ -220,9 +225,10 @@
       7.1,
       6.15
     ],
+    "color_mode": "grayscale",
     "screen_dpi": 190,
     "presentation_dpi": 600,
-    "pdf_sha256": "7eb4353f6b6ec5e18b6a6249bdcaff8f393370550ed8c4670b638c9be185d419",
+    "pdf_sha256": "336ca76ffbd6f006846a347c1bd2398a843c102bc564a2095b6b632cbb11472c",
     "main_extent_EPSG2326": [
       837500,
       821000,
@@ -304,9 +310,10 @@
       7.1,
       7.0
     ],
+    "color_mode": "grayscale",
     "screen_dpi": 190,
     "presentation_dpi": 600,
-    "pdf_sha256": "0d1ba5b9bd9e8b0514cd9672a623e853538c116677c36e5dbe0456a62b06fd6b",
+    "pdf_sha256": "100d737853f61c5048f595aedd289a980a8cc6719a8e1bea9c52b6e5ab07dda6",
     "mesh_vertices": 155891,
     "mesh_faces": 225371,
     "surface_operations": "Orthonormal true-scale projection; original triangle topology and pixel luminance; normal-based mild lighting only; no remeshing, gap filling, capping, extrusion or vertical exaggeration.",
@@ -355,9 +362,10 @@
       7.1,
       4.0
     ],
+    "color_mode": "grayscale",
     "screen_dpi": 190,
     "presentation_dpi": 600,
-    "pdf_sha256": "286d6273b67128651e567d269db2e6e6f32ccf9f205787b22a11f4358c852247",
+    "pdf_sha256": "cf67a95e62a9122c1d25dae01e698b583593d12437872949c9a7a08abb029a51",
     "runway_true_deg": 133.16666666666666,
     "wind_mps": [
       -4.876589552990943,
@@ -373,9 +381,10 @@
       7.1,
       3.7
     ],
+    "color_mode": "grayscale",
     "screen_dpi": 190,
     "presentation_dpi": 600,
-    "pdf_sha256": "84a82764c98ddfcf457b2cb9a2b0900e260b0fb2996502218d9794795b8cb675",
+    "pdf_sha256": "d947ccbfee1156828fa94b1b16fd0a23541bf021cbefe492d7838a54ba3614dc",
     "pedagogical_function": "f(t)=(t-0.5)^2-0.04, t in [0,1]",
     "not_landing_data": true,
     "exact_enclosures": [
@@ -452,9 +461,10 @@
       7.1,
       6.25
     ],
+    "color_mode": "grayscale",
     "screen_dpi": 190,
     "presentation_dpi": 600,
-    "pdf_sha256": "c50f7ba9ab0e4ee5d79a2d3ffe6fe13d687c5594536df4a3c1e83aec7de8424a",
+    "pdf_sha256": "60e5faf7f43599c6f950dac6fc44c24100f09bdc310fbc927eed723c80612991",
     "evidence_category": "manual digitization, not raw recorder data",
     "plotted_series": {
       "calibrated_airspeed_kt": {
@@ -1412,9 +1422,10 @@
       7.1,
       4.35
     ],
+    "color_mode": "grayscale",
     "screen_dpi": 190,
     "presentation_dpi": 600,
-    "pdf_sha256": "4078b76f5cf27d9b2277109c2bb7ad5af01342a5252f31b5062cb491a98d6b85",
+    "pdf_sha256": "c606e0a6cd4de4e9bc21ae7150a8867dc2152a33642da6484f8941696ac3e682",
     "evidence_category": "source-transcribed ground-sensor printout",
     "plotted_series": {
       "NW": {
@@ -1547,9 +1558,10 @@
       7.1,
       4.45
     ],
+    "color_mode": "grayscale",
     "screen_dpi": 190,
     "presentation_dpi": 600,
-    "pdf_sha256": "83c642f1e53159bfa1c4fa758d12590eaf5cb06be67707f2ec6c894c50bcf7e0",
+    "pdf_sha256": "e6c0b7a25be68dfc869c0f76fb74b2dae1f34c9d75f852c87030f0912372a57c",
     "evidence_category": "report-stated rounded landmarks and conditional derived quantities",
     "plotted_landmarks": [
       {
@@ -1617,9 +1629,10 @@
       7.1,
       6.4
     ],
+    "color_mode": "grayscale",
     "screen_dpi": 190,
     "presentation_dpi": 600,
-    "pdf_sha256": "82661cf0694e4129d144f35be16901abafa6e967ebd8a8b965e68c0dd579eee8",
+    "pdf_sha256": "0837fc34def99bb9df037b4d750af784349c9166b4e853522ffe6deebfb00c5a",
     "vertical_exaggeration": 1,
     "paths_evaluated": 2
   },
@@ -1640,9 +1653,10 @@
       7.1,
       7.7
     ],
+    "color_mode": "grayscale",
     "screen_dpi": 190,
     "presentation_dpi": 600,
-    "pdf_sha256": "8016670d3a0ce0789158ba0cf6e75bbbad268db82c815e0b0d630c0f0feb0c0f",
+    "pdf_sha256": "44f49cbd7719d183ff486ba4152b330fd25854c762a1f4a98e353a308cad4272",
     "bank_rate_frame": "moving flight-path bank-angle rate, not generally body-axis roll rate"
   },
   {
@@ -1658,9 +1672,10 @@
       7.1,
       4.65
     ],
+    "color_mode": "grayscale",
     "screen_dpi": 190,
     "presentation_dpi": 600,
-    "pdf_sha256": "6a3cdde669dfa0052e5376abfaa05417d8d567b1f849e742804cfcd71600e4b9",
+    "pdf_sha256": "89a1440f4d7cd7309792072fd4fdf52cc79e6e9670e509f3d2a21a0de2db37f5",
     "evidence_category": "selected observed archive distribution, not return period or landing risk",
     "source_records": 8549,
     "selected_records": 8360,

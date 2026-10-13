@@ -11,9 +11,10 @@
     7.1,
     4.0
   ],
+  "color_mode": "grayscale",
   "screen_dpi": 190,
   "presentation_dpi": 600,
-  "pdf_sha256": "286d6273b67128651e567d269db2e6e6f32ccf9f205787b22a11f4358c852247",
+  "pdf_sha256": "cf67a95e62a9122c1d25dae01e698b583593d12437872949c9a7a08abb029a51",
   "runway_true_deg": 133.16666666666666,
   "wind_mps": [
     -4.876589552990943,

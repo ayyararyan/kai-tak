@@ -36,7 +36,7 @@ L 99.477131 77.713994
 L 99.477131 60.783642 
 L 51.187709 60.783642 
 z
-" clip-path="url(#p9011dfc5eb)" style="fill: #a65f3d; opacity: 0.9; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+" clip-path="url(#p9011dfc5eb)" style="fill: #3c3c3c; opacity: 0.9; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
     <path d="M 99.477131 77.713994 
@@ -44,7 +44,7 @@ L 123.472429 77.713994
 L 123.472429 60.783642 
 L 99.477131 60.783642 
 z
-" clip-path="url(#p9011dfc5eb)" style="fill: #477d8f; opacity: 0.9; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+" clip-path="url(#p9011dfc5eb)" style="fill: #5a5a5a; opacity: 0.9; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
     <path d="M 123.472429 77.713994 
@@ -52,7 +52,7 @@ L 441.105038 77.713994
 L 441.105038 60.783642 
 L 123.472429 60.783642 
 z
-" clip-path="url(#p9011dfc5eb)" style="fill: #263d45; opacity: 0.9; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+" clip-path="url(#p9011dfc5eb)" style="fill: #141414; opacity: 0.9; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
     <path d="M 441.105038 77.713994 
@@ -60,7 +60,7 @@ L 480.33503 77.713994
 L 480.33503 60.783642 
 L 441.105038 60.783642 
 z
-" clip-path="url(#p9011dfc5eb)" style="fill: #72816a; opacity: 0.7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+" clip-path="url(#p9011dfc5eb)" style="fill: #737373; opacity: 0.7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
     <path d="M 51.187709 211.46377 
@@ -68,7 +68,7 @@ L 97.724477 211.46377
 L 97.724477 194.533419 
 L 51.187709 194.533419 
 z
-" clip-path="url(#p9011dfc5eb)" style="fill: #a65f3d; opacity: 0.9; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+" clip-path="url(#p9011dfc5eb)" style="fill: #3c3c3c; opacity: 0.9; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
    </g>
    <g id="patch_7">
     <path d="M 97.724477 211.46377 
@@ -76,7 +76,7 @@ L 120.056785 211.46377
 L 120.056785 194.533419 
 L 97.724477 194.533419 
 z
-" clip-path="url(#p9011dfc5eb)" style="fill: #477d8f; opacity: 0.9; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+" clip-path="url(#p9011dfc5eb)" style="fill: #5a5a5a; opacity: 0.9; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
    </g>
    <g id="patch_8">
     <path d="M 120.056785 211.46377 
@@ -84,7 +84,7 @@ L 395.188081 211.46377
 L 395.188081 194.533419 
 L 120.056785 194.533419 
 z
-" clip-path="url(#p9011dfc5eb)" style="fill: #263d45; opacity: 0.9; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+" clip-path="url(#p9011dfc5eb)" style="fill: #141414; opacity: 0.9; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
    </g>
    <g id="patch_9">
     <path d="M 395.188081 211.46377 
@@ -92,7 +92,7 @@ L 480.33503 211.46377
 L 480.33503 194.533419 
 L 395.188081 194.533419 
 z
-" clip-path="url(#p9011dfc5eb)" style="fill: #72816a; opacity: 0.7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
+" clip-path="url(#p9011dfc5eb)" style="fill: #737373; opacity: 0.7; stroke: #ffffff; stroke-width: 0.6; stroke-linejoin: miter"/>
    </g>
    <g id="line2d_1">
     <path d="M 51.187709 69.248818 
@@ -127,7 +127,7 @@ L 480.33503 58.244089
    <g id="line2d_7">
     <path d="M 457.229468 80.253546 
 L 457.229468 53.164984 
-" clip-path="url(#p9011dfc5eb)" style="fill: none; stroke-dasharray: 0.8,1.32; stroke-dashoffset: 0; stroke: #263d45; stroke-width: 0.8"/>
+" clip-path="url(#p9011dfc5eb)" style="fill: none; stroke-dasharray: 0.8,1.32; stroke-dashoffset: 0; stroke: #141414; stroke-width: 0.8"/>
    </g>
    <g id="line2d_8">
     <path d="M 51.187709 202.998594 
@@ -162,127 +162,127 @@ L 480.33503 191.993866
    <g id="line2d_14">
     <path d="M 457.229468 214.003323 
 L 457.229468 186.91476 
-" clip-path="url(#p9011dfc5eb)" style="fill: none; stroke-dasharray: 0.8,1.32; stroke-dashoffset: 0; stroke: #263d45; stroke-width: 0.8"/>
+" clip-path="url(#p9011dfc5eb)" style="fill: none; stroke-dasharray: 0.8,1.32; stroke-dashoffset: 0; stroke: #141414; stroke-width: 0.8"/>
    </g>
    <g id="line2d_15">
     <path d="M 51.187709 135.277188 
 L 61.970305 135.277188 
-" clip-path="url(#p9011dfc5eb)" style="fill: none; stroke: #a65f3d; stroke-width: 4; stroke-linecap: square"/>
+" clip-path="url(#p9011dfc5eb)" style="fill: none; stroke: #3c3c3c; stroke-width: 4; stroke-linecap: square"/>
    </g>
    <g id="line2d_16">
     <path d="M 179.03849 135.277188 
 L 189.821086 135.277188 
-" clip-path="url(#p9011dfc5eb)" style="fill: none; stroke: #477d8f; stroke-width: 4; stroke-linecap: square"/>
+" clip-path="url(#p9011dfc5eb)" style="fill: none; stroke: #5a5a5a; stroke-width: 4; stroke-linecap: square"/>
    </g>
    <g id="line2d_17">
     <path d="M 282.243338 135.277188 
 L 293.025934 135.277188 
-" clip-path="url(#p9011dfc5eb)" style="fill: none; stroke: #263d45; stroke-width: 4; stroke-linecap: square"/>
+" clip-path="url(#p9011dfc5eb)" style="fill: none; stroke: #141414; stroke-width: 4; stroke-linecap: square"/>
    </g>
    <g id="line2d_18">
     <path d="M 382.367444 135.277188 
 L 393.15004 135.277188 
-" clip-path="url(#p9011dfc5eb)" style="fill: none; stroke: #72816a; stroke-width: 4; stroke-linecap: square"/>
+" clip-path="url(#p9011dfc5eb)" style="fill: none; stroke: #737373; stroke-width: 4; stroke-linecap: square"/>
    </g>
    <g id="text_1">
-    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial'; text-anchor: start; fill: #263d45" x="51.187709" y="38.774185" transform="rotate(-0 51.187709 38.774185)">Calm air</text>
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial'; text-anchor: start; fill: #141414" x="51.187709" y="38.774185" transform="rotate(-0 51.187709 38.774185)">Calm air</text>
    </g>
    <g id="text_2">
-    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial'; text-anchor: end; fill: #72816a" x="480.33503" y="38.774185" transform="rotate(-0 480.33503 38.774185)">254.68 m left</text>
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial'; text-anchor: end; fill: #737373" x="480.33503" y="38.774185" transform="rotate(-0 480.33503 38.774185)">254.68 m left</text>
    </g>
    <g id="patch_10">
     <path d="M 97.012099 82.829351 
 Q 97.660855 81.928652 98.309611 81.027953 
-" style="fill: none; stroke: #263d45; stroke-width: 0.6; stroke-linecap: round"/>
+" style="fill: none; stroke: #141414; stroke-width: 0.6; stroke-linecap: round"/>
    </g>
    <g id="text_3">
-    <text style="font-size: 10.7px; font-family: 'Arial'; fill: #263d45" transform="translate(57.779295 96.669666)">Touchdown</text>
-    <text style="font-size: 10.7px; font-family: 'Arial'; fill: #263d45" transform="translate(62.539123 108.315321)">313.49 m</text>
+    <text style="font-size: 10.7px; font-family: 'Arial'; fill: #141414" transform="translate(57.779295 96.669666)">Touchdown</text>
+    <text style="font-size: 10.7px; font-family: 'Arial'; fill: #141414" transform="translate(62.539123 108.315321)">313.49 m</text>
    </g>
    <g id="patch_11">
     <path d="M 130.43795 83.905542 
 Q 127.793569 82.197732 125.149188 80.489923 
-" style="fill: none; stroke: #263d45; stroke-width: 0.6; stroke-linecap: round"/>
+" style="fill: none; stroke: #141414; stroke-width: 0.6; stroke-linecap: round"/>
    </g>
    <g id="text_4">
-    <text style="font-size: 10.7px; font-family: 'Arial'; fill: #263d45" transform="translate(119.541068 96.669562)">Braking begins</text>
-    <text style="font-size: 10.7px; font-family: 'Arial'; fill: #263d45" transform="translate(132.625997 108.315425)">469.27 m</text>
+    <text style="font-size: 10.7px; font-family: 'Arial'; fill: #141414" transform="translate(119.541068 96.669562)">Braking begins</text>
+    <text style="font-size: 10.7px; font-family: 'Arial'; fill: #141414" transform="translate(132.625997 108.315425)">469.27 m</text>
    </g>
    <g id="patch_12">
     <path d="M 433.003568 89.289708 
 Q 436.481702 84.320008 439.959835 79.350307 
-" style="fill: none; stroke: #263d45; stroke-width: 0.6; stroke-linecap: round"/>
+" style="fill: none; stroke: #141414; stroke-width: 0.6; stroke-linecap: round"/>
    </g>
    <g id="text_5">
-    <text style="font-size: 11px; font-family: 'Arial'; text-anchor: middle; fill: #263d45" x="425.701329" y="102.57013" transform="rotate(-0 425.701329 102.57013)">Stop 2,531.32 m</text>
+    <text style="font-size: 11px; font-family: 'Arial'; text-anchor: middle; fill: #141414" x="425.701329" y="102.57013" transform="rotate(-0 425.701329 102.57013)">Stop 2,531.32 m</text>
    </g>
    <g id="text_6">
-    <text style="font-size: 11.2px; font-family: 'Arial'; text-anchor: middle; fill: #263d45" x="282.288733" y="60.119427" transform="rotate(-0 282.288733 60.119427)">2,062.05 m braking</text>
+    <text style="font-size: 11.2px; font-family: 'Arial'; text-anchor: middle; fill: #141414" x="282.288733" y="60.119427" transform="rotate(-0 282.288733 60.119427)">2,062.05 m braking</text>
    </g>
    <g id="text_7">
-    <text style="font-size: 9.5px; font-family: 'Arial'; text-anchor: start; fill: #a65f3d" x="61.970305" y="59.630892" transform="rotate(-0 61.970305 59.630892)">313.49 m</text>
+    <text style="font-size: 9.5px; font-family: 'Arial'; text-anchor: start; fill: #3c3c3c" x="61.970305" y="59.630892" transform="rotate(-0 61.970305 59.630892)">313.49 m</text>
    </g>
    <g id="text_8">
-    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial'; text-anchor: start; fill: #263d45" x="51.187709" y="172.523962" transform="rotate(-0 51.187709 172.523962)">Steady wind</text>
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial'; text-anchor: start; fill: #141414" x="51.187709" y="172.523962" transform="rotate(-0 51.187709 172.523962)">Steady wind</text>
    </g>
    <g id="text_9">
-    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial'; text-anchor: end; fill: #72816a" x="480.33503" y="172.523962" transform="rotate(-0 480.33503 172.523962)">552.77 m left</text>
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Arial'; text-anchor: end; fill: #737373" x="480.33503" y="172.523962" transform="rotate(-0 480.33503 172.523962)">552.77 m left</text>
    </g>
    <g id="patch_13">
     <path d="M 95.259445 216.579127 
 Q 95.908201 215.678428 96.556957 214.777729 
-" style="fill: none; stroke: #263d45; stroke-width: 0.6; stroke-linecap: round"/>
+" style="fill: none; stroke: #141414; stroke-width: 0.6; stroke-linecap: round"/>
    </g>
    <g id="text_10">
-    <text style="font-size: 10.7px; font-family: 'Arial'; fill: #263d45" transform="translate(56.026641 230.419443)">Touchdown</text>
-    <text style="font-size: 10.7px; font-family: 'Arial'; fill: #263d45" transform="translate(61.18354 242.065097)">302.11 m</text>
+    <text style="font-size: 10.7px; font-family: 'Arial'; fill: #141414" transform="translate(56.026641 230.419443)">Touchdown</text>
+    <text style="font-size: 10.7px; font-family: 'Arial'; fill: #141414" transform="translate(61.18354 242.065097)">302.11 m</text>
    </g>
    <g id="patch_14">
     <path d="M 127.517935 217.733469 
 Q 124.638033 215.966939 121.758131 214.20041 
-" style="fill: none; stroke: #263d45; stroke-width: 0.6; stroke-linecap: round"/>
+" style="fill: none; stroke: #141414; stroke-width: 0.6; stroke-linecap: round"/>
    </g>
    <g id="text_11">
-    <text style="font-size: 10.7px; font-family: 'Arial'; fill: #263d45" transform="translate(117.788414 230.419338)">Braking begins</text>
-    <text style="font-size: 10.7px; font-family: 'Arial'; fill: #263d45" transform="translate(130.873343 242.065201)">447.09 m</text>
+    <text style="font-size: 10.7px; font-family: 'Arial'; fill: #141414" transform="translate(117.788414 230.419338)">Braking begins</text>
+    <text style="font-size: 10.7px; font-family: 'Arial'; fill: #141414" transform="translate(130.873343 242.065201)">447.09 m</text>
    </g>
    <g id="patch_15">
     <path d="M 387.086611 223.039485 
 Q 390.564745 218.069784 394.042878 213.100083 
-" style="fill: none; stroke: #263d45; stroke-width: 0.6; stroke-linecap: round"/>
+" style="fill: none; stroke: #141414; stroke-width: 0.6; stroke-linecap: round"/>
    </g>
    <g id="text_12">
-    <text style="font-size: 11px; font-family: 'Arial'; text-anchor: middle; fill: #263d45" x="379.784372" y="236.319907" transform="rotate(-0 379.784372 236.319907)">Stop 2,233.23 m</text>
+    <text style="font-size: 11px; font-family: 'Arial'; text-anchor: middle; fill: #141414" x="379.784372" y="236.319907" transform="rotate(-0 379.784372 236.319907)">Stop 2,233.23 m</text>
    </g>
    <g id="text_13">
-    <text style="font-size: 11.2px; font-family: 'Arial'; text-anchor: middle; fill: #263d45" x="257.622433" y="193.869204" transform="rotate(-0 257.622433 193.869204)">1,786.14 m braking</text>
+    <text style="font-size: 11.2px; font-family: 'Arial'; text-anchor: middle; fill: #141414" x="257.622433" y="193.869204" transform="rotate(-0 257.622433 193.869204)">1,786.14 m braking</text>
    </g>
    <g id="text_14">
-    <text style="font-size: 9.5px; font-family: 'Arial'; text-anchor: start; fill: #a65f3d" x="61.970305" y="193.380669" transform="rotate(-0 61.970305 193.380669)">302.11 m</text>
+    <text style="font-size: 9.5px; font-family: 'Arial'; text-anchor: start; fill: #3c3c3c" x="61.970305" y="193.380669" transform="rotate(-0 61.970305 193.380669)">302.11 m</text>
    </g>
    <g id="text_15">
-    <text style="font-size: 10.5px; font-family: 'Arial'; text-anchor: start; fill: #63777d" x="51.187709" y="20.150799" transform="rotate(-0 51.187709 20.150799)">THRESHOLD</text>
+    <text style="font-size: 10.5px; font-family: 'Arial'; text-anchor: start; fill: #666666" x="51.187709" y="20.150799" transform="rotate(-0 51.187709 20.150799)">THRESHOLD</text>
    </g>
    <g id="text_16">
-    <text style="font-size: 10.5px; font-family: 'Arial'; text-anchor: end; fill: #63777d" x="480.33503" y="20.150799" transform="rotate(-0 480.33503 20.150799)">END OF LDA</text>
+    <text style="font-size: 10.5px; font-family: 'Arial'; text-anchor: end; fill: #666666" x="480.33503" y="20.150799" transform="rotate(-0 480.33503 20.150799)">END OF LDA</text>
    </g>
    <g id="text_17">
-    <text style="font-size: 10.5px; font-family: 'Arial'; text-anchor: start; fill: #263d45" x="65.821232" y="137.994474" transform="rotate(-0 65.821232 137.994474)">Before touchdown</text>
+    <text style="font-size: 10.5px; font-family: 'Arial'; text-anchor: start; fill: #141414" x="65.821232" y="137.994474" transform="rotate(-0 65.821232 137.994474)">Before touchdown</text>
    </g>
    <g id="text_18">
-    <text style="font-size: 10.5px; font-family: 'Arial'; text-anchor: start; fill: #263d45" x="193.672013" y="137.994371" transform="rotate(-0 193.672013 137.994371)">2 s delay</text>
+    <text style="font-size: 10.5px; font-family: 'Arial'; text-anchor: start; fill: #141414" x="193.672013" y="137.994371" transform="rotate(-0 193.672013 137.994371)">2 s delay</text>
    </g>
    <g id="text_19">
-    <text style="font-size: 10.5px; font-family: 'Arial'; text-anchor: start; fill: #263d45" x="296.876861" y="137.994371" transform="rotate(-0 296.876861 137.994371)">Braking</text>
+    <text style="font-size: 10.5px; font-family: 'Arial'; text-anchor: start; fill: #141414" x="296.876861" y="137.994371" transform="rotate(-0 296.876861 137.994371)">Braking</text>
    </g>
    <g id="text_20">
-    <text style="font-size: 10.5px; font-family: 'Arial'; text-anchor: start; fill: #263d45" x="397.000967" y="137.994371" transform="rotate(-0 397.000967 137.994371)">Remaining</text>
+    <text style="font-size: 10.5px; font-family: 'Arial'; text-anchor: start; fill: #141414" x="397.000967" y="137.994371" transform="rotate(-0 397.000967 137.994371)">Remaining</text>
    </g>
    <g id="text_21">
-    <text style="font-size: 10.5px; font-family: 'Arial'; text-anchor: start; fill: #63777d" x="51.187709" y="150.514505" transform="rotate(-0 51.187709 150.514505)">Delay travel: 155.78 m calm; 144.98 m wind</text>
+    <text style="font-size: 10.5px; font-family: 'Arial'; text-anchor: start; fill: #666666" x="51.187709" y="150.514505" transform="rotate(-0 51.187709 150.514505)">Delay travel: 155.78 m calm; 144.98 m wind</text>
    </g>
    <g id="text_22">
-    <text style="font-size: 10.2px; font-family: 'Arial'; text-anchor: end; fill: #63777d" x="499.435629" y="263.101342" transform="rotate(-0 499.435629 263.101342)">Dotted mark: 150 m reserve</text>
+    <text style="font-size: 10.2px; font-family: 'Arial'; text-anchor: end; fill: #666666" x="499.435629" y="263.101342" transform="rotate(-0 499.435629 263.101342)">Dotted mark: 150 m reserve</text>
    </g>
   </g>
  </g>

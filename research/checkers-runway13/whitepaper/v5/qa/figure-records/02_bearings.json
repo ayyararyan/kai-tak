@@ -23,9 +23,10 @@
     7.1,
     5.0
   ],
+  "color_mode": "grayscale",
   "screen_dpi": 190,
   "presentation_dpi": 600,
-  "pdf_sha256": "76d01ce1ed2119ab9dd7cc165323aa7568a6f4f4fd23f85032c89c38f14d6bd2",
+  "pdf_sha256": "af875368051e57a1805430697b1ac2afe1e80a9339f065b735b19c43d3e13aec",
   "geometry_status": "Diagrammatic geographic relations, not to scale. Map fragment, landmark, construction origin and runway symbol are not registered. Rays compare magnetic bearings; no historical route, beam position or turning point inferred.",
   "bearing_sources": "CAD Report 1/95 sections 1.8.1, 1.10 and Appendix 1; unchanged V4 factual bearing transcription",
   "bearing_values": {

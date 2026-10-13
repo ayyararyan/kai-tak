@@ -11,9 +11,10 @@
     7.1,
     4.45
   ],
+  "color_mode": "grayscale",
   "screen_dpi": 190,
   "presentation_dpi": 600,
-  "pdf_sha256": "83c642f1e53159bfa1c4fa758d12590eaf5cb06be67707f2ec6c894c50bcf7e0",
+  "pdf_sha256": "e6c0b7a25be68dfc869c0f76fb74b2dae1f34c9d75f852c87030f0912372a57c",
   "evidence_category": "report-stated rounded landmarks and conditional derived quantities",
   "plotted_landmarks": [
     {

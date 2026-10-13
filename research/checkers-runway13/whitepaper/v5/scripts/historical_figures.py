@@ -15,7 +15,8 @@ H='inputs/historical/'
 
 def photo(fig, rect, name, crop):
     ax=fig.add_axes(rect)
-    a=np.asarray(Image.open(P/name))
+    # Convert only the displayed copy; the hash-bound archival input is intact.
+    a=np.asarray(Image.open(P/name).convert('L'))
     x0,y0,x1,y1=crop
     ax.imshow(a[y0:y1,x0:x1],cmap='gray',extent=(x0,x1,y1,y0),interpolation='lanczos')
     ax.set_xlim(x0,x1);ax.set_ylim(y1,y0);bare(ax)
@@ -61,8 +62,8 @@ def bearings():
     ax.text(.15,6.76,'Geographic relations schematic · not a navigational chart',fontsize=11,color=SLATE)
     # The map remains a bounded source fragment. Positions outside its border
     # encode approximate relative place only; there is no aerial registration.
-    im=np.asarray(Image.open(P/'inputs/11-NE-11A_1989-10_core.png'))
-    ax.imshow(im,extent=(2.8,7.5,1.65,5.41),alpha=.57,zorder=0)
+    im=np.asarray(Image.open(P/'inputs/11-NE-11A_1989-10_core.png').convert('L'))
+    ax.imshow(im,cmap='gray',extent=(2.8,7.5,1.65,5.41),alpha=.57,zorder=0)
     ax.add_patch(Rectangle((2.8,1.65),4.7,3.76,fill=False,ec=LIGHT,lw=.65))
     ax.text(5.15,1.35,'Kowloon City',fontsize=12,ha='center')
     ax.text(5.15,1.00,'1989 survey-map fragment',fontsize=10.5,ha='center',color=SLATE)
@@ -143,7 +144,7 @@ def stereo():
     gray=v[:,3:6].mean(axis=1)[faces].mean(axis=1)/255
     # Original gray imagery, lifted for print; no geometric smoothing.
     val=np.clip(.07+.60*gray,0,1)*illum
-    rgba=np.column_stack([val*.95,val*.985,val,np.ones(len(val))])
+    rgba=np.column_stack([val,val,val,np.ones(len(val))])
     ax=fig.add_axes([.03,.227,.70,.388]);bare(ax)
     ax.add_collection(PolyCollection(uv[faces][order],facecolors=rgba[order],edgecolors='none',rasterized=True))
     rrs=rows(H+'sparse_stereo_points.csv'); market=next(r for r in rrs if r['track_id']=='26'); mxyz=np.array([[float(market['easting_hk1980_m'])-837500,float(market['northing_hk1980_m'])-821000,float(market['z_above_fitted_local_park_road_plane_m'])]]); muv,_=project(mxyz); ax.scatter(muv[:,0],muv[:,1],s=25,fc='white',ec=COPPER,lw=1,zorder=5); label(ax,'Market roof',muv[0],(muv[0,0]+200,muv[0,1]+100),color=COPPER,size=11)

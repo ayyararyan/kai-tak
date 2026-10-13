@@ -1,5 +1,5 @@
 {
-  "verified_utc": "2026-10-13T18:10:12.882254+00:00",
+  "verified_utc": "2026-10-13T19:37:18.385287+00:00",
   "checks_passed": 74,
   "checks": [
     "fifteen_figure_masters",
@@ -98,7 +98,7 @@
   "mutated_evidence_or_figure_outputs": false,
   "source_sha256": {
     "scripts/mechanics_figures.py": "50ce5ddfe9cf977d050b4099e95d9e550b5b419e9fc96ddeda72ca896a4ce2de",
-    "scripts/historical_figures.py": "5b94ddcb9220ce2071f67a13dc721a76c90dfe18889488b402b7319a00f5de29",
+    "scripts/historical_figures.py": "3ef63ea02ce2b1074ae0ba1429eeaae553d6493ea598ddd9fc851d1cc2f60e49",
     "scripts/evidence_figures.py": "cb8cae75f74ab6d3608dcad22fcdfbf277abf7621210f288bcebf553c29b3022"
   }
 }

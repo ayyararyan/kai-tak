@@ -1,6 +1,8 @@
 # Checkers with Runway 13 — Version 5
 
-Aryan Ayyar · local editorial and visual edition. This directory is the self-contained production source; V4 remains unchanged in its sibling directory. No external publication is part of this task. The personal foreword is explicitly a draft for the author's approval.
+Aryan Ayyar · V5 editorial and visual edition, with the authorized grayscale figure refresh of 14 October 2026. This directory is the self-contained production source; V4 remains unchanged in its sibling directory. The personal foreword remains explicitly marked for the author's approval.
+
+The manuscript wording, mathematics, typography and 38-page layout are unchanged. All 15 figures and their 60 exports are grayscale. See [GRAYSCALE_REVISION.md](GRAYSCALE_REVISION.md) for the dated verification and the distinction between current and historical receipts.
 
 ## Build
 
@@ -10,6 +12,7 @@ Requires Python 3.14, the pinned packages below, XeLaTeX/BibTeX (TeX Live 2026 t
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 .venv/bin/python build.py --figures
+.venv/bin/python scripts/verify_v5_grayscale.py
 ```
 
 Set `XELATEX` and optionally `BIBTEX` to executable paths if needed. The builder creates output/QA directories, verifies the original 104 frozen source hashes and 11 supplemental visual inputs, runs independent science/figure checks, regenerates all V5 figures from the master scripts, compiles the paper, checks fonts/references/layout and renders every page. `abstract.md` is the editable source for the generated `abstract.tex`.
