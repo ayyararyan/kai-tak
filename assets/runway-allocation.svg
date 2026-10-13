@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="810" viewBox="0 0 1200 810" role="img" aria-labelledby="chart-title chart-desc">
+<title id="chart-title">Where the runway goes — constructed landing scenarios</title>
+<desc id="chart-desc">Two proportional distance allocations on a common 2786 metre runway scale. Calm air: touchdown at 313.49 metres, 155.78 metres of delay travel, 2062.05 metres of braking and 254.68 metres remaining. Steady wind: touchdown at 302.11 metres, 144.98 metres of delay travel, 1786.14 metres of braking and 552.77 metres remaining. The dotted line is a 150 metre stopping reserve marker.</desc>
+<style>
+ .eyebrow{font:700 12px Arial,Helvetica,sans-serif;letter-spacing:2px;fill:#70818A}
+ .title{font:normal 43px Georgia,"Times New Roman",serif;fill:#1C303C}
+ .subtitle{font:normal 16px Arial,Helvetica,sans-serif;fill:#62717A}
+ .legend{font:normal 15px Arial,Helvetica,sans-serif;fill:#2D414D}
+ .index{font:700 15px Arial,Helvetica,sans-serif;letter-spacing:1px;fill:#B66549}
+ .scenario{font:normal 32px Georgia,"Times New Roman",serif;fill:#1C303C}
+ .scenario-detail{font:normal 13px Arial,Helvetica,sans-serif;letter-spacing:.55px;fill:#75858A}
+ .reserve-caption{font:700 12px Arial,Helvetica,sans-serif;letter-spacing:1.4px;fill:#738575}
+ .reserve{font:normal 35px Georgia,"Times New Roman",serif;fill:#698367}
+ .point-label{font:700 11px Arial,Helvetica,sans-serif;letter-spacing:1px;fill:#71818A}
+ .point-value{font:normal 17px Arial,Helvetica,sans-serif;fill:#2B4251}
+ .tick{font:normal 14px Arial,Helvetica,sans-serif;fill:#667681}
+ .note{font:normal 13px Arial,Helvetica,sans-serif;fill:#65747D}
+</style>
+<rect x="0" y="0" width="1200" height="810" fill="#FBFAF7"/>
+<text x="84" y="48" class="eyebrow">CHECKERS WITH RUNWAY 13 / FLIGHT DYNAMICS</text>
+<text x="1116" y="48" text-anchor="end" class="eyebrow">LANDING DISTANCE AVAILABLE · 2,786 M</text>
+<path d="M84 68H1116" stroke="#DCE1DE" stroke-width="1.1"/>
+<text x="84" y="126" class="title">Where the runway goes</text>
+<text x="84" y="163" class="subtitle">The landing continues after touchdown. Two constructed paths, shown at exactly the same distance scale.</text>
+<g>
+<rect x="84" y="196" width="20" height="12" fill="#B66549"/><text x="113" y="207" class="legend">Before touchdown</text>
+<rect x="321" y="196" width="20" height="12" fill="#70A0AA"/><text x="350" y="207" class="legend">2-second delay</text>
+<rect x="535" y="196" width="20" height="12" fill="#2F4753"/><text x="564" y="207" class="legend">Braking</text>
+<rect x="694" y="196" width="20" height="12" fill="#81987E"/><text x="723" y="207" class="legend">Remaining</text>
+<path d="M919 191V214" stroke="#61796B" stroke-width="1.5" stroke-dasharray="3 4"/><text x="935" y="207" class="legend">150 m reserve</text>
+</g>
+<path d="M84 230H1116" stroke="#E5E9E6" stroke-width="1"/>
+<g>
+ <text x="84" y="262" class="index">01 /</text>
+ <text x="133" y="262" class="scenario">Calm air</text>
+ <text x="381" y="262" class="scenario-detail">NO WIND</text>
+ <text x="1116" y="244" text-anchor="end" class="reserve-caption">RUNWAY REMAINING</text>
+ <text x="1116" y="284" text-anchor="end" class="reserve">254.68 m</text>
+ <path d="M84 373H1116" stroke="#B9C6C8" stroke-width="0.65"/>
+ <rect x="84.00" y="333" width="116.1240775305097" height="39" fill="#B66549"/>
+<rect x="200.12" y="333" width="57.7045800430725" height="39" fill="#70A0AA"/>
+<rect x="257.83" y="333" width="763.8318736539842" height="39" fill="#2F4753"/>
+<rect x="1021.66" y="333" width="94.33946877243353" height="39" fill="#81987E"/>
+ <path d="M90 352.5H1110" stroke="#FBFAF7" stroke-width="1.5" stroke-dasharray="9 10" opacity=".72"/>
+ <path d="M1060.44 316v69" stroke="#61796B" stroke-width="1.6" stroke-dasharray="3 5"/>
+ <path d="M200.12 372v15" stroke="#7C8991" stroke-width="1.2"/><circle cx="200.12" cy="372" r="3" stroke="#657884" stroke-width="1.2" fill="#FBFAF7"/><text class="point-label" x="189.12" y="413" text-anchor="end">TOUCHDOWN</text><text class="point-value" x="189.12" y="438" text-anchor="end">313.49 m</text>
+<path d="M257.83 372v15" stroke="#7C8991" stroke-width="1.2"/><circle cx="257.83" cy="372" r="3" stroke="#657884" stroke-width="1.2" fill="#FBFAF7"/><text class="point-label" x="274.83" y="413" text-anchor="start">BRAKING BEGINS</text><text class="point-value" x="274.83" y="438" text-anchor="start">469.27 m</text>
+<path d="M1021.66 372v15" stroke="#7C8991" stroke-width="1.2"/><circle cx="1021.66" cy="372" r="3" stroke="#657884" stroke-width="1.2" fill="#FBFAF7"/><text class="point-label" x="1008.66" y="413" text-anchor="end">FULL STOP</text><text class="point-value" x="1008.66" y="438" text-anchor="end">2,531.32 m</text>
+ </g>
+<g>
+ <text x="84" y="490" class="index">02 /</text>
+ <text x="133" y="490" class="scenario">Steady wind</text>
+ <text x="381" y="490" class="scenario-detail">070° TRUE / 21 KT</text>
+ <text x="1116" y="472" text-anchor="end" class="reserve-caption">RUNWAY REMAINING</text>
+ <text x="1116" y="512" text-anchor="end" class="reserve">552.77 m</text>
+ <path d="M84 601H1116" stroke="#B9C6C8" stroke-width="0.65"/>
+ <rect x="84.00" y="561" width="111.9086575735822" height="39" fill="#B66549"/>
+<rect x="195.91" y="561" width="53.70400574300072" height="39" fill="#70A0AA"/>
+<rect x="249.61" y="561" width="661.628312993539" height="39" fill="#2F4753"/>
+<rect x="911.24" y="561" width="204.75902368987795" height="39" fill="#81987E"/>
+ <path d="M90 580.5H1110" stroke="#FBFAF7" stroke-width="1.5" stroke-dasharray="9 10" opacity=".72"/>
+ <path d="M1060.44 544v69" stroke="#61796B" stroke-width="1.6" stroke-dasharray="3 5"/>
+ <path d="M195.91 600v15" stroke="#7C8991" stroke-width="1.2"/><circle cx="195.91" cy="600" r="3" stroke="#657884" stroke-width="1.2" fill="#FBFAF7"/><text class="point-label" x="184.91" y="641" text-anchor="end">TOUCHDOWN</text><text class="point-value" x="184.91" y="666" text-anchor="end">302.11 m</text>
+<path d="M249.61 600v15" stroke="#7C8991" stroke-width="1.2"/><circle cx="249.61" cy="600" r="3" stroke="#657884" stroke-width="1.2" fill="#FBFAF7"/><text class="point-label" x="266.61" y="641" text-anchor="start">BRAKING BEGINS</text><text class="point-value" x="266.61" y="666" text-anchor="start">447.09 m</text>
+<path d="M911.24 600v15" stroke="#7C8991" stroke-width="1.2"/><circle cx="911.24" cy="600" r="3" stroke="#657884" stroke-width="1.2" fill="#FBFAF7"/><text class="point-label" x="898.24" y="641" text-anchor="end">FULL STOP</text><text class="point-value" x="898.24" y="666" text-anchor="end">2,233.23 m</text>
+ </g>
+<path d="M84 696H1116" stroke="#DBE1DF" stroke-width="1"/>
+<text x="84" y="722" class="eyebrow">DISTANCE FROM THRESHOLD (M)</text>
+<path d="M84 746H1116" stroke="#9EAEB3" stroke-width="1.1"/>
+<path d="M84.00 738v16" stroke="#829399" stroke-width="1.1"/><text x="84.00" y="777" text-anchor="start" class="tick">0</text>
+<path d="M269.21 738v16" stroke="#829399" stroke-width="1.1"/><text x="269.21" y="777" text-anchor="middle" class="tick">500</text>
+<path d="M454.42 738v16" stroke="#829399" stroke-width="1.1"/><text x="454.42" y="777" text-anchor="middle" class="tick">1,000</text>
+<path d="M639.64 738v16" stroke="#829399" stroke-width="1.1"/><text x="639.64" y="777" text-anchor="middle" class="tick">1,500</text>
+<path d="M824.85 738v16" stroke="#829399" stroke-width="1.1"/><text x="824.85" y="777" text-anchor="middle" class="tick">2,000</text>
+<path d="M1010.06 738v16" stroke="#829399" stroke-width="1.1"/><text x="1010.06" y="777" text-anchor="middle" class="tick">2,500</text>
+<path d="M1116.00 738v16" stroke="#829399" stroke-width="1.1"/><text x="1116.00" y="777" text-anchor="end" class="tick">2,786</text>
+<text x="84" y="802" class="note">Assumed 2 s delay and 0.15g deceleration. Independently optimized paths; this comparison does not isolate a causal wind effect.</text>
+</svg>
