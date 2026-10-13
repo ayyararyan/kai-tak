@@ -1,0 +1,17 @@
+{
+  "pages": 33,
+  "foreword_words_approx": 471,
+  "figures": 16,
+  "insights": 7,
+  "links": 64,
+  "pdf_sha256": "7a07607fd9665458bc425670b4f88ef6d33ecd59d8e90bf329c4ea526a33ba16",
+  "text_extractors": [
+    "PyMuPDF",
+    "Poppler"
+  ],
+  "embedded_unicode_fonts": true,
+  "no_overfull_missing_glyph_or_unresolved_reference": true,
+  "page_text_bounds_passed": true,
+  "visual_inspection": "separate explicit receipt required"
+}
+Immutable input hashes checked: 104

@@ -1,0 +1,40 @@
+\documentclass[12pt,nosurname]{RFS}
+\usepackage{rfs-workingpaper}
+\usepackage{graphicx,booktabs,longtable,xcolor,xurl}
+\definecolor{ink}{HTML}{304750}\definecolor{sage}{HTML}{687C69}\definecolor{copper}{HTML}{AF6843}\definecolor{paper}{HTML}{F4F2EC}
+\makeatletter
+\patchcmd{\@begintheorem}{\item[}{\item[\MakeLinkTarget{\@currentcounter}}{}{}
+\patchcmd{\NRorg@opargbegintheorem}{\item[}{\item[\MakeLinkTarget{\@currentcounter}}{}{}
+\makeatother
+\newcommand{\parthead}[2]{\section{#2}}
+\newcommand{\fig}[4]{\begin{figure}[htbp]\centering\includegraphics[width=#2\textwidth]{figures/#1.pdf}\caption{#3}\label{#4}\end{figure}}
+\newcommand{\insight}[2]{\par\smallskip\noindent\textbf{#1}\quad #2\par\smallskip}
+\newcommand{\R}{\mathbb R}
+\setlist{nosep,leftmargin=1.4em}
+\hypersetup{pdftitle={Checkers with Runway 13},pdfauthor={Aryan Ayyar},pdfsubject={Research white paper, Version 4; RFS author-format edition}}
+\begin{document}
+\title{Checkers with Runway 13}
+\author{Aryan Ayyar}
+\shorttitle{Checkers with Runway 13}
+\abstract{Kai Tak's Runway 13 approach joined an instrument-guided descent to a visual turn over Kowloon. This white paper investigates how turn geometry, aircraft dynamics, wind and runway stopping distance interact, while separating mathematical feasibility from historical validation. Dated survey sheets, aerial photogrammetry and the official CAL605 accident record support an evidence-linked reconstruction whose obstacle and datum gaps remain explicit. A frozen reduced point-mass model supplies complete calm-air and steady-wind approach–flare–stop references. Their separate continuous-time interval certificates establish normalized margins of at least 0.0397 and 0.1507934696816132; corresponding necessary finite-dimensional-family upper bounds remain unmatched. The scenarios leave 254.68 m and 552.77 m of runway under identical illustrative braking, but their difference is not an identified causal wind effect. Published recorder and weather evidence illustrates why constant-wind and constant-braking assumptions cannot reconstruct the accident's operational sequence. Sixteen reproducible scientific figures connect the intuitive mechanics to source-bound calculations and technical derivations. The result is a public-facing research resource, not a historical-clearance finding, near-optimality proof, accident-prevention claim or aviation-safety certificate.}
+\maketitle
+{\footnotesize\noindent Version 4 · 13 October 2026\par}
+\medskip
+{\small\noindent Independent research white paper. Not peer reviewed or operational flight guidance. The author's foreword is marked for review.\par}
+\medskip
+\noindent\textit{How could a 747 turn over Kowloon, find the runway, and still have room to stop?}\par
+A historical investigation and an explicit mathematical landing, with the boundary between the two kept visible.
+\clearpage
+\enlargethispage{40pt}\input{sections/foreword.tex}\clearpage
+{\setlength{\intextsep}{10pt}\input{sections/summary.tex}}\clearpage
+\input{sections/part1.tex}\FloatBarrier
+\input{sections/part2.tex}\FloatBarrier
+\input{sections/part3.tex}\FloatBarrier
+\input{sections/part4.tex}\FloatBarrier
+\input{sections/part5.tex}\FloatBarrier
+\input{sections/part6.tex}\FloatBarrier
+\input{sections/part7.tex}\FloatBarrier
+\input{sections/part8.tex}\FloatBarrier
+\input{appendices.tex}
+\clearpage\setlength{\bibsep}{3pt}\bibliographystyle{rfs}\bibliography{references}
+\end{document}

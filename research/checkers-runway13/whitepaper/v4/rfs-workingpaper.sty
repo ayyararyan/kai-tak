@@ -1,0 +1,114 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{rfs-workingpaper}[2026/09/09 RFS 12pt author adaptation]
+% Restore the kernel constant changed by the legacy class (needed by geometry).
+\mathchardef\@m=1000
+% RFS.cls is the unmodified OUP download. All adaptations are here.
+% Published RFS articles use Times. The supplied class leaves fonts unspecified.
+\RequirePackage[no-math]{fontspec}
+\renewcommand{\rmdefault}{ptm}
+\RequirePackage{newtxmath}
+% OpenType rendering avoids the macOS AAT backend's point-size conversion.
+\setmainfont[Renderer=OpenType]{Times}
+\setsansfont{Arial}
+\setmonofont{Courier New}
+\RequirePackage{mathtools,microtype,tabularx,array,float,placeins,enumitem,setspace,etoolbox,needspace}
+% Scale the journal trim and text measure by 12/10, retaining its proportions.
+\RequirePackage[paperwidth=182.52mm,paperheight=274.92mm,
+ inner=78pt,textwidth=373.2pt,top=57.072pt,textheight=632.52pt,
+ headheight=9pt,headsep=26.4pt,footskip=48pt]{geometry}
+\crop[off,width=182.52mm,height=274.92mm]
+\renewcommand\normalsize{%
+ \@setfontsize\normalsize{12}{14.4}%
+ \abovedisplayskip 9.6pt plus3pt minus4pt
+ \abovedisplayshortskip 0pt plus3pt
+ \belowdisplayshortskip 7.8pt plus3pt minus3pt
+ \belowdisplayskip\abovedisplayskip
+ \let\@listi\@listI}
+% The class preloads optical-size symbol families; allow their scalable outlines.
+\input{ulasy.fd}
+\input{ursfs.fd}
+\DeclareFontShape{U}{lasy}{m}{n}{<-6>lasy5 <6-7>lasy6 <7-8>lasy7 <8-9>lasy8 <9-10>lasy9 <10->lasy10}{}
+\DeclareFontShape{U}{rsfs}{m}{n}{<-6>rsfs5 <6-8>rsfs7 <8->rsfs10}{}
+\renewenvironment{proof}[1][Proof]{\par\medbreak\noindent\textbf{#1.}\hskip1em\ignorespaces}{\null\hfill\endmark\medbreak}
+\renewcommand\small{\@setfontsize\small{10}{12}}
+\renewcommand\footnotesize{\@setfontsize\footnotesize{9.6}{11.5}}
+\renewcommand\scriptsize{\@setfontsize\scriptsize{8.4}{10}}
+\renewcommand\headersize{\fontsize{9.6}{11.5}\selectfont}
+\renewcommand\footersize{\fontsize{12}{14.4}\selectfont}
+\renewcommand\titlesize{\fontsize{19.2}{24}\selectfont\bfseries\raggedright}
+\renewcommand\authsize{\normalsize\bfseries}
+\renewcommand\affilsize{\normalsize\raggedright}
+\renewcommand\abssize{\normalsize}
+\renewcommand\captionsize{\footnotesize}
+\renewcommand\captionsizebf{\footnotesize\bfseries}
+\renewcommand\tablecaptionfont{\footnotesize\bfseries\raggedright}
+\renewcommand\bibfont{\footnotesize}
+\renewcommand\bibsection{\section*{References}}
+\setlength{\bibhang}{0pt}
+\setlength{\bibsep}{7pt}
+\setcitestyle{authoryear,round,aysep={},yysep={,},citesep={;}}
+\setlength{\parindent}{12pt}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{1.5em}
+\setlength{\textfloatsep}{15.6pt plus4pt minus3pt}
+\setlength{\floatsep}{20pt plus4pt minus3pt}
+\setlength{\intextsep}{20pt plus4pt minus3pt}
+\BeforeBeginEnvironment{proposition}{\Needspace{7\baselineskip}}
+\BeforeBeginEnvironment{lemma}{\Needspace{5\baselineskip}}
+\BeforeBeginEnvironment{theorem}{\Needspace{5\baselineskip}}
+\widowpenalty=10000
+\clubpenalty=10000
+\raggedbottom
+% Preserve the class's label-on-own-line caption design at readable size.
+\long\def\@figurecaption#1#2{%
+ \vskip\abovecaptionskip
+ {\footnotesize\noindent\textbf{#1}\par\noindent#2\par}%
+ \vskip\belowcaptionskip}
+\long\def\@tablecaption#1#2{%
+ \vskip\abovetabcaptionskip
+ {\footnotesize\noindent\textbf{#1}\par\noindent#2\par}%
+ \vskip\belowtabcaptionskip}
+\long\def\abstract#1{\gdef\@abstract{#1}}
+% Widen the title-page abstract to the scaled RFS measure.
+\patchcmd{\@maketitle}{\hskip12pt}{\hskip14.4pt}{}{}
+\patchcmd{\@maketitle}{288pt}{344.4pt}{}{}
+\patchcmd{\@maketitle}{\enlargethispage{-26.3pt}}{}{}{}
+\patchcmd{\@maketitle}{\vskip 26pt plus 3pt minus 2pt}{\vskip 24pt plus 3pt minus 2pt}{}{}
+\let\@history\undefined
+\gdef\@JEL{}
+% Author version: no publisher branding, invented DOI, issue or acceptance dates.
+\gdef\copyrightline{}
+\def\ps@title{%
+ \let\@oddhead\@empty\let\@evenhead\@empty
+ \def\@oddfoot{\hfill\footersize\thepage}%
+ \let\@evenfoot\@oddfoot}
+\renewcommand\shorttitle[1]{\markboth{\emph{Aryan Ayyar}}{\emph{#1}}}
+% Keep continuous equation numbering and 12pt proofs; letter the appendices.
+\renewcommand\appendix{\par\appendtrue
+ \renewcommand\section{\@startsection{section}{1}{\z@}%
+  {-16pt plus -6pt minus -2pt}{6pt}%
+  {\normalfont\normalsize\bfseries\raggedright}}%
+ \setcounter{section}{0}\setcounter{subsection}{0}%
+ \renewcommand\thesection{\Alph{section}}%
+ \def\@seccntformat##1##2{\ifnum##2=1 Appendix~\fi\csname the##1\endcsname.\quad}%
+ \renewcommand\thesubsection{\Alph{section}.\arabic{subsection}}%
+ \renewcommand\thesubsubsection{\thesubsection.\arabic{subsubsection}}%
+ \setcounter{table}{0}\renewcommand\thetable{A\arabic{table}}%
+ \setcounter{figure}{0}\renewcommand\thefigure{A\arabic{figure}}%
+ \normalsize}
+% Load current hyperref after the legacy class; its webpdf options are obsolete.
+\let\href\undefined
+\RequirePackage[hidelinks]{hyperref}
+\hypersetup{hidelinks,bookmarksnumbered,pdfencoding=auto,
+ pdftitle={Checkers with Runway 13},pdfauthor={Aryan Ayyar},
+ pdfsubject={Kai Tak research white paper, Version 4},
+ pdfkeywords={Kai Tak, aircraft dynamics, historical reconstruction, mathematical feasibility}}
+\AtBeginDocument{\normalsize}
+% V4 adaptation: natbib's numeric-year parser misreads n.d.a/n.d.b as "n".
+% Preserve correct disambiguating letters for undated institutional sources.
+\let\RFSoriginalparsedate\NAT@parse@date
+\def\NAT@parse@date#1#2#3#4#5#6@@{%
+ \def\RFStestdate{#1#2#3#4}\def\RFSnodate{n.d.}%
+ \ifx\RFStestdate\RFSnodate
+  \def\NAT@year{n.d.}\def\NAT@exlab{{#5}}%
+ \else\RFSoriginalparsedate#1#2#3#4#5#6@@\fi}

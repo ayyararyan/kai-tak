@@ -1,0 +1,179 @@
+{
+  "verified_utc": "2026-10-13T16:55:50.881873+00:00",
+  "source_only_staging": true,
+  "separate_python_environment": true,
+  "python": "3.14.6",
+  "tectonic": "Tectonic 0.17.0",
+  "poppler": "26.07.0",
+  "pdf_bytes_identical": false,
+  "original_sha256": "c517517899088cb72a82be5f76e73767846aab3925fd0d418a6f13cf14959ea3",
+  "clean_sha256": "7a07607fd9665458bc425670b4f88ef6d33ecd59d8e90bf329c4ea526a33ba16",
+  "page_results": [
+    {
+      "page": 1,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 2,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 3,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 4,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 5,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 6,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 7,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 8,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 9,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 10,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 11,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 12,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 13,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 14,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 15,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 16,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 17,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 18,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 19,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 20,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 21,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 22,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 23,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 24,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 25,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 26,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 27,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 28,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 29,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 30,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 31,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 32,
+      "text_identical": true,
+      "render_identical": true
+    },
+    {
+      "page": 33,
+      "text_identical": true,
+      "render_identical": true
+    }
+  ],
+  "limitations": "Same machine and installed TeX/Poppler; not cross-platform or network-free first-install verification"
+}

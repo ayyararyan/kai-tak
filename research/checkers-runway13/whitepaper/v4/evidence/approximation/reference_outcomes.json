@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "scene_id": "synthetic-v1-empty-obstacles-fixed-certified-witness",
+  "source_sha256": {
+    "model/config.json": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693",
+    "model/trajectory.py": "9b557ce07c7e8f177b0b3cfac1765c1c9aec4997e28b52d3185ad533f7cf3f6a",
+    "analytical/verify_full_landing_analysis.py": "fbe4067189ab78a6f1f6d4c4e8a4ac7d639dbe10c43c550d1bb37ba794202f90",
+    "analytical/coupled/certify_candidate.py": "028eb9c2b39041793ff8d8973abd9e92682325e628ea9da375dc1361b963777f",
+    "analytical/coupled/continuous_certificate_refined.json": "774f34ad182a5015eeed799c910cde01eb6b297c1b4e6c4a119582b0d83db973"
+  },
+  "category": "scenario-based deterministic evaluation",
+  "nominal": {
+    "approach_s": 37.337760643281456,
+    "flare_s": 4.000000000000006,
+    "touchdown_time_s": 41.33776064328146,
+    "touchdown_x_m": 313.4921811580115,
+    "touchdown_speed_mps": 77.88805495981877,
+    "brake_delay_s": 2,
+    "braking_s": 52.949141626562096,
+    "ground_roll_s": 54.949141626562096,
+    "delay_distance_m": 155.77610991963755,
+    "braking_distance_m": 2062.052826542448,
+    "ground_roll_m": 2217.828936462086,
+    "total_runway_consumed_m": 2531.321117620097,
+    "runway_remaining_m": 254.67888237990246,
+    "entry_to_stop_s": 96.28690226984355,
+    "threshold_to_stop_s": 58.9491416265621
+  },
+  "required_reserve_m": 150,
+  "excess_over_required_reserve_m": 104.67888237990246,
+  "distance_semantics": "ground_roll includes delay; total_runway_consumed is threshold-to-stop x, including airborne flare over runway; not total 3D path length",
+  "time_origin": "synthetic entry state; approach_s ends at threshold; flare_s ends at touchdown",
+  "nominal_all_time_margin_source": {
+    "lower": "0.0397",
+    "domain": "nominal real-decimal continuous polynomial-family model, exact analytic rates; fixed stored reference cloud",
+    "note": "existing source certificate; not newly proved by floating exporter"
+  },
+  "uncertainty": {
+    "prediction_intervals": null,
+    "coverage_probability": null,
+    "measurement_uncertainty": null,
+    "model_discrepancy": null,
+    "tracking_error": null,
+    "reason": "no supplied distributions, calibrated model/tracking errors or held-out coverage evidence"
+  },
+  "approximation_error": {
+    "conditional_rule": null,
+    "note": "no fitted conditional rule; floating numerical consistency is not physical error"
+  },
+  "optimality": {
+    "globally_near_optimal": false,
+    "gap_status": "unresolved",
+    "accepted_tolerance": null
+  },
+  "historical_feasibility": "blocked: dated registered geometry, swept aircraft/tracking and calibration unresolved",
+  "final_solution_status": "incomplete"
+}

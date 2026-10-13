@@ -6,7 +6,7 @@
 
 *Cover artwork is an illustration, not a historical photograph or a reconstructed flight path.*
 
-[**Read the white paper (v3, PDF)**](research/checkers-runway13/whitepaper/v3/checkers-with-runway-13-white-paper-v3.pdf) · [**Explore the research**](#explore-the-project) · [**Browse the data**](#historical-data-and-archive) · [**Reproduce the results**](#reproduce-the-research)
+[**Read the white paper (v4, PDF)**](research/checkers-runway13/whitepaper/v4/checkers-with-runway-13-white-paper-v4.pdf) · [**Explore the research**](#explore-the-project) · [**Browse the data**](#historical-data-and-archive) · [**Reproduce the results**](#reproduce-the-research)
 
 ---
 
@@ -24,19 +24,21 @@ It also asks where the available evidence **stops**: a mathematically feasible p
 
 ## Start with the paper
 
-### [Checkers with Runway 13 — Version 3](research/checkers-runway13/whitepaper/v3/checkers-with-runway-13-white-paper-v3.pdf)
+### [Checkers with Runway 13 — Version 4 · RFS author format](research/checkers-runway13/whitepaper/v4/checkers-with-runway-13-white-paper-v4.pdf)
 
-**33 pages · 16 reproducible scientific figures · 7 worked insights · 6 mathematical appendices**
+**35 pages · 16 reproducible scientific figures · 7 worked insights · 6 mathematical appendices**
 
 The latest completed white paper is written for curious readers as well as technically trained researchers. It moves from the history and geography of Kai Tak to the mechanics of turning, descending, touchdown, braking, and the limits of what archival evidence can establish.
 
-[Read the PDF](research/checkers-runway13/whitepaper/v3/checkers-with-runway-13-white-paper-v3.pdf) · [Read the abstract](research/checkers-runway13/whitepaper/v3/abstract.md) · [Download editable sources](research/checkers-runway13/whitepaper/v3/checkers-with-runway-13-white-paper-v3-sources.zip) · [Inspect claims and evidence](research/checkers-runway13/whitepaper/v3/CLAIMS_AND_EVIDENCE.csv) · [Verification report](research/checkers-runway13/whitepaper/v3/VERIFICATION.md)
+[Read the PDF](research/checkers-runway13/whitepaper/v4/checkers-with-runway-13-white-paper-v4.pdf) · [Read the abstract](research/checkers-runway13/whitepaper/v4/abstract.md) · [Download editable sources](research/checkers-runway13/whitepaper/v4/checkers-with-runway-13-white-paper-v4-sources.zip) · [Inspect claims and evidence](research/checkers-runway13/whitepaper/v4/CLAIMS_AND_EVIDENCE.csv) · [Verification report](research/checkers-runway13/whitepaper/v4/VERIFICATION.md)
 
-![Source-linked 1993 aerial view of Kai Tak and its urban setting from the version 3 white paper](research/checkers-runway13/whitepaper/v3/figures/01_historical_airport.png)
+![Source-linked 1993 aerial view of Kai Tak and its urban setting from the white paper](research/checkers-runway13/whitepaper/v4/figures/01_historical_airport.png)
 
-*Historical source illustration from the white paper, based on a Lands Department open-data aerial frame. The catalogue and handwritten frame dates disagree; the discrepancy is documented rather than silently resolved. See the [figure rights and provenance](research/checkers-runway13/whitepaper/v3/RIGHTS_AND_PROVENANCE.md).*
+*Historical source illustration from the white paper, based on a Lands Department open-data aerial frame. The catalogue and handwritten frame dates disagree; the discrepancy is documented rather than silently resolved. See the [figure rights and provenance](research/checkers-runway13/whitepaper/v4/RIGHTS_AND_PROVENANCE.md).*
 
-The earlier [30-page Version 2](research/checkers-runway13/whitepaper/v2/checkers-with-runway-13-white-paper-v2.pdf) and its [technical sources](research/checkers-runway13/whitepaper/v2/README.md) remain available. Version 3 preserves the earlier scientific results rather than retroactively changing them. Its [publication record](research/checkers-runway13/whitepaper/v3/PUBLICATION.md) explains the release status; the first-person foreword remains marked for author review.
+Version 4 uses the RFS author format already used by Aryan’s website papers: Times 12-point text, journal-style proportions and author–year references. It preserves Version 3’s complete scientific content and figures; this is a format edition, not an RFS publication or a new scientific result. All 35 pages were visually inspected, and the editable package was rebuilt from a clean folder. The first-person foreword remains marked for author review.
+
+The illustrated [33-page Version 3](research/checkers-runway13/whitepaper/v3/checkers-with-runway-13-white-paper-v3.pdf), its [sources and verification](research/checkers-runway13/whitepaper/v3/README.md), and the earlier [30-page Version 2](research/checkers-runway13/whitepaper/v2/checkers-with-runway-13-white-paper-v2.pdf) remain unchanged and available.
 
 ## Explore the project
 

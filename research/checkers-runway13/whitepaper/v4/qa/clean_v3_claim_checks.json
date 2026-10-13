@@ -1,0 +1,9 @@
+{
+  "calm_regularity_and_upper_bound_fresh_match": true,
+  "turn_benchmark": true,
+  "quadratic_speed_sensitivity": true,
+  "straight_descent_mps": -4.218147412812473,
+  "control_hull_share": 0.022065648222197577,
+  "obstacle_status_verified": true,
+  "weather_pairs": 225
+}

@@ -417,3 +417,19 @@ All1517 pre-task tracked files compared: only this authorized ledger append diff
 ## Version 3 GitHub push — explicitly authorized, 13 October 2026
 
 Aryan requests: "Pls push to GitHub this version". Publish the accepted 33-page V3 PDF and exact199-member source package to ayyararyan/kai-tak main, with editable files and root README entry links; preserve V2 and unrelated work. This supersedes the prior no-push restriction for this accepted version. Source selection/attribution unchanged, no manuscript rebuild or scientific change; no outreach or automatic future sync. Publication result will be appended after remote verification.
+
+
+## Version 3 GitHub push — verified
+
+2026-10-13T17:00:27.554991+00:00: published accepted V3 to public `ayyararyan/kai-tak` main at `c7d350c13e753f287f0f3b21b4806eaf7a5674ab`. Fresh independent GitHub fetch matches all 1872 tracked paths, modes and blob hashes. Remote PDF SHA256 `c517517899088cb72a82be5f76e73767846aab3925fd0d418a6f13cf14959ea3` and 199-member source ZIP SHA256 `b175febc3c5ff5515183604cb57994a4369eafd2b65a436029b97ab7490a8715` match the accepted local artifacts exactly. V2 blobs unchanged from0798c76. Merged newer remote research and the latest illustration without altering the V3 manuscript. Root README links V3 and retains V2. No release asset changes or outreach required/performed. Receipt: `scratch/kaitak-v3-publication/remote_verification.json`. This post-push ledger receipt is local, not part of that commit.
+
+
+## Version 4 — RFS author-format edition, 13 October 2026
+
+Latest authorized request: “Looks good - can we now make v4 in the rfs format in my website and then update in github”. Scope: format-only successor to accepted V3, using the actual website RFS author style, then GitHub update. No website deployment or scientific scope change. Specification: `whitepaper/v4/SPEC.md`.
+
+Local artifact complete:35 pages, full eight-part narrative,16 scientific figures, seven insights, six appendices,14 references and the original review-marked foreword. Times12pt/newtx,14.4pt baseline,182.52×274.92mm page; unmodified official RFS class/BST, local author wrapper. Twelve content TeX files match accepted V3 after explicit layout normalization, including paragraphs/emphasis;104 frozen inputs,51-claim ledger and all figures unchanged. Existing abstract included verbatim. Six undated references receive n.d. labels; CAD record explicitly typed as an accident report. No model, bound, data or historical conclusion changes.
+
+All35 pages rendered and visually inspected; no overflow/missing glyph/unresolved reference warnings;93 resolved links. Fresh source-ZIP extraction, fresh Python environment and full figure/manuscript rebuild passed. All16 figures regenerate byte-identically; all35 page texts/pixels and Poppler extraction match. Fresh scalar calculations and calm regularity/upper bound agree. The89-test suite and fixed-witness proofs were NOT rerun in V4; V3 receipts are inherited explicitly. Embedded fonts verified; two legacy math symbol fonts lack ToUnicode maps, documented without claiming lossless equation copy/paste.
+
+PDF SHA256 `4bc4f1e1240b2e9677fd2518a67078c6c82385e5822510b069ff5172226920da`. V2/V3 preserved. Current remote README redesign throughd2c73bd was fetched and retained; only latest-paper navigation updated. Unrelated local visual-atlas work excluded. Publication push/readback remains a distinct final gate; its result is recorded after it occurs.

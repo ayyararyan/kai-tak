@@ -1,0 +1,86 @@
+{
+  "verified_utc": "2026-10-13T13:36:13.937889+00:00",
+  "status": "selected reconstruction benchmark verified; wider historical optimal landing and physical CI remain incomplete",
+  "suites": [
+    {
+      "suite": ".",
+      "test_count": 10,
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "suite": "flight",
+      "test_count": 10,
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "suite": "noaa",
+      "test_count": 12,
+      "exit_code": 0,
+      "passed": true
+    },
+    {
+      "suite": "wind",
+      "test_count": 11,
+      "exit_code": 0,
+      "passed": true
+    }
+  ],
+  "tests_run": 43,
+  "tests_passed": 43,
+  "regeneration": [
+    {
+      "script": "reconstruct.py",
+      "exit_code": 0
+    },
+    {
+      "script": "flight/build_flight.py",
+      "exit_code": 0
+    },
+    {
+      "script": "flight/build_approach.py",
+      "exit_code": 0
+    },
+    {
+      "script": "noaa/decode_noaa.py",
+      "exit_code": 0
+    },
+    {
+      "script": "wind/reconstruct_wind.py",
+      "exit_code": 0
+    }
+  ],
+  "numerical_files_reproduced": 19,
+  "counts": {
+    "rollout_pixel_anchors": 35,
+    "final_phase_pixel_anchors": 123,
+    "approach_pixel_anchors": 67,
+    "wind_direction_speed_pairs": 225,
+    "year_weather_records": 8549,
+    "event_day_weather_records": 24,
+    "source_stated_events": 18,
+    "explicit_rollout_segments": 34
+  },
+  "checks": {
+    "counts_match_extraction": true,
+    "frozen_model_unchanged": true,
+    "all_pngs_decode": true,
+    "no_physical_ci_or_clock_alignment": true,
+    "explicit_segments_continuous": true,
+    "report_deliverable_links_exist": true,
+    "three_review_reports_present": true,
+    "numeric_regeneration_byte_identical": true
+  },
+  "artifact_files_hashed": 98,
+  "png_files_decoded": 32,
+  "independent_review": "three review lanes completed; defects repaired; acceptance no blocking findings; clock wording corrected",
+  "source_visual_review": "parent Figure5 overlay and Appendix13 table; independent acceptance auditor Figures1/2/4/5 overlays and consequential wind source values",
+  "limits": [
+    "Selected chart readings, not recovered raw DFDR or full three-minute trace",
+    "Unknown physical sensor/model errors; digitization sensitivities not physical95%intervals",
+    "No precise flight/wind clock join",
+    "No terrain clearance or optimum certification",
+    "Not operational guidance"
+  ]
+}

@@ -1,0 +1,49 @@
+\parthead{VII}{What we have proved, and what remains unknown}\label{part:7}
+The word ``feasible'' is incomplete without its model. The present results concern a finite-dimensional family of smooth point-mass trajectories, a synthetic corridor, stated aircraft limits and a fixed stopping law. Within those assumptions, a complete landing is constructed and checked continuously in time. That is a substantive result. It is also a narrower result than historical flyability.
+
+\begin{table}[H]\small
+\caption{Five different scientific claims and their present status. A successful check in one row cannot substitute for evidence in another.}
+\begin{tabularx}{\textwidth}{@{}p{.30\textwidth}X@{}}\toprule
+Claim & What is established / what remains\\\midrule
+1. A feasible model trajectory exists & Constructed calm and wind witnesses, each with its own continuous-time certificate. Scope excludes historical obstacle clearance.\\
+2. The trajectory is optimal or near-optimal & Necessary upper bounds and achieved lower bounds exist. They do not identify either global optimizer or establish useful near-optimality.\\
+3. A historical aircraft could fly it with clearance & Not established. Actual entry state, calibrated aircraft dynamics, complete dated obstacles, common datum and swept-volume checks remain missing.\\
+4. It is robust to wind and tracking uncertainty & Not established. Separate known-wind paths do not constitute one causal feedback policy. Physical tracking bounds are unavailable.\\
+5. It improves a historical procedure fairly & Not established. A valid historical baseline, equivalent conditions and information, and a supported advantage are required.\\\bottomrule
+\end{tabularx}\end{table}
+
+Within the calm finite-dimensional family, a regularity argument and compactness establish that a best primary member exists. A corresponding secondary minimum also exists on the retained-primary set. Existence is not identification: the proof does not tell us which parameters attain either optimum. Appendix~\ref{app:bounds} gives the argument and the surviving upper bound.
+
+Earlier global-exclusion runs contained checker defects, and claimed upper bounds of 0.10, 0.05, 0.04 and 0.03972 were withdrawn. They are not evidence for near-optimality. The repaired search's unresolved boxes cannot be counted as excluded just because its computational budget ended. Version 3 retains the corrected brackets, not the attractive but invalid earlier limits.
+
+\insight{Insight 7: a mathematical feasibility certificate is not a safety certificate}{The checker can rigorously enclose what the equations demand. It cannot certify that unmeasured buildings are absent, that a real aircraft obeys the assumed force limits, or that a crew can follow a time-indexed reference under unknown gusts. Those are additional empirical and operational propositions.}
+\clearpage
+\subsection*{Uncertainty has several different meanings}
+A raster-reading range concerns where a plotted line could be read. A map-control residual concerns a fitted coordinate transformation. A numerical replay residual concerns two computations using the same model. An optimality gap concerns the best objective attainable within a feasible set. None is automatically a physical prediction interval for a future landing.
+
+For the scalar stopping law, a supported joint box for touchdown distance, speed, delay, deceleration and runway length would already yield useful deterministic bounds. If $a_->0$ and speed/delay are nonnegative,
+\begin{align}
+S_-&=x_-+u_-d_-+\frac{u_-^2}{2a_+}, &
+S_+&=x_++u_+d_++\frac{u_+^2}{2a_-},\\
+R&\in[L_- - S_+,\ L_+ - S_-].
+\label{eq:box}
+\end{align}
+These are exact extrema over the specified Cartesian box. They need no probability distribution, and do not assume statistical independence. They may be conservative if their extreme combinations cannot arise together or violate airborne constraints. The paper does not attach invented physical bounds to the inputs in order to produce an impressive uncertainty band.
+
+A prediction interval for an individual landing needs a justified conditional outcome distribution and validation in its intended domain. A confidence interval for a mean or parameter answers a different question. Even valid marginal endpoint intervals would not establish joint coverage of the entire flight path or obstacle clearance.
+
+\subsection*{The order of information and action matters}
+A planned curve conditioned on a fully specified wind is not a controller that succeeds before the wind is known. Formally, the desired robust-policy statement is
+\[
+\exists\,\pi\quad\forall\,w\in\mathcal W:\quad
+\text{the causal policy satisfies the required constraints},
+\]
+not merely
+\[
+\forall\,w\in\mathcal W\quad\exists\,\pi_w:\quad
+\text{some separately chosen solution works for that wind}.
+\]
+The first demands one policy using available information. The second permits a different solution for each known scenario. Two successful optimizations cannot swap these quantifiers.
+
+The next empirical obligations are specific: reconcile runway and obstacle coordinates; establish dated roof and terrain coverage; calibrate aircraft and braking behaviour; bound tracking and observation error; and validate against routine flights, not only an accident. Go-around viability must also be included before claiming operational decision support. Better mathematics can sharpen a bound, but cannot manufacture these missing observations.
+\clearpage

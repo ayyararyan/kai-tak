@@ -1,0 +1,14 @@
+# Format authority, attribution and boundaries
+
+V4 follows the RFS **author adaptation already used on Aryan's website**, not the rules for submitting this aviation paper to a finance journal.
+
+- Live reference, fetched 13 October 2026: [Queue Priority as Adverse-Selection Exposure](https://www.aryanayyar.com/queue-priority-adverse-selection-exposure.pdf?v=rfs-20260909). 36 pages; inspected with `pdffonts`, PyMuPDF and rendered first pages. Observed Times Roman/Bold/Italic, NewTX mathematics and a 517.38 × 779.30 PDF-point page (182.52 × 274.92 mm).
+- Editable format authority: the approved 9 September 2026 website RFS-author sources. `RFS.cls`, `rfs.bst`, `crop.sty` and `crop.cfg` are unchanged copies. `rfs-workingpaper.sty` retains the same body/title/abstract/caption sizes, margins and running-head conventions, with this paper's metadata and narrow citation/appendix-label repairs.
+- Publisher format source: [OUP RFS author instructions](https://academic.oup.com/rfs/pages/Instructions_To_Authors), which offers the LaTeX author files; [SFS announcement](https://sfs.org/latex-style-files-now-available-2/). Class/BST author and copyright notices are retained. No claim of a new license over third-party template files is made. `rfs.bst` retains its LPPL notice; crop files retain their original notices.
+- The website reference paper's body and figures are **not** reproduced. Only the template/style is reused.
+- Exact body font: the licensed macOS `Times.ttc` collection, OpenType rendering, regular/bold/italic faces selected by fontspec; Arial for the foreword label and Courier New for filenames. The PDF embeds subsets. Installable proprietary fonts are not redistributed. Mathematical fonts are newtx; original scientific figure fonts remain DejaVu Sans, with figure files unmodified.
+- Two legacy NewTX math symbol fonts (`txsys`, `txexs`) lack explicit ToUnicode maps in the delivered PDF. They are embedded and visually checked. This is a documented text-extraction limitation, not a missing visible glyph. Prose fonts are embedded and Unicode-mapped. The website reference also uses legacy math-font mappings.
+- The existing public abstract is retained in full instead of shortened to a finance journal's submission abstract limit. Institutional affiliation, journal issue, DOI, acceptance dates and publisher copyright branding are not invented. This is a style adaptation, not a claim of venue compliance.
+- Scientific imagery/data provenance remains exactly that documented in `RIGHTS_AND_PROVENANCE.md`; no new photograph, map, AI artwork or scientific data is added. No website deployment is part of this task.
+
+Hashes binding the reference PDF, unchanged template files and licensed local font identity are recorded in `qa/format_authority.json`. Font bytes and the unrelated reference paper are excluded from the source ZIP.

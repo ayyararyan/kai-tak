@@ -1,0 +1,50 @@
+{
+  "verified_utc": "2026-10-13T14:19:36.830988+00:00",
+  "implementation_status": "verified_data_evidence_update",
+  "historical_obstacle_model_status": "INCOMPLETE",
+  "tests_passed": 27,
+  "tests_failed": 0,
+  "test_command": "geospatial/.venv/bin/python -m unittest discover -s reconstruction/obstacles -p test_obstacles.py -v",
+  "original_source_to_registered_image_crop_readings_rebuild": "identical_to_manual_inspection_receipt",
+  "fresh_in_memory_outputs_match_saved": [
+    "obstacle_evidence.geojson",
+    "unresolved_footprints.geojson",
+    "readiness.json",
+    "verification.json"
+  ],
+  "source_files_verified_by_builder": 38,
+  "accepted_map_observations": 24,
+  "distinct_mapped_sites": 12,
+  "dated_source_editions": 2,
+  "accepted_complete_obstacle_volumes": 0,
+  "physical_upper_bounds": 0,
+  "historical_clearance_ready": false,
+  "independent_review_roles": [
+    "blind_static_hunter",
+    "edge_path_hunter",
+    "source_and_output_acceptance_auditor"
+  ],
+  "review_repairs": "mandatory crop/datum/reviewer receipt fields; contradictory presence/accuracy/bounds rejected; alternate footprint path provenance corrected",
+  "fresh_edge_recheck": "all_original_findings_fixed_no_residual_failure_in_bounded_recheck",
+  "preserved_inputs": {
+    "model/config.json": "2165902413c100923ec27e07d7ba9ef1aba62a5e1850cec84e83b8bc2d322693",
+    "model/trajectory.py": "9b557ce07c7e8f177b0b3cfac1765c1c9aec4997e28b52d3185ad533f7cf3f6a",
+    "reconstruction/block_matching/historical_faces.geojson": "f866def637ad2c3495e9a9463a6abfc1b04cbf600b8b52b6ed5ee503bd749ef7",
+    "reconstruction/block_matching/aerial_registration/sparse_stereo_points.csv": "841a89fb4560e2b7c3513f44f5ed836efa5467267482b3d5e980ae40fb025324",
+    "reconstruction/block_matching/aerial_registration/observed_surface_mesh.glb": "c146fae1866e003e74dea693e05df4139e49b414bab0c6f82c14312bc61dc241"
+  },
+  "protected_input_hashes_unchanged": true,
+  "output_hashes": {
+    "obstacle_evidence.geojson": "ac3ab63f3c516b8dfa1e18c4be64082fccfd0986979df0619fcc5fe3effb2a30",
+    "unresolved_footprints.geojson": "b78d5754894cb75975c0a58cddcd1178dcc4ecc449444e5218b506993b091a85",
+    "readiness.json": "8ff9e652fa4ec809207cbadff0eee6e525ef17a740cf85d530879bdb698b519c",
+    "verification.json": "60b90700a101d87477f27d836fb5e30664f205a13de37eb6b3d8cddc89211cd5"
+  },
+  "code_hashes": {
+    "build_obstacles.py": "55b542da35712292518c57790b1241b037fb38ef8f911c3b6d1790a78a99dcf1",
+    "test_obstacles.py": "5ed7b98bdcfc332b0c1c44073c6b5a1fd265cb32b9c68b60ec3361eda5db2bcf",
+    "extract_observations.py": "b28bb6a31bd5cad21e84c28a4c3266686404ea541e43ef9fc8a547e163dc6ae2",
+    "prepare_sources.py": "33ae69bfdfc9485e6f71cbfdf8dda308988fdec97c878d46d04460851d90d5e4"
+  },
+  "scope_warning": "Passing export checks and accepted transcriptions do not complete accurate historical obstacle surfaces or aviation clearance."
+}

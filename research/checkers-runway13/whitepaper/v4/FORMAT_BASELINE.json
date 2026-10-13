@@ -1,0 +1,189 @@
+{
+  "origin": "Accepted V3 at c7d350c13e753f287f0f3b21b4806eaf7a5674ab; RFS sources from website author-format project",
+  "files": [
+    {
+      "path": "baseline/appendices.tex",
+      "sha256": "5b6eff45cc396bedba88000fbc7edb34cc95e555112b982736c416b84f93a4a9"
+    },
+    {
+      "path": "baseline/coefficients.tex",
+      "sha256": "df2442c054da825a79641088724e2dc0cbbbd844c415efe4248b43c7ee94eea5"
+    },
+    {
+      "path": "baseline/main.tex",
+      "sha256": "2a61ecef26f94db3fa2f3e587d9c84ec03977560df25e84714804d78e8996d84"
+    },
+    {
+      "path": "baseline/references.bib",
+      "sha256": "a3a6722fbe1be2a202c3593b887fd9c95c2f83e66889863c2246f6cb8c459b85"
+    },
+    {
+      "path": "baseline/sections/foreword.tex",
+      "sha256": "759b4f9fba67561cf72a1a3946e3a5bc1a9e0726490ce45e6dddec19f796e1cb"
+    },
+    {
+      "path": "baseline/sections/part1.tex",
+      "sha256": "d8dafe0e237b9be9b6de33313fcb1fccdbf0749c1a01a2bd7b8c6aea0a92c4a8"
+    },
+    {
+      "path": "baseline/sections/part2.tex",
+      "sha256": "3b7377122a4ce6d16778c62c1d2e9537169f862c65b1bf22129d1cba61838c76"
+    },
+    {
+      "path": "baseline/sections/part3.tex",
+      "sha256": "67aadd2d687b99468dd87a4926b7041df4072b4d80c118191b483009ac2ce821"
+    },
+    {
+      "path": "baseline/sections/part4.tex",
+      "sha256": "bce16fa72633556468eb3b985630812ea7bfe9543acaad513cad9f158ade0187"
+    },
+    {
+      "path": "baseline/sections/part5.tex",
+      "sha256": "3158ab724fa78feb8407e32edea63e6a6657191aab510395b927968c9ca48d61"
+    },
+    {
+      "path": "baseline/sections/part6.tex",
+      "sha256": "fab4a7e95873454cd91e01b13ed3090db15b637871dabe85c4d46c95f86c9a59"
+    },
+    {
+      "path": "baseline/sections/part7.tex",
+      "sha256": "03441a243e381d188aea0c2a54ee8b89f211a95b2abc82ab4a6ba9d03f2d8469"
+    },
+    {
+      "path": "baseline/sections/part8.tex",
+      "sha256": "071ac79211baadb406070c7c295ddb2b92cca24e3f66eb1bdd0cab0fbd127e17"
+    },
+    {
+      "path": "baseline/sections/summary.tex",
+      "sha256": "20bd14cbddb1f6c0a18ccb491dabfaf999ae7b2e15f9b57c1df4d441e9ae28d0"
+    },
+    {
+      "path": "figures/01_historical_airport.pdf",
+      "sha256": "df8b6bd092535d40bc18a92912233abaac8680f1b34ebb16e94f6de5e59b2f60"
+    },
+    {
+      "path": "figures/01_historical_airport.png",
+      "sha256": "c5aac37e2d28c5c4f7fd29d5e68fa4f84a985b762ea8fd9beeefb5dce4d0dd99"
+    },
+    {
+      "path": "figures/02_approach_geometry.pdf",
+      "sha256": "dc5cdbae7a86e34432142178d1edbe1c43c160abf92c7c224fb461ef6752262d"
+    },
+    {
+      "path": "figures/02_approach_geometry.png",
+      "sha256": "51be3163e337c3999771dd07ce720ef54984f27cb91e14abd60ee075d524d138"
+    },
+    {
+      "path": "figures/03_dated_maps.pdf",
+      "sha256": "e47c6c5d145d3aec7c326b43ebc9ee546d2288e28242b047e6d5e2126a9a9fc1"
+    },
+    {
+      "path": "figures/03_dated_maps.png",
+      "sha256": "c76c5ae76e404f0b89c0fc3d5afe0c88732834842eb7d40291aa3ebd053878ff"
+    },
+    {
+      "path": "figures/04_reconstruction.pdf",
+      "sha256": "079842069bbf68f30ba2b8423ef284ef81a4867d3e6df42551ba83a80364c483"
+    },
+    {
+      "path": "figures/04_reconstruction.png",
+      "sha256": "908b3ca2a336e7707b412d46f1da5dcfa5a597cd3e30a54e29ba563f307bf975"
+    },
+    {
+      "path": "figures/05_turn_physics.pdf",
+      "sha256": "684a7a4856a39c0069b6e54a12f740d4c6acf98cc19d0b1355ebe813e2f83db4"
+    },
+    {
+      "path": "figures/05_turn_physics.png",
+      "sha256": "c057e99184abfd8a3b6bdd27728aadd60612f8c205ba080a84703fe27fed903e"
+    },
+    {
+      "path": "figures/06_wind_vectors.pdf",
+      "sha256": "abca900b7169ea3f04f63643b12071473f5a1d5bab6eff6d5b66917261083518"
+    },
+    {
+      "path": "figures/06_wind_vectors.png",
+      "sha256": "c7293d3ac9f47bfe53fce5b2cd707c676d4dc65671212f19ac2b8661b57f5167"
+    },
+    {
+      "path": "figures/07_calm_profiles.pdf",
+      "sha256": "216784dbfe6f19fcb5fe0481bc53a01c7ca817358964a19e824048413e942de6"
+    },
+    {
+      "path": "figures/07_calm_profiles.png",
+      "sha256": "0ed3c4e1a6ad37c6fe3779d46f6b69ab30a47a848334a45debdb43d6c4e6b6fa"
+    },
+    {
+      "path": "figures/08_stopping.pdf",
+      "sha256": "05e02b020d0c287b4a23a048d88017626ff37afbdfc156f3e0803bfbebf5d2ed"
+    },
+    {
+      "path": "figures/08_stopping.png",
+      "sha256": "569b819d4c3954afa792090e788aa6f277bde66f7e99a6db5f44685f12e13b2d"
+    },
+    {
+      "path": "figures/09_complete_calm.pdf",
+      "sha256": "64b8a9688c22ea123b3ffed7137afc32130551c18e6a311598180c59f3153851"
+    },
+    {
+      "path": "figures/09_complete_calm.png",
+      "sha256": "9ac847a8f1f8751e5a5210ca8def1deeabb837341a6af7ac3826d08dd4ae6121"
+    },
+    {
+      "path": "figures/10_certificate.pdf",
+      "sha256": "d93a563cd1602cd92ba35115c2c66936deda127df53e27a27467c2f4e082de86"
+    },
+    {
+      "path": "figures/10_certificate.png",
+      "sha256": "8af7bd0bf98e7352f6a7a5dfba0935cd799137d27ea1c18c411ab42d351922c4"
+    },
+    {
+      "path": "figures/11_wind_profiles.pdf",
+      "sha256": "6bb7a2d347772dd3716b64e831dda8eb3502a7d3cee5bc10118ac498ac65c77c"
+    },
+    {
+      "path": "figures/11_wind_profiles.png",
+      "sha256": "fd28f00018a3075e836fd65313e2d210e98bbd5ebe4a46bce6760dba7e5910b1"
+    },
+    {
+      "path": "figures/12_scenario_comparison.pdf",
+      "sha256": "5d946621278d54356e9127a10670ef6d91f7fb65e25a2308a2426fcc43dcea0f"
+    },
+    {
+      "path": "figures/12_scenario_comparison.png",
+      "sha256": "180dba541e73df3c463e90ec03e11e8eca98494be6c459022491672b4e30dd5b"
+    },
+    {
+      "path": "figures/13_recorder.pdf",
+      "sha256": "11fa402e3b2dd95b802b6e6b2c9a0f1ae0209575b8c5cb9fa2ceec195805950c"
+    },
+    {
+      "path": "figures/13_recorder.png",
+      "sha256": "f7e8a34f9e6483cc8e71b274e12b770b8833629f7b44fa61266e3ed80c0c89b2"
+    },
+    {
+      "path": "figures/14_weather.pdf",
+      "sha256": "508e7691f57d0879d80ff9c9ef500748bd69d7335f63f92d4d703bcb41fd213a"
+    },
+    {
+      "path": "figures/14_weather.png",
+      "sha256": "74c565a92d3140612021d71e33071677e6a241478836595e33412d3708c3e2a4"
+    },
+    {
+      "path": "figures/15_rollout.pdf",
+      "sha256": "e8ad5c3d60f1e2ebe54ce61acc24c4f1794fdf3124e40e894ea7809a0c5708cd"
+    },
+    {
+      "path": "figures/15_rollout.png",
+      "sha256": "ae741956fd02ac73da2447c2d1356b24e6b3834c71ad3137515450a92bfd95df"
+    },
+    {
+      "path": "figures/16_evidence_synthesis.pdf",
+      "sha256": "39e249d454cc443eadfe6a6e013211f3673906f60ba21e3d1df88b65c329e496"
+    },
+    {
+      "path": "figures/16_evidence_synthesis.png",
+      "sha256": "4d09492d3d669e23eb65dc11676fb59d2e09cc79afa54cd1dcb0441ef5b67de1"
+    }
+  ]
+}
